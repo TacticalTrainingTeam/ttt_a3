@@ -135,36 +135,36 @@
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","ItemGPS","ItemWatch","tf_anprc152"};
 	};
 	
-	//Gold 4 (Sniper)
-	class TTT_Gold4_Woodland : TTT_Gold4_Desert {
+	//Gold 2 (Sniper)
+	class TTT_Gold2_Woodland : TTT_Gold2_Desert {
 		author = "Tactical Training Team";
 		vehicleClass = "TTT_Gold_Woodland";
 		uniformClass = "TTT_Uniform_Gold_Woodland";
 		backpack = "TTT_Backpack_Schuetze_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\TTT_uniform_gold_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Marksman_Fleck","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Marksman_Fleck","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Marksman_Fleck","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Marksman_Fleck","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
-	//Gold 2 (UAV)
-	class TTT_Gold2_Woodland : TTT_Gold2_Desert {
+	//Gold 3 (UAV)
+	class TTT_Gold3_Woodland : TTT_Gold3_Desert {
 		author = "Tactical Training Team";
 		vehicleClass = "TTT_Gold_Woodland";
 		uniformClass = "TTT_Uniform_Gold_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\TTT_uniform_gold_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_2_Woodland","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152","cse_m_tablet"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_2_Woodland","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152","cse_m_tablet"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152","cse_m_tablet"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152","cse_m_tablet"};
 	};
 	
-	//Gold 3 (Spotter)
-	class TTT_Gold3_Woodland : TTT_Gold3_Desert {
+	//Gold 4 (Spotter)
+	class TTT_Gold4_Woodland : TTT_Gold4_Desert {
 		author = "Tactical Training Team";
 		vehicleClass = "TTT_Gold_Woodland";
 		backpack = "TTT_Backpack_Funkerfac_Woodland";
 		uniformClass = "TTT_Uniform_Gold_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\TTT_uniform_gold_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	/*
