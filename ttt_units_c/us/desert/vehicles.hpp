@@ -219,7 +219,7 @@
 	//Gold 3 (Spotter)
 	class TTT_Gold3_Desert : TTT_Funkerfac_Base_us {
 		author = "Tactical Training Team";
-		scope = 2;
+		scope = 1;
 		displayName = "Gold 3 (Spotter)";
 		vehicleClass = "TTT_Gold_Desert";
 		uniformClass = "TTT_Uniform_Gold_Desert";
@@ -237,7 +237,7 @@
 	//Gold 4 (UAV)
 	class TTT_Gold4_Desert : TTT_Uavoperator_Base_us {
 		author = "Tactical Training Team";
-		scope = 2;
+		scope = 1;
 		displayName = "Gold 4 (UAV)";
 		vehicleClass = "TTT_Gold_Desert";
 		uniformClass = "TTT_Uniform_Gold_Desert";
