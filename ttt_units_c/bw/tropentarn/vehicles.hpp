@@ -161,8 +161,8 @@
 		vehicleClass = "TTT_Grau_Tropentarn";
 		uniformClass = "TTT_Uniform_Grau_Tropentarn";
 		hiddenSelectionsTextures[] = {"\ttt_units\bw\tropentarn\TTT_uniform_grey_tropentarn.paa"};
-		items[] = {"BWA3_optic_NSV600","BWA3_muzzle_snds_G36","NVGoggles"};
-		respawnItems[] = {"BWA3_optic_NSV600","BWA3_muzzle_snds_G36","NVGoggles"};
+		items[] = {"BWA3_optic_NSV600","BWA3_muzzle_snds_G36","NVGoggles","cse_m_tablet"};
+		respawnItems[] = {"BWA3_optic_NSV600","BWA3_muzzle_snds_G36","NVGoggles","cse_m_tablet"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_6_Tropentarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152","B_UavTerminal"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_6_Tropentarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152","B_UavTerminal"};
 		weapons[] = {"BWA3_G36_equipped","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 

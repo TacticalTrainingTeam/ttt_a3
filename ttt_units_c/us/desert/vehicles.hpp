@@ -161,8 +161,8 @@
 		vehicleClass = "TTT_Grau_Desert";
 		uniformClass = "TTT_Uniform_Grau_Desert";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\TTT_uniform_grey_desert.paa"};
-		items[] = {"rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3","rhsusf_acc_eotech_552","rhsusf_acc_rotex5_grey","NVGoggles"};
-		respawnItems[] = {"rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3","rhsusf_acc_eotech_552","rhsusf_acc_rotex5_grey","NVGoggles"};
+		items[] = {"rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3","rhsusf_acc_eotech_552","rhsusf_acc_rotex5_grey","NVGoggles","cse_m_tablet"};
+		respawnItems[] = {"rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3","rhsusf_acc_eotech_552","rhsusf_acc_rotex5_grey","NVGoggles","cse_m_tablet"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_6_Desert","ItemMap","ItemCompass","ItemWatch","tf_anprc152","B_UavTerminal"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_6_Desert","ItemMap","ItemCompass","ItemWatch","tf_anprc152","B_UavTerminal"};
 		weapons[] = {"rhs_weap_mk18_grip2","rhsusf_weap_m1911a1","Binocular","Throw","Put"}; 
