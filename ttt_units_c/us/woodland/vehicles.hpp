@@ -30,6 +30,7 @@
 	class TTT_Gelb3_Woodland : TTT_Gelb3_Desert {
 		author = "Tactical Training Team";
 		vehicleClass = "TTT_Gelb_Woodland";
+		backpack = "TTT_Backpack_Funkerfac_Woodland";
 		uniformClass = "TTT_Uniform_Gelb_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\TTT_uniform_yellow_woodland.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","B_UavTerminal","ItemWatch","tf_anprc152"};
@@ -114,8 +115,8 @@
 		vehicleClass = "TTT_Grau_Woodland";
 		uniformClass = "TTT_Uniform_Grau_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\TTT_uniform_grey_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152","B_UavTerminal"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152","B_UavTerminal"};
 	};
 
 	/*

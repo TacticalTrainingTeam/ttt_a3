@@ -30,6 +30,7 @@
 	class TTT_Gelb3_Flecktarn : TTT_Gelb3_Tropentarn {
 		author = "Tactical Training Team";
 		vehicleClass = "TTT_Gelb_Flecktarn";
+		backpack = "TTT_Backpack_Funkerfac_Flecktarn";
 		uniformClass = "TTT_Uniform_Gelb_Flecktarn";
 		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\TTT_uniform_yellow_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Flecktarn","ItemMap","ItemCompass","B_UavTerminal","ItemWatch","tf_anprc152"};
@@ -114,8 +115,8 @@
 		vehicleClass = "TTT_Grau_Flecktarn";
 		uniformClass = "TTT_Uniform_Grau_Flecktarn";
 		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\TTT_uniform_grey_flecktarn.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152","B_UavTerminal"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152","B_UavTerminal"};
 	};
 
 	/*

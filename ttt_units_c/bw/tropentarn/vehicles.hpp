@@ -31,10 +31,11 @@
 	};
 	
 	//Gelb 3 (UAV/Moerser)
-	class TTT_Gelb3_Tropentarn : TTT_Uavoperator_Base {
+	class TTT_Gelb3_Tropentarn : TTT_Funkerfac_Base {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "Gelb 3 (UAV/Moerser)";
+		backpack = "TTT_Backpack_Funkerfac_Tropentarn";
 		vehicleClass = "TTT_Gelb_Tropentarn";
 		uniformClass = "TTT_Uniform_Gelb_Tropentarn";
 		hiddenSelectionsTextures[] = {"\ttt_units\bw\tropentarn\TTT_uniform_yellow_tropentarn.paa"};
@@ -162,8 +163,8 @@
 		hiddenSelectionsTextures[] = {"\ttt_units\bw\tropentarn\TTT_uniform_grey_tropentarn.paa"};
 		items[] = {"BWA3_optic_NSV600","BWA3_muzzle_snds_G36","NVGoggles"};
 		respawnItems[] = {"BWA3_optic_NSV600","BWA3_muzzle_snds_G36","NVGoggles"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_6_Tropentarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_6_Tropentarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_6_Tropentarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152","B_UavTerminal"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_6_Tropentarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152","B_UavTerminal"};
 		weapons[] = {"BWA3_G36_equipped","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
 		respawnWeapons[] = {"BWA3_G36_equipped","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
 		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_SD","BWA3_30Rnd_556x45_G36_SD"};

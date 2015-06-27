@@ -35,6 +35,7 @@
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "Gelb 3 (UAV/Moerser)";
+		backpack = "TTT_Backpack_Funkerfac_Desert";
 		vehicleClass = "TTT_Gelb_Desert";
 		uniformClass = "TTT_Uniform_Gelb_Desert";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\TTT_uniform_yellow_desert.paa"};
@@ -162,8 +163,8 @@
 		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\TTT_uniform_grey_desert.paa"};
 		items[] = {"rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3","rhsusf_acc_eotech_552","rhsusf_acc_rotex5_grey","NVGoggles"};
 		respawnItems[] = {"rhsusf_acc_anpeq15_light","rhsusf_acc_ACOG3","rhsusf_acc_eotech_552","rhsusf_acc_rotex5_grey","NVGoggles"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_6_Desert","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_6_Desert","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_6_Desert","ItemMap","ItemCompass","ItemWatch","tf_anprc152","B_UavTerminal"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_6_Desert","ItemMap","ItemCompass","ItemWatch","tf_anprc152","B_UavTerminal"};
 		weapons[] = {"rhs_weap_mk18_grip2","rhsusf_weap_m1911a1","Binocular","Throw","Put"}; 
 		respawnWeapons[] = {"rhs_weap_mk18_grip2","rhsusf_weap_m1911a1","Binocular","Throw","Put"}; 
 		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","BWA3_Pzf3_IT"};
