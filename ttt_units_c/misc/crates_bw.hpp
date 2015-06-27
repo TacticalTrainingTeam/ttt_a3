@@ -275,8 +275,8 @@
 		};
 		
 		class TransportItems {
-			class _xx_ItemGPS {
-				name = "ItemGPS";
+			class _xx_BWA3_ItemNaviPad {
+				name = "BWA3_ItemNaviPad";
 				count = 1;
 			};
 			
