@@ -387,8 +387,13 @@
 		};
 		
 		class TransportBackpacks { 
-			class _xx_tf_rt1523g_big_bwmod {
-				backpack = "tf_rt1523g_big_bwmod";
+			class _xx_TTT_Backpack_Funkerfac_Tropentarn {
+				backpack = "TTT_Backpack_Funkerfac_Tropentarn";
+				count = 1;
+			};
+			
+			class _xx_TTT_Backpack_Funkerfac_Flecktarn {
+				backpack = "TTT_Backpack_Funkerfac_Flecktarn";
 				count = 1;
 			};
 			
