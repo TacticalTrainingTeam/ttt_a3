@@ -90,8 +90,8 @@
 		vehicleClass = "TTT_Template";
 		backpack = "TTT_Backpack_Mgschuetze_Tropentarn";
 		uniformClass = "TTT_Uniform_Base";
-		items[] = {"NVGoggles"};
-		respawnitems[] = {"NVGoggles"};
+		items[] = {"rhsusf_acc_eotech_552","rhsusf_acc_harris_bipod","NVGoggles"};
+		respawnitems[] = {"rhsusf_acc_eotech_552","rhsusf_acc_harris_bipod","NVGoggles"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Autorifleman_Tropen","TTT_Helmet_4_Tropentarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Autorifleman_Tropen","TTT_Helmet_4_Tropentarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		weapons[] = {"rhs_weap_m240b_elcan","rhsusf_weap_m1911a1","Binocular","Throw","Put"}; 

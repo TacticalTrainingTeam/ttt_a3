@@ -39,8 +39,8 @@
 		vehicleClass = "TTT_Gelb_Desert";
 		uniformClass = "TTT_Uniform_Gelb_Desert";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\TTT_uniform_yellow_desert.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_3_Desert","ItemMap","ItemCompass","B_UavTerminal","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_3_Desert","ItemMap","ItemCompass","B_UavTerminal","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_3_Desert","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_3_Desert","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Gelb 4 (Moerser)
@@ -185,7 +185,7 @@
 		icon = "iconManLeader";
 		vehicleClass = "TTT_Gold_Desert";
 		uniformClass = "TTT_Uniform_Gold_Desert";
-		backpack = "TTT_Backpack_Truppfuehrer_Desert";
+		backpack = "TTT_Backpack_Funkerfac_Desert";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\TTT_uniform_gold_desert.paa"};
 		items[] = {"rhsusf_acc_eotech_552","rhsusf_acc_rotex5_grey","NVGoggles","cse_ab_Kestrel4500","cse_ab_ATragMX","cse_itemHelmetCamera_W","cse_Keycuffs","cse_Keycuffs","cse_Keycuffs"};
 		respawnItems[] = {"rhsusf_acc_eotech_552","rhsusf_acc_rotex5_grey","NVGoggles","cse_ab_Kestrel4500","cse_ab_ATragMX"};

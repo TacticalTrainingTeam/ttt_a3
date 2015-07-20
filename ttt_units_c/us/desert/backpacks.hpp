@@ -100,9 +100,9 @@
 			};
 		};
 		class TransportMagazines {
-			class _xx_rhsusf_200Rnd_556x45_soft_pouch {
+			class _xx_rhsusf_100Rnd_762x51_m80a1epr {
 				count = 2;
-				magazine = "rhsusf_200Rnd_556x45_soft_pouch";
+				magazine = "rhsusf_100Rnd_762x51_m80a1epr";
 			};
 		};
 	};
