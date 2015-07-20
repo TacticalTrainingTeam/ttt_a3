@@ -24,8 +24,8 @@
 				count = 1;
 			};
 			
-			class _xx_rhs_weap_m249_pip_elcan {
-				weapon = "rhs_weap_m249_pip_elcan";
+			class _xx_rhs_weap_m249_pip_L{
+				weapon = "rhs_weap_m249_pip_L";
 				count = 1;
 			};
 			
