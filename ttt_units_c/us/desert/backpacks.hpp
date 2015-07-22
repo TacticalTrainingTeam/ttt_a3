@@ -124,6 +124,38 @@
 				count = 1;
 			};
 		};
+		class TransportMagazines {
+			class _xx_rhsusf_100Rnd_762x51_m80a1epr {
+				count = 2;
+				magazine = "rhsusf_100Rnd_762x51_m80a1epr";
+			};
+		};
+		
+	};
+	
+	//LMG-Schuetze Rucksack
+	class TTT_Backpack_Lmgschuetze_Desert : B_AssaultPack_cbr {
+		displayName = "LMG-Schuetze Rucksack (Desert)";
+		class TransportItems {
+			class _xx_cse_bandage_basic {
+				name = "cse_bandage_basic";
+				count = 7;
+			};
+			class _xx_cse_packing_bandage {
+				name = "cse_packing_bandage";
+				count = 3;
+			};
+			class _xx_cse_tourniquet {
+				name = "cse_tourniquet";
+				count = 1;
+			};
+		};
+		class TransportMagazines {
+			class _xx_rhsusf_200Rnd_556x45_soft_pouch {
+				count = 3;
+				magazine = "rhsusf_200Rnd_556x45_soft_pouch";
+			};
+		};
 	};
 	
 	//AT-Schuetze Rucksack

@@ -28,6 +28,12 @@
 		hiddenSelectionsTextures[] = {"\A3\weapons_f\ammoboxes\bags\data\backpack_compact_rgr_co.paa"};
 	};
 	
+	//LMG-Schuetze Rucksack
+	class TTT_Backpack_Lmgschuetze_Woodland : TTT_Backpack_Lmgschuetze_Desert {
+		displayName = "LMG-Schuetze Rucksack (Woodland)";
+		hiddenSelectionsTextures[] = {"\A3\weapons_f\ammoboxes\bags\data\backpack_compact_rgr_co.paa"};
+	};
+	
 	//AT-Schuetze Rucksack
 	class TTT_Backpack_Atschuetze_Woodland : TTT_Backpack_Atschuetze_Desert {
 		displayName = "AT-Schuetze Rucksack (Woodland)";

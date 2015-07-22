@@ -285,22 +285,22 @@
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Grenadier_Fleck","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
-	//Schwarz 3 (MG-Schuetze)
+	//Schwarz 3 (LMG-Schuetze)
 	class TTT_Schwarz3_Woodland : TTT_Schwarz3_Desert {
 		author = "Tactical Training Team";
 		vehicleClass = "TTT_Schwarz_Woodland";
-		backpack = "TTT_Backpack_Mgschuetze_Woodland";
+		backpack = "TTT_Backpack_Lmgschuetze_Woodland";
 		uniformClass = "TTT_Uniform_Schwarz_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\TTT_uniform_black_woodland.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
-	//Schwarz 4 (MG-Schuetze)
+	//Schwarz 4 (LMG-Schuetze)
 	class TTT_Schwarz4_Woodland : TTT_Schwarz4_Desert {
 		author = "Tactical Training Team";
 		vehicleClass = "TTT_Schwarz_Woodland";
-		backpack = "TTT_Backpack_Mgschuetze_Woodland";
+		backpack = "TTT_Backpack_Lmgschuetze_Woodland";
 		uniformClass = "TTT_Uniform_Schwarz_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\TTT_uniform_black_woodland.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Autorifleman_Fleck","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
@@ -357,22 +357,22 @@
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Grenadier_Fleck","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
-	//Rot 3 (MG-Schuetze)
+	//Rot 3 (LMG-Schuetze)
 	class TTT_Rot3_Woodland : TTT_Rot3_Desert {
 		author = "Tactical Training Team";
 		vehicleClass = "TTT_Rot_Woodland";
-		backpack = "TTT_Backpack_Mgschuetze_Woodland";
+		backpack = "TTT_Backpack_Lmgschuetze_Woodland";
 		uniformClass = "TTT_Uniform_Rot_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\TTT_uniform_red_woodland.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
-	//Rot 4 (MG-Schuetze)
+	//Rot 4 (LMG-Schuetze)
 	class TTT_Rot4_Woodland : TTT_Rot4_Desert {
 		author = "Tactical Training Team";
 		vehicleClass = "TTT_Rot_Woodland";
-		backpack = "TTT_Backpack_Mgschuetze_Woodland";
+		backpack = "TTT_Backpack_Lmgschuetze_Woodland";
 		uniformClass = "TTT_Uniform_Rot_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\TTT_uniform_red_woodland.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Autorifleman_Fleck","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
