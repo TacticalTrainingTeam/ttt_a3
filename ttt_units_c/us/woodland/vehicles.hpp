@@ -33,8 +33,8 @@
 		backpack = "TTT_Backpack_Funkerfac_Woodland";
 		uniformClass = "TTT_Uniform_Gelb_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\TTT_uniform_yellow_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Gelb 4 (Moerser)

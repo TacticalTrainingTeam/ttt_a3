@@ -31,7 +31,7 @@
 	};
 	
 	//Gelb 3 (UAV/Moerser)
-	class TTT_Gelb3_Desert : TTT_Uavoperator_Base_us {
+	class TTT_Gelb3_Desert : TTT_Funkerfac_Base_us {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "Gelb 3 (UAV/Moerser)";
@@ -39,8 +39,8 @@
 		vehicleClass = "TTT_Gelb_Desert";
 		uniformClass = "TTT_Uniform_Gelb_Desert";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\TTT_uniform_yellow_desert.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_3_Desert","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_3_Desert","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_3_Desert","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_3_Desert","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Gelb 4 (Moerser)
@@ -51,8 +51,8 @@
 		vehicleClass = "TTT_Gelb_Desert";
 		uniformClass = "TTT_Uniform_Gelb_Desert";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\TTT_uniform_yellow_desert.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_4_Desert","ItemMap","ItemCompass","B_UavTerminal","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_4_Desert","ItemMap","ItemCompass","B_UavTerminal","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_4_Desert","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_4_Desert","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	/*
