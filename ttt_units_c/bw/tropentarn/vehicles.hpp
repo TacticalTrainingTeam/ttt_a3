@@ -31,7 +31,7 @@
 	};
 	
 	//Gelb 3 (UAV/Moerser)
-	class TTT_Gelb3_Tropentarn : TTT_Uav_G_Operator_Base {
+	class TTT_Gelb3_Tropentarn : TTT_Funkerfac_Base {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "Gelb 3 (UAV/Moerser)";

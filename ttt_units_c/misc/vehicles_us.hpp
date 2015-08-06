@@ -277,25 +277,6 @@
 		hiddenSelectionsTextures[] = {"\ttt_units\Desert\TTT_uniform_black_Desert.paa"};
 	};
 	
-	//Basis-Klasse fuer Greyhawk-Operatoren
-	class TTT_Uav_G_Operator_Base_us : TTT_Base_us {
-		author = "Tactical Training Team";
-		displayName = "Greyhawk-Operator (Template)";
-		icon = "iconMan";
-		vehicleClass = "TTT_Template";
-		backpack = "TTT_Backpack_Funkerfac_Desert";
-		uniformClass = "TTT_Uniform_Base";
-		items[] = {"NVGoggles","rhsusf_acc_eotech_552","cse_battery_darter"};
-		respawnitems[] = {"NVGoggles","rhsusf_acc_eotech_552","cse_battery_darter"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_3_Desert","ItemMap","ItemCompass","B_UavTerminal","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_3_Desert","ItemMap","ItemCompass","B_UavTerminal","ItemWatch","tf_anprc152"};
-		weapons[] = {"rhs_m4a1_grip_acog3_usmc","rhsusf_weap_m1911a1","Binocular","Throw","Put"}; 
-		respawnWeapons[] = {"rhs_m4a1_grip_acog3_usmc","rhsusf_weap_m1911a1","Binocular","Throw","Put"}; 
-		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag"};
-		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag"};
-		hiddenSelectionsTextures[] = {"\ttt_units\Desert\TTT_uniform_black_Desert.paa"};
-	};
-	
 	//Basis-Klasse fuer UAV-Operatoren
 	class TTT_Uavoperator_Base_us : TTT_Base_us {
 		author = "Tactical Training Team";

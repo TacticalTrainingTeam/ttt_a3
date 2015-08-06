@@ -277,25 +277,6 @@
 		hiddenSelectionsTextures[] = {"\ttt_units\tropentarn\TTT_uniform_black_tropentarn.paa"};
 	};
 	
-	//Basis-Klasse fuer Greyhawk-Operatoren
-	class TTT_Uav_G_Operator_Base : TTT_Base_Base {
-		author = "Tactical Training Team";
-		displayName = "UAV-Operator (Template)";
-		icon = "iconMan";
-		vehicleClass = "TTT_Template";
-		backpack = "TTT_Backpack_Funkerfac_Tropentarn";
-		uniformClass = "TTT_Uniform_Base";
-		items[] = {"BWA3_optic_NSV600","NVGoggles","cse_battery_darter"};
-		respawnitems[] = {"BWA3_optic_NSV600","NVGoggles","cse_battery_darter"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_3_Tropentarn","ItemMap","ItemCompass","B_UavTerminal","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_3_Tropentarn","ItemMap","ItemCompass","B_UavTerminal","ItemWatch","tf_anprc152"};
-		weapons[] = {"BWA3_G36_equipped","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
-		respawnWeapons[] = {"BWA3_G36_equipped","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
-		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
-		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
-		hiddenSelectionsTextures[] = {"\ttt_units\tropentarn\TTT_uniform_black_tropentarn.paa"};
-	};
-	
 	//Basis-Klasse fuer UAV-Operatoren
 	class TTT_Uavoperator_Base : TTT_Base_Base {
 		author = "Tactical Training Team";
