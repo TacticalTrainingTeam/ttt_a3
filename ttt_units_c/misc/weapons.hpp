@@ -26,7 +26,7 @@
 	#############################################################
 	*/
 	class TTT_Helmet_Base : ItemCore {
-		hiddenSelectionsTextures[] = {"\ttt_units\tropentarn\TTT_helmet_1_tropentarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_units\bw\tropentarn\TTT_helmet_1_tropentarn.paa"};
 		model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light.p3d";
 		picture = "\A3\Characters_F\Data\UI\icon_H_HelmetB_CA.paa";
 		hiddenSelections[] = {"Camo"};
