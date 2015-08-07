@@ -77,3 +77,46 @@
 			uniformModel = "\A3\Characters_F\Common\headgear_helmet_heli_shield.p3d";
 		};
 	};
+	
+	
+	/*
+	#############################################################
+	### Westen
+	#############################################################
+	*/	
+	
+	class TTT_Heavy_Vest_Base : V_PlateCarrier3_rgr {
+		scope = 0;
+		displayName = "TTT Heavy Vest Base";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\vests\vest_yellow_co.paa"};
+		class ItemInfo : VestItem {
+			UniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
+			containerClass = "Supply140";
+			mass = 100;
+			armor = 30;
+			passThrough = 0.5;
+			hiddenSelections[] = {"camo"};
+		};
+	};
+	
+	class TTT_Lite_Vest_Base : V_PlateCarrier1_rgr {
+		scope = 0;
+		displayName = "TTT Lite Vest Base";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\vests\vest_yellow_co.paa"};
+		
+		class ItemInfo : VestItem {
+			UniformModel="\A3\Characters_F\BLUFOR\equip_b_vest02";
+			containerClass="Supply150";
+			mass= 50;
+			armor= 60;
+			passThrough= 0.3;
+			hiddenSelections[] = {"camo"};
+		};
+	};
+	
+	class TTT_Crew_Vest_Base : V_TacVest_brn {
+		scope = 2;
+		displayName = "TTT Crew Vest";
+	};

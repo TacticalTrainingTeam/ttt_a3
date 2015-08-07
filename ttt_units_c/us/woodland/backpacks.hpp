@@ -49,7 +49,7 @@
 	//Funker/FAC Rucksack
 	class TTT_Backpack_Funkerfac_Woodland : TTT_Backpack_Funkerfac_Desert {
 		displayName = "Funker/FAC Rucksack (Woodland)";
-		hiddenSelectionsTextures[] = {"\task_force_radio_items\models\data\clf_nicecomm2_bwmod_co.paa"};
+		//hiddenSelectionsTextures[] = {"\task_force_radio_items\models\data\clf_nicecomm2_bwmod_co.paa"};
 	};
 	
 	//Pionier Rucksack
@@ -73,11 +73,11 @@
 	//Pilot Rucksack
 	class TTT_Backpack_Pilot_Woodland : TTT_Backpack_Pilot_Desert {
 		displayName = "Pilot Rucksack (Woodland)";
-		hiddenSelectionsTextures[] = {"\task_force_radio_items\models\data\clf_nicecomm2_bwmod_co.paa"};
+		//hiddenSelectionsTextures[] = {"\task_force_radio_items\models\data\clf_nicecomm2_bwmod_co.paa"};
 	};
 	
 	//OPL Rucksack
 	class TTT_Backpack_Opl_Woodland : TTT_Backpack_Opl_Desert {
 		displayName = "OPL Rucksack (Woodland)";
-		hiddenSelectionsTextures[] = {"\task_force_radio_items\models\data\clf_nicecomm2_bwmod_co.paa"};
+		//hiddenSelectionsTextures[] = {"\task_force_radio_items\models\data\clf_nicecomm2_bwmod_co.paa"};
 	};

@@ -204,7 +204,7 @@
 	};	
 	
 	//Funker/FAC Rucksack
-	class TTT_Backpack_Funkerfac_Desert : tf_rt1523g_big_bwmod_tropen {
+	class TTT_Backpack_Funkerfac_Desert : tf_rt1523g_big {
 		displayName = "Funker/FAC Rucksack (Desert)";
 		tf_range = 50000;
 		class TransportItems {
@@ -376,7 +376,7 @@
 	};
 	
 	//Pilot Rucksack
-	class TTT_Backpack_Pilot_Desert : tf_rt1523g_big_bwmod_tropen {
+	class TTT_Backpack_Pilot_Desert : tf_rt1523g_big {
 		displayName = "Pilot Rucksack (Desert)";
 		tf_range = 50000;
 		class TransportItems {
@@ -400,7 +400,7 @@
 	};
 	
 	//OPL Rucksack
-	class TTT_Backpack_Opl_Desert : tf_rt1523g_big_bwmod_tropen {
+	class TTT_Backpack_Opl_Desert : tf_rt1523g_big {
 		displayName = "OPL Rucksack (Desert)";
 		tf_range = 50000;
 		class TransportItems {
