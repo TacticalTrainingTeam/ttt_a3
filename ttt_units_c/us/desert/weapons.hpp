@@ -142,7 +142,7 @@ class TTT_Uniform_Violett_Desert : TTT_Uniform_Base {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Helm I";
-		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\TTT_helmet_1_desert.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\helmets\TTT_helmet_1_desert.paa"};
 		
 		class ItemInfo : TTT_Helmet_ItemInfo_Base {};
 	};
@@ -151,7 +151,7 @@ class TTT_Uniform_Violett_Desert : TTT_Uniform_Base {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Helm II";
-		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\TTT_helmet_2_desert.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\helmets\TTT_helmet_2_desert.paa"};
 		
 		class ItemInfo : TTT_Helmet_ItemInfo_Base {};
 	};
@@ -160,7 +160,7 @@ class TTT_Uniform_Violett_Desert : TTT_Uniform_Base {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Helm III";
-		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\TTT_helmet_3_desert.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\helmets\TTT_helmet_3_desert.paa"};
 		
 		class ItemInfo : TTT_Helmet_ItemInfo_Base {};
 	};
@@ -169,7 +169,7 @@ class TTT_Uniform_Violett_Desert : TTT_Uniform_Base {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Helm IV";
-		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\TTT_helmet_4_desert.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\helmets\TTT_helmet_4_desert.paa"};
 		
 		class ItemInfo : TTT_Helmet_ItemInfo_Base {};
 	};
@@ -178,7 +178,7 @@ class TTT_Uniform_Violett_Desert : TTT_Uniform_Base {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Helm V";
-		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\TTT_helmet_5_desert.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\helmets\TTT_helmet_5_desert.paa"};
 		
 		class ItemInfo : TTT_Helmet_ItemInfo_Base {};
 	};
@@ -187,7 +187,139 @@ class TTT_Uniform_Violett_Desert : TTT_Uniform_Base {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Helm VI";
-		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\TTT_helmet_6_desert.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\helmets\TTT_helmet_6_desert.paa"};
 		
 		class ItemInfo : TTT_Helmet_ItemInfo_Base {};
+	};
+	
+	/*
+	#############################################################
+	### Westen
+	#############################################################
+	*/
+	
+	class TTT_Heavy_Vest_Yellow_Desert : TTT_Heavy_Vest_Base {
+		scope = 2;
+		displayName = "TTT Schwere Weste Gelb (Desert)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\vests\vest_yellow_co.paa"};
+	};
+	
+	class TTT_Lite_Vest_Yellow_Desert : TTT_Lite_Vest_Base {
+		scope = 2;
+		displayName = "TTT Leichte Weste Gelb (Desert)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\vests\vest_yellow_co.paa"};
+	};
+	
+	class TTT_Heavy_Vest_Blue_Desert : TTT_Heavy_Vest_Base {
+		scope = 2;
+		displayName = "TTT Schwere Weste Blau (Desert)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\vests\vest_blue_co.paa"};
+	};
+	
+	class TTT_Lite_Vest_Blue_Desert : TTT_Lite_Vest_Base {
+		scope = 2;
+		displayName = "TTT Leichte Weste Blau (Desert)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\vests\vest_blue_co.paa"};
+	};
+	
+	class TTT_Heavy_Vest_Black_Desert : TTT_Heavy_Vest_Base {
+		scope = 2;
+		displayName = "TTT Schwere Weste Schwarz (Desert)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\vests\vest_black_co.paa"};
+	};
+	
+	class TTT_Lite_Vest_Black_Desert : TTT_Lite_Vest_Base {
+		scope = 2;
+		displayName = "TTT Leichte Weste Schwarz (Desert)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\vests\vest_black_co.paa"};
+	};
+	
+	class TTT_Heavy_Vest_Brown_Desert : TTT_Heavy_Vest_Base {
+		scope = 2;
+		displayName = "TTT Schwere Weste Braun (Desert)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\vests\vest_brown_co.paa"};
+	};
+	
+	class TTT_Lite_Vest_Brown_Desert : TTT_Lite_Vest_Base {
+		scope = 2;
+		displayName = "TTT Leichte Weste Braun (Desert)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\vests\vest_brown_co.paa"};
+	};
+	
+	class TTT_Heavy_Vest_Gold_Desert : TTT_Heavy_Vest_Base {
+		scope = 2;
+		displayName = "TTT Schwere Weste Gold (Desert)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\vests\vest_gold_co.paa"};
+	};
+	
+	class TTT_Lite_Vest_Gold_Desert : TTT_Lite_Vest_Base {
+		scope = 2;
+		displayName = "TTT Leichte Weste Gold (Desert)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\vests\vest_gold_co.paa"};
+	};
+	
+	class TTT_Heavy_Vest_Green_Desert : TTT_Heavy_Vest_Base {
+		scope = 2;
+		displayName = "TTT Schwere Weste Gruen (Desert)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\vests\vest_green_co.paa"};
+	};
+	
+	class TTT_Lite_Vest_Green_Desert : TTT_Lite_Vest_Base {
+		scope = 2;
+		displayName = "TTT Leichte Weste Gruen (Desert)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\vests\vest_green_co.paa"};
+	};
+	
+	class TTT_Heavy_Vest_Grey_Desert : TTT_Heavy_Vest_Base {
+		scope = 2;
+		displayName = "TTT Schwere Weste Grau (Desert)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\vests\vest_grey_co.paa"};
+	};
+	
+	class TTT_Lite_Vest_Grey_Desert : TTT_Lite_Vest_Base {
+		scope = 2;
+		displayName = "TTT Leichte Weste Grau (Desert)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\vests\vest_grey_co.paa"};
+	};
+	
+	class TTT_Heavy_Vest_Red_Desert : TTT_Heavy_Vest_Base {
+		scope = 2;
+		displayName = "TTT Schwere Weste Rot (Desert)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\vests\vest_red_co.paa"};
+	};
+	
+	class TTT_Lite_Vest_Red_Desert : TTT_Lite_Vest_Base {
+		scope = 2;
+		displayName = "TTT Leichte Weste Rot (Desert)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\vests\vest_red_co.paa"};
+	};
+	
+	class TTT_Heavy_Vest_Purple_Desert : TTT_Heavy_Vest_Base {
+		scope = 2;
+		displayName = "TTT Schwere Weste Violett (Desert)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\vests\vest_purple_co.paa"};
+	};
+	
+	class TTT_Lite_Vest_Purple_Desert : TTT_Lite_Vest_Base {
+		scope = 2;
+		displayName = "TTT Leichte Weste Violett (Desert)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\vests\vest_purple_co.paa"};
 	};
