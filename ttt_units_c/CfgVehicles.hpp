@@ -13,6 +13,7 @@ class CfgVehicles {
 	class B_AssaultPack_cbr;		
 	class B_Carryall_cbr;			
 	class tf_rt1523g_big_bwmod_tropen;
+	class tf_rt1523g_big_rhs;
 	class B_UAV_01_backpack_F;		
 	class B_Helipilot_F;			
 	class Box_NATO_Wps_F;			
