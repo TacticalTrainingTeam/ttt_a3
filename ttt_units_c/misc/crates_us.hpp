@@ -397,9 +397,14 @@
 		author = "Tactical Training Team";
 		displayName = "TTT Werfer (US)";
 		transportMaxWeapons = 4;
-		transportMaxMagazines = 0;
+		transportMaxMagazines = 2;
 		
 		class TransportMagazines {
+			class _xx_rhs_fim92mag_{
+				magazine= "rhs_fim92_mag";
+				count = 2;
+				
+			}
 		};
 		
 		class TransportWeapons {
