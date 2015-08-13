@@ -7,6 +7,7 @@
 	//Truppfuehrer Rucksack
 	class TTT_Backpack_Truppfuehrer_Desert : B_AssaultPack_cbr {
 		displayName = "Truppfuehrer Rucksack (Desert)";
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\backpacks\assault.paa"};
 		class TransportItems {
 			class _xx_cse_bandage_basic {
 				name = "cse_bandage_basic";
@@ -48,6 +49,7 @@
 	//Grenadier Rucksack
 	class TTT_Backpack_Grenadier_Desert : B_AssaultPack_cbr {
 		displayName = "Grenadier Rucksack (Desert)";
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\backpacks\assault.paa"};
 		class TransportItems {
 			class _xx_cse_bandage_basic {
 				name = "cse_bandage_basic";
@@ -85,6 +87,60 @@
 	//MG-Assistent Rucksack
 	class TTT_Backpack_Mgassistent_Desert : B_AssaultPack_cbr {
 		displayName = "MG-Assistent Rucksack (Desert)";
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\backpacks\assault.paa"};
+		class TransportItems {
+			class _xx_cse_bandage_basic {
+				name = "cse_bandage_basic";
+				count = 7;
+			};
+			class _xx_cse_packing_bandage {
+				name = "cse_packing_bandage";
+				count = 3;
+			};
+			class _xx_cse_tourniquet {
+				name = "cse_tourniquet";
+				count = 1;
+			};
+		};
+		class TransportMagazines {
+			class _xx_rhsusf_100Rnd_762x51_m80a1epr {
+				count = 2;
+				magazine = "rhsusf_100Rnd_762x51_m80a1epr";
+			};
+		};
+	};
+	
+	//MG-Schuetze Rucksack
+	class TTT_Backpack_Mgschuetze_Desert : B_AssaultPack_cbr {
+		displayName = "MG-Schuetze Rucksack (Desert)";
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\backpacks\assault.paa"};
+		class TransportItems {
+			class _xx_cse_bandage_basic {
+				name = "cse_bandage_basic";
+				count = 7;
+			};
+			class _xx_cse_packing_bandage {
+				name = "cse_packing_bandage";
+				count = 3;
+			};
+			class _xx_cse_tourniquet {
+				name = "cse_tourniquet";
+				count = 1;
+			};
+		};
+		class TransportMagazines {
+			class _xx_rhsusf_100Rnd_762x51_m80a1epr {
+				count = 2;
+				magazine = "rhsusf_100Rnd_762x51_m80a1epr";
+			};
+		};
+		
+	};
+	
+	//LMG-Schuetze Rucksack
+	class TTT_Backpack_Lmgschuetze_Desert : B_AssaultPack_cbr {
+		displayName = "LMG-Schuetze Rucksack (Desert)";
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\backpacks\assault.paa"};
 		class TransportItems {
 			class _xx_cse_bandage_basic {
 				name = "cse_bandage_basic";
@@ -101,27 +157,8 @@
 		};
 		class TransportMagazines {
 			class _xx_rhsusf_200Rnd_556x45_soft_pouch {
-				count = 2;
-				magazine = "rhsusf_200Rnd_556x45_soft_pouch";
-			};
-		};
-	};
-	
-	//MG-Schuetze Rucksack
-	class TTT_Backpack_Mgschuetze_Desert : B_AssaultPack_cbr {
-		displayName = "MG-Schuetze Rucksack (Desert)";
-		class TransportItems {
-			class _xx_cse_bandage_basic {
-				name = "cse_bandage_basic";
-				count = 7;
-			};
-			class _xx_cse_packing_bandage {
-				name = "cse_packing_bandage";
 				count = 3;
-			};
-			class _xx_cse_tourniquet {
-				name = "cse_tourniquet";
-				count = 1;
+				magazine = "rhsusf_200Rnd_556x45_soft_pouch";
 			};
 		};
 	};
@@ -129,6 +166,7 @@
 	//AT-Schuetze Rucksack
 	class TTT_Backpack_Atschuetze_Desert : B_AssaultPack_cbr {
 		displayName = "AT-Schuetze Rucksack (Desert)";
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\backpacks\assault.paa"};
 		class TransportItems {
 			class _xx_cse_bandage_basic {
 				name = "cse_bandage_basic";
@@ -148,6 +186,7 @@
 	//Schuetze Rucksack
 	class TTT_Backpack_Schuetze_Desert : B_AssaultPack_cbr {
 		displayName = "Schuetze Rucksack (Desert)";
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\backpacks\assault.paa"};
 		class TransportItems {
 			class _xx_cse_bandage_basic {
 				name = "cse_bandage_basic";
@@ -165,7 +204,7 @@
 	};	
 	
 	//Funker/FAC Rucksack
-	class TTT_Backpack_Funkerfac_Desert : tf_rt1523g_big_bwmod_tropen {
+	class TTT_Backpack_Funkerfac_Desert : tf_rt1523g_big_rhs {
 		displayName = "Funker/FAC Rucksack (Desert)";
 		tf_range = 50000;
 		class TransportItems {
@@ -197,6 +236,7 @@
 	//Pionier Rucksack
 	class TTT_Backpack_Pionier_Desert : B_Carryall_cbr {
 		displayName = "Pionier Rucksack (Desert)";
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\backpacks\carryall.paa"};
 		class TransportItems {
 			class _xx_cse_bandage_basic {
 				name = "cse_bandage_basic";
@@ -234,6 +274,7 @@
 	//Gefechtssanitaeter Rucksack
 	class TTT_Backpack_Gefechtssanitaeter_Desert : B_Kitbag_cbr {
 		displayName = "Gefechtssanitaeter Rucksack (Desert)";
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\backpacks\kitbag.paa"};
 		class TransportItems {
 			class _xx_cse_bandage_basic {
 				name = "cse_bandage_basic";
@@ -281,6 +322,7 @@
 	//Feldarzt Rucksack
 	class TTT_Backpack_Feldarzt_Desert : B_Kitbag_cbr {
 		displayName = "Feldarzt Rucksack (Desert)";
+		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\backpacks\kitbag.paa"};
 		class TransportItems {
 			class _xx_cse_bandage_basic {
 				name = "cse_bandage_basic";
@@ -334,7 +376,7 @@
 	};
 	
 	//Pilot Rucksack
-	class TTT_Backpack_Pilot_Desert : tf_rt1523g_big_bwmod_tropen {
+	class TTT_Backpack_Pilot_Desert : tf_rt1523g_big_rhs {
 		displayName = "Pilot Rucksack (Desert)";
 		tf_range = 50000;
 		class TransportItems {
@@ -358,7 +400,7 @@
 	};
 	
 	//OPL Rucksack
-	class TTT_Backpack_Opl_Desert : tf_rt1523g_big_bwmod_tropen {
+	class TTT_Backpack_Opl_Desert : tf_rt1523g_big_rhs {
 		displayName = "OPL Rucksack (Desert)";
 		tf_range = 50000;
 		class TransportItems {

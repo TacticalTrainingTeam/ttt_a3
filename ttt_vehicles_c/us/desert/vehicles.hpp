@@ -141,6 +141,12 @@
 				magazine = "rhs_mag_mk84";
 				count = 6;
 			};	
+			
+			//Stinger
+			class _xx_rhs_fim92_mag {
+				magazine = "rhs_fim92_mag";
+				count = 2;
+			};	
 		};
 		class TransportBackpacks {
 			
@@ -279,6 +285,11 @@
 			class _xx_rhs_mag_mk84 {
 				magazine = "rhs_mag_mk84";
 				count = 6;
+			};
+			//Stinger
+			class _xx_rhs_fim92_mag {
+				magazine = "rhs_fim92_mag";
+				count = 2;
 			};	
 		};
 		class TransportBackpacks {

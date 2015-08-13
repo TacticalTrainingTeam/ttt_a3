@@ -24,8 +24,8 @@
 				count = 1;
 			};
 			
-			class _xx_rhs_weap_m249_pip_elcan {
-				weapon = "rhs_weap_m249_pip_elcan";
+			class _xx_rhs_weap_m249_pip_L{
+				weapon = "rhs_weap_m249_pip_L";
 				count = 1;
 			};
 			
@@ -397,9 +397,14 @@
 		author = "Tactical Training Team";
 		displayName = "TTT Werfer (US)";
 		transportMaxWeapons = 4;
-		transportMaxMagazines = 0;
+		transportMaxMagazines = 2;
 		
 		class TransportMagazines {
+			class _xx_rhs_fim92mag_{
+				magazine= "rhs_fim92_mag";
+				count = 2;
+				
+			}
 		};
 		
 		class TransportWeapons {

@@ -6,7 +6,10 @@ class CfgWeapons {
 	class UniformItem;	// External class reference
 	class ItemCore;	// External class reference
 	class HeadgearItem;	// External class reference
-
+	class VestItem; // External class reference
+	class V_PlateCarrier3_rgr;	// External class reference
+	class V_PlateCarrier1_rgr;	// External class reference
+	class V_TacVest_brn;	// External class reference
 
 	#include "misc\weapons.hpp"
 	#include "bw\tropentarn\weapons.hpp"

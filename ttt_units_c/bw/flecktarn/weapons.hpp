@@ -114,30 +114,30 @@
 	*/
 	class TTT_Helmet_1_Flecktarn : TTT_Helmet_1_Tropentarn {
 		displayName = "TTT Helm I";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\TTT_helmet_1_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\helmets\TTT_helmet_1_flecktarn.paa"};
 	};
 	
 	class TTT_Helmet_2_Flecktarn : TTT_Helmet_2_Tropentarn {
 		displayName = "TTT Helm II";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\TTT_helmet_2_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\helmets\TTT_helmet_2_flecktarn.paa"};
 	};
 	
 	class TTT_Helmet_3_Flecktarn : TTT_Helmet_3_Tropentarn {
 		displayName = "TTT Helm III";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\TTT_helmet_3_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\helmets\TTT_helmet_3_flecktarn.paa"};
 	};
 	
 	class TTT_Helmet_4_Flecktarn : TTT_Helmet_4_Tropentarn {
 		displayName = "TTT Helm IV";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\TTT_helmet_4_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\helmets\TTT_helmet_4_flecktarn.paa"};
 	};
 	
 	class TTT_Helmet_5_Flecktarn : TTT_Helmet_5_Tropentarn {
 		displayName = "TTT Helm V";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\TTT_helmet_5_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\helmets\TTT_helmet_5_flecktarn.paa"};
 	};
 	
 	class TTT_Helmet_6_Flecktarn : TTT_Helmet_6_Tropentarn {
 		displayName = "TTT Helm VI";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\TTT_helmet_6_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\helmets\TTT_helmet_6_flecktarn.paa"};
 	};
