@@ -148,128 +148,133 @@
 	#############################################################
 	*/
 	
-	class TTT_Heavy_Vest_Yellow_Woodland : TTT_Vest_Heavy_Base {
+	class TTT_Vest_Heavy_Yellow_Woodland : TTT_Vest_Heavy_Base {
 		scope = 2;
 		displayName = "TTT Schwere Weste Gelb (Woodland)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\vests\vest_yellow_co.paa"};
 	};
 	
-	class TTT_Lite_Vest_Yellow_Woodland : TTT_Vest_Lite_Base {
+	class TTT_Vest_Lite_Yellow_Woodland : TTT_Vest_Lite_Base {
 		scope = 2;
 		displayName = "TTT Leichte Weste Gelb (Woodland)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\vests\vest_yellow_co.paa"};
 	};
 	
-	class TTT_Heavy_Vest_Blue_Woodland : TTT_Vest_Heavy_Base {
+	class TTT_Vest_Heavy_Blue_Woodland : TTT_Vest_Heavy_Base {
 		scope = 2;
 		displayName = "TTT Schwere Weste Blau (Woodland)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\vests\vest_blue_co.paa"};
 	};
 	
-	class TTT_Lite_Vest_Blue_Woodland : TTT_Vest_Lite_Base {
+	class TTT_Vest_Lite_Blue_Woodland : TTT_Vest_Lite_Base {
 		scope = 2;
 		displayName = "TTT Leichte Weste Blau (Woodland)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\vests\vest_blue_co.paa"};
 	};
 	
-	class TTT_Heavy_Vest_Black_Woodland : TTT_Vest_Heavy_Base {
+	class TTT_Vest_Heavy_Black_Woodland : TTT_Vest_Heavy_Base {
 		scope = 2;
 		displayName = "TTT Schwere Weste Schwarz (Woodland)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\vests\vest_black_co.paa"};
 	};
 	
-	class TTT_Lite_Vest_Black_Woodland : TTT_Vest_Lite_Base {
+	class TTT_Vest_Lite_Black_Woodland : TTT_Vest_Lite_Base {
 		scope = 2;
 		displayName = "TTT Leichte Weste Schwarz (Woodland)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\vests\vest_black_co.paa"};
 	};
 	
-	class TTT_Heavy_Vest_Brown_Woodland : TTT_Vest_Heavy_Base {
+	class TTT_Vest_Heavy_Brown_Woodland : TTT_Vest_Heavy_Base {
 		scope = 2;
 		displayName = "TTT Schwere Weste Braun (Woodland)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\vests\vest_brown_co.paa"};
 	};
 	
-	class TTT_Lite_Vest_Brown_Woodland : TTT_Vest_Lite_Base {
+	class TTT_Vest_Lite_Brown_Woodland : TTT_Vest_Lite_Base {
 		scope = 2;
 		displayName = "TTT Leichte Weste Braun (Woodland)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\vests\vest_brown_co.paa"};
 	};
 	
-	class TTT_Heavy_Vest_Gold_Woodland : TTT_Vest_Heavy_Base {
+	class TTT_Vest_Heavy_Gold_Woodland : TTT_Vest_Heavy_Base {
 		scope = 2;
 		displayName = "TTT Schwere Weste Gold (Woodland)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\vests\vest_gold_co.paa"};
 	};
 	
-	class TTT_Lite_Vest_Gold_Woodland : TTT_Vest_Lite_Base {
+	class TTT_Vest_Lite_Gold_Woodland : TTT_Vest_Lite_Base {
 		scope = 2;
 		displayName = "TTT Leichte Weste Gold (Woodland)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\vests\vest_gold_co.paa"};
 	};
 	
-	class TTT_Heavy_Vest_Green_Woodland : TTT_Vest_Heavy_Base {
+	class TTT_Vest_Heavy_Green_Woodland : TTT_Vest_Heavy_Base {
 		scope = 2;
 		displayName = "TTT Schwere Weste Gruen (Woodland)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\vests\vest_green_co.paa"};
 	};
 	
-	class TTT_Lite_Vest_Green_Woodland : TTT_Vest_Lite_Base {
+	class TTT_Vest_Lite_Green_Woodland : TTT_Vest_Lite_Base {
 		scope = 2;
 		displayName = "TTT Leichte Weste Gruen (Woodland)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\vests\vest_green_co.paa"};
 	};
 	
-	class TTT_Heavy_Vest_Grey_Woodland : TTT_Vest_Heavy_Base {
+	class TTT_Vest_Heavy_Grey_Woodland : TTT_Vest_Heavy_Base {
 		scope = 2;
 		displayName = "TTT Schwere Weste Grau (Woodland)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\vests\vest_grey_co.paa"};
 	};
 	
-	class TTT_Lite_Vest_Grey_Woodland : TTT_Vest_Lite_Base {
+	class TTT_Vest_Lite_Grey_Woodland : TTT_Vest_Lite_Base {
 		scope = 2;
 		displayName = "TTT Leichte Weste Grau (Woodland)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\vests\vest_grey_co.paa"};
 	};
 	
-	class TTT_Heavy_Vest_Red_Woodland : TTT_Vest_Heavy_Base {
+	class TTT_Vest_Heavy_Red_Woodland : TTT_Vest_Heavy_Base {
 		scope = 2;
 		displayName = "TTT Schwere Weste Rot (Woodland)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\vests\vest_red_co.paa"};
 	};
 	
-	class TTT_Lite_Vest_Red_Woodland : TTT_Vest_Lite_Base {
+	class TTT_Vest_Lite_Red_Woodland : TTT_Vest_Lite_Base {
 		scope = 2;
 		displayName = "TTT Leichte Weste Rot (Woodland)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\vests\vest_red_co.paa"};
 	};
 	
-	class TTT_Heavy_Vest_Purple_Woodland : TTT_Vest_Heavy_Base {
+	class TTT_Vest_Heavy_Purple_Woodland : TTT_Vest_Heavy_Base {
 		scope = 2;
 		displayName = "TTT Schwere Weste Violett (Woodland)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\vests\vest_purple_co.paa"};
 	};
 	
-	class TTT_Lite_Vest_Purple_Woodland : TTT_Vest_Lite_Base {
+	class TTT_Vest_Lite_Purple_Woodland : TTT_Vest_Lite_Base {
 		scope = 2;
 		displayName = "TTT Leichte Weste Violett (Woodland)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\vests\vest_purple_co.paa"};
+	};
+	
+	class TTT_Vest_Crew_Woodland : TTT_Vest_Crew_Base {
+		scope = 2;
+		displayName = "TTT Crew Weste (Woodland)";
 	};

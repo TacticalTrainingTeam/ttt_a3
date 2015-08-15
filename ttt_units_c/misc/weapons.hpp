@@ -116,7 +116,7 @@
 		};
 	};
 	
-	class TTT_Crew_Vest_Base : V_TacVest_brn {
-		scope = 2;
-		displayName = "TTT Crew Vest";
+	class TTT_Vest_Crew_Base : V_TacVest_brn {
+		scope = 0;
+		displayName = "TTT Crew Vest Base";
 	};

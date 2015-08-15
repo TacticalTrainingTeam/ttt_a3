@@ -323,3 +323,9 @@ class TTT_Uniform_Violett_Desert : TTT_Uniform_Base {
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\vests\vest_purple_co.paa"};
 	};
+	
+	class TTT_Vest_Crew_Desert : TTT_Vest_Crew_Base {
+		scope = 2;
+		displayName = "TTT Crew Weste (Desert)";
+
+	};

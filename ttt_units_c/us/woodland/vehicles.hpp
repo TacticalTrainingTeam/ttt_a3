@@ -11,8 +11,8 @@
 		backpack = "TTT_Backpack_Opl_Woodland";
 		uniformClass = "TTT_Uniform_Gelb_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_yellow_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};	
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Yellow_Woodland","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Yellow_Woodland","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};	
 	};
 	
 	//Gelb 2 (Funker)
@@ -22,8 +22,8 @@
 		backpack = "TTT_Backpack_Funkerfac_Woodland";
 		uniformClass = "TTT_Uniform_Gelb_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_yellow_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Yellow_Woodland","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Yellow_Woodland","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
 	
 	//Gelb 3 (UAV/Moerser)
@@ -33,8 +33,8 @@
 		backpack = "TTT_Backpack_Funkerfac_Woodland";
 		uniformClass = "TTT_Uniform_Gelb_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_yellow_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Yellow_Woodland","TTT_Helmet_3_Woodland","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Yellow_Woodland","TTT_Helmet_3_Woodland","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Gelb 4 (Moerser)
@@ -44,8 +44,8 @@
 		backpack = "TTT_Backpack_Funkerfac_Woodland";
 		uniformClass = "TTT_Uniform_Gelb_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_yellow_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","B_UavTerminal","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","B_UavTerminal","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Yellow_Woodland","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","B_UavTerminal","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Yellow_Woodland","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","B_UavTerminal","ItemWatch","tf_anprc152"};
 	};
 	
 	/*
@@ -61,8 +61,8 @@
 		backpack = "TTT_Backpack_Truppfuehrer_Woodland";
 		uniformClass = "TTT_Uniform_Grau_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_grey_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Grey_Woodland","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Grey_Woodland","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
 	
 	//Grau 2 (Funker/FAC)
@@ -72,8 +72,8 @@
 		backpack = "TTT_Backpack_Funkerfac_Woodland";
 		uniformClass = "TTT_Uniform_Grau_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_grey_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Grey_Woodland","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Grey_Woodland","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Grau 3 (Gefechtssanitaeter)
@@ -83,8 +83,8 @@
 		backpack = "TTT_Backpack_Gefechtssanitaeter_Woodland";
 		uniformClass = "TTT_Uniform_Grau_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_grey_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Grey_Woodland","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Grey_Woodland","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Grau 4 (Pionier)
@@ -94,8 +94,8 @@
 		backpack = "TTT_Backpack_Pionier_Woodland";
 		uniformClass = "TTT_Uniform_Grau_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_grey_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Grey_Woodland","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Grey_Woodland","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Grau 5 (Gruppenscharfsch¸tze)
@@ -105,8 +105,8 @@
 		backpack = "TTT_Backpack_Schuetze_Woodland";
 		uniformClass = "TTT_Uniform_Grau_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_grey_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Marksman_Fleck","TTT_Helmet_5_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Marksman_Fleck","TTT_Helmet_5_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Grey_Woodland","TTT_Helmet_5_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Grey_Woodland","TTT_Helmet_5_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Grau 6
@@ -115,8 +115,8 @@
 		vehicleClass = "TTT_Grau_Woodland";
 		uniformClass = "TTT_Uniform_Grau_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_grey_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152","B_UavTerminal"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152","B_UavTerminal"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Grey_Woodland","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152","B_UavTerminal"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Grey_Woodland","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152","B_UavTerminal"};
 	};
 
 	/*
@@ -132,8 +132,8 @@
 		uniformClass = "TTT_Uniform_Gold_Woodland";
 		backpack = "TTT_Backpack_Funkerfac_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_gold_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Gold_Woodland","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Gold_Woodland","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
 	
 	//Gold 2 (Sniper)
@@ -143,8 +143,8 @@
 		uniformClass = "TTT_Uniform_Gold_Woodland";
 		backpack = "TTT_Backpack_Schuetze_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_gold_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Marksman_Fleck","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Marksman_Fleck","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Gold_Woodland","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Gold_Woodland","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Gold 3 (UAV)
@@ -153,8 +153,8 @@
 		vehicleClass = "TTT_Gold_Woodland";
 		uniformClass = "TTT_Uniform_Gold_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_gold_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152","cse_m_tablet"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152","cse_m_tablet"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Gold_Woodland","TTT_Helmet_3_Woodland","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152","cse_m_tablet"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Gold_Woodland","TTT_Helmet_3_Woodland","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152","cse_m_tablet"};
 	};
 	
 	//Gold 4 (Spotter)
@@ -164,8 +164,8 @@
 		backpack = "TTT_Backpack_Funkerfac_Woodland";
 		uniformClass = "TTT_Uniform_Gold_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_gold_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Gold_Woodland","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Gold_Woodland","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	/*
@@ -181,8 +181,8 @@
 		uniformClass = "TTT_Uniform_Gruen_Woodland";
 		backpack = "TTT_Backpack_Truppfuehrer_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_green_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Green_Woodland","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Green_Woodland","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
 	
 	//Gruen 2 (Funker/FAC)
@@ -192,8 +192,8 @@
 		backpack = "TTT_Backpack_Funkerfac_Woodland";
 		uniformClass = "TTT_Uniform_Gruen_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_green_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Green_Woodland","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Green_Woodland","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Gruen 3 (Gefechtssanitaeter)
@@ -203,8 +203,8 @@
 		backpack = "TTT_Backpack_Gefechtssanitaeter_Woodland";
 		uniformClass = "TTT_Uniform_Gruen_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_green_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Green_Woodland","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Green_Woodland","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Gruen 4 (Gefechtssanitaeter)
@@ -214,8 +214,8 @@
 		backpack = "TTT_Backpack_Gefechtssanitaeter_Woodland";
 		uniformClass = "TTT_Uniform_Gruen_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_green_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Green_Woodland","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Green_Woodland","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	/*
@@ -231,8 +231,8 @@
 		uniformClass = "TTT_Uniform_Braun_Woodland";
 		backpack = "TTT_Backpack_Truppfuehrer_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_brown_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Brown_Woodland","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Brown_Woodland","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
 	
 	//Braun 2 (Funker/FAC)
@@ -242,8 +242,8 @@
 		backpack = "TTT_Backpack_Funkerfac_Woodland";
 		uniformClass = "TTT_Uniform_Braun_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_brown_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Brown_Woodland","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Brown_Woodland","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Braun 3 (Gefechtssanitaeter)
@@ -253,8 +253,8 @@
 		backpack = "TTT_Backpack_Gefechtssanitaeter_Woodland";
 		uniformClass = "TTT_Uniform_Braun_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_brown_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Brown_Woodland","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Brown_Woodland","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	/*
@@ -270,8 +270,8 @@
 		backpack = "TTT_Backpack_Truppfuehrer_Woodland";
 		uniformClass = "TTT_Uniform_Schwarz_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_black_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Black_Woodland","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Black_Woodland","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
 	
 	//Schwarz 2 (Grenadier)
@@ -281,8 +281,8 @@
 		backpack = "TTT_Backpack_Grenadier_Woodland";
 		uniformClass = "TTT_Uniform_Schwarz_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_black_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Grenadier_Fleck","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Grenadier_Fleck","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Black_Woodland","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Black_Woodland","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Schwarz 3 (LMG-Schuetze)
@@ -292,8 +292,8 @@
 		backpack = "TTT_Backpack_Lmgschuetze_Woodland";
 		uniformClass = "TTT_Uniform_Schwarz_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_black_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Black_Woodland","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Black_Woodland","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Schwarz 4 (LMG-Schuetze)
@@ -303,8 +303,8 @@
 		backpack = "TTT_Backpack_Lmgschuetze_Woodland";
 		uniformClass = "TTT_Uniform_Schwarz_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_black_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Autorifleman_Fleck","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Autorifleman_Fleck","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Black_Woodland","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Black_Woodland","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Schwarz 5 (AT-Schuetze)
@@ -314,8 +314,8 @@
 		backpack = "TTT_Backpack_Schuetze_Woodland";
 		uniformClass = "TTT_Uniform_Schwarz_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_black_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_5_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_5_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Black_Woodland","TTT_Helmet_5_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Black_Woodland","TTT_Helmet_5_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Schwarz 6 (AT-Schuetze)
@@ -325,8 +325,8 @@
 		backpack = "TTT_Backpack_Atschuetze_Woodland";
 		uniformClass = "TTT_Uniform_Schwarz_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_black_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Black_Woodland","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Black_Woodland","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	/*
@@ -342,8 +342,8 @@
 		backpack = "TTT_Backpack_Truppfuehrer_Woodland";
 		uniformClass = "TTT_Uniform_Rot_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_red_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Red_Woodland","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Red_Woodland","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
 	
 	//Rot 2 (Grenadier)
@@ -353,8 +353,8 @@
 		backpack = "TTT_Backpack_Grenadier_Woodland";
 		uniformClass = "TTT_Uniform_Rot_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_red_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Grenadier_Fleck","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Grenadier_Fleck","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Red_Woodland","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Red_Woodland","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Rot 3 (LMG-Schuetze)
@@ -364,8 +364,8 @@
 		backpack = "TTT_Backpack_Lmgschuetze_Woodland";
 		uniformClass = "TTT_Uniform_Rot_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_red_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Red_Woodland","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Red_Woodland","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Rot 4 (LMG-Schuetze)
@@ -375,8 +375,8 @@
 		backpack = "TTT_Backpack_Lmgschuetze_Woodland";
 		uniformClass = "TTT_Uniform_Rot_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_red_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Autorifleman_Fleck","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Autorifleman_Fleck","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Red_Woodland","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Red_Woodland","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Rot 5 (AT-Schuetze)
@@ -386,8 +386,8 @@
 		backpack = "TTT_Backpack_Schuetze_Woodland";
 		uniformClass = "TTT_Uniform_Rot_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_red_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_5_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_5_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Red_Woodland","TTT_Helmet_5_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Red_Woodland","TTT_Helmet_5_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Rot 6 (AT-Schuetze)
@@ -397,8 +397,8 @@
 		backpack = "TTT_Backpack_Atschuetze_Woodland";
 		uniformClass = "TTT_Uniform_Rot_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_red_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Red_Woodland","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Red_Woodland","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	/*
@@ -414,8 +414,8 @@
 		backpack = "TTT_Backpack_Pilot_Woodland";
 		uniformClass = "TTT_Uniform_Bronze_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_bronx_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
 	
 	//Bronze 2 (Schuetze)
@@ -425,8 +425,8 @@
 		backpack = "TTT_Backpack_Schuetze_Woodland";
 		uniformClass = "TTT_Uniform_Bronze_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_bronx_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
 	};
 	
 	//Bronze 3 (Fahrer)
@@ -436,8 +436,8 @@
 		backpack = "TTT_Backpack_Schuetze_Woodland";
 		uniformClass = "TTT_Uniform_Bronze_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_bronx_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
 	};
 	
 	//Bronze 4 (Truppfuehrer/Kommandant)
@@ -447,8 +447,8 @@
 		backpack = "TTT_Backpack_Pilot_Woodland";
 		uniformClass = "TTT_Uniform_Bronze_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_bronx_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
 	
 	//Bronze 5 (Schuetze)
@@ -458,8 +458,8 @@
 		backpack = "TTT_Backpack_Schuetze_Woodland";
 		uniformClass = "TTT_Uniform_Bronze_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_bronx_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
 	};
 	
 	//Bronze 6 (Fahrer)
@@ -469,8 +469,8 @@
 		backpack = "TTT_Backpack_Schuetze_Woodland";
 		uniformClass = "TTT_Uniform_Bronze_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_bronx_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
 	};
 	
 	/*
@@ -486,8 +486,8 @@
 		backpack = "TTT_Backpack_Truppfuehrer_Woodland";
 		uniformClass = "TTT_Uniform_Blau_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_blue_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Blue_Woodland","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Blue_Woodland","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
 	
 	//Blau 2 (Grenadier)
@@ -497,8 +497,8 @@
 		backpack = "TTT_Backpack_Grenadier_Woodland";
 		uniformClass = "TTT_Uniform_Blau_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_blue_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Grenadier_Fleck","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Grenadier_Fleck","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Blue_Woodland","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Blue_Woodland","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Blau 3 (MG-Assistent)
@@ -508,8 +508,8 @@
 		backpack = "TTT_Backpack_Mgassistent_Woodland";
 		uniformClass = "TTT_Uniform_Blau_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_blue_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Blue_Woodland","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Blue_Woodland","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Blau 4 (MG-Schuetze)
@@ -519,8 +519,8 @@
 		backpack = "TTT_Backpack_Mgschuetze_Woodland";
 		uniformClass = "TTT_Uniform_Blau_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_blue_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Blue_Woodland","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Blue_Woodland","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Blau 5 (Pionier)
@@ -530,8 +530,8 @@
 		backpack = "TTT_Backpack_Pionier_Woodland";
 		uniformClass = "TTT_Uniform_Blau_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_blue_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_5_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_5_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Blue_Woodland","TTT_Helmet_5_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Blue_Woodland","TTT_Helmet_5_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Blau 6 (Pionier)
@@ -541,8 +541,8 @@
 		backpack = "TTT_Backpack_Pionier_Woodland";
 		uniformClass = "TTT_Uniform_Blau_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_blue_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Blue_Woodland","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Blue_Woodland","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	/*
@@ -558,8 +558,8 @@
 		backpack = "TTT_Backpack_Truppfuehrer_Woodland";
 		uniformClass = "TTT_Uniform_Violett_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_violet_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Purple_Woodland","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Purple_Woodland","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
 	
 	//Violett 2 (Grenadier)
@@ -569,8 +569,8 @@
 		backpack = "TTT_Backpack_Grenadier_Woodland";
 		uniformClass = "TTT_Uniform_Violett_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_violet_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Grenadier_Fleck","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Grenadier_Fleck","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Purple_Woodland","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Purple_Woodland","TTT_Helmet_2_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	//Violett 3 (MG-Assistent)
 	class TTT_Violett3_Woodland : TTT_Violett3_Desert {
@@ -579,8 +579,8 @@
 		backpack = "TTT_Backpack_Mgassistent_Woodland";
 		uniformClass = "TTT_Uniform_Violett_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_violet_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Purple_Woodland","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Purple_Woodland","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Violett 4 (MG-Schuetze)
@@ -590,8 +590,8 @@
 		backpack = "TTT_Backpack_Mgschuetze_Woodland";
 		uniformClass = "TTT_Uniform_Violett_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_violet_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Purple_Woodland","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Purple_Woodland","TTT_Helmet_4_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Violett 5 (Pionier)
@@ -601,8 +601,8 @@
 		backpack = "TTT_Backpack_Pionier_Woodland";
 		uniformClass = "TTT_Uniform_Violett_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_violet_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_5_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_5_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Purple_Woodland","TTT_Helmet_5_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Purple_Woodland","TTT_Helmet_5_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Violett 6 (Pionier)
@@ -612,8 +612,8 @@
 		backpack = "TTT_Backpack_Pionier_Woodland";
 		uniformClass = "TTT_Uniform_Violett_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_violet_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Purple_Woodland","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Purple_Woodland","TTT_Helmet_6_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	
@@ -630,8 +630,8 @@
 		backpack = "TTT_Backpack_Feldarzt_Woodland";
 		uniformClass = "TTT_Uniform_Weiss_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_white_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
 	
 	//Weiﬂ 2 (Fahrzeugfuehrer)
@@ -641,8 +641,8 @@
 		backpack = "TTT_Backpack_Pilot_Woodland";
 		uniformClass = "TTT_Uniform_Weiss_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_white_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_Falcon","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_Falcon","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","TTT_Helmet_Falcon","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","TTT_Helmet_Falcon","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
 	
 	//Weiﬂ 3 (Feldarzt)
@@ -652,8 +652,8 @@
 		backpack = "TTT_Backpack_Feldarzt_Woodland";
 		uniformClass = "TTT_Uniform_Weiss_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_white_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","TTT_Helmet_3_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","TTT_Helmet_1_Woodland","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
 	
 	//Weiﬂ 4 (Stellv.Fahrzeugfuehrer)
@@ -663,8 +663,8 @@
 		backpack = "TTT_Backpack_Pilot_Woodland";
 		uniformClass = "TTT_Uniform_Weiss_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_white_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_Falcon","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_Falcon","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","TTT_Helmet_Falcon","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","TTT_Helmet_Falcon","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
 	
 	/*
@@ -680,8 +680,8 @@
 		backpack = "TTT_Backpack_Pilot_Woodland";
 		uniformClass = "TTT_Uniform_Adler_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_silver_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_Eagle","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_Eagle","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","TTT_Helmet_Eagle","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","TTT_Helmet_Eagle","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
 	
 	//Adler 2 (Copilot)
@@ -691,8 +691,8 @@
 		backpack = "TTT_Backpack_Pilot_Woodland";
 		uniformClass = "TTT_Uniform_Adler_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_silver_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_Eagle","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_Eagle","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","TTT_Helmet_Eagle","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","TTT_Helmet_Eagle","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
 	
 	/*
@@ -708,8 +708,8 @@
 		backpack = "TTT_Backpack_Pilot_Woodland";
 		uniformClass = "TTT_Uniform_Bussard_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_silver_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_Buzzard","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_Buzzard","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","TTT_Helmet_Buzzard","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","TTT_Helmet_Buzzard","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
 	
 	//Bussard 2 (Copilot)
@@ -719,6 +719,6 @@
 		backpack = "TTT_Backpack_Pilot_Woodland";
 		uniformClass = "TTT_Uniform_Bussard_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_silver_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_Buzzard","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_Buzzard","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","TTT_Helmet_Buzzard","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Crew_Woodland","TTT_Helmet_Buzzard","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
