@@ -85,7 +85,7 @@
 	#############################################################
 	*/	
 	
-	class TTT_Heavy_Vest_Base : V_PlateCarrier3_rgr {
+	class TTT_Vest_Heavy_Base : V_PlateCarrier3_rgr {
 		scope = 0;
 		displayName = "TTT Heavy Vest Base";
 		hiddenSelections[] = {"camo"};
@@ -100,7 +100,7 @@
 		};
 	};
 	
-	class TTT_Lite_Vest_Base : V_PlateCarrier1_rgr {
+	class TTT_Vest_Lite_Base : V_PlateCarrier1_rgr {
 		scope = 0;
 		displayName = "TTT Lite Vest Base";
 		hiddenSelections[] = {"camo"};
