@@ -28,7 +28,7 @@
 	class TTT_Oplfahrzeug_Woodland : TTT_Oplfahrzeug_Desert {
 		author = "Tactical Training Team";
 		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\woodland\oplfahrzeug\camo1.paa", "\ttt_vehicles\us\woodland\oplfahrzeug\camo2.paa", "\ttt_vehicles\us\woodland\oplfahrzeug\camo3.paa", "\ttt_vehicles\us\woodland\oplfahrzeug\camo4.paa", "\ttt_vehicles\us\woodland\oplfahrzeug\camo5.paa", "\ttt_vehicles\us\woodland\oplfahrzeug\camo6.paa", "\ttt_vehicles\us\woodland\oplfahrzeug\camo7.paa", "\ttt_vehicles\us\woodland\oplfahrzeug\camo8.paa", "\ttt_vehicles\us\woodland\oplfahrzeug\camo9.paa"};
-		crew = "TTT_Schwarz1_Woodland";
+		crew = "TTT_Gelb1_Woodland";
 		displayName = "TTT OPL-Fahrzeug (Woodland)";
 	};
 	
@@ -97,4 +97,16 @@
 		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\woodland\logistikhelikopter\camo1.paa", "\ttt_vehicles\us\woodland\logistikhelikopter\camo2.paa", "\ttt_vehicles\us\woodland\logistikhelikopter\camo3.paa"};
 		crew = "TTT_Bussard1_Woodland";
 		displayName = "TTT Logistikhelikopter (Woodland)";
+	};
+	
+	/*
+	#############################################################
+	### TTT Aufklärungsdrohne
+	#############################################################
+	*/
+	
+	class TTT_Aufklaerungsdrohne_Woodland : TTT_Aufklaerungsdrohne_Desert {
+		author = "Tactical Training Team";
+		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\woodland\aufklaerungsdrohne\camo1.paa"};
+		displayName = "TTT Aufklaerungsdrohne (Woodland)";
 	};

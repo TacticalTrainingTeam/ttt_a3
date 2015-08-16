@@ -309,7 +309,7 @@
 		faction = "TTT_faction_us";
 		vehicleClass = "TTT_Vehicles_us";
 		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\desert\oplfahrzeug\camo1.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo2.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo3.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo4.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo5.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo6.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo7.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo8.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo9.paa"};
-		crew = "TTT_Schwarz1_Desert";
+		crew = "TTT_Gelb1_Desert";
 		displayName = "TTT OPL-Fahrzeug (Desert)";
 		typicalCargo[] = {};
 		
@@ -642,4 +642,19 @@
 				count = 30;
 			};
 		};
+	};
+		
+	/*
+	#############################################################
+	### TTT Aufklärungsdrohne
+	#############################################################
+	*/
+	
+	class TTT_Aufklaerungsdrohne_Desert : TTT_RQ4A {
+		author = "Tactical Training Team";
+		scope = 2;
+		faction = "TTT_faction_us";
+		vehicleClass = "TTT_Vehicles_us";
+		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\desert\aufklaerungsdrohne\camo1.paa"};
+		displayName = "TTT Aufklaerungsdrohne (Desert)";
 	};
