@@ -440,7 +440,7 @@
 	#############################################################
 	*/
 	
-	class TTT_Kampfpanzer_Tropentarn : rhsusf_m1a2sep1tuskid_usarmy {
+	class TTT_Kampfpanzer_Tropentarn : rhsusf_m1a2sep1tuskiid_usarmy {
 		author = "Tactical Training Team";
 		scope = 2;
 		faction = "TTT_faction_bw";

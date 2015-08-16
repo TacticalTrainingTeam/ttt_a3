@@ -309,7 +309,7 @@
 		faction = "TTT_faction_us";
 		vehicleClass = "TTT_Vehicles_us";
 		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\desert\oplfahrzeug\camo1.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo2.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo3.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo4.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo5.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo6.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo7.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo8.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo9.paa"};
-		crew = "TTT_Schwarz1_Desert";
+		crew = "TTT_Gelb1_Desert";
 		displayName = "TTT OPL-Fahrzeug (Desert)";
 		typicalCargo[] = {};
 		
@@ -351,6 +351,74 @@
 	
 	/*
 	#############################################################
+	### TTT Sanitaetsfahrzeug
+	#############################################################
+	*/
+	
+	class TTT_Sanitaetsfahrzeug_Desert : rhsusf_m998_d_2dr_fulltop {
+		author = "Tactical Training Team";
+		scope = 2;
+		faction = "TTT_faction_us";
+		vehicleClass = "TTT_Vehicles_us";
+		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo1.paa", "\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo2.paa", "\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo3.paa", "\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo4.paa", "\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo5.paa", "\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo6.paa", "\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo7.paa", "\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo8.paa", "\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo9.paa"};
+		crew = "TTT_Weiss1_Desert";
+		displayName = "TTT Sanitaetsfahrzeug (Desert)";
+		typicalCargo[] = {};
+		
+		class TransportWeapons {
+			
+		};
+		class TransportItems {
+			class _xx_cse_atropine {
+				name = "cse_atropine";
+				count = 10;
+			};
+			
+			class _xx_cse_packing_bandage {
+				name = "cse_packing_bandage";
+				count = 20;
+			};
+			
+			class _xx_cse_epinephrine {
+				name = "cse_epinephrine";
+				count = 20;
+			};
+			
+			class _xx_cse_morphine {
+				name = "cse_morphine";
+				count = 20;
+			};
+			
+			class _xx_cse_bandage_basic {
+				name = "cse_bandage_basic";
+				count = 20;
+			};
+			
+			class _xx_cse_bandageElastic {
+				name = "cse_bandageElastic";
+				count = 20;
+			};
+			
+			class _xx_cse_quikclot {
+				name = "cse_quikclot";
+				count = 15;
+			};
+			
+			class _xx_cse_saline_iv {
+				name = "cse_saline_iv";
+				count = 15;
+			};
+		};
+		class TransportMagazines {
+			
+		};
+		class TransportBackpacks {
+			
+		};
+	};
+	
+	/*
+	#############################################################
 	### TTT Schützenpanzer
 	#############################################################
 	*/
@@ -360,7 +428,7 @@
 		scope = 2;
 		faction = "TTT_faction_us";
 		vehicleClass = "TTT_Vehicles_us";
-		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\desert\schuetzenpanzer\camo1.paa", "\ttt_vehicles\us\desert\schuetzenpanzer\camo2.paa", "\ttt_vehicles\us\desert\schuetzenpanzer\camo3.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\desert\schuetzenpanzer\camo1.paa", "\ttt_vehicles\us\desert\schuetzenpanzer\camo2.paa", "\ttt_vehicles\us\desert\schuetzenpanzer\camo3.paa", "\ttt_vehicles\us\desert\schuetzenpanzer\camo4.paa"};
 		crew = "TTT_Bronze1_Desert";
 		displayName = "TTT Schuetzenpanzer (Desert)";
 		typicalCargo[] = {};
@@ -434,11 +502,12 @@
 	#############################################################
 	*/
 	
-	class TTT_Kampfpanzer_Desert : rhsusf_m1a2sep1tuskid_usarmy {
+	class TTT_Kampfpanzer_Desert : rhsusf_m1a2sep1tuskiid_usarmy {
 		author = "Tactical Training Team";
 		scope = 2;
 		faction = "TTT_faction_us";
 		vehicleClass = "TTT_Vehicles_us";
+		// hiddenSelections sind noch nicht implementiert, deswegen muss mit model gearbeitet werden
 		//hiddenSelectionsTextures[] = {"\ttt_vehicles\us\desert\kampfpanzer\camo1.paa", "\ttt_vehicles\us\desert\kampfpanzer\camo2.paa", "\ttt_vehicles\us\desert\kampfpanzer\camo3.paa"};
 		crew = "TTT_Bronze1_Desert";
 		displayName = "TTT Kampfpanzer (Desert)";
@@ -616,12 +685,6 @@
 		scope = 2;
 		faction = "TTT_faction_us";
 		vehicleClass = "TTT_Vehicles_us";
-		hiddenSelections[]=
-		{
-			"camo1",
-			"camo2",
-			"camo3"
-		};
 		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\desert\logistikhelikopter\camo1.paa", "\ttt_vehicles\us\desert\logistikhelikopter\camo2.paa", "\ttt_vehicles\us\desert\logistikhelikopter\camo3.paa"};
 		crew = "TTT_Bussard1_Desert";
 		displayName = "TTT Logistikhelikopter (Desert)";
@@ -642,4 +705,19 @@
 				count = 30;
 			};
 		};
+	};
+		
+	/*
+	#############################################################
+	### TTT Aufklärungsdrohne
+	#############################################################
+	*/
+	
+	class TTT_Aufklaerungsdrohne_Desert : TTT_RQ4A {
+		author = "Tactical Training Team";
+		scope = 2;
+		faction = "TTT_faction_us";
+		vehicleClass = "TTT_Vehicles_us";
+		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\desert\aufklaerungsdrohne\camo1.paa"};
+		displayName = "TTT Aufklaerungsdrohne (Desert)";
 	};

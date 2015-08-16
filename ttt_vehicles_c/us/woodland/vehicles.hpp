@@ -28,8 +28,21 @@
 	class TTT_Oplfahrzeug_Woodland : TTT_Oplfahrzeug_Desert {
 		author = "Tactical Training Team";
 		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\woodland\oplfahrzeug\camo1.paa", "\ttt_vehicles\us\woodland\oplfahrzeug\camo2.paa", "\ttt_vehicles\us\woodland\oplfahrzeug\camo3.paa", "\ttt_vehicles\us\woodland\oplfahrzeug\camo4.paa", "\ttt_vehicles\us\woodland\oplfahrzeug\camo5.paa", "\ttt_vehicles\us\woodland\oplfahrzeug\camo6.paa", "\ttt_vehicles\us\woodland\oplfahrzeug\camo7.paa", "\ttt_vehicles\us\woodland\oplfahrzeug\camo8.paa", "\ttt_vehicles\us\woodland\oplfahrzeug\camo9.paa"};
-		crew = "TTT_Schwarz1_Woodland";
+		crew = "TTT_Gelb1_Woodland";
 		displayName = "TTT OPL-Fahrzeug (Woodland)";
+	};
+	
+	/*
+	#############################################################
+	### TTT Sanitaetsfahrzeug
+	#############################################################
+	*/
+	
+	class TTT_Sanitaetsfahrzeug_Woodland : TTT_Sanitaetsfahrzeug_Desert {
+		author = "Tactical Training Team";
+		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo1.paa", "\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo2.paa", "\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo3.paa", "\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo4.paa", "\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo5.paa", "\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo6.paa", "\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo7.paa", "\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo8.paa", "\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo9.paa"};
+		crew = "TTT_Weiss1_Woodland";
+		displayName = "TTT Sanitaetsfahrzeug (Woodland)";
 	};
 	
 	/*
@@ -40,7 +53,6 @@
 
 	class TTT_Schuetzenpanzer_Woodland : TTT_Schuetzenpanzer_Desert {
 		author = "Tactical Training Team";
-		hiddenSelections[] = {"camo1","camo2","camo3","camo4"};
 		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\woodland\schuetzenpanzer\camo1.paa", "\ttt_vehicles\us\woodland\schuetzenpanzer\camo2.paa", "\ttt_vehicles\us\woodland\schuetzenpanzer\camo3.paa", "\ttt_vehicles\us\woodland\schuetzenpanzer\camo4.paa"};
 		crew = "TTT_Bronze1_Woodland";
 		displayName = "TTT Schuetzenpanzer (Woodland)";
@@ -54,10 +66,11 @@
 	
 	class TTT_Kampfpanzer_Woodland : TTT_Kampfpanzer_Desert {
 		author = "Tactical Training Team";
+		// hiddenSelections sind noch nicht implementiert, deswegen muss mit model gearbeitet werden
 		//hiddenSelectionsTextures[] = {"\ttt_vehicles\us\woodland\kampfpanzer\camo1.paa", "\ttt_vehicles\us\woodland\kampfpanzer\camo2.paa", "\ttt_vehicles\us\woodland\kampfpanzer\camo3.paa"};
 		crew = "TTT_Bronze1_Woodland";
 		displayName = "TTT Kampfpanzer (Woodland)";
-		model = "\rhsusf\addons\rhsusf_m1a2\m1a2v1_tuski_wd";
+		model = "\rhsusf\addons\rhsusf_m1a2\m1a2v1_tuskii_wd";
 	};
 	
 	/*
@@ -97,4 +110,16 @@
 		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\woodland\logistikhelikopter\camo1.paa", "\ttt_vehicles\us\woodland\logistikhelikopter\camo2.paa", "\ttt_vehicles\us\woodland\logistikhelikopter\camo3.paa"};
 		crew = "TTT_Bussard1_Woodland";
 		displayName = "TTT Logistikhelikopter (Woodland)";
+	};
+	
+	/*
+	#############################################################
+	### TTT Aufklärungsdrohne
+	#############################################################
+	*/
+	
+	class TTT_Aufklaerungsdrohne_Woodland : TTT_Aufklaerungsdrohne_Desert {
+		author = "Tactical Training Team";
+		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\woodland\aufklaerungsdrohne\camo1.paa"};
+		displayName = "TTT Aufklaerungsdrohne (Woodland)";
 	};

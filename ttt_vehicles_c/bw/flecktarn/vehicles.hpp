@@ -57,7 +57,7 @@
 		//hiddenSelectionsTextures[] = {"\ttt_vehicles\bw\flecktarn\kampfpanzer\camo1.paa", "\ttt_vehicles\bw\flecktarn\kampfpanzer\camo2.paa", "\ttt_vehicles\bw\flecktarn\kampfpanzer\camo3.paa"};
 		crew = "TTT_Bronze1_Flecktarn";
 		displayName = "TTT Kampfpanzer (Flecktarn)";
-		model = "\rhsusf\addons\rhsusf_m1a2\m1a2v1_tuski_wd";
+		model = "\rhsusf\addons\rhsusf_m1a2\m1a2v1_tuskii_wd";
 	};
 	
 	/*
