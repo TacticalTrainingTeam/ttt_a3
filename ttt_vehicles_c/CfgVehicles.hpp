@@ -16,6 +16,7 @@ class CfgVehicles {
 	class RHS_CH_47F;
 	class rhsusf_m1a2sep1tuskid_usarmy;
 	class rhsusf_m998_w_4dr_fulltop;
+	class TTT_RQ4A;
 	
 	#include "bw\tropentarn\vehicles.hpp"
 	#include "bw\flecktarn\vehicles.hpp"
