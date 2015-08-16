@@ -311,7 +311,7 @@
 	class TTT_Schwarz5_Woodland : TTT_Schwarz5_Desert {
 		author = "Tactical Training Team";
 		vehicleClass = "TTT_Schwarz_Woodland";
-		backpack = "TTT_Backpack_Schuetze_Woodland";
+		backpack = "TTT_Backpack_Atschuetze_Woodland";
 		uniformClass = "TTT_Uniform_Schwarz_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_black_woodland.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Black_Woodland","TTT_Helmet_5_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
@@ -383,7 +383,7 @@
 	class TTT_Rot5_Woodland : TTT_Rot5_Desert {
 		author = "Tactical Training Team";
 		vehicleClass = "TTT_Rot_Woodland";
-		backpack = "TTT_Backpack_Schuetze_Woodland";
+		backpack = "TTT_Backpack_Atschuetze_Woodland";
 		uniformClass = "TTT_Uniform_Rot_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_units\us\woodland\uniforms\TTT_uniform_red_woodland.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Red_Woodland","TTT_Helmet_5_Woodland","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
