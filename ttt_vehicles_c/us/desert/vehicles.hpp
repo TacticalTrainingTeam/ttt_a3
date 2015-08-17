@@ -761,6 +761,5 @@
 		scope = 2;
 		faction = "TTT_faction_us";
 		vehicleClass = "TTT_Vehicles_us";
-		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\desert\aufklaerungsdrohne\camo1.paa"};
 		displayName = "TTT Aufklaerungsdrohne (Desert)";
 	};

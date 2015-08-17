@@ -133,6 +133,5 @@
 	
 	class TTT_Aufklaerungsdrohne_Woodland : TTT_Aufklaerungsdrohne_Desert {
 		author = "Tactical Training Team";
-		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\woodland\aufklaerungsdrohne\camo1.paa"};
 		displayName = "TTT Aufklaerungsdrohne (Woodland)";
 	};
