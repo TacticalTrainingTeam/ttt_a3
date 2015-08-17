@@ -37,7 +37,9 @@ class CfgPatches {
 					"TTT_Aufklaerungsdrohne_Desert",
 					"TTT_Aufklaerungsdrohne_Woodland",
 					"TTT_Sanitaetsfahrzeug_Desert",
-					"TTT_Sanitaetsfahrzeug_Woodland"};
+					"TTT_Sanitaetsfahrzeug_Woodland",
+					"TTT_TransporterLeichtOffen_Desert",
+					"TTT_TransporterLeichtOffen_Woodland"};
 		weapons[] = {};
 		requiredAddons[] = {"ttt_main","ttt_vehicles"};
 	};

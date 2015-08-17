@@ -47,6 +47,19 @@
 	
 	/*
 	#############################################################
+	### TTT Transporter leicht (offen)
+	#############################################################
+	*/
+	
+	class TTT_TransporterLeichtOffen_Woodland : TTT_TransporterLeichtOffen_Desert {
+		author = "Tactical Training Team";
+		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\woodland\transporterLeichtOffen\camo1.paa", "\ttt_vehicles\us\woodland\transporterLeichtOffen\camo2.paa", "\ttt_vehicles\us\woodland\transporterLeichtOffen\camo3.paa", "\ttt_vehicles\us\woodland\transporterLeichtOffen\camo4.paa", "\ttt_vehicles\us\woodland\transporterLeichtOffen\camo5.paa", "\ttt_vehicles\us\woodland\transporterLeichtOffen\camo6.paa", "\ttt_vehicles\us\woodland\transporterLeichtOffen\camo7.paa", "\ttt_vehicles\us\woodland\transporterLeichtOffen\camo8.paa", "\ttt_vehicles\us\woodland\transporterLeichtOffen\camo9.paa"};
+		crew = "TTT_Schwarz1_Woodland";
+		displayName = "TTT Transporter leicht (offen) (Woodland)";
+	};
+	
+	/*
+	#############################################################
 	### TTT Schützenpanzer
 	#############################################################
 	*/

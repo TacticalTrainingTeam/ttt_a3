@@ -419,6 +419,49 @@
 	
 	/*
 	#############################################################
+	### TTT Transporter leicht (offen)
+	#############################################################
+	*/
+	
+	class TTT_TransporterLeichtOffen_Desert : rhsusf_m998_w_2dr {
+		author = "Tactical Training Team";
+		scope = 2;
+		faction = "TTT_faction_us";
+		vehicleClass = "TTT_Vehicles_us";
+		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\desert\transporterLeichtOffen\camo1.paa", "\ttt_vehicles\us\desert\transporterLeichtOffen\camo2.paa", "\ttt_vehicles\us\desert\transporterLeichtOffen\camo3.paa", "\ttt_vehicles\us\desert\transporterLeichtOffen\camo4.paa", "\ttt_vehicles\us\desert\transporterLeichtOffen\camo5.paa", "\ttt_vehicles\us\desert\transporterLeichtOffen\camo6.paa", "\ttt_vehicles\us\desert\transporterLeichtOffen\camo7.paa", "\ttt_vehicles\us\desert\transporterLeichtOffen\camo8.paa", "\ttt_vehicles\us\desert\transporterLeichtOffen\camo9.paa"};
+		crew = "TTT_Schwarz1_Desert";
+		displayName = "TTT Transporter leicht (offen) (Desert)";
+		typicalCargo[] = {};
+		
+		class TransportWeapons {
+			
+		};
+		class TransportItems {
+			class _xx_cse_bandage_basic {
+				name = "cse_bandage_basic";
+				count = 15;
+			};
+			
+			class _xx_cse_packing_bandage {
+				name = "cse_packing_bandage";
+				count = 10;
+			};
+			
+			class _xx_cse_battery_darter {
+				name = "cse_battery_darter";
+				count = 2;
+			};
+		};
+		class TransportMagazines {
+			
+		};
+		class TransportBackpacks {
+			
+		};
+	};
+	
+	/*
+	#############################################################
 	### TTT Schützenpanzer
 	#############################################################
 	*/
