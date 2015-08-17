@@ -756,7 +756,7 @@
 	#############################################################
 	*/
 	
-	class TTT_Aufklaerungsdrohne_Desert : USAF_RQ4A {
+	class TTT_Aufklaerungsdrohne_Desert : TTT_RQ4A {
 		author = "Tactical Training Team";
 		scope = 2;
 		faction = "TTT_faction_us";
