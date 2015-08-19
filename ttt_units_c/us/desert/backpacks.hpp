@@ -7,7 +7,7 @@
 	//Truppfuehrer Rucksack
 	class TTT_Backpack_Truppfuehrer_Desert : B_AssaultPack_cbr {
 		displayName = "Truppfuehrer Rucksack (Desert)";
-		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\backpacks\assault.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\us\desert\backpacks\assault.paa"};
 		class TransportItems {
 			class _xx_cse_bandage_basic {
 				name = "cse_bandage_basic";
@@ -49,7 +49,7 @@
 	//Grenadier Rucksack
 	class TTT_Backpack_Grenadier_Desert : B_AssaultPack_cbr {
 		displayName = "Grenadier Rucksack (Desert)";
-		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\backpacks\assault.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\us\desert\backpacks\assault.paa"};
 		class TransportItems {
 			class _xx_cse_bandage_basic {
 				name = "cse_bandage_basic";
@@ -87,7 +87,7 @@
 	//MG-Assistent Rucksack
 	class TTT_Backpack_Mgassistent_Desert : B_AssaultPack_cbr {
 		displayName = "MG-Assistent Rucksack (Desert)";
-		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\backpacks\assault.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\us\desert\backpacks\assault.paa"};
 		class TransportItems {
 			class _xx_cse_bandage_basic {
 				name = "cse_bandage_basic";
@@ -113,7 +113,7 @@
 	//MG-Schuetze Rucksack
 	class TTT_Backpack_Mgschuetze_Desert : B_AssaultPack_cbr {
 		displayName = "MG-Schuetze Rucksack (Desert)";
-		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\backpacks\assault.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\us\desert\backpacks\assault.paa"};
 		class TransportItems {
 			class _xx_cse_bandage_basic {
 				name = "cse_bandage_basic";
@@ -140,7 +140,7 @@
 	//LMG-Schuetze Rucksack
 	class TTT_Backpack_Lmgschuetze_Desert : B_AssaultPack_cbr {
 		displayName = "LMG-Schuetze Rucksack (Desert)";
-		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\backpacks\assault.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\us\desert\backpacks\assault.paa"};
 		class TransportItems {
 			class _xx_cse_bandage_basic {
 				name = "cse_bandage_basic";
@@ -166,7 +166,7 @@
 	//AT-Schuetze Rucksack
 	class TTT_Backpack_Atschuetze_Desert : B_AssaultPack_cbr {
 		displayName = "AT-Schuetze Rucksack (Desert)";
-		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\backpacks\assault.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\us\desert\backpacks\assault.paa"};
 		class TransportItems {
 			class _xx_cse_bandage_basic {
 				name = "cse_bandage_basic";
@@ -186,7 +186,7 @@
 	//Schuetze Rucksack
 	class TTT_Backpack_Schuetze_Desert : B_AssaultPack_cbr {
 		displayName = "Schuetze Rucksack (Desert)";
-		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\backpacks\assault.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\us\desert\backpacks\assault.paa"};
 		class TransportItems {
 			class _xx_cse_bandage_basic {
 				name = "cse_bandage_basic";
@@ -236,7 +236,7 @@
 	//Pionier Rucksack
 	class TTT_Backpack_Pionier_Desert : B_Carryall_cbr {
 		displayName = "Pionier Rucksack (Desert)";
-		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\backpacks\carryall.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\us\desert\backpacks\carryall.paa"};
 		class TransportItems {
 			class _xx_cse_bandage_basic {
 				name = "cse_bandage_basic";
@@ -274,7 +274,7 @@
 	//Gefechtssanitaeter Rucksack
 	class TTT_Backpack_Gefechtssanitaeter_Desert : B_Kitbag_cbr {
 		displayName = "Gefechtssanitaeter Rucksack (Desert)";
-		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\backpacks\kitbag.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\us\desert\backpacks\kitbag.paa"};
 		class TransportItems {
 			class _xx_cse_bandage_basic {
 				name = "cse_bandage_basic";
@@ -322,7 +322,7 @@
 	//Feldarzt Rucksack
 	class TTT_Backpack_Feldarzt_Desert : B_Kitbag_cbr {
 		displayName = "Feldarzt Rucksack (Desert)";
-		hiddenSelectionsTextures[] = {"\ttt_units\us\desert\backpacks\kitbag.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\us\desert\backpacks\kitbag.paa"};
 		class TransportItems {
 			class _xx_cse_bandage_basic {
 				name = "cse_bandage_basic";

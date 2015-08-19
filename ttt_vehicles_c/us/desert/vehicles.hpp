@@ -9,7 +9,7 @@
 		scope = 2;
 		faction = "TTT_faction_us";
 		vehicleClass = "TTT_Vehicles_us";
-		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\desert\truppfahrzeug\camo1.paa", "\ttt_vehicles\us\desert\truppfahrzeug\camo2.paa", "\ttt_vehicles\us\desert\truppfahrzeug\camo3.paa", "\ttt_vehicles\us\desert\truppfahrzeug\camo4.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\us\desert\truppfahrzeug\camo1.paa", "\ttt_a3\ttt_vehicles\us\desert\truppfahrzeug\camo2.paa", "\ttt_a3\ttt_vehicles\us\desert\truppfahrzeug\camo3.paa", "\ttt_a3\ttt_vehicles\us\desert\truppfahrzeug\camo4.paa"};
 		crew = "TTT_Schwarz1_Desert";
 		displayName = "TTT Truppfahrzeug MG (Desert)";
 		typicalCargo[] = {};
@@ -159,7 +159,7 @@
 		scope = 2;
 		faction = "TTT_faction_us";
 		vehicleClass = "TTT_Vehicles_us";
-		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\desert\truppfahrzeug\camo1.paa", "\ttt_vehicles\us\desert\truppfahrzeug\camo2.paa", "\ttt_vehicles\us\desert\truppfahrzeug\camo3.paa", "\ttt_vehicles\us\desert\truppfahrzeug\camo4.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\us\desert\truppfahrzeug\camo1.paa", "\ttt_a3\ttt_vehicles\us\desert\truppfahrzeug\camo2.paa", "\ttt_a3\ttt_vehicles\us\desert\truppfahrzeug\camo3.paa", "\ttt_a3\ttt_vehicles\us\desert\truppfahrzeug\camo4.paa"};
 		crew = "TTT_Schwarz1_Desert";
 		displayName = "TTT Truppfahrzeug GL (Desert)";
 		typicalCargo[] = {};
@@ -308,7 +308,7 @@
 		scope = 2;
 		faction = "TTT_faction_us";
 		vehicleClass = "TTT_Vehicles_us";
-		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\desert\oplfahrzeug\camo1.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo2.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo3.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo4.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo5.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo6.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo7.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo8.paa", "\ttt_vehicles\us\desert\oplfahrzeug\camo9.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\us\desert\oplfahrzeug\camo1.paa", "\ttt_a3\ttt_vehicles\us\desert\oplfahrzeug\camo2.paa", "\ttt_a3\ttt_vehicles\us\desert\oplfahrzeug\camo3.paa", "\ttt_a3\ttt_vehicles\us\desert\oplfahrzeug\camo4.paa", "\ttt_a3\ttt_vehicles\us\desert\oplfahrzeug\camo5.paa", "\ttt_a3\ttt_vehicles\us\desert\oplfahrzeug\camo6.paa", "\ttt_a3\ttt_vehicles\us\desert\oplfahrzeug\camo7.paa", "\ttt_a3\ttt_vehicles\us\desert\oplfahrzeug\camo8.paa", "\ttt_a3\ttt_vehicles\us\desert\oplfahrzeug\camo9.paa"};
 		crew = "TTT_Gelb1_Desert";
 		displayName = "TTT OPL-Fahrzeug (Desert)";
 		typicalCargo[] = {};
@@ -360,7 +360,7 @@
 		scope = 2;
 		faction = "TTT_faction_us";
 		vehicleClass = "TTT_Vehicles_us";
-		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo1.paa", "\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo2.paa", "\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo3.paa", "\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo4.paa", "\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo5.paa", "\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo6.paa", "\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo7.paa", "\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo8.paa", "\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo9.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo1.paa", "\ttt_a3\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo2.paa", "\ttt_a3\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo3.paa", "\ttt_a3\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo4.paa", "\ttt_a3\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo5.paa", "\ttt_a3\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo6.paa", "\ttt_a3\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo7.paa", "\ttt_a3\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo8.paa", "\ttt_a3\ttt_vehicles\us\desert\sanitaetsfahrzeug\camo9.paa"};
 		crew = "TTT_Weiss1_Desert";
 		displayName = "TTT Sanitaetsfahrzeug (Desert)";
 		typicalCargo[] = {};
@@ -428,7 +428,7 @@
 		scope = 2;
 		faction = "TTT_faction_us";
 		vehicleClass = "TTT_Vehicles_us";
-		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\desert\transporterLeichtOffen\camo1.paa", "\ttt_vehicles\us\desert\transporterLeichtOffen\camo2.paa", "\ttt_vehicles\us\desert\transporterLeichtOffen\camo3.paa", "\ttt_vehicles\us\desert\transporterLeichtOffen\camo4.paa", "\ttt_vehicles\us\desert\transporterLeichtOffen\camo5.paa", "\ttt_vehicles\us\desert\transporterLeichtOffen\camo6.paa", "\ttt_vehicles\us\desert\transporterLeichtOffen\camo7.paa", "\ttt_vehicles\us\desert\transporterLeichtOffen\camo8.paa", "\ttt_vehicles\us\desert\transporterLeichtOffen\camo9.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\us\desert\transporterLeichtOffen\camo1.paa", "\ttt_a3\ttt_vehicles\us\desert\transporterLeichtOffen\camo2.paa", "\ttt_a3\ttt_vehicles\us\desert\transporterLeichtOffen\camo3.paa", "\ttt_a3\ttt_vehicles\us\desert\transporterLeichtOffen\camo4.paa", "\ttt_a3\ttt_vehicles\us\desert\transporterLeichtOffen\camo5.paa", "\ttt_a3\ttt_vehicles\us\desert\transporterLeichtOffen\camo6.paa", "\ttt_a3\ttt_vehicles\us\desert\transporterLeichtOffen\camo7.paa", "\ttt_a3\ttt_vehicles\us\desert\transporterLeichtOffen\camo8.paa", "\ttt_a3\ttt_vehicles\us\desert\transporterLeichtOffen\camo9.paa"};
 		crew = "TTT_Schwarz1_Desert";
 		displayName = "TTT Transporter leicht (offen) (Desert)";
 		typicalCargo[] = {};
@@ -471,7 +471,7 @@
 		scope = 2;
 		faction = "TTT_faction_us";
 		vehicleClass = "TTT_Vehicles_us";
-		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\desert\schuetzenpanzer\camo1.paa", "\ttt_vehicles\us\desert\schuetzenpanzer\camo2.paa", "\ttt_vehicles\us\desert\schuetzenpanzer\camo3.paa", "\ttt_vehicles\us\desert\schuetzenpanzer\camo4.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\us\desert\schuetzenpanzer\camo1.paa", "\ttt_a3\ttt_vehicles\us\desert\schuetzenpanzer\camo2.paa", "\ttt_a3\ttt_vehicles\us\desert\schuetzenpanzer\camo3.paa", "\ttt_a3\ttt_vehicles\us\desert\schuetzenpanzer\camo4.paa"};
 		crew = "TTT_Bronze1_Desert";
 		displayName = "TTT Schuetzenpanzer (Desert)";
 		typicalCargo[] = {};
@@ -551,7 +551,7 @@
 		faction = "TTT_faction_us";
 		vehicleClass = "TTT_Vehicles_us";
 		// hiddenSelections sind noch nicht implementiert, deswegen muss mit model gearbeitet werden
-		//hiddenSelectionsTextures[] = {"\ttt_vehicles\us\desert\kampfpanzer\camo1.paa", "\ttt_vehicles\us\desert\kampfpanzer\camo2.paa", "\ttt_vehicles\us\desert\kampfpanzer\camo3.paa"};
+		//hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\us\desert\kampfpanzer\camo1.paa", "\ttt_a3\ttt_vehicles\us\desert\kampfpanzer\camo2.paa", "\ttt_a3\ttt_vehicles\us\desert\kampfpanzer\camo3.paa"};
 		crew = "TTT_Bronze1_Desert";
 		displayName = "TTT Kampfpanzer (Desert)";
 		typicalCargo[] = {};
@@ -626,11 +626,11 @@
 		scope = 2;
 		faction = "TTT_faction_us";
 		vehicleClass = "TTT_Vehicles_us";
-		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\desert\kampfhelikopter\camo1.paa", "\ttt_vehicles\us\desert\kampfhelikopter\camo2.paa", "\ttt_vehicles\us\desert\kampfhelikopter\camo3.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\us\desert\kampfhelikopter\camo1.paa", "\ttt_a3\ttt_vehicles\us\desert\kampfhelikopter\camo2.paa", "\ttt_a3\ttt_vehicles\us\desert\kampfhelikopter\camo3.paa"};
 		crew = "TTT_Adler1_Desert";
 		displayName = "TTT Kampfhelikopter (Desert)";
 		typicalCargo[] = {};
-		accuracy=1000
+		accuracy=1000;
 
 		class TransportWeapons {
 			
@@ -660,7 +660,7 @@
 		scope = 2;
 		faction = "TTT_faction_us";
 		vehicleClass = "TTT_Vehicles_us";
-		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\desert\sanitaetshelikopter\camo1.paa", "\ttt_vehicles\us\desert\sanitaetshelikopter\camo2.paa", "\ttt_vehicles\us\desert\sanitaetshelikopter\camo3.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\us\desert\sanitaetshelikopter\camo1.paa", "\ttt_a3\ttt_vehicles\us\desert\sanitaetshelikopter\camo2.paa", "\ttt_a3\ttt_vehicles\us\desert\sanitaetshelikopter\camo3.paa"};
 		crew = "TTT_Weiss3_Desert";
 		displayName = "TTT Sanitaetshelikopter (Desert)";
 		typicalCargo[] = {};
@@ -728,7 +728,7 @@
 		scope = 2;
 		faction = "TTT_faction_us";
 		vehicleClass = "TTT_Vehicles_us";
-		hiddenSelectionsTextures[] = {"\ttt_vehicles\us\desert\logistikhelikopter\camo1.paa", "\ttt_vehicles\us\desert\logistikhelikopter\camo2.paa", "\ttt_vehicles\us\desert\logistikhelikopter\camo3.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\us\desert\logistikhelikopter\camo1.paa", "\ttt_a3\ttt_vehicles\us\desert\logistikhelikopter\camo2.paa", "\ttt_a3\ttt_vehicles\us\desert\logistikhelikopter\camo3.paa"};
 		crew = "TTT_Bussard1_Desert";
 		displayName = "TTT Logistikhelikopter (Desert)";
 		typicalCargo[] = {};

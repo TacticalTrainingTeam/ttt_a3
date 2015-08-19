@@ -10,7 +10,7 @@
 		vehicleClass = "TTT_Gelb_Flecktarn";
 		backpack = "TTT_Backpack_Opl_Flecktarn";
 		uniformClass = "TTT_Uniform_Gelb_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_yellow_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_yellow_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};	
 	};
@@ -21,7 +21,7 @@
 		vehicleClass = "TTT_Gelb_Flecktarn";
 		backpack = "TTT_Backpack_Funkerfac_Flecktarn";
 		uniformClass = "TTT_Uniform_Gelb_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_yellow_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_yellow_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_2_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_2_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
@@ -32,7 +32,7 @@
 		vehicleClass = "TTT_Gelb_Flecktarn";
 		backpack = "TTT_Backpack_Funkerfac_Flecktarn";
 		uniformClass = "TTT_Uniform_Gelb_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_yellow_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_yellow_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Flecktarn","ItemMap","ItemCompass","B_UavTerminal","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Flecktarn","ItemMap","ItemCompass","B_UavTerminal","ItemWatch","tf_anprc152"};
 	};
@@ -43,7 +43,7 @@
 		vehicleClass = "TTT_Gelb_Flecktarn";
 		backpack = "TTT_Backpack_Funkerfac_Flecktarn";
 		uniformClass = "TTT_Uniform_Gelb_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_yellow_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_yellow_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_4_Flecktarn","ItemMap","ItemCompass","B_UavTerminal","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_4_Flecktarn","ItemMap","ItemCompass","B_UavTerminal","ItemWatch","tf_anprc152"};
 	};
@@ -60,7 +60,7 @@
 		vehicleClass = "TTT_Grau_Flecktarn";
 		backpack = "TTT_Backpack_Truppfuehrer_Flecktarn";
 		uniformClass = "TTT_Uniform_Grau_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_grey_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_grey_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
@@ -71,7 +71,7 @@
 		vehicleClass = "TTT_Grau_Flecktarn";
 		backpack = "TTT_Backpack_Funkerfac_Flecktarn";
 		uniformClass = "TTT_Uniform_Grau_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_grey_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_grey_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_2_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_2_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -82,7 +82,7 @@
 		vehicleClass = "TTT_Grau_Flecktarn";
 		backpack = "TTT_Backpack_Gefechtssanitaeter_Flecktarn";
 		uniformClass = "TTT_Uniform_Grau_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_grey_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_grey_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_3_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_3_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -93,7 +93,7 @@
 		vehicleClass = "TTT_Grau_Flecktarn";
 		backpack = "TTT_Backpack_Pionier_Flecktarn";
 		uniformClass = "TTT_Uniform_Grau_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_grey_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_grey_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Marksman_Fleck","TTT_Helmet_4_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Marksman_Fleck","TTT_Helmet_4_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -104,7 +104,7 @@
 		vehicleClass = "TTT_Grau_Flecktarn";
 		backpack = "TTT_Backpack_Schuetze_Flecktarn";
 		uniformClass = "TTT_Uniform_Grau_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_grey_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_grey_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_5_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_5_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -114,7 +114,7 @@
 		author = "Tactical Training Team";
 		vehicleClass = "TTT_Grau_Flecktarn";
 		uniformClass = "TTT_Uniform_Grau_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_grey_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_grey_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152","B_UavTerminal"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152","B_UavTerminal"};
 	};
@@ -131,7 +131,7 @@
 		vehicleClass = "TTT_Gold_Flecktarn";
 		uniformClass = "TTT_Uniform_Gold_Flecktarn";
 		backpack = "TTT_Backpack_Truppfuehrer_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_gold_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_gold_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
@@ -143,7 +143,7 @@
 		vehicleClass = "TTT_Gold_Flecktarn";
 		uniformClass = "TTT_Uniform_Gold_Flecktarn";
 		backpack = "TTT_Backpack_Schuetze_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_gold_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_gold_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_2_Flecktarn","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152","cse_m_tablet"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_2_Flecktarn","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152","cse_m_tablet"};
 	};
@@ -154,7 +154,7 @@
 		vehicleClass = "TTT_Gold_Flecktarn";
 		backpack = "TTT_Backpack_Funkerfac_Flecktarn";
 		uniformClass = "TTT_Uniform_Gold_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_gold_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_gold_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -165,7 +165,7 @@
 		vehicleClass = "TTT_Gold_Flecktarn";
 		uniformClass = "TTT_Uniform_Gold_Flecktarn";
 		backpack = "TTT_Backpack_Schuetze_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_gold_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_gold_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Marksman_Fleck","TTT_Helmet_4_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Marksman_Fleck","TTT_Helmet_4_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -183,7 +183,7 @@
 		vehicleClass = "TTT_Gruen_Flecktarn";
 		uniformClass = "TTT_Uniform_Gruen_Flecktarn";
 		backpack = "TTT_Backpack_Truppfuehrer_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_green_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_green_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
@@ -194,7 +194,7 @@
 		vehicleClass = "TTT_Gruen_Flecktarn";
 		backpack = "TTT_Backpack_Funkerfac_Flecktarn";
 		uniformClass = "TTT_Uniform_Gruen_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_green_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_green_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_2_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_2_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -205,7 +205,7 @@
 		vehicleClass = "TTT_Gruen_Flecktarn";
 		backpack = "TTT_Backpack_Gefechtssanitaeter_Flecktarn";
 		uniformClass = "TTT_Uniform_Gruen_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_green_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_green_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_3_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_3_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -216,7 +216,7 @@
 		vehicleClass = "TTT_Gruen_Flecktarn";
 		backpack = "TTT_Backpack_Gefechtssanitaeter_Flecktarn";
 		uniformClass = "TTT_Uniform_Gruen_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_green_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_green_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_4_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_3_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -233,7 +233,7 @@
 		vehicleClass = "TTT_Braun_Flecktarn";
 		uniformClass = "TTT_Uniform_Braun_Flecktarn";
 		backpack = "TTT_Backpack_Truppfuehrer_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_brown_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_brown_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
@@ -244,7 +244,7 @@
 		vehicleClass = "TTT_Braun_Flecktarn";
 		backpack = "TTT_Backpack_Funkerfac_Flecktarn";
 		uniformClass = "TTT_Uniform_Braun_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_brown_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_brown_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_2_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_2_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -255,7 +255,7 @@
 		vehicleClass = "TTT_Braun_Flecktarn";
 		backpack = "TTT_Backpack_Gefechtssanitaeter_Flecktarn";
 		uniformClass = "TTT_Uniform_Braun_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_brown_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_brown_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_3_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_3_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -272,7 +272,7 @@
 		vehicleClass = "TTT_Schwarz_Flecktarn";
 		backpack = "TTT_Backpack_Truppfuehrer_Flecktarn";
 		uniformClass = "TTT_Uniform_Schwarz_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_black_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_black_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
@@ -283,7 +283,7 @@
 		vehicleClass = "TTT_Schwarz_Flecktarn";
 		backpack = "TTT_Backpack_Grenadier_Flecktarn";
 		uniformClass = "TTT_Uniform_Schwarz_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_black_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_black_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Grenadier_Fleck","TTT_Helmet_2_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Grenadier_Fleck","TTT_Helmet_2_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -294,7 +294,7 @@
 		vehicleClass = "TTT_Schwarz_Flecktarn";
 		backpack = "TTT_Backpack_Mgassistent_Flecktarn";
 		uniformClass = "TTT_Uniform_Schwarz_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_black_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_black_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -305,7 +305,7 @@
 		vehicleClass = "TTT_Schwarz_Flecktarn";
 		backpack = "TTT_Backpack_Mgschuetze_Flecktarn";
 		uniformClass = "TTT_Uniform_Schwarz_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_black_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_black_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Autorifleman_Fleck","TTT_Helmet_4_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Autorifleman_Fleck","TTT_Helmet_4_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -316,7 +316,7 @@
 		vehicleClass = "TTT_Schwarz_Flecktarn";
 		backpack = "TTT_Backpack_Schuetze_Flecktarn";
 		uniformClass = "TTT_Uniform_Schwarz_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_black_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_black_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_5_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_5_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -327,7 +327,7 @@
 		vehicleClass = "TTT_Schwarz_Flecktarn";
 		backpack = "TTT_Backpack_Atschuetze_Flecktarn";
 		uniformClass = "TTT_Uniform_Schwarz_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_black_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_black_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -344,7 +344,7 @@
 		vehicleClass = "TTT_Rot_Flecktarn";
 		backpack = "TTT_Backpack_Truppfuehrer_Flecktarn";
 		uniformClass = "TTT_Uniform_Rot_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_red_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_red_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
@@ -355,7 +355,7 @@
 		vehicleClass = "TTT_Rot_Flecktarn";
 		backpack = "TTT_Backpack_Grenadier_Flecktarn";
 		uniformClass = "TTT_Uniform_Rot_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_red_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_red_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Grenadier_Fleck","TTT_Helmet_2_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Grenadier_Fleck","TTT_Helmet_2_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -366,7 +366,7 @@
 		vehicleClass = "TTT_Rot_Flecktarn";
 		backpack = "TTT_Backpack_Mgschuetze_Flecktarn";
 		uniformClass = "TTT_Uniform_Rot_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_red_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_red_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -377,7 +377,7 @@
 		vehicleClass = "TTT_Rot_Flecktarn";
 		backpack = "TTT_Backpack_Mgschuetze_Flecktarn";
 		uniformClass = "TTT_Uniform_Rot_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_red_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_red_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Autorifleman_Fleck","TTT_Helmet_4_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Autorifleman_Fleck","TTT_Helmet_4_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -388,7 +388,7 @@
 		vehicleClass = "TTT_Rot_Flecktarn";
 		backpack = "TTT_Backpack_AtSchuetze_Flecktarn";
 		uniformClass = "TTT_Uniform_Rot_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_red_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_red_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_5_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_5_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -399,7 +399,7 @@
 		vehicleClass = "TTT_Rot_Flecktarn";
 		backpack = "TTT_Backpack_Atschuetze_Flecktarn";
 		uniformClass = "TTT_Uniform_Rot_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_red_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_red_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -416,7 +416,7 @@
 		vehicleClass = "TTT_Bronze_Flecktarn";
 		backpack = "TTT_Backpack_Pilot_Flecktarn";
 		uniformClass = "TTT_Uniform_Bronze_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_bronx_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_bronx_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
@@ -427,7 +427,7 @@
 		vehicleClass = "TTT_Bronze_Flecktarn";
 		backpack = "TTT_Backpack_Schuetze_Flecktarn";
 		uniformClass = "TTT_Uniform_Bronze_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_bronx_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_bronx_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
 	};
@@ -438,7 +438,7 @@
 		vehicleClass = "TTT_Bronze_Flecktarn";
 		backpack = "TTT_Backpack_Schuetze_Flecktarn";
 		uniformClass = "TTT_Uniform_Bronze_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_bronx_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_bronx_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
 	};
@@ -449,7 +449,7 @@
 		vehicleClass = "TTT_Bronze_Flecktarn";
 		backpack = "TTT_Backpack_Pilot_Flecktarn";
 		uniformClass = "TTT_Uniform_Bronze_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_bronx_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_bronx_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
@@ -460,7 +460,7 @@
 		vehicleClass = "TTT_Bronze_Flecktarn";
 		backpack = "TTT_Backpack_Schuetze_Flecktarn";
 		uniformClass = "TTT_Uniform_Bronze_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_bronx_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_bronx_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
 	};
@@ -471,7 +471,7 @@
 		vehicleClass = "TTT_Bronze_Flecktarn";
 		backpack = "TTT_Backpack_Schuetze_Flecktarn";
 		uniformClass = "TTT_Uniform_Bronze_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_bronx_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_bronx_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","BWA3_CrewmanKSK_Fleck_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
 	};
@@ -488,7 +488,7 @@
 		vehicleClass = "TTT_Blau_Flecktarn";
 		backpack = "TTT_Backpack_Truppfuehrer_Flecktarn";
 		uniformClass = "TTT_Uniform_Blau_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_blue_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_blue_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
@@ -499,7 +499,7 @@
 		vehicleClass = "TTT_Blau_Flecktarn";
 		backpack = "TTT_Backpack_Grenadier_Flecktarn";
 		uniformClass = "TTT_Uniform_Blau_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_blue_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_blue_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Grenadier_Fleck","TTT_Helmet_2_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Grenadier_Fleck","TTT_Helmet_2_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -511,7 +511,7 @@
 		vehicleClass = "TTT_Blau_Flecktarn";
 		backpack = "TTT_Backpack_Mgassistent_Flecktarn";
 		uniformClass = "TTT_Uniform_Blau_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_blue_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_blue_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -522,7 +522,7 @@
 		vehicleClass = "TTT_Blau_Flecktarn";
 		backpack = "TTT_Backpack_Mgschuetze_Flecktarn";
 		uniformClass = "TTT_Uniform_Blau_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_blue_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_blue_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_4_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_4_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -533,7 +533,7 @@
 		vehicleClass = "TTT_Blau_Flecktarn";
 		backpack = "TTT_Backpack_Pionier_Flecktarn";
 		uniformClass = "TTT_Uniform_Blau_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_blue_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_blue_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_5_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_5_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -544,7 +544,7 @@
 		vehicleClass = "TTT_Blau_Flecktarn";
 		backpack = "TTT_Backpack_Pionier_Flecktarn";
 		uniformClass = "TTT_Uniform_Blau_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_blue_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_blue_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -561,7 +561,7 @@
 		vehicleClass = "TTT_Violett_Flecktarn";
 		backpack = "TTT_Backpack_Truppfuehrer_Flecktarn";
 		uniformClass = "TTT_Uniform_Violett_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_violet_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_violet_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Fleck","TTT_Helmet_1_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
@@ -572,7 +572,7 @@
 		vehicleClass = "TTT_Violett_Flecktarn";
 		backpack = "TTT_Backpack_Grenadier_Flecktarn";
 		uniformClass = "TTT_Uniform_Violett_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_violet_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_violet_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Grenadier_Fleck","TTT_Helmet_2_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Grenadier_Fleck","TTT_Helmet_2_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -583,7 +583,7 @@
 		vehicleClass = "TTT_Violett_Flecktarn";
 		backpack = "TTT_Backpack_Mgassistent_Flecktarn";
 		uniformClass = "TTT_Uniform_Violett_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_violet_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_violet_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_3_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -594,7 +594,7 @@
 		vehicleClass = "TTT_Violett_Flecktarn";
 		backpack = "TTT_Backpack_Mgschuetze_Flecktarn";
 		uniformClass = "TTT_Uniform_Violett_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_violet_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_violet_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_4_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_4_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -605,7 +605,7 @@
 		vehicleClass = "TTT_Violett_Flecktarn";
 		backpack = "TTT_Backpack_Pionier_Flecktarn";
 		uniformClass = "TTT_Uniform_Violett_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_violet_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_violet_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_5_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_5_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -616,7 +616,7 @@
 		vehicleClass = "TTT_Violett_Flecktarn";
 		backpack = "TTT_Backpack_Pionier_Flecktarn";
 		uniformClass = "TTT_Uniform_Violett_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_violet_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_violet_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_6_Flecktarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
@@ -633,7 +633,7 @@
 		vehicleClass = "TTT_Weiss_Flecktarn";
 		backpack = "TTT_Backpack_Feldarzt_Flecktarn";
 		uniformClass = "TTT_Uniform_Weiss_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_white_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_white_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_1_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_1_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
@@ -643,7 +643,7 @@
 		vehicleClass = "TTT_Weiss_Flecktarn";
 		backpack = "TTT_Backpack_Feldarzt_Flecktarn";
 		uniformClass = "TTT_Uniform_Weiss_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_white_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_white_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_2_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Fleck","TTT_Helmet_1_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
@@ -654,7 +654,7 @@
 		vehicleClass = "TTT_Weiss_Flecktarn";
 		backpack = "TTT_Backpack_Feldarzt_Flecktarn";
 		uniformClass = "TTT_Uniform_Weiss_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_white_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_white_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_3_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_3_Flecktarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
@@ -665,7 +665,7 @@
 		vehicleClass = "TTT_Weiss_Flecktarn";
 		backpack = "TTT_Backpack_Pilot_Flecktarn";
 		uniformClass = "TTT_Uniform_Weiss_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_white_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_white_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_Falcon","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_Falcon","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
@@ -682,7 +682,7 @@
 		vehicleClass = "TTT_Adler_Flecktarn";
 		backpack = "TTT_Backpack_Pilot_Flecktarn";
 		uniformClass = "TTT_Uniform_Adler_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_silver_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_silver_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_Eagle","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_Eagle","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
@@ -693,7 +693,7 @@
 		vehicleClass = "TTT_Adler_Flecktarn";
 		backpack = "TTT_Backpack_Pilot_Flecktarn";
 		uniformClass = "TTT_Uniform_Adler_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_silver_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_silver_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_Eagle","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_Eagle","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
@@ -710,7 +710,7 @@
 		vehicleClass = "TTT_Bussard_Flecktarn";
 		backpack = "TTT_Backpack_Pilot_Flecktarn";
 		uniformClass = "TTT_Uniform_Bussard_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_silver_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_silver_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_Buzzard","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_Buzzard","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};
@@ -721,7 +721,7 @@
 		vehicleClass = "TTT_Bussard_Flecktarn";
 		backpack = "TTT_Backpack_Pilot_Flecktarn";
 		uniformClass = "TTT_Uniform_Bussard_Flecktarn";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\flecktarn\uniforms\TTT_uniform_silver_flecktarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_silver_flecktarn.paa"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_Buzzard","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Fleck","TTT_Helmet_Buzzard","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 	};

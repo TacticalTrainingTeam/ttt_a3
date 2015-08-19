@@ -404,7 +404,7 @@
 				magazine= "rhs_fim92_mag";
 				count = 2;
 				
-			}
+			};
 		};
 		
 		class TransportWeapons {

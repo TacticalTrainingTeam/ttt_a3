@@ -142,7 +142,7 @@ class TTT_Uniform_Violett_Tropentarn : TTT_Uniform_Base {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Helm I";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\tropentarn\helmets\TTT_helmet_1_tropentarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\helmets\TTT_helmet_1_tropentarn.paa"};
 		
 		class ItemInfo : TTT_Helmet_ItemInfo_Base {};
 	};
@@ -151,7 +151,7 @@ class TTT_Uniform_Violett_Tropentarn : TTT_Uniform_Base {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Helm II";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\tropentarn\helmets\TTT_helmet_2_tropentarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\helmets\TTT_helmet_2_tropentarn.paa"};
 		
 		class ItemInfo : TTT_Helmet_ItemInfo_Base {};
 	};
@@ -160,7 +160,7 @@ class TTT_Uniform_Violett_Tropentarn : TTT_Uniform_Base {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Helm III";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\tropentarn\helmets\TTT_helmet_3_tropentarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\helmets\TTT_helmet_3_tropentarn.paa"};
 		
 		class ItemInfo : TTT_Helmet_ItemInfo_Base {};
 	};
@@ -169,7 +169,7 @@ class TTT_Uniform_Violett_Tropentarn : TTT_Uniform_Base {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Helm IV";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\tropentarn\helmets\TTT_helmet_4_tropentarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\helmets\TTT_helmet_4_tropentarn.paa"};
 		
 		class ItemInfo : TTT_Helmet_ItemInfo_Base {};
 	};
@@ -178,7 +178,7 @@ class TTT_Uniform_Violett_Tropentarn : TTT_Uniform_Base {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Helm V";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\tropentarn\helmets\TTT_helmet_5_tropentarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\helmets\TTT_helmet_5_tropentarn.paa"};
 		
 		class ItemInfo : TTT_Helmet_ItemInfo_Base {};
 	};
@@ -187,7 +187,7 @@ class TTT_Uniform_Violett_Tropentarn : TTT_Uniform_Base {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Helm VI";
-		hiddenSelectionsTextures[] = {"\ttt_units\bw\tropentarn\helmets\TTT_helmet_6_tropentarn.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\helmets\TTT_helmet_6_tropentarn.paa"};
 		
 		class ItemInfo : TTT_Helmet_ItemInfo_Base {};
 	};

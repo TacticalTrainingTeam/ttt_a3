@@ -9,7 +9,7 @@
 		scope = 2;
 		faction = "TTT_faction_bw";
 		vehicleClass = "TTT_Vehicles_bw";
-		hiddenSelectionsTextures[] = {"\ttt_vehicles\bw\tropentarn\truppfahrzeug\camo1.paa", "\ttt_vehicles\bw\tropentarn\truppfahrzeug\camo2.paa", "\ttt_vehicles\bw\tropentarn\truppfahrzeug\camo3.paa", "\ttt_vehicles\bw\tropentarn\truppfahrzeug\camo4.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\bw\tropentarn\truppfahrzeug\camo1.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\truppfahrzeug\camo2.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\truppfahrzeug\camo3.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\truppfahrzeug\camo4.paa"};
 		crew = "TTT_Schwarz1_Tropentarn";
 		displayName = "TTT Truppfahrzeug MG (Tropentarn)";
 		typicalCargo[] = {};
@@ -159,7 +159,7 @@
 		scope = 2;
 		faction = "TTT_faction_bw";
 		vehicleClass = "TTT_Vehicles_bw";
-		hiddenSelectionsTextures[] = {"\ttt_vehicles\bw\tropentarn\truppfahrzeug\camo1.paa", "\ttt_vehicles\bw\tropentarn\truppfahrzeug\camo2.paa", "\ttt_vehicles\bw\tropentarn\truppfahrzeug\camo3.paa", "\ttt_vehicles\bw\tropentarn\truppfahrzeug\camo4.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\bw\tropentarn\truppfahrzeug\camo1.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\truppfahrzeug\camo2.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\truppfahrzeug\camo3.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\truppfahrzeug\camo4.paa"};
 		crew = "TTT_Schwarz1_Tropentarn";
 		displayName = "TTT Truppfahrzeug GL (Tropentarn)";
 		typicalCargo[] = {};
@@ -314,7 +314,7 @@
 		scope = 2;
 		faction = "TTT_faction_bw";
 		vehicleClass = "TTT_Vehicles_bw";
-		hiddenSelectionsTextures[] = {"\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo1.paa", "\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo2.paa", "\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo3.paa", "\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo4.paa", "\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo5.paa", "\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo6.paa", "\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo7.paa", "\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo8.paa", "\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo9.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo1.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo2.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo3.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo4.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo5.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo6.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo7.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo8.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo9.paa"};
 		crew = "TTT_Schwarz1_Tropentarn";
 		displayName = "TTT OPL-Fahrzeug (Tropentarn)";
 		typicalCargo[] = {};
@@ -366,7 +366,7 @@
 		scope = 2;
 		faction = "TTT_faction_bw";
 		vehicleClass = "TTT_Vehicles_bw";
-		hiddenSelectionsTextures[] = {"\ttt_vehicles\bw\tropentarn\schuetzenpanzer\camo1.paa", "\ttt_vehicles\bw\tropentarn\schuetzenpanzer\camo2.paa", "\ttt_vehicles\bw\tropentarn\schuetzenpanzer\camo3.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\bw\tropentarn\schuetzenpanzer\camo1.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\schuetzenpanzer\camo2.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\schuetzenpanzer\camo3.paa"};
 		crew = "TTT_Bronze1_Tropentarn";
 		displayName = "TTT Schuetzenpanzer (Tropentarn)";
 		typicalCargo[] = {};
@@ -445,7 +445,7 @@
 		scope = 2;
 		faction = "TTT_faction_bw";
 		vehicleClass = "TTT_Vehicles_bw";
-		//hiddenSelectionsTextures[] = {"\ttt_vehicles\bw\tropentarn\kampfpanzer\camo1.paa", "\ttt_vehicles\bw\tropentarn\kampfpanzer\camo2.paa", "\ttt_vehicles\bw\tropentarn\kampfpanzer\camo3.paa"};
+		//hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\bw\tropentarn\kampfpanzer\camo1.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\kampfpanzer\camo2.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\kampfpanzer\camo3.paa"};
 		crew = "TTT_Bronze1_Tropentarn";
 		displayName = "TTT Kampfpanzer (Tropentarn)";
 		typicalCargo[] = {};
@@ -520,11 +520,11 @@
 		scope = 2;
 		faction = "TTT_faction_bw";
 		vehicleClass = "TTT_Vehicles_bw";
-		hiddenSelectionsTextures[] = {"\ttt_vehicles\bw\tropentarn\kampfhelikopter\camo1.paa", "\ttt_vehicles\bw\tropentarn\kampfhelikopter\camo2.paa", "\ttt_vehicles\bw\tropentarn\kampfhelikopter\camo3.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\bw\tropentarn\kampfhelikopter\camo1.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\kampfhelikopter\camo2.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\kampfhelikopter\camo3.paa"};
 		crew = "TTT_Adler1_Tropentarn";
 		displayName = "TTT Kampfhelikopter (Tropentarn)";
 		typicalCargo[] = {};
-		accuracy=1000
+		accuracy=1000;
 
 		class TransportWeapons {
 			
@@ -554,7 +554,7 @@
 		scope = 2;
 		faction = "TTT_faction_bw";
 		vehicleClass = "TTT_Vehicles_bw";
-		hiddenSelectionsTextures[] = {"\ttt_vehicles\bw\tropentarn\sanitaetshelikopter\camo1.paa", "\ttt_vehicles\bw\tropentarn\sanitaetshelikopter\camo2.paa", "\ttt_vehicles\bw\tropentarn\sanitaetshelikopter\camo3.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\bw\tropentarn\sanitaetshelikopter\camo1.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\sanitaetshelikopter\camo2.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\sanitaetshelikopter\camo3.paa"};
 		crew = "TTT_Weiss3_Tropentarn";
 		displayName = "TTT Sanitaetshelikopter (Tropentarn)";
 		typicalCargo[] = {};
@@ -628,7 +628,7 @@
 			"camo2",
 			"camo3"
 		};
-		hiddenSelectionsTextures[] = {"\ttt_vehicles\bw\tropentarn\logistikhelikopter\camo1.paa", "\ttt_vehicles\bw\tropentarn\logistikhelikopter\camo2.paa", "\ttt_vehicles\bw\tropentarn\logistikhelikopter\camo3.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\bw\tropentarn\logistikhelikopter\camo1.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\logistikhelikopter\camo2.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\logistikhelikopter\camo3.paa"};
 		crew = "TTT_Bussard1_Tropentarn";
 		displayName = "TTT Logistikhelikopter (Tropentarn)";
 		typicalCargo[] = {};

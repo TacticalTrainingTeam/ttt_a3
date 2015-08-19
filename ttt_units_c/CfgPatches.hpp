@@ -350,7 +350,7 @@ class CfgPatches {
 					"TTT_Vest_Lite_Gold_Desert",
 					"TTT_Vest_Heavy_Grey_Desert",
 					"TTT_Vest_Lite_Grey_Desert",
-					"TTT_Vest_Crew_Desert"					
+					"TTT_Vest_Crew_Desert",					
 					
 					"TTT_Vest_Heavy_Yellow_Woodland",
 					"TTT_Vest_Lite_Yellow_Woodland",
@@ -370,7 +370,7 @@ class CfgPatches {
 					"TTT_Vest_Lite_Gold_Woodland",
 					"TTT_Vest_Heavy_Grey_Woodland",
 					"TTT_Vest_Lite_Grey_Woodland",
-					"TTT_Vest_Crew_Woodland",
+					"TTT_Vest_Crew_Woodland"
 				};
 		requiredAddons[] = {"ttt_main","ttt_units"};
 	};
