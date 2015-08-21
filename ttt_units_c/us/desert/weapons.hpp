@@ -3,17 +3,18 @@
 	### Uniformen
 	#############################################################
 	*/
-	class TTT_Uniform_Gelb_Desert : TTT_Uniform_Base {
+	class TTT_Uniform_Gelb_Desert : TTT_Uniform_Base_Us {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Uniform Gelb (Desert)";
+		
 		
 		class ItemInfo : TTT_Uniform_ItemInfo {
 			uniformClass = "TTT_Gelb1_Desert";
 		};
 	};
 	
-	class TTT_Uniform_Grau_Desert : TTT_Uniform_Base {
+	class TTT_Uniform_Grau_Desert : TTT_Uniform_Base_Us {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Uniform Grau (Desert)";
@@ -23,7 +24,7 @@
 		};
 	};
 	
-	class TTT_Uniform_Gold_Desert : TTT_Uniform_Base {
+	class TTT_Uniform_Gold_Desert : TTT_Uniform_Base_Us {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Uniform Gold (Desert)";
@@ -33,7 +34,7 @@
 		};
 	};
 	
-	class TTT_Uniform_Gruen_Desert : TTT_Uniform_Base {
+	class TTT_Uniform_Gruen_Desert : TTT_Uniform_Base_Us {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Uniform Gruen (Desert)";
@@ -43,7 +44,7 @@
 		};
 	};
 	
-	class TTT_Uniform_Braun_Desert : TTT_Uniform_Base {
+	class TTT_Uniform_Braun_Desert : TTT_Uniform_Base_Us {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Uniform Braun (Desert)";
@@ -53,7 +54,7 @@
 		};
 	};
 	
-	class TTT_Uniform_Schwarz_Desert : TTT_Uniform_Base {
+	class TTT_Uniform_Schwarz_Desert : TTT_Uniform_Base_Us {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Uniform Schwarz (Desert)";
@@ -63,7 +64,7 @@
 		};
 	};
 	
-	class TTT_Uniform_Rot_Desert : TTT_Uniform_Base {
+	class TTT_Uniform_Rot_Desert : TTT_Uniform_Base_Us {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Uniform Rot (Desert)";
@@ -73,7 +74,7 @@
 		};
 	};	
 	
-	class TTT_Uniform_Bronze_Desert : TTT_Uniform_Base {
+	class TTT_Uniform_Bronze_Desert : TTT_Uniform_Base_Us {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Uniform Bronze (Desert)";
@@ -83,7 +84,7 @@
 		};
 	};
 	
-	class TTT_Uniform_Blau_Desert : TTT_Uniform_Base {
+	class TTT_Uniform_Blau_Desert : TTT_Uniform_Base_Us {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Uniform Blau (Desert)";
@@ -93,7 +94,7 @@
 		};
 	};
 
-class TTT_Uniform_Violett_Desert : TTT_Uniform_Base {
+class TTT_Uniform_Violett_Desert : TTT_Uniform_Base_Us {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Uniform Violett (Desert)";
@@ -103,7 +104,7 @@ class TTT_Uniform_Violett_Desert : TTT_Uniform_Base {
 		};
 	};		
 	
-	class TTT_Uniform_Weiss_Desert : TTT_Uniform_Base {
+	class TTT_Uniform_Weiss_Desert : TTT_Uniform_Base_Us {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Uniform Weiss (Desert)";
@@ -113,7 +114,7 @@ class TTT_Uniform_Violett_Desert : TTT_Uniform_Base {
 		};
 	};
 	
-	class TTT_Uniform_Adler_Desert : TTT_Uniform_Base {
+	class TTT_Uniform_Adler_Desert : TTT_Uniform_Base_Us {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Uniform Adler (Desert)";
@@ -123,7 +124,7 @@ class TTT_Uniform_Violett_Desert : TTT_Uniform_Base {
 		};
 	};
 	
-	class TTT_Uniform_Bussard_Desert : TTT_Uniform_Base {
+	class TTT_Uniform_Bussard_Desert : TTT_Uniform_Base_Us {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Uniform Bussard (Desert)";

@@ -5,7 +5,7 @@
 	*/
 	class TTT_Uniform_Gelb_Flecktarn : TTT_Uniform_Gelb_Tropentarn {
 		displayName = "TTT Uniform Gelb (Flecktarn)";
-		
+			
 		class ItemInfo : TTT_Uniform_ItemInfo {
 			uniformClass = "TTT_Gelb1_Flecktarn";
 		};
@@ -13,7 +13,7 @@
 	
 	class TTT_Uniform_Grau_Flecktarn : TTT_Uniform_Grau_Tropentarn {
 		displayName = "TTT Uniform Grau (Flecktarn)";
-		
+
 		class ItemInfo : TTT_Uniform_ItemInfo {
 			uniformClass = "TTT_Grau1_Flecktarn";
 		};
@@ -21,7 +21,7 @@
 	
 	class TTT_Uniform_Gold_Flecktarn : TTT_Uniform_Gold_Tropentarn {
 		displayName = "TTT Uniform Gold (Flecktarn)";
-		
+
 		class ItemInfo : TTT_Uniform_ItemInfo {
 			uniformClass = "TTT_Gold1_Flecktarn";
 		};
