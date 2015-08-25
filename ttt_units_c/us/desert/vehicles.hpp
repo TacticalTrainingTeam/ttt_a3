@@ -671,8 +671,8 @@
 		vehicleClass = "TTT_Blau_Desert";
 		uniformClass = "TTT_Uniform_Blau_Desert";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\us\desert\uniforms\TTT_uniform_blue_desert.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Blue_Desert","TTT_Helmet_5_Desert","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Blue_Desert","TTT_Helmet_5_Desert","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Blue_Desert","TTT_Helmet_3_Desert","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Blue_Desert","TTT_Helmet_3_Desert","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 	};
 	
 	//Blau 4 (MG-Schuetze)
