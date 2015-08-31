@@ -35,6 +35,9 @@
 			};
 		};
 		
+		class TransportBackpacks{
+		};
+		
 		class TransportItems {
 		};
 	};
@@ -66,6 +69,9 @@
 		};
 		
 		class TransportItems {
+		};
+		
+		class TransportBackpacks{
 		};
 	};
 	
@@ -117,6 +123,9 @@
 		
 		class TransportItems {
 		};
+		
+		class TransportBackpacks{
+		};
 	};
 	
 	class TTT_Logistik_Spezialmunition_bw : Box_NATO_Ammo_F {
@@ -167,6 +176,9 @@
 		
 		class TransportItems {
 		};
+		
+		class TransportBackpacks{
+		};
 	};
 	
 	class TTT_Logistik_Pionierausruestung_bw : Box_NATO_AmmoOrd_F {
@@ -205,6 +217,9 @@
 				name = "Toolkit";
 				count = 2;
 			};
+		};
+		
+		class TransportBackpacks{
 		};
 	};
 	
@@ -256,6 +271,9 @@
 		
 		class TransportItems {
 		};
+		
+		class TransportBackpacks{
+		};
 	};
 	
 	class TTT_Logistik_Ausruestung_bw : Box_NATO_Support_F {
@@ -269,6 +287,9 @@
 				magazine = "Laserbatteries";
 				count = 1;
 			};
+		};
+		
+		class TransportBackpacks{
 		};
 		
 		class TransportWeapons {
@@ -427,6 +448,9 @@
 		
 		class TransportItems {
 		};
+		
+		class TransportBackpacks{
+		};
 	};
 	
 	class TTT_Logistik_Werfermunition_bw : Box_NATO_WpsLaunch_F {
@@ -450,6 +474,9 @@
 		class TransportWeapons {
 		};
 		
+		class TransportBackpacks{
+		};
+		
 		class TransportItems {
 		};
 	};
@@ -465,6 +492,9 @@
 		};
 		
 		class TransportWeapons {
+		};
+		
+		class TransportBackpacks{
 		};
 		
 		class TransportItems {

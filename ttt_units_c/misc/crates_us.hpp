@@ -38,6 +38,9 @@
 		
 		class TransportItems {
 		};
+		
+		class TransportBackpacks{
+		};
 	};
 	
 	class TTT_Logistik_Spezialwaffen_us : Box_NATO_WpsSpecial_F {
@@ -73,6 +76,9 @@
 		};
 		
 		class TransportItems {
+		};		
+		
+		class TransportBackpacks{
 		};
 	};
 	
@@ -129,6 +135,9 @@
 		
 		class TransportItems {
 		};
+		
+		class TransportBackpacks{
+		};
 	};
 	
 	class TTT_Logistik_Spezialmunition_us : Box_NATO_Ammo_F {
@@ -159,6 +168,9 @@
 		};
 		
 		class TransportItems {
+		};
+		
+		class TransportBackpacks{
 		};
 	};
 	
@@ -198,6 +210,9 @@
 				name = "Toolkit";
 				count = 2;
 			};
+		};
+		
+		class TransportBackpacks{
 		};
 	};
 	
@@ -248,6 +263,9 @@
 		};
 		
 		class TransportItems {
+		};
+		
+		class TransportBackpacks{
 		};
 	};
 	
@@ -407,6 +425,9 @@
 			};
 		};
 		
+		class TransportBackpacks{
+		};
+		
 		class TransportWeapons {
 			class _xx_rhs_weap_M136 {
 				weapon = "rhs_weap_M136";
@@ -431,6 +452,10 @@
 		
 		class TransportMagazines {
 			
+		};
+		
+		
+		class TransportBackpacks{
 		};
 		
 		class TransportWeapons {
