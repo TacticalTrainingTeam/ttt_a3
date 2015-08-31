@@ -22,7 +22,7 @@
 	
 	class TTT_Uniform_Base_Us : Uniform_Base {
 		displayName = "TTT Uniform Base US"
-		picture = "\ttt_a3\ttt_units\misc\TTT_preview_icon_us.paa";
+		picture = "\ttt_a3\ttt_units\misc\TTT_preview_icon_us_mcam_ca.paa";
 		
 		class TTT_Uniform_ItemInfo : UniformItem {
 			uniformModel = "-";
