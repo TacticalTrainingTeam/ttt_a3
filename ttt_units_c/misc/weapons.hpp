@@ -23,7 +23,7 @@
 	class TTT_Uniform_Base_Us : Uniform_Base {
 		scope = 0;
 		displayName = "TTT Uniform Base US"
-		picture = "\ttt_a3\ttt_units\misc\TTT_preview_icon_us_mcam_ca.paa";
+		picture = "\A3\characters_f\data\ui\icon_u_b_combatuniform_mcam_ca.paa";
 		model = "\A3\characters_f\Common\Suitpacks\suitpack_universal_F";
 		
 		class TTT_Uniform_ItemInfo : UniformItem {
