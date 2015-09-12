@@ -289,9 +289,6 @@
 			};
 		};
 		
-		class TransportBackpacks{
-		};
-		
 		class TransportWeapons {
 		};
 		
