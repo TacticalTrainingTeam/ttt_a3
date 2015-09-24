@@ -27,7 +27,7 @@
 	
 	class TTT_Oplfahrzeug_Woodland : TTT_Oplfahrzeug_Desert {
 		author = "Tactical Training Team";
-		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo1.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo2.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo3.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo4.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo5.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo6.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo7.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo8.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo9.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo1.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo2.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo3.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo4.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo5.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo6.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo7.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo8.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo9.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo10.paa"};
 		crew = "TTT_Gelb1_Woodland";
 		displayName = "TTT OPL-Fahrzeug (Woodland)";
 	};
@@ -40,7 +40,7 @@
 	
 	class TTT_Sanitaetsfahrzeug_Woodland : TTT_Sanitaetsfahrzeug_Desert {
 		author = "Tactical Training Team";
-		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo1.paa", "\ttt_a3\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo2.paa", "\ttt_a3\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo3.paa", "\ttt_a3\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo4.paa", "\ttt_a3\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo5.paa", "\ttt_a3\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo6.paa", "\ttt_a3\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo7.paa", "\ttt_a3\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo8.paa", "\ttt_a3\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo9.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo1.paa", "\ttt_a3\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo2.paa", "\ttt_a3\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo3.paa", "\ttt_a3\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo4.paa", "\ttt_a3\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo5.paa", "\ttt_a3\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo6.paa", "\ttt_a3\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo7.paa", "\ttt_a3\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo8.paa", "\ttt_a3\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo9.paa", "\ttt_a3\ttt_vehicles\us\woodland\sanitaetsfahrzeug\camo10.paa"};
 		crew = "TTT_Weiss1_Woodland";
 		displayName = "TTT Sanitaetsfahrzeug (Woodland)";
 	};
@@ -53,7 +53,7 @@
 	
 	class TTT_TransporterLeichtOffen_Woodland : TTT_TransporterLeichtOffen_Desert {
 		author = "Tactical Training Team";
-		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\us\woodland\transporterLeichtOffen\camo1.paa", "\ttt_a3\ttt_vehicles\us\woodland\transporterLeichtOffen\camo2.paa", "\ttt_a3\ttt_vehicles\us\woodland\transporterLeichtOffen\camo3.paa", "\ttt_a3\ttt_vehicles\us\woodland\transporterLeichtOffen\camo4.paa", "\ttt_a3\ttt_vehicles\us\woodland\transporterLeichtOffen\camo5.paa", "\ttt_a3\ttt_vehicles\us\woodland\transporterLeichtOffen\camo6.paa", "\ttt_a3\ttt_vehicles\us\woodland\transporterLeichtOffen\camo7.paa", "\ttt_a3\ttt_vehicles\us\woodland\transporterLeichtOffen\camo8.paa", "\ttt_a3\ttt_vehicles\us\woodland\transporterLeichtOffen\camo9.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\us\woodland\transporterLeichtOffen\camo1.paa", "\ttt_a3\ttt_vehicles\us\woodland\transporterLeichtOffen\camo2.paa", "\ttt_a3\ttt_vehicles\us\woodland\transporterLeichtOffen\camo3.paa", "\ttt_a3\ttt_vehicles\us\woodland\transporterLeichtOffen\camo4.paa", "\ttt_a3\ttt_vehicles\us\woodland\transporterLeichtOffen\camo5.paa", "\ttt_a3\ttt_vehicles\us\woodland\transporterLeichtOffen\camo6.paa", "\ttt_a3\ttt_vehicles\us\woodland\transporterLeichtOffen\camo7.paa", "\ttt_a3\ttt_vehicles\us\woodland\transporterLeichtOffen\camo8.paa", "\ttt_a3\ttt_vehicles\us\woodland\transporterLeichtOffen\camo9.paa", "\ttt_a3\ttt_vehicles\us\woodland\transporterLeichtOffen\camo10.paa"};
 		crew = "TTT_Schwarz1_Woodland";
 		displayName = "TTT Transporter leicht (offen) (Woodland)";
 	};
