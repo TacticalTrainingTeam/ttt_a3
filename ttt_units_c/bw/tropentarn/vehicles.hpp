@@ -245,8 +245,8 @@
 		vehicleClass = "TTT_Gold_Tropentarn";
 		uniformClass = "TTT_Uniform_Gold_Tropentarn";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_gold_tropentarn.paa"};
-		items[] = {"BWA3_optic_NSV600","BWA3_muzzle_snds_G36","NVGoggles","cse_battery_darter"};
-		respawnItems[] = {"BWA3_optic_NSV600","BWA3_muzzle_snds_G36","NVGoggles","cse_battery_darter"};
+		items[] = {"BWA3_optic_NSV600","BWA3_muzzle_snds_G36","NVGoggles","ACE_UAVBattery"};
+		respawnItems[] = {"BWA3_optic_NSV600","BWA3_muzzle_snds_G36","NVGoggles","ACE_UAVBattery"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_4_Tropentarn","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152","cse_m_tablet"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_4_Tropentarn","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152","cse_m_tablet"};
 		weapons[] = {"BWA3_G36_equipped","hgun_Pistol_heavy_01_snds_F","Rangefinder","Throw","Put"}; 

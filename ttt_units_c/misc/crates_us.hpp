@@ -386,8 +386,8 @@
 				count = 3;
 			};
 			
-			class _xx_cse_battery_darter {
-				name = "cse_battery_darter";
+			class _xx_ACE_UAVBattery {
+				name = "ACE_UAVBattery";
 				count = 2;
 			};
 			

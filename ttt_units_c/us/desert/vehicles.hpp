@@ -243,8 +243,8 @@
 		vehicleClass = "TTT_Gold_Desert";
 		uniformClass = "TTT_Uniform_Gold_Desert";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\us\desert\uniforms\TTT_uniform_gold_desert.paa"};
-		items[] = {"rhsusf_acc_eotech_552","rhsusf_acc_rotex5_grey","NVGoggles","cse_battery_darter"};
-		respawnItems[] = {"rhsusf_acc_eotech_552","rhsusf_acc_rotex5_grey","NVGoggles","cse_battery_darter"};
+		items[] = {"rhsusf_acc_eotech_552","rhsusf_acc_rotex5_grey","NVGoggles","ACE_UAVBattery"};
+		respawnItems[] = {"rhsusf_acc_eotech_552","rhsusf_acc_rotex5_grey","NVGoggles","ACE_UAVBattery"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Gold_Desert","TTT_Helmet_4_Desert","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152","cse_m_tablet"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Gold_Desert","TTT_Helmet_4_Desert","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152","cse_m_tablet"};
 		weapons[] = {"rhs_m4a1_grip_acog3_usmc","rhsusf_weap_m1911a1","Rangefinder","Throw","Put"}; 
