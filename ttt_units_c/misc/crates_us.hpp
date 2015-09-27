@@ -371,8 +371,8 @@
 				count = 6;
 			};
 			
-			class _xx_cse_ab_ATragMX {
-				name = "cse_ab_ATragMX";
+			class _xx_ACE_ATragMX {
+				name = "ACE_ATragMX";
 				count = 2;
 			};
 			

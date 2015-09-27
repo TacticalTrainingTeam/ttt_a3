@@ -143,8 +143,8 @@
 		backpack = "TTT_Backpack_Schuetze_Tropentarn";
 		uniformClass = "TTT_Uniform_Grau_Tropentarn";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_grey_tropentarn.paa"};
-		items[] = {"BWA3_optic_NSV600","BWA3_muzzle_snds_G28","NVGoggles","cse_ab_Kestrel4500","cse_ab_ATragMX"};
-		respawnItems[] = {"BWA3_optic_NSV600","BWA3_muzzle_snds_G28","NVGoggles","cse_ab_Kestrel4500","cse_ab_ATragMX"};
+		items[] = {"BWA3_optic_NSV600","BWA3_muzzle_snds_G28","NVGoggles","cse_ab_Kestrel4500","ACE_ATragMX"};
+		respawnItems[] = {"BWA3_optic_NSV600","BWA3_muzzle_snds_G28","NVGoggles","cse_ab_Kestrel4500","ACE_ATragMX"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Marksman_Tropen","TTT_Helmet_5_Tropentarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Marksman_Tropen","TTT_Helmet_5_Tropentarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		weapons[] = {"BWA3_G28_Standard_equipped","hgun_Pistol_heavy_01_snds_F","Rangefinder","Throw","Put"}; 
@@ -187,8 +187,8 @@
 		uniformClass = "TTT_Uniform_Gold_Tropentarn";
 		backpack = "TTT_Backpack_Truppfuehrer_Tropentarn";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_gold_tropentarn.paa"};
-		items[] = {"BWA3_optic_NSV600","BWA3_muzzle_snds_G28","NVGoggles","cse_ab_Kestrel4500","cse_ab_ATragMX","cse_itemHelmetCamera_W","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
-		respawnItems[] = {"BWA3_optic_NSV600","BWA3_muzzle_snds_G28","NVGoggles","cse_ab_Kestrel4500","cse_ab_ATragMX"};
+		items[] = {"BWA3_optic_NSV600","BWA3_muzzle_snds_G28","NVGoggles","cse_ab_Kestrel4500","ACE_ATragMX","cse_itemHelmetCamera_W","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
+		respawnItems[] = {"BWA3_optic_NSV600","BWA3_muzzle_snds_G28","NVGoggles","cse_ab_Kestrel4500","ACE_ATragMX"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		weapons[] = {"BWA3_G27_AG_equipped","hgun_Pistol_heavy_01_snds_F","Laserdesignator","Throw","Put"}; 
@@ -207,8 +207,8 @@
 		uniformClass = "TTT_Uniform_Gold_Tropentarn";
 		backpack = "TTT_Backpack_Schuetze_Tropentarn";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_gold_tropentarn.paa"};
-		items[] = {"NVGoggles","cse_ab_Kestrel4500","cse_ab_ATragMX"};
-		respawnItems[] = {"NVGoggles","cse_ab_Kestrel4500","cse_ab_ATragMX"};
+		items[] = {"NVGoggles","cse_ab_Kestrel4500","ACE_ATragMX"};
+		respawnItems[] = {"NVGoggles","cse_ab_Kestrel4500","ACE_ATragMX"};
 		weapons[] = {"srifle_LRR_LRPS_F","hgun_Pistol_heavy_01_snds_F","Rangefinder","Throw","Put"}; 
 		respawnWeapons[] = {"srifle_LRR_LRPS_F","hgun_Pistol_heavy_01_snds_F","Rangefinder","Throw","Put"}; 
 		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag"};
