@@ -38,9 +38,9 @@
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		weapons[] = {"BWA3_G36_AG_equipped","hgun_Pistol_heavy_01_snds_F","Rangefinder","Throw","Put"}; 
-		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
+		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
 		respawnWeapons[] = {"BWA3_G36_AG_equipped","hgun_Pistol_heavy_01_snds_F","Rangefinder","Throw","Put"}; 
-		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
+		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_black_tropentarn.paa"};
 	};
 	
@@ -58,8 +58,8 @@
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Grenadier_Tropen","TTT_Helmet_2_Tropentarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		weapons[] = {"BWA3_G36_AG_equipped","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
 		respawnWeapons[] = {"BWA3_G36_AG_equipped","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
-		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
-		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
+		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
+		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_black_tropentarn.paa"};
 	};
 	
@@ -77,8 +77,8 @@
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_3_Tropentarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		weapons[] = {"BWA3_G36_equipped","hgun_Pistol_heavy_01_snds_F","Rangefinder","Throw","Put"}; 
 		respawnWeapons[] = {"BWA3_G36_equipped","hgun_Pistol_heavy_01_snds_F","Rangefinder","Throw","Put"}; 
-		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
-		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
+		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
+		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_black_tropentarn.paa"};
 	};
 	
@@ -96,8 +96,8 @@
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Autorifleman_Tropen","TTT_Helmet_4_Tropentarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		weapons[] = {"BWA3_MG5_Tan_equipped","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
 		respawnWeapons[] = {"BWA3_MG5_Tan_equipped","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
-		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_120Rnd_762x51","BWA3_120Rnd_762x51"};
-		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_120Rnd_762x51","BWA3_120Rnd_762x51"};
+		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_120Rnd_762x51","BWA3_120Rnd_762x51"};
+		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_120Rnd_762x51","BWA3_120Rnd_762x51"};
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_black_tropentarn.paa"};
 	};
 	
@@ -115,8 +115,8 @@
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Autorifleman_Tropen","TTT_Helmet_4_Tropentarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		weapons[] = {"BWA3_MG4_equipped","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
 		respawnWeapons[] = {"BWA3_MG4_equipped","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
-		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_200Rnd_556x45","BWA3_200Rnd_556x45"};
-		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_200Rnd_556x45","BWA3_200Rnd_556x45"};
+		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_200Rnd_556x45","BWA3_200Rnd_556x45"};
+		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_200Rnd_556x45","BWA3_200Rnd_556x45"};
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_black_tropentarn.paa"};
 	};
 	
@@ -134,8 +134,8 @@
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_5_Tropentarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		weapons[] = {"BWA3_G36_equipped","hgun_Pistol_heavy_01_snds_F","Rangefinder","Throw","Put"}; 
 		respawnWeapons[] = {"BWA3_G36_equipped","hgun_Pistol_heavy_01_snds_F","Rangefinder","Throw","Put"}; 
-		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_Fliegerfaust_Mag"};
-		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_Fliegerfaust_Mag"};
+		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_Fliegerfaust_Mag"};
+		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_Fliegerfaust_Mag"};
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_black_tropentarn.paa"};
 	};
 	
@@ -153,8 +153,8 @@
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_6_Tropentarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		weapons[] = {"BWA3_G36_equipped","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put","BWA3_Pzf3"}; 
 		respawnWeapons[] = {"BWA3_G36_equipped","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put","BWA3_Pzf3"}; 
-		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_Pzf3_IT"};
-		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_Pzf3_IT"};
+		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_Pzf3_IT"};
+		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_Pzf3_IT"};
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_black_tropentarn.paa"};
 	};
 	
@@ -172,8 +172,8 @@
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_6_Tropentarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		weapons[] = {"BWA3_G36_equipped","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
 		respawnWeapons[] = {"BWA3_G36_equipped","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
-		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_Pzf3_IT"};
-		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_Pzf3_IT"};
+		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_Pzf3_IT"};
+		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_Pzf3_IT"};
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_black_tropentarn.paa"};
 	};
 	
@@ -191,8 +191,8 @@
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_2_Tropentarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		weapons[] = {"BWA3_G36_AG_equipped","hgun_Pistol_heavy_01_snds_F","Laserdesignator","Throw","Put"}; 
 		respawnWeapons[] = {"BWA3_G36_AG_equipped","hgun_Pistol_heavy_01_snds_F","Laserdesignator","Throw","Put"}; 
-		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","Laserbatteries"};
-		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","Laserbatteries"};
+		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","Laserbatteries"};
+		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","Laserbatteries"};
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_black_tropentarn.paa"};
 	};
 	
@@ -210,8 +210,8 @@
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_3_Tropentarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		weapons[] = {"BWA3_G36_equipped","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
 		respawnWeapons[] = {"BWA3_G36_equipped","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
-		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
-		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
+		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
+		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_black_tropentarn.paa"};
 		canDeactivateMines= 1;
 		engineer = 1;
@@ -231,8 +231,8 @@
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Tropen","TTT_Helmet_3_Tropentarn","ItemMap","ItemCompass","ItemWatch","tf_anprc152"};
 		weapons[] = {"BWA3_G36_equipped","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
 		respawnWeapons[] = {"BWA3_G36_equipped","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
-		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
-		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
+		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
+		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_black_tropentarn.paa"};
 		attendant = 1;
 	};
@@ -251,8 +251,8 @@
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		weapons[] = {"SMG_01_Holo_F","hgun_Pistol_heavy_01_snds_F","Rangefinder","Throw","Put"}; 
 		respawnWeapons[] = {"SMG_01_Holo_F","hgun_Pistol_heavy_01_snds_F","Rangefinder","Throw","Put"}; 
-		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green"};
-		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green"};
+		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green"};
+		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green"};
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_black_tropentarn.paa"};
 		attendant = 1;
 	};
@@ -272,8 +272,8 @@
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Eagle","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		weapons[] = {"SMG_01_Holo_F","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
 		respawnWeapons[] = {"SMG_01_Holo_F","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
-		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green"};
-		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green"};
+		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green"};
+		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green"};
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_black_tropentarn.paa"};
 	};
 	
@@ -291,7 +291,7 @@
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_3_Tropentarn","ItemMap","ItemCompass","B_UavTerminal","ItemWatch","tf_anprc152"};
 		weapons[] = {"BWA3_G36_equipped","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
 		respawnWeapons[] = {"BWA3_G36_equipped","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
-		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
-		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","rhs_mag_mk84","rhs_mag_mk84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
+		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
+		respawnMagazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP"};
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_black_tropentarn.paa"};
 	};
