@@ -137,8 +137,8 @@
 				count = 6;
 			};
 			
-			class _xx_rhs_mag_mk84 {
-				magazine = "rhs_mag_mk84";
+			class _xx_ACE_M84 {
+				magazine = "ACE_M84";
 				count = 6;
 			};
 			
@@ -287,8 +287,8 @@
 				count = 6;
 			};
 			
-			class _xx_rhs_mag_mk84 {
-				magazine = "rhs_mag_mk84";
+			class _xx_ACE_M84 {
+				magazine = "ACE_M84";
 				count = 6;
 			};
 			
