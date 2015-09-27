@@ -388,8 +388,8 @@
 				count = 2;
 			};
 			
-			class _xx_cse_ab_Kestrel4500 {
-				name = "cse_ab_Kestrel4500";
+			class _xx_ACE_Kestrel4500 {
+				name = "ACE_Kestrel4500";
 				count = 2;
 			};
 			
