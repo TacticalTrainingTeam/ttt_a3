@@ -21,8 +21,8 @@
 				name = "cse_tourniquet";
 				count = 1;
 			};
-			class _xx_cse_m_tablet {
-				name = "cse_m_tablet";
+			class _xx_ACE_DK10_b {
+				name = "ACE_DK10_b";
 				count = 1;
 			};
 		};
@@ -220,8 +220,8 @@
 				name = "cse_tourniquet";
 				count = 1;
 			};
-			class _xx_cse_m_tablet {
-				name = "cse_m_tablet";
+			class _xx_ACE_DK10_b {
+				name = "ACE_DK10_b";
 				count = 1;
 			};
 		};
@@ -364,8 +364,8 @@
 				name = "cse_personal_aid_kit";
 				count = 1;
 			};
-			class _xx_cse_m_tablet {
-				name = "cse_m_tablet";
+			class _xx_ACE_DK10_b {
+				name = "ACE_DK10_b";
 				count = 1;
 			};
 			class _xx_cse_surgical_kit {
@@ -392,8 +392,8 @@
 				name = "cse_tourniquet";
 				count = 1;
 			};
-			class _xx_cse_m_tablet {
-				name = "cse_m_tablet";
+			class _xx_ACE_DK10_b {
+				name = "ACE_DK10_b";
 				count = 1;
 			};
 		};
@@ -416,8 +416,8 @@
 				name = "cse_tourniquet";
 				count = 1;
 			};
-			class _xx_cse_m_tablet {
-				name = "cse_m_tablet";
+			class _xx_ACE_DK10_b {
+				name = "ACE_DK10_b";
 				count = 1;
 			};
 		};

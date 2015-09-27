@@ -33,8 +33,8 @@
 		vehicleClass = "TTT_Template";
 		backpack = "TTT_Backpack_Truppfuehrer_Tropentarn";
 		uniformClass = "TTT_Uniform_Base";
-		items[] = {"BWA3_optic_NSV600","NVGoggles","cse_itemHelmetCamera_W","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
-		respawnitems[] = {"BWA3_optic_NSV600","NVGoggles","cse_itemHelmetCamera_W","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
+		items[] = {"BWA3_optic_NSV600","NVGoggles","ACE_HelmetCam","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
+		respawnitems[] = {"BWA3_optic_NSV600","NVGoggles","ACE_HelmetCam","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 		weapons[] = {"BWA3_G36_AG_equipped","hgun_Pistol_heavy_01_snds_F","Rangefinder","Throw","Put"}; 
@@ -266,8 +266,8 @@
 		vehicleClass = "TTT_Template";
 		backpack = "TTT_Backpack_Pilot_Tropentarn";
 		uniformClass = "TTT_Uniform_Base";
-		items[] = {"NVGoggles","cse_itemHelmetCamera_W","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
-		respawnitems[] = {"NVGoggles","cse_itemHelmetCamera_W","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
+		items[] = {"NVGoggles","ACE_HelmetCam","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
+		respawnitems[] = {"NVGoggles","ACE_HelmetCam","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Eagle","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Eagle","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 		weapons[] = {"SMG_01_Holo_F","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
@@ -285,8 +285,8 @@
 		vehicleClass = "TTT_Template";
 		backpack = "B_UAV_01_backpack_F";
 		uniformClass = "TTT_Uniform_Base";
-		items[] = {"BWA3_optic_NSV600","NVGoggles","ACE_UAVBattery","cse_m_tablet"};
-		respawnitems[] = {"BWA3_optic_NSV600","NVGoggles","ACE_UAVBattery","cse_m_tablet"};
+		items[] = {"BWA3_optic_NSV600","NVGoggles","ACE_UAVBattery","ACE_DK10_b"};
+		respawnitems[] = {"BWA3_optic_NSV600","NVGoggles","ACE_UAVBattery","ACE_DK10_b"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_3_Tropentarn","ItemMap","ItemCompass","B_UavTerminal","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Tropen","TTT_Helmet_3_Tropentarn","ItemMap","ItemCompass","B_UavTerminal","ItemWatch","tf_anprc152"};
 		weapons[] = {"BWA3_G36_equipped","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 

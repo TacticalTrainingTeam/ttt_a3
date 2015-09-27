@@ -144,8 +144,8 @@
 		uniformClass = "TTT_Uniform_Gold_Flecktarn";
 		backpack = "TTT_Backpack_Schuetze_Flecktarn";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_gold_flecktarn.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_2_Flecktarn","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152","cse_m_tablet"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_2_Flecktarn","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152","cse_m_tablet"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_2_Flecktarn","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152","ACE_DK10_b"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Rifleman1_Fleck","TTT_Helmet_2_Flecktarn","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152","ACE_DK10_b"};
 	};
 	
 	//Gold 3 (Spotter)

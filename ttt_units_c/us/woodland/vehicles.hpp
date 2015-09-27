@@ -153,8 +153,8 @@
 		vehicleClass = "TTT_Gold_Woodland";
 		uniformClass = "TTT_Uniform_Gold_Woodland";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\us\woodland\uniforms\TTT_uniform_gold_woodland.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Gold_Woodland","TTT_Helmet_3_Woodland","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152","cse_m_tablet"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Gold_Woodland","TTT_Helmet_3_Woodland","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152","cse_m_tablet"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Gold_Woodland","TTT_Helmet_3_Woodland","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152","ACE_DK10_b"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Lite_Gold_Woodland","TTT_Helmet_3_Woodland","ItemMap","B_UavTerminal","ItemCompass","ItemWatch","tf_anprc152","ACE_DK10_b"};
 	};
 	
 	//Gold 4 (Spotter)

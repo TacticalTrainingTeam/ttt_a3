@@ -318,8 +318,8 @@
 				count = 1;
 			};
 			
-			class _xx_cse_m_tablet {
-				name = "cse_m_tablet";
+			class _xx_ACE_DK10_b {
+				name = "ACE_DK10_b";
 				count = 2;
 			};
 			
