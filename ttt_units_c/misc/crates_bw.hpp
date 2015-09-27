@@ -250,8 +250,8 @@
 				count = 12;
 			};
 			
-			class _xx_Chemlight_blue {
-				magazine = "Chemlight_blue";
+			class _xx_ACE_HandFlare_Green {
+				magazine = "ACE_HandFlare_Green";
 				count = 12;
 			};
 			
