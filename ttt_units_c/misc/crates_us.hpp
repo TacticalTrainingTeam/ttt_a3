@@ -381,8 +381,8 @@
 				count = 2;
 			};
 			
-			class _xx_cse_Keycuffs {
-				name = "cse_Keycuffs";
+			class _xx_ACE_CableTie {
+				name = "ACE_CableTie";
 				count = 3;
 			};
 			

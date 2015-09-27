@@ -33,8 +33,8 @@
 		vehicleClass = "TTT_Template";
 		backpack = "TTT_Backpack_Truppfuehrer_Desert";
 		uniformClass = "TTT_Uniform_Base";
-		items[] = {"NVGoggles","rhsusf_acc_eotech_552","cse_itemHelmetCamera_W","cse_Keycuffs","cse_Keycuffs","cse_Keycuffs"};
-		respawnitems[] = {"NVGoggles","rhsusf_acc_eotech_552","cse_itemHelmetCamera_W","cse_Keycuffs","cse_Keycuffs","cse_Keycuffs"};
+		items[] = {"NVGoggles","rhsusf_acc_eotech_552","cse_itemHelmetCamera_W","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
+		respawnitems[] = {"NVGoggles","rhsusf_acc_eotech_552","cse_itemHelmetCamera_W","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Base","TTT_Helmet_1_Desert","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Base","TTT_Helmet_1_Desert","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		weapons[] = {"rhs_m4a1_m320_acog3","rhsusf_weap_m1911a1","Rangefinder","Throw","Put"}; 
@@ -266,8 +266,8 @@
 		vehicleClass = "TTT_Template";
 		backpack = "TTT_Backpack_Pilot_Desert";
 		uniformClass = "TTT_Uniform_Base";
-		items[] = {"NVGoggles","rhsusf_acc_eotech_552","cse_itemHelmetCamera_W","cse_Keycuffs","cse_Keycuffs","cse_Keycuffs"};
-		respawnitems[] = {"NVGoggles","rhsusf_acc_eotech_552","cse_itemHelmetCamera_W","cse_Keycuffs","cse_Keycuffs","cse_Keycuffs"};
+		items[] = {"NVGoggles","rhsusf_acc_eotech_552","cse_itemHelmetCamera_W","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
+		respawnitems[] = {"NVGoggles","rhsusf_acc_eotech_552","cse_itemHelmetCamera_W","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
 		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Crew_Vest_Base","TTT_Helmet_Eagle","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Crew_Vest_Base","TTT_Helmet_Eagle","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
 		weapons[] = {"rhs_weap_m4_carryhandle","rhsusf_weap_m1911a1","Binocular","Throw","Put"}; 
