@@ -320,8 +320,8 @@
 		};
 		
 		class TransportItems {
-			class _xx_BWA3_ItemNaviPad {
-				name = "BWA3_ItemNaviPad";
+			class _xx_ACE_microDAGR {
+				name = "ACE_microDAGR";
 				count = 1;
 			};
 			

@@ -35,8 +35,8 @@
 		uniformClass = "TTT_Uniform_Base";
 		items[] = {"NVGoggles","rhsusf_acc_eotech_552","cse_itemHelmetCamera_W","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
 		respawnitems[] = {"NVGoggles","rhsusf_acc_eotech_552","cse_itemHelmetCamera_W","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Base","TTT_Helmet_1_Desert","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Base","TTT_Helmet_1_Desert","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Base","TTT_Helmet_1_Desert","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Base","TTT_Helmet_1_Desert","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 		weapons[] = {"rhs_m4a1_m320_acog3","rhsusf_weap_m1911a1","Rangefinder","Throw","Put"}; 
 		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag"};
 		respawnWeapons[] = {"rhs_m4a1_m320_acog3","rhsusf_weap_m1911a1","Rangefinder","Throw","Put"}; 
@@ -247,8 +247,8 @@
 		uniformClass = "TTT_Uniform_Base";
 		items[] = {"NVGoggles","rhsusf_acc_eotech_552"};
 		respawnitems[] = {"NVGoggles","rhsusf_acc_eotech_552"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Base","TTT_Helmet_1_Desert","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Base","TTT_Helmet_1_Desert","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Base","TTT_Helmet_1_Desert","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Vest_Heavy_Base","TTT_Helmet_1_Desert","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 		weapons[] = {"rhs_weap_m4_carryhandle","rhsusf_weap_m1911a1","Rangefinder","Throw","Put"}; 
 		respawnWeapons[] = {"rhs_weap_m4_carryhandle","rhsusf_weap_m1911a1","Rangefinder","Throw","Put"}; 
 		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag"};
@@ -268,8 +268,8 @@
 		uniformClass = "TTT_Uniform_Base";
 		items[] = {"NVGoggles","rhsusf_acc_eotech_552","cse_itemHelmetCamera_W","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
 		respawnitems[] = {"NVGoggles","rhsusf_acc_eotech_552","cse_itemHelmetCamera_W","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Crew_Vest_Base","TTT_Helmet_Eagle","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Crew_Vest_Base","TTT_Helmet_Eagle","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","TTT_Crew_Vest_Base","TTT_Helmet_Eagle","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","TTT_Crew_Vest_Base","TTT_Helmet_Eagle","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 		weapons[] = {"rhs_weap_m4_carryhandle","rhsusf_weap_m1911a1","Binocular","Throw","Put"}; 
 		respawnWeapons[] = {"rhs_weap_m4_carryhandle","rhsusf_weap_m1911a1","Binocular","Throw","Put"}; 
 		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","rhsusf_mag_7x45acp_MHP","rhsusf_mag_7x45acp_MHP","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk318_Stanag"};

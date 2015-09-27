@@ -13,8 +13,8 @@
 		backpack = "TTT_Backpack_Opl_Tropentarn";
 		uniformClass = "TTT_Uniform_Gelb_Tropentarn";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_yellow_tropentarn.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 	};
 	
 	//Gelb 2 (Funker)
@@ -26,8 +26,8 @@
 		backpack = "TTT_Backpack_Funkerfac_Tropentarn";
 		uniformClass = "TTT_Uniform_Gelb_Tropentarn";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_yellow_tropentarn.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_2_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_2_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_2_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_2_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 	};
 	
 	//Gelb 3 (UAV/Moerser)
@@ -71,8 +71,8 @@
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_grey_tropentarn.paa"};
 		items[] = {"BWA3_optic_NSV600","BWA3_muzzle_snds_G36","NVGoggles","cse_itemHelmetCamera_W","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
 		respawnItems[] = {"BWA3_optic_NSV600","BWA3_muzzle_snds_G36","NVGoggles","cse_itemHelmetCamera_W","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 		weapons[] = {"BWA3_G36_AG_equipped","hgun_Pistol_heavy_01_snds_F","Rangefinder","Throw","Put"}; 
 		respawnWeapons[] = {"BWA3_G36_AG_equipped","hgun_Pistol_heavy_01_snds_F","Rangefinder","Throw","Put"}; 
 		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_AP","BWA3_30Rnd_556x45_G36_SD","BWA3_30Rnd_556x45_G36_SD"};
@@ -189,8 +189,8 @@
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_gold_tropentarn.paa"};
 		items[] = {"BWA3_optic_NSV600","BWA3_muzzle_snds_G28","NVGoggles","ACE_Kestrel4500","ACE_ATragMX","cse_itemHelmetCamera_W","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
 		respawnItems[] = {"BWA3_optic_NSV600","BWA3_muzzle_snds_G28","NVGoggles","ACE_Kestrel4500","ACE_ATragMX"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 		weapons[] = {"BWA3_G27_AG_equipped","hgun_Pistol_heavy_01_snds_F","Laserdesignator","Throw","Put"}; 
 		respawnWeapons[] = {"BWA3_G27_AG_equipped","hgun_Pistol_heavy_01_snds_F","Laserdesignator","Throw","Put"}; 
 		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","BWA3_20Rnd_762x51_G28_AP","BWA3_20Rnd_762x51_G28_AP","BWA3_20Rnd_762x51_G28_AP","BWA3_20Rnd_762x51_G28_AP","BWA3_20Rnd_762x51_G28_SD","BWA3_20Rnd_762x51_G28_SD","Laserbatteries"};
@@ -271,8 +271,8 @@
 		vehicleClass = "TTT_Gruen_Tropentarn";
 		uniformClass = "TTT_Uniform_Gruen_Tropentarn";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_green_tropentarn.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 	};
 	
 	//Gruen 2 (Funker/FAC)
@@ -325,8 +325,8 @@
 		vehicleClass = "TTT_Braun_Tropentarn";
 		uniformClass = "TTT_Uniform_Braun_Tropentarn";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_brown_tropentarn.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 	};
 	
 	//Braun 2 (Funker/FAC)
@@ -367,8 +367,8 @@
 		vehicleClass = "TTT_Schwarz_Tropentarn";
 		uniformClass = "TTT_Uniform_Schwarz_Tropentarn";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_black_tropentarn.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 	};
 	
 	//Schwarz 2 (Grenadier)
@@ -445,8 +445,8 @@
 		vehicleClass = "TTT_Rot_Tropentarn";
 		uniformClass = "TTT_Uniform_Rot_Tropentarn";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_red_tropentarn.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 	};
 	
 	//Rot 2 (Grenadier)
@@ -527,8 +527,8 @@
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_bronx_tropentarn.paa"};
 		items[] = {"NVGoggles","cse_itemHelmetCamera_W","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
 		respawnItems[] = {"NVGoggles","cse_itemHelmetCamera_W","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 		weapons[] = {"SMG_01_Holo_F","hgun_Pistol_heavy_01_snds_F","Rangefinder","Throw","Put"}; 
 		respawnWeapons[] = {"SMG_01_Holo_F","hgun_Pistol_heavy_01_snds_F","Rangefinder","Throw","Put"}; 
 		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green"};
@@ -547,8 +547,8 @@
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_bronx_tropentarn.paa"};
 		items[] = {"NVGoggles"};
 		respawnItems[] = {"NVGoggles"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","ItemWatch","ACE_microDAGR","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","ItemWatch","ACE_microDAGR","tf_anprc152"};
 		weapons[] = {"SMG_01_Holo_F","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
 		respawnWeapons[] = {"SMG_01_Holo_F","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
 		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green"};
@@ -567,8 +567,8 @@
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_bronx_tropentarn.paa"};
 		items[] = {"NVGoggles"};
 		respawnItems[] = {"NVGoggles"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","ItemWatch","ACE_microDAGR","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","ItemWatch","ACE_microDAGR","tf_anprc152"};
 		weapons[] = {"SMG_01_Holo_F","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
 		respawnWeapons[] = {"SMG_01_Holo_F","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
 		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green"};
@@ -587,8 +587,8 @@
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_bronx_tropentarn.paa"};
 		items[] = {"NVGoggles","cse_itemHelmetCamera_W","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
 		respawnItems[] = {"NVGoggles","cse_itemHelmetCamera_W","ACE_CableTie","ACE_CableTie","ACE_CableTie"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 		weapons[] = {"SMG_01_Holo_F","hgun_Pistol_heavy_01_snds_F","Rangefinder","Throw","Put"}; 
 		respawnWeapons[] = {"SMG_01_Holo_F","hgun_Pistol_heavy_01_snds_F","Rangefinder","Throw","Put"}; 
 		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green"};
@@ -607,8 +607,8 @@
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_bronx_tropentarn.paa"};
 		items[] = {"NVGoggles"};
 		respawnItems[] = {"NVGoggles"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","ItemWatch","ACE_microDAGR","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","ItemWatch","ACE_microDAGR","tf_anprc152"};
 		weapons[] = {"SMG_01_Holo_F","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
 		respawnWeapons[] = {"SMG_01_Holo_F","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
 		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green"};
@@ -627,8 +627,8 @@
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_bronx_tropentarn.paa"};
 		items[] = {"NVGoggles"};
 		respawnItems[] = {"NVGoggles"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","ItemWatch","BWA3_ItemNaviPad","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","ItemWatch","ACE_microDAGR","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","BWA3_CrewmanKSK_Tropen_Headset","ItemMap","ItemCompass","ItemWatch","ACE_microDAGR","tf_anprc152"};
 		weapons[] = {"SMG_01_Holo_F","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
 		respawnWeapons[] = {"SMG_01_Holo_F","hgun_Pistol_heavy_01_snds_F","Binocular","Throw","Put"}; 
 		magazines[] = {"SmokeShell","SmokeShell","SmokeShellGreen","SmokeShellGreen","SmokeShellPurple","Chemlight_blue","Chemlight_blue","B_IR_Grenade","B_IR_Grenade","ACE_M84","ACE_M84","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green","30Rnd_45ACP_Mag_SMG_01_tracer_green"};
@@ -649,8 +649,8 @@
 		vehicleClass = "TTT_Blau_Tropentarn";
 		uniformClass = "TTT_Uniform_Blau_Tropentarn";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_blue_tropentarn.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 	};
 	
 	//Blau 2 (Grenadier)
@@ -727,8 +727,8 @@
 		vehicleClass = "TTT_Violett_Tropentarn";
 		uniformClass = "TTT_Uniform_Violett_Tropentarn";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_violet_tropentarn.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Leader_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 	};
 	
 	//Violett 2 (Grenadier)
@@ -805,8 +805,8 @@
 		vehicleClass = "TTT_Weiss_Tropentarn";
 		uniformClass = "TTT_Uniform_Weiss_Tropentarn";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_white_tropentarn.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Tropen","TTT_Helmet_1_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 	};
 	
 	//Weiﬂ 2 (Fahrzeugfuehrer)
@@ -817,8 +817,8 @@
 		vehicleClass = "TTT_Weiss_Tropentarn";
 		uniformClass = "TTT_Uniform_Weiss_Tropentarn";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_white_tropentarn.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Falcon","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Falcon","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Falcon","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Falcon","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 	};
 	
 	//Weiﬂ 3 (Feldarzt)
@@ -829,8 +829,8 @@
 		vehicleClass = "TTT_Weiss_Tropentarn";
 		uniformClass = "TTT_Uniform_Weiss_Tropentarn";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_white_tropentarn.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Tropen","TTT_Helmet_3_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Tropen","TTT_Helmet_3_Tropentarn","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Tropen","TTT_Helmet_3_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Medic_Tropen","TTT_Helmet_3_Tropentarn","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 	};
 	
 	//Weiﬂ 4 (Stellv.Fahrzeugfuehrer)
@@ -841,8 +841,8 @@
 		vehicleClass = "TTT_Weiss_Tropentarn";
 		uniformClass = "TTT_Uniform_Weiss_Tropentarn";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_white_tropentarn.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Falcon","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Falcon","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Falcon","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Falcon","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 	};
 	
 	/*
@@ -859,8 +859,8 @@
 		vehicleClass = "TTT_Adler_Tropentarn";
 		uniformClass = "TTT_Uniform_Adler_Tropentarn";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_silver_tropentarn.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Eagle","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Eagle","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Eagle","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Eagle","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 	};
 	
 	//Adler 2 (Copilot)
@@ -871,8 +871,8 @@
 		vehicleClass = "TTT_Adler_Tropentarn";
 		uniformClass = "TTT_Uniform_Adler_Tropentarn";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_silver_tropentarn.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Eagle","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Eagle","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Eagle","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Eagle","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 	};
 	
 	/*
@@ -889,8 +889,8 @@
 		vehicleClass = "TTT_Bussard_Tropentarn";
 		uniformClass = "TTT_Uniform_Bussard_Tropentarn";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_silver_tropentarn.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Buzzard","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Buzzard","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Buzzard","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Buzzard","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 	};
 	
 	//Bussard 2 (Copilot)
@@ -901,6 +901,6 @@
 		vehicleClass = "TTT_Bussard_Tropentarn";
 		uniformClass = "TTT_Uniform_Bussard_Tropentarn";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_silver_tropentarn.paa"};
-		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Buzzard","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
-		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Buzzard","ItemMap","ItemCompass","BWA3_ItemNaviPad","ItemWatch","tf_anprc152"};
+		linkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Buzzard","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
+		respawnLinkedItems[] = {"BWA3_G_Combat_Clear","BWA3_Vest_Tropen","TTT_Helmet_Buzzard","ItemMap","ItemCompass","ACE_microDAGR","ItemWatch","tf_anprc152"};
 	};
