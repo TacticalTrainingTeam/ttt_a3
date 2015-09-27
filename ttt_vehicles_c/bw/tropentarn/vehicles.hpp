@@ -132,8 +132,8 @@
 				count = 6;
 			};
 			
-			class _xx_B_IR_Grenade {
-				magazine = "B_IR_Grenade";
+			class _xx_ACE_IR_Strobe_Item {
+				magazine = "ACE_IR_Strobe_Item";
 				count = 6;
 			};
 			
@@ -282,8 +282,8 @@
 				count = 6;
 			};
 			
-			class _xx_B_IR_Grenade {
-				magazine = "B_IR_Grenade";
+			class _xx_ACE_IR_Strobe_Item {
+				magazine = "ACE_IR_Strobe_Item";
 				count = 6;
 			};
 			
@@ -424,8 +424,8 @@
 				count = 6;
 			};
 			
-			class _xx_B_IR_Grenade {
-				magazine = "B_IR_Grenade";
+			class _xx_ACE_IR_Strobe_Item {
+				magazine = "ACE_IR_Strobe_Item";
 				count = 6;
 			};	
 		};
@@ -499,8 +499,8 @@
 				count = 6;
 			};
 			
-			class _xx_B_IR_Grenade {
-				magazine = "B_IR_Grenade";
+			class _xx_ACE_IR_Strobe_Item {
+				magazine = "ACE_IR_Strobe_Item";
 				count = 6;
 			};	
 		};
