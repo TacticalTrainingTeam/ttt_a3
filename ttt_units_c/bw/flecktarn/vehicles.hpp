@@ -638,6 +638,7 @@ class TTT_Weiss1_Flecktarn : TTT_Weiss1_Tropentarn {
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Medic_Fleck", "TTT_Helmet_1_Flecktarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
+//Weiﬂ 2 (Medic)
 class TTT_Weiss2_Flecktarn : TTT_Weiss2_Tropentarn {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Weiss_Flecktarn";
