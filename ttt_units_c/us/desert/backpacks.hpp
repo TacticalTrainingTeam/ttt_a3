@@ -127,6 +127,10 @@
 				name = "ACE_morphine";
 				count = 1;
 			};
+            class _xx_ACE_SpareBarrel {
+                name = "ACE_SpareBarrel";
+                count = 1;
+            };
 		};
 		class TransportMagazines {
 			class _xx_rhsusf_100Rnd_762x51_m80a1epr {
@@ -154,6 +158,10 @@
 				name = "ACE_morphine";
 				count = 1;
 			};
+            class _xx_ACE_SpareBarrel {
+                name = "ACE_SpareBarrel";
+                count = 1;
+            };
 		};
 		class TransportMagazines {
 			class _xx_rhsusf_200Rnd_556x45_soft_pouch {

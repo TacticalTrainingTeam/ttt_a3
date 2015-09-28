@@ -123,6 +123,10 @@
 				name = "ACE_morphine";
 				count = 1;
 			};
+            class _xx_ACE_SpareBarrel {
+                name = "ACE_SpareBarrel";
+                count = 1;
+            };
 		};
 	};
 	
