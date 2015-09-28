@@ -8,16 +8,16 @@
 	class TTT_Backpack_Truppfuehrer_Tropentarn : B_AssaultPack_cbr {
 		displayName = "Truppfuehrer Rucksack (Tropentarn)";
 		class TransportItems {
-			class _xx_cse_bandage_basic {
-				name = "cse_bandage_basic";
+			class _xx_ACE_fieldDressing {
+				name = "ACE_fieldDressing";
 				count = 7;
 			};
-			class _xx_cse_packing_bandage {
-				name = "cse_packing_bandage";
+			class _xx_ACE_packingBandage {
+				name = "ACE_packingBandage";
 				count = 3;
 			};
-			class _xx_cse_tourniquet {
-				name = "cse_tourniquet";
+			class _xx_ACE_tourniquet {
+				name = "ACE_tourniquet";
 				count = 1;
 			};
 			class _xx_ACE_DK10_b {
@@ -49,16 +49,16 @@
 	class TTT_Backpack_Grenadier_Tropentarn : B_AssaultPack_cbr {
 		displayName = "Grenadier Rucksack (Tropentarn)";
 		class TransportItems {
-			class _xx_cse_bandage_basic {
-				name = "cse_bandage_basic";
+			class _xx_ACE_fieldDressing {
+				name = "ACE_fieldDressing";
 				count = 7;
 			};
-			class _xx_cse_packing_bandage {
-				name = "cse_packing_bandage";
+			class _xx_ACE_packingBandage {
+				name = "ACE_packingBandage";
 				count = 3;
 			};
-			class _xx_cse_tourniquet {
-				name = "cse_tourniquet";
+			class _xx_ACE_tourniquet {
+				name = "ACE_tourniquet";
 				count = 1;
 			};
 		};
@@ -86,16 +86,16 @@
 	class TTT_Backpack_Mgassistent_Tropentarn : B_AssaultPack_cbr {
 		displayName = "MG-Assistent Rucksack (Tropentarn)";
 		class TransportItems {
-			class _xx_cse_bandage_basic {
-				name = "cse_bandage_basic";
+			class _xx_ACE_fieldDressing {
+				name = "ACE_fieldDressing";
 				count = 7;
 			};
-			class _xx_cse_packing_bandage {
-				name = "cse_packing_bandage";
+			class _xx_ACE_packingBandage {
+				name = "ACE_packingBandage";
 				count = 3;
 			};
-			class _xx_cse_tourniquet {
-				name = "cse_tourniquet";
+			class _xx_ACE_tourniquet {
+				name = "ACE_tourniquet";
 				count = 1;
 			};
 		};
@@ -111,16 +111,16 @@
 	class TTT_Backpack_Mgschuetze_Tropentarn : B_AssaultPack_cbr {
 		displayName = "MG-Schuetze Rucksack (Tropentarn)";
 		class TransportItems {
-			class _xx_cse_bandage_basic {
-				name = "cse_bandage_basic";
+			class _xx_ACE_fieldDressing {
+				name = "ACE_fieldDressing";
 				count = 7;
 			};
-			class _xx_cse_packing_bandage {
-				name = "cse_packing_bandage";
+			class _xx_ACE_packingBandage {
+				name = "ACE_packingBandage";
 				count = 3;
 			};
-			class _xx_cse_tourniquet {
-				name = "cse_tourniquet";
+			class _xx_ACE_tourniquet {
+				name = "ACE_tourniquet";
 				count = 1;
 			};
 		};
@@ -130,16 +130,16 @@
 	class TTT_Backpack_Atschuetze_Tropentarn : B_AssaultPack_cbr {
 		displayName = "AT-Schuetze Rucksack (Tropentarn)";
 		class TransportItems {
-			class _xx_cse_bandage_basic {
-				name = "cse_bandage_basic";
+			class _xx_ACE_fieldDressing {
+				name = "ACE_fieldDressing";
 				count = 7;
 			};
-			class _xx_cse_packing_bandage {
-				name = "cse_packing_bandage";
+			class _xx_ACE_packingBandage {
+				name = "ACE_packingBandage";
 				count = 3;
 			};
-			class _xx_cse_tourniquet {
-				name = "cse_tourniquet";
+			class _xx_ACE_tourniquet {
+				name = "ACE_tourniquet";
 				count = 1;
 			};
 		};
@@ -149,16 +149,16 @@
 	class TTT_Backpack_Schuetze_Tropentarn : B_AssaultPack_cbr {
 		displayName = "Schuetze Rucksack (Tropentarn)";
 		class TransportItems {
-			class _xx_cse_bandage_basic {
-				name = "cse_bandage_basic";
+			class _xx_ACE_fieldDressing {
+				name = "ACE_fieldDressing";
 				count = 7;
 			};
-			class _xx_cse_packing_bandage {
-				name = "cse_packing_bandage";
+			class _xx_ACE_packingBandage {
+				name = "ACE_packingBandage";
 				count = 3;
 			};
-			class _xx_cse_tourniquet {
-				name = "cse_tourniquet";
+			class _xx_ACE_tourniquet {
+				name = "ACE_tourniquet";
 				count = 1;
 			};
 		};
@@ -169,16 +169,16 @@
 		displayName = "Funker/FAC Rucksack (Tropentarn)";
 		tf_range = 50000;
 		class TransportItems {
-			class _xx_cse_bandage_basic {
-				name = "cse_bandage_basic";
+			class _xx_ACE_fieldDressing {
+				name = "ACE_fieldDressing";
 				count = 7;
 			};
-			class _xx_cse_packing_bandage {
-				name = "cse_packing_bandage";
+			class _xx_ACE_packingBandage {
+				name = "ACE_packingBandage";
 				count = 3;
 			};
-			class _xx_cse_tourniquet {
-				name = "cse_tourniquet";
+			class _xx_ACE_tourniquet {
+				name = "ACE_tourniquet";
 				count = 1;
 			};
 			class _xx_ACE_DK10_b {
@@ -198,16 +198,16 @@
 	class TTT_Backpack_Pionier_Tropentarn : B_Carryall_cbr {
 		displayName = "Pionier Rucksack (Tropentarn)";
 		class TransportItems {
-			class _xx_cse_bandage_basic {
-				name = "cse_bandage_basic";
+			class _xx_ACE_fieldDressing {
+				name = "ACE_fieldDressing";
 				count = 7;
 			};
-			class _xx_cse_packing_bandage {
-				name = "cse_packing_bandage";
+			class _xx_ACE_packingBandage {
+				name = "ACE_packingBandage";
 				count = 3;
 			};
-			class _xx_cse_tourniquet {
-				name = "cse_tourniquet";
+			class _xx_ACE_tourniquet {
+				name = "ACE_tourniquet";
 				count = 1;
 			};
 			class _xx_Toolkit {
@@ -235,44 +235,44 @@
 	class TTT_Backpack_Gefechtssanitaeter_Tropentarn : B_Kitbag_cbr {
 		displayName = "Gefechtssanitaeter Rucksack (Tropentarn)";
 		class TransportItems {
-			class _xx_cse_bandage_basic {
-				name = "cse_bandage_basic";
+			class _xx_ACE_fieldDressing {
+				name = "ACE_fieldDressing";
 				count = 8;
 			};
-			class _xx_cse_bandageElastic {
-				name = "cse_bandageElastic";
+			class _xx_ACE_elasticBandage {
+				name = "ACE_elasticBandage";
 				count = 15;
 			};
-			class _xx_cse_quikclot {
-				name = "cse_quikclot";
+			class _xx_ACE_quikclot {
+				name = "ACE_quikclot";
 				count = 12;
 			};
-			class _xx_cse_packing_bandage {
-				name = "cse_packing_bandage";
+			class _xx_ACE_packingBandage {
+				name = "ACE_packingBandage";
 				count = 6;
 			};
-			class _xx_cse_tourniquet {
-				name = "cse_tourniquet";
+			class _xx_ACE_tourniquet {
+				name = "ACE_tourniquet";
 				count = 4;
 			};
-			class _xx_cse_saline_iv_500 {
-				name = "cse_saline_iv_500";
+			class _xx_ACE_salineIV_500 {
+				name = "ACE_salineIV_500";
 				count = 12;
 			};
-			class _xx_cse_atropine {
-				name = "cse_atropine";
+			class _xx_ACE_atropine {
+				name = "ACE_atropine";
 				count = 5;
 			};
-			class _xx_cse_epinephrine {
-				name = "cse_epinephrine";
+			class _xx_ACE_epinephrine {
+				name = "ACE_epinephrine";
 				count = 10;
 			};
-			class _xx_cse_morphine {
-				name = "cse_morphine";
+			class _xx_ACE_morphine {
+				name = "ACE_morphine";
 				count = 20;
 			};
-			class _xx_cse_surgical_kit {
-				name = "cse_surgical_kit";
+			class _xx_ACE_surgicalKit {
+				name = "ACE_surgicalKit";
 				count = 1;
 			};
 		};
@@ -282,52 +282,52 @@
 	class TTT_Backpack_Feldarzt_Tropentarn : B_Kitbag_cbr {
 		displayName = "Feldarzt Rucksack (Tropentarn)";
 		class TransportItems {
-			class _xx_cse_bandage_basic {
-				name = "cse_bandage_basic";
+			class _xx_ACE_fieldDressing {
+				name = "ACE_fieldDressing";
 				count = 10;
 			};
-			class _xx_cse_bandageElastic {
-				name = "cse_bandageElastic";
+			class _xx_ACE_elasticBandage {
+				name = "ACE_elasticBandage";
 				count = 15;
 			};
-			class _xx_cse_quikclot {
-				name = "cse_quikclot";
+			class _xx_ACE_quikclot {
+				name = "ACE_quikclot";
 				count = 12;
 			};
-			class _xx_cse_packing_bandage {
-				name = "cse_packing_bandage";
+			class _xx_ACE_packingBandage {
+				name = "ACE_packingBandage";
 				count = 10;
 			};
-			class _xx_cse_tourniquet {
-				name = "cse_tourniquet";
+			class _xx_ACE_tourniquet {
+				name = "ACE_tourniquet";
 				count = 4;
 			};
-			class _xx_cse_saline_iv {
-				name = "cse_saline_iv";
+			class _xx_ACE_salineIV {
+				name = "ACE_salineIV";
 				count = 15;
 			};
-			class _xx_cse_atropine {
-				name = "cse_atropine";
+			class _xx_ACE_atropine {
+				name = "ACE_atropine";
 				count = 5;
 			};
-			class _xx_cse_epinephrine {
-				name = "cse_epinephrine";
+			class _xx_ACE_epinephrine {
+				name = "ACE_epinephrine";
 				count = 15;
 			};
-			class _xx_cse_morphine {
-				name = "cse_morphine";
+			class _xx_ACE_morphine {
+				name = "ACE_morphine";
 				count = 25;
 			};
-			class _xx_cse_personal_aid_kit {
-				name = "cse_personal_aid_kit";
+			class _xx_ACE_personalAidKit {
+				name = "ACE_personalAidKit";
 				count = 1;
 			};
 			class _xx_ACE_DK10_b {
 				name = "ACE_DK10_b";
 				count = 1;
 			};
-			class _xx_cse_surgical_kit {
-				name = "cse_surgical_kit";
+			class _xx_ACE_surgicalKit {
+				name = "ACE_surgicalKit";
 				count = 1;
 			};
 		};
@@ -338,16 +338,16 @@
 		displayName = "Pilot Rucksack (Tropentarn)";
 		tf_range = 50000;
 		class TransportItems {
-			class _xx_cse_bandage_basic {
-				name = "cse_bandage_basic";
+			class _xx_ACE_fieldDressing {
+				name = "ACE_fieldDressing";
 				count = 7;
 			};
-			class _xx_cse_packing_bandage {
-				name = "cse_packing_bandage";
+			class _xx_ACE_packingBandage {
+				name = "ACE_packingBandage";
 				count = 3;
 			};
-			class _xx_cse_tourniquet {
-				name = "cse_tourniquet";
+			class _xx_ACE_tourniquet {
+				name = "ACE_tourniquet";
 				count = 1;
 			};
 			class _xx_ACE_DK10_b {
@@ -362,16 +362,16 @@
 		displayName = "OPL Rucksack (Tropentarn)";
 		tf_range = 50000;
 		class TransportItems {
-			class _xx_cse_bandage_basic {
-				name = "cse_bandage_basic";
+			class _xx_ACE_fieldDressing {
+				name = "ACE_fieldDressing";
 				count = 7;
 			};
-			class _xx_cse_packing_bandage {
-				name = "cse_packing_bandage";
+			class _xx_ACE_packingBandage {
+				name = "ACE_packingBandage";
 				count = 3;
 			};
-			class _xx_cse_tourniquet {
-				name = "cse_tourniquet";
+			class _xx_ACE_tourniquet {
+				name = "ACE_tourniquet";
 				count = 1;
 			};
 			class _xx_ACE_DK10_b {

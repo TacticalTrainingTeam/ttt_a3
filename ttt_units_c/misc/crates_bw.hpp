@@ -495,103 +495,103 @@
 		};
 		
 		class TransportItems {
-			class _xx_cse_bandage_basic {
-				name = "cse_bandage_basic";
+			class _xx_ACE_fieldDressing {
+				name = "ACE_fieldDressing";
 				count = 25;
 			};
 			
-			class _xx_cse_packing_bandage {
-				name = "cse_packing_bandage";
+			class _xx_ACE_packingBandage {
+				name = "ACE_packingBandage";
 				count = 25;
 			};
 			
-			class _xx_cse_tourniquet {
-				name = "cse_tourniquet";
+			class _xx_ACE_tourniquet {
+				name = "ACE_tourniquet";
 				count = 25;
 			};
 
-			class _xx_cse_plasma_iv {
-				name = "cse_plasma_iv";
+			class _xx_ACE_plasmaIV {
+				name = "ACE_plasmaIV";
 				count = 25;
 			};
 				
-			class _xx_cse_plasma_iv_500 {
-				name = "cse_plasma_iv_500";
+			class _xx_ACE_plasmaIV_500 {
+				name = "ACE_plasmaIV_500";
 				count = 25;
 			};
 				
-			class _xx_cse_plasma_iv_250 {
-				name = "cse_plasma_iv_250";
+			class _xx_ACE_plasmaIV_250 {
+				name = "ACE_plasmaIV_250";
 				count = 25;
 			};
 				
-			class _xx_cse_blood_iv {
-				name = "cse_blood_iv";
+			class _xx_ACE_bloodIV {
+				name = "ACE_bloodIV";
 				count = 25;
 			};
 			
-			class _xx_cse_blood_iv_500 {
-				name = "cse_blood_iv_500";
+			class _xx_ACE_bloodIV_500 {
+				name = "ACE_bloodIV_500";
 				count = 25;
 			};
 				
-			class _xx_cse_blood_iv_250 {
-				name = "cse_blood_iv_250";
+			class _xx_ACE_bloodIV_250 {
+				name = "ACE_bloodIV_250";
 				count = 25;
 			};
 				
-			class _xx_cse_saline_iv {
-				name = "cse_saline_iv";
+			class _xx_ACE_salineIV {
+				name = "ACE_salineIV";
 				count = 25;
 			};
 				
-			class _xx_cse_saline_iv_500 {
-				name = "cse_saline_iv_500";
+			class _xx_ACE_salineIV_500 {
+				name = "ACE_salineIV_500";
 				count = 25;
 			};
 				
-			class _xx_cse_saline_iv_250 {
-				name = "cse_saline_iv_250";
+			class _xx_ACE_salineIV_250 {
+				name = "ACE_salineIV_250";
 				count = 25;
 			};
 				
-			class _xx_cse_morphine {
-				name = "cse_morphine";
+			class _xx_ACE_morphine {
+				name = "ACE_morphine";
 				count = 25;
 			};
 				
-			class _xx_cse_epinephrine {
-				name = "cse_epinephrine";
+			class _xx_ACE_epinephrine {
+				name = "ACE_epinephrine";
 				count = 25;
 			};
 				
-			class _xx_cse_atropine {
-				name = "cse_atropine";
+			class _xx_ACE_atropine {
+				name = "ACE_atropine";
 				count = 25;
 			};
 				
-			class _xx_cse_quikclot {
-				name = "cse_quikclot";
+			class _xx_ACE_quikclot {
+				name = "ACE_quikclot";
 				count = 25;
 			};
 								
-			class _xx_cse_bandageElastic {
-				name = "cse_bandageElastic";
+			class _xx_ACE_elasticBandage {
+				name = "ACE_elasticBandage";
 				count = 25;
 			};
 								
-			class _xx_cse_personal_aid_kit {
-				name = "cse_personal_aid_kit";
+			class _xx_ACE_personalAidKit {
+				name = "ACE_personalAidKit";
 				count = 25;
 			};
 				
-			class _xx_cse_surgical_kit {
-				name = "cse_surgical_kit";
+			class _xx_ACE_surgicalKit {
+				name = "ACE_surgicalKit";
 				count = 25;
 			};
 				
-			class _xx_cse_itemBodyBag {
-				name = "cse_itemBodyBag";
+			class _xx_ACE_bodyBag {
+				name = "ACE_bodyBag";
 				count = 25;
 			};
 		};

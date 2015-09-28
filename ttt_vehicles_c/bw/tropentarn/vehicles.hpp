@@ -31,13 +31,13 @@
 		class TransportItems {
 			
 			//Sanitaetsmaterial
-			class _xx_cse_bandage_basic {
-				name = "cse_bandage_basic";
+			class _xx_ACE_fieldDressing {
+				name = "ACE_fieldDressing";
 				count = 15;
 			};
 			
-			class _xx_cse_packing_bandage {
-				name = "cse_packing_bandage";
+			class _xx_ACE_packingBandage {
+				name = "ACE_packingBandage";
 				count = 10;
 			};
 			
@@ -181,13 +181,13 @@
 		class TransportItems {
 			
 			//Sanitaetsmaterial
-			class _xx_cse_bandage_basic {
-				name = "cse_bandage_basic";
+			class _xx_ACE_fieldDressing {
+				name = "ACE_fieldDressing";
 				count = 15;
 			};
 			
-			class _xx_cse_packing_bandage {
-				name = "cse_packing_bandage";
+			class _xx_ACE_packingBandage {
+				name = "ACE_packingBandage";
 				count = 10;
 			};
 			
@@ -324,13 +324,13 @@
 		};
 		class TransportItems {
 			//Sanitaetsmaterial
-			class _xx_cse_bandage_basic {
-				name = "cse_bandage_basic";
+			class _xx_ACE_fieldDressing {
+				name = "ACE_fieldDressing";
 				count = 15;
 			};
 			
-			class _xx_cse_packing_bandage {
-				name = "cse_packing_bandage";
+			class _xx_ACE_packingBandage {
+				name = "ACE_packingBandage";
 				count = 10;
 			};
 			
@@ -386,13 +386,13 @@
 		class TransportItems {
 			
 			//Sanitaetsmaterial
-			class _xx_cse_bandage_basic {
-				name = "cse_bandage_basic";
+			class _xx_ACE_fieldDressing {
+				name = "ACE_fieldDressing";
 				count = 15;
 			};
 			
-			class _xx_cse_packing_bandage {
-				name = "cse_packing_bandage";
+			class _xx_ACE_packingBandage {
+				name = "ACE_packingBandage";
 				count = 10;
 			};
 		};
@@ -461,13 +461,13 @@
 		class TransportItems {
 			
 			//Sanitaetsmaterial
-			class _xx_cse_bandage_basic {
-				name = "cse_bandage_basic";
+			class _xx_ACE_fieldDressing {
+				name = "ACE_fieldDressing";
 				count = 15;
 			};
 			
-			class _xx_cse_packing_bandage {
-				name = "cse_packing_bandage";
+			class _xx_ACE_packingBandage {
+				name = "ACE_packingBandage";
 				count = 10;
 			};
 		};
@@ -563,43 +563,43 @@
 			
 		};
 		class TransportItems {
-			class _xx_cse_atropine {
-				name = "cse_atropine";
+			class _xx_ACE_atropine {
+				name = "ACE_atropine";
 				count = 10;
 			};
 			
-			class _xx_cse_packing_bandage {
-				name = "cse_packing_bandage";
+			class _xx_ACE_packingBandage {
+				name = "ACE_packingBandage";
 				count = 20;
 			};
 			
-			class _xx_cse_epinephrine {
-				name = "cse_epinephrine";
+			class _xx_ACE_epinephrine {
+				name = "ACE_epinephrine";
 				count = 20;
 			};
 			
-			class _xx_cse_morphine {
-				name = "cse_morphine";
+			class _xx_ACE_morphine {
+				name = "ACE_morphine";
 				count = 20;
 			};
 			
-			class _xx_cse_bandage_basic {
-				name = "cse_bandage_basic";
+			class _xx_ACE_fieldDressing {
+				name = "ACE_fieldDressing";
 				count = 20;
 			};
 			
-			class _xx_cse_bandageElastic {
-				name = "cse_bandageElastic";
+			class _xx_ACE_elasticBandage {
+				name = "ACE_elasticBandage";
 				count = 20;
 			};
 			
-			class _xx_cse_quikclot {
-				name = "cse_quikclot";
+			class _xx_ACE_quikclot {
+				name = "ACE_quikclot";
 				count = 15;
 			};
 			
-			class _xx_cse_saline_iv {
-				name = "cse_saline_iv";
+			class _xx_ACE_salineIV {
+				name = "ACE_salineIV";
 				count = 15;
 			};
 		};
