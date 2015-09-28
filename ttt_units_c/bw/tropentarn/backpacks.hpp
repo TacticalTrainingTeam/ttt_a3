@@ -12,13 +12,9 @@
 				name = "ACE_fieldDressing";
 				count = 7;
 			};
-			class _xx_ACE_packingBandage {
-				name = "ACE_packingBandage";
-				count = 3;
-			};
 			class _xx_ACE_tourniquet {
 				name = "ACE_tourniquet";
-				count = 1;
+				count = 2;
 			};
 			class _xx_ACE_DK10_b {
 				name = "ACE_DK10_b";
@@ -53,13 +49,9 @@
 				name = "ACE_fieldDressing";
 				count = 7;
 			};
-			class _xx_ACE_packingBandage {
-				name = "ACE_packingBandage";
-				count = 3;
-			};
 			class _xx_ACE_tourniquet {
 				name = "ACE_tourniquet";
-				count = 1;
+				count = 2;
 			};
 		};
 		class TransportMagazines {
@@ -90,13 +82,9 @@
 				name = "ACE_fieldDressing";
 				count = 7;
 			};
-			class _xx_ACE_packingBandage {
-				name = "ACE_packingBandage";
-				count = 3;
-			};
 			class _xx_ACE_tourniquet {
 				name = "ACE_tourniquet";
-				count = 1;
+				count = 2;
 			};
 		};
 		class TransportMagazines {
@@ -115,13 +103,9 @@
 				name = "ACE_fieldDressing";
 				count = 7;
 			};
-			class _xx_ACE_packingBandage {
-				name = "ACE_packingBandage";
-				count = 3;
-			};
 			class _xx_ACE_tourniquet {
 				name = "ACE_tourniquet";
-				count = 1;
+				count = 2;
 			};
 		};
 	};
@@ -134,13 +118,9 @@
 				name = "ACE_fieldDressing";
 				count = 7;
 			};
-			class _xx_ACE_packingBandage {
-				name = "ACE_packingBandage";
-				count = 3;
-			};
 			class _xx_ACE_tourniquet {
 				name = "ACE_tourniquet";
-				count = 1;
+				count = 2;
 			};
 		};
 	};	
@@ -153,13 +133,9 @@
 				name = "ACE_fieldDressing";
 				count = 7;
 			};
-			class _xx_ACE_packingBandage {
-				name = "ACE_packingBandage";
-				count = 3;
-			};
 			class _xx_ACE_tourniquet {
 				name = "ACE_tourniquet";
-				count = 1;
+				count = 2;
 			};
 		};
 	};	
@@ -173,13 +149,9 @@
 				name = "ACE_fieldDressing";
 				count = 7;
 			};
-			class _xx_ACE_packingBandage {
-				name = "ACE_packingBandage";
-				count = 3;
-			};
 			class _xx_ACE_tourniquet {
 				name = "ACE_tourniquet";
-				count = 1;
+				count = 2;
 			};
 			class _xx_ACE_DK10_b {
 				name = "ACE_DK10_b";
@@ -202,13 +174,9 @@
 				name = "ACE_fieldDressing";
 				count = 7;
 			};
-			class _xx_ACE_packingBandage {
-				name = "ACE_packingBandage";
-				count = 3;
-			};
 			class _xx_ACE_tourniquet {
 				name = "ACE_tourniquet";
-				count = 1;
+				count = 2;
 			};
 			class _xx_Toolkit {
 				name = "Toolkit";
@@ -342,13 +310,9 @@
 				name = "ACE_fieldDressing";
 				count = 7;
 			};
-			class _xx_ACE_packingBandage {
-				name = "ACE_packingBandage";
-				count = 3;
-			};
 			class _xx_ACE_tourniquet {
 				name = "ACE_tourniquet";
-				count = 1;
+				count = 2;
 			};
 			class _xx_ACE_DK10_b {
 				name = "ACE_DK10_b";
@@ -366,13 +330,9 @@
 				name = "ACE_fieldDressing";
 				count = 7;
 			};
-			class _xx_ACE_packingBandage {
-				name = "ACE_packingBandage";
-				count = 3;
-			};
 			class _xx_ACE_tourniquet {
 				name = "ACE_tourniquet";
-				count = 1;
+				count = 2;
 			};
 			class _xx_ACE_DK10_b {
 				name = "ACE_DK10_b";
