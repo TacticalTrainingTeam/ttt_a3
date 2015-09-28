@@ -222,6 +222,14 @@ class TTT_Backpack_Pionier_Tropentarn : B_Carryall_cbr {
             name = "MineDetector";
             count = 1;
         };
+        class _xx_ACE_DefusalKit {
+            name = "ACE_DefusalKit";
+            count = 1;
+        };
+        class _xx_ACE_M26_Clacker {
+            name = "ACE_M26_Clacker";
+            count = 5;
+        };
     };
     class TransportMagazines {
         class _xx_SLAMDirectionalMine_Wire_Mag {
