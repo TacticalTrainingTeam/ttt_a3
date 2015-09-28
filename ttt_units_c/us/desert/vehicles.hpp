@@ -143,8 +143,8 @@ class TTT_Grau5_Desert : TTT_Base_us {
     backpack = "TTT_Backpack_Schuetze_Desert";
     uniformClass = "TTT_Uniform_Grau_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\desert\uniforms\TTT_uniform_grey_desert.paa" };
-    items[] = { "rhsusf_acc_eotech_552", "rhsusf_acc_anpeq15side", "rhsusf_acc_harris_bipod", "rhsusf_acc_SR25S", "rhsusf_acc_LEUPOLDMK4", "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools" };
-    respawnItems[] = { "rhsusf_acc_eotech_552", "rhsusf_acc_anpeq15side", "rhsusf_acc_harris_bipod", "rhsusf_acc_SR25S", "rhsusf_acc_LEUPOLDMK4", "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools" };
+    items[] = { "rhsusf_acc_eotech_552", "rhsusf_acc_anpeq15side", "rhsusf_acc_harris_bipod", "rhsusf_acc_SR25S", "rhsusf_acc_LEUPOLDMK4", "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_RangeCard" };
+    respawnItems[] = { "rhsusf_acc_eotech_552", "rhsusf_acc_anpeq15side", "rhsusf_acc_harris_bipod", "rhsusf_acc_SR25S", "rhsusf_acc_LEUPOLDMK4", "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_RangeCard" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Grey_Desert", "TTT_Helmet_5_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Grey_Desert", "TTT_Helmet_5_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     weapons[] = { "rhs_weap_sr25_ec", "rhsusf_weap_m1911a1", "Rangefinder", "Throw", "Put" };
@@ -187,8 +187,8 @@ class TTT_Gold1_Desert : TTT_Base_us {
     uniformClass = "TTT_Uniform_Gold_Desert";
     backpack = "TTT_Backpack_Funkerfac_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\desert\uniforms\TTT_uniform_gold_desert.paa" };
-    items[] = { "rhsusf_acc_eotech_552", "rhsusf_acc_rotex5_grey", "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools" };
-    respawnItems[] = { "rhsusf_acc_eotech_552", "rhsusf_acc_rotex5_grey", "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools" };
+    items[] = { "rhsusf_acc_eotech_552", "rhsusf_acc_rotex5_grey", "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_RangeCard" };
+    respawnItems[] = { "rhsusf_acc_eotech_552", "rhsusf_acc_rotex5_grey", "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_RangeCard" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Desert", "TTT_Helmet_1_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Desert", "TTT_Helmet_1_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     weapons[] = { "rhs_m4a1_m320_acog3", "rhsusf_weap_m1911a1", "Laserdesignator", "Throw", "Put" };
@@ -207,8 +207,8 @@ class TTT_Gold2_Desert : TTT_Base_us {
     uniformClass = "TTT_Uniform_Gold_Desert";
     backpack = "TTT_Backpack_Schuetze_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\desert\uniforms\TTT_uniform_gold_desert.paa" };
-    items[] = { "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools" };
-    respawnItems[] = { "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools" };
+    items[] = { "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_RangeCard" };
+    respawnItems[] = { "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_RangeCard" };
     weapons[] = { "srifle_LRR_LRPS_F", "rhsusf_weap_m1911a1", "Rangefinder", "Throw", "Put" };
     respawnWeapons[] = { "srifle_LRR_LRPS_F", "rhsusf_weap_m1911a1", "Rangefinder", "Throw", "Put" };
     magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "7Rnd_408_Mag", "7Rnd_408_Mag", "7Rnd_408_Mag", "7Rnd_408_Mag", "7Rnd_408_Mag", "7Rnd_408_Mag" };

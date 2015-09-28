@@ -143,8 +143,8 @@ class TTT_Grau5_Tropentarn : TTT_Base_Base {
     backpack = "TTT_Backpack_Schuetze_Tropentarn";
     uniformClass = "TTT_Uniform_Grau_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_grey_tropentarn.paa" };
-    items[] = { "BWA3_optic_NSV600", "BWA3_muzzle_snds_G28", "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools" };
-    respawnItems[] = { "BWA3_optic_NSV600", "BWA3_muzzle_snds_G28", "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools" };
+    items[] = { "BWA3_optic_NSV600", "BWA3_muzzle_snds_G28", "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_RangeCard" };
+    respawnItems[] = { "BWA3_optic_NSV600", "BWA3_muzzle_snds_G28", "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_RangeCard" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Marksman_Tropen", "TTT_Helmet_5_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Marksman_Tropen", "TTT_Helmet_5_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     weapons[] = { "BWA3_G28_Standard_equipped", "hgun_Pistol_heavy_01_snds_F", "Rangefinder", "Throw", "Put" };
@@ -187,8 +187,8 @@ class TTT_Gold1_Tropentarn : TTT_Base_Base {
     uniformClass = "TTT_Uniform_Gold_Tropentarn";
     backpack = "TTT_Backpack_Truppfuehrer_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_gold_tropentarn.paa" };
-    items[] = { "BWA3_optic_NSV600", "BWA3_muzzle_snds_G28", "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools" };
-    respawnItems[] = { "BWA3_optic_NSV600", "BWA3_muzzle_snds_G28", "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools" };
+    items[] = { "BWA3_optic_NSV600", "BWA3_muzzle_snds_G28", "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_RangeCard" };
+    respawnItems[] = { "BWA3_optic_NSV600", "BWA3_muzzle_snds_G28", "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_RangeCard" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Leader_Tropen", "TTT_Helmet_1_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Leader_Tropen", "TTT_Helmet_1_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     weapons[] = { "BWA3_G27_AG_equipped", "hgun_Pistol_heavy_01_snds_F", "Laserdesignator", "Throw", "Put" };
@@ -207,8 +207,8 @@ class TTT_Gold2_Tropentarn : TTT_Base_Base {
     uniformClass = "TTT_Uniform_Gold_Tropentarn";
     backpack = "TTT_Backpack_Schuetze_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_gold_tropentarn.paa" };
-    items[] = { "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools" };
-    respawnItems[] = { "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools" };
+    items[] = { "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_RangeCard" };
+    respawnItems[] = { "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_RangeCard" };
     weapons[] = { "srifle_LRR_LRPS_F", "hgun_Pistol_heavy_01_snds_F", "Rangefinder", "Throw", "Put" };
     respawnWeapons[] = { "srifle_LRR_LRPS_F", "hgun_Pistol_heavy_01_snds_F", "Rangefinder", "Throw", "Put" };
     magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "7Rnd_408_Mag", "7Rnd_408_Mag", "7Rnd_408_Mag", "7Rnd_408_Mag", "7Rnd_408_Mag", "7Rnd_408_Mag" };
