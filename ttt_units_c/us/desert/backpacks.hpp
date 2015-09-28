@@ -17,6 +17,10 @@
 				name = "ACE_tourniquet";
 				count = 2;
 			};
+			class _xx_ACE_morphine {
+				name = "ACE_morphine";
+				count = 1;
+			};
 			class _xx_ACE_DK10_b {
 				name = "ACE_DK10_b";
 				count = 1;
@@ -55,6 +59,10 @@
 				name = "ACE_tourniquet";
 				count = 2;
 			};
+			class _xx_ACE_morphine {
+				name = "ACE_morphine";
+				count = 1;
+			};
 		};
 		class TransportMagazines {
 			class _xx_1Rnd_Smoke_Grenade_shell {
@@ -89,6 +97,10 @@
 				name = "ACE_tourniquet";
 				count = 2;
 			};
+			class _xx_ACE_morphine {
+				name = "ACE_morphine";
+				count = 1;
+			};
 		};
 		class TransportMagazines {
 			class _xx_rhsusf_100Rnd_762x51_m80a1epr {
@@ -110,6 +122,10 @@
 			class _xx_ACE_tourniquet {
 				name = "ACE_tourniquet";
 				count = 2;
+			};
+			class _xx_ACE_morphine {
+				name = "ACE_morphine";
+				count = 1;
 			};
 		};
 		class TransportMagazines {
@@ -134,6 +150,10 @@
 				name = "ACE_tourniquet";
 				count = 2;
 			};
+			class _xx_ACE_morphine {
+				name = "ACE_morphine";
+				count = 1;
+			};
 		};
 		class TransportMagazines {
 			class _xx_rhsusf_200Rnd_556x45_soft_pouch {
@@ -156,6 +176,10 @@
 				name = "ACE_tourniquet";
 				count = 2;
 			};
+			class _xx_ACE_morphine {
+				name = "ACE_morphine";
+				count = 1;
+			};
 		};
 	};	
 	
@@ -172,6 +196,10 @@
 				name = "ACE_tourniquet";
 				count = 2;
 			};
+			class _xx_ACE_morphine {
+				name = "ACE_morphine";
+				count = 1;
+			};
 		};
 	};	
 	
@@ -187,6 +215,10 @@
 			class _xx_ACE_tourniquet {
 				name = "ACE_tourniquet";
 				count = 2;
+			};
+			class _xx_ACE_morphine {
+				name = "ACE_morphine";
+				count = 1;
 			};
 			class _xx_ACE_DK10_b {
 				name = "ACE_DK10_b";
@@ -213,6 +245,10 @@
 			class _xx_ACE_tourniquet {
 				name = "ACE_tourniquet";
 				count = 2;
+			};
+			class _xx_ACE_morphine {
+				name = "ACE_morphine";
+				count = 1;
 			};
 			class _xx_Toolkit {
 				name = "Toolkit";
@@ -242,7 +278,7 @@
 		class TransportItems {
 			class _xx_ACE_fieldDressing {
 				name = "ACE_fieldDressing";
-				count = 8;
+				count = 10;
 			};
 			class _xx_ACE_elasticBandage {
 				name = "ACE_elasticBandage";
@@ -250,19 +286,19 @@
 			};
 			class _xx_ACE_quikclot {
 				name = "ACE_quikclot";
-				count = 12;
+				count = 10;
 			};
 			class _xx_ACE_packingBandage {
 				name = "ACE_packingBandage";
-				count = 6;
+				count = 10;
 			};
 			class _xx_ACE_tourniquet {
 				name = "ACE_tourniquet";
-				count = 4;
+				count = 3;
 			};
 			class _xx_ACE_salineIV_500 {
 				name = "ACE_salineIV_500";
-				count = 12;
+				count = 4;
 			};
 			class _xx_ACE_atropine {
 				name = "ACE_atropine";
@@ -270,15 +306,15 @@
 			};
 			class _xx_ACE_epinephrine {
 				name = "ACE_epinephrine";
-				count = 10;
+				count = 8;
 			};
 			class _xx_ACE_morphine {
 				name = "ACE_morphine";
-				count = 20;
+				count = 8;
 			};
 			class _xx_ACE_surgicalKit {
 				name = "ACE_surgicalKit";
-				count = 1;
+				count = 3;
 			};
 		};
 	};
@@ -298,7 +334,7 @@
 			};
 			class _xx_ACE_quikclot {
 				name = "ACE_quikclot";
-				count = 12;
+				count = 10;
 			};
 			class _xx_ACE_packingBandage {
 				name = "ACE_packingBandage";
@@ -306,34 +342,34 @@
 			};
 			class _xx_ACE_tourniquet {
 				name = "ACE_tourniquet";
-				count = 4;
+				count = 2;
 			};
 			class _xx_ACE_salineIV {
 				name = "ACE_salineIV";
-				count = 15;
+				count = 6;
 			};
 			class _xx_ACE_atropine {
 				name = "ACE_atropine";
-				count = 5;
+				count = 8;
 			};
 			class _xx_ACE_epinephrine {
 				name = "ACE_epinephrine";
-				count = 15;
+				count = 12;
 			};
 			class _xx_ACE_morphine {
 				name = "ACE_morphine";
-				count = 25;
+				count = 12;
 			};
 			class _xx_ACE_personalAidKit {
 				name = "ACE_personalAidKit";
 				count = 1;
 			};
-			class _xx_ACE_DK10_b {
-				name = "ACE_DK10_b";
-				count = 1;
-			};
 			class _xx_ACE_surgicalKit {
 				name = "ACE_surgicalKit";
+				count = 5;
+			};
+			class _xx_ACE_DK10_b {
+				name = "ACE_DK10_b";
 				count = 1;
 			};
 		};
@@ -351,6 +387,10 @@
 			class _xx_ACE_tourniquet {
 				name = "ACE_tourniquet";
 				count = 2;
+			};
+			class _xx_ACE_morphine {
+				name = "ACE_morphine";
+				count = 1;
 			};
 			class _xx_ACE_DK10_b {
 				name = "ACE_DK10_b";
@@ -371,6 +411,10 @@
 			class _xx_ACE_tourniquet {
 				name = "ACE_tourniquet";
 				count = 2;
+			};
+			class _xx_ACE_morphine {
+				name = "ACE_morphine";
+				count = 1;
 			};
 			class _xx_ACE_DK10_b {
 				name = "ACE_DK10_b";
