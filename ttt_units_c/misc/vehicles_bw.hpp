@@ -37,9 +37,9 @@ class TTT_Truppfuehrer_Base : TTT_Base_Base {
     respawnitems[] = { "BWA3_optic_NSV600", "ACE_NVG_Wide", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Leader_Tropen", "TTT_Helmet_1_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Leader_Tropen", "TTT_Helmet_1_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    weapons[] = { "BWA3_G36_AG_equipped", "hgun_Pistol_heavy_01_snds_F", "Rangefinder", "Throw", "Put" };
+    weapons[] = { "BWA3_G36_AG_equipped", "hgun_Pistol_heavy_01_snds_F", "ACE_Yardage450", "Throw", "Put" };
     magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP" };
-    respawnWeapons[] = { "BWA3_G36_AG_equipped", "hgun_Pistol_heavy_01_snds_F", "Rangefinder", "Throw", "Put" };
+    respawnWeapons[] = { "BWA3_G36_AG_equipped", "hgun_Pistol_heavy_01_snds_F", "ACE_Yardage450", "Throw", "Put" };
     respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP" };
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_black_tropentarn.paa" };
 };
@@ -75,8 +75,8 @@ class TTT_Mgassistent_Base : TTT_Base_Base {
     respawnitems[] = { "BWA3_optic_NSV600", "ACE_NVG_Wide", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_3_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_3_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    weapons[] = { "BWA3_G36_equipped", "hgun_Pistol_heavy_01_snds_F", "Rangefinder", "Throw", "Put" };
-    respawnWeapons[] = { "BWA3_G36_equipped", "hgun_Pistol_heavy_01_snds_F", "Rangefinder", "Throw", "Put" };
+    weapons[] = { "BWA3_G36_equipped", "hgun_Pistol_heavy_01_snds_F", "ACE_Yardage450", "Throw", "Put" };
+    respawnWeapons[] = { "BWA3_G36_equipped", "hgun_Pistol_heavy_01_snds_F", "ACE_Yardage450", "Throw", "Put" };
     magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP" };
     respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP" };
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_black_tropentarn.paa" };
@@ -132,8 +132,8 @@ class TTT_Atassistent_Base : TTT_Base_Base {
     respawnitems[] = { "BWA3_optic_NSV600", "ACE_NVG_Wide", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_5_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_5_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    weapons[] = { "BWA3_G36_equipped", "hgun_Pistol_heavy_01_snds_F", "Rangefinder", "Throw", "Put" };
-    respawnWeapons[] = { "BWA3_G36_equipped", "hgun_Pistol_heavy_01_snds_F", "Rangefinder", "Throw", "Put" };
+    weapons[] = { "BWA3_G36_equipped", "hgun_Pistol_heavy_01_snds_F", "ACE_Yardage450", "Throw", "Put" };
+    respawnWeapons[] = { "BWA3_G36_equipped", "hgun_Pistol_heavy_01_snds_F", "ACE_Yardage450", "Throw", "Put" };
     magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_Fliegerfaust_Mag" };
     respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_Fliegerfaust_Mag" };
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_black_tropentarn.paa" };
@@ -249,8 +249,8 @@ class TTT_Feldarzt_Base : TTT_Base_Base {
     respawnitems[] = { "ACE_NVG_Wide", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50", "ACE_microDAGR" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Medic_Tropen", "TTT_Helmet_1_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Medic_Tropen", "TTT_Helmet_1_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    weapons[] = { "SMG_01_Holo_F", "hgun_Pistol_heavy_01_snds_F", "Rangefinder", "Throw", "Put" };
-    respawnWeapons[] = { "SMG_01_Holo_F", "hgun_Pistol_heavy_01_snds_F", "Rangefinder", "Throw", "Put" };
+    weapons[] = { "SMG_01_Holo_F", "hgun_Pistol_heavy_01_snds_F", "ACE_Yardage450", "Throw", "Put" };
+    respawnWeapons[] = { "SMG_01_Holo_F", "hgun_Pistol_heavy_01_snds_F", "ACE_Yardage450", "Throw", "Put" };
     magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green" };
     respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green" };
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_black_tropentarn.paa" };

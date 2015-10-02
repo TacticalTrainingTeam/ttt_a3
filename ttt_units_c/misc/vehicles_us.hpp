@@ -37,9 +37,9 @@ class TTT_Truppfuehrer_Base_us : TTT_Base_us {
     respawnitems[] = { "ACE_NVG_Wide", "rhsusf_acc_eotech_552", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_1_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_1_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    weapons[] = { "rhs_m4a1_m320_acog3", "rhsusf_weap_m1911a1", "Rangefinder", "Throw", "Put" };
+    weapons[] = { "rhs_m4a1_m320_acog3", "rhsusf_weap_m1911a1", "ACE_Yardage450", "Throw", "Put" };
     magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag" };
-    respawnWeapons[] = { "rhs_m4a1_m320_acog3", "rhsusf_weap_m1911a1", "Rangefinder", "Throw", "Put" };
+    respawnWeapons[] = { "rhs_m4a1_m320_acog3", "rhsusf_weap_m1911a1", "ACE_Yardage450", "Throw", "Put" };
     respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag" };
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\desert\uniforms\TTT_uniform_black_Desert.paa" };
 };
@@ -75,8 +75,8 @@ class TTT_Mgassistent_Base_us : TTT_Base_us {
     respawnitems[] = { "ACE_NVG_Wide", "rhsusf_acc_eotech_552", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_3_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_3_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    weapons[] = { "rhs_m4a1_grip_acog3_usmc", "rhsusf_weap_m1911a1", "Rangefinder", "Throw", "Put" };
-    respawnWeapons[] = { "rhs_m4a1_grip_acog3_usmc", "rhsusf_weap_m1911a1", "Rangefinder", "Throw", "Put" };
+    weapons[] = { "rhs_m4a1_grip_acog3_usmc", "rhsusf_weap_m1911a1", "ACE_Yardage450", "Throw", "Put" };
+    respawnWeapons[] = { "rhs_m4a1_grip_acog3_usmc", "rhsusf_weap_m1911a1", "ACE_Yardage450", "Throw", "Put" };
     magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag" };
     respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag" };
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\desert\uniforms\TTT_uniform_black_Desert.paa" };
@@ -132,8 +132,8 @@ class TTT_Atassistent_Base_us : TTT_Base_us {
     respawnitems[] = { "ACE_NVG_Wide", "rhsusf_acc_eotech_552", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_5_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_5_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    weapons[] = { "rhs_m4a1_grip_acog3_usmc", "rhsusf_weap_m1911a1", "Rangefinder", "Throw", "Put" };
-    respawnWeapons[] = { "rhs_m4a1_grip_acog3_usmc", "rhsusf_weap_m1911a1", "Rangefinder", "Throw", "Put" };
+    weapons[] = { "rhs_m4a1_grip_acog3_usmc", "rhsusf_weap_m1911a1", "ACE_Yardage450", "Throw", "Put" };
+    respawnWeapons[] = { "rhs_m4a1_grip_acog3_usmc", "rhsusf_weap_m1911a1", "ACE_Yardage450", "Throw", "Put" };
     magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "BWA3_Fliegerfaust_Mag" };
     respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "BWA3_Fliegerfaust_Mag" };
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\desert\uniforms\TTT_uniform_black_Desert.paa" };
@@ -151,8 +151,8 @@ class TTT_Atschuetze_Base_us : TTT_Base_us {
     respawnitems[] = { "ACE_NVG_Wide", "rhsusf_acc_eotech_552", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_6_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_6_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    weapons[] = { "rhs_m4a1_grip_acog3_usmc", "rhsusf_weap_m1911a1", "Binocular", "Throw", "Put", "rhs_weap_M136" };
-    respawnWeapons[] = { "rhs_m4a1_grip_acog3_usmc", "rhsusf_weap_m1911a1", "Binocular", "Throw", "Put", "rhs_weap_M136" };
+    weapons[] = { "rhs_m4a1_grip_acog3_usmc", "rhsusf_weap_m1911a1", "ACE_Yardage450", "Throw", "Put", "rhs_weap_M136" };
+    respawnWeapons[] = { "rhs_m4a1_grip_acog3_usmc", "rhsusf_weap_m1911a1", "ACE_Yardage450", "Throw", "Put", "rhs_weap_M136" };
     magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag" };
     respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag" };
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\desert\uniforms\TTT_uniform_black_Desert.paa" };
@@ -249,8 +249,8 @@ class TTT_Feldarzt_Base_us : TTT_Base_us {
     respawnitems[] = { "ACE_NVG_Wide", "rhsusf_acc_eotech_552", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_1_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_1_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    weapons[] = { "rhs_weap_m4_carryhandle", "rhsusf_weap_m1911a1", "Rangefinder", "Throw", "Put" };
-    respawnWeapons[] = { "rhs_weap_m4_carryhandle", "rhsusf_weap_m1911a1", "Rangefinder", "Throw", "Put" };
+    weapons[] = { "rhs_weap_m4_carryhandle", "rhsusf_weap_m1911a1", "ACE_Yardage450", "Throw", "Put" };
+    respawnWeapons[] = { "rhs_weap_m4_carryhandle", "rhsusf_weap_m1911a1", "ACE_Yardage450", "Throw", "Put" };
     magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag" };
     respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag" };
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\desert\uniforms\TTT_uniform_black_Desert.paa" };

@@ -330,8 +330,13 @@
 				count = 5;
 			};
 			
-			class _xx_Rangefinder {
-				name = "Rangefinder";
+			class _xx_ACE_Yardage450 {
+				name = "ACE_Yardage450";
+				count = 1;
+			};
+			
+			class _xx_ACE_Vector {
+				name = "ACE_Vector";
 				count = 1;
 			};
 			
