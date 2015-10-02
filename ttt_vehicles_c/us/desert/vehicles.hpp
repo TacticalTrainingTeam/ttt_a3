@@ -45,6 +45,10 @@
 				name = "ACE_UAVBattery";
 				count = 2;
 			};
+            class _xx_ACE_IR_Strobe_Item {
+                name = "ACE_IR_Strobe_Item";
+                count = 6;
+            };
 		};
 		class TransportMagazines {
 			
@@ -132,11 +136,6 @@
 				count = 6;
 			};
 			
-			class _xx_ACE_IR_Strobe_Item {
-				magazine = "ACE_IR_Strobe_Item";
-				count = 6;
-			};
-			
 			class _xx_ACE_M84 {
 				magazine = "ACE_M84";
 				count = 6;
@@ -195,6 +194,10 @@
 				name = "ACE_UAVBattery";
 				count = 2;
 			};
+            class _xx_ACE_IR_Strobe_Item {
+                name = "ACE_IR_Strobe_Item";
+                count = 6;
+            };
 		};
 		class TransportMagazines {
 			
@@ -274,11 +277,6 @@
 			
 			class _xx_ACE_HandFlare_Green {
 				magazine = "ACE_HandFlare_Green";
-				count = 6;
-			};
-			
-			class _xx_ACE_IR_Strobe_Item {
-				magazine = "ACE_IR_Strobe_Item";
 				count = 6;
 			};
 			
@@ -500,6 +498,10 @@
 				name = "ACE_packingBandage";
 				count = 10;
 			};
+            class _xx_ACE_IR_Strobe_Item {
+                name = "ACE_IR_Strobe_Item";
+                count = 6;
+            };
 		};
 		class TransportMagazines {
 			
@@ -528,11 +530,6 @@
 				magazine = "ACE_HandFlare_Green";
 				count = 6;
 			};
-			
-			class _xx_ACE_IR_Strobe_Item {
-				magazine = "ACE_IR_Strobe_Item";
-				count = 6;
-			};	
 		};
 		class TransportBackpacks {
 			
@@ -576,6 +573,10 @@
 				name = "ACE_packingBandage";
 				count = 10;
 			};
+            class _xx_ACE_IR_Strobe_Item {
+                name = "ACE_IR_Strobe_Item";
+                count = 6;
+            };
 		};
 		class TransportMagazines {
 	
@@ -604,11 +605,6 @@
 				magazine = "ACE_HandFlare_Green";
 				count = 6;
 			};
-			
-			class _xx_ACE_IR_Strobe_Item {
-				magazine = "ACE_IR_Strobe_Item";
-				count = 6;
-			};	
 		};
 		class TransportBackpacks {
 			

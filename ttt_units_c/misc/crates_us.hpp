@@ -332,7 +332,7 @@
 			
 			class _xx_ACE_Yardage450 {
 				name = "ACE_Yardage450";
-				count = 1;
+				count = 3;
 			};
 			
 			class _xx_ACE_Vector {
