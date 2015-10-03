@@ -248,11 +248,6 @@
 				count = 12;
 			};
 			
-			class _xx_ACE_IR_Strobe_Item {
-				magazine = "ACE_IR_Strobe_Item";
-				count = 12;
-			};
-			
 			class _xx_ACE_M84 {
 				magazine = "ACE_M84";
 				count = 12;
@@ -263,6 +258,10 @@
 		};
 		
 		class TransportItems {
+			class _xx_ACE_IR_Strobe_Item {
+				magazine = "ACE_IR_Strobe_Item";
+				count = 12;
+			};
 		};
 		
 		class TransportBackpacks{
