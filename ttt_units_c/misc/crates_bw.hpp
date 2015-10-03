@@ -266,7 +266,7 @@
 		
 		class TransportItems {
 			class _xx_ACE_IR_Strobe_Item {
-				magazine = "ACE_IR_Strobe_Item";
+				name = "ACE_IR_Strobe_Item";
 				count = 12;
 			};			};
 		
