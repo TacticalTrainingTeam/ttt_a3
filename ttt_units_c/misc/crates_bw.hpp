@@ -7,8 +7,8 @@
 	class TTT_Logistik_Waffen_bw : Box_NATO_Wps_F {
 		author = "Tactical Training Team";
 		displayName = "TTT Waffen (BW)";
-		transportMaxWeapons = 7;
-		transportMaxMagazines = 0;
+		transportMaxWeapons = 99;
+		transportMaxMagazines = 99;
 		
 		class TransportMagazines {
 		};
@@ -45,8 +45,8 @@
 	class TTT_Logistik_Spezialwaffen_bw : Box_NATO_WpsSpecial_F {
 		author = "Tactical Training Team";
 		displayName = "TTT Spezialwaffen";
-		transportMaxWeapons = 3;
-		transportMaxMagazines = 0;
+		transportMaxWeapons = 99;
+		transportMaxMagazines = 99;
 		
 		class TransportMagazines {
 		};
@@ -78,8 +78,8 @@
 	class TTT_Logistik_Standardmunition_bw : Box_NATO_Ammo_F {
 		author = "Tactical Training Team";
 		displayName = "TTT Standardmunition";
-		transportMaxWeapons = 0;
-		transportMaxMagazines = 92;
+		transportMaxWeapons = 99;
+		transportMaxMagazines = 99;
 		
 		class TransportMagazines {
 			class _xx_BWA3_30Rnd_556x45_G36_AP {
@@ -98,24 +98,19 @@
 			};
 			
 			class _xx_1Rnd_Smoke_Grenade_shell {
-				count = 12;
+				count = 6;
 				magazine = "1Rnd_Smoke_Grenade_shell";
 			};
 			
 			class _xx_1Rnd_SmokeRed_Grenade_shell {
-				count = 12;
+				count = 6;
 				magazine = "1Rnd_SmokeRed_Grenade_shell";
 			};
 			
 			class _xx_1Rnd_HE_Grenade_shell {
 				count = 12;
 				magazine = "1Rnd_HE_Grenade_shell";
-			};
-			
-			class _xx_UGL_FlareRed_F {
-				count = 12;
-				magazine = "UGL_FlareRed_F";
-			};			
+			};		
 		};
 		
 		class TransportWeapons {
@@ -131,8 +126,8 @@
 	class TTT_Logistik_Spezialmunition_bw : Box_NATO_Ammo_F {
 		author = "Tactical Training Team";
 		displayName = "TTT Spezialmunition";
-		transportMaxWeapons = 0;
-		transportMaxMagazines = 60;
+		transportMaxWeapons = 99;
+		transportMaxMagazines = 99;
 		
 		class TransportMagazines {
 			class _xx_BWA3_30Rnd_556x45_G36_SD {
@@ -184,8 +179,8 @@
 	class TTT_Logistik_Pionierausruestung_bw : Box_NATO_AmmoOrd_F {
 		author = "Tactical Training Team";
 		displayName = "TTT Pionierausruestung (BW)";
-		transportMaxWeapons = 0;
-		transportMaxMagazines = 12;
+		transportMaxWeapons = 99;
+		transportMaxMagazines = 99;
 		
 		class TransportMagazines {
 
@@ -226,8 +221,8 @@
 	class TTT_Logistik_Granaten_bw : Box_NATO_Grenades_F {
 		author = "Tactical Training Team";
 		displayName = "TTT Granaten (BW)";
-		transportMaxWeapons = 0;
-		transportMaxMagazines = 84;
+		transportMaxWeapons = 99;
+		transportMaxMagazines = 99;
 		
 		class TransportMagazines {
 			class _xx_SmokeShell {
@@ -277,8 +272,8 @@
 	class TTT_Logistik_Ausruestung_bw : Box_NATO_Support_F {
 		author = "Tactical Training Team";
 		displayName = "TTT Ausruestung (BW)";
-		transportMaxWeapons = 0;
-		transportMaxMagazines = 6;
+		transportMaxWeapons = 99;
+		transportMaxMagazines = 99;
 		
 		class TransportMagazines {
 			class _xx_Laserbatteries {
@@ -428,8 +423,8 @@
 	class TTT_Logistik_Werfer_bw : Box_NATO_WpsLaunch_F {
 		author = "Tactical Training Team";
 		displayName = "TTT Werfer BW";
-		transportMaxWeapons = 4;
-		transportMaxMagazines = 0;
+		transportMaxWeapons = 99;
+		transportMaxMagazines = 99;
 		
 		class TransportMagazines {
 		};
@@ -456,8 +451,8 @@
 	class TTT_Logistik_Werfermunition_bw : Box_NATO_WpsLaunch_F {
 		author = "Tactical Training Team";
 		displayName = "TTT Werfermunition (BW)";
-		transportMaxWeapons = 0;
-		transportMaxMagazines = 6;
+		transportMaxWeapons = 99;
+		transportMaxMagazines = 99;
 		
 		class TransportMagazines {
 			class _xx_BWA3_Pzf3_IT {
@@ -484,8 +479,8 @@
 	class TTT_Logistik_Medic_bw : Box_NATO_Support_F {
 		author = "Tactical Training Team";
 		displayName = "TTT Medic Material (BW)";
-		transportMaxWeapons = 0;
-		transportMaxMagazines = 1;
+		transportMaxWeapons = 99;
+		transportMaxMagazines = 99;
 		
 		class TransportMagazines {
 			
@@ -603,8 +598,8 @@
 	class TTT_Logistik_Medic_Rucksaecke_bw : B_supplyCrate_F {
 		author = "Tactical Training Team";
 		displayName = "TTT Medic Rucksaecke (BW)";
-		transportMaxWeapons = 0;
-		transportMaxMagazines = 1;
+		transportMaxWeapons = 99;
+		transportMaxMagazines = 99;
 		
 		class TransportMagazines {
 		};
