@@ -205,6 +205,18 @@
 				name = "Toolkit";
 				count = 2;
 			};
+            class _xx_ACE_DefusalKit {
+                name = "ACE_DefusalKit";
+                count = 2;
+            };
+            class _xx_ACE_M26_Clacker {
+                name = "ACE_M26_Clacker";
+                count = 2;
+            };
+            class _xx_ACE_Clacker {
+                name = "ACE_Clacker";
+                count = 2;
+            };
 		};
 		
 		class TransportBackpacks{
