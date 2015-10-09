@@ -35,14 +35,6 @@ class TTT_Backpack_Truppfuehrer_Desert : B_AssaultPack_cbr {
             count = 6;
             magazine = "1Rnd_SmokeRed_Grenade_shell";
         };
-        class _xx_1Rnd_HE_Grenade_shell {
-            count = 6;
-            magazine = "1Rnd_HE_Grenade_shell";
-        };
-        class _xx_UGL_FlareRed_F {
-            count = 6;
-            magazine = "UGL_FlareRed_F";
-        };
     };
 };
 
@@ -65,21 +57,9 @@ class TTT_Backpack_Grenadier_Desert : B_AssaultPack_cbr {
         };
     };
     class TransportMagazines {
-        class _xx_1Rnd_Smoke_Grenade_shell {
-            count = 2;
-            magazine = "1Rnd_Smoke_Grenade_shell";
-        };
-        class _xx_1Rnd_SmokeRed_Grenade_shell {
-            count = 2;
-            magazine = "1Rnd_SmokeRed_Grenade_shell";
-        };
         class _xx_1Rnd_HE_Grenade_shell {
-            count = 5;
+            count = 12;
             magazine = "1Rnd_HE_Grenade_shell";
-        };
-        class _xx_UGL_FlareRed_F {
-            count = 2;
-            magazine = "UGL_FlareRed_F";
         };
     };
 };
@@ -272,7 +252,11 @@ class TTT_Backpack_Pionier_Desert : B_Carryall_cbr {
         };
         class _xx_ACE_M26_Clacker {
             name = "ACE_M26_Clacker";
-            count = 5;
+            count = 1;
+        };
+        class _xx_ACE_Clacker {
+            name = "ACE_Clacker";
+            count = 1;
         };
     };
     class TransportMagazines {
@@ -435,12 +419,6 @@ class TTT_Backpack_Opl_Desert : tf_rt1523g_big_rhs {
         class _xx_ACE_DK10_b {
             name = "ACE_DK10_b";
             count = 1;
-        };
-    };
-    class TransportMagazines {
-        class _xx_1Rnd_SmokeRed_Grenade_shell {
-            count = 6;
-            magazine = "1Rnd_SmokeRed_Grenade_shell";
         };
     };
 };
