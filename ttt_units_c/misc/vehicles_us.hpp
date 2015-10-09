@@ -285,8 +285,8 @@ class TTT_Uavoperator_Base_us : TTT_Base_us {
     vehicleClass = "TTT_Template";
     backpack = "B_UAV_01_backpack_F";
     uniformClass = "TTT_Uniform_Base";
-    items[] = { "ACE_NVG_Wide", "rhsusf_acc_eotech_552", "ACE_UAVBattery", "ACE_DK10_b", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
-    respawnitems[] = { "ACE_NVG_Wide", "rhsusf_acc_eotech_552", "ACE_UAVBattery", "ACE_DK10_b", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
+    items[] = { "ACE_NVG_Wide", "rhsusf_acc_eotech_552", "ACE_UAVBattery", "ACE_GD300_b", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
+    respawnitems[] = { "ACE_NVG_Wide", "rhsusf_acc_eotech_552", "ACE_UAVBattery", "ACE_GD300_b", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_3_Desert", "ItemMap", "ItemCompass", "B_UavTerminal", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_3_Desert", "ItemMap", "ItemCompass", "B_UavTerminal", "ItemWatch", "tf_anprc152" };
     weapons[] = { "rhs_m4a1_grip_acog3_usmc", "rhsusf_weap_m1911a1", "Binocular", "Throw", "Put" };

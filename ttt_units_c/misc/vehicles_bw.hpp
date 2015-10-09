@@ -285,8 +285,8 @@ class TTT_Uavoperator_Base : TTT_Base_Base {
     vehicleClass = "TTT_Template";
     backpack = "B_UAV_01_backpack_F";
     uniformClass = "TTT_Uniform_Base";
-    items[] = { "BWA3_optic_NSV600", "ACE_NVG_Wide", "ACE_UAVBattery", "ACE_DK10_b", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
-    respawnitems[] = { "BWA3_optic_NSV600", "ACE_NVG_Wide", "ACE_UAVBattery", "ACE_DK10_b", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
+    items[] = { "BWA3_optic_NSV600", "ACE_NVG_Wide", "ACE_UAVBattery", "ACE_GD300_b", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
+    respawnitems[] = { "BWA3_optic_NSV600", "ACE_NVG_Wide", "ACE_UAVBattery", "ACE_GD300_b", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_3_Tropentarn", "ItemMap", "ItemCompass", "B_UavTerminal", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_3_Tropentarn", "ItemMap", "ItemCompass", "B_UavTerminal", "ItemWatch", "tf_anprc152" };
     weapons[] = { "BWA3_G36_equipped", "hgun_Pistol_heavy_01_snds_F", "Binocular", "Throw", "Put" };
