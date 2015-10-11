@@ -15,8 +15,8 @@ class TTT_Gelb1_Tropentarn : TTT_Truppfuehrer_Base {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_yellow_tropentarn.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Leader_Tropen", "TTT_Helmet_1_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Leader_Tropen", "TTT_Helmet_1_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-	weapons[] = { "BWA3_G36_AG_equipped", "hgun_Pistol_heavy_01_snds_F", "Rangefinder", "Throw", "Put" };
-	respawnWeapons[] = { "BWA3_G36_AG_equipped", "hgun_Pistol_heavy_01_snds_F", "Rangefinder", "Throw", "Put" };
+	weapons[] = { "BWA3_G36_equipped", "hgun_Pistol_heavy_01_snds_F", "Rangefinder", "Throw", "Put" };
+	respawnWeapons[] = { "BWA3_G36_equipped", "hgun_Pistol_heavy_01_snds_F", "Rangefinder", "Throw", "Put" };
 };
 
 //Gelb 2 (Funker)

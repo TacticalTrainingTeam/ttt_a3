@@ -15,8 +15,8 @@ class TTT_Gelb1_Desert : TTT_Truppfuehrer_Base_us {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\desert\uniforms\TTT_uniform_yellow_desert.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Yellow_Desert", "TTT_Helmet_1_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Yellow_Desert", "TTT_Helmet_1_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-	weapons[] = { "rhs_m4a1_m320_acog3", "rhsusf_weap_m1911a1", "Rangefinder", "Throw", "Put" };
-	respawnWeapons[] = { "rhs_m4a1_m320_acog3", "rhsusf_weap_m1911a1", "Rangefinder", "Throw", "Put" };
+	weapons[] = { "rhs_m4a1_grip_acog3_usmc", "rhsusf_weap_m1911a1", "Rangefinder", "Throw", "Put" };
+	respawnWeapons[] = {"rhs_m4a1_grip_acog3_usmc", "rhsusf_weap_m1911a1", "Rangefinder", "Throw", "Put" };
 };
 
 //Gelb 2 (Funker)
