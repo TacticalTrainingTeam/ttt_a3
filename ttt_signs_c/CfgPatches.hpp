@@ -51,7 +51,7 @@ class CfgPatches {
 			"TTT_Tafel_6_Kette",
 			"TTT_Tafel_6_Kolonne",
 			"TTT_Tafel_6_Stack",
-			"TTT_Tafel_Zug_Kolonne",
-			};
+			"TTT_Tafel_Zug_Kolonne"
+		};
 	};
 };
