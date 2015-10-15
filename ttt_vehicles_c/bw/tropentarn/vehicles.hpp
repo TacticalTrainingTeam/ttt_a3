@@ -312,7 +312,7 @@
 		scope = 2;
 		faction = "TTT_faction_bw";
 		vehicleClass = "TTT_Vehicles_bw";
-		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo1.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo2.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo3.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo4.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo5.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo6.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo7.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo8.paa", "\ttt_a3\ttt_vehicles\bw\tropentarn\oplfahrzeug\camo9.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\us\desert\oplfahrzeug\camo1.paa", "\ttt_a3\ttt_vehicles\us\desert\oplfahrzeug\camo2.paa", "\ttt_a3\ttt_vehicles\us\desert\oplfahrzeug\camo3.paa", "\ttt_a3\ttt_vehicles\us\desert\oplfahrzeug\camo4.paa", "\ttt_a3\ttt_vehicles\us\desert\oplfahrzeug\camo5.paa", "\ttt_a3\ttt_vehicles\us\desert\oplfahrzeug\camo6.paa", "\ttt_a3\ttt_vehicles\us\desert\oplfahrzeug\camo7.paa", "\ttt_a3\ttt_vehicles\us\desert\oplfahrzeug\camo8.paa", "\ttt_a3\ttt_vehicles\us\desert\oplfahrzeug\camo9.paa", "\ttt_a3\ttt_vehicles\us\desert\oplfahrzeug\camo10.paa"};
 		crew = "TTT_Schwarz1_Tropentarn";
 		displayName = "TTT OPL-Fahrzeug (Tropentarn)";
 		typicalCargo[] = {};

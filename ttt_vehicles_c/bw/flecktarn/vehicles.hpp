@@ -27,7 +27,7 @@
 	
 	class TTT_Oplfahrzeug_Flecktarn : TTT_Oplfahrzeug_Tropentarn {
 		author = "Tactical Training Team";
-		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\bw\flecktarn\oplfahrzeug\camo1.paa", "\ttt_a3\ttt_vehicles\bw\flecktarn\oplfahrzeug\camo2.paa", "\ttt_a3\ttt_vehicles\bw\flecktarn\oplfahrzeug\camo3.paa", "\ttt_a3\ttt_vehicles\bw\flecktarn\oplfahrzeug\camo4.paa", "\ttt_a3\ttt_vehicles\bw\flecktarn\oplfahrzeug\camo5.paa", "\ttt_a3\ttt_vehicles\bw\flecktarn\oplfahrzeug\camo6.paa", "\ttt_a3\ttt_vehicles\bw\flecktarn\oplfahrzeug\camo7.paa", "\ttt_a3\ttt_vehicles\bw\flecktarn\oplfahrzeug\camo8.paa", "\ttt_a3\ttt_vehicles\bw\flecktarn\oplfahrzeug\camo9.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo1.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo2.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo3.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo4.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo5.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo6.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo7.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo8.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo9.paa", "\ttt_a3\ttt_vehicles\us\woodland\oplfahrzeug\camo10.paa"};
 		crew = "TTT_Schwarz1_Flecktarn";
 		displayName = "TTT OPL-Fahrzeug (Flecktarn)";
 	};
