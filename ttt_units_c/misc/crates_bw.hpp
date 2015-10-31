@@ -645,3 +645,39 @@
 		};
 			
 	};
+	
+	class TTT_Logistik_Kiste_Klein_bw : Box_NATO_Support_F {
+		author = "Tactical Training Team";
+		displayName = "TTT Transportkiste Klein (BW)";
+		transportMaxWeapons = 99;
+		transportMaxMagazines = 99;
+
+		};
+		
+		class TransportWeapons {	
+		};
+		
+		class TransportItems {			
+		};
+		
+		class TransportBackpacks { 
+		};
+	};
+	
+	class TTT_Logistik_Kiste_Gross_bw : B_supplyCrate_F {
+		author = "Tactical Training Team";
+		displayName = "TTT Transportkiste Gross (BW)";
+		transportMaxWeapons = 99;
+		transportMaxMagazines = 99;
+
+		};
+		
+		class TransportWeapons {	
+		};
+		
+		class TransportItems {			
+		};
+		
+		class TransportBackpacks { 
+		};
+	};

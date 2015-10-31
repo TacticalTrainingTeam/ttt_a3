@@ -147,6 +147,8 @@ class CfgPatches {
 					"TTT_Logistik_Werfermunition_bw",
 					"TTT_Logistik_Medic_Rucksaecke_bw",
 					"TTT_Logistik_Medic_bw",
+					"TTT_Logistik_Kiste_Klein_bw",
+					"TTT_Logistik_Kiste_Gross_bw",
 					"TTT_Gelb1_Desert",
 					"TTT_Gelb2_Desert",
 					"TTT_Gelb3_Desert",
@@ -202,6 +204,8 @@ class CfgPatches {
 					"TTT_Adler2_Desert",
 					"TTT_Bussard1_Desert",
 					"TTT_Bussard2_Desert",
+					"TTT_Habicht1_Desert",
+					"TTT_Habicht2_Desert",
 					"TTT_Gelb_Desert",
 					"TTT_Grau_Desert",
 					"TTT_Gold_Desert",
@@ -270,6 +274,8 @@ class CfgPatches {
 					"TTT_Adler2_Woodland",
 					"TTT_Bussard1_Woodland",
 					"TTT_Bussard2_Woodland",
+					"TTT_Habicht1_Woodland",
+					"TTT_Habicht2_Woodland",
 					"TTT_Gelb_Woodland",
 					"TTT_Grau_Woodland",
 					"TTT_Gold_Woodland",
@@ -290,7 +296,9 @@ class CfgPatches {
 					"TTT_Logistik_Ausruestung_us",
 					"TTT_Logistik_Werfer_us",
 					"TTT_Logistik_Medic_Rucksaecke_us",
-					"TTT_Logistik_Medic_us"
+					"TTT_Logistik_Medic_us",
+					"TTT_Logistik_Kiste_Klein_us",
+					"TTT_Logistik_Kiste_Gross_us",
 				};
 		weapons[] = {
 					"TTT_Uniform_Gelb_Desert",
