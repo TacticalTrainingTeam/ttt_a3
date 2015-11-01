@@ -619,7 +619,7 @@
 		displayName = "TTT Transportkiste Klein (US)";
 		transportMaxWeapons = 99;
 		transportMaxMagazines = 99;
-
+		class TransportMagazines {
 		};
 		
 		class TransportWeapons {	
@@ -637,7 +637,7 @@
 		displayName = "TTT Transportkiste Gross (US)";
 		transportMaxWeapons = 99;
 		transportMaxMagazines = 99;
-
+		class TransportMagazines {
 		};
 		
 		class TransportWeapons {	
