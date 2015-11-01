@@ -26,7 +26,7 @@ class TTT_Gelb2_Flecktarn : TTT_Gelb2_Tropentarn {
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Leader_Fleck", "TTT_Helmet_2_Flecktarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
-//Gelb 3 (UAV/Moerser)
+//Gelb 3 (UAV)
 class TTT_Gelb3_Flecktarn : TTT_Gelb3_Tropentarn {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Gelb_Flecktarn";
@@ -98,7 +98,7 @@ class TTT_Grau4_Flecktarn : TTT_Grau4_Tropentarn {
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Marksman_Fleck", "TTT_Helmet_4_Flecktarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
-//Grau 5 (Gruppenscharfschütze)
+//Grau 5 (Schuetze)
 class TTT_Grau5_Flecktarn : TTT_Grau5_Tropentarn {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Grau_Flecktarn";
@@ -109,7 +109,7 @@ class TTT_Grau5_Flecktarn : TTT_Grau5_Tropentarn {
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Rifleman1_Fleck", "TTT_Helmet_5_Flecktarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
-//Grau 6
+//Grau 6 (Schuetze)
 class TTT_Grau6_Flecktarn : TTT_Grau6_Tropentarn {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Grau_Flecktarn";
