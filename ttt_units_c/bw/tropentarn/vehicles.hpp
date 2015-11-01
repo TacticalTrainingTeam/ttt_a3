@@ -859,7 +859,7 @@ class TTT_Adler1_Tropentarn : TTT_Pilot_Base {
     scope = 2;
     displayName = "Adler 1 (Pilot)";
     vehicleClass = "TTT_Adler_Tropentarn";
-    uniformClass = "TTT_Uniform_Adler_Tropentarn";
+    uniformClass = "TTT_Uniform_Silber_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_silver_tropentarn.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -871,7 +871,7 @@ class TTT_Adler2_Tropentarn : TTT_Pilot_Base {
     scope = 2;
     displayName = "Adler 2 (Copilot)";
     vehicleClass = "TTT_Adler_Tropentarn";
-    uniformClass = "TTT_Uniform_Adler_Tropentarn";
+    uniformClass = "TTT_Uniform_Silber_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_silver_tropentarn.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -889,7 +889,7 @@ class TTT_Bussard1_Tropentarn : TTT_Pilot_Base {
     scope = 2;
     displayName = "Bussard 1 (Pilot)";
     vehicleClass = "TTT_Bussard_Tropentarn";
-    uniformClass = "TTT_Uniform_Bussard_Tropentarn";
+    uniformClass = "TTT_Uniform_Silber_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_silver_tropentarn.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -901,8 +901,31 @@ class TTT_Bussard2_Tropentarn : TTT_Pilot_Base {
     scope = 2;
     displayName = "Bussard 2 (Copilot)";
     vehicleClass = "TTT_Bussard_Tropentarn";
-    uniformClass = "TTT_Uniform_Bussard_Tropentarn";
+    uniformClass = "TTT_Uniform_Silber_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_silver_tropentarn.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+};
+//Habicht 1 (Pilot)
+class TTT_Habicht1_Tropentarn : TTT_Pilot_Base {
+    author = "Tactical Training Team";
+    scope = 2;
+    displayName = "Habicht 1 (Pilot)";
+    vehicleClass = "TTT_Habicht_Tropentarn";
+    uniformClass = "TTT_Uniform_Silber_Tropentarn";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_silver_tropentarn.paa" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+};
+
+//Habicht 2 (Copilot)
+class TTT_Habicht2_Tropentarn : TTT_Pilot_Base {
+    author = "Tactical Training Team";
+    scope = 2;
+    displayName = "Habicht 2 (Copilot)";
+    vehicleClass = "TTT_Habicht_Tropentarn";
+    uniformClass = "TTT_Uniform_Silber_Tropentarn";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\bw\tropentarn\uniforms\TTT_uniform_silver_tropentarn.paa" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };

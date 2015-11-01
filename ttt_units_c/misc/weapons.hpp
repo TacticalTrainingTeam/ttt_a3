@@ -72,6 +72,17 @@
 		};
 	};
 	
+	class TTT_Helmet_Hawk : TTT_Helmet_Base {
+		model = "\A3\Characters_F\Common\headgear_helmet_heli_shield.p3d";
+		displayName = "TTT Helm Habicht";
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units\misc\TTT_helmet_buzzard.paa"};
+		scope = 2;
+		
+		class ItemInfo : TTT_Helmet_ItemInfo_Base {
+			uniformModel = "\A3\Characters_F\Common\headgear_helmet_heli_shield.p3d";
+		};
+	};
+	
 	class TTT_Helmet_Falcon : TTT_Helmet_Base {
 		model = "\A3\Characters_F\Common\headgear_helmet_heli_shield.p3d";
 		displayName = "TTT Helm Falke";

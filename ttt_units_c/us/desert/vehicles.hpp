@@ -920,8 +920,8 @@ class TTT_Habicht1_Desert : TTT_Pilot_Base_us {
     vehicleClass = "TTT_Habicht_Desert";
     uniformClass = "TTT_Uniform_Silver_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\desert\uniforms\TTT_uniform_silver_desert.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Desert", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Desert", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Desert", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Desert", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
 //Habicht 2 (Copilot)
@@ -932,6 +932,6 @@ class TTT_Habicht2_Desert : TTT_Pilot_Base_us {
     vehicleClass = "TTT_Habicht_Desert";
     uniformClass = "TTT_Uniform_Silver_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\desert\uniforms\TTT_uniform_silver_desert.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Desert", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Desert", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Desert", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Desert", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };

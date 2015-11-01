@@ -91,19 +91,11 @@
 		};
 	};
 	
-	class TTT_Uniform_Adler_Flecktarn : TTT_Uniform_Adler_Tropentarn {
-		displayName = "TTT Uniform Adler (Flecktarn)";
+	class TTT_Uniform_Silber_Flecktarn : TTT_Uniform_Silber_Tropentarn {
+		displayName = "TTT Uniform Silber (Flecktarn)";
 		
 		class ItemInfo : TTT_Uniform_ItemInfo {
 			uniformClass = "TTT_Adler1_Flecktarn";
-		};
-	};
-	
-	class TTT_Uniform_Bussard_Flecktarn : TTT_Uniform_Bussard_Tropentarn {
-		displayName = "TTT Uniform Bussard (Flecktarn)";
-		
-		class ItemInfo : TTT_Uniform_ItemInfo {
-			uniformClass = "TTT_Bussard1_Flecktarn";
 		};
 	};
 	

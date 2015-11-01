@@ -736,8 +736,8 @@ class TTT_Habicht1_Woodland : TTT_Habicht1_Desert {
     backpack = "TTT_Backpack_Pilot_Woodland";
     uniformClass = "TTT_Uniform_Silver_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\woodland\uniforms\TTT_uniform_silver_woodland.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Woodland", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Woodland", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Woodland", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Woodland", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
 //Habicht 2 (Copilot)
@@ -747,6 +747,6 @@ class TTT_Habicht2_Woodland : TTT_Habicht2_Desert {
     backpack = "TTT_Backpack_Pilot_Woodland";
     uniformClass = "TTT_Uniform_Silver_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\woodland\uniforms\TTT_uniform_silver_woodland.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Woodland", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Woodland", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Woodland", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Woodland", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };

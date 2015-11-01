@@ -113,23 +113,13 @@ class TTT_Uniform_Violett_Tropentarn : TTT_Uniform_Base {
 		};
 	};
 	
-	class TTT_Uniform_Adler_Tropentarn : TTT_Uniform_Base {
+	class TTT_Uniform_Silber_Tropentarn : TTT_Uniform_Base {
 		author = "Tactical Training Team";
 		scope = 2;
-		displayName = "TTT Uniform Adler (Tropentarn)";
+		displayName = "TTT Uniform Silber (Tropentarn)";
 		
 		class ItemInfo : TTT_Uniform_ItemInfo {
 			uniformClass = "TTT_Adler1_Tropentarn";
-		};
-	};
-	
-	class TTT_Uniform_Bussard_Tropentarn : TTT_Uniform_Base {
-		author = "Tactical Training Team";
-		scope = 2;
-		displayName = "TTT Uniform Bussard (Tropentarn)";
-		
-		class ItemInfo : TTT_Uniform_ItemInfo {
-			uniformClass = "TTT_Bussard1_Tropentarn";
 		};
 	};
 	

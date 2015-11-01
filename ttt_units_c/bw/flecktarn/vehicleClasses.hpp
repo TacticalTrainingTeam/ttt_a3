@@ -55,3 +55,7 @@
 		displayName = "Bussard (Flecktarn)"; 			//In-game name
 		priority = 13; 							// How far down it is on the menu
 	};
+	class TTT_Habicht_Flecktarn {
+		displayName = "Habicht (Flecktarn)"; 			//In-game name
+		priority = 14; 							// How far down it is on the menu
+	};

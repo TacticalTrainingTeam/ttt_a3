@@ -682,7 +682,7 @@ class TTT_Adler1_Flecktarn : TTT_Adler1_Tropentarn {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Adler_Flecktarn";
     backpack = "TTT_Backpack_Pilot_Flecktarn";
-    uniformClass = "TTT_Uniform_Adler_Flecktarn";
+    uniformClass = "TTT_Uniform_Silber_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_silver_flecktarn.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Fleck", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Fleck", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -693,7 +693,7 @@ class TTT_Adler2_Flecktarn : TTT_Adler2_Tropentarn {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Adler_Flecktarn";
     backpack = "TTT_Backpack_Pilot_Flecktarn";
-    uniformClass = "TTT_Uniform_Adler_Flecktarn";
+    uniformClass = "TTT_Uniform_Silber_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_silver_flecktarn.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Fleck", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Fleck", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -710,7 +710,7 @@ class TTT_Bussard1_Flecktarn : TTT_Bussard1_Tropentarn {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Bussard_Flecktarn";
     backpack = "TTT_Backpack_Pilot_Flecktarn";
-    uniformClass = "TTT_Uniform_Bussard_Flecktarn";
+    uniformClass = "TTT_Uniform_Silber_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_silver_flecktarn.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Fleck", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Fleck", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -721,8 +721,30 @@ class TTT_Bussard2_Flecktarn : TTT_Bussard2_Tropentarn {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Bussard_Flecktarn";
     backpack = "TTT_Backpack_Pilot_Flecktarn";
-    uniformClass = "TTT_Uniform_Bussard_Flecktarn";
+    uniformClass = "TTT_Uniform_Silber_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_silver_flecktarn.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Fleck", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Fleck", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+};
+
+//Habicht 1 (Pilot)
+class TTT_Habicht1_Flecktarn : TTT_Habicht1_Tropentarn {
+    author = "Tactical Training Team";
+    vehicleClass = "TTT_Habicht_Flecktarn";
+    backpack = "TTT_Backpack_Pilot_Flecktarn";
+    uniformClass = "TTT_Uniform_Silber_Flecktarn";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_silver_flecktarn.paa" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Fleck", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Fleck", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+};
+
+//Habicht 2 (Copilot)
+class TTT_Habicht2_Flecktarn : TTT_Habicht2_Tropentarn {
+    author = "Tactical Training Team";
+    vehicleClass = "TTT_Habicht_Flecktarn";
+    backpack = "TTT_Backpack_Pilot_Flecktarn";
+    uniformClass = "TTT_Uniform_Silber_Flecktarn";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\bw\flecktarn\uniforms\TTT_uniform_silver_flecktarn.paa" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Fleck", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Fleck", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
