@@ -117,7 +117,7 @@ class TTT_Uniform_Violett_Tropentarn : TTT_Uniform_Base {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Uniform Silber (Tropentarn)";
-		
+		ACE_GForceCoef = 0.55;
 		class ItemInfo : TTT_Uniform_ItemInfo {
 			uniformClass = "TTT_Adler1_Tropentarn";
 		};

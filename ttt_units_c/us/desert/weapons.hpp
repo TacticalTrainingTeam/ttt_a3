@@ -118,7 +118,7 @@ class TTT_Uniform_Violett_Desert : TTT_Uniform_Base_Us {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Uniform Silber (Desert)";
-		
+		ACE_GForceCoef = 0.55;
 		class ItemInfo : TTT_Uniform_ItemInfo {
 			uniformClass = "TTT_Adler1_Desert";
 		};
