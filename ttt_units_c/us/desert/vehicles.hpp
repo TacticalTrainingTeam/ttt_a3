@@ -32,7 +32,7 @@ class TTT_Gelb2_Desert : TTT_Funkerfac_Base_us {
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Yellow_Desert", "TTT_Helmet_2_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
-//Gelb 3 (UAV/Moerser)
+//Gelb 3 (UAV)
 class TTT_Gelb3_Desert : TTT_Funkerfac_Base_us {
     author = "Tactical Training Team";
     scope = 2;

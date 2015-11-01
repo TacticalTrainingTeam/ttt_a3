@@ -36,7 +36,7 @@ class TTT_Gelb2_Tropentarn : TTT_Funkerfac_Base {
 class TTT_Gelb3_Tropentarn : TTT_Funkerfac_Base {
     author = "Tactical Training Team";
     scope = 2;
-    displayName = "Gelb 3 (UAV/Moerser)";
+    displayName = "Gelb 3 (UAV)";
     backpack = "TTT_Backpack_Funkerfac_Tropentarn";
     vehicleClass = "TTT_Gelb_Tropentarn";
     uniformClass = "TTT_Uniform_Gelb_Tropentarn";
