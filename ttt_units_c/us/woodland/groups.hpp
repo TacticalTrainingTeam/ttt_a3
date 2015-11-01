@@ -439,4 +439,24 @@
 						vehicle = "TTT_Bussard2_Woodland";
 					};
 				};
+				
+				//Trupp Habicht
+				class TTT_Habicht_Desert {
+					faction = "TTT_faction_us";
+					name = "Trupp Bussard Woodland";
+					side = 1;
+					
+					class Unit0 {
+						position[] = {0, 0, 0};
+						rank = Major;
+						side = 1;
+						vehicle = "TTT_Habicht1_Woodland";
+					};
+						
+					class Unit1 : Unit0 {
+						position[] = {0, -5, 0};
+						rank = Captain;
+						vehicle = "TTT_Habicht2_Woodland";
+					};
+				};
 			};	

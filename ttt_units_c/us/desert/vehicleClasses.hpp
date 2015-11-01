@@ -55,3 +55,7 @@
 		displayName = "Bussard (Desert)"; 			//In-game name
 		priority = 13; 							// How far down it is on the menu
 	};
+	class TTT_Habicht_Desert {
+		displayName = "Habicht (Desert)"; 			//In-game name
+		priority = 14; 							// How far down it is on the menu
+	};

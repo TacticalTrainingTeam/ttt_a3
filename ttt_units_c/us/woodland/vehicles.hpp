@@ -732,7 +732,7 @@ class TTT_Bussard2_Woodland : TTT_Bussard2_Desert {
 //Habicht 1 (Pilot)
 class TTT_Habicht1_Woodland : TTT_Habicht1_Desert {
     author = "Tactical Training Team";
-    vehicleClass = "TTT_Bussard_Woodland";
+    vehicleClass = "TTT_Habicht_Woodland";
     backpack = "TTT_Backpack_Pilot_Woodland";
     uniformClass = "TTT_Uniform_Bussard_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\woodland\uniforms\TTT_uniform_silver_woodland.paa" };
@@ -743,7 +743,7 @@ class TTT_Habicht1_Woodland : TTT_Habicht1_Desert {
 //Habicht 2 (Copilot)
 class TTT_Habicht2_Woodland : TTT_Habicht2_Desert {
     author = "Tactical Training Team";
-    vehicleClass = "TTT_Bussard_Woodland";
+    vehicleClass = "TTT_Habicht_Woodland";
     backpack = "TTT_Backpack_Pilot_Woodland";
     uniformClass = "TTT_Uniform_Bussard_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\woodland\uniforms\TTT_uniform_silver_woodland.paa" };
