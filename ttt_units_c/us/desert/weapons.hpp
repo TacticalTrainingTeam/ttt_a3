@@ -114,7 +114,7 @@ class TTT_Uniform_Violett_Desert : TTT_Uniform_Base_Us {
 		};
 	};
 	
-	class TTT_Uniform_Silver_Desert : TTT_Uniform_Base_Us {
+	class TTT_Uniform_Silber_Desert : TTT_Uniform_Base_Us {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Uniform Silber (Desert)";

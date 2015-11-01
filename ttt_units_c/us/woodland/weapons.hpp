@@ -91,7 +91,7 @@
 		};
 	};
 	
-	class TTT_Uniform_Silver_Woodland : TTT_Uniform_Silver_Desert {
+	class TTT_Uniform_Silber_Woodland : TTT_Uniform_Silber_Desert {
 		displayName = "TTT Uniform Silber (Woodland)";
 		
 		class ItemInfo : TTT_Uniform_ItemInfo {
