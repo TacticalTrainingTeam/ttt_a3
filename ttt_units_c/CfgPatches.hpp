@@ -311,8 +311,7 @@ class CfgPatches {
 					"TTT_Uniform_Blau_Desert",
 					"TTT_Uniform_Grau_Desert",
 					"TTT_Uniform_Gold_Desert",
-					"TTT_Uniform_Adler_Desert",
-					"TTT_Uniform_Bussard_Desert",
+					"TTT_Uniform_Silver_Desert",
 					
 					"TTT_Uniform_Gelb_Woodland",
 					"TTT_Uniform_Gruen_Woodland",
@@ -324,8 +323,7 @@ class CfgPatches {
 					"TTT_Uniform_Weiss_Woodland",
 					"TTT_Uniform_Grau_Woodland",
 					"TTT_Uniform_Gold_Woodland",
-					"TTT_Uniform_Adler_Woodland",
-					"TTT_Uniform_Bussard_Woodland",
+					"TTT_Uniform_Silver_Woodland",
 					
 					"TTT_Helmet_1_Desert",
 					"TTT_Helmet_2_Desert",

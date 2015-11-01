@@ -678,7 +678,7 @@ class TTT_Adler1_Woodland : TTT_Adler1_Desert {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Adler_Woodland";
     backpack = "TTT_Backpack_Pilot_Woodland";
-    uniformClass = "TTT_Uniform_Adler_Woodland";
+    uniformClass = "TTT_Uniform_Silver_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\woodland\uniforms\TTT_uniform_silver_woodland.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Woodland", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Woodland", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -689,7 +689,7 @@ class TTT_Adler2_Woodland : TTT_Adler2_Desert {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Adler_Woodland";
     backpack = "TTT_Backpack_Pilot_Woodland";
-    uniformClass = "TTT_Uniform_Adler_Woodland";
+    uniformClass = "TTT_Uniform_Silver_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\woodland\uniforms\TTT_uniform_silver_woodland.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Woodland", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Woodland", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -706,7 +706,7 @@ class TTT_Bussard1_Woodland : TTT_Bussard1_Desert {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Bussard_Woodland";
     backpack = "TTT_Backpack_Pilot_Woodland";
-    uniformClass = "TTT_Uniform_Bussard_Woodland";
+    uniformClass = "TTT_Uniform_Silver_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\woodland\uniforms\TTT_uniform_silver_woodland.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Woodland", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Woodland", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -717,7 +717,7 @@ class TTT_Bussard2_Woodland : TTT_Bussard2_Desert {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Bussard_Woodland";
     backpack = "TTT_Backpack_Pilot_Woodland";
-    uniformClass = "TTT_Uniform_Bussard_Woodland";
+    uniformClass = "TTT_Uniform_Silver_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\woodland\uniforms\TTT_uniform_silver_woodland.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Woodland", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Woodland", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -734,7 +734,7 @@ class TTT_Habicht1_Woodland : TTT_Habicht1_Desert {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Habicht_Woodland";
     backpack = "TTT_Backpack_Pilot_Woodland";
-    uniformClass = "TTT_Uniform_Bussard_Woodland";
+    uniformClass = "TTT_Uniform_Silver_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\woodland\uniforms\TTT_uniform_silver_woodland.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Woodland", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Woodland", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -745,7 +745,7 @@ class TTT_Habicht2_Woodland : TTT_Habicht2_Desert {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Habicht_Woodland";
     backpack = "TTT_Backpack_Pilot_Woodland";
-    uniformClass = "TTT_Uniform_Bussard_Woodland";
+    uniformClass = "TTT_Uniform_Silver_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\woodland\uniforms\TTT_uniform_silver_woodland.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Woodland", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Woodland", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };

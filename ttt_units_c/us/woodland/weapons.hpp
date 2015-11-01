@@ -91,22 +91,14 @@
 		};
 	};
 	
-	class TTT_Uniform_Adler_Woodland : TTT_Uniform_Adler_Desert {
-		displayName = "TTT Uniform Adler (Woodland)";
+	class TTT_Uniform_Silver_Woodland : TTT_Uniform_Silver_Desert {
+		displayName = "TTT Uniform Silber (Woodland)";
 		
 		class ItemInfo : TTT_Uniform_ItemInfo {
 			uniformClass = "TTT_Adler1_Woodland";
 		};
 	};
-	
-	class TTT_Uniform_Bussard_Woodland : TTT_Uniform_Bussard_Desert {
-		displayName = "TTT Uniform Bussard (Woodland)";
 		
-		class ItemInfo : TTT_Uniform_ItemInfo {
-			uniformClass = "TTT_Bussard1_Woodland";
-		};
-	};
-	
 	/*
 	#############################################################
 	### Helme

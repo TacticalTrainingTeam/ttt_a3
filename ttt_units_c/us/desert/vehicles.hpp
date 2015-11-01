@@ -858,7 +858,7 @@ class TTT_Adler1_Desert : TTT_Pilot_Base_us {
     scope = 2;
     displayName = "Adler 1 (Pilot)";
     vehicleClass = "TTT_Adler_Desert";
-    uniformClass = "TTT_Uniform_Adler_Desert";
+    uniformClass = "TTT_Uniform_Silver_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\desert\uniforms\TTT_uniform_silver_desert.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Desert", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Desert", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -870,7 +870,7 @@ class TTT_Adler2_Desert : TTT_Pilot_Base_us {
     scope = 2;
     displayName = "Adler 2 (Copilot)";
     vehicleClass = "TTT_Adler_Desert";
-    uniformClass = "TTT_Uniform_Adler_Desert";
+    uniformClass = "TTT_Uniform_Silver_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\desert\uniforms\TTT_uniform_silver_desert.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Desert", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Desert", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -888,7 +888,7 @@ class TTT_Bussard1_Desert : TTT_Pilot_Base_us {
     scope = 2;
     displayName = "Bussard 1 (Pilot)";
     vehicleClass = "TTT_Bussard_Desert";
-    uniformClass = "TTT_Uniform_Bussard_Desert";
+    uniformClass = "TTT_Uniform_Silver_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\desert\uniforms\TTT_uniform_silver_desert.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Desert", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Desert", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -900,7 +900,7 @@ class TTT_Bussard2_Desert : TTT_Pilot_Base_us {
     scope = 2;
     displayName = "Bussard 2 (Copilot)";
     vehicleClass = "TTT_Bussard_Desert";
-    uniformClass = "TTT_Uniform_Bussard_Desert";
+    uniformClass = "TTT_Uniform_Silver_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\desert\uniforms\TTT_uniform_silver_desert.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Desert", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Desert", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -918,7 +918,7 @@ class TTT_Habicht1_Desert : TTT_Pilot_Base_us {
     scope = 2;
     displayName = "Habicht 1 (Pilot)";
     vehicleClass = "TTT_Habicht_Desert";
-    uniformClass = "TTT_Uniform_Bussard_Desert";
+    uniformClass = "TTT_Uniform_Silver_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\desert\uniforms\TTT_uniform_silver_desert.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Desert", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Desert", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -930,7 +930,7 @@ class TTT_Habicht2_Desert : TTT_Pilot_Base_us {
     scope = 2;
     displayName = "Habicht 2 (Copilot)";
     vehicleClass = "TTT_Habicht_Desert";
-    uniformClass = "TTT_Uniform_Bussard_Desert";
+    uniformClass = "TTT_Uniform_Silver_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units\us\desert\uniforms\TTT_uniform_silver_desert.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Desert", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Desert", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };

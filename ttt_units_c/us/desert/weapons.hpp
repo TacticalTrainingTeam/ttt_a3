@@ -114,23 +114,13 @@ class TTT_Uniform_Violett_Desert : TTT_Uniform_Base_Us {
 		};
 	};
 	
-	class TTT_Uniform_Adler_Desert : TTT_Uniform_Base_Us {
+	class TTT_Uniform_Silver_Desert : TTT_Uniform_Base_Us {
 		author = "Tactical Training Team";
 		scope = 2;
-		displayName = "TTT Uniform Adler (Desert)";
+		displayName = "TTT Uniform Silber (Desert)";
 		
 		class ItemInfo : TTT_Uniform_ItemInfo {
 			uniformClass = "TTT_Adler1_Desert";
-		};
-	};
-	
-	class TTT_Uniform_Bussard_Desert : TTT_Uniform_Base_Us {
-		author = "Tactical Training Team";
-		scope = 2;
-		displayName = "TTT Uniform Bussard (Desert)";
-		
-		class ItemInfo : TTT_Uniform_ItemInfo {
-			uniformClass = "TTT_Bussard1_Desert";
 		};
 	};
 	
