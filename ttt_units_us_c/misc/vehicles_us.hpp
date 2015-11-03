@@ -185,8 +185,8 @@ class TTT_Funkerfac_Base_Us : TTT_Base_Us {
     vehicleClass = "TTT_Template_Us";
     backpack = "TTT_Backpack_Funkerfac_Us_Desert";
     uniformClass = "TTT_Uniform_Base";
-    items[] = { "ACE_NVG_Wide", "rhsusf_acc_eotech_552", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
-    respawnitems[] = { "ACE_NVG_Wide", "rhsusf_acc_eotech_552", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
+    items[] = { "ACE_NVG_Wide", "rhsusf_acc_eotech_552", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50", "ACE_microDAGR" };
+    respawnitems[] = { "ACE_NVG_Wide", "rhsusf_acc_eotech_552", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50", "ACE_microDAGR" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_2_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_2_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     weapons[] = { "rhs_m4a1_m320_acog3", "rhsusf_weap_m1911a1", "Laserdesignator", "Throw", "Put" };

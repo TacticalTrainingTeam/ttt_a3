@@ -89,8 +89,8 @@ class TTT_Grau2_Bw_Tropentarn : TTT_Funkerfac_Base_Bw {
     vehicleClass = "TTT_Grau_Bw_Tropentarn";
     uniformClass = "TTT_Uniform_Grau_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_grey_bw_tropentarn.paa" };
-    items[] = { "BWA3_optic_NSV600", "BWA3_muzzle_snds_G36", "ACE_NVG_Wide", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
-    respawnItems[] = { "BWA3_optic_NSV600", "BWA3_muzzle_snds_G36", "ACE_NVG_Wide", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
+    items[] = { "BWA3_optic_NSV600", "BWA3_muzzle_snds_G36", "ACE_NVG_Wide", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50", "ACE_microDAGR" };
+    respawnItems[] = { "BWA3_optic_NSV600", "BWA3_muzzle_snds_G36", "ACE_NVG_Wide", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50", "ACE_microDAGR" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_2_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_2_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     weapons[] = { "BWA3_G36_AG_equipped", "hgun_Pistol_heavy_01_snds_F", "Laserdesignator", "Throw", "Put" };

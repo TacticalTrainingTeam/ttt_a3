@@ -185,8 +185,8 @@ class TTT_Funkerfac_Base_Bw : TTT_Base_Bw {
     vehicleClass = "TTT_Template_Bw";
     backpack = "TTT_Backpack_Funkerfac_Bw_Tropentarn";
     uniformClass = "TTT_Uniform_Base_Bw";
-    items[] = { "BWA3_optic_NSV600", "ACE_NVG_Wide", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
-    respawnitems[] = { "BWA3_optic_NSV600", "ACE_NVG_Wide", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
+    items[] = { "BWA3_optic_NSV600", "ACE_NVG_Wide", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50", "ACE_microDAGR" };
+    respawnitems[] = { "BWA3_optic_NSV600", "ACE_NVG_Wide", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50", "ACE_microDAGR" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_2_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_2_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     weapons[] = { "BWA3_G36_AG_equipped", "hgun_Pistol_heavy_01_snds_F", "Laserdesignator", "Throw", "Put" };

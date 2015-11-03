@@ -89,8 +89,8 @@ class TTT_Grau2_Us_Desert : TTT_Funkerfac_Base_Us {
     vehicleClass = "TTT_Grau_Us_Desert";
     uniformClass = "TTT_Uniform_Grau_Us_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_grey_us_desert.paa" };
-    items[] = { "rhsusf_acc_anpeq15_light", "rhsusf_acc_ACOG3", "rhsusf_acc_eotech_552", "rhsusf_acc_rotex5_grey", "ACE_NVG_Wide", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
-    respawnItems[] = { "rhsusf_acc_anpeq15_light", "rhsusf_acc_ACOG3", "rhsusf_acc_eotech_552", "rhsusf_acc_rotex5_grey", "ACE_NVG_Wide", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50" };
+    items[] = { "rhsusf_acc_anpeq15_light", "rhsusf_acc_ACOG3", "rhsusf_acc_eotech_552", "rhsusf_acc_rotex5_grey", "ACE_NVG_Wide", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50", "ACE_microDAGR" };
+    respawnItems[] = { "rhsusf_acc_anpeq15_light", "rhsusf_acc_ACOG3", "rhsusf_acc_eotech_552", "rhsusf_acc_rotex5_grey", "ACE_NVG_Wide", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_XL50", "ACE_microDAGR" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Grey_Us_Desert", "TTT_Helmet_2_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Grey_Us_Desert", "TTT_Helmet_2_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     weapons[] = { "rhs_weap_mk18_m320", "rhsusf_weap_m1911a1", "Laserdesignator", "Throw", "Put" };
