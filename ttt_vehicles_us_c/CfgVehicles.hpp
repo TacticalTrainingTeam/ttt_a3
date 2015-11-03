@@ -8,8 +8,10 @@ class CfgVehicles {
 	### External class references
 	#############################################################
 	*/
-	class BW_Dingo_Des;
-	class BW_Dingo_GL_Wdl;
+    class UK3CB_BAF_Coyote_Passenger_L134A1_D;
+    class UK3CB_BAF_Coyote_Passenger_L134A1_W;
+    class UK3CB_BAF_Coyote_Passenger_L111A1_D;
+    class UK3CB_BAF_Coyote_Passenger_L111A1_W;
 	class RHS_M2A3_BUSKIII;
 	class RHS_AH64D;
 	class RHS_UH60M;

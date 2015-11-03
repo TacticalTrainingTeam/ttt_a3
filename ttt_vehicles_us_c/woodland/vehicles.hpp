@@ -6,7 +6,7 @@
 	
 	class TTT_Truppfahrzeug_Mg_Us_Woodland : TTT_Truppfahrzeug_Mg_Us_Desert {
 		author = "Tactical Training Team";
-		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_us\woodland\truppfahrzeug\camo1.paa", "\ttt_a3\ttt_vehicles_us\woodland\truppfahrzeug\camo2.paa", "\ttt_a3\ttt_vehicles_us\woodland\truppfahrzeug\camo3.paa", "\ttt_a3\ttt_vehicles_us\woodland\truppfahrzeug\camo4.paa"};
+        hiddenSelectionsTextures[] = { "\UK3CB_BAF_Vehicles_Coyote_Jackal\Data\Jackal_base_woodlnd_co.paa", "\UK3CB_BAF_Vehicles_Coyote_Jackal\Data\Jackal_mount_woodlnd_co.paa", "\UK3CB_BAF_Vehicles_Coyote_Jackal\Data\Jackal_adds_woodlnd_co.paa", "", "", "" };
 		crew = "TTT_Schwarz1_Us_Woodland";
 		displayName = "TTT Truppfahrzeug MG (US Woodland)";
 	};
@@ -14,8 +14,8 @@
 	
 	class TTT_Truppfahrzeug_Gl_Us_Woodland : TTT_Truppfahrzeug_Gl_Us_Desert {
 		author = "Tactical Training Team";
-		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_us\woodland\truppfahrzeug\camo1.paa", "\ttt_a3\ttt_vehicles_us\woodland\truppfahrzeug\camo2.paa", "\ttt_a3\ttt_vehicles_us\woodland\truppfahrzeug\camo3.paa", "\ttt_a3\ttt_vehicles_us\woodland\truppfahrzeug\camo4.paa"};
-		crew = "TTT_Schwarz1_Us_Woodland";
+        hiddenSelectionsTextures[] = { "\UK3CB_BAF_Vehicles_Coyote_Jackal\Data\Jackal_base_woodlnd_co.paa", "\UK3CB_BAF_Vehicles_Coyote_Jackal\Data\Jackal_mount_woodlnd_co.paa", "\UK3CB_BAF_Vehicles_Coyote_Jackal\Data\Jackal_adds_woodlnd_co.paa", "", "", "" };
+        crew = "TTT_Schwarz1_Us_Woodland";
 		displayName = "TTT Truppfahrzeug GL (US Woodland)";
 	};
 	
@@ -124,6 +124,19 @@
 		crew = "TTT_Bussard1_Us_Woodland";
 		displayName = "TTT Logistikhelikopter (US Woodland)";
 	};
+
+    /*
+    #############################################################
+    ### TTT Transporthelikopter
+    #############################################################
+    */
+
+    class TTT_Transporthelikopter_Us_Woodland : TTT_Transporthelikopter_Us_Desert {
+        author = "Tactical Training Team";
+        hiddenSelectionsTextures[] = { "\ttt_a3\ttt_vehicles_us\woodland\transporthelikopter\camo1.paa", "\ttt_a3\ttt_vehicles_us\woodland\transporthelikopter\camo2.paa", "\ttt_a3\ttt_vehicles_us\woodland\transporthelikopter\camo3.paa" };
+        crew = "TTT_Habicht1_Us_Woodland";
+        displayName = "TTT Transporthelikopter (US Woodland)";
+    };
 	
 	/*
 	#############################################################

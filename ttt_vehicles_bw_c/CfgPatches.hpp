@@ -1,7 +1,7 @@
 //by Highhead & TheConen for TTT
 //tacticalteam.de
 class CfgPatches {
-	class ttt_vehicles_c {
+	class ttt_vehicles_bw_c {
 		units[] = {	"TTT_Truppfahrzeug_Mg_Bw_Tropentarn",
 					"TTT_Truppfahrzeug_Mg_Bw_Flecktarn", 
 					"TTT_Truppfahrzeug_Gl_Bw_Tropentarn",

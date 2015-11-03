@@ -1,7 +1,7 @@
 //by Highhead & TheConen for TTT
 //tacticalteam.de
 class CfgPatches {
-	class ttt_vehicles_c {
+	class ttt_vehicles_us_c {
 		units[] = {	"TTT_Truppfahrzeug_Mg_Us_Desert",
 					"TTT_Truppfahrzeug_Mg_Us_Woodland", 
 					"TTT_Truppfahrzeug_Gl_Us_Desert",
@@ -18,6 +18,8 @@ class CfgPatches {
 					"TTT_Sanitaetshelikopter_Us_Woodland",
 					"TTT_Logistikhelikopter_Us_Desert",
 					"TTT_Logistikhelikopter_Us_Woodland",
+                    "TTT_Transporthelikopter_Us_Desert",
+                    "TTT_Transporthelikopter_Us_Woodland",
 					"TTT_Aufklaerungsdrohne_Us_Desert",
 					"TTT_Aufklaerungsdrohne_Us_Woodland",
 					"TTT_Sanitaetsfahrzeug_Us_Desert",
