@@ -1,7 +1,7 @@
 //by Highhead & TheConen for TTT
 //tacticalteam.de
 class CfgPatches {
-	class ttt_units_c {
+	class ttt_units_us_c {
 		units[] = {	"TTT_Gelb1_Us_Desert",
 					"TTT_Gelb2_Us_Desert",
 					"TTT_Gelb3_Us_Desert",
