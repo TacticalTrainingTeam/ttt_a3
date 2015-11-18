@@ -189,8 +189,8 @@ class TTT_Gold1_Us_Desert : TTT_Base_Us {
     uniformClass = "TTT_Uniform_Gold_Us_Desert";
     backpack = "TTT_Backpack_Funkerfac_Us_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_gold_us_desert.paa" };
-    items[] = { "rhsusf_acc_eotech_552", "rhsusf_acc_rotex5_grey", "ACE_NVG_Wide", "ACE_EarPlugs", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991", "ACE_RangeCard" };
-    respawnItems[] = { "rhsusf_acc_eotech_552", "rhsusf_acc_rotex5_grey", "ACE_NVG_Wide", "ACE_EarPlugs", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991", "ACE_RangeCard" };
+    items[] = { "rhsusf_acc_eotech_552", "rhsusf_acc_rotex5_grey", "ACE_NVG_Wide", "ACE_EarPlugs", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991", "ACE_RangeCard", "Laserdesignator", "Laserbatteries" };
+    respawnItems[] = { "rhsusf_acc_eotech_552", "rhsusf_acc_rotex5_grey", "ACE_NVG_Wide", "ACE_EarPlugs", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991", "ACE_RangeCard", "Laserdesignator", "Laserbatteries" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Desert", "TTT_Helmet_1_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Desert", "TTT_Helmet_1_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     weapons[] = { "rhs_m4a1_m320_acog3", "rhsusf_weap_m1911a1", "ACE_Vector", "Throw", "Put" };
