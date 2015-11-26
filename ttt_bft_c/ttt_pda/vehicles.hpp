@@ -3,7 +3,7 @@
 
 	class Item_Base_F;
 	
-	class ACE_GD300_b_item: Item_Base_F {
+	class ttt_bft_pda_item: Item_Base_F {
         author = "Reimchen";
         scope = 2;
         scopeCurator = 2;
@@ -11,7 +11,7 @@
 		icon = "iconObject_1x1";
         vehicleClass = "Items";
 		class TransportItems {
-            name = "ACE_GD300_b";
+            name = "ttt_bft_pda";
 			count = 1;
         };
     };

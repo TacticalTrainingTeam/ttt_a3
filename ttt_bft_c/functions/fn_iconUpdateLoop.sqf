@@ -31,7 +31,7 @@ _defaultIcon = switch (playerSide) do {
 
 if (BG_BFT_onlyPlayer) then {
     {
-        if ( ("ACE_DK10_b" in (items _x) || "ACE_GD300_b" in (items _x)) && {_x getVariable ["BG_BFT_playerSide", side _x] == playerSide}) then {
+        if ( ("ttt_bft_tablet" in (items _x) || "ttt_bft_pda" in (items _x)) && {_x getVariable ["BG_BFT_playerSide", side _x] == playerSide}) then {
             _icon = _x getVariable ["BG_BFT_icon", _defaultIcon];
             _text = _x getVariable ["BG_BFT_groupId", groupId (group _x)];
             _iconType = (BG_BFT_iconTypes select 0) find _icon;
@@ -56,7 +56,7 @@ if (BG_BFT_onlyPlayer) then {
     } count allPlayers;
 } else {
 	{
-		if ( ("ACE_DK10_b" in (items _x) || "ACE_GD300_b" in (items _x)) && {_x getVariable ["BG_BFT_playerSide", side _x] == playerSide}) then {
+		if ( ("ttt_bft_tablet" in (items _x) || "ttt_bft_pda" in (items _x)) && {_x getVariable ["BG_BFT_playerSide", side _x] == playerSide}) then {
             _icon = _x getVariable ["BG_BFT_icon", _defaultIcon];
             _text = _x getVariable ["BG_BFT_groupId", groupId (group _x)];
             _iconType = (BG_BFT_iconTypes select 0) find _icon;

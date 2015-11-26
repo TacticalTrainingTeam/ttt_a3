@@ -6,8 +6,8 @@ class CfgPatches {
 		requiredAddons[] = {"ttt_bft"};
 		units[] = {};
 		weapons[] = {
-			"ACE_GD300_b",
-			"ACE_DK10_b"
+			"ttt_bft_pda",
+			"ttt_bft_tablet"
 		};
 	};
 };
