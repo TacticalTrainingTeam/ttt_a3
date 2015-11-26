@@ -16,7 +16,7 @@
 		model = "\A3\weapons_F\ammo\mag_univ.p3d";
 	};
 	
-	class ttt_bft_pda: ttt_bft_base {
+	class ACE_GD300_b: ttt_bft_base {
 		scope = 2;
 		displayName = "TTT-PDA";
 		picture = "\ttt_a3\ttt_bft\data\ttt_pda_co.paa";
