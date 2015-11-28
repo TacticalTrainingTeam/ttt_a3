@@ -35,14 +35,14 @@ _r = 1000;
 if (_r < 0.02) then {
     with uiNamespace do {
         private "_temp";
-        _temp = (group (_group select 2));
+        _temp = (_group select 2);
         BG_UI_BFT_ttRadio ctrlSetText format [
             "SR: %1 | LR: %2",
             _temp getVariable ["BG_BFT_radioSR","n/a"],
             _temp getVariable ["BG_BFT_radioLR","n/a"]
         ];
         BG_UI_BFT_ttRadio ctrlCommit 0;
-        BG_UI_BFT_ttRemarks ctrlSetText ((group (_group select 2)) getVariable ["BG_BFT_remarks",""]);
+        BG_UI_BFT_ttRemarks ctrlSetText ((_group select 2) getVariable ["BG_BFT_remarks",""]);
         BG_UI_BFT_ttRemarks ctrlCommit 0;
         BG_UI_BFT_groupToolTip ctrlSetPosition [_xPos,_yPos];
         BG_UI_BFT_groupToolTip ctrlShow true;

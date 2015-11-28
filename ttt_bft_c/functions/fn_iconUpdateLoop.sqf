@@ -32,15 +32,15 @@ _defaultIcon = switch (playerSide) do {
 if (BG_BFT_onlyPlayer) then {
     {
         if ( ("ACE_DK10_b" in (items _x) || "ACE_GD300_b" in (items _x)) && {_x getVariable ["BG_BFT_playerSide", side _x] == playerSide}) then {
-            _icon = (group _x) getVariable ["BG_BFT_icon", _defaultIcon];
-            _text = (group _x) getVariable ["BG_BFT_groupId", groupId (group _x)];
+            _icon = _x getVariable ["BG_BFT_icon", _defaultIcon];
+            _text = _x getVariable ["BG_BFT_groupId", groupId (group _x)];
             _iconType = (BG_BFT_iconTypes select 0) find _icon;
             if (_iconType >= 0) then {
                 _iconType = (BG_BFT_iconTypes select 1) select _iconType;
                 _icons pushBack [
                     _iconType select 0,
                     _iconType select 1,
-                    leader _x,
+                    _x,
                     _iconType select 2,
                     _iconType select 2,
                     0,
@@ -58,14 +58,14 @@ if (BG_BFT_onlyPlayer) then {
     {
         if ( ("ACE_DK10_b" in (items _x) || "ACE_GD300_b" in (items _x)) && {_x getVariable ["BG_BFT_playerSide", side _x] == playerSide}) then {
             _icon = _x getVariable ["BG_BFT_icon", _defaultIcon];
-            _text = _x getVariable ["BG_BFT_groupId", groupId _x];
+            _text = _x getVariable ["BG_BFT_groupId", groupId (group _x)];
             _iconType = (BG_BFT_iconTypes select 0) find _icon;
             if (_iconType >= 0) then {
                 _iconType = (BG_BFT_iconTypes select 1) select _iconType;
                 _icons pushBack [
                     _iconType select 0,
                     _iconType select 1,
-                    leader _x,
+                    _x,
                     _iconType select 2,
                     _iconType select 2,
                     0,
@@ -78,7 +78,7 @@ if (BG_BFT_onlyPlayer) then {
             };
         };
         true
-    } count allGroups;
+    } count allUnits;
 };
 
 BG_BFT_Icons = +_icons;
