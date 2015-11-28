@@ -123,11 +123,11 @@ BG_fnc_bftdialog_editButton = {
             BG_UI_BFT_ctrlGroup ctrlShow false;
             BG_UI_BFT_editButton ctrlSetText "ID";
             group player setGroupIdGlobal [ctrlText BG_UI_BFT_tbName];
-            player setVariable ["BG_BFT_groupId", ctrlText BG_UI_BFT_tbName,true];
-            player setVariable ["BG_BFT_icon", (BG_UI_BFT_lbIcon lbData lbCurSel BG_UI_BFT_lbIcon),true];
-            player setVariable ["BG_BFT_radioSR", ctrlText BG_UI_BFT_tbRadioSR,true];
-            player setVariable ["BG_BFT_radioLR", ctrlText BG_UI_BFT_tbRadioLR,true];
-            player setVariable ["BG_BFT_remarks", ctrlText BG_UI_BFT_tbRemarks,true];
+            group player setVariable ["BG_BFT_groupId", ctrlText BG_UI_BFT_tbName,true];
+            group player setVariable ["BG_BFT_icon", (BG_UI_BFT_lbIcon lbData lbCurSel BG_UI_BFT_lbIcon),true];
+            group player setVariable ["BG_BFT_radioSR", ctrlText BG_UI_BFT_tbRadioSR,true];
+            group player setVariable ["BG_BFT_radioLR", ctrlText BG_UI_BFT_tbRadioLR,true];
+            group player setVariable ["BG_BFT_remarks", ctrlText BG_UI_BFT_tbRemarks,true];
 
             BG_UI_BFT_ctrlGroup ctrlCommit 0;
             BG_UI_BFT_editButton ctrlCommit 0;
@@ -146,7 +146,7 @@ BG_fnc_bftdialog_editButton = {
                     BG_UI_BFT_lbIcon lbSetPictureColor [_tmp, _x select 1];
                     BG_UI_BFT_lbIcon lbSetData [_tmp, _name];
 
-					if (_name == (player getVariable ["BG_BFT_icon",_defaultIcon])) then {
+                    if (_name == ((group player) getVariable ["BG_BFT_icon",_defaultIcon])) then {
                         BG_UI_BFT_lbIcon lbSetCurSel _tmp;
                     };
                 };
@@ -154,17 +154,17 @@ BG_fnc_bftdialog_editButton = {
             } count ((missionNamespace getVariable ["BG_BFT_iconTypes",[[],[]]]) select 1);
 
             BG_UI_BFT_lbIcon ctrlCommit 0;
-			
-			BG_UI_BFT_tbName ctrlSetText (player getVariable ["BG_BFT_groupId", groupId (group player)]);
+
+            BG_UI_BFT_tbName ctrlSetText ((group player) getVariable ["BG_BFT_groupId", (groupId (group player))]);
             BG_UI_BFT_tbName ctrlCommit 0;
 
-            BG_UI_BFT_tbRemarks ctrlSetText (player getVariable ["BG_BFT_remarks", ""]);
+            BG_UI_BFT_tbRemarks ctrlSetText ((group player) getVariable ["BG_BFT_remarks", ""]);
             BG_UI_BFT_tbRemarks ctrlCommit 0;
 
-            BG_UI_BFT_tbRadioSR ctrlSetText (player getVariable ["BG_BFT_radioSR", "n/a"]);
+            BG_UI_BFT_tbRadioSR ctrlSetText ((group player) getVariable ["BG_BFT_radioSR", "n/a"]);
             BG_UI_BFT_tbRadioSR ctrlCommit 0;
 
-            BG_UI_BFT_tbRadioLR ctrlSetText (player getVariable ["BG_BFT_radioLR", "n/a"]);
+            BG_UI_BFT_tbRadioLR ctrlSetText ((group player) getVariable ["BG_BFT_radioLR", "n/a"]);
             BG_UI_BFT_tbRadioLR ctrlCommit 0;
 
             BG_UI_BFT_ctrlGroup ctrlCommit 0;

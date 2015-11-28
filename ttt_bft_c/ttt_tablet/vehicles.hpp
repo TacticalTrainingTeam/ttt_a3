@@ -1,10 +1,10 @@
 //by Reimchen for TTT
 //tacticalteam.de
 
-	class ttt_bft_tablet_item: ttt_bft_pda_item {
+	class ACE_DK10_b_item: ACE_GD300_b_item {
         displayName = "TTT-Tablet";
         class TransportItems {
-            name = "ttt_bft_tablet";
+            name = "ACE_GD300_b";
 			count = 1;
         };
     };

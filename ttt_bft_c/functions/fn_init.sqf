@@ -23,10 +23,10 @@ player setVariable ["BG_BFT_playerSide", playerSide, true];
 ["playerInventoryChanged", {
     BG_UI_BFT_showEditButton = false;
     _var = 0;
-    if ("ttt_bft_pda" in (Items player)) then {
+    if ("ACE_GD300_b" in (Items player)) then {
         _var = 1;
     };
-    if ("ttt_bft_tablet" in (Items player)) then {
+    if ("ACE_DK10_b" in (Items player)) then {
         _var = 2;
         BG_UI_BFT_showEditButton = true;
     };
