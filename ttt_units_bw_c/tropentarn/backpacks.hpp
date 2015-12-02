@@ -20,8 +20,8 @@ class TTT_Backpack_Truppfuehrer_Bw_Tropentarn : B_AssaultPack_cbr {
             name = "ACE_morphine";
             count = 1;
         };
-        class _xx_ACE_GD300_b {
-            name = "ACE_GD300_b";
+        class _xx_ACE_DK10_b {
+            name = "ACE_DK10_b";
             count = 1;
         };
     };
@@ -322,8 +322,8 @@ class TTT_Backpack_Feldarzt_Bw_Tropentarn : B_Kitbag_cbr {
             name = "ACE_surgicalKit";
             count = 5;
         };
-        class _xx_ACE_GD300_b {
-            name = "ACE_GD300_b";
+        class _xx_ACE_DK10_b {
+            name = "ACE_DK10_b";
             count = 1;
         };
     };
@@ -346,8 +346,8 @@ class TTT_Backpack_Pilot_Bw_Tropentarn : tf_rt1523g_big_bwmod_tropen {
             name = "ACE_morphine";
             count = 1;
         };
-        class _xx_ACE_GD300_b {
-            name = "ACE_GD300_b";
+        class _xx_ACE_DK10_b {
+            name = "ACE_DK10_b";
             count = 1;
         };
     };

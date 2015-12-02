@@ -21,8 +21,8 @@ class TTT_Backpack_Truppfuehrer_Us_Desert : B_AssaultPack_cbr {
             name = "ACE_morphine";
             count = 1;
         };
-        class _xx_ACE_GD300_b {
-            name = "ACE_GD300_b";
+        class _xx_ACE_DK10_b {
+            name = "ACE_DK10_b";
             count = 1;
         };
     };
@@ -368,8 +368,8 @@ class TTT_Backpack_Feldarzt_Us_Desert : B_Kitbag_cbr {
             name = "ACE_surgicalKit";
             count = 5;
         };
-        class _xx_ACE_GD300_b {
-            name = "ACE_GD300_b";
+        class _xx_ACE_DK10_b {
+            name = "ACE_DK10_b";
             count = 1;
         };
     };
@@ -392,8 +392,8 @@ class TTT_Backpack_Pilot_Us_Desert : tf_rt1523g_big_rhs {
             name = "ACE_morphine";
             count = 1;
         };
-        class _xx_ACE_GD300_b {
-            name = "ACE_GD300_b";
+        class _xx_ACE_DK10_b {
+            name = "ACE_DK10_b";
             count = 1;
         };
     };

@@ -356,8 +356,8 @@
 				count = 1;
 			};
 			
-			class _xx_ACE_GD300_b {
-				name = "ACE_GD300_b";
+			class _xx_ACE_DK10_b {
+				name = "ACE_DK10_b";
 				count = 2;
 			};
 			
