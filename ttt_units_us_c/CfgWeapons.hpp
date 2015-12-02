@@ -2,8 +2,9 @@
 //tacticalteam.de
 
 class CfgWeapons {
-	class Uniform_Base;	// External class reference
+    class U_B_CombatUniform_mcam;	// External class reference
 	class UniformItem;	// External class reference
+    class ItemInfo;
 	class ItemCore;	// External class reference
 	class HeadgearItem;	// External class reference
 	class VestItem; // External class reference
@@ -11,7 +12,6 @@ class CfgWeapons {
     class TTT_Vest_Lite_Base;	// External class reference
     class TTT_Vest_Crew_Base;	// External class reference
     class TTT_Helmet_Base;
-    class TTT_Helmet_ItemInfo_Base;
 
     #include "misc\weapons.hpp"
 	#include "desert\weapons.hpp"

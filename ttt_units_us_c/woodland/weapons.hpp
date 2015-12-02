@@ -6,7 +6,7 @@
 	class TTT_Uniform_Gelb_Us_Woodland : TTT_Uniform_Gelb_Us_Desert {
 		displayName = "TTT Uniform Gelb (US Woodland)";
 		
-		class ItemInfo : TTT_Uniform_ItemInfo {
+        class ItemInfo : ItemInfo {
 			uniformClass = "TTT_Gelb1_Us_Woodland";
 		};
 	};
@@ -14,7 +14,7 @@
 	class TTT_Uniform_Grau_Us_Woodland : TTT_Uniform_Grau_Us_Desert {
 		displayName = "TTT Uniform Grau (US Woodland)";
 		
-		class ItemInfo : TTT_Uniform_ItemInfo {
+        class ItemInfo : ItemInfo {
 			uniformClass = "TTT_Grau1_Us_Woodland";
 		};
 	};
@@ -22,7 +22,7 @@
 	class TTT_Uniform_Gold_Us_Woodland : TTT_Uniform_Gold_Us_Desert {
 		displayName = "TTT Uniform Gold (US Woodland)";
 		
-		class ItemInfo : TTT_Uniform_ItemInfo {
+        class ItemInfo : ItemInfo {
 			uniformClass = "TTT_Gold1_Us_Woodland";
 		};
 	};
@@ -30,7 +30,7 @@
 	class TTT_Uniform_Gruen_Us_Woodland : TTT_Uniform_Gruen_Us_Desert {
 		displayName = "TTT Uniform Gruen (US Woodland)";
 		
-		class ItemInfo : TTT_Uniform_ItemInfo {
+        class ItemInfo : ItemInfo {
 			uniformClass = "TTT_Gruen1_Us_Woodland";
 		};
 	};
@@ -38,7 +38,7 @@
 	class TTT_Uniform_Braun_Us_Woodland : TTT_Uniform_Braun_Us_Desert {
 		displayName = "TTT Uniform Braun (US Woodland)";
 		
-		class ItemInfo : TTT_Uniform_ItemInfo {
+        class ItemInfo : ItemInfo {
 			uniformClass = "TTT_Braun1_Us_Woodland";
 		};
 	};
@@ -46,7 +46,7 @@
 	class TTT_Uniform_Schwarz_Us_Woodland : TTT_Uniform_Schwarz_Us_Desert {
 		displayName = "TTT Uniform Schwarz (US Woodland)";
 		
-		class ItemInfo : TTT_Uniform_ItemInfo {
+        class ItemInfo : ItemInfo {
 			uniformClass = "TTT_Schwarz1_Us_Woodland";
 		};
 	};
@@ -54,7 +54,7 @@
 	class TTT_Uniform_Rot_Us_Woodland : TTT_Uniform_Rot_Us_Desert {
 		displayName = "TTT Uniform Rot (US Woodland)";
 		
-		class ItemInfo : TTT_Uniform_ItemInfo {
+        class ItemInfo : ItemInfo {
 			uniformClass = "TTT_Rot1_Us_Woodland";
 		};
 	};	
@@ -62,7 +62,7 @@
 	class TTT_Uniform_Bronze_Us_Woodland : TTT_Uniform_Bronze_Us_Desert {
 		displayName = "TTT Uniform Bronze (US Woodland)";
 		
-		class ItemInfo : TTT_Uniform_ItemInfo {
+        class ItemInfo : ItemInfo {
 			uniformClass = "TTT_Bronze1_Us_Woodland";
 		};
 	};
@@ -70,7 +70,7 @@
 	class TTT_Uniform_Blau_Us_Woodland : TTT_Uniform_Blau_Us_Desert {
 		displayName = "TTT Uniform Blau (US Woodland)";
 		
-		class ItemInfo : TTT_Uniform_ItemInfo {
+        class ItemInfo : ItemInfo {
 			uniformClass = "TTT_Blau1_Us_Woodland";
 		};
 	};	
@@ -78,7 +78,7 @@
 	class TTT_Uniform_Violett_Us_Woodland : TTT_Uniform_Violett_Us_Desert {
 		displayName = "TTT Uniform Violett (US Woodland)";
 		
-		class ItemInfo : TTT_Uniform_ItemInfo {
+        class ItemInfo : ItemInfo {
 			uniformClass = "TTT_Violett1_Us_Woodland";
 		};
 	};	
@@ -86,7 +86,7 @@
 	class TTT_Uniform_Weiss_Us_Woodland : TTT_Uniform_Weiss_Us_Desert {
 		displayName = "TTT Uniform Weiss (US Woodland)";
 		
-		class ItemInfo : TTT_Uniform_ItemInfo {
+        class ItemInfo : ItemInfo {
 			uniformClass = "TTT_Weiss1_Us_Woodland";
 		};
 	};
@@ -94,7 +94,7 @@
 	class TTT_Uniform_Silber_Us_Woodland : TTT_Uniform_Silber_Us_Desert {
 		displayName = "TTT Uniform Silber (US Woodland)";
 		
-		class ItemInfo : TTT_Uniform_ItemInfo {
+        class ItemInfo : ItemInfo {
 			uniformClass = "TTT_Adler1_Us_Woodland";
 		};
 	};

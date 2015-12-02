@@ -4,24 +4,16 @@
 ### Helme
 #############################################################
 */
-class TTT_Helmet_Base : ItemCore {
+class TTT_Helmet_Base : HelmetBase {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\misc\TTT_helmet_1_bw_tropentarn.paa" };
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light.p3d";
     picture = "\A3\Characters_F\Data\UI\icon_H_HelmetB_CA.paa";
-    hiddenSelections[] = { "Camo" };
-    weaponPoolAvailable = 1;
     scope = 0;
 
-    class TTT_Helmet_ItemInfo_Base : HeadgearItem {
-        mass = 100;
+    class ItemInfo : ItemInfo {
+        hiddenSelections[] = { "camo" };
         uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light.p3d";
-        modelSides[] = { 3, 1 };
-        armor = 1.5;
-        passThrough = 0.8;
-        hiddenSelections[] = { "Camo" };
     };
-
-    class ItemInfo : TTT_Helmet_ItemInfo_Base {};
 };
 
 class TTT_Helmet_Buzzard : TTT_Helmet_Base {
@@ -30,7 +22,7 @@ class TTT_Helmet_Buzzard : TTT_Helmet_Base {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\misc\TTT_helmet_buzzard.paa" };
     scope = 2;
 
-    class ItemInfo : TTT_Helmet_ItemInfo_Base {
+    class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\Common\headgear_helmet_heli_shield.p3d";
     };
 };
@@ -41,7 +33,7 @@ class TTT_Helmet_Hawk : TTT_Helmet_Base {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\misc\TTT_helmet_buzzard.paa" };
     scope = 2;
 
-    class ItemInfo : TTT_Helmet_ItemInfo_Base {
+    class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\Common\headgear_helmet_heli_shield.p3d";
     };
 };
@@ -52,7 +44,7 @@ class TTT_Helmet_Falcon : TTT_Helmet_Base {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\misc\TTT_helmet_falcon.paa" };
     scope = 2;
 
-    class ItemInfo : TTT_Helmet_ItemInfo_Base {
+    class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\Common\headgear_helmet_heli_shield.p3d";
     };
 };
@@ -63,7 +55,7 @@ class TTT_Helmet_Eagle : TTT_Helmet_Base {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\misc\TTT_helmet_eagle.paa" };
     scope = 2;
 
-    class ItemInfo : TTT_Helmet_ItemInfo_Base {
+    class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\Common\headgear_helmet_heli_shield.p3d";
     };
 };
@@ -80,12 +72,8 @@ class TTT_Vest_Heavy_Base : V_PlateCarrier3_rgr {
     displayName = "TTT Heavy Vest Base";
     hiddenSelections[] = { "camo" };
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\misc\vest_yellow_co.paa" };
-    class ItemInfo : VestItem {
-        UniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
-        containerClass = "Supply140";
-        mass = 100;
-        armor = 30;
-        passThrough = 0.5;
+
+    class ItemInfo : ItemInfo {
         hiddenSelections[] = { "camo" };
     };
 };
@@ -96,14 +84,10 @@ class TTT_Vest_Lite_Base : V_PlateCarrier1_rgr {
     hiddenSelections[] = { "camo" };
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\misc\vest_yellow_co.paa" };
 
-    class ItemInfo : VestItem {
-        UniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
-        containerClass = "Supply150";
-        mass = 50;
-        armor = 60;
-        passThrough = 0.3;
+    class ItemInfo : ItemInfo {
         hiddenSelections[] = { "camo" };
     };
+
 };
 
 class TTT_Vest_Crew_Base : V_TacVest_brn {
