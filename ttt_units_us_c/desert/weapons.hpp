@@ -132,42 +132,42 @@ class TTT_Uniform_Violett_Us_Desert : TTT_Uniform_Base_Us {
 	class TTT_Helmet_1_Us_Desert : TTT_Helmet_Base {
 		author = "Tactical Training Team";
 		scope = 2;
-		displayName = "TTT Helm I";
+		displayName = "TTT Helm I (US Desert)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\desert\helmets\TTT_helmet_1_us_desert.paa"};
 	};
 	
 	class TTT_Helmet_2_Us_Desert : TTT_Helmet_Base {
 		author = "Tactical Training Team";
 		scope = 2;
-		displayName = "TTT Helm II";
+		displayName = "TTT Helm II (US Desert)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\desert\helmets\TTT_helmet_2_us_desert.paa"};
 	};
 	
 	class TTT_Helmet_3_Us_Desert : TTT_Helmet_Base {
 		author = "Tactical Training Team";
 		scope = 2;
-		displayName = "TTT Helm III";
+		displayName = "TTT Helm III (US Desert)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\desert\helmets\TTT_helmet_3_us_desert.paa"};
 	};
 	
 	class TTT_Helmet_4_Us_Desert : TTT_Helmet_Base {
 		author = "Tactical Training Team";
 		scope = 2;
-		displayName = "TTT Helm IV";
+		displayName = "TTT Helm IV (US Desert)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\desert\helmets\TTT_helmet_4_us_desert.paa"};
 	};
 	
 	class TTT_Helmet_5_Us_Desert : TTT_Helmet_Base {
 		author = "Tactical Training Team";
 		scope = 2;
-		displayName = "TTT Helm V";
+		displayName = "TTT Helm V (US Desert)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\desert\helmets\TTT_helmet_5_us_desert.paa"};
 	};
 	
 	class TTT_Helmet_6_Us_Desert : TTT_Helmet_Base {
 		author = "Tactical Training Team";
 		scope = 2;
-		displayName = "TTT Helm VI";
+		displayName = "TTT Helm VI (US Desert)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\desert\helmets\TTT_helmet_6_us_desert.paa"};
 	};
 	

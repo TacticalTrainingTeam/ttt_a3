@@ -105,31 +105,31 @@
 	#############################################################
 	*/
 	class TTT_Helmet_1_Bw_Flecktarn : TTT_Helmet_1_Bw_Tropentarn {
-		displayName = "TTT Helm I";
+		displayName = "TTT Helm I (BW Flecktarn)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\flecktarn\helmets\TTT_helmet_1_bw_flecktarn.paa"};
 	};
 	
 	class TTT_Helmet_2_Bw_Flecktarn : TTT_Helmet_2_Bw_Tropentarn {
-		displayName = "TTT Helm II";
+		displayName = "TTT Helm II (BW Flecktarn)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\flecktarn\helmets\TTT_helmet_2_bw_flecktarn.paa"};
 	};
 	
 	class TTT_Helmet_3_Bw_Flecktarn : TTT_Helmet_3_Bw_Tropentarn {
-		displayName = "TTT Helm III";
+		displayName = "TTT Helm III (BW Flecktarn)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\flecktarn\helmets\TTT_helmet_3_bw_flecktarn.paa"};
 	};
 	
 	class TTT_Helmet_4_Bw_Flecktarn : TTT_Helmet_4_Bw_Tropentarn {
-		displayName = "TTT Helm IV";
+		displayName = "TTT Helm IV (BW Flecktarn)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\flecktarn\helmets\TTT_helmet_4_bw_flecktarn.paa"};
 	};
 	
 	class TTT_Helmet_5_Bw_Flecktarn : TTT_Helmet_5_Bw_Tropentarn {
-		displayName = "TTT Helm V";
+		displayName = "TTT Helm V (BW Flecktarn)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\flecktarn\helmets\TTT_helmet_5_bw_flecktarn.paa"};
 	};
 	
 	class TTT_Helmet_6_Bw_Flecktarn : TTT_Helmet_6_Bw_Tropentarn {
-		displayName = "TTT Helm VI";
+		displayName = "TTT Helm VI (BW Flecktarn)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\flecktarn\helmets\TTT_helmet_6_bw_flecktarn.paa"};
 	};

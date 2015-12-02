@@ -105,32 +105,32 @@
 	#############################################################
 	*/
 	class TTT_Helmet_1_Us_Woodland : TTT_Helmet_1_Us_Desert {
-		displayName = "TTT Helm I";
+		displayName = "TTT Helm I (US Woodland)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\woodland\helmets\TTT_helmet_1_us_woodland.paa"};
 	};
 	
 	class TTT_Helmet_2_Us_Woodland : TTT_Helmet_2_Us_Desert {
-		displayName = "TTT Helm II";
+		displayName = "TTT Helm II (US Woodland)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\woodland\helmets\TTT_helmet_2_us_woodland.paa"};
 	};
 	
 	class TTT_Helmet_3_Us_Woodland : TTT_Helmet_3_Us_Desert {
-		displayName = "TTT Helm III";
+		displayName = "TTT Helm III (US Woodland)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\woodland\helmets\TTT_helmet_3_us_woodland.paa"};
 	};
 	
 	class TTT_Helmet_4_Us_Woodland : TTT_Helmet_4_Us_Desert {
-		displayName = "TTT Helm IV";
+		displayName = "TTT Helm IV (US Woodland)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\woodland\helmets\TTT_helmet_4_us_woodland.paa"};
 	};
 	
 	class TTT_Helmet_5_Us_Woodland : TTT_Helmet_5_Us_Desert {
-		displayName = "TTT Helm V";
+		displayName = "TTT Helm V (US Woodland)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\woodland\helmets\TTT_helmet_5_us_woodland.paa"};
 	};
 	
 	class TTT_Helmet_6_Us_Woodland : TTT_Helmet_6_Us_Desert {
-		displayName = "TTT Helm VI";
+		displayName = "TTT Helm VI (US Woodland)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\woodland\helmets\TTT_helmet_6_us_woodland.paa"};
 	};
 	

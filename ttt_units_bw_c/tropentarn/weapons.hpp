@@ -131,41 +131,41 @@ class TTT_Uniform_Violett_Bw_Tropentarn : TTT_Uniform_Base_Bw {
 	class TTT_Helmet_1_Bw_Tropentarn : TTT_Helmet_Base {
 		author = "Tactical Training Team";
 		scope = 2;
-		displayName = "TTT Helm I";
+		displayName = "TTT Helm I (BW Tropentarn)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\tropentarn\helmets\TTT_helmet_1_bw_tropentarn.paa"};
 	};
 	
 	class TTT_Helmet_2_Bw_Tropentarn : TTT_Helmet_Base {
 		author = "Tactical Training Team";
 		scope = 2;
-		displayName = "TTT Helm II";
+		displayName = "TTT Helm II (BW Tropentarn)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\tropentarn\helmets\TTT_helmet_2_bw_tropentarn.paa"};
 	};
 	
 	class TTT_Helmet_3_Bw_Tropentarn : TTT_Helmet_Base {
 		author = "Tactical Training Team";
 		scope = 2;
-		displayName = "TTT Helm III";
+		displayName = "TTT Helm III (BW Tropentarn)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\tropentarn\helmets\TTT_helmet_3_bw_tropentarn.paa"};
 	};
 	
 	class TTT_Helmet_4_Bw_Tropentarn : TTT_Helmet_Base {
 		author = "Tactical Training Team";
 		scope = 2;
-		displayName = "TTT Helm IV";
+		displayName = "TTT Helm IV (BW Tropentarn)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\tropentarn\helmets\TTT_helmet_4_bw_tropentarn.paa"};
 	};
 	
 	class TTT_Helmet_5_Bw_Tropentarn : TTT_Helmet_Base {
 		author = "Tactical Training Team";
 		scope = 2;
-		displayName = "TTT Helm V";
+		displayName = "TTT Helm V (BW Tropentarn)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\tropentarn\helmets\TTT_helmet_5_bw_tropentarn.paa"};
 	};
 	
 	class TTT_Helmet_6_Bw_Tropentarn : TTT_Helmet_Base {
 		author = "Tactical Training Team";
 		scope = 2;
-		displayName = "TTT Helm VI";
+		displayName = "TTT Helm VI (BW Tropentarn)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\tropentarn\helmets\TTT_helmet_6_bw_tropentarn.paa"};
 	};
