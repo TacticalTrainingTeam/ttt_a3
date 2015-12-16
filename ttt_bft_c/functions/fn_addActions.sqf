@@ -8,7 +8,7 @@
  * Return Value:
  * None
  */
-private ["_action", "_fnc_Check", "_fnc_Action"];
+/* private ["_action", "_fnc_Check", "_fnc_Action"];
 
 _fnc_Check = {
     params ["_target", "_caller"];
@@ -31,4 +31,4 @@ _fnc_Action = {
 };
 
 _action = ["BG_BFT_getUse", "Use BFT", "", _fnc_Action, _fnc_Check] call ace_interact_menu_fnc_createAction;
-[_this select 0, 0, ["ACE_MainActions"], _action] call ace_interact_menu_fnc_addActionToObject;
+[_this select 0, 0, ["ACE_MainActions"], _action] call ace_interact_menu_fnc_addActionToObject; */
