@@ -4,10 +4,10 @@
 ### Helme
 #############################################################
 */
-class TTT_Helmet_Base : HelmetBase {
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\misc\TTT_helmet_1_bw_tropentarn.paa" };
+class TTT_Helmet_Base : H_HelmetSpecB {
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light.p3d";
     picture = "\A3\Characters_F\Data\UI\icon_H_HelmetB_CA.paa";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\misc\TTT_helmet_1_bw_tropentarn.paa" };
     scope = 0;
 
     class ItemInfo : ItemInfo {

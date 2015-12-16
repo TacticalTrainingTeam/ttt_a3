@@ -6,7 +6,7 @@
 
 //Truppfuehrer Rucksack
 class TTT_Backpack_Truppfuehrer_Us_Desert : B_AssaultPack_cbr {
-    displayName = "Truppfuehrer Rucksack (US Desert)";
+    displayName = "TTT Truppfuehrer Rucksack (US Desert)";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\backpacks\assault.paa" };
     class TransportItems {
         class _xx_ACE_fieldDressing {
@@ -40,7 +40,7 @@ class TTT_Backpack_Truppfuehrer_Us_Desert : B_AssaultPack_cbr {
 
 //Grenadier Rucksack
 class TTT_Backpack_Grenadier_Us_Desert : B_AssaultPack_cbr {
-    displayName = "Grenadier Rucksack (US Desert)";
+    displayName = "TTT Grenadier Rucksack (US Desert)";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\backpacks\assault.paa" };
     class TransportItems {
         class _xx_ACE_fieldDressing {
@@ -66,7 +66,7 @@ class TTT_Backpack_Grenadier_Us_Desert : B_AssaultPack_cbr {
 
 //MG-Assistent Rucksack
 class TTT_Backpack_Mgassistent_Us_Desert : B_AssaultPack_cbr {
-    displayName = "MG-Assistent Rucksack (US Desert)";
+    displayName = "TTT MG-Assistent Rucksack (US Desert)";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\backpacks\assault.paa" };
     class TransportItems {
         class _xx_ACE_fieldDressing {
@@ -92,7 +92,7 @@ class TTT_Backpack_Mgassistent_Us_Desert : B_AssaultPack_cbr {
 
 //MG-Schuetze Rucksack
 class TTT_Backpack_Mgschuetze_Us_Desert : B_AssaultPack_cbr {
-    displayName = "MG-Schuetze Rucksack (US Desert)";
+    displayName = "TTT MG-Schuetze Rucksack (US Desert)";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\backpacks\assault.paa" };
     class TransportItems {
         class _xx_ACE_fieldDressing {
@@ -123,7 +123,7 @@ class TTT_Backpack_Mgschuetze_Us_Desert : B_AssaultPack_cbr {
 
 //LMG-Schuetze Rucksack
 class TTT_Backpack_Lmgschuetze_Us_Desert : B_AssaultPack_cbr {
-    displayName = "LMG-Schuetze Rucksack (US Desert)";
+    displayName = "TTT LMG-Schuetze Rucksack (US Desert)";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\backpacks\assault.paa" };
     class TransportItems {
         class _xx_ACE_fieldDressing {
@@ -153,7 +153,7 @@ class TTT_Backpack_Lmgschuetze_Us_Desert : B_AssaultPack_cbr {
 
 //AT-Schuetze Rucksack
 class TTT_Backpack_Atschuetze_Us_Desert : B_AssaultPack_cbr {
-    displayName = "AT-Schuetze Rucksack (US Desert)";
+    displayName = "TTT AT-Schuetze Rucksack (US Desert)";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\backpacks\assault.paa" };
     class TransportItems {
         class _xx_ACE_fieldDressing {
@@ -173,7 +173,7 @@ class TTT_Backpack_Atschuetze_Us_Desert : B_AssaultPack_cbr {
 
 //Schuetze Rucksack
 class TTT_Backpack_Schuetze_Us_Desert : B_AssaultPack_cbr {
-    displayName = "Schuetze Rucksack (US Desert)";
+    displayName = "TTT Schuetze Rucksack (US Desert)";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\backpacks\assault.paa" };
     class TransportItems {
         class _xx_ACE_fieldDressing {
@@ -193,7 +193,7 @@ class TTT_Backpack_Schuetze_Us_Desert : B_AssaultPack_cbr {
 
 //Funker/FAC Rucksack
 class TTT_Backpack_Funkerfac_Us_Desert : tf_rt1523g_big_rhs {
-    displayName = "Funker/FAC Rucksack (US Desert)";
+    displayName = "TTT Funker/FAC Rucksack (US Desert)";
     tf_range = 50000;
     class TransportItems {
         class _xx_ACE_fieldDressing {
@@ -223,7 +223,7 @@ class TTT_Backpack_Funkerfac_Us_Desert : tf_rt1523g_big_rhs {
 
 //Pionier Rucksack
 class TTT_Backpack_Pionier_Us_Desert : B_Carryall_cbr {
-    displayName = "Pionier Rucksack (US Desert)";
+    displayName = "TTT Pionier Rucksack (US Desert)";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\backpacks\carryall.paa" };
     class TransportItems {
         class _xx_ACE_fieldDressing {
@@ -273,7 +273,7 @@ class TTT_Backpack_Pionier_Us_Desert : B_Carryall_cbr {
 
 //Gefechtssanitaeter Rucksack
 class TTT_Backpack_Gefechtssanitaeter_Us_Desert : B_Kitbag_cbr {
-    displayName = "Gefechtssanitaeter Rucksack (US Desert)";
+    displayName = "TTT Gefechtssanitaeter Rucksack (US Desert)";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\backpacks\kitbag.paa" };
     class TransportItems {
         class _xx_ACE_fieldDressing {
@@ -321,7 +321,7 @@ class TTT_Backpack_Gefechtssanitaeter_Us_Desert : B_Kitbag_cbr {
 
 //Feldarzt Rucksack
 class TTT_Backpack_Feldarzt_Us_Desert : B_Kitbag_cbr {
-    displayName = "Feldarzt Rucksack (US Desert)";
+    displayName = "TTT Feldarzt Rucksack (US Desert)";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\backpacks\kitbag.paa" };
     class TransportItems {
         class _xx_ACE_fieldDressing {
@@ -377,7 +377,7 @@ class TTT_Backpack_Feldarzt_Us_Desert : B_Kitbag_cbr {
 
 //Pilot Rucksack
 class TTT_Backpack_Pilot_Us_Desert : tf_rt1523g_big_rhs {
-    displayName = "Pilot Rucksack (US Desert)";
+    displayName = "TTT Pilot Rucksack (US Desert)";
     tf_range = 50000;
     class TransportItems {
         class _xx_ACE_fieldDressing {
@@ -401,7 +401,7 @@ class TTT_Backpack_Pilot_Us_Desert : tf_rt1523g_big_rhs {
 
 //OPL Rucksack
 class TTT_Backpack_Opl_Us_Desert : tf_rt1523g_big_rhs {
-    displayName = "OPL Rucksack (US Desert)";
+    displayName = "TTT OPL Rucksack (US Desert)";
     tf_range = 50000;
     class TransportItems {
         class _xx_ACE_fieldDressing {
