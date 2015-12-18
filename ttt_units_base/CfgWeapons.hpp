@@ -8,7 +8,9 @@ class CfgWeapons {
     class Vest_NoCamo_Base;
     class V_PlateCarrier3_rgr : Vest_NoCamo_Base{ class ItemInfo; };	// External class reference
     class V_PlateCarrier1_rgr : Vest_NoCamo_Base{ class ItemInfo; };	// External class reference
-    class V_TacVest_brn : Vest_NoCamo_Base{ class ItemInfo; };	// External class reference
+
+    class V_TacVest_khk;
+    class V_TacVest_brn : V_TacVest_khk{ class ItemInfo; };	// External class reference
 
     #include "misc\weapons.hpp"
 };
