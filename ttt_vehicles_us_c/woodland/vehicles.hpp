@@ -7,6 +7,7 @@
 	class TTT_Truppfahrzeug_Mg_Us_Woodland : TTT_Truppfahrzeug_Mg_Us_Desert {
 		author = "Tactical Training Team";
 		hiddenSelectionsTextures[] = {"\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\data\Jackal_base_woodlnd_co.paa","\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\data\Jackal_mount_woodlnd_co.paa","\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\data\Jackal_adds_woodlnd_co.paa","","",""};
+		model = "\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\Coyote_L111A1_passenger_w";
 		crew = "TTT_Schwarz1_Us_Woodland";
 		displayName = "TTT Truppfahrzeug MG (US Woodland)";
 	};
@@ -14,8 +15,9 @@
 	
 	class TTT_Truppfahrzeug_Gl_Us_Woodland : TTT_Truppfahrzeug_Gl_Us_Desert {
 		author = "Tactical Training Team";
-        hiddenSelectionsTextures[] = {"\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\data\Jackal_base_woodlnd_co.paa","\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\data\Jackal_mount_woodlnd_co.paa","\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\data\Jackal_adds_woodlnd_co.paa","","",""};
-        crew = "TTT_Schwarz1_Us_Woodland";
+		hiddenSelectionsTextures[] = {"\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\data\Jackal_base_woodlnd_co.paa","\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\data\Jackal_mount_woodlnd_co.paa","\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\data\Jackal_adds_woodlnd_co.paa","","",""};
+		model = "\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\Coyote_L134A1_passenger_w";
+		crew = "TTT_Schwarz1_Us_Woodland";
 		displayName = "TTT Truppfahrzeug GL (US Woodland)";
 	};
 	
