@@ -409,8 +409,8 @@ class TTT_Sanitaetsfahrzeug_Us_Desert : rhsusf_m998_d_2dr_fulltop {
             count = 20;
         };
 
-        class _xx_ACE_elasticBandage {
-            name = "ACE_elasticBandage";
+        class _xx_ACE_fieldDressing {
+            name = "ACE_fieldDressing";
             count = 20;
         };
 
