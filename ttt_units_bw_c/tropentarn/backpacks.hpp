@@ -356,7 +356,7 @@ class TTT_Backpack_Feldarzt_Bw_Tropentarn : B_Kitbag_cbr {
         };
         class _xx_ACE_surgicalKit {
             name = "ACE_surgicalKit";
-            count = 10;
+            count = 5;
         };
         class _xx_ACE_DK10_b {
             name = "ACE_DK10_b";
