@@ -8,8 +8,8 @@ class CfgVehicles {
 	### External class references
 	#############################################################
 	*/
-	class BW_Dingo_Des;
-	class BW_Dingo_GL_Wdl;
+    class CUP_B_Dingo_Wdl;
+    class CUP_B_Dingo_GL_Wdl;
 	class RHS_M2A3_BUSKIII;
 	class RHS_AH64D;
 	class RHS_UH60M;

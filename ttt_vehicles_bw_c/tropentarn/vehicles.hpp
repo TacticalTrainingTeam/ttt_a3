@@ -4,7 +4,7 @@
 	#############################################################
 	*/
 	
-	class TTT_Truppfahrzeug_Mg_Bw_Tropentarn : BW_Dingo_Des {
+    class TTT_Truppfahrzeug_Mg_Bw_Tropentarn : CUP_B_Dingo_Wdl {
 		author = "Tactical Training Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
@@ -153,7 +153,7 @@
 	};
 
 	
-	class TTT_Truppfahrzeug_Gl_Bw_Tropentarn : BW_Dingo_GL_Wdl {
+    class TTT_Truppfahrzeug_Gl_Bw_Tropentarn : CUP_B_Dingo_GL_Wdl {
 		author = "Tactical Training Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
