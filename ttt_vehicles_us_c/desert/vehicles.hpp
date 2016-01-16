@@ -30,8 +30,8 @@ class TTT_Truppfahrzeug_Mg_Us_Desert : UK3CB_BAF_Coyote_Passenger_L111A1_D {
     class TransportItems {
 
         //Sanitaetsmaterial
-        class _xx_ACE_fieldDressing {
-            name = "ACE_fieldDressing";
+        class _xx_ACE_elasticBandage {
+            name = "ACE_elasticBandage";
             count = 15;
         };
 
@@ -188,8 +188,8 @@ class TTT_Truppfahrzeug_Gl_Us_Desert : UK3CB_BAF_Coyote_Passenger_L134A1_D {
     class TransportItems {
 
         //Sanitaetsmaterial
-        class _xx_ACE_fieldDressing {
-            name = "ACE_fieldDressing";
+        class _xx_ACE_elasticBandage {
+            name = "ACE_elasticBandage";
             count = 15;
         };
 
@@ -333,8 +333,8 @@ class TTT_Oplfahrzeug_Us_Desert : rhsusf_m998_w_4dr_fulltop {
     };
     class TransportItems {
         //Sanitaetsmaterial
-        class _xx_ACE_fieldDressing {
-            name = "ACE_fieldDressing";
+        class _xx_ACE_elasticBandage {
+            name = "ACE_elasticBandage";
             count = 15;
         };
 
@@ -404,8 +404,8 @@ class TTT_Sanitaetsfahrzeug_Us_Desert : rhsusf_m998_d_2dr_fulltop {
             count = 20;
         };
 
-        class _xx_ACE_fieldDressing {
-            name = "ACE_fieldDressing";
+        class _xx_ACE_elasticBandage {
+            name = "ACE_elasticBandage";
             count = 20;
         };
 
@@ -452,8 +452,8 @@ class TTT_TransporterLeichtOffen_Us_Desert : rhsusf_m998_w_2dr {
 
     };
     class TransportItems {
-        class _xx_ACE_fieldDressing {
-            name = "ACE_fieldDressing";
+        class _xx_ACE_elasticBandage {
+            name = "ACE_elasticBandage";
             count = 15;
         };
 
@@ -506,8 +506,8 @@ class TTT_Schuetzenpanzer_Us_Desert : RHS_M2A3_BUSKIII {
     class TransportItems {
 
         //Sanitaetsmaterial
-        class _xx_ACE_fieldDressing {
-            name = "ACE_fieldDressing";
+        class _xx_ACE_elasticBandage {
+            name = "ACE_elasticBandage";
             count = 15;
         };
 
@@ -581,8 +581,8 @@ class TTT_Kampfpanzer_Us_Desert : rhsusf_m1a2sep1tuskiid_Usarmy {
     class TransportItems {
 
         //Sanitaetsmaterial
-        class _xx_ACE_fieldDressing {
-            name = "ACE_fieldDressing";
+        class _xx_ACE_elasticBandage {
+            name = "ACE_elasticBandage";
             count = 15;
         };
 

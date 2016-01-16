@@ -31,8 +31,8 @@
 		class TransportItems {
 			
 			//Sanitaetsmaterial
-			class _xx_ACE_fieldDressing {
-				name = "ACE_fieldDressing";
+			class _xx_ACE_elasticBandage {
+				name = "ACE_elasticBandage";
 				count = 15;
 			};
 			
@@ -180,8 +180,8 @@
 		class TransportItems {
 			
 			//Sanitaetsmaterial
-			class _xx_ACE_fieldDressing {
-				name = "ACE_fieldDressing";
+			class _xx_ACE_elasticBandage {
+				name = "ACE_elasticBandage";
 				count = 15;
 			};
 			
@@ -322,8 +322,8 @@
 		};
 		class TransportItems {
 			//Sanitaetsmaterial
-			class _xx_ACE_fieldDressing {
-				name = "ACE_fieldDressing";
+			class _xx_ACE_elasticBandage {
+				name = "ACE_elasticBandage";
 				count = 15;
 			};
 			
@@ -383,8 +383,8 @@
 		class TransportItems {
 			
 			//Sanitaetsmaterial
-			class _xx_ACE_fieldDressing {
-				name = "ACE_fieldDressing";
+			class _xx_ACE_elasticBandage {
+				name = "ACE_elasticBandage";
 				count = 15;
 			};
 			
@@ -457,8 +457,8 @@
 		class TransportItems {
 			
 			//Sanitaetsmaterial
-			class _xx_ACE_fieldDressing {
-				name = "ACE_fieldDressing";
+			class _xx_ACE_elasticBandage {
+				name = "ACE_elasticBandage";
 				count = 15;
 			};
 			
