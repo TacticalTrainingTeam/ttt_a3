@@ -105,7 +105,8 @@ with uiNamespace do {
 BG_fnc_bftdialog_editButton = {
     disableSerialization;
     with uiNamespace do {
-        _defaultIcon = switch (playerSide) do {
+        _side = side player;
+        _defaultIcon = switch (_side) do {
             case (west): {
                 "b_unknown"
             };
@@ -115,7 +116,7 @@ BG_fnc_bftdialog_editButton = {
             case (independent) :{
                 "n_unknown"
             };
-			case (civilian) :{
+            case (civilian) :{
                 "c_unknown"
             };
             default {
@@ -143,7 +144,7 @@ BG_fnc_bftdialog_editButton = {
                 private ["_name", "_tmp"];
                 _name = _x select 5;
 
-                if ((_x select 4) == playerSide) then {
+                if ((_x select 4) == _side) then {
                     _tmp = BG_UI_BFT_lbIcon lbAdd (_x select 3);
                     BG_UI_BFT_lbIcon lbSetPicture [_tmp, _x select 0];
                     BG_UI_BFT_lbIcon lbSetPictureColor [_tmp, _x select 1];

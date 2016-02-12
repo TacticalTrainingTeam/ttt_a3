@@ -8,17 +8,18 @@
  * Return Value:
  * None
  */
-private ["_players","_icons","_defaultIcon","_icon","_text","_textSize","_font","_align","_iconType"];
+private ["_players","_icons","_defaultIcon","_icon","_text","_textSize","_font","_align","_iconType","_side"];
 
-if(player getVariable ["BG_BFT_playerSide", playerSide] != playerSide) then {
-    player setVariable ["BG_BFT_playerSide", playerSide, true];
+_side = side player;
+if(player getVariable ["BG_BFT_playerSide", _side] != _side) then {
+    player setVariable ["BG_BFT_playerSide", _side, true];
 };
 
 _icons = [];
 _textSize = 0.06;
 _font = "PuristaSemiBold";
 _align = "right";
-_defaultIcon = switch (playerSide) do {
+_defaultIcon = switch (_side) do {
     case (west): {
       "b_unknown"
     };
@@ -38,7 +39,7 @@ _defaultIcon = switch (playerSide) do {
 
 if (BG_BFT_onlyPlayer) then {
     {
-        if ( "ACE_DK10_b" in (items _x) && {_x getVariable ["BG_BFT_playerSide", side _x] == playerSide}) then {
+        if ( "ACE_DK10_b" in (items _x) && {_x getVariable ["BG_BFT_playerSide", side _x] == _side}) then {
             _icon = _x getVariable ["BG_BFT_icon", _defaultIcon];
             _text = _x getVariable ["BG_BFT_groupId", groupId (group _x)];
             _iconType = (BG_BFT_iconTypes select 0) find _icon;
@@ -63,7 +64,7 @@ if (BG_BFT_onlyPlayer) then {
     } count allPlayers;
 } else {
     {
-        if ( ("ACE_DK10_b" in (items _x) || "ACE_GD300_b" in (items _x)) && {_x getVariable ["BG_BFT_playerSide", side _x] == playerSide}) then {
+        if ( ("ACE_DK10_b" in (items _x) || "ACE_GD300_b" in (items _x)) && {_x getVariable ["BG_BFT_playerSide", side _x] == _side}) then {
             _icon = _x getVariable ["BG_BFT_icon", _defaultIcon];
             _text = _x getVariable ["BG_BFT_groupId", groupId (group _x)];
             _iconType = (BG_BFT_iconTypes select 0) find _icon;
