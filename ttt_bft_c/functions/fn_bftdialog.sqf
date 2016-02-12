@@ -115,6 +115,9 @@ BG_fnc_bftdialog_editButton = {
             case (independent) :{
                 "n_unknown"
             };
+			case (civilian) :{
+                "c_unknown"
+            };
             default {
                 "hd_unknown"
             };

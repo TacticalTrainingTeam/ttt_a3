@@ -41,7 +41,7 @@ private ["_classes","_keys", "_values", "_side"];
 _keys = [];
 _values = [];
 
-_classes = "getText (_x >> 'markerClass') in ['NATO_BLUFOR', 'NATO_OPFOR', 'NATO_Independent']" configClasses (configfile >> "CfgMarkers");
+_classes = "getText (_x >> 'markerClass') in ['NATO_BLUFOR', 'NATO_OPFOR', 'NATO_Independent', 'NATO_Civilian']" configClasses (configfile >> "CfgMarkers");
 
 {
     _keys pushBack configName _x;
@@ -59,6 +59,12 @@ _classes = "getText (_x >> 'markerClass') in ['NATO_BLUFOR', 'NATO_OPFOR', 'NATO
             };
             case ("NATO_Independent"): {
                 independent
+            };
+            case ("NATO_Civilian"): {
+                civilian
+            };
+            default : {
+                west
             };
         },
         configName _x
