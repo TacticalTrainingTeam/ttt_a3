@@ -10,6 +10,10 @@
  */
 private ["_players","_icons","_defaultIcon","_icon","_text","_textSize","_font","_align","_iconType"];
 
+if(player getVariable ["BG_BFT_playerSide", playerSide] != playerSide) then {
+    player setVariable ["BG_BFT_playerSide", playerSide, true];
+};
+
 _icons = [];
 _textSize = 0.06;
 _font = "PuristaSemiBold";
@@ -24,8 +28,11 @@ _defaultIcon = switch (playerSide) do {
     case (independent): {
       "n_unknown"
     };
+    case (independent): {
+      "c_unknown"
+    };
     default {
-        "hd_unknown"
+      "hd_unknown"
     };
 };
 
