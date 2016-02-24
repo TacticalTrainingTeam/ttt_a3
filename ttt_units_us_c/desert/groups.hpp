@@ -10,6 +10,7 @@
 				class TTT_Gelb_Us_Desert {
 					faction = "TTT_faction_us";
 					name = "Trupp Gelb US Desert";
+					icon = "\A3\ui_f\data\map\markers\nato\b_hq.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -36,6 +37,7 @@
 				class TTT_Grau_Us_Desert {
 					faction = "TTT_faction_us";
 					name = "Trupp Grau US Desert";
+					icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -80,6 +82,7 @@
 				class TTT_Gold_Us_Desert {
 					faction = "TTT_faction_us";
 					name = "Trupp Gold US Desert";
+					icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -100,6 +103,7 @@
 				class TTT_Gruen_Us_Desert {
 					faction = "TTT_faction_us";
 					name = "Trupp Gruen US Desert";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -126,6 +130,7 @@
 				class TTT_Braun_Us_Desert {
 					faction = "TTT_faction_us";
 					name = "Trupp Braun US Desert";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -152,6 +157,7 @@
 				class TTT_Schwarz_Us_Desert {
 					faction = "TTT_faction_us";
 					name = "Trupp Schwarz US Desert";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -196,6 +202,7 @@
 				class TTT_Rot_Us_Desert {
 					faction = "TTT_faction_us";
 					name = "Trupp Rot US Desert";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -240,6 +247,7 @@
 				class TTT_Bronze_Us_Desert {
 					faction = "TTT_faction_us";
 					name = "Trupp Bronze US Desert";
+					icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -266,6 +274,7 @@
 				class TTT_Blau_Us_Desert {
 					faction = "TTT_faction_us";
 					name = "Trupp Blau US Desert";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -310,6 +319,7 @@
 				class TTT_Violett_Us_Desert {
 					faction = "TTT_faction_us";
 					name = "Trupp Violett US Desert";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -354,6 +364,7 @@
 				class TTT_Weiss_Us_Desert {
 					faction = "TTT_faction_us";
 					name = "Trupp Weiss US Desert";
+					icon = "\A3\ui_f\data\map\markers\nato\b_med.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -386,6 +397,7 @@
 				class TTT_Adler_Us_Desert {
 					faction = "TTT_faction_us";
 					name = "Trupp Adler US Desert";
+					icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -406,6 +418,7 @@
 				class TTT_Bussard_Us_Desert {
 					faction = "TTT_faction_us";
 					name = "Trupp Bussard US Desert";
+					icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -426,6 +439,7 @@
 				class TTT_Habicht_Us_Desert {
 					faction = "TTT_faction_us";
 					name = "Trupp Habicht US Desert";
+					icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
 					side = 1;
 					
 					class Unit0 {

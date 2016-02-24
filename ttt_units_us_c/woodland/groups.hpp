@@ -10,6 +10,7 @@
 				class TTT_Gelb_Us_Woodland {
 					faction = "TTT_faction_Us";
 					name = "Trupp Gelb US Woodland";
+					icon = "\A3\ui_f\data\map\markers\nato\b_hq.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -36,6 +37,7 @@
 				class TTT_Grau_Us_Woodland {
 					faction = "TTT_faction_Us";
 					name = "Trupp Grau US Woodland";
+					icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -80,6 +82,7 @@
 				class TTT_Gold_Us_Woodland {
 					faction = "TTT_faction_Us";
 					name = "Trupp Gold US Woodland";
+					icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -100,6 +103,7 @@
 				class TTT_Gruen_Us_Woodland {
 					faction = "TTT_faction_Us";
 					name = "Trupp Gruen US Woodland";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -126,6 +130,7 @@
 				class TTT_Braun_Us_Woodland {
 					faction = "TTT_faction_Us";
 					name = "Trupp Braun US Woodland";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -152,6 +157,7 @@
 				class TTT_Schwarz_Us_Woodland {
 					faction = "TTT_faction_Us";
 					name = "Trupp Schwarz US Woodland";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -196,6 +202,7 @@
 				class TTT_Rot_Us_Woodland {
 					faction = "TTT_faction_Us";
 					name = "Trupp Rot US Woodland";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -240,6 +247,7 @@
 				class TTT_Bronze_Us_Woodland {
 					faction = "TTT_faction_Us";
 					name = "Trupp Bronze US Woodland";
+					icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -284,6 +292,7 @@
 				class TTT_Blau_Us_Woodland {
 					faction = "TTT_faction_Us";
 					name = "Trupp Blau US Woodland";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -328,6 +337,7 @@
 				class TTT_Violett_Us_Woodland {
 					faction = "TTT_faction_Us";
 					name = "Trupp Violett US Woodland";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -372,6 +382,7 @@
 				class TTT_Weiss_Us_Woodland {
 					faction = "TTT_faction_Us";
 					name = "Trupp Weiss US Woodland";
+					icon = "\A3\ui_f\data\map\markers\nato\b_med.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -404,6 +415,7 @@
 				class TTT_Adler_Us_Woodland {
 					faction = "TTT_faction_Us";
 					name = "Trupp Adler US Woodland";
+					icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -424,6 +436,7 @@
 				class TTT_Bussard_Us_Woodland {
 					faction = "TTT_faction_Us";
 					name = "Trupp Bussard US Woodland";
+					icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -444,6 +457,7 @@
 				class TTT_Habicht_Desert {
 					faction = "TTT_faction_Us";
 					name = "Trupp Habicht US Woodland";
+					icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
 					side = 1;
 					
 					class Unit0 {

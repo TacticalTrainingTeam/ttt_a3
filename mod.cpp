@@ -1,0 +1,12 @@
+name = "TTT Mods";
+picture = "\ttt_a3\ttt_main\icons\TTT_faction_icon.paa";
+actionName = "Website";
+action = "http://www.tacticalteam.de/";
+logo = "\ttt_a3\ttt_main\icons\TTT_logo.paa";
+logoOver = "\ttt_a3\ttt_main\icons\TTT_logo.paa";
+tooltip = "Tactical Training Team modification";
+tooltipOwned = "Tactical Training Team modification";
+author = "Tactical Training Team";
+overviewPicture = "\ttt_a3\ttt_main\icons\TTT_logo.paa";
+overviewText = "Tactical Training Team modification";
+overviewFootnote = "";
