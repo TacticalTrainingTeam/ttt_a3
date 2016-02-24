@@ -14,7 +14,7 @@ class TTT_Base_Bw : B_Soldier_base_F {
     displayName = "Basis-Klasse BW";
     uniformAccessories[] = {};
     nakedUniform = "U_BasicBody";
-    hiddenSelections[] = { "Camo" };
+    hiddenSelections[] = { "Camo", "insignia" }; //Camo = Standardskin der Uniform; insignia = Rangabzeichen (linker Arm);
     items[] = {};
     respawnItems[] = {};
 };

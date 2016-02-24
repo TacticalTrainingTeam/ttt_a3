@@ -10,6 +10,7 @@
 				class TTT_Gelb_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
 					name = "Trupp Gelb BW Flecktarn";
+					icon = "\A3\ui_f\data\map\markers\nato\b_hq.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -36,6 +37,7 @@
 				class TTT_Grau_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
 					name = "Trupp Grau BW Flecktarn";
+					icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -80,6 +82,7 @@
 				class TTT_Gold_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
 					name = "Trupp Gold BW Flecktarn";
+					icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -100,6 +103,7 @@
 				class TTT_Gruen_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
 					name = "Trupp Gruen BW Flecktarn";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -126,6 +130,7 @@
 				class TTT_Braun_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
 					name = "Trupp Braun BW Flecktarn";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -152,6 +157,7 @@
 				class TTT_Schwarz_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
 					name = "Trupp Schwarz BW Flecktarn";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -196,6 +202,7 @@
 				class TTT_Rot_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
 					name = "Trupp Rot BW Flecktarn";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -240,6 +247,7 @@
 				class TTT_Bronze_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
 					name = "Trupp Bronze BW Flecktarn";
+					icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -284,6 +292,7 @@
 				class TTT_Blau_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
 					name = "Trupp Blau BW Flecktarn";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -328,6 +337,7 @@
 				class TTT_Violett_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
 					name = "Trupp Violett BW Flecktarn";
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -372,6 +382,7 @@
 				class TTT_Weiss_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
 					name = "Trupp Weiss BW Flecktarn";
+					icon = "\A3\ui_f\data\map\markers\nato\b_med.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -404,6 +415,7 @@
 				class TTT_Adler_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
 					name = "Trupp Adler BW Flecktarn";
+					icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -424,6 +436,7 @@
 				class TTT_Bussard_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
 					name = "Trupp Bussard BW Flecktarn";
+					icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
 					side = 1;
 					
 					class Unit0 {
@@ -444,6 +457,7 @@
                 class TTT_Habicht_Bw_Flecktarn {
                     faction = "TTT_faction_Bw";
                     name = "Trupp Habicht BW Flecktarn";
+					icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
                     side = 1;
 
                     class Unit0 {
