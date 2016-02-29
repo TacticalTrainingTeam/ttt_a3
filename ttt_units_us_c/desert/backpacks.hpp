@@ -29,6 +29,10 @@ class TTT_Backpack_Truppfuehrer_Us_Desert : B_AssaultPack_cbr {
             name = "ACE_DK10_b";
             count = 1;
         };
+		class Binocular {
+			name = "Binocular";
+			count = 1;
+		}		
     };
     class TransportMagazines {
         class _xx_1Rnd_Smoke_Grenade_shell {
