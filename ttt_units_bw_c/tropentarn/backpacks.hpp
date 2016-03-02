@@ -31,7 +31,7 @@ class TTT_Backpack_Truppfuehrer_Bw_Tropentarn : B_AssaultPack_cbr {
 		class Binocular {
 			name = "Binocular";
 			count = 1;
-		}		
+		};		
     };
     class TransportMagazines {
         class _xx_1Rnd_Smoke_Grenade_shell {
