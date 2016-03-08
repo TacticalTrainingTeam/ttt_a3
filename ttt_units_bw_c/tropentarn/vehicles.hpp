@@ -189,8 +189,8 @@ class TTT_Gold1_Bw_Tropentarn : TTT_Base_Bw {
     uniformClass = "TTT_Uniform_Gold_Bw_Tropentarn";
     backpack = "TTT_Backpack_Truppfuehrer_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_gold_bw_tropentarn.paa" };
-    items[] = { "BWA3_optic_NSV600", "BWA3_muzzle_snds_G28", "ACE_NVG_Wide", "ACE_EarPlugs", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991", "ACE_RangeCard", "Laserdesignator", "Laserbatteries" };
-    respawnItems[] = { "BWA3_optic_NSV600", "BWA3_muzzle_snds_G28", "ACE_NVG_Wide", "ACE_EarPlugs", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991", "ACE_RangeCard", "Laserdesignator", "Laserbatteries" };
+    items[] = { "BWA3_optic_NSV600", "BWA3_muzzle_snds_G28", "ACE_NVG_Wide", "ACE_EarPlugs", "ACE_DK10_b", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991", "ACE_RangeCard", "Laserdesignator", "Laserbatteries" };
+    respawnItems[] = { "BWA3_optic_NSV600", "BWA3_muzzle_snds_G28", "ACE_NVG_Wide", "ACE_EarPlugs", "ACE_DK10_b", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991", "ACE_RangeCard", "Laserdesignator", "Laserbatteries" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Leader_Tropen", "TTT_Helmet_1_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Leader_Tropen", "TTT_Helmet_1_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     weapons[] = { "BWA3_G27_AG_equipped", "hgun_Pistol_heavy_01_snds_F", "ACE_Vector", "Throw", "Put" };
