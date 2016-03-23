@@ -294,10 +294,6 @@ class TTT_Backpack_Pionier_Us_Desert : B_Carryall_cbr {
             name = "ACE_M26_Clacker";
             count = 1;
         };
-        class _xx_ACE_Clacker {
-            name = "ACE_Clacker";
-            count = 1;
-        };
     };
     class TransportMagazines {
         class _xx_SLAMDirectionalMine_Wire_Mag {

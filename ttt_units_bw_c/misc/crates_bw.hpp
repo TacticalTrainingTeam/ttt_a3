@@ -220,10 +220,6 @@
                 name = "ACE_M26_Clacker";
                 count = 2;
             };
-            class _xx_ACE_Clacker {
-                name = "ACE_Clacker";
-                count = 2;
-            };
 		};
 		
 		class TransportBackpacks{
