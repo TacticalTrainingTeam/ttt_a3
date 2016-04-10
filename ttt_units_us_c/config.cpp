@@ -6,3 +6,4 @@
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
 #include "CfgGroups.hpp"
+#include "CfgEditorSubcategories.hpp"
