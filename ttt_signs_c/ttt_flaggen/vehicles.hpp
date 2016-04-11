@@ -71,6 +71,13 @@
 			init = "(_this select 0) setFlagTexture '\ttt_a3\ttt_signs\ttt_logos\ttt_gruen_co.paa'";
 		};
 	};
+	class TTT_Flagge_Platin : TTT_Flagge_Logo {
+		displayName = "TTT Flagge Platin";
+
+		class EventHandlers {
+			init = "(_this select 0) setFlagTexture '\ttt_a3\ttt_signs\ttt_logos\ttt_platin_co.paa'";
+		};
+	};
 	class TTT_Flagge_Rot : TTT_Flagge_Logo {
 		displayName = "TTT Flagge Rot";
 

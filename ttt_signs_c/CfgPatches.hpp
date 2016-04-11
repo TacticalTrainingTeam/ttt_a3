@@ -3,7 +3,7 @@
 
 class CfgPatches {
 	class ttt_signs_c {
-		requiredAddons[] = {"ttt_main","ttt_signs"};
+		requiredAddons[] = {"ttt_signs"};
 		units[] = {
 			"TTT_Flagge_Logo",
 			"TTT_Flagge_Blau",
@@ -15,6 +15,7 @@ class CfgPatches {
 			"TTT_Flagge_Rot",
 			"TTT_Flagge_Schwarz",
 			"TTT_Flagge_Silber",
+			"TTT_Flagge_Platin",
 			"TTT_Flagge_Violett",
 			"TTT_Flagge_Weiss",
 			"TTT_Notizschild_Blau",
@@ -27,6 +28,7 @@ class CfgPatches {
 			"TTT_Notizschild_Rot",
 			"TTT_Notizschild_Schwarz",
 			"TTT_Notizschild_Silber",
+			"TTT_Notizschild_Platin",
 			"TTT_Notizschild_Violett",
 			"TTT_Notizschild_Weiss",
 			"TTT_Notizschild_Logo",
@@ -40,6 +42,7 @@ class CfgPatches {
 			"TTT_Schild_Rot",
 			"TTT_Schild_Schwarz",
 			"TTT_Schild_Silber",
+			"TTT_Schild_Platin",
 			"TTT_Schild_Violett",
 			"TTT_Schild_Weiss",
 			"TTT_Schild_Logo",
@@ -51,7 +54,7 @@ class CfgPatches {
 			"TTT_Tafel_6_Kette",
 			"TTT_Tafel_6_Kolonne",
 			"TTT_Tafel_6_Stack",
-			"TTT_Tafel_Zug_Kolonne"
-		};
+			"TTT_Tafel_Zug_Kolonne",
+			};
 	};
 };

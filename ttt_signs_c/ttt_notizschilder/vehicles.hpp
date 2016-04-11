@@ -41,6 +41,10 @@
 		displayName = "TTT Notizschild Gruen";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_signs\ttt_logos\ttt_gruen_co.paa"};
 	};
+	class TTT_Notizschild_Platin : TTT_Notizschild_Blau {
+		displayName = "TTT Notizschild Platin";
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_signs\ttt_logos\ttt_platin_co.paa"};
+	};
 	class TTT_Notizschild_Rot : TTT_Notizschild_Blau {
 		displayName = "TTT Notizschild Rot";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_signs\ttt_logos\ttt_rot_co.paa"};
