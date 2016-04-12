@@ -41,7 +41,7 @@
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_signs\ttt_logos\ttt_gruen_co.paa"};
 	};
 	class TTT_Schild_Platin : TTT_Schild_Blau {
-		displayName = "TTT Schild Silber";
+		displayName = "TTT Schild Platin";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_signs\ttt_logos\ttt_platin_co.paa"};
 	};
 	class TTT_Schild_Rot : TTT_Schild_Blau {

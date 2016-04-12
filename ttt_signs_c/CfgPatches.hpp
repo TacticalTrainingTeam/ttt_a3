@@ -3,7 +3,7 @@
 
 class CfgPatches {
 	class ttt_signs_c {
-		requiredAddons[] = {"ttt_signs"};
+		requiredAddons[] = {"ttt_main", "ttt_signs"};
 		units[] = {
 			"TTT_Flagge_Logo",
 			"TTT_Flagge_Blau",
@@ -54,7 +54,7 @@ class CfgPatches {
 			"TTT_Tafel_6_Kette",
 			"TTT_Tafel_6_Kolonne",
 			"TTT_Tafel_6_Stack",
-			"TTT_Tafel_Zug_Kolonne",
+			"TTT_Tafel_Zug_Kolonne"
 			};
 	};
 };
