@@ -16,9 +16,9 @@ class CfgWeapons {
 		author = "Reimchen";
 		scope = 2;
 		displayName = "Barrett Blau";
-		picture = "\ttt_berets\data\ui\berets_blau_icon_co.paa";
-		hiddenSelectionsTextures[] = {"\ttt_berets\data\common\berets_blau_co.paa"};
 		model = "\A3\Characters_f_epb\BLUFOR\headgear_beret02.p3d";
+		picture = "\ttt_a3\ttt_berets\data\ui\berets_blau_icon_co.paa";
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_berets\data\common\berets_blau_co.paa"};
 		allowedFacewear[] = {"G_Aviator", "G_Balaclava_blk", "G_Balaclava_oli", "G_Bandanna_aviator", "G_Bandanna_beast", "G_Bandanna_blk", "G_Bandanna_khk", "G_Bandanna_oli", "G_Bandanna_shades", "G_Bandanna_sport", "G_Bandanna_tan", "G_Shades_Black", "G_Shades_Blue", "G_Shades_Red", "G_Shades_Green"};
 		
 		class ItemInfo : ItemInfo {
@@ -28,8 +28,10 @@ class CfgWeapons {
 			modelSides[] = {6};
 		};
 	};
+	
 	//Barrett: Braun
 	class TTT_Berets_Braun : TTT_Berets_Blau {
+		author = "Reimchen";
 		displayName = "Barrett Braun";
 		picture = "\ttt_a3\ttt_berets\data\ui\berets_braun_icon_co.paa";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_berets\data\common\berets_braun_co.paa"};
