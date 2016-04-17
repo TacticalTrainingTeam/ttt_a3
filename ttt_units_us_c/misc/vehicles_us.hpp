@@ -11,6 +11,7 @@ class TTT_Base_Us : B_Soldier_base_F {
     faction = "TTT_faction_Us";
     vehicleClass = "TTT_Template_Us";
     scope = 0;
+	icon = "iconMan";
     displayName = "Basis-Klasse";
     uniformAccessories[] = {};
     nakedUniform = "U_BasicBody";
@@ -200,7 +201,7 @@ class TTT_Funkerfac_Base_Us : TTT_Base_Us {
 class TTT_Pionier_Base_Us : TTT_Base_Us {
     author = "Tactical Training Team";
     displayName = "Pionier US (Template)";
-    icon = "iconMan";
+    icon = "iconManExplosive";
     vehicleClass = "TTT_Template_Us";
     backpack = "TTT_Backpack_Pionier_Us_Desert";
     uniformClass = "TTT_Uniform_Base";

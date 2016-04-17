@@ -141,45 +141,68 @@ class TTT_Gold1_Us_Woodland : TTT_Gold1_Us_Desert {
     vehicleClass = "TTT_Gold_Us_Woodland";
     uniformClass = "TTT_Uniform_Gold_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
-    backpack = "TTT_Backpack_Funkerfac_Us_Woodland";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_gold_us_woodland.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_gold_us_woodland.paa" };
+	backpack = "TTT_Backpack_Truppfuehrer_Us_Woodland";
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Woodland", "TTT_Helmet_1_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Woodland", "TTT_Helmet_1_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
-//Gold 2 (Sniper)
+//Gold 2 (JTAC)
 class TTT_Gold2_Us_Woodland : TTT_Gold2_Us_Desert {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Gold_Us_Woodland";
     uniformClass = "TTT_Uniform_Gold_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
-    backpack = "TTT_Backpack_Schuetze_Us_Woodland";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_gold_us_woodland.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Woodland", "TTT_Helmet_2_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_gold_us_woodland.paa" };
+	linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Woodland", "TTT_Helmet_2_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Woodland", "TTT_Helmet_2_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
-//Gold 3 (UAV)
+//Gold 3 (Spotter)
 class TTT_Gold3_Us_Woodland : TTT_Gold3_Us_Desert {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Gold_Us_Woodland";
     uniformClass = "TTT_Uniform_Gold_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_gold_us_woodland.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Woodland", "TTT_Helmet_3_Us_Woodland", "ItemMap", "B_UavTerminal", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Woodland", "TTT_Helmet_3_Us_Woodland", "ItemMap", "B_UavTerminal", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_gold_us_woodland.paa" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Woodland", "TTT_Helmet_3_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Woodland", "TTT_Helmet_3_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
-//Gold 4 (Spotter)
+//Gold 4 (Sniper)
 class TTT_Gold4_Us_Woodland : TTT_Gold4_Us_Desert {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Gold_Us_Woodland";
-    backpack = "TTT_Backpack_Funkerfac_Us_Woodland";
     uniformClass = "TTT_Uniform_Gold_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_gold_us_woodland.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_gold_us_woodland.paa" };
+	backpack = "TTT_Backpack_Schuetze_Us_Woodland";
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Woodland", "TTT_Helmet_4_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Woodland", "TTT_Helmet_4_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+};
+
+//Gold 5 (Schuetze)
+class TTT_Gold5_Us_Woodland : TTT_Gold5_Us_Desert {
+    author = "Tactical Training Team";
+	vehicleClass = "TTT_Gold_Us_Woodland";
+    uniformClass = "TTT_Uniform_Gold_Us_Woodland";
+	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_gold_us_woodland.paa" };
+	backpack = "TTT_Backpack_Schuetze_Us_Woodland";
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Grey_Us_Woodland", "TTT_Helmet_5_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152", "B_UavTerminal" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Grey_Us_Woodland", "TTT_Helmet_5_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152", "B_UavTerminal" };
+};
+
+//Gold 6 (Schuetze)
+class TTT_Gold6_Us_Woodland : TTT_Gold6_Us_Desert {
+    author = "Tactical Training Team";
+	vehicleClass = "TTT_Gold_Us_Woodland";
+    uniformClass = "TTT_Uniform_Gold_Us_Woodland";
+	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_gold_us_woodland.paa" };
+	backpack = "TTT_Backpack_Schuetze_Us_Desert";
+	linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Grey_Us_Woodland", "TTT_Helmet_6_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152", "B_UavTerminal" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Grey_Us_Woodland", "TTT_Helmet_6_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152", "B_UavTerminal" };
 };
 
 /*
@@ -320,7 +343,7 @@ class TTT_Schwarz3_Us_Woodland : TTT_Schwarz3_Us_Desert {
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Black_Us_Woodland", "TTT_Helmet_3_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
-//Schwarz 4 (LMG-Schuetze)
+//Schwarz 4 (AT-Schuetze)
 class TTT_Schwarz4_Us_Woodland : TTT_Schwarz4_Us_Desert {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Schwarz_Us_Woodland";
@@ -332,7 +355,7 @@ class TTT_Schwarz4_Us_Woodland : TTT_Schwarz4_Us_Desert {
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Black_Us_Woodland", "TTT_Helmet_4_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
-//Schwarz 5 (AT-Schuetze)
+//Schwarz 5 (LMG-Schuetze)
 class TTT_Schwarz5_Us_Woodland : TTT_Schwarz5_Us_Desert {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Schwarz_Us_Woodland";
@@ -398,7 +421,7 @@ class TTT_Rot3_Us_Woodland : TTT_Rot3_Us_Desert {
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Red_Us_Woodland", "TTT_Helmet_3_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
-//Rot 4 (LMG-Schuetze)
+//Rot 4 (AT-Schuetze)
 class TTT_Rot4_Us_Woodland : TTT_Rot4_Us_Desert {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Rot_Us_Woodland";
@@ -410,7 +433,7 @@ class TTT_Rot4_Us_Woodland : TTT_Rot4_Us_Desert {
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Red_Us_Woodland", "TTT_Helmet_4_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
-//Rot 5 (AT-Schuetze)
+//Rot 5 (LMG-Schuetze)
 class TTT_Rot5_Us_Woodland : TTT_Rot5_Us_Desert {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Rot_Us_Woodland";
@@ -667,7 +690,6 @@ class TTT_Violett6_Us_Woodland : TTT_Violett6_Us_Desert {
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Purple_Us_Woodland", "TTT_Helmet_6_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
-
 /*
 #############################################################
 ### Trupp Weiﬂ (Woodland)
@@ -724,7 +746,115 @@ class TTT_Weiss4_Us_Woodland : TTT_Weiss4_Us_Desert {
 
 /*
 #############################################################
-### Trupp Adler (Woodland)
+### Trupp Platin (Woodland)
+#############################################################
+*/
+
+//Platin 1 (Pilot)
+class TTT_Platin1_Us_Woodland : TTT_Platin1_Us_Desert {
+    author = "Tactical Training Team";
+    vehicleClass = "TTT_Adler_Us_Woodland";
+    backpack = "TTT_Backpack_Pilot_Us_Woodland";
+    uniformClass = "TTT_Uniform_Silber_Us_Woodland";
+	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_silver_us_woodland.paa" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+};
+
+//Platin 2 (Pilot)
+class TTT_Platin2_Us_Woodland : TTT_Platin2_Us_Desert {
+    author = "Tactical Training Team";
+    vehicleClass = "TTT_Adler_Us_Woodland";
+    backpack = "TTT_Backpack_Pilot_Us_Woodland";
+    uniformClass = "TTT_Uniform_Silber_Us_Woodland";
+	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_silver_us_woodland.paa" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+};
+
+/*
+#############################################################
+### Trupp Silber (Woodland)
+#############################################################
+*/
+
+//Silber 1 (Truppfuehrer)
+class TTT_Silber1_Us_Woodland : TTT_Silber1_Us_Desert {
+    author = "Tactical Training Team";
+    vehicleClass = "TTT_Bussard_Us_Woodland";
+    backpack = "TTT_Backpack_Pilot_Us_Woodland";
+    uniformClass = "TTT_Uniform_Silber_Us_Woodland";
+	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_silver_us_woodland.paa" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+};
+
+//Silber 2 (Fahrzeugfuehrer)
+class TTT_Silber2_Us_Woodland : TTT_Silber2_Us_Desert {
+    author = "Tactical Training Team";
+    vehicleClass = "TTT_Bussard_Us_Woodland";
+    backpack = "TTT_Backpack_Pilot_Us_Woodland";
+    uniformClass = "TTT_Uniform_Silber_Us_Woodland";
+	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_silver_us_woodland.paa" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+};
+
+//Silber 3 (Fahrzeugfuehrer)
+class TTT_Silber3_Us_Woodland : TTT_Silber3_Us_Desert {
+    author = "Tactical Training Team";
+    vehicleClass = "TTT_Habicht_Us_Woodland";
+    backpack = "TTT_Backpack_Pilot_Us_Woodland";
+    uniformClass = "TTT_Uniform_Silber_Us_Woodland";
+	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_silver_us_woodland.paa" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+};
+
+//Silber 4 (Fahrzeugfuehrer)
+class TTT_Silber4_Us_Woodland : TTT_Silber4_Us_Desert {
+    author = "Tactical Training Team";
+    vehicleClass = "TTT_Habicht_Us_Woodland";
+    backpack = "TTT_Backpack_Pilot_Us_Woodland";
+    uniformClass = "TTT_Uniform_Silber_Us_Woodland";
+	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_silver_us_woodland.paa" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+};
+
+//Silber 5 (Fahrzeugfuehrer)
+class TTT_Silber5_Us_Woodland : TTT_Silber5_Us_Desert {
+    author = "Tactical Training Team";
+    vehicleClass = "TTT_Habicht_Us_Woodland";
+    backpack = "TTT_Backpack_Pilot_Us_Woodland";
+    uniformClass = "TTT_Uniform_Silber_Us_Woodland";
+	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_silver_us_woodland.paa" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+};
+
+//Silber 6 (Fahrzeugfuehrer)
+class TTT_Silber6_Us_Woodland : TTT_Silber6_Us_Desert {
+    author = "Tactical Training Team";
+    vehicleClass = "TTT_Habicht_Us_Woodland";
+    backpack = "TTT_Backpack_Pilot_Us_Woodland";
+    uniformClass = "TTT_Uniform_Silber_Us_Woodland";
+	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_silver_us_woodland.paa" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+};
+
+/*
+#############################################################
+### Trupp Adler (Woodland) OLD
 #############################################################
 */
 
@@ -754,7 +884,7 @@ class TTT_Adler2_Us_Woodland : TTT_Adler2_Us_Desert {
 
 /*
 #############################################################
-### Trupp Bussard (Woodland)
+### Trupp Bussard (Woodland) OLD
 #############################################################
 */
 
@@ -784,7 +914,7 @@ class TTT_Bussard2_Us_Woodland : TTT_Bussard2_Us_Desert {
 
 /*
 #############################################################
-### Trupp Habicht (Woodland)
+### Trupp Habicht (Woodland) OLD
 #############################################################
 */
 
