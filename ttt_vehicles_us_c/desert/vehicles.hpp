@@ -801,7 +801,7 @@ class TTT_Transporthelikopter_Us_Desert : RHS_UH60M {
 #############################################################
 */
 
-class TTT_Aufklaerungsdrohne_Us_Desert : USAF_RQ4A {
+class TTT_Aufklaerungsdrohne_Us_Desert : CUP_B_USMC_MQ9 {
     author = "Tactical Training Team";
     scope = 2;
     faction = "TTT_faction_Us";
