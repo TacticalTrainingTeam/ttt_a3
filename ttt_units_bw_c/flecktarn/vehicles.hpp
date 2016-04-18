@@ -198,6 +198,13 @@ class TTT_Gold4_Bw_Flecktarn : TTT_Gold4_Bw_Tropentarn {
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Marksman_Fleck", "TTT_Helmet_4_Bw_Flecktarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
+class TTT_Gold5_Bw_Flecktarn : TTT_Gold5_Bw_Tropentarn {
+	
+};
+
+class TTT_Gold5_Bw_Flecktarn : TTT_Gold5_Bw_Tropentarn {
+	
+};
 
 /*
 #############################################################
@@ -783,7 +790,53 @@ class TTT_Weiss4_Bw_Flecktarn : TTT_Weiss4_Bw_Tropentarn {
 
 /*
 #############################################################
-### Trupp Adler (Flecktarn)
+### Trupp Platin (Flecktarn)
+#############################################################
+*/
+
+//Platin 1 (Pilot)
+class TTT_Platin1_Bw_Flecktarn : TTT_Platin1_Bw_Tropentarn {
+	
+};	
+
+//Platin 2 (Pilot)
+class TTT_Platin2_Bw_Flecktarn : TTT_Platin1_Bw_Tropentarn {
+	
+};	
+
+/*
+#############################################################
+### Trupp Silber (Flecktarn)
+#############################################################
+*/
+class TTT_Silber1_Bw_Flecktarn : TTT_Silber1_Bw_Tropentarn {
+	
+};
+
+class TTT_Silber2_Bw_Flecktarn : TTT_Silber2_Bw_Tropentarn {
+	
+};
+
+class TTT_Silber3_Bw_Flecktarn : TTT_Silber3_Bw_Tropentarn {
+	
+};
+
+class TTT_Silber4_Bw_Flecktarn : TTT_Silber4_Bw_Tropentarn {
+	
+};
+
+class TTT_Silber5_Bw_Flecktarn : TTT_Silber5_Bw_Tropentarn {
+	
+};
+
+class TTT_Silber6_Bw_Flecktarn : TTT_Silber6_Bw_Tropentarn {
+	
+};
+
+
+/*
+#############################################################
+### Trupp Adler (Flecktarn) OLD
 #############################################################
 */
 
@@ -815,7 +868,7 @@ class TTT_Adler2_Bw_Flecktarn : TTT_Adler2_Bw_Tropentarn {
 
 /*
 #############################################################
-### Trupp Bussard (Flecktarn)
+### Trupp Bussard (Flecktarn) OLD
 #############################################################
 */
 

@@ -141,7 +141,7 @@ class TTT_Gold1_Us_Woodland : TTT_Gold1_Us_Desert {
     vehicleClass = "TTT_Gold_Us_Woodland";
     uniformClass = "TTT_Uniform_Gold_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_gold_us_woodland.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_gold_us_woodland.paa" };
 	backpack = "TTT_Backpack_Truppfuehrer_Us_Woodland";
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Woodland", "TTT_Helmet_1_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Woodland", "TTT_Helmet_1_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -153,7 +153,7 @@ class TTT_Gold2_Us_Woodland : TTT_Gold2_Us_Desert {
     vehicleClass = "TTT_Gold_Us_Woodland";
     uniformClass = "TTT_Uniform_Gold_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_gold_us_woodland.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_gold_us_woodland.paa" };
 	linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Woodland", "TTT_Helmet_2_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Woodland", "TTT_Helmet_2_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
@@ -164,7 +164,7 @@ class TTT_Gold3_Us_Woodland : TTT_Gold3_Us_Desert {
     vehicleClass = "TTT_Gold_Us_Woodland";
     uniformClass = "TTT_Uniform_Gold_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_gold_us_woodland.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_gold_us_woodland.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Woodland", "TTT_Helmet_3_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Woodland", "TTT_Helmet_3_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
@@ -175,7 +175,7 @@ class TTT_Gold4_Us_Woodland : TTT_Gold4_Us_Desert {
     vehicleClass = "TTT_Gold_Us_Woodland";
     uniformClass = "TTT_Uniform_Gold_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_gold_us_woodland.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_gold_us_woodland.paa" };
 	backpack = "TTT_Backpack_Schuetze_Us_Woodland";
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Woodland", "TTT_Helmet_4_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Woodland", "TTT_Helmet_4_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -187,7 +187,7 @@ class TTT_Gold5_Us_Woodland : TTT_Gold5_Us_Desert {
 	vehicleClass = "TTT_Gold_Us_Woodland";
     uniformClass = "TTT_Uniform_Gold_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_gold_us_woodland.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_gold_us_woodland.paa" };
 	backpack = "TTT_Backpack_Schuetze_Us_Woodland";
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Grey_Us_Woodland", "TTT_Helmet_5_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152", "B_UavTerminal" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Grey_Us_Woodland", "TTT_Helmet_5_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152", "B_UavTerminal" };
@@ -199,7 +199,7 @@ class TTT_Gold6_Us_Woodland : TTT_Gold6_Us_Desert {
 	vehicleClass = "TTT_Gold_Us_Woodland";
     uniformClass = "TTT_Uniform_Gold_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_gold_us_woodland.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_gold_us_woodland.paa" };
 	backpack = "TTT_Backpack_Schuetze_Us_Desert";
 	linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Grey_Us_Woodland", "TTT_Helmet_6_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152", "B_UavTerminal" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Grey_Us_Woodland", "TTT_Helmet_6_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152", "B_UavTerminal" };

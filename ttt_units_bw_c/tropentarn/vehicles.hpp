@@ -236,7 +236,7 @@ class TTT_Gold2_Bw_Tropentarn : TTT_Base_Bw {
 //Gold 3 (Spotter)
 class TTT_Gold3_Bw_Tropentarn : TTT_Funkerfac_Base_Bw {
     author = "Tactical Training Team";
-    scope = 1;
+    scope = 2;
     displayName = "Gold 3 (Spotter)";
     vehicleClass = "TTT_Gold_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
@@ -255,7 +255,7 @@ class TTT_Gold3_Bw_Tropentarn : TTT_Funkerfac_Base_Bw {
 //Gold 4 (UAV)
 class TTT_Gold4_Bw_Tropentarn : TTT_Uavoperator_Base_Bw {
     author = "Tactical Training Team";
-    scope = 1;
+    scope = 2;
     displayName = "Gold 2 (UAV)";
     vehicleClass = "TTT_Gold_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
@@ -271,7 +271,13 @@ class TTT_Gold4_Bw_Tropentarn : TTT_Uavoperator_Base_Bw {
     respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_AP", "BWA3_30Rnd_556x45_G36_SD", "BWA3_30Rnd_556x45_G36_SD" };
 };
 
+class TTT_Gold5_Bw_Tropentarn : TTT_Grau5_Bw_Tropentarn {
+	
+};
 
+class TTT_Gold6_Bw_Tropentarn : TTT_Grau6_Bw_Tropentarn {
+	
+};
 
 /*
 #############################################################
@@ -904,14 +910,14 @@ class TTT_Weiss4_Bw_Tropentarn : TTT_Pilot_Base_Bw {
 
 /*
 #############################################################
-### Trupp Adler (Tropentarn)
+### Trupp Adler (Tropentarn) OLD
 #############################################################
 */
 
 //Adler 1 (Pilot)
 class TTT_Adler1_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     author = "Tactical Training Team";
-    scope = 2;
+    scope = 1;
     displayName = "Adler 1 (Pilot)";
     vehicleClass = "TTT_Adler_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
@@ -924,7 +930,7 @@ class TTT_Adler1_Bw_Tropentarn : TTT_Pilot_Base_Bw {
 //Adler 2 (Copilot)
 class TTT_Adler2_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     author = "Tactical Training Team";
-    scope = 2;
+    scope = 1;
     displayName = "Adler 2 (Copilot)";
     vehicleClass = "TTT_Adler_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
@@ -936,14 +942,14 @@ class TTT_Adler2_Bw_Tropentarn : TTT_Pilot_Base_Bw {
 
 /*
 #############################################################
-### Trupp Bussard (Tropentarn)
+### Trupp Bussard (Tropentarn) OLD
 #############################################################
 */
 
 //Bussard 1 (Pilot)
 class TTT_Bussard1_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     author = "Tactical Training Team";
-    scope = 2;
+    scope = 1;
     displayName = "Bussard 1 (Pilot)";
     vehicleClass = "TTT_Bussard_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
@@ -956,7 +962,7 @@ class TTT_Bussard1_Bw_Tropentarn : TTT_Pilot_Base_Bw {
 //Bussard 2 (Copilot)
 class TTT_Bussard2_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     author = "Tactical Training Team";
-    scope = 2;
+    scope = 1;
     displayName = "Bussard 2 (Copilot)";
     vehicleClass = "TTT_Bussard_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
@@ -968,7 +974,7 @@ class TTT_Bussard2_Bw_Tropentarn : TTT_Pilot_Base_Bw {
 //Habicht 1 (Pilot)
 class TTT_Habicht1_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     author = "Tactical Training Team";
-    scope = 2;
+    scope = 1;
     displayName = "Habicht 1 (Pilot)";
     vehicleClass = "TTT_Habicht_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
@@ -981,7 +987,7 @@ class TTT_Habicht1_Bw_Tropentarn : TTT_Pilot_Base_Bw {
 //Habicht 2 (Copilot)
 class TTT_Habicht2_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     author = "Tactical Training Team";
-    scope = 2;
+    scope = 1;
     displayName = "Habicht 2 (Copilot)";
     vehicleClass = "TTT_Habicht_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
@@ -989,4 +995,49 @@ class TTT_Habicht2_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+};
+
+/*
+#############################################################
+### Trupp Platin (Tropentarn)
+#############################################################
+*/
+
+//Platin 1 (Pilot)
+class TTT_Platin1_Bw_Tropentarn : TTT_Adler1_Bw_Tropentarn {
+	
+};	
+
+//Platin 2 (Pilot)
+class TTT_Platin2_Bw_Tropentarn : TTT_Adler2_Bw_Tropentarn {
+	
+};	
+
+/*
+#############################################################
+### Trupp Silber (Tropentarn)
+#############################################################
+*/
+class TTT_Silber1_Bw_Tropentarn : TTT_Bussard1_Bw_Tropentarn {
+	
+};
+
+class TTT_Silber2_Bw_Tropentarn : TTT_Bussard2_Bw_Tropentarn {
+	
+};
+
+class TTT_Silber3_Bw_Tropentarn : TTT_Bussard1_Bw_Tropentarn {
+	
+};
+
+class TTT_Silber4_Bw_Tropentarn : TTT_Bussard2_Bw_Tropentarn {
+	
+};
+
+class TTT_Silber5_Bw_Tropentarn : TTT_Bussard1_Bw_Tropentarn {
+	
+};
+
+class TTT_Silber6_Bw_Tropentarn : TTT_Bussard2_Bw_Tropentarn {
+	
 };
