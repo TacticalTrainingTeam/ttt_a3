@@ -97,6 +97,30 @@
 						rank = Captain;
 						vehicle = "TTT_Gold2_Bw_Flecktarn";
 					};
+					
+					class Unit2 : Unit0 {
+						position[] = {0, -10, 0};
+						rank = Lieutenant;
+						vehicle = "TTT_Gold3_Bw_Flecktarn";
+					};
+						
+					class Unit3 : Unit0 {
+						position[] = {0, -15, 0};
+						rank = Sergeant;
+						vehicle = "TTT_Gold4_Bw_Flecktarn";
+					};
+											
+					class Unit4 : Unit0 {
+						position[] = {0, -20, 0};
+						rank = Corporal;
+						vehicle = "TTT_Gold5_Bw_Flecktarn";
+					};
+					
+					class Unit5 : Unit0 {
+						position[] = {0, -25, 0};
+						rank = Private;
+						vehicle = "TTT_Gold6_Bw_Flecktarn";
+					};
 				};
 				
 				//Trupp Gruen
@@ -411,10 +435,10 @@
 					};
 				};
 				
-				//Trupp Adler
-				class TTT_Adler_Bw_Flecktarn {
+				//Trupp Platin
+				class TTT_Platin_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
-					name = "Trupp Adler BW Flecktarn";
+					name = "Trupp Platin BW Flecktarn";
 					icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
 					side = 1;
 					
@@ -422,20 +446,20 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Adler1_Bw_Flecktarn";
+						vehicle = "TTT_Platin1_Bw_Flecktarn";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Adler2_Bw_Flecktarn";
-					};
+						vehicle = "TTT_Platin2_Bw_Flecktarn";
+					};				
 				};
 				
-				//Trupp Bussard
-				class TTT_Bussard_Bw_Flecktarn {
+				//Trupp Silber
+				class TTT_Silber_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
-					name = "Trupp Bussard BW Flecktarn";
+					name = "Trupp Silber BW Flecktarn";
 					icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
 					side = 1;
 					
@@ -443,34 +467,37 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Bussard1_Bw_Flecktarn";
+						vehicle = "TTT_Silber1_Bw_Flecktarn";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Bussard2_Bw_Flecktarn";
+						vehicle = "TTT_Silber2_Bw_Flecktarn";
 					};
+					
+					class Unit2 : Unit0 {
+						position[] = {0, -10, 0};
+						rank = Lieutenant;
+						vehicle = "TTT_Silber3_Bw_Flecktarn";
+					};
+						
+					class Unit3 : Unit0 {
+						position[] = {0, -15, 0};
+						rank = Sergeant;
+						vehicle = "TTT_Silber4_Bw_Flecktarn";
+					};
+						
+					class Unit4 : Unit0 {
+						position[] = {0, -20, 0};
+						rank = Corporal;
+						vehicle = "TTT_Silber5_Bw_Flecktarn";
+					};
+					
+					class Unit5 : Unit0 {
+						position[] = {0, -25, 0};
+						rank = Private;
+						vehicle = "TTT_Silber6_Bw_Flecktarn";
+					};						
 				};
-
-                //Trupp Habicht
-                class TTT_Habicht_Bw_Flecktarn {
-                    faction = "TTT_faction_Bw";
-                    name = "Trupp Habicht BW Flecktarn";
-					icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
-                    side = 1;
-
-                    class Unit0 {
-                        position[] = { 0, 0, 0 };
-                        rank = Major;
-                        side = 1;
-                        vehicle = "TTT_Habicht1_Bw_Flecktarn";
-                    };
-
-                    class Unit1 : Unit0 {
-                        position[] = { 0, -5, 0 };
-                        rank = Captain;
-                        vehicle = "TTT_Habicht2_Bw_Flecktarn";
-                    };
-                };
 			};	

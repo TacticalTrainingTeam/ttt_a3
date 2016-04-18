@@ -943,6 +943,7 @@ class TTT_Weiss4_Us_Desert : TTT_Pilot_Base_Us {
 class TTT_Platin1_Us_Desert : TTT_Pilot_Base_Us {
     author = "Tactical Training Team";
     scope = 2;
+	icon = "iconManLeader";
     displayName = "Platin 1 (Pilot)";
     vehicleClass = "TTT_Platin_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
@@ -956,7 +957,7 @@ class TTT_Platin1_Us_Desert : TTT_Pilot_Base_Us {
 class TTT_Platin2_Us_Desert : TTT_Pilot_Base_Us {
     author = "Tactical Training Team";
     scope = 2;
-    displayName = "Platin 2 (Copilot)";
+    displayName = "Platin 2 (Pilot)";
     vehicleClass = "TTT_Platin_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
 	editorSubcategory = "EdSubcat_Unit_Camo_Desert";
@@ -975,6 +976,7 @@ class TTT_Platin2_Us_Desert : TTT_Pilot_Base_Us {
 class TTT_Silber1_Us_Desert : TTT_Pilot_Base_Us {
     author = "Tactical Training Team";
     scope = 2;
+	icon = "iconManLeader";
     displayName = "Silber 1 (Truppfuehrer)";
     vehicleClass = "TTT_Bussard_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
