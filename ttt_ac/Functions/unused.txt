@@ -1,0 +1,65 @@
+if (!NSS_AC_loggedIn) then
+{
+	_k = createDialog "NSS_AC_Login";
+	
+	buttonSetAction [1600, "closeDialog 0"];
+	buttonSetAction [1601, "call NSS_AC_fnc_Client_passwordCheckInit"];
+}
+
+NSS_AC_fnc_Client_passwordCheckInit =
+{
+	if (!NSS_AC_loginCooldown) then
+	{
+		NSS_AC_loginCooldown = true;
+		NSS_AC_loginCooldownTime = (round time);
+
+		[[player,(ctrlText 1400)],"NSS_AC_fnc_Server_passwordCheck",false,false] spawn BIS_fnc_MP;
+		
+		[] spawn
+		{
+			sleep 5;
+			NSS_AC_loginCooldown = false;
+		};
+	}
+	else
+	{
+		_calculatedTime = (round time) - NSS_AC_loginCooldownTime;
+		hint format ["You have to wait %1 more seconds for another login attempt.", _calculatedTime];
+	};
+};
+
+NSS_AC_fnc_Client_passwordCheck =
+{
+	if (_this) then
+	{
+		NSS_AC_loggedIn = true;
+		closeDialog 0;
+		call NSS_AC_fnc_openMain;
+	}
+	else
+	{
+		//hint "Wrong password! Access denied.";
+	};
+};
+
+NSS_AC_fnc_Server_passwordCheck =
+{
+	_player = _this select 0;
+	_passwordClient = _this select 1;
+	_passwordServer = 
+	[
+#include "\@NSS_AC\password.txt"
+	];
+	_passwordServer = str _passwordServer;
+	
+	player groupchat format ["%1 %2", _passwordServer, _passwordClient];
+	
+	if (_passwordClient == _password) then
+	{
+		[true,"NSS_AC_fnc_Client_passwordCheck",_player,false] spawn BIS_fnc_MP;
+	}
+	else
+	{
+		[false,"NSS_AC_fnc_Client_passwordCheck",_player,false] spawn BIS_fnc_MP;
+	};
+};

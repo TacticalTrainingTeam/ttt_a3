@@ -1,0 +1,1 @@
+[ctrlparent (_this select 0)] spawn (uinamespace getvariable 'bis_fnc_configViewer');

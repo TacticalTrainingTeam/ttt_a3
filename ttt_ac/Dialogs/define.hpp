@@ -1089,10 +1089,10 @@ class NSS_AC_IGUIBack
 	h = 0.1;
 	colorbackground[] = 
 	{
-		0,
-		0.6,
-		0,
-		0.6
+		"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.69])",
+		"(profilenamespace getvariable ['GUI_BCG_RGB_G',0.75])",
+		"(profilenamespace getvariable ['GUI_BCG_RGB_B',0.5])",
+		1
 	};
 };
 class NSS_AC_IGUIBack2
