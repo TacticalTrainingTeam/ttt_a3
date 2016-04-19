@@ -31,6 +31,32 @@
 		crew = "TTT_Schwarz1_Bw_Flecktarn";
 		displayName = "TTT OPL-Fahrzeug (BW Flecktarn)";
 	};
+
+    /*
+    #############################################################
+    ### TTT Sanitaetsfahrzeug
+    #############################################################
+    */
+
+    class TTT_Sanitaetsfahrzeug_Bw_Flecktarn : TTT_Sanitaetsfahrzeug_Bw_Tropentarn {
+        author = "Tactical Training Team";
+        hiddenSelectionsTextures[] = { "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetsfahrzeug\camo1.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetsfahrzeug\camo2.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetsfahrzeug\camo3.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetsfahrzeug\camo4.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetsfahrzeug\camo5.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetsfahrzeug\camo6.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetsfahrzeug\camo7.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetsfahrzeug\camo8.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetsfahrzeug\camo9.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetsfahrzeug\camo10.paa" };
+        crew = "TTT_Weiss1_Bw_Flecktarn";
+        displayName = "TTT Sanitaetsfahrzeug (BW Flecktarn)";
+    };
+
+    /*
+    #############################################################
+    ### TTT Transporter leicht (offen)
+    #############################################################
+    */
+
+    class TTT_TransporterLeichtOffen_Bw_Flecktarn : TTT_TransporterLeichtOffen_Bw_Tropentarn {
+        author = "Tactical Training Team";
+        hiddenSelectionsTextures[] = { "\ttt_a3\ttt_vehicles_bw\flecktarn\transporterLeichtOffen\camo1.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\transporterLeichtOffen\camo2.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\transporterLeichtOffen\camo3.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\transporterLeichtOffen\camo4.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\transporterLeichtOffen\camo5.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\transporterLeichtOffen\camo6.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\transporterLeichtOffen\camo7.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\transporterLeichtOffen\camo8.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\transporterLeichtOffen\camo9.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\transporterLeichtOffen\camo10.paa" };
+        crew = "TTT_Schwarz1_Bw_Flecktarn";
+        displayName = "TTT Transporter leicht (offen) (BW Flecktarn)";
+    };
 	
 	/*
 	#############################################################
@@ -93,6 +119,30 @@
 	class TTT_Logistikhelikopter_Bw_Flecktarn : TTT_Logistikhelikopter_Bw_Tropentarn {
 		author = "Tactical Training Team";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_bw\flecktarn\logistikhelikopter\camo1_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\logistikhelikopter\camo2_co.paa"};
-		crew = "TTT_Bussard1_Bw_Flecktarn";
+		crew = "TTT_Bbwsard1_Bw_Flecktarn";
 		displayName = "TTT Logistikhelikopter (BW Flecktarn)";
 	};
+
+    /*
+    #############################################################
+    ### TTT Transporthelikopter
+    #############################################################
+    */
+
+    class TTT_Transporthelikopter_Bw_Flecktarn : TTT_Transporthelikopter_Bw_Tropentarn {
+        author = "Tactical Training Team";
+        hiddenSelectionsTextures[] = { "\ttt_a3\ttt_vehicles_bw\flecktarn\transporthelikopter\camo1_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\transporthelikopter\camo2_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\transporthelikopter\camo3_co.paa" };
+        crew = "TTT_Habicht1_Bw_Flecktarn";
+        displayName = "TTT Transporthelikopter (BW Flecktarn)";
+    };
+
+    /*
+    #############################################################
+    ### TTT Aufklärungsdrohne
+    #############################################################
+    */
+
+    class TTT_Aufklaerungsdrohne_Bw_Flecktarn : TTT_Aufklaerungsdrohne_Bw_Tropentarn {
+        author = "Tactical Training Team";
+        displayName = "TTT Aufklaerungsdrohne (BW Flecktarn)";
+    };

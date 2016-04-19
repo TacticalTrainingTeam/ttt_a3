@@ -22,8 +22,8 @@
 				count = 2;
 			};
 			
-			class _xx_BWA3_Fliegerfaust {
-				weapon = "BWA3_Fliegerfaust";
+			class _xx_BWA3_Fliegerfabwt {
+				weapon = "BWA3_Fliegerfabwt";
 				count = 2;
 			};
 			
@@ -99,7 +99,7 @@
 				count = 6;
 			};
 			
-			//Pionierausruestung			
+			//Pionierabwruestung			
 			class _xx_SLAMDirectionalMine_Wire_Mag {
 				magazine = "SLAMDirectionalMine_Wire_Mag";
 				count = 2;
@@ -142,8 +142,8 @@
 			};
 			
 			//Werfermunition	
-			class _xx_BWA3_Fliegerfaust_Mag {
-				magazine = "BWA3_Fliegerfaust_Mag";
+			class _xx_BWA3_Fliegerfabwt_Mag {
+				magazine = "BWA3_Fliegerfabwt_Mag";
 				count = 2;
 			};		
 		};
@@ -171,8 +171,8 @@
 				count = 2;
 			};
 			
-			class _xx_BWA3_Fliegerfaust {
-				weapon = "BWA3_Fliegerfaust";
+			class _xx_BWA3_Fliegerfabwt {
+				weapon = "BWA3_Fliegerfabwt";
 				count = 2;
 			};
 			
@@ -248,7 +248,7 @@
 				count = 6;
 			};
 			
-			//Pionierausruestung			
+			//Pionierabwruestung			
 			class _xx_SLAMDirectionalMine_Wire_Mag {
 				magazine = "SLAMDirectionalMine_Wire_Mag";
 				count = 2;
@@ -291,8 +291,8 @@
 			};
 			
 			//Werfermunition			
-			class _xx_BWA3_Fliegerfaust_Mag {
-				magazine = "BWA3_Fliegerfaust_Mag";
+			class _xx_BWA3_Fliegerfabwt_Mag {
+				magazine = "BWA3_Fliegerfabwt_Mag";
 				count = 2;
 			};		
 		};
@@ -352,6 +352,117 @@
 			};
 		};
 	};
+
+    /*
+    #############################################################
+    ### TTT Sanitaetsfahrzeug
+    #############################################################
+    */
+
+    class TTT_Sanitaetsfahrzeug_Bw_Tropentarn : rhsusf_m998_d_2dr_fulltop {
+        author = "Tactical Training Team";
+        scope = 2;
+        faction = "TTT_faction_Bw";
+        vehicleClass = "TTT_Vehicles_Bw";
+        hiddenSelectionsTextures[] = { "\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetsfahrzeug\camo1.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetsfahrzeug\camo2.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetsfahrzeug\camo3.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetsfahrzeug\camo4.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetsfahrzeug\camo5.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetsfahrzeug\camo6.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetsfahrzeug\camo7.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetsfahrzeug\camo8.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetsfahrzeug\camo9.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetsfahrzeug\camo10.paa" };
+        crew = "TTT_Weiss1_Bw_Tropentarn";
+        displayName = "TTT Sanitaetsfahrzeug (BW Tropentarn)";
+        typicalCargo[] = {};
+
+        class TransportWeapons {
+
+        };
+        class TransportItems {
+            class _xx_ACE_atropine {
+                name = "ACE_atropine";
+                count = 10;
+            };
+
+            class _xx_ACE_packingBandage {
+                name = "ACE_packingBandage";
+                count = 20;
+            };
+
+            class _xx_ACE_epinephrine {
+                name = "ACE_epinephrine";
+                count = 20;
+            };
+
+            class _xx_ACE_morphine {
+                name = "ACE_morphine";
+                count = 20;
+            };
+
+            class _xx_ACE_elasticBandage {
+                name = "ACE_elasticBandage";
+                count = 20;
+            };
+
+            class _xx_ACE_fieldDressing {
+                name = "ACE_fieldDressing";
+                count = 20;
+            };
+
+            class _xx_ACE_quikclot {
+                name = "ACE_quikclot";
+                count = 15;
+            };
+
+            class _xx_ACE_salineIV {
+                name = "ACE_salineIV";
+                count = 15;
+            };
+        };
+        class TransportMagazines {
+
+        };
+        class TransportBackpacks {
+
+        };
+    };
+
+    /*
+    #############################################################
+    ### TTT Transporter leicht (offen)
+    #############################################################
+    */
+
+    class TTT_TransporterLeichtOffen_Bw_Tropentarn : rhsusf_m998_w_2dr {
+        author = "Tactical Training Team";
+        scope = 2;
+        faction = "TTT_faction_Bw";
+        vehicleClass = "TTT_Vehicles_Bw";
+        hiddenSelectionsTextures[] = { "\ttt_a3\ttt_vehicles_bw\tropentarn\transporterLeichtOffen\camo1.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\transporterLeichtOffen\camo2.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\transporterLeichtOffen\camo3.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\transporterLeichtOffen\camo4.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\transporterLeichtOffen\camo5.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\transporterLeichtOffen\camo6.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\transporterLeichtOffen\camo7.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\transporterLeichtOffen\camo8.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\transporterLeichtOffen\camo9.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\transporterLeichtOffen\camo10.paa" };
+        crew = "TTT_Schwarz1_Bw_Tropentarn";
+        displayName = "TTT Transporter leicht (offen) (BW Tropentarn)";
+        typicalCargo[] = {};
+
+        class TransportWeapons {
+
+        };
+        class TransportItems {
+            class _xx_ACE_elasticBandage {
+                name = "ACE_elasticBandage";
+                count = 15;
+            };
+
+            class _xx_ACE_packingBandage {
+                name = "ACE_packingBandage";
+                count = 10;
+            };
+
+            class _xx_ACE_UAVBattery {
+                name = "ACE_UAVBattery";
+                count = 2;
+            };
+        };
+        class TransportMagazines {
+
+        };
+        class TransportBackpacks {
+
+        };
+    };
 	
 	/*
 	#############################################################
@@ -614,7 +725,7 @@
 		faction = "TTT_faction_Bw";
 		vehicleClass = "TTT_Vehicles_Bw";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_bw\tropentarn\logistikhelikopter\camo1_co.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\logistikhelikopter\camo2_co.paa"};
-		crew = "TTT_Bussard1_Bw_Tropentarn";
+		crew = "TTT_Bbwsard1_Bw_Tropentarn";
 		displayName = "TTT Logistikhelikopter (BW Tropentarn)";
 		typicalCargo[] = {};
 		
@@ -634,3 +745,48 @@
 			};
 		};
 	};
+
+    /*
+    #############################################################
+    ### TTT Transporthelikopter
+    #############################################################
+    */
+
+    class TTT_Transporthelikopter_Bw_Tropentarn : CUP_B_UH1D_GER_KSK_Des {
+        author = "Tactical Training Team";
+        scope = 2;
+        faction = "TTT_faction_Bw";
+        vehicleClass = "TTT_Vehicles_Bw";
+        hiddenSelectionsTextures[] = { "\ttt_a3\ttt_vehicles_bw\tropentarn\transporthelikopter\camo1_co.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\transporthelikopter\camo2_co.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\transporthelikopter\camo3_co.paa" };
+        crew = "TTT_Habicht1_Bw_Tropentarn";
+        displayName = "TTT Transporthelikopter (BW Tropentarn)";
+        typicalCargo[] = {};
+
+        class TransportWeapons {
+
+        };
+        class TransportItems {
+
+        };
+        class TransportMagazines {
+
+        };
+        class TransportBackpacks {
+
+        };
+    };
+
+
+    /*
+    #############################################################
+    ### TTT Aufklärungsdrohne
+    #############################################################
+    */
+
+    class TTT_Aufklaerungsdrohne_Bw_Tropentarn : CUP_B_USMC_MQ9 {
+        author = "Tactical Training Team";
+        scope = 2;
+        faction = "TTT_faction_Bw";
+        vehicleClass = "TTT_Vehicles_Bw";
+        displayName = "TTT Aufklaerungsdrohne (BW Tropentarn)";
+    };

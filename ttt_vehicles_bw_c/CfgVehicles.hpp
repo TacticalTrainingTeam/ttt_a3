@@ -18,6 +18,8 @@ class CfgVehicles {
 	class rhsusf_m998_w_4dr_fulltop;
 	class rhsusf_m998_d_2dr_fulltop;
 	class rhsusf_m998_w_2dr;
+    class CUP_B_USMC_MQ9;
+    class CUP_B_UH1D_GER_KSK_Des;
 	
 	#include "tropentarn\vehicles.hpp"
 	#include "flecktarn\vehicles.hpp"
