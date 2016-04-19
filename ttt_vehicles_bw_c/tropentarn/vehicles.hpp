@@ -359,19 +359,15 @@
 	#############################################################
 	*/
 	
-	class TTT_Schuetzenpanzer_Bw_Tropentarn : RHS_M2A3_BUSKIII {
+    class TTT_Schuetzenpanzer_Bw_Tropentarn : BWA3_Puma_Tropen {
 		author = "Tactical Training Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
 		vehicleClass = "TTT_Vehicles_Bw";
-		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_bw\tropentarn\schuetzenpanzer\camo1.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\schuetzenpanzer\camo2.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\schuetzenpanzer\camo3.paa"};
+        hiddenSelectionsTextures[] = { "\ttt_a3\ttt_vehicles_bw\tropentarn\schuetzenpanzer\camo1_co.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\schuetzenpanzer\camo2_co.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\schuetzenpanzer\camo3_ca.paa", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)" };
 		crew = "TTT_Bronze1_Bw_Tropentarn";
 		displayName = "TTT Schuetzenpanzer (BW Tropentarn)";
 		typicalCargo[] = {};
-		radarType = 8;
-		driverCanSee = 31;
-		gunnerCanSee = 31;
-		commanderCanSee = 31;
 		class TransportWeapons {
 			
 			//Werfer
@@ -436,12 +432,12 @@
 	#############################################################
 	*/
 	
-	class TTT_Kampfpanzer_Bw_Tropentarn : rhsusf_m1a2sep1tuskiid_usarmy {
+    class TTT_Kampfpanzer_Bw_Tropentarn : BWA3_Leopard2A6M_Tropen {
 		author = "Tactical Training Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
 		vehicleClass = "TTT_Vehicles_Bw";
-		//hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_bw\tropentarn\kampfpanzer\camo1.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\kampfpanzer\camo2.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\kampfpanzer\camo3.paa"};
+        hiddenSelectionsTextures[] = { "\ttt_a3\ttt_vehicles_bw\tropentarn\kampfpanzer\camo1_co.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\kampfpanzer\camo2_co.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\kampfpanzer\camo3_co.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\kampfpanzer\camo4_ca.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\kampfpanzer\camo5_ca.paa", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)" };
 		crew = "TTT_Bronze1_Bw_Tropentarn";
 		displayName = "TTT Kampfpanzer (BW Tropentarn)";
 		typicalCargo[] = {};
@@ -510,12 +506,12 @@
 	#############################################################
 	*/
 	
-	class TTT_Kampfhelikopter_Bw_Tropentarn : RHS_AH64D {
+    class TTT_Kampfhelikopter_Bw_Tropentarn : BWA3_Tiger_RMK_Universal {
 		author = "Tactical Training Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
 		vehicleClass = "TTT_Vehicles_Bw";
-		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_bw\tropentarn\kampfhelikopter\camo1.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\kampfhelikopter\camo2.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\kampfhelikopter\camo3.paa"};
+        hiddenSelectionsTextures[] = { "\ttt_a3\ttt_vehicles_bw\tropentarn\kampfhelikopter\camo1_co.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\kampfhelikopter\camo2_co.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\kampfhelikopter\camo3_co.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\kampfhelikopter\camo4_ca.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\kampfhelikopter\camo5_ca.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\kampfhelikopter\camo6_ca.paa", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)" };
 		crew = "TTT_Adler1_Bw_Tropentarn";
 		displayName = "TTT Kampfhelikopter (BW Tropentarn)";
 		typicalCargo[] = {};
@@ -544,12 +540,12 @@
 	#############################################################
 	*/
 	
-	class TTT_Sanitaetshelikopter_Bw_Tropentarn : RHS_UH60M {
+    class TTT_Sanitaetshelikopter_Bw_Tropentarn : CUP_B_UH1D_GER_KSK {
 		author = "Tactical Training Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
 		vehicleClass = "TTT_Vehicles_Bw";
-		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetshelikopter\camo1.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetshelikopter\camo2.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetshelikopter\camo3.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetshelikopter\camo1_co.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetshelikopter\camo2_co.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetshelikopter\camo3_co.paa"};
 		crew = "TTT_Weiss3_Bw_Tropentarn";
 		displayName = "TTT Sanitaetshelikopter (BW Tropentarn)";
 		typicalCargo[] = {};
@@ -612,18 +608,12 @@
 	#############################################################
 	*/
 	
-	class TTT_Logistikhelikopter_Bw_Tropentarn : RHS_CH_47F {
+    class TTT_Logistikhelikopter_Bw_Tropentarn : CUP_B_CH53E_GER {
 		author = "Tactical Training Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
 		vehicleClass = "TTT_Vehicles_Bw";
-		hiddenSelections[]=
-		{
-			"camo1",
-			"camo2",
-			"camo3"
-		};
-		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_bw\tropentarn\logistikhelikopter\camo1.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\logistikhelikopter\camo2.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\logistikhelikopter\camo3.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_bw\tropentarn\logistikhelikopter\camo1_co.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\logistikhelikopter\camo2_co.paa"};
 		crew = "TTT_Bussard1_Bw_Tropentarn";
 		displayName = "TTT Logistikhelikopter (BW Tropentarn)";
 		typicalCargo[] = {};

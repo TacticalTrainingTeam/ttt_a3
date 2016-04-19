@@ -10,11 +10,11 @@ class CfgVehicles {
 	*/
     class CUP_B_Dingo_Wdl;
     class CUP_B_Dingo_GL_Wdl;
-	class RHS_M2A3_BUSKIII;
-	class RHS_AH64D;
-	class RHS_UH60M;
-	class RHS_CH_47F;
-	class rhsusf_m1a2sep1tuskiid_usarmy;
+    class BWA3_Puma_Tropen;
+    class BWA3_Tiger_RMK_Universal;
+    class CUP_B_UH1D_GER_KSK;
+    class CUP_B_CH53E_GER;
+    class BWA3_Leopard2A6M_Tropen;
 	class rhsusf_m998_w_4dr_fulltop;
 	class rhsusf_m998_d_2dr_fulltop;
 	class rhsusf_m998_w_2dr;

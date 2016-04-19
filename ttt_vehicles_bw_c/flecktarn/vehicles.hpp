@@ -40,8 +40,7 @@
 
 	class TTT_Schuetzenpanzer_Bw_Flecktarn : TTT_Schuetzenpanzer_Bw_Tropentarn {
 		author = "Tactical Training Team";
-		hiddenSelections[] = {"camo1","camo2","camo3","camo4"};
-		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_bw\flecktarn\schuetzenpanzer\camo1.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\schuetzenpanzer\camo2.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\schuetzenpanzer\camo3.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\schuetzenpanzer\camo4.paa"};
+        hiddenSelectionsTextures[] = { "\ttt_a3\ttt_vehicles_bw\flecktarn\schuetzenpanzer\camo1_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\schuetzenpanzer\camo2_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\schuetzenpanzer\camo3_ca.paa", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)" };
 		crew = "TTT_Bronze1_Bw_Flecktarn";
 		displayName = "TTT Schuetzenpanzer (BW Flecktarn)";
 	};
@@ -54,10 +53,9 @@
 	
 	class TTT_Kampfpanzer_Bw_Flecktarn : TTT_Kampfpanzer_Bw_Tropentarn {
 		author = "Tactical Training Team";
-		//hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_bw\flecktarn\kampfpanzer\camo1.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\kampfpanzer\camo2.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\kampfpanzer\camo3.paa"};
+        hiddenSelectionsTextures[] = { "\ttt_a3\ttt_vehicles_bw\flecktarn\kampfpanzer\camo1_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\kampfpanzer\camo2_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\kampfpanzer\camo3_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\kampfpanzer\camo4_ca.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\kampfpanzer\camo5_ca.paa", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)" };
 		crew = "TTT_Bronze1_Bw_Flecktarn";
 		displayName = "TTT Kampfpanzer (BW Flecktarn)";
-		model = "\rhsusf\addons\rhsusf_m1a2\m1a2v1_tuskii_wd";
 	};
 	
 	/*
@@ -68,8 +66,8 @@
 	
 	class TTT_Kampfhelikopter_Bw_Flecktarn : TTT_Kampfhelikopter_Bw_Tropentarn {
 		author = "Tactical Training Team";
-		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_bw\flecktarn\kampfhelikopter\camo1.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\kampfhelikopter\camo2.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\kampfhelikopter\camo3.paa"};
-		crew = "TTT_Adler1_Bw_Flecktarn";
+        hiddenSelectionsTextures[] = { "\ttt_a3\ttt_vehicles_bw\flecktarn\kampfhelikopter\camo1_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\kampfhelikopter\camo2_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\kampfhelikopter\camo3_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\kampfhelikopter\camo4_ca.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\kampfhelikopter\camo5_ca.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\kampfhelikopter\camo6_ca.paa", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)", "#(argb,8,8,3)color(0,0,0,0,CO)" };
+        crew = "TTT_Adler1_Bw_Flecktarn";
 		displayName = "TTT Kampfhelikopter (BW Flecktarn)";
 	};
 	
@@ -81,7 +79,7 @@
 	
 	class TTT_Sanitaetshelikopter_Bw_Flecktarn : TTT_Sanitaetshelikopter_Bw_Tropentarn {
 		author = "Tactical Training Team";
-		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetshelikopter\camo1.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetshelikopter\camo2.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetshelikopter\camo3.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetshelikopter\camo1_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetshelikopter\camo2_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetshelikopter\camo3_co.paa"};
 		crew = "TTT_Weiss3_Bw_Flecktarn";
 		displayName = "TTT Sanitaetshelikopter (BW Flecktarn)";
 	};
@@ -94,7 +92,7 @@
 	
 	class TTT_Logistikhelikopter_Bw_Flecktarn : TTT_Logistikhelikopter_Bw_Tropentarn {
 		author = "Tactical Training Team";
-		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_bw\flecktarn\logistikhelikopter\camo1.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\logistikhelikopter\camo2.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\logistikhelikopter\camo3.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_bw\flecktarn\logistikhelikopter\camo1_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\logistikhelikopter\camo2_co.paa"};
 		crew = "TTT_Bussard1_Bw_Flecktarn";
 		displayName = "TTT Logistikhelikopter (BW Flecktarn)";
 	};
