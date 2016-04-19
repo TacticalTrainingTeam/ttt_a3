@@ -202,7 +202,7 @@ class TTT_Gold5_Bw_Flecktarn : TTT_Gold5_Bw_Tropentarn {
 	
 };
 
-class TTT_Gold5_Bw_Flecktarn : TTT_Gold5_Bw_Tropentarn {
+class TTT_Gold6_Bw_Flecktarn : TTT_Gold6_Bw_Tropentarn {
 	
 };
 
