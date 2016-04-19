@@ -255,7 +255,7 @@ class RscButton_1603: NSS_AC_RscButton
 class RscButton_1604: NSS_AC_RscButton
 {
 	idc = 1604;
-	text = "Execute Script"; //--- ToDo: Localize;
+	text = "!!! END MISSION !!!"; //--- ToDo: Localize;
 	x = 0.408125 * safezoneW + safezoneX;
 	y = 0.486 * safezoneH + safezoneY;
 	w = 0.07875 * safezoneW;
