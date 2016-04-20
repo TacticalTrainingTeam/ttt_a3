@@ -105,7 +105,7 @@ with uiNamespace do {
 BG_fnc_bftdialog_editButton = {
     disableSerialization;
     with uiNamespace do {
-        _side = side player;
+        _side = side group player;
         _defaultIcon = switch (_side) do {
             case (west): {
                 "b_unknown"
