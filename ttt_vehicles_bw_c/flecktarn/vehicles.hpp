@@ -105,8 +105,9 @@
 	
 	class TTT_Sanitaetshelikopter_Bw_Flecktarn : TTT_Sanitaetshelikopter_Bw_Tropentarn {
 		author = "Tactical Training Team";
-		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetshelikopter\camo1_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetshelikopter\camo2_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetshelikopter\camo3_co.paa"};
-		crew = "TTT_Weiss3_Bw_Flecktarn";
+        hiddenSelectionsTextures[] = { "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetshelikopter\BWouterHaul_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetshelikopter\BWupperTail_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetshelikopter\BWmisc_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetshelikopter\BWdoors_co.paa" };
+        hiddenSelectionsMaterials[] = { "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetshelikopter\BWouterHaul.rvmat", "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetshelikopter\BWupperTail.rvmat", "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetshelikopter\BWmisc.rvmat", "\ttt_a3\ttt_vehicles_bw\flecktarn\sanitaetshelikopter\BWdoors.rvmat" };
+        crew = "TTT_Weiss3_Bw_Flecktarn";
 		displayName = "TTT Sanitaetshelikopter (BW Flecktarn)";
 	};
 	
@@ -131,7 +132,8 @@
 
     class TTT_Transporthelikopter_Bw_Flecktarn : TTT_Transporthelikopter_Bw_Tropentarn {
         author = "Tactical Training Team";
-        hiddenSelectionsTextures[] = { "\ttt_a3\ttt_vehicles_bw\flecktarn\transporthelikopter\camo1_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\transporthelikopter\camo2_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\transporthelikopter\camo3_co.paa" };
+        hiddenSelectionsTextures[] = { "\ttt_a3\ttt_vehicles_bw\flecktarn\transporthelikopter\BWouterHaul_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\transporthelikopter\BWupperTail_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\transporthelikopter\BWmisc_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\transporthelikopter\BWdoors_co.paa" };
+        hiddenSelectionsMaterials[] = { "\ttt_a3\ttt_vehicles_bw\flecktarn\transporthelikopter\BWouterHaul.rvmat", "\ttt_a3\ttt_vehicles_bw\flecktarn\transporthelikopter\BWupperTail.rvmat", "\ttt_a3\ttt_vehicles_bw\flecktarn\transporthelikopter\BWmisc.rvmat", "\ttt_a3\ttt_vehicles_bw\flecktarn\transporthelikopter\BWdoors.rvmat" };
         crew = "TTT_Habicht1_Bw_Flecktarn";
         displayName = "TTT Transporthelikopter (BW Flecktarn)";
     };

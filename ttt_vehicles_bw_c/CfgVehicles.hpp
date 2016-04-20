@@ -12,14 +12,13 @@ class CfgVehicles {
     class CUP_B_Dingo_GL_Wdl;
     class BWA3_Puma_Tropen;
     class BWA3_Tiger_RMK_Universal;
-    class CUP_B_UH1D_GER_KSK;
+    class NH90Armed;
     class CUP_B_CH53E_GER;
     class BWA3_Leopard2A6M_Tropen;
 	class rhsusf_m998_w_4dr_fulltop;
 	class rhsusf_m998_d_2dr_fulltop;
 	class rhsusf_m998_w_2dr;
     class CUP_B_USMC_MQ9;
-    class CUP_B_UH1D_GER_KSK_Des;
 	
 	#include "tropentarn\vehicles.hpp"
 	#include "flecktarn\vehicles.hpp"
