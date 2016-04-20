@@ -447,6 +447,7 @@ class TTT_TransporterLeichtOffen_Us_Desert : rhsusf_m998_w_2dr {
     crew = "TTT_Schwarz1_Us_Desert";
     displayName = "TTT Transporter leicht (offen) (US Desert)";
     typicalCargo[] = {};
+    ace_cargo_space = 8;
 
     class TransportWeapons {
 
@@ -745,6 +746,7 @@ class TTT_Logistikhelikopter_Us_Desert : RHS_CH_47F {
     crew = "TTT_Bussard1_Us_Desert";
     displayName = "TTT Logistikhelikopter (US Desert)";
     typicalCargo[] = {};
+    ace_cargo_space = 16;
 
     class TransportWeapons {
 
@@ -779,6 +781,7 @@ class TTT_Transporthelikopter_Us_Desert : RHS_UH60M {
     crew = "TTT_Habicht1_Us_Desert";
     displayName = "TTT Transporthelikopter (US Desert)";
     typicalCargo[] = {};
+    ace_cargo_space = 8;
 
     class TransportWeapons {
 

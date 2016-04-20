@@ -436,6 +436,7 @@
         crew = "TTT_Schwarz1_Bw_Tropentarn";
         displayName = "TTT Transporter leicht (offen) (BW Tropentarn)";
         typicalCargo[] = {};
+        ace_cargo_space = 8;
 
         class TransportWeapons {
 
@@ -729,6 +730,7 @@
 		crew = "TTT_Bussard1_Bw_Tropentarn";
 		displayName = "TTT Logistikhelikopter (BW Tropentarn)";
 		typicalCargo[] = {};
+        ace_cargo_space = 16;
 
 		
 		class TransportWeapons {
@@ -768,6 +770,7 @@
         magazines[] = { "300Rnd_CMFlare_Chaff_Magazine" };
         LockDetectionSystem = 2 + 8 + 4;
         incomingMissileDetectionSystem = 16;
+        ace_cargo_space = 8;
 
         class TransportWeapons {
 
