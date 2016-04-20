@@ -59,3 +59,12 @@
 		displayName = "Habicht (BW Tropentarn)"; 			//In-game name
 		priority = 14; 							// How far down it is on the menu
 	};
+	class TTT_Platin_Bw_Tropentarn {
+		displayName = "Platin (BW Tropentarn)"; 			//In-game name
+		priority = 15; 							// How far down it is on the menu
+	};
+	class TTT_Silber_Bw_Tropentarn {
+		displayName = "Silber (BW Tropentarn)"; 			//In-game name
+		priority = 16; 							// How far down it is on the menu
+	};	
+	

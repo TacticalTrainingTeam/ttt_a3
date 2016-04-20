@@ -59,3 +59,11 @@
 		displayName = "Habicht (US Woodland)"; 			//In-game name
 		priority = 14; 							// How far down it is on the menu
 	};
+	class TTT_Platin_Us_Woodland {
+		displayName = "Platin (US Woodland)"; 			//In-game name
+		priority = 15; 							// How far down it is on the menu
+	};	
+	class TTT_Silber_Us_Woodland {
+		displayName = "Silber (US Woodland)"; 			//In-game name
+		priority = 16; 							// How far down it is on the menu
+	};	
