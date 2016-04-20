@@ -9,7 +9,7 @@ class TTT_Gelb1_Bw_Tropentarn : TTT_Truppfuehrer_Base_Bw {
     author = "Tactical Training Team";
     scope = 2;
     displayName = "Gelb 1 (OPL)";
-	icon = "iconManOfficer"
+	icon = "iconManOfficer";
     vehicleClass = "TTT_Gelb_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     backpack = "TTT_Backpack_Opl_Bw_Tropentarn";
