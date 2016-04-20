@@ -471,7 +471,7 @@ class TTT_Rot4_Bw_Flecktarn : TTT_Rot4_Bw_Tropentarn {
 };
 
 //Rot 5 (LMG-Schuetze)
-class TTT_Rot4_Bw_Flecktarn : TTT_Rot5_Bw_Tropentarn {
+class TTT_Rot5_Bw_Flecktarn : TTT_Rot5_Bw_Tropentarn {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Rot_Bw_Flecktarn";
     backpack = "TTT_Backpack_Mgschuetze_Bw_Flecktarn";
