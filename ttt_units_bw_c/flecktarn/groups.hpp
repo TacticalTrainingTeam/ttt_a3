@@ -4,7 +4,7 @@
 			#############################################################
 			*/
 			class TTT_Groups_Bw_Flecktarn {
-				name = "TTT BW Flecktarn";
+				name = "Flecktarn";
 				
 				//Trupp Gelb
 				class TTT_Gelb_Bw_Flecktarn {
@@ -271,7 +271,7 @@
 				class TTT_Bronze_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
 					name = "Trupp Bronze BW Flecktarn";
-					icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
 					side = 1;
 					
 					class Unit0 {

@@ -256,7 +256,7 @@ class TTT_Gruen4_Us_Woodland : TTT_Gruen4_Us_Desert {
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_green_us_woodland.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Green_Us_Woodland", "TTT_Helmet_4_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Green_Us_Woodland", "TTT_Helmet_3_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Green_Us_Woodland", "TTT_Helmet_4_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
 /*
@@ -716,8 +716,8 @@ class TTT_Weiss2_Us_Woodland : TTT_Weiss2_Us_Desert {
     uniformClass = "TTT_Uniform_Weiss_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_white_us_woodland.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Falcon", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Falcon", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_2_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_2_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
 //Weiﬂ 3 (Feldarzt)
@@ -729,7 +729,7 @@ class TTT_Weiss3_Us_Woodland : TTT_Weiss3_Us_Desert {
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_white_us_woodland.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_3_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_1_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_3_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
 //Weiﬂ 4 (Stellv.Fahrzeugfuehrer)
@@ -740,8 +740,8 @@ class TTT_Weiss4_Us_Woodland : TTT_Weiss4_Us_Desert {
     uniformClass = "TTT_Uniform_Weiss_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_white_us_woodland.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Falcon", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Falcon", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_4_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_4_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
 /*
@@ -788,8 +788,8 @@ class TTT_Silber1_Us_Woodland : TTT_Silber1_Us_Desert {
     uniformClass = "TTT_Uniform_Silber_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_silver_us_woodland.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_1_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_1_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
 //Silber 2 (Fahrzeugfuehrer)
@@ -800,8 +800,8 @@ class TTT_Silber2_Us_Woodland : TTT_Silber2_Us_Desert {
     uniformClass = "TTT_Uniform_Silber_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_silver_us_woodland.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_2_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_2_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
 //Silber 3 (Fahrzeugfuehrer)
@@ -812,8 +812,8 @@ class TTT_Silber3_Us_Woodland : TTT_Silber3_Us_Desert {
     uniformClass = "TTT_Uniform_Silber_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_silver_us_woodland.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_3_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_3_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
 //Silber 4 (Fahrzeugfuehrer)
@@ -824,8 +824,8 @@ class TTT_Silber4_Us_Woodland : TTT_Silber4_Us_Desert {
     uniformClass = "TTT_Uniform_Silber_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_silver_us_woodland.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_4_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_4_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
 //Silber 5 (Fahrzeugfuehrer)
@@ -836,8 +836,8 @@ class TTT_Silber5_Us_Woodland : TTT_Silber5_Us_Desert {
     uniformClass = "TTT_Uniform_Silber_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_silver_us_woodland.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_5_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_5_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
 //Silber 6 (Fahrzeugfuehrer)
@@ -848,8 +848,8 @@ class TTT_Silber6_Us_Woodland : TTT_Silber6_Us_Desert {
     uniformClass = "TTT_Uniform_Silber_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_silver_us_woodland.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_6_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Woodland", "TTT_Helmet_6_Us_Woodland", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
 /*
