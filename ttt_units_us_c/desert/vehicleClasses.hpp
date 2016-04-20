@@ -59,3 +59,11 @@
 		displayName = "Habicht (US Desert)"; 			//In-game name
 		priority = 14; 							// How far down it is on the menu
 	};
+	class TTT_Platin_Us_Desert {
+		displayName = "Platin (US Desert)"; 			//In-game name
+		priority = 15; 							// How far down it is on the menu
+	};	
+	class TTT_Silber_Us_Desert {
+		displayName = "Silber (US Desert)"; 			//In-game name
+		priority = 16; 							// How far down it is on the menu
+	};	
