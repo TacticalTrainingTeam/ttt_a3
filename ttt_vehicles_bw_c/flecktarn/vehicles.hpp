@@ -119,7 +119,7 @@
 	class TTT_Logistikhelikopter_Bw_Flecktarn : TTT_Logistikhelikopter_Bw_Tropentarn {
 		author = "Tactical Training Team";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_bw\flecktarn\logistikhelikopter\camo1_co.paa", "\ttt_a3\ttt_vehicles_bw\flecktarn\logistikhelikopter\camo2_co.paa"};
-		crew = "TTT_Bbwsard1_Bw_Flecktarn";
+		crew = "TTT_Bussard1_Bw_Flecktarn";
 		displayName = "TTT Logistikhelikopter (BW Flecktarn)";
 	};
 

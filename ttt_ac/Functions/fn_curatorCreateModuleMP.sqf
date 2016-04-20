@@ -21,7 +21,7 @@ if (isNil _playerCuratorModule) then
 
 		NSS_AC_Curator_%1 setVariable ["Owner", ""];
 		NSS_AC_Curator_%1 setVariable ["Name", ""];
-		NSS_AC_Curator_%1 setVariable ["Addons", 2];
+		NSS_AC_Curator_%1 setVariable ["Addons", 3];
 		NSS_AC_Curator_%1 setVariable ["Forced", 0];
 		
 		NSS_AC_Curator_%1 synchronizeObjectsAdd [%2];

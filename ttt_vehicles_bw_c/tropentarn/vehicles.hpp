@@ -725,7 +725,7 @@
 		faction = "TTT_faction_Bw";
 		vehicleClass = "TTT_Vehicles_Bw";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_bw\tropentarn\logistikhelikopter\camo1_co.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\logistikhelikopter\camo2_co.paa"};
-		crew = "TTT_Bbwsard1_Bw_Tropentarn";
+		crew = "TTT_Bussard1_Bw_Tropentarn";
 		displayName = "TTT Logistikhelikopter (BW Tropentarn)";
 		typicalCargo[] = {};
 		
