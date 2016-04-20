@@ -22,8 +22,8 @@
 				count = 2;
 			};
 			
-			class _xx_BWA3_Fliegerfabwt {
-				weapon = "BWA3_Fliegerfabwt";
+			class _xx_BWA3_Fliegerfaust {
+				weapon = "BWA3_Fliegerfaust";
 				count = 2;
 			};
 			
@@ -142,8 +142,8 @@
 			};
 			
 			//Werfermunition	
-			class _xx_BWA3_Fliegerfabwt_Mag {
-				magazine = "BWA3_Fliegerfabwt_Mag";
+			class _xx_BWA3_Fliegerfaust_Mag {
+				magazine = "BWA3_Fliegerfaust_Mag";
 				count = 2;
 			};		
 		};
@@ -171,8 +171,8 @@
 				count = 2;
 			};
 			
-			class _xx_BWA3_Fliegerfabwt {
-				weapon = "BWA3_Fliegerfabwt";
+			class _xx_BWA3_Fliegerfaust {
+				weapon = "BWA3_Fliegerfaust";
 				count = 2;
 			};
 			
@@ -291,8 +291,8 @@
 			};
 			
 			//Werfermunition			
-			class _xx_BWA3_Fliegerfabwt_Mag {
-				magazine = "BWA3_Fliegerfabwt_Mag";
+			class _xx_BWA3_Fliegerfaust_Mag {
+				magazine = "BWA3_Fliegerfaust_Mag";
 				count = 2;
 			};		
 		};
