@@ -9,6 +9,7 @@ class TTT_Gelb1_Bw_Tropentarn : TTT_Truppfuehrer_Base_Bw {
     author = "Tactical Training Team";
     scope = 2;
     displayName = "Gelb 1 (OPL)";
+	icon = "iconManOfficer"
     vehicleClass = "TTT_Gelb_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     backpack = "TTT_Backpack_Opl_Bw_Tropentarn";
@@ -148,7 +149,6 @@ class TTT_Grau5_Bw_Tropentarn : TTT_Base_Bw {
     author = "Tactical Training Team";
     scope = 2;
     displayName = "Grau 5 (Schuetze)";
-    icon = "iconMan";
     vehicleClass = "TTT_Grau_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     backpack = "TTT_Backpack_Schuetze_Bw_Tropentarn";
@@ -169,7 +169,6 @@ class TTT_Grau6_Bw_Tropentarn : TTT_Base_Bw {
     author = "Tactical Training Team";
     scope = 2;
     displayName = "Grau 6 (Schuetze)";
-    icon = "iconMan";
     vehicleClass = "TTT_Grau_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     backpack = "TTT_Backpack_Schuetze_Bw_Tropentarn";
@@ -196,7 +195,6 @@ class TTT_Gold1_Bw_Tropentarn : TTT_Truppfuehrer_Base_Bw {
     author = "Tactical Training Team";
     scope = 2;
     displayName = "Gold 1 (Truppfuehrer)";
-    icon = "iconManLeader";
     vehicleClass = "TTT_Gold_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     uniformClass = "TTT_Uniform_Gold_Bw_Tropentarn";
@@ -216,7 +214,7 @@ class TTT_Gold1_Bw_Tropentarn : TTT_Truppfuehrer_Base_Bw {
 class TTT_Gold2_Bw_Tropentarn : TTT_Funkerfac_Base_Bw {
 	author = "Tactical Training Team";
     scope = 2;
-    displayName = "Gold 3 (JTAC)";
+    displayName = "Gold 2 (JTAC)";
     vehicleClass = "TTT_Gold_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     uniformClass = "TTT_Uniform_Gold_Bw_Tropentarn";
@@ -254,7 +252,6 @@ class TTT_Gold4_Bw_Tropentarn : TTT_Base_Bw {
     author = "Tactical Training Team";
     scope = 2;
     displayName = "Gold 2 (Sniper)";
-    icon = "iconMan";
     vehicleClass = "TTT_Gold_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     uniformClass = "TTT_Uniform_Gold_Bw_Tropentarn";
@@ -296,7 +293,6 @@ class TTT_Gold6_Bw_Tropentarn : TTT_Base_Bw {
     author = "Tactical Training Team";
     scope = 2;
     displayName = "Gold 6 (Schuetze)";
-    icon = "iconMan";
     vehicleClass = "TTT_Gold_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     backpack = "TTT_Backpack_Schuetze_Bw_Tropentarn";
@@ -368,7 +364,7 @@ class TTT_Gruen4_Bw_Tropentarn : TTT_Gefechtssanitaeter_Base_Bw {
     uniformClass = "TTT_Uniform_Gruen_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_green_bw_tropentarn.paa" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Medic_Tropen", "TTT_Helmet_4_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Medic_Tropen", "TTT_Helmet_3_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Medic_Tropen", "TTT_Helmet_4_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
 /*
@@ -462,7 +458,7 @@ class TTT_Schwarz3_Bw_Tropentarn : TTT_Lmgschuetze_Base_Bw {
 };
 
 //Schwarz 4 (AT-Schuetze)
-class TTT_Schwarz5_Bw_Tropentarn : TTT_Atschuetze_Base_Bw {
+class TTT_Schwarz4_Bw_Tropentarn : TTT_Atschuetze_Base_Bw {
     author = "Tactical Training Team";
     scope = 2;
     displayName = "Schwarz 4 (AT-Schuetze)";
@@ -605,10 +601,10 @@ class TTT_Bronze1_Bw_Tropentarn : TTT_Base_Bw {
     respawnItems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "BWA3_CrewmanKSK_Tropen_Headset", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "BWA3_CrewmanKSK_Tropen_Headset", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    weapons[] = { "SMG_01_Holo_F", "hgun_Pistol_heavy_01_snds_F", "ACE_Yardage450", "Throw", "Put" };
-    respawnWeapons[] = { "SMG_01_Holo_F", "hgun_Pistol_heavy_01_snds_F", "ACE_Yardage450", "Throw", "Put" };
-    magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green" };
-    respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green" };
+    weapons[] = { "BWA3_G36K_equipped", "hgun_Pistol_heavy_01_snds_F", "ACE_Yardage450", "Throw", "Put" };
+    respawnWeapons[] = { "BWA3_G36K_equipped", "hgun_Pistol_heavy_01_snds_F", "ACE_Yardage450", "Throw", "Put" };
+    magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP" };
+    respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP" };
 };
 
 //Bronze 2 (Schuetze)
@@ -616,7 +612,6 @@ class TTT_Bronze2_Bw_Tropentarn : TTT_Base_Bw {
     author = "Tactical Training Team";
     scope = 2;
     displayName = "Bronze 2 (Schuetze)";
-    icon = "iconMan";
     vehicleClass = "TTT_Bronze_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     backpack = "TTT_Backpack_Schuetze_Bw_Tropentarn";
@@ -626,10 +621,10 @@ class TTT_Bronze2_Bw_Tropentarn : TTT_Base_Bw {
     respawnItems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "BWA3_CrewmanKSK_Tropen_Headset", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "BWA3_CrewmanKSK_Tropen_Headset", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    weapons[] = { "SMG_01_Holo_F", "hgun_Pistol_heavy_01_snds_F", "Binocular", "Throw", "Put" };
-    respawnWeapons[] = { "SMG_01_Holo_F", "hgun_Pistol_heavy_01_snds_F", "Binocular", "Throw", "Put" };
-    magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green" };
-    respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green" };
+    weapons[] = { "BWA3_G36K_equipped", "hgun_Pistol_heavy_01_snds_F", "Binocular", "Throw", "Put" };
+    respawnWeapons[] = { "BWA3_G36K_equipped", "hgun_Pistol_heavy_01_snds_F", "Binocular", "Throw", "Put" };
+    magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP" };
+    respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP" };
 };
 
 //Bronze 3 (Fahrer)
@@ -637,7 +632,6 @@ class TTT_Bronze3_Bw_Tropentarn : TTT_Base_Bw {
     author = "Tactical Training Team";
     scope = 2;
     displayName = "Bronze 3 (Fahrer)";
-    icon = "iconMan";
     vehicleClass = "TTT_Bronze_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     backpack = "TTT_Backpack_Schuetze_Bw_Tropentarn";
@@ -647,18 +641,17 @@ class TTT_Bronze3_Bw_Tropentarn : TTT_Base_Bw {
     respawnItems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "BWA3_CrewmanKSK_Tropen_Headset", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "BWA3_CrewmanKSK_Tropen_Headset", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    weapons[] = { "SMG_01_Holo_F", "hgun_Pistol_heavy_01_snds_F", "Binocular", "Throw", "Put" };
-    respawnWeapons[] = { "SMG_01_Holo_F", "hgun_Pistol_heavy_01_snds_F", "Binocular", "Throw", "Put" };
-    magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green" };
-    respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green" };
+    weapons[] = { "BWA3_G36K_equipped", "hgun_Pistol_heavy_01_snds_F", "Binocular", "Throw", "Put" };
+    respawnWeapons[] = { "BWA3_G36K_equipped", "hgun_Pistol_heavy_01_snds_F", "Binocular", "Throw", "Put" };
+    magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP" };
+    respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP" };
 };
 
 //Bronze 4 (Kommandant)
 class TTT_Bronze4_Bw_Tropentarn : TTT_Base_Bw {
     author = "Tactical Training Team";
-    scope = 1;
+    scope = 2;
     displayName = "Bronze 4 (Kommandant)";
-    icon = "iconManLeader";
     vehicleClass = "TTT_Bronze_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     backpack = "TTT_Backpack_Pilot_Bw_Tropentarn";
@@ -668,18 +661,17 @@ class TTT_Bronze4_Bw_Tropentarn : TTT_Base_Bw {
     respawnItems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "BWA3_CrewmanKSK_Tropen_Headset", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "BWA3_CrewmanKSK_Tropen_Headset", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    weapons[] = { "SMG_01_Holo_F", "hgun_Pistol_heavy_01_snds_F", "ACE_Yardage450", "Throw", "Put" };
-    respawnWeapons[] = { "SMG_01_Holo_F", "hgun_Pistol_heavy_01_snds_F", "ACE_Yardage450", "Throw", "Put" };
-    magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green" };
-    respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green" };
+    weapons[] = { "BWA3_G36K_equipped", "hgun_Pistol_heavy_01_snds_F", "Binocular", "Throw", "Put" };
+    respawnWeapons[] = { "BWA3_G36K_equipped", "hgun_Pistol_heavy_01_snds_F", "Binocular", "Throw", "Put" };
+    magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP" };
+    respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP" };
 };
 
 //Bronze 5 (Schuetze)
 class TTT_Bronze5_Bw_Tropentarn : TTT_Base_Bw {
     author = "Tactical Training Team";
-    scope = 1;
+    scope = 2;
     displayName = "Bronze 5 (Schuetze)";
-    icon = "iconMan";
     vehicleClass = "TTT_Bronze_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     backpack = "TTT_Backpack_Schuetze_Bw_Tropentarn";
@@ -689,18 +681,17 @@ class TTT_Bronze5_Bw_Tropentarn : TTT_Base_Bw {
     respawnItems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "BWA3_CrewmanKSK_Tropen_Headset", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "BWA3_CrewmanKSK_Tropen_Headset", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    weapons[] = { "SMG_01_Holo_F", "hgun_Pistol_heavy_01_snds_F", "Binocular", "Throw", "Put" };
-    respawnWeapons[] = { "SMG_01_Holo_F", "hgun_Pistol_heavy_01_snds_F", "Binocular", "Throw", "Put" };
-    magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green" };
-    respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green" };
+    weapons[] = { "BWA3_G36K_equipped", "hgun_Pistol_heavy_01_snds_F", "Binocular", "Throw", "Put" };
+    respawnWeapons[] = { "BWA3_G36K_equipped", "hgun_Pistol_heavy_01_snds_F", "Binocular", "Throw", "Put" };
+    magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP" };
+    respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP" };
 };
 
 //Bronze 6 (Fahrer)
 class TTT_Bronze6_Bw_Tropentarn : TTT_Base_Bw {
     author = "Tactical Training Team";
-    scope = 1;
+    scope = 2;
     displayName = "Bronze 6 (Fahrer)";
-    icon = "iconMan";
     vehicleClass = "TTT_Bronze_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     backpack = "TTT_Backpack_Schuetze_Bw_Tropentarn";
@@ -710,10 +701,10 @@ class TTT_Bronze6_Bw_Tropentarn : TTT_Base_Bw {
     respawnItems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "BWA3_CrewmanKSK_Tropen_Headset", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "BWA3_CrewmanKSK_Tropen_Headset", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    weapons[] = { "SMG_01_Holo_F", "hgun_Pistol_heavy_01_snds_F", "Binocular", "Throw", "Put" };
-    respawnWeapons[] = { "SMG_01_Holo_F", "hgun_Pistol_heavy_01_snds_F", "Binocular", "Throw", "Put" };
-    magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green" };
-    respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green", "30Rnd_45ACP_Mag_SMG_01_tracer_green" };
+    weapons[] = { "BWA3_G36K_equipped", "hgun_Pistol_heavy_01_snds_F", "Binocular", "Throw", "Put" };
+    respawnWeapons[] = { "BWA3_G36K_equipped", "hgun_Pistol_heavy_01_snds_F", "Binocular", "Throw", "Put" };
+    magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP" };
+    respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "11Rnd_45ACP_Mag", "11Rnd_45ACP_Mag", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP", "BWA3_20Rnd_762x51_G28_AP" };
 };
 
 /*
@@ -890,7 +881,7 @@ class TTT_Violett6_Bw_Tropentarn : TTT_Pionier_Base_Bw {
 #############################################################
 */
 
-//Weiﬂ 1 (Feldarzt)
+//Weiﬂ 1 (Oberfeldarzt)
 class TTT_Weiss1_Bw_Tropentarn : TTT_Feldarzt_Base_Bw {
     author = "Tactical Training Team";
     scope = 2;
@@ -912,8 +903,10 @@ class TTT_Weiss2_Bw_Tropentarn : TTT_Pilot_Base_Bw {
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     uniformClass = "TTT_Uniform_Weiss_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_white_bw_tropentarn.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Falcon", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Falcon", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    items[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "TTT_Helmet_Falcon", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
+    respawnitems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "TTT_Helmet_Falcon", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_2_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_2_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
 //Weiﬂ 3 (Feldarzt)
@@ -929,7 +922,7 @@ class TTT_Weiss3_Bw_Tropentarn : TTT_Feldarzt_Base_Bw {
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Medic_Tropen", "TTT_Helmet_3_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
-//Weiﬂ 4 (Stellv.Fahrzeugfuehrer)
+//Weiﬂ 4 (Fahrzeugfuehrer)
 class TTT_Weiss4_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     author = "Tactical Training Team";
     scope = 2;
@@ -938,8 +931,10 @@ class TTT_Weiss4_Bw_Tropentarn : TTT_Pilot_Base_Bw {
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     uniformClass = "TTT_Uniform_Weiss_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_white_bw_tropentarn.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Falcon", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Falcon", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    items[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "TTT_Helmet_Falcon", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
+    respawnitems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "TTT_Helmet_Falcon", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };    
+	linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_4_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_4_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };
 
 /*
@@ -1069,75 +1064,94 @@ class TTT_Platin2_Bw_Tropentarn : TTT_Pilot_Base_Bw {
 ### Trupp Silber (Tropentarn)
 #############################################################
 */
+
+//Silber 1 (Truppfuehrer)
 class TTT_Silber1_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     author = "Tactical Training Team";
     scope = 2;
 	icon  = "iconManLeader";
-    displayName = "Silber 1 (Pilot)";
+    displayName = "Silber 1 (Truppfuehrer)";
     vehicleClass = "TTT_Silber_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };	
+    items[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "TTT_Helmet_Buzzard", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
+    respawnitems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "TTT_Helmet_Buzzard", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_1_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_1_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };	
 };
 
+//Silber 2 (Fahrzeugfuehrer)
 class TTT_Silber2_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     author = "Tactical Training Team";
     scope = 2;
-    displayName = "Silber 2 (Pilot)";
+    displayName = "Silber 2 (Fahrzeugfuehrer)";
     vehicleClass = "TTT_Silber_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };		
+    items[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "TTT_Helmet_Buzzard", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
+    respawnitems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "TTT_Helmet_Buzzard", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_2_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_2_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };	
 };
 
+//Silber 3 (Fahrzeugfuehrer)
 class TTT_Silber3_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     author = "Tactical Training Team";
     scope = 2;
-    displayName = "Silber 3 (Pilot)";
+    displayName = "Silber 3 (Fahrzeugfuehrer)";
     vehicleClass = "TTT_Silber_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };		
+    items[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "TTT_Helmet_Buzzard", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
+    respawnitems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "TTT_Helmet_Buzzard", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_3_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_3_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };	
 };
 
+//Silber 4 (Fahrzeugfuehrer)
 class TTT_Silber4_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     author = "Tactical Training Team";
     scope = 2;
-    displayName = "Silber 4 (Pilot)";
+    displayName = "Silber 4 (Fahrzeugfuehrer)";
     vehicleClass = "TTT_Silber_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };		
+    items[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "TTT_Helmet_Buzzard", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
+    respawnitems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "TTT_Helmet_Buzzard", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_4_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_4_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };	
 };
 
+//Silber 5 (Fahrzeugfuehrer)
 class TTT_Silber5_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     author = "Tactical Training Team";
     scope = 2;
-    displayName = "Silber 5 (Pilot)";
+    displayName = "Silber 5 (Fahrzeugfuehrer)";
     vehicleClass = "TTT_Silber_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };		
+    items[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "TTT_Helmet_Buzzard", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
+    respawnitems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "TTT_Helmet_Buzzard", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_5_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_5_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };	
 };
 
+//Silber 6 (Fahrzeugfuehrer)
 class TTT_Silber6_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     author = "Tactical Training Team";
     scope = 2;
-    displayName = "Silber 6 (Pilot)";
+    displayName = "Silber 6 (Fahrzeugfuehrer)";
     vehicleClass = "TTT_Silber_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };		
+    items[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "TTT_Helmet_Buzzard", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
+    respawnitems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "TTT_Helmet_Buzzard", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_6_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_6_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };	
 };

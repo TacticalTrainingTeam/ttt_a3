@@ -4,7 +4,7 @@
 			#############################################################
 			*/
 			class TTT_Groups_Us_Desert {
-				name = "TTT US Desert";
+				name = "Desert";
 				
 				//Trupp Gelb
 				class TTT_Gelb_Us_Desert {
@@ -271,7 +271,7 @@
 				class TTT_Bronze_Us_Desert {
 					faction = "TTT_faction_us";
 					name = "Trupp Bronze US Desert";
-					icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+					icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
 					side = 1;
 					
 					class Unit0 {
