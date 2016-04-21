@@ -471,87 +471,52 @@
 		class TransportItems {
 			class _xx_ACE_fieldDressing {
 				name = "ACE_fieldDressing";
-				count = 25;
+				count = 20;
 			};
 			
 			class _xx_ACE_packingBandage {
 				name = "ACE_packingBandage";
-				count = 25;
+				count = 75;
 			};
 			
 			class _xx_ACE_tourniquet {
 				name = "ACE_tourniquet";
-				count = 15;
-			};
-
-			class _xx_ACE_plasmaIV {
-				name = "ACE_plasmaIV";
-				count = 15;
-			};
-				
-			class _xx_ACE_plasmaIV_500 {
-				name = "ACE_plasmaIV_500";
-				count = 15;
-			};
-				
-			class _xx_ACE_plasmaIV_250 {
-				name = "ACE_plasmaIV_250";
-				count = 15;
-			};
-				
-			class _xx_ACE_bloodIV {
-				name = "ACE_bloodIV";
-				count = 15;
-			};
-			
-			class _xx_ACE_bloodIV_500 {
-				name = "ACE_bloodIV_500";
-				count = 15;
-			};
-				
-			class _xx_ACE_bloodIV_250 {
-				name = "ACE_bloodIV_250";
-				count = 15;
+				count = 10;
 			};
 				
 			class _xx_ACE_salineIV {
 				name = "ACE_salineIV";
-				count = 15;
+				count = 20;
 			};
 				
 			class _xx_ACE_salineIV_500 {
 				name = "ACE_salineIV_500";
-				count = 15;
-			};
-				
-			class _xx_ACE_salineIV_250 {
-				name = "ACE_salineIV_250";
-				count = 15;
+				count = 20;
 			};
 				
 			class _xx_ACE_morphine {
 				name = "ACE_morphine";
-				count = 20;
+				count = 15;
 			};
 				
 			class _xx_ACE_epinephrine {
 				name = "ACE_epinephrine";
-				count = 20;
+				count = 15;
 			};
 				
 			class _xx_ACE_atropine {
 				name = "ACE_atropine";
-				count = 20;
+				count = 10;
 			};
 				
 			class _xx_ACE_quikclot {
 				name = "ACE_quikclot";
-				count = 25;
+				count = 20;
 			};
 								
 			class _xx_ACE_elasticBandage {
 				name = "ACE_elasticBandage";
-				count = 25;
+				count = 75;
 			};
 								
 			class _xx_ACE_personalAidKit {
