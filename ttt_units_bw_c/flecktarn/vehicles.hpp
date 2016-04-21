@@ -772,7 +772,7 @@ class TTT_Weiss1_Bw_Flecktarn : TTT_Weiss1_Bw_Tropentarn {
 class TTT_Weiss2_Bw_Flecktarn : TTT_Weiss2_Bw_Tropentarn {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Weiss_Bw_Flecktarn";
-    backpack = "TTT_Backpack_Feldarzt_Bw_Flecktarn";
+    backpack = "TTT_Backpack_Pilot_Bw_Flecktarn";
     uniformClass = "TTT_Uniform_Weiss_Bw_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\flecktarn\uniforms\TTT_uniform_white_bw_flecktarn.paa" };

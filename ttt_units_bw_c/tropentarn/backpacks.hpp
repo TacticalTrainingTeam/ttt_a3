@@ -370,26 +370,8 @@ class TTT_Backpack_Pilot_Bw_Tropentarn : tf_rt1523g_big_bwmod_tropen {
     displayName = "TTT Pilot Rucksack (BW Tropentarn)";
     tf_range = 50000;
     class TransportItems {
-        class _xx_ACE_elasticBandage {
-            name = "ACE_elasticBandage";
-            count = 7;
-        };
-		class _xx_ACE_packingBandage {
-            name = "ACE_packingBandage";
-            count = 5;
-        };
-        class _xx_ACE_tourniquet {
-            name = "ACE_tourniquet";
-            count = 2;
-        };
-        class _xx_ACE_morphine {
-            name = "ACE_morphine";
-            count = 1;
-        };
-        class _xx_ACE_DK10_b {
-            name = "ACE_DK10_b";
-            count = 1;
-        };
+		backpack_medic_supply_standard;
+		item_xx(ACE_DK10_b,1);
     };
 };
 
