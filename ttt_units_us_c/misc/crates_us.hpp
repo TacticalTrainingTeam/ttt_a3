@@ -454,8 +454,8 @@
 	class TTT_Logistik_Medic_Us : Box_NATO_Support_F {
 		author = "Tactical Training Team";
 		displayName = "TTT Medic Material (US)";
-		transportMaxWeapons = 320;
-		transportMaxMagazines = 320;
+		transportMaxWeapons = 99;
+		transportMaxMagazines = 99;
 		
 		class TransportMagazines {
 			
