@@ -501,7 +501,7 @@
 		};
 		
 		class TransportItems {
-						class _xx_ACE_fieldDressing {
+			class _xx_ACE_fieldDressing {
 				name = "ACE_fieldDressing";
 				count = 20;
 			};
