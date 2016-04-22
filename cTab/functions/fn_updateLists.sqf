@@ -83,7 +83,8 @@ cTabBFTvehicles --- VEHICLES
 Vehciles on our side, that are not empty and that player is not sitting in.
 */
 {
-	if ((side _x in _validSides) && {count (crew _x) > 0} && {_x != _playerVehicle}) then {
+	//if ((side _x in _validSides) && {count (crew _x) > 0} && {_x != _playerVehicle}) then {
+    if (0 == 1) then {
 		_groupID = "";
 		_name = "";
 		_customName = _x getVariable ["cTab_groupId",""];
