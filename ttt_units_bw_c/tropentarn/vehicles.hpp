@@ -941,95 +941,6 @@ class TTT_Weiss4_Bw_Tropentarn : TTT_Pilot_Base_Bw {
 
 /*
 #############################################################
-### Trupp Adler (Tropentarn) OLD
-#############################################################
-*/
-
-//Adler 1 (Pilot)
-class TTT_Adler1_Bw_Tropentarn : TTT_Pilot_Base_Bw {
-    author = "Tactical Training Team";
-    scope = 1;
-    displayName = "Adler 1 (Pilot)";
-    vehicleClass = "TTT_Adler_Bw_Tropentarn";
-	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
-    uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-};
-
-//Adler 2 (Copilot)
-class TTT_Adler2_Bw_Tropentarn : TTT_Pilot_Base_Bw {
-    author = "Tactical Training Team";
-    scope = 1;
-    displayName = "Adler 2 (Copilot)";
-    vehicleClass = "TTT_Adler_Bw_Tropentarn";
-	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
-    uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-};
-
-/*
-#############################################################
-### Trupp Bussard (Tropentarn) OLD
-#############################################################
-*/
-
-//Bussard 1 (Pilot)
-class TTT_Bussard1_Bw_Tropentarn : TTT_Pilot_Base_Bw {
-    author = "Tactical Training Team";
-    scope = 1;
-    displayName = "Bussard 1 (Pilot)";
-    vehicleClass = "TTT_Bussard_Bw_Tropentarn";
-	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
-    uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-};
-
-//Bussard 2 (Copilot)
-class TTT_Bussard2_Bw_Tropentarn : TTT_Pilot_Base_Bw {
-    author = "Tactical Training Team";
-    scope = 1;
-    displayName = "Bussard 2 (Copilot)";
-    vehicleClass = "TTT_Bussard_Bw_Tropentarn";
-	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
-    uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-};
-//Habicht 1 (Pilot)
-class TTT_Habicht1_Bw_Tropentarn : TTT_Pilot_Base_Bw {
-    author = "Tactical Training Team";
-    scope = 1;
-    displayName = "Habicht 1 (Pilot)";
-    vehicleClass = "TTT_Habicht_Bw_Tropentarn";
-	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
-    uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-};
-
-//Habicht 2 (Copilot)
-class TTT_Habicht2_Bw_Tropentarn : TTT_Pilot_Base_Bw {
-    author = "Tactical Training Team";
-    scope = 1;
-    displayName = "Habicht 2 (Copilot)";
-    vehicleClass = "TTT_Habicht_Bw_Tropentarn";
-	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
-    uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-};
-
-/*
-#############################################################
 ### Trupp Platin (Tropentarn)
 #############################################################
 */
@@ -1162,4 +1073,99 @@ class TTT_Silber6_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     respawnitems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "TTT_Helmet_Buzzard", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_6_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_6_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };	
+};
+
+/*
+#############################################################
+### Trupp Adler (Tropentarn) OLD
+#############################################################
+*/
+
+//Adler 1 (Pilot)
+class TTT_Adler1_Bw_Tropentarn : TTT_Pilot_Base_Bw {
+    author = "Tactical Training Team";
+    scope = 1;
+	scopeCurator = 1;
+    displayName = "Adler 1 (Pilot)";
+    vehicleClass = "TTT_Adler_Bw_Tropentarn";
+	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
+    uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+};
+
+//Adler 2 (Copilot)
+class TTT_Adler2_Bw_Tropentarn : TTT_Pilot_Base_Bw {
+    author = "Tactical Training Team";
+    scope = 1;
+	scopeCurator = 1;
+    displayName = "Adler 2 (Copilot)";
+    vehicleClass = "TTT_Adler_Bw_Tropentarn";
+	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
+    uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+};
+
+/*
+#############################################################
+### Trupp Bussard (Tropentarn) OLD
+#############################################################
+*/
+
+//Bussard 1 (Pilot)
+class TTT_Bussard1_Bw_Tropentarn : TTT_Pilot_Base_Bw {
+    author = "Tactical Training Team";
+    scope = 1;
+	scopeCurator = 1;
+    displayName = "Bussard 1 (Pilot)";
+    vehicleClass = "TTT_Bussard_Bw_Tropentarn";
+	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
+    uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+};
+
+//Bussard 2 (Copilot)
+class TTT_Bussard2_Bw_Tropentarn : TTT_Pilot_Base_Bw {
+    author = "Tactical Training Team";
+    scope = 1;
+	scopeCurator = 1;
+    displayName = "Bussard 2 (Copilot)";
+    vehicleClass = "TTT_Bussard_Bw_Tropentarn";
+	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
+    uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Buzzard", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+};
+//Habicht 1 (Pilot)
+class TTT_Habicht1_Bw_Tropentarn : TTT_Pilot_Base_Bw {
+    author = "Tactical Training Team";
+    scope = 1;
+	scopeCurator = 1;
+    displayName = "Habicht 1 (Pilot)";
+    vehicleClass = "TTT_Habicht_Bw_Tropentarn";
+	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
+    uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+};
+
+//Habicht 2 (Copilot)
+class TTT_Habicht2_Bw_Tropentarn : TTT_Pilot_Base_Bw {
+    author = "Tactical Training Team";
+    scope = 1;
+	scopeCurator = 1;
+    displayName = "Habicht 2 (Copilot)";
+    vehicleClass = "TTT_Habicht_Bw_Tropentarn";
+	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
+    uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Tropen", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };

@@ -753,7 +753,7 @@ class TTT_Weiss4_Us_Woodland : TTT_Weiss4_Us_Desert {
 //Platin 1 (Pilot)
 class TTT_Platin1_Us_Woodland : TTT_Platin1_Us_Desert {
     author = "Tactical Training Team";
-    vehicleClass = "TTT_Adler_Us_Woodland";
+    vehicleClass = "TTT_Platin_Us_Woodland";
     backpack = "TTT_Backpack_Pilot_Us_Woodland";
     uniformClass = "TTT_Uniform_Silber_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
@@ -765,7 +765,7 @@ class TTT_Platin1_Us_Woodland : TTT_Platin1_Us_Desert {
 //Platin 2 (Pilot)
 class TTT_Platin2_Us_Woodland : TTT_Platin2_Us_Desert {
     author = "Tactical Training Team";
-    vehicleClass = "TTT_Adler_Us_Woodland";
+    vehicleClass = "TTT_Platin_Us_Woodland";
     backpack = "TTT_Backpack_Pilot_Us_Woodland";
     uniformClass = "TTT_Uniform_Silber_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
@@ -783,7 +783,7 @@ class TTT_Platin2_Us_Woodland : TTT_Platin2_Us_Desert {
 //Silber 1 (Truppfuehrer)
 class TTT_Silber1_Us_Woodland : TTT_Silber1_Us_Desert {
     author = "Tactical Training Team";
-    vehicleClass = "TTT_Bussard_Us_Woodland";
+    vehicleClass = "TTT_Silber_Us_Woodland";
     backpack = "TTT_Backpack_Pilot_Us_Woodland";
     uniformClass = "TTT_Uniform_Silber_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
@@ -795,7 +795,7 @@ class TTT_Silber1_Us_Woodland : TTT_Silber1_Us_Desert {
 //Silber 2 (Fahrzeugfuehrer)
 class TTT_Silber2_Us_Woodland : TTT_Silber2_Us_Desert {
     author = "Tactical Training Team";
-    vehicleClass = "TTT_Bussard_Us_Woodland";
+    vehicleClass = "TTT_Silber_Us_Woodland";
     backpack = "TTT_Backpack_Pilot_Us_Woodland";
     uniformClass = "TTT_Uniform_Silber_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
@@ -807,7 +807,7 @@ class TTT_Silber2_Us_Woodland : TTT_Silber2_Us_Desert {
 //Silber 3 (Fahrzeugfuehrer)
 class TTT_Silber3_Us_Woodland : TTT_Silber3_Us_Desert {
     author = "Tactical Training Team";
-    vehicleClass = "TTT_Habicht_Us_Woodland";
+    vehicleClass = "TTT_Silber_Us_Woodland";
     backpack = "TTT_Backpack_Pilot_Us_Woodland";
     uniformClass = "TTT_Uniform_Silber_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
@@ -819,7 +819,7 @@ class TTT_Silber3_Us_Woodland : TTT_Silber3_Us_Desert {
 //Silber 4 (Fahrzeugfuehrer)
 class TTT_Silber4_Us_Woodland : TTT_Silber4_Us_Desert {
     author = "Tactical Training Team";
-    vehicleClass = "TTT_Habicht_Us_Woodland";
+    vehicleClass = "TTT_Silber_Us_Woodland";
     backpack = "TTT_Backpack_Pilot_Us_Woodland";
     uniformClass = "TTT_Uniform_Silber_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
@@ -831,7 +831,7 @@ class TTT_Silber4_Us_Woodland : TTT_Silber4_Us_Desert {
 //Silber 5 (Fahrzeugfuehrer)
 class TTT_Silber5_Us_Woodland : TTT_Silber5_Us_Desert {
     author = "Tactical Training Team";
-    vehicleClass = "TTT_Habicht_Us_Woodland";
+    vehicleClass = "TTT_Silber_Us_Woodland";
     backpack = "TTT_Backpack_Pilot_Us_Woodland";
     uniformClass = "TTT_Uniform_Silber_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
@@ -843,7 +843,7 @@ class TTT_Silber5_Us_Woodland : TTT_Silber5_Us_Desert {
 //Silber 6 (Fahrzeugfuehrer)
 class TTT_Silber6_Us_Woodland : TTT_Silber6_Us_Desert {
     author = "Tactical Training Team";
-    vehicleClass = "TTT_Habicht_Us_Woodland";
+    vehicleClass = "TTT_Silber_Us_Woodland";
     backpack = "TTT_Backpack_Pilot_Us_Woodland";
     uniformClass = "TTT_Uniform_Silber_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";

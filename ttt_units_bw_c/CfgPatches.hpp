@@ -18,6 +18,8 @@ class CfgPatches {
 					"TTT_Gold2_Bw_Tropentarn",
 					"TTT_Gold3_Bw_Tropentarn",
 					"TTT_Gold4_Bw_Tropentarn",
+					"TTT_Gold5_Bw_Tropentarn",
+					"TTT_Gold6_Bw_Tropentarn",
 
 					"TTT_Gruen1_Bw_Tropentarn",
 					"TTT_Gruen2_Bw_Tropentarn",
@@ -45,6 +47,9 @@ class CfgPatches {
 					"TTT_Bronze1_Bw_Tropentarn",
 					"TTT_Bronze2_Bw_Tropentarn",
 					"TTT_Bronze3_Bw_Tropentarn",
+					"TTT_Bronze4_Bw_Tropentarn",
+					"TTT_Bronze5_Bw_Tropentarn",
+					"TTT_Bronze6_Bw_Tropentarn",
 
 					"TTT_Blau1_Bw_Tropentarn",
 					"TTT_Blau2_Bw_Tropentarn",
@@ -63,14 +68,8 @@ class CfgPatches {
 					"TTT_Weiss1_Bw_Tropentarn",
 					"TTT_Weiss2_Bw_Tropentarn",
 					"TTT_Weiss3_Bw_Tropentarn",
-					"TTT_Adler1_Bw_Tropentarn",
-					"TTT_Adler2_Bw_Tropentarn",
-
-					"TTT_Bussard1_Bw_Tropentarn",
-					"TTT_Bussard2_Bw_Tropentarn",
-					"TTT_Habicht1_Bw_Tropentarn",
-					"TTT_Habicht2_Bw_Tropentarn",
-
+					"TTT_Weiss4_Bw_Tropentarn",
+					
 					"TTT_Gelb_Bw_Tropentarn",
 					"TTT_Grau_Bw_Tropentarn",
 					"TTT_Gold_Bw_Tropentarn",
@@ -82,9 +81,8 @@ class CfgPatches {
 					"TTT_Blau_Bw_Tropentarn",
 					"TTT_Violett_Bw_Tropentarn",
 					"TTT_Weiss_Bw_Tropentarn",
-					"TTT_Adler_Bw_Tropentarn",
-					"TTT_Bussard_Bw_Tropentarn",
-					"TTT_Habicht_Bw_Tropentarn",
+					"TTT_Silber_Bw_Tropentarn",
+					"TTT_Platin_Bw_Tropentarn",
 
 					"TTT_Gelb1_Bw_Flecktarn",
 					"TTT_Gelb2_Bw_Flecktarn",
@@ -102,6 +100,8 @@ class CfgPatches {
 					"TTT_Gold2_Bw_Flecktarn",
 					"TTT_Gold3_Bw_Flecktarn",
 					"TTT_Gold4_Bw_Flecktarn",
+					"TTT_Gold5_Bw_Flecktarn",
+					"TTT_Gold6_Bw_Flecktarn",
 
 					"TTT_Gruen1_Bw_Flecktarn",
 					"TTT_Gruen2_Bw_Flecktarn",
@@ -129,6 +129,9 @@ class CfgPatches {
 					"TTT_Bronze1_Bw_Flecktarn",
 					"TTT_Bronze2_Bw_Flecktarn",
 					"TTT_Bronze3_Bw_Flecktarn",
+					"TTT_Bronze4_Bw_Flecktarn",
+					"TTT_Bronze5_Bw_Flecktarn",
+					"TTT_Bronze6_Bw_Flecktarn",
 
 					"TTT_Blau1_Bw_Flecktarn",
 					"TTT_Blau2_Bw_Flecktarn",
@@ -147,14 +150,15 @@ class CfgPatches {
 					"TTT_Weiss1_Bw_Flecktarn",
 					"TTT_Weiss2_Bw_Flecktarn",
 					"TTT_Weiss3_Bw_Flecktarn",
-					"TTT_Adler1_Bw_Flecktarn",
-					"TTT_Adler2_Bw_Flecktarn",
+					"TTT_Weiss4_Bw_Flecktarn",
 
-					"TTT_Bussard1_Bw_Flecktarn",
-					"TTT_Bussard2_Bw_Flecktarn",
-					"TTT_Habicht1_Bw_Flecktarn",
-					"TTT_Habicht2_Bw_Flecktarn",
-
+					"TTT_Silber1_Bw_Flecktarn",
+					"TTT_Silber2_Bw_Flecktarn",
+					"TTT_Silber3_Bw_Flecktarn",
+					"TTT_Silber4_Bw_Flecktarn",
+					"TTT_Silber5_Bw_Flecktarn",
+					"TTT_Silber6_Bw_Flecktarn",
+					
 					"TTT_Gelb_Bw_Flecktarn",
 					"TTT_Grau_Bw_Flecktarn",
 					"TTT_Gold_Bw_Flecktarn",
@@ -164,9 +168,8 @@ class CfgPatches {
 					"TTT_Bronze_Bw_Flecktarn",
 					"TTT_Blau_Bw_Flecktarn",
 					"TTT_Weiss_Bw_Flecktarn",
-					"TTT_Adler_Bw_Flecktarn",
-					"TTT_Bussard_Bw_Flecktarn",
-					"TTT_Habicht_Bw_Flecktarn",
+					"TTT_Silber_Bw_Flecktarn",
+					"TTT_Platin_Bw_Flecktarn",
 
 					"TTT_Logistik_Waffen_Bw",
 					"TTT_Logistik_Spezialwaffen_Bw",

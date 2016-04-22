@@ -982,7 +982,7 @@ class TTT_Silber1_Us_Desert : TTT_Pilot_Base_Us {
     scope = 2;
 	icon = "iconManLeader";
     displayName = "Silber 1 (Truppfuehrer)";
-    vehicleClass = "TTT_Bussard_Us_Desert";
+    vehicleClass = "TTT_Silber_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
 	editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_silver_us_desert.paa" };
@@ -997,7 +997,7 @@ class TTT_Silber2_Us_Desert : TTT_Pilot_Base_Us {
     author = "Tactical Training Team";
     scope = 2;
     displayName = "Silber 2 (Fahrzeugfuehrer)";
-    vehicleClass = "TTT_Bussard_Us_Desert";
+    vehicleClass = "TTT_Silber_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
 	editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_silver_us_desert.paa" };
@@ -1012,7 +1012,7 @@ class TTT_Silber3_Us_Desert : TTT_Pilot_Base_Us {
     author = "Tactical Training Team";
     scope = 2;
     displayName = "Silber 3 (Fahrzeugfuehrer)";
-    vehicleClass = "TTT_Habicht_Us_Desert";
+    vehicleClass = "TTT_Silber_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
 	editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_silver_us_desert.paa" };
@@ -1027,7 +1027,7 @@ class TTT_Silber4_Us_Desert : TTT_Pilot_Base_Us {
     author = "Tactical Training Team";
     scope = 2;
     displayName = "Silber 4 (Fahrzeugfuehrer)";
-    vehicleClass = "TTT_Habicht_Us_Desert";
+    vehicleClass = "TTT_Silber_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
 	editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_silver_us_desert.paa" };
@@ -1042,7 +1042,7 @@ class TTT_Silber5_Us_Desert : TTT_Pilot_Base_Us {
     author = "Tactical Training Team";
     scope = 2;
     displayName = "Silber 5 (Fahrzeugfuehrer)";
-    vehicleClass = "TTT_Habicht_Us_Desert";
+    vehicleClass = "TTT_Silber_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
 	editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_silver_us_desert.paa" };
@@ -1057,7 +1057,7 @@ class TTT_Silber6_Us_Desert : TTT_Pilot_Base_Us {
     author = "Tactical Training Team";
     scope = 2;
     displayName = "Silber 6 (Fahrzeugfuehrer)";
-    vehicleClass = "TTT_Habicht_Us_Desert";
+    vehicleClass = "TTT_Silber_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
 	editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_silver_us_desert.paa" };
@@ -1077,6 +1077,7 @@ class TTT_Silber6_Us_Desert : TTT_Pilot_Base_Us {
 class TTT_Adler1_Us_Desert : TTT_Pilot_Base_Us {
     author = "Tactical Training Team";
     scope = 1;
+	scopeCurator = 1;
     displayName = "Adler 1 (Pilot)";
     vehicleClass = "TTT_Adler_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
@@ -1089,6 +1090,7 @@ class TTT_Adler1_Us_Desert : TTT_Pilot_Base_Us {
 class TTT_Adler2_Us_Desert : TTT_Pilot_Base_Us {
     author = "Tactical Training Team";
     scope = 1;
+	scopeCurator = 1;
     displayName = "Adler 2 (Copilot)";
     vehicleClass = "TTT_Adler_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
@@ -1107,6 +1109,7 @@ class TTT_Adler2_Us_Desert : TTT_Pilot_Base_Us {
 class TTT_Bussard1_Us_Desert : TTT_Pilot_Base_Us {
     author = "Tactical Training Team";
     scope = 1;
+	scopeCurator = 1;
     displayName = "Bussard 1 (Pilot)";
     vehicleClass = "TTT_Bussard_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
@@ -1119,6 +1122,7 @@ class TTT_Bussard1_Us_Desert : TTT_Pilot_Base_Us {
 class TTT_Bussard2_Us_Desert : TTT_Pilot_Base_Us {
     author = "Tactical Training Team";
     scope = 1;
+	scopeCurator = 1;
     displayName = "Bussard 2 (Copilot)";
     vehicleClass = "TTT_Bussard_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
@@ -1137,6 +1141,7 @@ class TTT_Bussard2_Us_Desert : TTT_Pilot_Base_Us {
 class TTT_Habicht1_Us_Desert : TTT_Pilot_Base_Us {
     author = "Tactical Training Team";
     scope = 1;
+	scopeCurator = 1;
     displayName = "Habicht 1 (Pilot)";
     vehicleClass = "TTT_Habicht_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
@@ -1149,6 +1154,7 @@ class TTT_Habicht1_Us_Desert : TTT_Pilot_Base_Us {
 class TTT_Habicht2_Us_Desert : TTT_Pilot_Base_Us {
     author = "Tactical Training Team";
     scope = 1;
+	scopeCurator = 1;
     displayName = "Habicht 2 (Copilot)";
     vehicleClass = "TTT_Habicht_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
