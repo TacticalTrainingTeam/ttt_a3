@@ -1077,7 +1077,8 @@ class TTT_Silber6_Us_Desert : TTT_Pilot_Base_Us {
 class TTT_Adler1_Us_Desert : TTT_Pilot_Base_Us {
     author = "Tactical Training Team";
     scope = 1;
-	scopeCurator = 1;
+	scopeCurator = 0;
+	scopeArsenal = 0;
     displayName = "Adler 1 (Pilot)";
     vehicleClass = "TTT_Adler_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
@@ -1090,7 +1091,8 @@ class TTT_Adler1_Us_Desert : TTT_Pilot_Base_Us {
 class TTT_Adler2_Us_Desert : TTT_Pilot_Base_Us {
     author = "Tactical Training Team";
     scope = 1;
-	scopeCurator = 1;
+	scopeCurator = 0;
+	scopeArsenal = 0;
     displayName = "Adler 2 (Copilot)";
     vehicleClass = "TTT_Adler_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
@@ -1109,7 +1111,8 @@ class TTT_Adler2_Us_Desert : TTT_Pilot_Base_Us {
 class TTT_Bussard1_Us_Desert : TTT_Pilot_Base_Us {
     author = "Tactical Training Team";
     scope = 1;
-	scopeCurator = 1;
+	scopeCurator = 0;
+	scopeArsenal = 0;
     displayName = "Bussard 1 (Pilot)";
     vehicleClass = "TTT_Bussard_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
@@ -1122,7 +1125,8 @@ class TTT_Bussard1_Us_Desert : TTT_Pilot_Base_Us {
 class TTT_Bussard2_Us_Desert : TTT_Pilot_Base_Us {
     author = "Tactical Training Team";
     scope = 1;
-	scopeCurator = 1;
+	scopeCurator = 0;
+	scopeArsenal = 0;
     displayName = "Bussard 2 (Copilot)";
     vehicleClass = "TTT_Bussard_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
@@ -1141,7 +1145,8 @@ class TTT_Bussard2_Us_Desert : TTT_Pilot_Base_Us {
 class TTT_Habicht1_Us_Desert : TTT_Pilot_Base_Us {
     author = "Tactical Training Team";
     scope = 1;
-	scopeCurator = 1;
+	scopeCurator = 0;
+	scopeArsenal = 0;
     displayName = "Habicht 1 (Pilot)";
     vehicleClass = "TTT_Habicht_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
@@ -1154,7 +1159,8 @@ class TTT_Habicht1_Us_Desert : TTT_Pilot_Base_Us {
 class TTT_Habicht2_Us_Desert : TTT_Pilot_Base_Us {
     author = "Tactical Training Team";
     scope = 1;
-	scopeCurator = 1;
+	scopeCurator = 0;
+	scopeArsenal = 0;
     displayName = "Habicht 2 (Copilot)";
     vehicleClass = "TTT_Habicht_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";

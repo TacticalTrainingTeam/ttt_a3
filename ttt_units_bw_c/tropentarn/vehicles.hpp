@@ -1085,7 +1085,8 @@ class TTT_Silber6_Bw_Tropentarn : TTT_Pilot_Base_Bw {
 class TTT_Adler1_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     author = "Tactical Training Team";
     scope = 1;
-	scopeCurator = 1;
+	scopeCurator = 0;
+	scopeArsenal = 0;
     displayName = "Adler 1 (Pilot)";
     vehicleClass = "TTT_Adler_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
@@ -1099,7 +1100,8 @@ class TTT_Adler1_Bw_Tropentarn : TTT_Pilot_Base_Bw {
 class TTT_Adler2_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     author = "Tactical Training Team";
     scope = 1;
-	scopeCurator = 1;
+	scopeCurator = 0;
+	scopeArsenal = 0;
     displayName = "Adler 2 (Copilot)";
     vehicleClass = "TTT_Adler_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
@@ -1119,7 +1121,8 @@ class TTT_Adler2_Bw_Tropentarn : TTT_Pilot_Base_Bw {
 class TTT_Bussard1_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     author = "Tactical Training Team";
     scope = 1;
-	scopeCurator = 1;
+	scopeCurator = 0;
+	scopeArsenal = 0;
     displayName = "Bussard 1 (Pilot)";
     vehicleClass = "TTT_Bussard_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
@@ -1133,7 +1136,8 @@ class TTT_Bussard1_Bw_Tropentarn : TTT_Pilot_Base_Bw {
 class TTT_Bussard2_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     author = "Tactical Training Team";
     scope = 1;
-	scopeCurator = 1;
+	scopeCurator = 0;
+	scopeArsenal = 0;
     displayName = "Bussard 2 (Copilot)";
     vehicleClass = "TTT_Bussard_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
@@ -1146,7 +1150,8 @@ class TTT_Bussard2_Bw_Tropentarn : TTT_Pilot_Base_Bw {
 class TTT_Habicht1_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     author = "Tactical Training Team";
     scope = 1;
-	scopeCurator = 1;
+	scopeCurator = 0;
+	scopeArsenal = 0;
     displayName = "Habicht 1 (Pilot)";
     vehicleClass = "TTT_Habicht_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
@@ -1160,7 +1165,8 @@ class TTT_Habicht1_Bw_Tropentarn : TTT_Pilot_Base_Bw {
 class TTT_Habicht2_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     author = "Tactical Training Team";
     scope = 1;
-	scopeCurator = 1;
+	scopeCurator = 0;
+	scopeArsenal = 0;
     displayName = "Habicht 2 (Copilot)";
     vehicleClass = "TTT_Habicht_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
