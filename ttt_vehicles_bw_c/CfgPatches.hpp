@@ -25,7 +25,9 @@ class CfgPatches {
                     "TTT_Sanitaetsfahrzeug_Bw_Tropentarn",
                     "TTT_Sanitaetsfahrzeug_Bw_Flecktarn",
                     "TTT_TransporterLeichtOffen_Bw_Tropentarn",
-                    "TTT_TransporterLeichtOffen_Bw_Flecktarn"
+                    "TTT_TransporterLeichtOffen_Bw_Flecktarn",
+                    "TTT_Kampfjet_Bw_Tropentarn",
+                    "TTT_Kampfjet_Bw_Flecktarn"
         };
 		weapons[] = {};
 		requiredAddons[] = {"ttt_main","ttt_vehicles_bw"};

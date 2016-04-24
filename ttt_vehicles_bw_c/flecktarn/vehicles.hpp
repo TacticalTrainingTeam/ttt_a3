@@ -148,3 +148,16 @@
         author = "Tactical Training Team";
         displayName = "TTT Aufklaerungsdrohne (BW Flecktarn)";
     };
+
+    /*
+    #############################################################
+    ### TTT Jet
+    #############################################################
+    */
+
+    class TTT_Kampfjet_Bw_Flecktarn : TTT_Kampfjet_Bw_Tropentarn {
+        author = "Tactical Training Team";
+        displayName = "TTT Kampfjet (BW Flecktarn)";
+        crew = "TTT_Platin1_Bw_Flecktarn";
+        hiddenSelectionsTextures[] = { "\ttt_a3\ttt_vehicles_bw\flecktarn\kampfjet\camo1_co.paa", "", "", "", "", "", "" };
+    };
