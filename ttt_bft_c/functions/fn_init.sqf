@@ -60,6 +60,9 @@ _classes = "getText (_x >> 'markerClass') in ['NATO_BLUFOR', 'NATO_OPFOR', 'NATO
             case ("NATO_Independent"): {
                 independent
             };
+            default {
+                west
+            };
         },
         configName _x
     ];
