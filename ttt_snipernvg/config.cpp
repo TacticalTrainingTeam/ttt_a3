@@ -25,7 +25,7 @@ class CfgWeapons
 	class InventoryOpticsItem_Base_F;
 
 	class optic_SOS : ItemCore {	
-		descriptionShort = "x2.5 - x5<br/>NightVision";	
+		descriptionShort = "SOS <br/>NightVision";	
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
 			class OpticsModes
@@ -38,7 +38,7 @@ class CfgWeapons
 		};
 	};
 	class optic_DMS : ItemCore {
-		descriptionShort = "x2-x4<br/>NightVision";
+		descriptionShort = "DMS <br/>NightVision";
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
 			class OpticsModes
@@ -51,7 +51,7 @@ class CfgWeapons
 		};
 	};
 	class optic_LRPS : ItemCore {
-		descriptionShort = "x6-x25<br/>NightVision";
+		descriptionShort = "LRPS <br/>NightVision";
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
 			class OpticsModes
