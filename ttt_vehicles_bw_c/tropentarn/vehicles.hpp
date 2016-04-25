@@ -811,6 +811,7 @@
     class TTT_Kampfjet_Bw_Tropentarn : EAWS_EF2000_GER_SS {
         author = "Tactical Training Team";
         scope = 2;
+        scopeCurator = 2;
         faction = "TTT_faction_Bw";
         vehicleClass = "TTT_Vehicles_Bw";
         displayName = "TTT Kampfjet (BW Tropentarn)";
