@@ -279,8 +279,8 @@ class TTT_Gold5_Us_Desert : TTT_Base_Us {
 	backpack = "TTT_Backpack_Schuetze_Us_Desert";
     items[] = { "rhsusf_acc_anpeq15_light", "rhsusf_acc_ACOG3", "rhsusf_acc_eotech_552", "rhsusf_acc_rotex5_grey", "ACE_NVG_Wide", "ACE_EarPlugs", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     respawnItems[] = { "rhsusf_acc_anpeq15_light", "rhsusf_acc_ACOG3", "rhsusf_acc_eotech_552", "rhsusf_acc_rotex5_grey", "ACE_NVG_Wide", "ACE_EarPlugs", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Grey_Us_Desert", "TTT_Helmet_5_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152", "B_UavTerminal" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Grey_Us_Desert", "TTT_Helmet_5_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152", "B_UavTerminal" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Desert", "TTT_Helmet_5_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152", "B_UavTerminal" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Desert", "TTT_Helmet_5_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152", "B_UavTerminal" };
     weapons[] = { "rhs_weap_mk18_grip2", "rhsusf_weap_m1911a1", "Binocular", "Throw", "Put" };
     respawnWeapons[] = { "rhs_weap_mk18_grip2", "rhsusf_weap_m1911a1", "Binocular", "Throw", "Put" };
     magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag" };
@@ -299,8 +299,8 @@ class TTT_Gold6_Us_Desert : TTT_Base_Us {
 	backpack = "TTT_Backpack_Schuetze_Us_Desert";
     items[] = { "rhsusf_acc_anpeq15_light", "rhsusf_acc_ACOG3", "rhsusf_acc_eotech_552", "rhsusf_acc_rotex5_grey", "ACE_NVG_Wide", "ACE_EarPlugs", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     respawnItems[] = { "rhsusf_acc_anpeq15_light", "rhsusf_acc_ACOG3", "rhsusf_acc_eotech_552", "rhsusf_acc_rotex5_grey", "ACE_NVG_Wide", "ACE_EarPlugs", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
-    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Grey_Us_Desert", "TTT_Helmet_6_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152", "B_UavTerminal" };
-    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Grey_Us_Desert", "TTT_Helmet_6_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152", "B_UavTerminal" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Desert", "TTT_Helmet_6_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152", "B_UavTerminal" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Desert", "TTT_Helmet_6_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152", "B_UavTerminal" };
     weapons[] = { "rhs_weap_mk18_grip2", "rhsusf_weap_m1911a1", "Binocular", "Throw", "Put" };
     respawnWeapons[] = { "rhs_weap_mk18_grip2", "rhsusf_weap_m1911a1", "Binocular", "Throw", "Put" };
     magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag" };

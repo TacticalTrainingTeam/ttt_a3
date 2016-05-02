@@ -10,6 +10,8 @@ class CfgWeapons {
     class V_PlateCarrier1_rgr : Vest_NoCamo_Base{ class ItemInfo; };	// External class reference
 
     class V_TacVest_brn;
+	
+	class BWA3_CrewmanKSK_Tropen_Headset;
 
     #include "misc\weapons.hpp"
 };

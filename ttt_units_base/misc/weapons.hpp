@@ -61,6 +61,47 @@ class TTT_Helmet_Eagle : TTT_Helmet_Base {
     };
 };
 
+class TTT_Helmet1_Vehiclecrew : BWA3_CrewmanKSK_Tropen_Headset {
+    scope = 2;
+	author = "Tactical Training Team";
+	displayName = "TTT Helm I (Fahrzeugcrew)";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\misc\TTT_helmet_1_vehiclecrew.paa" };
+}
+
+class TTT_Helmet2_Vehiclecrew : BWA3_CrewmanKSK_Tropen_Headset {
+    scope = 2;
+	author = "Tactical Training Team";
+	displayName = "TTT Helm II (Fahrzeugcrew)";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\misc\TTT_helmet_2_vehiclecrew.paa" };
+}
+
+class TTT_Helmet3_Vehiclecrew : BWA3_CrewmanKSK_Tropen_Headset {
+    scope = 2;
+	author = "Tactical Training Team";
+	displayName = "TTT Helm III (Fahrzeugcrew)";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\misc\TTT_helmet_3_vehiclecrew.paa" };
+}
+
+class TTT_Helmet4_Vehiclecrew : BWA3_CrewmanKSK_Tropen_Headset {
+    scope = 2;
+	author = "Tactical Training Team";
+	displayName = "TTT Helm IV (Fahrzeugcrew)";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\misc\TTT_helmet_4_vehiclecrew.paa" };
+}
+
+class TTT_Helmet5_Vehiclecrew : BWA3_CrewmanKSK_Tropen_Headset {
+    scope = 2;
+	author = "Tactical Training Team";
+	displayName = "TTT Helm V (Fahrzeugcrew)";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\misc\TTT_helmet_5_vehiclecrew.paa" };
+}
+
+class TTT_Helmet6_Vehiclecrew : BWA3_CrewmanKSK_Tropen_Headset {
+    scope = 2;
+	author = "Tactical Training Team";
+	displayName = "TTT Helm VI (Fahrzeugcrew)";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\misc\TTT_helmet_6_vehiclecrew.paa" };
+}
 
 /*
 #############################################################

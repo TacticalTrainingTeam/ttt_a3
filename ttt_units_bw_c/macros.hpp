@@ -24,3 +24,6 @@
 	item_xx(ACE_packingBandage,5);\
 	item_xx(ACE_tourniquet,2);\
 	item_xx(ACE_morphine,1)
+	
+/// Vest Config
+#define get_vest(army,group,kind,camo) TTT_Vest_##kind_##group_##army_##camo
