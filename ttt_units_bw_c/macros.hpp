@@ -26,4 +26,7 @@
 	item_xx(ACE_morphine,1)
 	
 /// Vest Config
-#define get_vest(army,group,kind,camo) TTT_Vest_##kind_##group_##army_##camo
+#define get_vest(army,group,kind,camo) get_vest1(army,group,kind)_##camo
+#define get_vest1(army,group,kind) get_vest2(army,group)_##army
+#define get_vest2(army,group) get_vest3(army)_##group
+#define get_vest3(army) TTT_Vest_##kind
