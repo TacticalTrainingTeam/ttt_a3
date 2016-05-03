@@ -14,25 +14,10 @@
 		};
 		
 		class TransportWeapons {
-			class _xx_BWA3_G36_equipped {
-				weapon = "BWA3_G36_equipped";
-				count = 4;
-			};
-			
-			class _xx_BWA3_MG5_Tan_equipped {
-				weapon = "BWA3_MG5_Tan_equipped";
-				count = 1;
-			};
-			
-			class _xx_BWA3_MG4_equipped {
-				weapon = "BWA3_MG4_equipped";
-				count = 1;
-			};
-			
-			class _xx_BWA3_G36_AG_equipped {
-				weapon = "BWA3_G36_AG_equipped";
-				count = 2;
-			};
+			weap_xx(BWA3_G36_equipped,4);
+			weap_xx(BWA3_MG5_Tan_equipped,1);
+			weap_xx(BWA3_MG4_equipped,2);
+			weap_xx(BWA3_G36_AG_equipped,2);
 		};
 		
 		class TransportBackpacks{
@@ -52,20 +37,9 @@
 		};
 		
 		class TransportWeapons {
-			class _xx_BWA3_G27_AG_equipped {
-				weapon = "BWA3_G27_AG_equipped";
-				count = 1;
-			};
-			
-			class _xx_BWA3_G28_Standard_equipped {
-				weapon = "BWA3_G28_Standard_equipped";
-				count = 1;
-			};
-			
-			class _xx_srifle_LRR_LRPS_F {
-				weapon = "srifle_LRR_LRPS_F";
-				count = 1;
-			};
+			weap_xx(BWA3_G27_AG_equipped,1);
+			weap_xx(BWA3_G28_Standard_equipped,1);
+			weap_xx(BWA3_G82_equipped,1);
 		};
 		
 		class TransportItems {
@@ -82,35 +56,12 @@
 		transportMaxMagazines = 99;
 		
 		class TransportMagazines {
-			class _xx_BWA3_30Rnd_556x45_G36_AP {
-				magazine = "BWA3_30Rnd_556x45_G36_AP";
-				count = 36;
-			};
-			
-			class _xx_BWA3_120Rnd_762x51 {
-				magazine = "BWA3_120Rnd_762x51";
-				count = 4;
-			};
-			
-			class _xx_BWA3_200Rnd_556x45 {
-				magazine = "BWA3_200Rnd_556x45";
-				count = 4;
-			};
-			
-			class _xx_1Rnd_Smoke_Grenade_shell {
-				count = 6;
-				magazine = "1Rnd_Smoke_Grenade_shell";
-			};
-			
-			class _xx_1Rnd_SmokeRed_Grenade_shell {
-				count = 6;
-				magazine = "1Rnd_SmokeRed_Grenade_shell";
-			};
-			
-			class _xx_1Rnd_HE_Grenade_shell {
-				count = 12;
-				magazine = "1Rnd_HE_Grenade_shell";
-			};		
+			mag_xx(BWA3_30Rnd_556x45_G36_AP,36);
+			mag_xx(BWA3_120Rnd_762x51,4);
+			mag_xx(BWA3_200Rnd_556x45,4);
+			mag_xx(1Rnd_Smoke_Grenade_shell,6);
+			mag_xx(1Rnd_SmokeRed_Grenade_shell,6);
+			mag_xx(1Rnd_HE_Grenade_shell,12);	
 		};
 		
 		class TransportWeapons {
@@ -130,40 +81,13 @@
 		transportMaxMagazines = 99;
 		
 		class TransportMagazines {
-			class _xx_BWA3_30Rnd_556x45_G36_SD {
-				magazine = "BWA3_30Rnd_556x45_G36_SD";
-				count = 24;
-			};
-			
-			class _xx_BWA3_20Rnd_762x51_G28_AP {
-				magazine = "BWA3_20Rnd_762x51_G28_AP";
-				count = 6;
-			};
-			
-			class _xx_BWA3_20Rnd_762x51_G28_SD {
-				magazine = "BWA3_20Rnd_762x51_G28_SD";
-				count = 6;
-			};
-			
-			class _xx_BWA3_10Rnd_762x51_G28_AP {
-				magazine = "BWA3_10Rnd_762x51_G28_AP";
-				count = 6;
-			};
-			
-			class _xx_BWA3_10Rnd_762x51_G28_SD {
-				magazine = "BWA3_10Rnd_762x51_G28_SD";
-				count = 6;
-			};
-			
-			class _xx_BWA3_10Rnd_762x51_G28_LR {
-				magazine = "BWA3_10Rnd_762x51_G28_LR";
-				count = 6;
-			};
-			
-			class _xx_7Rnd_408_Mag {
-				magazine = "7Rnd_408_Mag";
-				count = 6;
-			};
+			mag_xx(BWA3_30Rnd_556x45_G36_SD,24);
+			mag_xx(BWA3_20Rnd_762x51_G28_AP,6);
+			mag_xx(BWA3_20Rnd_762x51_G28_SD,6);
+			mag_xx(BWA3_10Rnd_762x51_G28_AP,6);
+			mag_xx(BWA3_10Rnd_762x51_G28_SD,6);
+			mag_xx(BWA3_10Rnd_762x51_G28_LR,6);
+			mag_xx(7Rnd_408_Mag,6);
 		};
 		
 		class TransportWeapons {
@@ -183,43 +107,19 @@
 		transportMaxMagazines = 99;
 		
 		class TransportMagazines {
-
-			class _xx_APERSBoundingMine_Range_Mag {
-				magazine = "APERSBoundingMine_Range_Mag";
-				count = 4;
-			};
-			
-			class _xx_SLAMDirectionalMine_Wire_Mag {
-				magazine = "SLAMDirectionalMine_Wire_Mag";
-				count = 4;
-			};
-			
-			class _xx_DemoCharge_Remote_Mag {
-				magazine = "DemoCharge_Remote_Mag";
-				count = 4;
-			};
+			mag_xx(APERSBoundingMine_Range_Mag,4);			
+			mag_xx(SLAMDirectionalMine_Wire_Mag,4);			
+			mag_xx(DemoCharge_Remote_Mag,4);			
 		};
 		
 		class TransportWeapons {
 		};
 		
 		class TransportItems {
-			class _xx_MineDetector {
-				name = "MineDetector";
-				count = 2;
-			};
-			class _xx_Toolkit {
-				name = "Toolkit";
-				count = 2;
-			};
-            class _xx_ACE_DefusalKit {
-                name = "ACE_DefusalKit";
-                count = 2;
-            };
-            class _xx_ACE_M26_Clacker {
-                name = "ACE_M26_Clacker";
-                count = 2;
-            };
+			item_xx(MineDetector,2);
+			item_xx(Toolkit,2);
+			item_xx(ACE_DefusalKit,2);
+			item_xx(ACE_M26_Clacker,2);
 		};
 		
 		class TransportBackpacks{
@@ -233,45 +133,20 @@
 		transportMaxMagazines = 99;
 		
 		class TransportMagazines {
-			class _xx_SmokeShell {
-				magazine = "SmokeShell";
-				count = 12;
-			};
-			
-			class _xx_SmokeShellRed {
-				magazine = "SmokeShellRed";
-				count = 12;
-			};
-			
-			class _xx_SmokeShellGreen {
-				magazine = "SmokeShellGreen";
-				count = 12;
-			};
-			
-			class _xx_SmokeShellPurple {
-				magazine = "SmokeShellPurple";
-				count = 12;
-			};
-			
-			class _xx_ACE_HandFlare_Green {
-				magazine = "ACE_HandFlare_Green";
-				count = 12;
-			};
-					
-			class _xx_ACE_M84 {
-				magazine = "ACE_M84";
-				count = 12;
-			};
+			mag_xx(SmokeShell,12);
+			mag_xx(SmokeShellRed,12);
+			mag_xx(SmokeShellGreen,12);
+			mag_xx(SmokeShellPurple,12);
+			mag_xx(ACE_HandFlare_Green,12);
+			mag_xx(ACE_M84,12);
 		};
 		
 		class TransportWeapons {
 		};
 		
 		class TransportItems {
-			class _xx_ACE_IR_Strobe_Item {
-				name = "ACE_IR_Strobe_Item";
-				count = 12;
-			};			};
+			item_xx(ACE_IR_Strobe_Item,12);		
+		};
 		
 		class TransportBackpacks{
 		};
@@ -284,147 +159,39 @@
 		transportMaxMagazines = 99;
 		
 		class TransportMagazines {
-			class _xx_Laserbatteries {
-				magazine = "Laserbatteries";
-				count = 1;
-			};
+			mag_xx(Laserbatteries,1);
 		};
 		
 		class TransportWeapons {
 		};
 		
 		class TransportItems {
-			class _xx_ACE_microDAGR {
-				name = "ACE_microDAGR";
-				count = 1;
-			};
-			
-			class _xx_Binocular {
-				name = "Binocular";
-				count = 5;
-			};
-			
-			class _xx_ACE_Yardage450 {
-				name = "ACE_Yardage450";
-				count = 3;
-			};
-			
-			class _xx_ACE_Vector {
-				name = "ACE_Vector";
-				count = 1;
-			};
-			
-			class _xx_Laserdesignator {
-				name = "Laserdesignator";
-				count = 1;
-			};
-			
-			class _xx_optic_LRPS {
-				name = "optic_LRPS";
-				count = 1;
-			};
-			
-			class _xx_ACE_DK10_b {
-				name = "ACE_DK10_b";
-				count = 2;
-			};
-			
-			class _xx_BWA3_muzzle_snds_G28 {
-				name = "BWA3_muzzle_snds_G28";
-				count = 1;
-			};
-			
-			class _xx_BWA3_muzzle_snds_G36 {
-				name = "BWA3_muzzle_snds_G36";
-				count = 6;
-			};
-			
-			class _xx_BWA3_acc_LLM01_irlaser {
-				name = "BWA3_acc_LLM01_irlaser";
-				count = 6;
-			};
-			
-			class _xx_BWA3_optic_NSA80 {
-				name = "BWA3_optic_NSA80";
-				count = 2;
-			};
-			
-			class _xx_BWA3_optic_NSV600 {
-				name = "BWA3_optic_NSV600";
-				count = 6;
-			};
-			
-			class _xx_BWA3_optic_20x50 {
-				name = "BWA3_optic_20x50";
-				count = 1;
-			};
-			
-			class _xx_BWA3_optic_Shortdot {
-				name = "BWA3_optic_Shortdot";
-				count = 1;
-			};
-			
-			class _xx_BWA3_optic_ZO4x30 {
-				name = "BWA3_optic_ZO4x30";
-				count = 6;
-			};
-			
-			class _xx_B_UavTerminal {
-				name = "B_UavTerminal";
-				count = 1;
-			};
-			
-			class _xx_ItemMap {
-				name = "ItemMap";
-				count = 6;
-			};
-			
-			class _xx_ItemCompass {
-				name = "ItemCompass";
-				count = 6;
-			};
-			
-			class _xx_tf_anprc152 {
-				name = "tf_anprc152";
-				count = 6;
-			};
-			
-			class _xx_ACE_ATragMX {
-				name = "ACE_ATragMX";
-				count = 2;
-			};
-			
-			class _xx_ACE_Kestrel4500 {
-				name = "ACE_Kestrel4500";
-				count = 2;
-			};
-			
-			class _xx_ACE_CableTie {
-				name = "ACE_CableTie";
-				count = 3;
-			};
-			
-			class _xx_ACE_UAVBattery {
-				name = "ACE_UAVBattery";
-				count = 2;
-			};
+			item_xx(ACE_microDAGR,1);
+			item_xx(Binocular,5);
+			item_xx(ACE_Yardage450,3);
+			item_xx(Laserdesignator,1);
+			item_xx(ACE_Vector,1);
+			item_xx(optic_LRPS,1);
+			item_xx(ACE_DK10_b,2);
+			item_xx(BWA3_muzzle_snds_G28,1);
+			item_xx(BWA3_muzzle_snds_G36,6);
+			item_xx(BWA3_acc_LLM01_irlaser,6);
+			item_xx(BWA3_optic_NSA80,2);
+			item_xx(BWA3_optic_NSV600,6);
+			item_xx(BWA3_optic_20x50,1);
+			item_xx(BWA3_optic_Shortdot,1);
+			item_xx(BWA3_optic_ZO4x30,6);
+			item_xx(B_UavTerminal,1);
+			item_xx(ACE_ATragMX,2);
+			item_xx(ACE_Kestrel4500,2);
+			item_xx(ACE_CableTie,5);
+			item_xx(ACE_UAVBattery,2);
 		};
 		
 		class TransportBackpacks { 
-			class _xx_TTT_Backpack_Funkerfac_Bw_Tropentarn {
-				backpack = "TTT_Backpack_Funkerfac_Bw_Tropentarn";
-				count = 1;
-			};
-			
-			class _xx_TTT_Backpack_Funkerfac_Bw_Flecktarn {
-				backpack = "TTT_Backpack_Funkerfac_Bw_Flecktarn";
-				count = 1;
-			};
-			
-			class _xx_B_UAV_01_backpack_F {
-				backpack = "B_UAV_01_backpack_F";
-				count = 1;
-			};
+			backpack_xx(TTT_Backpack_Funkerfac_Bw_Tropentarn,1);
+			backpack_xx(TTT_Backpack_Funkerfac_Bw_Flecktarn,1);
+			backpack_xx(B_UAV_01_backpack_F,1);
 		};
 	};
 	
@@ -438,15 +205,8 @@
 		};
 		
 		class TransportWeapons {
-			class _xx_BWA3_Pzf3 {
-				weapon = "BWA3_Pzf3";
-				count = 2;
-			};
-			
-			class _xx_BWA3_Fliegerfaust {
-				weapon = "BWA3_Fliegerfaust";
-				count = 2;
-			};
+			weap_xx(BWA3_Pzf3,2);
+			weap_xx(BWA3_Fliegerfaust,2);
 		};
 		
 		class TransportItems {
@@ -463,15 +223,8 @@
 		transportMaxMagazines = 99;
 		
 		class TransportMagazines {
-			class _xx_BWA3_Pzf3_IT {
-				magazine = "BWA3_Pzf3_IT";
-				count = 2;
-			};
-			
-			class _xx_BWA3_Fliegerfaust_Mag {
-				magazine = "BWA3_Fliegerfaust_Mag";
-				count = 4;
-			};
+			mag_xx(BWA3_Pzf3_IT,2);
+			mag_xx(BWA3_Fliegerfaust_Mag,2);
 		};
 		
 		class TransportWeapons {
@@ -501,70 +254,19 @@
 		};
 		
 		class TransportItems {
-			class _xx_ACE_fieldDressing {
-				name = "ACE_fieldDressing";
-				count = 20;
-			};
-			
-			class _xx_ACE_packingBandage {
-				name = "ACE_packingBandage";
-				count = 75;
-			};
-			
-			class _xx_ACE_tourniquet {
-				name = "ACE_tourniquet";
-				count = 10;
-			};
-				
-			class _xx_ACE_salineIV {
-				name = "ACE_salineIV";
-				count = 20;
-			};
-				
-			class _xx_ACE_salineIV_500 {
-				name = "ACE_salineIV_500";
-				count = 20;
-			};
-				
-			class _xx_ACE_morphine {
-				name = "ACE_morphine";
-				count = 15;
-			};
-				
-			class _xx_ACE_epinephrine {
-				name = "ACE_epinephrine";
-				count = 15;
-			};
-				
-			class _xx_ACE_atropine {
-				name = "ACE_atropine";
-				count = 10;
-			};
-				
-			class _xx_ACE_quikclot {
-				name = "ACE_quikclot";
-				count = 20;
-			};
-								
-			class _xx_ACE_elasticBandage {
-				name = "ACE_elasticBandage";
-				count = 75;
-			};
-								
-			class _xx_ACE_personalAidKit {
-				name = "ACE_personalAidKit";
-				count = 15;
-			};
-				
-			class _xx_ACE_surgicalKit {
-				name = "ACE_surgicalKit";
-				count = 15;
-			};
-				
-			class _xx_ACE_bodyBag {
-				name = "ACE_bodyBag";
-				count = 10;
-			};
+			item_xx(ACE_quikclot,20);
+			item_xx(ACE_fieldDressing,20);
+			item_xx(ACE_packingBandage,75);
+			item_xx(ACE_elasticBandage,75);
+			item_xx(ACE_salineIV,20);
+			item_xx(ACE_salineIV_500,20);
+			item_xx(ACE_morphine,15);
+			item_xx(ACE_epinephrine,15);
+			item_xx(ACE_atropine,10);
+			item_xx(ACE_surgicalKit,15);
+			item_xx(ACE_personalAidKit,15);
+			item_xx(ACE_tourniquet,10);
+			item_xx(ACE_bodyBag,10);
 		};
 	};
 	
@@ -584,25 +286,10 @@
 		};
 		
 		class TransportBackpacks {
-			class _xx_TTT_Backpack_Gefechtssanitaeter_Bw_Flecktarn {
-				backpack = "TTT_Backpack_Gefechtssanitaeter_Bw_Flecktarn";
-				count = 4;			
-			};
-			
-			class _xx_TTT_Backpack_Gefechtssanitaeter_Bw_Tropentarn {
-				backpack = "TTT_Backpack_Gefechtssanitaeter_Bw_Tropentarn";
-				count = 4;			
-			};
-			
-			class _xx_TTT_Backpack_Feldarzt_Bw_Tropentarn {
-				backpack = "TTT_Backpack_Feldarzt_Bw_Tropentarn";
-				count = 4;			
-			};
-			
-			class _xx_TTT_Backpack_Feldarzt_Bw_Flecktarn {
-				backpack = "TTT_Backpack_Feldarzt_Bw_Flecktarn";
-				count = 4;			
-			};
+			backpack_xx(TTT_Backpack_Gefechtssanitaeter_Bw_Flecktarn,4);
+			backpack_xx(TTT_Backpack_Gefechtssanitaeter_Bw_Tropentarn,4);
+			backpack_xx(TTT_Backpack_Feldarzt_Bw_Tropentarn,4);
+			backpack_xx(TTT_Backpack_Feldarzt_Bw_Flecktarn,4);
 		};
 			
 	};
