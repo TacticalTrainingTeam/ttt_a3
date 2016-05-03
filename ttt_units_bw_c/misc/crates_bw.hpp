@@ -37,8 +37,8 @@
 		};
 		
 		class TransportWeapons {
-			weap_xx(BWA3_G27_AG_equipped,1);
-			weap_xx(BWA3_G28_Standard_equipped,1);
+			weap_xx(BWA3_G27_AG_equipped,2);
+			weap_xx(BWA3_G28_Standard_equipped,2);
 			weap_xx(BWA3_G82_equipped,1);
 		};
 		
@@ -57,7 +57,7 @@
 		
 		class TransportMagazines {
 			mag_xx(BWA3_30Rnd_556x45_G36_AP,36);
-			mag_xx(BWA3_120Rnd_762x51,4);
+			mag_xx(BWA3_120Rnd_762x51,6);
 			mag_xx(BWA3_200Rnd_556x45,4);
 			mag_xx(1Rnd_Smoke_Grenade_shell,6);
 			mag_xx(1Rnd_SmokeRed_Grenade_shell,6);
@@ -84,9 +84,9 @@
 			mag_xx(BWA3_30Rnd_556x45_G36_SD,24);
 			mag_xx(BWA3_20Rnd_762x51_G28_AP,6);
 			mag_xx(BWA3_20Rnd_762x51_G28_SD,6);
-			mag_xx(BWA3_10Rnd_762x51_G28_AP,6);
-			mag_xx(BWA3_10Rnd_762x51_G28_SD,6);
 			mag_xx(BWA3_10Rnd_762x51_G28_LR,6);
+			mag_xx(BWA3_10Rnd_127x99_G82_AP,6);
+			mag_xx(BWA3_10Rnd_127x99_G82_Raufoss,2);
 			mag_xx(7Rnd_408_Mag,6);
 		};
 		
