@@ -26,8 +26,11 @@
 	item_xx(ACE_tourniquet,2);\
 	item_xx(ACE_morphine,1)
 	
-/// Vest Config
-#define get_vest(army,group,kind,camo) get_vest1(army,group,kind)_##camo
-#define get_vest1(army,group,kind) get_vest2(army,group)_##army
-#define get_vest2(army,group) get_vest3(army)_##group
-#define get_vest3(army) TTT_Vest_##kind
+/// Vest Config ///
+#define get_vest(army,group,kind,camo) get_str(append_dummy(append_dummy(append_dummy(TTT_Vest_##kind)_##group)_##army)_##camo)
+
+/// Stringification Marco ///
+#define get_str(string) #string
+
+///Dummy Marco for Appending Strings ///
+#define append_dummy(str) str
