@@ -29,7 +29,7 @@
 	
 	class TTT_Logistik_Spezialwaffen_Bw : Box_NATO_WpsSpecial_F {
 		author = "Tactical Training Team";
-		displayName = "TTT Spezialwaffen";
+		displayName = "TTT Spezialwaffen (BW)";
 		transportMaxWeapons = 99;
 		transportMaxMagazines = 99;
 		
@@ -51,7 +51,7 @@
 	
 	class TTT_Logistik_Standardmunition_Bw : Box_NATO_Ammo_F {
 		author = "Tactical Training Team";
-		displayName = "TTT Standardmunition";
+		displayName = "TTT Standardmunition (BW)";
 		transportMaxWeapons = 99;
 		transportMaxMagazines = 99;
 		
@@ -76,18 +76,15 @@
 	
 	class TTT_Logistik_Spezialmunition_Bw : Box_NATO_Ammo_F {
 		author = "Tactical Training Team";
-		displayName = "TTT Spezialmunition";
+		displayName = "TTT Spezialmunition (BW)";
 		transportMaxWeapons = 99;
 		transportMaxMagazines = 99;
 		
 		class TransportMagazines {
-			mag_xx(BWA3_30Rnd_556x45_G36_SD,24);
-			mag_xx(BWA3_20Rnd_762x51_G28_AP,6);
-			mag_xx(BWA3_20Rnd_762x51_G28_SD,6);
-			mag_xx(BWA3_10Rnd_762x51_G28_LR,6);
+			mag_xx(BWA3_20Rnd_762x51_G28_AP,30);
+			mag_xx(BWA3_10Rnd_762x51_G28_AP,6);
 			mag_xx(BWA3_10Rnd_127x99_G82_AP,6);
 			mag_xx(BWA3_10Rnd_127x99_G82_Raufoss,2);
-			mag_xx(7Rnd_408_Mag,6);
 		};
 		
 		class TransportWeapons {
@@ -120,6 +117,8 @@
 			item_xx(Toolkit,2);
 			item_xx(ACE_DefusalKit,2);
 			item_xx(ACE_M26_Clacker,2);
+			item_xx(ACE_EntrenchingTool,2);
+			item_xx(ACE_wirecutter,2);
 		};
 		
 		class TransportBackpacks{
@@ -186,6 +185,8 @@
 			item_xx(ACE_Kestrel4500,2);
 			item_xx(ACE_CableTie,5);
 			item_xx(ACE_UAVBattery,2);
+			item_xx(ACE_EntrenchingTool,6);
+			item_xx(ACE_Tripod,2);
 		};
 		
 		class TransportBackpacks { 
@@ -197,11 +198,13 @@
 	
 	class TTT_Logistik_Werfer_Bw : Box_NATO_WpsLaunch_F {
 		author = "Tactical Training Team";
-		displayName = "TTT Werfer BW";
+		displayName = "TTT Werfer (BW)";
 		transportMaxWeapons = 99;
 		transportMaxMagazines = 99;
 		
 		class TransportMagazines {
+			mag_xx(BWA3_Pzf3_IT,2);
+			mag_xx(BWA3_Fliegerfaust_Mag,2);			
 		};
 		
 		class TransportWeapons {
@@ -223,8 +226,8 @@
 		transportMaxMagazines = 99;
 		
 		class TransportMagazines {
-			mag_xx(BWA3_Pzf3_IT,2);
-			mag_xx(BWA3_Fliegerfaust_Mag,2);
+			mag_xx(BWA3_Pzf3_IT,4);
+			mag_xx(BWA3_Fliegerfaust_Mag,4);
 		};
 		
 		class TransportWeapons {
