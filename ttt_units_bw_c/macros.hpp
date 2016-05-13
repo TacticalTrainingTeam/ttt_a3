@@ -1,5 +1,4 @@
 /// item macros definition ///
- 
 #define item_2(a) a, a
 #define item_3(a) a, a, a
 #define item_4(a) a, a, a, a
@@ -13,11 +12,15 @@
 #define item_12(a) a, a, a, a, a, a, a, a, a, a, a, a
 
 /// Equipment list macros definition ///
- 
-#define mag_xx(a,b) class _xx_##a {magazine = a; count = b;}
-#define weap_xx(a,b) class _xx_##a {weapon = a; count = b;}
-#define item_xx(a,b) class _xx_##a {name = a; count = b;}
-#define backpack_xx(a,b) class _xx_##a {backpack = a; count = b;}
+#define mag_xx(a,b) class _xx_##a {magazine = #a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = #a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = #a; count = b;}
+#define backpack_xx(a,b) class _xx_##a {backpack = #a; count = b;}
+
+/// Standardausrüstung ///
+#define default_weapons "Throw", "Put"
+#define default_linkedItems "BWA3_G_Combat_Clear", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" 
+#define default_ace_items "ACE_NVG_Wide", item_2(ACE_IR_Strobe_Item), "ACE_MapTools", "ACE_Flashlight_MX991"
 
 /// Backpack Medic Stuff ///		
 #define backpack_medic_supply_standard \

@@ -107,7 +107,7 @@ class TTT_Lmgschuetze_Base_Bw : TTT_Base_Bw {
     icon = "iconManMG";
     vehicleClass = "TTT_Template_Bw";
     uniformClass = "TTT_Uniform_Base_Bw";
-    backpack = "TTT_Backpack_Mgschuetze_Bw_Tropentarn";
+    backpack = "TTT_Backpack_Schuetze_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { "BWA3_optic_NSV600", "ACE_NVG_Wide", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     respawnitems[] = { "BWA3_optic_NSV600", "ACE_NVG_Wide", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };

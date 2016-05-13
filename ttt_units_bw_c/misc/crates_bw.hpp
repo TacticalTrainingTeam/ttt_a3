@@ -83,8 +83,8 @@
 		class TransportMagazines {
 			mag_xx(BWA3_20Rnd_762x51_G28_AP,30);
 			mag_xx(BWA3_10Rnd_762x51_G28_AP,6);
-			mag_xx(BWA3_10Rnd_127x99_G82_AP,6);
-			mag_xx(BWA3_10Rnd_127x99_G82_Raufoss,2);
+			mag_xx(BWA3_10Rnd_127x99_G82_AP,4);
+			mag_xx(BWA3_10Rnd_127x99_G82_Raufoss,1);
 		};
 		
 		class TransportWeapons {
@@ -117,7 +117,6 @@
 			item_xx(Toolkit,2);
 			item_xx(ACE_DefusalKit,2);
 			item_xx(ACE_M26_Clacker,2);
-			item_xx(ACE_EntrenchingTool,2);
 			item_xx(ACE_wirecutter,2);
 		};
 		
