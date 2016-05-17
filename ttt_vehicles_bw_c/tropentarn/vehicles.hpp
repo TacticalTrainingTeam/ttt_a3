@@ -15,140 +15,13 @@
 		typicalCargo[] = {};
 		
 		class TransportWeapons {
-			
-			//Werfer
-			class _xx_BWA3_Pzf3 {
-				weapon = "BWA3_Pzf3";
-				count = 2;
-			};
-			
-			class _xx_BWA3_Fliegerfaust {
-				weapon = "BWA3_Fliegerfaust";
-				count = 2;
-			};
-			
 		};
 		class TransportItems {
-			
-			//Sanitaetsmaterial
-			class _xx_ACE_elasticBandage {
-				name = "ACE_elasticBandage";
-				count = 15;
-			};
-			
-			class _xx_ACE_packingBandage {
-				name = "ACE_packingBandage";
-				count = 10;
-			};
-			
-			class _xx_ACE_UAVBattery {
-				name = "ACE_UAVBattery";
-				count = 2;
-			};
-            class _xx_ACE_IR_Strobe_Item {
-                name = "ACE_IR_Strobe_Item";
-                count = 6;
-            };
+			item_xx(ToolKit,1);
 		};
 		class TransportMagazines {
-			
-			//Standardmunition
-			class _xx_BWA3_30Rnd_556x45_G36_AP {
-				magazine = "BWA3_30Rnd_556x45_G36_AP";
-				count = 10;
-			};
-			
-			class _xx_BWA3_120Rnd_762x51 {
-				magazine = "BWA3_120Rnd_762x51";
-				count = 5;
-			};
-			
-			class _xx_BWA3_200Rnd_556x45 {
-				magazine = "BWA3_200Rnd_556x45";
-				count = 5;
-			};
-			
-			class _xx_1Rnd_Smoke_Grenade_shell {
-				count = 10;
-				magazine = "1Rnd_Smoke_Grenade_shell";
-			};
-			
-			class _xx_1Rnd_SmokeRed_Grenade_shell {
-				count = 10;
-				magazine = "1Rnd_SmokeRed_Grenade_shell";
-			};
-			
-			class _xx_1Rnd_HE_Grenade_shell {
-				count = 10;
-				magazine = "1Rnd_HE_Grenade_shell";
-			};
-			
-			class _xx_UGL_FlareRed_F {
-				count = 5;
-				magazine = "UGL_FlareRed_F";
-			};		
-			
-			//Spezialmunition
-			class _xx_BWA3_30Rnd_556x45_G36_SD {
-				magazine = "BWA3_30Rnd_556x45_G36_SD";
-				count = 10;
-			};
-				
-			class _xx_7Rnd_408_Mag {
-				magazine = "7Rnd_408_Mag";
-				count = 6;
-			};
-			
-			//Pionierabwruestung			
-			class _xx_SLAMDirectionalMine_Wire_Mag {
-				magazine = "SLAMDirectionalMine_Wire_Mag";
-				count = 2;
-			};
-			
-			class _xx_DemoCharge_Remote_Mag {
-				magazine = "DemoCharge_Remote_Mag";
-				count = 4;
-			};
-			
-			//Granaten
-			class _xx_SmokeShell {
-				magazine = "SmokeShell";
-				count = 6;
-			};
-			
-			class _xx_SmokeShellRed {
-				magazine = "SmokeShellRed";
-				count = 6;
-			};
-			
-			class _xx_SmokeShellGreen {
-				magazine = "SmokeShellGreen";
-				count = 6;
-			};
-			
-			class _xx_SmokeShellPurple {
-				magazine = "SmokeShellPurple";
-				count = 6;
-			};
-			
-			class _xx_ACE_HandFlare_Green {
-				magazine = "ACE_HandFlare_Green";
-				count = 6;
-			};
-			
-			class _xx_ACE_M84 {
-				magazine = "ACE_M84";
-				count = 6;
-			};
-			
-			//Werfermunition	
-			class _xx_BWA3_Fliegerfaust_Mag {
-				magazine = "BWA3_Fliegerfaust_Mag";
-				count = 2;
-			};		
 		};
 		class TransportBackpacks {
-			
 		};
 	};
 
@@ -164,140 +37,13 @@
 		typicalCargo[] = {};
 
 		class TransportWeapons {
-			
-			//Werfer
-			class _xx_BWA3_Pzf3 {
-				weapon = "BWA3_Pzf3";
-				count = 2;
-			};
-			
-			class _xx_BWA3_Fliegerfaust {
-				weapon = "BWA3_Fliegerfaust";
-				count = 2;
-			};
-			
 		};
 		class TransportItems {
-			
-			//Sanitaetsmaterial
-			class _xx_ACE_elasticBandage {
-				name = "ACE_elasticBandage";
-				count = 15;
-			};
-			
-			class _xx_ACE_packingBandage {
-				name = "ACE_packingBandage";
-				count = 10;
-			};
-			
-			class _xx_ACE_UAVBattery {
-				name = "ACE_UAVBattery";
-				count = 2;
-			};
-            class _xx_ACE_IR_Strobe_Item {
-                name = "ACE_IR_Strobe_Item";
-                count = 6;
-            };
+			item_xx(ToolKit,1);
 		};
 		class TransportMagazines {
-			
-			//Standardmunition
-			class _xx_BWA3_30Rnd_556x45_G36_AP {
-				magazine = "BWA3_30Rnd_556x45_G36_AP";
-				count = 10;
-			};
-			
-			class _xx_BWA3_120Rnd_762x51 {
-				magazine = "BWA3_120Rnd_762x51";
-				count = 5;
-			};
-			
-			class _xx_BWA3_200Rnd_556x45 {
-				magazine = "BWA3_200Rnd_556x45";
-				count = 5;
-			};
-			
-			class _xx_1Rnd_Smoke_Grenade_shell {
-				count = 10;
-				magazine = "1Rnd_Smoke_Grenade_shell";
-			};
-			
-			class _xx_1Rnd_SmokeRed_Grenade_shell {
-				count = 10;
-				magazine = "1Rnd_SmokeRed_Grenade_shell";
-			};
-			
-			class _xx_1Rnd_HE_Grenade_shell {
-				count = 10;
-				magazine = "1Rnd_HE_Grenade_shell";
-			};
-			
-			class _xx_UGL_FlareRed_F {
-				count = 5;
-				magazine = "UGL_FlareRed_F";
-			};		
-			
-			//Spezialmunition
-			class _xx_BWA3_30Rnd_556x45_G36_SD {
-				magazine = "BWA3_30Rnd_556x45_G36_SD";
-				count = 10;
-			};
-				
-			class _xx_7Rnd_408_Mag {
-				magazine = "7Rnd_408_Mag";
-				count = 6;
-			};
-			
-			//Pionierabwruestung			
-			class _xx_SLAMDirectionalMine_Wire_Mag {
-				magazine = "SLAMDirectionalMine_Wire_Mag";
-				count = 2;
-			};
-			
-			class _xx_DemoCharge_Remote_Mag {
-				magazine = "DemoCharge_Remote_Mag";
-				count = 4;
-			};
-			
-			//Granaten
-			class _xx_SmokeShell {
-				magazine = "SmokeShell";
-				count = 6;
-			};
-			
-			class _xx_SmokeShellRed {
-				magazine = "SmokeShellRed";
-				count = 6;
-			};
-			
-			class _xx_SmokeShellGreen {
-				magazine = "SmokeShellGreen";
-				count = 6;
-			};
-			
-			class _xx_SmokeShellPurple {
-				magazine = "SmokeShellPurple";
-				count = 6;
-			};
-			
-			class _xx_ACE_HandFlare_Green {
-				magazine = "ACE_HandFlare_Green";
-				count = 6;
-			};
-			
-			class _xx_ACE_M84 {
-				magazine = "ACE_M84";
-				count = 6;
-			};
-			
-			//Werfermunition			
-			class _xx_BWA3_Fliegerfaust_Mag {
-				magazine = "BWA3_Fliegerfaust_Mag";
-				count = 2;
-			};		
 		};
-		class TransportBackpacks {
-			
+		class TransportBackpacks {	
 		};
 	};
 	
@@ -318,38 +64,13 @@
 		typicalCargo[] = {};
 		
 		class TransportWeapons {
-			
 		};
 		class TransportItems {
-			//Sanitaetsmaterial
-			class _xx_ACE_elasticBandage {
-				name = "ACE_elasticBandage";
-				count = 15;
-			};
-			
-			class _xx_ACE_packingBandage {
-				name = "ACE_packingBandage";
-				count = 10;
-			};
-			
-			class _xx_ACE_UAVBattery {
-				name = "ACE_UAVBattery";
-				count = 2;
-			};
+			item_xx(ToolKit,1);
 		};
-		class TransportMagazines {
-			
-		};
-		
+		class TransportMagazines {		
+		};	
 		class TransportBackpacks {
-			class _xx_B_Mortar_01_support_F {
-				backpack = "I_Mortar_01_support_F";
-				count = 2;
-			};
-			class _xx_B_Mortar_01_weapon_F {
-				backpack = "B_Mortar_01_weapon_F";
-				count = 2;
-			};
 		};
 	};
 
@@ -373,45 +94,16 @@
 
         };
         class TransportItems {
-            class _xx_ACE_atropine {
-                name = "ACE_atropine";
-                count = 10;
-            };
-
-            class _xx_ACE_packingBandage {
-                name = "ACE_packingBandage";
-                count = 20;
-            };
-
-            class _xx_ACE_epinephrine {
-                name = "ACE_epinephrine";
-                count = 20;
-            };
-
-            class _xx_ACE_morphine {
-                name = "ACE_morphine";
-                count = 20;
-            };
-
-            class _xx_ACE_elasticBandage {
-                name = "ACE_elasticBandage";
-                count = 20;
-            };
-
-            class _xx_ACE_fieldDressing {
-                name = "ACE_fieldDressing";
-                count = 20;
-            };
-
-            class _xx_ACE_quikclot {
-                name = "ACE_quikclot";
-                count = 15;
-            };
-
-            class _xx_ACE_salineIV {
-                name = "ACE_salineIV";
-                count = 15;
-            };
+			item_xx(ToolKit,1);
+			//Sanitaetsmaterial
+			item_xx(ACE_packingBandage,20);
+			item_xx(ACE_elasticBandage,20);
+			item_xx(ACE_fieldDressing,20);
+			item_xx(ACE_quikclot,15);
+			item_xx(ACE_atropine,10);
+			item_xx(ACE_morphine,20);
+			item_xx(ACE_epinephrine,20);
+			item_xx(ACE_salineIV,15);
         };
         class TransportMagazines {
 
@@ -439,29 +131,13 @@
         ace_cargo_space = 8;
 
         class TransportWeapons {
-
         };
         class TransportItems {
-            class _xx_ACE_elasticBandage {
-                name = "ACE_elasticBandage";
-                count = 15;
-            };
-
-            class _xx_ACE_packingBandage {
-                name = "ACE_packingBandage";
-                count = 10;
-            };
-
-            class _xx_ACE_UAVBattery {
-                name = "ACE_UAVBattery";
-                count = 2;
-            };
+			item_xx(ToolKit,1);
         };
         class TransportMagazines {
-
         };
         class TransportBackpacks {
-
         };
     };
 	
@@ -481,60 +157,13 @@
 		displayName = "TTT Schuetzenpanzer (BW Tropentarn)";
 		typicalCargo[] = {};
 		class TransportWeapons {
-			
-			//Werfer
-			class _xx_BWA3_Pzf3 {
-				weapon = "BWA3_Pzf3";
-				count = 2;
-			};			
 		};
 		class TransportItems {
-			
-			//Sanitaetsmaterial
-			class _xx_ACE_elasticBandage {
-				name = "ACE_elasticBandage";
-				count = 15;
-			};
-			
-			class _xx_ACE_packingBandage {
-				name = "ACE_packingBandage";
-				count = 10;
-			};
-            class _xx_ACE_IR_Strobe_Item {
-                name = "ACE_IR_Strobe_Item";
-                count = 6;
-            };
+			item_xx(ToolKit,1);
 		};
 		class TransportMagazines {
-			
-			//Granaten
-			class _xx_SmokeShell {
-				magazine = "SmokeShell";
-				count = 6;
-			};
-			
-			class _xx_SmokeShellRed {
-				magazine = "SmokeShellRed";
-				count = 6;
-			};
-			
-			class _xx_SmokeShellGreen {
-				magazine = "SmokeShellGreen";
-				count = 6;
-			};
-			
-			class _xx_SmokeShellPurple {
-				magazine = "SmokeShellPurple";
-				count = 6;
-			};
-			
-			class _xx_ACE_HandFlare_Green {
-				magazine = "ACE_HandFlare_Green";
-				count = 6;
-			};
 		};
-		class TransportBackpacks {
-			
+		class TransportBackpacks {	
 		};
 	};
 	
@@ -554,61 +183,14 @@
 		displayName = "TTT Kampfpanzer (BW Tropentarn)";
 		typicalCargo[] = {};
 		
-		class TransportWeapons {
-			
-			//Werfer
-			class _xx_BWA3_Pzf3 {
-				weapon = "BWA3_Pzf3";
-				count = 2;
-			};			
+		class TransportWeapons {	
 		};
 		class TransportItems {
-			
-			//Sanitaetsmaterial
-			class _xx_ACE_elasticBandage {
-				name = "ACE_elasticBandage";
-				count = 15;
-			};
-			
-			class _xx_ACE_packingBandage {
-				name = "ACE_packingBandage";
-				count = 10;
-			};
-            class _xx_ACE_IR_Strobe_Item {
-                name = "ACE_IR_Strobe_Item";
-                count = 6;
-            };
+			item_xx(ToolKit,1);
 		};
 		class TransportMagazines {
-	
-			//Granaten
-			class _xx_SmokeShell {
-				magazine = "SmokeShell";
-				count = 6;
-			};
-			
-			class _xx_SmokeShellRed {
-				magazine = "SmokeShellRed";
-				count = 6;
-			};
-			
-			class _xx_SmokeShellGreen {
-				magazine = "SmokeShellGreen";
-				count = 6;
-			};
-			
-			class _xx_SmokeShellPurple {
-				magazine = "SmokeShellPurple";
-				count = 6;
-			};
-			
-			class _xx_ACE_HandFlare_Green {
-				magazine = "ACE_HandFlare_Green";
-				count = 6;
-			};	
 		};
-		class TransportBackpacks {
-			
+		class TransportBackpacks {	
 		};
 	};
 	
@@ -629,20 +211,15 @@
 		typicalCargo[] = {};
 		accuracy=1000;
 
-		class TransportWeapons {
-			
+		class TransportWeapons {	
 		};
 		class TransportItems {
-			
+			item_xx(ToolKit,1);
 		};
-		class TransportMagazines {
-			
+		class TransportMagazines {	
 		};
 		class TransportBackpacks {
-			class _xx_B_Parachute{
-				backpack = "B_Parachute";
-				count = 2;
-			};
+			backpack_xx(B_Parachute,2);
 		};
 	};
 	
@@ -664,54 +241,22 @@
 		typicalCargo[] = {};
 		
 		class TransportWeapons {
-			
 		};
 		class TransportItems {
-			class _xx_ACE_atropine {
-				name = "ACE_atropine";
-				count = 10;
-			};
-			
-			class _xx_ACE_packingBandage {
-				name = "ACE_packingBandage";
-				count = 20;
-			};
-			
-			class _xx_ACE_epinephrine {
-				name = "ACE_epinephrine";
-				count = 20;
-			};
-			
-			class _xx_ACE_morphine {
-				name = "ACE_morphine";
-				count = 20;
-			};
-			
-			class _xx_ACE_fieldDressing {
-				name = "ACE_fieldDressing";
-				count = 20;
-			};
-			
-			class _xx_ACE_elasticBandage {
-				name = "ACE_elasticBandage";
-				count = 20;
-			};
-			
-			class _xx_ACE_quikclot {
-				name = "ACE_quikclot";
-				count = 15;
-			};
-			
-			class _xx_ACE_salineIV {
-				name = "ACE_salineIV";
-				count = 15;
-			};
+			item_xx(ToolKit,1);
+			//Sanitaetsmaterial
+			item_xx(ACE_packingBandage,20);
+			item_xx(ACE_elasticBandage,20);
+			item_xx(ACE_fieldDressing,20);
+			item_xx(ACE_quikclot,15);
+			item_xx(ACE_atropine,10);
+			item_xx(ACE_morphine,20);
+			item_xx(ACE_epinephrine,20);
+			item_xx(ACE_salineIV,15);
 		};
 		class TransportMagazines {
-			
 		};
 		class TransportBackpacks {
-			
 		};
 	};
 	
@@ -732,21 +277,15 @@
 		typicalCargo[] = {};
         ace_cargo_space = 16;
 
-		
 		class TransportWeapons {
-			
 		};
 		class TransportItems {
-			
+			item_xx(ToolKit,1);
 		};
-		class TransportMagazines {
-			
+		class TransportMagazines {	
 		};
 		class TransportBackpacks {
-			class _xx_B_Parachute{
-				backpack = "B_Parachute";
-				count = 30;
-			};
+			backpack_xx(B_Parachute,30);
 		};
 	};
 
@@ -773,16 +312,13 @@
         ace_cargo_space = 8;
 
         class TransportWeapons {
-
         };
         class TransportItems {
-
+			item_xx(ToolKit,1);
         };
         class TransportMagazines {
-
         };
         class TransportBackpacks {
-
         };
     };
 
@@ -818,4 +354,15 @@
         crew = "TTT_Platin1_Bw_Tropentarn";
         typicalCargo[] = {};
         hiddenSelectionsTextures[] = { "\ttt_a3\ttt_vehicles_bw\tropentarn\kampfjet\camo1_co.paa", "", "", "", "", "", "" };
+
+		class TransportWeapons {
+		};
+		class TransportItems {
+			item_xx(ToolKit,1);
+		};
+		class TransportMagazines {
+		};
+		class TransportBackpacks {
+			backpack_xx(B_Parachute,1);
+		};		
     };

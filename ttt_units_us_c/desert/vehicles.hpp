@@ -632,6 +632,7 @@ class TTT_Bronze3_Us_Desert : TTT_Base_Us {
     scope = 2;
     displayName = "Bronze 3 (Fahrer)";
     vehicleClass = "TTT_Bronze_Us_Desert";
+	engineer = 1;
     backpack = "TTT_Backpack_Schuetze_Us_Desert";
     uniformClass = "TTT_Uniform_Bronze_Us_Desert";
 	editorSubcategory = "EdSubcat_Unit_Camo_Desert";
@@ -693,7 +694,8 @@ class TTT_Bronze6_Us_Desert : TTT_Base_Us {
     scope = 2;
     displayName = "Bronze 6 (Fahrer)";
     vehicleClass = "TTT_Bronze_Us_Desert";
-    backpack = "TTT_Backpack_Schuetze_Us_Desert";
+ 	engineer = 1;   
+	backpack = "TTT_Backpack_Schuetze_Us_Desert";
     uniformClass = "TTT_Uniform_Bronze_Us_Desert";
 	editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_bronx_us_desert.paa" };

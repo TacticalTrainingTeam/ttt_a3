@@ -775,6 +775,7 @@ class TTT_Bronze1_Bw_Tropentarn : TTT_Base_Bw {
     icon = "iconManLeader";
     vehicleClass = "TTT_Bronze_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
+    engineer = 1;	
     backpack = "TTT_Backpack_Pilot_Bw_Tropentarn";
     uniformClass = "TTT_Uniform_Bronze_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_bronx_bw_tropentarn.paa" };
@@ -815,6 +816,7 @@ class TTT_Bronze3_Bw_Tropentarn : TTT_Base_Bw {
     displayName = "Bronze 3 (Fahrer)";
     vehicleClass = "TTT_Bronze_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
+    engineer = 1;	
     backpack = "TTT_Backpack_Schuetze_Bw_Tropentarn";
     uniformClass = "TTT_Uniform_Bronze_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_bronx_bw_tropentarn.paa" };

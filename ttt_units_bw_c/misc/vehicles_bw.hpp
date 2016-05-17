@@ -115,8 +115,8 @@ class TTT_Lmgschuetze_Base_Bw : TTT_Base_Bw {
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "BWA3_Vest_Autorifleman_Tropen", "TTT_Helmet_4_Bw_Tropentarn", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     weapons[] = { "BWA3_MG4_equipped", "BWA3_P8", "Binocular", "Throw", "Put" };
     respawnWeapons[] = { "BWA3_MG4_equipped", "BWA3_P8", "Binocular", "Throw", "Put" };
-    magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "BWA3_15Rnd_9x19_P8", "BWA3_15Rnd_9x19_P8", "BWA3_200Rnd_556x45", "BWA3_200Rnd_556x45" };
-    respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "BWA3_15Rnd_9x19_P8", "BWA3_15Rnd_9x19_P8", "BWA3_200Rnd_556x45", "BWA3_200Rnd_556x45" };
+    magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "BWA3_15Rnd_9x19_P8", "BWA3_15Rnd_9x19_P8", "BWA3_200Rnd_556x45", "BWA3_200Rnd_556x45", "BWA3_200Rnd_556x45", "BWA3_200Rnd_556x45" };
+    respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "BWA3_15Rnd_9x19_P8", "BWA3_15Rnd_9x19_P8", "BWA3_200Rnd_556x45", "BWA3_200Rnd_556x45", "BWA3_200Rnd_556x45", "BWA3_200Rnd_556x45" };
 };
 
 //Basis-Klasse fuer AT-Assistent
@@ -199,7 +199,7 @@ class TTT_Pionier_Base_Bw : TTT_Base_Bw {
     icon = "iconManExplosive";
     vehicleClass = "TTT_Template_Bw";
     uniformClass = "TTT_Uniform_Base_Bw";
-    engineer = 1;
+    engineer = 0;
     canDeactivateMines = 1;
     backpack = "TTT_Backpack_Pionier_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_black_bw_tropentarn.paa" };

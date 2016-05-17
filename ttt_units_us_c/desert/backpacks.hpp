@@ -278,10 +278,6 @@ class TTT_Backpack_Pionier_Us_Desert : B_Carryall_cbr {
             name = "ACE_morphine";
             count = 1;
         };
-        class _xx_Toolkit {
-            name = "Toolkit";
-            count = 1;
-        };
         class _xx_MineDetector {
             name = "MineDetector";
             count = 1;

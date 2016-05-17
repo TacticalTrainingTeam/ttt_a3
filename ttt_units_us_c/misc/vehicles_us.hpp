@@ -199,7 +199,7 @@ class TTT_Pionier_Base_Us : TTT_Base_Us {
     icon = "iconManExplosive";
     vehicleClass = "TTT_Template_Us";
     uniformClass = "TTT_Uniform_Base";
-    engineer = 1;
+    engineer = 0;
     canDeactivateMines = 1;
     backpack = "TTT_Backpack_Pionier_Us_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_black_us_desert.paa" };

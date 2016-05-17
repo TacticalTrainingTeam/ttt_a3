@@ -201,14 +201,12 @@
 		transportMaxWeapons = 99;
 		transportMaxMagazines = 99;
 		
-		class TransportMagazines {
-			mag_xx(BWA3_Pzf3_IT,2);
-			mag_xx(BWA3_Fliegerfaust_Mag,2);			
+		class TransportWeapons {
+			weap_xx(BWA3_Pzf3_Loaded,2);
+			weap_xx(BWA3_Fliegerfaust_Loaded,2);
 		};
 		
-		class TransportWeapons {
-			weap_xx(BWA3_Pzf3,2);
-			weap_xx(BWA3_Fliegerfaust,2);
+		class TransportMagazines {
 		};
 		
 		class TransportItems {
@@ -225,11 +223,11 @@
 		transportMaxMagazines = 99;
 		
 		class TransportMagazines {
-			mag_xx(BWA3_Pzf3_IT,4);
-			mag_xx(BWA3_Fliegerfaust_Mag,4);
 		};
 		
 		class TransportWeapons {
+			weap_xx(BWA3_Pzf3_Loaded,2);
+			weap_xx(BWA3_Fliegerfaust_Loaded,2);		
 		};
 		
 		class TransportBackpacks{
