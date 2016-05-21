@@ -775,7 +775,6 @@ class TTT_Bronze1_Bw_Tropentarn : TTT_Base_Bw {
     icon = "iconManLeader";
     vehicleClass = "TTT_Bronze_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
-    engineer = 1;	
     backpack = "TTT_Backpack_Pilot_Bw_Tropentarn";
     uniformClass = "TTT_Uniform_Bronze_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_bronx_bw_tropentarn.paa" };
@@ -816,7 +815,6 @@ class TTT_Bronze3_Bw_Tropentarn : TTT_Base_Bw {
     displayName = "Bronze 3 (Fahrer)";
     vehicleClass = "TTT_Bronze_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
-    engineer = 1;	
     backpack = "TTT_Backpack_Schuetze_Bw_Tropentarn";
     uniformClass = "TTT_Uniform_Bronze_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_bronx_bw_tropentarn.paa" };
@@ -1002,6 +1000,7 @@ class TTT_Silber1_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     vehicleClass = "TTT_Silber_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
+    engineer = 1;
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
 	backpack = "TTT_Backpack_Pilot_Bw_Tropentarn";
     items[] = { "TTT_Helmet_Buzzard", item_3(ACE_CableTie), "ACE_microDAGR", default_ace_items };
@@ -1018,6 +1017,7 @@ class TTT_Silber2_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     vehicleClass = "TTT_Silber_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
+    engineer = 1;
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
     backpack = "TTT_Backpack_Pilot_Bw_Tropentarn";
 	items[] = { "TTT_Helmet_Buzzard", item_3(ACE_CableTie), "ACE_microDAGR", default_ace_items };
@@ -1034,6 +1034,7 @@ class TTT_Silber3_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     vehicleClass = "TTT_Silber_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
+    engineer = 1;
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
 	backpack = "TTT_Backpack_Pilot_Bw_Tropentarn";
     items[] = { "TTT_Helmet_Buzzard", item_3(ACE_CableTie), "ACE_microDAGR", default_ace_items };
@@ -1050,6 +1051,7 @@ class TTT_Silber4_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     vehicleClass = "TTT_Silber_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
+    engineer = 1;
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
     backpack = "TTT_Backpack_Pilot_Bw_Tropentarn";
 	items[] = { "TTT_Helmet_Buzzard", item_3(ACE_CableTie), "ACE_microDAGR", default_ace_items };
@@ -1066,6 +1068,7 @@ class TTT_Silber5_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     vehicleClass = "TTT_Silber_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
+    engineer = 1;
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
     backpack = "TTT_Backpack_Pilot_Bw_Tropentarn";
 	items[] = { "TTT_Helmet_Buzzard", item_3(ACE_CableTie), "ACE_microDAGR", default_ace_items };
@@ -1082,6 +1085,7 @@ class TTT_Silber6_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     vehicleClass = "TTT_Silber_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
+    engineer = 1;
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
     backpack = "TTT_Backpack_Pilot_Bw_Tropentarn";
 	items[] = { "TTT_Helmet_Buzzard", item_3(ACE_CableTie), "ACE_microDAGR", default_ace_items };

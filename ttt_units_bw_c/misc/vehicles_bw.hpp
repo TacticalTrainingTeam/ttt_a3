@@ -199,7 +199,6 @@ class TTT_Pionier_Base_Bw : TTT_Base_Bw {
     icon = "iconManExplosive";
     vehicleClass = "TTT_Template_Bw";
     uniformClass = "TTT_Uniform_Base_Bw";
-    engineer = 0;
     canDeactivateMines = 1;
     backpack = "TTT_Backpack_Pionier_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_black_bw_tropentarn.paa" };
@@ -260,8 +259,6 @@ class TTT_Pilot_Base_Bw : TTT_Base_Bw {
     displayName = "Pilot BW (Template)";
     vehicleClass = "TTT_Template_Bw";
     uniformClass = "TTT_Uniform_Base_Bw";
-    engineer = 1;
-	canDeactivateMines = 0;
     backpack = "TTT_Backpack_Pilot_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { "ACE_NVG_Wide", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };

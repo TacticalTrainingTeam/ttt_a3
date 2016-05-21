@@ -632,7 +632,6 @@ class TTT_Bronze3_Us_Desert : TTT_Base_Us {
     scope = 2;
     displayName = "Bronze 3 (Fahrer)";
     vehicleClass = "TTT_Bronze_Us_Desert";
-	engineer = 1;
     backpack = "TTT_Backpack_Schuetze_Us_Desert";
     uniformClass = "TTT_Uniform_Bronze_Us_Desert";
 	editorSubcategory = "EdSubcat_Unit_Camo_Desert";
@@ -694,7 +693,6 @@ class TTT_Bronze6_Us_Desert : TTT_Base_Us {
     scope = 2;
     displayName = "Bronze 6 (Fahrer)";
     vehicleClass = "TTT_Bronze_Us_Desert";
- 	engineer = 1;   
 	backpack = "TTT_Backpack_Schuetze_Us_Desert";
     uniformClass = "TTT_Uniform_Bronze_Us_Desert";
 	editorSubcategory = "EdSubcat_Unit_Camo_Desert";
@@ -986,6 +984,7 @@ class TTT_Silber1_Us_Desert : TTT_Pilot_Base_Us {
     displayName = "Silber 1 (Truppfuehrer)";
     vehicleClass = "TTT_Silber_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
+    engineer = 1;
 	editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_silver_us_desert.paa" };
     items[] = { "ACE_NVG_Wide", "TTT_Helmet_Buzzard", "rhsusf_acc_eotech_552", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
@@ -1001,6 +1000,7 @@ class TTT_Silber2_Us_Desert : TTT_Pilot_Base_Us {
     displayName = "Silber 2 (Fahrzeugfuehrer)";
     vehicleClass = "TTT_Silber_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
+    engineer = 1;
 	editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_silver_us_desert.paa" };
     items[] = { "ACE_NVG_Wide", "TTT_Helmet_Buzzard", "rhsusf_acc_eotech_552", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
@@ -1016,6 +1016,7 @@ class TTT_Silber3_Us_Desert : TTT_Pilot_Base_Us {
     displayName = "Silber 3 (Fahrzeugfuehrer)";
     vehicleClass = "TTT_Silber_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
+    engineer = 1;
 	editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_silver_us_desert.paa" };
     items[] = { "ACE_NVG_Wide", "TTT_Helmet_Buzzard", "rhsusf_acc_eotech_552", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
@@ -1031,6 +1032,7 @@ class TTT_Silber4_Us_Desert : TTT_Pilot_Base_Us {
     displayName = "Silber 4 (Fahrzeugfuehrer)";
     vehicleClass = "TTT_Silber_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
+    engineer = 1;
 	editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_silver_us_desert.paa" };
     items[] = { "ACE_NVG_Wide", "TTT_Helmet_Buzzard", "rhsusf_acc_eotech_552", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
@@ -1046,6 +1048,7 @@ class TTT_Silber5_Us_Desert : TTT_Pilot_Base_Us {
     displayName = "Silber 5 (Fahrzeugfuehrer)";
     vehicleClass = "TTT_Silber_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
+    engineer = 1;
 	editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_silver_us_desert.paa" };
     items[] = { "ACE_NVG_Wide", "TTT_Helmet_Buzzard", "rhsusf_acc_eotech_552", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
@@ -1061,6 +1064,7 @@ class TTT_Silber6_Us_Desert : TTT_Pilot_Base_Us {
     displayName = "Silber 6 (Fahrzeugfuehrer)";
     vehicleClass = "TTT_Silber_Us_Desert";
     uniformClass = "TTT_Uniform_Silber_Us_Desert";
+    engineer = 1;
 	editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_silver_us_desert.paa" };
     items[] = { "ACE_NVG_Wide", "TTT_Helmet_Buzzard", "rhsusf_acc_eotech_552", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
