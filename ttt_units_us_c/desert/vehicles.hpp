@@ -17,8 +17,8 @@ class TTT_Gelb1_Us_Desert : TTT_Truppfuehrer_Base_Us {
 	backpack = "TTT_Backpack_Opl_Us_Desert";
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Yellow_Us_Desert", "TTT_Helmet_1_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Yellow_Us_Desert", "TTT_Helmet_1_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-	weapons[] = { "rhs_m4a1_grip_acog3_Usmc", "rhsusf_weap_m1911a1", "Rangefinder", "Throw", "Put" };
-	respawnWeapons[] = {"rhs_m4a1_grip_acog3_Usmc", "rhsusf_weap_m1911a1", "Rangefinder", "Throw", "Put" };
+	weapons[] = { "rhs_m4a1_m320_acog", "rhsusf_weap_m1911a1", "Rangefinder", "Throw", "Put" };
+	respawnWeapons[] = {"rhs_m4a1_m320_acog", "rhsusf_weap_m1911a1", "Rangefinder", "Throw", "Put" };
 };
 
 //Gelb 2 (Funker)
@@ -203,8 +203,8 @@ class TTT_Gold1_Us_Desert : TTT_Truppfuehrer_Base_Us {
     respawnItems[] = { "rhsusf_acc_eotech_552", "rhsusf_acc_rotex5_grey", "ACE_NVG_Wide", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991", "ACE_RangeCard", "Laserdesignator", "Laserbatteries" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Desert", "TTT_Helmet_1_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Lite_Gold_Us_Desert", "TTT_Helmet_1_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
-    weapons[] = { "rhs_m4a1_m320_acog3", "rhsusf_weap_m1911a1", "ACE_Vector", "Throw", "Put" };
-    respawnWeapons[] = { "rhs_m4a1_m320_acog3", "rhsusf_weap_m1911a1", "ACE_Vector", "Throw", "Put" };
+    weapons[] = { "rhs_m4a1_m320_acog", "rhsusf_weap_m1911a1", "ACE_Vector", "Throw", "Put" };
+    respawnWeapons[] = { "rhs_m4a1_m320_acog", "rhsusf_weap_m1911a1", "ACE_Vector", "Throw", "Put" };
     magazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "Laserbatteries" };
     respawnMagazines[] = { "SmokeShell", "SmokeShell", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellPurple", "ACE_HandFlare_Green", "ACE_HandFlare_Green", "ACE_M84", "ACE_M84", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "Laserbatteries" };
 };

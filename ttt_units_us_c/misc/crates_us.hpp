@@ -29,8 +29,8 @@
 				count = 1;
 			};
 			
-			class _xx_rhs_m4a1_m320_acog3 {
-				weapon = "rhs_m4a1_m320_acog3";
+			class _xx_rhs_m4a1_m320_acog {
+				weapon = "rhs_m4a1_m320_acog";
 				count = 2;
 			};
 			
