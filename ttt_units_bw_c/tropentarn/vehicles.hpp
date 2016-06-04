@@ -211,17 +211,17 @@ class TTT_Gold1_Bw_Tropentarn : TTT_Truppfuehrer_Base_Bw {
     respawnMagazines[] = { item_2(SmokeShell), item_2(SmokeShellGreen), "SmokeShellPurple", item_2(ACE_HandFlare_Green), item_2(ACE_M84), item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_20Rnd_762x51_G28_AP)};
 };
 
-//Gold 2 (JTAC)
+//Gold 2 (Funker)
 class TTT_Gold2_Bw_Tropentarn : TTT_Funkerfac_Base_Bw {
     scope = 2;
 	author = "Tactical Training Team";
-    displayName = "Gold 2 (JTAC)";
+    displayName = "Gold 2 (Funker/FAC)";
     vehicleClass = "TTT_Gold_Bw_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     uniformClass = "TTT_Uniform_Gold_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_gold_bw_tropentarn.paa" };
-    items[] = {"BWA3_optic_ZO4x30", "BWA3_optic_NSV600", "BWA3_muzzle_snds_G28", default_ace_items };
-    respawnItems[] = {"BWA3_optic_ZO4x30", "BWA3_optic_NSV600", "BWA3_muzzle_snds_G28", default_ace_items };
+    items[] = {"BWA3_optic_ZO4x30", "BWA3_optic_NSV600", "BWA3_muzzle_snds_G28", default_ace_items, "ACE_microDAGR" };
+    respawnItems[] = {"BWA3_optic_ZO4x30", "BWA3_optic_NSV600", "BWA3_muzzle_snds_G28", default_ace_items, "ACE_microDAGR" };
     linkedItems[] = { get_vest(Us,GROUP_COLOR,Lite,Woodland), "TTT_Helmet_2_Bw_Tropentarn", default_linkedItems };
     respawnLinkedItems[] = { get_vest(Us,GROUP_COLOR,Lite,Woodland), "TTT_Helmet_2_Bw_Tropentarn", default_linkedItems };
     weapons[] = { "BWA3_G27_AG_equipped", "BWA3_P8", "Laserdesignator", default_weapons };
@@ -262,10 +262,10 @@ class TTT_Gold4_Bw_Tropentarn : TTT_Base_Bw {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_gold_bw_tropentarn.paa" };
     items[] = {"BWA3_optic_NSV80", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_RangeCard", "ACE_microDAGR", default_ace_items };
     respawnItems[] = {"BWA3_optic_NSV80", "ACE_Kestrel4500", "ACE_ATragMX", "ACE_RangeCard", "ACE_microDAGR", default_ace_items };
-    weapons[] = { "BWA3_G82_equipped", "BWA3_P8", "ACE_Vector", default_weapons };
-    respawnWeapons[] = { "BWA3_G82_equipped", "BWA3_P8", "ACE_Vector", default_weapons };
-    magazines[] = { item_2(SmokeShell), item_2(SmokeShellGreen), "SmokeShellPurple", item_2(ACE_HandFlare_Green), item_2(ACE_M84), item_4(BWA3_15Rnd_9x19_P8), item_2(BWA3_10Rnd_127x99_G82_AP) };
-    respawnMagazines[] = { item_2(SmokeShell), item_2(SmokeShellGreen), "SmokeShellPurple", item_2(ACE_HandFlare_Green), item_2(ACE_M84), item_4(BWA3_15Rnd_9x19_P8), item_2(BWA3_10Rnd_127x99_G82_AP) };
+    weapons[] = { "BWA3_G82_equipped", "BWA3_MP7_equipped", "ACE_Vector", default_weapons };
+    respawnWeapons[] = { "BWA3_G82_equipped", "BWA3_MP7_equipped", "ACE_Vector", default_weapons };
+    magazines[] = { item_2(SmokeShell), item_2(SmokeShellGreen), "SmokeShellPurple", item_2(ACE_HandFlare_Green), item_2(ACE_M84), item_3(BWA3_40Rnd_46x30_MP7), item_2(BWA3_10Rnd_127x99_G82), item_2(BWA3_10Rnd_127x99_G82_AP), "BWA3_10Rnd_127x99_G82_Raufoss" };
+    respawnMagazines[] = { item_2(SmokeShell), item_2(SmokeShellGreen), "SmokeShellPurple", item_2(ACE_HandFlare_Green), item_2(ACE_M84), item_3(BWA3_40Rnd_46x30_MP7), item_2(BWA3_10Rnd_127x99_G82), item_2(BWA3_10Rnd_127x99_G82_AP), "BWA3_10Rnd_127x99_G82_Raufoss" };
     linkedItems[] = { get_vest(Us,GROUP_COLOR,Lite,Woodland), "TTT_Helmet_4_Bw_Tropentarn", default_linkedItems };
     respawnLinkedItems[] = { get_vest(Us,GROUP_COLOR,Lite,Woodland), "TTT_Helmet_4_Bw_Tropentarn", default_linkedItems };
 };

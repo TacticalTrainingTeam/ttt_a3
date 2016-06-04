@@ -164,7 +164,7 @@ class TTT_Gold1_Bw_Flecktarn : TTT_Gold1_Bw_Tropentarn {
 };
 
 
-//Gold 2 (JTAC)
+//Gold 2 (Funker)
 class TTT_Gold2_Bw_Flecktarn : TTT_Gold2_Bw_Tropentarn {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Gold_Bw_Flecktarn";

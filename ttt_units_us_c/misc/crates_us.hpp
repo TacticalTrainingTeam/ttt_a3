@@ -14,8 +14,8 @@
 		};
 		
 		class TransportWeapons {
-			class _xx_rhs_m4a1_grip_acog3 {
-				weapon = "rhs_m4a1_grip_acog3";
+			class _xx_rhs_m4a1_m320_acog {
+				weapon = "rhs_m4a1_grip_acog";
 				count = 4;
 			};
 			
@@ -29,8 +29,8 @@
 				count = 1;
 			};
 			
-			class _xx_rhs_m4a1_m320_acog {
-				weapon = "rhs_m4a1_m320_acog";
+			class _xx_rhs_weap_m4_carryhandle {
+				weapon = "rhs_weap_m4_carryhandle";
 				count = 2;
 			};
 			
@@ -59,8 +59,8 @@
 				count = 1;
 			};
 			
-			class _xx_rhs_m4a1_grip_acog3 {
-				weapon = "rhs_m4a1_grip_acog3";
+			class _xx_rhs_weap_mk18_grip2_eotech {
+				weapon = "rhs_weap_mk18_grip2_eotech";
 				count = 1;
 			};
 			

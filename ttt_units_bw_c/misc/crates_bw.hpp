@@ -203,7 +203,7 @@
 		
 		class TransportWeapons {
 			weap_xx(BWA3_Pzf3_Loaded,2);
-			weap_xx(BWA3_Fliegerfaust_Loaded,2);
+			weap_xx(BWA3_Fliegerfaust,2);
 		};
 		
 		class TransportMagazines {
@@ -227,7 +227,7 @@
 		
 		class TransportWeapons {
 			weap_xx(BWA3_Pzf3_Loaded,2);
-			weap_xx(BWA3_Fliegerfaust_Loaded,2);		
+			weap_xx(BWA3_Fliegerfaust,2);		
 		};
 		
 		class TransportBackpacks{
