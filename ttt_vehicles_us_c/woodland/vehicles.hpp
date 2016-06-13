@@ -81,11 +81,9 @@
 	
 	class TTT_Kampfpanzer_Us_Woodland : TTT_Kampfpanzer_Us_Desert {
 		author = "Tactical Training Team";
-		// hiddenSelections sind noch nicht implementiert, deswegen muss mit model gearbeitet werden
-		//hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_us\woodland\kampfpanzer\camo1.paa", "\ttt_a3\ttt_vehicles_us\woodland\kampfpanzer\camo2.paa", "\ttt_a3\ttt_vehicles_us\woodland\kampfpanzer\camo3.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_us\woodland\kampfpanzer\camo1_co.paa", "\ttt_a3\ttt_vehicles_us\woodland\kampfpanzer\camo2_co.paa", "\ttt_a3\ttt_vehicles_us\woodland\kampfpanzer\camo3_co.paa", "\ttt_a3\ttt_vehicles_us\woodland\kampfpanzer\camo4_co.paa", "\ttt_a3\ttt_vehicles_us\woodland\kampfpanzer\camo5_co.paa", "\ttt_a3\ttt_vehicles_us\woodland\kampfpanzer\camo6_co.paa"};
 		crew = "TTT_Bronze1_Us_Woodland";
 		displayName = "TTT Kampfpanzer (US Woodland)";
-		model = "\rhsusf\addons\rhsusf_m1a2\m1a2v1_tuskii_wd";
 	};
 	
 	/*

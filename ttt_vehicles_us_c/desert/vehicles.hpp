@@ -178,8 +178,7 @@ class TTT_Kampfpanzer_Us_Desert : rhsusf_m1a2sep1tuskiid_Usarmy {
     scope = 2;
     faction = "TTT_faction_Us";
     vehicleClass = "TTT_Vehicles_Us";
-    // hiddenSelections sind noch nicht implementiert, deswegen muss mit model gearbeitet werden
-    //hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_us\desert\kampfpanzer\camo1.paa", "\ttt_a3\ttt_vehicles_us\desert\kampfpanzer\camo2.paa", "\ttt_a3\ttt_vehicles_us\desert\kampfpanzer\camo3.paa"};
+    hiddenSelectionsTextures[] = {"\ttt_a3\ttt_vehicles_us\desert\kampfpanzer\camo1_co.paa", "\ttt_a3\ttt_vehicles_us\desert\kampfpanzer\camo2_co.paa", "\ttt_a3\ttt_vehicles_us\desert\kampfpanzer\camo3_co.paa", "\ttt_a3\ttt_vehicles_us\desert\kampfpanzer\camo4_co.paa", "\ttt_a3\ttt_vehicles_us\desert\kampfpanzer\camo5_co.paa", "\ttt_a3\ttt_vehicles_us\desert\kampfpanzer\camo6_co.paa"};
     crew = "TTT_Bronze1_Us_Desert";
     displayName = "TTT Kampfpanzer (US Desert)";
     typicalCargo[] = {};
