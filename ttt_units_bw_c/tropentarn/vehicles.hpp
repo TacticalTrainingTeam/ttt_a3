@@ -192,7 +192,7 @@ class TTT_Grau6_Bw_Tropentarn : TTT_Schuetze_Base_Bw {
 */
 #undef GROUP_COLOR
 #define GROUP_COLOR Gold
-#define gold_items "BWA3_optic_ZO4x30", "BWA3_optic_Aimpoint", "BWA3_muzzle_snds_G28"
+#define gold_items "BWA3_optic_Shortdot", "BWA3_optic_Aimpoint", "BWA3_muzzle_snds_G28"
 
 //Gold 1 (Truppfuehrer)
 class TTT_Gold1_Bw_Tropentarn : TTT_Truppfuehrer_Base_Bw {
@@ -1039,8 +1039,8 @@ class TTT_Platin1_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
 	items[] = { "TTT_Helmet_Falcon", default_ace_items, "ACE_microDAGR" };
     respawnitems[] = { "TTT_Helmet_Falcon", default_ace_items, "ACE_microDAGR" };	
-    linkedItems[] = { "TTT_Vest_Crew_Us_Desert", "TTT_Helmet_Eagle", default_linkedItems };
-    respawnLinkedItems[] = { "TTT_Vest_Crew_Us_Desert", "TTT_Helmet_Eagle", default_linkedItems };	
+    linkedItems[] = { "TTT_Vest_Crew_Us_Desert", "TTT_Helmet_1_Bw_Tropentarn", default_linkedItems };
+    respawnLinkedItems[] = { "TTT_Vest_Crew_Us_Desert", "TTT_Helmet_1_Bw_Tropentarn", default_linkedItems };	
 };	
 
 //Platin 2 (Pilot)
@@ -1052,10 +1052,10 @@ class TTT_Platin2_Bw_Tropentarn : TTT_Pilot_Base_Bw {
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     uniformClass = "TTT_Uniform_Silber_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_silver_bw_tropentarn.paa" };
-	items[] = { "TTT_Helmet_Falcon", default_ace_items, "ACE_microDAGR" };
-    respawnitems[] = { "TTT_Helmet_Falcon", default_ace_items, "ACE_microDAGR" };	
-    linkedItems[] = { "TTT_Vest_Crew_Us_Desert", "TTT_Helmet_Eagle", default_linkedItems };
-    respawnLinkedItems[] = { "TTT_Vest_Crew_Us_Desert", "TTT_Helmet_Eagle", default_linkedItems };		
+	items[] = { "TTT_Helmet_Eagle", default_ace_items, "ACE_microDAGR" };
+    respawnitems[] = { "TTT_Helmet_Eagle", default_ace_items, "ACE_microDAGR" };	
+    linkedItems[] = { "TTT_Vest_Crew_Us_Desert", "TTT_Helmet_2_Bw_Tropentarn", default_linkedItems };
+    respawnLinkedItems[] = { "TTT_Vest_Crew_Us_Desert", "TTT_Helmet_2_Bw_Tropentarn", default_linkedItems };		
 };	
 
 /*
