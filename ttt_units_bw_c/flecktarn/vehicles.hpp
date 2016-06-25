@@ -956,8 +956,8 @@ class TTT_Adler1_Bw_Flecktarn : TTT_Adler1_Bw_Tropentarn {
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\flecktarn\uniforms\TTT_uniform_silver_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\misc\TTT_uniform.rvmat"};
-    linkedItems[] = { "BWA3_Vest_Fleck", "TTT_Helmet_Eagle", default_linkedItems };
-    respawnLinkedItems[] = { "BWA3_Vest_Fleck", "TTT_Helmet_Eagle", default_linkedItems };
+    linkedItems[] = { "BWA3_Vest_Fleck", "TTT_Helmet_1_Bw_Flecktarn", default_linkedItems };
+    respawnLinkedItems[] = { "BWA3_Vest_Fleck", "TTT_Helmet_1_Bw_Flecktarn", default_linkedItems };
 };
 
 //Adler 2 (Copilot)
@@ -969,8 +969,8 @@ class TTT_Adler2_Bw_Flecktarn : TTT_Adler2_Bw_Tropentarn {
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\flecktarn\uniforms\TTT_uniform_silver_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\misc\TTT_uniform.rvmat"};
-    linkedItems[] = { "BWA3_Vest_Fleck", "TTT_Helmet_Eagle", default_linkedItems };
-    respawnLinkedItems[] = { "BWA3_Vest_Fleck", "TTT_Helmet_Eagle", default_linkedItems };
+    linkedItems[] = { "BWA3_Vest_Fleck", "TTT_Helmet_2_Bw_Flecktarn", default_linkedItems };
+    respawnLinkedItems[] = { "BWA3_Vest_Fleck", "TTT_Helmet_2_Bw_Flecktarn", default_linkedItems };
 };
 
 /*
