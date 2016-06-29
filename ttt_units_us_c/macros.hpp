@@ -21,7 +21,7 @@
 #define default_items "rhsusf_acc_eotech_552", get_beret(GROUP_COLOR), default_ace_items  
 #define default_weapons "Throw", "Put"
 #define default_linkedItems "BWA3_G_Combat_Clear", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" 
-#define default_ace_items "ACE_NVG_Wide", item_2(ACE_CableTie), item_2(ACE_IR_Strobe_Item), "ACE_MapTools", "ACE_Flashlight_MX991", get_beret(GROUP_COLOR)
+#define default_ace_items "ACE_NVG_Wide", item_2(ACE_CableTie), item_2(ACE_IR_Strobe_Item), "ACE_MapTools", "ACE_Flashlight_MX991"
 #define default_smoke item_5(SmokeShell), item_2(SmokeShellGreen), item_2(SmokeShellPurple), item_2(ACE_M84), item_2(ACE_HandFlare_Green)
 #define default_magazines item_2(rhsusf_mag_7x45acp_MHP), item_6(rhs_mag_30Rnd_556x45_Mk318_Stanag)
 #define sniper_tools "ACE_Kestrel4500", "ACE_ATragMX", "ACE_RangeCard"
