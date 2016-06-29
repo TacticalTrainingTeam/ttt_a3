@@ -37,12 +37,12 @@ class TTT_Truppfuehrer_Base_Bw : TTT_Base_Bw {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_items, "ACE_microDAGR" };
     respawnitems[] = { default_items, "ACE_microDAGR" };
-    linkedItems[] = { default_linkedItems, "BWA3_Vest_Leader_Tropen", "TTT_Helmet_1_Bw_Tropentarn" };
-    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Leader_Tropen", "TTT_Helmet_1_Bw_Tropentarn" };
+    linkedItems[] = { default_linkedItems, "BWA3_Vest_Leader_Tropen", get_helmet(1,Bw,Tropentarn) };
+    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Leader_Tropen", get_helmet(1,Bw,Tropentarn) };
     weapons[] = { "BWA3_G36_AG_equipped", "BWA3_P8", "ACE_Yardage450", "Throw", "Put" };
     respawnWeapons[] = { "BWA3_G36_AG_equipped", "BWA3_P8", "ACE_Yardage450", "Throw", "Put" };
-    magazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_30Rnd_556x45_G36_AP) };
-    respawnMagazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_30Rnd_556x45_G36_AP) };
+    magazines[] = { default_smoke, default_magazines };
+    respawnMagazines[] = { default_smoke, default_magazines };
 };
 
 //Basis-Klasse fuer Grenadiere
@@ -55,12 +55,12 @@ class TTT_Grenadier_Base_Bw : TTT_Base_Bw {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_items };
     respawnitems[] = { default_items };
-    linkedItems[] = { default_linkedItems, "BWA3_Vest_Grenadier_Tropen", "TTT_Helmet_2_Bw_Tropentarn" };
-    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Grenadier_Tropen", "TTT_Helmet_2_Bw_Tropentarn" };
+    linkedItems[] = { default_linkedItems, "BWA3_Vest_Grenadier_Tropen", get_helmet(2,Bw,Tropentarn) };
+    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Grenadier_Tropen", get_helmet(2,Bw,Tropentarn) };
     weapons[] = { "BWA3_G36_AG_equipped", "BWA3_P8", "Binocular", "Throw", "Put" };
     respawnWeapons[] = { "BWA3_G36_AG_equipped", "BWA3_P8", "Binocular", "Throw", "Put" };
-    magazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_30Rnd_556x45_G36_AP) };
-    respawnMagazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_30Rnd_556x45_G36_AP) };
+    magazines[] = { default_smoke, default_magazines };
+    respawnMagazines[] = { default_smoke, default_magazines };
 };
 
 //Basis-Klasse fuer MG-Assistenten
@@ -73,12 +73,12 @@ class TTT_Mgassistent_Base_Bw : TTT_Base_Bw {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_items };
     respawnitems[] = { default_items };
-    linkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_3_Bw_Tropentarn" };
-    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_3_Bw_Tropentarn" };
+    linkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", get_helmet(3,Bw,Tropentarn) };
+    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", get_helmet(3,Bw,Tropentarn) };
     weapons[] = { "BWA3_G36_equipped", "BWA3_P8", "ACE_Yardage450", "Throw", "Put" };
     respawnWeapons[] = { "BWA3_G36_equipped", "BWA3_P8", "ACE_Yardage450", "Throw", "Put" };
-    magazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_30Rnd_556x45_G36_AP) };
-    respawnMagazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_30Rnd_556x45_G36_AP) };
+    magazines[] = { default_smoke, default_magazines };
+    respawnMagazines[] = { default_smoke, default_magazines };
 };
 
 //Basis-Klasse fuer MG-Schuetzen
@@ -92,8 +92,8 @@ class TTT_Mgschuetze_Base_Bw : TTT_Base_Bw {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_items };
     respawnitems[] = { default_items };
-    linkedItems[] = { default_linkedItems, "BWA3_Vest_Autorifleman_Tropen", "TTT_Helmet_4_Bw_Tropentarn" };
-    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Autorifleman_Tropen", "TTT_Helmet_4_Bw_Tropentarn" };
+    linkedItems[] = { default_linkedItems, "BWA3_Vest_Autorifleman_Tropen", get_helmet(4,Bw,Tropentarn) };
+    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Autorifleman_Tropen", get_helmet(4,Bw,Tropentarn) };
     weapons[] = { "BWA3_MG5_Tan_equipped", "BWA3_P8", "Binocular", "Throw", "Put" };
     respawnWeapons[] = { "BWA3_MG5_Tan_equipped", "BWA3_P8", "Binocular", "Throw", "Put" };
     magazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_2(BWA3_120Rnd_762x51) };
@@ -111,8 +111,8 @@ class TTT_Lmgschuetze_Base_Bw : TTT_Base_Bw {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_items };
     respawnitems[] = { default_items };
-    linkedItems[] = { default_linkedItems, "BWA3_Vest_Autorifleman_Tropen", "TTT_Helmet_4_Bw_Tropentarn" };
-    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Autorifleman_Tropen", "TTT_Helmet_4_Bw_Tropentarn" };
+    linkedItems[] = { default_linkedItems, "BWA3_Vest_Autorifleman_Tropen", get_helmet(4,Bw,Tropentarn) };
+    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Autorifleman_Tropen", get_helmet(4,Bw,Tropentarn) };
     weapons[] = { "BWA3_MG4_equipped", "BWA3_P8", "Binocular", "Throw", "Put" };
     respawnWeapons[] = { "BWA3_MG4_equipped", "BWA3_P8", "Binocular", "Throw", "Put" };
     magazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_4(BWA3_200Rnd_556x45) };
@@ -129,12 +129,12 @@ class TTT_Atassistent_Base_Bw : TTT_Base_Bw {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_items };
     respawnitems[] = { default_items };
-    linkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_5_Bw_Tropentarn" };
-    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_5_Bw_Tropentarn" };
+    linkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", get_helmet(5,Bw,Tropentarn) };
+    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", get_helmet(5,Bw,Tropentarn) };
     weapons[] = { "BWA3_G36_equipped", "BWA3_P8", "ACE_Yardage450", "Throw", "Put" };
     respawnWeapons[] = { "BWA3_G36_equipped", "BWA3_P8", "ACE_Yardage450", "Throw", "Put" };
-    magazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_30Rnd_556x45_G36_AP)};
-    respawnMagazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_30Rnd_556x45_G36_AP)};
+    magazines[] = { default_smoke, default_magazines};
+    respawnMagazines[] = { default_smoke, default_magazines};
 };
 
 //Basis-Klasse fuer AT-Schuetzen
@@ -148,12 +148,12 @@ class TTT_Atschuetze_Base_Bw : TTT_Base_Bw {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_items, "BWA3_optic_NSA80" };
     respawnitems[] = { default_items, "BWA3_optic_NSA80" };
-    linkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_6_Bw_Tropentarn" };
-    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_6_Bw_Tropentarn" };
+    linkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", get_helmet(6,Bw,Tropentarn) };
+    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", get_helmet(6,Bw,Tropentarn) };
     weapons[] = { "BWA3_G36_equipped", "BWA3_P8", "Binocular", "Throw", "Put", "BWA3_Pzf3" };
     respawnWeapons[] = { "BWA3_G36_equipped", "BWA3_P8", "Binocular", "Throw", "Put", "BWA3_Pzf3" };
-    magazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_30Rnd_556x45_G36_AP), "BWA3_Pzf3_IT" };
-    respawnMagazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_30Rnd_556x45_G36_AP), "BWA3_Pzf3_IT" };
+    magazines[] = { default_smoke, default_magazines, "BWA3_Pzf3_IT" };
+    respawnMagazines[] = { default_smoke, default_magazines, "BWA3_Pzf3_IT" };
 };
 
 //Basis-Klasse fuer Schuetzen
@@ -166,12 +166,12 @@ class TTT_Schuetze_Base_Bw : TTT_Base_Bw {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_items };
     respawnitems[] = { default_items };
-    linkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_6_Bw_Tropentarn" };
-    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_6_Bw_Tropentarn" };
+    linkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", get_helmet(6,Bw,Tropentarn) };
+    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", get_helmet(6,Bw,Tropentarn) };
     weapons[] = { "BWA3_G36_equipped", "BWA3_P8", "Binocular", "Throw", "Put" };
     respawnWeapons[] = { "BWA3_G36_equipped", "BWA3_P8", "Binocular", "Throw", "Put" };
-    magazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_30Rnd_556x45_G36_AP)};
-    respawnMagazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_30Rnd_556x45_G36_AP)};
+    magazines[] = { default_smoke, default_magazines};
+    respawnMagazines[] = { default_smoke, default_magazines};
 };
 
 //Basis-Klasse fuer Funker/FAC
@@ -184,12 +184,12 @@ class TTT_Funkerfac_Base_Bw : TTT_Base_Bw {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_items, "ACE_microDAGR" };
     respawnitems[] = { default_items, "ACE_microDAGR" };
-    linkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_2_Bw_Tropentarn" };
-    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_2_Bw_Tropentarn" };
+    linkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", get_helmet(2,Bw,Tropentarn) };
+    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", get_helmet(2,Bw,Tropentarn) };
     weapons[] = { "BWA3_G36_AG_equipped", "BWA3_P8", "Laserdesignator", "Throw", "Put" };
     respawnWeapons[] = { "BWA3_G36_AG_equipped", "BWA3_P8", "Laserdesignator", "Throw", "Put" };
-    magazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_30Rnd_556x45_G36_AP), "Laserbatteries" };
-    respawnMagazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_30Rnd_556x45_G36_AP), "Laserbatteries" };
+    magazines[] = { default_smoke, default_magazines, "Laserbatteries" };
+    respawnMagazines[] = { default_smoke, default_magazines, "Laserbatteries" };
 };
 
 //Basis-Klasse fuer Pioniere
@@ -204,12 +204,12 @@ class TTT_Pionier_Base_Bw : TTT_Base_Bw {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_items };
     respawnitems[] = { default_items };
-    linkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_3_Bw_Tropentarn" };
-    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_3_Bw_Tropentarn" };
+    linkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", get_helmet(3,Bw,Tropentarn) };
+    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", get_helmet(3,Bw,Tropentarn) };
     weapons[] = { "BWA3_G36_equipped", "BWA3_P8", "Binocular", "Throw", "Put" };
     respawnWeapons[] = { "BWA3_G36_equipped", "BWA3_P8", "Binocular", "Throw", "Put" };
-    magazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_30Rnd_556x45_G36_AP) };
-    respawnMagazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_30Rnd_556x45_G36_AP) };
+    magazines[] = { default_smoke, default_magazines };
+    respawnMagazines[] = { default_smoke, default_magazines };
 };
 
 //Basis-Klasse fuer Gefechtssanitaeter
@@ -224,12 +224,12 @@ class TTT_Gefechtssanitaeter_Base_Bw : TTT_Base_Bw {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_items };
     respawnitems[] = { default_items };
-    linkedItems[] = { default_linkedItems, "BWA3_Vest_Medic_Tropen", "TTT_Helmet_3_Bw_Tropentarn" };
-    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Medic_Tropen", "TTT_Helmet_3_Bw_Tropentarn" };
+    linkedItems[] = { default_linkedItems, "BWA3_Vest_Medic_Tropen", get_helmet(3,Bw,Tropentarn) };
+    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Medic_Tropen", get_helmet(3,Bw,Tropentarn) };
     weapons[] = { "BWA3_G36_equipped", "BWA3_P8", "Binocular", "Throw", "Put" };
     respawnWeapons[] = { "BWA3_G36_equipped", "BWA3_P8", "Binocular", "Throw", "Put" };
-    magazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_30Rnd_556x45_G36_AP) };
-    respawnMagazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_30Rnd_556x45_G36_AP) };
+    magazines[] = { default_smoke, default_magazines };
+    respawnMagazines[] = { default_smoke, default_magazines };
 };
 
 //Basis-Klasse fuer Feldaerzte
@@ -244,8 +244,8 @@ class TTT_Feldarzt_Base_Bw : TTT_Base_Bw {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_ace_items, "ACE_microDAGR" };
     respawnitems[] = { default_ace_items, "ACE_microDAGR" };
-    linkedItems[] = { default_linkedItems, "BWA3_Vest_Medic_Tropen", "TTT_Helmet_1_Bw_Tropentarn" };
-    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Medic_Tropen", "TTT_Helmet_1_Bw_Tropentarn" };
+    linkedItems[] = { default_linkedItems, "BWA3_Vest_Medic_Tropen", get_helmet(1,Bw,Tropentarn) };
+    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Medic_Tropen", get_helmet(1,Bw,Tropentarn) };
     weapons[] = { "BWA3_G36K_equipped", "BWA3_P8", "ACE_Yardage450", "Throw", "Put" };
     respawnWeapons[] = { "BWA3_G36K_equipped", "BWA3_P8", "ACE_Yardage450", "Throw", "Put" };
     magazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_4(BWA3_30Rnd_556x45_G36_AP) };
@@ -281,10 +281,10 @@ class TTT_Uavoperator_Base_Bw : TTT_Base_Bw {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_items, "ACE_UAVBattery", "ACE_GD300_b" };
     respawnitems[] = { default_items, "ACE_UAVBattery", "ACE_GD300_b" };
-    linkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_3_Bw_Tropentarn", "B_UavTerminal" };
-    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", "TTT_Helmet_3_Bw_Tropentarn", "B_UavTerminal" };
+    linkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", get_helmet(3,Bw,Tropentarn), "B_UavTerminal" };
+    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Rifleman1_Tropen", get_helmet(3,Bw,Tropentarn), "B_UavTerminal" };
     weapons[] = { "BWA3_G36_equipped", "BWA3_P8", "Binocular", "Throw", "Put" };
     respawnWeapons[] = { "BWA3_G36_equipped", "BWA3_P8", "Binocular", "Throw", "Put" };
-    magazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_30Rnd_556x45_G36_AP) };
-    respawnMagazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_30Rnd_556x45_G36_AP) };
+    magazines[] = { default_smoke, default_magazines };
+    respawnMagazines[] = { default_smoke, default_magazines };
 };

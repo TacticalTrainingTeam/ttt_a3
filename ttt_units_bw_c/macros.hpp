@@ -23,6 +23,7 @@
 #define default_linkedItems "BWA3_G_Combat_Clear", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" 
 #define default_ace_items "ACE_NVG_Wide", item_2(ACE_CableTie), item_2(ACE_IR_Strobe_Item), "ACE_MapTools", "ACE_Flashlight_MX991"
 #define default_smoke item_5(SmokeShell), item_2(SmokeShellGreen), item_2(SmokeShellPurple), item_2(ACE_M84), item_2(ACE_HandFlare_Green)
+#define default_magazines item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_30Rnd_556x45_G36_AP)
 #define sniper_tools "ACE_Kestrel4500", "ACE_ATragMX", "ACE_RangeCard"
 
 /// Backpack Medic Stuff ///		
@@ -35,11 +36,14 @@
 /// Vest Config ///
 #define get_vest(army,group,kind,camo) get_str(append_dummy(append_dummy(append_dummy(TTT_Vest_##kind)_##group)_##army)_##camo)
 
+///Helmet Config ///
+#define get_helmet(number,army,camo) get_str(append_dummy(append_dummy(TTT_Helmet_##number)_##army)_##camo)
+
 /// Berets Config ///
 #define get_beret(group) get_str(TTT_Berets_##group)
 
 /// Stringification Marco ///
 #define get_str(string) #string
 
-///Dummy Marco for Appending Strings ///
+///Dummy Macro for Appending Strings ///
 #define append_dummy(str) str

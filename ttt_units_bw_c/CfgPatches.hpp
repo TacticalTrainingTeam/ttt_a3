@@ -250,20 +250,20 @@ class CfgPatches {
 			"TTT_Uniform_Silver_Bw_Flecktarn",
 			
 			//Helme Tropentarn
-			"TTT_Helmet_1_Bw_Tropentarn",
-			"TTT_Helmet_2_Bw_Tropentarn",
-			"TTT_Helmet_3_Bw_Tropentarn",
-			"TTT_Helmet_4_Bw_Tropentarn",
-			"TTT_Helmet_5_Bw_Tropentarn",
-			"TTT_Helmet_6_Bw_Tropentarn",
+            "TTT_Helmet_1_Bw_Tropentarn",
+            "TTT_Helmet_2_Bw_Tropentarn",
+            "TTT_Helmet_3_Bw_Tropentarn",
+            "TTT_Helmet_4_Bw_Tropentarn",
+            "TTT_Helmet_5_Bw_Tropentarn",
+            "TTT_Helmet_6_Bw_Tropentarn"
 			
 			//Helme Flecktarn
-			"TTT_Helmet_1_Bw_Flecktarn",
-			"TTT_Helmet_2_Bw_Flecktarn",
-			"TTT_Helmet_3_Bw_Flecktarn",
-			"TTT_Helmet_4_Bw_Flecktarn",
-			"TTT_Helmet_5_Bw_Flecktarn",
-			"TTT_Helmet_6_Bw_Flecktarn"
+            "TTT_Helmet_1_Bw_Flecktarn",
+            "TTT_Helmet_2_Bw_Flecktarn",
+            "TTT_Helmet_3_Bw_Flecktarn",
+            "TTT_Helmet_4_Bw_Flecktarn",
+            "TTT_Helmet_5_Bw_Flecktarn",
+            "TTT_Helmet_6_Bw_Flecktarn"
 		};
 		requiredAddons[] = {"ttt_main","ttt_units_bw"};
 	};
