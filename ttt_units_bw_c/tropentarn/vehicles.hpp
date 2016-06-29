@@ -65,6 +65,8 @@ class TTT_Gelb4_Bw_Tropentarn : TTT_Funkerfac_Base_Bw {
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     uniformClass = "TTT_Uniform_Gelb_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_yellow_bw_tropentarn.paa" };
+    items[] = { default_items };
+    respawnitems[] = { default_items };
     linkedItems[] = { get_vest(Us,GROUP_COLOR,Lite,Woodland), get_helmet(4,Bw,Tropentarn), default_linkedItems };
     respawnLinkedItems[] = { get_vest(Us,GROUP_COLOR,Lite,Woodland), get_helmet(4,Bw,Tropentarn), default_linkedItems };
 };
@@ -229,8 +231,8 @@ class TTT_Gold2_Bw_Tropentarn : TTT_Funkerfac_Base_Bw {
     respawnLinkedItems[] = { get_vest(Us,GROUP_COLOR,Lite,Woodland), get_helmet(2,Bw,Tropentarn), default_linkedItems };
     weapons[] = { "BWA3_G27_Tan_AG", "BWA3_P8", "Laserdesignator", default_weapons };
     respawnWeapons[] = { "BWA3_G27_Tan_AG", "BWA3_P8", "Laserdesignator", default_weapons };	
-	magazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_20Rnd_762x51_G28_AP) };
-    respawnMagazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_20Rnd_762x51_G28_AP) };	
+	magazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_20Rnd_762x51_G28_AP), "Laserbatteries" };
+    respawnMagazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_20Rnd_762x51_G28_AP), "Laserbatteries" };	
 };
 
 //Gold 3 (Spotter)
@@ -312,6 +314,7 @@ class TTT_Gold6_Bw_Tropentarn : TTT_Schuetze_Base_Bw {
     magazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_20Rnd_762x51_G28_AP)};
     respawnMagazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_20Rnd_762x51_G28_AP)};
 };
+#undef gold_items
 
 /*
 #############################################################
@@ -360,6 +363,8 @@ class TTT_Gruen3_Bw_Tropentarn : TTT_Gefechtssanitaeter_Base_Bw {
     vehicleClass = "TTT_Gruen_Bw_Tropentarn";
     uniformClass = "TTT_Uniform_Gruen_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_green_bw_tropentarn.paa" };
+    items[] = { default_items };
+    respawnitems[] = { default_items };
     linkedItems[] = { get_vest(Us,GROUP_COLOR,Lite,Woodland), get_helmet(3,Bw,Tropentarn), default_linkedItems };
     respawnLinkedItems[] = { get_vest(Us,GROUP_COLOR,Lite,Woodland), get_helmet(3,Bw,Tropentarn), default_linkedItems };
 };
@@ -373,6 +378,8 @@ class TTT_Gruen4_Bw_Tropentarn : TTT_Gefechtssanitaeter_Base_Bw {
     vehicleClass = "TTT_Gruen_Bw_Tropentarn";
     uniformClass = "TTT_Uniform_Gruen_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_green_bw_tropentarn.paa" };
+    items[] = { default_items };
+    respawnitems[] = { default_items };
     linkedItems[] = { get_vest(Us,GROUP_COLOR,Lite,Woodland), get_helmet(4,Bw,Tropentarn), default_linkedItems };
     respawnLinkedItems[] = { get_vest(Us,GROUP_COLOR,Lite,Woodland), get_helmet(4,Bw,Tropentarn), default_linkedItems };
 };
@@ -424,6 +431,8 @@ class TTT_Braun3_Bw_Tropentarn : TTT_Gefechtssanitaeter_Base_Bw {
     vehicleClass = "TTT_Braun_Bw_Tropentarn";
     uniformClass = "TTT_Uniform_Braun_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_brown_bw_tropentarn.paa" };
+    items[] = { default_items };
+    respawnitems[] = { default_items };
     linkedItems[] = { get_vest(Us,GROUP_COLOR,Lite,Woodland), get_helmet(3,Bw,Tropentarn), default_linkedItems };
     respawnLinkedItems[] = { get_vest(Us,GROUP_COLOR,Lite,Woodland), get_helmet(3,Bw,Tropentarn), default_linkedItems };
 };
@@ -967,7 +976,7 @@ class TTT_Weiss1_Bw_Tropentarn : TTT_Feldarzt_Base_Bw {
     uniformClass = "TTT_Uniform_Weiss_Bw_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_white_bw_tropentarn.paa" };
     items[] = { default_ace_items, "ACE_microDAGR", get_beret(GROUP_COLOR) };
-    respawnitems[] = { default_ace_items, "ACE_microDAGR" };	
+    respawnitems[] = { default_ace_items, "ACE_microDAGR", get_beret(GROUP_COLOR) };
     linkedItems[] = { "TTT_Vest_Crew_Us_Desert", get_helmet(1,Bw,Tropentarn), default_linkedItems };
     respawnLinkedItems[] = { "TTT_Vest_Crew_Us_Desert", get_helmet(1,Bw,Tropentarn), default_linkedItems };
 };
@@ -983,7 +992,7 @@ class TTT_Weiss2_Bw_Tropentarn : TTT_Pilot_Base_Bw {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\tropentarn\uniforms\TTT_uniform_white_bw_tropentarn.paa" };
     backpack = "TTT_Backpack_Pilot_Bw_Tropentarn";
     items[] = { "TTT_Helmet_Falcon", default_ace_items, "ACE_microDAGR", get_beret(GROUP_COLOR) };
-    respawnitems[] = { "TTT_Helmet_Falcon", default_ace_items, "ACE_microDAGR" };
+    respawnitems[] = { "TTT_Helmet_Falcon", default_ace_items, "ACE_microDAGR", get_beret(GROUP_COLOR) };
     linkedItems[] = { "TTT_Vest_Crew_Us_Desert", get_helmet(2,Bw,Tropentarn), default_linkedItems };
     respawnLinkedItems[] = { "TTT_Vest_Crew_Us_Desert", get_helmet(2,Bw,Tropentarn), default_linkedItems };
 };

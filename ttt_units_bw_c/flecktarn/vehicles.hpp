@@ -688,6 +688,8 @@ class TTT_Violett6_Bw_Flecktarn : TTT_Violett6_Bw_Tropentarn {
 ### Trupp Bronze (Flecktarn)
 #############################################################
 */
+#undef GROUP_COLOR
+#define GROUP_COLOR Bronze
 
 //Bronze 1 (Truppfuehrer)
 class TTT_Bronze1_Bw_Flecktarn : TTT_Bronze1_Bw_Tropentarn {
@@ -772,6 +774,8 @@ class TTT_Bronze6_Bw_Flecktarn : TTT_Bronze6_Bw_Tropentarn {
 ### Trupp Weiﬂ (Flecktarn)
 #############################################################
 */
+#undef GROUP_COLOR
+#define GROUP_COLOR White
 
 //Weiﬂ 1 (Oberfeldarzt)
 class TTT_Weiss1_Bw_Flecktarn : TTT_Weiss1_Bw_Tropentarn {
@@ -830,6 +834,8 @@ class TTT_Weiss4_Bw_Flecktarn : TTT_Weiss4_Bw_Tropentarn {
 ### Trupp Platin (Flecktarn)
 #############################################################
 */
+#undef GROUP_COLOR
+#define GROUP_COLOR Platin
 
 //Platin 1 (Pilot)
 class TTT_Platin1_Bw_Flecktarn : TTT_Platin1_Bw_Tropentarn {
@@ -862,6 +868,8 @@ class TTT_Platin2_Bw_Flecktarn : TTT_Platin2_Bw_Tropentarn {
 ### Trupp Silber (Flecktarn)
 #############################################################
 */
+#undef GROUP_COLOR
+#define GROUP_COLOR Silver
 
 //Silber 1 (Truppfuehrer)
 class TTT_Silber1_Bw_Flecktarn : TTT_Silber1_Bw_Tropentarn {

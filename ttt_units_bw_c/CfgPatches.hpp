@@ -255,7 +255,7 @@ class CfgPatches {
             "TTT_Helmet_3_Bw_Tropentarn",
             "TTT_Helmet_4_Bw_Tropentarn",
             "TTT_Helmet_5_Bw_Tropentarn",
-            "TTT_Helmet_6_Bw_Tropentarn"
+            "TTT_Helmet_6_Bw_Tropentarn",
 			
 			//Helme Flecktarn
             "TTT_Helmet_1_Bw_Flecktarn",
