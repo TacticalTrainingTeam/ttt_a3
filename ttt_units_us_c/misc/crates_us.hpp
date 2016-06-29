@@ -197,8 +197,8 @@
 		};
 		
 		class TransportItems {
-			class _xx_MineDetector {
-				name = "MineDetector";
+            class _xx_ACE_VMH3 {
+				name = "ACE_VMH3";
 				count = 2;
 			};
 			class _xx_Toolkit {
