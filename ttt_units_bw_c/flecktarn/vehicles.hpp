@@ -846,8 +846,8 @@ class TTT_Platin1_Bw_Flecktarn : TTT_Platin1_Bw_Tropentarn {
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\flecktarn\uniforms\TTT_uniform_platin_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\misc\TTT_uniform.rvmat"};
-    linkedItems[] = { "TTT_Vest_Crew_Us_Desert", "TTT_Helmet_Eagle", default_linkedItems };
-    respawnLinkedItems[] = { "TTT_Vest_Crew_Us_Desert", "TTT_Helmet_Eagle", default_linkedItems };
+    linkedItems[] = { "TTT_Vest_Crew_Us_Desert", get_helmet(1, Bw, Flecktarn), default_linkedItems };
+    respawnLinkedItems[] = { "TTT_Vest_Crew_Us_Desert", get_helmet(1, Bw, Flecktarn), default_linkedItems };
 };	
 
 //Platin 2 (Pilot)
@@ -859,8 +859,8 @@ class TTT_Platin2_Bw_Flecktarn : TTT_Platin2_Bw_Tropentarn {
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\flecktarn\uniforms\TTT_uniform_platin_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\misc\TTT_uniform.rvmat"};
-    linkedItems[] = { "TTT_Vest_Crew_Us_Desert", "TTT_Helmet_Eagle", default_linkedItems };
-    respawnLinkedItems[] = { "TTT_Vest_Crew_Us_Desert", "TTT_Helmet_Eagle", default_linkedItems };	
+    linkedItems[] = { "TTT_Vest_Crew_Us_Desert", get_helmet(2, Bw, Flecktarn), default_linkedItems };
+    respawnLinkedItems[] = { "TTT_Vest_Crew_Us_Desert", get_helmet(2, Bw, Flecktarn), default_linkedItems };
 };	
 
 /*
