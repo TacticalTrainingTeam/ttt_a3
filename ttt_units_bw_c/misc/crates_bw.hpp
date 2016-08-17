@@ -207,6 +207,7 @@
 		};
 		
 		class TransportMagazines {
+			mag_xx(BWA3_Fliegerfaust_Mag,4);
 		};
 		
 		class TransportItems {
@@ -222,12 +223,13 @@
 		transportMaxWeapons = 99;
 		transportMaxMagazines = 99;
 		
-		class TransportMagazines {
-		};
-		
 		class TransportWeapons {
 			weap_xx(BWA3_Pzf3_Loaded,2);
-			weap_xx(BWA3_Fliegerfaust,2);		
+			weap_xx(BWA3_Fliegerfaust,2);	
+		};
+		
+		class TransportMagazines {
+			mag_xx(BWA3_Fliegerfaust_Mag,4);
 		};
 		
 		class TransportBackpacks{
