@@ -113,7 +113,7 @@
 		};
 		
 		class TransportItems {
-			item_xx(MineDetector,2);
+			item_xx(ACE_VMH3,2);
 			item_xx(Toolkit,2);
 			item_xx(ACE_DefusalKit,2);
 			item_xx(ACE_M26_Clacker,2);
