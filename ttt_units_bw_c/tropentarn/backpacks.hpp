@@ -230,8 +230,8 @@ class TTT_Backpack_Pionier_Bw_Tropentarn : B_Carryall_cbr {
             name = "ACE_morphine";
             count = 1;
         };
-        class _xx_MineDetector {
-            name = "MineDetector";
+        class _xx_ACE_VMH3 {
+            name = "ACE_VMH3";
             count = 1;
         };
         class _xx_ACE_DefusalKit {
