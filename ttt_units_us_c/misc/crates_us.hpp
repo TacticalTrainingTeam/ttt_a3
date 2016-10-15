@@ -54,13 +54,18 @@
 		
 		class TransportWeapons {
 			
-			class _xx_rhsusf_acc_LEUPOLDMK4 {
-				weapon = "rhsusf_acc_LEUPOLDMK4";
+			class _xx_rhsusf_acc_LEUPOLDMK4_2 {
+				weapon = "rhsusf_acc_LEUPOLDMK4_2";
 				count = 1;
 			};
 			
-			class _xx_rhs_weap_mk18_grip2_eotech {
-				weapon = "rhs_weap_mk18_grip2_eotech";
+			class _xx_rhsusf_acc_eotech_552 {
+				weapon = "rhsusf_acc_eotech_552";
+				count = 1;
+			};
+			
+			class _xx_rhs_weap_mk18_m320 {
+				weapon = "rhs_weap_mk18_m320";
 				count = 1;
 			};
 			
