@@ -257,9 +257,9 @@
 		
 		class TransportItems {
 			item_xx(ACE_quikclot,20);
-			item_xx(ACE_fieldDressing,20);
-			item_xx(ACE_packingBandage,75);
-			item_xx(ACE_elasticBandage,75);
+			item_xx(ACE_fieldDressing,125);
+			item_xx(ACE_packingBandage,50);
+			item_xx(ACE_elasticBandage,50);
 			item_xx(ACE_salineIV,20);
 			item_xx(ACE_salineIV_500,20);
 			item_xx(ACE_morphine,15);

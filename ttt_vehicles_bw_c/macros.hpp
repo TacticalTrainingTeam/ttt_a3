@@ -24,8 +24,8 @@
 
 /// Backpack Medic Stuff ///		
 #define vehicle_medic_supply_standard \
-	item_xx(ACE_elasticBandage,15); \
-	item_xx(packingBandage,10);
+	item_xx(ACE_fieldDressing,15); \
+	item_xx(ACE_packingBandage,10);
 	
 /// Vest Config ///
 #define get_vest(army,group,kind,camo) get_str(append_dummy(append_dummy(append_dummy(TTT_Vest_##kind)_##group)_##army)_##camo)

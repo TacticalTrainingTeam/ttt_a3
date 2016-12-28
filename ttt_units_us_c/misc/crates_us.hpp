@@ -476,12 +476,12 @@
 		class TransportItems {
 			class _xx_ACE_fieldDressing {
 				name = "ACE_fieldDressing";
-				count = 20;
+				count = 125;
 			};
 			
 			class _xx_ACE_packingBandage {
 				name = "ACE_packingBandage";
-				count = 75;
+				count = 50;
 			};
 			
 			class _xx_ACE_tourniquet {

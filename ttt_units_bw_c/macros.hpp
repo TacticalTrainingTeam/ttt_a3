@@ -28,8 +28,8 @@
 
 /// Backpack Medic Stuff ///		
 #define backpack_medic_supply_standard \
-	item_xx(ACE_elasticBandage,7);\
-	item_xx(ACE_packingBandage,5);\
+	item_xx(ACE_fieldDressing,9);\
+	item_xx(ACE_packingBandage,3);\
 	item_xx(ACE_tourniquet,2);\
 	item_xx(ACE_morphine,1)
 	
