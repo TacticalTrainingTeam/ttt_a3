@@ -170,7 +170,8 @@
 			item_xx(Laserdesignator,1);
 			item_xx(ACE_Vector,1);
 			item_xx(optic_LRPS,1);
-			item_xx(ACE_DK10_b,2);
+			item_xx(ACE_DK10_b,1);
+			item_xx(ACE_GD300_b,2);
 			item_xx(BWA3_muzzle_snds_G28,1);
 			item_xx(BWA3_muzzle_snds_G36,6);
 			item_xx(BWA3_acc_LLM01_irlaser,6);
