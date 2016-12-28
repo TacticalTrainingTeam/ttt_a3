@@ -30,8 +30,7 @@
 #define backpack_medic_supply_standard \
 	item_xx(ACE_fieldDressing,9);\
 	item_xx(ACE_packingBandage,3);\
-	item_xx(ACE_tourniquet,2);\
-	item_xx(ACE_morphine,1)
+	item_xx(ACE_tourniquet,2);
 	
 /// Vest Config ///
 #define get_vest(army,group,kind,camo) get_str(append_dummy(append_dummy(append_dummy(TTT_Vest_##kind)_##group)_##army)_##camo)

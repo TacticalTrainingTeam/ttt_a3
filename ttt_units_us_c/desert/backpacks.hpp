@@ -21,10 +21,6 @@ class TTT_Backpack_Truppfuehrer_Us_Desert : B_AssaultPack_cbr {
             name = "ACE_tourniquet";
             count = 2;
         };
-        class _xx_ACE_morphine {
-            name = "ACE_morphine";
-            count = 1;
-        };
         class _xx_ACE_GD300_b {
             name = "ACE_GD300_b";
             count = 1;
@@ -63,10 +59,6 @@ class TTT_Backpack_Grenadier_Us_Desert : B_AssaultPack_cbr {
             name = "ACE_tourniquet";
             count = 2;
         };
-        class _xx_ACE_morphine {
-            name = "ACE_morphine";
-            count = 1;
-        };
     };
     class TransportMagazines {
         class _xx_1Rnd_HE_Grenade_shell {
@@ -93,10 +85,6 @@ class TTT_Backpack_Mgassistent_Us_Desert : B_AssaultPack_cbr {
             name = "ACE_tourniquet";
             count = 2;
         };
-        class _xx_ACE_morphine {
-            name = "ACE_morphine";
-            count = 1;
-        };
     };
     class TransportMagazines {
         class _xx_rhsusf_100Rnd_762x51_m80a1epr {
@@ -122,10 +110,6 @@ class TTT_Backpack_Mgschuetze_Us_Desert : B_AssaultPack_cbr {
         class _xx_ACE_tourniquet {
             name = "ACE_tourniquet";
             count = 2;
-        };
-        class _xx_ACE_morphine {
-            name = "ACE_morphine";
-            count = 1;
         };
         class _xx_ACE_SpareBarrel {
             name = "ACE_SpareBarrel";
@@ -158,10 +142,6 @@ class TTT_Backpack_Lmgschuetze_Us_Desert : B_AssaultPack_cbr {
             name = "ACE_tourniquet";
             count = 2;
         };
-        class _xx_ACE_morphine {
-            name = "ACE_morphine";
-            count = 1;
-        };
         class _xx_ACE_SpareBarrel {
             name = "ACE_SpareBarrel";
             count = 1;
@@ -192,10 +172,6 @@ class TTT_Backpack_Atschuetze_Us_Desert : B_AssaultPack_cbr {
             name = "ACE_tourniquet";
             count = 2;
         };
-        class _xx_ACE_morphine {
-            name = "ACE_morphine";
-            count = 1;
-        };
     };
 };
 
@@ -216,10 +192,6 @@ class TTT_Backpack_Schuetze_Us_Desert : B_AssaultPack_cbr {
             name = "ACE_tourniquet";
             count = 2;
         };
-        class _xx_ACE_morphine {
-            name = "ACE_morphine";
-            count = 1;
-        };
     };
 };
 
@@ -239,10 +211,6 @@ class TTT_Backpack_Funkerfac_Us_Desert : tf_rt1523g_big_rhs {
         class _xx_ACE_tourniquet {
             name = "ACE_tourniquet";
             count = 2;
-        };
-        class _xx_ACE_morphine {
-            name = "ACE_morphine";
-            count = 1;
         };
         class _xx_ACE_GD300_b {
             name = "ACE_GD300_b";
@@ -273,10 +241,6 @@ class TTT_Backpack_Pionier_Us_Desert : B_Carryall_cbr {
         class _xx_ACE_tourniquet {
             name = "ACE_tourniquet";
             count = 2;
-        };
-        class _xx_ACE_morphine {
-            name = "ACE_morphine";
-            count = 1;
         };
         class _xx_ACE_VMH3 {
             name = "ACE_VMH3";
@@ -428,10 +392,6 @@ class TTT_Backpack_Pilot_Us_Desert : tf_rt1523g_big_rhs {
             name = "ACE_tourniquet";
             count = 2;
         };
-        class _xx_ACE_morphine {
-            name = "ACE_morphine";
-            count = 1;
-        };
         class _xx_ACE_GD300_b {
             name = "ACE_GD300_b";
             count = 1;
@@ -455,10 +415,6 @@ class TTT_Backpack_Opl_Us_Desert : tf_rt1523g_big_rhs {
         class _xx_ACE_tourniquet {
             name = "ACE_tourniquet";
             count = 2;
-        };
-        class _xx_ACE_morphine {
-            name = "ACE_morphine";
-            count = 1;
         };
         class _xx_ACE_GD300_b {
             name = "ACE_GD300_b";
