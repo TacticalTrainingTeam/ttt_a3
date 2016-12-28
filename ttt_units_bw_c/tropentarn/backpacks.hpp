@@ -356,8 +356,8 @@ class TTT_Backpack_Opl_Bw_Tropentarn : tf_rt1523g_big_bwmod_tropen {
             name = "ACE_tourniquet";
             count = 2;
         };
-        class _xx_ACE_GD300_b {
-            name = "ACE_GD300_b";
+        class _xx_ACE_DK10_b {
+            name = "ACE_DK10_b";
             count = 1;
         };
     };
