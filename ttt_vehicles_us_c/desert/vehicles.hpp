@@ -16,7 +16,7 @@ class TTT_Truppfahrzeug_Mg_Us_Desert : UK3CB_BAF_Coyote_Passenger_L111A1_D {
     class TransportWeapons {
     };
     class TransportItems {
-		item_xx(ToolKit,1);
+		ITEM_XX(ToolKit,1)
     };
     class TransportMagazines {
     };
@@ -37,7 +37,7 @@ class TTT_Truppfahrzeug_Gl_Us_Desert : UK3CB_BAF_Coyote_Passenger_L134A1_D {
     class TransportWeapons {
     };
     class TransportItems {
-		item_xx(ToolKit,1);
+		ITEM_XX(ToolKit,1)
     };
     class TransportMagazines {
     };
@@ -64,7 +64,7 @@ class TTT_Oplfahrzeug_Us_Desert : rhsusf_m998_w_4dr_fulltop {
     class TransportWeapons {
     };
     class TransportItems {
-		item_xx(ToolKit,1);
+		ITEM_XX(ToolKit,1)
     };
     class TransportMagazines {
     };
@@ -91,16 +91,16 @@ class TTT_Sanitaetsfahrzeug_Us_Desert : rhsusf_m998_d_2dr_fulltop {
     class TransportWeapons {
     };
     class TransportItems {
-		item_xx(ToolKit,1);
+		ITEM_XX(ToolKit,1)
 		//Sanitaetsmaterial
-		item_xx(ACE_packingBandage,20);
-		item_xx(ACE_elasticBandage,20);
-		item_xx(ACE_fieldDressing,20);
-		item_xx(ACE_quikclot,15);
-		item_xx(ACE_atropine,10);
-		item_xx(ACE_morphine,20);
-		item_xx(ACE_epinephrine,20);
-		item_xx(ACE_salineIV,15);
+		ITEM_XX(ACE_packingBandage,20)
+		ITEM_XX(ACE_elasticBandage,20)
+		ITEM_XX(ACE_fieldDressing,20)
+		ITEM_XX(ACE_quikclot,15)
+		ITEM_XX(ACE_atropine,10)
+		ITEM_XX(ACE_morphine,20)
+		ITEM_XX(ACE_epinephrine,20)
+		ITEM_XX(ACE_salineIV,15)
     };
     class TransportMagazines {
     };
@@ -128,7 +128,7 @@ class TTT_TransporterLeichtOffen_Us_Desert : rhsusf_m998_w_2dr {
     class TransportWeapons {
     };
     class TransportItems {
-		item_xx(ToolKit,1);
+		ITEM_XX(ToolKit,1)
     };
     class TransportMagazines {
     };
@@ -159,7 +159,7 @@ class TTT_Schuetzenpanzer_Us_Desert : RHS_M2A3_BUSKIII {
     class TransportWeapons {
     };
     class TransportItems {
-		item_xx(ToolKit,1);
+		ITEM_XX(ToolKit,1)
     };
     class TransportMagazines {
     };
@@ -186,7 +186,7 @@ class TTT_Kampfpanzer_Us_Desert : rhsusf_m1a2sep1tuskiid_Usarmy {
     class TransportWeapons {
     };
     class TransportItems {
-		item_xx(ToolKit,1);
+		ITEM_XX(ToolKit,1)
     };
     class TransportMagazines {
     };
@@ -214,7 +214,7 @@ class TTT_Kampfhelikopter_Us_Desert : RHS_AH64D {
     class TransportWeapons {
     };
     class TransportItems {
-		item_xx(ToolKit,1);
+		ITEM_XX(ToolKit,1)
     };
     class TransportMagazines {
     };
@@ -242,16 +242,16 @@ class TTT_Sanitaetshelikopter_Us_Desert : RHS_UH60M {
     class TransportWeapons {
     };
     class TransportItems {
-		item_xx(ToolKit,1);	
+		ITEM_XX(ToolKit,1);
 		//Sanitaetsmaterial
- 		item_xx(ACE_packingBandage,20);
-		item_xx(ACE_elasticBandage,20);
-		item_xx(ACE_fieldDressing,20);
-		item_xx(ACE_quikclot,15);
-		item_xx(ACE_atropine,10);
-		item_xx(ACE_morphine,20);
-		item_xx(ACE_epinephrine,20);
-		item_xx(ACE_salineIV,15);
+ 		ITEM_XX(ACE_packingBandage,20)
+		ITEM_XX(ACE_elasticBandage,20)
+		ITEM_XX(ACE_fieldDressing,20)
+		ITEM_XX(ACE_quikclot,15)
+		ITEM_XX(ACE_atropine,10)
+		ITEM_XX(ACE_morphine,20)
+		ITEM_XX(ACE_epinephrine,20)
+		ITEM_XX(ACE_salineIV,15)
 	};
     class TransportMagazines {
     };
@@ -279,7 +279,7 @@ class TTT_Logistikhelikopter_Us_Desert : RHS_CH_47F {
     class TransportWeapons {
     };
     class TransportItems {
-		item_xx(ToolKit,1);
+		ITEM_XX(ToolKit,1)
     };
     class TransportMagazines {
     };
@@ -310,7 +310,7 @@ class TTT_Transporthelikopter_Us_Desert : RHS_UH60M {
 
     };
     class TransportItems {
-		item_xx(ToolKit,1);
+		ITEM_XX(ToolKit,1)
 
     };
     class TransportMagazines {
