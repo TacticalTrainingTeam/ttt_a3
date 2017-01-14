@@ -170,7 +170,8 @@
 			item_xx(Laserdesignator,1);
 			item_xx(ACE_Vector,1);
 			item_xx(optic_LRPS,1);
-			item_xx(ACE_DK10_b,2);
+			item_xx(ACE_DK10_b,1);
+			item_xx(ACE_GD300_b,2);
 			item_xx(BWA3_muzzle_snds_G28,1);
 			item_xx(BWA3_muzzle_snds_G36,6);
 			item_xx(BWA3_acc_LLM01_irlaser,6);
@@ -257,9 +258,9 @@
 		
 		class TransportItems {
 			item_xx(ACE_quikclot,20);
-			item_xx(ACE_fieldDressing,20);
-			item_xx(ACE_packingBandage,75);
-			item_xx(ACE_elasticBandage,75);
+			item_xx(ACE_fieldDressing,125);
+			item_xx(ACE_packingBandage,50);
+			item_xx(ACE_elasticBandage,50);
 			item_xx(ACE_salineIV,20);
 			item_xx(ACE_salineIV_500,20);
 			item_xx(ACE_morphine,15);

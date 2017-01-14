@@ -359,9 +359,13 @@
 			
 			class _xx_ACE_DK10_b {
 				name = "ACE_DK10_b";
-				count = 2;
+				count = 1;
 			};
 			
+			class _xx_ACE_GD300_b {
+				name = "ACE_GD300_b";
+				count = 2;
+			};
 			
 			class _xx_B_UavTerminal {
 				name = "B_UavTerminal";
@@ -476,12 +480,12 @@
 		class TransportItems {
 			class _xx_ACE_fieldDressing {
 				name = "ACE_fieldDressing";
-				count = 20;
+				count = 125;
 			};
 			
 			class _xx_ACE_packingBandage {
 				name = "ACE_packingBandage";
-				count = 75;
+				count = 50;
 			};
 			
 			class _xx_ACE_tourniquet {

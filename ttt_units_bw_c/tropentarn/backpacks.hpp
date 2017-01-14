@@ -8,24 +8,20 @@
 class TTT_Backpack_Truppfuehrer_Bw_Tropentarn : B_AssaultPack_cbr {
     displayName = "TTT Truppfuehrer Rucksack (BW Tropentarn)";
     class TransportItems {
-        class _xx_ACE_elasticBandage {
-            name = "ACE_elasticBandage";
-            count = 7;
+        class _xx_ACE_fieldDressing {
+            name = "ACE_fieldDressing";
+            count = 9;
         };
 		class _xx_ACE_packingBandage {
             name = "ACE_packingBandage";
-            count = 5;
+            count = 3;
         };
         class _xx_ACE_tourniquet {
             name = "ACE_tourniquet";
             count = 2;
         };
-        class _xx_ACE_morphine {
-            name = "ACE_morphine";
-            count = 1;
-        };
-        class _xx_ACE_DK10_b {
-            name = "ACE_DK10_b";
+        class _xx_ACE_GD300_b {
+            name = "ACE_GD300_b";
             count = 1;
         };
 		class Binocular {
@@ -49,21 +45,17 @@ class TTT_Backpack_Truppfuehrer_Bw_Tropentarn : B_AssaultPack_cbr {
 class TTT_Backpack_Grenadier_Bw_Tropentarn : B_AssaultPack_cbr {
     displayName = "TTT Grenadier Rucksack (BW Tropentarn)";
     class TransportItems {
-        class _xx_ACE_elasticBandage {
-            name = "ACE_elasticBandage";
-            count = 7;
+        class _xx_ACE_fieldDressing {
+            name = "ACE_fieldDressing";
+            count = 9;
         };
 		class _xx_ACE_packingBandage {
             name = "ACE_packingBandage";
-            count = 5;
+            count = 3;
         };
         class _xx_ACE_tourniquet {
             name = "ACE_tourniquet";
             count = 2;
-        };
-        class _xx_ACE_morphine {
-            name = "ACE_morphine";
-            count = 1;
         };
     };
     class TransportMagazines {
@@ -78,21 +70,17 @@ class TTT_Backpack_Grenadier_Bw_Tropentarn : B_AssaultPack_cbr {
 class TTT_Backpack_Mgassistent_Bw_Tropentarn : B_AssaultPack_cbr {
     displayName = "TTT MG-Assistent Rucksack (BW Tropentarn)";
     class TransportItems {
-        class _xx_ACE_elasticBandage {
-            name = "ACE_elasticBandage";
-            count = 7;
+        class _xx_ACE_fieldDressing {
+            name = "ACE_fieldDressing";
+            count = 9;
         };
 		class _xx_ACE_packingBandage {
             name = "ACE_packingBandage";
-            count = 5;
+            count = 3;
         };
         class _xx_ACE_tourniquet {
             name = "ACE_tourniquet";
             count = 2;
-        };
-        class _xx_ACE_morphine {
-            name = "ACE_morphine";
-            count = 1;
         };
     };
     class TransportMagazines {
@@ -107,21 +95,17 @@ class TTT_Backpack_Mgassistent_Bw_Tropentarn : B_AssaultPack_cbr {
 class TTT_Backpack_Mgschuetze_Bw_Tropentarn : B_AssaultPack_cbr {
     displayName = "TTT MG-Schuetze Rucksack (BW Tropentarn)";
     class TransportItems {
-        class _xx_ACE_elasticBandage {
-            name = "ACE_elasticBandage";
-            count = 7;
+        class _xx_ACE_fieldDressing {
+            name = "ACE_fieldDressing";
+            count = 9;
         };
 		class _xx_ACE_packingBandage {
             name = "ACE_packingBandage";
-            count = 5;
+            count = 3;
         };
         class _xx_ACE_tourniquet {
             name = "ACE_tourniquet";
             count = 2;
-        };
-        class _xx_ACE_morphine {
-            name = "ACE_morphine";
-            count = 1;
         };
         class _xx_ACE_SpareBarrel {
             name = "ACE_SpareBarrel";
@@ -134,21 +118,17 @@ class TTT_Backpack_Mgschuetze_Bw_Tropentarn : B_AssaultPack_cbr {
 class TTT_Backpack_Atschuetze_Bw_Tropentarn : B_AssaultPack_cbr {
     displayName = "TTT AT-Schuetze Rucksack (BW Tropentarn)";
     class TransportItems {
-        class _xx_ACE_elasticBandage {
-            name = "ACE_elasticBandage";
-            count = 7;
+        class _xx_ACE_fieldDressing {
+            name = "ACE_fieldDressing";
+            count = 9;
         };
 		class _xx_ACE_packingBandage {
             name = "ACE_packingBandage";
-            count = 5;
+            count = 3;
         };
         class _xx_ACE_tourniquet {
             name = "ACE_tourniquet";
             count = 2;
-        };
-        class _xx_ACE_morphine {
-            name = "ACE_morphine";
-            count = 1;
         };
     };
 };
@@ -157,21 +137,17 @@ class TTT_Backpack_Atschuetze_Bw_Tropentarn : B_AssaultPack_cbr {
 class TTT_Backpack_Schuetze_Bw_Tropentarn : B_AssaultPack_cbr {
     displayName = "TTT Schuetze Rucksack (BW Tropentarn)";
     class TransportItems {
-        class _xx_ACE_elasticBandage {
-            name = "ACE_elasticBandage";
-            count = 7;
+        class _xx_ACE_fieldDressing {
+            name = "ACE_fieldDressing";
+            count = 9;
         };
 		class _xx_ACE_packingBandage {
             name = "ACE_packingBandage";
-            count = 5;
+            count = 3;
         };
         class _xx_ACE_tourniquet {
             name = "ACE_tourniquet";
             count = 2;
-        };
-        class _xx_ACE_morphine {
-            name = "ACE_morphine";
-            count = 1;
         };
     };
 };
@@ -181,21 +157,17 @@ class TTT_Backpack_Funkerfac_Bw_Tropentarn : tf_rt1523g_big_bwmod_tropen {
     displayName = "TTT Funker/FAC Rucksack (BW Tropentarn)";
     tf_range = 50000;
     class TransportItems {
-        class _xx_ACE_elasticBandage {
-            name = "ACE_elasticBandage";
-            count = 7;
+        class _xx_ACE_fieldDressing {
+            name = "ACE_fieldDressing";
+            count = 9;
         };
 		class _xx_ACE_packingBandage {
             name = "ACE_packingBandage";
-            count = 5;
+            count = 3;
         };
         class _xx_ACE_tourniquet {
             name = "ACE_tourniquet";
             count = 2;
-        };
-        class _xx_ACE_morphine {
-            name = "ACE_morphine";
-            count = 1;
         };
         class _xx_ACE_GD300_b {
             name = "ACE_GD300_b";
@@ -214,21 +186,17 @@ class TTT_Backpack_Funkerfac_Bw_Tropentarn : tf_rt1523g_big_bwmod_tropen {
 class TTT_Backpack_Pionier_Bw_Tropentarn : B_Carryall_cbr {
     displayName = "TTT Pionier Rucksack (BW Tropentarn)";
     class TransportItems {
-        class _xx_ACE_elasticBandage {
-            name = "ACE_elasticBandage";
-            count = 7;
+        class _xx_ACE_fieldDressing {
+            name = "ACE_fieldDressing";
+            count = 9;
         };
 		class _xx_ACE_packingBandage {
             name = "ACE_packingBandage";
-            count = 5;
+            count = 3;
         };
         class _xx_ACE_tourniquet {
             name = "ACE_tourniquet";
             count = 2;
-        };
-        class _xx_ACE_morphine {
-            name = "ACE_morphine";
-            count = 1;
         };
         class _xx_ACE_VMH3 {
             name = "ACE_VMH3";
@@ -259,7 +227,7 @@ class TTT_Backpack_Pionier_Bw_Tropentarn : B_Carryall_cbr {
 class TTT_Backpack_Gefechtssanitaeter_Bw_Tropentarn : B_Kitbag_cbr {
     displayName = "TTT Gefechtssanitaeter Rucksack (BW Tropentarn)";
     class TransportItems {
-                class _xx_ACE_fieldDressing {
+        class _xx_ACE_fieldDressing {
             name = "ACE_fieldDressing";
             count = 10;
         };
@@ -354,8 +322,8 @@ class TTT_Backpack_Feldarzt_Bw_Tropentarn : B_Kitbag_cbr {
             name = "ACE_surgicalKit";
             count = 5;
         };
-        class _xx_ACE_DK10_b {
-            name = "ACE_DK10_b";
+        class _xx_ACE_GD300_b {
+            name = "ACE_GD300_b";
             count = 1;
         };
     };
@@ -367,7 +335,7 @@ class TTT_Backpack_Pilot_Bw_Tropentarn : tf_rt1523g_big_bwmod_tropen {
     tf_range = 50000;
     class TransportItems {
 		backpack_medic_supply_standard;
-		item_xx(ACE_DK10_b,1);
+		item_xx(ACE_GD300_b,1);
     };
 };
 
@@ -376,21 +344,17 @@ class TTT_Backpack_Opl_Bw_Tropentarn : tf_rt1523g_big_bwmod_tropen {
     displayName = "TTT OPL Rucksack (BW Tropentarn)";
     tf_range = 50000;
     class TransportItems {
-        class _xx_ACE_elasticBandage {
-            name = "ACE_elasticBandage";
-            count = 7;
+        class _xx_ACE_fieldDressing {
+            name = "ACE_fieldDressing";
+            count = 9;
         };
 		class _xx_ACE_packingBandage {
             name = "ACE_packingBandage";
-            count = 5;
+            count = 3;
         };
         class _xx_ACE_tourniquet {
             name = "ACE_tourniquet";
             count = 2;
-        };
-        class _xx_ACE_morphine {
-            name = "ACE_morphine";
-            count = 1;
         };
         class _xx_ACE_DK10_b {
             name = "ACE_DK10_b";
