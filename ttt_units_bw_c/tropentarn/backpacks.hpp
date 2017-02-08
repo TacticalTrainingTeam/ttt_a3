@@ -130,6 +130,10 @@ class TTT_Backpack_Atschuetze_Bw_Tropentarn : B_AssaultPack_cbr {
             name = "ACE_tourniquet";
             count = 2;
         };
+        class _xx_BWA3_Pzf3_IT {
+            name = "BWA3_Pzf3_IT";
+            count = 1;
+        };
     };
 };
 
