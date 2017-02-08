@@ -338,7 +338,7 @@ class TTT_Backpack_Pilot_Bw_Tropentarn : tf_rt1523g_big_bwmod_tropen {
     displayName = "TTT Pilot Rucksack (BW Tropentarn)";
     tf_range = 50000;
     class TransportItems {
-		backpack_medic_supply_standard;
+		backpack_medic_supply_standard
 		item_xx(ACE_GD300_b,1);
     };
 };
