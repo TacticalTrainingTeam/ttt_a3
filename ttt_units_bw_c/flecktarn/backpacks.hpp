@@ -43,7 +43,7 @@
 	//Funker/FAC Rucksack
 	class TTT_Backpack_Funkerfac_Bw_Flecktarn : TTT_Backpack_Funkerfac_Bw_Tropentarn {
 		displayName = "TTT Funker/FAC Rucksack (BW Flecktarn)";
-		hiddenSelectionsTextures[] = {"\task_force_radio_items\models\data\clf_nicecomm2_bwmod_co.paa"};
+		hiddenSelectionsTextures[] = {"\z\tfar\addons\backpacks\models\data\clf_nicecomm2_bwmod_co.paa"};
 	};
 	
 	//Pionier Rucksack
@@ -67,11 +67,11 @@
 	//Pilot Rucksack
 	class TTT_Backpack_Pilot_Bw_Flecktarn : TTT_Backpack_Pilot_Bw_Tropentarn {
 		displayName = "TTT Pilot Rucksack (BW Flecktarn)";
-		hiddenSelectionsTextures[] = {"\task_force_radio_items\models\data\clf_nicecomm2_bwmod_co.paa"};
+		hiddenSelectionsTextures[] = {"\z\tfar\addons\backpacks\models\data\clf_nicecomm2_bwmod_co.paa"};
 	};
 	
 	//OPL Rucksack
 	class TTT_Backpack_Opl_Bw_Flecktarn : TTT_Backpack_Opl_Bw_Tropentarn {
 		displayName = "TTT OPL Rucksack (BW Flecktarn)";
-		hiddenSelectionsTextures[] = {"\task_force_radio_items\models\data\clf_nicecomm2_bwmod_co.paa"};
+		hiddenSelectionsTextures[] = {"\z\tfar\addons\backpacks\models\data\clf_nicecomm2_bwmod_co.paa"};
 	};
