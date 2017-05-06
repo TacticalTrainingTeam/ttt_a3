@@ -1,7 +1,7 @@
 name = "TTT Mods";
 picture = "\ttt_a3\ttt_main\icons\TTT_faction_icon.paa";
 actionName = "Website";
-action = "http://www.tacticalteam.de/";
+action = "https://www.tacticalteam.de/";
 logo = "\ttt_a3\ttt_main\icons\TTT_logo.paa";
 logoOver = "\ttt_a3\ttt_main\icons\TTT_logo.paa";
 tooltip = "Tactical Training Team modification";

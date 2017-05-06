@@ -1,5 +1,5 @@
 //if (isServer or (serverCommandAvailable "#exec")) then
-if (isServer or (serverCommandAvailable "#monitor") or getPlayerUID player == "76561197999852928" || getPlayerUID player == "76561197995302668" || getPlayerUID player == "_SP_PLAYER_") then
+if (isServer or (serverCommandAvailable "#monitor") or getPlayerUID player == "76561197999852928" || getPlayerUID player == "76561197995302668" || getPlayerUID player == "76561198015966826" || getPlayerUID player == "_SP_PLAYER_") then
 {
 	NSS_AC_loggedIn = true;
 };
