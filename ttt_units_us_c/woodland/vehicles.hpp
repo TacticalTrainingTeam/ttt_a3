@@ -559,7 +559,7 @@ class TTT_Schwarz3_Us_Woodland : TTT_Schwarz3_Us_Desert {
 class TTT_Schwarz4_Us_Woodland : TTT_Schwarz4_Us_Desert {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Schwarz_Us_Woodland";
-    backpack = "TTT_Backpack_Lmgschuetze_Us_Woodland";
+    backpack = "TTT_Backpack_Atschuetze_Us_Woodland";
     uniformClass = "TTT_Uniform_Schwarz_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_black_us_woodland.paa" };
@@ -579,7 +579,7 @@ class TTT_Schwarz4_Us_Woodland : TTT_Schwarz4_Us_Desert {
 class TTT_Schwarz5_Us_Woodland : TTT_Schwarz5_Us_Desert {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Schwarz_Us_Woodland";
-    backpack = "TTT_Backpack_Atschuetze_Us_Woodland";
+    backpack = "TTT_Backpack_Lmgschuetze_Us_Woodland";
     uniformClass = "TTT_Uniform_Schwarz_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_black_us_woodland.paa" };
@@ -685,7 +685,7 @@ class TTT_Rot3_Us_Woodland : TTT_Rot3_Us_Desert {
 class TTT_Rot4_Us_Woodland : TTT_Rot4_Us_Desert {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Rot_Us_Woodland";
-    backpack = "TTT_Backpack_Lmgschuetze_Us_Woodland";
+    backpack = "TTT_Backpack_Atschuetze_Us_Woodland";
     uniformClass = "TTT_Uniform_Rot_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_red_us_woodland.paa" };
@@ -705,7 +705,7 @@ class TTT_Rot4_Us_Woodland : TTT_Rot4_Us_Desert {
 class TTT_Rot5_Us_Woodland : TTT_Rot5_Us_Desert {
     author = "Tactical Training Team";
     vehicleClass = "TTT_Rot_Us_Woodland";
-    backpack = "TTT_Backpack_Atschuetze_Us_Woodland";
+    backpack = "TTT_Backpack_Lmgschuetze_Us_Woodland";
     uniformClass = "TTT_Uniform_Rot_Us_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\woodland\uniforms\TTT_uniform_red_us_woodland.paa" };

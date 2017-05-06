@@ -1,4 +1,4 @@
-/// item macros definition ///
+﻿/// item macros definition ///
 #define item_1(a) a
 #define item_2(a) a, a
 #define item_3(a) a, a, a
@@ -191,7 +191,7 @@
 #define ITEMS_HABICHT BERETS(Silber)
 	
 /// Vest Config ///
-#define get_vest(army,group,kind,camo) get_str(append_dummy(append_dummy(append_dummy(TTT_Vest_##kind)_##group)_##army)_##camo)
+#define get_vest(army,group,kind,camo) get_str(append_dummy(append_dummy(append_dummy(append_dummy(append_dummy(append_dummy(append_dummy(TTT_Vest_)kind)_)group)_)army)_)camo)
 
 /// Berets Config ///
 #define BERETS(group) get_str(append_dummy(TTT_Berets_)group)

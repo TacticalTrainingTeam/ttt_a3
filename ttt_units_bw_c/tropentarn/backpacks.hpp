@@ -130,6 +130,10 @@ class TTT_Backpack_Atschuetze_Bw_Tropentarn : B_AssaultPack_cbr {
             name = "ACE_tourniquet";
             count = 2;
         };
+        class _xx_BWA3_Pzf3_IT {
+            name = "BWA3_Pzf3_IT";
+            count = 1;
+        };
     };
 };
 
@@ -334,7 +338,7 @@ class TTT_Backpack_Pilot_Bw_Tropentarn : tf_rt1523g_big_bwmod_tropen {
     displayName = "TTT Pilot Rucksack (BW Tropentarn)";
     tf_range = 50000;
     class TransportItems {
-		backpack_medic_supply_standard;
+		backpack_medic_supply_standard
 		item_xx(ACE_GD300_b,1);
     };
 };
