@@ -312,7 +312,7 @@ class CfgPatches {
 			"TTT_Vest_Lite_Grey_Us_Woodland",
 			"TTT_Vest_Crew_Us_Woodland"
 		};
-		requiredAddons[] = {"ttt_main","ttt_units_us"};
+		requiredAddons[] = {"ttt_main"};
 	};
 };
 

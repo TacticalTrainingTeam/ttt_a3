@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><Project name="Arma3">
+  <Package name="Language_TTT">
+	<Container name="Main">
+      <Key ID="STR_Tactical_Training_Team">
+        <Original>Tactical Training Team</Original>
+        <German>Tactical Training Team</German>
+        <English>Tactical Training Team</English>
+      </Key>	
+      <Key ID="STR_TTT_CfgMods_1">
+        <Original>TTT STR_TTT_CfgMods_1</Original>
+        <German>TTT STR_TTT_CfgMods_1</German>
+        <English>TTT STR_TTT_CfgMods_1</English>
+      </Key>		
+      <Key ID="STR_TTT_CfgMods_2">
+        <Original>TTT STR_TTT_CfgMods_2</Original>
+        <German>TTT STR_TTT_CfgMods_2</German>
+        <English>TTT STR_TTT_CfgMods_2</English>
+      </Key>		  
+      <Key ID="STR_TTT_CfgMods_3">
+        <Original>TTT STR_TTT_CfgMods_3</Original>
+        <German>TTT STR_TTT_CfgMods_3</German>
+        <English>TTT STR_TTT_CfgMods_3</English>
+      </Key>	
+      <Key ID="STR_TTT_CfgMods_4">
+        <Original>TTT STR_TTT_CfgMods_4</Original>
+        <German>TTT STR_TTT_CfgMods_4</German>
+        <English>TTT STR_TTT_CfgMods_4</English>
+      </Key>	
+      <Key ID="STR_TTT_CfgMods_5">
+        <Original>TTT STR_TTT_CfgMods_5</Original>
+        <German>TTT STR_TTT_CfgMods_5</German>
+        <English>TTT STR_TTT_CfgMods_5</English>
+      </Key>
+      <Key ID="STR_TTT_CfgMods_popupMsgText">
+        <Original>TTT STR_TTT_CfgMods_popupMsgText</Original>
+        <German>TTT STR_TTT_CfgMods_popupMsgText</German>
+        <English>TTT STR_TTT_CfgMods_popupMsgText</English>
+      </Key>		  
+	</Container> 
+    <Container name="Vehilce">
+      <Key ID="STR_TTT_Vehilce_IMV_MG_Flecktarn">
+        <Original>Truppfahrzeug MG (BW Flecktarn)</Original>
+        <German>Truppfahrzeug MG (BW Flecktarn)</German>
+        <English>Truppfahrzeug MG (BW Flecktarn)</English>
+      </Key>		  	
+    </Container>	
+  </Package>
+</Project>

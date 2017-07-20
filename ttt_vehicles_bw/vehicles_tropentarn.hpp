@@ -10,7 +10,7 @@
 		faction = "TTT_faction_Bw";
 		vehicleClass = "TTT_Vehicles_Bw";
 		hiddenSelectionsTextures[] = {
-			"\ttt_a3\ttt_vehicles_bw\truppfahrzeug_tropentarn_camo1.paa", 
+			"\ttt_a3\ttt_vehicles_bw\data\truppfahrzeug_tropentarn_camo1.paa", 
 			"", 
 			"", 
 			""};	
@@ -36,7 +36,7 @@
 		faction = "TTT_faction_Bw";
 		vehicleClass = "TTT_Vehicles_Bw";
 		hiddenSelectionsTextures[] = {
-			"\ttt_a3\ttt_vehicles_bw\truppfahrzeug_tropentarn_camo1.paa", 
+			"\ttt_a3\ttt_vehicles_bw\data\truppfahrzeug_tropentarn_camo1.paa", 
 			"", 
 			"", 
 			""};
@@ -75,7 +75,7 @@
 			"", 
 			"", 
 			"", 
-			"\ttt_a3\ttt_vehicles_bw\oplfahrzeug_camo9.paa", 
+			"\ttt_a3\ttt_vehicles_bw\data\oplfahrzeug_camo9.paa", 
 			""};
 		crew = "TTT_Schwarz1_Bw_Tropentarn";
 		displayName = "TTT OPL-Fahrzeug (BW Tropentarn)";

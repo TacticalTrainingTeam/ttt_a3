@@ -57,15 +57,16 @@ class TTT_Oplfahrzeug_Us_Desert : rhsusf_m998_d_4dr_fulltop {
     faction = "TTT_faction_Us";
     vehicleClass = "TTT_Vehicles_Us";
 	hiddenSelectionsTextures[] = {
-		"", 
-		"", 
-		"", 
-		"", 
-		"", 
-		"", 
-		"", 
-		"", 
-		"\ttt_a3\ttt_vehicles_us\oplfahrzeug_unitdecals.paa", 
+		"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa",
+		"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa",
+		"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa",
+		"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+		"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_co.paa",
+		"rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa",
+		"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa",
+		"rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_d_co.paa",
+		"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa",
+		"\ttt_a3\ttt_vehicles_us\data\oplfahrzeug_unitdecals.paa", 
 		""};    
 	crew = "TTT_Gelb1_Us_Desert";
     displayName = "TTT OPL-Fahrzeug (US Desert)";

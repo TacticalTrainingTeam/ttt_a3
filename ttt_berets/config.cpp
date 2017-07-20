@@ -1,6 +1,6 @@
 class CfgPatches {
 	class ttt_berets {
-		requiredAddons[] = {"ttt_main"};
+		requiredAddons[] = {ttt_main};
 		units[] = {
 			"TTT_Berets_Blau_Item",
 			"TTT_Berets_Braun_Item",
@@ -33,8 +33,24 @@ class CfgPatches {
 			"TTT_Berets_Violett",
 			"TTT_Berets_Weiss"
 		};
-	};
+	};	
 };
 
-#include "\ttt_a3\ttt_berets\CfgVehicles.hpp"
-#include "\ttt_a3\ttt_berets\CfgWeapons.hpp"
+class CfgVehicles {
+	//External class reference
+	class Item_Base_F;
+	
+	#include "\ttt_a3\ttt_berets\CfgVehicles.hpp"
+};
+
+class CfgWeapons {
+	//External class reference
+	class InventoryItem_Base_F;
+	class ItemCore;
+	class HeadgearItem : InventoryItem_Base_F {};
+	class HelmetBase : ItemCore {
+		class ItemInfo : HeadgearItem {};
+	};
+
+	#include "\ttt_a3\ttt_berets\CfgWeapons.hpp"	
+};

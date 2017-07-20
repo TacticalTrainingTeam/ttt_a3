@@ -50,7 +50,9 @@ class CfgVehicles {
 	class RHS_CH_47F;
 	class rhsusf_m1a2sep1tuskiid_usarmy;
 	class rhsusf_m998_w_4dr_fulltop;
+	class rhsusf_m998_d_4dr_fulltop;
 	class rhsusf_m998_d_2dr_fulltop;
+	class rhsusf_m998_d_2dr;
 	class rhsusf_m998_w_2dr;
     class CUP_B_USMC_MQ9;
 
