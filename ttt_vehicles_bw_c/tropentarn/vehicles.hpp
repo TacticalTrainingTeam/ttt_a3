@@ -229,13 +229,11 @@
 	#############################################################
 	*/
 	
-    class TTT_Sanitaetshelikopter_Bw_Tropentarn : NH90Armed {
+    class TTT_Sanitaetshelikopter_Bw_Tropentarn : RHS_UH60M {
 		author = "Tactical Training Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
 		vehicleClass = "TTT_Vehicles_Bw";
-        hiddenSelectionsTextures[] = { "\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetshelikopter\BWouterHaul_co.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetshelikopter\BWupperTail_co.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetshelikopter\BWmisc_co.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetshelikopter\BWdoors_co.paa" };
-        hiddenSelectionsMaterials[] = { "\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetshelikopter\BWouterHaul.rvmat", "\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetshelikopter\BWupperTail.rvmat", "\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetshelikopter\BWmisc.rvmat", "\ttt_a3\ttt_vehicles_bw\tropentarn\sanitaetshelikopter\BWdoors.rvmat" };
 		crew = "TTT_Weiss3_Bw_Tropentarn";
 		displayName = "TTT Sanitaetshelikopter (BW Tropentarn)";
 		typicalCargo[] = {};
@@ -295,20 +293,14 @@
     #############################################################
     */
 
-    class TTT_Transporthelikopter_Bw_Tropentarn : NH90Armed {
+    class TTT_Transporthelikopter_Bw_Tropentarn : RHS_UH60M {
         author = "Tactical Training Team";
         scope = 2;
         faction = "TTT_faction_Bw";
         vehicleClass = "TTT_Vehicles_Bw";
-        hiddenSelectionsTextures[] = { "\ttt_a3\ttt_vehicles_bw\tropentarn\transporthelikopter\BWouterHaul_co.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\transporthelikopter\BWupperTail_co.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\transporthelikopter\BWmisc_co.paa", "\ttt_a3\ttt_vehicles_bw\tropentarn\transporthelikopter\BWdoors_co.paa" };
-        hiddenSelectionsMaterials[] = { "\ttt_a3\ttt_vehicles_bw\tropentarn\transporthelikopter\BWouterHaul.rvmat", "\ttt_a3\ttt_vehicles_bw\tropentarn\transporthelikopter\BWupperTail.rvmat", "\ttt_a3\ttt_vehicles_bw\tropentarn\transporthelikopter\BWmisc.rvmat", "\ttt_a3\ttt_vehicles_bw\tropentarn\transporthelikopter\BWdoors.rvmat" };
         crew = "TTT_Habicht1_Bw_Tropentarn";
         displayName = "TTT Transporthelikopter (BW Tropentarn)";
         typicalCargo[] = {};
-        weapons[] = { "CMFlareLauncher" };
-        magazines[] = { "300Rnd_CMFlare_Chaff_Magazine" };
-        LockDetectionSystem = 2 + 8 + 4;
-        incomingMissileDetectionSystem = 16;
         ace_cargo_space = 8;
 
         class TransportWeapons {
