@@ -26,7 +26,8 @@ class CfgPatches {
 					"TTT_Sanitaetsfahrzeug_Us_Desert",
 					"TTT_Sanitaetsfahrzeug_Us_Woodland",
 					"TTT_TransporterLeichtOffen_Us_Desert",
-					"TTT_TransporterLeichtOffen_Us_Woodland"};
+					"TTT_TransporterLeichtOffen_Us_Woodland"
+		};
 		weapons[] = {};
 	};
 };

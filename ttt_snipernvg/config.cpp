@@ -9,7 +9,7 @@ class CfgPatches
 	{
 		units[] = {};
 		weapons[] = {};
-		requiredAddons[] = {"A3_Weapons_F_Acc"};
+		requiredAddons[] = {"ttt_main", "A3_Weapons_F_Acc"};
 	};
 };
 

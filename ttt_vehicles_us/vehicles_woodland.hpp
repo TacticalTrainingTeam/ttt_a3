@@ -4,29 +4,45 @@
 	#############################################################
 	*/
 	
-	class TTT_Truppfahrzeug_Mg_Us_Woodland : TTT_Truppfahrzeug_Mg_Us_Desert {
+	class TTT_Truppfahrzeug_Mg_Us_Woodland : UK3CB_BAF_Coyote_Passenger_L111A1_W {
 		author = "Tactical Training Team";
-		hiddenSelectionsTextures[] = {
-			"\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\data\Jackal_base_woodlnd_co.paa",
-			"\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\data\Jackal_mount_woodlnd_co.paa",
-			"\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\data\Jackal_adds_woodlnd_co.paa",
-			"","",""};	
-		model = "\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\Coyote_L111A1_passenger_w";
+		scope = 2;
+		faction = "TTT_faction_Us";
+		vehicleClass = "TTT_Vehicles_Us";
 		crew = "TTT_Schwarz1_Us_Woodland";
 		displayName = "TTT Truppfahrzeug MG (US Woodland)";
+		typicalCargo[] = {};
+
+		class TransportWeapons {
+		};
+		class TransportItems {
+			item_xx(ToolKit,1);
+		};
+		class TransportMagazines {
+		};
+		class TransportBackpacks {
+		};		
 	};
 	
 	
-	class TTT_Truppfahrzeug_Gl_Us_Woodland : TTT_Truppfahrzeug_Gl_Us_Desert {
+	class TTT_Truppfahrzeug_Gl_Us_Woodland : UK3CB_BAF_Coyote_Passenger_L134A1_W {
 		author = "Tactical Training Team";
-		hiddenSelectionsTextures[] = {
-			"\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\data\Jackal_base_woodlnd_co.paa",
-			"\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\data\Jackal_mount_woodlnd_co.paa",
-			"\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\data\Jackal_adds_woodlnd_co.paa",
-			"","",""};
-		model = "\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\Coyote_L134A1_passenger_w";
+		scope = 2;
+		faction = "TTT_faction_Us";
+		vehicleClass = "TTT_Vehicles_Us";
 		crew = "TTT_Schwarz1_Us_Woodland";
 		displayName = "TTT Truppfahrzeug GL (US Woodland)";
+		typicalCargo[] = {};
+
+		class TransportWeapons {
+		};
+		class TransportItems {
+			item_xx(ToolKit,1);
+		};
+		class TransportMagazines {
+		};
+		class TransportBackpacks {
+		};		
 	};
 	
 	/*
@@ -37,7 +53,8 @@
 	
 	class TTT_Oplfahrzeug_Us_Woodland : TTT_Oplfahrzeug_Us_Desert {
 		author = "Tactical Training Team";
-		HiddenSelectionsTextures[] = {
+		
+		hiddenSelectionsTextures[] = {
 			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa",
 			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
 			"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa",
@@ -47,8 +64,10 @@
 			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa",
 			"rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_w_co.paa",
 			"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa",
-			"\ttt_a3\ttt_vehicles_us\oplfahrzeug_unitdecals.paa",
-			""};		
+			"ttt_a3\ttt_vehicles_us\data\oplfahrzeug_unitdecals.paa",
+			"rhsusf\addons\rhsusf_hmmwv\unitdecals\a12^_co.paa"};		
+		displayName = "TTT OPL-Fahrzeug (US Woodland)";			
+	};	
 	
 	/*
 	#############################################################
@@ -170,7 +189,7 @@
 	hiddenSelectionsTextures[] = {
 		"rhsusf\addons\rhsusf_a2port_air\ch47\data\ch47_ext_1_co.paa",
 		"rhsusf\addons\rhsusf_a2port_air\ch47\data\ch47_ext_2_co.paa",
-		"\ttt_a3\ttt_vehicles_us\logheli_camo3.paa",
+		"\ttt_a3\ttt_vehicles_us\data\logheli_camo3.paa",
 		"rhsusf\addons\rhsusf_a2port_air\ch47\data\ch47_ext_mlod_co.paa"};		
 		crew = "TTT_Bussard1_Us_Woodland";
 		displayName = "TTT Logistikhelikopter (US Woodland)";
