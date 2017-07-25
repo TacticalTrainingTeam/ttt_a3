@@ -1,4 +1,4 @@
-/*
+	/*
 	#############################################################
 	### TTT Truppfahrzeug
 	#############################################################
@@ -10,10 +10,11 @@
 		faction = "TTT_faction_Bw";
 		vehicleClass = "TTT_Vehicles_Bw";
 		hiddenSelectionsTextures[] = {
-			"\ttt_a3\ttt_vehicles_bw\data\truppfahrzeug_tropentarn_camo1.paa", 
-			"", 
-			"", 
-			""};	
+			"\ttt_a3\ttt_vehicles_bw\data\karosse_d_co.paa",
+			"\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\a_teile_ger_d_co.paa",
+			"\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\FLW100_ger_d_co.paa",
+			"\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\FLW200_ger_d_co.paa"
+		};	
 		crew = "TTT_Schwarz1_Bw_Tropentarn";
 		displayName = "TTT Truppfahrzeug MG (BW Tropentarn)";
 		typicalCargo[] = {};
@@ -29,17 +30,17 @@
 		};
 	};
 
-	
     class TTT_Truppfahrzeug_Gl_Bw_Tropentarn : CUP_B_Dingo_GL_Wdl {
 		author = "Tactical Training Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
 		vehicleClass = "TTT_Vehicles_Bw";
 		hiddenSelectionsTextures[] = {
-			"\ttt_a3\ttt_vehicles_bw\data\truppfahrzeug_tropentarn_camo1.paa", 
-			"", 
-			"", 
-			""};
+			"\ttt_a3\ttt_vehicles_bw\data\karosse_d_co.paa",
+			"\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\a_teile_ger_d_co.paa",
+			"\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\FLW100_ger_d_co.paa",
+			"\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\FLW200_ger_d_co.paa"
+		};	
 		crew = "TTT_Schwarz1_Bw_Tropentarn";
 		displayName = "TTT Truppfahrzeug GL (BW Tropentarn)";
 		typicalCargo[] = {};
@@ -67,16 +68,18 @@
 		faction = "TTT_faction_Bw";
 		vehicleClass = "TTT_Vehicles_Bw";
 		hiddenSelectionsTextures[] = {
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"\ttt_a3\ttt_vehicles_bw\data\oplfahrzeug_camo9.paa", 
-			""};
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_WD_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_b_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\gratting_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_w_co.paa",
+			"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa",
+			"\ttt_a3\ttt_vehicles_bw\data\oplfahrzeug_unitdecal.paa",
+			""
+		};
 		crew = "TTT_Schwarz1_Bw_Tropentarn";
 		displayName = "TTT OPL-Fahrzeug (BW Tropentarn)";
 		typicalCargo[] = {};
@@ -171,6 +174,7 @@
 		crew = "TTT_Bronze1_Bw_Tropentarn";
 		displayName = "TTT Schuetzenpanzer (BW Tropentarn)";
 		typicalCargo[] = {};
+		
 		class TransportWeapons {
 		};
 		class TransportItems {
