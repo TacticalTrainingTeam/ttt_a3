@@ -4,7 +4,7 @@
 	#############################################################
 	*/
 	class TTT_Uniform_Gelb_Us_Desert : TTT_Uniform_Base_Us {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Gelb (US Desert)";
 		
@@ -15,7 +15,7 @@
 	};
 	
 	class TTT_Uniform_Grau_Us_Desert : TTT_Uniform_Base_Us {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Grau (US Desert)";
 		
@@ -25,7 +25,7 @@
 	};
 	
 	class TTT_Uniform_Gold_Us_Desert : TTT_Uniform_Base_Us {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Gold (US Desert)";
 		
@@ -35,7 +35,7 @@
 	};
 	
 	class TTT_Uniform_Gruen_Us_Desert : TTT_Uniform_Base_Us {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Gruen (US Desert)";
 		
@@ -45,7 +45,7 @@
 	};
 	
 	class TTT_Uniform_Braun_Us_Desert : TTT_Uniform_Base_Us {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Braun (US Desert)";
 		
@@ -55,7 +55,7 @@
 	};
 	
 	class TTT_Uniform_Schwarz_Us_Desert : TTT_Uniform_Base_Us {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Schwarz (US Desert)";
 		
@@ -65,7 +65,7 @@
 	};
 	
 	class TTT_Uniform_Rot_Us_Desert : TTT_Uniform_Base_Us {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Rot (US Desert)";
 		
@@ -75,7 +75,7 @@
 	};	
 	
 	class TTT_Uniform_Bronze_Us_Desert : TTT_Uniform_Base_Us {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Bronze (US Desert)";
 		
@@ -85,7 +85,7 @@
 	};
 	
 	class TTT_Uniform_Blau_Us_Desert : TTT_Uniform_Base_Us {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Blau (US Desert)";
 		
@@ -95,7 +95,7 @@
 	};
 
 class TTT_Uniform_Violett_Us_Desert : TTT_Uniform_Base_Us {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Violett (US Desert)";
 		
@@ -105,7 +105,7 @@ class TTT_Uniform_Violett_Us_Desert : TTT_Uniform_Base_Us {
 	};		
 	
 	class TTT_Uniform_Weiss_Us_Desert : TTT_Uniform_Base_Us {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Weiss (US Desert)";
 		
@@ -115,7 +115,7 @@ class TTT_Uniform_Violett_Us_Desert : TTT_Uniform_Base_Us {
 	};
 	
 	class TTT_Uniform_Silber_Us_Desert : TTT_Uniform_Base_Us {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Silber (US Desert)";
 		ACE_GForceCoef = 0.55;
@@ -130,42 +130,42 @@ class TTT_Uniform_Violett_Us_Desert : TTT_Uniform_Base_Us {
 	#############################################################
 	*/
 	class TTT_Helmet_1_Us_Desert : TTT_Helmet_Base {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Helm I (US Desert)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_helmet_1_us_desert.paa"};
 	};
 	
 	class TTT_Helmet_2_Us_Desert : TTT_Helmet_Base {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Helm II (US Desert)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_helmet_2_us_desert.paa"};
 	};
 	
 	class TTT_Helmet_3_Us_Desert : TTT_Helmet_Base {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Helm III (US Desert)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_helmet_3_us_desert.paa"};
 	};
 	
 	class TTT_Helmet_4_Us_Desert : TTT_Helmet_Base {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Helm IV (US Desert)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_helmet_4_us_desert.paa"};
 	};
 	
 	class TTT_Helmet_5_Us_Desert : TTT_Helmet_Base {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Helm V (US Desert)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_helmet_5_us_desert.paa"};
 	};
 	
 	class TTT_Helmet_6_Us_Desert : TTT_Helmet_Base {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Helm VI (US Desert)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_helmet_6_us_desert.paa"};

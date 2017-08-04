@@ -1,6 +1,6 @@
 	class TTT_Tafel_Base : NonStrategic {
 		mapSize = 6;
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 0;
 		scopeCurator = 0;
 		displayName = "TTT Tafel Base";

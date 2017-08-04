@@ -9,7 +9,7 @@
 				//Trupp Gelb
 				class TTT_Gelb_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
-					name = "Trupp Gelb BW Flecktarn";
+					name = "$STR_TTT_Groups_Yellow";
 					icon = "\A3\ui_f\data\map\markers\nato\b_hq.paa";
 					side = 1;
 					
@@ -36,7 +36,7 @@
 				//Trupp Grau
 				class TTT_Grau_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
-					name = "Trupp Grau BW Flecktarn";
+					name = "$STR_TTT_Groups_Grey";
 					icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
 					side = 1;
 					
@@ -81,7 +81,7 @@
 				//Trupp Gold
 				class TTT_Gold_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
-					name = "Trupp Gold BW Flecktarn";
+					name = "$STR_TTT_Groups_Gold";
 					icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
 					side = 1;
 					
@@ -126,7 +126,7 @@
 				//Trupp Gruen
 				class TTT_Gruen_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
-					name = "Trupp Gruen BW Flecktarn";
+					name = "$STR_TTT_Groups_Green";
 					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
@@ -153,7 +153,7 @@
 				//Trupp Braun
 				class TTT_Braun_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
-					name = "Trupp Braun BW Flecktarn";
+					name = "$STR_TTT_Groups_Brown";
 					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
@@ -180,7 +180,7 @@
 				//Trupp Schwarz
 				class TTT_Schwarz_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
-					name = "Trupp Schwarz BW Flecktarn";
+					name = "$STR_TTT_Groups_Black";
 					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
@@ -225,7 +225,7 @@
 				//Trupp Rot
 				class TTT_Rot_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
-					name = "Trupp Rot BW Flecktarn";
+					name = "$STR_TTT_Groups_Red";
 					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
@@ -266,56 +266,11 @@
 						vehicle = "TTT_Rot6_Bw_Flecktarn";
 					};
 				};
-				
-				//Trupp Bronze
-				class TTT_Bronze_Bw_Flecktarn {
-					faction = "TTT_faction_Bw";
-					name = "Trupp Bronze BW Flecktarn";
-					icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
-					side = 1;
-					
-					class Unit0 {
-						position[] = {0, 0, 0};
-						rank = Major;
-						side = 1;
-						vehicle = "TTT_Bronze1_Bw_Flecktarn";
-					};
-						
-					class Unit1 : Unit0 {
-						position[] = {0, -5, 0};
-						rank = Captain;
-						vehicle = "TTT_Bronze2_Bw_Flecktarn";
-					};
-						
-					class Unit2 : Unit0 {
-						position[] = {0, -10, 0};
-						rank = Lieutenant;
-						vehicle = "TTT_Bronze3_Bw_Flecktarn";
-					};
-					
-					class Unit3 : Unit0 {
-						position[] = {0, -15, 0};
-						rank = Sergeant;
-						vehicle = "TTT_Bronze4_Bw_Flecktarn";
-					};
-						
-					class Unit4 : Unit0 {
-						position[] = {0, -20, 0};
-						rank = Corporal;
-						vehicle = "TTT_Bronze5_Bw_Flecktarn";
-					};
-					
-					class Unit5 : Unit0 {
-						position[] = {0, -25, 0};
-						rank = Private;
-						vehicle = "TTT_Bronze6_Bw_Flecktarn";
-					};
-				};
-				
+
 				//Trupp Blau
 				class TTT_Blau_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
-					name = "Trupp Blau BW Flecktarn";
+					name = "$STR_TTT_Groups_Blue";
 					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
@@ -360,7 +315,7 @@
 				//Trupp Violett
 				class TTT_Violett_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
-					name = "Trupp Violett BW Flecktarn";
+					name = "$STR_TTT_Groups_Violet";
 					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					side = 1;
 					
@@ -405,7 +360,7 @@
 				//Trupp Weiss
 				class TTT_Weiss_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
-					name = "Trupp Weiss BW Flecktarn";
+					name = "$STR_TTT_Groups_White";
 					icon = "\A3\ui_f\data\map\markers\nato\b_med.paa";
 					side = 1;
 					
@@ -435,10 +390,55 @@
 					};
 				};
 				
+				//Trupp Bronze
+				class TTT_Bronze_Bw_Flecktarn {
+					faction = "TTT_faction_Bw";
+					name = "$STR_TTT_Groups_Bronze";
+					icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
+					side = 1;
+					
+					class Unit0 {
+						position[] = {0, 0, 0};
+						rank = Major;
+						side = 1;
+						vehicle = "TTT_Bronze1_Bw_Flecktarn";
+					};
+						
+					class Unit1 : Unit0 {
+						position[] = {0, -5, 0};
+						rank = Captain;
+						vehicle = "TTT_Bronze2_Bw_Flecktarn";
+					};
+						
+					class Unit2 : Unit0 {
+						position[] = {0, -10, 0};
+						rank = Lieutenant;
+						vehicle = "TTT_Bronze3_Bw_Flecktarn";
+					};
+					
+					class Unit3 : Unit0 {
+						position[] = {0, -15, 0};
+						rank = Sergeant;
+						vehicle = "TTT_Bronze4_Bw_Flecktarn";
+					};
+						
+					class Unit4 : Unit0 {
+						position[] = {0, -20, 0};
+						rank = Corporal;
+						vehicle = "TTT_Bronze5_Bw_Flecktarn";
+					};
+					
+					class Unit5 : Unit0 {
+						position[] = {0, -25, 0};
+						rank = Private;
+						vehicle = "TTT_Bronze6_Bw_Flecktarn";
+					};
+				};
+						
 				//Trupp Platin
 				class TTT_Platin_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
-					name = "Trupp Platin BW Flecktarn";
+					name = "$STR_TTT_Groups_Platin";
 					icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
 					side = 1;
 					
@@ -459,7 +459,7 @@
 				//Trupp Silber
 				class TTT_Silber_Bw_Flecktarn {
 					faction = "TTT_faction_Bw";
-					name = "Trupp Silber BW Flecktarn";
+					name = "$STR_TTT_Groups_Silver";
 					icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
 					side = 1;
 					

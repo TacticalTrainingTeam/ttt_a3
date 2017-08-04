@@ -1,6 +1,6 @@
 	class FlagCarrierCore;
 	class TTT_Flagge_Base : FlagCarrierCore {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 0;
 		scopeCurator = 0;
 		displayName = "TTT Flagge Base";

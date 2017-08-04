@@ -67,7 +67,17 @@
         <Original>Truppfahrzeug MG (BW Flecktarn)</Original>
         <German>Truppfahrzeug MG (BW Flecktarn)</German>
         <English>Truppfahrzeug MG (BW Flecktarn)</English>
-      </Key>		  	
+      </Key>
+      <Key ID="STR_TTT_Vehilce_BW">
+        <Original>TTT Fahrzeuge (BW)</Original>
+        <German>TTT Fahrzeuge (BW)</German>
+        <English>TTT Vehilce (BW)</English>
+      </Key>
+      <Key ID="STR_TTT_Vehilce_US">
+        <Original>TTT Fahrzeuge (US)</Original>
+        <German>TTT Fahrzeuge (US)</German>
+        <English>TTT Vehilce (US)</English>
+      </Key>
     </Container>	
     <Container name="Helmet">
       <Key ID="STR_TTT_Weapons_Helmet_Buzzard">
@@ -143,6 +153,73 @@
         <Original>TTT Uniform Base BW</Original>
         <German>TTT Uniform Basis BW</German>
         <English>TTT Uniform Base BW</English>
+      </Key>
+    </Container>
+    <Container name="Groups">
+      <Key ID="STR_TTT_Groups_Yellow">
+        <Original>Group Yellow</Original>
+        <German>Trupp Gelb</German>
+        <English>Group Yellow</English>
+      </Key>
+      <Key ID="STR_TTT_Groups_Grey">
+        <Original>Group Grey</Original>
+        <German>Trupp Grau</German>
+        <English>Group Grey</English>
+      </Key>
+      <Key ID="STR_TTT_Groups_Gold">
+        <Original>Group Gold</Original>
+        <German>Trupp Gold</German>
+        <English>Group Gold</English>
+      </Key>
+      <Key ID="STR_TTT_Groups_Green">
+        <Original>Group Green</Original>
+        <German>Trupp Grün</German>
+        <English>Group Green</English>
+      </Key>
+      <Key ID="STR_TTT_Groups_Brown">
+        <Original>Group Brown</Original>
+        <German>Trupp Braun</German>
+        <English>Group Brown</English>
+      </Key>
+      <Key ID="STR_TTT_Groups_Black">
+        <Original>Group Black</Original>
+        <German>Trupp Schwarz</German>
+        <English>Group Black</English>
+      </Key>
+      <Key ID="STR_TTT_Groups_Red">
+        <Original>Group Red</Original>
+        <German>Trupp Rot</German>
+        <English>Group Red</English>
+      </Key>
+      <Key ID="STR_TTT_Groups_Blue">
+        <Original>Group Blue</Original>
+        <German>Trupp Blau</German>
+        <English>Group Blue</English>
+      </Key>
+      <Key ID="STR_TTT_Groups_Violet">
+        <Original>Group Violet</Original>
+        <German>Trupp Violett</German>
+        <English>Group Violet</English>
+      </Key>
+      <Key ID="STR_TTT_Groups_White">
+        <Original>Group White</Original>
+        <German>Trupp Weiss</German>
+        <English>Group White</English>
+      </Key>
+      <Key ID="STR_TTT_Groups_Bronze">
+        <Original>Group Bronze</Original>
+        <German>Trupp Bronze</German>
+        <English>Group Bronze</English>
+      </Key>
+      <Key ID="STR_TTT_Groups_Platin">
+        <Original>Group Platin</Original>
+        <German>Trupp Platin</German>
+        <English>Group Platin</English>
+      </Key>
+      <Key ID="STR_TTT_Groups_Silver">
+        <Original>Group Silver</Original>
+        <German>Trupp Silber</German>
+        <English>Group Silver</English>
       </Key>
     </Container>
   </Package>

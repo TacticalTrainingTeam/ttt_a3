@@ -4,7 +4,7 @@
 	#############################################################
 	*/
 	class TTT_Uniform_Gelb_Bw_Tropentarn : TTT_Uniform_Base_Bw {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Gelb (BW Tropentarn)";
 		
@@ -14,7 +14,7 @@
 	};
 	
 	class TTT_Uniform_Grau_Bw_Tropentarn : TTT_Uniform_Base_Bw {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Grau (BW Tropentarn)";
 		
@@ -24,7 +24,7 @@
 	};
 	
 	class TTT_Uniform_Gold_Bw_Tropentarn : TTT_Uniform_Base_Bw {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Gold (BW Tropentarn)";
 		
@@ -34,7 +34,7 @@
 	};
 	
 	class TTT_Uniform_Gruen_Bw_Tropentarn : TTT_Uniform_Base_Bw {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Gruen (BW Tropentarn)";
 		
@@ -44,7 +44,7 @@
 	};
 	
 	class TTT_Uniform_Braun_Bw_Tropentarn : TTT_Uniform_Base_Bw {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Braun (BW Tropentarn)";
 		
@@ -54,7 +54,7 @@
 	};
 	
 	class TTT_Uniform_Schwarz_Bw_Tropentarn : TTT_Uniform_Base_Bw {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Schwarz (BW Tropentarn)";
 		
@@ -64,7 +64,7 @@
 	};
 	
 	class TTT_Uniform_Rot_Bw_Tropentarn : TTT_Uniform_Base_Bw {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Rot (BW Tropentarn)";
 		
@@ -74,7 +74,7 @@
 	};	
 	
 	class TTT_Uniform_Bronze_Bw_Tropentarn : TTT_Uniform_Base_Bw {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Bronze (BW Tropentarn)";
 		
@@ -84,7 +84,7 @@
 	};
 	
 	class TTT_Uniform_Blau_Bw_Tropentarn : TTT_Uniform_Base_Bw {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Blau (BW Tropentarn)";
 		
@@ -94,7 +94,7 @@
 	};
 
 class TTT_Uniform_Violett_Bw_Tropentarn : TTT_Uniform_Base_Bw {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Violett (BW Tropentarn)";
 		
@@ -104,7 +104,7 @@ class TTT_Uniform_Violett_Bw_Tropentarn : TTT_Uniform_Base_Bw {
 	};		
 	
 	class TTT_Uniform_Weiss_Bw_Tropentarn : TTT_Uniform_Base_Bw {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Weiss (BW Tropentarn)";
 		
@@ -114,7 +114,7 @@ class TTT_Uniform_Violett_Bw_Tropentarn : TTT_Uniform_Base_Bw {
 	};
 	
 	class TTT_Uniform_Silber_Bw_Tropentarn : TTT_Uniform_Base_Bw {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Silber (BW Tropentarn)";
 		ACE_GForceCoef = 0.55;
@@ -129,42 +129,42 @@ class TTT_Uniform_Violett_Bw_Tropentarn : TTT_Uniform_Base_Bw {
 	#############################################################
 	*/
 	class TTT_Helmet_1_Bw_Tropentarn : TTT_Helmet_Base {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Helm I (BW Tropentarn)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\data\TTT_helmet_1_bw_tropentarn.paa"};
 	};
 	
 	class TTT_Helmet_2_Bw_Tropentarn : TTT_Helmet_Base {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Helm II (BW Tropentarn)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\data\TTT_helmet_2_bw_tropentarn.paa"};
 	};
 	
 	class TTT_Helmet_3_Bw_Tropentarn : TTT_Helmet_Base {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Helm III (BW Tropentarn)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\data\TTT_helmet_3_bw_tropentarn.paa"};
 	};
 	
 	class TTT_Helmet_4_Bw_Tropentarn : TTT_Helmet_Base {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Helm IV (BW Tropentarn)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\data\TTT_helmet_4_bw_tropentarn.paa"};
 	};
 	
 	class TTT_Helmet_5_Bw_Tropentarn : TTT_Helmet_Base {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Helm V (BW Tropentarn)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\data\TTT_helmet_5_bw_tropentarn.paa"};
 	};
 	
 	class TTT_Helmet_6_Bw_Tropentarn : TTT_Helmet_Base {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Helm VI (BW Tropentarn)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\data\TTT_helmet_6_bw_tropentarn.paa"};

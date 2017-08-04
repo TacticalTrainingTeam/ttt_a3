@@ -5,7 +5,7 @@
 	*/
 	
     class TTT_Truppfahrzeug_Mg_Bw_Tropentarn : CUP_B_Dingo_Wdl {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
 		vehicleClass = "TTT_Vehicles_Bw";
@@ -31,7 +31,7 @@
 	};
 
     class TTT_Truppfahrzeug_Gl_Bw_Tropentarn : CUP_B_Dingo_GL_Wdl {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
 		vehicleClass = "TTT_Vehicles_Bw";
@@ -63,7 +63,7 @@
 	*/
 	
 	class TTT_Oplfahrzeug_Bw_Tropentarn : rhsusf_m998_w_4dr_fulltop {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
 		vehicleClass = "TTT_Vehicles_Bw";
@@ -102,7 +102,7 @@
     */
 
     class TTT_Sanitaetsfahrzeug_Bw_Tropentarn : rhsusf_m998_d_2dr_fulltop {
-        author = "Tactical Training Team";
+        author = "$STR_Tactical_Training_Team";
         scope = 2;
         faction = "TTT_faction_Bw";
         vehicleClass = "TTT_Vehicles_Bw";
@@ -140,7 +140,7 @@
     */
 
     class TTT_TransporterLeichtOffen_Bw_Tropentarn : rhsusf_m998_w_2dr {
-        author = "Tactical Training Team";
+        author = "$STR_Tactical_Training_Team";
         scope = 2;
         faction = "TTT_faction_Bw";
         vehicleClass = "TTT_Vehicles_Bw";
@@ -167,7 +167,7 @@
 	*/
 	
     class TTT_Schuetzenpanzer_Bw_Tropentarn : BWA3_Puma_Tropen {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
 		vehicleClass = "TTT_Vehicles_Bw";
@@ -193,7 +193,7 @@
 	*/
 	
     class TTT_Kampfpanzer_Bw_Tropentarn : BWA3_Leopard2A6M_Tropen {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
 		vehicleClass = "TTT_Vehicles_Bw";
@@ -219,7 +219,7 @@
 	*/
 	
     class TTT_Kampfhelikopter_Bw_Tropentarn : BWA3_Tiger_RMK_Universal {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
 		vehicleClass = "TTT_Vehicles_Bw";
@@ -247,7 +247,7 @@
 	*/
 	
     class TTT_Sanitaetshelikopter_Bw_Tropentarn : NH90Armed {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
 		vehicleClass = "TTT_Vehicles_Bw";
@@ -282,7 +282,7 @@
 	*/
 	
     class TTT_Logistikhelikopter_Bw_Tropentarn : CUP_B_CH53E_GER {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
 		vehicleClass = "TTT_Vehicles_Bw";
@@ -310,7 +310,7 @@
     */
 
     class TTT_Transporthelikopter_Bw_Tropentarn : NH90Armed {
-        author = "Tactical Training Team";
+        author = "$STR_Tactical_Training_Team";
         scope = 2;
         faction = "TTT_faction_Bw";
         vehicleClass = "TTT_Vehicles_Bw";
@@ -342,7 +342,7 @@
     */
 
     class TTT_Aufklaerungsdrohne_Bw_Tropentarn : CUP_B_USMC_MQ9 {
-        author = "Tactical Training Team";
+        author = "$STR_Tactical_Training_Team";
         scope = 2;
         faction = "TTT_faction_Bw";
         vehicleClass = "TTT_Vehicles_Bw";
@@ -357,7 +357,7 @@
     */
 
     class TTT_Kampfjet_Bw_Tropentarn : EAWS_EF2000_GER_SS {
-        author = "Tactical Training Team";
+        author = "$STR_Tactical_Training_Team";
         scope = 2;
         scopeCurator = 2;
         faction = "TTT_faction_Bw";

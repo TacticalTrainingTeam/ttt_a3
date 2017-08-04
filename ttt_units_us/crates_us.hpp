@@ -5,7 +5,7 @@
 	*/
 	
 	class TTT_Logistik_Waffen_Us : Box_NATO_Wps_F {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Waffen (US)";
 		transportMaxWeapons = 99;
 		transportMaxMagazines = 99;
@@ -44,7 +44,7 @@
 	};
 	
 	class TTT_Logistik_Spezialwaffen_Us : Box_NATO_WpsSpecial_F {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Spezialwaffen (US)";
 		transportMaxWeapons = 99;
 		transportMaxMagazines = 99;
@@ -88,7 +88,7 @@
 	};
 	
 	class TTT_Logistik_Standardmunition_Us : Box_NATO_Ammo_F {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Standardmunition (US)";
 		transportMaxWeapons = 99;
 		transportMaxMagazines = 99;
@@ -141,7 +141,7 @@
 	};
 	
 	class TTT_Logistik_Spezialmunition_Us : Box_NATO_Ammo_F {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Spezialmunition (US)";
 		transportMaxWeapons = 99;
 		transportMaxMagazines = 99;
@@ -175,7 +175,7 @@
 	};
 	
 	class TTT_Logistik_Pionierausruestung_Us : Box_NATO_AmmoOrd_F {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Pionierausruestung (US)";
 		transportMaxWeapons = 99;
 		transportMaxMagazines = 99;
@@ -225,7 +225,7 @@
 	};
 	
 	class TTT_Logistik_Granaten_Us : Box_NATO_Grenades_F {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Granaten (US)";
 		transportMaxWeapons = 99;
 		transportMaxMagazines = 99;
@@ -277,7 +277,7 @@
 	};
 	
 	class TTT_Logistik_Ausruestung_Us : Box_NATO_Support_F {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Ausruestung (US)";
 		transportMaxWeapons = 99;
 		transportMaxMagazines = 99;
@@ -428,7 +428,7 @@
 	};
 	
 	class TTT_Logistik_Werfer_Us : Box_NATO_WpsLaunch_F {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Werfer (US)";
 		transportMaxWeapons = 99;
 		transportMaxMagazines = 99;
@@ -461,7 +461,7 @@
 	};
 		
 	class TTT_Logistik_Medic_Us : Box_NATO_Support_F {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Medic Material (US)";
 		transportMaxWeapons = 99;
 		transportMaxMagazines = 99;
@@ -546,7 +546,7 @@
 	};
 	
 	class TTT_Logistik_Medic_Rucksaecke_Us : B_supplyCrate_F {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Medic Rucksaecke (US)";
 		transportMaxWeapons = 99;
 		transportMaxMagazines = 99;
@@ -585,7 +585,7 @@
 	};
 	
 	class TTT_Logistik_Kiste_Klein_Us : Box_NATO_Support_F {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Transportkiste Klein (US)";
 		transportMaxWeapons = 99;
 		transportMaxMagazines = 99;
@@ -603,7 +603,7 @@
 	};
 	
 	class TTT_Logistik_Kiste_Gross_Us : B_SupplyCrate_F {
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Transportkiste Gross (US)";
 		transportMaxWeapons = 99;
 		transportMaxMagazines = 99;

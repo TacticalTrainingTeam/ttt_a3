@@ -1,7 +1,7 @@
 	class NonStrategic;
 	class TTT_Notizschild_Base : NonStrategic {
 		mapSize = 0.83;
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		scope = 0;
 		scopeCurator = 0;
 		displayName = "TTT Notizschild Base";

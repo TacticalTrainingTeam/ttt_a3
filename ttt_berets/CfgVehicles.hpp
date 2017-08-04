@@ -4,7 +4,7 @@
 		scopeCurator = 2;
 		displayName = "TTT Barrett Item Blau";
 		//Textures by Reimchen
-		author = "Tactical Training Team";
+		author = "$STR_Tactical_Training_Team";
 		icon = "iconObject_1x1";
 		vehicleClass = "Items";
 		model = "\A3\Weapons_F\DummyCap.p3d";

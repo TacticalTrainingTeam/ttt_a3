@@ -7,7 +7,7 @@
 //Basis-Klasse fuer Basisklassen
 class TTT_Base_Bw : B_Soldier_base_F {
     _generalMacro = "B_Soldier_base_F";
-    author = "Tactical Training Team";
+    author = "$STR_Tactical_Training_Team";
     displayName = "Basis-Klasse BW";
     scope = 0;
 	icon = "iconMan";
@@ -28,7 +28,7 @@ class TTT_Base_Bw : B_Soldier_base_F {
 
 //Basis-Klasse fuer Truppfuehrer
 class TTT_Truppfuehrer_Base_Bw : TTT_Base_Bw {
-    author = "Tactical Training Team";
+    author = "$STR_Tactical_Training_Team";
     displayName = "Truppfuehrer BW (Template)";
     icon = "iconManLeader";
     vehicleClass = "TTT_Template_Bw";
@@ -47,7 +47,7 @@ class TTT_Truppfuehrer_Base_Bw : TTT_Base_Bw {
 
 //Basis-Klasse fuer Grenadiere
 class TTT_Grenadier_Base_Bw : TTT_Base_Bw {
-    author = "Tactical Training Team";
+    author = "$STR_Tactical_Training_Team";
     displayName = "Grenadier BW (Template)";
     vehicleClass = "TTT_Template_Bw";
     uniformClass = "TTT_Uniform_Base_Bw";
@@ -65,7 +65,7 @@ class TTT_Grenadier_Base_Bw : TTT_Base_Bw {
 
 //Basis-Klasse fuer MG-Assistenten
 class TTT_Mgassistent_Base_Bw : TTT_Base_Bw {
-    author = "Tactical Training Team";
+    author = "$STR_Tactical_Training_Team";
     displayName = "MG-Assistent BW (Template)";
     vehicleClass = "TTT_Template_Bw";
     uniformClass = "TTT_Uniform_Base_Bw";
@@ -83,7 +83,7 @@ class TTT_Mgassistent_Base_Bw : TTT_Base_Bw {
 
 //Basis-Klasse fuer MG-Schuetzen
 class TTT_Mgschuetze_Base_Bw : TTT_Base_Bw {
-    author = "Tactical Training Team";
+    author = "$STR_Tactical_Training_Team";
     displayName = "MG-Schuetze BW (Template)";
     icon = "iconManMG";
     vehicleClass = "TTT_Template_Bw";
@@ -102,7 +102,7 @@ class TTT_Mgschuetze_Base_Bw : TTT_Base_Bw {
 
 //Basis-Klasse fuer LMG-Schuetzen
 class TTT_Lmgschuetze_Base_Bw : TTT_Base_Bw {
-    author = "Tactical Training Team";
+    author = "$STR_Tactical_Training_Team";
     displayName = "LMG-Schuetze BW (Template)";
     icon = "iconManMG";
     vehicleClass = "TTT_Template_Bw";
@@ -121,7 +121,7 @@ class TTT_Lmgschuetze_Base_Bw : TTT_Base_Bw {
 
 //Basis-Klasse fuer AT-Assistent
 class TTT_Atassistent_Base_Bw : TTT_Base_Bw {
-    author = "Tactical Training Team";
+    author = "$STR_Tactical_Training_Team";
     displayName = "AT-Assistent BW (Template)";
     vehicleClass = "TTT_Template_Bw";
     uniformClass = "TTT_Uniform_Base_Bw";
@@ -139,7 +139,7 @@ class TTT_Atassistent_Base_Bw : TTT_Base_Bw {
 
 //Basis-Klasse fuer AT-Schuetzen
 class TTT_Atschuetze_Base_Bw : TTT_Base_Bw {
-    author = "Tactical Training Team";
+    author = "$STR_Tactical_Training_Team";
     displayName = "AT-Schuetze BW (Template)";
     icon = "iconManAT";
     vehicleClass = "TTT_Template_Bw";
@@ -158,7 +158,7 @@ class TTT_Atschuetze_Base_Bw : TTT_Base_Bw {
 
 //Basis-Klasse fuer Schuetzen
 class TTT_Schuetze_Base_Bw : TTT_Base_Bw {
-    author = "Tactical Training Team";
+    author = "$STR_Tactical_Training_Team";
     displayName = "Schuetze BW (Template)";
     vehicleClass = "TTT_Template_Bw";
     uniformClass = "TTT_Uniform_Base_Bw";
@@ -176,7 +176,7 @@ class TTT_Schuetze_Base_Bw : TTT_Base_Bw {
 
 //Basis-Klasse fuer Funker/FAC
 class TTT_Funkerfac_Base_Bw : TTT_Base_Bw {
-    author = "Tactical Training Team";
+    author = "$STR_Tactical_Training_Team";
     displayName = "Funker/FAC BW (Template)";
     vehicleClass = "TTT_Template_Bw";
     uniformClass = "TTT_Uniform_Base_Bw";
@@ -194,7 +194,7 @@ class TTT_Funkerfac_Base_Bw : TTT_Base_Bw {
 
 //Basis-Klasse fuer Pioniere
 class TTT_Pionier_Base_Bw : TTT_Base_Bw {
-    author = "Tactical Training Team";
+    author = "$STR_Tactical_Training_Team";
     displayName = "Pionier BW (Template)";
     icon = "iconManExplosive";
     vehicleClass = "TTT_Template_Bw";
@@ -214,7 +214,7 @@ class TTT_Pionier_Base_Bw : TTT_Base_Bw {
 
 //Basis-Klasse fuer Gefechtssanitaeter
 class TTT_Gefechtssanitaeter_Base_Bw : TTT_Base_Bw {
-    author = "Tactical Training Team";
+    author = "$STR_Tactical_Training_Team";
     displayName = "Gefechtssanitaeter BW (Template)";
     icon = "iconManMedic";
     vehicleClass = "TTT_Template_Bw";
@@ -234,7 +234,7 @@ class TTT_Gefechtssanitaeter_Base_Bw : TTT_Base_Bw {
 
 //Basis-Klasse fuer Feldaerzte
 class TTT_Feldarzt_Base_Bw : TTT_Base_Bw {
-    author = "Tactical Training Team";
+    author = "$STR_Tactical_Training_Team";
     displayName = "Feldarzt BW (Template)";
     icon = "iconManMedic";
     vehicleClass = "TTT_Template_Bw";
@@ -255,7 +255,7 @@ class TTT_Feldarzt_Base_Bw : TTT_Base_Bw {
 //Basis-Klasse fuer Piloten
 class TTT_Pilot_Base_Bw : TTT_Base_Bw {
     _generalMacro = "B_Helipilot_F";
-    author = "Tactical Training Team";
+    author = "$STR_Tactical_Training_Team";
     displayName = "Pilot BW (Template)";
     vehicleClass = "TTT_Template_Bw";
     uniformClass = "TTT_Uniform_Base_Bw";
@@ -273,7 +273,7 @@ class TTT_Pilot_Base_Bw : TTT_Base_Bw {
 
 //Basis-Klasse fuer UAV-Operatoren
 class TTT_Uavoperator_Base_Bw : TTT_Base_Bw {
-    author = "Tactical Training Team";
+    author = "$STR_Tactical_Training_Team";
     displayName = "UAV-Operator BW (Template)";
     vehicleClass = "TTT_Template_Bw";
     uniformClass = "TTT_Uniform_Base_Bw";
