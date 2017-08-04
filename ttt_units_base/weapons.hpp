@@ -19,7 +19,7 @@ class TTT_Helmet_Base : H_HelmetSpecB {
 
 class TTT_Helmet_Buzzard : TTT_Helmet_Base {
     model = "\A3\Characters_F\Common\headgear_helmet_heli_shield.p3d";
-    displayName = "TTT Helm Bussard";
+    displayName = "$STR_TTT_Weapons_Helmet_Buzzard";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\data\TTT_helmet_buzzard.paa" };
     scope = 2;
 
@@ -30,7 +30,7 @@ class TTT_Helmet_Buzzard : TTT_Helmet_Base {
 
 class TTT_Helmet_Hawk : TTT_Helmet_Base {
     model = "\A3\Characters_F\Common\headgear_helmet_heli_shield.p3d";
-    displayName = "TTT Helm Habicht";
+    displayName = "$STR_TTT_Weapons_Helmet_Hawk";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\data\TTT_helmet_buzzard.paa" };
     scope = 2;
 
@@ -41,7 +41,7 @@ class TTT_Helmet_Hawk : TTT_Helmet_Base {
 
 class TTT_Helmet_Falcon : TTT_Helmet_Base {
     model = "\A3\Characters_F\Common\headgear_helmet_heli_shield.p3d";
-    displayName = "TTT Helm Falke";
+    displayName = "$STR_TTT_Weapons_Helmet_Falcon";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\data\TTT_helmet_falcon.paa" };
     scope = 2;
 
@@ -52,7 +52,7 @@ class TTT_Helmet_Falcon : TTT_Helmet_Base {
 
 class TTT_Helmet_Eagle : TTT_Helmet_Base {
     model = "\A3\Characters_F\Common\headgear_helmet_heli_shield.p3d";
-    displayName = "TTT Helm Adler";
+    displayName = "$STR_TTT_Weapons_Helmet_Eagle";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\data\TTT_helmet_eagle.paa" };
     scope = 2;
 
@@ -64,42 +64,42 @@ class TTT_Helmet_Eagle : TTT_Helmet_Base {
 class TTT_Helmet1_Vehiclecrew : BWA3_CrewmanKSK_Tropen_Headset {
     scope = 2;
 	author = "Tactical Training Team";
-	displayName = "TTT Helm I (Fahrzeugcrew)";
+	displayName = "$STR_TTT_Weapons_Helmet_Veh_I";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\data\TTT_helmet_1_vehiclecrew.paa" };
 };
 
 class TTT_Helmet2_Vehiclecrew : BWA3_CrewmanKSK_Tropen_Headset {
     scope = 2;
 	author = "Tactical Training Team";
-	displayName = "TTT Helm II (Fahrzeugcrew)";
+	displayName = "$STR_TTT_Weapons_Helmet_Veh_II";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\data\TTT_helmet_2_vehiclecrew.paa" };
 };
 
 class TTT_Helmet3_Vehiclecrew : BWA3_CrewmanKSK_Tropen_Headset {
     scope = 2;
 	author = "Tactical Training Team";
-	displayName = "TTT Helm III (Fahrzeugcrew)";
+	displayName = "$STR_TTT_Weapons_Helmet_Veh_III";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\data\TTT_helmet_3_vehiclecrew.paa" };
 };
 
 class TTT_Helmet4_Vehiclecrew : BWA3_CrewmanKSK_Tropen_Headset {
     scope = 2;
 	author = "Tactical Training Team";
-	displayName = "TTT Helm IV (Fahrzeugcrew)";
+	displayName = "$STR_TTT_Weapons_Helmet_Veh_IV";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\data\TTT_helmet_4_vehiclecrew.paa" };
 };
 
 class TTT_Helmet5_Vehiclecrew : BWA3_CrewmanKSK_Tropen_Headset {
     scope = 2;
 	author = "Tactical Training Team";
-	displayName = "TTT Helm V (Fahrzeugcrew)";
+	displayName = "$STR_TTT_Weapons_Helmet_Veh_V";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\data\TTT_helmet_5_vehiclecrew.paa" };
 };
 
 class TTT_Helmet6_Vehiclecrew : BWA3_CrewmanKSK_Tropen_Headset {
     scope = 2;
 	author = "Tactical Training Team";
-	displayName = "TTT Helm VI (Fahrzeugcrew)";
+	displayName = "$STR_TTT_Weapons_Helmet_Veh_VI";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\data\TTT_helmet_6_vehiclecrew.paa" };
 };
 
@@ -111,7 +111,7 @@ class TTT_Helmet6_Vehiclecrew : BWA3_CrewmanKSK_Tropen_Headset {
 
 class TTT_Vest_Heavy_Base : V_PlateCarrier3_rgr {
     scope = 0;
-    displayName = "TTT Heavy Vest Base";
+    displayName = "$STR_TTT_Vest_Heavy_Base";
     hiddenSelections[] = { "camo" };
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\data\vest_yellow_co.paa" };
 
@@ -122,7 +122,7 @@ class TTT_Vest_Heavy_Base : V_PlateCarrier3_rgr {
 
 class TTT_Vest_Lite_Base : V_PlateCarrier1_rgr {
     scope = 0;
-    displayName = "TTT Lite Vest Base";
+    displayName = "$STR_TTT_Vest_Lite_Base";
     hiddenSelections[] = { "camo" };
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\data\vest_yellow_co.paa" };
 
@@ -134,5 +134,5 @@ class TTT_Vest_Lite_Base : V_PlateCarrier1_rgr {
 
 class TTT_Vest_Crew_Base : V_TacVest_brn {
     scope = 0;
-    displayName = "TTT Crew Vest Base";
+    displayName = "$STR_TTT_Vest_Crew_Base";
 };

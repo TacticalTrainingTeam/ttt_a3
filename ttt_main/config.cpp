@@ -51,13 +51,13 @@ class CfgMods
 class CfgFactionClasses {
 	class TTT_faction_Bw {
 		icon = "\ttt_a3\ttt_main\ui\TTT_logo_small_ca.paa";
-		displayName = "TTT (BW)";
+		displayName = "$STR_TTT_Faction_BW";
 		priority = 1;
 		side = 1;
 	};
 	class TTT_faction_Us {
 		icon = "\ttt_a3\ttt_main\ui\TTT_logo_small_ca.paa";
-		displayName = "TTT (US)";
+		displayName = "$STR_TTT_Faction_US";
 		priority = 1;
 		side = 1;
 	};

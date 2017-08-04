@@ -279,8 +279,8 @@ class CfgVehicleClasses {
 	#############################################################
 	*/
 	class TTT_Template_Bw {
-		displayName = "Templates BW (nicht benutzen)"; 		//In-game name
-		priority = 99; 										// How far down it is on the menu
+		displayName = "$STR_TTT_Template_Bw"; 		//In-game name
+		priority = 99; 								// How far down it is on the menu
 		scope = 1;
 	};
 
@@ -289,17 +289,17 @@ class CfgVehicleClasses {
 class CfgEditorSubcategories
 {
 	class EdSubcat_Unit_Camo_Tropentarn {
-		displayName = "Men (Tropentarn)";
+		displayName = "$STR_TTT_EdSubcat_Unit_Camo_Tropentarn";
 	};
 	class EdSubcat_Unit_Camo_Flecktarn {
-		displayName = "Men (Flecktarn)";
+		displayName = "$STR_TTT_EdSubcat_Unit_Camo_Flecktarn";
 	};	
 };
 
 class CfgGroups {
 	class West {
 		class TTT_Groups_bw {
-			name = "TTT BW";
+			name = "$STR_TTT_Faction_BW";
 			#include "\ttt_a3\ttt_units_bw\groups_tropentarn.hpp"
 			#include "\ttt_a3\ttt_units_bw\groups_flecktarn.hpp"
 		};
@@ -313,7 +313,7 @@ class CfgWeapons {
 	
 	class TTT_Uniform_Base_Bw : U_B_CombatUniform_mcam {
 			scope = 0;
-			displayName = "TTT Uniform Base BW";
+			displayName = "$STR_TTT_Uniform_Base_BW";
 			picture = "\ttt_a3\ttt_units_base\data\TTT_uniform_icon_bw.paa";
 			model = "\A3\characters_f\Common\Suitpacks\suitpack_universal_F";
 			

@@ -35,7 +35,32 @@
         <Original>TTT STR_TTT_CfgMods_popupMsgText</Original>
         <German>TTT STR_TTT_CfgMods_popupMsgText</German>
         <English>TTT STR_TTT_CfgMods_popupMsgText</English>
-      </Key>		  
+      </Key>		
+      <Key ID="STR_TTT_Faction_BW">
+        <Original>TTT (BW)</Original>
+        <German>TTT (BW)</German>
+        <English>TTT (BW)</English>
+      </Key>
+      <Key ID="STR_TTT_Faction_US">
+        <Original>TTT (US)</Original>
+        <German>TTT (US)</German>
+        <English>TTT (US)</English>
+      </Key>
+      <Key ID="STR_TTT_Template_Bw">
+        <Original>TTT Template BW (don't use this)</Original>
+        <German>TTT Vorlage BW (nicht verwenden)</German>
+        <English>TTT Template BW (don't use this)</English>
+      </Key>
+      <Key ID="STR_TTT_EdSubcat_Unit_Camo_Tropentarn">
+        <Original>Men (Tropentarn)</Original>
+        <German>Men (Tropentarn)</German>
+        <English>Men (Tropentarn)</English>
+      </Key>
+      <Key ID="STR_TTT_EdSubcat_Unit_Camo_Flecktarn">
+        <Original>Men (Flecktarn)</Original>
+        <German>Men (Flecktarn)</German>
+        <English>Men (Flecktarn)</English>
+      </Key>
 	</Container> 
     <Container name="Vehilce">
       <Key ID="STR_TTT_Vehilce_IMV_MG_Flecktarn">
@@ -44,5 +69,81 @@
         <English>Truppfahrzeug MG (BW Flecktarn)</English>
       </Key>		  	
     </Container>	
+    <Container name="Helmet">
+      <Key ID="STR_TTT_Weapons_Helmet_Buzzard">
+        <Original>TTT Helm Bussard</Original>
+        <German>TTT Helm Bussard</German>
+        <English>TTT Helmet Buzzard</English>
+      </Key>
+      <Key ID="STR_TTT_Weapons_Helmet_Hawk">
+        <Original>TTT Helm Habicht</Original>
+        <German>TTT Helm Habicht</German>
+        <English>TTT Helmet Hawk</English>
+      </Key>		 
+      <Key ID="STR_TTT_Weapons_Helmet_Hawk">
+        <Original>TTT Helm Falke</Original>
+        <German>TTT Helm Falke</German>
+        <English>TTT Helmet Falcon</English>
+      </Key>	
+      <Key ID="STR_TTT_Weapons_Helmet_Eagle">
+        <Original>TTT Helm Falke</Original>
+        <German>TTT Helm Adler</German>
+        <English>TTT Helmet Eagle</English>
+      </Key>	
+      <Key ID="STR_TTT_Weapons_Helmet_Veh_I">
+        <Original>TTT Helm Crew - I</Original>
+        <German>TTT Helm Crew - I</German>
+        <English>TTT Helmet Crew - I</English>
+      </Key>	
+      <Key ID="STR_TTT_Weapons_Helmet_Veh_I">
+        <Original>TTT Helm Crew - II</Original>
+        <German>TTT Helm Crew - II</German>
+        <English>TTT Helmet Crew - II</English>
+      </Key>	
+      <Key ID="STR_TTT_Weapons_Helmet_Veh_I">
+        <Original>TTT Helm Crew - III</Original>
+        <German>TTT Helm Crew - III</German>
+        <English>TTT Helmet Crew - III</English>
+      </Key>	
+      <Key ID="STR_TTT_Weapons_Helmet_Veh_I">
+        <Original>TTT Helm Crew - IV</Original>
+        <German>TTT Helm Crew - IV</German>
+        <English>TTT Helmet Crew - IV</English>
+      </Key>	
+      <Key ID="STR_TTT_Weapons_Helmet_Veh_I">
+        <Original>TTT Helm Crew - V</Original>
+        <German>TTT Helm Crew - V</German>
+        <English>TTT Helmet Crew - V</English>
+      </Key>	
+      <Key ID="STR_TTT_Weapons_Helmet_Veh_I">
+        <Original>TTT Helm Crew - VI</Original>
+        <German>TTT Helm Crew - VI</German>
+        <English>TTT Helmet Crew - VI</English>
+      </Key>		  
+    </Container>
+    <Container name="Vest">
+      <Key ID="STR_TTT_Vest_Heavy_Base">
+        <Original>TTT Heavy Vest Base</Original>
+        <German>TTT schwere Weste Basis</German>
+        <English>TTT Heavy Vest Base</English>
+      </Key>
+      <Key ID="STR_TTT_Vest_Lite_Base">
+        <Original>TTT Lite Vest Base</Original>
+        <German>TTT leichte Weste Basis</German>
+        <English>TTT Lite Vest Base</English>
+      </Key>	  
+      <Key ID="STR_TTT_Vest_Crew_Base">
+        <Original>TTT Crew Vest Base</Original>
+        <German>TTT Crew Weste Basis</German>
+        <English>TTT Crew Vest Base</English>
+      </Key>	  
+    </Container>	
+    <Container name="Uniform">
+      <Key ID="STR_TTT_Uniform_Base_BW">
+        <Original>TTT Uniform Base BW</Original>
+        <German>TTT Uniform Basis BW</German>
+        <English>TTT Uniform Base BW</English>
+      </Key>
+    </Container>
   </Package>
 </Project>
