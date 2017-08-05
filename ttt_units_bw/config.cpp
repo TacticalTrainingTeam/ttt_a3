@@ -81,10 +81,6 @@ class CfgPatches {
 			
 			"TTT_Platin1_BW_Tropentarn",
 			"TTT_Platin2_BW_Tropentarn",			
-
-			//Units Tropentarn OLD
-			"TTT_Adler1_BW_Tropentarn",
-			"TTT_Adler2_BW_Tropentarn",
 			
 			"TTT_Bussard1_BW_Tropentarn",
 			"TTT_Bussard2_BW_Tropentarn",
@@ -184,10 +180,6 @@ class CfgPatches {
 
 			"TTT_Platin1_BW_Flecktarn",
 			"TTT_Platin2_BW_Flecktarn",
-
-			//Units Flecktarn OLD
-			"TTT_Adler1_BW_Flecktarn",
-			"TTT_Adler2_BW_Flecktarn",
 			
 			"TTT_Bussard1_BW_Flecktarn",
 			"TTT_Bussard2_BW_Flecktarn",
@@ -207,20 +199,20 @@ class CfgPatches {
 			"TTT_Silber_BW_Flecktarn",
 			"TTT_Platin_BW_Flecktarn",
 
-			//Logistik Kisten
-			"TTT_Logistik_Waffen_BW",
-			"TTT_Logistik_Spezialwaffen_BW",
-			"TTT_Logistik_Standardmunition_BW",
-			"TTT_Logistik_Spezialmunition_BW",
-			"TTT_Logistik_Pionierausruestung_BW",
-			"TTT_Logistik_Granaten_BW",
-			"TTT_Logistik_Ausruestung_BW",
-			"TTT_Logistik_Werfer_BW",
-			"TTT_Logistik_Werfermunition_BW",
-			"TTT_Logistik_Medic_Rucksaecke_BW",
-			"TTT_Logistik_Medic_BW",
-			"TTT_Logistik_Kiste_Klein_BW",
-			"TTT_Logistik_Kiste_Gross_BW"
+			//Kisten
+			"TTT_Weapons_BW",
+			"TTT_Weapons_Special_BW",
+			"TTT_Weapons_Luncher_BW",
+			"TTT_Ammo_Standard_BW",
+			"TTT_Ammo_Special_BW",
+			"TTT_Ammo_Luncher_BW",
+			"TTT_Ammo_Grenade_BW",
+			"TTT_Equipment_BW",
+			"TTT_Equipment_Pioneer_BW",
+			"TTT_Medic_BW",
+			"TTT_Medic_Backpack_BW",
+			"TTT_Crate_Small_BW",
+			"TTT_Crate_Large_BW"
 		};
 		weapons[] = {
 			//Uniformen Tropentarn

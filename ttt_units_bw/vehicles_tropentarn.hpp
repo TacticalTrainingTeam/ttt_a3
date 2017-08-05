@@ -1177,42 +1177,6 @@ class TTT_Silber6_BW_Tropentarn : TTT_Pilot_Base_BW {
 
 /*
 #############################################################
-### Trupp Adler (Tropentarn) OLD
-#############################################################
-*/
-
-//Adler 1 (Pilot)
-class TTT_Adler1_BW_Tropentarn : TTT_Pilot_Base_BW {
-    author = "$STR_Tactical_Training_Team";
-    scope = 1;
-	scopeCurator = 0;
-	scopeArsenal = 0;
-    displayName = "Adler 1 (Pilot)";
-    vehicleClass = "TTT_Adler_BW_Tropentarn";
-	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
-    uniformClass = "TTT_Uniform_Silber_BW_Tropentarn";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_silver_bw_tropentarn.paa" };
-    linkedItems[] = { "TTT_Vest_Crew_Us_Desert", "TTT_Helmet_Eagle", default_linkedItems };
-    respawnLinkedItems[] = { "TTT_Vest_Crew_Us_Desert", "TTT_Helmet_Eagle", default_linkedItems };
-};
-
-//Adler 2 (Copilot)
-class TTT_Adler2_BW_Tropentarn : TTT_Pilot_Base_BW {
-    author = "$STR_Tactical_Training_Team";
-    scope = 1;
-	scopeCurator = 0;
-	scopeArsenal = 0;
-    displayName = "Adler 2 (Copilot)";
-    vehicleClass = "TTT_Adler_BW_Tropentarn";
-	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
-    uniformClass = "TTT_Uniform_Silber_BW_Tropentarn";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_silver_bw_tropentarn.paa" };
-    linkedItems[] = { "TTT_Vest_Crew_Us_Desert", "TTT_Helmet_Eagle", default_linkedItems };
-    respawnLinkedItems[] = { "TTT_Vest_Crew_Us_Desert", "TTT_Helmet_Eagle", default_linkedItems };
-};
-
-/*
-#############################################################
 ### Trupp Bussard (Tropentarn) OLD
 #############################################################
 */
