@@ -4,7 +4,7 @@
 	#############################################################
 	*/
 	
-	class TTT_Truppfahrzeug_Mg_Bw_Flecktarn : TTT_Truppfahrzeug_Mg_Bw_Tropentarn {
+	class TTT_IMV_MG_BW_Flecktarn : TTT_IMV_MG_BW_Tropentarn {
 		author = "$STR_Tactical_Training_Team";
 		crew = "TTT_Schwarz1_Bw_Flecktarn";
 		displayName = "$STR_TTT_Vehilce_IMV_MG_Flecktarn";
@@ -16,7 +16,7 @@
 		};				
 	};
 	
-	class TTT_Truppfahrzeug_Gl_Bw_Flecktarn : TTT_Truppfahrzeug_Gl_Bw_Tropentarn {
+	class TTT_IMV_GL_BW_Flecktarn : TTT_IMV_GL_BW_Tropentarn {
 		author = "$STR_Tactical_Training_Team";	
 		crew = "TTT_Schwarz1_Bw_Flecktarn";
 		displayName = "TTT Truppfahrzeug GL (BW Flecktarn)";
@@ -34,7 +34,7 @@
 	#############################################################
 	*/
 	
-	class TTT_Oplfahrzeug_Bw_Flecktarn : TTT_Oplfahrzeug_Bw_Tropentarn {
+	class TTT_LUV_COM_BW_Flecktarn : TTT_LUV_COM_BW_Tropentarn {
 		author = "$STR_Tactical_Training_Team";
 		crew = "TTT_Schwarz1_Bw_Flecktarn";
 		displayName = "TTT OPL-Fahrzeug (BW Flecktarn)";
@@ -59,7 +59,7 @@
     #############################################################
     */
 
-    class TTT_Sanitaetsfahrzeug_Bw_Flecktarn : TTT_Sanitaetsfahrzeug_Bw_Tropentarn {
+    class TTT_LUV_SAR_BW_Flecktarn : TTT_LUV_SAR_BW_Tropentarn {
         author = "$STR_Tactical_Training_Team";
         crew = "TTT_Weiss1_Bw_Flecktarn";
         displayName = "TTT Sanitaetsfahrzeug (BW Flecktarn)";
@@ -83,7 +83,7 @@
     #############################################################
     */
 
-    class TTT_TransporterLeichtOffen_Bw_Flecktarn : TTT_TransporterLeichtOffen_Bw_Tropentarn {
+    class TTT_LUV_LOG_BW_Flecktarn : TTT_LUV_LOG_BW_Tropentarn {
         author = "$STR_Tactical_Training_Team";
         crew = "TTT_Schwarz1_Bw_Flecktarn";
         displayName = "TTT Transporter leicht (offen) (BW Flecktarn)";
@@ -95,7 +95,7 @@
 	#############################################################
 	*/
 
-	class TTT_Schuetzenpanzer_Bw_Flecktarn : TTT_Schuetzenpanzer_Bw_Tropentarn {
+	class TTT_IFV_BW_Flecktarn : TTT_IFV_BW_Tropentarn {
 		author = "$STR_Tactical_Training_Team";	
 		crew = "TTT_Bronze1_Bw_Flecktarn";
 		displayName = "TTT Schuetzenpanzer (BW Flecktarn)";
@@ -122,7 +122,7 @@
 	#############################################################
 	*/
 	
-	class TTT_Kampfpanzer_Bw_Flecktarn : TTT_Kampfpanzer_Bw_Tropentarn {
+	class TTT_MBT_BW_Flecktarn : TTT_MBT_BW_Tropentarn {
 		author = "$STR_Tactical_Training_Team";
 		crew = "TTT_Bronze1_Bw_Flecktarn";
 		displayName = "TTT Kampfpanzer (BW Flecktarn)";
@@ -151,7 +151,7 @@
 	#############################################################
 	*/
 	
-	class TTT_Kampfhelikopter_Bw_Flecktarn : TTT_Kampfhelikopter_Bw_Tropentarn {
+	class TTT_Heli_CAS_BW_Flecktarn : TTT_Heli_CAS_BW_Tropentarn {
 		author = "$STR_Tactical_Training_Team";
         crew = "TTT_Adler1_Bw_Flecktarn";
 		displayName = "TTT Kampfhelikopter (BW Flecktarn)";
@@ -163,7 +163,7 @@
 	#############################################################
 	*/	
 	
-	class TTT_Sanitaetshelikopter_Bw_Flecktarn : TTT_Sanitaetshelikopter_Bw_Tropentarn {
+	class TTT_Heli_SAR_BW_Flecktarn : TTT_Heli_SAR_BW_Tropentarn {
 		author = "$STR_Tactical_Training_Team";
         crew = "TTT_Weiss3_Bw_Flecktarn";
 		displayName = "TTT Sanitaetshelikopter (BW Flecktarn)";
@@ -175,7 +175,7 @@
 	#############################################################
 	*/
 	
-	class TTT_Logistikhelikopter_Bw_Flecktarn : TTT_Logistikhelikopter_Bw_Tropentarn {
+	class TTT_Heli_Heavy_BW_Flecktarn : TTT_Heli_Heavy_BW_Tropentarn {
 		author = "$STR_Tactical_Training_Team";
 		crew = "TTT_Bussard1_Bw_Flecktarn";
 		displayName = "TTT Logistikhelikopter (BW Flecktarn)";
@@ -187,7 +187,7 @@
     #############################################################
     */
 
-    class TTT_Transporthelikopter_Bw_Flecktarn : TTT_Transporthelikopter_Bw_Tropentarn {
+    class TTT_Heli_Medium_BW_Flecktarn : TTT_Heli_Medium_BW_Tropentarn {
         author = "$STR_Tactical_Training_Team";
         crew = "TTT_Habicht1_Bw_Flecktarn";
         displayName = "TTT Transporthelikopter (BW Flecktarn)";
@@ -199,7 +199,7 @@
     #############################################################
     */
 
-    class TTT_Aufklaerungsdrohne_Bw_Flecktarn : TTT_Aufklaerungsdrohne_Bw_Tropentarn {
+    class TTT_Drone_BWFlecktarn : TTT_Drone_BWTropentarn {
         author = "$STR_Tactical_Training_Team";
         displayName = "TTT Aufklaerungsdrohne (BW Flecktarn)";
     };
@@ -210,7 +210,7 @@
     #############################################################
     */
 
-    class TTT_Kampfjet_Bw_Flecktarn : TTT_Kampfjet_Bw_Tropentarn {
+    class TTT_MRCA_BW_Flecktarn : TTT_MRCA_BW_Tropentarn {
         author = "$STR_Tactical_Training_Team";
         displayName = "TTT Kampfjet (BW Flecktarn)";
         crew = "TTT_Platin1_Bw_Flecktarn";

@@ -4,7 +4,7 @@
 	#############################################################
 	*/
 	
-	class TTT_Logistik_Waffen_Us : Box_NATO_Wps_F {
+	class TTT_Logistik_Waffen_US : Box_NATO_Wps_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Waffen (US)";
 		transportMaxWeapons = 99;
@@ -43,7 +43,7 @@
 		};
 	};
 	
-	class TTT_Logistik_Spezialwaffen_Us : Box_NATO_WpsSpecial_F {
+	class TTT_Logistik_Spezialwaffen_US : Box_NATO_WpsSpecial_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Spezialwaffen (US)";
 		transportMaxWeapons = 99;
@@ -87,7 +87,7 @@
 		};
 	};
 	
-	class TTT_Logistik_Standardmunition_Us : Box_NATO_Ammo_F {
+	class TTT_Logistik_Standardmunition_US : Box_NATO_Ammo_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Standardmunition (US)";
 		transportMaxWeapons = 99;
@@ -140,7 +140,7 @@
 		};
 	};
 	
-	class TTT_Logistik_Spezialmunition_Us : Box_NATO_Ammo_F {
+	class TTT_Logistik_Spezialmunition_US : Box_NATO_Ammo_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Spezialmunition (US)";
 		transportMaxWeapons = 99;
@@ -174,7 +174,7 @@
 		};
 	};
 	
-	class TTT_Logistik_Pionierausruestung_Us : Box_NATO_AmmoOrd_F {
+	class TTT_Logistik_Pionierausruestung_US : Box_NATO_AmmoOrd_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Pionierausruestung (US)";
 		transportMaxWeapons = 99;
@@ -224,7 +224,7 @@
 		};
 	};
 	
-	class TTT_Logistik_Granaten_Us : Box_NATO_Grenades_F {
+	class TTT_Logistik_Granaten_US : Box_NATO_Grenades_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Granaten (US)";
 		transportMaxWeapons = 99;
@@ -276,7 +276,7 @@
 		};
 	};
 	
-	class TTT_Logistik_Ausruestung_Us : Box_NATO_Support_F {
+	class TTT_Logistik_Ausruestung_US : Box_NATO_Support_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Ausruestung (US)";
 		transportMaxWeapons = 99;
@@ -410,13 +410,13 @@
 		};
 		
 		class TransportBackpacks { 
-			class _xx_TTT_Backpack_Funkerfac_Us_Desert {
-				backpack = "TTT_Backpack_Funkerfac_Us_Desert";
+			class _xx_TTT_Backpack_Funkerfac_US_Desert {
+				backpack = "TTT_Backpack_Funkerfac_US_Desert";
 				count = 1;
 			};
 			
-			class _xx_TTT_Backpack_Funkerfac_Us_Woodland {
-				backpack = "TTT_Backpack_Funkerfac_Us_Woodland";
+			class _xx_TTT_Backpack_Funkerfac_US_Woodland {
+				backpack = "TTT_Backpack_Funkerfac_US_Woodland";
 				count = 1;
 			};
 			
@@ -427,7 +427,7 @@
 		};
 	};
 	
-	class TTT_Logistik_Werfer_Us : Box_NATO_WpsLaunch_F {
+	class TTT_Logistik_Werfer_US : Box_NATO_WpsLaunch_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Werfer (US)";
 		transportMaxWeapons = 99;
@@ -460,7 +460,7 @@
 		};
 	};
 		
-	class TTT_Logistik_Medic_Us : Box_NATO_Support_F {
+	class TTT_Logistik_Medic_US : Box_NATO_Support_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Medic Material (US)";
 		transportMaxWeapons = 99;
@@ -545,7 +545,7 @@
 		};
 	};
 	
-	class TTT_Logistik_Medic_Rucksaecke_Us : B_supplyCrate_F {
+	class TTT_Logistik_Medic_Rucksaecke_US : B_supplyCrate_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Medic Rucksaecke (US)";
 		transportMaxWeapons = 99;
@@ -561,30 +561,30 @@
 		};
 		
 		class TransportBackpacks {
-			class _xx_TTT_Backpack_Gefechtssanitaeter_Us_Woodland {
-				backpack = "TTT_Backpack_Gefechtssanitaeter_Us_Woodland";
+			class _xx_TTT_Backpack_Gefechtssanitaeter_US_Woodland {
+				backpack = "TTT_Backpack_Gefechtssanitaeter_US_Woodland";
 				count = 4;			
 			};
 			
-			class _xx_TTT_Backpack_Gefechtssanitaeter_Us_Desert {
-				backpack = "TTT_Backpack_Gefechtssanitaeter_Us_Desert";
+			class _xx_TTT_Backpack_Gefechtssanitaeter_US_Desert {
+				backpack = "TTT_Backpack_Gefechtssanitaeter_US_Desert";
 				count = 4;			
 			};
 			
-			class _xx_TTT_Backpack_Feldarzt_Us_Desert {
-				backpack = "TTT_Backpack_Feldarzt_Us_Desert";
+			class _xx_TTT_Backpack_Feldarzt_US_Desert {
+				backpack = "TTT_Backpack_Feldarzt_US_Desert";
 				count = 4;			
 			};
 			
-			class _xx_TTT_Backpack_Feldarzt_Us_Woodland {
-				backpack = "TTT_Backpack_Feldarzt_Us_Woodland";
+			class _xx_TTT_Backpack_Feldarzt_US_Woodland {
+				backpack = "TTT_Backpack_Feldarzt_US_Woodland";
 				count = 4;			
 			};
 		};
 			
 	};
 	
-	class TTT_Logistik_Kiste_Klein_Us : Box_NATO_Support_F {
+	class TTT_Logistik_Kiste_Klein_US : Box_NATO_Support_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Transportkiste Klein (US)";
 		transportMaxWeapons = 99;
@@ -602,7 +602,7 @@
 		};
 	};
 	
-	class TTT_Logistik_Kiste_Gross_Us : B_SupplyCrate_F {
+	class TTT_Logistik_Kiste_Gross_US : B_SupplyCrate_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Transportkiste Gross (US)";
 		transportMaxWeapons = 99;

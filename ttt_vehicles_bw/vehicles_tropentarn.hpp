@@ -4,7 +4,7 @@
 	#############################################################
 	*/
 	
-    class TTT_Truppfahrzeug_Mg_Bw_Tropentarn : CUP_B_Dingo_Wdl {
+    class TTT_IMV_MG_BW_Tropentarn : CUP_B_Dingo_Wdl {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
@@ -30,7 +30,7 @@
 		};
 	};
 
-    class TTT_Truppfahrzeug_Gl_Bw_Tropentarn : CUP_B_Dingo_GL_Wdl {
+    class TTT_IMV_GL_BW_Tropentarn : CUP_B_Dingo_GL_Wdl {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
@@ -62,7 +62,7 @@
 	#############################################################
 	*/
 	
-	class TTT_Oplfahrzeug_Bw_Tropentarn : rhsusf_m998_w_4dr_fulltop {
+	class TTT_LUV_COM_BW_Tropentarn : rhsusf_m998_w_4dr_fulltop {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
@@ -101,7 +101,7 @@
     #############################################################
     */
 
-    class TTT_Sanitaetsfahrzeug_Bw_Tropentarn : rhsusf_m998_d_2dr_fulltop {
+    class TTT_LUV_SAR_BW_Tropentarn : rhsusf_m998_d_2dr_fulltop {
         author = "$STR_Tactical_Training_Team";
         scope = 2;
         faction = "TTT_faction_Bw";
@@ -139,7 +139,7 @@
     #############################################################
     */
 
-    class TTT_TransporterLeichtOffen_Bw_Tropentarn : rhsusf_m998_w_2dr {
+    class TTT_LUV_LOG_BW_Tropentarn : rhsusf_m998_w_2dr {
         author = "$STR_Tactical_Training_Team";
         scope = 2;
         faction = "TTT_faction_Bw";
@@ -166,7 +166,7 @@
 	#############################################################
 	*/
 	
-    class TTT_Schuetzenpanzer_Bw_Tropentarn : BWA3_Puma_Tropen {
+    class TTT_IFV_BW_Tropentarn : BWA3_Puma_Tropen {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
@@ -192,7 +192,7 @@
 	#############################################################
 	*/
 	
-    class TTT_Kampfpanzer_Bw_Tropentarn : BWA3_Leopard2A6M_Tropen {
+    class TTT_MBT_BW_Tropentarn : BWA3_Leopard2A6M_Tropen {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
@@ -218,7 +218,7 @@
 	#############################################################
 	*/
 	
-    class TTT_Kampfhelikopter_Bw_Tropentarn : BWA3_Tiger_RMK_Universal {
+    class TTT_Heli_CAS_BW_Tropentarn : BWA3_Tiger_RMK_Universal {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
@@ -246,7 +246,7 @@
 	#############################################################
 	*/
 	
-    class TTT_Sanitaetshelikopter_Bw_Tropentarn : NH90Armed {
+    class TTT_Heli_SAR_BW_Tropentarn : NH90Armed {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
@@ -281,7 +281,7 @@
 	#############################################################
 	*/
 	
-    class TTT_Logistikhelikopter_Bw_Tropentarn : CUP_B_CH53E_GER {
+    class TTT_Heli_Heavy_BW_Tropentarn : CUP_B_CH53E_GER {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		faction = "TTT_faction_Bw";
@@ -309,7 +309,7 @@
     #############################################################
     */
 
-    class TTT_Transporthelikopter_Bw_Tropentarn : NH90Armed {
+    class TTT_Heli_Medium_BW_Tropentarn : NH90Armed {
         author = "$STR_Tactical_Training_Team";
         scope = 2;
         faction = "TTT_faction_Bw";
@@ -334,14 +334,13 @@
         };
     };
 
-
     /*
     #############################################################
     ### TTT Aufklärungsdrohne
     #############################################################
     */
 
-    class TTT_Aufklaerungsdrohne_Bw_Tropentarn : CUP_B_USMC_MQ9 {
+    class TTT_Drone_BW_Tropentarn : CUP_B_USMC_MQ9 {
         author = "$STR_Tactical_Training_Team";
         scope = 2;
         faction = "TTT_faction_Bw";
@@ -349,14 +348,13 @@
         displayName = "TTT Aufklaerungsdrohne (BW Tropentarn)";
     };
 
-
     /*
     #############################################################
     ### TTT Jet
     #############################################################
     */
 
-    class TTT_Kampfjet_Bw_Tropentarn : EAWS_EF2000_GER_SS {
+    class TTT_MRCA_BW_Tropentarn : EAWS_EF2000_GER_SS {
         author = "$STR_Tactical_Training_Team";
         scope = 2;
         scopeCurator = 2;

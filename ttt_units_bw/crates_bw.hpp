@@ -4,7 +4,7 @@
 	#############################################################
 	*/
 	
-	class TTT_Logistik_Waffen_Bw : Box_NATO_Wps_F {
+	class TTT_Logistik_Waffen_BW : Box_NATO_Wps_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Waffen (BW)";
 		transportMaxWeapons = 99;
@@ -27,7 +27,7 @@
 		};
 	};
 	
-	class TTT_Logistik_Spezialwaffen_Bw : Box_NATO_WpsSpecial_F {
+	class TTT_Logistik_Spezialwaffen_BW : Box_NATO_WpsSpecial_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Spezialwaffen (BW)";
 		transportMaxWeapons = 99;
@@ -49,7 +49,7 @@
 		};
 	};
 	
-	class TTT_Logistik_Standardmunition_Bw : Box_NATO_Ammo_F {
+	class TTT_Logistik_Standardmunition_BW : Box_NATO_Ammo_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Standardmunition (BW)";
 		transportMaxWeapons = 99;
@@ -74,7 +74,7 @@
 		};
 	};
 	
-	class TTT_Logistik_Spezialmunition_Bw : Box_NATO_Ammo_F {
+	class TTT_Logistik_Spezialmunition_BW : Box_NATO_Ammo_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Spezialmunition (BW)";
 		transportMaxWeapons = 99;
@@ -97,7 +97,7 @@
 		};
 	};
 	
-	class TTT_Logistik_Pionierausruestung_Bw : Box_NATO_AmmoOrd_F {
+	class TTT_Logistik_Pionierausruestung_BW : Box_NATO_AmmoOrd_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Pionierausruestung (BW)";
 		transportMaxWeapons = 99;
@@ -124,7 +124,7 @@
 		};
 	};
 	
-	class TTT_Logistik_Granaten_Bw : Box_NATO_Grenades_F {
+	class TTT_Logistik_Granaten_BW : Box_NATO_Grenades_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Granaten (BW)";
 		transportMaxWeapons = 99;
@@ -150,7 +150,7 @@
 		};
 	};
 	
-	class TTT_Logistik_Ausruestung_Bw : Box_NATO_Support_F {
+	class TTT_Logistik_Ausruestung_BW : Box_NATO_Support_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Ausruestung (BW)";
 		transportMaxWeapons = 99;
@@ -190,13 +190,13 @@
 		};
 		
 		class TransportBackpacks { 
-			backpack_xx(TTT_Backpack_Funkerfac_Bw_Tropentarn,1);
-			backpack_xx(TTT_Backpack_Funkerfac_Bw_Flecktarn,1);
+			backpack_xx(TTT_Backpack_Funkerfac_BW_Tropentarn,1);
+			backpack_xx(TTT_Backpack_Funkerfac_BW_Flecktarn,1);
 			backpack_xx(B_UAV_01_backpack_F,1);
 		};
 	};
 	
-	class TTT_Logistik_Werfer_Bw : Box_NATO_WpsLaunch_F {
+	class TTT_Logistik_Werfer_BW : Box_NATO_WpsLaunch_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Werfer (BW)";
 		transportMaxWeapons = 99;
@@ -218,7 +218,7 @@
 		};
 	};
 	
-	class TTT_Logistik_Werfermunition_Bw : Box_NATO_WpsLaunch_F {
+	class TTT_Logistik_Werfermunition_BW : Box_NATO_WpsLaunch_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Werfermunition (BW)";
 		transportMaxWeapons = 99;
@@ -240,7 +240,7 @@
 		};
 	};
 	
-	class TTT_Logistik_Medic_Bw : Box_NATO_Support_F {
+	class TTT_Logistik_Medic_BW : Box_NATO_Support_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Medic Material (BW)";
 		transportMaxWeapons = 99;
@@ -273,7 +273,7 @@
 		};
 	};
 	
-	class TTT_Logistik_Medic_Rucksaecke_Bw : B_supplyCrate_F {
+	class TTT_Logistik_Medic_Rucksaecke_BW : B_supplyCrate_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Medic Rucksaecke (BW)";
 		transportMaxWeapons = 99;
@@ -289,15 +289,15 @@
 		};
 		
 		class TransportBackpacks {
-			backpack_xx(TTT_Backpack_Gefechtssanitaeter_Bw_Flecktarn,4);
-			backpack_xx(TTT_Backpack_Gefechtssanitaeter_Bw_Tropentarn,4);
-			backpack_xx(TTT_Backpack_Feldarzt_Bw_Tropentarn,4);
-			backpack_xx(TTT_Backpack_Feldarzt_Bw_Flecktarn,4);
+			backpack_xx(TTT_Backpack_Gefechtssanitaeter_BW_Flecktarn,4);
+			backpack_xx(TTT_Backpack_Gefechtssanitaeter_BW_Tropentarn,4);
+			backpack_xx(TTT_Backpack_Feldarzt_BW_Tropentarn,4);
+			backpack_xx(TTT_Backpack_Feldarzt_BW_Flecktarn,4);
 		};
 			
 	};
 	
-	class TTT_Logistik_Kiste_Klein_Bw : Box_NATO_Support_F {
+	class TTT_Logistik_Kiste_Klein_BW : Box_NATO_Support_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Transportkiste Klein (BW)";
 		transportMaxWeapons = 99;
@@ -315,7 +315,7 @@
 		};
 	};
 	
-	class TTT_Logistik_Kiste_Gross_Bw : B_supplyCrate_F {
+	class TTT_Logistik_Kiste_Gross_BW : B_supplyCrate_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Transportkiste Gross (BW)";
 		transportMaxWeapons = 99;
