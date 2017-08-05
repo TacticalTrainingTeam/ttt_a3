@@ -1,0 +1,5 @@
+class TTT([\w]+)Bw
+class TTT\1BW
+
+: TTT([\w]+)Bw
+: TTT\1BW
