@@ -63,22 +63,143 @@
       </Key>
 	</Container> 
     <Container name="Vehilce">
-      <Key ID="STR_TTT_Vehilce_IMV_MG_Flecktarn">
-        <Original>Truppfahrzeug MG (BW Flecktarn)</Original>
-        <German>Truppfahrzeug MG (BW Flecktarn)</German>
-        <English>Truppfahrzeug MG (BW Flecktarn)</English>
-      </Key>
-      <Key ID="STR_TTT_Vehilce_BW">
-        <Original>TTT Fahrzeuge (BW)</Original>
-        <German>TTT Fahrzeuge (BW)</German>
-        <English>TTT Vehilce (BW)</English>
-      </Key>
-      <Key ID="STR_TTT_Vehilce_US">
-        <Original>TTT Fahrzeuge (US)</Original>
-        <German>TTT Fahrzeuge (US)</German>
-        <English>TTT Vehilce (US)</English>
-      </Key>
+		<Key ID="STR_TTT_Vehilce_IMV_MG_Flecktarn">
+			<Original>Truppfahrzeug MG (BW Flecktarn)</Original>
+			<German>Truppfahrzeug MG (BW Flecktarn)</German>
+			<English>Truppfahrzeug MG (BW Flecktarn)</English>
+		</Key>
+		<Key ID="STR_TTT_Vehilce_BW">
+			<Original>TTT Fahrzeuge (BW)</Original>
+			<German>TTT Fahrzeuge (BW)</German>
+			<English>TTT Vehilce (BW)</English>
+		</Key>
+		<Key ID="STR_TTT_Vehilce_US">
+			<Original>TTT Fahrzeuge (US)</Original>
+			<German>TTT Fahrzeuge (US)</German>
+			<English>TTT Vehilce (US)</English>
+		</Key>
+		<Key ID="STR_TTT_Drone_US_Desert">
+			<Original>TTT Aufklaerungsdrohne (US Desert)</Original>
+			<German>TTT Aufklaerungsdrohne (US Desert)</German>
+			<English>TTT Aufklaerungsdrohne (US Desert)</English>
+		</Key>
+		<Key ID="STR_TTT_Drone_US_Woodland">
+			<Original>TTT Aufklaerungsdrohne (US Woodland)</Original>
+			<German>TTT Aufklaerungsdrohne (US Woodland)</German>
+			<English>TTT Aufklaerungsdrohne (US Woodland)</English>
+		</Key>
+		<Key ID="STR_TTT_Heli_Medium_US_Desert">
+			<Original>TTT Transporthelikopter (US Desert)</Original>
+			<German>TTT Transporthelikopter (US Desert)</German>
+			<English>TTT Transporthelikopter (US Desert)</English>
+		</Key>
+		<Key ID="STR_TTT_Heli_Medium_US_Woodland">
+			<Original>TTT Transporthelikopter (US Woodland)</Original>
+			<German>TTT Transporthelikopter (US Woodland)</German>
+			<English>TTT Transporthelikopter (US Woodland)</English>
+		</Key>
+		<Key ID="STR_TTT_Heli_Heavy_US_Desert">
+			<Original>TTT Transporthelikopter (US Desert)</Original>
+			<German>TTT Transporthelikopter (US Desert)</German>
+			<English>TTT Transporthelikopter (US Desert)</English>
+		</Key>
+		<Key ID="STR_TTT_Heli_Heavy_US_Woodland">
+			<Original>TTT Transporthelikopter (US Woodland)</Original>
+			<German>TTT Transporthelikopter (US Woodland)</German>
+			<English>TTT Transporthelikopter (US Woodland)</English>
+		</Key>		
+		<Key ID="STR_TTT_Heli_SAR_Us_Desert">
+			<Original>TTT Sanitaetshelikopter (US Desert)</Original>
+			<German>TTT Sanitaetshelikopter (US Desert)</German>
+			<English>TTT Sanitaetshelikopter (US Desert)</English>
+		</Key>
+		<Key ID="STR_TTT_Heli_SAR_Us_Woodland">
+			<Original>TTT Sanitaetshelikopter (US Woodland)</Original>
+			<German>TTT Sanitaetshelikopter (US Woodland)</German>
+			<English>TTT Sanitaetshelikopter (US Woodland)</English>
+		</Key>
+		<Key ID="STR_TTT_Heli_CAS_US_Desert">
+			<Original>TTT Kampfhelikopter (US Desert)</Original>
+			<German>TTT Kampfhelikopter (US Desert)</German>
+			<English>TTT Kampfhelikopter (US Desert)</English>
+		</Key>
+		<Key ID="STR_TTT_Heli_CAS_US_Woodland">
+			<Original>TTT Kampfhelikopter (US Woodland)</Original>
+			<German>TTT Kampfhelikopter (US Woodland)</German>
+			<English>TTT Kampfhelikopter (US Woodland)</English>
+		</Key>
+		<Key ID="STR_TTT_MBT_US_Desert">
+			<Original>TTT Kampfpanzer (US Desert)</Original>
+			<German>TTT Kampfpanzer (US Desert)</German>
+			<English>TTT Kampfpanzer (US Desert)</English>
+		</Key>
+		<Key ID="STR_TTT_MBT_US_Woodland">
+			<Original>TTT Kampfpanzer (US Woodland)</Original>
+			<German>TTT Kampfpanzer (US Woodland)</German>
+			<English>TTT Kampfpanzer (US Woodland)</English>
+		</Key>
+		<Key ID="STR_TTT_IFV_US_Desert">
+			<Original>TTT Schuetzenpanzer (US Desert)</Original>
+			<German>TTT Schuetzenpanzer (US Desert)</German>
+			<English>TTT Schuetzenpanzer (US Desert)</English>
+		</Key>
+		<Key ID="STR_TTT_IFV_US_Woodland">
+			<Original>TTT Schuetzenpanzer (US Woodland)</Original>
+			<German>TTT Schuetzenpanzer (US Woodland)</German>
+			<English>TTT Schuetzenpanzer (US Woodland)</English>
+		</Key>
+		<Key ID="STR_TTT_LUV_COM_US_Desert">
+			<Original>TTT OPL-Fahrzeug (US Desert)</Original>
+			<German>TTT OPL-Fahrzeug (US Desert)</German>
+			<English>TTT OPL-Fahrzeug (US Desert)</English>
+		</Key>
+		<Key ID="STR_TTT_LUV_COM_US_Woodland">
+			<Original>TTT OPL-Fahrzeug (US Woodland)</Original>
+			<German>TTT OPL-Fahrzeug (US Woodland)</German>
+			<English>TTT OPL-Fahrzeug (US Woodland)</English>
+		</Key>
+		<Key ID="STR_TTT_LUV_SAR_US_Desert">
+			<Original>TTT Sanitaetsfahrzeug (US Desert)</Original>
+			<German>TTT Sanitaetsfahrzeug (US Desert)</German>
+			<English>TTT Sanitaetsfahrzeug (US Desert)</English>
+		</Key>
+		<Key ID="STR_TTT_LUV_SAR_US_Woodland">
+			<Original>TTT Sanitaetsfahrzeug (US Woodland)</Original>
+			<German>TTT Sanitaetsfahrzeug (US Woodland)</German>
+			<English>TTT Sanitaetsfahrzeug (US Woodland)</English>
+		</Key>
+		<Key ID="STR_TTT_LUV_LOG_US_Desert">
+			<Original>TTT Transporter leicht (offen) (US Desert)</Original>
+			<German>TTT Transporter leicht (offen) (US Desert)</German>
+			<English>TTT Transporter leicht (offen) (US Desert)</English>
+		</Key>
+		<Key ID="STR_TTT_LUV_LOG_US_Woodland">
+			<Original>TTT Transporter leicht (offen) (US Woodland)</Original>
+			<German>TTT Transporter leicht (offen) (US Woodland)</German>
+			<English>TTT Transporter leicht (offen) (US Woodland)</English>
+		</Key>
+		<Key ID="STR_TTT_IMV_GL_US_Desert">
+			<Original>TTT Truppfahrzeug GL (US Desert)</Original>
+			<German>TTT Truppfahrzeug GL (US Desert)</German>
+			<English>TTT Truppfahrzeug GL (US Desert)</English>
+		</Key>	
+		<Key ID="STR_TTT_IMV_GL_US_Woodland">
+			<Original>TTT Truppfahrzeug GL (US Woodland)</Original>
+			<German>TTT Truppfahrzeug GL (US Woodland)</German>
+			<English>TTT Truppfahrzeug GL (US Woodland)</English>
+		</Key>	
+		<Key ID="STR_TTT_IMV_MG_US_Desert">
+			<Original>TTT Truppfahrzeug MG (US Desert)</Original>
+			<German>TTT Truppfahrzeug MG (US Desert)</German>
+			<English>TTT Truppfahrzeug MG (US Desert)</English>
+		</Key>	
+		<Key ID="STR_TTT_IMV_MG_US_Woodland">
+			<Original>TTT Truppfahrzeug MG (US Woodland)</Original>
+			<German>TTT Truppfahrzeug MG (US Woodland)</German>
+			<English>TTT Truppfahrzeug MG (US Woodland)</English>
+		</Key>	
     </Container>	
+	
     <Container name="Helmet">
       <Key ID="STR_TTT_Weapons_Helmet_Buzzard">
         <Original>TTT Helm Bussard</Original>
