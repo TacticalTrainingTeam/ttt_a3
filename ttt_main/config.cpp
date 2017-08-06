@@ -49,13 +49,13 @@ class CfgMods
 };
 
 class CfgFactionClasses {
-	class TTT_faction_Bw {
+	class TTT_faction_BW {
 		icon = "\ttt_a3\ttt_main\ui\TTT_logo_small_ca.paa";
 		displayName = "$STR_TTT_Faction_BW";
 		priority = 1;
 		side = 1;
 	};
-	class TTT_faction_Us {
+	class TTT_faction_US {
 		icon = "\ttt_a3\ttt_main\ui\TTT_logo_small_ca.paa";
 		displayName = "$STR_TTT_Faction_US";
 		priority = 1;

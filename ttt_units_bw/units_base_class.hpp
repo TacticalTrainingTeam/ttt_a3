@@ -27,13 +27,13 @@ class TTT_Base_BW : B_Soldier_base_F {
 */
 
 //Basis-Klasse fuer Truppfuehrer
-class TTT_Truppfuehrer_Base_BW : TTT_Base_BW {
+class TTT_TL_Base_BW : TTT_Base_BW {
     author = "$STR_Tactical_Training_Team";
     displayName = "Truppfuehrer BW (Template)";
     icon = "iconManLeader";
     vehicleClass = "TTT_Template_BW";
     uniformClass = "TTT_Uniform_Base_BW";
-    backpack = "TTT_Backpack_Truppfuehrer_BW_Tropentarn";
+    backpack = "TTT_Backpack_TL_BW_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_item_bw, default_ace_items, "ACE_microDAGR" };
     respawnitems[] = { default_item_bw, default_ace_items, "ACE_microDAGR" };
@@ -46,17 +46,17 @@ class TTT_Truppfuehrer_Base_BW : TTT_Base_BW {
 };
 
 //Basis-Klasse fuer Grenadiere
-class TTT_Grenadier_Base_BW : TTT_Base_BW {
+class TTT_GRE_Base_BW : TTT_Base_BW {
     author = "$STR_Tactical_Training_Team";
     displayName = "Grenadier BW (Template)";
     vehicleClass = "TTT_Template_BW";
     uniformClass = "TTT_Uniform_Base_BW";
-    backpack = "TTT_Backpack_Grenadier_BW_Tropentarn";
+    backpack = "TTT_Backpack_GRE_BW_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_item_bw, default_ace_items };
     respawnitems[] = { default_item_bw, default_ace_items };
-    linkedItems[] = { default_linkedItems, "BWA3_Vest_Grenadier_Tropen", "TTT_Helmet_2_BW_Tropentarn" };
-    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Grenadier_Tropen", "TTT_Helmet_2_BW_Tropentarn" };
+    linkedItems[] = { default_linkedItems, "BWA3_Vest_GRE_Tropen", "TTT_Helmet_2_BW_Tropentarn" };
+    respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_GRE_Tropen", "TTT_Helmet_2_BW_Tropentarn" };
     weapons[] = { "BWA3_G36_AG_equipped", "BWA3_P8", "Binocular", default_weapons };
     respawnWeapons[] = { "BWA3_G36_AG_equipped", "BWA3_P8", "Binocular", default_weapons };
     magazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_6(BWA3_30Rnd_556x45_G36_AP) };
@@ -193,14 +193,14 @@ class TTT_Funkerfac_Base_BW : TTT_Base_BW {
 };
 
 //Basis-Klasse fuer Pioniere
-class TTT_Pionier_Base_BW : TTT_Base_BW {
+class TTT_PIO_Base_BW : TTT_Base_BW {
     author = "$STR_Tactical_Training_Team";
     displayName = "Pionier BW (Template)";
     icon = "iconManExplosive";
     vehicleClass = "TTT_Template_BW";
     uniformClass = "TTT_Uniform_Base_BW";
     canDeactivateMines = 1;
-    backpack = "TTT_Backpack_Pionier_BW_Tropentarn";
+    backpack = "TTT_Backpack_PIO_BW_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_item_bw, default_ace_items };
     respawnitems[] = { default_item_bw, default_ace_items };
@@ -213,14 +213,14 @@ class TTT_Pionier_Base_BW : TTT_Base_BW {
 };
 
 //Basis-Klasse fuer Gefechtssanitaeter
-class TTT_Gefechtssanitaeter_Base_BW : TTT_Base_BW {
+class TTT_SAN_Base_BW : TTT_Base_BW {
     author = "$STR_Tactical_Training_Team";
     displayName = "Gefechtssanitaeter BW (Template)";
     icon = "iconManMedic";
     vehicleClass = "TTT_Template_BW";
     uniformClass = "TTT_Uniform_Base_BW";
     attendant = 1;
-    backpack = "TTT_Backpack_Gefechtssanitaeter_BW_Tropentarn";
+    backpack = "TTT_Backpack_SAN_BW_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_item_bw, default_ace_items };
     respawnitems[] = { default_item_bw, default_ace_items };

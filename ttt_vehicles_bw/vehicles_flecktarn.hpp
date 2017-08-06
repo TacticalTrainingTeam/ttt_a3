@@ -6,7 +6,7 @@
 	
 	class TTT_IMV_MG_BW_Flecktarn : TTT_IMV_MG_BW_Tropentarn {
 		author = "$STR_Tactical_Training_Team";
-		crew = "TTT_Schwarz1_Bw_Flecktarn";
+		crew = "TTT_Black_1_BW_Flecktarn";
 		displayName = "$STR_TTT_Vehilce_IMV_MG_Flecktarn";
 		hiddenSelectionsTextures[] = {
 			"\ttt_a3\ttt_vehicles_bw\data\karosse_w_co.paa",
@@ -18,7 +18,7 @@
 	
 	class TTT_IMV_GL_BW_Flecktarn : TTT_IMV_GL_BW_Tropentarn {
 		author = "$STR_Tactical_Training_Team";	
-		crew = "TTT_Schwarz1_Bw_Flecktarn";
+		crew = "TTT_Black_1_BW_Flecktarn";
 		displayName = "TTT Truppfahrzeug GL (BW Flecktarn)";
 		hiddenSelectionsTextures[] = {
 			"\ttt_a3\ttt_vehicles_bw\data\karosse_w_co.paa",
@@ -36,7 +36,7 @@
 	
 	class TTT_LUV_COM_BW_Flecktarn : TTT_LUV_COM_BW_Tropentarn {
 		author = "$STR_Tactical_Training_Team";
-		crew = "TTT_Schwarz1_Bw_Flecktarn";
+		crew = "TTT_Black_1_BW_Flecktarn";
 		displayName = "TTT OPL-Fahrzeug (BW Flecktarn)";
 		hiddenSelectionsTextures[] = {
 			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa",
@@ -61,7 +61,7 @@
 
     class TTT_LUV_SAR_BW_Flecktarn : TTT_LUV_SAR_BW_Tropentarn {
         author = "$STR_Tactical_Training_Team";
-        crew = "TTT_Weiss1_Bw_Flecktarn";
+        crew = "TTT_White_1_BW_Flecktarn";
         displayName = "TTT Sanitaetsfahrzeug (BW Flecktarn)";
 		hiddenSelectionsTextures[] = {
 			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa",
@@ -85,19 +85,19 @@
 
     class TTT_LUV_LOG_BW_Flecktarn : TTT_LUV_LOG_BW_Tropentarn {
         author = "$STR_Tactical_Training_Team";
-        crew = "TTT_Schwarz1_Bw_Flecktarn";
+        crew = "TTT_Black_1_BW_Flecktarn";
         displayName = "TTT Transporter leicht (offen) (BW Flecktarn)";
     };
 	
 	/*
 	#############################################################
-	### TTT Schützenpanzer
+	### TTT Schï¿½tzenpanzer
 	#############################################################
 	*/
 
 	class TTT_IFV_BW_Flecktarn : TTT_IFV_BW_Tropentarn {
 		author = "$STR_Tactical_Training_Team";	
-		crew = "TTT_Bronze1_Bw_Flecktarn";
+		crew = "TTT_Bronze_1_BW_Flecktarn";
 		displayName = "TTT Schuetzenpanzer (BW Flecktarn)";
 		hiddenSelectionsTextures[] = {
 			"bwa3_puma\data\bwa3_puma_wanne_fleck_co.paa",
@@ -124,7 +124,7 @@
 	
 	class TTT_MBT_BW_Flecktarn : TTT_MBT_BW_Tropentarn {
 		author = "$STR_Tactical_Training_Team";
-		crew = "TTT_Bronze1_Bw_Flecktarn";
+		crew = "TTT_Bronze_1_BW_Flecktarn";
 		displayName = "TTT Kampfpanzer (BW Flecktarn)";
 		hiddenSelectionsTextures[] = {
 			"bwa3_leopard2a6m\data\bwa3_leopard2a6m_wanne_fleck_co.paa",
@@ -153,7 +153,7 @@
 	
 	class TTT_Heli_CAS_BW_Flecktarn : TTT_Heli_CAS_BW_Tropentarn {
 		author = "$STR_Tactical_Training_Team";
-        crew = "TTT_Adler1_Bw_Flecktarn";
+        crew = "TTT_Adler1_BW_Flecktarn";
 		displayName = "TTT Kampfhelikopter (BW Flecktarn)";
 	};
 	
@@ -165,7 +165,7 @@
 	
 	class TTT_Heli_SAR_BW_Flecktarn : TTT_Heli_SAR_BW_Tropentarn {
 		author = "$STR_Tactical_Training_Team";
-        crew = "TTT_Weiss3_Bw_Flecktarn";
+        crew = "TTT_White_3_BW_Flecktarn";
 		displayName = "TTT Sanitaetshelikopter (BW Flecktarn)";
 	};
 	
@@ -177,7 +177,7 @@
 	
 	class TTT_Heli_Heavy_BW_Flecktarn : TTT_Heli_Heavy_BW_Tropentarn {
 		author = "$STR_Tactical_Training_Team";
-		crew = "TTT_Bussard1_Bw_Flecktarn";
+		crew = "TTT_Buzzard_1_BW_Flecktarn";
 		displayName = "TTT Logistikhelikopter (BW Flecktarn)";
 	};
 
@@ -189,13 +189,13 @@
 
     class TTT_Heli_Medium_BW_Flecktarn : TTT_Heli_Medium_BW_Tropentarn {
         author = "$STR_Tactical_Training_Team";
-        crew = "TTT_Habicht1_Bw_Flecktarn";
+        crew = "TTT_Hawk_1_BW_Flecktarn";
         displayName = "TTT Transporthelikopter (BW Flecktarn)";
     };
 
     /*
     #############################################################
-    ### TTT Aufklärungsdrohne
+    ### TTT Aufklï¿½rungsdrohne
     #############################################################
     */
 
@@ -213,5 +213,5 @@
     class TTT_MRCA_BW_Flecktarn : TTT_MRCA_BW_Tropentarn {
         author = "$STR_Tactical_Training_Team";
         displayName = "TTT Kampfjet (BW Flecktarn)";
-        crew = "TTT_Platin1_Bw_Flecktarn";
+        crew = "TTT_Platinum_1_BW_Flecktarn";
     };

@@ -5,13 +5,13 @@
 	*/
 	
 	//Truppfuehrer Rucksack
-	class TTT_Backpack_Truppfuehrer_BW_Flecktarn : TTT_Backpack_Truppfuehrer_BW_Tropentarn {
+	class TTT_Backpack_TL_BW_Flecktarn : TTT_Backpack_TL_BW_Tropentarn {
 		displayName = "TTT Truppfuehrer Rucksack (BW Flecktarn)";
 		hiddenSelectionsTextures[] = {"\A3\weapons_f\ammoboxes\bags\data\backpack_compact_rgr_co.paa"};
 	};
 	
 	//Grenadier Rucksack
-	class TTT_Backpack_Grenadier_BW_Flecktarn : TTT_Backpack_Grenadier_BW_Tropentarn {
+	class TTT_Backpack_GRE_BW_Flecktarn : TTT_Backpack_GRE_BW_Tropentarn {
 		displayName = "TTT Grenadier Rucksack (BW Flecktarn)";
 		hiddenSelectionsTextures[] = {"\A3\weapons_f\ammoboxes\bags\data\backpack_compact_rgr_co.paa"};
 	};
@@ -47,13 +47,13 @@
 	};
 	
 	//Pionier Rucksack
-	class TTT_Backpack_Pionier_BW_Flecktarn : TTT_Backpack_Pionier_BW_Tropentarn {
+	class TTT_Backpack_PIO_BW_Flecktarn : TTT_Backpack_PIO_BW_Tropentarn {
 		displayName = "TTT Pionier Rucksack (BW Flecktarn)";
 		hiddenSelectionsTextures[] = {"\A3\weapons_f\ammoboxes\bags\data\backpack_tortila_khk_co.paa"};
 	};
 	
 	//Gefechtssanitaeter Rucksack
-	class TTT_Backpack_Gefechtssanitaeter_BW_Flecktarn : TTT_Backpack_Gefechtssanitaeter_BW_Tropentarn {
+	class TTT_Backpack_SAN_BW_Flecktarn : TTT_Backpack_SAN_BW_Tropentarn {
 		displayName = "TTT Gefechtssanitaeter Rucksack (BW Flecktarn)";
 		hiddenSelectionsTextures[] = {"\A3\weapons_f\ammoboxes\bags\data\backpack_fast_rgr_co.paa"};		
 	};

@@ -1,6 +1,6 @@
 	//Barrett: Blau
 	class TTT_Berets_Blue : HelmetBase {
-		author = "Reimchen";
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Barrett Blau";
 		model = "\A3\Characters_f_epb\BLUFOR\headgear_beret02.p3d";
@@ -18,7 +18,7 @@
 	
 	//Barrett: Braun
 	class TTT_Berets_Brown : TTT_Berets_Blue {
-		author = "Reimchen";
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Barrett Braun";
 		picture = "\ttt_a3\ttt_berets\data\ui\berets_braun_icon_co.paa";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_berets\data\common\berets_braun_co.paa"};
@@ -60,7 +60,7 @@
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_berets\data\common\berets_logo_co.paa"};
 	};
 	//Barrett: Platin
-	class TTT_Berets_Platin : TTT_Berets_Blue {
+	class TTT_Berets_Platinum : TTT_Berets_Blue {
 		displayName = "TTT Barrett Platin";
 		picture = "\ttt_a3\ttt_berets\data\ui\berets_platin_icon_co.paa";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_berets\data\common\berets_platin_co.paa"};
@@ -97,43 +97,43 @@
 	};
 	
 	//OLD Classnames
-	class TTT_Berets_Blau : TTT_Berets_Blue {
-		author = "Reimchen";
+	class TTT_Berets_Blue : TTT_Berets_Blue {
+		author = "$STR_Tactical_Training_Team";
 		scope = 0;
 	};	
-	class TTT_Berets_Braun : TTT_Berets_Brown {
-		author = "Reimchen";
+	class TTT_Berets_Brown : TTT_Berets_Brown {
+		author = "$STR_Tactical_Training_Team";
 		scope = 0;
 	};	
-	class TTT_Berets_Gelb : TTT_Berets_Yellow {
-		author = "Reimchen";
+	class TTT_Berets_Yellow : TTT_Berets_Yellow {
+		author = "$STR_Tactical_Training_Team";
 		scope = 0;
 	};
-	class TTT_Berets_Grau : TTT_Berets_Grey {
-		author = "Reimchen";
+	class TTT_Berets_Grey : TTT_Berets_Grey {
+		author = "$STR_Tactical_Training_Team";
 		scope = 0;
 	};
-	class TTT_Berets_Gruen : TTT_Berets_Green {
-		author = "Reimchen";
+	class TTT_Berets_Green : TTT_Berets_Green {
+		author = "$STR_Tactical_Training_Team";
 		scope = 0;
 	};
-	class TTT_Berets_Rot : TTT_Berets_Red {
-		author = "Reimchen";
+	class TTT_Berets_Red : TTT_Berets_Red {
+		author = "$STR_Tactical_Training_Team";
 		scope = 0;
 	};
-	class TTT_Berets_Schwarz : TTT_Berets_Black {
-		author = "Reimchen";
+	class TTT_Berets_Black : TTT_Berets_Black {
+		author = "$STR_Tactical_Training_Team";
 		scope = 0;
 	};
-	class TTT_Berets_Silber : TTT_Berets_Silver {
-		author = "Reimchen";
+	class TTT_Berets_Silver : TTT_Berets_Silver {
+		author = "$STR_Tactical_Training_Team";
 		scope = 0;
 	};
-	class TTT_Berets_Violett : TTT_Berets_Purple {
-		author = "Reimchen";
+	class TTT_Berets_Violet : TTT_Berets_Purple {
+		author = "$STR_Tactical_Training_Team";
 		scope = 0;
 	};
-	class TTT_Berets_Weiss : TTT_Berets_White {
-		author = "Reimchen";
+	class TTT_Berets_White : TTT_Berets_White {
+            author = "$STR_Tactical_Training_Team";
 		scope = 0;
 	};

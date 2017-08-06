@@ -561,13 +561,13 @@
 		};
 		
 		class TransportBackpacks {
-			class _xx_TTT_Backpack_Gefechtssanitaeter_US_Woodland {
-				backpack = "TTT_Backpack_Gefechtssanitaeter_US_Woodland";
+			class _xx_TTT_Backpack_SAN_US_Woodland {
+				backpack = "TTT_Backpack_SAN_US_Woodland";
 				count = 4;			
 			};
 			
-			class _xx_TTT_Backpack_Gefechtssanitaeter_US_Desert {
-				backpack = "TTT_Backpack_Gefechtssanitaeter_US_Desert";
+			class _xx_TTT_Backpack_SAN_US_Desert {
+				backpack = "TTT_Backpack_SAN_US_Desert";
 				count = 4;			
 			};
 			

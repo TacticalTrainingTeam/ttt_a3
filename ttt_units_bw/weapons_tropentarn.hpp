@@ -3,23 +3,23 @@
 	### Uniformen
 	#############################################################
 	*/
-	class TTT_Uniform_Gelb_BW_Tropentarn : TTT_Uniform_Base_BW {
+	class TTT_Uniform_Yellow_BW_Tropentarn : TTT_Uniform_Base_BW {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Gelb (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Gelb1_BW_Tropentarn";
+			uniformClass = "TTT_Yellow_1_BW_Tropentarn";
 		};
 	};
 	
-	class TTT_Uniform_Grau_BW_Tropentarn : TTT_Uniform_Base_BW {
+	class TTT_Uniform_Grey_BW_Tropentarn : TTT_Uniform_Base_BW {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Grau (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Grau1_BW_Tropentarn";
+			uniformClass = "TTT_Grey_1_BW_Tropentarn";
 		};
 	};
 	
@@ -29,47 +29,47 @@
 		displayName = "TTT Uniform Gold (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Gold1_BW_Tropentarn";
+			uniformClass = "TTT_Gold_1_BW_Tropentarn";
 		};
 	};
 	
-	class TTT_Uniform_Gruen_BW_Tropentarn : TTT_Uniform_Base_BW {
+	class TTT_Uniform_Green_BW_Tropentarn : TTT_Uniform_Base_BW {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Gruen (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Gruen1_BW_Tropentarn";
+			uniformClass = "TTT_Green_1_BW_Tropentarn";
 		};
 	};
 	
-	class TTT_Uniform_Braun_BW_Tropentarn : TTT_Uniform_Base_BW {
+	class TTT_Uniform_Brown_BW_Tropentarn : TTT_Uniform_Base_BW {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Braun (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Braun1_BW_Tropentarn";
+			uniformClass = "TTT_Brown_1_BW_Tropentarn";
 		};
 	};
 	
-	class TTT_Uniform_Schwarz_BW_Tropentarn : TTT_Uniform_Base_BW {
+	class TTT_Uniform_Black_BW_Tropentarn : TTT_Uniform_Base_BW {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Schwarz (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Schwarz1_BW_Tropentarn";
+			uniformClass = "TTT_Black_1_BW_Tropentarn";
 		};
 	};
 	
-	class TTT_Uniform_Rot_BW_Tropentarn : TTT_Uniform_Base_BW {
+	class TTT_Uniform_Red_BW_Tropentarn : TTT_Uniform_Base_BW {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Rot (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Rot1_BW_Tropentarn";
+			uniformClass = "TTT_Red_1_BW_Tropentarn";
 		};
 	};	
 	
@@ -79,41 +79,41 @@
 		displayName = "TTT Uniform Bronze (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Bronze1_BW_Tropentarn";
+			uniformClass = "TTT_Bronze_1_BW_Tropentarn";
 		};
 	};
 	
-	class TTT_Uniform_Blau_BW_Tropentarn : TTT_Uniform_Base_BW {
+	class TTT_Uniform_Blue_BW_Tropentarn : TTT_Uniform_Base_BW {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Blau (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Blau1_BW_Tropentarn";
+			uniformClass = "TTT_Blue_1_BW_Tropentarn";
 		};
 	};
 
-class TTT_Uniform_Violett_BW_Tropentarn : TTT_Uniform_Base_BW {
+class TTT_Uniform_Violet_BW_Tropentarn : TTT_Uniform_Base_BW {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Violett (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Violett1_BW_Tropentarn";
+			uniformClass = "TTT_Violet_1_BW_Tropentarn";
 		};
 	};		
 	
-	class TTT_Uniform_Weiss_BW_Tropentarn : TTT_Uniform_Base_BW {
+	class TTT_Uniform_White_BW_Tropentarn : TTT_Uniform_Base_BW {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Weiss (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Weiss1_BW_Tropentarn";
+			uniformClass = "TTT_White_1_BW_Tropentarn";
 		};
 	};
 	
-	class TTT_Uniform_Silber_BW_Tropentarn : TTT_Uniform_Base_BW {
+	class TTT_Uniform_Silver_BW_Tropentarn : TTT_Uniform_Base_BW {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Silber (BW Tropentarn)";

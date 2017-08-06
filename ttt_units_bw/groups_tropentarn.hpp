@@ -17,19 +17,19 @@
 						position[] = {0, 0, 0};
 						rank = Colonel;
 						side = 1;
-						vehicle = "TTT_Gelb1_BW_Tropentarn";
+						vehicle = "TTT_Yellow_1_BW_Tropentarn";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Major;
-						vehicle = "TTT_Gelb2_BW_Tropentarn";
+						vehicle = "TTT_Yellow_2_BW_Tropentarn";
 					};
 						
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Captain;
-						vehicle = "TTT_Gelb3_BW_Tropentarn";
+						vehicle = "TTT_Yellow_3_BW_Tropentarn";
 					};
 				};
 				
@@ -44,37 +44,37 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Grau1_BW_Tropentarn";
+						vehicle = "TTT_Grey_1_BW_Tropentarn";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Grau2_BW_Tropentarn";
+						vehicle = "TTT_Grey_2_BW_Tropentarn";
 					};
 						
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Lieutenant;
-						vehicle = "TTT_Grau3_BW_Tropentarn";
+						vehicle = "TTT_Grey_3_BW_Tropentarn";
 					};
 						
 					class Unit3 : Unit0 {
 						position[] = {0, -15, 0};
 						rank = Sergeant;
-						vehicle = "TTT_Grau4_BW_Tropentarn";
+						vehicle = "TTT_Grey_4_BW_Tropentarn";
 					};
 					
 					class Unit4 : Unit0 {
 						position[] = {0, -20, 0};
 						rank = Corporal;
-						vehicle = "TTT_Grau5_BW_Tropentarn";
+						vehicle = "TTT_Grey_5_BW_Tropentarn";
 					};
 					
 					class Unit5 : Unit0 {
 						position[] = {0, -25, 0};
 						rank = Private;
-						vehicle = "TTT_Grau6_BW_Tropentarn";
+						vehicle = "TTT_Grey_6_BW_Tropentarn";
 					};
 				};
 				
@@ -89,37 +89,37 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Gold1_BW_Tropentarn";
+						vehicle = "TTT_Gold_1_BW_Tropentarn";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Gold2_BW_Tropentarn";
+						vehicle = "TTT_Gold_2_BW_Tropentarn";
 					};
 
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Lieutenant;
-						vehicle = "TTT_Gold3_BW_Tropentarn";
+						vehicle = "TTT_Gold_3_BW_Tropentarn";
 					};
 						
 					class Unit3 : Unit0 {
 						position[] = {0, -15, 0};
 						rank = Sergeant;
-						vehicle = "TTT_Gold4_BW_Tropentarn";
+						vehicle = "TTT_Gold_4_BW_Tropentarn";
 					};
 					
 					class Unit4 : Unit0 {
 						position[] = {0, -20, 0};
 						rank = Corporal;
-						vehicle = "TTT_Gold5_BW_Tropentarn";
+						vehicle = "TTT_Gold_5_BW_Tropentarn";
 					};
 					
 					class Unit5 : Unit0 {
 						position[] = {0, -25, 0};
 						rank = Private;
-						vehicle = "TTT_Gold6_BW_Tropentarn";
+						vehicle = "TTT_Gold_6_BW_Tropentarn";
 					};					
 				};
 				
@@ -134,19 +134,19 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Gruen1_BW_Tropentarn";
+						vehicle = "TTT_Green_1_BW_Tropentarn";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Gruen2_BW_Tropentarn";
+						vehicle = "TTT_Green_2_BW_Tropentarn";
 					};
 						
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Lieutenant;
-						vehicle = "TTT_Gruen3_BW_Tropentarn";
+						vehicle = "TTT_Green_3_BW_Tropentarn";
 					};				
 				};
 				
@@ -161,19 +161,19 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Braun1_BW_Tropentarn";
+						vehicle = "TTT_Brown_1_BW_Tropentarn";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Braun2_BW_Tropentarn";
+						vehicle = "TTT_Brown_2_BW_Tropentarn";
 					};
 						
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Lieutenant;
-						vehicle = "TTT_Braun3_BW_Tropentarn";
+						vehicle = "TTT_Brown_3_BW_Tropentarn";
 					};				
 				};
 				
@@ -188,37 +188,37 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Schwarz1_BW_Tropentarn";
+						vehicle = "TTT_Black_1_BW_Tropentarn";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Schwarz2_BW_Tropentarn";
+						vehicle = "TTT_Black_2_BW_Tropentarn";
 					};
 						
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Lieutenant;
-						vehicle = "TTT_Schwarz3_BW_Tropentarn";
+						vehicle = "TTT_Black_3_BW_Tropentarn";
 					};
 						
 					class Unit3 : Unit0 {
 						position[] = {0, -15, 0};
 						rank = Sergeant;
-						vehicle = "TTT_Schwarz4_BW_Tropentarn";
+						vehicle = "TTT_Black_4_BW_Tropentarn";
 					};
 						
 					class Unit4 : Unit0 {
 						position[] = {0, -20, 0};
 						rank = Corporal;
-						vehicle = "TTT_Schwarz5_BW_Tropentarn";
+						vehicle = "TTT_Black_5_BW_Tropentarn";
 					};
 					
 					class Unit5 : Unit0 {
 						position[] = {0, -25, 0};
 						rank = Private;
-						vehicle = "TTT_Schwarz6_BW_Tropentarn";
+						vehicle = "TTT_Black_6_BW_Tropentarn";
 					};
 				};
 				
@@ -233,37 +233,37 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Rot1_BW_Tropentarn";
+						vehicle = "TTT_Red_1_BW_Tropentarn";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Rot2_BW_Tropentarn";
+						vehicle = "TTT_Red_2_BW_Tropentarn";
 					};
 						
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Lieutenant;
-						vehicle = "TTT_Rot3_BW_Tropentarn";
+						vehicle = "TTT_Red_3_BW_Tropentarn";
 					};
 						
 					class Unit3 : Unit0 {
 						position[] = {0, -15, 0};
 						rank = Sergeant;
-						vehicle = "TTT_Rot4_BW_Tropentarn";
+						vehicle = "TTT_Red_4_BW_Tropentarn";
 					};
 						
 					class Unit4 : Unit0 {
 						position[] = {0, -20, 0};
 						rank = Corporal;
-						vehicle = "TTT_Rot5_BW_Tropentarn";
+						vehicle = "TTT_Red_5_BW_Tropentarn";
 					};
 					
 					class Unit5 : Unit0 {
 						position[] = {0, -25, 0};
 						rank = Private;
-						vehicle = "TTT_Rot6_BW_Tropentarn";
+						vehicle = "TTT_Red_6_BW_Tropentarn";
 					};
 				};
 				
@@ -278,37 +278,37 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Blau1_BW_Tropentarn";
+						vehicle = "TTT_Blue_1_BW_Tropentarn";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Blau2_BW_Tropentarn";
+						vehicle = "TTT_Blue_2_BW_Tropentarn";
 					};
 						
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Lieutenant;
-						vehicle = "TTT_Blau3_BW_Tropentarn";
+						vehicle = "TTT_Blue_3_BW_Tropentarn";
 					};
 						
 					class Unit3 : Unit0 {
 						position[] = {0, -15, 0};
 						rank = Sergeant;
-						vehicle = "TTT_Blau4_BW_Tropentarn";
+						vehicle = "TTT_Blue_4_BW_Tropentarn";
 					};
 						
 					class Unit4 : Unit0 {
 						position[] = {0, -20, 0};
 						rank = Corporal;
-						vehicle = "TTT_Blau5_BW_Tropentarn";
+						vehicle = "TTT_Blue_5_BW_Tropentarn";
 					};
 					
 					class Unit5 : Unit0 {
 						position[] = {0, -25, 0};
 						rank = Private;
-						vehicle = "TTT_Blau6_BW_Tropentarn";
+						vehicle = "TTT_Blue_6_BW_Tropentarn";
 					};
 				};
 				
@@ -323,37 +323,37 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Violett1_BW_Tropentarn";
+						vehicle = "TTT_Violet_1_BW_Tropentarn";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Violett2_BW_Tropentarn";
+						vehicle = "TTT_Violet_2_BW_Tropentarn";
 					};
 						
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Lieutenant;
-						vehicle = "TTT_Violett3_BW_Tropentarn";
+						vehicle = "TTT_Violet_3_BW_Tropentarn";
 					};
 						
 					class Unit3 : Unit0 {
 						position[] = {0, -15, 0};
 						rank = Sergeant;
-						vehicle = "TTT_Violett4_BW_Tropentarn";
+						vehicle = "TTT_Violet_4_BW_Tropentarn";
 					};
 						
 					class Unit4 : Unit0 {
 						position[] = {0, -20, 0};
 						rank = Corporal;
-						vehicle = "TTT_Violett5_BW_Tropentarn";
+						vehicle = "TTT_Violet_5_BW_Tropentarn";
 					};
 					
 					class Unit5 : Unit0 {
 						position[] = {0, -25, 0};
 						rank = Private;
-						vehicle = "TTT_Violett6_BW_Tropentarn";
+						vehicle = "TTT_Violet_6_BW_Tropentarn";
 					};
 				};
 				
@@ -368,25 +368,25 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Weiss1_BW_Tropentarn";
+						vehicle = "TTT_White_1_BW_Tropentarn";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Weiss2_BW_Tropentarn";
+						vehicle = "TTT_White_2_BW_Tropentarn";
 					};
 						
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Lieutenant;
-						vehicle = "TTT_Weiss3_BW_Tropentarn";
+						vehicle = "TTT_White_3_BW_Tropentarn";
 					};
 					
 					class Unit3 : Unit0 {
 						position[] = {0, -15, 0};
 						rank = Sergeant;
-						vehicle = "TTT_Weiss4_BW_Tropentarn";
+						vehicle = "TTT_White_4_BW_Tropentarn";
 					};
 				};
 				
@@ -401,44 +401,44 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Bronze1_BW_Tropentarn";
+						vehicle = "TTT_Bronze_1_BW_Tropentarn";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Bronze2_BW_Tropentarn";
+						vehicle = "TTT_Bronze_2_BW_Tropentarn";
 					};
 						
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Lieutenant;
-						vehicle = "TTT_Bronze3_BW_Tropentarn";
+						vehicle = "TTT_Bronze_3_BW_Tropentarn";
 					};
 
 					class Unit3 : Unit0 {
 						position[] = {0, -15, 0};
 						rank = Sergeant;
-						vehicle = "TTT_Bronze4_BW_Tropentarn";
+						vehicle = "TTT_Bronze_4_BW_Tropentarn";
 					};
 						
 					class Unit4 : Unit0 {
 						position[] = {0, -20, 0};
 						rank = Corporal;
-						vehicle = "TTT_Bronze5_BW_Tropentarn";
+						vehicle = "TTT_Bronze_5_BW_Tropentarn";
 					};
 					
 					class Unit5 : Unit0 {
 						position[] = {0, -25, 0};
 						rank = Private;
-						vehicle = "TTT_Bronze6_BW_Tropentarn";
+						vehicle = "TTT_Bronze_6_BW_Tropentarn";
 					};					
 				};
 				
 				//Trupp Platin
 				class TTT_Platin_BW_Tropentarn {
 					faction = "TTT_faction_BW";
-					name = "STR_TTT_Groups_Platin";
+					name = "STR_TTT_Groups_Platinum";
 					icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
 					side = 1;
 					
@@ -446,13 +446,13 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Platin1_BW_Tropentarn";
+						vehicle = "TTT_Platinum_1_BW_Tropentarn";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Platin2_BW_Tropentarn";
+						vehicle = "TTT_Platinum_2_BW_Tropentarn";
 					};
 				};
 				
@@ -467,37 +467,37 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Silber1_BW_Tropentarn";
+						vehicle = "TTT_Silver_1_BW_Tropentarn";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Silber2_BW_Tropentarn";
+						vehicle = "TTT_Silver_2_BW_Tropentarn";
 					};
 					
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Lieutenant;
-						vehicle = "TTT_Silber3_BW_Tropentarn";
+						vehicle = "TTT_Silver_3_BW_Tropentarn";
 					};
 						
 					class Unit3 : Unit0 {
 						position[] = {0, -15, 0};
 						rank = Sergeant;
-						vehicle = "TTT_Silber4_BW_Tropentarn";
+						vehicle = "TTT_Silver_4_BW_Tropentarn";
 					};
 						
 					class Unit4 : Unit0 {
 						position[] = {0, -20, 0};
 						rank = Corporal;
-						vehicle = "TTT_Silber5_BW_Tropentarn";
+						vehicle = "TTT_Silver_5_BW_Tropentarn";
 					};
 					
 					class Unit5 : Unit0 {
 						position[] = {0, -25, 0};
 						rank = Private;
-						vehicle = "TTT_Silber6_BW_Tropentarn";
+						vehicle = "TTT_Silver_6_BW_Tropentarn";
 					};					
 				};
 			};	

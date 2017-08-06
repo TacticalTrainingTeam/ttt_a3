@@ -5,13 +5,13 @@
 */
 
 //Gelb 1 (OPL)
-class TTT_Gelb1_US_Desert : TTT_Truppfuehrer_Base_US {
+class TTT_Yellow_1_US_Desert : TTT_TL_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     icon = "iconManOfficer";
     displayName = "Gelb 1 (OPL)";
     vehicleClass = "TTT_Gelb_US_Desert";
-    uniformClass = "TTT_Uniform_Gelb_US_Desert";
+    uniformClass = "TTT_Uniform_Yellow_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_yellow_us_desert.paa" };
     backpack = "TTT_Backpack_Opl_US_Desert";
@@ -30,12 +30,12 @@ class TTT_Gelb1_US_Desert : TTT_Truppfuehrer_Base_US {
 };
 
 //Gelb 2 (Funker)
-class TTT_Gelb2_US_Desert : TTT_Funkerfac_Base_US {
+class TTT_Yellow_2_US_Desert : TTT_Funkerfac_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Gelb 2 (Funker/FAC)";
     vehicleClass = "TTT_Gelb_US_Desert";
-    uniformClass = "TTT_Uniform_Gelb_US_Desert";
+    uniformClass = "TTT_Uniform_Yellow_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_yellow_us_desert.paa" };
     items[] += { ITEMS_GELB };
@@ -51,12 +51,12 @@ class TTT_Gelb2_US_Desert : TTT_Funkerfac_Base_US {
 };
 
 //Gelb 3 (UAV)
-class TTT_Gelb3_US_Desert : TTT_Funkerfac_Base_US {
+class TTT_Yellow_3_US_Desert : TTT_Funkerfac_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Gelb 3 (UAV)";
     vehicleClass = "TTT_Gelb_US_Desert";
-    uniformClass = "TTT_Uniform_Gelb_US_Desert";
+    uniformClass = "TTT_Uniform_Yellow_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_yellow_us_desert.paa" };
     items[] += { ITEMS_GELB };
@@ -72,12 +72,12 @@ class TTT_Gelb3_US_Desert : TTT_Funkerfac_Base_US {
 };
 
 //Gelb 4 (Moerser)
-class TTT_Gelb4_US_Desert : TTT_Funkerfac_Base_US {
+class TTT_Yellow_4_US_Desert : TTT_Funkerfac_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 1;
     displayName = "Gelb 4 (Moerser)";
     vehicleClass = "TTT_Gelb_US_Desert";
-    uniformClass = "TTT_Uniform_Gelb_US_Desert";
+    uniformClass = "TTT_Uniform_Yellow_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_yellow_us_desert.paa" };
     items[] += { ITEMS_GELB };
@@ -99,12 +99,12 @@ class TTT_Gelb4_US_Desert : TTT_Funkerfac_Base_US {
 */
 
 //Grau 1 (Truppfuehrer)
-class TTT_Grau1_US_Desert : TTT_Truppfuehrer_Base_US {
+class TTT_Grey_1_US_Desert : TTT_TL_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Grau 1 (Truppfuehrer)";
     vehicleClass = "TTT_Grau_US_Desert";
-    uniformClass = "TTT_Uniform_Grau_US_Desert";
+    uniformClass = "TTT_Uniform_Grey_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_grey_us_desert.paa" };
     items[] += { ITEMS_GRAU };
@@ -122,12 +122,12 @@ class TTT_Grau1_US_Desert : TTT_Truppfuehrer_Base_US {
 };
 
 //Grau 2 (Funker/FAC)
-class TTT_Grau2_US_Desert : TTT_Funkerfac_Base_US {
+class TTT_Grey_2_US_Desert : TTT_Funkerfac_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Grau 2 (Funker/FAC)";
     vehicleClass = "TTT_Grau_US_Desert";
-    uniformClass = "TTT_Uniform_Grau_US_Desert";
+    uniformClass = "TTT_Uniform_Grey_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_grey_us_desert.paa" };
     items[] += { ITEMS_GRAU };
@@ -145,12 +145,12 @@ class TTT_Grau2_US_Desert : TTT_Funkerfac_Base_US {
 };
 
 //Grau 3 (Gefechtssanitaeter)
-class TTT_Grau3_US_Desert : TTT_Gefechtssanitaeter_Base_US {
+class TTT_Grey_3_US_Desert : TTT_SAN_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Grau 3 (Gefechtssanitaeter)";
     vehicleClass = "TTT_Grau_US_Desert";
-    uniformClass = "TTT_Uniform_Grau_US_Desert";
+    uniformClass = "TTT_Uniform_Grey_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_grey_us_desert.paa" };
     items[] += { ITEMS_GRAU };
@@ -168,12 +168,12 @@ class TTT_Grau3_US_Desert : TTT_Gefechtssanitaeter_Base_US {
 };
 
 //Grau 4 (Pionier)
-class TTT_Grau4_US_Desert : TTT_Pionier_Base_US {
+class TTT_Grey_4_US_Desert : TTT_PIO_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Grau 4 (Pionier)";
     vehicleClass = "TTT_Grau_US_Desert";
-    uniformClass = "TTT_Uniform_Grau_US_Desert";
+    uniformClass = "TTT_Uniform_Grey_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_grey_us_desert.paa" };
     items[] += { ITEMS_GRAU };
@@ -191,12 +191,12 @@ class TTT_Grau4_US_Desert : TTT_Pionier_Base_US {
 };
 
 //Grau 5 (Schuetze)
-class TTT_Grau5_US_Desert : TTT_Base_US {
+class TTT_Grey_5_US_Desert : TTT_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Grau 5 (Schuetze)";
     vehicleClass = "TTT_Grau_US_Desert";
-    uniformClass = "TTT_Uniform_Grau_US_Desert";
+    uniformClass = "TTT_Uniform_Grey_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_grey_us_desert.paa" };
     backpack = "TTT_Backpack_Schuetze_US_Desert";
@@ -215,12 +215,12 @@ class TTT_Grau5_US_Desert : TTT_Base_US {
 };
 
 //Grau 6 (Schuetze)
-class TTT_Grau6_US_Desert : TTT_Base_US {
+class TTT_Grey_6_US_Desert : TTT_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Grau 6 (Schuetze)";
     vehicleClass = "TTT_Grau_US_Desert";
-    uniformClass = "TTT_Uniform_Grau_US_Desert";
+    uniformClass = "TTT_Uniform_Grey_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_grey_us_desert.paa" };
     backpack = "TTT_Backpack_Schuetze_US_Desert";
@@ -245,7 +245,7 @@ class TTT_Grau6_US_Desert : TTT_Base_US {
 */
 
 //Gold 1 (Truppfuehrer)
-class TTT_Gold1_US_Desert : TTT_Truppfuehrer_Base_US {
+class TTT_Gold_1_US_Desert : TTT_TL_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Gold 1 (Truppfuehrer)";
@@ -278,7 +278,7 @@ class TTT_Gold1_US_Desert : TTT_Truppfuehrer_Base_US {
 };
 
 //Gold 2 (JTAC)
-class TTT_Gold2_US_Desert : TTT_Funkerfac_Base_US {
+class TTT_Gold_2_US_Desert : TTT_Funkerfac_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Gold 2 (JTAC)";
@@ -311,7 +311,7 @@ class TTT_Gold2_US_Desert : TTT_Funkerfac_Base_US {
 };
 
 //Gold 3 (Spotter)
-class TTT_Gold3_US_Desert : TTT_Funkerfac_Base_US {
+class TTT_Gold_3_US_Desert : TTT_Funkerfac_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Gold 3 (Spotter)";
@@ -344,7 +344,7 @@ class TTT_Gold3_US_Desert : TTT_Funkerfac_Base_US {
 };
 
 //Gold 4 (Sniper)
-class TTT_Gold4_US_Desert : TTT_Base_US {
+class TTT_Gold_4_US_Desert : TTT_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Gold 4 (Sniper)";
@@ -384,7 +384,7 @@ class TTT_Gold4_US_Desert : TTT_Base_US {
 };
 
 //Gold 5 (Schuetze)
-class TTT_Gold5_US_Desert : TTT_Base_US {
+class TTT_Gold_5_US_Desert : TTT_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Gold 5 (Schuetze)";
@@ -416,7 +416,7 @@ class TTT_Gold5_US_Desert : TTT_Base_US {
 };
 
 //Gold 6 (Schuetze)
-class TTT_Gold6_US_Desert : TTT_Base_US {
+class TTT_Gold_6_US_Desert : TTT_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Gold 6 (Schuetze)";
@@ -454,12 +454,12 @@ class TTT_Gold6_US_Desert : TTT_Base_US {
 */
 
 //Gruen 1 (Zugfuehrer)
-class TTT_Gruen1_US_Desert : TTT_Truppfuehrer_Base_US {
+class TTT_Green_1_US_Desert : TTT_TL_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Gruen 1 (Zugfuehrer)";
     vehicleClass = "TTT_Gruen_US_Desert";
-    uniformClass = "TTT_Uniform_Gruen_US_Desert";
+    uniformClass = "TTT_Uniform_Green_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_green_us_desert.paa" };
     items[] += { ITEMS_GREEN };
@@ -475,12 +475,12 @@ class TTT_Gruen1_US_Desert : TTT_Truppfuehrer_Base_US {
 };
 
 //Gruen 2 (Funker/FAC)
-class TTT_Gruen2_US_Desert : TTT_Funkerfac_Base_US {
+class TTT_Green_2_US_Desert : TTT_Funkerfac_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Gruen 2 (Funker/FAC)";
     vehicleClass = "TTT_Gruen_US_Desert";
-    uniformClass = "TTT_Uniform_Gruen_US_Desert";
+    uniformClass = "TTT_Uniform_Green_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_green_us_desert.paa" };
     items[] += { ITEMS_GREEN };
@@ -496,12 +496,12 @@ class TTT_Gruen2_US_Desert : TTT_Funkerfac_Base_US {
 };
 
 //Gruen 3 (Gefechtssanitaeter)
-class TTT_Gruen3_US_Desert : TTT_Gefechtssanitaeter_Base_US {
+class TTT_Green_3_US_Desert : TTT_SAN_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Gruen 3 (Gefechtssanitaeter)";
     vehicleClass = "TTT_Gruen_US_Desert";
-    uniformClass = "TTT_Uniform_Gruen_US_Desert";
+    uniformClass = "TTT_Uniform_Green_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_green_us_desert.paa" };
     items[] += { ITEMS_GREEN };
@@ -517,12 +517,12 @@ class TTT_Gruen3_US_Desert : TTT_Gefechtssanitaeter_Base_US {
 };
 
 //Gruen 4 (Gefechtssanitaeter)
-class TTT_Gruen4_US_Desert : TTT_Gefechtssanitaeter_Base_US {
+class TTT_Green_4_US_Desert : TTT_SAN_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 1;
     displayName = "Gruen 4 (Gefechtssanitaeter)";
     vehicleClass = "TTT_Gruen_US_Desert";
-    uniformClass = "TTT_Uniform_Gruen_US_Desert";
+    uniformClass = "TTT_Uniform_Green_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_green_us_desert.paa" };
     items[] += { ITEMS_GREEN };
@@ -544,12 +544,12 @@ class TTT_Gruen4_US_Desert : TTT_Gefechtssanitaeter_Base_US {
 */
 
 //Braun 1 (Zugfuehrer)
-class TTT_Braun1_US_Desert : TTT_Truppfuehrer_Base_US {
+class TTT_Brown_1_US_Desert : TTT_TL_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Braun 1 (Zugfuehrer)";
     vehicleClass = "TTT_Braun_US_Desert";
-    uniformClass = "TTT_Uniform_Braun_US_Desert";
+    uniformClass = "TTT_Uniform_Brown_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_brown_us_desert.paa" };
     items[] += { ITEMS_BRAUN };
@@ -565,12 +565,12 @@ class TTT_Braun1_US_Desert : TTT_Truppfuehrer_Base_US {
 };
 
 //Braun 2 (Funker/FAC)
-class TTT_Braun2_US_Desert : TTT_Funkerfac_Base_US {
+class TTT_Brown_2_US_Desert : TTT_Funkerfac_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Braun 2 (Funker/FAC)";
     vehicleClass = "TTT_Braun_US_Desert";
-    uniformClass = "TTT_Uniform_Braun_US_Desert";
+    uniformClass = "TTT_Uniform_Brown_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_brown_us_desert.paa" };
     items[] += { ITEMS_BRAUN };
@@ -586,12 +586,12 @@ class TTT_Braun2_US_Desert : TTT_Funkerfac_Base_US {
 };
 
 //Braun 3 (Gefechtssanitaeter)
-class TTT_Braun3_US_Desert : TTT_Gefechtssanitaeter_Base_US {
+class TTT_Brown_3_US_Desert : TTT_SAN_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Braun 3 (Gefechtssanitaeter)";
     vehicleClass = "TTT_Braun_US_Desert";
-    uniformClass = "TTT_Uniform_Braun_US_Desert";
+    uniformClass = "TTT_Uniform_Brown_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_brown_us_desert.paa" };
     items[] += { ITEMS_BRAUN };
@@ -613,12 +613,12 @@ class TTT_Braun3_US_Desert : TTT_Gefechtssanitaeter_Base_US {
 */
 
 //Schwarz 1 (Truppfuehrer)
-class TTT_Schwarz1_US_Desert : TTT_Truppfuehrer_Base_US {
+class TTT_Black_1_US_Desert : TTT_TL_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Schwarz 1 (Truppfuehrer)";
     vehicleClass = "TTT_Schwarz_US_Desert";
-    uniformClass = "TTT_Uniform_Schwarz_US_Desert";
+    uniformClass = "TTT_Uniform_Black_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { ITEMS_SCHWARZ };
@@ -634,12 +634,12 @@ class TTT_Schwarz1_US_Desert : TTT_Truppfuehrer_Base_US {
 };
 
 //Schwarz 2 (Grenadier)
-class TTT_Schwarz2_US_Desert : TTT_Grenadier_Base_US {
+class TTT_Black_2_US_Desert : TTT_GRE_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Schwarz 2 (Grenadier)";
     vehicleClass = "TTT_Schwarz_US_Desert";
-    uniformClass = "TTT_Uniform_Schwarz_US_Desert";
+    uniformClass = "TTT_Uniform_Black_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { ITEMS_SCHWARZ };
@@ -655,12 +655,12 @@ class TTT_Schwarz2_US_Desert : TTT_Grenadier_Base_US {
 };
 
 //Schwarz 3 (LMG-Schuetze)
-class TTT_Schwarz3_US_Desert : TTT_Lmgschuetze_Base_US {
+class TTT_Black_3_US_Desert : TTT_Lmgschuetze_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Schwarz 3 (LMG-Schuetze)";
     vehicleClass = "TTT_Schwarz_US_Desert";
-    uniformClass = "TTT_Uniform_Schwarz_US_Desert";
+    uniformClass = "TTT_Uniform_Black_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { ITEMS_SCHWARZ };
@@ -676,12 +676,12 @@ class TTT_Schwarz3_US_Desert : TTT_Lmgschuetze_Base_US {
 };
 
 //Schwarz 4 (AT-Schuetze)
-class TTT_Schwarz4_US_Desert : TTT_Atschuetze_Base_US {
+class TTT_Black_4_US_Desert : TTT_Atschuetze_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Schwarz 4 (AT-Schuetze)";
     vehicleClass = "TTT_Schwarz_US_Desert";
-    uniformClass = "TTT_Uniform_Schwarz_US_Desert";
+    uniformClass = "TTT_Uniform_Black_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { ITEMS_SCHWARZ };
@@ -697,12 +697,12 @@ class TTT_Schwarz4_US_Desert : TTT_Atschuetze_Base_US {
 };
 
 //Schwarz 5 (LMG-Schuetze)
-class TTT_Schwarz5_US_Desert : TTT_Lmgschuetze_Base_US {
+class TTT_Black_5_US_Desert : TTT_Lmgschuetze_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Schwarz 5 (LMG-Schuetze)";
     vehicleClass = "TTT_Schwarz_US_Desert";
-    uniformClass = "TTT_Uniform_Schwarz_US_Desert";
+    uniformClass = "TTT_Uniform_Black_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { ITEMS_SCHWARZ };
@@ -719,12 +719,12 @@ class TTT_Schwarz5_US_Desert : TTT_Lmgschuetze_Base_US {
 
 
 //Schwarz 6 (AT-Schuetze)
-class TTT_Schwarz6_US_Desert : TTT_Atschuetze_Base_US {
+class TTT_Black_6_US_Desert : TTT_Atschuetze_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Schwarz 6 (AT-Schuetze)";
     vehicleClass = "TTT_Schwarz_US_Desert";
-    uniformClass = "TTT_Uniform_Schwarz_US_Desert";
+    uniformClass = "TTT_Uniform_Black_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { ITEMS_SCHWARZ };
@@ -746,12 +746,12 @@ class TTT_Schwarz6_US_Desert : TTT_Atschuetze_Base_US {
 */
 
 //Rot 1 (Truppfuehrer)
-class TTT_Rot1_US_Desert : TTT_Truppfuehrer_Base_US {
+class TTT_Red_1_US_Desert : TTT_TL_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Rot 1 (Truppfuehrer)";
     vehicleClass = "TTT_Rot_US_Desert";
-    uniformClass = "TTT_Uniform_Rot_US_Desert";
+    uniformClass = "TTT_Uniform_Red_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
     items[] += { ITEMS_ROT };
@@ -767,12 +767,12 @@ class TTT_Rot1_US_Desert : TTT_Truppfuehrer_Base_US {
 };
 
 //Rot 2 (Grenadier)
-class TTT_Rot2_US_Desert : TTT_Grenadier_Base_US {
+class TTT_Red_2_US_Desert : TTT_GRE_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Rot 2 (Grenadier)";
     vehicleClass = "TTT_Rot_US_Desert";
-    uniformClass = "TTT_Uniform_Rot_US_Desert";
+    uniformClass = "TTT_Uniform_Red_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
     items[] += { ITEMS_ROT };
@@ -788,12 +788,12 @@ class TTT_Rot2_US_Desert : TTT_Grenadier_Base_US {
 };
 
 //Rot 3 (LMG-Schuetze)
-class TTT_Rot3_US_Desert : TTT_Lmgschuetze_Base_US {
+class TTT_Red_3_US_Desert : TTT_Lmgschuetze_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Rot 3 (LMG-Schuetze)";
     vehicleClass = "TTT_Rot_US_Desert";
-    uniformClass = "TTT_Uniform_Rot_US_Desert";
+    uniformClass = "TTT_Uniform_Red_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
     items[] += { ITEMS_ROT };
@@ -809,12 +809,12 @@ class TTT_Rot3_US_Desert : TTT_Lmgschuetze_Base_US {
 };
 
 //Rot 4 (AT-Schuetze)
-class TTT_Rot4_US_Desert : TTT_Atschuetze_Base_US {
+class TTT_Red_4_US_Desert : TTT_Atschuetze_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Rot 4 (AT-Schuetze)";
     vehicleClass = "TTT_Rot_US_Desert";
-    uniformClass = "TTT_Uniform_Rot_US_Desert";
+    uniformClass = "TTT_Uniform_Red_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
     items[] += { ITEMS_ROT };
@@ -830,12 +830,12 @@ class TTT_Rot4_US_Desert : TTT_Atschuetze_Base_US {
 };
 
 //Rot 5 (LMG-Schuetze)
-class TTT_Rot5_US_Desert : TTT_Lmgschuetze_Base_US {
+class TTT_Red_5_US_Desert : TTT_Lmgschuetze_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Rot 5 (LMG-Schuetze)";
     vehicleClass = "TTT_Rot_US_Desert";
-    uniformClass = "TTT_Uniform_Rot_US_Desert";
+    uniformClass = "TTT_Uniform_Red_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
     items[] += { ITEMS_ROT };
@@ -851,12 +851,12 @@ class TTT_Rot5_US_Desert : TTT_Lmgschuetze_Base_US {
 };
 
 //Rot 6 (AT-Schuetze)
-class TTT_Rot6_US_Desert : TTT_Atschuetze_Base_US {
+class TTT_Red_6_US_Desert : TTT_Atschuetze_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Rot 6 (AT-Schuetze)";
     vehicleClass = "TTT_Rot_US_Desert";
-    uniformClass = "TTT_Uniform_Rot_US_Desert";
+    uniformClass = "TTT_Uniform_Red_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
     items[] += { ITEMS_ROT };
@@ -878,7 +878,7 @@ class TTT_Rot6_US_Desert : TTT_Atschuetze_Base_US {
 */
 
 //Bronze 1 (Truppfuehrer)
-class TTT_Bronze1_US_Desert : TTT_Base_US {
+class TTT_Bronze_1_US_Desert : TTT_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Bronze 1 (Truppfuehrer)";
@@ -909,7 +909,7 @@ class TTT_Bronze1_US_Desert : TTT_Base_US {
 };
 
 //Bronze 2 (Schuetze)
-class TTT_Bronze2_US_Desert : TTT_Base_US {
+class TTT_Bronze_2_US_Desert : TTT_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Bronze 2 (Schuetze)";
@@ -933,7 +933,7 @@ class TTT_Bronze2_US_Desert : TTT_Base_US {
 };
 
 //Bronze 3 (Fahrer)
-class TTT_Bronze3_US_Desert : TTT_Base_US {
+class TTT_Bronze_3_US_Desert : TTT_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Bronze 3 (Fahrer)";
@@ -957,7 +957,7 @@ class TTT_Bronze3_US_Desert : TTT_Base_US {
 };
 
 //Bronze 4 (Kommandant)
-class TTT_Bronze4_US_Desert : TTT_Base_US {
+class TTT_Bronze_4_US_Desert : TTT_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Bronze 4 (Kommandant)";
@@ -988,7 +988,7 @@ class TTT_Bronze4_US_Desert : TTT_Base_US {
 };
 
 //Bronze 5 (Schuetze)
-class TTT_Bronze5_US_Desert : TTT_Base_US {
+class TTT_Bronze_5_US_Desert : TTT_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Bronze 5 (Schuetze)";
@@ -1012,7 +1012,7 @@ class TTT_Bronze5_US_Desert : TTT_Base_US {
 };
 
 //Bronze 6 (Fahrer)
-class TTT_Bronze6_US_Desert : TTT_Base_US {
+class TTT_Bronze_6_US_Desert : TTT_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Bronze 6 (Fahrer)";
@@ -1042,12 +1042,12 @@ class TTT_Bronze6_US_Desert : TTT_Base_US {
 */
 
 //Blau 1 (Truppfuehrer)
-class TTT_Blau1_US_Desert : TTT_Truppfuehrer_Base_US {
+class TTT_Blue_1_US_Desert : TTT_TL_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Blau 1 (Truppfuehrer)";
     vehicleClass = "TTT_Blau_US_Desert";
-    uniformClass = "TTT_Uniform_Blau_US_Desert";
+    uniformClass = "TTT_Uniform_Blue_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_blue_us_desert.paa" };
     items[] += { ITEMS_BLAU };
@@ -1063,12 +1063,12 @@ class TTT_Blau1_US_Desert : TTT_Truppfuehrer_Base_US {
 };
 
 //Blau 2 (Grenadier)
-class TTT_Blau2_US_Desert : TTT_Grenadier_Base_US {
+class TTT_Blue_2_US_Desert : TTT_GRE_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Blau 2 (Grenadier)";
     vehicleClass = "TTT_Blau_US_Desert";
-    uniformClass = "TTT_Uniform_Blau_US_Desert";
+    uniformClass = "TTT_Uniform_Blue_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_blue_us_desert.paa" };
     items[] += { ITEMS_BLAU };
@@ -1084,12 +1084,12 @@ class TTT_Blau2_US_Desert : TTT_Grenadier_Base_US {
 };
 
 //Blau 3 (MG-Assistent)
-class TTT_Blau3_US_Desert : TTT_Mgassistent_Base_US {
+class TTT_Blue_3_US_Desert : TTT_Mgassistent_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Blau 3 (MG-Assistent)";
     vehicleClass = "TTT_Blau_US_Desert";
-    uniformClass = "TTT_Uniform_Blau_US_Desert";
+    uniformClass = "TTT_Uniform_Blue_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_blue_us_desert.paa" };
     items[] += { ITEMS_BLAU };
@@ -1105,12 +1105,12 @@ class TTT_Blau3_US_Desert : TTT_Mgassistent_Base_US {
 };
 
 //Blau 4 (MG-Schuetze)
-class TTT_Blau4_US_Desert : TTT_Mgschuetze_Base_US {
+class TTT_Blue_4_US_Desert : TTT_Mgschuetze_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Blau 4 (MG-Schuetze)";
     vehicleClass = "TTT_Blau_US_Desert";
-    uniformClass = "TTT_Uniform_Blau_US_Desert";
+    uniformClass = "TTT_Uniform_Blue_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_blue_us_desert.paa" };
     items[] += { ITEMS_BLAU };
@@ -1126,12 +1126,12 @@ class TTT_Blau4_US_Desert : TTT_Mgschuetze_Base_US {
 };
 
 //Blau 5 (Pionier)
-class TTT_Blau5_US_Desert : TTT_Pionier_Base_US {
+class TTT_Blue_5_US_Desert : TTT_PIO_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Blau 5 (Pionier)";
     vehicleClass = "TTT_Blau_US_Desert";
-    uniformClass = "TTT_Uniform_Blau_US_Desert";
+    uniformClass = "TTT_Uniform_Blue_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_blue_us_desert.paa" };
     items[] += { ITEMS_BLAU };
@@ -1147,12 +1147,12 @@ class TTT_Blau5_US_Desert : TTT_Pionier_Base_US {
 };
 
 //Blau 6 (Pionier)
-class TTT_Blau6_US_Desert : TTT_Pionier_Base_US {
+class TTT_Blue_6_US_Desert : TTT_PIO_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Blau 6 (Pionier)";
     vehicleClass = "TTT_Blau_US_Desert";
-    uniformClass = "TTT_Uniform_Blau_US_Desert";
+    uniformClass = "TTT_Uniform_Blue_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_blue_us_desert.paa" };
     items[] += { ITEMS_BLAU };
@@ -1174,12 +1174,12 @@ class TTT_Blau6_US_Desert : TTT_Pionier_Base_US {
 */
 
 //Violett 1 (Truppfuehrer)
-class TTT_Violett1_US_Desert : TTT_Truppfuehrer_Base_US {
+class TTT_Violet_1_US_Desert : TTT_TL_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Violett 1 (Truppfuehrer)";
     vehicleClass = "TTT_Violett_US_Desert";
-    uniformClass = "TTT_Uniform_Violett_US_Desert";
+    uniformClass = "TTT_Uniform_Violet_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_violet_us_desert.paa" };
     items[] += { ITEMS_VIOLETT };
@@ -1195,12 +1195,12 @@ class TTT_Violett1_US_Desert : TTT_Truppfuehrer_Base_US {
 };
 
 //Violett 2 (Grenadier)
-class TTT_Violett2_US_Desert : TTT_Grenadier_Base_US {
+class TTT_Violet_2_US_Desert : TTT_GRE_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Violett 2 (Grenadier)";
     vehicleClass = "TTT_Violett_US_Desert";
-    uniformClass = "TTT_Uniform_Violett_US_Desert";
+    uniformClass = "TTT_Uniform_Violet_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_violet_us_desert.paa" };
     items[] += { ITEMS_VIOLETT };
@@ -1216,12 +1216,12 @@ class TTT_Violett2_US_Desert : TTT_Grenadier_Base_US {
 };
 
 //Violett 3 (MG-Assistent)
-class TTT_Violett3_US_Desert : TTT_Mgassistent_Base_US {
+class TTT_Violet_3_US_Desert : TTT_Mgassistent_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Violett 3 (MG-Assistent)";
     vehicleClass = "TTT_Violett_US_Desert";
-    uniformClass = "TTT_Uniform_Violett_US_Desert";
+    uniformClass = "TTT_Uniform_Violet_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_violet_us_desert.paa" };
     items[] += { ITEMS_VIOLETT };
@@ -1237,12 +1237,12 @@ class TTT_Violett3_US_Desert : TTT_Mgassistent_Base_US {
 };
 
 //Violett 4 (MG-Schuetze)
-class TTT_Violett4_US_Desert : TTT_Mgschuetze_Base_US {
+class TTT_Violet_4_US_Desert : TTT_Mgschuetze_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Violett 4 (MG-Schuetze)";
     vehicleClass = "TTT_Violett_US_Desert";
-    uniformClass = "TTT_Uniform_Violett_US_Desert";
+    uniformClass = "TTT_Uniform_Violet_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_violet_us_desert.paa" };
     items[] += { ITEMS_VIOLETT };
@@ -1258,12 +1258,12 @@ class TTT_Violett4_US_Desert : TTT_Mgschuetze_Base_US {
 };
 
 //Violett 5 (Pionier)
-class TTT_Violett5_US_Desert : TTT_Pionier_Base_US {
+class TTT_Violet_5_US_Desert : TTT_PIO_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Violett 5 (Pionier)";
     vehicleClass = "TTT_Violett_US_Desert";
-    uniformClass = "TTT_Uniform_Violett_US_Desert";
+    uniformClass = "TTT_Uniform_Violet_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_violet_us_desert.paa" };
     items[] += { ITEMS_VIOLETT };
@@ -1279,12 +1279,12 @@ class TTT_Violett5_US_Desert : TTT_Pionier_Base_US {
 };
 
 //Violett 6 (Pionier)
-class TTT_Violett6_US_Desert : TTT_Pionier_Base_US {
+class TTT_Violet_6_US_Desert : TTT_PIO_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Violett 6 (Pionier)";
     vehicleClass = "TTT_Violett_US_Desert";
-    uniformClass = "TTT_Uniform_Violett_US_Desert";
+    uniformClass = "TTT_Uniform_Violet_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_violet_us_desert.paa" };
     items[] += { ITEMS_VIOLETT };
@@ -1301,17 +1301,17 @@ class TTT_Violett6_US_Desert : TTT_Pionier_Base_US {
 
 /*
 #############################################################
-### Trupp Weiß (Desert)
+### Trupp Weiï¿½ (Desert)
 #############################################################
 */
 
-//Weiß 1 (Oberfeldarzt)
-class TTT_Weiss1_US_Desert : TTT_Feldarzt_Base_US {
+//Weiï¿½ 1 (Oberfeldarzt)
+class TTT_White_1_US_Desert : TTT_Feldarzt_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Weiss 1 (Oberfeldarzt)";
     vehicleClass = "TTT_Weiss_US_Desert";
-    uniformClass = "TTT_Uniform_Weiss_US_Desert";
+    uniformClass = "TTT_Uniform_White_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_white_us_desert.paa" };
     items[] += { ITEMS_WEISS };
@@ -1326,13 +1326,13 @@ class TTT_Weiss1_US_Desert : TTT_Feldarzt_Base_US {
     };
 };
 
-//Weiß 2 (Fahrzeugfuehrer)
-class TTT_Weiss2_US_Desert : TTT_Pilot_Base_US {
+//Weiï¿½ 2 (Fahrzeugfuehrer)
+class TTT_White_2_US_Desert : TTT_Pilot_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Weiss 2 (Fahrzeugfuehrer)";
     vehicleClass = "TTT_Weiss_US_Desert";
-    uniformClass = "TTT_Uniform_Weiss_US_Desert";
+    uniformClass = "TTT_Uniform_White_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_white_us_desert.paa" };
     items[] += {
@@ -1354,12 +1354,12 @@ class TTT_Weiss2_US_Desert : TTT_Pilot_Base_US {
 };
 
 //Weiss 3 (Feldarzt)
-class TTT_Weiss3_US_Desert : TTT_Feldarzt_Base_US {
+class TTT_White_3_US_Desert : TTT_Feldarzt_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Weiss 3 (Feldarzt)";
     vehicleClass = "TTT_Weiss_US_Desert";
-    uniformClass = "TTT_Uniform_Weiss_US_Desert";
+    uniformClass = "TTT_Uniform_White_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_white_us_desert.paa" };
     items[] += { ITEMS_WEISS };
@@ -1374,13 +1374,13 @@ class TTT_Weiss3_US_Desert : TTT_Feldarzt_Base_US {
     };
 };
 
-//Weiß 4 (Fahrzeugfuehrer)
-class TTT_Weiss4_US_Desert : TTT_Pilot_Base_US {
+//Weiï¿½ 4 (Fahrzeugfuehrer)
+class TTT_White_4_US_Desert : TTT_Pilot_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Weiss 4 (Fahrzeugfuehrer)";
     vehicleClass = "TTT_Weiss_US_Desert";
-    uniformClass = "TTT_Uniform_Weiss_US_Desert";
+    uniformClass = "TTT_Uniform_White_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_white_us_desert.paa" };
     items[] += {
@@ -1408,13 +1408,13 @@ class TTT_Weiss4_US_Desert : TTT_Pilot_Base_US {
 */
 
 //Platin 1 (Pilot)
-class TTT_Platin1_US_Desert : TTT_Pilot_Base_US {
+class TTT_Platinum_1_US_Desert : TTT_Pilot_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     icon = "iconManLeader";
     displayName = "Platin 1 (Pilot)";
     vehicleClass = "TTT_Platin_US_Desert";
-    uniformClass = "TTT_Uniform_Silber_US_Desert";
+    uniformClass = "TTT_Uniform_Silver_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_PLATIN };
@@ -1430,12 +1430,12 @@ class TTT_Platin1_US_Desert : TTT_Pilot_Base_US {
 };
 
 //Platin 2 (Pilot)
-class TTT_Platin2_US_Desert : TTT_Pilot_Base_US {
+class TTT_Platinum_2_US_Desert : TTT_Pilot_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Platin 2 (Pilot)";
     vehicleClass = "TTT_Platin_US_Desert";
-    uniformClass = "TTT_Uniform_Silber_US_Desert";
+    uniformClass = "TTT_Uniform_Silver_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_PLATIN };
@@ -1457,13 +1457,13 @@ class TTT_Platin2_US_Desert : TTT_Pilot_Base_US {
 */
 
 //Silber 1 (Truppfuehrer)
-class TTT_Silber1_US_Desert : TTT_Pilot_Base_US {
+class TTT_Silver_1_US_Desert : TTT_Pilot_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     icon = "iconManLeader";
     displayName = "Silber 1 (Truppfuehrer)";
     vehicleClass = "TTT_Silber_US_Desert";
-    uniformClass = "TTT_Uniform_Silber_US_Desert";
+    uniformClass = "TTT_Uniform_Silver_US_Desert";
     engineer = 1;
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
@@ -1480,12 +1480,12 @@ class TTT_Silber1_US_Desert : TTT_Pilot_Base_US {
 };
 
 //Silber 2 (Fahrzeugfuehrer)
-class TTT_Silber2_US_Desert : TTT_Pilot_Base_US {
+class TTT_Silver_2_US_Desert : TTT_Pilot_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Silber 2 (Fahrzeugfuehrer)";
     vehicleClass = "TTT_Silber_US_Desert";
-    uniformClass = "TTT_Uniform_Silber_US_Desert";
+    uniformClass = "TTT_Uniform_Silver_US_Desert";
     engineer = 1;
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
@@ -1502,12 +1502,12 @@ class TTT_Silber2_US_Desert : TTT_Pilot_Base_US {
 };
 
 //Silber 3 (Fahrzeugfuehrer)
-class TTT_Silber3_US_Desert : TTT_Pilot_Base_US {
+class TTT_Silver_3_US_Desert : TTT_Pilot_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Silber 3 (Fahrzeugfuehrer)";
     vehicleClass = "TTT_Silber_US_Desert";
-    uniformClass = "TTT_Uniform_Silber_US_Desert";
+    uniformClass = "TTT_Uniform_Silver_US_Desert";
     engineer = 1;
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
@@ -1524,12 +1524,12 @@ class TTT_Silber3_US_Desert : TTT_Pilot_Base_US {
 };
 
 //Silber 4 (Fahrzeugfuehrer)
-class TTT_Silber4_US_Desert : TTT_Pilot_Base_US {
+class TTT_Silver_4_US_Desert : TTT_Pilot_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Silber 4 (Fahrzeugfuehrer)";
     vehicleClass = "TTT_Silber_US_Desert";
-    uniformClass = "TTT_Uniform_Silber_US_Desert";
+    uniformClass = "TTT_Uniform_Silver_US_Desert";
     engineer = 1;
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
@@ -1546,12 +1546,12 @@ class TTT_Silber4_US_Desert : TTT_Pilot_Base_US {
 };
 
 //Silber 5 (Fahrzeugfuehrer)
-class TTT_Silber5_US_Desert : TTT_Pilot_Base_US {
+class TTT_Silver_5_US_Desert : TTT_Pilot_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Silber 5 (Fahrzeugfuehrer)";
     vehicleClass = "TTT_Silber_US_Desert";
-    uniformClass = "TTT_Uniform_Silber_US_Desert";
+    uniformClass = "TTT_Uniform_Silver_US_Desert";
     engineer = 1;
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
@@ -1568,12 +1568,12 @@ class TTT_Silber5_US_Desert : TTT_Pilot_Base_US {
 };
 
 //Silber 6 (Fahrzeugfuehrer)
-class TTT_Silber6_US_Desert : TTT_Pilot_Base_US {
+class TTT_Silver_6_US_Desert : TTT_Pilot_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Silber 6 (Fahrzeugfuehrer)";
     vehicleClass = "TTT_Silber_US_Desert";
-    uniformClass = "TTT_Uniform_Silber_US_Desert";
+    uniformClass = "TTT_Uniform_Silver_US_Desert";
     engineer = 1;
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
@@ -1596,14 +1596,14 @@ class TTT_Silber6_US_Desert : TTT_Pilot_Base_US {
 */
 
 //Bussard 1 (Pilot)
-class TTT_Bussard1_US_Desert : TTT_Pilot_Base_US {
+class TTT_Buzzard_1_US_Desert : TTT_Pilot_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 1;
     scopeCurator = 0;
     scopeArsenal = 0;
     displayName = "Bussard 1 (Pilot)";
     vehicleClass = "TTT_Bussard_US_Desert";
-    uniformClass = "TTT_Uniform_Silber_US_Desert";
+    uniformClass = "TTT_Uniform_Silver_US_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_BUSSARD };
     respawnitems[] += { ITEMS_BUSSARD };
@@ -1618,14 +1618,14 @@ class TTT_Bussard1_US_Desert : TTT_Pilot_Base_US {
 };
 
 //Bussard 2 (Copilot)
-class TTT_Bussard2_US_Desert : TTT_Pilot_Base_US {
+class TTT_Buzzard_2_US_Desert : TTT_Pilot_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 1;
     scopeCurator = 0;
     scopeArsenal = 0;
     displayName = "Bussard 2 (Copilot)";
     vehicleClass = "TTT_Bussard_US_Desert";
-    uniformClass = "TTT_Uniform_Silber_US_Desert";
+    uniformClass = "TTT_Uniform_Silver_US_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_BUSSARD };
     respawnitems[] += { ITEMS_BUSSARD };
@@ -1646,14 +1646,14 @@ class TTT_Bussard2_US_Desert : TTT_Pilot_Base_US {
 */
 
 //Habicht 1 (Pilot)
-class TTT_Habicht1_US_Desert : TTT_Pilot_Base_US {
+class TTT_Hawk_1_US_Desert : TTT_Pilot_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 1;
     scopeCurator = 0;
     scopeArsenal = 0;
     displayName = "Habicht 1 (Pilot)";
     vehicleClass = "TTT_Habicht_US_Desert";
-    uniformClass = "TTT_Uniform_Silber_US_Desert";
+    uniformClass = "TTT_Uniform_Silver_US_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_HABICHT };
     respawnitems[] += { ITEMS_HABICHT };
@@ -1668,14 +1668,14 @@ class TTT_Habicht1_US_Desert : TTT_Pilot_Base_US {
 };
 
 //Habicht 2 (Copilot)
-class TTT_Habicht2_US_Desert : TTT_Pilot_Base_US {
+class TTT_Hawk_2_US_Desert : TTT_Pilot_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 1;
     scopeCurator = 0;
     scopeArsenal = 0;
     displayName = "Habicht 2 (Copilot)";
     vehicleClass = "TTT_Habicht_US_Desert";
-    uniformClass = "TTT_Uniform_Silber_US_Desert";
+    uniformClass = "TTT_Uniform_Silver_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";    
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_HABICHT };

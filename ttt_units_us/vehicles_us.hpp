@@ -51,13 +51,13 @@ class TTT_Base_US : B_Soldier_base_F {
 */
 
 //Basis-Klasse fuer Truppfuehrer
-class TTT_Truppfuehrer_Base_US : TTT_Base_US {
+class TTT_TL_Base_US : TTT_Base_US {
     author = "$STR_Tactical_Training_Team";
     displayName = "Truppfuehrer US (Template)";
     icon = "iconManLeader";
     vehicleClass = "TTT_Template_US";
     uniformClass = "TTT_Uniform_Base";
-    backpack = "TTT_Backpack_Truppfuehrer_US_Desert";
+    backpack = "TTT_Backpack_TL_US_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { "ACE_microDAGR" };
     respawnitems[] += { "ACE_microDAGR" };
@@ -72,12 +72,12 @@ class TTT_Truppfuehrer_Base_US : TTT_Base_US {
 };
 
 //Basis-Klasse fuer Grenadiere
-class TTT_Grenadier_Base_US : TTT_Base_US {
+class TTT_GRE_Base_US : TTT_Base_US {
     author = "$STR_Tactical_Training_Team";
     displayName = "Grenadier US (Template)";
     vehicleClass = "TTT_Template_US";
     uniformClass = "TTT_Uniform_Base";
-    backpack = "TTT_Backpack_Grenadier_US_Desert";
+    backpack = "TTT_Backpack_GRE_US_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     weapons[] += {
         WEAPON_US_PRIMARY_GL,
@@ -245,14 +245,14 @@ class TTT_Funkerfac_Base_US : TTT_Base_US {
 };
 
 //Basis-Klasse fuer Pioniere
-class TTT_Pionier_Base_US : TTT_Base_US {
+class TTT_PIO_Base_US : TTT_Base_US {
     author = "$STR_Tactical_Training_Team";
     displayName = "Pionier US (Template)";
     icon = "iconManExplosive";
     vehicleClass = "TTT_Template_US";
     uniformClass = "TTT_Uniform_Base";
     canDeactivateMines = 1;
-    backpack = "TTT_Backpack_Pionier_US_Desert";
+    backpack = "TTT_Backpack_PIO_US_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     weapons[] += { 
         WEAPON_US_PRIMARY,
@@ -265,14 +265,14 @@ class TTT_Pionier_Base_US : TTT_Base_US {
 };
 
 //Basis-Klasse fuer Gefechtssanitaeter
-class TTT_Gefechtssanitaeter_Base_US : TTT_Base_US {
+class TTT_SAN_Base_US : TTT_Base_US {
     author = "$STR_Tactical_Training_Team";
     displayName = "Gefechtssanitaeter US (Template)";
     icon = "iconManMedic";
     vehicleClass = "TTT_Template_US";
     uniformClass = "TTT_Uniform_Base";
     attendant = 1;
-    backpack = "TTT_Backpack_Gefechtssanitaeter_US_Desert";
+    backpack = "TTT_Backpack_SAN_US_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     weapons[] += { 
         WEAPON_US_PRIMARY,

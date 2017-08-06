@@ -5,12 +5,12 @@
 	*/
 	
 	//Truppfuehrer Rucksack
-	class TTT_Backpack_Truppfuehrer_US_Woodland : TTT_Backpack_Truppfuehrer_US_Desert {
+	class TTT_Backpack_TL_US_Woodland : TTT_Backpack_TL_US_Desert {
 		displayName = "TTT Truppfuehrer Rucksack (US Woodland)";
 	};
 	
 	//Grenadier Rucksack
-	class TTT_Backpack_Grenadier_US_Woodland : TTT_Backpack_Grenadier_US_Desert {
+	class TTT_Backpack_GRE_US_Woodland : TTT_Backpack_GRE_US_Desert {
 		displayName = "TTT Grenadier Rucksack (US Woodland)";
 	};
 	
@@ -45,12 +45,12 @@
 	};
 	
 	//Pionier Rucksack
-	class TTT_Backpack_Pionier_US_Woodland : TTT_Backpack_Pionier_US_Desert {
+	class TTT_Backpack_PIO_US_Woodland : TTT_Backpack_PIO_US_Desert {
 		displayName = "TTT Pionier Rucksack (US Woodland)";
 	};
 	
 	//Gefechtssanitaeter Rucksack
-	class TTT_Backpack_Gefechtssanitaeter_US_Woodland : TTT_Backpack_Gefechtssanitaeter_US_Desert {
+	class TTT_Backpack_SAN_US_Woodland : TTT_Backpack_SAN_US_Desert {
 		displayName = "TTT Gefechtssanitaeter Rucksack (US Woodland)";		
 	};
 	

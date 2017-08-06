@@ -36,7 +36,7 @@ class CfgPatches {
 
 class CfgVehicleClasses {
 	// Fahrzeug-Gruppe
-	class TTT_Vehicles_Bw {
+	class TTT_Vehicles_BW {
 		displayName = "$STR_TTT_Vehilce_BW"; //In-game name
 		priority = 23; 						// How far down it is on the menu
 	};

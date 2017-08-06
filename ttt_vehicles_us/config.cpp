@@ -16,7 +16,7 @@ class CfgPatches {
 					"TTT_Heli_CAS_US_Desert",
 					"TTT_Heli_CAS_US_Woodland",
 					"TTT_Heli_SAR_US_Desert",
-					"TTT_Heli_SAR_Us_Woodland",
+					"TTT_Heli_SAR_US_Woodland",
 					"TTT_Heli_Heavy_US_Desert",
 					"TTT_Heli_Heavy_US_Woodland",
                     "TTT_Heli_Medium_US_Desert",
@@ -33,7 +33,7 @@ class CfgPatches {
 };
 
 class CfgVehicleClasses {
-	class TTT_Vehicles_Us {
+	class TTT_Vehicles_US {
 		displayName = "$STR_TTT_Vehilce_US";	//In-game name
 		priority = 24; 							// How far down it is on the menu
 	};

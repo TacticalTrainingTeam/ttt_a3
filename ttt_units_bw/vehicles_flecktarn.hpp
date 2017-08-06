@@ -6,11 +6,11 @@
 #define GROUP_COLOR Yellow
 
 //Gelb 1 (OPL)
-class TTT_Gelb1_BW_Flecktarn : TTT_Gelb1_BW_Tropentarn {
+class TTT_Yellow_1_BW_Flecktarn : TTT_Yellow_1_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Gelb_BW_Flecktarn";
     backpack = "TTT_Backpack_Opl_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Gelb_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Yellow_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_yellow_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -19,11 +19,11 @@ class TTT_Gelb1_BW_Flecktarn : TTT_Gelb1_BW_Tropentarn {
 };
 
 //Gelb 2 (Funker)
-class TTT_Gelb2_BW_Flecktarn : TTT_Gelb2_BW_Tropentarn {
+class TTT_Yellow_2_BW_Flecktarn : TTT_Yellow_2_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Gelb_BW_Flecktarn";
     backpack = "TTT_Backpack_Funkerfac_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Gelb_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Yellow_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_yellow_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -32,11 +32,11 @@ class TTT_Gelb2_BW_Flecktarn : TTT_Gelb2_BW_Tropentarn {
 };
 
 //Gelb 3 (UAV)
-class TTT_Gelb3_BW_Flecktarn : TTT_Gelb3_BW_Tropentarn {
+class TTT_Yellow_3_BW_Flecktarn : TTT_Yellow_3_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Gelb_BW_Flecktarn";
     backpack = "TTT_Backpack_Funkerfac_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Gelb_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Yellow_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_yellow_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -45,11 +45,11 @@ class TTT_Gelb3_BW_Flecktarn : TTT_Gelb3_BW_Tropentarn {
 };
 
 //Gelb 4 (Moerser)
-class TTT_Gelb4_BW_Flecktarn : TTT_Gelb4_BW_Tropentarn {
+class TTT_Yellow_4_BW_Flecktarn : TTT_Yellow_4_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Gelb_BW_Flecktarn";
     backpack = "TTT_Backpack_Funkerfac_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Gelb_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Yellow_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_yellow_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -66,11 +66,11 @@ class TTT_Gelb4_BW_Flecktarn : TTT_Gelb4_BW_Tropentarn {
 #define GROUP_COLOR Grey
 
 //Grau 1 (Truppfuehrer)
-class TTT_Grau1_BW_Flecktarn : TTT_Grau1_BW_Tropentarn {
+class TTT_Grey_1_BW_Flecktarn : TTT_Grey_1_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Grau_BW_Flecktarn";
-    backpack = "TTT_Backpack_Truppfuehrer_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Grau_BW_Flecktarn";
+    backpack = "TTT_Backpack_TL_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Grey_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_grey_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};	
@@ -79,11 +79,11 @@ class TTT_Grau1_BW_Flecktarn : TTT_Grau1_BW_Tropentarn {
 };
 
 //Grau 2 (Funker/FAC)
-class TTT_Grau2_BW_Flecktarn : TTT_Grau2_BW_Tropentarn {
+class TTT_Grey_2_BW_Flecktarn : TTT_Grey_2_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Grau_BW_Flecktarn";
     backpack = "TTT_Backpack_Funkerfac_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Grau_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Grey_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_grey_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -92,11 +92,11 @@ class TTT_Grau2_BW_Flecktarn : TTT_Grau2_BW_Tropentarn {
 };
 
 //Grau 3 (Gefechtssanitaeter)
-class TTT_Grau3_BW_Flecktarn : TTT_Grau3_BW_Tropentarn {
+class TTT_Grey_3_BW_Flecktarn : TTT_Grey_3_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Grau_BW_Flecktarn";
-    backpack = "TTT_Backpack_Gefechtssanitaeter_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Grau_BW_Flecktarn";
+    backpack = "TTT_Backpack_SAN_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Grey_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_grey_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -105,11 +105,11 @@ class TTT_Grau3_BW_Flecktarn : TTT_Grau3_BW_Tropentarn {
 };
 
 //Grau 4 (Pionier)
-class TTT_Grau4_BW_Flecktarn : TTT_Grau4_BW_Tropentarn {
+class TTT_Grey_4_BW_Flecktarn : TTT_Grey_4_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Grau_BW_Flecktarn";
-    backpack = "TTT_Backpack_Pionier_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Grau_BW_Flecktarn";
+    backpack = "TTT_Backpack_PIO_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Grey_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_grey_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -118,11 +118,11 @@ class TTT_Grau4_BW_Flecktarn : TTT_Grau4_BW_Tropentarn {
 };
 
 //Grau 5 (Schuetze)
-class TTT_Grau5_BW_Flecktarn : TTT_Grau5_BW_Tropentarn {
+class TTT_Grey_5_BW_Flecktarn : TTT_Grey_5_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Grau_BW_Flecktarn";
     backpack = "TTT_Backpack_Schuetze_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Grau_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Grey_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_grey_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -131,10 +131,10 @@ class TTT_Grau5_BW_Flecktarn : TTT_Grau5_BW_Tropentarn {
 };
 
 //Grau 6 (Schuetze)
-class TTT_Grau6_BW_Flecktarn : TTT_Grau6_BW_Tropentarn {
+class TTT_Grey_6_BW_Flecktarn : TTT_Grey_6_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Grau_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Grau_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Grey_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_grey_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -151,12 +151,12 @@ class TTT_Grau6_BW_Flecktarn : TTT_Grau6_BW_Tropentarn {
 #define GROUP_COLOR Gold
 
 //Gold 1 (Truppfuehrer)
-class TTT_Gold1_BW_Flecktarn : TTT_Gold1_BW_Tropentarn {
+class TTT_Gold_1_BW_Flecktarn : TTT_Gold_1_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Gold_BW_Flecktarn";
     uniformClass = "TTT_Uniform_Gold_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
-    backpack = "TTT_Backpack_Truppfuehrer_BW_Flecktarn";
+    backpack = "TTT_Backpack_TL_BW_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_gold_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
     linkedItems[] = { get_vest(US,GROUP_COLOR,Heavy,Desert), "TTT_Helmet_1_BW_Flecktarn", default_linkedItems };
@@ -165,7 +165,7 @@ class TTT_Gold1_BW_Flecktarn : TTT_Gold1_BW_Tropentarn {
 
 
 //Gold 2 (Funker)
-class TTT_Gold2_BW_Flecktarn : TTT_Gold2_BW_Tropentarn {
+class TTT_Gold_2_BW_Flecktarn : TTT_Gold_2_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Gold_BW_Flecktarn";
     uniformClass = "TTT_Uniform_Gold_BW_Flecktarn";
@@ -178,7 +178,7 @@ class TTT_Gold2_BW_Flecktarn : TTT_Gold2_BW_Tropentarn {
 };
 
 //Gold 3 (Spotter)
-class TTT_Gold3_BW_Flecktarn : TTT_Gold3_BW_Tropentarn {
+class TTT_Gold_3_BW_Flecktarn : TTT_Gold_3_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Gold_BW_Flecktarn";
     backpack = "TTT_Backpack_Schuetze_BW_Flecktarn";
@@ -191,7 +191,7 @@ class TTT_Gold3_BW_Flecktarn : TTT_Gold3_BW_Tropentarn {
 };
 
 //Gold 4 (Sniper)
-class TTT_Gold4_BW_Flecktarn : TTT_Gold4_BW_Tropentarn {
+class TTT_Gold_4_BW_Flecktarn : TTT_Gold_4_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Gold_BW_Flecktarn";
     uniformClass = "TTT_Uniform_Gold_BW_Flecktarn";
@@ -204,7 +204,7 @@ class TTT_Gold4_BW_Flecktarn : TTT_Gold4_BW_Tropentarn {
 };
 
 //Gold 5 (Schuetze)
-class TTT_Gold5_BW_Flecktarn : TTT_Gold5_BW_Tropentarn {
+class TTT_Gold_5_BW_Flecktarn : TTT_Gold_5_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Gold_BW_Flecktarn";
     backpack = "TTT_Backpack_Schuetze_BW_Flecktarn";
@@ -217,7 +217,7 @@ class TTT_Gold5_BW_Flecktarn : TTT_Gold5_BW_Tropentarn {
 };
 
 //Gold 6 (Schuetze)
-class TTT_Gold6_BW_Flecktarn : TTT_Gold6_BW_Tropentarn {
+class TTT_Gold_6_BW_Flecktarn : TTT_Gold_6_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Gold_BW_Flecktarn";
     backpack = "TTT_Backpack_Schuetze_BW_Flecktarn";
@@ -238,12 +238,12 @@ class TTT_Gold6_BW_Flecktarn : TTT_Gold6_BW_Tropentarn {
 #define GROUP_COLOR Green
 
 //Gruen 1 (Zugfuehrer)
-class TTT_Gruen1_BW_Flecktarn : TTT_Gruen1_BW_Tropentarn {
+class TTT_Green_1_BW_Flecktarn : TTT_Green_1_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Gruen_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Gruen_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Green_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
-    backpack = "TTT_Backpack_Truppfuehrer_BW_Flecktarn";
+    backpack = "TTT_Backpack_TL_BW_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_green_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
     linkedItems[] = { get_vest(US,GROUP_COLOR,Heavy,Desert), "TTT_Helmet_1_BW_Flecktarn", default_linkedItems };
@@ -251,11 +251,11 @@ class TTT_Gruen1_BW_Flecktarn : TTT_Gruen1_BW_Tropentarn {
 };
 
 //Gruen 2 (Funker/FAC)
-class TTT_Gruen2_BW_Flecktarn : TTT_Gruen2_BW_Tropentarn {
+class TTT_Green_2_BW_Flecktarn : TTT_Green_2_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Gruen_BW_Flecktarn";
     backpack = "TTT_Backpack_Funkerfac_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Gruen_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Green_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_green_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -264,11 +264,11 @@ class TTT_Gruen2_BW_Flecktarn : TTT_Gruen2_BW_Tropentarn {
 };
 
 //Gruen 3 (Gefechtssanitaeter)
-class TTT_Gruen3_BW_Flecktarn : TTT_Gruen3_BW_Tropentarn {
+class TTT_Green_3_BW_Flecktarn : TTT_Green_3_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Gruen_BW_Flecktarn";
-    backpack = "TTT_Backpack_Gefechtssanitaeter_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Gruen_BW_Flecktarn";
+    backpack = "TTT_Backpack_SAN_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Green_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_green_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -277,11 +277,11 @@ class TTT_Gruen3_BW_Flecktarn : TTT_Gruen3_BW_Tropentarn {
 };
 
 //Gruen 4 (Gefechtssanitaeter)
-class TTT_Gruen4_BW_Flecktarn : TTT_Gruen4_BW_Tropentarn {
+class TTT_Green_4_BW_Flecktarn : TTT_Green_4_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Gruen_BW_Flecktarn";
-    backpack = "TTT_Backpack_Gefechtssanitaeter_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Gruen_BW_Flecktarn";
+    backpack = "TTT_Backpack_SAN_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Green_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_green_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -298,12 +298,12 @@ class TTT_Gruen4_BW_Flecktarn : TTT_Gruen4_BW_Tropentarn {
 #define GROUP_COLOR Brown
 
 //Braun 1 (Zugfuehrer)
-class TTT_Braun1_BW_Flecktarn : TTT_Braun1_BW_Tropentarn {
+class TTT_Brown_1_BW_Flecktarn : TTT_Brown_1_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Braun_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Braun_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Brown_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
-    backpack = "TTT_Backpack_Truppfuehrer_BW_Flecktarn";
+    backpack = "TTT_Backpack_TL_BW_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_brown_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
     linkedItems[] = { get_vest(US,GROUP_COLOR,Heavy,Desert), "TTT_Helmet_1_BW_Flecktarn", default_linkedItems };
@@ -311,11 +311,11 @@ class TTT_Braun1_BW_Flecktarn : TTT_Braun1_BW_Tropentarn {
 };
 
 //Braun 2 (Funker/FAC)
-class TTT_Braun2_BW_Flecktarn : TTT_Braun2_BW_Tropentarn {
+class TTT_Brown_2_BW_Flecktarn : TTT_Brown_2_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Braun_BW_Flecktarn";
     backpack = "TTT_Backpack_Funkerfac_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Braun_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Brown_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_brown_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -324,11 +324,11 @@ class TTT_Braun2_BW_Flecktarn : TTT_Braun2_BW_Tropentarn {
 };
 
 //Braun 3 (Gefechtssanitaeter)
-class TTT_Braun3_BW_Flecktarn : TTT_Braun3_BW_Tropentarn {
+class TTT_Brown_3_BW_Flecktarn : TTT_Brown_3_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Braun_BW_Flecktarn";
-    backpack = "TTT_Backpack_Gefechtssanitaeter_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Braun_BW_Flecktarn";
+    backpack = "TTT_Backpack_SAN_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Brown_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_brown_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -346,11 +346,11 @@ class TTT_Braun3_BW_Flecktarn : TTT_Braun3_BW_Tropentarn {
 
 
 //Schwarz 1 (Truppfuehrer)
-class TTT_Schwarz1_BW_Flecktarn : TTT_Schwarz1_BW_Tropentarn {
+class TTT_Black_1_BW_Flecktarn : TTT_Black_1_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Schwarz_BW_Flecktarn";
-    backpack = "TTT_Backpack_Truppfuehrer_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Schwarz_BW_Flecktarn";
+    backpack = "TTT_Backpack_TL_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Black_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_black_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -359,11 +359,11 @@ class TTT_Schwarz1_BW_Flecktarn : TTT_Schwarz1_BW_Tropentarn {
 };
 
 //Schwarz 2 (Grenadier)
-class TTT_Schwarz2_BW_Flecktarn : TTT_Schwarz2_BW_Tropentarn {
+class TTT_Black_2_BW_Flecktarn : TTT_Black_2_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Schwarz_BW_Flecktarn";
-    backpack = "TTT_Backpack_Grenadier_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Schwarz_BW_Flecktarn";
+    backpack = "TTT_Backpack_GRE_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Black_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_black_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -372,11 +372,11 @@ class TTT_Schwarz2_BW_Flecktarn : TTT_Schwarz2_BW_Tropentarn {
 };
 
 //Schwarz 3 (LMG-Schuetze)
-class TTT_Schwarz3_BW_Flecktarn : TTT_Schwarz3_BW_Tropentarn {
+class TTT_Black_3_BW_Flecktarn : TTT_Black_3_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Schwarz_BW_Flecktarn";
     backpack = "TTT_Backpack_Schuetze_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Schwarz_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Black_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_black_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -385,11 +385,11 @@ class TTT_Schwarz3_BW_Flecktarn : TTT_Schwarz3_BW_Tropentarn {
 };
 
 //Schwarz 4 (AT-Schuetze)
-class TTT_Schwarz4_BW_Flecktarn : TTT_Schwarz4_BW_Tropentarn {
+class TTT_Black_4_BW_Flecktarn : TTT_Black_4_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Schwarz_BW_Flecktarn";
     backpack = "TTT_Backpack_Schuetze_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Schwarz_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Black_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_black_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -398,11 +398,11 @@ class TTT_Schwarz4_BW_Flecktarn : TTT_Schwarz4_BW_Tropentarn {
 };
 
 //Schwarz 5 (LMG-Schuetze)
-class TTT_Schwarz5_BW_Flecktarn : TTT_Schwarz5_BW_Tropentarn {
+class TTT_Black_5_BW_Flecktarn : TTT_Black_5_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Schwarz_BW_Flecktarn";
     backpack = "TTT_Backpack_Schuetze_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Schwarz_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Black_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_black_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -411,11 +411,11 @@ class TTT_Schwarz5_BW_Flecktarn : TTT_Schwarz5_BW_Tropentarn {
 };
 
 //Schwarz 6 (AT-Schuetze)
-class TTT_Schwarz6_BW_Flecktarn : TTT_Schwarz6_BW_Tropentarn {
+class TTT_Black_6_BW_Flecktarn : TTT_Black_6_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Schwarz_BW_Flecktarn";
     backpack = "TTT_Backpack_Atschuetze_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Schwarz_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Black_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_black_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -432,11 +432,11 @@ class TTT_Schwarz6_BW_Flecktarn : TTT_Schwarz6_BW_Tropentarn {
 #define GROUP_COLOR Red
 
 //Rot 1 (Truppfuehrer)
-class TTT_Rot1_BW_Flecktarn : TTT_Rot1_BW_Tropentarn {
+class TTT_Red_1_BW_Flecktarn : TTT_Red_1_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Rot_BW_Flecktarn";
-    backpack = "TTT_Backpack_Truppfuehrer_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Rot_BW_Flecktarn";
+    backpack = "TTT_Backpack_TL_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Red_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_red_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -445,11 +445,11 @@ class TTT_Rot1_BW_Flecktarn : TTT_Rot1_BW_Tropentarn {
 };
 
 //Rot 2 (Grenadier)
-class TTT_Rot2_BW_Flecktarn : TTT_Rot2_BW_Tropentarn {
+class TTT_Red_2_BW_Flecktarn : TTT_Red_2_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Rot_BW_Flecktarn";
-    backpack = "TTT_Backpack_Grenadier_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Rot_BW_Flecktarn";
+    backpack = "TTT_Backpack_GRE_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Red_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_red_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -458,11 +458,11 @@ class TTT_Rot2_BW_Flecktarn : TTT_Rot2_BW_Tropentarn {
 };
 
 //Rot 3 (LMG-Schuetze)
-class TTT_Rot3_BW_Flecktarn : TTT_Rot3_BW_Tropentarn {
+class TTT_Red_3_BW_Flecktarn : TTT_Red_3_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Rot_BW_Flecktarn";
     backpack = "TTT_Backpack_Schuetze_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Rot_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Red_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_red_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -472,11 +472,11 @@ class TTT_Rot3_BW_Flecktarn : TTT_Rot3_BW_Tropentarn {
 
 
 //Rot 4 (AT-Schuetze)
-class TTT_Rot4_BW_Flecktarn : TTT_Rot4_BW_Tropentarn {
+class TTT_Red_4_BW_Flecktarn : TTT_Red_4_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Rot_BW_Flecktarn";
     backpack = "TTT_Backpack_AtSchuetze_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Rot_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Red_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_red_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -485,11 +485,11 @@ class TTT_Rot4_BW_Flecktarn : TTT_Rot4_BW_Tropentarn {
 };
 
 //Rot 5 (LMG-Schuetze)
-class TTT_Rot5_BW_Flecktarn : TTT_Rot5_BW_Tropentarn {
+class TTT_Red_5_BW_Flecktarn : TTT_Red_5_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Rot_BW_Flecktarn";
     backpack = "TTT_Backpack_Schuetze_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Rot_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Red_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_red_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -498,11 +498,11 @@ class TTT_Rot5_BW_Flecktarn : TTT_Rot5_BW_Tropentarn {
 };
 
 //Rot 6 (AT-Schuetze)
-class TTT_Rot6_BW_Flecktarn : TTT_Rot6_BW_Tropentarn {
+class TTT_Red_6_BW_Flecktarn : TTT_Red_6_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Rot_BW_Flecktarn";
     backpack = "TTT_Backpack_Atschuetze_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Rot_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Red_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_red_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -519,11 +519,11 @@ class TTT_Rot6_BW_Flecktarn : TTT_Rot6_BW_Tropentarn {
 #define GROUP_COLOR Blue
 
 //Blau 1 (Truppfuehrer)
-class TTT_Blau1_BW_Flecktarn : TTT_Blau1_BW_Tropentarn {
+class TTT_Blue_1_BW_Flecktarn : TTT_Blue_1_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Blau_BW_Flecktarn";
-    backpack = "TTT_Backpack_Truppfuehrer_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Blau_BW_Flecktarn";
+    backpack = "TTT_Backpack_TL_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Blue_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_blue_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -532,11 +532,11 @@ class TTT_Blau1_BW_Flecktarn : TTT_Blau1_BW_Tropentarn {
 };
 
 //Blau 2 (Grenadier)
-class TTT_Blau2_BW_Flecktarn : TTT_Blau2_BW_Tropentarn {
+class TTT_Blue_2_BW_Flecktarn : TTT_Blue_2_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Blau_BW_Flecktarn";
-    backpack = "TTT_Backpack_Grenadier_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Blau_BW_Flecktarn";
+    backpack = "TTT_Backpack_GRE_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Blue_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_blue_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -546,11 +546,11 @@ class TTT_Blau2_BW_Flecktarn : TTT_Blau2_BW_Tropentarn {
 
 
 //Blau 5 (MG-Assistent)
-class TTT_Blau3_BW_Flecktarn : TTT_Blau3_BW_Tropentarn {
+class TTT_Blue_3_BW_Flecktarn : TTT_Blue_3_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Blau_BW_Flecktarn";
     backpack = "TTT_Backpack_Mgassistent_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Blau_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Blue_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_blue_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -559,11 +559,11 @@ class TTT_Blau3_BW_Flecktarn : TTT_Blau3_BW_Tropentarn {
 };
 
 //Blau 4 (MG-Schuetze)
-class TTT_Blau4_BW_Flecktarn : TTT_Blau4_BW_Tropentarn {
+class TTT_Blue_4_BW_Flecktarn : TTT_Blue_4_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Blau_BW_Flecktarn";
     backpack = "TTT_Backpack_Mgschuetze_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Blau_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Blue_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_blue_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -572,11 +572,11 @@ class TTT_Blau4_BW_Flecktarn : TTT_Blau4_BW_Tropentarn {
 };
 
 //Blau 5 (Pionier)
-class TTT_Blau5_BW_Flecktarn : TTT_Blau5_BW_Tropentarn {
+class TTT_Blue_5_BW_Flecktarn : TTT_Blue_5_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Blau_BW_Flecktarn";
-    backpack = "TTT_Backpack_Pionier_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Blau_BW_Flecktarn";
+    backpack = "TTT_Backpack_PIO_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Blue_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_blue_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -585,11 +585,11 @@ class TTT_Blau5_BW_Flecktarn : TTT_Blau5_BW_Tropentarn {
 };
 
 //Blau 6 (Pionier)
-class TTT_Blau6_BW_Flecktarn : TTT_Blau6_BW_Tropentarn {
+class TTT_Blue_6_BW_Flecktarn : TTT_Blue_6_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Blau_BW_Flecktarn";
-    backpack = "TTT_Backpack_Pionier_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Blau_BW_Flecktarn";
+    backpack = "TTT_Backpack_PIO_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Blue_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_blue_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -606,11 +606,11 @@ class TTT_Blau6_BW_Flecktarn : TTT_Blau6_BW_Tropentarn {
 #define GROUP_COLOR Purple
 
 //Violett 1 (Truppfuehrer)
-class TTT_Violett1_BW_Flecktarn : TTT_Violett1_BW_Tropentarn {
+class TTT_Violet_1_BW_Flecktarn : TTT_Violet_1_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Violett_BW_Flecktarn";
-    backpack = "TTT_Backpack_Truppfuehrer_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Violett_BW_Flecktarn";
+    backpack = "TTT_Backpack_TL_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Violet_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_purple_bw_Flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -619,11 +619,11 @@ class TTT_Violett1_BW_Flecktarn : TTT_Violett1_BW_Tropentarn {
 };
 
 //Violett 2 (Grenadier)
-class TTT_Violett2_BW_Flecktarn : TTT_Violett2_BW_Tropentarn {
+class TTT_Violet_2_BW_Flecktarn : TTT_Violet_2_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Violett_BW_Flecktarn";
-    backpack = "TTT_Backpack_Grenadier_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Violett_BW_Flecktarn";
+    backpack = "TTT_Backpack_GRE_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Violet_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_purple_bw_Flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -632,11 +632,11 @@ class TTT_Violett2_BW_Flecktarn : TTT_Violett2_BW_Tropentarn {
 };
 
 //Violett 3 (MG-Assistent)
-class TTT_Violett3_BW_Flecktarn : TTT_Violett3_BW_Tropentarn {
+class TTT_Violet_3_BW_Flecktarn : TTT_Violet_3_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Violett_BW_Flecktarn";
     backpack = "TTT_Backpack_Mgassistent_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Violett_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Violet_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_purple_bw_Flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -645,11 +645,11 @@ class TTT_Violett3_BW_Flecktarn : TTT_Violett3_BW_Tropentarn {
 };
 
 //Violett 4 (MG-Schuetze)
-class TTT_Violett4_BW_Flecktarn : TTT_Violett4_BW_Tropentarn {
+class TTT_Violet_4_BW_Flecktarn : TTT_Violet_4_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Violett_BW_Flecktarn";
     backpack = "TTT_Backpack_Mgschuetze_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Violett_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Violet_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_purple_bw_Flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -658,11 +658,11 @@ class TTT_Violett4_BW_Flecktarn : TTT_Violett4_BW_Tropentarn {
 };
 
 //Violett 5 (Pionier)
-class TTT_Violett5_BW_Flecktarn : TTT_Violett5_BW_Tropentarn {
+class TTT_Violet_5_BW_Flecktarn : TTT_Violet_5_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Violett_BW_Flecktarn";
-    backpack = "TTT_Backpack_Pionier_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Violett_BW_Flecktarn";
+    backpack = "TTT_Backpack_PIO_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Violet_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_purple_bw_Flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -671,11 +671,11 @@ class TTT_Violett5_BW_Flecktarn : TTT_Violett5_BW_Tropentarn {
 };
 
 //Violett 6 (Pionier)
-class TTT_Violett6_BW_Flecktarn : TTT_Violett6_BW_Tropentarn {
+class TTT_Violet_6_BW_Flecktarn : TTT_Violet_6_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Violett_BW_Flecktarn";
-    backpack = "TTT_Backpack_Pionier_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Violett_BW_Flecktarn";
+    backpack = "TTT_Backpack_PIO_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Violet_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_purple_bw_Flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -690,7 +690,7 @@ class TTT_Violett6_BW_Flecktarn : TTT_Violett6_BW_Tropentarn {
 */
 
 //Bronze 1 (Truppfuehrer)
-class TTT_Bronze1_BW_Flecktarn : TTT_Bronze1_BW_Tropentarn {
+class TTT_Bronze_1_BW_Flecktarn : TTT_Bronze_1_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Bronze_BW_Flecktarn";
     backpack = "TTT_Backpack_Pilot_BW_Flecktarn";
@@ -703,7 +703,7 @@ class TTT_Bronze1_BW_Flecktarn : TTT_Bronze1_BW_Tropentarn {
 };
 
 //Bronze 2 (Schuetze)
-class TTT_Bronze2_BW_Flecktarn : TTT_Bronze2_BW_Tropentarn {
+class TTT_Bronze_2_BW_Flecktarn : TTT_Bronze_2_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Bronze_BW_Flecktarn";
     backpack = "TTT_Backpack_Schuetze_BW_Flecktarn";
@@ -716,7 +716,7 @@ class TTT_Bronze2_BW_Flecktarn : TTT_Bronze2_BW_Tropentarn {
 };
 
 //Bronze 3 (Fahrer)
-class TTT_Bronze3_BW_Flecktarn : TTT_Bronze3_BW_Tropentarn {
+class TTT_Bronze_3_BW_Flecktarn : TTT_Bronze_3_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Bronze_BW_Flecktarn";
     backpack = "TTT_Backpack_Schuetze_BW_Flecktarn";
@@ -729,7 +729,7 @@ class TTT_Bronze3_BW_Flecktarn : TTT_Bronze3_BW_Tropentarn {
 };
 
 //Bronze 4 (Kommandant)
-class TTT_Bronze4_BW_Flecktarn : TTT_Bronze4_BW_Tropentarn {
+class TTT_Bronze_4_BW_Flecktarn : TTT_Bronze_4_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Bronze_BW_Flecktarn";
     backpack = "TTT_Backpack_Pilot_BW_Flecktarn";
@@ -742,7 +742,7 @@ class TTT_Bronze4_BW_Flecktarn : TTT_Bronze4_BW_Tropentarn {
 };
 
 //Bronze 5 (Schuetze)
-class TTT_Bronze5_BW_Flecktarn : TTT_Bronze5_BW_Tropentarn {
+class TTT_Bronze_5_BW_Flecktarn : TTT_Bronze_5_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Bronze_BW_Flecktarn";
     backpack = "TTT_Backpack_Schuetze_BW_Flecktarn";
@@ -755,7 +755,7 @@ class TTT_Bronze5_BW_Flecktarn : TTT_Bronze5_BW_Tropentarn {
 };
 
 //Bronze 6 (Fahrer)
-class TTT_Bronze6_BW_Flecktarn : TTT_Bronze6_BW_Tropentarn {
+class TTT_Bronze_6_BW_Flecktarn : TTT_Bronze_6_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Bronze_BW_Flecktarn";
     backpack = "TTT_Backpack_Schuetze_BW_Flecktarn";
@@ -769,16 +769,16 @@ class TTT_Bronze6_BW_Flecktarn : TTT_Bronze6_BW_Tropentarn {
 
 /*
 #############################################################
-### Trupp Weiß (Flecktarn)
+### Trupp Weiï¿½ (Flecktarn)
 #############################################################
 */
 
-//Weiß 1 (Oberfeldarzt)
-class TTT_Weiss1_BW_Flecktarn : TTT_Weiss1_BW_Tropentarn {
+//Weiï¿½ 1 (Oberfeldarzt)
+class TTT_White_1_BW_Flecktarn : TTT_White_1_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Weiss_BW_Flecktarn";
     backpack = "TTT_Backpack_Feldarzt_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Weiss_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_White_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_white_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};  
@@ -786,12 +786,12 @@ class TTT_Weiss1_BW_Flecktarn : TTT_Weiss1_BW_Tropentarn {
     respawnLinkedItems[] = { "TTT_Vest_Crew_US_Desert", "TTT_Helmet_1_BW_Flecktarn", default_linkedItems };
 };
 
-//Weiß 2 (Fahrzeugfuehrer)
-class TTT_Weiss2_BW_Flecktarn : TTT_Weiss2_BW_Tropentarn {
+//Weiï¿½ 2 (Fahrzeugfuehrer)
+class TTT_White_2_BW_Flecktarn : TTT_White_2_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Weiss_BW_Flecktarn";
     backpack = "TTT_Backpack_Pilot_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Weiss_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_White_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_white_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -799,12 +799,12 @@ class TTT_Weiss2_BW_Flecktarn : TTT_Weiss2_BW_Tropentarn {
     respawnLinkedItems[] = { "TTT_Vest_Crew_US_Desert", "TTT_Helmet_2_BW_Flecktarn", default_linkedItems };
 };
 
-//Weiß 2 (Feldarzt)
-class TTT_Weiss3_BW_Flecktarn : TTT_Weiss3_BW_Tropentarn {
+//Weiï¿½ 2 (Feldarzt)
+class TTT_White_3_BW_Flecktarn : TTT_White_3_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Weiss_BW_Flecktarn";
     backpack = "TTT_Backpack_Feldarzt_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Weiss_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_White_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_white_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -812,12 +812,12 @@ class TTT_Weiss3_BW_Flecktarn : TTT_Weiss3_BW_Tropentarn {
     respawnLinkedItems[] = { "TTT_Vest_Crew_US_Desert", "TTT_Helmet_3_BW_Flecktarn", default_linkedItems };
 };
 
-//Weiß 4 (Fahrzeugfuehrer)
-class TTT_Weiss4_BW_Flecktarn : TTT_Weiss4_BW_Tropentarn {
+//Weiï¿½ 4 (Fahrzeugfuehrer)
+class TTT_White_4_BW_Flecktarn : TTT_White_4_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Weiss_BW_Flecktarn";
     backpack = "TTT_Backpack_Pilot_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Weiss_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_White_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_white_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -832,11 +832,11 @@ class TTT_Weiss4_BW_Flecktarn : TTT_Weiss4_BW_Tropentarn {
 */
 
 //Platin 1 (Pilot)
-class TTT_Platin1_BW_Flecktarn : TTT_Platin1_BW_Tropentarn {
+class TTT_Platinum_1_BW_Flecktarn : TTT_Platinum_1_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Platin_BW_Flecktarn";
     backpack = "TTT_Backpack_Pilot_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Silber_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Silver_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_platin_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -845,11 +845,11 @@ class TTT_Platin1_BW_Flecktarn : TTT_Platin1_BW_Tropentarn {
 };	
 
 //Platin 2 (Pilot)
-class TTT_Platin2_BW_Flecktarn : TTT_Platin2_BW_Tropentarn {
+class TTT_Platinum_2_BW_Flecktarn : TTT_Platinum_2_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Platin_BW_Flecktarn";
     backpack = "TTT_Backpack_Pilot_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Silber_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Silver_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_platin_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -864,11 +864,11 @@ class TTT_Platin2_BW_Flecktarn : TTT_Platin2_BW_Tropentarn {
 */
 
 //Silber 1 (Truppfuehrer)
-class TTT_Silber1_BW_Flecktarn : TTT_Silber1_BW_Tropentarn {
+class TTT_Silver_1_BW_Flecktarn : TTT_Silver_1_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Silber_BW_Flecktarn";
     backpack = "TTT_Backpack_Pilot_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Silber_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Silver_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_silver_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -877,11 +877,11 @@ class TTT_Silber1_BW_Flecktarn : TTT_Silber1_BW_Tropentarn {
 };
 
 //Silber 2 (Fahrzeugfuehrer)
-class TTT_Silber2_BW_Flecktarn : TTT_Silber2_BW_Tropentarn {
+class TTT_Silver_2_BW_Flecktarn : TTT_Silver_2_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Silber_BW_Flecktarn";
     backpack = "TTT_Backpack_Pilot_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Silber_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Silver_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_silver_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -890,11 +890,11 @@ class TTT_Silber2_BW_Flecktarn : TTT_Silber2_BW_Tropentarn {
 };
 
 //Silber 3 (Fahrzeugfuehrer)
-class TTT_Silber3_BW_Flecktarn : TTT_Silber3_BW_Tropentarn {
+class TTT_Silver_3_BW_Flecktarn : TTT_Silver_3_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Silber_BW_Flecktarn";
     backpack = "TTT_Backpack_Pilot_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Silber_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Silver_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_silver_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -903,11 +903,11 @@ class TTT_Silber3_BW_Flecktarn : TTT_Silber3_BW_Tropentarn {
 };
 
 //Silber 4 (Fahrzeugfuehrer)
-class TTT_Silber4_BW_Flecktarn : TTT_Silber4_BW_Tropentarn {
+class TTT_Silver_4_BW_Flecktarn : TTT_Silver_4_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Silber_BW_Flecktarn";
     backpack = "TTT_Backpack_Pilot_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Silber_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Silver_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_silver_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -916,11 +916,11 @@ class TTT_Silber4_BW_Flecktarn : TTT_Silber4_BW_Tropentarn {
 };
 
 //Silber 5 (Fahrzeugfuehrer)
-class TTT_Silber5_BW_Flecktarn : TTT_Silber5_BW_Tropentarn {
+class TTT_Silver_5_BW_Flecktarn : TTT_Silver_5_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Silber_BW_Flecktarn";
     backpack = "TTT_Backpack_Pilot_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Silber_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Silver_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_silver_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -929,11 +929,11 @@ class TTT_Silber5_BW_Flecktarn : TTT_Silber5_BW_Tropentarn {
 };
 
 //Silber 6 (Fahrzeugfuehrer)
-class TTT_Silber6_BW_Flecktarn : TTT_Silber6_BW_Tropentarn {
+class TTT_Silver_6_BW_Flecktarn : TTT_Silver_6_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Silber_BW_Flecktarn";
     backpack = "TTT_Backpack_Pilot_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Silber_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Silver_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_silver_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -948,11 +948,11 @@ class TTT_Silber6_BW_Flecktarn : TTT_Silber6_BW_Tropentarn {
 */
 
 //Bussard 1 (Pilot)
-class TTT_Bussard1_BW_Flecktarn : TTT_Bussard1_BW_Tropentarn {
+class TTT_Buzzard_1_BW_Flecktarn : TTT_Buzzard_1_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Bussard_BW_Flecktarn";
     backpack = "TTT_Backpack_Pilot_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Silber_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Silver_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_silver_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -961,11 +961,11 @@ class TTT_Bussard1_BW_Flecktarn : TTT_Bussard1_BW_Tropentarn {
 };
 
 //Bussard 2 (Copilot)
-class TTT_Bussard2_BW_Flecktarn : TTT_Bussard2_BW_Tropentarn {
+class TTT_Buzzard_2_BW_Flecktarn : TTT_Buzzard_2_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Bussard_BW_Flecktarn";
     backpack = "TTT_Backpack_Pilot_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Silber_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Silver_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_silver_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -974,11 +974,11 @@ class TTT_Bussard2_BW_Flecktarn : TTT_Bussard2_BW_Tropentarn {
 };
 
 //Habicht 1 (Pilot)
-class TTT_Habicht1_BW_Flecktarn : TTT_Habicht1_BW_Tropentarn {
+class TTT_Hawk_1_BW_Flecktarn : TTT_Hawk_1_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Habicht_BW_Flecktarn";
     backpack = "TTT_Backpack_Pilot_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Silber_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Silver_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_silver_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
@@ -987,11 +987,11 @@ class TTT_Habicht1_BW_Flecktarn : TTT_Habicht1_BW_Tropentarn {
 };
 
 //Habicht 2 (Copilot)
-class TTT_Habicht2_BW_Flecktarn : TTT_Habicht2_BW_Tropentarn {
+class TTT_Hawk_2_BW_Flecktarn : TTT_Hawk_2_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Habicht_BW_Flecktarn";
     backpack = "TTT_Backpack_Pilot_BW_Flecktarn";
-    uniformClass = "TTT_Uniform_Silber_BW_Flecktarn";
+    uniformClass = "TTT_Uniform_Silver_BW_Flecktarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Flecktarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_silver_bw_flecktarn.paa" };
 	hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};

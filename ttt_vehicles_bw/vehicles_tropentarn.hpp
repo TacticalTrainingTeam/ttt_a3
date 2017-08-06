@@ -7,15 +7,15 @@
     class TTT_IMV_MG_BW_Tropentarn : CUP_B_Dingo_Wdl {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
-		faction = "TTT_faction_Bw";
-		vehicleClass = "TTT_Vehicles_Bw";
+		faction = "TTT_faction_BW";
+		vehicleClass = "TTT_Vehicles_BW";
 		hiddenSelectionsTextures[] = {
 			"\ttt_a3\ttt_vehicles_bw\data\karosse_d_co.paa",
 			"\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\a_teile_ger_d_co.paa",
 			"\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\FLW100_ger_d_co.paa",
 			"\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\FLW200_ger_d_co.paa"
 		};	
-		crew = "TTT_Schwarz1_Bw_Tropentarn";
+		crew = "TTT_Black_1_BW_Tropentarn";
 		displayName = "TTT Truppfahrzeug MG (BW Tropentarn)";
 		typicalCargo[] = {};
 		
@@ -33,15 +33,15 @@
     class TTT_IMV_GL_BW_Tropentarn : CUP_B_Dingo_GL_Wdl {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
-		faction = "TTT_faction_Bw";
-		vehicleClass = "TTT_Vehicles_Bw";
+		faction = "TTT_faction_BW";
+		vehicleClass = "TTT_Vehicles_BW";
 		hiddenSelectionsTextures[] = {
 			"\ttt_a3\ttt_vehicles_bw\data\karosse_d_co.paa",
 			"\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\a_teile_ger_d_co.paa",
 			"\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\FLW100_ger_d_co.paa",
 			"\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\FLW200_ger_d_co.paa"
 		};	
-		crew = "TTT_Schwarz1_Bw_Tropentarn";
+		crew = "TTT_Black_1_BW_Tropentarn";
 		displayName = "TTT Truppfahrzeug GL (BW Tropentarn)";
 		typicalCargo[] = {};
 
@@ -65,8 +65,8 @@
 	class TTT_LUV_COM_BW_Tropentarn : rhsusf_m998_w_4dr_fulltop {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
-		faction = "TTT_faction_Bw";
-		vehicleClass = "TTT_Vehicles_Bw";
+		faction = "TTT_faction_BW";
+		vehicleClass = "TTT_Vehicles_BW";
 		hiddenSelectionsTextures[] = {
 			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa",
 			"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_w_co.paa",
@@ -80,7 +80,7 @@
 			"\ttt_a3\ttt_vehicles_bw\data\oplfahrzeug_unitdecal.paa",
 			""
 		};
-		crew = "TTT_Schwarz1_Bw_Tropentarn";
+		crew = "TTT_Black_1_BW_Tropentarn";
 		displayName = "TTT OPL-Fahrzeug (BW Tropentarn)";
 		typicalCargo[] = {};
 		
@@ -104,9 +104,9 @@
     class TTT_LUV_SAR_BW_Tropentarn : rhsusf_m998_d_2dr_fulltop {
         author = "$STR_Tactical_Training_Team";
         scope = 2;
-        faction = "TTT_faction_Bw";
-        vehicleClass = "TTT_Vehicles_Bw";
-        crew = "TTT_Weiss1_Bw_Tropentarn";
+        faction = "TTT_faction_BW";
+        vehicleClass = "TTT_Vehicles_BW";
+        crew = "TTT_White_1_BW_Tropentarn";
         displayName = "TTT Sanitaetsfahrzeug (BW Tropentarn)";
         typicalCargo[] = {};
 
@@ -142,9 +142,9 @@
     class TTT_LUV_LOG_BW_Tropentarn : rhsusf_m998_w_2dr {
         author = "$STR_Tactical_Training_Team";
         scope = 2;
-        faction = "TTT_faction_Bw";
-        vehicleClass = "TTT_Vehicles_Bw";
-        crew = "TTT_Schwarz1_Bw_Tropentarn";
+        faction = "TTT_faction_BW";
+        vehicleClass = "TTT_Vehicles_BW";
+        crew = "TTT_Black_1_BW_Tropentarn";
         displayName = "TTT Transporter leicht (offen) (BW Tropentarn)";
         typicalCargo[] = {};
         ace_cargo_space = 8;
@@ -162,16 +162,16 @@
 	
 	/*
 	#############################################################
-	### TTT Schützenpanzer
+	### TTT Schï¿½tzenpanzer
 	#############################################################
 	*/
 	
     class TTT_IFV_BW_Tropentarn : BWA3_Puma_Tropen {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
-		faction = "TTT_faction_Bw";
-		vehicleClass = "TTT_Vehicles_Bw";
-		crew = "TTT_Bronze1_Bw_Tropentarn";
+		faction = "TTT_faction_BW";
+		vehicleClass = "TTT_Vehicles_BW";
+		crew = "TTT_Bronze_1_BW_Tropentarn";
 		displayName = "TTT Schuetzenpanzer (BW Tropentarn)";
 		typicalCargo[] = {};
 		
@@ -195,9 +195,9 @@
     class TTT_MBT_BW_Tropentarn : BWA3_Leopard2A6M_Tropen {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
-		faction = "TTT_faction_Bw";
-		vehicleClass = "TTT_Vehicles_Bw";
-		crew = "TTT_Bronze1_Bw_Tropentarn";
+		faction = "TTT_faction_BW";
+		vehicleClass = "TTT_Vehicles_BW";
+		crew = "TTT_Bronze_1_BW_Tropentarn";
 		displayName = "TTT Kampfpanzer (BW Tropentarn)";
 		typicalCargo[] = {};
 		
@@ -221,9 +221,9 @@
     class TTT_Heli_CAS_BW_Tropentarn : BWA3_Tiger_RMK_Universal {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
-		faction = "TTT_faction_Bw";
-		vehicleClass = "TTT_Vehicles_Bw";
-		crew = "TTT_Adler1_Bw_Tropentarn";
+		faction = "TTT_faction_BW";
+		vehicleClass = "TTT_Vehicles_BW";
+		crew = "TTT_Adler1_BW_Tropentarn";
 		displayName = "TTT Kampfhelikopter (BW Tropentarn)";
 		typicalCargo[] = {};
 		accuracy=1000;
@@ -249,9 +249,9 @@
     class TTT_Heli_SAR_BW_Tropentarn : NH90Armed {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
-		faction = "TTT_faction_Bw";
-		vehicleClass = "TTT_Vehicles_Bw";
-		crew = "TTT_Weiss3_Bw_Tropentarn";
+		faction = "TTT_faction_BW";
+		vehicleClass = "TTT_Vehicles_BW";
+		crew = "TTT_White_3_BW_Tropentarn";
 		displayName = "TTT Sanitaetshelikopter (BW Tropentarn)";
 		typicalCargo[] = {};
 		
@@ -284,9 +284,9 @@
     class TTT_Heli_Heavy_BW_Tropentarn : CUP_B_CH53E_GER {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
-		faction = "TTT_faction_Bw";
-		vehicleClass = "TTT_Vehicles_Bw";
-		crew = "TTT_Bussard1_Bw_Tropentarn";
+		faction = "TTT_faction_BW";
+		vehicleClass = "TTT_Vehicles_BW";
+		crew = "TTT_Buzzard_1_BW_Tropentarn";
 		displayName = "TTT Logistikhelikopter (BW Tropentarn)";
 		typicalCargo[] = {};
         ace_cargo_space = 16;
@@ -312,9 +312,9 @@
     class TTT_Heli_Medium_BW_Tropentarn : NH90Armed {
         author = "$STR_Tactical_Training_Team";
         scope = 2;
-        faction = "TTT_faction_Bw";
-        vehicleClass = "TTT_Vehicles_Bw";
-        crew = "TTT_Habicht1_Bw_Tropentarn";
+        faction = "TTT_faction_BW";
+        vehicleClass = "TTT_Vehicles_BW";
+        crew = "TTT_Hawk_1_BW_Tropentarn";
         displayName = "TTT Transporthelikopter (BW Tropentarn)";
         typicalCargo[] = {};
         weapons[] = { "CMFlareLauncher" };
@@ -336,15 +336,15 @@
 
     /*
     #############################################################
-    ### TTT Aufklärungsdrohne
+    ### TTT Aufklï¿½rungsdrohne
     #############################################################
     */
 
     class TTT_Drone_BW_Tropentarn : CUP_B_USMC_MQ9 {
         author = "$STR_Tactical_Training_Team";
         scope = 2;
-        faction = "TTT_faction_Bw";
-        vehicleClass = "TTT_Vehicles_Bw";
+        faction = "TTT_faction_BW";
+        vehicleClass = "TTT_Vehicles_BW";
         displayName = "TTT Aufklaerungsdrohne (BW Tropentarn)";
     };
 
@@ -358,10 +358,10 @@
         author = "$STR_Tactical_Training_Team";
         scope = 2;
         scopeCurator = 2;
-        faction = "TTT_faction_Bw";
-        vehicleClass = "TTT_Vehicles_Bw";
+        faction = "TTT_faction_BW";
+        vehicleClass = "TTT_Vehicles_BW";
         displayName = "TTT Kampfjet (BW Tropentarn)";
-        crew = "TTT_Platin1_Bw_Tropentarn";
+        crew = "TTT_Platinum_1_BW_Tropentarn";
         typicalCargo[] = {};
 
 		class TransportWeapons {

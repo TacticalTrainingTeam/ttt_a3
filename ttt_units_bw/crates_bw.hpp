@@ -289,8 +289,8 @@
 		};
 		
 		class TransportBackpacks {
-			backpack_xx(TTT_Backpack_Gefechtssanitaeter_BW_Flecktarn,4);
-			backpack_xx(TTT_Backpack_Gefechtssanitaeter_BW_Tropentarn,4);
+			backpack_xx(TTT_Backpack_SAN_BW_Flecktarn,4);
+			backpack_xx(TTT_Backpack_SAN_BW_Tropentarn,4);
 			backpack_xx(TTT_Backpack_Feldarzt_BW_Tropentarn,4);
 			backpack_xx(TTT_Backpack_Feldarzt_BW_Flecktarn,4);
 		};

@@ -5,7 +5,7 @@
     */
 
 //Truppfuehrer Rucksack
-class TTT_Backpack_Truppfuehrer_BW_Tropentarn : B_AssaultPack_cbr {
+class TTT_Backpack_TL_BW_Tropentarn : B_AssaultPack_cbr {
     displayName = "TTT Truppfuehrer Rucksack (BW Tropentarn)";
     class TransportItems {
         class _xx_ACE_fieldDressing {
@@ -42,7 +42,7 @@ class TTT_Backpack_Truppfuehrer_BW_Tropentarn : B_AssaultPack_cbr {
 };
 
 //Grenadier Rucksack
-class TTT_Backpack_Grenadier_BW_Tropentarn : B_AssaultPack_cbr {
+class TTT_Backpack_GRE_BW_Tropentarn : B_AssaultPack_cbr {
     displayName = "TTT Grenadier Rucksack (BW Tropentarn)";
     class TransportItems {
         class _xx_ACE_fieldDressing {
@@ -187,7 +187,7 @@ class TTT_Backpack_Funkerfac_BW_Tropentarn : tf_rt1523g_big_bwmod_tropen {
 };
 
 //Pionier Rucksack
-class TTT_Backpack_Pionier_BW_Tropentarn : B_Carryall_cbr {
+class TTT_Backpack_PIO_BW_Tropentarn : B_Carryall_cbr {
     displayName = "TTT Pionier Rucksack (BW Tropentarn)";
     class TransportItems {
         class _xx_ACE_fieldDressing {
@@ -228,7 +228,7 @@ class TTT_Backpack_Pionier_BW_Tropentarn : B_Carryall_cbr {
 };
 
 //Gefechtssanitaeter Rucksack
-class TTT_Backpack_Gefechtssanitaeter_BW_Tropentarn : B_Kitbag_cbr {
+class TTT_Backpack_SAN_BW_Tropentarn : B_Kitbag_cbr {
     displayName = "TTT Gefechtssanitaeter Rucksack (BW Tropentarn)";
     class TransportItems {
         class _xx_ACE_fieldDressing {

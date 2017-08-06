@@ -108,12 +108,12 @@
 			<German>TTT Transporthelikopter (US Woodland)</German>
 			<English>TTT Transporthelikopter (US Woodland)</English>
 		</Key>		
-		<Key ID="STR_TTT_Heli_SAR_Us_Desert">
+		<Key ID="STR_TTT_Heli_SAR_US_Desert">
 			<Original>TTT Sanitaetshelikopter (US Desert)</Original>
 			<German>TTT Sanitaetshelikopter (US Desert)</German>
 			<English>TTT Sanitaetshelikopter (US Desert)</English>
 		</Key>
-		<Key ID="STR_TTT_Heli_SAR_Us_Woodland">
+		<Key ID="STR_TTT_Heli_SAR_US_Woodland">
 			<Original>TTT Sanitaetshelikopter (US Woodland)</Original>
 			<German>TTT Sanitaetshelikopter (US Woodland)</German>
 			<English>TTT Sanitaetshelikopter (US Woodland)</English>
@@ -332,7 +332,7 @@
         <German>Trupp Bronze</German>
         <English>Group Bronze</English>
       </Key>
-      <Key ID="STR_TTT_Groups_Platin">
+      <Key ID="STR_TTT_Groups_Platinum">
         <Original>Group Platin</Original>
         <German>Trupp Platin</German>
         <English>Group Platin</English>

@@ -7,9 +7,9 @@
 class TTT_IMV_MG_US_Desert : UK3CB_BAF_Coyote_Passenger_L111A1_D {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
-    faction = "TTT_faction_Us";
-    vehicleClass = "TTT_Vehicles_Us";
-    crew = "TTT_Schwarz1_Us_Desert";
+    faction = "TTT_faction_US";
+    vehicleClass = "TTT_Vehicles_US";
+    crew = "TTT_Black_1_US_Desert";
     displayName = "$STR_TTT_IMV_MG_US_Desert";
     typicalCargo[] = {};
 
@@ -28,9 +28,9 @@ class TTT_IMV_MG_US_Desert : UK3CB_BAF_Coyote_Passenger_L111A1_D {
 class TTT_IMV_GL_US_Desert : UK3CB_BAF_Coyote_Passenger_L134A1_D {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
-    faction = "TTT_faction_Us";
-    vehicleClass = "TTT_Vehicles_Us";
-    crew = "TTT_Schwarz1_Us_Desert";
+    faction = "TTT_faction_US";
+    vehicleClass = "TTT_Vehicles_US";
+    crew = "TTT_Black_1_US_Desert";
     displayName = "$STR_TTT_IMV_GL_US_Desert";
     typicalCargo[] = {};
 
@@ -54,8 +54,8 @@ class TTT_IMV_GL_US_Desert : UK3CB_BAF_Coyote_Passenger_L134A1_D {
 class TTT_LUV_COM_US_Desert : rhsusf_m998_d_4dr_fulltop {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
-    faction = "TTT_faction_Us";
-    vehicleClass = "TTT_Vehicles_Us";
+    faction = "TTT_faction_US";
+    vehicleClass = "TTT_Vehicles_US";
 	hiddenSelectionsTextures[] = {
 		"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa",
 		"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa",
@@ -68,7 +68,7 @@ class TTT_LUV_COM_US_Desert : rhsusf_m998_d_4dr_fulltop {
 		"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa",
 		"ttt_a3\ttt_vehicles_us\data\oplfahrzeug_unitdecals.paa",
 		"rhsusf\addons\rhsusf_hmmwv\unitdecals\a12^_co.paa"};		   
-	crew = "TTT_Gelb1_Us_Desert";
+	crew = "TTT_Yellow_1_US_Desert";
     displayName = "$STR_TTT_LUV_COM_US_Desert";
     typicalCargo[] = {};
 
@@ -92,9 +92,9 @@ class TTT_LUV_COM_US_Desert : rhsusf_m998_d_4dr_fulltop {
 class TTT_LUV_SAR_US_Desert : rhsusf_m998_d_2dr_fulltop {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
-    faction = "TTT_faction_Us";
-    vehicleClass = "TTT_Vehicles_Us";
-    crew = "TTT_Weiss1_Us_Desert";
+    faction = "TTT_faction_US";
+    vehicleClass = "TTT_Vehicles_US";
+    crew = "TTT_White_1_US_Desert";
     displayName = "$STR_TTT_LUV_SAR_US_Desert";
     typicalCargo[] = {};
 
@@ -127,9 +127,9 @@ class TTT_LUV_SAR_US_Desert : rhsusf_m998_d_2dr_fulltop {
 class TTT_LUV_LOG_US_Desert : rhsusf_m998_d_2dr {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
-    faction = "TTT_faction_Us";
-    vehicleClass = "TTT_Vehicles_Us";
-    crew = "TTT_Schwarz1_Us_Desert";
+    faction = "TTT_faction_US";
+    vehicleClass = "TTT_Vehicles_US";
+    crew = "TTT_Black_1_US_Desert";
     displayName = "TTT Transporter leicht (offen) (US Desert)";
     typicalCargo[] = {};
     ace_cargo_space = 8;
@@ -147,16 +147,16 @@ class TTT_LUV_LOG_US_Desert : rhsusf_m998_d_2dr {
 
 /*
 #############################################################
-### TTT Schützenpanzer
+### TTT Schï¿½tzenpanzer
 #############################################################
 */
 
 class TTT_IFV_US_Desert : RHS_M2A3_BUSKIII {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
-    faction = "TTT_faction_Us";
-    vehicleClass = "TTT_Vehicles_Us";
-    crew = "TTT_Bronze1_Us_Desert";
+    faction = "TTT_faction_US";
+    vehicleClass = "TTT_Vehicles_US";
+    crew = "TTT_Bronze_1_US_Desert";
     displayName = "$STR_TTT_IFV_US_Desert";
     typicalCargo[] = {};
     damageResistance = 0.02;
@@ -181,12 +181,12 @@ class TTT_IFV_US_Desert : RHS_M2A3_BUSKIII {
 #############################################################
 */
 
-class TTT_MBT_US_Desert : rhsusf_m1a2sep1tuskiid_Usarmy {
+class TTT_MBT_US_Desert : rhsusf_m1a2sep1tuskiid_USarmy {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
-    faction = "TTT_faction_Us";
-    vehicleClass = "TTT_Vehicles_Us";
-    crew = "TTT_Bronze1_Us_Desert";
+    faction = "TTT_faction_US";
+    vehicleClass = "TTT_Vehicles_US";
+    crew = "TTT_Bronze_1_US_Desert";
     displayName = "$STR_TTT_MBT_US_Desert";
     typicalCargo[] = {};
 
@@ -210,14 +210,14 @@ class TTT_MBT_US_Desert : rhsusf_m1a2sep1tuskiid_Usarmy {
 class TTT_Heli_CAS_US_Desert : RHS_AH64D {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
-    faction = "TTT_faction_Us";
-    vehicleClass = "TTT_Vehicles_Us";
+    faction = "TTT_faction_US";
+    vehicleClass = "TTT_Vehicles_US";
 	
 	hiddenSelectionsTextures[] = {
 		"\rhsusf\addons\rhsusf_a2port_air\ah64\data\ah64d_body_co.paa",
 		"\rhsusf\addons\rhsusf_a2port_air\ah64\data\ah64d_details_co.paa",
 		"\ttt_a3\ttt_vehicles_us\data\kampfhelikopter_camo3.paa"};	
-    crew = "TTT_Adler1_Us_Desert";
+    crew = "TTT_Adler1_US_Desert";
     displayName = "TTT Kampfhelikopter (US Desert)";
     typicalCargo[] = {};
     accuracy = 1000;
@@ -243,10 +243,10 @@ class TTT_Heli_CAS_US_Desert : RHS_AH64D {
 class TTT_Heli_SAR_US_Desert : RHS_UH60M {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
-    faction = "TTT_faction_Us";
-    vehicleClass = "TTT_Vehicles_Us";
-    crew = "TTT_Weiss3_Us_Desert";
-    displayName = "$STR_TTT_Heli_SAR_Us_Desert";
+    faction = "TTT_faction_US";
+    vehicleClass = "TTT_Vehicles_US";
+    crew = "TTT_White_3_US_Desert";
+    displayName = "$STR_TTT_Heli_SAR_US_Desert";
     typicalCargo[] = {};
 	hiddenSelectionsTextures[] = {
 	"rhsusf\addons\rhsusf_a2port_air\uh60m\data\uh60m_fuselage_co.paa",
@@ -282,14 +282,14 @@ class TTT_Heli_SAR_US_Desert : RHS_UH60M {
 class TTT_Heli_Heavy_US_Desert : RHS_CH_47F {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
-    faction = "TTT_faction_Us";
-    vehicleClass = "TTT_Vehicles_Us";
+    faction = "TTT_faction_US";
+    vehicleClass = "TTT_Vehicles_US";
 	hiddenSelectionsTextures[] = {
 		"rhsusf\addons\rhsusf_a2port_air\ch47\data\ch47_ext_1_light_co.paa",
 		"\ttt_a3\ttt_vehicles_us\data\logheli_desert_camo2.paa",
 		"\ttt_a3\ttt_vehicles_us\data\logheli_camo3.paa",
 		"rhsusf\addons\rhsusf_a2port_air\ch47\data\ch47_ext_light_mlod_co.paa"};		
-    crew = "TTT_Bussard1_Us_Desert";
+    crew = "TTT_Buzzard_1_US_Desert";
     displayName = "TTT Logistikhelikopter (US Desert)";
     typicalCargo[] = {};
     ace_cargo_space = 16;
@@ -316,9 +316,9 @@ class TTT_Heli_Heavy_US_Desert : RHS_CH_47F {
 class TTT_Heli_Medium_US_Desert : RHS_UH60M {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
-    faction = "TTT_faction_Us";
-    vehicleClass = "TTT_Vehicles_Us";
-    crew = "TTT_Habicht1_Us_Desert";
+    faction = "TTT_faction_US";
+    vehicleClass = "TTT_Vehicles_US";
+    crew = "TTT_Hawk_1_US_Desert";
     displayName = "$STR_TTT_Heli_Medium_US_Desert";
     typicalCargo[] = {};
     ace_cargo_space = 8;
@@ -337,14 +337,14 @@ class TTT_Heli_Medium_US_Desert : RHS_UH60M {
 
 /*
 #############################################################
-### TTT Aufklärungsdrohne
+### TTT Aufklï¿½rungsdrohne
 #############################################################
 */
 
 class TTT_Drone_US_Desert : CUP_B_USMC_MQ9 {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
-    faction = "TTT_faction_Us";
-    vehicleClass = "TTT_Vehicles_Us";
+    faction = "TTT_faction_US";
+    vehicleClass = "TTT_Vehicles_US";
     displayName = "TTT Aufklaerungsdrohne (US Desert)";
 };

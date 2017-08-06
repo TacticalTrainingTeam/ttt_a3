@@ -17,19 +17,19 @@
 						position[] = {0, 0, 0};
 						rank = Colonel;
 						side = 1;
-						vehicle = "TTT_Gelb1_US_Desert";
+						vehicle = "TTT_Yellow_1_US_Desert";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Major;
-						vehicle = "TTT_Gelb2_US_Desert";
+						vehicle = "TTT_Yellow_2_US_Desert";
 					};
 						
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Captain;
-						vehicle = "TTT_Gelb3_US_Desert";
+						vehicle = "TTT_Yellow_3_US_Desert";
 					};
 				};
 				
@@ -44,37 +44,37 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Grau1_US_Desert";
+						vehicle = "TTT_Grey_1_US_Desert";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Grau2_US_Desert";
+						vehicle = "TTT_Grey_2_US_Desert";
 					};
 						
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Lieutenant;
-						vehicle = "TTT_Grau3_US_Desert";
+						vehicle = "TTT_Grey_3_US_Desert";
 					};
 						
 					class Unit3 : Unit0 {
 						position[] = {0, -15, 0};
 						rank = Sergeant;
-						vehicle = "TTT_Grau4_US_Desert";
+						vehicle = "TTT_Grey_4_US_Desert";
 					};
 					
 					class Unit4 : Unit0 {
 						position[] = {0, -20, 0};
 						rank = Corporal;
-						vehicle = "TTT_Grau5_US_Desert";
+						vehicle = "TTT_Grey_5_US_Desert";
 					};
 					
 					class Unit5 : Unit0 {
 						position[] = {0, -25, 0};
 						rank = Private;
-						vehicle = "TTT_Grau6_US_Desert";
+						vehicle = "TTT_Grey_6_US_Desert";
 					};
 				};
 				
@@ -89,37 +89,37 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Gold1_US_Desert";
+						vehicle = "TTT_Gold_1_US_Desert";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Gold2_US_Desert";
+						vehicle = "TTT_Gold_2_US_Desert";
 					};
 					
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Lieutenant;
-						vehicle = "TTT_Gold3_US_Desert";
+						vehicle = "TTT_Gold_3_US_Desert";
 					};
 						
 					class Unit3 : Unit0 {
 						position[] = {0, -15, 0};
 						rank = Sergeant;
-						vehicle = "TTT_Gold4_US_Desert";
+						vehicle = "TTT_Gold_4_US_Desert";
 					};
 					
 					class Unit4 : Unit0 {
 						position[] = {0, -20, 0};
 						rank = Corporal;
-						vehicle = "TTT_Gold5_US_Desert";
+						vehicle = "TTT_Gold_5_US_Desert";
 					};
 					
 					class Unit5 : Unit0 {
 						position[] = {0, -25, 0};
 						rank = Private;
-						vehicle = "TTT_Gold6_US_Desert";
+						vehicle = "TTT_Gold_6_US_Desert";
 					};					
 				};
 				
@@ -134,19 +134,19 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Gruen1_US_Desert";
+						vehicle = "TTT_Green_1_US_Desert";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Gruen2_US_Desert";
+						vehicle = "TTT_Green_2_US_Desert";
 					};
 						
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Lieutenant;
-						vehicle = "TTT_Gruen3_US_Desert";
+						vehicle = "TTT_Green_3_US_Desert";
 					};				
 				};
 				
@@ -161,19 +161,19 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Braun1_US_Desert";
+						vehicle = "TTT_Brown_1_US_Desert";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Braun2_US_Desert";
+						vehicle = "TTT_Brown_2_US_Desert";
 					};
 						
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Lieutenant;
-						vehicle = "TTT_Braun3_US_Desert";
+						vehicle = "TTT_Brown_3_US_Desert";
 					};				
 				};
 				
@@ -188,37 +188,37 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Schwarz1_US_Desert";
+						vehicle = "TTT_Black_1_US_Desert";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Schwarz2_US_Desert";
+						vehicle = "TTT_Black_2_US_Desert";
 					};
 						
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Lieutenant;
-						vehicle = "TTT_Schwarz3_US_Desert";
+						vehicle = "TTT_Black_3_US_Desert";
 					};
 						
 					class Unit3 : Unit0 {
 						position[] = {0, -15, 0};
 						rank = Sergeant;
-						vehicle = "TTT_Schwarz4_US_Desert";
+						vehicle = "TTT_Black_4_US_Desert";
 					};
 						
 					class Unit4 : Unit0 {
 						position[] = {0, -20, 0};
 						rank = Corporal;
-						vehicle = "TTT_Schwarz5_US_Desert";
+						vehicle = "TTT_Black_5_US_Desert";
 					};
 					
 					class Unit5 : Unit0 {
 						position[] = {0, -25, 0};
 						rank = Private;
-						vehicle = "TTT_Schwarz6_US_Desert";
+						vehicle = "TTT_Black_6_US_Desert";
 					};
 				};
 				
@@ -233,37 +233,37 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Rot1_US_Desert";
+						vehicle = "TTT_Red_1_US_Desert";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Rot2_US_Desert";
+						vehicle = "TTT_Red_2_US_Desert";
 					};
 						
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Lieutenant;
-						vehicle = "TTT_Rot3_US_Desert";
+						vehicle = "TTT_Red_3_US_Desert";
 					};
 						
 					class Unit3 : Unit0 {
 						position[] = {0, -15, 0};
 						rank = Sergeant;
-						vehicle = "TTT_Rot4_US_Desert";
+						vehicle = "TTT_Red_4_US_Desert";
 					};
 						
 					class Unit4 : Unit0 {
 						position[] = {0, -20, 0};
 						rank = Corporal;
-						vehicle = "TTT_Rot5_US_Desert";
+						vehicle = "TTT_Red_5_US_Desert";
 					};
 					
 					class Unit5 : Unit0 {
 						position[] = {0, -25, 0};
 						rank = Private;
-						vehicle = "TTT_Rot6_US_Desert";
+						vehicle = "TTT_Red_6_US_Desert";
 					};
 				};
 				
@@ -278,37 +278,37 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Bronze1_US_Desert";
+						vehicle = "TTT_Bronze_1_US_Desert";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Bronze2_US_Desert";
+						vehicle = "TTT_Bronze_2_US_Desert";
 					};
 						
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Lieutenant;
-						vehicle = "TTT_Bronze3_US_Desert";
+						vehicle = "TTT_Bronze_3_US_Desert";
 					};
 					
 					class Unit3 : Unit0 {
 						position[] = {0, -15, 0};
 						rank = Sergeant;
-						vehicle = "TTT_Bronze4_US_Desert";
+						vehicle = "TTT_Bronze_4_US_Desert";
 					};
 						
 					class Unit4 : Unit0 {
 						position[] = {0, -20, 0};
 						rank = Corporal;
-						vehicle = "TTT_Bronze5_US_Desert";
+						vehicle = "TTT_Bronze_5_US_Desert";
 					};
 					
 					class Unit5 : Unit0 {
 						position[] = {0, -25, 0};
 						rank = Private;
-						vehicle = "TTT_Bronze6_US_Desert";
+						vehicle = "TTT_Bronze_6_US_Desert";
 					};					
 				};
 				
@@ -323,37 +323,37 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Blau1_US_Desert";
+						vehicle = "TTT_Blue_1_US_Desert";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Blau2_US_Desert";
+						vehicle = "TTT_Blue_2_US_Desert";
 					};
 						
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Lieutenant;
-						vehicle = "TTT_Blau3_US_Desert";
+						vehicle = "TTT_Blue_3_US_Desert";
 					};
 						
 					class Unit3 : Unit0 {
 						position[] = {0, -15, 0};
 						rank = Sergeant;
-						vehicle = "TTT_Blau4_US_Desert";
+						vehicle = "TTT_Blue_4_US_Desert";
 					};
 						
 					class Unit4 : Unit0 {
 						position[] = {0, -20, 0};
 						rank = Corporal;
-						vehicle = "TTT_Blau5_US_Desert";
+						vehicle = "TTT_Blue_5_US_Desert";
 					};
 					
 					class Unit5 : Unit0 {
 						position[] = {0, -25, 0};
 						rank = Private;
-						vehicle = "TTT_Blau6_US_Desert";
+						vehicle = "TTT_Blue_6_US_Desert";
 					};
 				};
 				
@@ -368,37 +368,37 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Violett1_US_Desert";
+						vehicle = "TTT_Violet_1_US_Desert";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Violett2_US_Desert";
+						vehicle = "TTT_Violet_2_US_Desert";
 					};
 						
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Lieutenant;
-						vehicle = "TTT_Violett3_US_Desert";
+						vehicle = "TTT_Violet_3_US_Desert";
 					};
 						
 					class Unit3 : Unit0 {
 						position[] = {0, -15, 0};
 						rank = Sergeant;
-						vehicle = "TTT_Violett4_US_Desert";
+						vehicle = "TTT_Violet_4_US_Desert";
 					};
 						
 					class Unit4 : Unit0 {
 						position[] = {0, -20, 0};
 						rank = Corporal;
-						vehicle = "TTT_Violett5_US_Desert";
+						vehicle = "TTT_Violet_5_US_Desert";
 					};
 					
 					class Unit5 : Unit0 {
 						position[] = {0, -25, 0};
 						rank = Private;
-						vehicle = "TTT_Violett6_US_Desert";
+						vehicle = "TTT_Violet_6_US_Desert";
 					};
 				};
 				
@@ -413,25 +413,25 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Weiss1_US_Desert";
+						vehicle = "TTT_White_1_US_Desert";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Weiss2_US_Desert";
+						vehicle = "TTT_White_2_US_Desert";
 					};
 						
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Lieutenant;
-						vehicle = "TTT_Weiss3_US_Desert";
+						vehicle = "TTT_White_3_US_Desert";
 					};
 					
 					class Unit3 : Unit0 {
 						position[] = {0, -15, 0};
 						rank = Sergeant;
-						vehicle = "TTT_Weiss4_US_Desert";
+						vehicle = "TTT_White_4_US_Desert";
 					};
 				};
 				
@@ -446,13 +446,13 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Platin1_US_Desert";
+						vehicle = "TTT_Platinum_1_US_Desert";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Platin2_US_Desert";
+						vehicle = "TTT_Platinum_2_US_Desert";
 					};
 				};
 				
@@ -467,37 +467,37 @@
 						position[] = {0, 0, 0};
 						rank = Major;
 						side = 1;
-						vehicle = "TTT_Silber1_US_Desert";
+						vehicle = "TTT_Silver_1_US_Desert";
 					};
 						
 					class Unit1 : Unit0 {
 						position[] = {0, -5, 0};
 						rank = Captain;
-						vehicle = "TTT_Silber2_US_Desert";
+						vehicle = "TTT_Silver_2_US_Desert";
 					};
 
 					class Unit2 : Unit0 {
 						position[] = {0, -10, 0};
 						rank = Lieutenant;
-						vehicle = "TTT_Silber3_US_Desert";
+						vehicle = "TTT_Silver_3_US_Desert";
 					};
 						
 					class Unit3 : Unit0 {
 						position[] = {0, -15, 0};
 						rank = Sergeant;
-						vehicle = "TTT_Silber4_US_Desert";
+						vehicle = "TTT_Silver_4_US_Desert";
 					};
 						
 					class Unit4 : Unit0 {
 						position[] = {0, -20, 0};
 						rank = Corporal;
-						vehicle = "TTT_Silber5_US_Desert";
+						vehicle = "TTT_Silver_5_US_Desert";
 					};
 					
 					class Unit5 : Unit0 {
 						position[] = {0, -25, 0};
 						rank = Private;
-						vehicle = "TTT_Silber6_US_Desert";
+						vehicle = "TTT_Silver_6_US_Desert";
 					};					
 				};
 			};	
