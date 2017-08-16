@@ -1,6 +1,6 @@
 class CfgPatches {
 	class ttt_berets {
-		requiredAddons[] = {ttt_main};
+		requiredAddons[] = {ttt_main, Characters_f_epb, Weapons_F};
 		units[] = {
 			"TTT_Berets_Blue_Item",
 			"TTT_Berets_Brown_Item",

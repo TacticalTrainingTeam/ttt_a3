@@ -51,7 +51,7 @@
 	#############################################################
 	*/
 	
-	class TTT_LUV_COM_US_Woodland : TTT_Oplfahrzeug_US_Desert {
+	class TTT_LUV_COM_US_Woodland : TTT_LUV_COM_US_Desert {
 		author = "$STR_Tactical_Training_Team";
 		
 		hiddenSelectionsTextures[] = {
@@ -75,7 +75,7 @@
 	#############################################################
 	*/
 	
-	class TTT_LUV_SAR_US_Woodland : TTT_Sanitaetsfahrzeug_US_Desert {
+	class TTT_LUV_SAR_US_Woodland : TTT_LUV_SAR_US_Desert {
 		author = "$STR_Tactical_Training_Team";
 		HiddenSelectionsTextures[] = {
 			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa",
@@ -90,7 +90,7 @@
 			""};		
 		
 		crew = "TTT_White_1_US_Woodland";
-		displayName = "$STR_TTT_LUV_SAR_US_Woodland"
+		displayName = "$STR_TTT_LUV_SAR_US_Woodland";
 	};
 	
 	/*
@@ -99,7 +99,7 @@
 	#############################################################
 	*/
 	
-	class TTT_LUV_LOG_US_Woodland : TTT_TransporterLeichtOffen_US_Desert {
+	class TTT_LUV_LOG_US_Woodland : TTT_LUV_LOG_US_Desert {
 		author = "$STR_Tactical_Training_Team";
 		HiddenSelectionsTextures[] = {
 			"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_w_co.paa",
@@ -122,7 +122,7 @@
 	#############################################################
 	*/
 
-	class TTT_IFV_US_Woodland : TTT_Schuetzenpanzer_US_Desert {
+	class TTT_IFV_US_Woodland : TTT_IFV_US_Desert {
 		author = "$STR_Tactical_Training_Team";
 		hiddenSelectionsTextures[] = {
 			"\rhsusf\addons\rhsusf_a2port_armor\M2A2_Bradley\data\woodland\base_buskiii_co.paa",
@@ -140,7 +140,7 @@
 	#############################################################
 	*/
 	
-	class TTT_MBT_US_Woodland : TTT_Kampfpanzer_US_Desert {
+	class TTT_MBT_US_Woodland : TTT_MBT_US_Desert {
 		author = "$STR_Tactical_Training_Team";
 		hiddenSelectionsTextures[] = {
 			"rhsusf\addons\rhsusf_m1a2\data\rhsusf_m1a2sepv1tuskii_wd_01_co.paa",
@@ -160,7 +160,7 @@
 	#############################################################
 	*/
 	
-	class TTT_Heli_CAS_US_Woodland : TTT_Kampfhelikopter_US_Desert {
+	class TTT_Heli_CAS_US_Woodland : TTT_Heli_CAS_US_Desert {
 		author = "$STR_Tactical_Training_Team";
 		crew = "TTT_Adler1_US_Woodland";
 		displayName = "$STR_TTT_Heli_CAS_US_Woodland";
@@ -172,7 +172,7 @@
 	#############################################################
 	*/	
 	
-	class TTT_Heli_SAR_US_Woodland : TTT_Sanitaetshelikopter_US_Desert {
+	class TTT_Heli_SAR_US_Woodland : TTT_Heli_SAR_US_Desert {
 		author = "$STR_Tactical_Training_Team";
 		crew = "TTT_White_3_US_Woodland";
 		displayName = "$STR_TTT_Heli_SAR_US_Woodland";
@@ -184,7 +184,7 @@
 	#############################################################
 	*/
 	
-	class TTT_Heli_Heavy_US_Woodland : TTT_Logistikhelikopter_US_Desert {
+	class TTT_Heli_Heavy_US_Woodland : TTT_Heli_Heavy_US_Desert {
 		author = "$STR_Tactical_Training_Team";
 	hiddenSelectionsTextures[] = {
 		"rhsusf\addons\rhsusf_a2port_air\ch47\data\ch47_ext_1_co.paa",
@@ -201,7 +201,7 @@
     #############################################################
     */
 
-    class TTT_Heli_Medium_US_Woodland : TTT_Transporthelikopter_US_Desert {
+    class TTT_Heli_Medium_US_Woodland : TTT_Heli_Medium_US_Desert {
         author = "$STR_Tactical_Training_Team";
         crew = "TTT_Hawk_1_US_Woodland";
         displayName = "$STR_TTT_Heli_Medium_US_Woodland";
@@ -213,7 +213,7 @@
 	#############################################################
 	*/
 	
-	class TTT_Drone_US_Woodland : TTT_Aufklaerungsdrohne_US_Desert {
+	class TTT_Drone_US_Woodland : TTT_Drone_US_Desert {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "$STR_TTT_Drone_US_Woodland";
 	};

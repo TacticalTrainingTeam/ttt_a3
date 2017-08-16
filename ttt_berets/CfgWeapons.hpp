@@ -97,43 +97,33 @@
 	};
 	
 	//OLD Classnames
-	class TTT_Berets_Blue : TTT_Berets_Blue {
-		author = "$STR_Tactical_Training_Team";
+	class TTT_Berets_Blau : TTT_Berets_Blue {
 		scope = 0;
 	};	
-	class TTT_Berets_Brown : TTT_Berets_Brown {
-		author = "$STR_Tactical_Training_Team";
+	class TTT_Berets_Braun : TTT_Berets_Brown {
 		scope = 0;
 	};	
-	class TTT_Berets_Yellow : TTT_Berets_Yellow {
-		author = "$STR_Tactical_Training_Team";
+	class TTT_Berets_Gelb : TTT_Berets_Yellow {
 		scope = 0;
 	};
-	class TTT_Berets_Grey : TTT_Berets_Grey {
-		author = "$STR_Tactical_Training_Team";
+	class TTT_Berets_Grau : TTT_Berets_Grey {
 		scope = 0;
 	};
-	class TTT_Berets_Green : TTT_Berets_Green {
-		author = "$STR_Tactical_Training_Team";
+	class TTT_Berets_Gruen : TTT_Berets_Green {
 		scope = 0;
 	};
-	class TTT_Berets_Red : TTT_Berets_Red {
-		author = "$STR_Tactical_Training_Team";
+	class TTT_Berets_Rot : TTT_Berets_Red {
 		scope = 0;
 	};
-	class TTT_Berets_Black : TTT_Berets_Black {
-		author = "$STR_Tactical_Training_Team";
+	class TTT_Berets_Schwarz : TTT_Berets_Black {
 		scope = 0;
 	};
-	class TTT_Berets_Silver : TTT_Berets_Silver {
-		author = "$STR_Tactical_Training_Team";
+	class TTT_Berets_Silber : TTT_Berets_Silver {
 		scope = 0;
 	};
-	class TTT_Berets_Violet : TTT_Berets_Purple {
-		author = "$STR_Tactical_Training_Team";
+	class TTT_Berets_Violett : TTT_Berets_Purple {
 		scope = 0;
 	};
-	class TTT_Berets_White : TTT_Berets_White {
-            author = "$STR_Tactical_Training_Team";
+	class TTT_Berets_Weiss : TTT_Berets_White {
 		scope = 0;
 	};

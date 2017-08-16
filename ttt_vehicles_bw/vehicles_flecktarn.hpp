@@ -199,7 +199,7 @@
     #############################################################
     */
 
-    class TTT_Drone_BWFlecktarn : TTT_Drone_BWTropentarn {
+    class TTT_Drone_BWFlecktarn : TTT_Drone_BW_Tropentarn {
         author = "$STR_Tactical_Training_Team";
         displayName = "TTT Aufklaerungsdrohne (BW Flecktarn)";
     };
