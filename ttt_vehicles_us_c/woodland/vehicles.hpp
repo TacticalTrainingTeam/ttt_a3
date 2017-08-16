@@ -4,21 +4,45 @@
 	#############################################################
 	*/
 	
-	class TTT_Truppfahrzeug_Mg_Us_Woodland : TTT_Truppfahrzeug_Mg_Us_Desert {
+	class TTT_Truppfahrzeug_Mg_Us_Woodland : UK3CB_BAF_Coyote_Passenger_L111A1_W {
 		author = "Tactical Training Team";
-		hiddenSelectionsTextures[] = {"\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\data\Jackal_base_woodlnd_co.paa","\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\data\Jackal_mount_woodlnd_co.paa","\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\data\Jackal_adds_woodlnd_co.paa","","",""};
-		model = "\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\Coyote_L111A1_passenger_w";
+		scope = 2;
+		faction = "TTT_faction_Us";
+		vehicleClass = "TTT_Vehicles_Us";
 		crew = "TTT_Schwarz1_Us_Woodland";
 		displayName = "TTT Truppfahrzeug MG (US Woodland)";
+		typicalCargo[] = {};
+
+		class TransportWeapons {
+		};
+		class TransportItems {
+			item_xx(ToolKit,1);
+		};
+		class TransportMagazines {
+		};
+		class TransportBackpacks {
+		};		
 	};
 	
 	
-	class TTT_Truppfahrzeug_Gl_Us_Woodland : TTT_Truppfahrzeug_Gl_Us_Desert {
+	class TTT_Truppfahrzeug_Gl_Us_Woodland : UK3CB_BAF_Coyote_Passenger_L134A1_W {
 		author = "Tactical Training Team";
-		hiddenSelectionsTextures[] = {"\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\data\Jackal_base_woodlnd_co.paa","\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\data\Jackal_mount_woodlnd_co.paa","\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\data\Jackal_adds_woodlnd_co.paa","","",""};
-		model = "\UK3CB_BAF_Vehicles\addons\UK3CB_BAF_Vehicles_Coyote_Jackal\Coyote_L134A1_passenger_w";
+		scope = 2;
+		faction = "TTT_faction_Us";
+		vehicleClass = "TTT_Vehicles_Us";
 		crew = "TTT_Schwarz1_Us_Woodland";
 		displayName = "TTT Truppfahrzeug GL (US Woodland)";
+		typicalCargo[] = {};
+
+		class TransportWeapons {
+		};
+		class TransportItems {
+			item_xx(ToolKit,1);
+		};
+		class TransportMagazines {
+		};
+		class TransportBackpacks {
+		};		
 	};
 	
 	/*
