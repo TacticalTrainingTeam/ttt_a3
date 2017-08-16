@@ -20,7 +20,7 @@ class CfgPatches {
 class CfgVehicleClasses {
 	class TTT_Vehicles_PMC {
 		displayName = "$STR_TTT_Vehilce_PMC";	//In-game name
-		priority = 24; 							// How far down it is on the menu
+		priority = 25; 							// How far down it is on the menu
 	};
 };
 
