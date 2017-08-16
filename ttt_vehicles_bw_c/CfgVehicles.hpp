@@ -18,7 +18,7 @@ class CfgVehicles {
 	class rhsusf_m998_d_2dr_fulltop;
 	class rhsusf_m998_w_2dr;
     class CUP_B_USMC_MQ9;
-    class EAWS_EF2000_GER_SS;
+    class FIR_F16C_Standard;
 	class RHS_UH60M;
 	
 	#include "tropentarn\vehicles.hpp"

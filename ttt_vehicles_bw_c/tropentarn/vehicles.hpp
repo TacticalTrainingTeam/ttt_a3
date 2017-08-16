@@ -336,7 +336,7 @@
     #############################################################
     */
 
-    class TTT_Kampfjet_Bw_Tropentarn : EAWS_EF2000_GER_SS {
+    class TTT_Kampfjet_Bw_Tropentarn : FIR_F16C_Standard {
         author = "Tactical Training Team";
         scope = 2;
         scopeCurator = 2;
@@ -345,7 +345,6 @@
         displayName = "TTT Kampfjet (BW Tropentarn)";
         crew = "TTT_Platin1_Bw_Tropentarn";
         typicalCargo[] = {};
-        hiddenSelectionsTextures[] = { "\ttt_a3\ttt_vehicles_bw\tropentarn\kampfjet\camo1_co.paa", "", "", "", "", "", "" };
 
 		class TransportWeapons {
 		};
