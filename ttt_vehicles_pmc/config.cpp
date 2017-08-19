@@ -6,7 +6,7 @@ class CfgPatches {
 		units[] = {	"TTT_IMV_MG_PMC",
 					"TTT_IMV_TOW_PMC", 
 					"TTT_IMV_AA_PMC",
-					"TTT_IFV_PMC",
+					"TTT_APC_IFV_PMC",
 					"TTT_LUV_LOG_PMC",					
 					"TTT_Heli_Heavy_PMC",
 					"TTT_Heli_Medium_PMC",

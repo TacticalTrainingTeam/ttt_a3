@@ -49,6 +49,7 @@ class TTT_IMV_AA_PMC : CUP_B_HMMWV_Avenger_USMC {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     faction = "TTT_faction_PMC";
+	editorSubcategory = "EdSubcat_Cars";
     vehicleClass = "TTT_Vehicles_PMC";
     crew = "B_Soldier_F";
     displayName = "$STR_TTT_IMV_AA_PMC";
@@ -99,10 +100,11 @@ class TTT_LUV_LOG_PMC : rhsusf_m998_w_s_2dr_fulltop {
 #############################################################
 */
 
-class TTT_IFV_PMC : rhsusf_M1117_W {
+class TTT_APC_IFV_PMC : rhsusf_M1117_W {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     faction = "TTT_faction_PMC";
+	editorSubcategory = "EdSubcat_APCs";
     vehicleClass = "TTT_Vehicles_PMC";
     crew = "B_Soldier_F";
     displayName = "$STR_TTT_IFV_PMC";
@@ -129,6 +131,7 @@ class TTT_Heli_Heavy_PMC : B_T_VTOL_01_vehicle_F {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     faction = "TTT_faction_PMC";
+	editorSubcategory = "EdSubcat_Helicopters";
     vehicleClass = "TTT_Vehicles_PMC";
     crew = "B_Helipilot_F";
     displayName = "$STR_TTT_Heli_Heavy_PMC";
@@ -211,10 +214,10 @@ class TTT_Heli_Light_PMC : RHS_MELB_MH6M {
         author = "$STR_Tactical_Training_Team";
         scope = 2;
         scopeCurator = 2;
-        faction = "TTT_faction_BW";
+        faction = "TTT_faction_PMC";
         vehicleClass = "TTT_Vehicles_PMC";
         displayName = "$STR_TTT_CAS_PMC";
-        crew = "TTT_Platinum_1_US_Tropentarn";
+		crew = "B_pilot_F";
         typicalCargo[] = {};
 
 		class TransportWeapons {
