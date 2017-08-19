@@ -1,6 +1,4 @@
 class CfgWeapons {
-    class UniformBase;
-    class U_B_CombatUniform_mcam : UniformBase{ class ItemInfo; };	// External class reference
 
     class H_HelmetB_plain_mcamo;
     class H_HelmetSpecB : H_HelmetB_plain_mcamo{ class ItemInfo; };	// External class reference

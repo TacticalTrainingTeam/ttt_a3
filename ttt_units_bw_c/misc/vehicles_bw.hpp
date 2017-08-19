@@ -14,6 +14,7 @@ class TTT_Base_Bw : B_Soldier_base_F {
     faction = "TTT_faction_Bw";
     vehicleClass = "TTT_Template_Bw";
     uniformAccessories[] = {};
+	uniformClass = "TTT_Uniform_Base_Bw";	
     nakedUniform = "U_BasicBody";
     hiddenSelections[] = { "Camo", "insignia" }; //Camo = Standardskin der Uniform; insignia = Rangabzeichen (linker Arm);
     items[] = {};
