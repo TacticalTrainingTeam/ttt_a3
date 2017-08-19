@@ -31,7 +31,7 @@ class CfgVehicles {
     class CUP_B_HMMWV_Avenger_USMC;
     class CUP_B_HMMWV_TOW_USMC;
     class rhsusf_m1025_w_s_m2;
-    class rhsusf_m998_w_s2dr_fulltop;
+    class rhsusf_m998_w_s_2dr_fulltop;
 	class rhsusf_M1117_W;
 	class RHS_MELB_MH6M;
 	class UK3CB_BAF_Merlin_HC3_24;

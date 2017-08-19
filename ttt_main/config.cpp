@@ -58,7 +58,13 @@ class CfgFactionClasses {
 	class TTT_faction_US {
 		icon = "\ttt_a3\ttt_main\ui\TTT_logo_small_ca.paa";
 		displayName = "$STR_TTT_Faction_US";
-		priority = 1;
+		priority = 2;
 		side = 1;
 	};
+	class TTT_faction_PMC {
+		icon = "\ttt_a3\ttt_main\ui\TTT_logo_small_ca.paa";
+		displayName = "$STR_TTT_Faction_PMC";
+		priority = 3;
+		side = 1;
+	};	
 };

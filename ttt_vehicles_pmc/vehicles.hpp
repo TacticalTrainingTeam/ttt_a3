@@ -72,7 +72,7 @@ class TTT_IMV_AA_PMC : CUP_B_HMMWV_Avenger_USMC {
 #############################################################
 */
 
-class TTT_LUV_LOG_PMC : rhsusf_m998_w_s2dr_fulltop {
+class TTT_LUV_LOG_PMC : rhsusf_m998_w_s_2dr_fulltop {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     faction = "TTT_faction_PMC";
@@ -212,8 +212,8 @@ class TTT_Heli_Light_PMC : RHS_MELB_MH6M {
         scope = 2;
         scopeCurator = 2;
         faction = "TTT_faction_BW";
-        vehicleClass = "TTT_Vehicles_BW";
-        displayName = "$STR_TTT_CAS_MC";
+        vehicleClass = "TTT_Vehicles_PMC";
+        displayName = "$STR_TTT_CAS_PMC";
         crew = "TTT_Platinum_1_US_Tropentarn";
         typicalCargo[] = {};
 

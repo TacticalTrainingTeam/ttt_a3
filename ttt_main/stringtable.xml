@@ -78,6 +78,11 @@
 			<German>TTT Fahrzeuge (US)</German>
 			<English>TTT Vehilce (US)</English>
 		</Key>
+		<Key ID="STR_TTT_Vehilce_PMC">
+			<Original>TTT Fahrzeuge (PMC)</Original>
+			<German>TTT Fahrzeuge (PMC)</German>
+			<English>TTT Vehilce (PMC)</English>
+		</Key>		
 		<Key ID="STR_TTT_Drone_US_Desert">
 			<Original>TTT Aufklaerungsdrohne (US Desert)</Original>
 			<German>TTT Aufklaerungsdrohne (US Desert)</German>
