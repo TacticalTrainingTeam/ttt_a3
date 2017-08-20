@@ -23,6 +23,16 @@
 		};
 	};
 	
+	class TTT_Uniform_Oragne_Bw_Tropentarn : TTT_Uniform_Base_Bw {
+		author = "Tactical Training Team";
+		scope = 2;
+		displayName = "TTT Uniform Orange (BW Tropentarn)";
+		
+        class ItemInfo : ItemInfo {
+			uniformClass = "TTT_Orange1_Bw_Tropentarn";
+		};
+	};	
+	
 	class TTT_Uniform_Gold_Bw_Tropentarn : TTT_Uniform_Base_Bw {
 		author = "Tactical Training Team";
 		scope = 2;
@@ -93,7 +103,7 @@
 		};
 	};
 
-class TTT_Uniform_Violett_Bw_Tropentarn : TTT_Uniform_Base_Bw {
+	class TTT_Uniform_Violett_Bw_Tropentarn : TTT_Uniform_Base_Bw {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Uniform Violett (BW Tropentarn)";

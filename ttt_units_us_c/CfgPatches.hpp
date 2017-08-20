@@ -293,7 +293,9 @@ class CfgPatches {
 			"TTT_Vest_Lite_Gold_Us_Desert",
 			"TTT_Vest_Heavy_Grey_Us_Desert",
 			"TTT_Vest_Lite_Grey_Us_Desert",
-			"TTT_Vest_Crew_Us_Desert",			
+			"TTT_Vest_Crew_Us_Desert",
+			"TTT_Vest_Heavy_Orange_Us_Desert",			
+			"TTT_Vest_Lite_Orange_Us_Desert",
 			
 			//Westen Woodland
 			"TTT_Vest_Heavy_Yellow_Us_Woodland",
