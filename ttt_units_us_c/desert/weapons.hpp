@@ -8,7 +8,6 @@
 		scope = 2;
 		displayName = "TTT Uniform Gelb (US Desert)";
 		
-		
         class ItemInfo : ItemInfo {
 			uniformClass = "TTT_Gelb1_Us_Desert";
 		};
@@ -74,6 +73,16 @@
 		};
 	};	
 	
+	class TTT_Uniform_Orange_Us_Desert : TTT_Uniform_Base_Us {
+		author = "Tactical Training Team";
+		scope = 2;
+		displayName = "TTT Uniform Orange (US Desert)";
+		
+        class ItemInfo : ItemInfo {
+			uniformClass = "TTT_Orange1_Us_Desert";
+		};
+	};	
+	
 	class TTT_Uniform_Bronze_Us_Desert : TTT_Uniform_Base_Us {
 		author = "Tactical Training Team";
 		scope = 2;
@@ -94,7 +103,7 @@
 		};
 	};
 
-class TTT_Uniform_Violett_Us_Desert : TTT_Uniform_Base_Us {
+	class TTT_Uniform_Violett_Us_Desert : TTT_Uniform_Base_Us {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Uniform Violett (US Desert)";
@@ -123,6 +132,16 @@ class TTT_Uniform_Violett_Us_Desert : TTT_Uniform_Base_Us {
 			uniformClass = "TTT_Adler1_Us_Desert";
 		};
 	};
+	
+	class TTT_Uniform_Orange_Us_Desert : TTT_Uniform_Base_Us {
+		author = "Tactical Training Team";
+		scope = 2;
+		displayName = "TTT Uniform Orange (US Desert)";
+		
+        class ItemInfo : ItemInfo {
+			uniformClass = "TTT_Orange1_Us_Desert";
+		};
+	};			
 	
 	/*
 	#############################################################

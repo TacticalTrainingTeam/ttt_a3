@@ -16,7 +16,8 @@ class TTT_Base_Us : B_Soldier_base_F {
     uniformAccessories[] = {};
 	uniformClass = "TTT_Uniform_Base_Us";
     nakedUniform = "U_BasicBody";
-    hiddenSelections[] = { "Camo", "insignia" }; //Camo = Standardskin der Uniform; insignia = Rangabzeichen (linker Arm);
+    hiddenSelections[] = { "Camo", "insignia" }; //Camo = Standardskin der Uniform; insignia = Rangabzeichen (linker Arm);	
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\TTT_uniform_base_us.paa" };	
     items[] = {};
     respawnItems[] = {};
 };
@@ -35,7 +36,6 @@ class TTT_Truppfuehrer_Base_Us : TTT_Base_Us {
     vehicleClass = "TTT_Template_Us";
     uniformClass = "TTT_Uniform_Base";
     backpack = "TTT_Backpack_Truppfuehrer_Us_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_black_us_desert.paa" };
     items[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     respawnitems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_1_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -53,7 +53,6 @@ class TTT_Grenadier_Base_Us : TTT_Base_Us {
     vehicleClass = "TTT_Template_Us";
     uniformClass = "TTT_Uniform_Base";
     backpack = "TTT_Backpack_Grenadier_Us_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_black_us_desert.paa" };
     items[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     respawnitems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_2_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -71,7 +70,6 @@ class TTT_Mgassistent_Base_Us : TTT_Base_Us {
     vehicleClass = "TTT_Template_Us";
     uniformClass = "TTT_Uniform_Base";
     backpack = "TTT_Backpack_Mgassistent_Us_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_black_us_desert.paa" };
     items[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     respawnitems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_3_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -90,7 +88,6 @@ class TTT_Mgschuetze_Base_Us : TTT_Base_Us {
     vehicleClass = "TTT_Template_Us";
     uniformClass = "TTT_Uniform_Base";
     backpack = "TTT_Backpack_Mgschuetze_Us_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_black_us_desert.paa" };
     items[] = { "rhsusf_acc_eotech_552", "ACE_NVG_Wide", "ACE_EarPlugs", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     respawnitems[] = { "rhsusf_acc_eotech_552", "ACE_NVG_Wide", "ACE_EarPlugs", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_4_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -109,7 +106,6 @@ class TTT_Lmgschuetze_Base_Us : TTT_Base_Us {
     vehicleClass = "TTT_Template_Us";
     uniformClass = "TTT_Uniform_Base";
     backpack = "TTT_Backpack_Lmgschuetze_Us_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_black_us_desert.paa" };
     items[] = { "rhsusf_acc_eotech_552", "rhsusf_acc_ELCAN", "ACE_NVG_Wide", "ACE_EarPlugs", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     respawnitems[] = { "rhsusf_acc_eotech_552", "rhsusf_acc_ELCAN", "ACE_NVG_Wide", "ACE_EarPlugs", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_4_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -127,7 +123,6 @@ class TTT_Atassistent_Base_Us : TTT_Base_Us {
     vehicleClass = "TTT_Template_Us";
     uniformClass = "TTT_Uniform_Base";
     backpack = "TTT_Backpack_Schuetze_Us_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_black_us_desert.paa" };
     items[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     respawnitems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_5_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -146,7 +141,6 @@ class TTT_Atschuetze_Base_Us : TTT_Base_Us {
     vehicleClass = "TTT_Template_Us";
     uniformClass = "TTT_Uniform_Base";
     backpack = "TTT_Backpack_Atschuetze_Us_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_black_us_desert.paa" };
     items[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     respawnitems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_6_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -164,7 +158,6 @@ class TTT_Schuetze_Base_Us : TTT_Base_Us {
     vehicleClass = "TTT_Template_Us";
     uniformClass = "TTT_Uniform_Base";
     backpack = "TTT_Backpack_Schuetze_Us_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_black_us_desert.paa" };
     items[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     respawnitems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_6_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -182,7 +175,6 @@ class TTT_Funkerfac_Base_Us : TTT_Base_Us {
     vehicleClass = "TTT_Template_Us";
     uniformClass = "TTT_Uniform_Base";
     backpack = "TTT_Backpack_Funkerfac_Us_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_black_us_desert.paa" };
     items[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991", "ACE_microDAGR" };
     respawnitems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991", "ACE_microDAGR" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_2_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -202,7 +194,6 @@ class TTT_Pionier_Base_Us : TTT_Base_Us {
     uniformClass = "TTT_Uniform_Base";
     canDeactivateMines = 1;
     backpack = "TTT_Backpack_Pionier_Us_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_black_us_desert.paa" };
     items[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     respawnitems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_3_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -222,7 +213,6 @@ class TTT_Gefechtssanitaeter_Base_Us : TTT_Base_Us {
     uniformClass = "TTT_Uniform_Base";
     attendant = 1;
     backpack = "TTT_Backpack_Gefechtssanitaeter_Us_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_black_us_desert.paa" };
     items[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     respawnitems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_3_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -242,7 +232,6 @@ class TTT_Feldarzt_Base_Us : TTT_Base_Us {
     uniformClass = "TTT_Uniform_Base";
     attendant = 1;
     backpack = "TTT_Backpack_Feldarzt_Us_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_black_us_desert.paa" };
     items[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     respawnitems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_1_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -261,7 +250,6 @@ class TTT_Pilot_Base_Us : TTT_Base_Us {
     vehicleClass = "TTT_Template_Us";
     uniformClass = "TTT_Uniform_Base";
     backpack = "TTT_Backpack_Pilot_Us_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_black_us_desert.paa" };
     items[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     respawnitems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_HelmetCam", "ACE_CableTie", "ACE_CableTie", "ACE_CableTie", "ACE_microDAGR", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Crew_Vest_Base", "TTT_Helmet_Eagle", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
@@ -279,7 +267,6 @@ class TTT_Uavoperator_Base_Us : TTT_Base_Us {
     vehicleClass = "TTT_Template_Us";
     uniformClass = "TTT_Uniform_Base";
     backpack = "B_UAV_01_backpack_F";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_black_us_desert.paa" };
     items[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_UAVBattery", "ACE_GD300_b", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     respawnitems[] = { "ACE_NVG_Wide", "ACE_EarPlugs", "rhsusf_acc_eotech_552", "ACE_UAVBattery", "ACE_GD300_b", "ACE_IR_Strobe_Item", "ACE_IR_Strobe_Item", "ACE_MapTools", "ACE_Flashlight_MX991" };
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Base", "TTT_Helmet_3_Us_Desert", "ItemMap", "ItemCompass", "B_UavTerminal", "ItemWatch", "tf_anprc152" };

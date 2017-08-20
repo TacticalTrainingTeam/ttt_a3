@@ -1171,3 +1171,22 @@ class TTT_Habicht2_Us_Desert : TTT_Pilot_Base_Us {
     linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Desert", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
     respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Crew_Us_Desert", "TTT_Helmet_Hawk", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
 };	
+
+/*
+#############################################################
+### Trupp Orange
+#############################################################
+*/
+
+//Orange 1 (Truppfuehrer)
+class TTT_Violett1_Us_Desert : TTT_Truppfuehrer_Base_Us {
+    author = "Tactical Training Team";
+    scope = 1;
+    displayName = "Orange 1 (Truppfuehrer)";
+    vehicleClass = "TTT_Orange_Us_Desert";
+    uniformClass = "TTT_Uniform_Rot_Us_Desert";
+	editorSubcategory = "EdSubcat_Unit_Camo_Desert";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\desert\uniforms\TTT_uniform_orange_us_desert.paa" };
+    linkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Purple_Us_Desert", "TTT_Helmet_1_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+    respawnLinkedItems[] = { "BWA3_G_Combat_Clear", "TTT_Vest_Heavy_Purple_Us_Desert", "TTT_Helmet_1_Us_Desert", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" };
+};

@@ -82,6 +82,8 @@ class CfgPatches {
 			"TTT_Platin1_Us_Desert",
 			"TTT_Platin2_Us_Desert",
 			
+			"TTT_Orange1_Us_Desert",			
+			
 			//Units Desert OLD
 			"TTT_Adler1_Us_Desert",
 			"TTT_Adler2_Us_Desert",
@@ -240,6 +242,8 @@ class CfgPatches {
 			"TTT_Uniform_Grau_Us_Desert",
 			"TTT_Uniform_Gold_Us_Desert",
 			"TTT_Uniform_Silver_Us_Desert",
+			"TTT_Uniform_Blau_Us_Desert",
+			"TTT_Uniform_Orange_Us_Desert",			
 
 			//Uniformen Woodland
 			"TTT_Uniform_Gelb_Us_Woodland",
