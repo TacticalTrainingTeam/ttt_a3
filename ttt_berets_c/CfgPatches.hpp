@@ -18,7 +18,8 @@ class CfgPatches {
 			"TTT_Berets_Schwarz_Item",
 			"TTT_Berets_Silber_Item",
 			"TTT_Berets_Violett_Item",
-			"TTT_Berets_Weiss_Item"
+			"TTT_Berets_Weiss_Item",
+			"TTT_Berets_Orange_Item"
 			};
 		weapons[] = {
 			"TTT_Berets_Blau",
@@ -34,7 +35,8 @@ class CfgPatches {
 			"TTT_Berets_Schwarz",
 			"TTT_Berets_Silber",
 			"TTT_Berets_Violett",
-			"TTT_Berets_Weiss"
+			"TTT_Berets_Weiss",
+			"TTT_Berets_Orange"
 		};
 	};
 };

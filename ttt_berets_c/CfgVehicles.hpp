@@ -25,6 +25,7 @@ class CfgVehicles {
 	//Barrett Item Braun
 	class TTT_Berets_Braun_Item : TTT_Berets_Blau_Item {
 		displayName = "TTT Barrett Item Braun";
+		author = "Reimchen";
 		
 		class TransportItems {
 			class TTT_Berets_Braun {
@@ -36,6 +37,7 @@ class CfgVehicles {
 	//Barrett Item Bronze
 	class TTT_Berets_Bronze_Item : TTT_Berets_Blau_Item {
 		displayName = "TTT Barrett Item Bronze";
+		author = "Reimchen";
 		
 		class TransportItems {
 			class TTT_Berets_Bronze {
@@ -47,6 +49,7 @@ class CfgVehicles {
 	//Barrett Item Gelb
 	class TTT_Berets_Gelb_Item : TTT_Berets_Blau_Item {
 		displayName = "TTT Barrett Item Gelb";
+		author = "Reimchen";
 		
 		class TransportItems {
 			class TTT_Berets_Gelb {
@@ -58,6 +61,7 @@ class CfgVehicles {
 	//Barrett Item Gold
 	class TTT_Berets_Gold_Item : TTT_Berets_Blau_Item {
 		displayName = "TTT Barrett Item Gold";
+		author = "Reimchen";
 		
 		class TransportItems {
 			class TTT_Berets_Gold {
@@ -69,6 +73,7 @@ class CfgVehicles {
 	//Barrett Item Grau
 	class TTT_Berets_Grau_Item : TTT_Berets_Blau_Item {
 		displayName = "TTT Barrett Item Grau";
+		author = "Reimchen";
 		
 		class TransportItems {
 			class TTT_Berets_Grau {
@@ -80,6 +85,7 @@ class CfgVehicles {
 	//Barrett Item Gruen
 	class TTT_Berets_Gruen_Item : TTT_Berets_Blau_Item {
 		displayName = "TTT Barrett Item Gruen";
+		author = "Reimchen";
 		
 		class TransportItems {
 			class TTT_Berets_Gruen {
@@ -91,6 +97,7 @@ class CfgVehicles {
 	//Barrett Item Logo
 	class TTT_Berets_Logo_Item : TTT_Berets_Blau_Item {
 		displayName = "TTT Barrett Item Logo";
+		author = "Reimchen";
 		
 		class TransportItems {
 			class TTT_Berets_Logo {
@@ -102,6 +109,7 @@ class CfgVehicles {
 	//Barrett Item Platin
 	class TTT_Berets_Platin_Item : TTT_Berets_Blau_Item {
 		displayName = "TTT Barrett Item Platin";
+		author = "Reimchen";
 		
 		class TransportItems {
 			class TTT_Berets_Platin {
@@ -113,6 +121,7 @@ class CfgVehicles {
 	//Barrett Item Rot
 	class TTT_Berets_Rot_Item : TTT_Berets_Blau_Item {
 		displayName = "TTT Barrett Item Rot";
+		author = "Reimchen";
 		
 		class TransportItems {
 			class TTT_Berets_Rot {
@@ -124,6 +133,7 @@ class CfgVehicles {
 	//Barrett Item Schwarz
 	class TTT_Berets_Schwarz_Item : TTT_Berets_Blau_Item {
 		displayName = "TTT Barrett Item Schwarz";
+		author = "Reimchen";
 		
 		class TransportItems {
 			class TTT_Berets_Schwarz {
@@ -135,6 +145,7 @@ class CfgVehicles {
 	//Barrett Item Silber
 	class TTT_Berets_Silber_Item : TTT_Berets_Blau_Item {
 		displayName = "TTT Barrett Item Silber";
+		author = "Reimchen";
 		
 		class TransportItems {
 			class TTT_Berets_Silber {
@@ -146,6 +157,7 @@ class CfgVehicles {
 	//Barrett Item Violett
 	class TTT_Berets_Violett_Item : TTT_Berets_Blau_Item {
 		displayName = "TTT Barrett Item Violett";
+		author = "Reimchen";
 		
 		class TransportItems {
 			class TTT_Berets_Violett {
@@ -157,10 +169,23 @@ class CfgVehicles {
 	//Barrett Item Weiss
 	class TTT_Berets_Weiss_Item : TTT_Berets_Blau_Item {
 		displayName = "TTT Barrett Item Weiss";
+		author = "Reimchen";
 		
 		class TransportItems {
 			class TTT_Berets_Weiss {
 				name = "TTT_Berets_Weiss";
+				count = 1;
+			};
+		};
+	};
+	//Barrett Item Orange
+	class TTT_Berets_Orange_Item : TTT_Berets_Blau_Item {
+		displayName = "TTT Barrett Item Orange";
+		author = "Reimchen";
+		
+		class TransportItems {
+			class TTT_Berets_Orange {
+				name = "TTT_Berets_Orange";
 				count = 1;
 			};
 		};
