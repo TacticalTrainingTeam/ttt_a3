@@ -69,7 +69,7 @@ publicVariable "NSS_AC_fnc_Execute";
 
 //Last statements
 
-//systemChat "NSS Admin Console initialized. Press Shift + F1 to open the main menu.";
+systemChat "NSS Admin Console initialized. Press Shift + F1 to open the main menu.";
 
 _log = format ["NSS_AC_Log: (%1, %2) entered the game with the NSS Admin Console", name player, getplayerUID player];
 
