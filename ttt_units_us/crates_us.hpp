@@ -382,8 +382,8 @@
 				count = 6;
 			};
 			
-			class _xx_tf_anprc152 {
-				name = "tf_anprc152";
+			class _xx_TFAR_anprc152 {
+				name = "TFAR_anprc152";
 				count = 6;
 			};
 			

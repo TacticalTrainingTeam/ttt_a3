@@ -29,7 +29,7 @@
 #define ITEMS_US_DEFAULT "rhsusf_acc_eotech_552"
 #define ITEMS_SNIPER "ACE_Kestrel4500", "ACE_ATragMX", "ACE_RangeCard"
 
-#define LINKED_ITEMS_DEFAULT "BWA3_G_Combat_Clear", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" 
+#define LINKED_ITEMS_DEFAULT "BWA3_G_Combat_Clear", "ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152" 
 
 #define WEAPON_BINOCULAR "Binocular"
 #define WEAPON_RANGEFINDER "ACE_Yardage450"
