@@ -84,7 +84,7 @@ class TTT_Backpack_Schuetze_US_Desert : B_AssaultPack_cbr {
 };
 
 //Funker/FAC Rucksack
-class TTT_Backpack_Funkerfac_US_Desert : tf_rt1523g_big_rhs {
+class TTT_Backpack_Funkerfac_US_Desert : TFAR_rt1523g_big_rhs {
     displayName = "TTT Funker/FAC Rucksack (US Desert)";
     tf_range = 50000;
     class TransportItems {
@@ -125,7 +125,7 @@ class TTT_Backpack_Feldarzt_US_Desert : B_Kitbag_cbr {
 };
 
 //Pilot Rucksack
-class TTT_Backpack_Pilot_US_Desert : tf_rt1523g_big_rhs {
+class TTT_Backpack_Pilot_US_Desert : TFAR_rt1523g_big_rhs {
     displayName = "TTT Pilot Rucksack (US Desert)";
     tf_range = 50000;
     class TransportItems {
@@ -135,7 +135,7 @@ class TTT_Backpack_Pilot_US_Desert : tf_rt1523g_big_rhs {
 };
 
 //OPL Rucksack
-class TTT_Backpack_Opl_US_Desert : tf_rt1523g_big_rhs {
+class TTT_Backpack_Opl_US_Desert : TFAR_rt1523g_big_rhs {
     displayName = "TTT OPL Rucksack (US Desert)";
     tf_range = 50000;
     class TransportItems {
