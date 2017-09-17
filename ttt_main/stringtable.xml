@@ -53,7 +53,7 @@
       </Key>
       <Key ID="STR_TTT_EdSubcat_Unit_Camo_Tropentarn">
         <Original>Men (Tropentarn)</Original>
-        <German>Men (Tropentarn)</German>
+        <German>Soldat (Tropentarn)</German>
         <English>Men (Tropentarn)</English>
       </Key>
       <Key ID="STR_TTT_EdSubcat_Unit_Camo_Flecktarn">
@@ -69,7 +69,7 @@
 			<English>Truppfahrzeug MG (BW Flecktarn)</English>
 		</Key>
 		<Key ID="STR_TTT_Vehilce_BW">
-			<Original>TTT Fahrzeuge (BW)</Original>
+			<Original>TTT Vehilce (BW)</Original>
 			<German>TTT Fahrzeuge (BW)</German>
 			<English>TTT Vehilce (BW)</English>
 		</Key>
