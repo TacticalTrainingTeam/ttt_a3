@@ -22,7 +22,7 @@
 #define item_xx(a,b) class _xx_##a {name = #a; count = b;}
 #define backpack_xx(a,b) class _xx_##a {backpack = #a; count = b;}
 
-/// Standardausrüstung ///
+/// Standardausruestung ///
 
 /// Global Defineable Items ///
 #define ITEMS_ACE_DEFAULT "ACE_NVG_Wide", "ACE_EarPlugs",  item_2(ACE_CableTie), item_2(ACE_IR_Strobe_Item), "ACE_MapTools", "ACE_Flashlight_MX991"

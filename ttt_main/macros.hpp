@@ -17,7 +17,7 @@
 #define item_xx(a,b) class _xx_##a {name = #a; count = b;}
 #define backpack_xx(a,b) class _xx_##a {backpack = #a; count = b;}
 
-/// Standardausrüstung ///
+/// Standardausruestung ///
 #define default_item_bw "BWA3_optic_NSV600" 
 #define default_weapons "Throw", "Put"
 #define default_linkedItems "BWA3_G_Combat_Clear", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" 

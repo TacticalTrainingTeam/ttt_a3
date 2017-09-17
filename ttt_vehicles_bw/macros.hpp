@@ -17,7 +17,7 @@
 #define item_xx(a,b) class _xx_##a {name = #a; count = b;}
 #define backpack_xx(a,b) class _xx_##a {backpack = #a; count = b;}
 
-/// Standardausrüstung ///
+/// Standardausruestung ///
 #define default_weapons "Throw", "Put"
 #define default_linkedItems "BWA3_G_Combat_Clear", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" 
 #define default_ace_items "ACE_NVG_Wide", item_2(ACE_IR_Strobe_Item), "ACE_MapTools", "ACE_Flashlight_MX991"

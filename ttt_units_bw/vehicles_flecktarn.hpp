@@ -769,11 +769,11 @@ class TTT_Bronze_6_BW_Flecktarn : TTT_Bronze_6_BW_Tropentarn {
 
 /*
 #############################################################
-### Trupp Wei� (Flecktarn)
+### Trupp Weiss (Flecktarn)
 #############################################################
 */
 
-//Wei� 1 (Oberfeldarzt)
+//Weiss 1 (Oberfeldarzt)
 class TTT_White_1_BW_Flecktarn : TTT_White_1_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Weiss_BW_Flecktarn";
@@ -786,7 +786,7 @@ class TTT_White_1_BW_Flecktarn : TTT_White_1_BW_Tropentarn {
     respawnLinkedItems[] = { "TTT_Vest_Crew_US_Desert", "TTT_Helmet_1_BW_Flecktarn", default_linkedItems };
 };
 
-//Wei� 2 (Fahrzeugfuehrer)
+//Weiss 2 (Fahrzeugfuehrer)
 class TTT_White_2_BW_Flecktarn : TTT_White_2_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Weiss_BW_Flecktarn";
@@ -799,7 +799,7 @@ class TTT_White_2_BW_Flecktarn : TTT_White_2_BW_Tropentarn {
     respawnLinkedItems[] = { "TTT_Vest_Crew_US_Desert", "TTT_Helmet_2_BW_Flecktarn", default_linkedItems };
 };
 
-//Wei� 2 (Feldarzt)
+//Weiss 2 (Feldarzt)
 class TTT_White_3_BW_Flecktarn : TTT_White_3_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Weiss_BW_Flecktarn";
@@ -812,7 +812,7 @@ class TTT_White_3_BW_Flecktarn : TTT_White_3_BW_Tropentarn {
     respawnLinkedItems[] = { "TTT_Vest_Crew_US_Desert", "TTT_Helmet_3_BW_Flecktarn", default_linkedItems };
 };
 
-//Wei� 4 (Fahrzeugfuehrer)
+//Weiss 4 (Fahrzeugfuehrer)
 class TTT_White_4_BW_Flecktarn : TTT_White_4_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Weiss_BW_Flecktarn";
