@@ -1120,11 +1120,11 @@ class TTT_Violet_6_US_Woodland : TTT_Violet_6_US_Desert {
 
 /*
 #############################################################
-### Trupp Wei� (Woodland)
+### Trupp Weiss (Woodland)
 #############################################################
 */
 
-//Wei� 1 (Feldarzt)
+//Weiss 1 (Feldarzt)
 class TTT_White_1_US_Woodland : TTT_White_1_US_Desert {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Weiss_US_Woodland";
@@ -1144,7 +1144,7 @@ class TTT_White_1_US_Woodland : TTT_White_1_US_Desert {
     };
 };
 
-//Wei� 2 (Fahrzeugfuehrer)
+//Weiss 2 (Fahrzeugfuehrer)
 class TTT_White_2_US_Woodland : TTT_White_2_US_Desert {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Weiss_US_Woodland";
@@ -1164,7 +1164,7 @@ class TTT_White_2_US_Woodland : TTT_White_2_US_Desert {
     };
 };
 
-//Wei� 3 (Feldarzt)
+//Weiss 3 (Feldarzt)
 class TTT_White_3_US_Woodland : TTT_White_3_US_Desert {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Weiss_US_Woodland";
@@ -1184,7 +1184,7 @@ class TTT_White_3_US_Woodland : TTT_White_3_US_Desert {
     };
 };
 
-//Wei� 4 (Stellv.Fahrzeugfuehrer)
+//Weiss 4 (Stellv.Fahrzeugfuehrer)
 class TTT_White_4_US_Woodland : TTT_White_4_US_Desert {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Weiss_US_Woodland";

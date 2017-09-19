@@ -22,14 +22,14 @@
 #define item_xx(a,b) class _xx_##a {name = #a; count = b;}
 #define backpack_xx(a,b) class _xx_##a {backpack = #a; count = b;}
 
-/// Standardausrüstung ///
+/// Standardausruestung ///
 
 /// Global Defineable Items ///
 #define ITEMS_ACE_DEFAULT "ACE_NVG_Wide", "ACE_EarPlugs",  item_2(ACE_CableTie), item_2(ACE_IR_Strobe_Item), "ACE_MapTools", "ACE_Flashlight_MX991"
 #define ITEMS_US_DEFAULT "rhsusf_acc_eotech_552"
 #define ITEMS_SNIPER "ACE_Kestrel4500", "ACE_ATragMX", "ACE_RangeCard"
 
-#define LINKED_ITEMS_DEFAULT "BWA3_G_Combat_Clear", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152" 
+#define LINKED_ITEMS_DEFAULT "BWA3_G_Combat_Clear", "ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152" 
 
 #define WEAPON_BINOCULAR "Binocular"
 #define WEAPON_RANGEFINDER "ACE_Yardage450"

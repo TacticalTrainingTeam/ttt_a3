@@ -157,7 +157,7 @@ class TTT_Backpack_Schuetze_BW_Tropentarn : B_AssaultPack_cbr {
 };
 
 //Funker/FAC Rucksack
-class TTT_Backpack_Funkerfac_BW_Tropentarn : tf_rt1523g_big_bwmod_tropen {
+class TTT_Backpack_Funkerfac_BW_Tropentarn : TFAR_rt1523g_big_bwmod_tropen {
     displayName = "TTT Funker/FAC Rucksack (BW Tropentarn)";
     tf_range = 50000;
     class TransportItems {
@@ -334,7 +334,7 @@ class TTT_Backpack_Feldarzt_BW_Tropentarn : B_Kitbag_cbr {
 };
 
 //Pilot Rucksack
-class TTT_Backpack_Pilot_BW_Tropentarn : tf_rt1523g_big_bwmod_tropen {
+class TTT_Backpack_Pilot_BW_Tropentarn : TFAR_rt1523g_big_bwmod_tropen {
     displayName = "TTT Pilot Rucksack (BW Tropentarn)";
     tf_range = 50000;
     class TransportItems {
@@ -344,7 +344,7 @@ class TTT_Backpack_Pilot_BW_Tropentarn : tf_rt1523g_big_bwmod_tropen {
 };
 
 //OPL Rucksack
-class TTT_Backpack_Opl_BW_Tropentarn : tf_rt1523g_big_bwmod_tropen {
+class TTT_Backpack_Opl_BW_Tropentarn : TFAR_rt1523g_big_bwmod_tropen {
     displayName = "TTT OPL Rucksack (BW Tropentarn)";
     tf_range = 50000;
     class TransportItems {

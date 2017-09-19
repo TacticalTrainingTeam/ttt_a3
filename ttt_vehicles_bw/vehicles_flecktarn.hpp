@@ -91,7 +91,7 @@
 	
 	/*
 	#############################################################
-	### TTT Sch�tzenpanzer
+	### TTT Schuetzenpanzer
 	#############################################################
 	*/
 
@@ -195,11 +195,11 @@
 
     /*
     #############################################################
-    ### TTT Aufkl�rungsdrohne
+    ### TTT Aufklaerungsdrohne
     #############################################################
     */
 
-    class TTT_Drone_BWFlecktarn : TTT_Drone_BW_Tropentarn {
+    class TTT_Drone_BW_Flecktarn : TTT_Drone_BW_Tropentarn {
         author = "$STR_Tactical_Training_Team";
         displayName = "TTT Aufklaerungsdrohne (BW Flecktarn)";
     };

@@ -1301,11 +1301,11 @@ class TTT_Violet_6_US_Desert : TTT_PIO_Base_US {
 
 /*
 #############################################################
-### Trupp Wei� (Desert)
+### Trupp Weiss (Desert)
 #############################################################
 */
 
-//Wei� 1 (Oberfeldarzt)
+//Weiss 1 (Oberfeldarzt)
 class TTT_White_1_US_Desert : TTT_Feldarzt_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
@@ -1326,7 +1326,7 @@ class TTT_White_1_US_Desert : TTT_Feldarzt_Base_US {
     };
 };
 
-//Wei� 2 (Fahrzeugfuehrer)
+//Weiss 2 (Fahrzeugfuehrer)
 class TTT_White_2_US_Desert : TTT_Pilot_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
@@ -1374,7 +1374,7 @@ class TTT_White_3_US_Desert : TTT_Feldarzt_Base_US {
     };
 };
 
-//Wei� 4 (Fahrzeugfuehrer)
+//Weiss 4 (Fahrzeugfuehrer)
 class TTT_White_4_US_Desert : TTT_Pilot_Base_US {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
