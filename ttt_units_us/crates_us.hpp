@@ -410,13 +410,13 @@
 		};
 		
 		class TransportBackpacks { 
-			class _xx_TTT_Backpack_Funkerfac_US_Desert {
-				backpack = "TTT_Backpack_Funkerfac_US_Desert";
+			class _xx_TTT_Backpack_Radio_US_Desert {
+				backpack = "TTT_Backpack_Radio_US_Desert";
 				count = 1;
 			};
 			
-			class _xx_TTT_Backpack_Funkerfac_US_Woodland {
-				backpack = "TTT_Backpack_Funkerfac_US_Woodland";
+			class _xx_TTT_Backpack_Radio_US_Woodland {
+				backpack = "TTT_Backpack_Radio_US_Woodland";
 				count = 1;
 			};
 			
@@ -571,13 +571,13 @@
 				count = 4;			
 			};
 			
-			class _xx_TTT_Backpack_Feldarzt_US_Desert {
-				backpack = "TTT_Backpack_Feldarzt_US_Desert";
+			class _xx_TTT_Backpack_DOC_US_Desert {
+				backpack = "TTT_Backpack_DOC_US_Desert";
 				count = 4;			
 			};
 			
-			class _xx_TTT_Backpack_Feldarzt_US_Woodland {
-				backpack = "TTT_Backpack_Feldarzt_US_Woodland";
+			class _xx_TTT_Backpack_DOC_US_Woodland {
+				backpack = "TTT_Backpack_DOC_US_Woodland";
 				count = 4;			
 			};
 		};

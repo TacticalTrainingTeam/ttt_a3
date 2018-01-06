@@ -64,12 +64,12 @@ class TTT_GRE_Base_BW : TTT_Base_BW {
 };
 
 //Basis-Klasse fuer MG-Assistenten
-class TTT_Mgassistent_Base_BW : TTT_Base_BW {
+class TTT_MGA_Base_BW : TTT_Base_BW {
     author = "$STR_Tactical_Training_Team";
     displayName = "MG-Assistent BW (Template)";
     vehicleClass = "TTT_Template_BW";
     uniformClass = "TTT_Uniform_Base_BW";
-    backpack = "TTT_Backpack_Mgassistent_BW_Tropentarn";
+    backpack = "TTT_Backpack_MGA_BW_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_item_bw, default_ace_items };
     respawnitems[] = { default_item_bw, default_ace_items };
@@ -82,13 +82,13 @@ class TTT_Mgassistent_Base_BW : TTT_Base_BW {
 };
 
 //Basis-Klasse fuer MG-Schuetzen
-class TTT_Mgschuetze_Base_BW : TTT_Base_BW {
+class TTT_MGS_Base_BW : TTT_Base_BW {
     author = "$STR_Tactical_Training_Team";
     displayName = "MG-Schuetze BW (Template)";
     icon = "iconManMG";
     vehicleClass = "TTT_Template_BW";
     uniformClass = "TTT_Uniform_Base_BW";
-    backpack = "TTT_Backpack_Mgschuetze_BW_Tropentarn";
+    backpack = "TTT_Backpack_MGS_BW_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_item_bw, default_ace_items };
     respawnitems[] = { default_item_bw, default_ace_items };
@@ -107,7 +107,7 @@ class TTT_Lmgschuetze_Base_BW : TTT_Base_BW {
     icon = "iconManMG";
     vehicleClass = "TTT_Template_BW";
     uniformClass = "TTT_Uniform_Base_BW";
-    backpack = "TTT_Backpack_Schuetze_BW_Tropentarn";
+    backpack = "TTT_Backpack_Soldier_BW_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_item_bw, default_ace_items };
     respawnitems[] = { default_item_bw, default_ace_items };
@@ -125,7 +125,7 @@ class TTT_Atassistent_Base_BW : TTT_Base_BW {
     displayName = "AT-Assistent BW (Template)";
     vehicleClass = "TTT_Template_BW";
     uniformClass = "TTT_Uniform_Base_BW";
-    backpack = "TTT_Backpack_Schuetze_BW_Tropentarn";
+    backpack = "TTT_Backpack_Soldier_BW_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_item_bw, default_ace_items };
     respawnitems[] = { default_item_bw, default_ace_items };
@@ -138,13 +138,13 @@ class TTT_Atassistent_Base_BW : TTT_Base_BW {
 };
 
 //Basis-Klasse fuer AT-Schuetzen
-class TTT_Atschuetze_Base_BW : TTT_Base_BW {
+class TTT_ATS_Base_BW : TTT_Base_BW {
     author = "$STR_Tactical_Training_Team";
     displayName = "AT-Schuetze BW (Template)";
     icon = "iconManAT";
     vehicleClass = "TTT_Template_BW";
     uniformClass = "TTT_Uniform_Base_BW";
-    backpack = "TTT_Backpack_Atschuetze_BW_Tropentarn";
+    backpack = "TTT_Backpack_ATS_BW_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_item_bw, default_ace_items, "BWA3_optic_NSA80" };
     respawnitems[] = { default_item_bw, default_ace_items, "BWA3_optic_NSA80" };
@@ -157,12 +157,12 @@ class TTT_Atschuetze_Base_BW : TTT_Base_BW {
 };
 
 //Basis-Klasse fuer Schuetzen
-class TTT_Schuetze_Base_BW : TTT_Base_BW {
+class TTT_Soldier_Base_BW : TTT_Base_BW {
     author = "$STR_Tactical_Training_Team";
     displayName = "Schuetze BW (Template)";
     vehicleClass = "TTT_Template_BW";
     uniformClass = "TTT_Uniform_Base_BW";
-    backpack = "TTT_Backpack_Schuetze_BW_Tropentarn";
+    backpack = "TTT_Backpack_Soldier_BW_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_item_bw, default_ace_items };
     respawnitems[] = { default_item_bw, default_ace_items };
@@ -175,12 +175,12 @@ class TTT_Schuetze_Base_BW : TTT_Base_BW {
 };
 
 //Basis-Klasse fuer Funker/FAC
-class TTT_Funkerfac_Base_BW : TTT_Base_BW {
+class TTT_Radio_Base_BW : TTT_Base_BW {
     author = "$STR_Tactical_Training_Team";
     displayName = "Funker/FAC BW (Template)";
     vehicleClass = "TTT_Template_BW";
     uniformClass = "TTT_Uniform_Base_BW";
-    backpack = "TTT_Backpack_Funkerfac_BW_Tropentarn";
+    backpack = "TTT_Backpack_Radio_BW_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_item_bw, default_ace_items, "ACE_microDAGR" };
     respawnitems[] = { default_item_bw, default_ace_items, "ACE_microDAGR" };
@@ -233,14 +233,14 @@ class TTT_SAN_Base_BW : TTT_Base_BW {
 };
 
 //Basis-Klasse fuer Feldaerzte
-class TTT_Feldarzt_Base_BW : TTT_Base_BW {
+class TTT_DOC_Base_BW : TTT_Base_BW {
     author = "$STR_Tactical_Training_Team";
     displayName = "Feldarzt BW (Template)";
     icon = "iconManMedic";
     vehicleClass = "TTT_Template_BW";
     uniformClass = "TTT_Uniform_Base_BW";
     attendant = 1;
-    backpack = "TTT_Backpack_Feldarzt_BW_Tropentarn";
+    backpack = "TTT_Backpack_DOC_BW_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_black_bw_tropentarn.paa" };
     items[] = { default_ace_items, "ACE_microDAGR" };
     respawnitems[] = { default_ace_items, "ACE_microDAGR" };

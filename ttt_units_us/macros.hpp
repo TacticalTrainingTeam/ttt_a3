@@ -169,7 +169,7 @@
     ITEM_XX(ACE_GD300_b,1)
 
 // OPL
-#define TRANSPORT_ITEMS_OPL \
+#define TRANSPORT_ITEMS_CO \
     ITEM_XX(ACE_DK10_b,1)
     
 /// Group Stuff ///

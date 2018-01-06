@@ -3,11 +3,11 @@
 	### Flecktarn
 	#############################################################
 	*/
-	class TTT_Gelb_BW_Flecktarn {
+	class TTT_Yellow_BW_Tropentarn {
 		displayName = "Gelb (BW Flecktarn)"; 			//In-game name
 		priority = 1; 							// How far down it is on the menu
 	};
-	class TTT_Grau_BW_Flecktarn {
+	class TTT_Grey_BW_Tropentarn {
 		displayName = "Grau (BW Flecktarn)"; 			//In-game name
 		priority = 2; 							// How far down it is on the menu
 	};
@@ -15,19 +15,19 @@
 		displayName = "Gold (BW Flecktarn)"; 			//In-game name
 		priority = 3; 							// How far down it is on the menu
 	};		
-	class TTT_Gruen_BW_Flecktarn {
+	class TTT_Green_BW_Tropentarn {
 		displayName = "Gruen (BW Flecktarn)"; 			//In-game name
 		priority = 4; 							// How far down it is on the menu
 	};
-	class TTT_Braun_BW_Flecktarn {
+	class TTT_Brown_BW_Tropentarn {
 		displayName = "Braun (BW Flecktarn)"; 			//In-game name
 		priority = 5; 							// How far down it is on the menu
 	};
-	class TTT_Schwarz_BW_Flecktarn {
+	class TTT_Black_BW_Tropentarn {
 		displayName = "Schwarz (BW Flecktarn)"; 			//In-game name
 		priority = 6; 							// How far down it is on the menu
 	};
-	class TTT_Rot_BW_Flecktarn {
+	class TTT_Red_BW_Tropentarn {
 		displayName = "Rot (BW Flecktarn)"; 				//In-game name
 		priority = 7; 							// How far down it is on the menu
 	};
@@ -35,15 +35,15 @@
 		displayName = "Bronze (BW Flecktarn)"; 			//In-game name
 		priority = 8; 							// How far down it is on the menu
 	};
-	class TTT_Blau_BW_Flecktarn {
+	class TTT_Blue_BW_Tropentarn {
 		displayName = "Blau (BW Flecktarn)"; 			//In-game name
 		priority = 9; 							// How far down it is on the menu
 	};
-	class TTT_Violett_BW_Flecktarn {
+	class TTT_Violet_BW_Tropentarn {
 		displayName = "Violett (BW Flecktarn)"; 			//In-game name
 		priority = 10; 							// How far down it is on the menu
 	};
-	class TTT_Weiss_BW_Flecktarn {
+	class TTT_White_BW_Tropentarn {
 		displayName = "Weiss (BW Flecktarn)"; 			//In-game name
 		priority = 11; 							// How far down it is on the menu
 	};
@@ -59,11 +59,11 @@
 		displayName = "Habicht (BW Flecktarn)"; 			//In-game name
 		priority = 14; 							// How far down it is on the menu
 	};
-	class TTT_Platin_BW_Flecktarn {
+	class TTT_Platinum_BW_Tropentarn {
 		displayName = "Platin (BW Flecktarn)"; 			//In-game name
 		priority = 15; 							// How far down it is on the menu
 	};
-	class TTT_Silber_BW_Flecktarn {
+	class TTT_Silver_BW_Tropentarn {
 		displayName = "Silber (BW Flecktarn)"; 			//In-game name
 		priority = 16; 							// How far down it is on the menu
 	};		

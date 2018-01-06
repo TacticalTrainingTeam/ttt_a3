@@ -84,7 +84,7 @@
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_berets\data\common\berets_silber_co.paa"};
 	};
 	//Barrett: Violett
-	class TTT_Berets_Purple : TTT_Berets_Blue {
+	class TTT_Berets_Violet : TTT_Berets_Blue {
 		displayName = "TTT Barrett Violett";
 		picture = "\ttt_a3\ttt_berets\data\ui\berets_violett_icon_co.paa";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_berets\data\common\berets_violett_co.paa"};
@@ -121,7 +121,7 @@
 	class TTT_Berets_Silber : TTT_Berets_Silver {
 		scope = 0;
 	};
-	class TTT_Berets_Violett : TTT_Berets_Purple {
+	class TTT_Berets_Violett : TTT_Berets_Violet {
 		scope = 0;
 	};
 	class TTT_Berets_Weiss : TTT_Berets_White {

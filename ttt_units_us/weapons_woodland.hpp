@@ -252,18 +252,18 @@
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_vest_red_us_woodland_co.paa"};
 	};
 	
-	class TTT_Vest_Heavy_Purple_US_Woodland : TTT_Vest_Heavy_Base {
+	class TTT_Vest_Heavy_Violet_US_Woodland : TTT_Vest_Heavy_Base {
 		scope = 2;
 		displayName = "TTT Schwere Weste Violett (US Woodland)";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_vest_purple_us_woodland_co.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_vest_violet_us_woodland_co.paa"};
 	};
 	
-	class TTT_Vest_Lite_Purple_US_Woodland : TTT_Vest_Lite_Base {
+	class TTT_Vest_Lite_Violet_US_Woodland : TTT_Vest_Lite_Base {
 		scope = 2;
 		displayName = "TTT Leichte Weste Violett (US Woodland)";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_vest_purple_us_woodland_co.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_vest_violet_us_woodland_co.paa"};
 	};
 	
 	class TTT_Vest_Crew_US_Woodland : TTT_Vest_Crew_Base {

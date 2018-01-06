@@ -88,19 +88,19 @@ class CfgPatches {
 			"TTT_Hawk_2_BW_Tropentarn",
 			
 			//Groups Tropentarn
-			"TTT_Gelb_BW_Tropentarn",
-			"TTT_Grau_BW_Tropentarn",
+			"TTT_Yellow_BW_Tropentarn",
+			"TTT_Grey_BW_Tropentarn",
 			"TTT_Gold_BW_Tropentarn",
-			"TTT_Gruen_BW_Tropentarn",
-			"TTT_Braun_BW_Tropentarn",
-			"TTT_Schwarz_BW_Tropentarn",
-			"TTT_Rot_BW_Tropentarn",
+			"TTT_Green_BW_Tropentarn",
+			"TTT_Brown_BW_Tropentarn",
+			"TTT_Black_BW_Tropentarn",
+			"TTT_Red_BW_Tropentarn",
 			"TTT_Bronze_BW_Tropentarn",
-			"TTT_Blau_BW_Tropentarn",
-			"TTT_Violett_BW_Tropentarn",
-			"TTT_Weiss_BW_Tropentarn",
-			"TTT_Silber_BW_Tropentarn",
-			"TTT_Platin_BW_Tropentarn",
+			"TTT_Blue_BW_Tropentarn",
+			"TTT_Violet_BW_Tropentarn",
+			"TTT_White_BW_Tropentarn",
+			"TTT_Silver_BW_Tropentarn",
+			"TTT_Platinum_BW_Tropentarn",
 
 			//Units Flecktarn
 			"TTT_Yellow_1_BW_Flecktarn",
@@ -187,17 +187,17 @@ class CfgPatches {
 			"TTT_Hawk_2_BW_Flecktarn",
 			
 			//Groups Flecktarn
-			"TTT_Gelb_BW_Flecktarn",
-			"TTT_Grau_BW_Flecktarn",
+			"TTT_Yellow_BW_Tropentarn",
+			"TTT_Grey_BW_Tropentarn",
 			"TTT_Gold_BW_Flecktarn",
-			"TTT_Gruen_BW_Flecktarn",
-			"TTT_Schwarz_BW_Flecktarn",
-			"TTT_Rot_BW_Flecktarn",
+			"TTT_Green_BW_Tropentarn",
+			"TTT_Black_BW_Tropentarn",
+			"TTT_Red_BW_Tropentarn",
 			"TTT_Bronze_BW_Flecktarn",
-			"TTT_Blau_BW_Flecktarn",
-			"TTT_Weiss_BW_Flecktarn",
-			"TTT_Silber_BW_Flecktarn",
-			"TTT_Platin_BW_Flecktarn",
+			"TTT_Blue_BW_Tropentarn",
+			"TTT_White_BW_Tropentarn",
+			"TTT_Silver_BW_Tropentarn",
+			"TTT_Platinum_BW_Tropentarn",
 
 			//Kisten
 			"TTT_Weapons_BW",
@@ -320,7 +320,6 @@ class CfgWeapons {
 };
 
 class CfgVehicles {
-	
 	/*
 	#############################################################
 	### External class references
@@ -348,6 +347,5 @@ class CfgVehicles {
 	#include "\ttt_a3\ttt_units_bw\vehicles_flecktarn.hpp"
 	#include "\ttt_a3\ttt_units_bw\backpacks_flecktarn.hpp"		
 	#include "\ttt_a3\ttt_units_bw\crates_bw.hpp"
-		
 };
 

@@ -268,8 +268,8 @@ class CfgPatches {
 			"TTT_Vest_Lite_Red_US_Desert",
 			"TTT_Vest_Heavy_Black_US_Desert",
 			"TTT_Vest_Lite_Black_US_Desert",
-			"TTT_Vest_Heavy_Purple_US_Desert",
-			"TTT_Vest_Lite_Purple_US_Desert",
+			"TTT_Vest_Heavy_Violet_US_Desert",
+			"TTT_Vest_Lite_Violet_US_Desert",
 			"TTT_Vest_Heavy_Gold_US_Desert",
 			"TTT_Vest_Lite_Gold_US_Desert",
 			"TTT_Vest_Heavy_Grey_US_Desert",
@@ -289,8 +289,8 @@ class CfgPatches {
 			"TTT_Vest_Lite_Red_US_Woodland",
 			"TTT_Vest_Heavy_Black_US_Woodland",
 			"TTT_Vest_Lite_Black_US_Woodland",
-			"TTT_Vest_Heavy_Purple_US_Woodland",
-			"TTT_Vest_Lite_Purple_US_Woodland",
+			"TTT_Vest_Heavy_Violet_US_Woodland",
+			"TTT_Vest_Lite_Violet_US_Woodland",
 			"TTT_Vest_Heavy_Gold_US_Woodland",
 			"TTT_Vest_Lite_Gold_US_Woodland",
 			"TTT_Vest_Heavy_Grey_US_Woodland",
@@ -364,7 +364,6 @@ class CfgWeapons {
 };
 
 class CfgVehicles {
-	
 	/*
 	#############################################################
 	### External class references
@@ -392,6 +391,5 @@ class CfgVehicles {
 	#include "\ttt_a3\ttt_units_us\backpacks_desert.hpp"
 	#include "\ttt_a3\ttt_units_us\vehicles_woodland.hpp"
 	#include "\ttt_a3\ttt_units_us\backpacks_woodland.hpp"		
-	#include "\ttt_a3\ttt_units_us\crates_us.hpp"
-		
+	#include "\ttt_a3\ttt_units_us\crates_us.hpp"	
 };

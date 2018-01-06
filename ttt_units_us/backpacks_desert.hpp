@@ -29,7 +29,7 @@ class TTT_Backpack_GRE_US_Desert : B_AssaultPack_cbr {
 };
 
 //MG-Assistent Rucksack
-class TTT_Backpack_Mgassistent_US_Desert : B_AssaultPack_cbr {
+class TTT_Backpack_MGA_US_Desert : B_AssaultPack_cbr {
     displayName = "TTT MG-Assistent Rucksack (US Desert)";
         class TransportItems {
         TRANSPORT_ITEMS_MEDIC_STUFF
@@ -41,7 +41,7 @@ class TTT_Backpack_Mgassistent_US_Desert : B_AssaultPack_cbr {
 };
 
 //MG-Schuetze Rucksack
-class TTT_Backpack_Mgschuetze_US_Desert : B_AssaultPack_cbr {
+class TTT_Backpack_MGS_US_Desert : B_AssaultPack_cbr {
     displayName = "TTT MG-Schuetze Rucksack (US Desert)";
         class TransportItems {
         TRANSPORT_ITEMS_MEDIC_STUFF
@@ -66,7 +66,7 @@ class TTT_Backpack_Lmgschuetze_US_Desert : B_AssaultPack_cbr {
 };
 
 //AT-Schuetze Rucksack
-class TTT_Backpack_Atschuetze_US_Desert : B_AssaultPack_cbr {
+class TTT_Backpack_ATS_US_Desert : B_AssaultPack_cbr {
     displayName = "TTT AT-Schuetze Rucksack (US Desert)";
         class TransportItems {
         TRANSPORT_ITEMS_MEDIC_STUFF
@@ -75,7 +75,7 @@ class TTT_Backpack_Atschuetze_US_Desert : B_AssaultPack_cbr {
 };
 
 //Schuetze Rucksack
-class TTT_Backpack_Schuetze_US_Desert : B_AssaultPack_cbr {
+class TTT_Backpack_Soldier_US_Desert : B_AssaultPack_cbr {
     displayName = "TTT Schuetze Rucksack (US Desert)";
         class TransportItems {
         TRANSPORT_ITEMS_MEDIC_STUFF
@@ -84,7 +84,7 @@ class TTT_Backpack_Schuetze_US_Desert : B_AssaultPack_cbr {
 };
 
 //Funker/FAC Rucksack
-class TTT_Backpack_Funkerfac_US_Desert : TFAR_rt1523g_big_rhs {
+class TTT_Backpack_Radio_US_Desert : TFAR_rt1523g_big_rhs {
     displayName = "TTT Funker/FAC Rucksack (US Desert)";
     tf_range = 50000;
     class TransportItems {
@@ -117,7 +117,7 @@ class TTT_Backpack_SAN_US_Desert : B_Kitbag_cbr {
 };
 
 //Feldarzt Rucksack
-class TTT_Backpack_Feldarzt_US_Desert : B_Kitbag_cbr {
+class TTT_Backpack_DOC_US_Desert : B_Kitbag_cbr {
     displayName = "TTT Feldarzt Rucksack (US Desert)";
         class TransportItems {
         TRANSPORT_ITEMS_DOCTOR
@@ -135,11 +135,11 @@ class TTT_Backpack_Pilot_US_Desert : TFAR_rt1523g_big_rhs {
 };
 
 //OPL Rucksack
-class TTT_Backpack_Opl_US_Desert : TFAR_rt1523g_big_rhs {
+class TTT_Backpack_CO_US_Desert : TFAR_rt1523g_big_rhs {
     displayName = "TTT OPL Rucksack (US Desert)";
     tf_range = 50000;
     class TransportItems {
         TRANSPORT_ITEMS_MEDIC_STUFF
-        TRANSPORT_ITEMS_OPL
+        TRANSPORT_ITEMS_CO
     };
 };

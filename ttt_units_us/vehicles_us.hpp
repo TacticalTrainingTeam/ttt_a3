@@ -90,12 +90,12 @@ class TTT_GRE_Base_US : TTT_Base_US {
 };
 
 //Basis-Klasse fuer MG-Assistenten
-class TTT_Mgassistent_Base_US : TTT_Base_US {
+class TTT_MGA_Base_US : TTT_Base_US {
     author = "$STR_Tactical_Training_Team";
     displayName = "MG-Assistent US (Template)";
     vehicleClass = "TTT_Template_US";
     uniformClass = "TTT_Uniform_Base";
-    backpack = "TTT_Backpack_Mgassistent_US_Desert";
+    backpack = "TTT_Backpack_MGA_US_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     weapons[] += {
         WEAPON_US_PRIMARY,
@@ -108,13 +108,13 @@ class TTT_Mgassistent_Base_US : TTT_Base_US {
 };
 
 //Basis-Klasse fuer MG-Schuetzen
-class TTT_Mgschuetze_Base_US : TTT_Base_US {
+class TTT_MGS_Base_US : TTT_Base_US {
     author = "$STR_Tactical_Training_Team";
     displayName = "MG-Schuetze US (Template)";
     icon = "iconManMG";
     vehicleClass = "TTT_Template_US";
     uniformClass = "TTT_Uniform_Base";
-    backpack = "TTT_Backpack_Mgschuetze_US_Desert";
+    backpack = "TTT_Backpack_MGS_US_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     weapons[] += { 
         WEAPON_US_MG, 
@@ -173,7 +173,7 @@ class TTT_Atassistent_Base_US : TTT_Base_US {
     displayName = "AT-Assistent US (Template)";
     vehicleClass = "TTT_Template_US";
     uniformClass = "TTT_Uniform_Base";
-    backpack = "TTT_Backpack_Schuetze_US_Desert";
+    backpack = "TTT_Backpack_Soldier_US_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     weapons[] += { 
         WEAPON_US_PRIMARY, 
@@ -186,13 +186,13 @@ class TTT_Atassistent_Base_US : TTT_Base_US {
 };
 
 //Basis-Klasse fuer AT-Schuetzen
-class TTT_Atschuetze_Base_US : TTT_Base_US {
+class TTT_ATS_Base_US : TTT_Base_US {
     author = "$STR_Tactical_Training_Team";
     displayName = "AT-Schuetze US (Template)";
     icon = "iconManAT";
     vehicleClass = "TTT_Template_US";
     uniformClass = "TTT_Uniform_Base";
-    backpack = "TTT_Backpack_Atschuetze_US_Desert";
+    backpack = "TTT_Backpack_ATS_US_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     weapons[] += { 
         WEAPON_US_PRIMARY, 
@@ -207,12 +207,12 @@ class TTT_Atschuetze_Base_US : TTT_Base_US {
 };
 
 //Basis-Klasse fuer Schuetzen
-class TTT_Schuetze_Base_US : TTT_Base_US {
+class TTT_Soldier_Base_US : TTT_Base_US {
     author = "$STR_Tactical_Training_Team";
     displayName = "Schuetze US (Template)";
     vehicleClass = "TTT_Template_US";
     uniformClass = "TTT_Uniform_Base";
-    backpack = "TTT_Backpack_Schuetze_US_Desert";
+    backpack = "TTT_Backpack_Soldier_US_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     weapons[] += { 
         WEAPON_US_PRIMARY, 
@@ -225,12 +225,12 @@ class TTT_Schuetze_Base_US : TTT_Base_US {
 };
 
 //Basis-Klasse fuer Funker/FAC
-class TTT_Funkerfac_Base_US : TTT_Base_US {
+class TTT_Radio_Base_US : TTT_Base_US {
     author = "$STR_Tactical_Training_Team";
     displayName = "Funker/FAC US (Template)";
     vehicleClass = "TTT_Template_US";
     uniformClass = "TTT_Uniform_Base";
-    backpack = "TTT_Backpack_Funkerfac_US_Desert";
+    backpack = "TTT_Backpack_Radio_US_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     weapons[] += { 
         WEAPON_US_PRIMARY_GL, 
@@ -285,14 +285,14 @@ class TTT_SAN_Base_US : TTT_Base_US {
 };
 
 //Basis-Klasse fuer Feldaerzte
-class TTT_Feldarzt_Base_US : TTT_Base_US {
+class TTT_DOC_Base_US : TTT_Base_US {
     author = "$STR_Tactical_Training_Team";
     displayName = "Feldarzt US (Template)";
     icon = "iconManMedic";
     vehicleClass = "TTT_Template_US";
     uniformClass = "TTT_Uniform_Base";
     attendant = 1;
-    backpack = "TTT_Backpack_Feldarzt_US_Desert";
+    backpack = "TTT_Backpack_DOC_US_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { "ACE_microDAGR" };
     respawnitems[] += { "ACE_microDAGR" };
