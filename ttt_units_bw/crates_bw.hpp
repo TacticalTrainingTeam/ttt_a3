@@ -190,8 +190,8 @@
 		};
 		
 		class TransportBackpacks { 
-			backpack_xx(TTT_Backpack_Radio_BW_Tropentarn,1);
-			backpack_xx(TTT_Backpack_Radio_BW_Flecktarn,1);
+			backpack_xx(TTT_Backpack_Soldier_Radio_BW_Tropentarn,1);
+			backpack_xx(TTT_Backpack_Soldier_Radio_BW_Flecktarn,1);
 			backpack_xx(B_UAV_01_backpack_F,1);
 		};
 	};
@@ -289,10 +289,10 @@
 		};
 		
 		class TransportBackpacks {
-			backpack_xx(TTT_Backpack_SAN_BW_Flecktarn,4);
-			backpack_xx(TTT_Backpack_SAN_BW_Tropentarn,4);
-			backpack_xx(TTT_Backpack_DOC_BW_Tropentarn,4);
-			backpack_xx(TTT_Backpack_DOC_BW_Flecktarn,4);
+			backpack_xx(TTT_Backpack_Combat_Medic_BW_Flecktarn,4);
+			backpack_xx(TTT_Backpack_Combat_Medic_BW_Tropentarn,4);
+			backpack_xx(TTT_Backpack_Medic_BW_Tropentarn,4);
+			backpack_xx(TTT_Backpack_Medic_BW_Flecktarn,4);
 		};
 			
 	};
