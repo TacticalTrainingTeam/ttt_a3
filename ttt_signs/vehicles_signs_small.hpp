@@ -7,7 +7,7 @@
 		displayName = "TTT Notizschild Base";
 		model = "\A3\Structures_F\Civ\InfoBoards\Noticeboard_F.p3d";
 		icon = "iconObject_4x1";
-		vehicleClass = "ttt_noticboards";
+		vehicleClass = "TTT_Sign_Small";
 		destrType = "DestructWall";
 		hiddenSelections[] = {"board"};
 	};

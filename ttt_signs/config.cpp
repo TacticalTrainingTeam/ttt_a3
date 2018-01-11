@@ -62,7 +62,7 @@ class CfgVehicleClasses {
 		displayName = "TTT Flaggen"; 		
 		priority = 25; 						
 	};
-	class TTT_Noticboards {
+	class TTT_Sign_Small {
 		displayName = "TTT Notizschilder";
 		priority = 26;
 	};
@@ -78,7 +78,7 @@ class CfgVehicleClasses {
 
 class CfgVehicles {
 	#include "\ttt_a3\ttt_signs\vehicles_flags.hpp"
-	#include "\ttt_a3\ttt_signs\vehicles_notizschilder.hpp"
+	#include "\ttt_a3\ttt_signs\vehicles_signs_small.hpp"
 	#include "\ttt_a3\ttt_signs\vehicles_signs.hpp"
-	#include "\ttt_a3\ttt_signs\vehicles_tafeln.hpp"
+	#include "\ttt_a3\ttt_signs\vehicles_panels.hpp"
 };
