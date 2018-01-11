@@ -3,30 +3,32 @@
 class CfgPatches {
 	class ttt_vehicles_us {
 		requiredAddons[] = {"ttt_main"};		
-		units[] = {	"TTT_IMV_MG_US_Desert",
+		units[] = {	
+					"TTT_LUV_COM_US_Desert",
+					"TTT_LUV_COM_US_Woodland",
+					"TTT_LUV_SAR_US_Desert",
+					"TTT_LUV_SAR_US_Woodland",
+					"TTT_LUV_LOG_US_Desert",
+					"TTT_LUV_LOG_US_Woodland",							
+					"TTT_IMV_MG_US_Desert",
 					"TTT_IMV_MG_US_Woodland", 
 					"TTT_IMV_GL_US_Desert",
 					"TTT_IMV_GL_US_Woodland",
-					"TTT_LUV_COM_US_Desert",
-					"TTT_LUV_COM_US_Woodland",
 					"TTT_IFV_US_Desert",
 					"TTT_IFV_US_Woodland",
 					"TTT_MBT_US_Desert",
 					"TTT_MBT_US_Woodland",
-					"TTT_Heli_CAS_US_Desert",
-					"TTT_Heli_CAS_US_Woodland",
-					"TTT_Heli_SAR_US_Desert",
-					"TTT_Heli_SAR_US_Woodland",
-					"TTT_Heli_Heavy_US_Desert",
-					"TTT_Heli_Heavy_US_Woodland",
-                    "TTT_Heli_Medium_US_Desert",
-                    "TTT_Heli_Medium_US_Woodland",
-					"TTT_Drone_US_Desert",
-					"TTT_Drone_US_Woodland",
-					"TTT_LUV_SAR_US_Desert",
-					"TTT_LUV_SAR_US_Woodland",
-					"TTT_LUV_LOG_US_Desert",
-					"TTT_LUV_LOG_US_Woodland"
+					"TTT_MTA_SAR_US_Desert",
+					"TTT_MTA_SAR_US_Woodland",
+                    "TTT_MTA_Medium_US_Desert",
+                    "TTT_MTA_Medium_US_Woodland",					
+					"TTT_MTA_Heavy_US_Desert",
+					"TTT_MTA_Heavy_US_Woodland",
+					"TTT_UAV_US_Desert",
+					"TTT_UAV_US_Woodland",
+					"TTT_AH_US_Desert",
+					"TTT_AH_US_Woodland"				
+
 		};
 		weapons[] = {};
 	};

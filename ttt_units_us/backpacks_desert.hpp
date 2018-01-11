@@ -1,13 +1,13 @@
-/*
+    /*
     #############################################################
     ### Desert Rucksaecke
     #############################################################
-*/
+    */
 
 //Truppfuehrer Rucksack
 class TTT_Backpack_Teamleader_US_Desert : B_AssaultPack_cbr {
     displayName = "TTT Truppfuehrer Rucksack (US Desert)";
-        class TransportItems {
+    class TransportItems {
         TRANSPORT_ITEMS_MEDIC_STUFF
         TRANSPORT_ITEMS_TF
     };
@@ -19,7 +19,7 @@ class TTT_Backpack_Teamleader_US_Desert : B_AssaultPack_cbr {
 //Grenadier Rucksack
 class TTT_Backpack_Grenadier_US_Desert : B_AssaultPack_cbr {
     displayName = "TTT Grenadier Rucksack (US Desert)";
-        class TransportItems {
+    class TransportItems {
         TRANSPORT_ITEMS_MEDIC_STUFF
         TRANSPORT_ITEMS_GL
     };
@@ -31,7 +31,7 @@ class TTT_Backpack_Grenadier_US_Desert : B_AssaultPack_cbr {
 //MG-Assistent Rucksack
 class TTT_Backpack_Assistant_MG_US_Desert : B_AssaultPack_cbr {
     displayName = "TTT MG-Assistent Rucksack (US Desert)";
-        class TransportItems {
+    class TransportItems {
         TRANSPORT_ITEMS_MEDIC_STUFF
         TRANSPORT_ITEMS_MG_ASSIST
     };
@@ -43,7 +43,7 @@ class TTT_Backpack_Assistant_MG_US_Desert : B_AssaultPack_cbr {
 //MG-Schuetze Rucksack
 class TTT_Backpack_Soldier_MG_US_Desert : B_AssaultPack_cbr {
     displayName = "TTT MG-Schuetze Rucksack (US Desert)";
-        class TransportItems {
+    class TransportItems {
         TRANSPORT_ITEMS_MEDIC_STUFF
         TRANSPORT_ITEMS_MG
     };
@@ -56,7 +56,7 @@ class TTT_Backpack_Soldier_MG_US_Desert : B_AssaultPack_cbr {
 //LMG-Schuetze Rucksack
 class TTT_Backpack_Soldier_LMG_US_Desert : B_AssaultPack_cbr {
     displayName = "TTT LMG-Schuetze Rucksack (US Desert)";
-        class TransportItems {
+    class TransportItems {
         TRANSPORT_ITEMS_MEDIC_STUFF
         TRANSPORT_ITEMS_LMG
     };
@@ -68,7 +68,7 @@ class TTT_Backpack_Soldier_LMG_US_Desert : B_AssaultPack_cbr {
 //AT-Schuetze Rucksack
 class TTT_Backpack_Soldier_AT_US_Desert : B_AssaultPack_cbr {
     displayName = "TTT AT-Schuetze Rucksack (US Desert)";
-        class TransportItems {
+    class TransportItems {
         TRANSPORT_ITEMS_MEDIC_STUFF
         TRANSPORT_ITEMS_AT
     };
@@ -77,7 +77,7 @@ class TTT_Backpack_Soldier_AT_US_Desert : B_AssaultPack_cbr {
 //Schuetze Rucksack
 class TTT_Backpack_Soldier_US_Desert : B_AssaultPack_cbr {
     displayName = "TTT Schuetze Rucksack (US Desert)";
-        class TransportItems {
+    class TransportItems {
         TRANSPORT_ITEMS_MEDIC_STUFF
         TRANSPORT_ITEMS_RIFLEMAN
     };
@@ -111,7 +111,7 @@ class TTT_Backpack_Pioneer_US_Desert : B_Carryall_cbr {
 //Gefechtssanitaeter Rucksack
 class TTT_Backpack_Medic_Combat_US_Desert : B_Kitbag_cbr {
     displayName = "TTT Gefechtssanitaeter Rucksack (US Desert)";
-        class TransportItems {
+    class TransportItems {
         TRANSPORT_ITEMS_MEDIC
     };
 };
@@ -119,7 +119,7 @@ class TTT_Backpack_Medic_Combat_US_Desert : B_Kitbag_cbr {
 //Feldarzt Rucksack
 class TTT_Backpack_Medic_Doctor_US_Desert : B_Kitbag_cbr {
     displayName = "TTT Feldarzt Rucksack (US Desert)";
-        class TransportItems {
+    class TransportItems {
         TRANSPORT_ITEMS_DOCTOR
     };
 };
