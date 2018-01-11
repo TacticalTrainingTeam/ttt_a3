@@ -4,7 +4,7 @@
 	#############################################################
 	*/
 	
-	class TTT_Weapons_BW : Box_NATO_Wps_F {
+	class TTT_Crate_Weapons_BW : Box_NATO_Wps_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Waffen (BW)";
 		transportMaxWeapons = 99;
@@ -27,7 +27,7 @@
 		};
 	};
 	
-	class TTT_Weapons_Special_BW : Box_NATO_WpsSpecial_F {
+	class TTT_Crate_Weapons_Special_BW : Box_NATO_WpsSpecial_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Spezialwaffen (BW)";
 		transportMaxWeapons = 99;
@@ -49,7 +49,7 @@
 		};
 	};
 	
-	class TTT_Ammo_Standard_BW : Box_NATO_Ammo_F {
+	class TTT_Crate_Ammo_Standard_BW : Box_NATO_Ammo_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Standardmunition (BW)";
 		transportMaxWeapons = 99;
@@ -74,7 +74,7 @@
 		};
 	};
 	
-	class TTT_Ammo_Special_BW : Box_NATO_Ammo_F {
+	class TTT_Crate_Ammo_Special_BW : Box_NATO_Ammo_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Spezialmunition (BW)";
 		transportMaxWeapons = 99;
@@ -97,7 +97,7 @@
 		};
 	};
 	
-	class TTT_Equipment_Pioneer_BW : Box_NATO_AmmoOrd_F {
+	class TTT_Crate_Equipment_Pioneer_BW : Box_NATO_AmmoOrd_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Pionierausruestung (BW)";
 		transportMaxWeapons = 99;
@@ -124,7 +124,7 @@
 		};
 	};
 	
-	class TTT_Ammo_Grenade_BW : Box_NATO_Grenades_F {
+	class TTT_Crate_Ammo_Grenade_BW : Box_NATO_Grenades_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Granaten (BW)";
 		transportMaxWeapons = 99;
@@ -150,7 +150,7 @@
 		};
 	};
 	
-	class TTT_Equipment_BW : Box_NATO_Support_F {
+	class TTT_Crate_Equipment_BW : Box_NATO_Support_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Ausruestung (BW)";
 		transportMaxWeapons = 99;
@@ -190,13 +190,13 @@
 		};
 		
 		class TransportBackpacks { 
-			backpack_xx(TTT_Backpack_Soldier_Radio_BW_Tropentarn,1);
-			backpack_xx(TTT_Backpack_Soldier_Radio_BW_Flecktarn,1);
+			backpack_xx(TTT_Backpack_Operator_Radio_BW_Tropentarn,1);
+			backpack_xx(TTT_Backpack_Operator_Radio_BW_Flecktarn,1);
 			backpack_xx(B_UAV_01_backpack_F,1);
 		};
 	};
 	
-	class TTT_Weapons_Luncher_BW : Box_NATO_WpsLaunch_F {
+	class TTT_Crate_Weapons_Luncher_BW : Box_NATO_WpsLaunch_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Werfer (BW)";
 		transportMaxWeapons = 99;
@@ -218,7 +218,7 @@
 		};
 	};
 	
-	class TTT_Ammo_Luncher_BW : Box_NATO_WpsLaunch_F {
+	class TTT_Crate_Ammo_Luncher_BW : Box_NATO_WpsLaunch_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Werfermunition (BW)";
 		transportMaxWeapons = 99;
@@ -240,7 +240,7 @@
 		};
 	};
 	
-	class TTT_Medic_BW : Box_NATO_Support_F {
+	class TTT_Crate_Medic_Doctor_BW : Box_NATO_Support_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Medic Material (BW)";
 		transportMaxWeapons = 99;
@@ -273,7 +273,7 @@
 		};
 	};
 	
-	class TTT_Medic_Backpack_BW : B_supplyCrate_F {
+	class TTT_Crate_Medic_Backpack_BW : B_supplyCrate_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Medic Rucksaecke (BW)";
 		transportMaxWeapons = 99;
@@ -289,10 +289,10 @@
 		};
 		
 		class TransportBackpacks {
-			backpack_xx(TTT_Backpack_Combat_Medic_BW_Flecktarn,4);
-			backpack_xx(TTT_Backpack_Combat_Medic_BW_Tropentarn,4);
-			backpack_xx(TTT_Backpack_Medic_BW_Tropentarn,4);
-			backpack_xx(TTT_Backpack_Medic_BW_Flecktarn,4);
+			backpack_xx(TTT_Backpack_Medic_Combat_BW_Flecktarn,4);
+			backpack_xx(TTT_Backpack_Medic_Combat_BW_Tropentarn,4);
+			backpack_xx(TTT_Backpack_Medic_Doctor_BW_Tropentarn,4);
+			backpack_xx(TTT_Backpack_Medic_Doctor_BW_Flecktarn,4);
 		};
 			
 	};

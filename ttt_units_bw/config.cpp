@@ -200,17 +200,17 @@ class CfgPatches {
 			"TTT_Platinum_BW_Tropentarn",
 
 			//Kisten
-			"TTT_Weapons_BW",
-			"TTT_Weapons_Special_BW",
-			"TTT_Weapons_Luncher_BW",
-			"TTT_Ammo_Standard_BW",
-			"TTT_Ammo_Special_BW",
-			"TTT_Ammo_Luncher_BW",
-			"TTT_Ammo_Grenade_BW",
-			"TTT_Equipment_BW",
-			"TTT_Equipment_Pioneer_BW",
-			"TTT_Medic_BW",
-			"TTT_Medic_Backpack_BW",
+			"TTT_Crate_Weapons_BW",
+			"TTT_Crate_Weapons_Special_BW",
+			"TTT_Crate_Weapons_Luncher_BW",
+			"TTT_Crate_Ammo_Standard_BW",
+			"TTT_Crate_Ammo_Special_BW",
+			"TTT_Crate_Ammo_Luncher_BW",
+			"TTT_Crate_Ammo_Grenade_BW",
+			"TTT_Crate_Equipment_BW",
+			"TTT_Crate_Equipment_Pioneer_BW",
+			"TTT_Crate_Medic_Doctor_BW",
+			"TTT_Crate_Medic_Backpack_BW",
 			"TTT_Crate_Small_BW",
 			"TTT_Crate_Large_BW"
 		};

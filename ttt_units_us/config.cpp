@@ -199,18 +199,18 @@ class CfgPatches {
 			"TTT_Platin_US_Woodland",
 
 			//Logistik Kisten
-			"TTT_Logistik_Waffen_US",
-			"TTT_Logistik_Spezialwaffen_US",
-			"TTT_Logistik_Standardmunition_US",
-			"TTT_Logistik_Spezialmunition_US",
-			"TTT_Logistik_Pionierausruestung_US",
-			"TTT_Logistik_Granaten_US",
-			"TTT_Logistik_Ausruestung_US",
-			"TTT_Logistik_Werfer_US",
-			"TTT_Logistik_Medic_Rucksaecke_US",
-			"TTT_Logistik_Medic_US",
-			"TTT_Logistik_Kiste_Klein_US",
-			"TTT_Logistik_Kiste_Gross_US"
+			"TTT_Crate_Weapons_US",
+			"TTT_Crate_Weapons_Special_US",
+			"TTT_Crate_Ammo_Standard_US",
+			"TTT_Crate_Ammo_Special_US",
+			"TTT_Crate_Equipment_Pioneer_US",
+			"TTT_Crate_Ammo_Grenade_US",
+			"TTT_Crate_Equipment_US",
+			"TTT_Crate_Weapons_Luncher_US",
+			"TTT_Crate_Medic_Backpack_US",
+			"TTT_Crate_Ammo_Luncher_US",
+			"TTT_Crate_Small_US",
+			"TTT_Crate_Large_US"
 		};
 		weapons[] = {
 			//Uniformen Desert

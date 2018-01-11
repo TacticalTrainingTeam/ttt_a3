@@ -41,7 +41,7 @@
 	};	
 	
 	//Funker/FAC Rucksack
-	class TTT_Backpack_Soldier_Radio_BW_Flecktarn : TTT_Backpack_Soldier_Radio_BW_Tropentarn {
+	class TTT_Backpack_Operator_Radio_BW_Flecktarn : TTT_Backpack_Operator_Radio_BW_Tropentarn {
 		displayName = "TTT Funker/FAC Rucksack (BW Flecktarn)";
 		hiddenSelectionsTextures[] = {"\z\tfar\addons\backpacks\models\data\clf_nicecomm2_bwmod_co.paa"};
 	};
@@ -53,13 +53,13 @@
 	};
 	
 	//Gefechtssanitaeter Rucksack
-	class TTT_Backpack_Combat_Medic_BW_Flecktarn : TTT_Backpack_Combat_Medic_BW_Tropentarn {
+	class TTT_Backpack_Medic_Combat_BW_Flecktarn : TTT_Backpack_Medic_Combat_BW_Tropentarn {
 		displayName = "TTT Gefechtssanitaeter Rucksack (BW Flecktarn)";
 		hiddenSelectionsTextures[] = {"\A3\weapons_f\ammoboxes\bags\data\backpack_fast_rgr_co.paa"};		
 	};
 	
 	//Feldarzt Rucksack
-	class TTT_Backpack_Medic_BW_Flecktarn : TTT_Backpack_Medic_BW_Tropentarn {
+	class TTT_Backpack_Medic_Doctor_BW_Flecktarn : TTT_Backpack_Medic_Doctor_BW_Tropentarn {
 		displayName = "TTT Feldarzt Rucksack (BW Flecktarn)";
 		hiddenSelectionsTextures[] = {"\A3\weapons_f\ammoboxes\bags\data\backpack_fast_rgr_co.paa"};
 	};

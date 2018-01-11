@@ -54,7 +54,7 @@ class TTT_Backpack_Soldier_MG_US_Desert : B_AssaultPack_cbr {
 };
 
 //LMG-Schuetze Rucksack
-class TTT_Backpack_Lmgschuetze_US_Desert : B_AssaultPack_cbr {
+class TTT_Backpack_Soldier_LMG_US_Desert : B_AssaultPack_cbr {
     displayName = "TTT LMG-Schuetze Rucksack (US Desert)";
         class TransportItems {
         TRANSPORT_ITEMS_MEDIC_STUFF
@@ -84,7 +84,7 @@ class TTT_Backpack_Soldier_US_Desert : B_AssaultPack_cbr {
 };
 
 //Funker/FAC Rucksack
-class TTT_Backpack_Soldier_Radio_US_Desert : TFAR_rt1523g_big_rhs {
+class TTT_Backpack_Operator_Radio_US_Desert : TFAR_rt1523g_big_rhs {
     displayName = "TTT Funker/FAC Rucksack (US Desert)";
     tf_range = 50000;
     class TransportItems {
@@ -109,7 +109,7 @@ class TTT_Backpack_Pioneer_US_Desert : B_Carryall_cbr {
 };
 
 //Gefechtssanitaeter Rucksack
-class TTT_Backpack_Combat_Medic_US_Desert : B_Kitbag_cbr {
+class TTT_Backpack_Medic_Combat_US_Desert : B_Kitbag_cbr {
     displayName = "TTT Gefechtssanitaeter Rucksack (US Desert)";
         class TransportItems {
         TRANSPORT_ITEMS_MEDIC
@@ -117,7 +117,7 @@ class TTT_Backpack_Combat_Medic_US_Desert : B_Kitbag_cbr {
 };
 
 //Feldarzt Rucksack
-class TTT_Backpack_Medic_US_Desert : B_Kitbag_cbr {
+class TTT_Backpack_Medic_Doctor_US_Desert : B_Kitbag_cbr {
     displayName = "TTT Feldarzt Rucksack (US Desert)";
         class TransportItems {
         TRANSPORT_ITEMS_DOCTOR

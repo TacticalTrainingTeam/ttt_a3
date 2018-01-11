@@ -25,13 +25,13 @@ class TTT_Yellow_1_BW_Tropentarn : TTT_Teamleader_Base_BW {
 };
 
 //Gelb 2 (Funker)
-class TTT_Yellow_2_BW_Tropentarn : TTT_Soldier_Radio_Base_BW {
+class TTT_Yellow_2_BW_Tropentarn : TTT_Operator_Radio_Base_BW {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Gelb 2 (Funker/FAC)";
     vehicleClass = "TTT_Yellow_BW_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
-    backpack = "TTT_Backpack_Soldier_Radio_BW_Tropentarn";
+    backpack = "TTT_Backpack_Operator_Radio_BW_Tropentarn";
     uniformClass = "TTT_Uniform_Yellow_BW_Tropentarn";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_bw\data\TTT_uniform_yellow_bw_tropentarn.paa" };
     items[] = { default_item_bw, default_ace_items, "ACE_microDAGR" };
@@ -41,11 +41,11 @@ class TTT_Yellow_2_BW_Tropentarn : TTT_Soldier_Radio_Base_BW {
 };
 
 //Gelb 3 (UAV)
-class TTT_Yellow_3_BW_Tropentarn : TTT_Soldier_Radio_Base_BW {
+class TTT_Yellow_3_BW_Tropentarn : TTT_Operator_Radio_Base_BW {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Gelb 3 (UAV)";
-    backpack = "TTT_Backpack_Soldier_Radio_BW_Tropentarn";
+    backpack = "TTT_Backpack_Operator_Radio_BW_Tropentarn";
     vehicleClass = "TTT_Yellow_BW_Tropentarn";
 	editorSubcategory = "EdSubcat_Unit_Camo_Tropentarn";
     uniformClass = "TTT_Uniform_Yellow_BW_Tropentarn";
@@ -57,7 +57,7 @@ class TTT_Yellow_3_BW_Tropentarn : TTT_Soldier_Radio_Base_BW {
 };
 
 //Gelb 4 (Moerser)
-class TTT_Yellow_4_BW_Tropentarn : TTT_Soldier_Radio_Base_BW {
+class TTT_Yellow_4_BW_Tropentarn : TTT_Operator_Radio_Base_BW {
     author = "$STR_Tactical_Training_Team";
     scope = 1;
     displayName = "Gelb 4 (Moerser)";
@@ -97,7 +97,7 @@ class TTT_Grey_1_BW_Tropentarn : TTT_Teamleader_Base_BW {
 };
 
 //Grau 2 (Funker/FAC)
-class TTT_Grey_2_BW_Tropentarn : TTT_Soldier_Radio_Base_BW {
+class TTT_Grey_2_BW_Tropentarn : TTT_Operator_Radio_Base_BW {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Grau 2 (Funker/FAC)";
@@ -116,7 +116,7 @@ class TTT_Grey_2_BW_Tropentarn : TTT_Soldier_Radio_Base_BW {
 };
 
 //Grau 3 (Gefechtssanitaeter)
-class TTT_Grey_3_BW_Tropentarn : TTT_Combat_Medic_Base_BW {
+class TTT_Grey_3_BW_Tropentarn : TTT_Medic_Combat_Base_BW {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Grau 3 (Gefechtssanitaeter)";
@@ -215,7 +215,7 @@ class TTT_Gold_1_BW_Tropentarn : TTT_Teamleader_Base_BW {
 };
 
 //Gold 2 (Funker)
-class TTT_Gold_2_BW_Tropentarn : TTT_Soldier_Radio_Base_BW {
+class TTT_Gold_2_BW_Tropentarn : TTT_Operator_Radio_Base_BW {
     scope = 2;
 	author = "$STR_Tactical_Training_Team";
     displayName = "Gold 2 (Funker/FAC)";
@@ -337,7 +337,7 @@ class TTT_Green_1_BW_Tropentarn : TTT_Teamleader_Base_BW {
 };
 
 //Gruen 2 (Funker/FAC)
-class TTT_Green_2_BW_Tropentarn : TTT_Soldier_Radio_Base_BW {
+class TTT_Green_2_BW_Tropentarn : TTT_Operator_Radio_Base_BW {
     scope = 2;
     author = "$STR_Tactical_Training_Team";
     displayName = "Gruen 2 (Funker/FAC)";
@@ -352,7 +352,7 @@ class TTT_Green_2_BW_Tropentarn : TTT_Soldier_Radio_Base_BW {
 };
 
 //Gruen 3 (Gefechtssanitaeter)
-class TTT_Green_3_BW_Tropentarn : TTT_Combat_Medic_Base_BW {
+class TTT_Green_3_BW_Tropentarn : TTT_Medic_Combat_Base_BW {
     scope = 2;
     author = "$STR_Tactical_Training_Team";
     displayName = "Gruen 3 (Gefechtssanitaeter)";
@@ -367,7 +367,7 @@ class TTT_Green_3_BW_Tropentarn : TTT_Combat_Medic_Base_BW {
 };
 
 //Gruen 4 (Gefechtssanitaeter)
-class TTT_Green_4_BW_Tropentarn : TTT_Combat_Medic_Base_BW {
+class TTT_Green_4_BW_Tropentarn : TTT_Medic_Combat_Base_BW {
     scope = 1;
     author = "$STR_Tactical_Training_Team";
     displayName = "Gruen 4 (Gefechtssanitaeter)";
@@ -405,7 +405,7 @@ class TTT_Brown_1_BW_Tropentarn : TTT_Teamleader_Base_BW {
 };
 
 //Braun 2 (Funker/FAC)
-class TTT_Brown_2_BW_Tropentarn : TTT_Soldier_Radio_Base_BW {
+class TTT_Brown_2_BW_Tropentarn : TTT_Operator_Radio_Base_BW {
     scope = 2;
     author = "$STR_Tactical_Training_Team";
     displayName = "Braun 2 (Funker/FAC)";
@@ -420,7 +420,7 @@ class TTT_Brown_2_BW_Tropentarn : TTT_Soldier_Radio_Base_BW {
 };
 
 //Braun 3 (Gefechtssanitaeter)
-class TTT_Brown_3_BW_Tropentarn : TTT_Combat_Medic_Base_BW {
+class TTT_Brown_3_BW_Tropentarn : TTT_Medic_Combat_Base_BW {
     scope = 2;
     author = "$STR_Tactical_Training_Team";
     displayName = "Braun 3 (Gefechtssanitaeter)";
@@ -473,7 +473,7 @@ class TTT_Black_2_BW_Tropentarn : TTT_Grenadier_Base_BW {
 };
 
 //Schwarz 3 (LMG-Schuetze)
-class TTT_Black_3_BW_Tropentarn : TTT_Lmgschuetze_Base_BW {
+class TTT_Black_3_BW_Tropentarn : TTT_Soldier_LMG_Base_BW {
     scope = 2;
     author = "$STR_Tactical_Training_Team";
     displayName = "Schwarz 3 (LMG-Schuetze)";
@@ -503,7 +503,7 @@ class TTT_Black_4_BW_Tropentarn : TTT_Soldier_AT_Base_BW {
 };
 
 //Schwarz 5 (LMG-Schuetze)
-class TTT_Black_5_BW_Tropentarn : TTT_Lmgschuetze_Base_BW {
+class TTT_Black_5_BW_Tropentarn : TTT_Soldier_LMG_Base_BW {
     scope = 2;
     author = "$STR_Tactical_Training_Team";
     displayName = "Schwarz 5 (LMG-Schuetze)";
@@ -571,7 +571,7 @@ class TTT_Red_2_BW_Tropentarn : TTT_Grenadier_Base_BW {
 };
 
 //Rot 3 (LMG-Schuetze)
-class TTT_Red_3_BW_Tropentarn : TTT_Lmgschuetze_Base_BW {
+class TTT_Red_3_BW_Tropentarn : TTT_Soldier_LMG_Base_BW {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Rot 3 (LMG-Schuetze)";
@@ -601,7 +601,7 @@ class TTT_Red_4_BW_Tropentarn : TTT_Soldier_AT_Base_BW {
 };
 
 //Rot 5 (LMG-Schuetze)
-class TTT_Red_5_BW_Tropentarn : TTT_Lmgschuetze_Base_BW {
+class TTT_Red_5_BW_Tropentarn : TTT_Soldier_LMG_Base_BW {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Rot 5 (LMG-Schuetze)";
@@ -964,7 +964,7 @@ class TTT_Bronze_6_BW_Tropentarn : TTT_Base_BW {
 #define GROUP_COLOR White
 
 //Wei� 1 (Oberfeldarzt)
-class TTT_White_1_BW_Tropentarn : TTT_Medic_Base_BW {
+class TTT_White_1_BW_Tropentarn : TTT_Medic_Doctor_Base_BW {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Weiss 1 (Oberfeldarzt)";
@@ -995,7 +995,7 @@ class TTT_White_2_BW_Tropentarn : TTT_Pilot_Base_BW {
 };
 
 //Wei� 3 (Feldarzt)
-class TTT_White_3_BW_Tropentarn : TTT_Medic_Base_BW {
+class TTT_White_3_BW_Tropentarn : TTT_Medic_Doctor_Base_BW {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "Weiss 3 (Feldarzt)";

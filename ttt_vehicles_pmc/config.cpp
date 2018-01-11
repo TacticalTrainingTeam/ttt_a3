@@ -3,15 +3,16 @@
 class CfgPatches {
 	class ttt_vehicles_pmc {
 		requiredAddons[] = {"ttt_main"};		
-		units[] = {	"TTT_IMV_MG_PMC",
+		units[] = {	
+					"TTT_LUV_LOG_PMC",				
+					"TTT_IMV_MG_PMC",
 					"TTT_IMV_TOW_PMC", 
 					"TTT_IMV_AA_PMC",
-					"TTT_APC_IFV_PMC",
-					"TTT_LUV_LOG_PMC",					
-					"TTT_Heli_Heavy_PMC",
-					"TTT_Heli_Medium_PMC",
-					"TTT_Heli_Light_PMC",
-					"TTT_CAS_PMC"
+					"TTT_IFV_PMC",	
+					"TTT_MTA_Light_PMC",	
+					"TTT_MTA_Medium_PMC",												
+					"TTT_MTA_Heavy_PMC",
+					"TTT_MRCA_PMC"
 		};
 		weapons[] = {};
 	};

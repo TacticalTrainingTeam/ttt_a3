@@ -28,7 +28,7 @@ class TTT_Yellow_1_US_Woodland : TTT_Yellow_1_US_Desert {
 class TTT_Yellow_2_US_Woodland : TTT_Yellow_2_US_Desert {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Gelb_US_Woodland";
-    backpack = "TTT_Backpack_Soldier_Radio_US_Woodland";
+    backpack = "TTT_Backpack_Operator_Radio_US_Woodland";
     uniformClass = "TTT_Uniform_Yellow_US_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_yellow_us_woodland.paa" };
@@ -48,7 +48,7 @@ class TTT_Yellow_2_US_Woodland : TTT_Yellow_2_US_Desert {
 class TTT_Yellow_3_US_Woodland : TTT_Yellow_3_US_Desert {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Gelb_US_Woodland";
-    backpack = "TTT_Backpack_Soldier_Radio_US_Woodland";
+    backpack = "TTT_Backpack_Operator_Radio_US_Woodland";
     uniformClass = "TTT_Uniform_Yellow_US_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_yellow_us_woodland.paa" };
@@ -70,7 +70,7 @@ class TTT_Yellow_3_US_Woodland : TTT_Yellow_3_US_Desert {
 class TTT_Yellow_4_US_Woodland : TTT_Yellow_4_US_Desert {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Gelb_US_Woodland";
-    backpack = "TTT_Backpack_Soldier_Radio_US_Woodland";
+    backpack = "TTT_Backpack_Operator_Radio_US_Woodland";
     uniformClass = "TTT_Uniform_Yellow_US_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_yellow_us_woodland.paa" };
@@ -118,7 +118,7 @@ class TTT_Grey_1_US_Woodland : TTT_Grey_1_US_Desert {
 class TTT_Grey_2_US_Woodland : TTT_Grey_2_US_Desert {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Grau_US_Woodland";
-    backpack = "TTT_Backpack_Soldier_Radio_US_Woodland";
+    backpack = "TTT_Backpack_Operator_Radio_US_Woodland";
     uniformClass = "TTT_Uniform_Grey_US_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_grey_us_woodland.paa" };
@@ -138,7 +138,7 @@ class TTT_Grey_2_US_Woodland : TTT_Grey_2_US_Desert {
 class TTT_Grey_3_US_Woodland : TTT_Grey_3_US_Desert {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Grau_US_Woodland";
-    backpack = "TTT_Backpack_Combat_Medic_US_Woodland";
+    backpack = "TTT_Backpack_Medic_Combat_US_Woodland";
     uniformClass = "TTT_Uniform_Grey_US_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_grey_us_woodland.paa" };
@@ -367,7 +367,7 @@ class TTT_Green_1_US_Woodland : TTT_Green_1_US_Desert {
 class TTT_Green_2_US_Woodland : TTT_Green_2_US_Desert {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Gruen_US_Woodland";
-    backpack = "TTT_Backpack_Soldier_Radio_US_Woodland";
+    backpack = "TTT_Backpack_Operator_Radio_US_Woodland";
     uniformClass = "TTT_Uniform_Green_US_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_green_us_woodland.paa" };
@@ -387,7 +387,7 @@ class TTT_Green_2_US_Woodland : TTT_Green_2_US_Desert {
 class TTT_Green_3_US_Woodland : TTT_Green_3_US_Desert {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Gruen_US_Woodland";
-    backpack = "TTT_Backpack_Combat_Medic_US_Woodland";
+    backpack = "TTT_Backpack_Medic_Combat_US_Woodland";
     uniformClass = "TTT_Uniform_Green_US_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_green_us_woodland.paa" };
@@ -407,7 +407,7 @@ class TTT_Green_3_US_Woodland : TTT_Green_3_US_Desert {
 class TTT_Green_4_US_Woodland : TTT_Green_4_US_Desert {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Gruen_US_Woodland";
-    backpack = "TTT_Backpack_Combat_Medic_US_Woodland";
+    backpack = "TTT_Backpack_Medic_Combat_US_Woodland";
     uniformClass = "TTT_Uniform_Green_US_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_green_us_woodland.paa" };
@@ -453,7 +453,7 @@ class TTT_Brown_1_US_Woodland : TTT_Brown_1_US_Desert {
 class TTT_Brown_2_US_Woodland : TTT_Brown_2_US_Desert {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Braun_US_Woodland";
-    backpack = "TTT_Backpack_Soldier_Radio_US_Woodland";
+    backpack = "TTT_Backpack_Operator_Radio_US_Woodland";
     uniformClass = "TTT_Uniform_Brown_US_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_brown_us_woodland.paa" };
@@ -473,7 +473,7 @@ class TTT_Brown_2_US_Woodland : TTT_Brown_2_US_Desert {
 class TTT_Brown_3_US_Woodland : TTT_Brown_3_US_Desert {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Braun_US_Woodland";
-    backpack = "TTT_Backpack_Combat_Medic_US_Woodland";
+    backpack = "TTT_Backpack_Medic_Combat_US_Woodland";
     uniformClass = "TTT_Uniform_Brown_US_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_brown_us_woodland.paa" };
@@ -539,7 +539,7 @@ class TTT_Black_2_US_Woodland : TTT_Black_2_US_Desert {
 class TTT_Black_3_US_Woodland : TTT_Black_3_US_Desert {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Schwarz_US_Woodland";
-    backpack = "TTT_Backpack_Lmgschuetze_US_Woodland";
+    backpack = "TTT_Backpack_Soldier_LMG_US_Woodland";
     uniformClass = "TTT_Uniform_Black_US_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_woodland.paa" };
@@ -579,7 +579,7 @@ class TTT_Black_4_US_Woodland : TTT_Black_4_US_Desert {
 class TTT_Black_5_US_Woodland : TTT_Black_5_US_Desert {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Schwarz_US_Woodland";
-    backpack = "TTT_Backpack_Lmgschuetze_US_Woodland";
+    backpack = "TTT_Backpack_Soldier_LMG_US_Woodland";
     uniformClass = "TTT_Uniform_Black_US_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_woodland.paa" };
@@ -665,7 +665,7 @@ class TTT_Red_2_US_Woodland : TTT_Red_2_US_Desert {
 class TTT_Red_3_US_Woodland : TTT_Red_3_US_Desert {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Rot_US_Woodland";
-    backpack = "TTT_Backpack_Lmgschuetze_US_Woodland";
+    backpack = "TTT_Backpack_Soldier_LMG_US_Woodland";
     uniformClass = "TTT_Uniform_Red_US_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_red_us_woodland.paa" };
@@ -705,7 +705,7 @@ class TTT_Red_4_US_Woodland : TTT_Red_4_US_Desert {
 class TTT_Red_5_US_Woodland : TTT_Red_5_US_Desert {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Rot_US_Woodland";
-    backpack = "TTT_Backpack_Lmgschuetze_US_Woodland";
+    backpack = "TTT_Backpack_Soldier_LMG_US_Woodland";
     uniformClass = "TTT_Uniform_Red_US_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_red_us_woodland.paa" };
@@ -1128,7 +1128,7 @@ class TTT_Violet_6_US_Woodland : TTT_Violet_6_US_Desert {
 class TTT_White_1_US_Woodland : TTT_White_1_US_Desert {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Weiss_US_Woodland";
-    backpack = "TTT_Backpack_Medic_US_Woodland";
+    backpack = "TTT_Backpack_Medic_Doctor_US_Woodland";
     uniformClass = "TTT_Uniform_White_US_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_white_us_woodland.paa" };
@@ -1168,7 +1168,7 @@ class TTT_White_2_US_Woodland : TTT_White_2_US_Desert {
 class TTT_White_3_US_Woodland : TTT_White_3_US_Desert {
     author = "$STR_Tactical_Training_Team";
     vehicleClass = "TTT_Weiss_US_Woodland";
-    backpack = "TTT_Backpack_Medic_US_Woodland";
+    backpack = "TTT_Backpack_Medic_Doctor_US_Woodland";
     uniformClass = "TTT_Uniform_White_US_Woodland";
 	editorSubcategory = "EdSubcat_Unit_Camo_Woodland";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_white_us_woodland.paa" };

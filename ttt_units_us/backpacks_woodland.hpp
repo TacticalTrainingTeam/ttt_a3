@@ -25,7 +25,7 @@
 	};
 	
 	//LMG-Schuetze Rucksack
-	class TTT_Backpack_Lmgschuetze_US_Woodland : TTT_Backpack_Lmgschuetze_US_Desert {
+	class TTT_Backpack_Soldier_LMG_US_Woodland : TTT_Backpack_Soldier_LMG_US_Desert {
 		displayName = "TTT LMG-Schuetze Rucksack (US Woodland)";
 	};
 	
@@ -40,7 +40,7 @@
 	};	
 	
 	//Funker/FAC Rucksack
-	class TTT_Backpack_Soldier_Radio_US_Woodland : TTT_Backpack_Soldier_Radio_US_Desert {
+	class TTT_Backpack_Operator_Radio_US_Woodland : TTT_Backpack_Operator_Radio_US_Desert {
 		displayName = "TTT Funker/FAC Rucksack (US Woodland)";
 	};
 	
@@ -50,12 +50,12 @@
 	};
 	
 	//Gefechtssanitaeter Rucksack
-	class TTT_Backpack_Combat_Medic_US_Woodland : TTT_Backpack_Combat_Medic_US_Desert {
+	class TTT_Backpack_Medic_Combat_US_Woodland : TTT_Backpack_Medic_Combat_US_Desert {
 		displayName = "TTT Gefechtssanitaeter Rucksack (US Woodland)";		
 	};
 	
 	//Feldarzt Rucksack
-	class TTT_Backpack_Medic_US_Woodland : TTT_Backpack_Medic_US_Desert {
+	class TTT_Backpack_Medic_Doctor_US_Woodland : TTT_Backpack_Medic_Doctor_US_Desert {
 		displayName = "TTT Feldarzt Rucksack (US Woodland)";
 	};
 	
