@@ -1,7 +1,7 @@
 #include "\ttt_a3\ttt_vehicles_pmc\macros.hpp"
 
 class CfgPatches {
-	class ttt_vehicles_pmc {
+	class TTT_Vehicles_PMC {
 		requiredAddons[] = {"ttt_main"};		
 		units[] = {	
 					"TTT_LUV_LOG_PMC",				

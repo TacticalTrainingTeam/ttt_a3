@@ -1,5 +1,5 @@
 	//Barrett: Blau
-	class TTT_Berets_Blue : HelmetBase {
+	class TTT_Beret_Blue : HelmetBase {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Barrett Blau";
@@ -17,113 +17,113 @@
 	};
 	
 	//Barrett: Braun
-	class TTT_Berets_Brown : TTT_Berets_Blue {
+	class TTT_Beret_Brown : TTT_Beret_Blue {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Barrett Braun";
 		picture = "\ttt_a3\ttt_berets\data\ui\berets_braun_icon_co.paa";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_berets\data\common\berets_braun_co.paa"};
 	};
 	//Barrett: Bronze
-	class TTT_Berets_Bronze : TTT_Berets_Blue {
+	class TTT_Beret_Bronze : TTT_Beret_Blue {
 		displayName = "TTT Barrett Bronze";
 		picture = "\ttt_a3\ttt_berets\data\ui\berets_bronze_icon_co.paa";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_berets\data\common\berets_bronze_co.paa"};
 	};
 	//Barrett: Gelb
-	class TTT_Berets_Yellow : TTT_Berets_Blue {
+	class TTT_Beret_Yellow : TTT_Beret_Blue {
 		displayName = "TTT Barrett Gelb";
 		picture = "\ttt_a3\ttt_berets\data\ui\berets_gelb_icon_co.paa";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_berets\data\common\berets_gelb_co.paa"};
 	};
 	//Barrett: Gold
-	class TTT_Berets_Gold : TTT_Berets_Blue {
+	class TTT_Beret_Gold : TTT_Beret_Blue {
 		displayName = "TTT Barrett Gold";
 		picture = "\ttt_a3\ttt_berets\data\ui\berets_gold_icon_co.paa";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_berets\data\common\berets_gold_co.paa"};
 	};
 	//Barrett: Grau
-	class TTT_Berets_Grey : TTT_Berets_Blue {
+	class TTT_Beret_Grey : TTT_Beret_Blue {
 		displayName = "TTT Barrett Grau";
 		picture = "\ttt_a3\ttt_berets\data\ui\berets_grau_icon_co.paa";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_berets\data\common\berets_grau_co.paa"};
 	};
 	//Barrett: Gruen
-	class TTT_Berets_Green : TTT_Berets_Blue {
+	class TTT_Beret_Green : TTT_Beret_Blue {
 		displayName = "TTT Barrett Gruen";
 		picture = "\ttt_a3\ttt_berets\data\ui\berets_gruen_icon_co.paa";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_berets\data\common\berets_gruen_co.paa"};
 	};
 	//Barrett: Logo
-	class TTT_Berets_Logo : TTT_Berets_Blue {
+	class TTT_Beret_Logo : TTT_Beret_Blue {
 		displayName = "TTT Barrett Logo";
 		picture = "\ttt_a3\ttt_berets\data\ui\berets_logo_icon_co.paa";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_berets\data\common\berets_logo_co.paa"};
 	};
 	//Barrett: Platin
-	class TTT_Berets_Platinum : TTT_Berets_Blue {
+	class TTT_Beret_Platinum : TTT_Beret_Blue {
 		displayName = "TTT Barrett Platin";
 		picture = "\ttt_a3\ttt_berets\data\ui\berets_platin_icon_co.paa";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_berets\data\common\berets_platin_co.paa"};
 	};
 	//Barrett: Rot
-	class TTT_Berets_Red : TTT_Berets_Blue {
+	class TTT_Beret_Red : TTT_Beret_Blue {
 		displayName = "TTT Barrett Rot";
 		picture = "\ttt_a3\ttt_berets\data\ui\berets_rot_icon_co.paa";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_berets\data\common\berets_rot_co.paa"};
 	};
 	//Barrett: Schwarz
-	class TTT_Berets_Black : TTT_Berets_Blue {
+	class TTT_Beret_Black : TTT_Beret_Blue {
 		displayName = "TTT Barrett Schwarz";
 		picture = "\ttt_a3\ttt_berets\data\ui\berets_schwarz_icon_co.paa";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_berets\data\common\berets_schwarz_co.paa"};
 	};
 	//Barrett: Silber
-	class TTT_Berets_Silver : TTT_Berets_Blue {
+	class TTT_Beret_Silver : TTT_Beret_Blue {
 		displayName = "TTT Barrett Silber";
 		picture = "\ttt_a3\ttt_berets\data\ui\berets_silber_icon_co.paa";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_berets\data\common\berets_silber_co.paa"};
 	};
 	//Barrett: Violett
-	class TTT_Berets_Violet : TTT_Berets_Blue {
+	class TTT_Beret_Violet : TTT_Beret_Blue {
 		displayName = "TTT Barrett Violett";
 		picture = "\ttt_a3\ttt_berets\data\ui\berets_violett_icon_co.paa";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_berets\data\common\berets_violett_co.paa"};
 	};
 	//Barrett: Weiss
-	class TTT_Berets_White : TTT_Berets_Blue {
+	class TTT_Beret_White : TTT_Beret_Blue {
 		displayName = "TTT Barrett Weiss";
 		picture = "\ttt_a3\ttt_berets\data\ui\berets_weiss_icon_co.paa";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_berets\data\common\berets_weiss_co.paa"};
 	};
 	
 	//OLD Classnames
-	class TTT_Berets_Blau : TTT_Berets_Blue {
+	class TTT_Beret_Blau : TTT_Beret_Blue {
 		scope = 0;
 	};	
-	class TTT_Berets_Braun : TTT_Berets_Brown {
+	class TTT_Beret_Braun : TTT_Beret_Brown {
 		scope = 0;
 	};	
-	class TTT_Berets_Gelb : TTT_Berets_Yellow {
+	class TTT_Beret_Gelb : TTT_Beret_Yellow {
 		scope = 0;
 	};
-	class TTT_Berets_Grau : TTT_Berets_Grey {
+	class TTT_Beret_Grau : TTT_Beret_Grey {
 		scope = 0;
 	};
-	class TTT_Berets_Gruen : TTT_Berets_Green {
+	class TTT_Beret_Gruen : TTT_Beret_Green {
 		scope = 0;
 	};
-	class TTT_Berets_Rot : TTT_Berets_Red {
+	class TTT_Beret_Rot : TTT_Beret_Red {
 		scope = 0;
 	};
-	class TTT_Berets_Schwarz : TTT_Berets_Black {
+	class TTT_Beret_Schwarz : TTT_Beret_Black {
 		scope = 0;
 	};
-	class TTT_Berets_Silber : TTT_Berets_Silver {
+	class TTT_Beret_Silber : TTT_Beret_Silver {
 		scope = 0;
 	};
-	class TTT_Berets_Violett : TTT_Berets_Violet {
+	class TTT_Beret_Violett : TTT_Beret_Violet {
 		scope = 0;
 	};
-	class TTT_Berets_Weiss : TTT_Berets_White {
+	class TTT_Beret_Weiss : TTT_Beret_White {
 		scope = 0;
 	};

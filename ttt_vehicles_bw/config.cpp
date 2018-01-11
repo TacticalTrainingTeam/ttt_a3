@@ -1,7 +1,7 @@
 #include "\ttt_a3\ttt_vehicles_bw\macros.hpp"
 
 class CfgPatches {
-	class ttt_vehicles_bw {
+	class TTT_Vehicles_BW {
 		requiredAddons[] = {"ttt_main"};		
 		units[] = {	"TTT_LUV_COM_BW_Tropentarn",
 					"TTT_LUV_COM_BW_Flecktarn",

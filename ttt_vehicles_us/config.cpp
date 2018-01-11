@@ -1,7 +1,7 @@
 #include "\ttt_a3\ttt_vehicles_us\macros.hpp"
 
 class CfgPatches {
-	class ttt_vehicles_us {
+	class TTT_Vehicles_US {
 		requiredAddons[] = {"ttt_main"};		
 		units[] = {	
 					"TTT_LUV_COM_US_Desert",

@@ -194,7 +194,7 @@
 #define get_vest(army,group,kind,camo) get_str(append_dummy(append_dummy(append_dummy(append_dummy(append_dummy(append_dummy(append_dummy(TTT_Vest_)kind)_)group)_)army)_)camo)
 
 /// Berets Config ///
-#define BERETS(group) get_str(append_dummy(TTT_Berets_)group)
+#define BERETS(group) get_str(append_dummy(TTT_Beret_)group)
 
 /// Stringification Marco ///
 #define get_str(string) #string

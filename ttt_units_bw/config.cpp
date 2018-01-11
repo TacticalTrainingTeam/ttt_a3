@@ -1,7 +1,7 @@
 #include "\ttt_a3\ttt_main\macros.hpp"
 
 class CfgPatches {
-	class ttt_units_bw {
+	class TTT_Units_BW {
 		units[] = {
 			//Units Tropentarn
 			"TTT_Yellow_1_BW_Tropentarn",
@@ -290,7 +290,7 @@ class CfgEditorSubcategories
 
 class CfgGroups {
 	class West {
-		class TTT_Groups_bw {
+		class TTT_Groups_BW {
 			name = "$STR_TTT_Faction_BW";
 			#include "\ttt_a3\ttt_units_bw\groups_tropentarn.hpp"
 			#include "\ttt_a3\ttt_units_bw\groups_flecktarn.hpp"

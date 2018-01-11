@@ -1,7 +1,7 @@
 #include "\ttt_a3\ttt_units_us\macros.hpp"
 
 class CfgPatches {
-	class ttt_units_us {
+	class TTT_Units_US {
 		units[] = {	
 			//Einheiten Desert
 			"TTT_Yellow_1_US_Desert",
@@ -101,7 +101,6 @@ class CfgPatches {
 			"TTT_Weiss_US_Desert",
 			"TTT_Silber_US_Desert",
 			"TTT_Platin_US_Desert",
-			
 
 			//Units Woodland
 			"TTT_Yellow_1_US_Woodland",
@@ -330,7 +329,7 @@ class CfgEditorSubcategories
 
 class CfgGroups {
 	class West {
-		class TTT_Groups_us {
+		class TTT_Groups_US {
 			name = "TTT US";
 			#include "\ttt_a3\ttt_units_us\groups_desert.hpp"
 			#include "\ttt_a3\ttt_units_us\groups_woodland.hpp"
