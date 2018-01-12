@@ -153,7 +153,7 @@
 	
 	class TTT_AH_BW_Flecktarn : TTT_AH_BW_Tropentarn {
 		author = "$STR_Tactical_Training_Team";
-        crew = "TTT_Adler1_BW_Flecktarn";
+        crew = "TTT_Silver_1_BW_Flecktarn";
 		displayName = "TTT Kampfhelikopter (BW Flecktarn)";
 	};
 	

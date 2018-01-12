@@ -95,7 +95,7 @@
 		displayName = "TTT Uniform Silber (US Woodland)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Adler1_US_Woodland";
+			uniformClass = "TTT_Silver_1_US_Woodland";
 		};
 	};
 		

@@ -217,7 +217,7 @@ class TTT_AH_US_Desert : RHS_AH64D {
 		"\rhsusf\addons\rhsusf_a2port_air\ah64\data\ah64d_body_co.paa",
 		"\rhsusf\addons\rhsusf_a2port_air\ah64\data\ah64d_details_co.paa",
 		"\ttt_a3\ttt_vehicles_us\data\kampfhelikopter_camo3.paa"};	
-    crew = "TTT_Adler1_US_Desert";
+    crew = "TTT_Silver_1_US_Desert";
     displayName = "TTT Kampfhelikopter (US Desert)";
     typicalCargo[] = {};
     accuracy = 1000;

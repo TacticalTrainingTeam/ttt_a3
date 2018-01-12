@@ -223,7 +223,7 @@
 		scope = 2;
 		faction = "TTT_faction_BW";
 		vehicleClass = "TTT_Vehicles_BW";
-		crew = "TTT_Adler1_BW_Tropentarn";
+		crew = "TTT_Silver_1_BW_Tropentarn";
 		displayName = "TTT Kampfhelikopter (BW Tropentarn)";
 		typicalCargo[] = {};
 		accuracy=1000;

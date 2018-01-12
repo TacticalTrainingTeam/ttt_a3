@@ -120,7 +120,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 		displayName = "TTT Uniform Silber (US Desert)";
 		ACE_GForceCoef = 0.55;
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Adler1_US_Desert";
+			uniformClass = "TTT_Silver_1_US_Desert";
 		};
 	};
 	

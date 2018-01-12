@@ -162,7 +162,7 @@
 	
 	class TTT_AH_US_Woodland : TTT_AH_US_Desert {
 		author = "$STR_Tactical_Training_Team";
-		crew = "TTT_Adler1_US_Woodland";
+		crew = "TTT_Silver_1_US_Woodland";
 		displayName = "$STR_TTT_AH_US_Woodland";
 	};
 	
