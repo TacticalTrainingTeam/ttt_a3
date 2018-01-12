@@ -95,6 +95,12 @@
 		picture = "\ttt_a3\ttt_berets\data\ui\berets_weiss_icon_co.paa";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_berets\data\common\berets_weiss_co.paa"};
 	};
+	//Barrett: Orange
+	class TTT_Beret_Orange : TTT_Beret_Blue {
+		displayName = "TTT Barrett Orange";
+		picture = "\ttt_a3\ttt_berets\data\ui\berets_orange_icon_co.paa";
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_berets\data\common\berets_orange_co.paa"};
+	};
 	
 	//OLD Classnames
 	class TTT_Beret_Blau : TTT_Beret_Blue {

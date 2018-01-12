@@ -1299,6 +1299,33 @@ class TTT_Violet_6_US_Desert : TTT_Pioneer_Base_US {
     };
 };
 
+
+/*
+#############################################################
+### Trupp Orange
+#############################################################
+*/
+
+//Orange 1 (Truppfuehrer)
+class TTT_Orange_1_US_Desert : TTT_Teamleader_Base_US {
+    author = "$STR_Tactical_Training_Team";
+    scope = 1;
+    displayName = "Orange 1 (Truppfuehrer)";
+    vehicleClass = "TTT_Orange_US_Desert";
+    uniformClass = "TTT_Uniform_Orange_US_Desert";
+	editorSubcategory = "EdSubcat_Unit_Camo_Desert";
+    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_orange_us_desert.paa" };
+    items[] += { ITEMS_VIOLETT };
+    linkedItems[] += {
+        "TTT_Vest_Heavy_Orange_US_Desert",
+        "TTT_Helmet_1_US_Desert"
+    };
+    respawnLinkedItems[] += {
+        "TTT_Vest_Heavy_Orange_US_Desert",
+        "TTT_Helmet_1_US_Desert"
+    };   
+};  
+
 /*
 #############################################################
 ### Trupp Weiss (Desert)
@@ -1688,4 +1715,4 @@ class TTT_Hawk_2_US_Desert : TTT_Pilot_Base_US {
         "TTT_Vest_Crew_US_Desert", 
         "TTT_Helmet_Hawk" 
     };
-};    
+};  

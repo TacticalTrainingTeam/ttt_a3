@@ -159,3 +159,14 @@ class TTT_Beret_Item_White : TTT_Beret_Item_Blue {
 		};
 	};
 };
+//Barrett Item Orange
+class TTT_Beret_Item_Orange : TTT_Beret_Item_Blue {
+	displayName = "TTT Barrett Item Orange";
+	
+	class TransportItems {
+		class TTT_Beret_Orange {
+			name = "TTT_Beret_Orange";
+			count = 1;
+		};
+	};
+};

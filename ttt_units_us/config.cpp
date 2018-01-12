@@ -81,6 +81,8 @@ class CfgPatches {
 			
 			"TTT_Platinum_1_US_Desert",
 			"TTT_Platinum_2_US_Desert",
+
+			"TTT_Orange_1_US_Desert",
 			
 			"TTT_Buzzard_1_US_Desert",
 			"TTT_Buzzard_2_US_Desert",
@@ -224,6 +226,7 @@ class CfgPatches {
 			"TTT_Uniform_Grey_US_Desert",
 			"TTT_Uniform_Gold_US_Desert",
 			"TTT_Uniform_Silver_US_Desert",
+			"TTT_Uniform_Orange_US_Desert", 
 
 			//Uniformen Woodland
 			"TTT_Uniform_Yellow_US_Woodland",
@@ -272,9 +275,11 @@ class CfgPatches {
 			"TTT_Vest_Heavy_Gold_US_Desert",
 			"TTT_Vest_Lite_Gold_US_Desert",
 			"TTT_Vest_Heavy_Grey_US_Desert",
-			"TTT_Vest_Lite_Grey_US_Desert",
+			"TTT_Vest_Lite_Grey_US_Desert",		
+			"TTT_Vest_Heavy_Orange_US_Desert",			
+			"TTT_Vest_Lite_Orange_US_Desert",
 			"TTT_Vest_Crew_US_Desert",			
-			
+
 			//Westen Woodland
 			"TTT_Vest_Heavy_Yellow_US_Woodland",
 			"TTT_Vest_Lite_Yellow_US_Woodland",

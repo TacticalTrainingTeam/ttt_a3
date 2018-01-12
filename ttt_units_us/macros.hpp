@@ -182,7 +182,8 @@
 #define ITEMS_ROT BERETS(Rot)
 #define ITEMS_BRONZE BERETS(Bronze)
 #define ITEMS_BLAU BERETS(Blau)
-#define ITEMS_VIOLETT BERETS(Violett)
+#define ITEMS_VIOLETT BERETS(Violet)
+#define ITEMS_ORANGE BERETS(Orange)
 #define ITEMS_WEISS BERETS(Weiss)
 #define ITEMS_PLATIN BERETS(Platin)
 #define ITEMS_SILBER BERETS(Silber), "TTT_Helmet_Buzzard"
