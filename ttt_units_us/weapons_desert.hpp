@@ -120,9 +120,18 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 		displayName = "TTT Uniform Silber (US Desert)";
 		ACE_GForceCoef = 0.55;
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Adler1_US_Desert";
+			uniformClass = "TTT_Silver_1_US_Desert";
 		};
 	};
+	class TTT_Uniform_Orange_US_Desert : TTT_Uniform_Base_US {
+		author = "$STR_Tactical_Training_Team";
+		scope = 2;
+		displayName = "TTT Uniform Orange (US Desert)";
+		
+        class ItemInfo : ItemInfo {
+			uniformClass = "TTT_Orange_1_Us_Desert";
+		};
+	}; 
 	
 	/*
 	#############################################################
@@ -176,7 +185,6 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 	### Westen
 	#############################################################
 	*/
-	
 	class TTT_Vest_Heavy_Yellow_US_Desert : TTT_Vest_Heavy_Base {
 		scope = 2;
 		displayName = "TTT Schwere Weste Gelb (US Desert)";
@@ -289,19 +297,33 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_vest_red_us_desert_co.paa"};
 	};
 	
-	class TTT_Vest_Heavy_Purple_US_Desert : TTT_Vest_Heavy_Base {
+	class TTT_Vest_Heavy_Violet_US_Desert : TTT_Vest_Heavy_Base {
 		scope = 2;
 		displayName = "TTT Schwere Weste Violett (US Desert)";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_vest_purple_us_desert_co.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_vest_violet_us_desert_co.paa"};
 	};
 	
-	class TTT_Vest_Lite_Purple_US_Desert : TTT_Vest_Lite_Base {
+	class TTT_Vest_Lite_Violet_US_Desert : TTT_Vest_Lite_Base {
 		scope = 2;
 		displayName = "TTT Leichte Weste Violett (US Desert)";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_vest_purple_us_desert_co.paa"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_vest_violet_us_desert_co.paa"};
 	};
+
+	class TTT_Vest_Heavy_Orange_US_Desert : TTT_Vest_Heavy_Base {
+		scope = 2;
+		displayName = "TTT Schwere Weste Orange (US Desert)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_vest_orange_us_desert_co.paa"};
+	};
+	
+	class TTT_Vest_Lite_Orange_US_Desert : TTT_Vest_Lite_Base {
+		scope = 2;
+		displayName = "TTT Leichte Weste Orange (US Desert)";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_vest_orange_us_desert_co.paa"};
+	}; 	
 	
 	class TTT_Vest_Crew_US_Desert : TTT_Vest_Crew_Base {
 		scope = 2;

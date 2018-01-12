@@ -1,6 +1,6 @@
 	/*
 	#############################################################
-	### TTT Truppfahrzeug
+	### TTT Truppfahrzeug (Infantry Mobility Vehicle)
 	#############################################################
 	*/
 	
@@ -16,7 +16,7 @@
 			"\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\FLW200_ger_d_co.paa"
 		};	
 		crew = "TTT_Black_1_BW_Tropentarn";
-		displayName = "TTT Truppfahrzeug MG (BW Tropentarn)";
+		displayName = "TTT Truppfahrzeug (Infantry Mobility Vehicle) MG (BW Tropentarn)";
 		typicalCargo[] = {};
 		
 		class TransportWeapons {
@@ -42,7 +42,7 @@
 			"\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\FLW200_ger_d_co.paa"
 		};	
 		crew = "TTT_Black_1_BW_Tropentarn";
-		displayName = "TTT Truppfahrzeug GL (BW Tropentarn)";
+		displayName = "TTT Truppfahrzeug (Infantry Mobility Vehicle) GL (BW Tropentarn)";
 		typicalCargo[] = {};
 
 		class TransportWeapons {
@@ -58,7 +58,7 @@
 	
 	/*
 	#############################################################
-	### TTT OPL-Fahrzeug
+	### TTT OPL-Fahrzeug (Light Utility Vehicle)
 	#############################################################
 	*/
 	
@@ -97,7 +97,7 @@
 
     /*
     #############################################################
-    ### TTT Sanitaetsfahrzeug
+    ### TTT Sanitaetsfahrzeug (Light Utility Vehicle)
     #############################################################
     */
 
@@ -135,7 +135,7 @@
 
     /*
     #############################################################
-    ### TTT Transporter leicht (offen)
+    ### TTT Transporter (Light Utility Vehicle)
     #############################################################
     */
 
@@ -162,7 +162,7 @@
 	
 	/*
 	#############################################################
-	### TTT Schuetzenpanzer
+	### TTT Schuetzenpanzer (Infantry Fighting Vehicle)
 	#############################################################
 	*/
 	
@@ -188,7 +188,7 @@
 	
 	/*
 	#############################################################
-	### TTT Kampfpanzer
+	### TTT Kampfpanzer (Main Battle Tank)
 	#############################################################
 	*/
 	
@@ -214,16 +214,16 @@
 	
 	/*
 	#############################################################
-	### TTT Kampfhelikopter
+	### TTT Kampfhelikopter (Attack Helicopter)
 	#############################################################
 	*/
 	
-    class TTT_Heli_CAS_BW_Tropentarn : BWA3_Tiger_RMK_Universal {
+    class TTT_AH_BW_Tropentarn : BWA3_Tiger_RMK_Universal {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		faction = "TTT_faction_BW";
 		vehicleClass = "TTT_Vehicles_BW";
-		crew = "TTT_Adler1_BW_Tropentarn";
+		crew = "TTT_Silver_1_BW_Tropentarn";
 		displayName = "TTT Kampfhelikopter (BW Tropentarn)";
 		typicalCargo[] = {};
 		accuracy=1000;
@@ -242,11 +242,11 @@
 	
 	/*
 	#############################################################
-	### TTT Sanitaetshelikopter
+	### TTT Sanitaetshelikopter (Military Transport Aircraft)
 	#############################################################
 	*/
 	
-    class TTT_Heli_SAR_BW_Tropentarn : NH90Armed {
+    class TTT_MTA_SAR_BW_Tropentarn : NH90Armed {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		faction = "TTT_faction_BW";
@@ -277,11 +277,11 @@
 	
 	/*
 	#############################################################
-	### TTT Logistikhelikopter
+	### TTT Logistikhelikopter (Military Transport Aircraft)
 	#############################################################
 	*/
 	
-    class TTT_Heli_Heavy_BW_Tropentarn : CUP_B_CH53E_GER {
+    class TTT_MTA_Heavy_BW_Tropentarn : CUP_B_CH53E_GER {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		faction = "TTT_faction_BW";
@@ -305,11 +305,11 @@
 
     /*
     #############################################################
-    ### TTT Transporthelikopter
+    ### TTT Transporthelikopter (Military Transport Aircraft)
     #############################################################
     */
 
-    class TTT_Heli_Medium_BW_Tropentarn : NH90Armed {
+    class TTT_MTA_Medium_BW_Tropentarn : NH90Armed {
         author = "$STR_Tactical_Training_Team";
         scope = 2;
         faction = "TTT_faction_BW";
@@ -336,11 +336,11 @@
 
     /*
     #############################################################
-    ### TTT Aufklaerungsdrohne
+    ### TTT Aufklaerungsdrohne (Unmanned Aerial Vehicle)
     #############################################################
     */
 
-    class TTT_Drone_BW_Tropentarn : CUP_B_USMC_MQ9 {
+    class TTT_UAV_BW_Tropentarn : CUP_B_USMC_MQ9 {
         author = "$STR_Tactical_Training_Team";
         scope = 2;
         faction = "TTT_faction_BW";
@@ -350,7 +350,7 @@
 
     /*
     #############################################################
-    ### TTT Jet
+    ### TTT Jet (MultiRole Combat Aircraft)
     #############################################################
     */
 

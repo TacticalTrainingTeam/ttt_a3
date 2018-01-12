@@ -1,6 +1,6 @@
 	/*
 	#############################################################
-	### TTT Truppfahrzeug
+	### TTT Truppfahrzeug (Infantry Mobility Vehicle)
 	#############################################################
 	*/
 	
@@ -19,7 +19,7 @@
 	class TTT_IMV_GL_BW_Flecktarn : TTT_IMV_GL_BW_Tropentarn {
 		author = "$STR_Tactical_Training_Team";	
 		crew = "TTT_Black_1_BW_Flecktarn";
-		displayName = "TTT Truppfahrzeug GL (BW Flecktarn)";
+		displayName = "TTT Truppfahrzeug (Infantry Mobility Vehicle) GL (BW Flecktarn)";
 		hiddenSelectionsTextures[] = {
 			"\ttt_a3\ttt_vehicles_bw\data\karosse_w_co.paa",
 			"\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\a_teile_ger_w_co.paa",
@@ -30,7 +30,7 @@
 	
 	/*
 	#############################################################
-	### TTT OPL-Fahrzeug
+	### TTT OPL-Fahrzeug (Light Utility Vehicle)
 	#############################################################
 	*/
 	
@@ -55,7 +55,7 @@
 
     /*
     #############################################################
-    ### TTT Sanitaetsfahrzeug
+    ### TTT Sanitaetsfahrzeug (Light Utility Vehicle)
     #############################################################
     */
 
@@ -79,7 +79,7 @@
 
     /*
     #############################################################
-    ### TTT Transporter leicht (offen)
+    ### TTT Transporter (Light Utility Vehicle)
     #############################################################
     */
 
@@ -91,7 +91,7 @@
 	
 	/*
 	#############################################################
-	### TTT Schuetzenpanzer
+	### TTT Schuetzenpanzer (Infantry Fighting Vehicle)
 	#############################################################
 	*/
 
@@ -118,7 +118,7 @@
 	
 	/*
 	#############################################################
-	### TTT Kampfpanzer
+	### TTT Kampfpanzer (Main Battle Tank)
 	#############################################################
 	*/
 	
@@ -147,23 +147,23 @@
 	
 	/*
 	#############################################################
-	### TTT Kampfhelikopter
+	### TTT Kampfhelikopter (Attack Helicopter)
 	#############################################################
 	*/
 	
-	class TTT_Heli_CAS_BW_Flecktarn : TTT_Heli_CAS_BW_Tropentarn {
+	class TTT_AH_BW_Flecktarn : TTT_AH_BW_Tropentarn {
 		author = "$STR_Tactical_Training_Team";
-        crew = "TTT_Adler1_BW_Flecktarn";
+        crew = "TTT_Silver_1_BW_Flecktarn";
 		displayName = "TTT Kampfhelikopter (BW Flecktarn)";
 	};
 	
 	/*
 	#############################################################
-	### TTT Sanitaetshelikopter
+	### TTT Sanitaetshelikopter (Military Transport Aircraft)
 	#############################################################
 	*/	
 	
-	class TTT_Heli_SAR_BW_Flecktarn : TTT_Heli_SAR_BW_Tropentarn {
+	class TTT_MTA_SAR_BW_Flecktarn : TTT_MTA_SAR_BW_Tropentarn {
 		author = "$STR_Tactical_Training_Team";
         crew = "TTT_White_3_BW_Flecktarn";
 		displayName = "TTT Sanitaetshelikopter (BW Flecktarn)";
@@ -171,11 +171,11 @@
 	
 	/*
 	#############################################################
-	### TTT Logistikhelikopter
+	### TTT Logistikhelikopter (Military Transport Aircraft)
 	#############################################################
 	*/
 	
-	class TTT_Heli_Heavy_BW_Flecktarn : TTT_Heli_Heavy_BW_Tropentarn {
+	class TTT_MTA_Heavy_BW_Flecktarn : TTT_MTA_Heavy_BW_Tropentarn {
 		author = "$STR_Tactical_Training_Team";
 		crew = "TTT_Buzzard_1_BW_Flecktarn";
 		displayName = "TTT Logistikhelikopter (BW Flecktarn)";
@@ -183,11 +183,11 @@
 
     /*
     #############################################################
-    ### TTT Transporthelikopter
+    ### TTT Transporthelikopter (Military Transport Aircraft)
     #############################################################
     */
 
-    class TTT_Heli_Medium_BW_Flecktarn : TTT_Heli_Medium_BW_Tropentarn {
+    class TTT_MTA_Medium_BW_Flecktarn : TTT_MTA_Medium_BW_Tropentarn {
         author = "$STR_Tactical_Training_Team";
         crew = "TTT_Hawk_1_BW_Flecktarn";
         displayName = "TTT Transporthelikopter (BW Flecktarn)";
@@ -195,18 +195,18 @@
 
     /*
     #############################################################
-    ### TTT Aufklaerungsdrohne
+    ### TTT Aufklaerungsdrohne (Unmanned Aerial Vehicle)
     #############################################################
     */
 
-    class TTT_Drone_BW_Flecktarn : TTT_Drone_BW_Tropentarn {
+    class TTT_UAV_BW_Flecktarn : TTT_UAV_BW_Tropentarn {
         author = "$STR_Tactical_Training_Team";
         displayName = "TTT Aufklaerungsdrohne (BW Flecktarn)";
     };
 
     /*
     #############################################################
-    ### TTT Jet
+    ### TTT Jet (MultiRole Combat Aircraft)
     #############################################################
     */
 

@@ -3,3 +3,7 @@ class TTT\1BW
 
 : TTT([\w]+)Bw
 : TTT\1BW
+
+#change Item Postition in Classname (VSC)
+TTT_Berets_([\S]+)_Item
+TTT_Berets_Item_$1

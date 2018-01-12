@@ -22,6 +22,16 @@
 			uniformClass = "TTT_Grey_1_BW_Tropentarn";
 		};
 	};
+
+	class TTT_Uniform_Orange_BW_Tropentarn : TTT_Uniform_Base_BW {
+		author = "$STR_Tactical_Training_Team";
+		scope = 2;
+		displayName = "TTT Uniform Orange (BW Tropentarn)";
+		
+        class ItemInfo : ItemInfo {
+			uniformClass = "TTT_Orange_1_Bw_Tropentarn";
+		};
+}; 	
 	
 	class TTT_Uniform_Gold_BW_Tropentarn : TTT_Uniform_Base_BW {
 		author = "$STR_Tactical_Training_Team";
@@ -119,7 +129,7 @@ class TTT_Uniform_Violet_BW_Tropentarn : TTT_Uniform_Base_BW {
 		displayName = "TTT Uniform Silber (BW Tropentarn)";
 		ACE_GForceCoef = 0.55;
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Adler1_BW_Tropentarn";
+			uniformClass = "TTT_Silver_1_BW_Tropentarn";
 		};
 	};
 	

@@ -5,7 +5,7 @@
 
 class CfgPatches 
 {
-	class ttt_snipernvg 
+	class TTT_Snipernvg 
 	{
 		units[] = {};
 		weapons[] = {};

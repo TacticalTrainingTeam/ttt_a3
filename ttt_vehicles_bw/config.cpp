@@ -1,32 +1,32 @@
 #include "\ttt_a3\ttt_vehicles_bw\macros.hpp"
 
 class CfgPatches {
-	class ttt_vehicles_bw {
+	class TTT_Vehicles_BW {
 		requiredAddons[] = {"ttt_main"};		
-		units[] = {	"TTT_IMV_MG_BW_Tropentarn",
+		units[] = {	"TTT_LUV_COM_BW_Tropentarn",
+					"TTT_LUV_COM_BW_Flecktarn",
+                    "TTT_LUV_SAR_BW_Tropentarn",
+                    "TTT_LUV_SAR_BW_Flecktarn",
+                    "TTT_LUV_LOG_BW_Tropentarn",
+                    "TTT_LUV_LOG_BW_Flecktarn",			
+					"TTT_IMV_MG_BW_Tropentarn",
 					"TTT_IMV_MG_BW_Flecktarn", 
 					"TTT_IMV_GL_BW_Tropentarn",
 					"TTT_IMV_GL_BW_Flecktarn",
-					"TTT_LUV_COM_BW_Tropentarn",
-					"TTT_LUV_COM_BW_Flecktarn",
 					"TTT_IFV_BW_Tropentarn",
 					"TTT_IFV_BW_Flecktarn",
 					"TTT_MBT_BW_Tropentarn",
 					"TTT_MBT_BW_Flecktarn",
-					"TTT_Heli_CAS_BW_Tropentarn",
-					"TTT_Heli_CAS_BW_Flecktarn",
-					"TTT_Heli_SAR_BW_Tropentarn",
-					"TTT_Heli_SAR_BW_Flecktarn",
-					"TTT_Heli_Heavy_BW_Tropentarn",
-					"TTT_Heli_Heavy_BW_Flecktarn",
-                    "TTT_Heli_Medium_BW_Tropentarn",
-                    "TTT_Heli_Medium_BW_Flecktarn",
-                    "TTT_Drone_BW_Tropentarn",
-                    "TTT_Drone_BWFlecktarn",
-                    "TTT_LUV_SAR_BW_Tropentarn",
-                    "TTT_LUV_SAR_BW_Flecktarn",
-                    "TTT_LUV_LOG_BW_Tropentarn",
-                    "TTT_LUV_LOG_BW_Flecktarn",
+					"TTT_MTA_SAR_BW_Tropentarn",
+					"TTT_MTA_SAR_BW_Flecktarn",
+                    "TTT_MTA_Medium_BW_Tropentarn",
+                    "TTT_MTA_Medium_BW_Flecktarn",					
+					"TTT_MTA_Heavy_BW_Tropentarn",
+					"TTT_MTA_Heavy_BW_Flecktarn",
+                    "TTT_UAV_BW_Tropentarn",
+                    "TTT_UAV_BW_Flecktarn",
+					"TTT_AH_BW_Tropentarn",
+					"TTT_AH_BW_Flecktarn",					
                     "TTT_MRCA_BW_Tropentarn",
                     "TTT_MRCA_BW_Flecktarn"
         };
@@ -37,8 +37,8 @@ class CfgPatches {
 class CfgVehicleClasses {
 	// Fahrzeug-Gruppe
 	class TTT_Vehicles_BW {
-		displayName = "$STR_TTT_Vehilce_BW"; //In-game name
-		priority = 23; 						// How far down it is on the menu
+		displayName = "$STR_TTT_Vehilce_BW";	//In-game name
+		priority = 23; 							// How far down it is on the menu
 	};
 };
 

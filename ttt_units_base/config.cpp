@@ -1,5 +1,5 @@
 class CfgPatches {
-	class ttt_units_base {
+	class TTT_Units_Base {
 		units[] = {};
 		weapons[] = {};
 		requiredAddons[] = {"ttt_main"};

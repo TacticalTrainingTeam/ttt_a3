@@ -1,6 +1,6 @@
 	/*
 	#############################################################
-	### TTT Truppfahrzeug
+	### TTT Truppfahrzeug (Infantry Mobility Vehicle)
 	#############################################################
 	*/
 	
@@ -47,7 +47,7 @@
 	
 	/*
 	#############################################################
-	### TTT OPL-Fahrzeug
+	### TTT OPL-Fahrzeug (Light Utility Vehicle)
 	#############################################################
 	*/
 	
@@ -71,7 +71,7 @@
 	
 	/*
 	#############################################################
-	### TTT Sanitaetsfahrzeug
+	### TTT Sanitaetsfahrzeug (Light Utility Vehicle)
 	#############################################################
 	*/
 	
@@ -95,7 +95,7 @@
 	
 	/*
 	#############################################################
-	### TTT Transporter leicht (offen)
+	### TTT Transporter (Light Utility Vehicle)
 	#############################################################
 	*/
 	
@@ -118,7 +118,7 @@
 	
 	/*
 	#############################################################
-	### TTT Schuetzenpanzer
+	### TTT Schuetzenpanzer (Infantry Fighting Vehicle)
 	#############################################################
 	*/
 
@@ -136,7 +136,7 @@
 	
 	/*
 	#############################################################
-	### TTT Kampfpanzer
+	### TTT Kampfpanzer (Main Battle Tank)
 	#############################################################
 	*/
 	
@@ -156,35 +156,35 @@
 	
 	/*
 	#############################################################
-	### TTT Kampfhelikopter
+	### TTT Kampfhelikopter (Attack Helicopter)
 	#############################################################
 	*/
 	
-	class TTT_Heli_CAS_US_Woodland : TTT_Heli_CAS_US_Desert {
+	class TTT_AH_US_Woodland : TTT_AH_US_Desert {
 		author = "$STR_Tactical_Training_Team";
-		crew = "TTT_Adler1_US_Woodland";
-		displayName = "$STR_TTT_Heli_CAS_US_Woodland";
+		crew = "TTT_Silver_1_US_Woodland";
+		displayName = "$STR_TTT_AH_US_Woodland";
 	};
 	
 	/*
 	#############################################################
-	### TTT Sanitaetshelikopter
+	### TTT Sanitaetshelikopter (Military Transport Aircraft)
 	#############################################################
 	*/	
 	
-	class TTT_Heli_SAR_US_Woodland : TTT_Heli_SAR_US_Desert {
+	class TTT_MTA_SAR_US_Woodland : TTT_MTA_SAR_US_Desert {
 		author = "$STR_Tactical_Training_Team";
 		crew = "TTT_White_3_US_Woodland";
-		displayName = "$STR_TTT_Heli_SAR_US_Woodland";
+		displayName = "$STR_TTT_MTA_SAR_US_Woodland";
 	};
 	
 	/*
 	#############################################################
-	### TTT Logistikhelikopter
+	### TTT Logistikhelikopter (Military Transport Aircraft)
 	#############################################################
 	*/
 	
-	class TTT_Heli_Heavy_US_Woodland : TTT_Heli_Heavy_US_Desert {
+	class TTT_MTA_Heavy_US_Woodland : TTT_MTA_Heavy_US_Desert {
 		author = "$STR_Tactical_Training_Team";
 	hiddenSelectionsTextures[] = {
 		"rhsusf\addons\rhsusf_a2port_air\ch47\data\ch47_ext_1_co.paa",
@@ -192,28 +192,28 @@
 		"\ttt_a3\ttt_vehicles_us\data\logheli_camo3.paa",
 		"rhsusf\addons\rhsusf_a2port_air\ch47\data\ch47_ext_mlod_co.paa"};		
 		crew = "TTT_Buzzard_1_US_Woodland";
-		displayName = "$STR_TTT_Heli_Heavy_US_Woodland";
+		displayName = "$STR_TTT_MTA_Heavy_US_Woodland";
 	};
 
     /*
     #############################################################
-    ### TTT Transporthelikopter
+    ### TTT Transporthelikopter (Military Transport Aircraft)
     #############################################################
     */
 
-    class TTT_Heli_Medium_US_Woodland : TTT_Heli_Medium_US_Desert {
+    class TTT_MTA_Medium_US_Woodland : TTT_MTA_Medium_US_Desert {
         author = "$STR_Tactical_Training_Team";
         crew = "TTT_Hawk_1_US_Woodland";
-        displayName = "$STR_TTT_Heli_Medium_US_Woodland";
+        displayName = "$STR_TTT_MTA_Medium_US_Woodland";
     };
 	
 	/*
 	#############################################################
-	### TTT Aufklaerungsdrohne
+	### TTT Aufklaerungsdrohne (Unmanned Aerial Vehicle)
 	#############################################################
 	*/
 	
-	class TTT_Drone_US_Woodland : TTT_Drone_US_Desert {
+	class TTT_UAV_US_Woodland : TTT_UAV_US_Desert {
 		author = "$STR_Tactical_Training_Team";
-		displayName = "$STR_TTT_Drone_US_Woodland";
+		displayName = "$STR_TTT_UAV_US_Woodland";
 	};

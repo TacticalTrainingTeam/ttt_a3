@@ -1,6 +1,6 @@
 /*
 #############################################################
-### TTT Truppfahrzeug
+### TTT Truppfahrzeug (Infantry Mobility Vehicle)
 #############################################################
 */
 
@@ -96,11 +96,11 @@ class TTT_LUV_LOG_PMC : rhsusf_m998_w_s_2dr_fulltop {
 
 /*
 #############################################################
-### TTT Schuetzenpanzer
+### TTT Schuetzenpanzer (Infantry Fighting Vehicle)
 #############################################################
 */
 
-class TTT_APC_IFV_PMC : rhsusf_M1117_W {
+class TTT_IFV_PMC : rhsusf_M1117_W {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     faction = "TTT_faction_PMC";
@@ -123,18 +123,18 @@ class TTT_APC_IFV_PMC : rhsusf_M1117_W {
 
 /*
 #############################################################
-### TTT Transporthelikopter (schwer)
+### TTT Transporthelikopter (Military Transport Aircraft) (schwer)
 #############################################################
 */
 
-class TTT_Heli_Heavy_PMC : B_T_VTOL_01_vehicle_F {
+class TTT_MTA_Heavy_PMC : B_T_VTOL_01_vehicle_F {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     faction = "TTT_faction_PMC";
 	editorSubcategory = "EdSubcat_Helicopters";
     vehicleClass = "TTT_Vehicles_PMC";
     crew = "B_Helipilot_F";
-    displayName = "$STR_TTT_Heli_Heavy_PMC";
+    displayName = "$STR_TTT_MTA_Heavy_PMC";
     typicalCargo[] = {};
     ace_cargo_space = 60;
 
@@ -153,17 +153,17 @@ class TTT_Heli_Heavy_PMC : B_T_VTOL_01_vehicle_F {
 
 /*
 #############################################################
-### TTT Transporthelikopter (medium)
+### TTT Transporthelikopter (Military Transport Aircraft) (medium)
 #############################################################
 */
 
-class TTT_Heli_Medium_PMC : UK3CB_BAF_Merlin_HC3_24 {
+class TTT_MTA_Medium_PMC : UK3CB_BAF_Merlin_HC3_24 {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     faction = "TTT_faction_PMC";
     vehicleClass = "TTT_Vehicles_PMC";
     crew = "B_Helipilot_F";
-    displayName = "$STR_TTT_Heli_Medium_PMC";
+    displayName = "$STR_TTT_MTA_Medium_PMC";
     typicalCargo[] = {};
 
     class TransportWeapons {
@@ -179,17 +179,17 @@ class TTT_Heli_Medium_PMC : UK3CB_BAF_Merlin_HC3_24 {
 
 /*
 #############################################################
-### TTT Transporthelikopter (leicht)
+### TTT Transporthelikopter (Military Transport Aircraft) (leicht)
 #############################################################
 */
 
-class TTT_Heli_Light_PMC : RHS_MELB_MH6M {
+class TTT_MTA_Light_PMC : RHS_MELB_MH6M {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     faction = "TTT_faction_PMC";
     vehicleClass = "TTT_Vehicles_PMC";
     crew = "B_Helipilot_F";
-    displayName = "$STR_TTT_Heli_Light_PMC";
+    displayName = "$STR_TTT_MTA_Light_PMC";
     typicalCargo[] = {};
     ace_cargo_space = 4;
 
@@ -210,13 +210,13 @@ class TTT_Heli_Light_PMC : RHS_MELB_MH6M {
 #############################################################
 */
 
-    class TTT_CAS_PMC : B_Plane_CAS_01_dynamicLoadout_F {
+    class TTT_MRCA_PMC : B_Plane_CAS_01_dynamicLoadout_F {
         author = "$STR_Tactical_Training_Team";
         scope = 2;
         scopeCurator = 2;
         faction = "TTT_faction_PMC";
         vehicleClass = "TTT_Vehicles_PMC";
-        displayName = "$STR_TTT_CAS_PMC";
+        displayName = "$STR_TTT_MRCA_PMC";
 		crew = "B_pilot_F";
         typicalCargo[] = {};
 

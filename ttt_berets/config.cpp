@@ -1,37 +1,39 @@
 class CfgPatches {
-	class ttt_berets {
+	class TTT_Berets {
 		requiredAddons[] = {ttt_main, Characters_f_epb, Weapons_F};
 		units[] = {
-			"TTT_Berets_Blue_Item",
-			"TTT_Berets_Brown_Item",
-			"TTT_Berets_Bronze_Item",
-			"TTT_Berets_Yellow_Item",
-			"TTT_Berets_Gold_Item",
-			"TTT_Berets_Grey_Item",
-			"TTT_Berets_Green_Item",
-			"TTT_Berets_Logo_Item",
-			"TTT_Berets_Platinum_Item",
-			"TTT_Berets_Red_Item",
-			"TTT_Berets_Black_Item",
-			"TTT_Berets_Silver_Item",
-			"TTT_Berets_Violet_Item",
-			"TTT_Berets_White_Item"
+			"TTT_Beret_Item_Blue",
+			"TTT_Beret_Item_Brown",
+			"TTT_Beret_Item_Bronze",
+			"TTT_Beret_Item_Yellow",
+			"TTT_Beret_Item_Gold",
+			"TTT_Beret_Item_Grey",
+			"TTT_Beret_Item_Green",
+			"TTT_Beret_Item_Logo",
+			"TTT_Beret_Item_Platinum",
+			"TTT_Beret_Item_Red",
+			"TTT_Beret_Item_Black",
+			"TTT_Beret_Item_Silver",
+			"TTT_Beret_Item_Violet",
+			"TTT_Beret_Item_White",
+			"TTT_Beret_Item_Orange"
 			};
 		weapons[] = {
-			"TTT_Berets_Blue",
-			"TTT_Berets_Brown",
-			"TTT_Berets_Bronze",
-			"TTT_Berets_Yellow",
-			"TTT_Berets_Gold",
-			"TTT_Berets_Grey",
-			"TTT_Berets_Green",
-			"TTT_Berets_Logo",
-			"TTT_Berets_Platinum",
-			"TTT_Berets_Red",
-			"TTT_Berets_Black",
-			"TTT_Berets_Silver",
-			"TTT_Berets_Violet",
-			"TTT_Berets_White"
+			"TTT_Beret_Blue",
+			"TTT_Beret_Brown",
+			"TTT_Beret_Bronze",
+			"TTT_Beret_Yellow",
+			"TTT_Beret_Gold",
+			"TTT_Beret_Grey",
+			"TTT_Beret_Green",
+			"TTT_Beret_Logo",
+			"TTT_Beret_Platinum",
+			"TTT_Beret_Red",
+			"TTT_Beret_Black",
+			"TTT_Beret_Silver",
+			"TTT_Beret_Violet",
+			"TTT_Beret_White",
+			"TTT_Beret_Orange"
 		};
 	};	
 };

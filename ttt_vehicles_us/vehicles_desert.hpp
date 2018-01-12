@@ -1,6 +1,6 @@
 	/*
     #############################################################
-    ### TTT Truppfahrzeug
+    ### TTT Truppfahrzeug (Infantry Mobility Vehicle)
     #############################################################
     */
 
@@ -47,7 +47,7 @@ class TTT_IMV_GL_US_Desert : UK3CB_BAF_Coyote_Passenger_L134A1_D {
 
 /*
 #############################################################
-### TTT OPL-Fahrzeug
+### TTT OPL-Fahrzeug (Light Utility Vehicle)
 #############################################################
 */
 
@@ -85,7 +85,7 @@ class TTT_LUV_COM_US_Desert : rhsusf_m998_d_4dr_fulltop {
 
 /*
 #############################################################
-### TTT Sanitaetsfahrzeug
+### TTT Sanitaetsfahrzeug (Light Utility Vehicle)
 #############################################################
 */
 
@@ -120,7 +120,7 @@ class TTT_LUV_SAR_US_Desert : rhsusf_m998_d_2dr_fulltop {
 
 /*
 #############################################################
-### TTT Transporter leicht (offen)
+### TTT Transporter (Light Utility Vehicle)
 #############################################################
 */
 
@@ -147,7 +147,7 @@ class TTT_LUV_LOG_US_Desert : rhsusf_m998_d_2dr {
 
 /*
 #############################################################
-### TTT Schuetzenpanzer
+### TTT Schuetzenpanzer (Infantry Fighting Vehicle)
 #############################################################
 */
 
@@ -177,7 +177,7 @@ class TTT_IFV_US_Desert : RHS_M2A3_BUSKIII {
 
 /*
 #############################################################
-### TTT Kampfpanzer
+### TTT Kampfpanzer (Main Battle Tank)
 #############################################################
 */
 
@@ -203,11 +203,11 @@ class TTT_MBT_US_Desert : rhsusf_m1a2sep1tuskiid_USarmy {
 
 /*
 #############################################################
-### TTT Kampfhelikopter
+### TTT Kampfhelikopter (Attack Helicopter)
 #############################################################
 */
 
-class TTT_Heli_CAS_US_Desert : RHS_AH64D {
+class TTT_AH_US_Desert : RHS_AH64D {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     faction = "TTT_faction_US";
@@ -217,7 +217,7 @@ class TTT_Heli_CAS_US_Desert : RHS_AH64D {
 		"\rhsusf\addons\rhsusf_a2port_air\ah64\data\ah64d_body_co.paa",
 		"\rhsusf\addons\rhsusf_a2port_air\ah64\data\ah64d_details_co.paa",
 		"\ttt_a3\ttt_vehicles_us\data\kampfhelikopter_camo3.paa"};	
-    crew = "TTT_Adler1_US_Desert";
+    crew = "TTT_Silver_1_US_Desert";
     displayName = "TTT Kampfhelikopter (US Desert)";
     typicalCargo[] = {};
     accuracy = 1000;
@@ -240,13 +240,13 @@ class TTT_Heli_CAS_US_Desert : RHS_AH64D {
 #############################################################
 */
 
-class TTT_Heli_SAR_US_Desert : RHS_UH60M {
+class TTT_MTA_SAR_US_Desert : RHS_UH60M {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     faction = "TTT_faction_US";
     vehicleClass = "TTT_Vehicles_US";
     crew = "TTT_White_3_US_Desert";
-    displayName = "$STR_TTT_Heli_SAR_US_Desert";
+    displayName = "$STR_TTT_MTA_SAR_US_Desert";
     typicalCargo[] = {};
 	hiddenSelectionsTextures[] = {
 	"rhsusf\addons\rhsusf_a2port_air\uh60m\data\uh60m_fuselage_co.paa",
@@ -279,7 +279,7 @@ class TTT_Heli_SAR_US_Desert : RHS_UH60M {
 #############################################################
 */
 
-class TTT_Heli_Heavy_US_Desert : RHS_CH_47F {
+class TTT_MTA_Heavy_US_Desert : RHS_CH_47F {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     faction = "TTT_faction_US";
@@ -309,17 +309,17 @@ class TTT_Heli_Heavy_US_Desert : RHS_CH_47F {
 
 /*
 #############################################################
-### TTT Transporthelikopter
+### TTT Transporthelikopter (Military Transport Aircraft)
 #############################################################
 */
 
-class TTT_Heli_Medium_US_Desert : RHS_UH60M {
+class TTT_MTA_Medium_US_Desert : RHS_UH60M {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     faction = "TTT_faction_US";
     vehicleClass = "TTT_Vehicles_US";
     crew = "TTT_Hawk_1_US_Desert";
-    displayName = "$STR_TTT_Heli_Medium_US_Desert";
+    displayName = "$STR_TTT_MTA_Medium_US_Desert";
     typicalCargo[] = {};
     ace_cargo_space = 8;
 
@@ -337,11 +337,11 @@ class TTT_Heli_Medium_US_Desert : RHS_UH60M {
 
 /*
 #############################################################
-### TTT Aufklaerungsdrohne
+### TTT Aufklaerungsdrohne (Unmanned Aerial Vehicle)
 #############################################################
 */
 
-class TTT_Drone_US_Desert : CUP_B_USMC_MQ9 {
+class TTT_UAV_US_Desert : CUP_B_USMC_MQ9 {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     faction = "TTT_faction_US";

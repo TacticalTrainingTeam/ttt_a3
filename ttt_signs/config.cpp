@@ -1,5 +1,5 @@
 class CfgPatches {
-	class ttt_signs {
+	class TTT_Signs {
 		requiredAddons[] = {"ttt_main"};
 		units[] = {
 			"TTT_Flag_Logo",
@@ -58,19 +58,19 @@ class CfgPatches {
 };
 
 class CfgVehicleClasses {
-	class ttt_flags {
+	class TTT_Flags {
 		displayName = "TTT Flaggen"; 		
 		priority = 25; 						
 	};
-	class ttt_noticboards {
+	class TTT_Sign_Small {
 		displayName = "TTT Notizschilder";
 		priority = 26;
 	};
-	class ttt_signs {
+	class TTT_Signs {
 		displayName = "TTT Schilder"; 		
 		priority = 27; 						
 	};
-	class ttt_boards {
+	class TTT_Boards {
 		displayName = "TTT Tafeln"; 		
 		priority = 28; 						
 	};	
@@ -78,7 +78,7 @@ class CfgVehicleClasses {
 
 class CfgVehicles {
 	#include "\ttt_a3\ttt_signs\vehicles_flags.hpp"
-	#include "\ttt_a3\ttt_signs\vehicles_notizschilder.hpp"
+	#include "\ttt_a3\ttt_signs\vehicles_signs_small.hpp"
 	#include "\ttt_a3\ttt_signs\vehicles_signs.hpp"
-	#include "\ttt_a3\ttt_signs\vehicles_tafeln.hpp"
+	#include "\ttt_a3\ttt_signs\vehicles_panels.hpp"
 };

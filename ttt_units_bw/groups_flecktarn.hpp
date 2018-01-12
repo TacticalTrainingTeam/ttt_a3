@@ -7,7 +7,7 @@
 				name = "Flecktarn";
 				
 				//Trupp Gelb
-				class TTT_Gelb_BW_Flecktarn {
+				class TTT_Yellow_BW_Tropentarn {
 					faction = "TTT_faction_BW";
 					name = "$STR_TTT_Groups_Yellow";
 					icon = "\A3\ui_f\data\map\markers\nato\b_hq.paa";
@@ -34,7 +34,7 @@
 				};
 				
 				//Trupp Grau
-				class TTT_Grau_BW_Flecktarn {
+				class TTT_Grey_BW_Tropentarn {
 					faction = "TTT_faction_BW";
 					name = "$STR_TTT_Groups_Grey";
 					icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
@@ -124,7 +124,7 @@
 				};
 				
 				//Trupp Gruen
-				class TTT_Gruen_BW_Flecktarn {
+				class TTT_Green_BW_Tropentarn {
 					faction = "TTT_faction_BW";
 					name = "$STR_TTT_Groups_Green";
 					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -151,7 +151,7 @@
 				};
 				
 				//Trupp Braun
-				class TTT_Braun_BW_Flecktarn {
+				class TTT_Brown_BW_Tropentarn {
 					faction = "TTT_faction_BW";
 					name = "$STR_TTT_Groups_Brown";
 					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -178,7 +178,7 @@
 				};
 				
 				//Trupp Schwarz
-				class TTT_Schwarz_BW_Flecktarn {
+				class TTT_Black_BW_Tropentarn {
 					faction = "TTT_faction_BW";
 					name = "$STR_TTT_Groups_Black";
 					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -223,7 +223,7 @@
 				};
 				
 				//Trupp Rot
-				class TTT_Rot_BW_Flecktarn {
+				class TTT_Red_BW_Tropentarn {
 					faction = "TTT_faction_BW";
 					name = "$STR_TTT_Groups_Red";
 					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -268,7 +268,7 @@
 				};
 
 				//Trupp Blau
-				class TTT_Blau_BW_Flecktarn {
+				class TTT_Blue_BW_Tropentarn {
 					faction = "TTT_faction_BW";
 					name = "$STR_TTT_Groups_Blue";
 					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -313,7 +313,7 @@
 				};
 				
 				//Trupp Violett
-				class TTT_Violett_BW_Flecktarn {
+				class TTT_Violet_BW_Tropentarn {
 					faction = "TTT_faction_BW";
 					name = "$STR_TTT_Groups_Violet";
 					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -358,7 +358,7 @@
 				};
 				
 				//Trupp Weiss
-				class TTT_Weiss_BW_Flecktarn {
+				class TTT_White_BW_Tropentarn {
 					faction = "TTT_faction_BW";
 					name = "$STR_TTT_Groups_White";
 					icon = "\A3\ui_f\data\map\markers\nato\b_med.paa";
@@ -436,7 +436,7 @@
 				};
 						
 				//Trupp Platin
-				class TTT_Platin_BW_Flecktarn {
+				class TTT_Platinum_BW_Tropentarn {
 					faction = "TTT_faction_BW";
 					name = "$STR_TTT_Groups_Platinum";
 					icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
@@ -457,7 +457,7 @@
 				};
 				
 				//Trupp Silber
-				class TTT_Silber_BW_Flecktarn {
+				class TTT_Silver_BW_Tropentarn {
 					faction = "TTT_faction_BW";
 					name = "$STR_TTT_Groups_Silver";
 					icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";

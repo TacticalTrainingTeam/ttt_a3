@@ -1,7 +1,7 @@
 #include "\ttt_a3\ttt_units_us\macros.hpp"
 
 class CfgPatches {
-	class ttt_units_us {
+	class TTT_Units_US {
 		units[] = {	
 			//Einheiten Desert
 			"TTT_Yellow_1_US_Desert",
@@ -81,6 +81,8 @@ class CfgPatches {
 			
 			"TTT_Platinum_1_US_Desert",
 			"TTT_Platinum_2_US_Desert",
+
+			"TTT_Orange_1_US_Desert",
 			
 			"TTT_Buzzard_1_US_Desert",
 			"TTT_Buzzard_2_US_Desert",
@@ -101,7 +103,6 @@ class CfgPatches {
 			"TTT_Weiss_US_Desert",
 			"TTT_Silber_US_Desert",
 			"TTT_Platin_US_Desert",
-			
 
 			//Units Woodland
 			"TTT_Yellow_1_US_Woodland",
@@ -199,18 +200,18 @@ class CfgPatches {
 			"TTT_Platin_US_Woodland",
 
 			//Logistik Kisten
-			"TTT_Logistik_Waffen_US",
-			"TTT_Logistik_Spezialwaffen_US",
-			"TTT_Logistik_Standardmunition_US",
-			"TTT_Logistik_Spezialmunition_US",
-			"TTT_Logistik_Pionierausruestung_US",
-			"TTT_Logistik_Granaten_US",
-			"TTT_Logistik_Ausruestung_US",
-			"TTT_Logistik_Werfer_US",
-			"TTT_Logistik_Medic_Rucksaecke_US",
-			"TTT_Logistik_Medic_US",
-			"TTT_Logistik_Kiste_Klein_US",
-			"TTT_Logistik_Kiste_Gross_US"
+			"TTT_Crate_Weapons_US",
+			"TTT_Crate_Weapons_Special_US",
+			"TTT_Crate_Ammo_Standard_US",
+			"TTT_Crate_Ammo_Special_US",
+			"TTT_Crate_Equipment_Pioneer_US",
+			"TTT_Crate_Ammo_Grenade_US",
+			"TTT_Crate_Equipment_US",
+			"TTT_Crate_Weapons_Luncher_US",
+			"TTT_Crate_Medic_Backpack_US",
+			"TTT_Crate_Ammo_Luncher_US",
+			"TTT_Crate_Small_US",
+			"TTT_Crate_Large_US"
 		};
 		weapons[] = {
 			//Uniformen Desert
@@ -225,6 +226,7 @@ class CfgPatches {
 			"TTT_Uniform_Grey_US_Desert",
 			"TTT_Uniform_Gold_US_Desert",
 			"TTT_Uniform_Silver_US_Desert",
+			"TTT_Uniform_Orange_US_Desert", 
 
 			//Uniformen Woodland
 			"TTT_Uniform_Yellow_US_Woodland",
@@ -268,14 +270,16 @@ class CfgPatches {
 			"TTT_Vest_Lite_Red_US_Desert",
 			"TTT_Vest_Heavy_Black_US_Desert",
 			"TTT_Vest_Lite_Black_US_Desert",
-			"TTT_Vest_Heavy_Purple_US_Desert",
-			"TTT_Vest_Lite_Purple_US_Desert",
+			"TTT_Vest_Heavy_Violet_US_Desert",
+			"TTT_Vest_Lite_Violet_US_Desert",
 			"TTT_Vest_Heavy_Gold_US_Desert",
 			"TTT_Vest_Lite_Gold_US_Desert",
 			"TTT_Vest_Heavy_Grey_US_Desert",
-			"TTT_Vest_Lite_Grey_US_Desert",
+			"TTT_Vest_Lite_Grey_US_Desert",		
+			"TTT_Vest_Heavy_Orange_US_Desert",			
+			"TTT_Vest_Lite_Orange_US_Desert",
 			"TTT_Vest_Crew_US_Desert",			
-			
+
 			//Westen Woodland
 			"TTT_Vest_Heavy_Yellow_US_Woodland",
 			"TTT_Vest_Lite_Yellow_US_Woodland",
@@ -289,15 +293,15 @@ class CfgPatches {
 			"TTT_Vest_Lite_Red_US_Woodland",
 			"TTT_Vest_Heavy_Black_US_Woodland",
 			"TTT_Vest_Lite_Black_US_Woodland",
-			"TTT_Vest_Heavy_Purple_US_Woodland",
-			"TTT_Vest_Lite_Purple_US_Woodland",
+			"TTT_Vest_Heavy_Violet_US_Woodland",
+			"TTT_Vest_Lite_Violet_US_Woodland",
 			"TTT_Vest_Heavy_Gold_US_Woodland",
 			"TTT_Vest_Lite_Gold_US_Woodland",
 			"TTT_Vest_Heavy_Grey_US_Woodland",
 			"TTT_Vest_Lite_Grey_US_Woodland",
 			"TTT_Vest_Crew_US_Woodland"
 		};
-		requiredAddons[] = {"ttt_main"};
+		requiredAddons[] = {"ttt_main", "ttt_units_base"};
 	};
 };
 
@@ -330,7 +334,7 @@ class CfgEditorSubcategories
 
 class CfgGroups {
 	class West {
-		class TTT_Groups_us {
+		class TTT_Groups_US {
 			name = "TTT US";
 			#include "\ttt_a3\ttt_units_us\groups_desert.hpp"
 			#include "\ttt_a3\ttt_units_us\groups_woodland.hpp"
@@ -364,7 +368,6 @@ class CfgWeapons {
 };
 
 class CfgVehicles {
-	
 	/*
 	#############################################################
 	### External class references
@@ -374,8 +377,8 @@ class CfgVehicles {
 	class B_Kitbag_cbr;				
 	class B_AssaultPack_cbr;		
 	class B_Carryall_cbr;			
-	class tf_rt1523g_big_bwmod_tropen;
-	class tf_rt1523g_big_rhs;
+	class TFAR_rt1523g_big_bwmod_tropen;
+	class TFAR_rt1523g_big_rhs;
 	class B_UAV_01_backpack_F;		
 	class B_Helipilot_F;			
 	class Box_NATO_Wps_F;			
@@ -392,6 +395,5 @@ class CfgVehicles {
 	#include "\ttt_a3\ttt_units_us\backpacks_desert.hpp"
 	#include "\ttt_a3\ttt_units_us\vehicles_woodland.hpp"
 	#include "\ttt_a3\ttt_units_us\backpacks_woodland.hpp"		
-	#include "\ttt_a3\ttt_units_us\crates_us.hpp"
-		
+	#include "\ttt_a3\ttt_units_us\crates_us.hpp"	
 };

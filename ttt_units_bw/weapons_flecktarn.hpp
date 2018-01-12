@@ -95,7 +95,7 @@
 		displayName = "TTT Uniform Silber (Flecktarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Adler1_BW_Flecktarn";
+			uniformClass = "TTT_Silver_1_BW_Flecktarn";
 		};
 	};
 	

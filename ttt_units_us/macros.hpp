@@ -169,7 +169,7 @@
     ITEM_XX(ACE_GD300_b,1)
 
 // OPL
-#define TRANSPORT_ITEMS_OPL \
+#define TRANSPORT_ITEMS_CO \
     ITEM_XX(ACE_DK10_b,1)
     
 /// Group Stuff ///
@@ -182,7 +182,8 @@
 #define ITEMS_ROT BERETS(Rot)
 #define ITEMS_BRONZE BERETS(Bronze)
 #define ITEMS_BLAU BERETS(Blau)
-#define ITEMS_VIOLETT BERETS(Violett)
+#define ITEMS_VIOLETT BERETS(Violet)
+#define ITEMS_ORANGE BERETS(Orange)
 #define ITEMS_WEISS BERETS(Weiss)
 #define ITEMS_PLATIN BERETS(Platin)
 #define ITEMS_SILBER BERETS(Silber), "TTT_Helmet_Buzzard"
@@ -194,7 +195,7 @@
 #define get_vest(army,group,kind,camo) get_str(append_dummy(append_dummy(append_dummy(append_dummy(append_dummy(append_dummy(append_dummy(TTT_Vest_)kind)_)group)_)army)_)camo)
 
 /// Berets Config ///
-#define BERETS(group) get_str(append_dummy(TTT_Berets_)group)
+#define BERETS(group) get_str(append_dummy(TTT_Beret_)group)
 
 /// Stringification Marco ///
 #define get_str(string) #string

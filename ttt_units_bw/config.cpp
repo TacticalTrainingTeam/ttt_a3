@@ -1,7 +1,7 @@
 #include "\ttt_a3\ttt_main\macros.hpp"
 
 class CfgPatches {
-	class ttt_units_bw {
+	class TTT_Units_BW {
 		units[] = {
 			//Units Tropentarn
 			"TTT_Yellow_1_BW_Tropentarn",
@@ -88,19 +88,19 @@ class CfgPatches {
 			"TTT_Hawk_2_BW_Tropentarn",
 			
 			//Groups Tropentarn
-			"TTT_Gelb_BW_Tropentarn",
-			"TTT_Grau_BW_Tropentarn",
+			"TTT_Yellow_BW_Tropentarn",
+			"TTT_Grey_BW_Tropentarn",
 			"TTT_Gold_BW_Tropentarn",
-			"TTT_Gruen_BW_Tropentarn",
-			"TTT_Braun_BW_Tropentarn",
-			"TTT_Schwarz_BW_Tropentarn",
-			"TTT_Rot_BW_Tropentarn",
+			"TTT_Green_BW_Tropentarn",
+			"TTT_Brown_BW_Tropentarn",
+			"TTT_Black_BW_Tropentarn",
+			"TTT_Red_BW_Tropentarn",
 			"TTT_Bronze_BW_Tropentarn",
-			"TTT_Blau_BW_Tropentarn",
-			"TTT_Violett_BW_Tropentarn",
-			"TTT_Weiss_BW_Tropentarn",
-			"TTT_Silber_BW_Tropentarn",
-			"TTT_Platin_BW_Tropentarn",
+			"TTT_Blue_BW_Tropentarn",
+			"TTT_Violet_BW_Tropentarn",
+			"TTT_White_BW_Tropentarn",
+			"TTT_Silver_BW_Tropentarn",
+			"TTT_Platinum_BW_Tropentarn",
 
 			//Units Flecktarn
 			"TTT_Yellow_1_BW_Flecktarn",
@@ -187,30 +187,30 @@ class CfgPatches {
 			"TTT_Hawk_2_BW_Flecktarn",
 			
 			//Groups Flecktarn
-			"TTT_Gelb_BW_Flecktarn",
-			"TTT_Grau_BW_Flecktarn",
+			"TTT_Yellow_BW_Tropentarn",
+			"TTT_Grey_BW_Tropentarn",
 			"TTT_Gold_BW_Flecktarn",
-			"TTT_Gruen_BW_Flecktarn",
-			"TTT_Schwarz_BW_Flecktarn",
-			"TTT_Rot_BW_Flecktarn",
+			"TTT_Green_BW_Tropentarn",
+			"TTT_Black_BW_Tropentarn",
+			"TTT_Red_BW_Tropentarn",
 			"TTT_Bronze_BW_Flecktarn",
-			"TTT_Blau_BW_Flecktarn",
-			"TTT_Weiss_BW_Flecktarn",
-			"TTT_Silber_BW_Flecktarn",
-			"TTT_Platin_BW_Flecktarn",
+			"TTT_Blue_BW_Tropentarn",
+			"TTT_White_BW_Tropentarn",
+			"TTT_Silver_BW_Tropentarn",
+			"TTT_Platinum_BW_Tropentarn",
 
 			//Kisten
-			"TTT_Weapons_BW",
-			"TTT_Weapons_Special_BW",
-			"TTT_Weapons_Luncher_BW",
-			"TTT_Ammo_Standard_BW",
-			"TTT_Ammo_Special_BW",
-			"TTT_Ammo_Luncher_BW",
-			"TTT_Ammo_Grenade_BW",
-			"TTT_Equipment_BW",
-			"TTT_Equipment_Pioneer_BW",
-			"TTT_Medic_BW",
-			"TTT_Medic_Backpack_BW",
+			"TTT_Crate_Weapons_BW",
+			"TTT_Crate_Weapons_Special_BW",
+			"TTT_Crate_Weapons_Luncher_BW",
+			"TTT_Crate_Ammo_Standard_BW",
+			"TTT_Crate_Ammo_Special_BW",
+			"TTT_Crate_Ammo_Luncher_BW",
+			"TTT_Crate_Ammo_Grenade_BW",
+			"TTT_Crate_Equipment_BW",
+			"TTT_Crate_Equipment_Pioneer_BW",
+			"TTT_Crate_Medic_Doctor_BW",
+			"TTT_Crate_Medic_Backpack_BW",
 			"TTT_Crate_Small_BW",
 			"TTT_Crate_Large_BW"
 		};
@@ -290,7 +290,7 @@ class CfgEditorSubcategories
 
 class CfgGroups {
 	class West {
-		class TTT_Groups_bw {
+		class TTT_Groups_BW {
 			name = "$STR_TTT_Faction_BW";
 			#include "\ttt_a3\ttt_units_bw\groups_tropentarn.hpp"
 			#include "\ttt_a3\ttt_units_bw\groups_flecktarn.hpp"
@@ -320,7 +320,6 @@ class CfgWeapons {
 };
 
 class CfgVehicles {
-	
 	/*
 	#############################################################
 	### External class references
@@ -330,7 +329,7 @@ class CfgVehicles {
 	class B_Kitbag_cbr;				
 	class B_AssaultPack_cbr;		
 	class B_Carryall_cbr;			
-	class tf_rt1523g_big_bwmod_tropen;
+	class TFAR_rt1523g_big_bwmod_tropen;
 	class B_UAV_01_backpack_F;		
 	class B_Helipilot_F;			
 	class Box_NATO_Wps_F;			
@@ -348,6 +347,5 @@ class CfgVehicles {
 	#include "\ttt_a3\ttt_units_bw\vehicles_flecktarn.hpp"
 	#include "\ttt_a3\ttt_units_bw\backpacks_flecktarn.hpp"		
 	#include "\ttt_a3\ttt_units_bw\crates_bw.hpp"
-		
 };
 

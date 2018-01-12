@@ -1,5 +1,5 @@
 class CfgPatches {
-	class ttt_main {
+	class TTT_Main {
 		author = "$STR_Tactical_Training_Team";
 		name = "Tactical Training Team Modification - Main Configuration";
 		url = "https://www.tacticalteam.de";
@@ -49,19 +49,19 @@ class CfgMods
 };
 
 class CfgFactionClasses {
-	class TTT_faction_BW {
+	class TTT_Faction_BW {
 		icon = "\ttt_a3\ttt_main\ui\TTT_logo_small_ca.paa";
 		displayName = "$STR_TTT_Faction_BW";
 		priority = 1;
 		side = 1;
 	};
-	class TTT_faction_US {
+	class TTT_Faction_US {
 		icon = "\ttt_a3\ttt_main\ui\TTT_logo_small_ca.paa";
 		displayName = "$STR_TTT_Faction_US";
 		priority = 2;
 		side = 1;
 	};
-	class TTT_faction_PMC {
+	class TTT_Faction_PMC {
 		icon = "\ttt_a3\ttt_main\ui\TTT_logo_small_ca.paa";
 		displayName = "$STR_TTT_Faction_PMC";
 		priority = 3;
