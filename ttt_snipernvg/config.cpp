@@ -5,11 +5,11 @@
 
 class CfgPatches 
 {
-	class ttt_snipernvg 
+	class TTT_Snipernvg 
 	{
 		units[] = {};
 		weapons[] = {};
-		requiredAddons[] = {"A3_Weapons_F_Acc"};
+		requiredAddons[] = {"ttt_main", "A3_Weapons_F_Acc"};
 	};
 };
 

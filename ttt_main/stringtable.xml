@@ -53,7 +53,7 @@
       </Key>
       <Key ID="STR_TTT_EdSubcat_Unit_Camo_Tropentarn">
         <Original>Men (Tropentarn)</Original>
-        <German>Men (Tropentarn)</German>
+        <German>Soldat (Tropentarn)</German>
         <English>Men (Tropentarn)</English>
       </Key>
       <Key ID="STR_TTT_EdSubcat_Unit_Camo_Flecktarn">
@@ -69,7 +69,7 @@
 			<English>Truppfahrzeug MG (BW Flecktarn)</English>
 		</Key>
 		<Key ID="STR_TTT_Vehilce_BW">
-			<Original>TTT Fahrzeuge (BW)</Original>
+			<Original>TTT Vehilce (BW)</Original>
 			<German>TTT Fahrzeuge (BW)</German>
 			<English>TTT Vehilce (BW)</English>
 		</Key>
@@ -83,67 +83,67 @@
 			<German>TTT Fahrzeuge (PMC)</German>
 			<English>TTT Vehilce (PMC)</English>
 		</Key>		
-		<Key ID="STR_TTT_Drone_US_Desert">
+		<Key ID="STR_TTT_UAV_US_Desert">
 			<Original>TTT Aufklaerungsdrohne (US Desert)</Original>
 			<German>TTT Aufklaerungsdrohne (US Desert)</German>
 			<English>TTT Aufklaerungsdrohne (US Desert)</English>
 		</Key>
-		<Key ID="STR_TTT_Drone_US_Woodland">
+		<Key ID="STR_TTT_UAV_US_Woodland">
 			<Original>TTT Aufklaerungsdrohne (US Woodland)</Original>
 			<German>TTT Aufklaerungsdrohne (US Woodland)</German>
 			<English>TTT Aufklaerungsdrohne (US Woodland)</English>
 		</Key>
-		<Key ID="STR_TTT_Heli_Light_PMC">
+		<Key ID="STR_TTT_MTA_Light_PMC">
 			<Original>TTT Transport Helicopters (PMC Light)</Original>
 			<German>TTT Transporthelikopter (PMC Leicht)</German>
 			<English>TTT Transport Helicopters (PMC Light)</English>
 		</Key>
-		<Key ID="STR_TTT_Heli_Medium_US_Desert">
+		<Key ID="STR_TTT_MTA_Medium_US_Desert">
 			<Original>TTT Transporthelikopter (US Desert)</Original>
 			<German>TTT Transporthelikopter (US Desert)</German>
 			<English>TTT Transporthelikopter (US Desert)</English>
 		</Key>
-		<Key ID="STR_TTT_Heli_Medium_US_Woodland">
+		<Key ID="STR_TTT_MTA_Medium_US_Woodland">
 			<Original>TTT Transporthelikopter (US Woodland)</Original>
 			<German>TTT Transporthelikopter (US Woodland)</German>
 			<English>TTT Transporthelikopter (US Woodland)</English>
 		</Key>
-		<Key ID="STR_TTT_Heli_Medium_PMC">
+		<Key ID="STR_TTT_MTA_Medium_PMC">
 			<Original>TTT Transport Helicopters (PMC Medium)</Original>
 			<German>TTT Transporthelikopter (PMC Mittel)</German>
 			<English>TTT Transport Helicopters (PMC Medium)</English>
 		</Key>
-		<Key ID="STR_TTT_Heli_Heavy_US_Desert">
+		<Key ID="STR_TTT_MTA_Heavy_US_Desert">
 			<Original>TTT Transporthelikopter (US Desert)</Original>
 			<German>TTT Transporthelikopter (US Desert)</German>
 			<English>TTT Transporthelikopter (US Desert)</English>
 		</Key>
-		<Key ID="STR_TTT_Heli_Heavy_US_Woodland">
+		<Key ID="STR_TTT_MTA_Heavy_US_Woodland">
 			<Original>TTT Transporthelikopter (US Woodland)</Original>
 			<German>TTT Transporthelikopter (US Woodland)</German>
 			<English>TTT Transporthelikopter (US Woodland)</English>
 		</Key>		
-		<Key ID="STR_TTT_Heli_Heavy_PMC">
+		<Key ID="STR_TTT_MTA_Heavy_PMC">
 			<Original>TTT Transport Helicopters (PMC Heavy)</Original>
 			<German>TTT Transporthelikopter (PMC Schwer)</German>
 			<English>TTT Transport Helicopters (PMC Heavy)</English>
 		</Key>		
-		<Key ID="STR_TTT_Heli_SAR_US_Desert">
+		<Key ID="STR_TTT_MTA_SAR_US_Desert">
 			<Original>TTT Sanitaetshelikopter (US Desert)</Original>
 			<German>TTT Sanitaetshelikopter (US Desert)</German>
 			<English>TTT Sanitaetshelikopter (US Desert)</English>
 		</Key>
-		<Key ID="STR_TTT_Heli_SAR_US_Woodland">
+		<Key ID="STR_TTT_MTA_SAR_US_Woodland">
 			<Original>TTT Sanitaetshelikopter (US Woodland)</Original>
 			<German>TTT Sanitaetshelikopter (US Woodland)</German>
 			<English>TTT Sanitaetshelikopter (US Woodland)</English>
 		</Key>
-		<Key ID="STR_TTT_Heli_CAS_US_Desert">
+		<Key ID="STR_TTT_AH_US_Desert">
 			<Original>TTT Kampfhelikopter (US Desert)</Original>
 			<German>TTT Kampfhelikopter (US Desert)</German>
 			<English>TTT Kampfhelikopter (US Desert)</English>
 		</Key>
-		<Key ID="STR_TTT_Heli_CAS_US_Woodland">
+		<Key ID="STR_TTT_AH_US_Woodland">
 			<Original>TTT Kampfhelikopter (US Woodland)</Original>
 			<German>TTT Kampfhelikopter (US Woodland)</German>
 			<English>TTT Kampfhelikopter (US Woodland)</English>
