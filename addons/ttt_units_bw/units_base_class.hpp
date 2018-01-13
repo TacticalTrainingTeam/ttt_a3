@@ -10,11 +10,11 @@ class TTT_Base_BW : B_Soldier_base_F {
     author = "$STR_Tactical_Training_Team";
     displayName = "Basis-Klasse BW";
     scope = 0;
-	icon = "iconMan";
+    icon = "iconMan";
     faction = "TTT_faction_BW";
     vehicleClass = "TTT_Template_BW";
     uniformAccessories[] = {};
-    nakedUniform = "U_BasicBody";
+    nakedUniform = "U_BasicBo1dy";
     hiddenSelections[] = { "Camo", "insignia" }; //Camo = Standardskin der Uniform; insignia = Rangabzeichen (linker Arm);
     items[] = {};
     respawnItems[] = {};
@@ -283,7 +283,7 @@ class TTT_Pilot_Base_BW : TTT_Base_BW {
     respawnitems[] = { default_ace_items, "ACE_microDAGR" };
     linkedItems[] = { default_linkedItems, "BWA3_Vest_Tropen", "TTT_Helmet_Eagle" };
     respawnLinkedItems[] = { default_linkedItems, "BWA3_Vest_Tropen", "TTT_Helmet_Eagle" };
-	weapons[] = { "BWA3_G36K_equipped", "BWA3_P8", "Binocular", default_weapons };
+    weapons[] = { "BWA3_G36K_equipped", "BWA3_P8", "Binocular", default_weapons };
     respawnWeapons[] = { "BWA3_G36K_equipped", "BWA3_P8", "Binocular", default_weapons };
     magazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_4(BWA3_30Rnd_556x45_G36_AP) };
     respawnMagazines[] = { default_smoke, item_2(BWA3_15Rnd_9x19_P8), item_4(BWA3_30Rnd_556x45_G36_AP) };

@@ -1,8 +1,8 @@
-	/*
-    #############################################################
-    ### TTT Truppfahrzeug (Infantry Mobility Vehicle)
-    #############################################################
-    */
+/*
+#############################################################
+### TTT Truppfahrzeug (Infantry Mobility Vehicle)
+#############################################################
+*/
 
 class TTT_IMV_MG_US_Desert : UK3CB_BAF_Coyote_Passenger_L111A1_D {
     author = "$STR_Tactical_Training_Team";
@@ -16,7 +16,7 @@ class TTT_IMV_MG_US_Desert : UK3CB_BAF_Coyote_Passenger_L111A1_D {
     class TransportWeapons {
     };
     class TransportItems {
-		item_xx(ToolKit,1);
+        item_xx(ToolKit,1);
     };
     class TransportMagazines {
     };
@@ -37,7 +37,7 @@ class TTT_IMV_GL_US_Desert : UK3CB_BAF_Coyote_Passenger_L134A1_D {
     class TransportWeapons {
     };
     class TransportItems {
-		item_xx(ToolKit,1);
+        item_xx(ToolKit,1);
     };
     class TransportMagazines {
     };
@@ -56,26 +56,26 @@ class TTT_LUV_COM_US_Desert : rhsusf_m998_d_4dr_fulltop {
     scope = 2;
     faction = "TTT_faction_US";
     vehicleClass = "TTT_Vehicles_US";
-	hiddenSelectionsTextures[] = {
-		"rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa",
-		"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa",
-		"rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa",
-		"rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_d_co.paa",
-		"rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_d_co.paa",
-		"rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa",
-		"rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_d_co.paa",
-		"rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_d_co.paa",
-		"rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa",
-		"ttt_a3\ttt_vehicles_us\data\oplfahrzeug_unitdecals.paa",
-		"rhsusf\addons\rhsusf_hmmwv\unitdecals\a12^_co.paa"};		   
-	crew = "TTT_Yellow_1_US_Desert";
+    hiddenSelectionsTextures[] = {
+        "rhsusf\addons\rhsusf_hmmwv\textures\m998_exterior_d_co.paa",
+        "rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_d_co.paa",
+        "rhsusf\addons\rhsusf_hmmwv\textures\A2_parts_D_co.paa",
+        "rhsusf\addons\rhsusf_hmmwv\textures\wheel_wranglermt_d_co.paa",
+        "rhsusf\addons\rhsusf_hmmwv\textures\m998_mainbody_d_co.paa",
+        "rhsusf\addons\rhsusf_hmmwv\textures\gratting_d_co.paa",
+        "rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_d_co.paa",
+        "rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_d_co.paa",
+        "rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa",
+        "ttt_a3\ttt_vehicles_us\data\oplfahrzeug_unitdecals.paa",
+        "rhsusf\addons\rhsusf_hmmwv\unitdecals\a12^_co.paa"};
+    crew = "TTT_Yellow_1_US_Desert";
     displayName = "$STR_TTT_LUV_COM_US_Desert";
     typicalCargo[] = {};
 
     class TransportWeapons {
     };
     class TransportItems {
-		item_xx(ToolKit,1);
+        item_xx(ToolKit,1);
     };
     class TransportMagazines {
     };
@@ -101,16 +101,16 @@ class TTT_LUV_SAR_US_Desert : rhsusf_m998_d_2dr_fulltop {
     class TransportWeapons {
     };
     class TransportItems {
-		item_xx(ToolKit,1);
-		//Sanitaetsmaterial
-		item_xx(ACE_packingBandage,20);
-		item_xx(ACE_elasticBandage,20);
-		item_xx(ACE_fieldDressing,20);
-		item_xx(ACE_quikclot,15);
-		item_xx(ACE_atropine,10);
-		item_xx(ACE_morphine,20);
-		item_xx(ACE_epinephrine,20);
-		item_xx(ACE_salineIV,15);
+        item_xx(ToolKit,1);
+        //Sanitaetsmaterial
+        item_xx(ACE_packingBandage,20);
+        item_xx(ACE_elasticBandage,20);
+        item_xx(ACE_fieldDressing,20);
+        item_xx(ACE_quikclot,15);
+        item_xx(ACE_atropine,10);
+        item_xx(ACE_morphine,20);
+        item_xx(ACE_epinephrine,20);
+        item_xx(ACE_salineIV,15);
     };
     class TransportMagazines {
     };
@@ -137,7 +137,7 @@ class TTT_LUV_LOG_US_Desert : rhsusf_m998_d_2dr {
     class TransportWeapons {
     };
     class TransportItems {
-		item_xx(ToolKit,1);
+        item_xx(ToolKit,1);
     };
     class TransportMagazines {
     };
@@ -167,7 +167,7 @@ class TTT_IFV_US_Desert : RHS_M2A3_BUSKIII {
     class TransportWeapons {
     };
     class TransportItems {
-		item_xx(ToolKit,1);
+        item_xx(ToolKit,1);
     };
     class TransportMagazines {
     };
@@ -193,7 +193,7 @@ class TTT_MBT_US_Desert : rhsusf_m1a2sep1tuskiid_USarmy {
     class TransportWeapons {
     };
     class TransportItems {
-		item_xx(ToolKit,1);
+        item_xx(ToolKit,1);
     };
     class TransportMagazines {
     };
@@ -212,11 +212,11 @@ class TTT_AH_US_Desert : RHS_AH64D {
     scope = 2;
     faction = "TTT_faction_US";
     vehicleClass = "TTT_Vehicles_US";
-	
-	hiddenSelectionsTextures[] = {
-		"\rhsusf\addons\rhsusf_a2port_air\ah64\data\ah64d_body_co.paa",
-		"\rhsusf\addons\rhsusf_a2port_air\ah64\data\ah64d_details_co.paa",
-		"\ttt_a3\ttt_vehicles_us\data\kampfhelikopter_camo3.paa"};	
+
+    hiddenSelectionsTextures[] = {
+        "\rhsusf\addons\rhsusf_a2port_air\ah64\data\ah64d_body_co.paa",
+        "\rhsusf\addons\rhsusf_a2port_air\ah64\data\ah64d_details_co.paa",
+        "\ttt_a3\ttt_vehicles_us\data\kampfhelikopter_camo3.paa"};
     crew = "TTT_Silver_1_US_Desert";
     displayName = "TTT Kampfhelikopter (US Desert)";
     typicalCargo[] = {};
@@ -225,12 +225,12 @@ class TTT_AH_US_Desert : RHS_AH64D {
     class TransportWeapons {
     };
     class TransportItems {
-		item_xx(ToolKit,1);
+        item_xx(ToolKit,1);
     };
     class TransportMagazines {
     };
     class TransportBackpacks {
-		backpack_xx(B_Parachute,2);
+        backpack_xx(B_Parachute,2);
     };
 };
 
@@ -248,25 +248,25 @@ class TTT_MTA_SAR_US_Desert : RHS_UH60M {
     crew = "TTT_White_3_US_Desert";
     displayName = "$STR_TTT_MTA_SAR_US_Desert";
     typicalCargo[] = {};
-	hiddenSelectionsTextures[] = {
-	"rhsusf\addons\rhsusf_a2port_air\uh60m\data\uh60m_fuselage_co.paa",
-	"\ttt_a3\ttt_vehicles_us\data\medivac_engine_co.paa",
-	"rhsusf\addons\rhsusf_a2port_air\uh60m\data\default_co.paa",
-	"rhsusf\addons\rhsusf_a2port_air\uh60m\data\uh60m_dust_filter_co.paa"};
+    hiddenSelectionsTextures[] = {
+    "rhsusf\addons\rhsusf_a2port_air\uh60m\data\uh60m_fuselage_co.paa",
+    "\ttt_a3\ttt_vehicles_us\data\medivac_engine_co.paa",
+    "rhsusf\addons\rhsusf_a2port_air\uh60m\data\default_co.paa",
+    "rhsusf\addons\rhsusf_a2port_air\uh60m\data\uh60m_dust_filter_co.paa"};
     class TransportWeapons {
     };
     class TransportItems {
-		item_xx(ToolKit,1);	
-		//Sanitaetsmaterial
- 		item_xx(ACE_packingBandage,20);
-		item_xx(ACE_elasticBandage,20);
-		item_xx(ACE_fieldDressing,20);
-		item_xx(ACE_quikclot,15);
-		item_xx(ACE_atropine,10);
-		item_xx(ACE_morphine,20);
-		item_xx(ACE_epinephrine,20);
-		item_xx(ACE_salineIV,15);
-	};
+        item_xx(ToolKit,1);
+        //Sanitaetsmaterial
+         item_xx(ACE_packingBandage,20);
+        item_xx(ACE_elasticBandage,20);
+        item_xx(ACE_fieldDressing,20);
+        item_xx(ACE_quikclot,15);
+        item_xx(ACE_atropine,10);
+        item_xx(ACE_morphine,20);
+        item_xx(ACE_epinephrine,20);
+        item_xx(ACE_salineIV,15);
+    };
     class TransportMagazines {
     };
     class TransportBackpacks {
@@ -284,11 +284,11 @@ class TTT_MTA_Heavy_US_Desert : RHS_CH_47F {
     scope = 2;
     faction = "TTT_faction_US";
     vehicleClass = "TTT_Vehicles_US";
-	hiddenSelectionsTextures[] = {
-		"rhsusf\addons\rhsusf_a2port_air\ch47\data\ch47_ext_1_light_co.paa",
-		"\ttt_a3\ttt_vehicles_us\data\logheli_desert_camo2.paa",
-		"\ttt_a3\ttt_vehicles_us\data\logheli_camo3.paa",
-		"rhsusf\addons\rhsusf_a2port_air\ch47\data\ch47_ext_light_mlod_co.paa"};		
+    hiddenSelectionsTextures[] = {
+        "rhsusf\addons\rhsusf_a2port_air\ch47\data\ch47_ext_1_light_co.paa",
+        "\ttt_a3\ttt_vehicles_us\data\logheli_desert_camo2.paa",
+        "\ttt_a3\ttt_vehicles_us\data\logheli_camo3.paa",
+        "rhsusf\addons\rhsusf_a2port_air\ch47\data\ch47_ext_light_mlod_co.paa"};
     crew = "TTT_Buzzard_1_US_Desert";
     displayName = "TTT Logistikhelikopter (US Desert)";
     typicalCargo[] = {};
@@ -297,12 +297,12 @@ class TTT_MTA_Heavy_US_Desert : RHS_CH_47F {
     class TransportWeapons {
     };
     class TransportItems {
-		item_xx(ToolKit,1);
+        item_xx(ToolKit,1);
     };
     class TransportMagazines {
     };
     class TransportBackpacks {
-		backpack_xx(B_Parachute,30);
+        backpack_xx(B_Parachute,30);
     };
 };
 
@@ -326,7 +326,7 @@ class TTT_MTA_Medium_US_Desert : RHS_UH60M {
     class TransportWeapons {
     };
     class TransportItems {
-		item_xx(ToolKit,1);
+        item_xx(ToolKit,1);
     };
     class TransportMagazines {
     };

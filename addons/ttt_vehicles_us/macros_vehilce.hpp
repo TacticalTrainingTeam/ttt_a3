@@ -19,14 +19,14 @@
 
 /// Standardausruestung ///
 #define default_weapons "Throw", "Put"
-#define default_linkedItems "BWA3_G_Combat_Clear", "ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152" 
+#define default_linkedItems "BWA3_G_Combat_Clear", "ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152"
 #define default_ace_items "ACE_NVG_Wide", item_2(ACE_IR_Strobe_Item), "ACE_MapTools", "ACE_Flashlight_MX991"
 
-/// Backpack Medic Stuff ///		
+/// Backpack Medic Stuff ///
 #define vehicle_medic_supply_standard \
-	item_xx(ACE_fieldDressing,15); \
-	item_xx(ACE_packingBandage,10);
-	
+    item_xx(ACE_fieldDressing,15); \
+    item_xx(ACE_packingBandage,10);
+
 /// Vest Config ///
 #define get_vest(army,group,kind,camo) get_str(append_dummy(append_dummy(append_dummy(TTT_Vest_##kind)_##group)_##army)_##camo)
 
@@ -35,5 +35,3 @@
 
 ///Dummy Marco for Appending Strings ///
 #define append_dummy(str) str
-
-

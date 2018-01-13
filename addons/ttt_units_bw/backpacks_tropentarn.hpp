@@ -12,7 +12,7 @@ class TTT_Backpack_Teamleader_BW_Tropentarn : B_AssaultPack_cbr {
             name = "ACE_fieldDressing";
             count = 9;
         };
-		class _xx_ACE_packingBandage {
+        class _xx_ACE_packingBandage {
             name = "ACE_packingBandage";
             count = 3;
         };
@@ -24,10 +24,10 @@ class TTT_Backpack_Teamleader_BW_Tropentarn : B_AssaultPack_cbr {
             name = "ACE_GD300_b";
             count = 1;
         };
-		class Binocular {
-			name = "Binocular";
-			count = 1;
-		};		
+        class Binocular {
+            name = "Binocular";
+            count = 1;
+        };
     };
     class TransportMagazines {
         class _xx_1Rnd_Smoke_Grenade_shell {
@@ -49,7 +49,7 @@ class TTT_Backpack_Grenadier_BW_Tropentarn : B_AssaultPack_cbr {
             name = "ACE_fieldDressing";
             count = 9;
         };
-		class _xx_ACE_packingBandage {
+        class _xx_ACE_packingBandage {
             name = "ACE_packingBandage";
             count = 3;
         };
@@ -74,7 +74,7 @@ class TTT_Backpack_Assistant_MG_BW_Tropentarn : B_AssaultPack_cbr {
             name = "ACE_fieldDressing";
             count = 9;
         };
-		class _xx_ACE_packingBandage {
+        class _xx_ACE_packingBandage {
             name = "ACE_packingBandage";
             count = 3;
         };
@@ -99,7 +99,7 @@ class TTT_Backpack_Soldier_MG_BW_Tropentarn : B_AssaultPack_cbr {
             name = "ACE_fieldDressing";
             count = 9;
         };
-		class _xx_ACE_packingBandage {
+        class _xx_ACE_packingBandage {
             name = "ACE_packingBandage";
             count = 3;
         };
@@ -122,7 +122,7 @@ class TTT_Backpack_Soldier_AT_BW_Tropentarn : B_AssaultPack_cbr {
             name = "ACE_fieldDressing";
             count = 9;
         };
-		class _xx_ACE_packingBandage {
+        class _xx_ACE_packingBandage {
             name = "ACE_packingBandage";
             count = 3;
         };
@@ -145,7 +145,7 @@ class TTT_Backpack_Soldier_BW_Tropentarn : B_AssaultPack_cbr {
             name = "ACE_fieldDressing";
             count = 9;
         };
-		class _xx_ACE_packingBandage {
+        class _xx_ACE_packingBandage {
             name = "ACE_packingBandage";
             count = 3;
         };
@@ -165,7 +165,7 @@ class TTT_Backpack_Operator_Radio_BW_Tropentarn : TFAR_rt1523g_big_bwmod_tropen 
             name = "ACE_fieldDressing";
             count = 9;
         };
-		class _xx_ACE_packingBandage {
+        class _xx_ACE_packingBandage {
             name = "ACE_packingBandage";
             count = 3;
         };
@@ -194,7 +194,7 @@ class TTT_Backpack_Pioneer_BW_Tropentarn : B_Carryall_cbr {
             name = "ACE_fieldDressing";
             count = 9;
         };
-		class _xx_ACE_packingBandage {
+        class _xx_ACE_packingBandage {
             name = "ACE_packingBandage";
             count = 3;
         };
@@ -255,7 +255,7 @@ class TTT_Backpack_Medic_Combat_BW_Tropentarn : B_Kitbag_cbr {
             name = "ACE_salineIV_500";
             count = 4;
         };
-		class _xx_ACE_salineIV {
+        class _xx_ACE_salineIV {
             name = "ACE_salineIV";
             count = 2;
         };
@@ -338,8 +338,8 @@ class TTT_Backpack_Pilot_BW_Tropentarn : TFAR_rt1523g_big_bwmod_tropen {
     displayName = "TTT Pilot Rucksack (BW Tropentarn)";
     tf_range = 50000;
     class TransportItems {
-		backpack_medic_supply_standard
-		item_xx(ACE_GD300_b,1);
+        backpack_medic_supply_standard
+        item_xx(ACE_GD300_b,1);
     };
 };
 
@@ -352,7 +352,7 @@ class TTT_Backpack_Commander_BW_Tropentarn : TFAR_rt1523g_big_bwmod_tropen {
             name = "ACE_fieldDressing";
             count = 9;
         };
-		class _xx_ACE_packingBandage {
+        class _xx_ACE_packingBandage {
             name = "ACE_packingBandage";
             count = 3;
         };

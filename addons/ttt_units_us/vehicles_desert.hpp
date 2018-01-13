@@ -17,12 +17,12 @@ class TTT_Yellow_1_US_Desert : TTT_Teamleader_Base_US {
     backpack = "TTT_Backpack_Commander_US_Desert";
     items[] += { ITEMS_GELB };
     respawnitems[] += { ITEMS_GELB };
-    linkedItems[] += { 
+    linkedItems[] += {
         "TTT_Vest_Heavy_Yellow_US_Desert",
         "TTT_Helmet_1_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Heavy_Yellow_US_Desert", 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Heavy_Yellow_US_Desert",
         "TTT_Helmet_1_US_Desert"
     };
     weapons[] = { WEAPONS_US_GIVEN_WEAPON(WEAPON_US_PRIMARY_GL, "Rangefinder") };
@@ -40,12 +40,12 @@ class TTT_Yellow_2_US_Desert : TTT_Operator_Radio_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_yellow_us_desert.paa" };
     items[] += { ITEMS_GELB };
     respawnitems[] += { ITEMS_GELB };
-    linkedItems[] += { 
-        "TTT_Vest_Lite_Yellow_US_Desert", 
-        "TTT_Helmet_2_US_Desert" 
+    linkedItems[] += {
+        "TTT_Vest_Lite_Yellow_US_Desert",
+        "TTT_Helmet_2_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Lite_Yellow_US_Desert", 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Lite_Yellow_US_Desert",
         "TTT_Helmet_2_US_Desert"
     };
 };
@@ -61,13 +61,13 @@ class TTT_Yellow_3_US_Desert : TTT_Operator_Radio_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_yellow_us_desert.paa" };
     items[] += { ITEMS_GELB };
     respawnitems[] += { ITEMS_GELB };
-    linkedItems[] += { 
-        "TTT_Vest_Lite_Yellow_US_Desert", 
-        "TTT_Helmet_3_US_Desert" 
+    linkedItems[] += {
+        "TTT_Vest_Lite_Yellow_US_Desert",
+        "TTT_Helmet_3_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Lite_Yellow_US_Desert", 
-        "TTT_Helmet_3_US_Desert" 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Lite_Yellow_US_Desert",
+        "TTT_Helmet_3_US_Desert"
     };
 };
 
@@ -82,12 +82,12 @@ class TTT_Yellow_4_US_Desert : TTT_Operator_Radio_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_yellow_us_desert.paa" };
     items[] += { ITEMS_GELB };
     respawnitems[] += { ITEMS_GELB };
-    linkedItems[] += { 
-        "TTT_Vest_Lite_Yellow_US_Desert", 
+    linkedItems[] += {
+        "TTT_Vest_Lite_Yellow_US_Desert",
         "TTT_Helmet_4_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Lite_Yellow_US_Desert", 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Lite_Yellow_US_Desert",
         "TTT_Helmet_4_US_Desert"
     };
 };
@@ -263,12 +263,12 @@ class TTT_Gold_1_US_Desert : TTT_Teamleader_Base_US {
         ITEMS_SNIPER,
         WEAPON_US_PRIMARY_SILENCER
     };
-    linkedItems[] += { 
-        "TTT_Vest_Lite_Gold_US_Desert", 
+    linkedItems[] += {
+        "TTT_Vest_Lite_Gold_US_Desert",
         "TTT_Helmet_1_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Lite_Gold_US_Desert", 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Lite_Gold_US_Desert",
         "TTT_Helmet_1_US_Desert"
     };
     weapons[] = { WEAPONS_US_GIVEN_WEAPON(WEAPON_US_PRIMARY_GL, WEAPON_LASER_DESIGNATOR) };
@@ -296,13 +296,13 @@ class TTT_Gold_2_US_Desert : TTT_Operator_Radio_Base_US {
         WEAPON_US_PRIMARY_SILENCER,
         "rhsusf_acc_harris_bipod"
     };
-    linkedItems[] += { 
-        "TTT_Vest_Lite_Gold_US_Desert", 
-        "TTT_Helmet_2_US_Desert" 
-    };
-    respawnLinkedItems[] += { 
+    linkedItems[] += {
         "TTT_Vest_Lite_Gold_US_Desert",
-        "TTT_Helmet_2_US_Desert" 
+        "TTT_Helmet_2_US_Desert"
+    };
+    respawnLinkedItems[] += {
+        "TTT_Vest_Lite_Gold_US_Desert",
+        "TTT_Helmet_2_US_Desert"
     };
     weapons[] = { WEAPONS_US_GIVEN_WEAPON(WEAPON_US_PRIMARY_GL, WEAPON_LASER_DESIGNATOR) };
     respawnWeapons[] = { WEAPONS_US_GIVEN_WEAPON(WEAPON_US_PRIMARY_GL, WEAPON_LASER_DESIGNATOR) };
@@ -329,13 +329,13 @@ class TTT_Gold_3_US_Desert : TTT_Operator_Radio_Base_US {
         WEAPON_US_PRIMARY_SILENCER,
         "rhsusf_acc_harris_bipod"
     };
-    linkedItems[] += { 
-        "TTT_Vest_Lite_Gold_US_Desert", 
-        "TTT_Helmet_3_US_Desert" 
+    linkedItems[] += {
+        "TTT_Vest_Lite_Gold_US_Desert",
+        "TTT_Helmet_3_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Lite_Gold_US_Desert", 
-        "TTT_Helmet_3_US_Desert" 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Lite_Gold_US_Desert",
+        "TTT_Helmet_3_US_Desert"
     };
     weapons[] = { WEAPONS_US_GIVEN_WEAPON(WEAPON_US_PRIMARY, WEAPON_LASER_DESIGNATOR) };
     respawnWeapons[] = { WEAPONS_US_GIVEN_WEAPON(WEAPON_US_PRIMARY, WEAPON_LASER_DESIGNATOR) };
@@ -355,31 +355,31 @@ class TTT_Gold_4_US_Desert : TTT_Base_US {
     backpack = "TTT_Backpack_Soldier_US_Desert";
     items[] += {
         ITEMS_GOLD,
-        ITEMS_SNIPER 
+        ITEMS_SNIPER
     };
     respawnItems[] += {
         ITEMS_GOLD,
-        ITEMS_SNIPER 
+        ITEMS_SNIPER
     };
-    linkedItems[] += { 
+    linkedItems[] += {
         "TTT_Vest_Lite_Gold_US_Desert",
         "TTT_Helmet_4_US_Desert"
     };
     respawnLinkedItems[] += {
         "TTT_Vest_Lite_Gold_US_Desert",
-        "TTT_Helmet_4_US_Desert" 
+        "TTT_Helmet_4_US_Desert"
     };
     weapons[] = { WEAPONS_US_GIVEN_WEAPON(WEAPON_US_SNIPER, "ACE_Vector") };
     respawnWeapons[] = { WEAPONS_US_GIVEN_WEAPON(WEAPON_US_SNIPER, "ACE_Vector") };
-    magazines[] = { 
-        MAGAZINES_SMOKE, 
-        item_6(WEAPON_US_SNIPER_MAGAZINES), 
-        item_2(WEAPON_US_SECONDARY_MAGAZINES) 
+    magazines[] = {
+        MAGAZINES_SMOKE,
+        item_6(WEAPON_US_SNIPER_MAGAZINES),
+        item_2(WEAPON_US_SECONDARY_MAGAZINES)
     };
-    respawnMagazines[] = { 
-        MAGAZINES_SMOKE, 
-        item_6(WEAPON_US_SNIPER_MAGAZINES), 
-        item_2(WEAPON_US_SECONDARY_MAGAZINES) 
+    respawnMagazines[] = {
+        MAGAZINES_SMOKE,
+        item_6(WEAPON_US_SNIPER_MAGAZINES),
+        item_2(WEAPON_US_SECONDARY_MAGAZINES)
     };
 };
 
@@ -401,13 +401,13 @@ class TTT_Gold_5_US_Desert : TTT_Base_US {
         ITEMS_GOLD,
         WEAPON_US_SPECIAL_ACCESSORY
     };
-    linkedItems[] += { 
-        "TTT_Vest_Lite_Gold_US_Desert", 
+    linkedItems[] += {
+        "TTT_Vest_Lite_Gold_US_Desert",
         "TTT_Helmet_5_US_Desert",
         "B_UavTerminal"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Lite_Gold_US_Desert", 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Lite_Gold_US_Desert",
         "TTT_Helmet_5_US_Desert",
         "B_UavTerminal"
     };
@@ -433,13 +433,13 @@ class TTT_Gold_6_US_Desert : TTT_Base_US {
         ITEMS_GOLD,
         WEAPON_US_SPECIAL_ACCESSORY
     };
-    linkedItems[] += { 
-        "TTT_Vest_Lite_Gold_US_Desert", 
+    linkedItems[] += {
+        "TTT_Vest_Lite_Gold_US_Desert",
         "TTT_Helmet_6_US_Desert",
         "B_UavTerminal"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Lite_Gold_US_Desert", 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Lite_Gold_US_Desert",
         "TTT_Helmet_6_US_Desert",
         "B_UavTerminal"
     };
@@ -464,13 +464,13 @@ class TTT_Green_1_US_Desert : TTT_Teamleader_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_green_us_desert.paa" };
     items[] += { ITEMS_GREEN };
     respawnitems[] += { ITEMS_GREEN };
-    linkedItems[] += { 
+    linkedItems[] += {
         "TTT_Vest_Heavy_Green_US_Desert",
-        "TTT_Helmet_1_US_Desert" 
+        "TTT_Helmet_1_US_Desert"
     };
-    respawnLinkedItems[] += { 
+    respawnLinkedItems[] += {
         "TTT_Vest_Heavy_Green_US_Desert",
-        "TTT_Helmet_1_US_Desert" 
+        "TTT_Helmet_1_US_Desert"
     };
 };
 
@@ -485,13 +485,13 @@ class TTT_Green_2_US_Desert : TTT_Operator_Radio_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_green_us_desert.paa" };
     items[] += { ITEMS_GREEN };
     respawnitems[] += { ITEMS_GREEN };
-    linkedItems[] += { 
+    linkedItems[] += {
         "TTT_Vest_Heavy_Green_US_Desert",
         "TTT_Helmet_2_US_Desert"
     };
-    respawnLinkedItems[] += { 
+    respawnLinkedItems[] += {
         "TTT_Vest_Heavy_Green_US_Desert",
-        "TTT_Helmet_2_US_Desert" 
+        "TTT_Helmet_2_US_Desert"
     };
 };
 
@@ -506,12 +506,12 @@ class TTT_Green_3_US_Desert : TTT_Medic_Combat_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_green_us_desert.paa" };
     items[] += { ITEMS_GREEN };
     respawnitems[] += { ITEMS_GREEN };
-    linkedItems[] += { 
+    linkedItems[] += {
         "TTT_Vest_Lite_Green_US_Desert",
-        "TTT_Helmet_3_US_Desert" 
+        "TTT_Helmet_3_US_Desert"
     };
     respawnLinkedItems[] += {
-        "TTT_Vest_Lite_Green_US_Desert", 
+        "TTT_Vest_Lite_Green_US_Desert",
         "TTT_Helmet_3_US_Desert"
     };
 };
@@ -527,13 +527,13 @@ class TTT_Green_4_US_Desert : TTT_Medic_Combat_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_green_us_desert.paa" };
     items[] += { ITEMS_GREEN };
     respawnitems[] += { ITEMS_GREEN };
-    linkedItems[] += { 
-        "TTT_Vest_Lite_Green_US_Desert", 
-        "TTT_Helmet_4_US_Desert" 
+    linkedItems[] += {
+        "TTT_Vest_Lite_Green_US_Desert",
+        "TTT_Helmet_4_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Lite_Green_US_Desert", 
-        "TTT_Helmet_4_US_Desert" 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Lite_Green_US_Desert",
+        "TTT_Helmet_4_US_Desert"
     };
 };
 
@@ -554,13 +554,13 @@ class TTT_Brown_1_US_Desert : TTT_Teamleader_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_brown_us_desert.paa" };
     items[] += { ITEMS_BRAUN };
     respawnitems[] += { ITEMS_BRAUN };
-    linkedItems[] += { 
+    linkedItems[] += {
         "TTT_Vest_Heavy_Brown_US_Desert",
-        "TTT_Helmet_1_US_Desert" 
+        "TTT_Helmet_1_US_Desert"
     };
-    respawnLinkedItems[] += { 
+    respawnLinkedItems[] += {
         "TTT_Vest_Heavy_Brown_US_Desert",
-        "TTT_Helmet_1_US_Desert" 
+        "TTT_Helmet_1_US_Desert"
     };
 };
 
@@ -575,13 +575,13 @@ class TTT_Brown_2_US_Desert : TTT_Operator_Radio_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_brown_us_desert.paa" };
     items[] += { ITEMS_BRAUN };
     respawnitems[] += { ITEMS_BRAUN };
-    linkedItems[] += { 
-        "TTT_Vest_Heavy_Brown_US_Desert", 
-        "TTT_Helmet_2_US_Desert" 
+    linkedItems[] += {
+        "TTT_Vest_Heavy_Brown_US_Desert",
+        "TTT_Helmet_2_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Heavy_Brown_US_Desert", 
-        "TTT_Helmet_2_US_Desert" 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Heavy_Brown_US_Desert",
+        "TTT_Helmet_2_US_Desert"
     };
 };
 
@@ -596,13 +596,13 @@ class TTT_Brown_3_US_Desert : TTT_Medic_Combat_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_brown_us_desert.paa" };
     items[] += { ITEMS_BRAUN };
     respawnitems[] += { ITEMS_BRAUN };
-    linkedItems[] += { 
-        "TTT_Vest_Lite_Brown_US_Desert", 
-        "TTT_Helmet_3_US_Desert" 
+    linkedItems[] += {
+        "TTT_Vest_Lite_Brown_US_Desert",
+        "TTT_Helmet_3_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Lite_Brown_US_Desert", 
-        "TTT_Helmet_3_US_Desert" 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Lite_Brown_US_Desert",
+        "TTT_Helmet_3_US_Desert"
     };
 };
 
@@ -623,13 +623,13 @@ class TTT_Black_1_US_Desert : TTT_Teamleader_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { ITEMS_SCHWARZ };
     respawnitems[] += { ITEMS_SCHWARZ };
-    linkedItems[] += { 
-        "TTT_Vest_Heavy_Black_US_Desert", 
-        "TTT_Helmet_1_US_Desert" 
+    linkedItems[] += {
+        "TTT_Vest_Heavy_Black_US_Desert",
+        "TTT_Helmet_1_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Heavy_Black_US_Desert", 
-        "TTT_Helmet_1_US_Desert" 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Heavy_Black_US_Desert",
+        "TTT_Helmet_1_US_Desert"
     };
 };
 
@@ -644,13 +644,13 @@ class TTT_Black_2_US_Desert : TTT_Grenadier_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { ITEMS_SCHWARZ };
     respawnitems[] += { ITEMS_SCHWARZ };
-    linkedItems[] += { 
-        "TTT_Vest_Lite_Black_US_Desert", 
-        "TTT_Helmet_2_US_Desert" 
+    linkedItems[] += {
+        "TTT_Vest_Lite_Black_US_Desert",
+        "TTT_Helmet_2_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Lite_Black_US_Desert", 
-        "TTT_Helmet_2_US_Desert" 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Lite_Black_US_Desert",
+        "TTT_Helmet_2_US_Desert"
     };
 };
 
@@ -665,13 +665,13 @@ class TTT_Black_3_US_Desert : TTT_Soldier_LMG_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { ITEMS_SCHWARZ };
     respawnitems[] += { ITEMS_SCHWARZ };
-    linkedItems[] += { 
-        "TTT_Vest_Lite_Black_US_Desert", 
-        "TTT_Helmet_3_US_Desert" 
+    linkedItems[] += {
+        "TTT_Vest_Lite_Black_US_Desert",
+        "TTT_Helmet_3_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Lite_Black_US_Desert", 
-        "TTT_Helmet_3_US_Desert" 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Lite_Black_US_Desert",
+        "TTT_Helmet_3_US_Desert"
     };
 };
 
@@ -686,13 +686,13 @@ class TTT_Black_4_US_Desert : TTT_Soldier_AT_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { ITEMS_SCHWARZ };
     respawnitems[] += { ITEMS_SCHWARZ };
-    linkedItems[] += { 
-        "TTT_Vest_Lite_Black_US_Desert", 
-        "TTT_Helmet_4_US_Desert" 
+    linkedItems[] += {
+        "TTT_Vest_Lite_Black_US_Desert",
+        "TTT_Helmet_4_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Lite_Black_US_Desert", 
-        "TTT_Helmet_4_US_Desert" 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Lite_Black_US_Desert",
+        "TTT_Helmet_4_US_Desert"
     };
 };
 
@@ -707,13 +707,13 @@ class TTT_Black_5_US_Desert : TTT_Soldier_LMG_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { ITEMS_SCHWARZ };
     respawnitems[] += { ITEMS_SCHWARZ };
-    linkedItems[] += { 
-        "TTT_Vest_Lite_Black_US_Desert", 
-        "TTT_Helmet_5_US_Desert" 
+    linkedItems[] += {
+        "TTT_Vest_Lite_Black_US_Desert",
+        "TTT_Helmet_5_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Lite_Black_US_Desert", 
-        "TTT_Helmet_5_US_Desert" 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Lite_Black_US_Desert",
+        "TTT_Helmet_5_US_Desert"
     };
 };
 
@@ -729,13 +729,13 @@ class TTT_Black_6_US_Desert : TTT_Soldier_AT_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { ITEMS_SCHWARZ };
     respawnitems[] += { ITEMS_SCHWARZ };
-    linkedItems[] += { 
-        "TTT_Vest_Lite_Black_US_Desert", 
-        "TTT_Helmet_6_US_Desert" 
+    linkedItems[] += {
+        "TTT_Vest_Lite_Black_US_Desert",
+        "TTT_Helmet_6_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Lite_Black_US_Desert", 
-        "TTT_Helmet_6_US_Desert" 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Lite_Black_US_Desert",
+        "TTT_Helmet_6_US_Desert"
     };
 };
 
@@ -756,13 +756,13 @@ class TTT_Red_1_US_Desert : TTT_Teamleader_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
     items[] += { ITEMS_ROT };
     respawnitems[] += { ITEMS_ROT };
-    linkedItems[] += { 
-        "TTT_Vest_Heavy_Red_US_Desert", 
-        "TTT_Helmet_1_US_Desert" 
+    linkedItems[] += {
+        "TTT_Vest_Heavy_Red_US_Desert",
+        "TTT_Helmet_1_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Heavy_Red_US_Desert", 
-        "TTT_Helmet_1_US_Desert" 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Heavy_Red_US_Desert",
+        "TTT_Helmet_1_US_Desert"
     };
 };
 
@@ -777,13 +777,13 @@ class TTT_Red_2_US_Desert : TTT_Grenadier_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
     items[] += { ITEMS_ROT };
     respawnitems[] += { ITEMS_ROT };
-    linkedItems[] += { 
-        "TTT_Vest_Lite_Red_US_Desert", 
-        "TTT_Helmet_2_US_Desert" 
+    linkedItems[] += {
+        "TTT_Vest_Lite_Red_US_Desert",
+        "TTT_Helmet_2_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Lite_Red_US_Desert", 
-        "TTT_Helmet_2_US_Desert" 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Lite_Red_US_Desert",
+        "TTT_Helmet_2_US_Desert"
     };
 };
 
@@ -798,13 +798,13 @@ class TTT_Red_3_US_Desert : TTT_Soldier_LMG_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
     items[] += { ITEMS_ROT };
     respawnitems[] += { ITEMS_ROT };
-    linkedItems[] += { 
-        "TTT_Vest_Lite_Red_US_Desert", 
-        "TTT_Helmet_3_US_Desert" 
+    linkedItems[] += {
+        "TTT_Vest_Lite_Red_US_Desert",
+        "TTT_Helmet_3_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Lite_Red_US_Desert", 
-        "TTT_Helmet_3_US_Desert" 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Lite_Red_US_Desert",
+        "TTT_Helmet_3_US_Desert"
     };
 };
 
@@ -819,13 +819,13 @@ class TTT_Red_4_US_Desert : TTT_Soldier_AT_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
     items[] += { ITEMS_ROT };
     respawnitems[] += { ITEMS_ROT };
-    linkedItems[] += { 
-        "TTT_Vest_Lite_Red_US_Desert", 
-        "TTT_Helmet_4_US_Desert" 
+    linkedItems[] += {
+        "TTT_Vest_Lite_Red_US_Desert",
+        "TTT_Helmet_4_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Lite_Red_US_Desert", 
-        "TTT_Helmet_4_US_Desert" 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Lite_Red_US_Desert",
+        "TTT_Helmet_4_US_Desert"
     };
 };
 
@@ -840,13 +840,13 @@ class TTT_Red_5_US_Desert : TTT_Soldier_LMG_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
     items[] += { ITEMS_ROT };
     respawnitems[] += { ITEMS_ROT };
-    linkedItems[] += { 
-        "TTT_Vest_Lite_Red_US_Desert", 
-        "TTT_Helmet_5_US_Desert" 
+    linkedItems[] += {
+        "TTT_Vest_Lite_Red_US_Desert",
+        "TTT_Helmet_5_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Lite_Red_US_Desert", 
-        "TTT_Helmet_5_US_Desert" 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Lite_Red_US_Desert",
+        "TTT_Helmet_5_US_Desert"
     };
 };
 
@@ -861,13 +861,13 @@ class TTT_Red_6_US_Desert : TTT_Soldier_AT_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
     items[] += { ITEMS_ROT };
     respawnitems[] += { ITEMS_ROT };
-    linkedItems[] += { 
-        "TTT_Vest_Lite_Red_US_Desert", 
-        "TTT_Helmet_6_US_Desert" 
+    linkedItems[] += {
+        "TTT_Vest_Lite_Red_US_Desert",
+        "TTT_Helmet_6_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Lite_Red_US_Desert", 
-        "TTT_Helmet_6_US_Desert" 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Lite_Red_US_Desert",
+        "TTT_Helmet_6_US_Desert"
     };
 };
 
@@ -890,18 +890,18 @@ class TTT_Bronze_1_US_Desert : TTT_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_bronx_us_desert.paa" };
     items[] += {
         ITEMS_BRONZE,
-        "ACE_microDAGR" 
+        "ACE_microDAGR"
     };
     respawnItems[] += {
         ITEMS_BRONZE,
-        "ACE_microDAGR" 
+        "ACE_microDAGR"
     };
-    linkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    linkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "BWA3_CrewmanKSK_Tropen_Headset"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "BWA3_CrewmanKSK_Tropen_Headset"
     };
     weapons[] += { WEAPON_US_PRIMARY_LIGHT, WEAPON_RANGEFINDER };
@@ -920,12 +920,12 @@ class TTT_Bronze_2_US_Desert : TTT_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_bronx_us_desert.paa" };
     items[] += { ITEMS_BRONZE };
     respawnitems[] += { ITEMS_BRONZE };
-    linkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    linkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "BWA3_CrewmanKSK_Tropen_Headset"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "BWA3_CrewmanKSK_Tropen_Headset"
     };
     weapons[] += { WEAPON_US_PRIMARY_LIGHT, WEAPON_BINOCULAR };
@@ -944,12 +944,12 @@ class TTT_Bronze_3_US_Desert : TTT_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_bronx_us_desert.paa" };
     items[] += { ITEMS_BRONZE };
     respawnitems[] += { ITEMS_BRONZE };
-    linkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    linkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "BWA3_CrewmanKSK_Tropen_Headset"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "BWA3_CrewmanKSK_Tropen_Headset"
     };
     weapons[] += { WEAPON_US_PRIMARY_LIGHT, WEAPON_BINOCULAR };
@@ -969,18 +969,18 @@ class TTT_Bronze_4_US_Desert : TTT_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_bronx_us_desert.paa" };
     items[] += {
         ITEMS_BRONZE,
-        "ACE_microDAGR" 
+        "ACE_microDAGR"
     };
     respawnItems[] += {
         ITEMS_BRONZE,
-        "ACE_microDAGR" 
+        "ACE_microDAGR"
     };
-    linkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    linkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "BWA3_CrewmanKSK_Tropen_Headset"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "BWA3_CrewmanKSK_Tropen_Headset"
     };
     weapons[] += { WEAPON_US_PRIMARY_LIGHT, WEAPON_RANGEFINDER };
@@ -999,12 +999,12 @@ class TTT_Bronze_5_US_Desert : TTT_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_bronx_us_desert.paa" };
     items[] += { ITEMS_BRONZE };
     respawnitems[] += { ITEMS_BRONZE };
-    linkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    linkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "BWA3_CrewmanKSK_Tropen_Headset"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "BWA3_CrewmanKSK_Tropen_Headset"
     };
     weapons[] += { WEAPON_US_PRIMARY_LIGHT, WEAPON_BINOCULAR };
@@ -1023,12 +1023,12 @@ class TTT_Bronze_6_US_Desert : TTT_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_bronx_us_desert.paa" };
     items[] += { ITEMS_BRONZE };
     respawnitems[] += { ITEMS_BRONZE };
-    linkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    linkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "BWA3_CrewmanKSK_Tropen_Headset"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "BWA3_CrewmanKSK_Tropen_Headset"
     };
     weapons[] += { WEAPON_US_PRIMARY_LIGHT, WEAPON_BINOCULAR };
@@ -1313,7 +1313,7 @@ class TTT_Orange_1_US_Desert : TTT_Teamleader_Base_US {
     displayName = "Orange 1 (Truppfuehrer)";
     vehicleClass = "TTT_Orange_US_Desert";
     uniformClass = "TTT_Uniform_Orange_US_Desert";
-	editorSubcategory = "EdSubcat_Unit_Camo_Desert";
+    editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_orange_us_desert.paa" };
     items[] += { ITEMS_VIOLETT };
     linkedItems[] += {
@@ -1323,8 +1323,8 @@ class TTT_Orange_1_US_Desert : TTT_Teamleader_Base_US {
     respawnLinkedItems[] += {
         "TTT_Vest_Heavy_Orange_US_Desert",
         "TTT_Helmet_1_US_Desert"
-    };   
-};  
+    };
+};
 
 /*
 #############################################################
@@ -1446,12 +1446,12 @@ class TTT_Platinum_1_US_Desert : TTT_Pilot_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_PLATIN };
     respawnitems[] += { ITEMS_PLATIN };
-    linkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    linkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "TTT_Helmet_Eagle"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "TTT_Helmet_Eagle"
     };
 };
@@ -1467,12 +1467,12 @@ class TTT_Platinum_2_US_Desert : TTT_Pilot_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_PLATIN };
     respawnitems[] += { ITEMS_PLATIN };
-    linkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    linkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "TTT_Helmet_Eagle"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "TTT_Helmet_Eagle"
     };
 };
@@ -1496,12 +1496,12 @@ class TTT_Silver_1_US_Desert : TTT_Pilot_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_SILBER };
     respawnitems[] += { ITEMS_SILBER };
-    linkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    linkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "TTT_Helmet_1_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "TTT_Helmet_1_US_Desert"
     };
 };
@@ -1518,12 +1518,12 @@ class TTT_Silver_2_US_Desert : TTT_Pilot_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_SILBER };
     respawnitems[] += { ITEMS_SILBER };
-    linkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    linkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "TTT_Helmet_2_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "TTT_Helmet_2_US_Desert"
     };
 };
@@ -1540,12 +1540,12 @@ class TTT_Silver_3_US_Desert : TTT_Pilot_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_SILBER };
     respawnitems[] += { ITEMS_SILBER };
-    linkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    linkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "TTT_Helmet_3_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "TTT_Helmet_3_US_Desert"
     };
 };
@@ -1562,12 +1562,12 @@ class TTT_Silver_4_US_Desert : TTT_Pilot_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_SILBER };
     respawnitems[] += { ITEMS_SILBER };
-    linkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    linkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "TTT_Helmet_4_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "TTT_Helmet_4_US_Desert"
     };
 };
@@ -1584,12 +1584,12 @@ class TTT_Silver_5_US_Desert : TTT_Pilot_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_SILBER };
     respawnitems[] += { ITEMS_SILBER };
-    linkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    linkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "TTT_Helmet_5_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "TTT_Helmet_5_US_Desert"
     };
 };
@@ -1606,12 +1606,12 @@ class TTT_Silver_6_US_Desert : TTT_Pilot_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_SILBER };
     respawnitems[] += { ITEMS_SILBER };
-    linkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    linkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "TTT_Helmet_6_US_Desert"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
         "TTT_Helmet_6_US_Desert"
     };
 };
@@ -1634,13 +1634,13 @@ class TTT_Buzzard_1_US_Desert : TTT_Pilot_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_BUSSARD };
     respawnitems[] += { ITEMS_BUSSARD };
-    linkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
-        "TTT_Helmet_Buzzard" 
+    linkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
+        "TTT_Helmet_Buzzard"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
-        "TTT_Helmet_Buzzard" 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
+        "TTT_Helmet_Buzzard"
     };
 };
 
@@ -1656,13 +1656,13 @@ class TTT_Buzzard_2_US_Desert : TTT_Pilot_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_BUSSARD };
     respawnitems[] += { ITEMS_BUSSARD };
-    linkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
-        "TTT_Helmet_Buzzard" 
+    linkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
+        "TTT_Helmet_Buzzard"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
-        "TTT_Helmet_Buzzard" 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
+        "TTT_Helmet_Buzzard"
     };
 };
 
@@ -1684,13 +1684,13 @@ class TTT_Hawk_1_US_Desert : TTT_Pilot_Base_US {
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_HABICHT };
     respawnitems[] += { ITEMS_HABICHT };
-    linkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
-        "TTT_Helmet_Hawk" 
+    linkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
+        "TTT_Helmet_Hawk"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
-        "TTT_Helmet_Hawk" 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
+        "TTT_Helmet_Hawk"
     };
 };
 
@@ -1703,16 +1703,16 @@ class TTT_Hawk_2_US_Desert : TTT_Pilot_Base_US {
     displayName = "Habicht 2 (Copilot)";
     vehicleClass = "TTT_Habicht_US_Desert";
     uniformClass = "TTT_Uniform_Silver_US_Desert";
-    editorSubcategory = "EdSubcat_Unit_Camo_Desert";    
+    editorSubcategory = "EdSubcat_Unit_Camo_Desert";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_HABICHT };
     respawnitems[] += { ITEMS_HABICHT };
-    linkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
-        "TTT_Helmet_Hawk" 
+    linkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
+        "TTT_Helmet_Hawk"
     };
-    respawnLinkedItems[] += { 
-        "TTT_Vest_Crew_US_Desert", 
-        "TTT_Helmet_Hawk" 
+    respawnLinkedItems[] += {
+        "TTT_Vest_Crew_US_Desert",
+        "TTT_Helmet_Hawk"
     };
-};  
+};

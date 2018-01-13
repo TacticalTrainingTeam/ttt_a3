@@ -29,7 +29,7 @@
 #define ITEMS_US_DEFAULT "rhsusf_acc_eotech_552"
 #define ITEMS_SNIPER "ACE_Kestrel4500", "ACE_ATragMX", "ACE_RangeCard"
 
-#define LINKED_ITEMS_DEFAULT "BWA3_G_Combat_Clear", "ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152" 
+#define LINKED_ITEMS_DEFAULT "BWA3_G_Combat_Clear", "ItemMap", "ItemCompass", "ItemWatch", "TFAR_anprc152"
 
 #define WEAPON_BINOCULAR "Binocular"
 #define WEAPON_RANGEFINDER "ACE_Yardage450"
@@ -79,12 +79,12 @@
 #define WEAPON_US_SNIPER "srifle_LRR_LRPS_F"
 #define WEAPON_US_SNIPER_MAGAZINES "7Rnd_408_Mag"
 
-/// Backpack Stuff ///		
+/// Backpack Stuff ///
 #define TRANSPORT_ITEMS_MEDIC_STUFF \
-	ITEM_XX(ACE_fieldDressing,9)\
-	ITEM_XX(ACE_packingBandage,3)\
-	ITEM_XX(ACE_tourniquet,2)
-    
+    ITEM_XX(ACE_fieldDressing,9)\
+    ITEM_XX(ACE_packingBandage,3)\
+    ITEM_XX(ACE_tourniquet,2)
+
 // TF
 #define TRANSPORT_ITEMS_TF \
     ITEM_XX(ACE_GD300_b,1) \
@@ -92,7 +92,7 @@
 #define TRANSPORT_MAGAZINES_TF \
     MAG_XX(1Rnd_Smoke_Grenade_shell,6) \
     MAG_XX(1Rnd_SmokeRed_Grenade_shell,6)
-  
+
 // GL
 #define TRANSPORT_ITEMS_GL
 #define TRANSPORT_MAGAZINES_GL \
@@ -128,9 +128,9 @@
 
 // Engineer
 #define TRANSPORT_ITEMS_ENGINEER \
-	ITEM_XX(ACE_VMH3,1)\
-	ITEM_XX(ACE_DefusalKit,1)\
-	ITEM_XX(ACE_M26_Clacker,1)
+    ITEM_XX(ACE_VMH3,1)\
+    ITEM_XX(ACE_DefusalKit,1)\
+    ITEM_XX(ACE_M26_Clacker,1)
 #define TRANSPORT_MAGAZINES_ENGINEER \
     MAG_XX(SLAMDirectionalMine_Wire_Mag,2) \
     MAG_XX(DemoCharge_Remote_Mag,2)
@@ -171,7 +171,7 @@
 // OPL
 #define TRANSPORT_ITEMS_CO \
     ITEM_XX(ACE_DK10_b,1)
-    
+
 /// Group Stuff ///
 #define ITEMS_GELB BERETS(Gelb)
 #define ITEMS_GRAU BERETS(Grau), WEAPON_US_SPECIAL_ACCESSORY
@@ -190,7 +190,7 @@
 #define ITEMS_ADLER BERETS(Platin)
 #define ITEMS_BUSSARD BERETS(Silber)
 #define ITEMS_HABICHT BERETS(Silber)
-	
+
 /// Vest Config ///
 #define get_vest(army,group,kind,camo) get_str(append_dummy(append_dummy(append_dummy(append_dummy(append_dummy(append_dummy(append_dummy(TTT_Vest_)kind)_)group)_)army)_)camo)
 

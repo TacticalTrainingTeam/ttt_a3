@@ -1,19 +1,19 @@
-
 /*
 #############################################################
 ### Helme
 #############################################################
 */
+
 class TTT_Helmet_Base : H_HelmetSpecB {
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light.p3d";
     picture = "\A3\Characters_F\Data\UI\icon_H_HelmetB_CA.paa";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\data\TTT_helmet_1_bw_tropentarn.paa" };
     scope = 0;
-	
+
     class ItemInfo : ItemInfo {
         hiddenSelections[] = { "camo" };
         uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light.p3d";
-		allowedSlots[] = {605,701,901}; 
+        allowedSlots[] = {605,701,901};
     };
 };
 
@@ -63,43 +63,43 @@ class TTT_Helmet_Eagle : TTT_Helmet_Base {
 
 class TTT_Helmet1_Vehiclecrew : BWA3_CrewmanKSK_Tropen_Headset {
     scope = 2;
-	author = "$STR_Tactical_Training_Team";
-	displayName = "$STR_TTT_Weapons_Helmet_Veh_I";
+    author = "$STR_Tactical_Training_Team";
+    displayName = "$STR_TTT_Weapons_Helmet_Veh_I";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\data\TTT_helmet_1_vehiclecrew.paa" };
 };
 
 class TTT_Helmet2_Vehiclecrew : BWA3_CrewmanKSK_Tropen_Headset {
     scope = 2;
-	author = "$STR_Tactical_Training_Team";
-	displayName = "$STR_TTT_Weapons_Helmet_Veh_II";
+    author = "$STR_Tactical_Training_Team";
+    displayName = "$STR_TTT_Weapons_Helmet_Veh_II";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\data\TTT_helmet_2_vehiclecrew.paa" };
 };
 
 class TTT_Helmet3_Vehiclecrew : BWA3_CrewmanKSK_Tropen_Headset {
     scope = 2;
-	author = "$STR_Tactical_Training_Team";
-	displayName = "$STR_TTT_Weapons_Helmet_Veh_III";
+    author = "$STR_Tactical_Training_Team";
+    displayName = "$STR_TTT_Weapons_Helmet_Veh_III";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\data\TTT_helmet_3_vehiclecrew.paa" };
 };
 
 class TTT_Helmet4_Vehiclecrew : BWA3_CrewmanKSK_Tropen_Headset {
     scope = 2;
-	author = "$STR_Tactical_Training_Team";
-	displayName = "$STR_TTT_Weapons_Helmet_Veh_IV";
+    author = "$STR_Tactical_Training_Team";
+    displayName = "$STR_TTT_Weapons_Helmet_Veh_IV";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\data\TTT_helmet_4_vehiclecrew.paa" };
 };
 
 class TTT_Helmet5_Vehiclecrew : BWA3_CrewmanKSK_Tropen_Headset {
     scope = 2;
-	author = "$STR_Tactical_Training_Team";
-	displayName = "$STR_TTT_Weapons_Helmet_Veh_V";
+    author = "$STR_Tactical_Training_Team";
+    displayName = "$STR_TTT_Weapons_Helmet_Veh_V";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\data\TTT_helmet_5_vehiclecrew.paa" };
 };
 
 class TTT_Helmet6_Vehiclecrew : BWA3_CrewmanKSK_Tropen_Headset {
     scope = 2;
-	author = "$STR_Tactical_Training_Team";
-	displayName = "$STR_TTT_Weapons_Helmet_Veh_VI";
+    author = "$STR_Tactical_Training_Team";
+    displayName = "$STR_TTT_Weapons_Helmet_Veh_VI";
     hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_base\data\TTT_helmet_6_vehiclecrew.paa" };
 };
 
