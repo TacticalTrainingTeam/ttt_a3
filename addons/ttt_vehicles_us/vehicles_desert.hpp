@@ -66,7 +66,7 @@ class TTT_LUV_COM_US_Desert : rhsusf_m998_d_4dr_fulltop {
         "rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_d_co.paa",
         "rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_d_co.paa",
         "rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa",
-        "ttt_a3\ttt_vehicles_us\data\oplfahrzeug_unitdecals.paa",
+        "ttt_a3\addons\ttt_vehicles_us\data\oplfahrzeug_unitdecals.paa",
         "rhsusf\addons\rhsusf_hmmwv\unitdecals\a12^_co.paa"};
     crew = "TTT_Yellow_1_US_Desert";
     displayName = "$STR_TTT_LUV_COM_US_Desert";
@@ -216,7 +216,7 @@ class TTT_AH_US_Desert : RHS_AH64D {
     hiddenSelectionsTextures[] = {
         "\rhsusf\addons\rhsusf_a2port_air\ah64\data\ah64d_body_co.paa",
         "\rhsusf\addons\rhsusf_a2port_air\ah64\data\ah64d_details_co.paa",
-        "\ttt_a3\ttt_vehicles_us\data\kampfhelikopter_camo3.paa"};
+        "\ttt_a3\addons\ttt_vehicles_us\data\kampfhelikopter_camo3.paa"};
     crew = "TTT_Silver_1_US_Desert";
     displayName = "TTT Kampfhelikopter (US Desert)";
     typicalCargo[] = {};
@@ -250,7 +250,7 @@ class TTT_MTA_SAR_US_Desert : RHS_UH60M {
     typicalCargo[] = {};
     hiddenSelectionsTextures[] = {
     "rhsusf\addons\rhsusf_a2port_air\uh60m\data\uh60m_fuselage_co.paa",
-    "\ttt_a3\ttt_vehicles_us\data\medivac_engine_co.paa",
+    "\ttt_a3\addons\ttt_vehicles_us\data\medivac_engine_co.paa",
     "rhsusf\addons\rhsusf_a2port_air\uh60m\data\default_co.paa",
     "rhsusf\addons\rhsusf_a2port_air\uh60m\data\uh60m_dust_filter_co.paa"};
     class TransportWeapons {
@@ -286,8 +286,8 @@ class TTT_MTA_Heavy_US_Desert : RHS_CH_47F {
     vehicleClass = "TTT_Vehicles_US";
     hiddenSelectionsTextures[] = {
         "rhsusf\addons\rhsusf_a2port_air\ch47\data\ch47_ext_1_light_co.paa",
-        "\ttt_a3\ttt_vehicles_us\data\logheli_desert_camo2.paa",
-        "\ttt_a3\ttt_vehicles_us\data\logheli_camo3.paa",
+        "\ttt_a3\addons\ttt_vehicles_us\data\logheli_desert_camo2.paa",
+        "\ttt_a3\addons\ttt_vehicles_us\data\logheli_camo3.paa",
         "rhsusf\addons\rhsusf_a2port_air\ch47\data\ch47_ext_light_mlod_co.paa"};
     crew = "TTT_Buzzard_1_US_Desert";
     displayName = "TTT Logistikhelikopter (US Desert)";

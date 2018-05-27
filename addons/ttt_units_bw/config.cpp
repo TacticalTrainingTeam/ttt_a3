@@ -1,4 +1,4 @@
-#include "\ttt_a3\ttt_main\macros.hpp"
+#include "\ttt_a3\addons\ttt_main\macros.hpp"
 
 class CfgPatches {
     class TTT_Units_BW {
@@ -262,8 +262,8 @@ class CfgPatches {
 };
 
 class CfgVehicleClasses {
-    #include "\ttt_a3\ttt_units_bw\vehicleClasses_tropentarn.hpp"
-    #include "\ttt_a3\ttt_units_bw\vehicleClasses_flecktarn.hpp"
+    #include "\ttt_a3\addons\ttt_units_bw\vehicleClasses_tropentarn.hpp"
+    #include "\ttt_a3\addons\ttt_units_bw\vehicleClasses_flecktarn.hpp"
 
     /*
     #############################################################
@@ -292,21 +292,21 @@ class CfgGroups {
     class West {
         class TTT_Groups_BW {
             name = "$STR_TTT_Faction_BW";
-            #include "\ttt_a3\ttt_units_bw\groups_tropentarn.hpp"
-            #include "\ttt_a3\ttt_units_bw\groups_flecktarn.hpp"
+            #include "\ttt_a3\addons\ttt_units_bw\groups_tropentarn.hpp"
+            #include "\ttt_a3\addons\ttt_units_bw\groups_flecktarn.hpp"
         };
     };
 };
 
 class CfgWeapons {
     class UniformBase;
-    class U_B_CombatUniform_mcam : UniformBase{ class ItemInfo; };  // External class reference
+    class U_B_CombatUniform_mcam_worn : UniformBase{ class ItemInfo; };  // External class reference
     class TTT_Helmet_Base;
 
-    class TTT_Uniform_Base_BW : U_B_CombatUniform_mcam {
+    class TTT_Uniform_Base_BW : U_B_CombatUniform_mcam_worn {
             scope = 0;
             displayName = "$STR_TTT_Uniform_Base_BW";
-            picture = "\ttt_a3\ttt_units_base\data\TTT_uniform_icon_bw.paa";
+            picture = "\ttt_a3\addons\ttt_units_base\data\TTT_uniform_icon_bw.paa";
             model = "\A3\characters_f\Common\Suitpacks\suitpack_universal_F";
 
             class ItemInfo : ItemInfo
@@ -315,8 +315,8 @@ class CfgWeapons {
                 containerClass = "Supply60";
             };
         };
-    #include "\ttt_a3\ttt_units_bw\weapons_tropentarn.hpp"
-    #include "\ttt_a3\ttt_units_bw\weapons_flecktarn.hpp"
+    #include "\ttt_a3\addons\ttt_units_bw\weapons_tropentarn.hpp"
+    #include "\ttt_a3\addons\ttt_units_bw\weapons_flecktarn.hpp"
 };
 
 class CfgVehicles {
@@ -341,11 +341,11 @@ class CfgVehicles {
     class B_supplyCrate_F;
     class TFAR_rt1523g_big_bwmod_tropen;    // External class reference
 
-    #include "\ttt_a3\ttt_units_bw\units_base_class.hpp"
-    #include "\ttt_a3\ttt_units_bw\vehicles_tropentarn.hpp"
-    #include "\ttt_a3\ttt_units_bw\backpacks_tropentarn.hpp"
-    #include "\ttt_a3\ttt_units_bw\vehicles_flecktarn.hpp"
-    #include "\ttt_a3\ttt_units_bw\backpacks_flecktarn.hpp"
-    #include "\ttt_a3\ttt_units_bw\crates_bw.hpp"
+    #include "\ttt_a3\addons\ttt_units_bw\units_base_class.hpp"
+    #include "\ttt_a3\addons\ttt_units_bw\vehicles_tropentarn.hpp"
+    #include "\ttt_a3\addons\ttt_units_bw\backpacks_tropentarn.hpp"
+    #include "\ttt_a3\addons\ttt_units_bw\vehicles_flecktarn.hpp"
+    #include "\ttt_a3\addons\ttt_units_bw\backpacks_flecktarn.hpp"
+    #include "\ttt_a3\addons\ttt_units_bw\crates_bw.hpp"
 };
 

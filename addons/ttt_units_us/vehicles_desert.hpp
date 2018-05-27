@@ -13,7 +13,7 @@ class TTT_Yellow_1_US_Desert : TTT_Teamleader_Base_US {
     vehicleClass = "TTT_Gelb_US_Desert";
     uniformClass = "TTT_Uniform_Yellow_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_yellow_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_yellow_us_desert.paa" };
     backpack = "TTT_Backpack_Commander_US_Desert";
     items[] += { ITEMS_GELB };
     respawnitems[] += { ITEMS_GELB };
@@ -37,7 +37,7 @@ class TTT_Yellow_2_US_Desert : TTT_Operator_Radio_Base_US {
     vehicleClass = "TTT_Gelb_US_Desert";
     uniformClass = "TTT_Uniform_Yellow_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_yellow_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_yellow_us_desert.paa" };
     items[] += { ITEMS_GELB };
     respawnitems[] += { ITEMS_GELB };
     linkedItems[] += {
@@ -58,7 +58,7 @@ class TTT_Yellow_3_US_Desert : TTT_Operator_Radio_Base_US {
     vehicleClass = "TTT_Gelb_US_Desert";
     uniformClass = "TTT_Uniform_Yellow_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_yellow_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_yellow_us_desert.paa" };
     items[] += { ITEMS_GELB };
     respawnitems[] += { ITEMS_GELB };
     linkedItems[] += {
@@ -79,7 +79,7 @@ class TTT_Yellow_4_US_Desert : TTT_Operator_Radio_Base_US {
     vehicleClass = "TTT_Gelb_US_Desert";
     uniformClass = "TTT_Uniform_Yellow_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_yellow_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_yellow_us_desert.paa" };
     items[] += { ITEMS_GELB };
     respawnitems[] += { ITEMS_GELB };
     linkedItems[] += {
@@ -106,7 +106,7 @@ class TTT_Grey_1_US_Desert : TTT_Teamleader_Base_US {
     vehicleClass = "TTT_Grau_US_Desert";
     uniformClass = "TTT_Uniform_Grey_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_grey_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_grey_us_desert.paa" };
     items[] += { ITEMS_GRAU };
     respawnItems[] += { ITEMS_GRAU };
     linkedItems[] += {
@@ -129,7 +129,7 @@ class TTT_Grey_2_US_Desert : TTT_Operator_Radio_Base_US {
     vehicleClass = "TTT_Grau_US_Desert";
     uniformClass = "TTT_Uniform_Grey_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_grey_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_grey_us_desert.paa" };
     items[] += { ITEMS_GRAU };
     respawnItems[] += { ITEMS_GRAU };
     linkedItems[] += {
@@ -152,7 +152,7 @@ class TTT_Grey_3_US_Desert : TTT_Medic_Combat_Base_US {
     vehicleClass = "TTT_Grau_US_Desert";
     uniformClass = "TTT_Uniform_Grey_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_grey_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_grey_us_desert.paa" };
     items[] += { ITEMS_GRAU };
     respawnItems[] += { ITEMS_GRAU };
     linkedItems[] += {
@@ -175,7 +175,7 @@ class TTT_Grey_4_US_Desert : TTT_Pioneer_Base_US {
     vehicleClass = "TTT_Grau_US_Desert";
     uniformClass = "TTT_Uniform_Grey_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_grey_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_grey_us_desert.paa" };
     items[] += { ITEMS_GRAU };
     respawnItems[] += { ITEMS_GRAU };
     linkedItems[] += {
@@ -198,7 +198,7 @@ class TTT_Grey_5_US_Desert : TTT_Base_US {
     vehicleClass = "TTT_Grau_US_Desert";
     uniformClass = "TTT_Uniform_Grey_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_grey_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_grey_us_desert.paa" };
     backpack = "TTT_Backpack_Soldier_US_Desert";
     items[] += { ITEMS_GRAU };
     respawnItems[] += { ITEMS_GRAU };
@@ -222,7 +222,7 @@ class TTT_Grey_6_US_Desert : TTT_Base_US {
     vehicleClass = "TTT_Grau_US_Desert";
     uniformClass = "TTT_Uniform_Grey_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_grey_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_grey_us_desert.paa" };
     backpack = "TTT_Backpack_Soldier_US_Desert";
     items[] += { ITEMS_GRAU };
     respawnItems[] += { ITEMS_GRAU };
@@ -252,7 +252,7 @@ class TTT_Gold_1_US_Desert : TTT_Teamleader_Base_US {
     vehicleClass = "TTT_Gold_US_Desert";
     uniformClass = "TTT_Uniform_Gold_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_gold_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_gold_us_desert.paa" };
     items[] += {
         ITEMS_GOLD,
         ITEMS_SNIPER,
@@ -285,7 +285,7 @@ class TTT_Gold_2_US_Desert : TTT_Operator_Radio_Base_US {
     vehicleClass = "TTT_Gold_US_Desert";
     uniformClass = "TTT_Uniform_Gold_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_gold_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_gold_us_desert.paa" };
     items[] += {
         ITEMS_GOLD,
         WEAPON_US_PRIMARY_SILENCER,
@@ -318,7 +318,7 @@ class TTT_Gold_3_US_Desert : TTT_Operator_Radio_Base_US {
     vehicleClass = "TTT_Gold_US_Desert";
     uniformClass = "TTT_Uniform_Gold_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_gold_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_gold_us_desert.paa" };
     items[] += {
         ITEMS_GOLD,
         WEAPON_US_PRIMARY_SILENCER,
@@ -351,7 +351,7 @@ class TTT_Gold_4_US_Desert : TTT_Base_US {
     vehicleClass = "TTT_Gold_US_Desert";
     uniformClass = "TTT_Uniform_Gold_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_gold_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_gold_us_desert.paa" };
     backpack = "TTT_Backpack_Soldier_US_Desert";
     items[] += {
         ITEMS_GOLD,
@@ -391,7 +391,7 @@ class TTT_Gold_5_US_Desert : TTT_Base_US {
     vehicleClass = "TTT_Gold_US_Desert";
     uniformClass = "TTT_Uniform_Gold_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_gold_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_gold_us_desert.paa" };
     backpack = "TTT_Backpack_Soldier_US_Desert";
     items[] += {
         ITEMS_GOLD,
@@ -423,7 +423,7 @@ class TTT_Gold_6_US_Desert : TTT_Base_US {
     vehicleClass = "TTT_Gold_US_Desert";
     uniformClass = "TTT_Uniform_Gold_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_gold_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_gold_us_desert.paa" };
     backpack = "TTT_Backpack_Soldier_US_Desert";
     items[] += {
         ITEMS_GOLD,
@@ -461,7 +461,7 @@ class TTT_Green_1_US_Desert : TTT_Teamleader_Base_US {
     vehicleClass = "TTT_Gruen_US_Desert";
     uniformClass = "TTT_Uniform_Green_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_green_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_green_us_desert.paa" };
     items[] += { ITEMS_GREEN };
     respawnitems[] += { ITEMS_GREEN };
     linkedItems[] += {
@@ -482,7 +482,7 @@ class TTT_Green_2_US_Desert : TTT_Operator_Radio_Base_US {
     vehicleClass = "TTT_Gruen_US_Desert";
     uniformClass = "TTT_Uniform_Green_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_green_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_green_us_desert.paa" };
     items[] += { ITEMS_GREEN };
     respawnitems[] += { ITEMS_GREEN };
     linkedItems[] += {
@@ -503,7 +503,7 @@ class TTT_Green_3_US_Desert : TTT_Medic_Combat_Base_US {
     vehicleClass = "TTT_Gruen_US_Desert";
     uniformClass = "TTT_Uniform_Green_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_green_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_green_us_desert.paa" };
     items[] += { ITEMS_GREEN };
     respawnitems[] += { ITEMS_GREEN };
     linkedItems[] += {
@@ -524,7 +524,7 @@ class TTT_Green_4_US_Desert : TTT_Medic_Combat_Base_US {
     vehicleClass = "TTT_Gruen_US_Desert";
     uniformClass = "TTT_Uniform_Green_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_green_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_green_us_desert.paa" };
     items[] += { ITEMS_GREEN };
     respawnitems[] += { ITEMS_GREEN };
     linkedItems[] += {
@@ -551,7 +551,7 @@ class TTT_Brown_1_US_Desert : TTT_Teamleader_Base_US {
     vehicleClass = "TTT_Braun_US_Desert";
     uniformClass = "TTT_Uniform_Brown_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_brown_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_brown_us_desert.paa" };
     items[] += { ITEMS_BRAUN };
     respawnitems[] += { ITEMS_BRAUN };
     linkedItems[] += {
@@ -572,7 +572,7 @@ class TTT_Brown_2_US_Desert : TTT_Operator_Radio_Base_US {
     vehicleClass = "TTT_Braun_US_Desert";
     uniformClass = "TTT_Uniform_Brown_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_brown_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_brown_us_desert.paa" };
     items[] += { ITEMS_BRAUN };
     respawnitems[] += { ITEMS_BRAUN };
     linkedItems[] += {
@@ -593,7 +593,7 @@ class TTT_Brown_3_US_Desert : TTT_Medic_Combat_Base_US {
     vehicleClass = "TTT_Braun_US_Desert";
     uniformClass = "TTT_Uniform_Brown_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_brown_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_brown_us_desert.paa" };
     items[] += { ITEMS_BRAUN };
     respawnitems[] += { ITEMS_BRAUN };
     linkedItems[] += {
@@ -620,7 +620,7 @@ class TTT_Black_1_US_Desert : TTT_Teamleader_Base_US {
     vehicleClass = "TTT_Schwarz_US_Desert";
     uniformClass = "TTT_Uniform_Black_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { ITEMS_SCHWARZ };
     respawnitems[] += { ITEMS_SCHWARZ };
     linkedItems[] += {
@@ -641,7 +641,7 @@ class TTT_Black_2_US_Desert : TTT_Grenadier_Base_US {
     vehicleClass = "TTT_Schwarz_US_Desert";
     uniformClass = "TTT_Uniform_Black_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { ITEMS_SCHWARZ };
     respawnitems[] += { ITEMS_SCHWARZ };
     linkedItems[] += {
@@ -662,7 +662,7 @@ class TTT_Black_3_US_Desert : TTT_Soldier_LMG_Base_US {
     vehicleClass = "TTT_Schwarz_US_Desert";
     uniformClass = "TTT_Uniform_Black_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { ITEMS_SCHWARZ };
     respawnitems[] += { ITEMS_SCHWARZ };
     linkedItems[] += {
@@ -683,7 +683,7 @@ class TTT_Black_4_US_Desert : TTT_Soldier_AT_Base_US {
     vehicleClass = "TTT_Schwarz_US_Desert";
     uniformClass = "TTT_Uniform_Black_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { ITEMS_SCHWARZ };
     respawnitems[] += { ITEMS_SCHWARZ };
     linkedItems[] += {
@@ -704,7 +704,7 @@ class TTT_Black_5_US_Desert : TTT_Soldier_LMG_Base_US {
     vehicleClass = "TTT_Schwarz_US_Desert";
     uniformClass = "TTT_Uniform_Black_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { ITEMS_SCHWARZ };
     respawnitems[] += { ITEMS_SCHWARZ };
     linkedItems[] += {
@@ -726,7 +726,7 @@ class TTT_Black_6_US_Desert : TTT_Soldier_AT_Base_US {
     vehicleClass = "TTT_Schwarz_US_Desert";
     uniformClass = "TTT_Uniform_Black_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { ITEMS_SCHWARZ };
     respawnitems[] += { ITEMS_SCHWARZ };
     linkedItems[] += {
@@ -753,7 +753,7 @@ class TTT_Red_1_US_Desert : TTT_Teamleader_Base_US {
     vehicleClass = "TTT_Rot_US_Desert";
     uniformClass = "TTT_Uniform_Red_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
     items[] += { ITEMS_ROT };
     respawnitems[] += { ITEMS_ROT };
     linkedItems[] += {
@@ -774,7 +774,7 @@ class TTT_Red_2_US_Desert : TTT_Grenadier_Base_US {
     vehicleClass = "TTT_Rot_US_Desert";
     uniformClass = "TTT_Uniform_Red_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
     items[] += { ITEMS_ROT };
     respawnitems[] += { ITEMS_ROT };
     linkedItems[] += {
@@ -795,7 +795,7 @@ class TTT_Red_3_US_Desert : TTT_Soldier_LMG_Base_US {
     vehicleClass = "TTT_Rot_US_Desert";
     uniformClass = "TTT_Uniform_Red_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
     items[] += { ITEMS_ROT };
     respawnitems[] += { ITEMS_ROT };
     linkedItems[] += {
@@ -816,7 +816,7 @@ class TTT_Red_4_US_Desert : TTT_Soldier_AT_Base_US {
     vehicleClass = "TTT_Rot_US_Desert";
     uniformClass = "TTT_Uniform_Red_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
     items[] += { ITEMS_ROT };
     respawnitems[] += { ITEMS_ROT };
     linkedItems[] += {
@@ -837,7 +837,7 @@ class TTT_Red_5_US_Desert : TTT_Soldier_LMG_Base_US {
     vehicleClass = "TTT_Rot_US_Desert";
     uniformClass = "TTT_Uniform_Red_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
     items[] += { ITEMS_ROT };
     respawnitems[] += { ITEMS_ROT };
     linkedItems[] += {
@@ -858,7 +858,7 @@ class TTT_Red_6_US_Desert : TTT_Soldier_AT_Base_US {
     vehicleClass = "TTT_Rot_US_Desert";
     uniformClass = "TTT_Uniform_Red_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_red_us_desert.paa" };
     items[] += { ITEMS_ROT };
     respawnitems[] += { ITEMS_ROT };
     linkedItems[] += {
@@ -887,7 +887,7 @@ class TTT_Bronze_1_US_Desert : TTT_Base_US {
     backpack = "TTT_Backpack_Pilot_US_Desert";
     uniformClass = "TTT_Uniform_Bronze_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_bronx_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_bronx_us_desert.paa" };
     items[] += {
         ITEMS_BRONZE,
         "ACE_microDAGR"
@@ -917,7 +917,7 @@ class TTT_Bronze_2_US_Desert : TTT_Base_US {
     backpack = "TTT_Backpack_Soldier_US_Desert";
     uniformClass = "TTT_Uniform_Bronze_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_bronx_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_bronx_us_desert.paa" };
     items[] += { ITEMS_BRONZE };
     respawnitems[] += { ITEMS_BRONZE };
     linkedItems[] += {
@@ -941,7 +941,7 @@ class TTT_Bronze_3_US_Desert : TTT_Base_US {
     backpack = "TTT_Backpack_Soldier_US_Desert";
     uniformClass = "TTT_Uniform_Bronze_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_bronx_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_bronx_us_desert.paa" };
     items[] += { ITEMS_BRONZE };
     respawnitems[] += { ITEMS_BRONZE };
     linkedItems[] += {
@@ -966,7 +966,7 @@ class TTT_Bronze_4_US_Desert : TTT_Base_US {
     backpack = "TTT_Backpack_Pilot_US_Desert";
     uniformClass = "TTT_Uniform_Bronze_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_bronx_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_bronx_us_desert.paa" };
     items[] += {
         ITEMS_BRONZE,
         "ACE_microDAGR"
@@ -996,7 +996,7 @@ class TTT_Bronze_5_US_Desert : TTT_Base_US {
     backpack = "TTT_Backpack_Soldier_US_Desert";
     uniformClass = "TTT_Uniform_Bronze_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_bronx_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_bronx_us_desert.paa" };
     items[] += { ITEMS_BRONZE };
     respawnitems[] += { ITEMS_BRONZE };
     linkedItems[] += {
@@ -1020,7 +1020,7 @@ class TTT_Bronze_6_US_Desert : TTT_Base_US {
     backpack = "TTT_Backpack_Soldier_US_Desert";
     uniformClass = "TTT_Uniform_Bronze_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_bronx_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_bronx_us_desert.paa" };
     items[] += { ITEMS_BRONZE };
     respawnitems[] += { ITEMS_BRONZE };
     linkedItems[] += {
@@ -1049,7 +1049,7 @@ class TTT_Blue_1_US_Desert : TTT_Teamleader_Base_US {
     vehicleClass = "TTT_Blau_US_Desert";
     uniformClass = "TTT_Uniform_Blue_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_blue_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_blue_us_desert.paa" };
     items[] += { ITEMS_BLAU };
     respawnitems[] += { ITEMS_BLAU };
     linkedItems[] += {
@@ -1070,7 +1070,7 @@ class TTT_Blue_2_US_Desert : TTT_Grenadier_Base_US {
     vehicleClass = "TTT_Blau_US_Desert";
     uniformClass = "TTT_Uniform_Blue_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_blue_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_blue_us_desert.paa" };
     items[] += { ITEMS_BLAU };
     respawnitems[] += { ITEMS_BLAU };
     linkedItems[] += {
@@ -1091,7 +1091,7 @@ class TTT_Blue_3_US_Desert : TTT_Assistant_MG_Base_US {
     vehicleClass = "TTT_Blau_US_Desert";
     uniformClass = "TTT_Uniform_Blue_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_blue_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_blue_us_desert.paa" };
     items[] += { ITEMS_BLAU };
     respawnitems[] += { ITEMS_BLAU };
     linkedItems[] += {
@@ -1112,7 +1112,7 @@ class TTT_Blue_4_US_Desert : TTT_Soldier_MG_Base_US {
     vehicleClass = "TTT_Blau_US_Desert";
     uniformClass = "TTT_Uniform_Blue_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_blue_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_blue_us_desert.paa" };
     items[] += { ITEMS_BLAU };
     respawnitems[] += { ITEMS_BLAU };
     linkedItems[] += {
@@ -1133,7 +1133,7 @@ class TTT_Blue_5_US_Desert : TTT_Pioneer_Base_US {
     vehicleClass = "TTT_Blau_US_Desert";
     uniformClass = "TTT_Uniform_Blue_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_blue_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_blue_us_desert.paa" };
     items[] += { ITEMS_BLAU };
     respawnitems[] += { ITEMS_BLAU };
     linkedItems[] += {
@@ -1154,7 +1154,7 @@ class TTT_Blue_6_US_Desert : TTT_Pioneer_Base_US {
     vehicleClass = "TTT_Blau_US_Desert";
     uniformClass = "TTT_Uniform_Blue_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_blue_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_blue_us_desert.paa" };
     items[] += { ITEMS_BLAU };
     respawnitems[] += { ITEMS_BLAU };
     linkedItems[] += {
@@ -1181,7 +1181,7 @@ class TTT_Violet_1_US_Desert : TTT_Teamleader_Base_US {
     vehicleClass = "TTT_Violett_US_Desert";
     uniformClass = "TTT_Uniform_Violet_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_violet_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_violet_us_desert.paa" };
     items[] += { ITEMS_VIOLETT };
     respawnitems[] += { ITEMS_VIOLETT };
     linkedItems[] += {
@@ -1202,7 +1202,7 @@ class TTT_Violet_2_US_Desert : TTT_Grenadier_Base_US {
     vehicleClass = "TTT_Violett_US_Desert";
     uniformClass = "TTT_Uniform_Violet_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_violet_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_violet_us_desert.paa" };
     items[] += { ITEMS_VIOLETT };
     respawnitems[] += { ITEMS_VIOLETT };
     linkedItems[] += {
@@ -1223,7 +1223,7 @@ class TTT_Violet_3_US_Desert : TTT_Assistant_MG_Base_US {
     vehicleClass = "TTT_Violett_US_Desert";
     uniformClass = "TTT_Uniform_Violet_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_violet_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_violet_us_desert.paa" };
     items[] += { ITEMS_VIOLETT };
     respawnitems[] += { ITEMS_VIOLETT };
     linkedItems[] += {
@@ -1244,7 +1244,7 @@ class TTT_Violet_4_US_Desert : TTT_Soldier_MG_Base_US {
     vehicleClass = "TTT_Violett_US_Desert";
     uniformClass = "TTT_Uniform_Violet_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_violet_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_violet_us_desert.paa" };
     items[] += { ITEMS_VIOLETT };
     respawnitems[] += { ITEMS_VIOLETT };
     linkedItems[] += {
@@ -1265,7 +1265,7 @@ class TTT_Violet_5_US_Desert : TTT_Pioneer_Base_US {
     vehicleClass = "TTT_Violett_US_Desert";
     uniformClass = "TTT_Uniform_Violet_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_violet_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_violet_us_desert.paa" };
     items[] += { ITEMS_VIOLETT };
     respawnitems[] += { ITEMS_VIOLETT };
     linkedItems[] += {
@@ -1286,7 +1286,7 @@ class TTT_Violet_6_US_Desert : TTT_Pioneer_Base_US {
     vehicleClass = "TTT_Violett_US_Desert";
     uniformClass = "TTT_Uniform_Violet_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_violet_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_violet_us_desert.paa" };
     items[] += { ITEMS_VIOLETT };
     respawnitems[] += { ITEMS_VIOLETT };
     linkedItems[] += {
@@ -1314,7 +1314,7 @@ class TTT_Orange_1_US_Desert : TTT_Teamleader_Base_US {
     vehicleClass = "TTT_Orange_US_Desert";
     uniformClass = "TTT_Uniform_Orange_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_orange_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_orange_us_desert.paa" };
     items[] += { ITEMS_VIOLETT };
     linkedItems[] += {
         "TTT_Vest_Heavy_Orange_US_Desert",
@@ -1340,7 +1340,7 @@ class TTT_White_1_US_Desert : TTT_Medic_Doctor_Base_US {
     vehicleClass = "TTT_Weiss_US_Desert";
     uniformClass = "TTT_Uniform_White_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_white_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_white_us_desert.paa" };
     items[] += { ITEMS_WEISS };
     respawnitems[] += { ITEMS_WEISS };
     linkedItems[] += {
@@ -1361,7 +1361,7 @@ class TTT_White_2_US_Desert : TTT_Pilot_Base_US {
     vehicleClass = "TTT_Weiss_US_Desert";
     uniformClass = "TTT_Uniform_White_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_white_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_white_us_desert.paa" };
     items[] += {
         ITEMS_WEISS,
         "TTT_Helmet_Falcon"
@@ -1388,7 +1388,7 @@ class TTT_White_3_US_Desert : TTT_Medic_Doctor_Base_US {
     vehicleClass = "TTT_Weiss_US_Desert";
     uniformClass = "TTT_Uniform_White_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_white_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_white_us_desert.paa" };
     items[] += { ITEMS_WEISS };
     respawnitems[] += { ITEMS_WEISS };
     linkedItems[] += {
@@ -1409,7 +1409,7 @@ class TTT_White_4_US_Desert : TTT_Pilot_Base_US {
     vehicleClass = "TTT_Weiss_US_Desert";
     uniformClass = "TTT_Uniform_White_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_white_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_white_us_desert.paa" };
     items[] += {
         ITEMS_WEISS,
         "TTT_Helmet_Falcon"
@@ -1443,7 +1443,7 @@ class TTT_Platinum_1_US_Desert : TTT_Pilot_Base_US {
     vehicleClass = "TTT_Platin_US_Desert";
     uniformClass = "TTT_Uniform_Silver_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_PLATIN };
     respawnitems[] += { ITEMS_PLATIN };
     linkedItems[] += {
@@ -1464,7 +1464,7 @@ class TTT_Platinum_2_US_Desert : TTT_Pilot_Base_US {
     vehicleClass = "TTT_Platin_US_Desert";
     uniformClass = "TTT_Uniform_Silver_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_PLATIN };
     respawnitems[] += { ITEMS_PLATIN };
     linkedItems[] += {
@@ -1493,7 +1493,7 @@ class TTT_Silver_1_US_Desert : TTT_Pilot_Base_US {
     uniformClass = "TTT_Uniform_Silver_US_Desert";
     engineer = 1;
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_SILBER };
     respawnitems[] += { ITEMS_SILBER };
     linkedItems[] += {
@@ -1515,7 +1515,7 @@ class TTT_Silver_2_US_Desert : TTT_Pilot_Base_US {
     uniformClass = "TTT_Uniform_Silver_US_Desert";
     engineer = 1;
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_SILBER };
     respawnitems[] += { ITEMS_SILBER };
     linkedItems[] += {
@@ -1537,7 +1537,7 @@ class TTT_Silver_3_US_Desert : TTT_Pilot_Base_US {
     uniformClass = "TTT_Uniform_Silver_US_Desert";
     engineer = 1;
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_SILBER };
     respawnitems[] += { ITEMS_SILBER };
     linkedItems[] += {
@@ -1559,7 +1559,7 @@ class TTT_Silver_4_US_Desert : TTT_Pilot_Base_US {
     uniformClass = "TTT_Uniform_Silver_US_Desert";
     engineer = 1;
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_SILBER };
     respawnitems[] += { ITEMS_SILBER };
     linkedItems[] += {
@@ -1581,7 +1581,7 @@ class TTT_Silver_5_US_Desert : TTT_Pilot_Base_US {
     uniformClass = "TTT_Uniform_Silver_US_Desert";
     engineer = 1;
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_SILBER };
     respawnitems[] += { ITEMS_SILBER };
     linkedItems[] += {
@@ -1603,7 +1603,7 @@ class TTT_Silver_6_US_Desert : TTT_Pilot_Base_US {
     uniformClass = "TTT_Uniform_Silver_US_Desert";
     engineer = 1;
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_SILBER };
     respawnitems[] += { ITEMS_SILBER };
     linkedItems[] += {
@@ -1631,7 +1631,7 @@ class TTT_Buzzard_1_US_Desert : TTT_Pilot_Base_US {
     displayName = "Bussard 1 (Pilot)";
     vehicleClass = "TTT_Bussard_US_Desert";
     uniformClass = "TTT_Uniform_Silver_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_BUSSARD };
     respawnitems[] += { ITEMS_BUSSARD };
     linkedItems[] += {
@@ -1653,7 +1653,7 @@ class TTT_Buzzard_2_US_Desert : TTT_Pilot_Base_US {
     displayName = "Bussard 2 (Copilot)";
     vehicleClass = "TTT_Bussard_US_Desert";
     uniformClass = "TTT_Uniform_Silver_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_BUSSARD };
     respawnitems[] += { ITEMS_BUSSARD };
     linkedItems[] += {
@@ -1681,7 +1681,7 @@ class TTT_Hawk_1_US_Desert : TTT_Pilot_Base_US {
     displayName = "Habicht 1 (Pilot)";
     vehicleClass = "TTT_Habicht_US_Desert";
     uniformClass = "TTT_Uniform_Silver_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_HABICHT };
     respawnitems[] += { ITEMS_HABICHT };
     linkedItems[] += {
@@ -1704,7 +1704,7 @@ class TTT_Hawk_2_US_Desert : TTT_Pilot_Base_US {
     vehicleClass = "TTT_Habicht_US_Desert";
     uniformClass = "TTT_Uniform_Silver_US_Desert";
     editorSubcategory = "EdSubcat_Unit_Camo_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_silver_us_desert.paa" };
     items[] += { ITEMS_HABICHT };
     respawnitems[] += { ITEMS_HABICHT };
     linkedItems[] += {

@@ -1,7 +1,7 @@
-picture = "\ttt_a3\ttt_main\ui\TTT_logo_ca.paa";
-logo = "\ttt_a3\ttt_main\ui\TTT_logo_ca.paa";
-logoOver = "\ttt_a3\ttt_main\ui\TTT_logo_ca.paa";
-logoSmall = "\ttt_a3\ttt_main\ui\TTT_logo_small_ca.paa";
+picture = "\ttt_a3\addons\ttt_main\ui\TTT_logo_ca.paa";
+logo = "\ttt_a3\addons\ttt_main\ui\TTT_logo_ca.paa";
+logoOver = "\ttt_a3\addons\ttt_main\ui\TTT_logo_ca.paa";
+logoSmall = "\ttt_a3\addons\ttt_main\ui\TTT_logo_small_ca.paa";
 //logoTitle = "";
 //video = "";
 tooltip = "$STR_TTT_CfgMods_1";

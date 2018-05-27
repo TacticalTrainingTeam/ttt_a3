@@ -62,7 +62,7 @@ class TTT_LUV_COM_US_Woodland : TTT_LUV_COM_US_Desert {
         "rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa",
         "rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_w_co.paa",
         "rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa",
-        "ttt_a3\ttt_vehicles_us\data\oplfahrzeug_unitdecals.paa",
+        "ttt_a3\addons\ttt_vehicles_us\data\oplfahrzeug_unitdecals.paa",
         "rhsusf\addons\rhsusf_hmmwv\unitdecals\a12^_co.paa"};
     displayName = "$STR_TTT_LUV_COM_US_Woodland";
 };
@@ -187,7 +187,7 @@ class TTT_MTA_Heavy_US_Woodland : TTT_MTA_Heavy_US_Desert {
 hiddenSelectionsTextures[] = {
     "rhsusf\addons\rhsusf_a2port_air\ch47\data\ch47_ext_1_co.paa",
     "rhsusf\addons\rhsusf_a2port_air\ch47\data\ch47_ext_2_co.paa",
-    "\ttt_a3\ttt_vehicles_us\data\logheli_camo3.paa",
+    "\ttt_a3\addons\ttt_vehicles_us\data\logheli_camo3.paa",
     "rhsusf\addons\rhsusf_a2port_air\ch47\data\ch47_ext_mlod_co.paa"};
     crew = "TTT_Buzzard_1_US_Woodland";
     displayName = "$STR_TTT_MTA_Heavy_US_Woodland";

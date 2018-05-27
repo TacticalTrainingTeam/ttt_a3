@@ -142,40 +142,40 @@ class TTT_Helmet_1_BW_Tropentarn : TTT_Helmet_Base {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "TTT Helm I (BW Tropentarn)";
-    hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\data\TTT_helmet_1_bw_tropentarn.paa"};
+    hiddenSelectionsTextures[] = {"\ttt_a3\addons\ttt_units_bw\data\TTT_helmet_1_bw_tropentarn.paa"};
 };
 
 class TTT_Helmet_2_BW_Tropentarn : TTT_Helmet_Base {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "TTT Helm II (BW Tropentarn)";
-    hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\data\TTT_helmet_2_bw_tropentarn.paa"};
+    hiddenSelectionsTextures[] = {"\ttt_a3\addons\ttt_units_bw\data\TTT_helmet_2_bw_tropentarn.paa"};
 };
 
 class TTT_Helmet_3_BW_Tropentarn : TTT_Helmet_Base {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "TTT Helm III (BW Tropentarn)";
-    hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\data\TTT_helmet_3_bw_tropentarn.paa"};
+    hiddenSelectionsTextures[] = {"\ttt_a3\addons\ttt_units_bw\data\TTT_helmet_3_bw_tropentarn.paa"};
 };
 
 class TTT_Helmet_4_BW_Tropentarn : TTT_Helmet_Base {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "TTT Helm IV (BW Tropentarn)";
-    hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\data\TTT_helmet_4_bw_tropentarn.paa"};
+    hiddenSelectionsTextures[] = {"\ttt_a3\addons\ttt_units_bw\data\TTT_helmet_4_bw_tropentarn.paa"};
 };
 
 class TTT_Helmet_5_BW_Tropentarn : TTT_Helmet_Base {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "TTT Helm V (BW Tropentarn)";
-    hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\data\TTT_helmet_5_bw_tropentarn.paa"};
+    hiddenSelectionsTextures[] = {"\ttt_a3\addons\ttt_units_bw\data\TTT_helmet_5_bw_tropentarn.paa"};
 };
 
 class TTT_Helmet_6_BW_Tropentarn : TTT_Helmet_Base {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     displayName = "TTT Helm VI (BW Tropentarn)";
-    hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\data\TTT_helmet_6_bw_tropentarn.paa"};
+    hiddenSelectionsTextures[] = {"\ttt_a3\addons\ttt_units_bw\data\TTT_helmet_6_bw_tropentarn.paa"};
 };

@@ -1,4 +1,4 @@
-#include "\ttt_a3\ttt_vehicles_pmc\macros.hpp"
+#include "\ttt_a3\addons\ttt_vehicles_pmc\macros.hpp"
 
 class CfgPatches {
     class TTT_Vehicles_PMC {
@@ -37,5 +37,5 @@ class CfgVehicles {
     class RHS_MELB_MH6M;
     class UK3CB_BAF_Merlin_HC3_24;
 
-    #include "\ttt_a3\ttt_vehicles_pmc\vehicles.hpp"
+    #include "\ttt_a3\addons\ttt_vehicles_pmc\vehicles.hpp"
 };

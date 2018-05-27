@@ -10,7 +10,7 @@
     faction = "TTT_faction_BW";
     vehicleClass = "TTT_Vehicles_BW";
     hiddenSelectionsTextures[] = {
-        "\ttt_a3\ttt_vehicles_bw\data\karosse_d_co.paa",
+        "\ttt_a3\addons\ttt_vehicles_bw\data\karosse_d_co.paa",
         "\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\a_teile_ger_d_co.paa",
         "\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\FLW100_ger_d_co.paa",
         "\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\FLW200_ger_d_co.paa"
@@ -36,7 +36,7 @@ class TTT_IMV_GL_BW_Tropentarn : CUP_B_Dingo_GL_Wdl {
     faction = "TTT_faction_BW";
     vehicleClass = "TTT_Vehicles_BW";
     hiddenSelectionsTextures[] = {
-        "\ttt_a3\ttt_vehicles_bw\data\karosse_d_co.paa",
+        "\ttt_a3\addons\ttt_vehicles_bw\data\karosse_d_co.paa",
         "\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\a_teile_ger_d_co.paa",
         "\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\FLW100_ger_d_co.paa",
         "\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\FLW200_ger_d_co.paa"
@@ -77,7 +77,7 @@ class TTT_LUV_COM_BW_Tropentarn : rhsusf_m998_w_4dr_fulltop {
         "rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_w_co.paa",
         "rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_w_co.paa",
         "rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_co.paa",
-        "\ttt_a3\ttt_vehicles_bw\data\oplfahrzeug_unitdecal.paa",
+        "\ttt_a3\addons\ttt_vehicles_bw\data\oplfahrzeug_unitdecal.paa",
         ""
     };
     crew = "TTT_Black_1_BW_Tropentarn";
@@ -240,7 +240,7 @@ class TTT_AH_BW_Tropentarn : BWA3_Tiger_RMK_Universal {
 #############################################################
 */
 
-class TTT_MTA_SAR_BW_Tropentarn : NH90Armed {
+class TTT_MTA_SAR_BW_Tropentarn : B_Heli_Transport_01_F {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     faction = "TTT_faction_BW";
@@ -301,7 +301,7 @@ class TTT_MTA_Heavy_BW_Tropentarn : CUP_B_CH53E_GER {
 #############################################################
 */
 
-class TTT_MTA_Medium_BW_Tropentarn : NH90Armed {
+class TTT_MTA_Medium_BW_Tropentarn : B_Heli_Transport_01_F {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     faction = "TTT_faction_BW";
@@ -345,7 +345,7 @@ class TTT_UAV_BW_Tropentarn : CUP_B_USMC_MQ9 {
 #############################################################
 */
 
-class TTT_MRCA_BW_Tropentarn : EAWS_EF2000_GER_SS {
+class TTT_MRCA_BW_Tropentarn : B_Plane_Fighter_01_F {
     author = "$STR_Tactical_Training_Team";
     scope = 2;
     scopeCurator = 2;

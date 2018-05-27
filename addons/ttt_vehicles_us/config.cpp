@@ -1,4 +1,4 @@
-#include "\ttt_a3\ttt_vehicles_us\macros.hpp"
+#include "\ttt_a3\addons\ttt_vehicles_us\macros.hpp"
 
 class CfgPatches {
     class TTT_Vehicles_US {
@@ -59,6 +59,6 @@ class CfgVehicles {
     class rhsusf_m998_w_2dr;
     class CUP_B_USMC_MQ9;
 
-    #include "\ttt_a3\ttt_vehicles_us\vehicles_desert.hpp"
-    #include "\ttt_a3\ttt_vehicles_us\vehicles_woodland.hpp"
+    #include "\ttt_a3\addons\ttt_vehicles_us\vehicles_desert.hpp"
+    #include "\ttt_a3\addons\ttt_vehicles_us\vehicles_woodland.hpp"
 };

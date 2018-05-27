@@ -1,4 +1,4 @@
-#include "\ttt_a3\ttt_units_us\macros.hpp"
+#include "\ttt_a3\addons\ttt_units_us\macros.hpp"
 
 class CfgPatches {
     class TTT_Units_US {
@@ -306,8 +306,8 @@ class CfgPatches {
 };
 
 class CfgVehicleClasses {
-    #include "\ttt_a3\ttt_units_us\vehicleClasses_desert.hpp"
-    #include "\ttt_a3\ttt_units_us\vehicleClasses_woodland.hpp"
+    #include "\ttt_a3\addons\ttt_units_us\vehicleClasses_desert.hpp"
+    #include "\ttt_a3\addons\ttt_units_us\vehicleClasses_woodland.hpp"
 
     /*
     #############################################################
@@ -336,24 +336,24 @@ class CfgGroups {
     class West {
         class TTT_Groups_US {
             name = "TTT US";
-            #include "\ttt_a3\ttt_units_us\groups_desert.hpp"
-            #include "\ttt_a3\ttt_units_us\groups_woodland.hpp"
+            #include "\ttt_a3\addons\ttt_units_us\groups_desert.hpp"
+            #include "\ttt_a3\addons\ttt_units_us\groups_woodland.hpp"
         };
     };
 };
 
 class CfgWeapons {
     class UniformBase;
-    class U_B_CombatUniform_mcam : UniformBase{ class ItemInfo; };  // External class reference
+    class U_B_CombatUniform_mcam_worn : UniformBase{ class ItemInfo; };  // External class reference
     class TTT_Vest_Heavy_Base;  // External class reference
     class TTT_Vest_Lite_Base;   // External class reference
     class TTT_Vest_Crew_Base;   // External class reference
     class TTT_Helmet_Base;
 
-    class TTT_Uniform_Base_US : U_B_CombatUniform_mcam {
+    class TTT_Uniform_Base_US : U_B_CombatUniform_mcam_worn {
             scope = 0;
             displayName = "TTT Uniform Base US";
-            picture = "\ttt_a3\ttt_units_base\data\TTT_uniform_icon_us.paa";
+            picture = "\ttt_a3\addons\ttt_units_base\data\TTT_uniform_icon_us.paa";
             model = "\A3\characters_f\Common\Suitpacks\suitpack_universal_F";
 
             class ItemInfo : ItemInfo
@@ -363,8 +363,8 @@ class CfgWeapons {
             };
         };
 
-    #include "\ttt_a3\ttt_units_us\weapons_desert.hpp"
-    #include "\ttt_a3\ttt_units_us\weapons_woodland.hpp"
+    #include "\ttt_a3\addons\ttt_units_us\weapons_desert.hpp"
+    #include "\ttt_a3\addons\ttt_units_us\weapons_woodland.hpp"
 };
 
 class CfgVehicles {
@@ -390,10 +390,10 @@ class CfgVehicles {
     class Box_NATO_WpsLaunch_F;
     class B_supplyCrate_F;
 
-    #include "\ttt_a3\ttt_units_us\vehicles_us.hpp"
-    #include "\ttt_a3\ttt_units_us\vehicles_desert.hpp"
-    #include "\ttt_a3\ttt_units_us\backpacks_desert.hpp"
-    #include "\ttt_a3\ttt_units_us\vehicles_woodland.hpp"
-    #include "\ttt_a3\ttt_units_us\backpacks_woodland.hpp"
-    #include "\ttt_a3\ttt_units_us\crates_us.hpp"
+    #include "\ttt_a3\addons\ttt_units_us\vehicles_us.hpp"
+    #include "\ttt_a3\addons\ttt_units_us\vehicles_desert.hpp"
+    #include "\ttt_a3\addons\ttt_units_us\backpacks_desert.hpp"
+    #include "\ttt_a3\addons\ttt_units_us\vehicles_woodland.hpp"
+    #include "\ttt_a3\addons\ttt_units_us\backpacks_woodland.hpp"
+    #include "\ttt_a3\addons\ttt_units_us\crates_us.hpp"
 };

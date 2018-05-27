@@ -77,8 +77,8 @@ class CfgVehicleClasses {
 };
 
 class CfgVehicles {
-    #include "\ttt_a3\ttt_signs\vehicles_flags.hpp"
-    #include "\ttt_a3\ttt_signs\vehicles_signs_small.hpp"
-    #include "\ttt_a3\ttt_signs\vehicles_signs.hpp"
-    #include "\ttt_a3\ttt_signs\vehicles_panels.hpp"
+    #include "\ttt_a3\addons\ttt_signs\vehicles_flags.hpp"
+    #include "\ttt_a3\addons\ttt_signs\vehicles_signs_small.hpp"
+    #include "\ttt_a3\addons\ttt_signs\vehicles_signs.hpp"
+    #include "\ttt_a3\addons\ttt_signs\vehicles_panels.hpp"
 };

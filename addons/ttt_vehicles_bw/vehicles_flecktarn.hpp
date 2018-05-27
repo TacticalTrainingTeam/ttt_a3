@@ -8,24 +8,28 @@ class TTT_IMV_MG_BW_Flecktarn : TTT_IMV_MG_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     crew = "TTT_Black_1_BW_Flecktarn";
     displayName = "$STR_TTT_Vehilce_IMV_MG_Flecktarn";
+    /*
     hiddenSelectionsTextures[] = {
-        "\ttt_a3\ttt_vehicles_bw\data\karosse_w_co.paa",
+        "\ttt_a3\addons\ttt_vehicles_bw\data\karosse_w_co.paa",
         "\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\a_teile_ger_w_co.paa",
         "\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\FLW100_ger_w_co.paa",
         "\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\FLW200_ger_w_co.paa"
     };
+    */
 };
 
 class TTT_IMV_GL_BW_Flecktarn : TTT_IMV_GL_BW_Tropentarn {
     author = "$STR_Tactical_Training_Team";
     crew = "TTT_Black_1_BW_Flecktarn";
     displayName = "TTT Truppfahrzeug (Infantry Mobility Vehicle) GL (BW Flecktarn)";
+    /*
     hiddenSelectionsTextures[] = {
-        "\ttt_a3\ttt_vehicles_bw\data\karosse_w_co.paa",
+        "\ttt_a3\addons\ttt_vehicles_bw\data\karosse_w_co.paa",
         "\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\a_teile_ger_w_co.paa",
         "\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\FLW100_ger_w_co.paa",
         "\CUP\WheeledVehicles\CUP_WheeledVehicles_Dingo\data\ger\FLW200_ger_w_co.paa"
     };
+    */
 };
 
 /*
@@ -48,7 +52,7 @@ class TTT_LUV_COM_BW_Flecktarn : TTT_LUV_COM_BW_Tropentarn {
         "rhsusf\addons\rhsusf_hmmwv\textures\m998_interior_wood_d_co.paa",
         "rhsusf\addons\rhsusf_hmmwv\textures\m998_4drcargo_d_co.paa",
         "rhsusf\addons\rhsusf_hmmwv\textures\tile_exmetal_d_co.paa",
-        "\ttt_a3\ttt_vehicles_bw\data\oplfahrzeug_unitdecal.paa",
+        "\ttt_a3\addons\ttt_vehicles_bw\data\oplfahrzeug_unitdecal.paa",
         ""
     };
 };

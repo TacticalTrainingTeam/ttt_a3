@@ -58,7 +58,7 @@ class TTT_Teamleader_Base_US : TTT_Base_US {
     vehicleClass = "TTT_Template_US";
     uniformClass = "TTT_Uniform_Base";
     backpack = "TTT_Backpack_Teamleader_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { "ACE_microDAGR" };
     respawnitems[] += { "ACE_microDAGR" };
     weapons[] += {
@@ -78,7 +78,7 @@ class TTT_Grenadier_Base_US : TTT_Base_US {
     vehicleClass = "TTT_Template_US";
     uniformClass = "TTT_Uniform_Base";
     backpack = "TTT_Backpack_Grenadier_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     weapons[] += {
         WEAPON_US_PRIMARY_GL,
         WEAPON_BINOCULAR
@@ -96,7 +96,7 @@ class TTT_Assistant_MG_Base_US : TTT_Base_US {
     vehicleClass = "TTT_Template_US";
     uniformClass = "TTT_Uniform_Base";
     backpack = "TTT_Backpack_Assistant_MG_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     weapons[] += {
         WEAPON_US_PRIMARY,
         WEAPON_RANGEFINDER
@@ -115,7 +115,7 @@ class TTT_Soldier_MG_Base_US : TTT_Base_US {
     vehicleClass = "TTT_Template_US";
     uniformClass = "TTT_Uniform_Base";
     backpack = "TTT_Backpack_Soldier_MG_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     weapons[] += {
         WEAPON_US_MG,
         WEAPON_BINOCULAR
@@ -144,7 +144,7 @@ class TTT_Soldier_LMG_Base_US : TTT_Base_US {
     vehicleClass = "TTT_Template_US";
     uniformClass = "TTT_Uniform_Base";
     backpack = "TTT_Backpack_Soldier_LMG_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { WEAPON_US_LMG_ACCESSORY };
     respawnitems[] += { WEAPON_US_LMG_ACCESSORY };
     weapons[] += {
@@ -174,7 +174,7 @@ class TTT_Atassistent_Base_US : TTT_Base_US {
     vehicleClass = "TTT_Template_US";
     uniformClass = "TTT_Uniform_Base";
     backpack = "TTT_Backpack_Soldier_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     weapons[] += {
         WEAPON_US_PRIMARY,
         WEAPON_RANGEFINDER
@@ -193,7 +193,7 @@ class TTT_Soldier_AT_Base_US : TTT_Base_US {
     vehicleClass = "TTT_Template_US";
     uniformClass = "TTT_Uniform_Base";
     backpack = "TTT_Backpack_Soldier_AT_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     weapons[] += {
         WEAPON_US_PRIMARY,
         WEAPON_RANGEFINDER,
@@ -213,7 +213,7 @@ class TTT_Soldier_Base_US : TTT_Base_US {
     vehicleClass = "TTT_Template_US";
     uniformClass = "TTT_Uniform_Base";
     backpack = "TTT_Backpack_Soldier_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     weapons[] += {
         WEAPON_US_PRIMARY,
         WEAPON_BINOCULAR
@@ -231,7 +231,7 @@ class TTT_Operator_Radio_Base_US : TTT_Base_US {
     vehicleClass = "TTT_Template_US";
     uniformClass = "TTT_Uniform_Base";
     backpack = "TTT_Backpack_Operator_Radio_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     weapons[] += {
         WEAPON_US_PRIMARY_GL,
         WEAPON_LASER_DESIGNATOR
@@ -253,7 +253,7 @@ class TTT_Pioneer_Base_US : TTT_Base_US {
     uniformClass = "TTT_Uniform_Base";
     canDeactivateMines = 1;
     backpack = "TTT_Backpack_Pioneer_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     weapons[] += {
         WEAPON_US_PRIMARY,
         WEAPON_BINOCULAR
@@ -273,7 +273,7 @@ class TTT_Medic_Combat_Base_US : TTT_Base_US {
     uniformClass = "TTT_Uniform_Base";
     attendant = 1;
     backpack = "TTT_Backpack_Medic_Combat_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     weapons[] += {
         WEAPON_US_PRIMARY,
         WEAPON_BINOCULAR
@@ -293,7 +293,7 @@ class TTT_Medic_Doctor_Base_US : TTT_Base_US {
     uniformClass = "TTT_Uniform_Base";
     attendant = 1;
     backpack = "TTT_Backpack_Medic_Doctor_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { "ACE_microDAGR" };
     respawnitems[] += { "ACE_microDAGR" };
     weapons[] += {
@@ -314,7 +314,7 @@ class TTT_Pilot_Base_US : TTT_Base_US {
     vehicleClass = "TTT_Template_US";
     uniformClass = "TTT_Uniform_Base";
     backpack = "TTT_Backpack_Pilot_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += { "ACE_microDAGR" };
     respawnitems[] += { "ACE_microDAGR" };
     weapons[] += {
@@ -344,7 +344,7 @@ class TTT_Uavoperator_Base_US : TTT_Base_US {
     vehicleClass = "TTT_Template_US";
     uniformClass = "TTT_Uniform_Base";
     backpack = "B_UAV_01_backpack_F";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
+    hiddenSelectionsTextures[] = { "\ttt_a3\addons\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
     items[] += {
         "ACE_UAVBattery",
         "ACE_GD300_b"

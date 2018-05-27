@@ -1,4 +1,4 @@
-#include "\ttt_a3\ttt_vehicles_bw\macros.hpp"
+#include "\ttt_a3\addons\ttt_vehicles_bw\macros.hpp"
 
 class CfgPatches {
     class TTT_Vehicles_BW {
@@ -49,15 +49,15 @@ class CfgVehicles {
     class CUP_B_Dingo_GL_Wdl;
     class BWA3_Puma_Tropen;
     class BWA3_Tiger_RMK_Universal;
-    class NH90Armed;
+    class B_Heli_Transport_01_F;
     class CUP_B_CH53E_GER;
     class BWA3_Leopard2A6M_Tropen;
     class rhsusf_m998_w_4dr_fulltop;
     class rhsusf_m998_d_2dr_fulltop;
     class rhsusf_m998_w_2dr;
     class CUP_B_USMC_MQ9;
-    class EAWS_EF2000_GER_SS;
+    class B_Plane_Fighter_01_F;
 
-    #include "\ttt_a3\ttt_vehicles_bw\vehicles_tropentarn.hpp"
-    #include "\ttt_a3\ttt_vehicles_bw\vehicles_flecktarn.hpp"
+    #include "\ttt_a3\addons\ttt_vehicles_bw\vehicles_tropentarn.hpp"
+    #include "\ttt_a3\addons\ttt_vehicles_bw\vehicles_flecktarn.hpp"
 };
