@@ -655,3 +655,15 @@
 "TTT_TransporterLeichtOffen_Us_Flecktarn", "TTT_LUV_LOG_US_Flecktarn"
 "TTT_Kampfjet_Us_Tropentarn", "TTT_MRCA_US_Tropentarn"
 "TTT_Kampfjet_Us_Flecktarn", "TTT_MRCA_US_Flecktarn"
+
+//PBO 
+"ttt_berets_c.pbo", "ttt_berets.pbo"
+"ttt_main_c.pbo", "ttt_main.pbo"
+"ttt_signs_c.pbo", "ttt_signs.pbo"
+"ttt_snipernvg_c.pbo", "ttt_snipernvg.pbo"
+"ttt_units_base.pbo", "ttt_units_base.pbo"
+"ttt_units_bw.pbo", "ttt_units_bw.pbo"
+"ttt_units_us.pbo", "ttt_units_us.pbo"
+"ttt_vehicles_bw.pbo", "ttt_vehicles_bw.pbo"
+"ttt_vehicles_pmc.pbo", "ttt_vehicles_pmc.pbo"
+"ttt_vehicles_us.pbo", "ttt_vehicles_us.pbo"
