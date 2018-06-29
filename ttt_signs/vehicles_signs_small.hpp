@@ -69,3 +69,7 @@
 		displayName = "TTT Notizschild Logo";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_signs\data\ttt_logo_sign_co.paa"};
 	};
+	class TTT_Sign_Small_Orange : TTT_Sign_Small_Blue {
+		displayName = "TTT Notizschild Orange";
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_signs\data\ttt_logo_orange_co.paa"};
+	};

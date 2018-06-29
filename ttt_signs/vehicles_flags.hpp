@@ -113,3 +113,10 @@
 			init = "(_this select 0) setFlagTexture '\ttt_a3\ttt_signs\data\ttt_logo_weiss_co.paa'";
 		};
 	};
+	class TTT_Flag_Orange : TTT_Flag_Logo {
+		displayName = "TTT Flagge Orange";
+
+		class EventHandlers {
+			init = "(_this select 0) setFlagTexture '\ttt_a3\ttt_signs\data\ttt_logo_orange_co.paa'";
+		};
+	};

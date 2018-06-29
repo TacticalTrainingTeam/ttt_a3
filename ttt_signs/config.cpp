@@ -15,6 +15,7 @@ class CfgPatches {
 			"TTT_Flag_Platinum",
 			"TTT_Flag_Violet",
 			"TTT_Flag_White",
+			"TTT_Flag_Orange",
 			"TTT_Sign_Small_Blue",
 			"TTT_Sign_Small_Bronze",
 			"TTT_Sign_Small_Brown",
@@ -29,6 +30,7 @@ class CfgPatches {
 			"TTT_Sign_Small_Violet",
 			"TTT_Sign_Small_White",
 			"TTT_Sign_Small_Logo",
+			"TTT_Sign_Small_Orange",
 			"TTT_Sign_Blue",
 			"TTT_Sign_Bronze",
 			"TTT_Sign_Brown",
@@ -43,15 +45,23 @@ class CfgPatches {
 			"TTT_Sign_Violet",
 			"TTT_Sign_White",
 			"TTT_Sign_Logo",
+			"TTT_Sign_Orange",
 			"TTT_Panel_Protection_180_4",
 			"TTT_Panel_Protection_180_6",
 			"TTT_Panel_Protection_360_4",
 			"TTT_Panel_Protection_360_6",
 			"TTT_Panel_Column_4",
 			"TTT_Panel_Column_6",
+			"TTT_Panel_Column_8",
 			"TTT_Panel_Column_Zug",
+			"TTT_Panel_ColumnWide_Zug",
+			"TTT_Panel_Chain_4",
 			"TTT_Panel_Cain_6",
-			"TTT_Panel_Stack_6"
+			"TTT_Panel_Chain_8",
+			"TTT_Panel_Stack_4",
+			"TTT_Panel_Stack_6",
+			"TTT_Panel_Wedge_4",
+			"TTT_Panel_Wedge_8"
 			};
 		weapons[] = {};
 	};

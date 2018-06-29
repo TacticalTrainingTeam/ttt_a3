@@ -68,3 +68,7 @@
 		displayName = "TTT Schild Logo";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_signs\data\ttt_logo_sign_co.paa"};
 	};
+	class TTT_Sign_Orange : TTT_Sign_Blue {
+		displayName = "TTT Schild Orange";
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_signs\data\ttt_logo_orange_co.paa"};
+	};
