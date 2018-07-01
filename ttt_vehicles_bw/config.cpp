@@ -55,7 +55,7 @@ class CfgVehicles {
 	class rhsusf_m998_d_2dr_fulltop;
 	class rhsusf_m998_w_2dr;
     class CUP_B_USMC_MQ9;
-    class EAWS_EF2000_GER_SS;
+    class B_Plane_Fighter_01_F;
 	
 	#include "\ttt_a3\ttt_vehicles_bw\vehicles_tropentarn.hpp"
 	#include "\ttt_a3\ttt_vehicles_bw\vehicles_flecktarn.hpp"

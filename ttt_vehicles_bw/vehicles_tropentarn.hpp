@@ -354,7 +354,7 @@
     #############################################################
     */
 
-    class TTT_MRCA_BW_Tropentarn : EAWS_EF2000_GER_SS {
+    class TTT_MRCA_BW_Tropentarn : B_Plane_Fighter_01_F {
         author = "$STR_Tactical_Training_Team";
         scope = 2;
         scopeCurator = 2;
