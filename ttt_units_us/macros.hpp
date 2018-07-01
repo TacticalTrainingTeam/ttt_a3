@@ -173,23 +173,23 @@
     ITEM_XX(ACE_DK10_b,1)
     
 /// Group Stuff ///
-#define ITEMS_GELB BERETS(Gelb)
-#define ITEMS_GRAU BERETS(Grau), WEAPON_US_SPECIAL_ACCESSORY
+#define ITEMS_GELB BERETS(Yellow)
+#define ITEMS_GRAU BERETS(Grey), WEAPON_US_SPECIAL_ACCESSORY
 #define ITEMS_GOLD BERETS(Gold)
-#define ITEMS_GREEN BERETS(Gruen)
-#define ITEMS_BRAUN BERETS(Braun)
-#define ITEMS_SCHWARZ BERETS(Schwarz)
-#define ITEMS_ROT BERETS(Rot)
+#define ITEMS_GREEN BERETS(Green)
+#define ITEMS_BRAUN BERETS(Brown)
+#define ITEMS_SCHWARZ BERETS(Black)
+#define ITEMS_ROT BERETS(Red)
 #define ITEMS_BRONZE BERETS(Bronze)
-#define ITEMS_BLAU BERETS(Blau)
+#define ITEMS_BLAU BERETS(Blue)
 #define ITEMS_VIOLETT BERETS(Violet)
 #define ITEMS_ORANGE BERETS(Orange)
-#define ITEMS_WEISS BERETS(Weiss)
-#define ITEMS_PLATIN BERETS(Platin)
-#define ITEMS_SILBER BERETS(Silber), "TTT_Helmet_Buzzard"
-#define ITEMS_ADLER BERETS(Platin)
-#define ITEMS_BUSSARD BERETS(Silber)
-#define ITEMS_HABICHT BERETS(Silber)
+#define ITEMS_WEISS BERETS(White)
+#define ITEMS_PLATIN BERETS(Platinum)
+#define ITEMS_SILBER BERETS(Silver), "TTT_Helmet_Buzzard"
+#define ITEMS_ADLER BERETS(Platinum)
+#define ITEMS_BUSSARD BERETS(Silver)
+#define ITEMS_HABICHT BERETS(Silver)
 	
 /// Vest Config ///
 #define get_vest(army,group,kind,camo) get_str(append_dummy(append_dummy(append_dummy(append_dummy(append_dummy(append_dummy(append_dummy(TTT_Vest_)kind)_)group)_)army)_)camo)
