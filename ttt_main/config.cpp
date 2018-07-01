@@ -5,7 +5,7 @@ class CfgPatches {
 		url = "https://www.tacticalteam.de";
 		units[] = {};
 		weapons[] = {};
-		requiredAddons[] = {};
+		requiredAddons[] = {"A3_Data_F"};
 	};
 };
 
