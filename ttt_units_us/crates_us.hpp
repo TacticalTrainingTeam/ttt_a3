@@ -427,7 +427,7 @@
 		};
 	};
 	
-	class TTT_Crate_Weapons_Luncher_US : Box_NATO_WpsLaunch_F {
+	class TTT_Crate_Weapons_Launcher_US : Box_NATO_WpsLaunch_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Werfer (US)";
 		transportMaxWeapons = 99;
@@ -460,7 +460,7 @@
 		};
 	};
 		
-	class TTT_Crate_Ammo_Luncher_US : Box_NATO_Support_F {
+	class TTT_Crate_Medic_Doctor_US : Box_NATO_Support_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Medic Material (US)";
 		transportMaxWeapons = 99;

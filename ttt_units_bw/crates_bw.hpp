@@ -196,7 +196,7 @@
 		};
 	};
 	
-	class TTT_Crate_Weapons_Luncher_BW : Box_NATO_WpsLaunch_F {
+	class TTT_Crate_Weapons_Launcher_BW : Box_NATO_WpsLaunch_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Werfer (BW)";
 		transportMaxWeapons = 99;
@@ -218,7 +218,7 @@
 		};
 	};
 	
-	class TTT_Crate_Ammo_Luncher_BW : Box_NATO_WpsLaunch_F {
+	class TTT_Crate_Ammo_Launcher_BW : Box_NATO_WpsLaunch_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Werfermunition (BW)";
 		transportMaxWeapons = 99;
