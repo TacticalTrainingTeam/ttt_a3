@@ -255,7 +255,9 @@ class CfgPatches {
 			"TTT_Helmet_3_BW_Flecktarn",
 			"TTT_Helmet_4_BW_Flecktarn",
 			"TTT_Helmet_5_BW_Flecktarn",
-			"TTT_Helmet_6_BW_Flecktarn"
+			"TTT_Helmet_6_BW_Flecktarn",
+			"TTT_Helmet_7_BW_Flecktarn",
+			"TTT_Helmet_8_BW_Flecktarn"
 		};
 		requiredAddons[] = {"ttt_main"};
 	};
