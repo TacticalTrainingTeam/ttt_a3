@@ -12,7 +12,7 @@ class CfgPatches {
 class CfgMods
 {
 	class Mod_Base;
-	class TTT: Mod_Base
+	class TTT : Mod_Base
 	{
 		//artwork = "";
 		picture = "\ttt_a3\ttt_main\ui\TTT_logo_ca.paa";
@@ -33,7 +33,7 @@ class CfgMods
 		name = "$STR_TTT_CfgMods_4";
 		nameShort = "TTT Mod";
 		author = "$STR_Tactical_Training_Team";
-		//overviewPicture = "\A3\Data_F_Mark\Images\Mark_overviewPicture_co.paa";
+		overviewPicture = "\ttt_a3\ttt_main\ui\TTT_logo_ca.paa";
 		overviewText = "$STR_TTT_CfgMods_3";
 		//contentBrowserPicture = "\A3\Data_F_Mark\Images\mark_contentBrowserPicture_co.paa";
 		//popupMsgPicture = "\A3\Data_F_Mark\Images\Mark_popupImage_01_ca.paa";
@@ -46,25 +46,4 @@ class CfgMods
 		//overviewFootnote = "$STR_A3_CFGMODS_OVERVIEWFOOTNOTE_MARK";
 		dir = "@ttt_a3";
 	};
-};
-
-class CfgFactionClasses {
-	class TTT_Faction_BW {
-		icon = "\ttt_a3\ttt_main\ui\TTT_logo_small_ca.paa";
-		displayName = "$STR_TTT_Faction_BW";
-		priority = 1;
-		side = 1;
-	};
-	class TTT_Faction_US {
-		icon = "\ttt_a3\ttt_main\ui\TTT_logo_small_ca.paa";
-		displayName = "$STR_TTT_Faction_US";
-		priority = 2;
-		side = 1;
-	};
-	class TTT_Faction_PMC {
-		icon = "\ttt_a3\ttt_main\ui\TTT_logo_small_ca.paa";
-		displayName = "$STR_TTT_Faction_PMC";
-		priority = 3;
-		side = 1;
-	};	
 };

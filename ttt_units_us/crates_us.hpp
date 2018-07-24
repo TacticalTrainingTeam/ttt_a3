@@ -409,21 +409,7 @@
 			
 		};
 		
-		class TransportBackpacks { 
-			class _xx_TTT_Backpack_Operator_Radio_US_Desert {
-				backpack = "TTT_Backpack_Operator_Radio_US_Desert";
-				count = 1;
-			};
-			
-			class _xx_TTT_Backpack_Operator_Radio_US_Woodland {
-				backpack = "TTT_Backpack_Operator_Radio_US_Woodland";
-				count = 1;
-			};
-			
-			class _xx_B_UAV_01_backpack_F {
-				backpack = "B_UAV_01_backpack_F";
-				count = 1;
-			};
+		class TransportBackpacks{
 		};
 	};
 	
@@ -543,45 +529,6 @@
 				count = 10;
 			};
 		};
-	};
-	
-	class TTT_Crate_Medic_Backpack_US : B_supplyCrate_F {
-		author = "$STR_Tactical_Training_Team";
-		displayName = "TTT Medic Rucksaecke (US)";
-		transportMaxWeapons = 99;
-		transportMaxMagazines = 99;
-		
-		class TransportMagazines {
-		};
-		
-		class TransportWeapons {
-		};
-		
-		class TransportItems {	
-		};
-		
-		class TransportBackpacks {
-			class _xx_TTT_Backpack_Medic_Combat_US_Woodland {
-				backpack = "TTT_Backpack_Medic_Combat_US_Woodland";
-				count = 4;			
-			};
-			
-			class _xx_TTT_Backpack_Medic_Combat_US_Desert {
-				backpack = "TTT_Backpack_Medic_Combat_US_Desert";
-				count = 4;			
-			};
-			
-			class _xx_TTT_Backpack_Medic_Doctor_US_Desert {
-				backpack = "TTT_Backpack_Medic_Doctor_US_Desert";
-				count = 4;			
-			};
-			
-			class _xx_TTT_Backpack_Medic_Doctor_US_Woodland {
-				backpack = "TTT_Backpack_Medic_Doctor_US_Woodland";
-				count = 4;			
-			};
-		};
-			
 	};
 	
 	class TTT_Crate_Small_US : Box_NATO_Support_F {

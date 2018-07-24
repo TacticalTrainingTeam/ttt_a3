@@ -4,98 +4,119 @@
 	#############################################################
 	*/
 	class TTT_Uniform_Yellow_BW_Flecktarn : TTT_Uniform_Yellow_BW_Tropentarn {
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Uniform Gelb (Flecktarn)";
 			
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Yellow_1_BW_Flecktarn";
+			uniformClass = "TTT_Yellow_BW_Flecktarn";
 		};
 	};
 	
 	class TTT_Uniform_Grey_BW_Flecktarn : TTT_Uniform_Grey_BW_Tropentarn {
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Uniform Grau (Flecktarn)";
 
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Grey_1_BW_Flecktarn";
+			uniformClass = "TTT_Grey_BW_Flecktarn";
 		};
 	};
 	
+	class TTT_Uniform_Orange_BW_Flecktarn : TTT_Uniform_Orange_BW_Tropentarn {
+		author = "$STR_Tactical_Training_Team";
+		displayName = "TTT Uniform Orange (BW Flecktarn)";
+		
+        class ItemInfo : ItemInfo {
+			uniformClass = "TTT_Orange_Bw_Flecktarn";
+		};
+	}; 	
+	
 	class TTT_Uniform_Gold_BW_Flecktarn : TTT_Uniform_Gold_BW_Tropentarn {
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Uniform Gold (Flecktarn)";
 
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Gold_1_BW_Flecktarn";
+			uniformClass = "TTT_Gold_BW_Flecktarn";
 		};
 	};
 	
 	class TTT_Uniform_Green_BW_Flecktarn : TTT_Uniform_Green_BW_Tropentarn {
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Uniform Gruen (Flecktarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Green_1_BW_Flecktarn";
+			uniformClass = "TTT_Green_BW_Flecktarn";
 		};
 	};
 	
 	class TTT_Uniform_Brown_BW_Flecktarn : TTT_Uniform_Brown_BW_Tropentarn {
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Uniform Braun (Flecktarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Brown_1_BW_Flecktarn";
+			uniformClass = "TTT_Brown_BW_Flecktarn";
 		};
 	};
 	
 	class TTT_Uniform_Black_BW_Flecktarn : TTT_Uniform_Black_BW_Tropentarn {
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Uniform Schwarz (Flecktarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Black_1_BW_Flecktarn";
+			uniformClass = "TTT_Black_BW_Flecktarn";
 		};
 	};
 	
 	class TTT_Uniform_Red_BW_Flecktarn : TTT_Uniform_Red_BW_Tropentarn {
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Uniform Rot (Flecktarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Red_1_BW_Flecktarn";
+			uniformClass = "TTT_Red_BW_Flecktarn";
 		};
 	};	
 	
 	class TTT_Uniform_Bronze_BW_Flecktarn : TTT_Uniform_Bronze_BW_Tropentarn {
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Uniform Bronze (Flecktarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Bronze_1_BW_Flecktarn";
+			uniformClass = "TTT_Bronze_BW_Flecktarn";
 		};
 	};
 	
 	class TTT_Uniform_Blue_BW_Flecktarn : TTT_Uniform_Blue_BW_Tropentarn {
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Uniform Blau (Flecktarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Blue_1_BW_Flecktarn";
+			uniformClass = "TTT_Blue_BW_Flecktarn";
 		};
 	};	
 	
 	class TTT_Uniform_Violet_BW_Flecktarn : TTT_Uniform_Violet_BW_Tropentarn {
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Uniform Violett (Flecktarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Violet_1_BW_Flecktarn";
+			uniformClass = "TTT_Violet_BW_Flecktarn";
 		};
 	};	
 	
 	class TTT_Uniform_White_BW_Flecktarn : TTT_Uniform_White_BW_Tropentarn {
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Uniform Weiss (Flecktarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_White_1_BW_Flecktarn";
+			uniformClass = "TTT_White_BW_Flecktarn";
 		};
 	};
 	
 	class TTT_Uniform_Silver_BW_Flecktarn : TTT_Uniform_Silver_BW_Tropentarn {
+		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Uniform Silber (Flecktarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Silver_1_BW_Flecktarn";
+			uniformClass = "TTT_Silver_BW_Flecktarn";
 		};
 	};
 	

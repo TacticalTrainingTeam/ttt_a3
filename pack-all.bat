@@ -8,9 +8,6 @@ for %%s in (
     ttt_units_base
     ttt_units_bw
     ttt_units_us
-    ttt_vehicles_bw
-    ttt_vehicles_pmc
-    ttt_vehicles_us
     ) do (
     %pboManager% "C:\ttt_a3\%%s"
 )

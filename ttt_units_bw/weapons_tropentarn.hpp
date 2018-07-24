@@ -9,7 +9,7 @@
 		displayName = "TTT Uniform Gelb (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Yellow_1_BW_Tropentarn";
+			uniformClass = "TTT_Yellow_BW_Tropentarn";
 		};
 	};
 	
@@ -19,7 +19,7 @@
 		displayName = "TTT Uniform Grau (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Grey_1_BW_Tropentarn";
+			uniformClass = "TTT_Grey_BW_Tropentarn";
 		};
 	};
 
@@ -29,9 +29,9 @@
 		displayName = "TTT Uniform Orange (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Orange_1_Bw_Tropentarn";
+			uniformClass = "TTT_Orange_Bw_Tropentarn";
 		};
-}; 	
+	}; 	
 	
 	class TTT_Uniform_Gold_BW_Tropentarn : TTT_Uniform_Base_BW {
 		author = "$STR_Tactical_Training_Team";
@@ -39,7 +39,7 @@
 		displayName = "TTT Uniform Gold (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Gold_1_BW_Tropentarn";
+			uniformClass = "TTT_Gold_BW_Tropentarn";
 		};
 	};
 	
@@ -49,7 +49,7 @@
 		displayName = "TTT Uniform Gruen (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Green_1_BW_Tropentarn";
+			uniformClass = "TTT_Green_BW_Tropentarn";
 		};
 	};
 	
@@ -59,7 +59,7 @@
 		displayName = "TTT Uniform Braun (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Brown_1_BW_Tropentarn";
+			uniformClass = "TTT_Brown_BW_Tropentarn";
 		};
 	};
 	
@@ -69,7 +69,7 @@
 		displayName = "TTT Uniform Schwarz (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Black_1_BW_Tropentarn";
+			uniformClass = "TTT_Black_BW_Tropentarn";
 		};
 	};
 	
@@ -79,7 +79,7 @@
 		displayName = "TTT Uniform Rot (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Red_1_BW_Tropentarn";
+			uniformClass = "TTT_Red_BW_Tropentarn";
 		};
 	};	
 	
@@ -89,7 +89,7 @@
 		displayName = "TTT Uniform Bronze (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Bronze_1_BW_Tropentarn";
+			uniformClass = "TTT_Bronze_BW_Tropentarn";
 		};
 	};
 	
@@ -99,17 +99,17 @@
 		displayName = "TTT Uniform Blau (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Blue_1_BW_Tropentarn";
+			uniformClass = "TTT_Blue_BW_Tropentarn";
 		};
 	};
 
-class TTT_Uniform_Violet_BW_Tropentarn : TTT_Uniform_Base_BW {
+	class TTT_Uniform_Violet_BW_Tropentarn : TTT_Uniform_Base_BW {
 		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Uniform Violett (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Violet_1_BW_Tropentarn";
+			uniformClass = "TTT_Violet_BW_Tropentarn";
 		};
 	};		
 	
@@ -119,7 +119,7 @@ class TTT_Uniform_Violet_BW_Tropentarn : TTT_Uniform_Base_BW {
 		displayName = "TTT Uniform Weiss (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_White_1_BW_Tropentarn";
+			uniformClass = "TTT_White_BW_Tropentarn";
 		};
 	};
 	
@@ -129,7 +129,7 @@ class TTT_Uniform_Violet_BW_Tropentarn : TTT_Uniform_Base_BW {
 		displayName = "TTT Uniform Silber (BW Tropentarn)";
 		ACE_GForceCoef = 0.55;
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Silver_1_BW_Tropentarn";
+			uniformClass = "TTT_Silver_BW_Tropentarn";
 		};
 	};
 	
@@ -173,4 +173,14 @@ class TTT_Uniform_Violet_BW_Tropentarn : TTT_Uniform_Base_BW {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Helm VI (BW Tropentarn)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\data\TTT_helmet_6_bw_tropentarn.paa"};
+	};
+	class TTT_Helmet_7_BW_Tropentarn : TTT_Helmet_1_BW_Tropentarn {
+		author = "$STR_Tactical_Training_Team";
+		displayName = "TTT Helm VII (BW Tropentarn)";
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\data\TTT_helmet_7_bw_tropentarn.paa"};
+	};
+	class TTT_Helmet_8_BW_Tropentarn : TTT_Helmet_1_BW_Tropentarn {
+		author = "$STR_Tactical_Training_Team";
+		displayName = "TTT Helm VIII (BW Tropentarn)";
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_bw\data\TTT_helmet_8_bw_tropentarn.paa"};
 	};

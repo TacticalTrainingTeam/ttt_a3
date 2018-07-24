@@ -7,34 +7,34 @@
         <English>Tactical Training Team</English>
       </Key>	
       <Key ID="STR_TTT_CfgMods_1">
-        <Original>TTT STR_TTT_CfgMods_1</Original>
-        <German>TTT STR_TTT_CfgMods_1</German>
-        <English>TTT STR_TTT_CfgMods_1</English>
+        <Original>ToDo: tooltip einfügen</Original>
+        <German>ToDo: tooltip einfügen</German>
+        <English>ToDo: tooltip einfügen</English>
       </Key>		
       <Key ID="STR_TTT_CfgMods_2">
-        <Original>TTT STR_TTT_CfgMods_2</Original>
-        <German>TTT STR_TTT_CfgMods_2</German>
-        <English>TTT STR_TTT_CfgMods_2</English>
+        <Original>ToDo: tooltipOwned einfügen</Original>
+        <German>ToDo: tooltipOwned einfügen</German>
+        <English>ToDo: tooltipOwned einfügen</English>
       </Key>		  
       <Key ID="STR_TTT_CfgMods_3">
-        <Original>TTT STR_TTT_CfgMods_3</Original>
-        <German>TTT STR_TTT_CfgMods_3</German>
-        <English>TTT STR_TTT_CfgMods_3</English>
+        <Original>ToDo: overviewText einfügen</Original>
+        <German>ToDo: overviewText einfügen</German>
+        <English>ToDo: overviewText einfügen</English>
       </Key>	
       <Key ID="STR_TTT_CfgMods_4">
-        <Original>TTT STR_TTT_CfgMods_4</Original>
-        <German>TTT STR_TTT_CfgMods_4</German>
-        <English>TTT STR_TTT_CfgMods_4</English>
+        <Original>Tactical Training Team</Original>
+        <German>Tactical Training Team</German>
+        <English>Tactical Training Team</English>
       </Key>	
       <Key ID="STR_TTT_CfgMods_5">
-        <Original>TTT STR_TTT_CfgMods_5</Original>
-        <German>TTT STR_TTT_CfgMods_5</German>
-        <English>TTT STR_TTT_CfgMods_5</English>
+        <Original>ToDo: vehPrevMsgText einfügen</Original>
+        <German>ToDo: vehPrevMsgText einfügen</German>
+        <English>ToDo: vehPrevMsgText einfügen</English>
       </Key>
       <Key ID="STR_TTT_CfgMods_popupMsgText">
-        <Original>TTT STR_TTT_CfgMods_popupMsgText</Original>
-        <German>TTT STR_TTT_CfgMods_popupMsgText</German>
-        <English>TTT STR_TTT_CfgMods_popupMsgText</English>
+        <Original>ToDo: popupMsgText einfügen</Original>
+        <German>ToDo: popupMsgText einfügen</German>
+        <English>ToDo: popupMsgText einfügen</English>
       </Key>		
       <Key ID="STR_TTT_Faction_BW">
         <Original>TTT (BW)</Original>
@@ -261,42 +261,42 @@
         <German>TTT Helm Habicht</German>
         <English>TTT Helmet Hawk</English>
       </Key>		 
-      <Key ID="STR_TTT_Weapons_Helmet_Hawk">
+      <Key ID="STR_TTT_Weapons_Helmet_Falcon">
         <Original>TTT Helm Falke</Original>
         <German>TTT Helm Falke</German>
         <English>TTT Helmet Falcon</English>
       </Key>	
       <Key ID="STR_TTT_Weapons_Helmet_Eagle">
-        <Original>TTT Helm Falke</Original>
+        <Original>TTT Helm Adler</Original>
         <German>TTT Helm Adler</German>
-        <English>TTT Helmet Eagle</English>
-      </Key>	
+        <English>TTT Helm Adler</English>
+      </Key>	  
       <Key ID="STR_TTT_Weapons_Helmet_Veh_I">
         <Original>TTT Helm Crew - I</Original>
         <German>TTT Helm Crew - I</German>
         <English>TTT Helmet Crew - I</English>
       </Key>	
-      <Key ID="STR_TTT_Weapons_Helmet_Veh_I">
+      <Key ID="STR_TTT_Weapons_Helmet_Veh_II">
         <Original>TTT Helm Crew - II</Original>
         <German>TTT Helm Crew - II</German>
         <English>TTT Helmet Crew - II</English>
       </Key>	
-      <Key ID="STR_TTT_Weapons_Helmet_Veh_I">
+      <Key ID="STR_TTT_Weapons_Helmet_Veh_III">
         <Original>TTT Helm Crew - III</Original>
         <German>TTT Helm Crew - III</German>
         <English>TTT Helmet Crew - III</English>
       </Key>	
-      <Key ID="STR_TTT_Weapons_Helmet_Veh_I">
+      <Key ID="STR_TTT_Weapons_Helmet_Veh_IV">
         <Original>TTT Helm Crew - IV</Original>
         <German>TTT Helm Crew - IV</German>
         <English>TTT Helmet Crew - IV</English>
       </Key>	
-      <Key ID="STR_TTT_Weapons_Helmet_Veh_I">
+      <Key ID="STR_TTT_Weapons_Helmet_Veh_V">
         <Original>TTT Helm Crew - V</Original>
         <German>TTT Helm Crew - V</German>
         <English>TTT Helmet Crew - V</English>
       </Key>	
-      <Key ID="STR_TTT_Weapons_Helmet_Veh_I">
+      <Key ID="STR_TTT_Weapons_Helmet_Veh_VI">
         <Original>TTT Helm Crew - VI</Original>
         <German>TTT Helm Crew - VI</German>
         <English>TTT Helmet Crew - VI</English>

@@ -190,9 +190,6 @@
 		};
 		
 		class TransportBackpacks { 
-			backpack_xx(TTT_Backpack_Operator_Radio_BW_Tropentarn,1);
-			backpack_xx(TTT_Backpack_Operator_Radio_BW_Flecktarn,1);
-			backpack_xx(B_UAV_01_backpack_F,1);
 		};
 	};
 	
@@ -272,31 +269,7 @@
 			item_xx(ACE_bodyBag,10);
 		};
 	};
-	
-	class TTT_Crate_Medic_Backpack_BW : B_supplyCrate_F {
-		author = "$STR_Tactical_Training_Team";
-		displayName = "TTT Medic Rucksaecke (BW)";
-		transportMaxWeapons = 99;
-		transportMaxMagazines = 99;
 		
-		class TransportMagazines {
-		};
-		
-		class TransportWeapons {
-		};
-		
-		class TransportItems {	
-		};
-		
-		class TransportBackpacks {
-			backpack_xx(TTT_Backpack_Medic_Combat_BW_Flecktarn,4);
-			backpack_xx(TTT_Backpack_Medic_Combat_BW_Tropentarn,4);
-			backpack_xx(TTT_Backpack_Medic_Doctor_BW_Tropentarn,4);
-			backpack_xx(TTT_Backpack_Medic_Doctor_BW_Flecktarn,4);
-		};
-			
-	};
-	
 	class TTT_Crate_Small_BW : Box_NATO_Support_F {
 		author = "$STR_Tactical_Training_Team";
 		displayName = "TTT Transportkiste Klein (BW)";

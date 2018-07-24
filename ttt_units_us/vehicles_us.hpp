@@ -11,37 +11,16 @@ class TTT_Base_US : B_Soldier_base_F {
     displayName = "Basis-Klasse US";
     scope = 0;
 	icon = "iconMan";
-    faction = "TTT_faction_US";
-    vehicleClass = "TTT_Template_US";
     uniformAccessories[] = {};
+	uniformClass = "TTT_Uniform_Base_Us";	
     nakedUniform = "U_BasicBody";
     hiddenSelections[] = { "Camo", "insignia" }; //Camo = Standardskin der Uniform; insignia = Rangabzeichen (linker Arm);
-    items[] = {
-        ITEMS_ACE_DEFAULT, 
-        ITEMS_US_DEFAULT 
-    };
-    respawnItems[] = {
-        ITEMS_ACE_DEFAULT, 
-        ITEMS_US_DEFAULT 
-    };
-    linkedItems[] = { LINKED_ITEMS_DEFAULT };
-    respawnLinkedItems[] = { LINKED_ITEMS_DEFAULT };
-    weapons[] = { 
-        WEAPON_US_SECONDARY, 
-        WEAPON_ARMA 
-    };
-    respawnWeapons[] = { 
-        WEAPON_US_SECONDARY, 
-        WEAPON_ARMA 
-    };
-    magazines[] = { 
-        MAGAZINES_SMOKE, 
-        WEAPON_US_MAGAZINES_DEFAULT 
-    };
-    respawnMagazines[] = { 
-        MAGAZINES_SMOKE, 
-        WEAPON_US_MAGAZINES_DEFAULT 
-    };
+    items[] = {};
+    respawnItems[] = {};
+	weapons[] = {};
+	respawnWeapons[] = {};
+	magazines[] = {};
+	respawnMagazines[] = {};
 };
 
 /*
@@ -49,318 +28,186 @@ class TTT_Base_US : B_Soldier_base_F {
 ### Basis-Klassen
 #############################################################
 */
-
-//Basis-Klasse fuer Truppfuehrer
-class TTT_Teamleader_Base_US : TTT_Base_US {
-    author = "$STR_Tactical_Training_Team";
-    displayName = "Truppfuehrer US (Template)";
-    icon = "iconManLeader";
-    vehicleClass = "TTT_Template_US";
-    uniformClass = "TTT_Uniform_Base";
-    backpack = "TTT_Backpack_Teamleader_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
-    items[] += { "ACE_microDAGR" };
-    respawnitems[] += { "ACE_microDAGR" };
-    weapons[] += {
-        WEAPON_US_PRIMARY_GL,
-        WEAPON_RANGEFINDER 
-    };
-    respawnWeapons[] += {
-        WEAPON_US_PRIMARY_GL,
-        WEAPON_RANGEFINDER 
-    };
+//Woodland
+class TTT_Yellow_US_Woodland : TTT_Base_US {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Gelb Woodland";
+	scope = 1;
+	uniformClass = "TTT_Uniform_Yellow_US_Woodland";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_yellow_US_Woodland.paa" };
+	//hiddenSelectionsMaterials[] = {"\ttt_a3\ttt_units_base\data\TTT_uniform.rvmat"};
 };
 
-//Basis-Klasse fuer Grenadiere
-class TTT_Grenadier_Base_US : TTT_Base_US {
-    author = "$STR_Tactical_Training_Team";
-    displayName = "Grenadier US (Template)";
-    vehicleClass = "TTT_Template_US";
-    uniformClass = "TTT_Uniform_Base";
-    backpack = "TTT_Backpack_Grenadier_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
-    weapons[] += {
-        WEAPON_US_PRIMARY_GL,
-        WEAPON_BINOCULAR 
-    };
-    respawnWeapons[] += {
-        WEAPON_US_PRIMARY_GL,
-        WEAPON_BINOCULAR 
-    };
+class TTT_Grey_US_Woodland : TTT_Yellow_US_Woodland {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Grau Woodland";
+	uniformClass = "TTT_Uniform_Grey_US_Woodland";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_grey_US_Woodland.paa" };
 };
 
-//Basis-Klasse fuer MG-Assistenten
-class TTT_Assistant_MG_Base_US : TTT_Base_US {
-    author = "$STR_Tactical_Training_Team";
-    displayName = "MG-Assistent US (Template)";
-    vehicleClass = "TTT_Template_US";
-    uniformClass = "TTT_Uniform_Base";
-    backpack = "TTT_Backpack_Assistant_MG_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
-    weapons[] += {
-        WEAPON_US_PRIMARY,
-        WEAPON_RANGEFINDER 
-    };
-    respawnWeapons[] += {
-        WEAPON_US_PRIMARY,
-        WEAPON_RANGEFINDER 
-    };
+class TTT_Gold_US_Woodland : TTT_Yellow_US_Woodland {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Gold Woodland";
+	uniformClass = "TTT_Uniform_Gold_US_Woodland";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_gold_US_Woodland.paa" };
 };
 
-//Basis-Klasse fuer MG-Schuetzen
-class TTT_Soldier_MG_Base_US : TTT_Base_US {
-    author = "$STR_Tactical_Training_Team";
-    displayName = "MG-Schuetze US (Template)";
-    icon = "iconManMG";
-    vehicleClass = "TTT_Template_US";
-    uniformClass = "TTT_Uniform_Base";
-    backpack = "TTT_Backpack_Soldier_MG_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
-    weapons[] += { 
-        WEAPON_US_MG, 
-        WEAPON_BINOCULAR 
-    };
-    respawnWeapons[] += { 
-        WEAPON_US_MG, 
-        WEAPON_BINOCULAR 
-    };
-    magazines[] = { 
-        MAGAZINES_SMOKE,
-        item_2(WEAPON_US_SECONDARY_MAGAZINES),
-        WEAPON_US_MG_MAGAZINES
-    };
-    respawnMagazines[] = {
-        MAGAZINES_SMOKE,
-        item_2(WEAPON_US_SECONDARY_MAGAZINES),
-        WEAPON_US_MG_MAGAZINES 
-    };
+class TTT_Green_US_Woodland : TTT_Yellow_US_Woodland {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Gruen Woodland";
+	uniformClass = "TTT_Uniform_Green_US_Woodland";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_green_US_Woodland.paa" };
 };
 
-//Basis-Klasse fuer LMG-Schuetzen
-class TTT_Soldier_LMG_Base_US : TTT_Base_US {
-    author = "$STR_Tactical_Training_Team";
-    displayName = "LMG-Schuetze US (Template)";
-    icon = "iconManMG";
-    vehicleClass = "TTT_Template_US";
-    uniformClass = "TTT_Uniform_Base";
-    backpack = "TTT_Backpack_Soldier_LMG_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
-    items[] += { WEAPON_US_LMG_ACCESSORY };
-    respawnitems[] += { WEAPON_US_LMG_ACCESSORY };
-    weapons[] += { 
-        WEAPON_US_LMG, 
-        WEAPON_BINOCULAR 
-    };
-    respawnWeapons[] += { 
-        WEAPON_US_LMG, 
-        WEAPON_BINOCULAR 
-    };
-    magazines[] = { 
-        MAGAZINES_SMOKE,
-        item_2(WEAPON_US_SECONDARY_MAGAZINES),
-        WEAPON_US_LMG_MAGAZINES
-    };
-    respawnMagazines[] = {
-        MAGAZINES_SMOKE,
-        item_2(WEAPON_US_SECONDARY_MAGAZINES),
-        WEAPON_US_LMG_MAGAZINES 
-    };
+class TTT_Brown_US_Woodland : TTT_Yellow_US_Woodland {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Braun Woodland";
+	uniformClass = "TTT_Uniform_Brown_US_Woodland";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_brown_US_Woodland.paa" };
 };
 
-//Basis-Klasse fuer AT-Assistent
-class TTT_Atassistent_Base_US : TTT_Base_US {
-    author = "$STR_Tactical_Training_Team";
-    displayName = "AT-Assistent US (Template)";
-    vehicleClass = "TTT_Template_US";
-    uniformClass = "TTT_Uniform_Base";
-    backpack = "TTT_Backpack_Soldier_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
-    weapons[] += { 
-        WEAPON_US_PRIMARY, 
-        WEAPON_RANGEFINDER
-    };
-    respawnWeapons[] += { 
-        WEAPON_US_PRIMARY, 
-        WEAPON_RANGEFINDER
-    };
+class TTT_Black_US_Woodland : TTT_Yellow_US_Woodland {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Schwarz Woodland";
+	uniformClass = "TTT_Uniform_Black_US_Woodland";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_black_US_Woodland.paa" };
 };
 
-//Basis-Klasse fuer AT-Schuetzen
-class TTT_Soldier_AT_Base_US : TTT_Base_US {
-    author = "$STR_Tactical_Training_Team";
-    displayName = "AT-Schuetze US (Template)";
-    icon = "iconManAT";
-    vehicleClass = "TTT_Template_US";
-    uniformClass = "TTT_Uniform_Base";
-    backpack = "TTT_Backpack_Soldier_AT_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
-    weapons[] += { 
-        WEAPON_US_PRIMARY, 
-        WEAPON_RANGEFINDER, 
-        WEAPON_US_AT 
-    };
-    respawnWeapons[] += { 
-        WEAPON_US_PRIMARY, 
-        WEAPON_RANGEFINDER, 
-        WEAPON_US_AT 
-    };
+class TTT_Red_US_Woodland : TTT_Yellow_US_Woodland {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Rot Woodland";
+	uniformClass = "TTT_Uniform_Red_US_Woodland";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_red_US_Woodland.paa" };
 };
 
-//Basis-Klasse fuer Schuetzen
-class TTT_Soldier_Base_US : TTT_Base_US {
-    author = "$STR_Tactical_Training_Team";
-    displayName = "Schuetze US (Template)";
-    vehicleClass = "TTT_Template_US";
-    uniformClass = "TTT_Uniform_Base";
-    backpack = "TTT_Backpack_Soldier_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
-    weapons[] += { 
-        WEAPON_US_PRIMARY, 
-        WEAPON_BINOCULAR 
-    };
-    respawnWeapons[] += { 
-        WEAPON_US_PRIMARY, 
-        WEAPON_BINOCULAR 
-    };
+class TTT_Bronze_US_Woodland : TTT_Yellow_US_Woodland {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Bronze Woodland";
+	uniformClass = "TTT_Uniform_Bronze_US_Woodland";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_bronx_US_Woodland.paa" };
 };
 
-//Basis-Klasse fuer Funker/FAC
-class TTT_Operator_Radio_Base_US : TTT_Base_US {
-    author = "$STR_Tactical_Training_Team";
-    displayName = "Funker/FAC US (Template)";
-    vehicleClass = "TTT_Template_US";
-    uniformClass = "TTT_Uniform_Base";
-    backpack = "TTT_Backpack_Operator_Radio_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
-    weapons[] += { 
-        WEAPON_US_PRIMARY_GL, 
-        WEAPON_LASER_DESIGNATOR 
-    };
-    respawnWeapons[] += { 
-        WEAPON_US_PRIMARY_GL, 
-        WEAPON_LASER_DESIGNATOR 
-    };
-    magazines[] += { WEAPON_LASER_DESIGNATOR_MAGAZINES };
-    respawnMagazines[] += { WEAPON_LASER_DESIGNATOR_MAGAZINES };
+class TTT_Blue_US_Woodland : TTT_Yellow_US_Woodland {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Blau Woodland";
+	uniformClass = "TTT_Uniform_Blue_US_Woodland";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_blue_US_Woodland.paa" };
 };
 
-//Basis-Klasse fuer Pioniere
-class TTT_Pioneer_Base_US : TTT_Base_US {
-    author = "$STR_Tactical_Training_Team";
-    displayName = "Pionier US (Template)";
-    icon = "iconManExplosive";
-    vehicleClass = "TTT_Template_US";
-    uniformClass = "TTT_Uniform_Base";
-    canDeactivateMines = 1;
-    backpack = "TTT_Backpack_Pioneer_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
-    weapons[] += { 
-        WEAPON_US_PRIMARY,
-        WEAPON_BINOCULAR 
-    };
-    respawnWeapons[] += { 
-        WEAPON_US_PRIMARY,
-        WEAPON_BINOCULAR 
-    };
+class TTT_Violet_US_Woodland : TTT_Yellow_US_Woodland {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Violett Woodland";
+	uniformClass = "TTT_Uniform_Violet_US_Woodland";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_violet_US_Woodland.paa" };
 };
 
-//Basis-Klasse fuer Gefechtssanitaeter
-class TTT_Medic_Combat_Base_US : TTT_Base_US {
-    author = "$STR_Tactical_Training_Team";
-    displayName = "Gefechtssanitaeter US (Template)";
-    icon = "iconManMedic";
-    vehicleClass = "TTT_Template_US";
-    uniformClass = "TTT_Uniform_Base";
-    attendant = 1;
-    backpack = "TTT_Backpack_Medic_Combat_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
-    weapons[] += { 
-        WEAPON_US_PRIMARY,
-        WEAPON_BINOCULAR 
-    };
-    respawnWeapons[] += { 
-        WEAPON_US_PRIMARY,
-        WEAPON_BINOCULAR 
-    };
+class TTT_White_US_Woodland : TTT_Yellow_US_Woodland {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Weiss Woodland";
+	uniformClass = "TTT_Uniform_White_US_Woodland";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_white_US_Woodland.paa" };
 };
 
-//Basis-Klasse fuer Feldaerzte
-class TTT_Medic_Doctor_Base_US : TTT_Base_US {
-    author = "$STR_Tactical_Training_Team";
-    displayName = "Feldarzt US (Template)";
-    icon = "iconManMedic";
-    vehicleClass = "TTT_Template_US";
-    uniformClass = "TTT_Uniform_Base";
-    attendant = 1;
-    backpack = "TTT_Backpack_Medic_Doctor_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
-    items[] += { "ACE_microDAGR" };
-    respawnitems[] += { "ACE_microDAGR" };
-    weapons[] += { 
-        WEAPON_US_PRIMARY_LIGHT,
-        WEAPON_BINOCULAR 
-    };
-    respawnWeapons[] += { 
-        WEAPON_US_PRIMARY_LIGHT,
-        WEAPON_BINOCULAR 
-    };
+class TTT_Silver_US_Woodland : TTT_Yellow_US_Woodland {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Silber Woodland";
+	uniformClass = "TTT_Uniform_Silver_US_Woodland";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_silver_US_Woodland.paa" };
+};
+class TTT_Orange_US_Woodland : TTT_Yellow_US_Woodland {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Orange Woodland";
+	uniformClass = "TTT_Uniform_Orange_US_Woodland";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_orange_US_Woodland.paa" };
+};
+//Desert
+class TTT_Yellow_US_Desert : TTT_Base_US {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Gelb Desert";
+	scope = 1;
+	uniformClass = "TTT_Uniform_Yellow_US_Desert";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_yellow_US_Desert.paa" };
 };
 
-//Basis-Klasse fuer Piloten
-class TTT_Pilot_Base_US : TTT_Base_US {
-    _generalMacro = "B_Helipilot_F";
-    author = "$STR_Tactical_Training_Team";
-    displayName = "Pilot US (Template)";
-    vehicleClass = "TTT_Template_US";
-    uniformClass = "TTT_Uniform_Base";
-    backpack = "TTT_Backpack_Pilot_US_Desert";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
-    items[] += { "ACE_microDAGR" };
-    respawnitems[] += { "ACE_microDAGR" };
-    weapons[] += { 
-        WEAPON_US_PRIMARY_LIGHT, 
-        WEAPON_BINOCULAR
-    };
-    respawnWeapons[] += { 
-        WEAPON_US_PRIMARY_LIGHT, 
-        WEAPON_BINOCULAR
-    };
-    magazines[] = { 
-        MAGAZINES_SMOKE, 
-        item_3(WEAPON_US_PRIMARY_MAGAZINES), 
-        item_1(WEAPON_US_SECONDARY_MAGAZINES) 
-    };
-    respawnMagazines[] = { 
-        MAGAZINES_SMOKE, 
-        item_3(WEAPON_US_PRIMARY_MAGAZINES), 
-        item_1(WEAPON_US_SECONDARY_MAGAZINES) 
-    };
+class TTT_Grey_US_Desert : TTT_Yellow_US_Desert {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Grau Desert";
+	uniformClass = "TTT_Uniform_Grey_US_Desert";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_grey_US_Desert.paa" };
 };
 
-//Basis-Klasse fuer UAV-Operatoren
-class TTT_Uavoperator_Base_US : TTT_Base_US {
-    author = "$STR_Tactical_Training_Team";
-    displayName = "UAV-Operator US (Template)";
-    vehicleClass = "TTT_Template_US";
-    uniformClass = "TTT_Uniform_Base";
-    backpack = "B_UAV_01_backpack_F";
-    hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_us\data\TTT_uniform_black_us_desert.paa" };
-    items[] += { 
-        "ACE_UAVBattery", 
-        "ACE_GD300_b" 
-    };
-    respawnitems[] += { 
-        "ACE_UAVBattery", 
-        "ACE_GD300_b" 
-    };
-    linkedItems[] += { "B_UavTerminal" };
-    respawnLinkedItems[] += { "B_UavTerminal" };
-    weapons[] += { 
-        WEAPON_US_PRIMARY, 
-        WEAPON_BINOCULAR 
-    };
-    respawnWeapons[] += { 
-        WEAPON_US_PRIMARY, 
-        WEAPON_BINOCULAR 
-    };
+class TTT_Gold_US_Desert : TTT_Yellow_US_Desert {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Gold Desert";
+	uniformClass = "TTT_Uniform_Gold_US_Desert";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_gold_US_Desert.paa" };
+};
+
+class TTT_Green_US_Desert : TTT_Yellow_US_Desert {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Gruen Desert";
+	uniformClass = "TTT_Uniform_Green_US_Desert";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_green_US_Desert.paa" };
+};
+
+class TTT_Brown_US_Desert : TTT_Yellow_US_Desert {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Braun Desert";
+	uniformClass = "TTT_Uniform_Brown_US_Desert";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_brown_US_Desert.paa" };
+};
+
+class TTT_Black_US_Desert : TTT_Yellow_US_Desert {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Schwarz Desert";
+	uniformClass = "TTT_Uniform_Black_US_Desert";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_black_US_Desert.paa" };
+};
+
+class TTT_Red_US_Desert : TTT_Yellow_US_Desert {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Rot Desert";
+	uniformClass = "TTT_Uniform_Red_US_Desert";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_red_US_Desert.paa" };
+};
+
+class TTT_Bronze_US_Desert : TTT_Yellow_US_Desert {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Bronze Desert";
+	uniformClass = "TTT_Uniform_Bronze_US_Desert";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_bronx_US_Desert.paa" };
+};
+
+class TTT_Blue_US_Desert : TTT_Yellow_US_Desert {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Blau Desert";
+	uniformClass = "TTT_Uniform_Blue_US_Desert";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_blue_US_Desert.paa" };
+};
+
+class TTT_Violet_US_Desert : TTT_Yellow_US_Desert {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Violett Desert";
+	uniformClass = "TTT_Uniform_Violet_US_Desert";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_violet_US_Desert.paa" };
+};
+
+class TTT_White_US_Desert : TTT_Yellow_US_Desert {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Weiss Desert";
+	uniformClass = "TTT_Uniform_White_US_Desert";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_white_US_Desert.paa" };
+};
+
+class TTT_Silver_US_Desert : TTT_Yellow_US_Desert {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Silber Desert";
+	uniformClass = "TTT_Uniform_Silver_US_Desert";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_silver_US_Desert.paa" };
+};
+class TTT_Orange_US_Desert : TTT_Yellow_US_Desert {
+	author = "$STR_Tactical_Training_Team";
+	displayName = "Klasse Orange Desert";
+	uniformClass = "TTT_Uniform_Orange_US_Desert";
+	hiddenSelectionsTextures[] = { "\ttt_a3\ttt_units_US\data\TTT_uniform_orange_US_Desert.paa" };
 };

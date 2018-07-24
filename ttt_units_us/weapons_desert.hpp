@@ -10,7 +10,7 @@
 		
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Yellow_1_US_Desert";
+			uniformClass = "TTT_Yellow_US_Desert";
 		};
 	};
 	
@@ -20,7 +20,7 @@
 		displayName = "TTT Uniform Grau (US Desert)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Grey_1_US_Desert";
+			uniformClass = "TTT_Grey_US_Desert";
 		};
 	};
 	
@@ -30,7 +30,7 @@
 		displayName = "TTT Uniform Gold (US Desert)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Gold_1_US_Desert";
+			uniformClass = "TTT_Gold_US_Desert";
 		};
 	};
 	
@@ -40,7 +40,7 @@
 		displayName = "TTT Uniform Gruen (US Desert)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Green_1_US_Desert";
+			uniformClass = "TTT_Green_US_Desert";
 		};
 	};
 	
@@ -50,7 +50,7 @@
 		displayName = "TTT Uniform Braun (US Desert)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Brown_1_US_Desert";
+			uniformClass = "TTT_Brown_US_Desert";
 		};
 	};
 	
@@ -60,7 +60,7 @@
 		displayName = "TTT Uniform Schwarz (US Desert)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Black_1_US_Desert";
+			uniformClass = "TTT_Black_US_Desert";
 		};
 	};
 	
@@ -70,7 +70,7 @@
 		displayName = "TTT Uniform Rot (US Desert)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Red_1_US_Desert";
+			uniformClass = "TTT_Red_US_Desert";
 		};
 	};	
 	
@@ -80,7 +80,7 @@
 		displayName = "TTT Uniform Bronze (US Desert)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Bronze_1_US_Desert";
+			uniformClass = "TTT_Bronze_US_Desert";
 		};
 	};
 	
@@ -90,7 +90,7 @@
 		displayName = "TTT Uniform Blau (US Desert)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Blue_1_US_Desert";
+			uniformClass = "TTT_Blue_US_Desert";
 		};
 	};
 
@@ -100,7 +100,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 		displayName = "TTT Uniform Violett (US Desert)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Violet_1_US_Desert";
+			uniformClass = "TTT_Violet_US_Desert";
 		};
 	};		
 	
@@ -110,7 +110,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 		displayName = "TTT Uniform Weiss (US Desert)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_White_1_US_Desert";
+			uniformClass = "TTT_White_US_Desert";
 		};
 	};
 	
@@ -120,7 +120,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 		displayName = "TTT Uniform Silber (US Desert)";
 		ACE_GForceCoef = 0.55;
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Silver_1_US_Desert";
+			uniformClass = "TTT_Silver_US_Desert";
 		};
 	};
 	class TTT_Uniform_Orange_US_Desert : TTT_Uniform_Base_US {
@@ -129,7 +129,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 		displayName = "TTT Uniform Orange (US Desert)";
 		
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Orange_1_Us_Desert";
+			uniformClass = "TTT_Orange_Us_Desert";
 		};
 	}; 
 	
@@ -145,39 +145,46 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_helmet_1_us_desert.paa"};
 	};
 	
-	class TTT_Helmet_2_US_Desert : TTT_Helmet_Base {
+	class TTT_Helmet_2_US_Desert : TTT_Helmet_1_US_Desert {
 		author = "$STR_Tactical_Training_Team";
-		scope = 2;
 		displayName = "TTT Helm II (US Desert)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_helmet_2_us_desert.paa"};
 	};
 	
-	class TTT_Helmet_3_US_Desert : TTT_Helmet_Base {
+	class TTT_Helmet_3_US_Desert : TTT_Helmet_1_US_Desert {
 		author = "$STR_Tactical_Training_Team";
-		scope = 2;
 		displayName = "TTT Helm III (US Desert)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_helmet_3_us_desert.paa"};
 	};
 	
-	class TTT_Helmet_4_US_Desert : TTT_Helmet_Base {
+	class TTT_Helmet_4_US_Desert : TTT_Helmet_1_US_Desert {
 		author = "$STR_Tactical_Training_Team";
-		scope = 2;
 		displayName = "TTT Helm IV (US Desert)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_helmet_4_us_desert.paa"};
 	};
 	
-	class TTT_Helmet_5_US_Desert : TTT_Helmet_Base {
+	class TTT_Helmet_5_US_Desert : TTT_Helmet_1_US_Desert {
 		author = "$STR_Tactical_Training_Team";
-		scope = 2;
 		displayName = "TTT Helm V (US Desert)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_helmet_5_us_desert.paa"};
 	};
 	
-	class TTT_Helmet_6_US_Desert : TTT_Helmet_Base {
+	class TTT_Helmet_6_US_Desert : TTT_Helmet_1_US_Desert {
 		author = "$STR_Tactical_Training_Team";
-		scope = 2;
 		displayName = "TTT Helm VI (US Desert)";
 		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_helmet_6_us_desert.paa"};
+	};
+	
+	class TTT_Helmet_7_US_Desert : TTT_Helmet_1_US_Desert {
+		author = "$STR_Tactical_Training_Team";
+		displayName = "TTT Helm VII (US Desert)";
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_helmet_7_us_desert.paa"};
+	};
+	
+	class TTT_Helmet_8_US_Desert : TTT_Helmet_1_US_Desert {
+		author = "$STR_Tactical_Training_Team";
+		displayName = "TTT Helm VIII (US Desert)";
+		hiddenSelectionsTextures[] = {"\ttt_a3\ttt_units_us\data\TTT_helmet_8_us_desert.paa"};
 	};
 	
 	/*
@@ -186,6 +193,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 	#############################################################
 	*/
 	class TTT_Vest_Heavy_Yellow_US_Desert : TTT_Vest_Heavy_Base {
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Schwere Weste Gelb (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -193,6 +201,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 	};
 	
 	class TTT_Vest_Lite_Yellow_US_Desert : TTT_Vest_Lite_Base {
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Leichte Weste Gelb (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -200,6 +209,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 	};
 	
 	class TTT_Vest_Heavy_Blue_US_Desert : TTT_Vest_Heavy_Base {
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Schwere Weste Blau (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -207,6 +217,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 	};
 	
 	class TTT_Vest_Lite_Blue_US_Desert : TTT_Vest_Lite_Base {
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Leichte Weste Blau (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -214,6 +225,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 	};
 	
 	class TTT_Vest_Heavy_Black_US_Desert : TTT_Vest_Heavy_Base {
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Schwere Weste Schwarz (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -221,6 +233,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 	};
 	
 	class TTT_Vest_Lite_Black_US_Desert : TTT_Vest_Lite_Base {
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Leichte Weste Schwarz (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -228,6 +241,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 	};
 	
 	class TTT_Vest_Heavy_Brown_US_Desert : TTT_Vest_Heavy_Base {
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Schwere Weste Braun (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -235,6 +249,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 	};
 	
 	class TTT_Vest_Lite_Brown_US_Desert : TTT_Vest_Lite_Base {
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Leichte Weste Braun (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -242,6 +257,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 	};
 	
 	class TTT_Vest_Heavy_Gold_US_Desert : TTT_Vest_Heavy_Base {
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Schwere Weste Gold (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -249,6 +265,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 	};
 	
 	class TTT_Vest_Lite_Gold_US_Desert : TTT_Vest_Lite_Base {
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Leichte Weste Gold (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -256,6 +273,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 	};
 	
 	class TTT_Vest_Heavy_Green_US_Desert : TTT_Vest_Heavy_Base {
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Schwere Weste Gruen (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -263,6 +281,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 	};
 	
 	class TTT_Vest_Lite_Green_US_Desert : TTT_Vest_Lite_Base {
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Leichte Weste Gruen (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -270,6 +289,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 	};
 	
 	class TTT_Vest_Heavy_Grey_US_Desert : TTT_Vest_Heavy_Base {
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Schwere Weste Grau (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -277,6 +297,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 	};
 	
 	class TTT_Vest_Lite_Grey_US_Desert : TTT_Vest_Lite_Base {
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Leichte Weste Grau (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -284,6 +305,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 	};
 	
 	class TTT_Vest_Heavy_Red_US_Desert : TTT_Vest_Heavy_Base {
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Schwere Weste Rot (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -291,6 +313,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 	};
 	
 	class TTT_Vest_Lite_Red_US_Desert : TTT_Vest_Lite_Base {
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Leichte Weste Rot (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -298,6 +321,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 	};
 	
 	class TTT_Vest_Heavy_Violet_US_Desert : TTT_Vest_Heavy_Base {
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Schwere Weste Violett (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -305,6 +329,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 	};
 	
 	class TTT_Vest_Lite_Violet_US_Desert : TTT_Vest_Lite_Base {
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Leichte Weste Violett (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -312,6 +337,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 	};
 
 	class TTT_Vest_Heavy_Orange_US_Desert : TTT_Vest_Heavy_Base {
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Schwere Weste Orange (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -319,6 +345,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 	};
 	
 	class TTT_Vest_Lite_Orange_US_Desert : TTT_Vest_Lite_Base {
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Leichte Weste Orange (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -326,6 +353,7 @@ class TTT_Uniform_Violet_US_Desert : TTT_Uniform_Base_US {
 	}; 	
 	
 	class TTT_Vest_Crew_US_Desert : TTT_Vest_Crew_Base {
+		author = "$STR_Tactical_Training_Team";
 		scope = 2;
 		displayName = "TTT Crew Weste (US Desert)";
 	};
