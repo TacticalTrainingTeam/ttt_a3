@@ -2,21 +2,7 @@
 
 class CfgPatches {
 	class TTT_Units_US {
-		units[] = {	
-			//Logistik Kisten
-			"TTT_Crate_Weapons_US",
-			"TTT_Crate_Weapons_Special_US",
-			"TTT_Crate_Ammo_Standard_US",
-			"TTT_Crate_Ammo_Special_US",
-			"TTT_Crate_Equipment_Pioneer_US",
-			"TTT_Crate_Ammo_Grenade_US",
-			"TTT_Crate_Equipment_US",
-			"TTT_Crate_Weapons_Luncher_US",
-			"TTT_Crate_Medic_Doctor_US",
-			"TTT_Crate_Ammo_Luncher_US",
-			"TTT_Crate_Small_US",
-			"TTT_Crate_Large_US"
-		};
+		units[] = {};
 		weapons[] = {
 			//Uniformen Desert
 			"TTT_Uniform_Yellow_US_Desert",
@@ -149,15 +135,6 @@ class CfgVehicles {
 	*/
 	class B_Soldier_base_F;			
 	class B_Helipilot_F;			
-	class Box_NATO_Wps_F;			
-	class Box_NATO_WpsSpecial_F;	
-	class Box_NATO_Ammo_F;
-	class Box_NATO_AmmoOrd_F;
-	class Box_NATO_Grenades_F;
-	class Box_NATO_Support_F;
-	class Box_NATO_WpsLaunch_F;
-	class B_supplyCrate_F;
 	
 	#include "\ttt_a3\ttt_units_us\vehicles_us.hpp"
-	#include "\ttt_a3\ttt_units_us\crates_us.hpp"	
 };

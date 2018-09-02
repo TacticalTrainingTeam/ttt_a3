@@ -2,21 +2,7 @@
 
 class CfgPatches {
 	class TTT_Units_BW {
-		units[] = {
-			//Kisten
-			"TTT_Crate_Weapons_BW",
-			"TTT_Crate_Weapons_Special_BW",
-			"TTT_Crate_Weapons_Luncher_BW",
-			"TTT_Crate_Ammo_Standard_BW",
-			"TTT_Crate_Ammo_Special_BW",
-			"TTT_Crate_Ammo_Luncher_BW",
-			"TTT_Crate_Ammo_Grenade_BW",
-			"TTT_Crate_Equipment_BW",
-			"TTT_Crate_Equipment_Pioneer_BW",
-			"TTT_Crate_Medic_Doctor_BW",
-			"TTT_Crate_Small_BW",
-			"TTT_Crate_Large_BW"
-		};
+		units[] = {};
 		weapons[] = {
 			//Uniformen Tropentarn
 			"TTT_Uniform_Yellow_BW_Tropentarn",
@@ -98,16 +84,7 @@ class CfgVehicles {
 	#############################################################
 	*/
 	class B_Soldier_base_F;									
-	class B_Helipilot_F;			
-	class Box_NATO_Wps_F;			
-	class Box_NATO_WpsSpecial_F;	
-	class Box_NATO_Ammo_F;
-	class Box_NATO_AmmoOrd_F;
-	class Box_NATO_Grenades_F;
-	class Box_NATO_Support_F;
-	class Box_NATO_WpsLaunch_F;
-	class B_supplyCrate_F;
+	class B_Helipilot_F;
 	
 	#include "\ttt_a3\ttt_units_bw\units_base_class.hpp"
-	#include "\ttt_a3\ttt_units_bw\crates_bw.hpp"
 };
