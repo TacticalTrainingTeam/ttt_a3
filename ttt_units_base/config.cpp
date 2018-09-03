@@ -30,7 +30,7 @@ class CfgWeapons {
 
     class V_TacVest_brn;
 	
-	class BWA3_CrewmanKSK_Tropen_Headset;
+	class H_HelmetCrew_I;
 
 	#include "\ttt_a3\ttt_units_base\weapons.hpp"
 };
