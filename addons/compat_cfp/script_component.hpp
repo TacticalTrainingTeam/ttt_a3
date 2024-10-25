@@ -1,1 +1,0 @@
-#define COMPONENT_NAME compat_cfp

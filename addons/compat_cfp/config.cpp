@@ -1,11 +1,9 @@
-#include "script_component.hpp"
-
 class CfgPatches
 {
 	class ADDON
 	{
 		// Meta information for editor
-		name = COMPONENT_NAME;
+		name = "CFP Compat";
 		author = "Andx";
 		url = "";
 

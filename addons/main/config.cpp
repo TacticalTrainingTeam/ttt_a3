@@ -3,7 +3,7 @@ class CfgPatches
 	class ADDON
 	{
 		// Meta information for editor
-		name = "Vanilla Compat";
+		name = "TTT Main";
 		author = "Andx";
 		url = "";
 
@@ -21,5 +21,3 @@ class CfgPatches
 		skipWhenMissingDependencies = 1;
 	};
 };
-
-#include CfgVehicles.hpp
