@@ -2,3 +2,17 @@ name = "Andx Mod"
 author = "Andx"
 prefix = "andx"
 mainprefix = "z"
+
+[version]
+major = 1 # Overrides path when set
+minor = 0
+patch = 4
+build = 3 # Optional
+
+git_hash = 8 # Default: 8
+
+[lints.sqf]
+command_case = false
+
+[properties]
+url = "https://github.com/ABE-Mod/ABE"
