@@ -4,10 +4,10 @@ prefix = "andx"
 mainprefix = "z"
 
 [version]
-major = 1 # Overrides path when set
-minor = 0
-patch = 4
-build = 3 # Optional
+major = 0 # Overrides path when set
+minor = 1
+patch = 0
+build = 1 # Optional
 
 git_hash = 8 # Default: 8
 
@@ -15,4 +15,5 @@ git_hash = 8 # Default: 8
 command_case = false
 
 [properties]
-url = "https://github.com/ABE-Mod/ABE"
+url = "https://github.com/Andx667/Andx-Mod"
+
