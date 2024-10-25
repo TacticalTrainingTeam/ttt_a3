@@ -34,7 +34,7 @@ jobs:
     - name: Run HEMTT build
       run: hemtt build
     - name: Rename build folder
-      run: mv .hemttout/build .hemttout/@ace
+      run: mv .hemttout/build .hemttout/@ttt-mod
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
