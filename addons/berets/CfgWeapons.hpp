@@ -59,7 +59,7 @@ class CfgWeapons {
 	};
 
 	class TTT_Beret_Green : TTT_Beret_Blue {
-		displayName = "TTT Barett Gruen";
+		displayName = "TTT Barett Grün";
 		author = "Reimchen";
 		picture = "z\ttt\addons\berets\data\ui\berets_gruen_icon_co.paa";
 		hiddenSelectionsTextures[] = {"z\ttt\addons\berets\data\common\berets_gruen_co.paa"};
