@@ -1,0 +1,27 @@
+# Launched with `hemtt launch`
+[default]
+workshop = [
+    "463939057", # ACE3's Workshop ID
+    "450814997", # CBA_A3's Workshop ID
+]
+#optionals = []
+#mission = "test.VR" # Mission to launch directly into the editor with
+parameters = [
+    "-skipIntro",           # These parameters are passed to the Arma 3 executable
+    "-noSplash",            # They do not need to be added to your list
+    "-showScriptErrors",    # You can add additional parameters here
+    "-debug",
+    "-filePatching",
+]
+
+#executable = "arma3_x64" # Default: "arma3_x64"
+#file_patching = true # Default: true
+#binarize = false # Default: false
+#rapify = true # Default: true
+
+# Launched with `hemtt launch ttt`
+[ttt]
+extends = "default"
+dlc = [
+    "contact",
+]

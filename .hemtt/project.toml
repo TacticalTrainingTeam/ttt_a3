@@ -1,6 +1,6 @@
-name = "Andx Mod"
+name = "TTT-Mod"
 author = "Andx"
-prefix = "andx"
+prefix = "ttt_mod"
 mainprefix = "z"
 
 [version]
@@ -11,9 +11,13 @@ build = 1 # Optional
 
 git_hash = 8 # Default: 8
 
+[files]
+exclude = [
+    "README.md",
+]
+
 [lints.sqf]
-command_case = false
+command_case = true
 
 [properties]
-url = "https://github.com/Andx667/Andx-Mod"
-
+url = "https://github.com/Andx667/TTT-Mod"
