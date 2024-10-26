@@ -3,7 +3,7 @@ class CfgFunctions {
 		tag = "fix_ai";
 		class init {
 			class fix_ai_init {
-				file = "ttt_ai\fix_ai.sqf";
+				file = "z\ttt\addons\ai\ai.sqf";
 				postInit = 1;
 			};
 		};		
