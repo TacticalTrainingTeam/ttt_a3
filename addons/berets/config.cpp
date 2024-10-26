@@ -6,7 +6,7 @@ class CfgPatches
 		name = "TTT Barette";
 		author = "TacticalTrainingTeam";
 		authors[] = {"Reimchen","Andx"};
-		url = "";
+		url = "https://tacticalteam.de";
 
 		// Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
 		requiredVersion = 1.60;
