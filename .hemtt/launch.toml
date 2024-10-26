@@ -9,11 +9,7 @@ workshop = [
 #optionals = []
 #mission = "test.VR" # Mission to launch directly into the editor with
 parameters = [
-    "-skipIntro",           # These parameters are passed to the Arma 3 executable
-    "-noSplash",            # They do not need to be added to your list
-    "-showScriptErrors",    # You can add additional parameters here
-    "-debug",
-    "-filePatching",
+
 ]
 
 #executable = "arma3_x64" # Default: "arma3_x64"
@@ -22,8 +18,20 @@ parameters = [
 #rapify = true # Default: true
 
 # Launched with `hemtt launch ttt`
-[ttt]
+[cup]
 extends = "default"
-dlc = [
+workshop = [
+    "497660133", # CUP Weapons
+    "541888371", # CUP Vehicles
+    "497661914", # CUP Units
+    "1369691841", # CFP
+]
 
+[rhs]
+extends = "default"
+workshop = [
+    "", # RHS USAF
+    "", # RHS AFRF
+    "", # RHS GREF
+    "", # RHS SAF
 ]

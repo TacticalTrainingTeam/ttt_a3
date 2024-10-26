@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class ADDON
+	class ttt_compat_cfp
 	{
 		// Meta information for editor
 		name = "CFP Compat";
