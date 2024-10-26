@@ -28,6 +28,17 @@ class CfgPatches
 			"TTT_Helmet_Silver_Vehiclecrew",
 			"TTT_Helmet_Yellow_Vehiclecrew",
 			"TTT_Helmet_Old_Vehiclecrew",
+			"TTT_Helmet_1_US_Desert",
+			"TTT_Helmet_2_US_Desert",
+			"TTT_Helmet_3_US_Desert",
+			"TTT_Helmet_4_US_Desert",
+			"TTT_Helmet_5_US_Desert",
+			"TTT_Helmet_6_US_Desert",
+			"TTT_Helmet_7_US_Desert",
+			"TTT_Helmet_8_US_Desert",
+			"TTT_Helmet_9_US_Desert",
+			"TTT_Helmet_10_US_Desert",
+			"TTT_Helmet_11_US_Desert",
 		};
 
 		// Optional. If this is 1, if any of requiredAddons[] entry is missing in your game the entire config will be ignored and return no error (but in rpt) so useful to make a compat Mod (Since Arma 3 2.14)

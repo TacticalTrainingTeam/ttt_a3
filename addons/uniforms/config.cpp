@@ -19,7 +19,18 @@ class CfgPatches
 		};
 		// List of weapons (CfgWeapons classes) contained in the addon.
 		weapons[] = {
-
+			"TTT_Uniform_Yellow_US_Desert",
+			"TTT_Uniform_Green_US_Desert",
+			"TTT_Uniform_Brown_US_Desert",
+			"TTT_Uniform_Red_US_Desert",
+			"TTT_Uniform_Black_US_Desert",
+			"TTT_Uniform_Violet_US_Desert",
+			"TTT_Uniform_White_US_Desert",
+			"TTT_Uniform_Blue_US_Desert",
+			"TTT_Uniform_Grey_US_Desert",
+			"TTT_Uniform_Gold_US_Desert",
+			"TTT_Uniform_Silver_US_Desert",
+			"TTT_Uniform_Orange_US_Desert",
 		};
 
 		// Optional. If this is 1, if any of requiredAddons[] entry is missing in your game the entire config will be ignored and return no error (but in rpt) so useful to make a compat Mod (Since Arma 3 2.14)

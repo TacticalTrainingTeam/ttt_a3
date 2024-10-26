@@ -105,4 +105,71 @@ class CfgWeapons {
 		displayName = "TTT Fahrzeugcrew (alt)";
 		hiddenSelectionsTextures[] = { "z\ttt\addons\helmets\data\TTT_helmet_Old_vehiclecrew.paa" };
 	};
+
+class TTT_Helmet_1_US_Desert : TTT_Helmet_Base {
+		author = "Tactical Training Team";
+		scope = 2;
+		displayName = "TTT Helm I (US Desert)";
+		hiddenSelectionsTextures[] = {"z\ttt\addons\helmets\data\TTT_helmet_1_us_desert.paa"};
+	};
+	
+	class TTT_Helmet_2_US_Desert : TTT_Helmet_1_US_Desert {
+		author = "Tactical Training Team";
+		displayName = "TTT Helm II (US Desert)";
+		hiddenSelectionsTextures[] = {"z\ttt\addons\helmets\data\TTT_helmet_2_us_desert.paa"};
+	};
+	
+	class TTT_Helmet_3_US_Desert : TTT_Helmet_1_US_Desert {
+		author = "Tactical Training Team";
+		displayName = "TTT Helm III (US Desert)";
+		hiddenSelectionsTextures[] = {"z\ttt\addons\helmets\data\TTT_helmet_3_us_desert.paa"};
+	};
+	
+	class TTT_Helmet_4_US_Desert : TTT_Helmet_1_US_Desert {
+		author = "Tactical Training Team";
+		displayName = "TTT Helm IV (US Desert)";
+		hiddenSelectionsTextures[] = {"z\ttt\addons\helmets\data\TTT_helmet_4_us_desert.paa"};
+	};
+	
+	class TTT_Helmet_5_US_Desert : TTT_Helmet_1_US_Desert {
+		author = "Tactical Training Team";
+		displayName = "TTT Helm V (US Desert)";
+		hiddenSelectionsTextures[] = {"z\ttt\addons\helmets\data\TTT_helmet_5_us_desert.paa"};
+	};
+	
+	class TTT_Helmet_6_US_Desert : TTT_Helmet_1_US_Desert {
+		author = "Tactical Training Team";
+		displayName = "TTT Helm VI (US Desert)";
+		hiddenSelectionsTextures[] = {"z\ttt\addons\helmets\data\TTT_helmet_6_us_desert.paa"};
+	};
+	
+	class TTT_Helmet_7_US_Desert : TTT_Helmet_1_US_Desert {
+		author = "Tactical Training Team";
+		displayName = "TTT Helm VII (US Desert)";
+		hiddenSelectionsTextures[] = {"z\ttt\addons\helmets\data\TTT_helmet_7_us_desert.paa"};
+	};
+	
+	class TTT_Helmet_8_US_Desert : TTT_Helmet_1_US_Desert {
+		author = "Tactical Training Team";
+		displayName = "TTT Helm VIII (US Desert)";
+		hiddenSelectionsTextures[] = {"z\ttt\addons\helmets\data\TTT_helmet_8_us_desert.paa"};
+	};
+
+	class TTT_Helmet_9_US_Desert : TTT_Helmet_1_US_Desert {
+		author = "Tactical Training Team";
+		displayName = "TTT Helm IX (US Desert)";
+		hiddenSelectionsTextures[] = {"z\ttt\addons\helmets\data\TTT_helmet_9_us_desert.paa"};
+	};
+
+	class TTT_Helmet_10_US_Desert : TTT_Helmet_1_US_Desert {
+		author = "Tactical Training Team";
+		displayName = "TTT Helm X (US Desert)";
+		hiddenSelectionsTextures[] = {"z\ttt\addons\helmets\data\TTT_helmet_10_us_desert.paa"};
+	};
+
+	class TTT_Helmet_11_US_Desert : TTT_Helmet_1_US_Desert {
+		author = "Tactical Training Team";
+		displayName = "TTT Helm XI (US Desert)";
+		hiddenSelectionsTextures[] = {"z\ttt\addons\helmets\data\TTT_helmet_11_us_desert.paa"};
+	};
 };

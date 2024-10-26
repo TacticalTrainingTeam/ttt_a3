@@ -110,7 +110,7 @@ class CfgWeapons {
 	class TTT_Vest_Heavy_Green_US_Desert : TTT_Vest_Heavy_Base {
 		author = "TacticalTrainingTeam";
 		scope = 2;
-		displayName = "TTT Schwere Weste Gruen (US Desert)";
+		displayName = "TTT Schwere Weste Grün (US Desert)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"z\ttt\addons\vests\data\TTT_vest_green_us_desert_co.paa"};
 	};
@@ -118,7 +118,7 @@ class CfgWeapons {
 	class TTT_Vest_Lite_Green_US_Desert : TTT_Vest_Lite_Base {
 		author = "TacticalTrainingTeam";
 		scope = 2;
-		displayName = "TTT Leichte Weste Gruen (US Desert)";
+		displayName = "TTT Leichte Weste Grün (US Desert)";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"z\ttt\addons\vests\data\TTT_vest_green_us_desert_co.paa"};
 	};
