@@ -1,12 +1,12 @@
 name = "TTT-Mod 0.0.0";
-picture = "TTT_logo_ca.paa";
+picture = "logo_ttt_ca.paa";
 actionName = "Website";
 action = "https://tacticalteam.de";
 description = "TTT-Mod - Version 0.0.0";
-logo = "TTT_logo_ca.paa";
-logoOver = "TTT_logo_ca.paa";
+logo = "logo_ttt_ca.paa";
+logoOver = "logo_ttt_ca.paa";
 tooltip = "TacticalTrainingTeam";
 tooltipOwned = "TTT Owned";
 overview = "This Mod adds scripts, assets and config fixes for the TTT.";
 author = "TacticalTrainingTeam";
-overviewPicture = "TTT_logo_ca.paa";
+overviewPicture = "logo_ttt_ca.paa";

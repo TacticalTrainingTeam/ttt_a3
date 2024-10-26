@@ -3,6 +3,8 @@
 workshop = [
     "463939057", # ACE3's Workshop ID
     "450814997", # CBA_A3's Workshop ID
+    "2369477168", # Advanced Developer Tools' Workshop ID
+    "751965892", #  ACRE's Workshop ID
 ]
 #optionals = []
 #mission = "test.VR" # Mission to launch directly into the editor with
@@ -23,5 +25,5 @@ parameters = [
 [ttt]
 extends = "default"
 dlc = [
-    "contact",
+
 ]

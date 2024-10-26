@@ -8,6 +8,6 @@ Includes some basic and general stuff.
 
 Increases the carry capacity of vanilla Radio Packpacks so ACRE backpack radios will fit inside.
 
-## compat cfg
+## compat_cfg
 
 Makes certain Backpack and Vests ACE Wirecutters.
