@@ -1,6 +1,6 @@
 name = "TTT-Mod"
-author = "Andx"
-prefix = "ttt_mod"
+author = "TacticalTrainingTeam"
+prefix = "ttt"
 mainprefix = "z"
 
 [version]
@@ -11,9 +11,10 @@ build = 1 # Optional
 
 git_hash = 8 # Default: 8
 
+
+
 [files]
 exclude = [
-    "README.md",
     "*.psd",
     "*.png",
     "*.tga",
@@ -31,3 +32,6 @@ command_case = true
 
 [properties]
 url = "https://github.com/Andx667/TTT-Mod"
+
+[hemtt.signing]
+authority = "TacticalTrainingTeam"

@@ -9,8 +9,9 @@ workshop = [
 #optionals = []
 #mission = "test.VR" # Mission to launch directly into the editor with
 parameters = [
-
+    "-world=empty",
 ]
+mission = "ttt_test.VR"
 
 #executable = "arma3_x64" # Default: "arma3_x64"
 #file_patching = true # Default: true
