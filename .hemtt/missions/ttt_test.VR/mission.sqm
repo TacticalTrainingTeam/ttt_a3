@@ -6,23 +6,52 @@ class EditorData
 	scaleGridStep=1;
 	autoGroupingDist=10;
 	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=12;
+	};
 	class Camera
 	{
-		pos[]={5050.1211,15,6795.3457};
-		dir[]={-0.94259268,-0.17364818,-0.2852461};
-		up[]={-0.16620451,0.98480779,-0.050296586};
-		aside[]={-0.28964648,7.4505806e-09,0.95713371};
+		pos[]={4814.4873,30,6855.8594};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
 sourceName="ttt_test";
+addons[]=
+{
+	"A3_Characters_F",
+	"ttt_signs"
+};
 class AddonsMetaData
 {
+	class List
+	{
+		items=2;
+		class Item0
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="ttt_signs";
+			name="TTT Signs";
+			author="Tactical Training Team";
+		};
+	};
 };
 randomSeed=2094387;
 class ScenarioData
 {
 	author="&x";
+};
+class CustomAttributes
+{
 };
 class Mission
 {
@@ -44,5 +73,83 @@ class Mission
 		minute=37;
 		startFogDecay=0.014;
 		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=4;
+		class Item0
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4814.4873,5.0014391,6880.9092};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=1;
+					type="B_Soldier_A_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=0;
+		};
+		class Item1
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4816.0273,8.9768047,6896.1567};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=9;
+			type="TTT_Flag_Logo";
+		};
+		class Item2
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4814.2505,6.0410533,6896.145};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=10;
+			type="TTT_Sign_Large_Logo";
+		};
+		class Item3
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4817.6587,5.7914262,6895.6499};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=11;
+			type="TTT_Sign_Small_Logo";
+		};
 	};
 };
