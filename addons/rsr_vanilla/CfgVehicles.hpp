@@ -6,7 +6,7 @@ class CfgVehicles
 
 	class rsr_fennek_transport_flecktarn: I_MRAP_03_F {
 		author="RsR";
-		displayName="Fennek";
+		displayName="Fennek (Flecktarn)";
 		typicalCargo[]=	{
 			"B_Soldier_F"
 		};
