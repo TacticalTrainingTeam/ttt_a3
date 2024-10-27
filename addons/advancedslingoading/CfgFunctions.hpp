@@ -4,7 +4,7 @@ class CfgFunctions
 	{
 		class AdvancedSlingLoading
 		{
-			file="functions\fn_AdvancedSlingLoadingInit.sqf";
+			file="z\ttt\addons\advancedslingloading\functions\fn_AdvancedSlingLoadingInit.sqf";
 			class advancedSlingLoadingInit
 			{
 				postInit=1;

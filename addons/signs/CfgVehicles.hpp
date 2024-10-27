@@ -94,7 +94,7 @@ class CfgVehicles {
 	};
 
 	class TTT_Flag_Green : TTT_Flag_Logo {
-		displayName = "TTT Flagge Gruen";
+		displayName = "TTT Flagge Grün";
 
 		class EventHandlers {
 			init = "(_this select 0) setFlagTexture 'z\ttt\addons\signs\data\ttt_logo_gruen_co.paa'";

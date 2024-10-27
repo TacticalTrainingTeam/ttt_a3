@@ -5,7 +5,6 @@ class CfgWeapons {
     class U_B_CombatUniform_mcam : UniformBase { class ItemInfo; };	
     
 	//US Desert
-
 	class TT_Uniform_Base_US : U_B_CombatUniform_mcam {
 		scope = 0;
 		displayName = "TTT Uniform Base US";
@@ -128,16 +127,6 @@ class CfgWeapons {
 			uniformClass = "TTT_White_US_Desert";
 		};
 	};
-	
-	class TTT_Uniform_Silver_US_Desert : TT_Uniform_Base_US {
-		author = "Tactical Training Team";
-		scope = 2;
-		displayName = "TTT Uniform Silber (US Desert)";
-		ACE_GForceCoef = 0.55;
-        class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Silver_US_Desert";
-		};
-	};
 
 	class TTT_Uniform_Orange_US_Desert : TT_Uniform_Base_US {
 		author = "Tactical Training Team";
@@ -146,6 +135,16 @@ class CfgWeapons {
 		
         class ItemInfo : ItemInfo {
 			uniformClass = "TTT_Orange_Us_Desert";
+		};
+	}; 
+
+	class TTT_Uniform_Platin_US_Desert : TT_Uniform_Base_US {
+		author = "Tactical Training Team";
+		scope = 2;
+		displayName = "TTT Uniform Platin (US Desert)";
+		ACE_GForceCoef = 0.55;
+        class ItemInfo : ItemInfo {
+			uniformClass = "TTT_Platin_Us_Desert";
 		};
 	}; 
 
@@ -206,7 +205,7 @@ class CfgWeapons {
 	class TTT_Uniform_Green_BW_Tropentarn : TTT_Uniform_Base_BW {
 		author = "Tactical Training Team";
 		scope = 2;
-		displayName = "TTT Uniform Gruen (BW Tropentarn)";
+		displayName = "TTT Uniform Grün (BW Tropentarn)";
 		
         class ItemInfo : ItemInfo {
 			uniformClass = "TTT_Green_BW_Tropentarn";
@@ -282,16 +281,6 @@ class CfgWeapons {
 			uniformClass = "TTT_White_BW_Tropentarn";
 		};
 	};
-	
-	class TTT_Uniform_Silver_BW_Tropentarn : TTT_Uniform_Base_BW {
-		author = "Tactical Training Team";
-		scope = 2;
-		displayName = "TTT Uniform Silber (BW Tropentarn)";
-		ACE_GForceCoef = 0.55;
-        class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Silver_BW_Tropentarn";
-		};
-	};
 
 	//BW Fleck
 	class TTT_Uniform_Yellow_BW_Flecktarn : TTT_Uniform_Yellow_BW_Tropentarn {
@@ -332,7 +321,7 @@ class CfgWeapons {
 	
 	class TTT_Uniform_Green_BW_Flecktarn : TTT_Uniform_Green_BW_Tropentarn {
 		author = "Tactical Training Team";
-		displayName = "TTT Uniform Gruen (Flecktarn)";
+		displayName = "TTT Uniform Grün (Flecktarn)";
 		
         class ItemInfo : ItemInfo {
 			uniformClass = "TTT_Green_BW_Flecktarn";
@@ -402,12 +391,21 @@ class CfgWeapons {
 		};
 	};
 	
-	class TTT_Uniform_Silver_BW_Flecktarn : TTT_Uniform_Silver_BW_Tropentarn {
+	class TTT_Uniform_Silver_BW_Flecktarn : TTT_Uniform_White_BW_Tropentarn {
 		author = "Tactical Training Team";
 		displayName = "TTT Uniform Silber (Flecktarn)";
-		
+		ACE_GForceCoef = 0.55;
         class ItemInfo : ItemInfo {
 			uniformClass = "TTT_Silver_BW_Flecktarn";
+		};
+	};
+
+	class TTT_Uniform_Platin_Pilot : TTT_Uniform_White_BW_Tropentarn {
+		author = "Tactical Training Team";
+		displayName = "TTT Uniform Platin (Pilot)";
+		ACE_GForceCoef = 0.55;
+        class ItemInfo : ItemInfo {
+			uniformClass = "TTT_Platin_Pilot";
 		};
 	};
 };

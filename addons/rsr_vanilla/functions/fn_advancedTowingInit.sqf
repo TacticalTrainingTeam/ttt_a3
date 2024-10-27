@@ -39,7 +39,7 @@ if(_canFloat && (_returnSurfaceASL select 2) < 0) then { \
 }; \
 
 #define SA_Find_Surface_ASL_Under_Model(_object,_modelOffset,_returnSurfaceASL,_canFloat) \
-SA_Find_Surface_ASL_Under_Position(_object, (_object modelToWorldVisual _modelOffset), _returnSurfaceASL,_canFloat);
+SA_Find_Surface_ASL_Under_Position(_object,(_object modelToWorldVisual _modelOffset),_returnSurfaceASL,_canFloat);
 			
 #define SA_Find_Surface_AGL_Under_Model(_object,_modelOffset,_returnSurfaceAGL,_canFloat) \
 SA_Find_Surface_ASL_Under_Model(_object,_modelOffset,_returnSurfaceAGL,_canFloat); \
@@ -132,7 +132,7 @@ SA_Simulate_Towing = {
 	private ["_cargoCenterASL","_surfaceHeight","_surfaceHeight2","_maxSurfaceHeight"];
 	
 	_maxVehicleSpeed = getNumber (configFile >> "CfgVehicles" >> typeOf _vehicle >> "maxSpeed");
-	_cargoCanFloat = if( getNumber (configFile >> "CfgVehicles" >> typeOf _cargo >> "canFloat") == 1 ) then { true } else { false };
+	_cargoCanFloat = [false, true] select (getNumber (((configFile >> "CfgVehicles") >> typeOf _cargo) >> "canFloat") == 1);
 	
 	private ["_cargoCenterOfMassAGL","_cargoModelCenterGroundPosition"];
 	SA_Find_Surface_AGL_Under_Model(_cargo,getCenterOfMass _cargo,_cargoCenterOfMassAGL,_cargoCanFloat);
@@ -687,7 +687,7 @@ SA_Is_Supported_Vehicle = {
 			(typeOf _vehicle == "rsr_bergepanzer_tropentarn") or (typeOf _vehicle == "rsr_wisent_repair_tropentarn")) then {
 				_isSupported = true;
 			};
-		} forEach (missionNamespace getVariable ["SA_TOW_SUPPORTED_VEHICLES_OVERRIDE",SA_TOW_SUPPORTED_VEHICLES]);
+		} forEach (missionNamespace getVariable ["SA_TOW_SUPPORTED_VEHICLES_OVERRIDE",SA_Tow_Supported_Vehicles]);
 	};
 	_isSupported;
 };
@@ -719,7 +719,7 @@ SA_Is_Supported_Cargo = {
 					};
 				};
 			};
-		} forEach (missionNamespace getVariable ["SA_TOW_RULES_OVERRIDE",SA_TOW_RULES]);
+		} forEach (missionNamespace getVariable ["SA_TOW_RULES_OVERRIDE",SA_Tow_Rules]);
 	};
 	_canTow;
 };
@@ -782,7 +782,7 @@ SA_Find_Nearby_Tow_Vehicles = {
 	_nearVehicles = [];
 	{
 		_nearVehicles append  (position player nearObjects [_x, 30]);
-	} forEach (missionNamespace getVariable ["SA_TOW_SUPPORTED_VEHICLES_OVERRIDE",SA_TOW_SUPPORTED_VEHICLES]);
+	} forEach (missionNamespace getVariable ["SA_TOW_SUPPORTED_VEHICLES_OVERRIDE",SA_Tow_Supported_Vehicles]);
 	_nearVehiclesWithTowRopes = [];
 	{
 		_vehicle = _x;
@@ -845,12 +845,12 @@ if(isServer) then {
 	
 	// Adds support for exile network calls (Only used when running exile) //
 	
-	SA_SUPPORTED_REMOTEEXECSERVER_FUNCTIONS = ["SA_Set_Owner","SA_Hide_Object_Global"];
+	SA_Supported_RemoteExecServer_Functions = ["SA_Set_Owner","SA_Hide_Object_Global"];
 	
 	ExileServer_AdvancedTowing_network_AdvancedTowingRemoteExecServer = {
 		params ["_sessionId", "_messageParameters",["_isCall",false]];
 		_messageParameters params ["_params","_functionName"];
-		if(_functionName in SA_SUPPORTED_REMOTEEXECSERVER_FUNCTIONS) then {
+		if(_functionName in SA_Supported_RemoteExecServer_Functions) then {
 			if(_isCall) then {
 				_params call (missionNamespace getVariable [_functionName,{}]);
 			} else {
@@ -859,12 +859,12 @@ if(isServer) then {
 		};
 	};
 	
-	SA_SUPPORTED_REMOTEEXECCLIENT_FUNCTIONS = ["SA_Simulate_Towing","SA_Attach_Tow_Ropes","SA_Take_Tow_Ropes","SA_Put_Away_Tow_Ropes","SA_Pickup_Tow_Ropes","SA_Drop_Tow_Ropes","SA_Hint"];
+	SA_Supported_RemoteExecClient_Functions = ["SA_Simulate_Towing","SA_Attach_Tow_Ropes","SA_Take_Tow_Ropes","SA_Put_Away_Tow_Ropes","SA_Pickup_Tow_Ropes","SA_Drop_Tow_Ropes","SA_Hint"];
 	
 	ExileServer_AdvancedTowing_network_AdvancedTowingRemoteExecClient = {
 		params ["_sessionId", "_messageParameters"];
 		_messageParameters params ["_params","_functionName","_target",["_isCall",false]];
-		if(_functionName in SA_SUPPORTED_REMOTEEXECCLIENT_FUNCTIONS) then {
+		if(_functionName in SA_Supported_RemoteExecClient_Functions) then {
 			if(_isCall) then {
 				_params remoteExecCall [_functionName, _target];
 			} else {

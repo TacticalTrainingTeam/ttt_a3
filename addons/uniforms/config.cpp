@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		// Meta information for editor
 		name = "TTT Uniformen";
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		//authors[] = {"Reimchen","Andx"};
 		url = "https://tacticalteam.de";
 
@@ -27,8 +27,9 @@ class CfgPatches
 			"TTT_Uniform_Blue_US_Desert",
 			"TTT_Uniform_Grey_US_Desert",
 			"TTT_Uniform_Gold_US_Desert",
-			"TTT_Uniform_Silver_US_Desert",
+			//"TTT_Uniform_Silver_US_Desert", //.paa fehlt
 			"TTT_Uniform_Orange_US_Desert",
+			"TTT_Uniform_Platin_US_Desert",
 
 			"TTT_Uniform_Yellow_BW_Tropentarn",
 			"TTT_Uniform_Green_BW_Tropentarn",
@@ -53,8 +54,10 @@ class CfgPatches
 			"TTT_Uniform_White_BW_Flecktarn",
 			"TTT_Uniform_Grey_BW_Flecktarn",
 			"TTT_Uniform_Gold_BW_Flecktarn",
-			"TTT_Uniform_Silver_BW_Flecktarn",
+			//"TTT_Uniform_Silver_BW_Flecktarn", //.paa fehlt
 			"TTT_Uniform_Orange_BW_Flecktarn",
+
+			"TTT_Uniform_Platin_Pilot",
 		};
 
 		// Optional. If this is 1, if any of requiredAddons[] entry is missing in your game the entire config will be ignored and return no error (but in rpt) so useful to make a compat Mod (Since Arma 3 2.14)
