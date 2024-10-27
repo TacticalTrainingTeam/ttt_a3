@@ -13,7 +13,7 @@ class CfgWeapons {
 		class ItemInfo : ItemInfo {
 			hiddenSelections[] = { "camo" };
 			uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light.p3d";
-			allowedSlots[] = {605,701,901};
+			allowedSlots[] = {605,701,901}; //allowedSlots[] is an array of slot numbers where you may put the weapon. 701 stands for vest, 801 stands for uniform, 901 stands for backpack
 		};
 	};
 

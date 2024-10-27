@@ -23,7 +23,7 @@ class CfgWeapons
 	};
 	class optic_DMS: ItemCore
 	{
-		descriptionShort="DMS<br />magnification: 2x-4x<br/>NightVision";
+		descriptionShort="Burris XTR II<br />magnification: 2x-4x<br/>NightVision";
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
 			class OpticsModes
@@ -41,7 +41,7 @@ class CfgWeapons
 	};
 	class optic_LRPS: ItemCore
 	{
-		descriptionShort="Long-Range Precision Scope<br />Magnification: 6x-25x";
+		descriptionShort="Nightforce NXS<br />Magnification: 5,6x-22,7x";
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
 			class OpticsModes
@@ -59,7 +59,7 @@ class CfgWeapons
 	};
 	class optic_AMS_base: ItemCore
 	{
-		descriptionShort="Advanced Marksman Scope<br />Magnification:3x-10x<br />NightVision";
+		descriptionShort="US Optics MR 10<br />Magnification:2,9x-8,8x<br />NightVision";
 		DLC="Mark";
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
@@ -78,7 +78,7 @@ class CfgWeapons
 	};
 	class optic_KHS_base: ItemCore
 	{
-		descriptionShort="Kahlia<br />Magnification: 5x-11x<br/>NightVision";
+		descriptionShort="KAHLES Helia<br />Magnification: 4,2x-9,6x<br/>NightVision";
 		DLC="Mark";
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{

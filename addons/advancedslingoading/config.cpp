@@ -1,17 +1,17 @@
 class CfgPatches
 {
-	class ttt_nvgscopes
+	class ttt_advancedslingloading
 	{
 		// Meta information for editor
-		name = "TTT NVGs for Scopes";
-		author = "Tactical Training Team";
+		name = "Advanced Slingloading";
+		author = "Andx";
 		url = "https://tacticalteam.de";
 
 		// Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
 		requiredVersion = 1.60;
 		// Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
 		// When any of the addons are missing, a pop-up warning will appear when launching the game.
-		requiredAddons[] = {"A3_Weapons_F_Acc", "A3_Weapons_F_Mark_Acc", "ttt_main"};
+		requiredAddons[] = {"ttt_main"};
 		// List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
 		units[] = {};
 		// List of weapons (CfgWeapons classes) contained in the addon.
@@ -22,4 +22,5 @@ class CfgPatches
 	};
 };
 
-#include "CfgWeapons.hpp"
+#include "CfgFunctions.hpp"
+#include "CfgNetworkMessages.hpp"

@@ -1,17 +1,17 @@
 class CfgPatches
 {
-	class ttt_compat_cfp_backpack
+	class ttt_compat_vanilla_scopes
 	{
 		// Meta information for editor
-		name = "Compat CFG Backpack";
-		author = "Andx";
+		name = "TTT Compat Vanillas Scopes";
+		author = "Tactical Training Team";
 		url = "https://tacticalteam.de";
 
 		// Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
 		requiredVersion = 1.60;
 		// Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
 		// When any of the addons are missing, a pop-up warning will appear when launching the game.
-		requiredAddons[] = {"ttt_main", "ace_logistics_wirecutter", "cfp_main"};
+		requiredAddons[] = {"A3_Weapons_F_Acc", "A3_Weapons_F_Mark_Acc", "ttt_main"};
 		// List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
 		units[] = {};
 		// List of weapons (CfgWeapons classes) contained in the addon.
@@ -22,4 +22,4 @@ class CfgPatches
 	};
 };
 
-#include "CfgVehicles.hpp"
+#include "CfgWeapons.hpp"

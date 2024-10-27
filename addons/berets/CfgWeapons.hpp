@@ -16,7 +16,7 @@ class CfgWeapons {
 	
 		class ItemInfo : ItemInfo {
 			mass = 6;
-			allowedSlots[] = {801, 901, 701, 605};
+			allowedSlots[] = {801, 901, 701}; //allowedSlots[] is an array of slot numbers where you may put the weapon. 701 stands for vest, 801 stands for uniform, 901 stands for backpack
 			uniformModel = "\A3\Characters_f_epb\BLUFOR\headgear_beret02.p3d";
 			modelSides[] = {6};
 		};

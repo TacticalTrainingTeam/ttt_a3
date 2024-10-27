@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=8;
+		nextID=10;
 	};
 	class Camera
 	{
 		pos[]={4815.937,13.101888,6871.6177};
-		dir[]={-0.60974848,-0.60422897,0.51294667};
-		up[]={-0.46237791,0.79681069,0.38897219};
-		aside[]={0.64374965,0,0.76523626};
+		dir[]={-0.31066421,-0.63193959,0.71002829};
+		up[]={-0.25331166,0.77501762,0.57894808};
+		aside[]={0.91614467,0,0.40084791};
 	};
 };
 binarizationWanted=0;
@@ -27,7 +27,6 @@ sourceName="ttt_test";
 addons[]=
 {
 	"A3_Characters_F",
-	"CUP_Creatures_Military_SLA",
 	"ttt_signs",
 	"A3_Data_F_Exp_A_Virtual",
 	"A3_Modules_F_Curator_Curator",
@@ -38,7 +37,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=7;
+		items=6;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -48,38 +47,33 @@ class AddonsMetaData
 		};
 		class Item1
 		{
-			className="CUP_Creatures_Military_SLA";
-			name="CUP_Creatures_Military_SLA";
-		};
-		class Item2
-		{
 			className="ttt_signs";
 			name="TTT Signs";
 			author="Tactical Training Team";
 			url="https://tacticalteam.de";
 		};
-		class Item3
+		class Item2
 		{
 			className="A3_Data_F_Exp_A";
 			name="Arma 3 Nexus Update - Main Configuration";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item4
+		class Item3
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item5
+		class Item4
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item6
+		class Item5
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
@@ -90,7 +84,6 @@ class AddonsMetaData
 };
 dlcs[]=
 {
-	"CUP_Units",
 	"Heli"
 };
 randomSeed=2094387;
