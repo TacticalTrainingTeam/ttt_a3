@@ -11,8 +11,6 @@ build = 1 # Optional
 
 git_hash = 8 # Default: 8
 
-
-
 [files]
 exclude = [
     "*.psd",

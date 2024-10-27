@@ -12,7 +12,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=2;
+		nextID=4;
 	};
 	class Camera
 	{
@@ -49,6 +49,7 @@ class AddonsMetaData
 			className="ttt_signs";
 			name="TTT Signs";
 			author="Tactical Training Team";
+			url="https://tacticalteam.de";
 		};
 		class Item2
 		{
@@ -77,6 +78,9 @@ randomSeed=2094387;
 class ScenarioData
 {
 	author="&x";
+};
+class CustomAttributes
+{
 };
 class Mission
 {
