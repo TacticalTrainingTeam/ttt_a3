@@ -1,20 +1,14 @@
-class CfgFunctions
-{
-	class rsr_vanilla
-	{
+class CfgFunctions {
+	class rsr_vanilla {
 		tag="RsR";
-		class init
-		{
+		class init {
 			file="z\ttt\addons\rsr_vanilla\functions";
-			class advancedTowingInit
-			{
+			class advancedTowingInit {
 				postInit=1;
 			};
-			class removeTurretWeapons
-			{
+			class removeTurretWeapon {
 			};
-			class fired
-			{
+			class fired	{
 			};
 		};
 	};

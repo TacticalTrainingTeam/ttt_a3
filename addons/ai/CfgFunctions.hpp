@@ -1,8 +1,9 @@
 class CfgFunctions {
 	class fix_ai {
 		class init {
-			class fix_ai_init {
-				file = "z\ttt\addons\ai\ai.sqf";
+			file = "z\ttt\addons\ai\functions";
+			class ai {
+
 				postInit = 1;
 			};
 		};		

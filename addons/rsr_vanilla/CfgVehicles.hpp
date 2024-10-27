@@ -3,12 +3,11 @@ class CfgVehicles
 	class I_MRAP_03_F;
 	class I_MRAP_03_hmg_F;
 	class I_MRAP_03_gmg_F;
-	class rsr_fennek_transport_flecktarn: I_MRAP_03_F
-	{
+
+	class rsr_fennek_transport_flecktarn: I_MRAP_03_F {
 		author="RsR";
-		displayName="Fennek - Transport Flecktarn";
-		typicalCargo[]=
-		{
+		displayName="Fennek";
+		typicalCargo[]=	{
 			"B_Soldier_F"
 		};
 		side=1;
@@ -16,19 +15,15 @@ class CfgVehicles
 		editorPreview="";
 		editorCategory="rsrVehicles";
 		editorSubcategory="rsrCar";
-		hiddenSelectionsTextures[]=
-		{
+		hiddenSelectionsTextures[]=	{
 			"z\ttt\addons\rsr_vanilla\data\fennek\fennek_flecktarn_ext_co",
 			"z\ttt\addons\rsr_vanilla\data\fennek\fennek_flecktarn_turret_co"
 		};
-		class TextureSources
-		{
-			class fennek_flecktarn
-			{
-				displayName="Fennek Flecktarn";
+		class TextureSources {
+			class fennek_flecktarn	{
+				displayName="Fennek (Flecktarn)";
 				author="Redd";
-				textures[]=
-				{
+				textures[]=	{
 					"z\ttt\addons\rsr_vanilla\data\fennek\fennek_flecktarn_ext_co",
 					"z\ttt\addons\rsr_vanilla\data\fennek\fennek_flecktarn_turret_co"
 				};
@@ -39,7 +34,7 @@ class CfgVehicles
 			};
 			class fennek_tropentarn
 			{
-				displayName="Fennek Tropentarn";
+				displayName="Fennek (Tropentarn)";
 				author="Redd";
 				textures[]=
 				{
@@ -60,17 +55,15 @@ class CfgVehicles
 				count=1;
 			};
 		};
-		class TransportWeapons
-		{
+		class TransportWeapons {
 		};
-		class TransportMagazines
-		{
+		class TransportMagazines {
 		};
 	};
-	class rsr_fennek_transport_tropentarn: rsr_fennek_transport_flecktarn
-	{
+
+	class rsr_fennek_transport_tropentarn: rsr_fennek_transport_flecktarn {
 		author="RsR";
-		displayName="Fennek - Transport Tropentarn";
+		displayName="Fennek (Tropentarn)";
 		_generalMacro="I_MRAP_03_F";
 		editorPreview="";
 		hiddenSelectionsTextures[]=
@@ -82,7 +75,7 @@ class CfgVehicles
 	class rsr_fennek_hmg_flecktarn: I_MRAP_03_hmg_F
 	{
 		author="RsR";
-		displayName="Fennek - HMG FLecktarn";
+		displayName="Fennek HMG (Flecktarn)";
 		_generalMacro="I_MRAP_03_F";
 		typicalCargo[]=
 		{
@@ -102,7 +95,7 @@ class CfgVehicles
 		{
 			class fennek_flecktarn
 			{
-				displayName="Fennek Flecktarn";
+				displayName="Fennek (Flecktarn)";
 				author="Redd";
 				textures[]=
 				{
@@ -116,7 +109,7 @@ class CfgVehicles
 			};
 			class fennek_tropentarn
 			{
-				displayName="Fennek Tropentarn";
+				displayName="Fennek (Tropentarn)";
 				author="Redd";
 				textures[]=
 				{
@@ -147,7 +140,7 @@ class CfgVehicles
 	class rsr_fennek_hmg_tropentarn: rsr_fennek_hmg_flecktarn
 	{
 		author="RsR";
-		displayName="Fennek - HMG Tropentarn";
+		displayName="Fennek HMG (Tropentarn)";
 		_generalMacro="I_MRAP_03_F";
 		editorPreview="";
 		hiddenSelectionsTextures[]=
@@ -159,7 +152,7 @@ class CfgVehicles
 	class rsr_fennek_gmg_flecktarn: I_MRAP_03_gmg_F
 	{
 		author="RsR";
-		displayName="Fennek - GMG Flecktarn";
+		displayName="Fennek GMW (Flecktarn)";
 		_generalMacro="I_MRAP_03_F";
 		typicalCargo[]=
 		{
@@ -179,7 +172,7 @@ class CfgVehicles
 		{
 			class fennek_flecktarn
 			{
-				displayName="Fennek Flecktarn";
+				displayName="Fennek (Flecktarn)";
 				author="Redd";
 				textures[]=
 				{
@@ -193,7 +186,7 @@ class CfgVehicles
 			};
 			class fennek_tropentarn
 			{
-				displayName="Fennek Tropentarn";
+				displayName="Fennek (Tropentarn)";
 				author="Redd";
 				textures[]=
 				{
@@ -224,7 +217,7 @@ class CfgVehicles
 	class rsr_fennek_gmg_tropentarn: rsr_fennek_gmg_flecktarn
 	{
 		author="RsR";
-		displayName="Fennek - GMG Tropentarn";
+		displayName="Fennek GMW (Tropentarn)";
 		_generalMacro="I_MRAP_03_F";
 		editorPreview="";
 		hiddenSelectionsTextures[]=
@@ -237,7 +230,7 @@ class CfgVehicles
 	class rsr_bergepanzer_flecktarn: B_APC_Tracked_01_CRV_F
 	{
 		author="RsR";
-		displayName="Bergepanzer Flecktarn";
+		displayName="Bergepanzer (Flecktarn)";
 		_generalMacro="B_APC_Tracked_01_CRV_F";
 		typicalCargo[]=
 		{
@@ -263,7 +256,7 @@ class CfgVehicles
 		{
 			class bergepanzer_flecktarn
 			{
-				displayName="Bergepanzer IV Flecktarn";
+				displayName="Bergepanzer (Flecktarn)";
 				author="Redd";
 				textures[]=
 				{
@@ -279,7 +272,7 @@ class CfgVehicles
 			};
 			class bergepanzer_tropentarn
 			{
-				displayName="Bergepanzer IV Tropentarn";
+				displayName="Bergepanzer (Tropentarn)";
 				author="Redd";
 				textures[]=
 				{
@@ -325,7 +318,7 @@ class CfgVehicles
 	class rsr_bergepanzer_tropentarn: rsr_bergepanzer_flecktarn
 	{
 		author="RsR";
-		displayName="Bergepanzer Tropentarn";
+		displayName="Bergepanzer (Tropentarn)";
 		_generalMacro="B_APC_Tracked_01_CRV_F";
 		editorPreview="";
 		hiddenSelectionsTextures[]=
@@ -345,7 +338,7 @@ class CfgVehicles
 	class rsr_wisent_transport_flecktarn: O_Truck_03_transport_F
 	{
 		author="RsR";
-		displayName="GFF 4 Wisent Flecktarn - Transport";
+		displayName="Wisent offen (Flecktarn)";
 		side=1;
 		crew="B_Soldier_F";
 		editorPreview="";
@@ -370,7 +363,7 @@ class CfgVehicles
 		{
 			class wisent_flecktarn
 			{
-				displayName="Wisent Flecktarn";
+				displayName="Wisent (Flecktarn)";
 				author="Redd";
 				factions[]=
 				{
@@ -385,7 +378,7 @@ class CfgVehicles
 			};
 			class wisent_tropentarn
 			{
-				displayName="Wisent Tropentarn";
+				displayName="Wisent (Tropentarn)";
 				author="Redd";
 				factions[]=
 				{
@@ -403,7 +396,7 @@ class CfgVehicles
 	class rsr_wisent_transport_tropentarn: rsr_wisent_transport_flecktarn
 	{
 		author="RsR";
-		displayName="GFF 4 Wisent Tropentarn - Transport";
+		displayName="Wisent offen (Tropentarn)";
 		_generalMacro="O_Truck_03_transport_F";
 		editorPreview="";
 		hiddenSelectionsTextures[]=
@@ -416,7 +409,7 @@ class CfgVehicles
 	class rsr_wisent_covered_flecktarn: O_Truck_03_covered_F
 	{
 		author="RsR";
-		displayName="GFF 4 Wisent Flecktarn - Plane";
+		displayName="Wisent Plane (Flecktarn)";
 		side=1;
 		crew="B_Soldier_F";
 		editorPreview="";
@@ -442,7 +435,7 @@ class CfgVehicles
 		{
 			class wisent_flecktarn
 			{
-				displayName="Wisent Flecktarn";
+				displayName="Wisent (Flecktarn)";
 				author="Redd";
 				factions[]=
 				{
@@ -458,7 +451,7 @@ class CfgVehicles
 			};
 			class wisent_tropentarn
 			{
-				displayName="Wisent Tropentarn";
+				displayName="Wisent (Tropentarn)";
 				author="Redd";
 				factions[]=
 				{
@@ -477,7 +470,7 @@ class CfgVehicles
 	class rsr_wisent_covered_tropentarn: rsr_wisent_covered_flecktarn
 	{
 		author="RsR";
-		displayName="GFF 4 Wisent Tropentarn - Plane";
+		displayName="Wisent Plane (Tropentarn)";
 		_generalMacro="O_Truck_03_transport_F";
 		editorPreview="";
 		hiddenSelectionsTextures[]=
@@ -491,7 +484,7 @@ class CfgVehicles
 	class rsr_wisent_repair_flecktarn: O_Truck_03_repair_F
 	{
 		author="RsR";
-		displayName="GFF 4 Wisent Flecktarn - Reparatur";
+		displayName="Wisent Reparatur (Flecktarn)";
 		side=1;
 		crew="B_Soldier_F";
 		editorPreview="";
@@ -518,7 +511,7 @@ class CfgVehicles
 		{
 			class wisent_flecktarn
 			{
-				displayName="Wisent Flecktarn";
+				displayName="Wisent (Flecktarn)";
 				author="Redd";
 				factions[]=
 				{
@@ -533,7 +526,7 @@ class CfgVehicles
 			};
 			class wisent_tropentarn
 			{
-				displayName="Wisent Tropentarn";
+				displayName="Wisent (Tropentarn)";
 				author="Redd";
 				factions[]=
 				{
@@ -564,7 +557,7 @@ class CfgVehicles
 	class rsr_wisent_repair_tropentarn: rsr_wisent_repair_flecktarn
 	{
 		author="RsR";
-		displayName="GFF 4 Wisent Tropentarn - Reparatur";
+		displayName="Wisent Reparatur (Tropentarn)";
 		_generalMacro="O_Truck_03_transport_F";
 		editorPreview="";
 		hiddenSelectionsTextures[]=
@@ -577,7 +570,7 @@ class CfgVehicles
 	class rsr_wisent_ammo_flecktarn: O_Truck_03_ammo_F
 	{
 		author="RsR";
-		displayName="GFF 4 Wisent Flecktarn - Munition";
+		displayName="Wisent Munition (Flecktarn)";
 		side=1;
 		crew="B_Soldier_F";
 		editorPreview="";
@@ -606,7 +599,7 @@ class CfgVehicles
 		{
 			class wisent_flecktarn
 			{
-				displayName="Wisent Flecktarn";
+				displayName="Wisent (Flecktarn)";
 				author="Redd";
 				factions[]=
 				{
@@ -622,7 +615,7 @@ class CfgVehicles
 			};
 			class wisent_tropentarn
 			{
-				displayName="Wisent Tropentarn";
+				displayName="Wisent (Tropentarn)";
 				author="Redd";
 				factions[]=
 				{
@@ -641,7 +634,7 @@ class CfgVehicles
 	class rsr_wisent_ammo_tropentarn: rsr_wisent_ammo_flecktarn
 	{
 		author="RsR";
-		displayName="GFF 4 Wisent Tropentarn - Munition";
+		displayName="Wisent Munition (Tropentarn)";
 		_generalMacro="O_Truck_03_transport_F";
 		editorPreview="";
 		hiddenSelectionsTextures[]=
@@ -655,7 +648,7 @@ class CfgVehicles
 	class rsr_wisent_fuel_flecktarn: O_Truck_03_fuel_F
 	{
 		author="RsR";
-		displayName="GFF 4 Wisent Flecktarn - Treibstoff";
+		displayName="Wisent Treibstoff (Flecktarn)";
 		_generalMacro="O_Truck_03_fuel_F";
 		side=1;
 		crew="B_Soldier_F";
@@ -675,7 +668,7 @@ class CfgVehicles
 		{
 			class wisent_flecktarn
 			{
-				displayName="Wisent Flecktarn";
+				displayName="Wisent (Flecktarn)";
 				author="Redd";
 				textures[]=
 				{
@@ -690,7 +683,7 @@ class CfgVehicles
 			};
 			class wisent_tropentarn
 			{
-				displayName="Wisent Tropentarn";
+				displayName="Wisent (Tropentarn)";
 				author="Redd";
 				textures[]=
 				{
@@ -722,7 +715,7 @@ class CfgVehicles
 	class rsr_wisent_fuel_tropentarn: rsr_wisent_fuel_flecktarn
 	{
 		author="RsR";
-		displayName="GFF 4 Wisent Tropentarn - Treibstoff";
+		displayName="Wisent Treibstoff (Tropentarn)";
 		_generalMacro="O_Truck_03_transport_F";
 		editorPreview="";
 		hiddenSelectionsTextures[]=
@@ -735,7 +728,7 @@ class CfgVehicles
 	class rsr_wisent_medical_flecktarn: O_Truck_03_medical_F
 	{
 		author="RsR";
-		displayName="GFF 4 Wisent Flecktarn - San";
+		displayName="Wisent Sanität (Flecktarn)";
 		_generalMacro="O_Truck_03_medical_F";
 		side=1;
 		crew="B_Soldier_F";
@@ -743,6 +736,7 @@ class CfgVehicles
 		editorPreview="";
 		editorCategory="rsrVehicles";
 		editorSubcategory="rsrCar";
+		attendant = 1; //is ACE Medical Vehicle
 		hiddenSelectionsTextures[]=
 		{
 			"z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext01_co",
@@ -754,7 +748,7 @@ class CfgVehicles
 		{
 			class wisent_flecktarn
 			{
-				displayName="Wisent Flecktarn";
+				displayName="Wisent (Flecktarn)";
 				author="Redd";
 				textures[]=
 				{
@@ -770,7 +764,7 @@ class CfgVehicles
 			};
 			class wisent_tropentarn
 			{
-				displayName="Wisent Tropentarn";
+				displayName="Wisent (Tropentarn)";
 				author="Redd";
 				textures[]=
 				{
@@ -803,7 +797,7 @@ class CfgVehicles
 	class rsr_wisent_medical_tropentarn: rsr_wisent_medical_flecktarn
 	{
 		author="RsR";
-		displayName="GFF 4 Wisent Tropentarn - San";
+		displayName="Wisent Sanität (Tropentarn)";
 		_generalMacro="O_Truck_03_medical_F";
 		editorPreview="";
 		hiddenSelectionsTextures[]=

@@ -8,18 +8,18 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=44;
+		nextID=58;
 	};
 	class LayerIndexProvider
 	{
-		nextID=14;
+		nextID=16;
 	};
 	class Camera
 	{
-		pos[]={4813.5381,26.643953,6847.1914};
-		dir[]={0.013973407,-0.58307207,0.81235838};
-		up[]={0.010027827,0.81240076,0.58299845};
-		aside[]={0.99989074,-5.5775672e-07,-0.017199127};
+		pos[]={4814.0688,11.2297,6860.8022};
+		dir[]={0.0071699703,-0.45658842,0.88976711};
+		up[]={0.0036771293,0.88964379,0.45661789};
+		aside[]={1.0000629,-6.1042942e-07,-0.0080569005};
 	};
 };
 binarizationWanted=0;
@@ -31,13 +31,14 @@ addons[]=
 	"A3_Data_F_Exp_A_Virtual",
 	"A3_Modules_F_Curator_Curator",
 	"A3_Ui_F",
-	"A3_Supplies_F_Heli_CargoNets"
+	"A3_Supplies_F_Heli_CargoNets",
+	"ttt_rsr_vanilla"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=6;
+		items=7;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -80,6 +81,13 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item6
+		{
+			className="ttt_rsr_vanilla";
+			name="TTT RSR Vanilla Fahrzeuge";
+			author="TacticalTrainingTeam";
+			url="https://tacticalteam.de";
+		};
 	};
 };
 dlcs[]=
@@ -114,7 +122,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=7;
+		items=10;
 		class Item0
 		{
 			dataType="Group";
@@ -928,6 +936,110 @@ class Mission
 			};
 			title="Arsenal";
 			id=38;
+		};
+		class Item7
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4822.5054,5.0014391,6874.5137};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+					};
+					id=52;
+					type="B_Soldier_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4829.5254,5.0014391,6875.2715};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=54;
+					type="B_Soldier_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=2;
+				};
+				class Links
+				{
+					items=2;
+					class Item0
+					{
+						linkID=0;
+						item0=52;
+						item1=51;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=54;
+						item1=53;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+				};
+			};
+			id=50;
+		};
+		class Item8
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4822.5054,7.416501,6874.4624};
+			};
+			side="West";
+			flags=6;
+			class Attributes
+			{
+			};
+			id=51;
+			type="rsr_wisent_covered_flecktarn";
+		};
+		class Item9
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4825.8003,7.416501,6874.5059};
+			};
+			side="West";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=53;
+			type="rsr_wisent_transport_flecktarn";
 		};
 	};
 };
