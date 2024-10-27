@@ -8,18 +8,18 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=59;
+		nextID=67;
 	};
 	class LayerIndexProvider
 	{
-		nextID=22;
+		nextID=26;
 	};
 	class Camera
 	{
-		pos[]={4817.3613,7.3521399,6880.4653};
-		dir[]={-0.82685488,-0.42833206,0.36450773};
-		up[]={-0.39194286,0.90361989,0.1727825};
-		aside[]={0.40338376,2.0279913e-07,0.9150421};
+		pos[]={4876.813,39.029583,6908.5015};
+		dir[]={-0.81772166,-0.50311053,-0.27976245};
+		up[]={-0.47602579,0.86422092,-0.16286017};
+		aside[]={-0.32371134,7.5530261e-07,0.94618571};
 	};
 };
 binarizationWanted=0;
@@ -27,9 +27,6 @@ sourceName="ttt_test";
 addons[]=
 {
 	"A3_Characters_F",
-	"CUP_Weapons_AWM",
-	"CUP_Weapons_West_Attachments",
-	"CUP_Weapons_Ammunition",
 	"ttt_signs",
 	"A3_Data_F_Exp_A_Virtual",
 	"A3_Modules_F_Curator_Curator",
@@ -40,7 +37,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=9;
+		items=6;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -50,48 +47,33 @@ class AddonsMetaData
 		};
 		class Item1
 		{
-			className="CUP_Weapons_AWM";
-			name="CUP_Weapons_AWM";
-		};
-		class Item2
-		{
-			className="CUP_Weapons_West_Attachments";
-			name="CUP_Weapons_West_Attachments";
-		};
-		class Item3
-		{
-			className="CUP_Weapons_Ammunition";
-			name="CUP_Weapons_Ammunition";
-		};
-		class Item4
-		{
 			className="ttt_signs";
 			name="TTT Signs";
 			author="Tactical Training Team";
 			url="https://tacticalteam.de";
 		};
-		class Item5
+		class Item2
 		{
 			className="A3_Data_F_Exp_A";
 			name="Arma 3 Nexus Update - Main Configuration";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item6
+		class Item3
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item7
+		class Item4
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item8
+		class Item5
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
@@ -102,16 +84,12 @@ class AddonsMetaData
 };
 dlcs[]=
 {
-	"CUP_Weapons",
 	"Heli"
 };
 randomSeed=2094387;
 class ScenarioData
 {
 	author="&x";
-};
-class CustomAttributes
-{
 };
 class Mission
 {
@@ -157,25 +135,6 @@ class Mission
 					{
 						name="zeus_01";
 						isPlayer=1;
-						class Inventory
-						{
-							class primaryWeapon
-							{
-								name="CUP_srifle_AWM_wdl";
-								optics="CUP_optic_LeupoldMk4_25x50_LRT";
-								firemode="CUP_srifle_AWM_wdl:Single";
-								class primaryMuzzleMag
-								{
-									name="CUP_5Rnd_86x70_L115A1";
-									ammoLeft=5;
-								};
-							};
-							class uniform
-							{
-								typeName="U_B_CombatUniform_mcam";
-								isBackpack=0;
-							};
-						};
 					};
 					id=36;
 					type="B_Survivor_F";
