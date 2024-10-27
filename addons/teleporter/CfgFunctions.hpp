@@ -1,0 +1,1 @@
+#include "W_Teleporter\CfgFunctions.hpp"

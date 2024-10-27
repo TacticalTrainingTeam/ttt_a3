@@ -1,0 +1,38 @@
+# Launched with `hemtt launch`
+[default]
+workshop = [
+    "463939057", # ACE3's Workshop ID
+    "450814997", # CBA_A3's Workshop ID
+    "2369477168", # Advanced Developer Tools' Workshop ID
+    "751965892", #  ACRE's Workshop ID
+]
+#optionals = []
+#mission = "test.VR" # Mission to launch directly into the editor with
+parameters = [
+    "-world=empty",
+]
+mission = "ttt_test.VR"
+
+#executable = "arma3_x64" # Default: "arma3_x64"
+#file_patching = true # Default: true
+#binarize = false # Default: false
+#rapify = true # Default: true
+
+# Launched with `hemtt launch ttt`
+[cup]
+extends = "default"
+workshop = [
+    "497660133", # CUP Weapons
+    "541888371", # CUP Vehicles
+    "497661914", # CUP Units
+    "1369691841", # CFP
+]
+
+[rhs]
+extends = "default"
+workshop = [
+    "843425103", # RHS AFRF Workshop ID
+    "843577117", # RHS USAF Workshop ID
+    "843593391", # RHS GREF Workshop ID
+    "843632231", # RHS SAF  Workshop ID
+]

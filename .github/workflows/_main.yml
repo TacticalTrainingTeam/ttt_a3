@@ -1,0 +1,18 @@
+name: Build
+
+on: [push]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: Setup HEMTT
+              uses: arma-actions/hemtt@v1
+            - name: Run HEMTT build
+              run: hemtt release
+            - name: Upload Release
+              uses: actions/upload-artifact@v4
+              with:
+                  name: ttt_mod
+                  path: release/ttt_modzip

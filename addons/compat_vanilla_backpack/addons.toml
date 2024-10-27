@@ -1,0 +1,17 @@
+[binarize]
+enabled = false # Default: true
+exclude = [
+
+]
+
+[rapify]
+enabled = true # Default: true
+exclude = [
+    
+]
+
+[files]
+exclude = [
+    ".vscode/**/*", # Exclude all files in the .vscode folder
+    "data/*.psd",
+]

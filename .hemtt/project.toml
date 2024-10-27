@@ -1,0 +1,36 @@
+name = "TTT-Mod"
+author = "TacticalTrainingTeam"
+prefix = "ttt"
+mainprefix = "z"
+
+[version]
+major = 0 # Overrides path when set
+minor = 1
+patch = 0
+build = 1 # Optional
+
+git_hash = 8 # Default: 8
+
+[files]
+exclude = [
+    "*.psd",
+    "*.png",
+    "*.tga",
+    "teleporter"
+]
+include = [
+    "meta.cpp", 
+    "mod.cpp", 
+    "authors.txt", 
+    "LICENSE", 
+    "*.paa",
+]
+
+[lints.sqf]
+command_case = true
+
+[properties]
+url = "https://github.com/Andx667/TTT-Mod"
+
+[hemtt.signing]
+authority = "TacticalTrainingTeam"
