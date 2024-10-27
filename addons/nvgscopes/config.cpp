@@ -1,9 +1,9 @@
 class CfgPatches
 {
-	class ttt_signs
+	class ttt_nvgscopes
 	{
 		// Meta information for editor
-		name = "TTT Signs";
+		name = "TTT NVGs for Scopes";
 		author = "Tactical Training Team";
 		url = "https://tacticalteam.de";
 
