@@ -14,9 +14,7 @@ class CfgPatches
 		// When any of the addons are missing, a pop-up warning will appear when launching the game.
 		requiredAddons[] = {"ttt_main",  "A3_Characters_F", "A3_Weapons_F"};
 		// List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
-		units[] = {
-
-		};
+		units[] = {};
 		// List of weapons (CfgWeapons classes) contained in the addon.
 		weapons[] = {
 			"TTT_Uniform_Yellow_US_Desert",

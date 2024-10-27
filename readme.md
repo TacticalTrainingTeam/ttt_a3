@@ -1,5 +1,7 @@
 # TTT Mod
 
+See readme.md in each addon for more information about that addon.
+
 ## main
 
 Includes some basic and general stuff.
@@ -28,6 +30,10 @@ Includes Flags and two variations of signs in all TTT Colors.
 
 Increases the carry capacity of vanilla Radio Packpacks so ACRE backpack radios will fit inside.
 
-## compat_cfg
+## compat_cfp
 
 Makes certain Backpack and Vests ACE Wirecutters.
+
+## compat_cup
+
+Makes certain Backpack and Vests ACE Wirecutters and Entrenching Tools .
