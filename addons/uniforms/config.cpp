@@ -31,6 +31,32 @@ class CfgPatches
 			"TTT_Uniform_Gold_US_Desert",
 			"TTT_Uniform_Silver_US_Desert",
 			"TTT_Uniform_Orange_US_Desert",
+
+			"TTT_Uniform_Yellow_BW_Tropentarn",
+			"TTT_Uniform_Green_BW_Tropentarn",
+			"TTT_Uniform_Brown_BW_Tropentarn",
+			"TTT_Uniform_Red_BW_Tropentarn",
+			"TTT_Uniform_Black_BW_Tropentarn",
+			"TTT_Uniform_Violet_BW_Tropentarn",
+			"TTT_Uniform_White_BW_Tropentarn",
+			"TTT_Uniform_Blue_BW_Tropentarn",
+			"TTT_Uniform_Grey_BW_Tropentarn",
+			"TTT_Uniform_Gold_BW_Tropentarn",
+			"TTT_Uniform_Silver_BW_Tropentarn",
+			"TTT_Uniform_Orange_BW_Tropentarn",
+			
+			"TTT_Uniform_Yellow_BW_Flecktarn",
+			"TTT_Uniform_Green_BW_Flecktarn",
+			"TTT_Uniform_Brown_BW_Flecktarn",
+			"TTT_Uniform_Red_BW_Flecktarn",
+			"TTT_Uniform_Black_BW_Flecktarn",
+			"TTT_Uniform_Blue_BW_Flecktarn",
+			"TTT_Uniform_Violet_BW_Flecktarn",
+			"TTT_Uniform_White_BW_Flecktarn",
+			"TTT_Uniform_Grey_BW_Flecktarn",
+			"TTT_Uniform_Gold_BW_Flecktarn",
+			"TTT_Uniform_Silver_BW_Flecktarn",
+			"TTT_Uniform_Orange_BW_Flecktarn",
 		};
 
 		// Optional. If this is 1, if any of requiredAddons[] entry is missing in your game the entire config will be ignored and return no error (but in rpt) so useful to make a compat Mod (Since Arma 3 2.14)
