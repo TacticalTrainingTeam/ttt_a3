@@ -8,18 +8,18 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=36;
+		nextID=39;
 	};
 	class LayerIndexProvider
 	{
-		nextID=4;
+		nextID=8;
 	};
 	class Camera
 	{
-		pos[]={4818.5127,22.095583,6874.6079};
-		dir[]={-0.40736833,-0.72107351,0.560453};
-		up[]={-0.42395651,0.69285721,0.58327413};
-		aside[]={0.80889791,9.9884346e-08,0.58795226};
+		pos[]={4815.937,13.101888,6871.6177};
+		dir[]={-0.60974848,-0.60422897,0.51294667};
+		up[]={-0.46237791,0.79681069,0.38897219};
+		aside[]={0.64374965,0,0.76523626};
 	};
 };
 binarizationWanted=0;
@@ -27,16 +27,18 @@ sourceName="ttt_test";
 addons[]=
 {
 	"A3_Characters_F",
+	"CUP_Creatures_Military_SLA",
 	"ttt_signs",
 	"A3_Data_F_Exp_A_Virtual",
 	"A3_Modules_F_Curator_Curator",
-	"A3_Ui_F"
+	"A3_Ui_F",
+	"A3_Supplies_F_Heli_CargoNets"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=5;
+		items=7;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -46,41 +48,55 @@ class AddonsMetaData
 		};
 		class Item1
 		{
+			className="CUP_Creatures_Military_SLA";
+			name="CUP_Creatures_Military_SLA";
+		};
+		class Item2
+		{
 			className="ttt_signs";
 			name="TTT Signs";
 			author="Tactical Training Team";
 			url="https://tacticalteam.de";
 		};
-		class Item2
+		class Item3
 		{
 			className="A3_Data_F_Exp_A";
 			name="Arma 3 Nexus Update - Main Configuration";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item3
+		class Item4
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item4
+		class Item5
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item6
+		{
+			className="A3_Supplies_F_Heli";
+			name="Arma 3 Helicopters - Ammoboxes and Supplies";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
+};
+dlcs[]=
+{
+	"CUP_Units",
+	"Heli"
 };
 randomSeed=2094387;
 class ScenarioData
 {
 	author="&x";
-};
-class CustomAttributes
-{
 };
 class Mission
 {
@@ -105,7 +121,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=5;
+		items=7;
 		class Item0
 		{
 			dataType="Group";
@@ -126,9 +142,22 @@ class Mission
 					{
 						name="zeus_01";
 						isPlayer=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_B_CombatUniform_mcam";
+								isBackpack=0;
+							};
+							class vest
+							{
+								typeName="CUP_V_O_SLA_Flak_Vest01";
+								isBackpack=0;
+							};
+						};
 					};
-					id=12;
-					type="B_Soldier_GL_F";
+					id=36;
+					type="B_Survivor_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -863,6 +892,49 @@ class Mission
 				};
 			};
 			id=35;
+		};
+		class Item5
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4807.0889,5.8253026,6878.3408};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this, true] call ace_arsenal_fnc_initBox;";
+			};
+			id=37;
+			type="B_CargoNet_01_ammo_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item6
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={4807.1245,5,6878.5957};
+			};
+			title="Arsenal";
+			id=38;
 		};
 	};
 };
