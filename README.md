@@ -1,16 +1,33 @@
-# Mod des TacticalTrainingTeam
+# TTT Mod
 
-https://www.tacticalteam.de 
+## main
 
-### Als PBO packen 
-https://armaservices.maverick-applications.com/Products/MikerosDosTools/FileBrowserFree
-MakePbo installieren (benötigt DePbo und DeOgg)
-Hintergrund: Gibt mehr Fehler beim Packen aus, die sonst erst beim ArmA-Start auftreten (im Vergleich zum AddOn Builder).
+Includes some basic and general stuff.
 
-pack-all.bat ausführen
-Hierbei muss das Repository an dem angegeben Pfad liegen (per SymLink möglich).
-Hintergrund: Für Codestellen wie ```#include "\ttt_a3\ttt_berets\CfgWeapons.hpp"``` sucht das Programm unter dem Pfad von dem ausführenden Tool (hier C:\) und muss die Datei finden.
+## berets
 
-##### Abhängikeiten zu anderen Mods
-	\ttt_a3\ttt_units_bw	benötigt zu teilen BWA3
-	\ttt_a3\ttt_units_us	benötigt zu teilen RHSUSAF
+Includes berets for all TTT units.
+
+## helmets
+
+Includes helmets for all TTT units: Helicopter, Crew, Infantry.
+
+## vests
+
+Includes vests for all TTT units: lite, heavy, crew.
+
+## uniforms
+
+Includes uniforms for all TTT units: Flecktarn, Tropentarn, US Desert.
+
+## signs
+
+Includes Flags and two variations of signs in all TTT Colors.
+
+## compat_vanilla
+
+Increases the carry capacity of vanilla Radio Packpacks so ACRE backpack radios will fit inside.
+
+## compat_cfg
+
+Makes certain Backpack and Vests ACE Wirecutters.
