@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		// Meta information for editor
 		name = "TTT RSR Core";
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		authors[] = {"Redd", "Stura", "Reimchen", "Andx"};
 		url = "https://tacticalteam.de";
 

@@ -736,7 +736,6 @@ class CfgVehicles
 		editorPreview="";
 		editorCategory="rsrVehicles";
 		editorSubcategory="rsrCar";
-		attendant = 1; //is ACE Medical Vehicle
 		hiddenSelectionsTextures[]=
 		{
 			"z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext01_co",

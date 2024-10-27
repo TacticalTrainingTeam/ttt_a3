@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		// Meta information for editor
 		name = "TTT Vestes";
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		//authors[] = {"Reimchen","Andx"};
 		url = "https://tacticalteam.de";
 

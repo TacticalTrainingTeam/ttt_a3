@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		// Meta information for editor
 		name = "TTT Teleporter";
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		authors[] = {"Nobody","Andx"};
 		url = "https://tacticalteam.de";
 

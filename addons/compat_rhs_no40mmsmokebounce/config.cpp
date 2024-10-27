@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		// Meta information for editor
 		name = "TTT RHS Compat - No 40mm Smoke Bounce";
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		authors[] = {"[A] Willard", "dedmen", "[TTT]"};
 		url = "https://tacticalteam.de";
 

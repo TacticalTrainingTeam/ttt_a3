@@ -1,10 +1,10 @@
 class CfgPatches
 {
-	class ttt_ai
+	class ttt_berets
 	{
 		// Meta information for editor
 		name = "TTT Barette";
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		authors[] = {"Reimchen","Andx"};
 		url = "https://tacticalteam.de";
 

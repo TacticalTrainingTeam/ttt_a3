@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		// Meta information for editor
 		name = "TTT RSR CUP Fahrzeuge & Uniformen";
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		authors[] = {"Redd", "Stura", "Reimchen", "Tank", "Andx"};
 		url = "https://tacticalteam.de";
 

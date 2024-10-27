@@ -18,7 +18,7 @@ mission = "ttt_test.VR"
 #binarize = false # Default: false
 #rapify = true # Default: true
 
-# Launched with `hemtt launch ttt`
+# Launched with `hemtt launch cup/rhs/bwa`
 [cup]
 extends = "default"
 workshop = [
@@ -35,4 +35,10 @@ workshop = [
     "843577117", # RHS USAF Workshop ID
     "843593391", # RHS GREF Workshop ID
     "843632231", # RHS SAF  Workshop ID
+]
+
+[bwa]
+extends = "cup"
+workshop = [
+    "1200127537", # BWmod Workshop ID
 ]

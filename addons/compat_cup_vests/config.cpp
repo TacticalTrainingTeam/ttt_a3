@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class ttt_compat_cfp_backpack
+	class ttt_compat_cup_vests
 	{
 		// Meta information for editor
 		name = "Compat CFG Vests";

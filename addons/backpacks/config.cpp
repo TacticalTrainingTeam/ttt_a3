@@ -1,10 +1,10 @@
 class CfgPatches
 {
-	class ttt_helmets
+	class ttt_backpacks
 	{
 		// Meta information for editor
 		name = "TTT Rucksäcke";
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		authors[] = {"Reimchen", "Andx"};
 		url = "https://tacticalteam.de";
 

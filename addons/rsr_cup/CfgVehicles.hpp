@@ -7,8 +7,8 @@ class CfgVehicles
 		uniformClass="rnt_bw_wintertarn_uniform_item";
 		hiddenSelectionsTextures[]=
 		{
-			"z\ttt\addons\rsr_cup\data\uniform\rnt_winter_jacke_co.paa",
-			"z\ttt\addons\rsr_cup\data\uniform\rnt_winter_hose_co.paa"
+			"z\ttt\addons\rsr_core\data\uniform\rnt_winter_jacke_co.paa",
+			"z\ttt\addons\rsr_core\data\uniform\rnt_winter_hose_co.paa"
 		};
 	};
 
@@ -22,8 +22,8 @@ class CfgVehicles
 		editorSubcategory="rsrPlane";
 		hiddenSelectionsTextures[]=
 		{
-			"z\ttt\addons\rsr_cup\data\planes\redd_c_161_body_co.paa",
-			"z\ttt\addons\rsr_cup\data\planes\redd_c_161_wings_co.paa"
+			"z\ttt\addons\rsr_core\data\planes\redd_c_161_body_co.paa",
+			"z\ttt\addons\rsr_core\data\planes\redd_c_161_wings_co.paa"
 		};
 	};
 	class CUP_B_C130J_Cargo_USMC;
@@ -36,8 +36,8 @@ class CfgVehicles
 		editorSubcategory="rsrPlane";
 		hiddenSelectionsTextures[]=
 		{
-			"z\ttt\addons\rsr_cup\data\planes\redd_c_161_body_co.paa",
-			"z\ttt\addons\rsr_cup\data\planes\redd_c_161_wings_co.paa"
+			"z\ttt\addons\rsr_core\data\planes\redd_c_161_body_co.paa",
+			"z\ttt\addons\rsr_core\data\planes\redd_c_161_wings_co.paa"
 		};
 	};
 };

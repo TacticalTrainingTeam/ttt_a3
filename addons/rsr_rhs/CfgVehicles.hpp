@@ -10,8 +10,8 @@ class CfgVehicles
 		editorSubcategory="rsrPlane";
 		hiddenSelectionsTextures[]=
 		{
-			"z\ttt\addons\rsr_cup\data\planes\redd_c_161_body_co.paa",
-			"z\ttt\addons\rsr_cup\data\planes\redd_c_161_wings_co.paa"
+			"z\ttt\addons\rsr_core\data\planes\redd_c_161_body_co.paa",
+			"z\ttt\addons\rsr_core\data\planes\redd_c_161_wings_co.paa"
 		};
 	};
 	class RHS_C130J_Cargo;
@@ -24,8 +24,8 @@ class CfgVehicles
 		editorSubcategory="rsrPlane";
 		hiddenSelectionsTextures[]=
 		{
-			"z\ttt\addons\rsr_cup\data\planes\redd_c_161_body_co.paa",
-			"z\ttt\addons\rsr_cup\data\planes\redd_c_161_wings_co.paa"
+			"z\ttt\addons\rsr_core\data\planes\redd_c_161_body_co.paa",
+			"z\ttt\addons\rsr_core\data\planes\redd_c_161_wings_co.paa"
 		};
 	};
 };

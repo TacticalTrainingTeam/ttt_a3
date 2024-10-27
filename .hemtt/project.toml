@@ -1,13 +1,13 @@
 name = "TTT-Mod"
-author = "TacticalTrainingTeam"
+author = "Tactical Training Team"
 prefix = "ttt"
 mainprefix = "z"
 
 [version]
-major = 0 # Overrides path when set
-minor = 1
+major = 3 # Overrides path when set
+minor = 0
 patch = 0
-build = 1 # Optional
+build = 0 # Optional
 
 git_hash = 8 # Default: 8
 
@@ -33,4 +33,4 @@ command_case = true
 url = "https://github.com/Andx667/TTT-Mod"
 
 [hemtt.signing]
-authority = "TacticalTrainingTeam"
+authority = "Tactical Training Team"
