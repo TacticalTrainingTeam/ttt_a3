@@ -7,6 +7,6 @@ logo = "logo_ttt_ca.paa";
 logoOver = "logo_ttt_ca.paa";
 tooltip = "Tactical Training Team Mod";
 tooltipOwned = "TTT Owned";
-overview = "This Mod adds scripts, berets and config fixes for the TTT.";
+overview = "This Mod adds Items, Vehicles and useful scripts for the Tactical Training Team";
 author = "Tactical Training Team";
 overviewPicture = "logo_ttt_ca.paa";

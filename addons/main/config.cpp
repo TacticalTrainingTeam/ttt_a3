@@ -1,6 +1,8 @@
+#include "script_component.hpp"
+
 class CfgPatches
 {
-	class ttt_main
+	class ADDON
 	{
 		// Meta information for editor
 		name = "TTT Main";
@@ -11,7 +13,7 @@ class CfgPatches
 		requiredVersion = 1.60;
 		// Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
 		// When any of the addons are missing, a pop-up warning will appear when launching the game.
-		requiredAddons[] = {"ace_main"};
+		requiredAddons[] = {"cba_main"};
 		// List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
 		units[] = {};
 		// List of weapons (CfgWeapons classes) contained in the addon.
@@ -20,4 +22,17 @@ class CfgPatches
 		// Optional. If this is 1, if any of requiredAddons[] entry is missing in your game the entire config will be ignored and return no error (but in rpt) so useful to make a compat Mod (Since Arma 3 2.14)
 		skipWhenMissingDependencies = 1;
 	};
+};
+
+class CfgMods {
+    class PREFIX {
+        dir = "@ttt";
+        name = "Tactical Training Team";
+        picture = "A3\Ui_f\data\Logos\arma3_expansion_alpha_ca";
+        hidePicture = "true";
+        hideName = "true";
+        actionName = "Website";
+        action = CSTRING(URL);
+        description = "https://www.tacticalteam.de";
+    };
 };
