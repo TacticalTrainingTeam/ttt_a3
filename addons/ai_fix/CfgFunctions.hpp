@@ -1,7 +1,7 @@
 class CfgFunctions {
-	class fix_ai {
+	class ai_fix {
 		class init {
-			file = "z\ttt\addons\ai\functions";
+			file = "z\ttt\addons\ai_fix\functions";
 			class ai {
 
 				postInit = 1;
