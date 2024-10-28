@@ -1,15 +1,15 @@
-class CfgPatches
-{
-	class ttt_rsr_vanilla
-	{
+#include "script_component.hpp"
+
+class CfgPatches {
+	class ADDON	{
 		// Meta information for editor
-		name = "TTT RSR Vanilla Fahrzeuge";
+		name = COMPONENT_NAME;
 		author = "Tactical Training Team";
 		authors[] = {"Redd", "Stura", "Reimchen", "Andx"};
 		url = "https://tacticalteam.de";
 
 		// Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
-		requiredVersion = 1.60;
+		requiredVersion = REQUIRED_VERSION;
 		// Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
 		// When any of the addons are missing, a pop-up warning will appear when launching the game.
 		requiredAddons[] = {"ttt_main", "rsr_core", "A3_Soft_F_Beta_MRAP_03", "A3_Armor_F_Beta_APC_Tracked_01", "A3_Soft_F_EPC_Truck_03"};
