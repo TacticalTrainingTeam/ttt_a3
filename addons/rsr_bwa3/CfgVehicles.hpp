@@ -4,6 +4,7 @@ class CfgVehicles
 	class rsr_eagle_fleck: bwa3_eagle_fleck
 	{
 		author="RsR";
+		attendant = 1;
 		displayName="Eagle IV Sanität (Flecktarn)";
 		typicalCargo[]= {
 			"B_Soldier_F"
@@ -316,6 +317,7 @@ class CfgVehicles
 	class rsr_eagle_tropen: bwa3_eagle_tropen
 	{
 		author="RsR";
+		attendant = 1;
 		displayName="Eagle IV Sanität (Tropentarn)";
 		typicalCargo[]= {
 			"B_Soldier_F"

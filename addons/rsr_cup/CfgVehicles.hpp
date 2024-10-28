@@ -12,8 +12,8 @@ class CfgVehicles
 		};
 	};
 
-	class RHS_C130J;
-	class rsr_c_161: RHS_C130J
+	class CUP_B_C130J_USMC;
+	class rsr_c_161: CUP_B_C130J_USMC
 	{
 		author="RsR";
 		displayName="C-161 Transall 2";
