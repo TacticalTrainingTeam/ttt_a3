@@ -1,21 +1,16 @@
-class CfgNetworkMessages
-{
-	class AdvancedSlingLoadingRemoteExecClient
-	{
+class CfgNetworkMessages {
+	class AdvancedSlingLoadingRemoteExecClient {
 		module="AdvancedSlingLoading";
-		parameters[]=
-		{
+		parameters[]={
 			"ARRAY",
 			"STRING",
 			"OBJECT",
 			"BOOL"
 		};
 	};
-	class AdvancedSlingLoadingRemoteExecServer
-	{
+	class AdvancedSlingLoadingRemoteExecServer {
 		module="AdvancedSlingLoading";
-		parameters[]=
-		{
+		parameters[]={
 			"ARRAY",
 			"STRING",
 			"BOOL"

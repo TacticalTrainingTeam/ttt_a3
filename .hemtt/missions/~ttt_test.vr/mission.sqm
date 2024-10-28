@@ -12,7 +12,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=48;
+		nextID=50;
 	};
 	class Camera
 	{
@@ -23,7 +23,7 @@ class EditorData
 	};
 };
 binarizationWanted=0;
-sourceName="ttt_test";
+sourceName="~ttt_test";
 addons[]=
 {
 	"A3_Characters_F",
