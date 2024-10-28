@@ -36,3 +36,5 @@ class CfgMods {
         description = "https://www.tacticalteam.de";
     };
 };
+
+#include "Dialog.hpp"

@@ -39,18 +39,18 @@ Schilder (klein)
 
 Schilder (Groß)
 
-`TTT_Sign_Large_Blue`
-`TTT_Sign_Large_Bronze`
-`TTT_Sign_Large_Brown`
-`TTT_Sign_Large_Yellow`
-`TTT_Sign_Large_Gold`
-`TTT_Sign_Large_Grey`
-`TTT_Sign_Large_Green`
-`TTT_Sign_Large_Red`
-`TTT_Sign_Large_Black`
-`TTT_Sign_Large_Silver`
-`TTT_Sign_Large_Platinum`
-`TTT_Sign_Large_Violet`
-`TTT_Sign_Large_White`
-`TTT_Sign_Large_Logo`
-`TTT_Sign_Large_Orange`
+- `TTT_Sign_Large_Blue`
+- `TTT_Sign_Large_Bronze`
+- `TTT_Sign_Large_Brown`
+- `TTT_Sign_Large_Yellow`
+- `TTT_Sign_Large_Gold`
+- `TTT_Sign_Large_Grey`
+- `TTT_Sign_Large_Green`
+- `TTT_Sign_Large_Red`
+- `TTT_Sign_Large_Black`
+- `TTT_Sign_Large_Silver`
+- `TTT_Sign_Large_Platinum`
+- `TTT_Sign_Large_Violet`
+- `TTT_Sign_Large_White`
+- `TTT_Sign_Large_Logo`
+- `TTT_Sign_Large_Orange`
