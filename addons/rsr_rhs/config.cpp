@@ -12,7 +12,7 @@ class CfgPatches
 		requiredVersion = 1.60;
 		// Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
 		// When any of the addons are missing, a pop-up warning will appear when launching the game.
-		requiredAddons[] = {"ttt_main", "rsr_core", "RHS_US_A2_AirImport"};
+		requiredAddons[] = {"ttt_main", "rsr_core", "rhsusf_main_loadorder"};
 		// List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
 		units[] = {
 			"rsr_c_161",

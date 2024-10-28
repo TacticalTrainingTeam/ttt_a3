@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class ttt_rsr_bwa
+	class ttt_rsr_bwa3
 	{
 		// Meta information for editor
 		name = "TTT RSR BWmod Fahrzeuge";
@@ -12,15 +12,15 @@ class CfgPatches
 		requiredVersion = 1.60;
 		// Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
 		// When any of the addons are missing, a pop-up warning will appear when launching the game.
-		requiredAddons[] = {"ttt_main", "rsr_core"};
+		requiredAddons[] = {"ttt_main", "rsr_core", "bwa3_eagle", "bwa3_units"};
 		// List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
 		units[] = {
-			"rsr_eagle_flecktarn",
-			"rsr_eagle_flecktarn_lowvis",
-			"rsr_eagle_flecktarn_dia",
-			"rsr_eagle_tropentarn",
-			"rsr_eagle_tropentarn_lowvis",
-			"rsr_eagle_tropentarn_dia"
+			"rsr_eagle_fleck",
+			"rsr_eagle_fleck_lowvis",
+			"rsr_eagle_fleck_dia",
+			"rsr_eagle_tropen",
+			"rsr_eagle_tropen_lowvis",
+			"rsr_eagle_tropen_dia"
         };
 		// List of weapons (CfgWeapons classes) contained in the addon.
 		weapons[] = {};

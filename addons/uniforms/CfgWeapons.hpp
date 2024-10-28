@@ -1,8 +1,8 @@
 class CfgWeapons {
 
-    class UniformBase;
+    class Uniform_Base;
 
-    class U_B_CombatUniform_mcam : UniformBase { class ItemInfo; };	
+    class U_B_CombatUniform_mcam : Uniform_Base { class ItemInfo; };	
     
 	//US Desert
 	class TT_Uniform_Base_US : U_B_CombatUniform_mcam {
