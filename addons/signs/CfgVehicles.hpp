@@ -39,6 +39,7 @@ class CfgVehicles {
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "TTT Flagge Logo";
+		editorSubcategory = "ttt_main_ttt";
 		
 		class EventHandlers {
 			init = "(_this select 0) setFlagTexture 'z\ttt\addons\signs\data\ttt_logo_sign_co.paa'";
@@ -179,6 +180,7 @@ class CfgVehicles {
 	class TTT_Sign_Small_Blue : TTT_Sign_Small_Base {
 		scope = 2;
 		scopeCurator = 2;
+		editorSubcategory = "ttt_main_ttt";
 		displayName = "TTT Schild Blau (klein)";
 		hiddenSelectionsTextures[] = {"z\ttt\addons\signs\data\ttt_logo_blau_co.paa"};
 	};
@@ -273,6 +275,7 @@ class CfgVehicles {
 	class TTT_Sign_Large_Blue : TTT_Sign_Large_Base {
 		scope = 2;
 		scopeCurator = 2;
+		editorSubcategory = "ttt_main_ttt";
 		displayName = "TTT Schild Blau (groß)";
 		hiddenSelectionsTextures[] = {"z\ttt\addons\signs\data\ttt_logo_blau_co.paa"};
 	};

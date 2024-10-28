@@ -1,3 +1,3 @@
 class Extended_PostInit_EventHandlers {
-	init = QUOTE([] execVM 'init.sqf');
+	init = "[] execVM 'z\ttt\addons\teleporter_cam\init.sqf'";
 };
