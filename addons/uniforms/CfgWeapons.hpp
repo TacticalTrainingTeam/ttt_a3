@@ -138,13 +138,13 @@ class CfgWeapons {
 		};
 	}; 
 
-	class TTT_Uniform_Platin_US_Desert : TT_Uniform_Base_US {
+	class TTT_Uniform_Platinum_US_Desert : TT_Uniform_Base_US {
 		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Uniform Platin (US Desert)";
 		ACE_GForceCoef = 0.55;
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Platin_Us_Desert";
+			uniformClass = "TTT_Platinum_Us_Desert";
 		};
 	}; 
 
@@ -400,12 +400,12 @@ class CfgWeapons {
 		};
 	};
 
-	class TTT_Uniform_Platin_Pilot : TTT_Uniform_White_BW_Tropentarn {
+	class TTT_Uniform_Platinum_Pilot : TTT_Uniform_White_BW_Tropentarn {
 		author = "Tactical Training Team";
 		displayName = "TTT Uniform Platin (Pilot)";
 		ACE_GForceCoef = 0.55;
         class ItemInfo : ItemInfo {
-			uniformClass = "TTT_Platin_Pilot";
+			uniformClass = "TTT_Platinum_Pilot";
 		};
 	};
 };
