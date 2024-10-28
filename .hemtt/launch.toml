@@ -43,9 +43,10 @@ workshop = [
 ]
 
 [bwa3]
-extends = "cup"
+extends = "default"
 workshop = [
     "1200127537", # BWmod 
+    "1128145626", # RnT
 ]
 
 [3cb]
