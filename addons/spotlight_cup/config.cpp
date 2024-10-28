@@ -1,7 +1,7 @@
-class CfgPatches
-{
-	class ttt_spotlight_cup
-	{
+#include "script_component.hpp"
+
+class CfgPatches {
+	class ADDON {
 		// Meta information for editor
 		name = "TTT Spolight CUP";
 		author = "Tactical Training Team";
@@ -9,7 +9,7 @@ class CfgPatches
 		url = "https://tacticalteam.de";
 
 		// Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
-		requiredVersion = 1.60;
+		requiredVersion = REQUIRED_VERSION;
 		// Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
 		// When any of the addons are missing, a pop-up warning will appear when launching the game.
 		requiredAddons[] = {"ttt_main","CUP_Creatures_People_LoadOrder"};
@@ -23,10 +23,9 @@ class CfgPatches
 	};
 };
 
-class CfgMainMenuSpotlight // RscDisplayMain >> Spotlight works but is considered obsolete since SPOTREP #00064
-{
-	class spotlightcup
-	{
+
+class CfgMainMenuSpotlight { // RscDisplayMain >> Spotlight works but is considered obsolete since SPOTREP #00064
+	class spotlightcup {
 		text = "Tactical Training Team - CUP Server"; // Text displayed on the square button, converted to upper-case
 		textIsQuote = 0; // 1 to add quotation marks around the text
 		picture = "z\ttt\addons\spotlight_cup\data\button.paa"; // Square picture, ideally 512x512

@@ -1,18 +1,18 @@
-class CfgPatches
-{
-	class ttt_rsr_bwa3
-	{
+#include "script_component.hpp"
+
+class CfgPatches {
+	class ADDON	{
 		// Meta information for editor
-		name = "TTT RSR BWmod Fahrzeuge";
+		name = COMPONENT_NAME;
 		author = "Tactical Training Team";
 		authors[] = {"Redd", "Stura", "Reimchen", "Tank", "V1irus", "Addi", "Andx"};
 		url = "https://tacticalteam.de";
 
 		// Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
-		requiredVersion = 1.60;
+		requiredVersion = REQUIRED_VERSION;
 		// Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
 		// When any of the addons are missing, a pop-up warning will appear when launching the game.
-		requiredAddons[] = {"ttt_main", "rsr_core", "bwa3_common"};
+		requiredAddons[] = {"ttt_main", "rsr_core", "bwa3_common", "ace_common"};
 		// List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
 		units[] = {
 			"rsr_eagle_fleck",

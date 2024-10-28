@@ -1,15 +1,15 @@
-class CfgPatches
-{
-	class ttt_spotlight_rhs
-	{
+#include "script_component.hpp"
+
+class CfgPatches {
+	class ADDON {
 		// Meta information for editor
-		name = "TTT Spolight CUP";
+		name = COMPONENT_NAME;
 		author = "Tactical Training Team";
         authors[] = {"Addi","Ampersand", "Andx"};
 		url = "https://tacticalteam.de";
 
 		// Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
-		requiredVersion = 1.60;
+		requiredVersion = REQUIRED_VERSION;
 		// Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
 		// When any of the addons are missing, a pop-up warning will appear when launching the game.
 		requiredAddons[] = {"ttt_main","rhsusf_main_loadorder"};
@@ -23,10 +23,8 @@ class CfgPatches
 	};
 };
 
-class CfgMainMenuSpotlight // RscDisplayMain >> Spotlight works but is considered obsolete since SPOTREP #00064
-{
-	class spotlightrhs
-	{
+class CfgMainMenuSpotlight { // RscDisplayMain >> Spotlight works but is considered obsolete since SPOTREP #00064
+	class spotlighhs {
 		text = "Tactical Training Team - RHS Server"; // Text displayed on the square button, converted to upper-case
 		textIsQuote = 0; // 1 to add quotation marks around the text
 		picture = "z\ttt\addons\spotlight_rhs\data\button.paa"; // Square picture, ideally 512x512
