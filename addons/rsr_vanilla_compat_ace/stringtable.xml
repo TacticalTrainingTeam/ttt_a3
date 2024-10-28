@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt_mod">
-    <Package name="rsr"/>
+    <Package name="rsr_vanilla_compat_ace"/>
 </Project>
