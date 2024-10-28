@@ -1,7 +1,5 @@
-class CfgPatches
-{
-	class rsr_core
-	{
+class CfgPatches {
+	class rsr_core {
 		// Meta information for editor
 		name = "TTT RSR Core";
 		author = "Tactical Training Team";
@@ -23,33 +21,34 @@ class CfgPatches
 	};
 };
 
-class CfgEditorCategories
-{
-	class rsrVehicles
-	{
+class CfgFactionClasses {
+	class RSR {
+		displayName: "RSR";
+		icon: "z\ttt\addons\rsr_core\data\ui\rsr_logo.paa";
+	}
+
+};
+
+class CfgEditorCategories {
+	class rsrVehicles {
 		displayName="RSR Fahrzeuge";
+		faction: "RSR";
 	};
 };
-class CfgEditorSubcategories
-{
-	class rsrArti
-	{
+class CfgEditorSubcategories {
+	class rsrArti {
 		displayName="Artillerie";
 	};
-	class rsrCar
-	{
+	class rsrCar {
 		displayName="Auto";
 	};
-	class rsrPlane
-	{
+	class rsrPlane {
 		displayName="Flugzeug";
 	};
-	class rsrAPC
-	{
+	class rsrAPC {
 		displayName="Truppentransporter";
 	};
-	class rsrTank
-	{
+	class rsrTank {
 		displayName="Panzer";
 	};
 };

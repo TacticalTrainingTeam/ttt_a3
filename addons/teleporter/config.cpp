@@ -23,9 +23,9 @@ class CfgPatches
 	};
 };
 
-//class Extended_PostInit_EventHandlers {
-//	init = "[] execVM ""\ttt_teleporter\init.sqf""";
-//};
+class Extended_PostInit_EventHandlers {
+	init = "[] execVM ""\ttt_teleporter\init.sqf""";
+};
 
-//#include "CfgFunctions.hpp"
+#include "CfgFunctions.hpp"
 //#include "W_Teleporter\dialog.hpp"
