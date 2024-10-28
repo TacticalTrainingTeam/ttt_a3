@@ -28,7 +28,7 @@ class CfgWeapons {
 	};
 
     class TTT_Vest_Heavy_Yellow_US_Desert : TTT_Vest_Heavy_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Schwere Weste Gelb (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -36,7 +36,7 @@ class CfgWeapons {
 	};
 	
 	class TTT_Vest_Lite_Yellow_US_Desert : TTT_Vest_Lite_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Leichte Weste Gelb (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -44,7 +44,7 @@ class CfgWeapons {
 	};
 	
 	class TTT_Vest_Heavy_Blue_US_Desert : TTT_Vest_Heavy_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Schwere Weste Blau (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -52,7 +52,7 @@ class CfgWeapons {
 	};
 	
 	class TTT_Vest_Lite_Blue_US_Desert : TTT_Vest_Lite_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Leichte Weste Blau (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -60,7 +60,7 @@ class CfgWeapons {
 	};
 	
 	class TTT_Vest_Heavy_Black_US_Desert : TTT_Vest_Heavy_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Schwere Weste Schwarz (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -68,7 +68,7 @@ class CfgWeapons {
 	};
 	
 	class TTT_Vest_Lite_Black_US_Desert : TTT_Vest_Lite_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Leichte Weste Schwarz (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -76,7 +76,7 @@ class CfgWeapons {
 	};
 	
 	class TTT_Vest_Heavy_Brown_US_Desert : TTT_Vest_Heavy_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Schwere Weste Braun (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -84,7 +84,7 @@ class CfgWeapons {
 	};
 	
 	class TTT_Vest_Lite_Brown_US_Desert : TTT_Vest_Lite_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Leichte Weste Braun (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -92,7 +92,7 @@ class CfgWeapons {
 	};
 	
 	class TTT_Vest_Heavy_Gold_US_Desert : TTT_Vest_Heavy_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Schwere Weste Gold (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -100,7 +100,7 @@ class CfgWeapons {
 	};
 	
 	class TTT_Vest_Lite_Gold_US_Desert : TTT_Vest_Lite_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Leichte Weste Gold (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -108,7 +108,7 @@ class CfgWeapons {
 	};
 	
 	class TTT_Vest_Heavy_Green_US_Desert : TTT_Vest_Heavy_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Schwere Weste Grün (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -116,7 +116,7 @@ class CfgWeapons {
 	};
 	
 	class TTT_Vest_Lite_Green_US_Desert : TTT_Vest_Lite_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Leichte Weste Grün (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -124,7 +124,7 @@ class CfgWeapons {
 	};
 	
 	class TTT_Vest_Heavy_Grey_US_Desert : TTT_Vest_Heavy_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Schwere Weste Grau (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -132,7 +132,7 @@ class CfgWeapons {
 	};
 	
 	class TTT_Vest_Lite_Grey_US_Desert : TTT_Vest_Lite_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Leichte Weste Grau (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -140,7 +140,7 @@ class CfgWeapons {
 	};
 	
 	class TTT_Vest_Heavy_Red_US_Desert : TTT_Vest_Heavy_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Schwere Weste Rot (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -148,7 +148,7 @@ class CfgWeapons {
 	};
 	
 	class TTT_Vest_Lite_Red_US_Desert : TTT_Vest_Lite_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Leichte Weste Rot (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -156,7 +156,7 @@ class CfgWeapons {
 	};
 	
 	class TTT_Vest_Heavy_Violet_US_Desert : TTT_Vest_Heavy_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Schwere Weste Violett (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -164,7 +164,7 @@ class CfgWeapons {
 	};
 	
 	class TTT_Vest_Lite_Violet_US_Desert : TTT_Vest_Lite_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Leichte Weste Violett (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -172,7 +172,7 @@ class CfgWeapons {
 	};
 
 	class TTT_Vest_Heavy_Orange_US_Desert : TTT_Vest_Heavy_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Schwere Weste Orange (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -180,7 +180,7 @@ class CfgWeapons {
 	};
 	
 	class TTT_Vest_Lite_Orange_US_Desert : TTT_Vest_Lite_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Leichte Weste Orange (US Desert)";
 		hiddenSelections[] = {"camo"};
@@ -195,13 +195,13 @@ class CfgWeapons {
 	};
 
     class TTT_Vest_Crew_US_Desert : TTT_Vest_Crew_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Crew Weste (US Desert)";
 	};
 	
 	class TTT_Vest_Crew_Bronze : TTT_Vest_Crew_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Crew Weste Bronze";
 		hiddenSelections[] = {"camo"};
@@ -209,7 +209,7 @@ class CfgWeapons {
 	};
 	
 	class TTT_Vest_Crew_Silver : TTT_Vest_Crew_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Crew Weste Silber";
 		hiddenSelections[] = {"camo"};
@@ -217,7 +217,7 @@ class CfgWeapons {
 	};
 	
 	class TTT_Vest_Crew_White : TTT_Vest_Crew_Base {
-		author = "TacticalTrainingTeam";
+		author = "Tactical Training Team";
 		scope = 2;
 		displayName = "TTT Crew Weste Weiss";
 		hiddenSelections[] = {"camo"};

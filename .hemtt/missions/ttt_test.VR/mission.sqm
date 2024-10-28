@@ -8,18 +8,18 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=39;
+		nextID=156;
 	};
 	class LayerIndexProvider
 	{
-		nextID=10;
+		nextID=52;
 	};
 	class Camera
 	{
-		pos[]={4815.937,13.101888,6871.6177};
-		dir[]={-0.31066421,-0.63193959,0.71002829};
-		up[]={-0.25331166,0.77501762,0.57894808};
-		aside[]={0.91614467,0,0.40084791};
+		pos[]={4820.1689,11.336948,6883.2217};
+		dir[]={-0.85616404,-0.49998489,-0.1305892};
+		up[]={-0.49427861,0.86602706,-0.075390413};
+		aside[]={-0.15079223,8.2149199e-08,0.98860061};
 	};
 };
 binarizationWanted=0;
@@ -27,10 +27,10 @@ sourceName="ttt_test";
 addons[]=
 {
 	"A3_Characters_F",
-	"ttt_signs",
 	"A3_Data_F_Exp_A_Virtual",
 	"A3_Modules_F_Curator_Curator",
 	"A3_Ui_F",
+	"ttt_signs",
 	"A3_Supplies_F_Heli_CargoNets"
 };
 class AddonsMetaData
@@ -47,31 +47,31 @@ class AddonsMetaData
 		};
 		class Item1
 		{
-			className="ttt_signs";
-			name="TTT Signs";
-			author="Tactical Training Team";
-			url="https://tacticalteam.de";
-		};
-		class Item2
-		{
 			className="A3_Data_F_Exp_A";
 			name="Arma 3 Nexus Update - Main Configuration";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item3
+		class Item2
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item4
+		class Item3
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
+		};
+		class Item4
+		{
+			className="ttt_signs";
+			name="TTT - Signs";
+			author="Tactical Training Team";
+			url="https://tacticalteam.de";
 		};
 		class Item5
 		{
@@ -114,7 +114,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=7;
+		items=4;
 		class Item0
 		{
 			dataType="Group";
@@ -135,19 +135,6 @@ class Mission
 					{
 						name="zeus_01";
 						isPlayer=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="U_B_CombatUniform_mcam";
-								isBackpack=0;
-							};
-							class vest
-							{
-								typeName="CUP_V_O_SLA_Flak_Vest01";
-								isBackpack=0;
-							};
-						};
 					};
 					id=36;
 					type="B_Survivor_F";
@@ -189,51 +176,6 @@ class Mission
 			id=0;
 		};
 		class Item1
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4816.0273,8.9768047,6896.1567};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-			};
-			id=9;
-			type="TTT_Flag_Logo";
-		};
-		class Item2
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4814.2505,6.0410533,6896.145};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=10;
-			type="TTT_Sign_Large_Logo";
-		};
-		class Item3
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4817.6587,5.7914262,6895.6499};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=11;
-			type="TTT_Sign_Small_Logo";
-		};
-		class Item4
 		{
 			dataType="Layer";
 			name="TTT - Vorlage - Module";
@@ -886,7 +828,7 @@ class Mission
 			};
 			id=35;
 		};
-		class Item5
+		class Item2
 		{
 			dataType="Object";
 			class PositionInfo
@@ -919,7 +861,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item6
+		class Item3
 		{
 			dataType="Comment";
 			class PositionInfo

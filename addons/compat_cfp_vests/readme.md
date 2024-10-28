@@ -1,5 +1,5 @@
-# cfp vests
+# CFP Westen
 
-Adds Wire Cutters to the following class names:
+Fügt ausgewählten Westen die `ACE_Wirecutter` Fähigkeit hinzu:
 
-- CFP_HV2_Ciras_Olive
+- `CFP_HV2_Ciras_Olive`

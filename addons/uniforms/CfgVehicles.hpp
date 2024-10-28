@@ -20,6 +20,14 @@ class CfgVehicles {
 		respawnMagazines[] = {};
 	};
 
+	class TTT_Platin_Pilot : TTT_Base_US {
+		author = "Tactical Training Team";
+		displayName = "Klasse Platin Pilot";
+		scope = 1;
+		uniformClass = "TTT_Uniform_Platin_Pilot";
+		hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\TTT_uniform_platin_pilot.paa" };
+	};
+
 	class TTT_Yellow_US_Desert : TTT_Base_US {
 		author = "Tactical Training Team";
 		displayName = "Klasse Gelb Desert";
@@ -98,12 +106,6 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\TTT_uniform_white_US_Desert.paa" };
 	};
 
-	class TTT_Silver_US_Desert : TTT_Yellow_US_Desert {
-		author = "Tactical Training Team";
-		displayName = "Klasse Silber Desert";
-		uniformClass = "TTT_Uniform_Silver_US_Desert";
-		hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\TTT_uniform_silver_US_Desert.paa" };
-	};
 	class TTT_Orange_US_Desert : TTT_Yellow_US_Desert {
 		author = "Tactical Training Team";
 		displayName = "Klasse Orange Desert";
@@ -111,9 +113,13 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\TTT_uniform_orange_US_Desert.paa" };
 	};
 
-	class B_Helipilot_F;
-	
-	//Basis-Klasse fuer Basisklassen
+	class TTT_Platin_US_Desert : TTT_Yellow_US_Desert {
+		author = "Tactical Training Team";
+		displayName = "Klasse Platin Desert";
+		uniformClass = "TTT_Uniform_Platin_US_Desert";
+		hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\TTT_uniform_platin_US_Desert.paa" };
+	};
+
 	class TTT_Base_BW : B_Soldier_base_F {
 		_generalMacro = "B_Soldier_base_F";
 		author = "Tactical Training Team";
@@ -131,6 +137,7 @@ class CfgVehicles {
 		magazines[] = {};
 		respawnMagazines[] = {};
 	};
+
 	//Flecktarn
 	class TTT_Yellow_BW_Flecktarn : TTT_Base_BW {
 		author = "Tactical Training Team";
@@ -157,7 +164,7 @@ class CfgVehicles {
 
 	class TTT_Green_BW_Flecktarn : TTT_Yellow_BW_Flecktarn {
 		author = "Tactical Training Team";
-		displayName = "Klasse Gruen Flecktarn";
+		displayName = "Klasse Grün Flecktarn";
 		uniformClass = "TTT_Uniform_Green_BW_Flecktarn";
 		hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\TTT_uniform_green_bw_flecktarn.paa" };
 	};
@@ -217,6 +224,7 @@ class CfgVehicles {
 		uniformClass = "TTT_Uniform_Silver_BW_Flecktarn";
 		hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\TTT_uniform_silver_bw_flecktarn.paa" };
 	};
+
 	class TTT_Orange_BW_Flecktarn : TTT_Yellow_BW_Flecktarn {
 		author = "Tactical Training Team";
 		displayName = "Klasse Orange Flecktarn";
@@ -249,7 +257,7 @@ class CfgVehicles {
 
 	class TTT_Green_BW_Tropentarn : TTT_Yellow_BW_Tropentarn {
 		author = "Tactical Training Team";
-		displayName = "Klasse Gruen Tropentarn";
+		displayName = "Klasse Grün Tropentarn";
 		uniformClass = "TTT_Uniform_Green_BW_Tropentarn";
 		hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\TTT_uniform_green_bw_tropentarn.paa" };
 	};
@@ -303,17 +311,12 @@ class CfgVehicles {
 		hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\TTT_uniform_white_bw_tropentarn.paa" };
 	};
 
-	class TTT_Silver_BW_Tropentarn : TTT_Yellow_BW_Tropentarn {
-		author = "Tactical Training Team";
-		displayName = "Klasse Silber Tropentarn";
-		uniformClass = "TTT_Uniform_Silver_BW_Tropentarn";
-		hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\TTT_uniform_silver_bw_tropentarn.paa" };
-	};
 	class TTT_Orange_BW_Tropentarn : TTT_Yellow_BW_Tropentarn {
 		author = "Tactical Training Team";
 		displayName = "Klasse Orange Tropentarn";
 		uniformClass = "TTT_Uniform_Orange_BW_Tropentarn";
 		hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\TTT_uniform_orange_bw_tropentarn.paa" };
 	};
+
 
 };

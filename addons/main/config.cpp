@@ -1,14 +1,16 @@
+#include "script_component.hpp"
+
 class CfgPatches
 {
-	class ttt_main
+	class ADDON
 	{
 		// Meta information for editor
-		name = "TTT Main";
-		author = "TacticalTrainingTeam";
+		name = COMPONENT_NAME;
+		author = "Tactical Training Team";
 		url = "https://tacticalteam.de";
 
 		// Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
-		requiredVersion = 1.60;
+		requiredVersion = REQUIRED_VERSION;
 		// Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
 		// When any of the addons are missing, a pop-up warning will appear when launching the game.
 		requiredAddons[] = {"cba_main"};
@@ -21,3 +23,19 @@ class CfgPatches
 		skipWhenMissingDependencies = 1;
 	};
 };
+
+class CfgMods {
+    class PREFIX {
+        dir = "@ttt";
+        name = "Tactical Training Team";
+        picture = "A3\Ui_f\data\Logos\arma3_expansion_alpha_ca";
+        hidePicture = "true";
+        hideName = "true";
+        actionName = "Website";
+        action = CSTRING(URL);
+        description = "https://www.tacticalteam.de";
+    };
+};
+
+#include "Dialog.hpp"
+#include "CfgEditorSubCategories.hpp"

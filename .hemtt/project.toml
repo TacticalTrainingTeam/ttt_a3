@@ -1,22 +1,17 @@
 name = "TTT-Mod"
-author = "TacticalTrainingTeam"
+author = "Tactical Training Team"
 prefix = "ttt"
 mainprefix = "z"
 
 [version]
-major = 0 # Overrides path when set
-minor = 1
-patch = 0
-build = 1 # Optional
-
-git_hash = 8 # Default: 8
+path = "addons/main/script_version.hpp"
+git_hash = 4
 
 [files]
 exclude = [
     "*.psd",
     "*.png",
     "*.tga",
-    "teleporter"
 ]
 include = [
     "meta.cpp", 
@@ -30,7 +25,7 @@ include = [
 command_case = true
 
 [properties]
-url = "https://github.com/Andx667/TTT-Mod"
+url = "https://github.com/Andx667/TTT-Mod" # ToDo Change to TTT Repo URL
 
 [hemtt.signing]
-authority = "TacticalTrainingTeam"
+authority = "Tactical Training Team"

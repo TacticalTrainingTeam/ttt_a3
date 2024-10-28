@@ -1,5 +1,3 @@
-# compat vanilla
+# Vanilla Rucksäcke
 
-## Radio Backpack Carry Capacity Increase
-
-Increases Backpack Carry Capacity of Vanilla Radiobackpacks, so they can fit ACRE PRC177F Radios and still have some space left.
+Erhöht die Tragekapazität der Vanilla Funkrucksäcke damit zwei ACRE 117F rein passt und noch etwas Platz ist.

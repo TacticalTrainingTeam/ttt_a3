@@ -1,12 +1,8 @@
-class CfgFunctions
-{
-	class SA
-	{
-		class AdvancedSlingLoading
-		{
-			file="functions\fn_AdvancedSlingLoadingInit.sqf";
-			class advancedSlingLoadingInit
-			{
+class CfgFunctions {
+	class SA_AdvancedSlingLoading {
+		class init {
+			file="z\ttt\addons\advancedslingloading\functions";
+			class AdvancedSlingLoadingInit {
 				postInit=1;
 			};
 		};
