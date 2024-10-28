@@ -1,9 +1,9 @@
-# compat vanilla scopes
+# Vanilla
 
-Adds integrated Nightvission to the following scopes:
+Fügt ausgewählten Vanilla Zielfernrohren ein intergriertes Nachtsichtgerät hinzu:
 
-- Nightforce NXS (optic_LRPS)
+- Nightforce NXS (`optic_LRPS`)
 - MOS (optic_sos)
-- Burris XTR II (optic_DMS)
-- US Optics MR10 (optic_AMS)
-- KAHLES Helia (optic_khs)
+- Burris XTR II (`optic_DMS`)
+- US Optics MR10 (`optic_AMS`)
+- KAHLES Helia (`optic_khs`)

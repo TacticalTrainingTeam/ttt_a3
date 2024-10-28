@@ -1,5 +1,5 @@
-# cfp backpacks
+# CFP Rucksäcke
 
-Adds Wire Cutters to the following class names:
+Fügt ausgewählten Rucksäcken die ACE_Wirecutter funktion hinzu:
 
-- `CFP_Cutters` Cutters [75th]
+- `CFP_Cutters`
