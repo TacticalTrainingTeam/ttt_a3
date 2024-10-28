@@ -21,18 +21,10 @@ class CfgPatches {
 	};
 };
 
-class CfgFactionClasses {
-	class RSR {
-		displayName: "RSR";
-		icon: "z\ttt\addons\rsr_core\data\ui\rsr_logo.paa";
-	}
-
-};
-
 class CfgEditorCategories {
 	class rsrVehicles {
 		displayName="RSR Fahrzeuge";
-		faction: "RSR";
+		//faction = "RSR";
 	};
 };
 class CfgEditorSubcategories {
