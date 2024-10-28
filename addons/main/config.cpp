@@ -5,12 +5,12 @@ class CfgPatches
 	class ADDON
 	{
 		// Meta information for editor
-		name = "TTT Main";
+		name = COMPONENT_NAME;
 		author = "Tactical Training Team";
 		url = "https://tacticalteam.de";
 
 		// Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
-		requiredVersion = 1.60;
+		requiredVersion = REQUIRED_VERSION;
 		// Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
 		// When any of the addons are missing, a pop-up warning will appear when launching the game.
 		requiredAddons[] = {"cba_main"};
