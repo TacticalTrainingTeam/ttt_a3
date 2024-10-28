@@ -32,7 +32,7 @@ ASL_Sling_Load_Point_Class_Height_Offset = [
 	["CUP_B_MI6A_CDF", [-0.8, -1, -1.1]],
 	["B_Heli_Transport_03_F", [-0.35, -0.15, -0.05]],
 	["RHS_UH60M2_d", [-0.05, -0.05, -0.05]],  	
-	["B_T_VTOL_01_Vehicle_F", [-0.9, -0.9, -0.9]]
+	["B_T_VTOL_01_Vehicle_F", [-0.9, -0.9, -0.9]] //ToDo Hatchet Mod
 ];
 
 ASL_Get_Sling_Load_Points = {
