@@ -5,50 +5,51 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1;
+	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=193;
+		nextID=270;
 	};
 	class LayerIndexProvider
 	{
-		nextID=58;
+		nextID=66;
 	};
 	class Camera
 	{
-		pos[]={4820.0791,10.105136,6867.8013};
-		dir[]={0.64206904,-0.56167608,0.52186573};
-		up[]={0.43587485,0.82734388,0.35427418};
-		aside[]={0.63075215,3.5343692e-07,-0.77603406};
+		pos[]={4817.7271,14.34177,6865.7388};
+		dir[]={0.18794455,-0.34826246,0.91840184};
+		up[]={0.069826737,0.93738681,0.34121636};
+		aside[]={0.97972929,8.5321517e-08,-0.20049755};
 	};
 };
 binarizationWanted=0;
 sourceName="ttt_test";
 addons[]=
 {
-	"A3_Characters_F",
 	"A3_Data_F_Exp_A_Virtual",
+	"A3_Characters_F",
 	"A3_Modules_F_Curator_Curator",
 	"A3_Ui_F",
 	"ttt_signs",
-	"A3_Supplies_F_Heli_CargoNets"
+	"A3_Supplies_F_Heli_CargoNets",
+	"A3_Misc_F_Helpers"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=6;
+		items=7;
 		class Item0
 		{
-			className="A3_Characters_F";
-			name="Arma 3 Alpha - Characters and Clothing";
+			className="A3_Data_F_Exp_A";
+			name="Arma 3 Nexus Update - Main Configuration";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
 		class Item1
 		{
-			className="A3_Data_F_Exp_A";
-			name="Arma 3 Nexus Update - Main Configuration";
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -77,6 +78,13 @@ class AddonsMetaData
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item6
+		{
+			className="A3_Misc_F";
+			name="Arma 3 - 3D Aids and Helpers";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -114,68 +122,8 @@ class Mission
 	};
 	class Entities
 	{
-		items=4;
+		items=5;
 		class Item0
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=1;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4814.4868,5.0014391,6880.9087};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						name="zeus_01";
-						isPlayer=1;
-					};
-					id=36;
-					type="B_Survivor_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male01ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1.03;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
-			id=0;
-		};
-		class Item1
 		{
 			dataType="Layer";
 			name="TTT - Vorlage - Module";
@@ -828,7 +776,7 @@ class Mission
 			};
 			id=35;
 		};
-		class Item2
+		class Item1
 		{
 			dataType="Object";
 			class PositionInfo
@@ -861,7 +809,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item3
+		class Item2
 		{
 			dataType="Comment";
 			class PositionInfo
@@ -870,6 +818,52 @@ class Mission
 			};
 			title="Arsenal";
 			id=38;
+		};
+		class Item3
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4810.3389,5.0014391,6887.2676};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=204;
+					type="B_Survivor_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=203;
+		};
+		class Item4
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4816.981,6.0818248,6878.8193};
+				angles[]={0,6.2317696,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				name="pointer";
+			};
+			id=246;
+			type="Sign_Pointer_Pink_F";
+			atlOffset=1.0318246;
 		};
 	};
 };

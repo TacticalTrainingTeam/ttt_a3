@@ -11,7 +11,7 @@ class CfgPatches {
 		requiredVersion = REQUIRED_VERSION;
 		// Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
 		// When any of the addons are missing, a pop-up warning will appear when launching the game.
-		requiredAddons[] = {"cba_main"};
+		requiredAddons[] = {"cba_main", "CUP_Vehicles_LoadOrder", "ace_interaction"};
 		// List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
 		units[] = {};
 		// List of weapons (CfgWeapons classes) contained in the addon.
@@ -21,19 +21,3 @@ class CfgPatches {
 		skipWhenMissingDependencies = 1;
 	};
 };
-
-class CfgMods {
-    class PREFIX {
-        dir = "@ttt";
-        name = "Tactical Training Team";
-        picture = "A3\Ui_f\data\Logos\arma3_expansion_alpha_ca";
-        hidePicture = "true";
-        hideName = "true";
-        actionName = "Website";
-        action = CSTRING(URL);
-        description = "https://www.tacticalteam.de";
-    };
-};
-
-#include "Dialog.hpp"
-#include "CfgEditorSubCategories.hpp"
