@@ -8,18 +8,18 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=270;
+		nextID=310;
 	};
 	class LayerIndexProvider
 	{
-		nextID=66;
+		nextID=72;
 	};
 	class Camera
 	{
-		pos[]={4817.7271,14.34177,6865.7388};
-		dir[]={0.18794455,-0.34826246,0.91840184};
-		up[]={0.069826737,0.93738681,0.34121636};
-		aside[]={0.97972929,8.5321517e-08,-0.20049755};
+		pos[]={4800.0981,19.331703,6875.0649};
+		dir[]={0.71150017,-0.57860142,0.39874035};
+		up[]={0.50474572,0.81560928,0.28287029};
+		aside[]={0.488886,-1.5017577e-08,-0.87235481};
 	};
 };
 binarizationWanted=0;
@@ -831,7 +831,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4810.3389,5.0014391,6887.2676};
+						position[]={4808.9678,5.0014391,6891.228};
 					};
 					side="West";
 					flags=7;
