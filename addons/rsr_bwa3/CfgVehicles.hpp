@@ -12,8 +12,8 @@ class CfgVehicles
 		crew="B_Soldier_F";
 		side=1;
 		editorPreview="";
-		editorCategory="rsrVehicles";
-		editorSubcategory="rsrCar";
+		faction="rsr";
+		editorSubcategory="EdSubCat_Cars";
 		scope=2;
 		scopeCurator=2;
 		scopeArsenal=2;
@@ -325,8 +325,8 @@ class CfgVehicles
 		crew="B_Soldier_F";
 		side=1;
 		editorPreview="";
-		editorCategory="rsrVehicles";
-		editorSubcategory="rsrCar";
+		faction="rsr";
+		editorSubcategory="EdSubCat_Cars";
 		scope=2;
 		scopeCurator=2;
 		scopeArsenal=2;

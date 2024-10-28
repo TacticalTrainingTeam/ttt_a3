@@ -1,4 +1,4 @@
-# RSR Vanilla
+# RsR Vanilla
 
 ## Fennek
 

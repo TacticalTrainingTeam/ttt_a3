@@ -8,18 +8,18 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=136;
+		nextID=153;
 	};
 	class LayerIndexProvider
 	{
-		nextID=34;
+		nextID=44;
 	};
 	class Camera
 	{
-		pos[]={4817.4292,10.529639,6870.5132};
-		dir[]={-0.17721818,-0.34623328,0.92135406};
-		up[]={-0.065406941,0.93812615,0.34004715};
-		aside[]={0.98207897,4.7822687e-07,0.18889503};
+		pos[]={4856.4375,31.892151,6864.0986};
+		dir[]={-0.69639945,-0.60449052,0.38709214};
+		up[]={-0.52837145,0.79659337,0.29369393};
+		aside[]={0.48588872,1.390581e-06,0.87413388};
 	};
 };
 binarizationWanted=0;
@@ -48,7 +48,7 @@ class AddonsMetaData
 		class Item1
 		{
 			className="ttt_signs";
-			name="TTT Signs";
+			name="TTT - Signs";
 			author="Tactical Training Team";
 			url="https://tacticalteam.de";
 		};

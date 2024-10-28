@@ -6,8 +6,8 @@ class CfgVehicles
 		author="RsR";
 		displayName="C-161 Transall 2";
 		editorPreview="";
-		editorCategory="rsrVehicles";
-		editorSubcategory="rsrPlane";
+		editorSubcategory="EdSubcat_Planes";
+		faction="rsr";
 		hiddenSelectionsTextures[]=
 		{
 			"z\ttt\addons\rsr_core\data\planes\redd_c_161_body_co.paa",
@@ -20,8 +20,8 @@ class CfgVehicles
 		author="RsR";
 		displayName="C-161 Transall 2 (VIV)";
 		editorPreview="";
-		editorCategory="rsrVehicles";
-		editorSubcategory="rsrPlane";
+		editorSubcategory="EdSubcat_Planes";
+		faction="rsr";
 		hiddenSelectionsTextures[]=
 		{
 			"z\ttt\addons\rsr_core\data\planes\redd_c_161_body_co.paa",

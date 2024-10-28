@@ -1,4 +1,4 @@
-# RSR CUP
+# RsR CUP
 
 ## Transall 2
 

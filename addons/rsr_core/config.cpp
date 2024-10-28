@@ -23,26 +23,4 @@ class CfgPatches {
 	};
 };
 
-class CfgEditorCategories {
-	class rsrVehicles {
-		displayName="RSR Fahrzeuge";
-		//faction = "RSR";
-	};
-};
-class CfgEditorSubcategories {
-	class rsrArti {
-		displayName="Artillerie";
-	};
-	class rsrCar {
-		displayName="Auto";
-	};
-	class rsrPlane {
-		displayName="Flugzeug";
-	};
-	class rsrAPC {
-		displayName="Truppentransporter";
-	};
-	class rsrTank {
-		displayName="Panzer";
-	};
-};
+#include "CfgFactionClasses.hpp"

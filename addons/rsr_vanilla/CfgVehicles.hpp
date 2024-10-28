@@ -13,8 +13,9 @@ class CfgVehicles
 		side=1;
 		crew="B_Soldier_F";
 		editorPreview="";
-		editorCategory="rsrVehicles";
-		editorSubcategory="rsrCar";
+		faction="rsr";
+		 
+		editorSubcategory="EdSubCat_Cars";
 		hiddenSelectionsTextures[]=	{
 			"z\ttt\addons\rsr_vanilla\data\fennek\fennek_flecktarn_ext_co",
 			"z\ttt\addons\rsr_vanilla\data\fennek\fennek_flecktarn_turret_co"
@@ -84,8 +85,9 @@ class CfgVehicles
 		side=1;
 		crew="B_Soldier_F";
 		editorPreview="";
-		editorCategory="rsrVehicles";
-		editorSubcategory="rsrCar";
+		faction="rsr";
+		 
+		editorSubcategory="EdSubCat_Cars";
 		hiddenSelectionsTextures[]=
 		{
 			"z\ttt\addons\rsr_vanilla\data\fennek\fennek_flecktarn_ext_co",
@@ -161,8 +163,9 @@ class CfgVehicles
 		side=1;
 		crew="B_Soldier_F";
 		editorPreview="";
-		editorCategory="rsrVehicles";
-		editorSubcategory="rsrCar";
+		faction="rsr";
+		 
+		editorSubcategory="EdSubCat_Cars";
 		hiddenSelectionsTextures[]=
 		{
 			"z\ttt\addons\rsr_vanilla\data\fennek\fennek_flecktarn_ext_co",
@@ -243,8 +246,9 @@ class CfgVehicles
 		transportAmmo=3000;
 		supplyRadius=7.5;
 		editorPreview="";
-		editorCategory="rsrVehicles";
-		editorSubcategory="rsrTank";
+		faction="rsr";
+		 
+		editorSubcategory="EdSubCat_Tanks";
 		hiddenSelectionsTextures[]=
 		{
 			"z\ttt\addons\rsr_vanilla\data\bergepanzer\bergepanzer_flecktarn_body_crv_co",
@@ -342,8 +346,8 @@ class CfgVehicles
 		side=1;
 		crew="B_Soldier_F";
 		editorPreview="";
-		editorCategory="rsrVehicles";
-		editorSubcategory="rsrCar";
+		faction="rsr";
+		editorSubcategory="EdSubCat_Cars";
 		scope=2;
 		scopeCurator=2;
 		scopeArsenal=2;
@@ -413,8 +417,9 @@ class CfgVehicles
 		side=1;
 		crew="B_Soldier_F";
 		editorPreview="";
-		editorCategory="rsrVehicles";
-		editorSubcategory="rsrCar";
+		faction="rsr";
+		 
+		editorSubcategory="EdSubCat_Cars";
 		class TransportItems
 		{
 		};
@@ -488,8 +493,8 @@ class CfgVehicles
 		side=1;
 		crew="B_Soldier_F";
 		editorPreview="";
-		editorCategory="rsrVehicles";
-		editorSubcategory="rsrCar";
+		faction="rsr";
+		editorSubcategory="EdSubCat_Cars";
 		transportRepair=200000000;
 		supplyRadius=10;
 		class TransportItems
@@ -574,8 +579,9 @@ class CfgVehicles
 		side=1;
 		crew="B_Soldier_F";
 		editorPreview="";
-		editorCategory="rsrVehicles";
-		editorSubcategory="rsrCar";
+		faction="rsr";
+		 
+		editorSubcategory="EdSubCat_Cars";
 		transportAmmo=30000;
 		supplyRadius=10;
 		fuelExplosionPower=10;
@@ -656,8 +662,9 @@ class CfgVehicles
 		supplyRadius=10;
 		fuelExplosionPower=15;
 		editorPreview="";
-		editorCategory="rsrVehicles";
-		editorSubcategory="rsrCar";
+		faction="rsr";
+		 
+		editorSubcategory="EdSubCat_Cars";
 		hiddenSelectionsTextures[]=
 		{
 			"z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext01_co",
@@ -734,8 +741,9 @@ class CfgVehicles
 		crew="B_Soldier_F";
 		supplyRadius=10;
 		editorPreview="";
-		editorCategory="rsrVehicles";
-		editorSubcategory="rsrCar";
+		faction="rsr";
+		 
+		editorSubcategory="EdSubCat_Cars";
 		hiddenSelectionsTextures[]=
 		{
 			"z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext01_co",
