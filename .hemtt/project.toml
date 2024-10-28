@@ -3,14 +3,6 @@ author = "Tactical Training Team"
 prefix = "ttt"
 mainprefix = "z"
 
-[version]
-major = 3 # Overrides path when set
-minor = 0
-patch = 0
-build = 0 # Optional
-
-git_hash = 8 # Default: 8
-
 [files]
 exclude = [
     "*.psd",
