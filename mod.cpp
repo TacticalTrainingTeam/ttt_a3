@@ -1,4 +1,4 @@
-name = "TTT-Mod 3.0.0.";
+name = "TTT-Mod 0.0.0.";
 picture = "logo_ttt_ca.paa";
 actionName = "Website";
 action = "https://tacticalteam.de";
