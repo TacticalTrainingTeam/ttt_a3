@@ -1,13 +1,12 @@
 # Launched with `hemtt launch`
 [default]
 workshop = [
-    "463939057", # ACE3's Workshop ID
-    "450814997", # CBA_A3's Workshop ID
-    "2369477168", # Advanced Developer Tools' Workshop ID
-    "751965892", #  ACRE's Workshop ID
-    "3018767334", # Open in VS Code Workshop ID
-    "3023395342", # 3DEN Attributes Fast Load Workshop ID
-
+    "463939057", # ACE3
+    "450814997", # CBA_A3
+    "751965892", #  ACRE
+    "2369477168", # Advanced Developer Tools
+    "3018767334", # Open in VS Code 
+    "3023395342", # 3DEN Attributes Fast Load 
 ]
 #optionals = []
 #mission = "test.VR" # Mission to launch directly into the editor with
@@ -25,23 +24,39 @@ mission = "ttt_test.VR"
 [cup]
 extends = "default"
 workshop = [
-    "497660133", # CUP Weapons Workshop ID
-    "541888371", # CUP Vehicles Workshop ID
-    "497661914", # CUP Units Workshop ID
-    "1369691841", # CFP Workshop ID
+    "497660133", # CUP Weapons 
+    "541888371", # CUP Vehicles 
+    "497661914", # CUP Units 
+    "1369691841", # CFP 
 ]
 
 [rhs]
 extends = "default"
 workshop = [
-    "843425103", # RHS AFRF Workshop ID
-    "843577117", # RHS USAF Workshop ID
-    "843593391", # RHS GREF Workshop ID
-    "843632231", # RHS SAF  Workshop ID
+    "843425103", # RHS AFRF 
+    "843577117", # RHS USAF 
+    "843593391", # RHS GREF 
+    "843632231", # RHS SAF  
+    "1673456286", # 3CB Factions
 ]
 
 [bwa3]
 extends = "cup"
 workshop = [
-    "1200127537", # BWmod Workshop ID
+    "1200127537", # BWmod 
+]
+
+[baf]
+extends = "rhs"
+workshop = [
+    "893328083", # BAF Equipment
+    "893346105", # BAF Units
+    "893339590", # BAF Weapons
+    "1661066023", # RKSL Attachement
+    "893349825", # BAF Vehicles
+    "1135541175", # BAF Units RHS Compat
+    "1135539579", # BAF Units ACE Compat
+    "1135534951", # BAF Equipment ACRE Compat
+    "1515851169", # BAF Vehicles RHS Reskins
+    "1515845502", # BAF Weapons RHS Ammo Compat
 ]
