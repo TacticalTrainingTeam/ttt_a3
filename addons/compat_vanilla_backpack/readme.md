@@ -1,3 +1,3 @@
 # Vanilla Rucksäcke
 
-Erhöht die Tragekapazität der Vanilla Funkrucksäcke damit zwei ACRE 117F rein passt und noch etwas Platz ist.
+Erhöht die Tragekapazität der Vanilla Funkrucksäcke damit zwei ACRE 117F rein passen und noch etwas Platz ist.

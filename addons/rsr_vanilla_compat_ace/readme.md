@@ -7,4 +7,4 @@ Fügt den Vanilla Fahrzeugen von RsR ACE Funktionen hinzu und deaktiviert die Va
 - Wisent Munition hat `ace_rearm_defaultSupply = 1200;`
 - Wisent Treibstoff hat `ace_refuel_fuelCargo = 3000;`
 
-- Bergepanzer hat gleichen Funktionen wie die Wisent Reperatur, Munition, Treibstoff in einem
+- Bergepanzer hat gleichen Funktionen wie die Wisent Reperatur, Munition, Treibstoff in einem.

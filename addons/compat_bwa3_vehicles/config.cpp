@@ -1,17 +1,18 @@
 #include "script_component.hpp"
 
 class CfgPatches {
-    class ADDON {
+    class ADDON    {
         // Meta information for editor
         name = COMPONENT_NAME;
-        author = "Andx";
+        author = "Tactical Training Team";
+        authors[] = { "Andx"};
         url = "https://tacticalteam.de";
 
         // Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
         requiredVersion = REQUIRED_VERSION;
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
-        requiredAddons[] = {"ttt_main"};
+        requiredAddons[] = {"ttt_main", "bwa3_common", "ace_interaction"};
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {};
         // List of weapons (CfgWeapons classes) contained in the addon.
@@ -22,5 +23,4 @@ class CfgPatches {
     };
 };
 
-#include "CfgFunctions.hpp"
-#include "CfgNetworkMessages.hpp"
+#include "CfgVehicles.hpp"
