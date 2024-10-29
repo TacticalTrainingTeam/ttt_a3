@@ -20,9 +20,9 @@ class CfgVehicles {
                 items[] = {"Land_CanisterFuel_F", "Land_CanisterFuel_F"};
                 text = "Removing Jerry Cans...";
             };
-            class hide_jerrycans { 
+            class hide_spare_wheel { 
                 positions[] = {{0.25, -2.7, -1.2}};
-                items[] = {"hide_spare_wheel"};
+                items[] = {"ACE_Wheel"};
                 text = "Removing Jerry Cans...";
             };
         };
