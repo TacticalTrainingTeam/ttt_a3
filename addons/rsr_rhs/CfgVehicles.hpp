@@ -7,7 +7,7 @@ class CfgVehicles {
         editorPreview="";
         editorSubcategory="EdSubcat_Planes";
         faction="rsr";
-        hiddenSelectionsTextures[]=    {
+        hiddenSelectionsTextures[]= {
             "z\ttt\addons\rsr_core\data\planes\redd_c_161_body_co.paa",
             "z\ttt\addons\rsr_core\data\planes\redd_c_161_wings_co.paa"
         };
@@ -20,7 +20,7 @@ class CfgVehicles {
         editorPreview="";
         editorSubcategory="EdSubcat_Planes";
         faction="rsr";
-        hiddenSelectionsTextures[]=    {
+        hiddenSelectionsTextures[]= {
             "z\ttt\addons\rsr_core\data\planes\redd_c_161_body_co.paa",
             "z\ttt\addons\rsr_core\data\planes\redd_c_161_wings_co.paa"
         };

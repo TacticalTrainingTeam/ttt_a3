@@ -8,3 +8,10 @@ Fügt den Vanilla Fahrzeugen von RsR ACE Funktionen hinzu und deaktiviert die Va
 - Wisent Treibstoff hat `ace_refuel_fuelCargo = 3000;`
 
 - Bergepanzer hat gleichen Funktionen wie die Wisent Reperatur, Munition, Treibstoff in einem.
+
+## Referenzen
+
+<https://ace3.acemod.org/wiki/framework/medical-treatment-framework#21-medical-vehicles>
+<https://ace3.acemod.org/wiki/framework/rearm-framework#11-setting-vehicle-as-a-supply>
+<https://ace3.acemod.org/wiki/framework/refuel-framework#1-config-values>
+<https://ace3.acemod.org/wiki/framework/repair-framework#11-setting-vehicle-as-repair-location>

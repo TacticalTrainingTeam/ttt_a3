@@ -1,4 +1,6 @@
-# Vanilla
+# Vanilla Zielfernrohre
+
+## NVG
 
 Fügt ausgewählten Vanilla Zielfernrohren ein intergriertes Nachtsichtgerät hinzu:
 
