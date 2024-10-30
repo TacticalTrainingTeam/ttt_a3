@@ -3,7 +3,7 @@ class CfgVehicles {
     class TTT_Beret_Item_Blue : Item_Base_F {
         scope = 2;
         scopeCurator = 2;
-        displayName = QUOTE(TTT Barett Blau);
+        displayName = CSTRING(blue);
         author = QUOTE(Tactical Training Team);//Textures by Reimchen
         icon = "iconObject_1x1";
         vehicleClass = "Items";
@@ -18,7 +18,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Brown : TTT_Beret_Item_Blue {
-        displayName = QUOTE(TTT Barett Braun);
+        displayName = CSTRING(brown);
         
         class TransportItems {
             class TTT_Beret_Brown {
@@ -29,7 +29,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Bronze : TTT_Beret_Item_Blue {
-        displayName = QUOTE(TTT Barett Bronze);
+        displayName = CSTRING(bronze);
         
         class TransportItems {
             class TTT_Beret_Bronze {
@@ -40,7 +40,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Yellow : TTT_Beret_Item_Blue {
-        displayName = QUOTE(TTT Barett Gelb);
+        displayName = CSTRING(yellow);
         
         class TransportItems {
             class TTT_Beret_Yellow {
@@ -51,7 +51,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Gold : TTT_Beret_Item_Blue {
-        displayName = QUOTE(TTT Barett Gold);
+        displayName = CSTRING(gold);
         
         class TransportItems {
             class TTT_Beret_Gold {
@@ -62,7 +62,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Grey : TTT_Beret_Item_Blue {
-        displayName = QUOTE(TTT Barett Grau);
+        displayName = CSTRING(grey);
         
         class TransportItems {
             class TTT_Beret_Grey {
@@ -73,7 +73,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Green : TTT_Beret_Item_Blue {
-        displayName = QUOTE(TTT Barett Grün);
+        displayName = CSTRING(green);
         
         class TransportItems {
             class TTT_Beret_Green {
@@ -84,7 +84,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Logo : TTT_Beret_Item_Blue {
-        displayName = QUOTE(TTT Barett Logo);
+        displayName = CSTRING(logo);
         
         class TransportItems {
             class TTT_Beret_Logo {
@@ -95,7 +95,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Platinum : TTT_Beret_Item_Blue {
-        displayName = QUOTE(TTT Barett Platin);
+        displayName = CSTRING(platinum);
         
         class TransportItems {
             class TTT_Beret_Platinum {
@@ -106,7 +106,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Red : TTT_Beret_Item_Blue {
-        displayName = QUOTE(TTT Barett Rot);
+        displayName = CSTRING(red);
         
         class TransportItems {
             class TTT_Beret_Red {
@@ -117,7 +117,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Black : TTT_Beret_Item_Blue {
-        displayName = QUOTE(TTT Barett Schwarz);
+        displayName = CSTRING(black);
         
         class TransportItems {
             class TTT_Beret_Black {
@@ -128,7 +128,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Silver : TTT_Beret_Item_Blue {
-        displayName = QUOTE(TTT Barett Silber);
+        displayName = CSTRING(silver);
         
         class TransportItems {
             class TTT_Beret_Silver {
@@ -139,7 +139,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Violet : TTT_Beret_Item_Blue {
-        displayName = QUOTE(TTT Barett Violett);
+        displayName = CSTRING(violet);
         
         class TransportItems {
             class TTT_Beret_Violet {
@@ -150,7 +150,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_White : TTT_Beret_Item_Blue {
-        displayName = QUOTE(TTT Barett Weiss);
+        displayName = CSTRING(white);
         
         class TransportItems {
             class TTT_Beret_White {
@@ -161,7 +161,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Orange : TTT_Beret_Item_Blue {
-        displayName = QUOTE(TTT Barett Orange);
+        displayName = CSTRING(orange);
         
         class TransportItems {
             class TTT_Beret_Orange {

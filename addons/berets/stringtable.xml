@@ -5,4 +5,60 @@
             <Englich>TTT Beret Blue</Englich>
             <German>TTT Barett Blau</German>
         </Key>
+        <Key ID="STR_TTT_berets_brown">
+            <Englich>TTT Beret Brown</Englich>
+            <German>TTT Barett Braun</German>
+        </Key>
+        <Key ID="STR_TTT_berets_black">
+            <Englich>TTT Beret Black</Englich>
+            <German>TTT Barett Schwarz</German>
+        </Key>
+        <Key ID="STR_TTT_berets_green">
+            <Englich>TTT Beret Green</Englich>
+            <German>TTT Barett Grün</German>
+        </Key>
+        <Key ID="STR_TTT_berets_silver">
+            <Englich>TTT Beret Silver</Englich>
+            <German>TTT Barett Silber</German>
+        </Key>
+        <Key ID="STR_TTT_berets_logo">
+            <Englich>TTT Beret Logo</Englich>
+            <German>TTT Barett Logo</German>
+        </Key>
+        <Key ID="STR_TTT_berets_orange">
+            <Englich>TTT Beret Orange</Englich>
+            <German>TTT Barett Orange</German>
+        </Key>
+            <Key ID="STR_TTT_berets_red">
+            <Englich>TTT Beret Red</Englich>
+            <German>TTT Barett Rot</German>
+        </Key>
+        <Key ID="STR_TTT_berets_white">
+            <Englich>TTT Beret White</Englich>
+            <German>TTT Barett Weiß</German>
+        </Key>
+        <Key ID="STR_TTT_berets_yellow">
+            <Englich>TTT Beret Yellow</Englich>
+            <German>TTT Barett Gelb</German>
+        </Key>
+        <Key ID="STR_TTT_berets_violet">
+            <Englich>TTT Beret Violet</Englich>
+            <German>TTT Barett Violett</German>
+        </Key>
+        <Key ID="STR_TTT_berets_platinum">
+            <Englich>TTT Beret Platinum</Englich>
+            <German>TTT Barett Platin</German>
+        </Key>
+        <Key ID="STR_TTT_berets_gold">
+            <Englich>TTT Beret Gold</Englich>
+            <German>TTT Barett Gold</German>
+        </Key>
+       <Key ID="STR_TTT_berets_grey">
+            <Englich>TTT Beret Grey</Englich>
+            <German>TTT Barett Grau</German>
+        </Key>
+        <Key ID="STR_TTT_berets_bronze">
+            <Englich>TTT Beret Bronze</Englich>
+            <German>TTT Barett Bronze</German>
+        </Key>
 </Project>
