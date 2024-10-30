@@ -7,9 +7,9 @@ class CfgWeapons {
     };
 
     class TTT_Beret_Blue : HelmetBase {
-        author = QUOTE(Reimchen);
+        author = "Reimchen";
         scope = 2;
-        displayName = QUOTE(TTT Barett Blau);
+        displayName = CSTRING(STR_TTT_berets_blue);
         model = "\A3\Characters_f_epb\BLUFOR\headgear_beret02.p3d";
         picture = QPATHTOF(data\ui\berets_blau_icon_co.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\common\berets_blau_co.paa)};

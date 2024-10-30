@@ -2,7 +2,7 @@ class CfgVehicles {
     
     class bwa3_eagle_fleck;
     class rsr_eagle_fleck: bwa3_eagle_fleck {
-        author="RsR";
+        author = CSTRING(RSR);
         attendant = 1;
         displayName="Eagle IV Sanität (Flecktarn)";
         typicalCargo[]= {"B_Soldier_F"};
@@ -217,8 +217,8 @@ class CfgVehicles {
         class TransportMagazines { };
     };
     class rsr_eagle_fleck_lowvis: rsr_eagle_fleck {
-        author="RsR";
-        displayName="Eagle IV Sanität lowvis (Flecktarn)";
+        author = CSTRING(RSR);
+        displayName=QUOTE(Eagle IV Sanität lowvis (Flecktarn));
         _generalMacro="I_MRAP_03_F";
         editorPreview="";
         scope=2;
@@ -248,8 +248,8 @@ class CfgVehicles {
         };
     };
     class rsr_eagle_fleck_dia: rsr_eagle_fleck {
-        author="RsR";
-        displayName="Eagle IV Sanität Diamant (Flecktarn)";
+        author = CSTRING(RSR);
+        displayName = QUOTE(Eagle IV Sanität Diamant (Flecktarn));
         _generalMacro="I_MRAP_03_F";
         editorPreview="";
         scope=2;
@@ -281,14 +281,14 @@ class CfgVehicles {
 
     class bwa3_eagle_tropen;
     class rsr_eagle_tropen: bwa3_eagle_tropen {
-        author="RsR";
+        author = ECSTRING(rsr_core,RSR);
         attendant = 1;
-        displayName="Eagle IV Sanität (Tropentarn)";
+        displayName = CSTRING(TTT_rsr_bwa3_eagleSan_tropen);
         typicalCargo[]= {"B_Soldier_F"};
         crew="B_Soldier_F";
         side=1;
         editorPreview="";
-        faction="rsr";
+        faction=QUOTE(rsr);
         editorSubcategory="EdSubCat_Cars";
         scope=2;
         scopeCurator=2;
@@ -407,15 +407,15 @@ class CfgVehicles {
         class TransportWeapons { };
         class TransportMagazines { };
     };
-    class rsr_eagle_tropen_lowvis: rsr_eagle_tropen    {
-        author="RsR";
-        displayName="Eagle IV Sanität lowvis (Tropentarn)";
+    class rsr_eagle_tropen_lowvis: rsr_eagle_tropen {
+        author = ECSTRING(rsr_core,RSR);
+        displayName=CSTRING(TTT_rsr_bwa3_eagleSan_low_vis_tropen);
         _generalMacro="I_MRAP_03_F";
         editorPreview="";
         scope=2;
         scopeCurator=2;
         scopeArsenal=2;
-        hiddenSelectionsTextures[]=    {
+        hiddenSelectionsTextures[]= {
             "z\ttt\addons\rsr_bwa3\data\eagle\bwa3_eagle_tropen_co_vis",
             "\bwa3_eagle\data\bwa3_eagle_fahrwerk_co.paa",
             "\bwa3_eagle\data\bwa3_eagle_int_co.paa",
@@ -439,8 +439,8 @@ class CfgVehicles {
         };
     };
     class rsr_eagle_tropentarn_dia: rsr_eagle_tropen {
-        author="RsR";
-        displayName="Eagle IV Sanität Diamant (Tropentarn)";
+        author = CSTRING(RSR);
+        displayName = "Eagle IV Sanität Diamant (Tropentarn)";
         _generalMacro="I_MRAP_03_F";
         editorPreview="";
         scope=2;

@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
  <Project name="ttt_a3">
     <Package name="rsr_core"/>
+        <Key ID="TTT_rsr_core_RSR">
+            <English>RsR</English>
+            <German>RsR</German>
+        </Key>
+        <Key ID="TTT_rsr_core_RnT">
+            <English>RnT</English>
+            <German>RnT</German>
+        </Key>
 </Project>
