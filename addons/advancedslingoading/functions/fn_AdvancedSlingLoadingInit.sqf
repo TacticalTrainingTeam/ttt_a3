@@ -1037,35 +1037,35 @@ ASL_Find_Nearby_Vehicles = {
 
 ASL_Add_Player_Actions = {
 
-    player addAction [LSTRING(extendRope), { 
+    player addAction ["Extend Cargo Ropes", { 
         [] call ASL_Extend_Ropes_Action;
     }, nil, 0, false, true, "", "call ASL_Extend_Ropes_Action_Check"];
     
-    player addAction [LSTRING(shortenRope), { 
+    player addAction ["Shorten Cargo Ropes", { 
         [] call ASL_Shorten_Ropes_Action;
     }, nil, 0, false, true, "", "call ASL_Shorten_Ropes_Action_Check"];
         
-    player addAction [LSTRING(releaseRope), { 
+    player addAction ["Release Cargo", { 
         [] call ASL_Release_Cargo_Action;
     }, nil, 0, false, true, "", "call ASL_Release_Cargo_Action_Check"];
         
-    player addAction [LSTRING(retractRope), { 
+    player addAction ["Retract Cargo Ropes", { 
         [] call ASL_Retract_Ropes_Action;
     }, nil, 0, false, true, "", "call ASL_Retract_Ropes_Action_Check"];
     
-    player addAction [LSTRING(deployRope), { 
+    player addAction ["Deploy Cargo Ropes", { 
         [] call ASL_Deploy_Ropes_Action;
     }, nil, 0, false, true, "", "call ASL_Deploy_Ropes_Action_Check"];
 
-    player addAction [LSTRING(attachRope), { 
+    player addAction ["Attach To Cargo Ropes", { 
         [] call ASL_Attach_Ropes_Action;
     }, nil, 0, false, true, "", "call ASL_Attach_Ropes_Action_Check"];
 
-    player addAction [LSTRING(dropRope), { 
+    player addAction ["Drop Cargo Ropes", { 
         [] call ASL_Drop_Ropes_Action;
     }, nil, 0, false, true, "", "call ASL_Drop_Ropes_Action_Check"];
 
-    player addAction [LSTRING(pickupRope), { 
+    player addAction ["Pickup Cargo Ropes", { 
         [] call ASL_Pickup_Ropes_Action;
     }, nil, 0, false, true, "", "call ASL_Pickup_Ropes_Action_Check"];
 
