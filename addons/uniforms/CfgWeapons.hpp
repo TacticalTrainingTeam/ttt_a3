@@ -20,7 +20,7 @@ class CfgWeapons {
 
     class TTT_Uniform_Yellow_US_Desert : TT_Uniform_Base_US {
         scope = 2;
-        displayName = CSTRING(yellowDisplayName);
+        displayName = CSTRING(yellow_DisplayName);
         
         class ItemInfo : ItemInfo {
             uniformClass = "TTT_Yellow_US_Desert";

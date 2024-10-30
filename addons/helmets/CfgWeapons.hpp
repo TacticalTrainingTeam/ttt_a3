@@ -15,7 +15,7 @@ class CfgWeapons {
 
 	class TTT_Helmet_Buzzard : TTT_Helmet_Pilot {
 		scope = 2;
-		displayName = QUOTE(Helikopter Helm Bussard);
+		displayName = CSTRING(STR_TTT_helmets_buzzard_displayName);
 		hiddenSelectionsTextures[] = {QPATHTOF(data\TTT_helmet_buzzard.paa)};
 	};
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt_a3">
+    <Package name="backpacks"/>
+        <Key ID="STR_TTT_backpacks_radio_coyote">
+            <Englich>TTT Radio Backpack (Coyote)</Englich>
+            <German>TTT Funk Rucksack (Coyote)</German>
+        </Key>
+</Project>

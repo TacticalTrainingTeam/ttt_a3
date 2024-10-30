@@ -10,7 +10,7 @@ class CfgVehicles {
 
     class TTT_backpack_radio_coyote : TTT_Radiobackpack_Base {
         scope = 2;
-        displayName = QUOTE(TTT Funk Rucksack (Coyote));
+        displayName = CSTRING(STR_TTT_backpacks_radio_coyote);
         hiddenSelections[] = {"Camo1"};
         hiddenSelectionsTextures[] = {QPATHTOF(data\TTT_backpack_radio_coyote_co.paa)};
     };

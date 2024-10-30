@@ -31,13 +31,13 @@ class CfgWeapons {
 
     class TTT_Vest_Heavy_Yellow_US_Desert : TTT_Vest_Heavy_Base {
         scope = 2;
-        displayName = QUOTE(TTT Schwere Weste Gelb (US Desert));
+        displayName = CSTRING(STR_TTT_vests_heavy_yellow_DisplayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\TTT_vest_yellow_us_desert_co.paa)};
     };
     
     class TTT_Vest_Lite_Yellow_US_Desert : TTT_Vest_Lite_Base {
         scope = 2;
-        displayName = QUOTE(TTT Leichte Weste Gelb (US Desert));
+        displayName = CSTRING(STR_TTT_vests_light_yellow_DisplayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\TTT_vest_yellow_us_desert_co.paa)};
     };
     

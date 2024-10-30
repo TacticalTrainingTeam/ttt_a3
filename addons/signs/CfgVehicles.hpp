@@ -47,7 +47,7 @@ class CfgVehicles {
     };
 
     class TTT_Flag_Blue : TTT_Flag_Logo {
-        displayName = QUOTE(TTT Flagge Blau);
+        displayName = CSTRING(flag_blue);
         
         class EventHandlers {
             init = "(_this select 0) setFlagTexture 'z\ttt\addons\signs\data\ttt_logo_blau_co.paa'";
