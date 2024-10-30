@@ -19,7 +19,7 @@ Du willst mitmachen? <http://www.tacticalteam.de/mitmachen>
     - Advanced Developer Tools <https://steamcommunity.com/sharedfiles/filedetails/?id=463939057>
     - 3DEN Attributes Fast Load <https://steamcommunity.com/sharedfiles/filedetails/?id=3023395342>
     - ZEN <https://steamcommunity.com/sharedfiles/filedetails/?id=1779063631>
-5. hemtt launch um Arma 3 mit dem Basismods zu starten
+5. In der Kommandozeile `hemtt launch` um Arma 3 mit dem Basismods zu starten
 
 Für CUP, RHS, BWmod bzw. 3CB sind zum Testen weitere Mods erforderlich, diese sind in der launch.toml angeben.
 
