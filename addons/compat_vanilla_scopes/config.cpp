@@ -6,8 +6,8 @@ class CfgPatches
     {
         // Meta information for editor
         name = COMPONENT_NAME;
-        author = "Tactical Training Team";
-        url = "https://tacticalteam.de";
+        author = ECSTRING(main,TacticalTrainingTeam);
+        url = ECSTRING(main,URL);
 
         // Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
         requiredVersion = REQUIRED_VERSION;
