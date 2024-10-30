@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt_a3">
+    <Package name="spotlight_cup"/>
+        <Key ID="STR_TTT_spotlightcup_joinHover">
+            <Englich>Join server: Tactical Training Team - CUP</Englich>
+            <German>Server beitreten: Tactical Training Team - CUP</German>
+        </Key>
+</Project>
