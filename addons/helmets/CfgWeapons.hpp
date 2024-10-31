@@ -15,34 +15,34 @@ class CfgWeapons {
 
 	class TTT_Helmet_Buzzard : TTT_Helmet_Pilot {
 		scope = 2;
-		displayName = CSTRING(STR_TTT_helmets_buzzard_displayName);
+		displayName = CSTRING(buzzard_displayName);
 		hiddenSelectionsTextures[] = {QPATHTOF(data\TTT_helmet_buzzard.paa)};
 	};
 
 	class TTT_Helmet_Hawk : TTT_Helmet_Buzzard {
-		displayName = QUOTE(Helikopter Helm Habicht);
+		displayName = QUOTE(TTT Helikopter Helm Habicht);
 		hiddenSelectionsTextures[] = {QPATHTOF(data\TTT_helmet_buzzard.paa)};
 	};
 
 	class TTT_Helmet_Falcon : TTT_Helmet_Buzzard {
-		displayName = QUOTE(Helikopter Helm Falke);
+		displayName = QUOTE(TTT Helikopter Helm Falke);
 		hiddenSelectionsTextures[] = {QPATHTOF(data\TTT_helmet_falcon.paa)};
 	};
 
 	class TTT_Helmet_Eagle : TTT_Helmet_Buzzard {
-		displayName = QUOTE(Helikopter Helm Adler);
+		displayName = QUOTE(TTT Helikopter Helm Adler);
 		hiddenSelectionsTextures[] = {QPATHTOF(data\TTT_helmet_eagle.paa)};
 	};
 
 	//Crew
 	class H_HelmetCrew_I;
 	class TTT_Helmet_Vehiclecrew : H_HelmetCrew_I {
-		author = QUOTE(Tactical Training Team);
-		displayName = QUOTE(TTT Fahrzeugcrew);
+		author = ECSTRING(main,TacticalTrainingTeam);
+		displayName = QUOTE(TTT Fahrzeugcrew Base);
 		scope = 0;
 	};
 
-	class TTT_Helmet_Bronze_Vehiclecrew : H_HelmetCrew_I {
+	class TTT_Helmet_Bronze_Vehiclecrew : TTT_Helmet_Vehiclecrew {
 		displayName = QUOTE(TTT Fahrzeugcrew (Bronze));
 		hiddenSelectionsTextures[] = {QPATHTOF(data\TTT_helmet_bronze_vehiclecrew.paa)};
 		scope = 2;

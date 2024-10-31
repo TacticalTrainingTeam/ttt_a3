@@ -6,7 +6,7 @@ class CfgWeapons {
     class V_PlateCarrier1_rgr : Vest_NoCamo_Base { class ItemInfo; };
     
     class TTT_Vest_Heavy_Base : V_PlateCarrier3_rgr {
-        author = ECSTRING(main,Tactical Training Team);
+        author = ECSTRING(main,TacticalTrainingTeam);
         scope = 0;
         displayName = QUOTE(TTT Veste Basis (Schwer));
         hiddenSelections[] = { "camo" };
@@ -18,7 +18,7 @@ class CfgWeapons {
     };
 
     class TTT_Vest_Lite_Base : V_PlateCarrier1_rgr {
-        author = ECSTRING(main,Tactical Training Team);
+        author = ECSTRING(main,TacticalTrainingTeam);
         scope = 0;
         displayName = QUOTE(TTT Veste Basis (Leicht));
         hiddenSelections[] = { "camo" };
@@ -31,13 +31,13 @@ class CfgWeapons {
 
     class TTT_Vest_Heavy_Yellow_US_Desert : TTT_Vest_Heavy_Base {
         scope = 2;
-        displayName = CSTRING(STR_TTT_vests_heavy_yellow_DisplayName);
+        displayName = CSTRING(heavy_yellow_DisplayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\TTT_vest_yellow_us_desert_co.paa)};
     };
     
     class TTT_Vest_Lite_Yellow_US_Desert : TTT_Vest_Lite_Base {
         scope = 2;
-        displayName = CSTRING(STR_TTT_vests_light_yellow_DisplayName);
+        displayName = CSTRING(light_yellow_DisplayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\TTT_vest_yellow_us_desert_co.paa)};
     };
     
@@ -135,7 +135,7 @@ class CfgWeapons {
     
     class TTT_Vest_Crew_Base : V_TacVest_brn {
         scope = 0;
-        author = ECSTRING(main,TactialTrainingTeam);
+        author = ECSTRING(main,TacticalTrainingTeam);
         displayName = QUOTE(TTT Crew Veste Basis);
     };
 

@@ -50,7 +50,7 @@ class CfgWeapons {
     class TTT_Beret_Grey : TTT_Beret_Blue {
         displayName = CSTRING(grey);
         picture = QPATHTOF(data\ui\berets_grau_icon_co.paa);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ccommon\berets_grau_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\common\berets_grau_co.paa)};
     };
 
     class TTT_Beret_Green : TTT_Beret_Blue {
