@@ -8,3 +8,7 @@ Fügt ausgewählten CUP Westen die `ACE_EntrenchingTool` Fähigkeit hinzu:
 # Referenzen
 
 <https://ace3.acemod.org/wiki/framework/trenches-framework#12-enabling-entrenching-tool-features-on-an-item-or-backpack>
+
+## Maintainers
+
+- Andx

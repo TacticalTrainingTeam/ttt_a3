@@ -9,3 +9,7 @@ Fügt dem Humvee (NATO) Animationen zum Abnehmen von Benzinkanistern und Reifen 
 ## Referenzen
 
 <https://ace3.acemod.org/wiki/framework/interactionmenu-framework#22-vehicle-interactions-based-on-animations>
+
+## Maintainers
+
+- Andx

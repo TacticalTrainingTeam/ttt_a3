@@ -54,3 +54,11 @@ Infanterie Helme
 - `TTT_Helmet_9_US_Tropentarn`
 - `TTT_Helmet_10_US_Tropentarn`
 - `TTT_Helmet_11_US_Tropentarn`
+
+## ToDo
+
+- localization
+
+## Maintainer
+
+- Andx

@@ -7,3 +7,7 @@ Fügt ausgewählten Westen die `ACE_Wirecutter` Fähigkeit hinzu:
 ## Referenzen
 
 <https://ace3.acemod.org/wiki/framework/wirecutter-framework#1-config-values>
+
+## Maintainers
+
+- Andx

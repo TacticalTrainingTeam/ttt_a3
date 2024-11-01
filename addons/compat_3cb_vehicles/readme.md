@@ -11,3 +11,7 @@ Fügt drei Typen von Landrover Animations-Interaktionen hinzu.
 ## Referenzen
 
 <https://ace3.acemod.org/wiki/framework/interactionmenu-framework#22-vehicle-interactions-based-on-animations>
+
+## Maintainers
+
+- Andx

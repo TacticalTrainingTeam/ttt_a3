@@ -49,3 +49,12 @@ Tropentarn
 Piloten
 
 - `TTT_Uniform_Platinum_Pilot`
+
+## ToDo
+
+- Use Macros where possbile
+- localization
+
+## Maintainers
+
+- Andx
