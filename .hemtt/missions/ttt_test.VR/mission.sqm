@@ -8,15 +8,15 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=317;
+		nextID=318;
 	};
 	class LayerIndexProvider
 	{
-		nextID=78;
+		nextID=80;
 	};
 	class Camera
 	{
-		pos[]={4811.353,6.4628177,6885.5166};
+		pos[]={4803.3403,13.714867,6873.3267};
 		dir[]={0.50342959,-0.54092002,0.67377764};
 		up[]={0.32377118,0.84107298,0.43332654};
 		aside[]={0.80109245,1.6544072e-07,-0.5985561};

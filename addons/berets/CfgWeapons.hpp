@@ -7,22 +7,19 @@ class CfgWeapons {
         class ItemInfo : HeadgearItem {};
     };
 
-    class TTT_Beret_Blue : HelmetBase {
-        author = "Reimchen";
+    class H_Beret_02;
+
+    class TTT_Beret_Blue : H_Beret_02 {
+        author = ECSTRING(main,TactialTrainingTeam);
+        authors[] = {"Reimchen"};
         scope = 2;
         displayName = CSTRING(blue);
         picture = QPATHTOF(data\ui\berets_blau_icon_co.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\common\berets_blau_co.paa)};
     
-        class ItemInfo : ItemInfo {
-            mass = 6;
-            allowedSlots[] = {801, 901, 701}; //allowedSlots[] is an array of slot numbers where you may put the weapon. 701 stands for vest, 801 stands for uniform, 901 stands for backpack
-            uniformModel = "\A3\Characters_f_epb\BLUFOR\headgear_beret02.p3d"; //this needs to stay here to work
-            modelSides[] = {6};
-        };
+        class ItemInfo : ItemInfo {};
     };
-    
-
+ 
     class TTT_Beret_Brown : TTT_Beret_Blue {
         displayName = CSTRING(brown);
         picture = QPATHTOF(data\ui\berets_braun_icon_co.paa);
@@ -105,6 +102,5 @@ class CfgWeapons {
         displayName = CSTRING(orange);
         picture = QPATHTOF(data\ui\berets_orange_icon_co.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\common\berets_orange_co.paa)};
-    };
-    
+    };   
 };

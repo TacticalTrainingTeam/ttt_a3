@@ -68,7 +68,7 @@ class CfgVehicles {
     };
     class rsr_fennek_gmg_flecktarn: I_MRAP_03_gmg_F {
         author = ECSTRING(rsr_core,rsr);
-        displayName = CSTRING(fennek_gmw_flecktarn);
+        displayName = CSTRING(fennek_gmg_flecktarn);
         _generalMacro ="I_MRAP_03_F";
         typicalCargo[] = {"B_Soldier_F"};
         side = 1;
@@ -91,7 +91,7 @@ class CfgVehicles {
     };
     class rsr_fennek_gmg_tropentarn: rsr_fennek_gmg_flecktarn {
         author = ECSTRING(rsr_core,rsr);
-        displayName = CSTRING(fennek_gmw_tropentarn);
+        displayName = CSTRING(fennek_gmg_tropentarn);
         _generalMacro = "I_MRAP_03_F";
         editorPreview = "";
         hiddenSelectionsTextures[]= {
