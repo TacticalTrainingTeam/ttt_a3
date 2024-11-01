@@ -22,3 +22,13 @@ Roter Diamant statt Rotes Kreuz
 ## Referenzen
 
 <https://ace3.acemod.org/wiki/framework/medical-treatment-framework#21-medical-vehicles>
+
+## ToDo
+
+- [ ] localization
+- [ ] improve Config
+- [ ] use macro
+
+## Maintainer
+
+- Andx

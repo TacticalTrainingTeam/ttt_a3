@@ -9,7 +9,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = CSTRING(blue);
         vehicleClass = "Items";
-        model = "\A3\Weapons_F\DummyCap.p3d";
+        model = "\A3\Weapons_F\DummyCap.p3d"; //needs to stay here to work
         icon = "iconObject_1x1";
         
         class TransportItems {

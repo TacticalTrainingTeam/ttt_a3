@@ -25,4 +25,12 @@
             <English>Fennek GMG (Tropentarn)</English>
             <German>Fennek GMW (Tropentarn)</German>
         </Key>
+        <Key ID="STR_TTT_rsr_vanilla_bergepanzer_flecktarn">
+            <English>Armored Recovery Vehicle (Flecktarn)</English>
+            <German>Bergepanzer (Flecktarn)</German>
+        </Key>
+        <Key ID="STR_TTT_rsr_vanilla_bergepanzer_tropentarn">
+            <English>Armored Recovery Vehicle (Tropentarn)</English>
+            <German>Bergepanzer (Tropentarn)</German>
+        </Key>
 </Project>
