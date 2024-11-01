@@ -9,7 +9,7 @@ class CfgWeapons {
         author = ECSTRING(main,TacticalTrainingTeam);
         scope = 0;
         displayName = QUOTE(TTT Veste Basis (Schwer));
-        hiddenSelections[] = { "camo" };
+        hiddenSelections[] = { "camo" }; //needs to stay here to work
         hiddenSelectionsTextures[] = { QPATHTOF(data\vest_yellow_co.paa) };
 
         class ItemInfo : ItemInfo {

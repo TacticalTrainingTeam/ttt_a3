@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt_a3">
     <Package name="signs"/>
-        <Key ID="STR_ttt_flag_blue">
-            <Englich>TTT Flag Blue</Englich>
+        <Key ID="STR_ttt_signs_flag_blue">
+            <English>TTT Flag Blue</Englsh>
             <German>TTT Flagge Blau</German>
         </Key>
 </Project>

@@ -1,11 +1,11 @@
 class CfgVehicles {
     class Item_Base_F;    
     class TTT_Beret_Item_Blue : Item_Base_F {
+        author = QUOTE(Tactical Training Team);
+        authors[] = {"Reimchen"};
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(blue);
-        author = QUOTE(Tactical Training Team);//Textures by Reimchen
-        icon = "iconObject_1x1";
         vehicleClass = "Items";
         model = "\A3\Weapons_F\DummyCap.p3d";
         

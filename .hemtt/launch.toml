@@ -7,6 +7,7 @@ workshop = [
     "2369477168", # Advanced Developer Tools
     "3023395342", # 3DEN Attributes Fast Load 
     "1779063631", # ZEN 
+    #"", # 3DEN Enhanced
 ]
 
 parameters = [

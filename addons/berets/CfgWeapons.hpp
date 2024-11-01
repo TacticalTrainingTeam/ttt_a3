@@ -1,7 +1,8 @@
 class CfgWeapons {
     class InventoryItem_Base_F; 
-    class ItemCore;
     class HeadgearItem : InventoryItem_Base_F {};
+
+    class ItemCore;
     class HelmetBase : ItemCore {
         class ItemInfo : HeadgearItem {};
     };
@@ -10,14 +11,13 @@ class CfgWeapons {
         author = "Reimchen";
         scope = 2;
         displayName = CSTRING(blue);
-        model = "\A3\Characters_f_epb\BLUFOR\headgear_beret02.p3d";
         picture = QPATHTOF(data\ui\berets_blau_icon_co.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\common\berets_blau_co.paa)};
     
         class ItemInfo : ItemInfo {
             mass = 6;
             allowedSlots[] = {801, 901, 701}; //allowedSlots[] is an array of slot numbers where you may put the weapon. 701 stands for vest, 801 stands for uniform, 901 stands for backpack
-            uniformModel = "\A3\Characters_f_epb\BLUFOR\headgear_beret02.p3d";
+            uniformModel = "\A3\Characters_f_epb\BLUFOR\headgear_beret02.p3d"; //this needs to stay here to work
             modelSides[] = {6};
         };
     };
