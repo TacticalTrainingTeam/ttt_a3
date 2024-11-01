@@ -3,161 +3,100 @@ class CfgVehicles {
     class I_MRAP_03_hmg_F;
     class I_MRAP_03_gmg_F;
     class rsr_fennek_transport_flecktarn: I_MRAP_03_F {
-        author="RsR";
-        displayName="Fennek (Flecktarn)";
-        typicalCargo[]= {"B_Soldier_F"};
-        side=1;
-        crew="B_Soldier_F";
-        editorPreview="";
-        faction="rsr";
-        editorSubcategory="EdSubCat_Cars";
-        hiddenSelectionsTextures[]= {
-            "z\ttt\addons\rsr_vanilla\data\fennek\fennek_flecktarn_ext_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\fennek\fennek_flecktarn_turret_co.paa"
-        };
-        class TextureSources {
-            class fennek_flecktarn {
-                displayName="Fennek (Flecktarn)";
-                author="Redd";
-                textures[]= {
-                    "z\ttt\addons\rsr_vanilla\data\fennek\fennek_flecktarn_ext_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\fennek\fennek_flecktarn_turret_co.paa"
-                };
-                factions[]= {"BLU_F"};
-            };
-            class fennek_tropentarn {
-                displayName="Fennek (Tropentarn)";
-                author="Redd";
-                textures[]= {
-                    "z\ttt\addons\rsr_vanilla\data\fennek\fennek_tropentarn_ext_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\fennek\fennek_tropentarn_turret_co.paa"
-                };
-                factions[]= {"BLU_F"};
-            };
+        author = ECSTRING(rsr_core,rsr);
+        displayName = CSTRING(fennek_flecktarn);
+        typicalCargo[] = {"B_Soldier_F"};
+        side = 1;
+        crew = "B_Soldier_F";
+        editorPreview = "";
+        faction = "rsr";
+        editorSubcategory = "EdSubCat_Cars";
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\fennek\fennek_flecktarn_ext_co.paa),
+            QPATHTOF(data\fennek\fennek_flecktarn_turret_co.paa)
         };
         class TransportItems {
             class _xx_FirstAidKit {
-                name="FirstAidKit";
-                count=1;
+                name = "FirstAidKit";
+                count = 1;
             };
         };
         class TransportWeapons { };
         class TransportMagazines { };
     };
     class rsr_fennek_transport_tropentarn: rsr_fennek_transport_flecktarn {
-        author="RsR";
-        displayName="Fennek (Tropentarn)";
-        _generalMacro="I_MRAP_03_F";
-        editorPreview="";
-        hiddenSelectionsTextures[]= {
-            "z\ttt\addons\rsr_vanilla\data\fennek\fennek_tropentarn_ext_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\fennek\fennek_tropentarn_turret_co.paa"
+        displayName = CSTRING(fennek_tropentarn);
+        _generalMacro = "I_MRAP_03_F";
+        editorPreview = "";
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\fennek\fennek_tropentarn_ext_co.paa),
+            QPATHTOF(data\fennek\fennek_tropentarn_turret_co.paa)
         };
     };
     class rsr_fennek_hmg_flecktarn: I_MRAP_03_hmg_F {
-        author="RsR";
-        displayName="Fennek HMG (Flecktarn)";
-        _generalMacro="I_MRAP_03_F";
-        typicalCargo[]= {"B_Soldier_F"};
-        side=1;
-        crew="B_Soldier_F";
-        editorPreview="";
-        faction="rsr";
-        editorSubcategory="EdSubCat_Cars";
+        author = ECSTRING(rsr_core,rsr);
+        displayName = CSTRING(fennek_hmg_flecktarn);
+        _generalMacro = "I_MRAP_03_F";
+        typicalCargo[] = {"B_Soldier_F"};
+        side = 1;
+        crew = "B_Soldier_F";
+        editorPreview = "";
+        faction = "rsr";
+        editorSubcategory = "EdSubCat_Cars";
         hiddenSelectionsTextures[]= {
-            "z\ttt\addons\rsr_vanilla\data\fennek\fennek_flecktarn_ext_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\fennek\fennek_flecktarn_turret_co.paa"
-        };
-        class TextureSources {
-            class fennek_flecktarn {
-                displayName="Fennek (Flecktarn)";
-                author="Redd";
-                textures[]= {
-                    "z\ttt\addons\rsr_vanilla\data\fennek\fennek_flecktarn_ext_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\fennek\fennek_flecktarn_turret_co.paa"
-                };
-                factions[]=    {"BLU_F"};
-            };
-            class fennek_tropentarn {
-                displayName="Fennek (Tropentarn)";
-                author="Redd";
-                textures[]= {
-                    "z\ttt\addons\rsr_vanilla\data\fennek\fennek_tropentarn_ext_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\fennek\fennek_tropentarn_turret_co.paa"
-                };
-                factions[]= {"BLU_F"};
-            };
+            QPATHTOF(data\fennek\fennek_flecktarn_ext_co.paa),
+            QPATHTOF(data\fennek\fennek_flecktarn_turret_co.paa)
         };
         class TransportItems {
             class _xx_FirstAidKit {
-                name="FirstAidKit";
-                count=1;
+                name = "FirstAidKit";
+                count = 1;
             };
         };
         class TransportWeapons { };
         class TransportMagazines { };
     };
     class rsr_fennek_hmg_tropentarn: rsr_fennek_hmg_flecktarn {
-        author="RsR";
-        displayName="Fennek HMG (Tropentarn)";
-        _generalMacro="I_MRAP_03_F";
-        editorPreview="";
-        hiddenSelectionsTextures[]= {
-            "z\ttt\addons\rsr_vanilla\data\fennek\fennek_tropentarn_ext_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\fennek\fennek_tropentarn_turret_co.paa"
+        author = ECSTRING(rsr_core,rsr);
+        displayName = CSTRING(fennek_hmg_tropentarn);
+        _generalMacro = "I_MRAP_03_F";
+        editorPreview = "";
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\fennek\fennek_tropentarn_ext_co.paa),
+            QPATHTOF(data\fennek\fennek_tropentarn_turret_co.paa)
         };
     };
     class rsr_fennek_gmg_flecktarn: I_MRAP_03_gmg_F {
-        author="RsR";
-        displayName="Fennek GMW (Flecktarn)";
-        _generalMacro="I_MRAP_03_F";
-        typicalCargo[]= {"B_Soldier_F"};
-        side=1;
-        crew="B_Soldier_F";
-        editorPreview="";
-        faction="rsr";
-        editorSubcategory="EdSubCat_Cars";
-        hiddenSelectionsTextures[]= {
-            "z\ttt\addons\rsr_vanilla\data\fennek\fennek_flecktarn_ext_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\fennek\fennek_flecktarn_turret_co.paa"
-        };
-        class TextureSources {
-            class fennek_flecktarn {
-                displayName="Fennek (Flecktarn)";
-                author="Redd";
-                textures[]= {
-                    "z\ttt\addons\rsr_vanilla\data\fennek\fennek_flecktarn_ext_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\fennek\fennek_flecktarn_turret_co.paa"
-                };
-                factions[]= {"BLU_F"};
-            };
-            class fennek_tropentarn {
-                displayName="Fennek (Tropentarn)";
-                author="Redd";
-                textures[]=    {
-                    "z\ttt\addons\rsr_vanilla\data\fennek\fennek_tropentarn_ext_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\fennek\fennek_tropentarn_turret_co.paa"
-                };
-                factions[]= {"BLU_F"};
-            };
+        author = ECSTRING(rsr_core,rsr);
+        displayName = CSTRING(fennek_gmw_flecktarn);
+        _generalMacro ="I_MRAP_03_F";
+        typicalCargo[] = {"B_Soldier_F"};
+        side = 1;
+        crew = "B_Soldier_F";
+        editorPreview = "";
+        faction = "rsr";
+        editorSubcategory = "EdSubCat_Cars";
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\fennek\fennek_flecktarn_ext_co.paa),
+            QPATHTOF(data\fennek\fennek_flecktarn_turret_co.paa)
         };
         class TransportItems {
             class _xx_FirstAidKit {
-                name="FirstAidKit";
-                count=1;
+                name = "FirstAidKit";
+                count = 1;
             };
         };
         class TransportWeapons { };
         class TransportMagazines { };
     };
     class rsr_fennek_gmg_tropentarn: rsr_fennek_gmg_flecktarn {
-        author="RsR";
-        displayName="Fennek GMW (Tropentarn)";
-        _generalMacro="I_MRAP_03_F";
-        editorPreview="";
+        author = ECSTRING(rsr_core,rsr);
+        displayName = CSTRING(fennek_gmw_tropentarn);
+        _generalMacro = "I_MRAP_03_F";
+        editorPreview = "";
         hiddenSelectionsTextures[]= {
-            "z\ttt\addons\rsr_vanilla\data\fennek\fennek_tropentarn_ext_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\fennek\fennek_tropentarn_turret_co.paa"
+            QPATHTOF(data\fennek\fennek_tropentarn_ext_co.paa),
+            QPATHTOF(data\fennek\fennek_tropentarn_turret_co.paa)
         };
     };
 
@@ -177,20 +116,20 @@ class CfgVehicles {
         faction="rsr";
         editorSubcategory="EdSubCat_Tanks";
         hiddenSelectionsTextures[]= {
-            "z\ttt\addons\rsr_vanilla\data\bergepanzer\bergepanzer_flecktarn_body_crv_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\bergepanzer\bergepanzer_flecktarn_body_mbt_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\bergepanzer\bergepanzer_flecktarn_turret_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\bergepanzer\bergepanzer_flecktarn_crv_co.paa"
+            QPATHTOF(data\bergepanzer\bergepanzer_flecktarn_body_crv_co.paa),
+            QPATHTOF(data\bergepanzer\bergepanzer_flecktarn_body_mbt_co.paa),
+            QPATHTOF(data\bergepanzer\bergepanzer_flecktarn_turret_co.paa),
+            QPATHTOF(data\bergepanzer\bergepanzer_flecktarn_crv_co.paa)
         };
         class TextureSources {
             class bergepanzer_flecktarn {
                 displayName="Bergepanzer (Flecktarn)";
                 author="Redd";
                 textures[]= {
-                    "z\ttt\addons\rsr_vanilla\data\bergepanzer\bergepanzer_flecktarn_body_crv_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\bergepanzer\bergepanzer_flecktarn_body_mbt_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\bergepanzer\bergepanzer_flecktarn_turret_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\bergepanzer\bergepanzer_flecktarn_crv_co.paa"
+                    QPATHTOF(data\bergepanzer\bergepanzer_flecktarn_body_crv_co.paa),
+                    QPATHTOF(data\bergepanzer\bergepanzer_flecktarn_body_mbt_co.paa),
+                    QPATHTOF(data\bergepanzer\bergepanzer_flecktarn_turret_co.paa),
+                    QPATHTOF(data\bergepanzer\bergepanzer_flecktarn_crv_co.paa)
                 };
                 factions[]= {"BLU_F"};
             };
@@ -198,10 +137,10 @@ class CfgVehicles {
                 displayName="Bergepanzer (Tropentarn)";
                 author="Redd";
                 textures[]= {
-                    "z\ttt\addons\rsr_vanilla\data\bergepanzer\bergepanzer_tropentarn_body_crv_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\bergepanzer\bergepanzer_tropentarn_body_mbt_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\bergepanzer\bergepanzer_tropentarn_turret_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\bergepanzer\bergepanzer_tropentarn_crv_co.paa"
+                    QPATHTOF(data\bergepanzer\bergepanzer_tropentarn_body_crv_co.paa),
+                    QPATHTOF(data\bergepanzer\bergepanzer_tropentarn_body_mbt_co.paa),
+                    QPATHTOF(data\bergepanzer\bergepanzer_tropentarn_turret_co.paa),
+                    QPATHTOF(data\bergepanzer\bergepanzer_tropentarn_crv_co.paa)
                 };
                 factions[]= {"BLU_F"};
             };
@@ -233,10 +172,10 @@ class CfgVehicles {
         _generalMacro="B_APC_Tracked_01_CRV_F";
         editorPreview="";
         hiddenSelectionsTextures[]= {
-            "z\ttt\addons\rsr_vanilla\data\bergepanzer\bergepanzer_tropentarn_body_crv_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\bergepanzer\bergepanzer_tropentarn_body_mbt_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\bergepanzer\bergepanzer_tropentarn_turret_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\bergepanzer\bergepanzer_tropentarn_crv_co.paa"
+            QPATHTOF(data\bergepanzer\bergepanzer_tropentarn_body_crv_co.paa),
+            QPATHTOF(data\bergepanzer\bergepanzer_tropentarn_body_mbt_co.paa),
+            QPATHTOF(data\bergepanzer\bergepanzer_tropentarn_turret_co.paa),
+            QPATHTOF(data\bergepanzer\bergepanzer_tropentarn_crv_co.paa)
         };
     };
     
@@ -260,9 +199,9 @@ class CfgVehicles {
         class TransportItems { };
         class TransportWeapons { };
         hiddenSelectionsTextures[]= {
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext01_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext02_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_cargo_co.paa"
+            QPATHTOF(data\wisent\wisent_flecktarn_ext01_co.paa),
+            QPATHTOF(data\wisent\wisent_flecktarn_ext02_co.paa),
+            QPATHTOF(data\wisent\wisent_flecktarn_cargo_co.paa)
         };
         class TextureSources {
             class wisent_flecktarn {
@@ -270,9 +209,9 @@ class CfgVehicles {
                 author="Redd";
                 factions[]= {"BLU_F"};
                 textures[]= {
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext01_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext02_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_cargo_co.paa"
+                    QPATHTOF(data\wisent\wisent_flecktarn_ext01_co.paa),
+                    QPATHTOF(data\wisent\wisent_flecktarn_ext02_co.paa),
+                    QPATHTOF(data\wisent\wisent_flecktarn_cargo_co.paa)
                 };
             };
             class wisent_tropentarn {
@@ -280,9 +219,9 @@ class CfgVehicles {
                 author="Redd";
                 factions[]= {"BLU_F"};
                 textures[]= {
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext01_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext02_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_cargo_co.paa"
+                    QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
+                    QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
+                    QPATHTOF(data\wisent\wisent_tropentarn_cargo_co.paa)
                 };
             };
         };
@@ -293,9 +232,9 @@ class CfgVehicles {
         _generalMacro="O_Truck_03_transport_F";
         editorPreview="";
         hiddenSelectionsTextures[]= {
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext01_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext02_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_cargo_co.paa"
+            QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_cargo_co.paa)
         };
     };
     class rsr_wisent_covered_flecktarn: O_Truck_03_covered_F {
@@ -310,10 +249,10 @@ class CfgVehicles {
         class TransportWeapons { };
         class TransportMagazines { };
         hiddenSelectionsTextures[]= {
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext01_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext02_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_cargo_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_cover_co.paa"
+            QPATHTOF(data\wisent\wisent_flecktarn_ext01_co.paa),
+            QPATHTOF(data\wisent\wisent_flecktarn_ext02_co.paa),
+            QPATHTOF(data\wisent\wisent_flecktarn_cargo_co.paa),
+            QPATHTOF(data\wisent\wisent_flecktarn_cover_co.paa)
         };
         class TextureSources {
             class wisent_flecktarn {
@@ -321,10 +260,10 @@ class CfgVehicles {
                 author="Redd";
                 factions[]= {"BLU_F"};
                 textures[]= {
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext01_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext02_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_cargo_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_cover_co.paa"
+                    QPATHTOF(data\wisent\wisent_flecktarn_ext01_co.paa),
+                    QPATHTOF(data\wisent\wisent_flecktarn_ext02_co.paa),
+                    QPATHTOF(data\wisent\wisent_flecktarn_cargo_co.paa),
+                    QPATHTOF(data\wisent\wisent_flecktarn_cover_co.paa)
                 };
             };
             class wisent_tropentarn {
@@ -332,10 +271,10 @@ class CfgVehicles {
                 author="Redd";
                 factions[]= {"BLU_F"};
                 textures[]= {
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext01_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext02_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_cargo_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_cover_co.paa"
+                    QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
+                    QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
+                    QPATHTOF(data\wisent\wisent_tropentarn_cargo_co.paa),
+                    QPATHTOF(data\wisent\wisent_tropentarn_cover_co.paa)
                 };
             };
         };
@@ -346,10 +285,10 @@ class CfgVehicles {
         _generalMacro="O_Truck_03_transport_F";
         editorPreview="";
         hiddenSelectionsTextures[]= {
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext01_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext02_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_cargo_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_cover_co.paa"
+            QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_cargo_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_cover_co.paa)
         };
     };
     class rsr_wisent_repair_flecktarn: O_Truck_03_repair_F {
@@ -366,9 +305,9 @@ class CfgVehicles {
         class TransportWeapons { };
         class TransportMagazines { };
         hiddenSelectionsTextures[]= {
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext01_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext02_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ammo_co.paa"
+            QPATHTOF(data\wisent\wisent_flecktarn_ext01_co.paa),
+            QPATHTOF(data\wisent\wisent_flecktarn_ext02_co.paa),
+            QPATHTOF(data\wisent\wisent_flecktarn_ammo_co.paa)
         };
         class TextureSources {
             class wisent_flecktarn {
@@ -376,9 +315,9 @@ class CfgVehicles {
                 author="Redd";
                 factions[]= {"BLU_F"};
                 textures[]= {
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext01_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext02_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ammo_co.paa"
+                    QPATHTOF(data\wisent\wisent_flecktarn_ext01_co.paa),
+                    QPATHTOF(data\wisent\wisent_flecktarn_ext02_co.paa),
+                    QPATHTOF(data\wisent\wisent_flecktarn_ammo_co.paa)
                 };
             };
             class wisent_tropentarn {
@@ -386,9 +325,9 @@ class CfgVehicles {
                 author="Redd";
                 factions[]= {"BLU_F"};
                 textures[]= {
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext01_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext02_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ammo_co.paa"
+                    QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
+                    QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
+                    QPATHTOF(data\wisent\wisent_tropentarn_ammo_co.paa)
                 };
             };
         };
@@ -410,9 +349,9 @@ class CfgVehicles {
         _generalMacro="O_Truck_03_transport_F";
         editorPreview="";
         hiddenSelectionsTextures[]= {
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext01_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext02_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ammo_co.paa"
+            QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_ammo_co.paa)
         };
     };
     class rsr_wisent_ammo_flecktarn: O_Truck_03_ammo_F {
@@ -430,10 +369,10 @@ class CfgVehicles {
         class TransportWeapons { };
         class TransportMagazines { };
         hiddenSelectionsTextures[]= {
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext01_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext02_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_cargo_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_containers_co.paa"
+            QPATHTOF(data\wisent\wisent_flecktarn_ext01_co.paa),
+            QPATHTOF(data\wisent\wisent_flecktarn_ext02_co.paa),
+            QPATHTOF(data\wisent\wisent_flecktarn_cargo_co.paa),
+            QPATHTOF(data\wisent\wisent_flecktarn_containers_co.paa)
         };
         class TextureSources {
             class wisent_flecktarn {
@@ -441,10 +380,10 @@ class CfgVehicles {
                 author="Redd";
                 factions[]= {"BLU_F"};
                 textures[]= {
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext01_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext02_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_cargo_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_containers_co.paa"
+                    QPATHTOF(data\wisent\wisent_flecktarn_ext01_co.paa),
+                    QPATHTOF(data\wisent\wisent_flecktarn_ext02_co.paa),
+                    QPATHTOF(data\wisent\wisent_flecktarn_cargo_co.paa),
+                    QPATHTOF(data\wisent\wisent_flecktarn_containers_co.paa)
                 };
             };
             class wisent_tropentarn {
@@ -452,10 +391,10 @@ class CfgVehicles {
                 author="Redd";
                 factions[]= {"BLU_F"};
                 textures[]= {
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext01_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext02_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_cargo_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_containers_co.paa"
+                    QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
+                    QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
+                    QPATHTOF(data\wisent\wisent_tropentarn_cargo_co.paa),
+                    QPATHTOF(data\wisent\wisent_tropentarn_containers_co.paa)
                 };
             };
         };
@@ -466,10 +405,10 @@ class CfgVehicles {
         _generalMacro="O_Truck_03_transport_F";
         editorPreview="";
         hiddenSelectionsTextures[]= {
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext01_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext02_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_cargo_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_containers_co.paa"
+            QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_cargo_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_containers_co.paa)
         };
     };
     class rsr_wisent_fuel_flecktarn: O_Truck_03_fuel_F {
@@ -485,18 +424,18 @@ class CfgVehicles {
         faction="rsr";
         editorSubcategory="EdSubCat_Cars";
         hiddenSelectionsTextures[]= {
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext01_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext02_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_fuel_co.paa"
+            QPATHTOF(data\wisent\wisent_flecktarn_ext01_co.paa),
+            QPATHTOF(data\wisent\wisent_flecktarn_ext02_co.paa),
+            QPATHTOF(data\wisent\wisent_flecktarn_fuel_co.paa)
         };
         class TextureSources {
             class wisent_flecktarn {
                 displayName="Wisent (Flecktarn)";
                 author="Redd";
                 textures[]= {
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext01_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext02_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_fuel_co.paa"
+                    QPATHTOF(data\wisent\wisent_flecktarn_ext01_co.paa),
+                    QPATHTOF(data\wisent\wisent_flecktarn_ext02_co.paa),
+                    QPATHTOF(data\wisent\wisent_flecktarn_fuel_co.paa)
                 };
                 factions[]= {"BLU_F"};
             };
@@ -504,9 +443,9 @@ class CfgVehicles {
                 displayName="Wisent (Tropentarn)";
                 author="Redd";
                 textures[]= {
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext01_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext02_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_fuel_co.paa"
+                    QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
+                    QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
+                    QPATHTOF(data\wisent\wisent_tropentarn_fuel_co.paa)
                 };
                 factions[]= {"BLU_F"};
             };
@@ -526,9 +465,9 @@ class CfgVehicles {
         _generalMacro="O_Truck_03_transport_F";
         editorPreview="";
         hiddenSelectionsTextures[]= {
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext01_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext02_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_fuel_co.paa"
+            QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_fuel_co.paa)
         };
     };
     class rsr_wisent_medical_flecktarn: O_Truck_03_medical_F {
@@ -542,20 +481,20 @@ class CfgVehicles {
         faction="rsr";
         editorSubcategory="EdSubCat_Cars";
         hiddenSelectionsTextures[]= {
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext01_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext02_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_cargo_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_cover_co.paa"
+            QPATHTOF(data\wisent\wisent_flecktarn_ext01_co.paa),
+            QPATHTOF(data\wisent\wisent_flecktarn_ext02_co.paa),
+            QPATHTOF(data\wisent\wisent_flecktarn_cargo_co.paa),
+            QPATHTOF(data\wisent\wisent_flecktarn_cover_co.paa)
         };
         class TextureSources {
             class wisent_flecktarn {
                 displayName="Wisent (Flecktarn)";
                 author="Redd";
                 textures[]= {
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext01_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_ext02_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_cargo_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_flecktarn_cover_co.paa"
+                    QPATHTOF(data\wisent\wisent_flecktarn_ext01_co.paa),
+                    QPATHTOF(data\wisent\wisent_flecktarn_ext02_co.paa),
+                    QPATHTOF(data\wisent\wisent_flecktarn_cargo_co.paa),
+                    QPATHTOF(data\wisent\wisent_flecktarn_cover_co.paa)
                 };
                 factions[]= {"BLU_F"};
             };
@@ -563,10 +502,10 @@ class CfgVehicles {
                 displayName="Wisent (Tropentarn)";
                 author="Redd";
                 textures[]= {
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext01_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext02_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_cargo_co.paa",
-                    "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_cover_co.paa"
+                    QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
+                    QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
+                    QPATHTOF(data\wisent\wisent_tropentarn_cargo_co.paa),
+                    QPATHTOF(data\wisent\wisent_tropentarn_cover_co.paa)
                 };
                 factions[]= {"BLU_F"};
             };
@@ -586,10 +525,10 @@ class CfgVehicles {
         _generalMacro="O_Truck_03_medical_F";
         editorPreview="";
         hiddenSelectionsTextures[]= {
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext01_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_ext02_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_cargo_co.paa",
-            "z\ttt\addons\rsr_vanilla\data\wisent\wisent_tropentarn_cover_co.paa"
+            QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_cargo_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_cover_co.paa)
         };
     };
 };
