@@ -8,7 +8,7 @@ Angepasst um mehr Hubschrauber zu unterstützen
 
 [classname, [Attach Point Offset]]
 
-```c++    
+```c++
     ["All", [-0.05, -0.05, -0.05]],
     ["UK3CB_BAF_Merlin_HC3_18", [-0.05, -0.05, -0.05]],  
     ["UK3CB_BAF_Merlin_HC3_18_GPMG", [-0.05, -0.05, -0.05]],  
@@ -28,7 +28,15 @@ Angepasst um mehr Hubschrauber zu unterstützen
     ["B_T_VTOL_01_Vehicle_F", [-0.9, -0.9, -0.9]] 
 ```
 
+## ToDo
+
+- Hatchet H-60 Hubschrauber Attach Points einflegen
+- Localization
 
 ## Referenzen
 
 <https://steamcommunity.com/sharedfiles/filedetails/?id=615007497&searchtext=advanced+sling+load>
+
+## Maintainer
+
+- Andx
