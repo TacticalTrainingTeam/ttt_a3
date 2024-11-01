@@ -2,7 +2,7 @@
 <Project name="ttt_a3">
     <Package name="backpacks"/>
         <Key ID="STR_TTT_backpacks_radio_coyote">
-            <Englich>TTT Radio Backpack (Coyote)</Englich>
+            <English>TTT Radio Backpack (Coyote)</English>
             <German>TTT Funk Rucksack (Coyote)</German>
         </Key>
 </Project>
