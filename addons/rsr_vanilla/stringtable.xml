@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt_a3">
     <Package name="rsr_vanilla"/>
+        <Key ID="STR__TTT_rsr_vanilla_fennek_flecktarn">
+            <English>Fennek (Flecktarn)</English>
+            <German>Fennek (Flecktarn)</German>
+        </Key>
+        <Key ID="STR__TTT_rsr_vanilla_fennek_tropentarn">
+            <English>Fennek (Tropentarn)</English>
+            <German>Fennek (Tropentarn)</German>
+        </Key>
+        <Key ID="STR_TTT_rsr_vanilla_wisent_medical_flecktarn">
+            <English>Wisent Medical (Flecktarn)</English>
+            <German>Wisent Sanität (Flecktarn)</German>
+        </Key>
 </Project>

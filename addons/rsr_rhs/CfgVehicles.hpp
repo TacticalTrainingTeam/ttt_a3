@@ -8,8 +8,8 @@ class CfgVehicles {
         editorSubcategory="EdSubcat_Planes";
         faction = "rsr";
         hiddenSelectionsTextures[]= {
-            QPATHTOEF(data\planes\redd_c_161_body_co.paa),
-            QPATHTOFE(data\planes\redd_c_161_wings_co.paa)
+            QPATHTOF(data\planes\redd_c_161_body_co.paa),
+            QPATHTOF(data\planes\redd_c_161_wings_co.paa)
         };
     };
 

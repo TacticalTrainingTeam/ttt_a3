@@ -16,7 +16,7 @@ class CfgVehicles {
         editorPreview = "";
         editorSubcategory = "EdSubcat_Planes";
         faction = "rsr";
-        hiddenSelectionsTextures[]= {
+        hiddenSelectionsTextures[] =  {
             QPATHTOF(data\planes\redd_c_161_body_co.paa),
             QPATHTOF(data\planes\redd_c_161_wings_co.paa)
         };
