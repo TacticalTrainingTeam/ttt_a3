@@ -2,11 +2,11 @@
 <Project name="ttt_a3">
     <Package name="main"/>
         <Key ID="STR_TTT_main_URL">
-            <Englich>https://tacticalteam.de</Englich>
+            <English>https://tacticalteam.de</English>
             <German>https://tacticalteam.de</German>
         </Key>
         <Key ID="STR_TTT_main_TacticalTrainingTeam">
-            <Englich>Tactical Training Team</Englich>
+            <English>Tactical Training Team</English>
             <German>Tactical Training Team</German>
         </Key>
 </Project>
