@@ -1,16 +1,11 @@
 class CfgVehicles {
-    class Headgear_Base_F;
-    class Headgear_H_Beret_02 : Headgear_Base_F {};
+    class Headgear_H_Beret_02;
 
     class TTT_Beret_Item_Blue : Headgear_H_Beret_02 {
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Reimchen"};
-        scope = 2;
-        scopeCurator = 2;
         displayName = CSTRING(blue);
-        vehicleClass = "Items";
-        model = "\A3\Weapons_F\DummyCap.p3d"; //needs to stay here to work
-        icon = "iconObject_1x1";
+        scope = 2;
         
         class TransportItems {
             class TTT_Beret_Blue {

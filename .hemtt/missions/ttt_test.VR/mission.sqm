@@ -8,18 +8,18 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=321;
+		nextID=323;
 	};
 	class LayerIndexProvider
 	{
-		nextID=82;
+		nextID=88;
 	};
 	class Camera
 	{
-		pos[]={4803.3403,13.714867,6873.3267};
-		dir[]={0.50342959,-0.54092002,0.67377764};
-		up[]={0.32377118,0.84107298,0.43332654};
-		aside[]={0.80109245,1.6544072e-07,-0.5985561};
+		pos[]={4815.4116,11.085146,6893.9556};
+		dir[]={-0.75219774,-0.52929741,-0.39263129};
+		up[]={-0.4692544,0.8484093,-0.24494092};
+		aside[]={-0.46276143,5.1956158e-07,0.8865447};
 	};
 };
 binarizationWanted=0;
@@ -98,6 +98,9 @@ randomSeed=2094387;
 class ScenarioData
 {
 	author="&x";
+};
+class CustomAttributes
+{
 };
 class Mission
 {

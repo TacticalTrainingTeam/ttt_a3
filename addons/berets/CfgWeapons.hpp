@@ -1,23 +1,19 @@
 class CfgWeapons {
-    class InventoryItem_Base_F; 
-    class HeadgearItem : InventoryItem_Base_F {};
-
-    class ItemCore;
-    class HelmetBase : ItemCore {
-        class ItemInfo : HeadgearItem {};
+    class H_Beret_blk;
+    class H_Beret_02: H_Beret_blk {
+        class ItemInfo;
     };
 
-    class H_Beret_02;
-
+    //could be H_Beret_02
     class TTT_Beret_Blue : H_Beret_02 {
-        author = ECSTRING(main,TactialTrainingTeam);
+        author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Reimchen"};
-        scope = 2;
         displayName = CSTRING(blue);
         picture = QPATHTOF(data\ui\berets_blau_icon_co.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\common\berets_blau_co.paa)};
-    
-        class ItemInfo : ItemInfo {};
+
+        class ItemInfo : ItemInfo {
+        };
     };
  
     class TTT_Beret_Brown : TTT_Beret_Blue {
