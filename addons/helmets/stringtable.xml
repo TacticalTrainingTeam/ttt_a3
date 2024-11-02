@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt_a3">
+    <Package name="helmets"/>
+        <Key ID="STR_TTT_helmets_buzzard_displayName">
+            <English>TTT Helicopter Helmet Buzzard</English>
+            <German>TTT Helikopter Helm Bussard</German>
+        </Key>
+</Project>

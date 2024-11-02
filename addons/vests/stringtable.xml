@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt_a3">
+    <Package name="vsests"/>
+        <Key ID="STR_TTT_vests_heavy_yellow_DisplayName">
+            <English>TTT Heavy Vest Yellow (US Desert)</English>
+            <German>TTT Schwere Weste Gelb (US Wüste)</German>
+        </Key>
+        <Key ID="STR_TTT_vests_light_yellow_DisplayName">
+            <English>TTT Light Vest Yellow (US Desert)</English>
+            <German>TTT Leichte Weste Gelb (US Wüste)</German>
+        </Key>
+</Project>

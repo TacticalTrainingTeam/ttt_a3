@@ -8,7 +8,7 @@ class CfgVehicles {
             class Gear_Hide { 
                 positions[] = {{1, 0.7, -0.4},{1.1, -1.1, -1.1}, {-1.25, -1.1, -1.1}};
                 items[] = {"ACE_EntrenchingTool", "Land_CanisterFuel_F", "Land_CanisterFuel_F", "UK3CB_BAF_B_Bergen_TAN_Rifleman_A", "UK3CB_BAF_B_Bergen_TAN_Rifleman_B", "UK3CB_BAF_B_Bergen_TAN_SL_A"};
-                text = "Removing Gear...";
+                text = CSTRING(STR_TTT_compat_cup_vehicles_takegear);
             };
         };
     };
@@ -18,7 +18,7 @@ class CfgVehicles {
             class Gear_Hide { 
                 positions[] = {{-1.25, -1.6, -1.1},{1.1, -1.6, -1.1}, {1.1, 0, -0.7}}; //ToDo add the positione of the other two Backpacks
                 items[] = {"ACE_EntrenchingTool", "Land_CanisterFuel_F", "Land_CanisterFuel_F", "UK3CB_BAF_B_Bergen_TAN_Rifleman_A", "UK3CB_BAF_B_Bergen_TAN_Rifleman_B", "UK3CB_BAF_B_Bergen_TAN_SL_A"};
-                text = "Removing Gear...";
+                text = CSTRING(STR_TTT_compat_cup_vehicles_takegear);
             };
         };
     };
@@ -28,7 +28,7 @@ class CfgVehicles {
             class Gear_Hide { 
                 positions[] = {{-1.25, -1.6, -1.1},{1.1, -1.6, -1.1}, {1.1, 0, -0.7}};
                 items[] = {"ACE_EntrenchingTool", "Land_CanisterFuel_F", "Land_CanisterFuel_F", "UK3CB_BAF_B_Bergen_TAN_Rifleman_A", "UK3CB_BAF_B_Bergen_TAN_Rifleman_B", "UK3CB_BAF_B_Bergen_TAN_SL_A"};
-                text = "Removing Gear...";
+                text = CSTRING(STR_TTT_compat_cup_vehicles_takegear);
             };
         };
     };

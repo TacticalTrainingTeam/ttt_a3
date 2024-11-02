@@ -134,7 +134,7 @@ class CfgWeapons {
         displayName = "TTT Uniform Orange (US Desert)";
         
         class ItemInfo : ItemInfo {
-            uniformClass = "TTT_Orange_Us_Desert";
+            uniformClass = "TTT_Orange_US_Desert";
         };
     }; 
 
@@ -144,7 +144,7 @@ class CfgWeapons {
         displayName = "TTT Uniform Platin (US Desert)";
         ACE_GForceCoef = 0.55;
         class ItemInfo : ItemInfo {
-            uniformClass = "TTT_Platinum_Us_Desert";
+            uniformClass = "TTT_Platinum_US_Desert";
         };
     }; 
 

@@ -31,3 +31,11 @@ Crew
 - `TTT_Vest_Crew_Silver`
 - `TTT_Vest_Crew_White`
 - `TTT_Vest_Crew_US_Desert`
+
+## ToDo
+
+- Localization
+
+## Maintainer
+
+- Andx

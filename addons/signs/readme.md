@@ -54,3 +54,11 @@ Schilder (Groß)
 - `TTT_Sign_Large_White`
 - `TTT_Sign_Large_Logo`
 - `TTT_Sign_Large_Orange`
+
+## ToDo
+
+- localization
+
+## Maintainer
+
+- Andx

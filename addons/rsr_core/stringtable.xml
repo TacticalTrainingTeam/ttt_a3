@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="ttt_mod">
+ <Project name="ttt_a3">
     <Package name="rsr_core"/>
+        <Key ID="STR_TTT_rsr_core_rsr">
+            <English>Redd Stura Reimchen</English>
+            <German>Redd Stura Reimchen</German>
+        </Key>
+        <Key ID="STR_TTT_rsr_core_rnt">
+            <English>Redd'n'Tank</English>
+            <German>Redd'n'Tank</German>
+        </Key>
 </Project>

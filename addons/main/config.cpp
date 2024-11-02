@@ -4,8 +4,8 @@ class CfgPatches {
     class ADDON    {
         // Meta information for editor
         name = COMPONENT_NAME;
-        author = "Tactical Training Team";
-        url = "https://tacticalteam.de";
+        author = CSTRING(TacticalTrainingTeam);
+        url = CSTRING(URL);
 
         // Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
         requiredVersion = REQUIRED_VERSION;
@@ -24,13 +24,13 @@ class CfgPatches {
 
 class CfgMods {
     class PREFIX {
-        dir = "@ttt";
-        name = "Tactical Training Team";
+        dir = "@ttt_a3";
+        name = QUOTE(Tactical Training Team);
         picture = "A3\Ui_f\data\Logos\arma3_expansion_alpha_ca";
         hidePicture = "true";
         hideName = "true";
         actionName = "Website";
-        action = CSTRING(URL);
+        action = "https://tacticalteam.de";
         description = "https://www.tacticalteam.de";
     };
 };
