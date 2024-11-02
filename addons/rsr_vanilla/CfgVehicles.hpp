@@ -391,7 +391,7 @@ class CfgVehicles {
                 displayName = "Wisent (Tropentarn)";
                 author = "Redd";
                 textures[] = {
-                    QPATHT OF(data\wisent\wisent_tropentarn_ext01_co.paa),
+                    QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
                     QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
                     QPATHTOF(data\wisent\wisent_tropentarn_fuel_co.paa)
                 };

@@ -13,13 +13,13 @@
             <English>Fennek HMG (Flecktern)</English>
             <German>Fennek HMG (Flecktarn)</German>
         </Key>
-        <Key ID="STR_TTT_rsr_vanilla_fennek_hmg_flecktarn">
-            <English>Fennek HMG (Flecktarn)</English>
-            <German>Fennek HMG (Flecktarn)</German>
+        <Key ID="STR_TTT_rsr_vanilla_fennek_hmg_tropentarn">
+            <English>Fennek HMG (Tropentarn)</English>
+            <German>Fennek HMG (Tropentarn)</German>
         </Key>
         <Key ID="STR_TTT_rsr_vanilla_fennek_gmg_flecktarn">
-            <English>Fennek GMG (Tropentarn)</English>
-            <German>Fennek GMW (Tropentarn)</German>
+            <English>Fennek GMG (Flecktarn)</English>
+            <German>Fennek GMW (Flecktarn)</German>
         </Key>
         <Key ID="STR_TTT_rsr_vanilla_fennek_gmg_tropentarn">
             <English>Fennek GMG (Tropentarn)</English>
