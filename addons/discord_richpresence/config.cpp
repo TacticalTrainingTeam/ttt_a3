@@ -24,3 +24,4 @@ class CfgPatches {
 };
 
 #include "CfgDiscordRichPresence.hpp"
+#include "CfgEventHandlers.hpp"
