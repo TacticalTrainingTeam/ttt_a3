@@ -64,6 +64,12 @@ workshop = [
     "1515845502", # BAF Weapons RHS Ammo Compat
 ]
 
+[itc]
+extends = "default"
+workshop = [
+    "1388192893" # ITC Landsystems
+]
+ 
 [drp]
 extends = "default"
 workshop = [
