@@ -1,6 +1,6 @@
 # Uniformen
 
-Enthält alle Uniformen in TTT Farben. Es gibt drei Tarnvarianten: Flecktarn, Tropentarn und US Desert.
+Enthält alle Uniformen in TTT Farben. Es gibt drei Tarnvarianten: BW Flecktarn, BW Tropentarn und US Desert.
 
 US Desert
 
@@ -17,7 +17,7 @@ US Desert
 - `TTT_Uniform_Orange_US_Desert`
 - `TTT_Uniform_Platinum_US_Desert`
 
-Flecktarn
+BW Flecktarn
 
 - `TTT_Uniform_Yellow_BW_Tropentarn`
 - `TTT_Uniform_Green_BW_Tropentarn`
@@ -32,7 +32,7 @@ Flecktarn
 - `TTT_Uniform_Silver_BW_Tropentarn`
 - `TTT_Uniform_Orange_BW_Tropentarn`
 
-Tropentarn
+BW Tropentarn
 
 - `TTT_Uniform_Yellow_BW_Flecktarn`
 - `TTT_Uniform_Green_BW_Flecktarn`
@@ -49,11 +49,6 @@ Tropentarn
 Piloten
 
 - `TTT_Uniform_Platinum_Pilot`
-
-## ToDo
-
-- Use Macros where possbile
-- localization
 
 ## Maintainers
 

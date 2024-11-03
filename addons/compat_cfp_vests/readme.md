@@ -8,6 +8,10 @@ Fügt ausgewählten Westen die `ACE_Wirecutter` Fähigkeit hinzu:
 
 <https://ace3.acemod.org/wiki/framework/wirecutter-framework#1-config-values>
 
+## Abhängigkeiten
+
+- Community Factions Project <https://steamcommunity.com/sharedfiles/filedetails/?id=1369691841>
+
 ## Maintainers
 
 - Andx
