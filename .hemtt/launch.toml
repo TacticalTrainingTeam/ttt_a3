@@ -5,9 +5,10 @@ workshop = [
     "450814997", # CBA_A3
     "751965892", # ACRE
     "2369477168", # Advanced Developer Tools
-    "3023395342", # 3DEN Attributes Fast Load 
-    "1779063631", # ZEN 
-    #"", # 3DEN Enhanced
+    "3018767334", # Open in VS Code
+    "3023395342", # 3DEN Attributes Fast Load
+    "1978434625", # Accurate Arsenal Icons
+    "1779063631", # ZEN
 ]
 
 parameters = [
@@ -25,26 +26,26 @@ mission = "ttt_test.VR"
 [cup]
 extends = "default"
 workshop = [
-    "497660133", # CUP Weapons 
-    "541888371", # CUP Vehicles 
-    "497661914", # CUP Units 
-    "1369691841", # CFP 
+    "497660133", # CUP Weapons
+    "541888371", # CUP Vehicles
+    "497661914", # CUP Units
+    "1369691841", # CFP
 ]
 
 [rhs]
 extends = "default"
 workshop = [
-    "843425103", # RHS AFRF 
-    "843577117", # RHS USAF 
-    "843593391", # RHS GREF 
-    "843632231", # RHS SAF  
+    "843425103", # RHS AFRF
+    "843577117", # RHS USAF
+    "843593391", # RHS GREF
+    "843632231", # RHS SAF
     "1673456286", # 3CB Factions
 ]
 
 [bwa3]
 extends = "default"
 workshop = [
-    "1200127537", # BWmod 
+    "1200127537", # BWmod
     #"1128145626", # RnT
 ]
 
@@ -61,4 +62,10 @@ workshop = [
     "1135534951", # BAF Equipment ACRE Compat
     "1515851169", # BAF Vehicles RHS Reskins
     "1515845502", # BAF Weapons RHS Ammo Compat
+]
+
+[drp]
+extends = "default"
+workshop = [
+    "1493485159", # Discord Rich Presence
 ]
