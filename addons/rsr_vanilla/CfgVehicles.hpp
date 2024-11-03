@@ -14,7 +14,9 @@ class CfgVehicles {
             QPATHTOF(data\fennek\fennek_flecktarn_ext_co.paa),
             QPATHTOF(data\fennek\fennek_flecktarn_turret_co.paa)
         };
-        class TransportItems { };
+        class TransportItems {
+            MACRO_ADDITEM(Toolkit,1);
+        };
         class TransportWeapons { };
         class TransportMagazines { };
     };
@@ -42,7 +44,9 @@ class CfgVehicles {
             QPATHTOF(data\fennek\fennek_flecktarn_ext_co.paa),
             QPATHTOF(data\fennek\fennek_flecktarn_turret_co.paa)
         };
-        class TransportItems { };
+        class TransportItems {
+            MACRO_ADDITEM(Toolkit,1);
+        };
         class TransportWeapons { };
         class TransportMagazines { };
     };
@@ -71,7 +75,9 @@ class CfgVehicles {
             QPATHTOF(data\fennek\fennek_flecktarn_ext_co.paa),
             QPATHTOF(data\fennek\fennek_flecktarn_turret_co.paa)
         };
-        class TransportItems { };
+        class TransportItems {
+            MACRO_ADDITEM(Toolkit,1);
+        };
         class TransportWeapons { };
         class TransportMagazines { };
     };
@@ -101,7 +107,9 @@ class CfgVehicles {
             QPATHTOF(data\bergepanzer\bergepanzer_flecktarn_turret_co.paa),
             QPATHTOF(data\bergepanzer\bergepanzer_flecktarn_crv_co.paa)
         };
-        class TransportItems { };
+        class TransportItems {
+            MACRO_ADDITEM(Toolkit,1);
+        };
         class TransportWeapons { };
         class TransportMagazines { };
         class UserActions {
@@ -141,7 +149,9 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
-        class TransportItems { };
+        class TransportItems {
+            MACRO_ADDITEM(Toolkit,1);
+        };
         class TransportWeapons { };
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\wisent\wisent_flecktarn_ext01_co.paa),
@@ -192,7 +202,9 @@ class CfgVehicles {
         editorPreview = "";
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
-        class TransportItems { };
+        class TransportItems {
+            MACRO_ADDITEM(Toolkit,1);
+        };
         class TransportWeapons { };
         class TransportMagazines { };
         hiddenSelectionsTextures[] = {
@@ -248,7 +260,9 @@ class CfgVehicles {
         editorPreview = "";
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
-        class TransportItems { };
+        class TransportItems {
+            MACRO_ADDITEM(Toolkit,1);
+        };
         class TransportWeapons { };
         class TransportMagazines { };
         hiddenSelectionsTextures[] = {
@@ -313,7 +327,9 @@ class CfgVehicles {
         editorPreview = "";
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
-        class TransportItems { };
+        class TransportItems {
+            MACRO_ADDITEM(Toolkit,1);
+        };
         class TransportWeapons { };
         class TransportMagazines { };
         hiddenSelectionsTextures[] = {
@@ -387,7 +403,9 @@ class CfgVehicles {
                 };
             };
         };
-        class TransportItems { };
+        class TransportItems {
+            MACRO_ADDITEM(Toolkit,1);
+        };
         class TransportWeapons { };
         class TransportMagazines { };
     };
@@ -441,7 +459,9 @@ class CfgVehicles {
                 };
             };
         };
-        class TransportItems { };
+        class TransportItems {
+            MACRO_ADDITEM(Toolkit,1);
+        };
         class TransportWeapons { };
         class TransportMagazines { };
     };
