@@ -1,6 +1,6 @@
 # RsR Vanilla Compat ACE
 
-Fügt den Vanilla Fahrzeugen von RsR ACE Funktionen hinzu und deaktiviert die Vanilla Funktionen:
+Fügt den Vanilla Fahrzeugen von RsR ACE Funktionen hinzu und deaktiviert die entsprechenden Vanilla Funktionen:
 
 - Wisent Sanität ist `ace_medical_isMedicalVehicle = 1`
 - Wisent Reperatur ist `ace_repair_canRepair = 1`

@@ -14,10 +14,10 @@ exclude = [
     "*.tga",
 ]
 include = [
-    "meta.cpp", 
-    "mod.cpp", 
-    "authors.txt", 
-    "LICENSE", 
+    "meta.cpp",
+    "mod.cpp",
+    "authors.txt",
+    "LICENSE",
     "*.paa",
 ]
 
@@ -25,7 +25,7 @@ include = [
 command_case = true
 
 [properties]
-url = "https://github.com/Andx667/TTT-Mod" # ToDo Change to TTT Repo URL
+url = "https://github.com/TacticalTrainingTeam/ttt_a3" # ToDo Change to TTT Repo URL
 
 [hemtt.signing]
 authority = "Tactical Training Team"

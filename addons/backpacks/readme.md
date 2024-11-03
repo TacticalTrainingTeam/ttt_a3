@@ -14,10 +14,6 @@ Enthält verschiedene Funkrucksäcke in TTT Farben.
 - `TTT_backpack_radio_white_us_desert`
 - `TTT_backpack_radio_yellow_us_desert`
 
-## ToDo
-
-- localization
-
 ## Maintainer
 
 - Andx
