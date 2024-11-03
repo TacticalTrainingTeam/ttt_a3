@@ -6,12 +6,12 @@ class CfgVehicles {
 
     class rsr_fennek_transport_RV_flecktarn : itc_land_I_StriderRV {
         displayName = "Fennek Aufklärung (Flecktarn)";
-        typicalCargo[] = {"B_Soldier_F", "B_Soldier_F", "B_Soldier_F"};
+        typicalCargo[] = {"B_Soldier_F", "B_Soldier_F"};
         crew = "B_Soldier_F";
         side = 1;
         faction = "RsR";
         editorPreview = "";
-        hiddenSelectionsTextures[]= {
+        hiddenSelectionsTextures[] = {
             QPATHTOEF(rsr_vanilla,data\fennek\fennek_flecktarn_ext_co.paa),
             QPATHTOEF(rsr_vanilla,data\fennek\fennek_flecktarn_turret_co.paa)
         };
@@ -19,7 +19,7 @@ class CfgVehicles {
 
     class rsr_fennek_transport_RV_tropentarn : rsr_fennek_transport_RV_flecktarn {
         displayName = "Fennek Aufklärung (Tropenktarn)";
-        hiddenSelectionsTextures[]= {
+        hiddenSelectionsTextures[] = {
             QPATHTOEF(rsr_vanilla,data\fennek\fennek_tropentarn_ext_co.paa),
             QPATHTOEF(rsr_vanilla,data\fennek\fennek_tropentarn_turret_co.paa)
         };
@@ -32,7 +32,7 @@ class CfgVehicles {
         side = 1;
         faction = "RsR";
         editorPreview = "";
-        hiddenSelectionsTextures[]= {
+        hiddenSelectionsTextures[] = {
             QPATHTOEF(rsr_vanilla,data\fennek\fennek_flecktarn_ext_co.paa),
             QPATHTOEF(rsr_vanilla,data\fennek\fennek_flecktarn_turret_co.paa)
         };
@@ -40,7 +40,7 @@ class CfgVehicles {
 
     class rsr_fennek_hmg_RV_tropentarn : rsr_fennek_hmg_RV_flecktarn {
         displayName = "Fennek Aufklärung HMG (Tropentarn)";
-        hiddenSelectionsTextures[]= {
+        hiddenSelectionsTextures[] = {
             QPATHTOEF(rsr_vanilla,data\fennek\fennek_tropentarn_ext_co.paa),
             QPATHTOEF(rsr_vanilla,data\fennek\fennek_tropentarn_turret_co.paa)
         };
@@ -53,7 +53,7 @@ class CfgVehicles {
         side = 1;
         faction = "RsR";
         editorPreview = "";
-        hiddenSelectionsTextures[]= {
+        hiddenSelectionsTextures[] = {
             QPATHTOEF(rsr_vanilla,data\fennek\fennek_flecktarn_ext_co.paa),
             QPATHTOEF(rsr_vanilla,data\fennek\fennek_flecktarn_turret_co.paa)
         };
@@ -61,7 +61,7 @@ class CfgVehicles {
 
     class rsr_fennek_gmg_RV_tropentarn : rsr_fennek_gmg_RV_flecktarn {
         displayName = "Fennek Aufklärung GMW (Flecktarn)";
-        hiddenSelectionsTextures[]= {
+        hiddenSelectionsTextures[] = {
             QPATHTOEF(rsr_vanilla,data\fennek\fennek_tropentarn_ext_co.paa),
             QPATHTOEF(rsr_vanilla,data\fennek\fennek_tropentarn_turret_co.paa)
         };
