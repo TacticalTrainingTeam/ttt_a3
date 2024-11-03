@@ -27,12 +27,6 @@ class CfgVehicles {
         displayName = QUOTE(TTT Flagge Base);
         model = "\a3\Structures_F\Mil\Flags\Mast_F.p3d";
         vehicleClass = "TTT_Flags";
-        icon = "iconObject_circle";
-        keepHorizontalPlacement = 1;
-        accuracy = 1000;
-        animated = 0;
-        nameSound = "obj_flag";
-        supplyRadius = 2;
     };
 
     class TTT_Flag_Logo : TTT_Flag_Base {
@@ -42,7 +36,7 @@ class CfgVehicles {
         editorSubcategory = "ttt_main_ttt";
         
         class EventHandlers {
-            init = "(_this select 0) setFlagTexture 'z\ttt\addons\signs\data\ttt_logo_sign_co.paa'";
+            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_sign_co.paa));
         };
     };
 
@@ -50,7 +44,7 @@ class CfgVehicles {
         displayName = CSTRING(flag_blue_displayName);
         
         class EventHandlers {
-            init = "(_this select 0) setFlagTexture 'z\ttt\addons\signs\data\ttt_logo_blau_co.paa'";
+            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_blau_co.paa));
         };
     };
 
@@ -58,7 +52,7 @@ class CfgVehicles {
         displayName = QUOTE(TTT Flagge Braun);
         
         class EventHandlers {
-            init = "(_this select 0) setFlagTexture 'z\ttt\addons\signs\data\ttt_logo_braun_co.paa'";
+            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_braun_co.paa));
         };
     };
 
@@ -66,7 +60,7 @@ class CfgVehicles {
         displayName = QUOTE(TTT Flagge Bronze);
 
         class EventHandlers {
-            init = "(_this select 0) setFlagTexture 'z\ttt\addons\signs\data\ttt_logo_bronze_co.paa'";
+            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_bronze_co.paa));
         };
     };
 
@@ -74,7 +68,7 @@ class CfgVehicles {
         displayName = QUOTE(TTT Flagge Gelb);
         
         class EventHandlers {
-            init = "(_this select 0) setFlagTexture 'z\ttt\addons\signs\data\ttt_logo_gelb_co.paa'";
+            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_gelb_co.paa));
         };
     };
 
@@ -82,7 +76,7 @@ class CfgVehicles {
         displayName = QUOTE(TTT Flagge Gold);
 
         class EventHandlers {
-            init = "(_this select 0) setFlagTexture 'z\ttt\addons\signs\data\ttt_logo_gold_co.paa'";
+            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_gold_co.paa));
         };
     };
 
@@ -90,7 +84,7 @@ class CfgVehicles {
         displayName = QUOTE(TTT Flagge Grau);
 
         class EventHandlers {
-            init = "(_this select 0) setFlagTexture 'z\ttt\addons\signs\data\ttt_logo_grau_co.paa'";
+            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_grau_co.paa));
         };
     };
 
@@ -98,7 +92,7 @@ class CfgVehicles {
         displayName = QUOTE(TTT Flagge Grün);
 
         class EventHandlers {
-            init = "(_this select 0) setFlagTexture 'z\ttt\addons\signs\data\ttt_logo_gruen_co.paa'";
+            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_gruen_co.paa));
         };
     };
 
@@ -106,7 +100,7 @@ class CfgVehicles {
         displayName = QUOTE(TTT Flagge Platin);
 
         class EventHandlers {
-            init = "(_this select 0) setFlagTexture 'z\ttt\addons\signs\data\ttt_logo_platin_co.paa'";
+            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_platin_co.paa));
         };
     };
 
@@ -114,7 +108,7 @@ class CfgVehicles {
         displayName = QUOTE(TTT Flagge Rot);
 
         class EventHandlers {
-            init = "(_this select 0) setFlagTexture 'z\ttt\addons\signs\data\ttt_logo_rot_co.paa'";
+            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_rot_co.paa));
         };
     };
 
@@ -122,7 +116,7 @@ class CfgVehicles {
         displayName = QUOTE(TTT Flagge Schwarz);
 
         class EventHandlers {
-            init = "(_this select 0) setFlagTexture 'z\ttt\addons\signs\data\ttt_logo_schwarz_co.paa'";
+            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_schwarz_co.paa));
         };
     };
 
@@ -130,7 +124,7 @@ class CfgVehicles {
         displayName = QUOTE(TTT Flagge Silber);
 
         class EventHandlers {
-            init = "(_this select 0) setFlagTexture 'z\ttt\addons\signs\data\ttt_logo_silber_co.paa'";
+            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_silber_co.paa));
         };
     };
 
@@ -138,7 +132,7 @@ class CfgVehicles {
         displayName = QUOTE(TTT Flagge Violett);
 
         class EventHandlers {
-            init = "(_this select 0) setFlagTexture 'z\ttt\addons\signs\data\ttt_logo_violett_co.paa'";
+            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_violett_co.paa));
         };
     };
 
@@ -146,7 +140,7 @@ class CfgVehicles {
         displayName = QUOTE(TTT Flagge Weiss);
 
         class EventHandlers {
-            init = "(_this select 0) setFlagTexture 'z\ttt\addons\signs\data\ttt_logo_weiss_co.paa'";
+            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_weiss_co.paa));
         };
     };
 
@@ -154,7 +148,7 @@ class CfgVehicles {
         displayName = QUOTE(TTT Flagge Orange);
 
         class EventHandlers {
-            init = "(_this select 0) setFlagTexture 'z\ttt\addons\signs\data\ttt_logo_orange_co.paa'";
+            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_orange_co.paa));
         };
     };
 
@@ -171,9 +165,7 @@ class CfgVehicles {
         scopeCurator = 0;
         displayName = QUOTE(TTT Schild Klein Base);
         model = "\A3\Structures_F\Civ\InfoBoards\Noticeboard_F.p3d";
-        icon = "iconObject_4x1";
         vehicleClass = "signs_Small";
-        destrType = "DestructWall";
         hiddenSelections[] = {"board"};
     };
 
@@ -266,9 +258,7 @@ class CfgVehicles {
         scopeCurator = 0;
         displayName = QUOTE(TTT Schild Groß Base);
         model = "\A3\Signs_F\Signs_Ad\SignsAd_Sponsor_F.p3d";
-        icon = "iconObject_4x1";
         vehicleClass = "signs_large";
-        destrType = "DestructWall";
         hiddenSelections[] = {"camo"};
     };
 
