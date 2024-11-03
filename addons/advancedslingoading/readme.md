@@ -28,11 +28,6 @@ Angepasst um mehr Hubschrauber zu unterstützen
     ["B_T_VTOL_01_Vehicle_F", [-0.9, -0.9, -0.9]] 
 ```
 
-## ToDo
-
-- Hatchet H-60 Hubschrauber Attach Points einflegen
-- Localization
-
 ## Referenzen
 
 <https://steamcommunity.com/sharedfiles/filedetails/?id=615007497&searchtext=advanced+sling+load>

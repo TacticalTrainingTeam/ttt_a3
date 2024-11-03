@@ -2,6 +2,6 @@
 
 Stellt Basisfunktionen bereit für alle RsR Mods.
 
-## RSR Fraktion
+## Maintainer
 
-
+- Andx

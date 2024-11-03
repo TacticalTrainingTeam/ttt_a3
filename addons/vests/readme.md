@@ -1,6 +1,6 @@
 # Westen
 
-Enthält alle Westen in TTT Farben. Es gibt Varianten, eine leichte, eine Schwere und eine für Hubschrauber- oder Fahrzeugbesatzungen.
+Enthält alle Westen in TTT Farben. Es gibt eine leichte, eine schwere und eine für Hubschrauber- oder Fahrzeugbesatzungen.
 
 US Desert
 
@@ -31,10 +31,6 @@ Crew
 - `TTT_Vest_Crew_Silver`
 - `TTT_Vest_Crew_White`
 - `TTT_Vest_Crew_US_Desert`
-
-## ToDo
-
-- Localization
 
 ## Maintainer
 

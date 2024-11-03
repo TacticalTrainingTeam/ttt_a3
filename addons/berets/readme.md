@@ -18,8 +18,6 @@ Enthält alle Barette in TTT Farben.
 - `TTT_Beret_White`
 - `TTT_Beret_Orange`
 
-## ToDo
-
 ## Maintainer
 
 - Andx

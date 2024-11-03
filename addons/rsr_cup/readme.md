@@ -12,3 +12,7 @@ Fügt eine Transall in zwei Varianten hinzu:
 Fügt einen Wintertarnüberzug im Bundeswehrstil hinzu.
 
 - `rnt_bw_wintertarn_uniform`
+
+## Maintainer
+
+- Andx
