@@ -5,7 +5,7 @@ class CfgVehicles {
     class rsr_fennek_transport_flecktarn: I_MRAP_03_F {
         author = ECSTRING(rsr_core,rsr);
         displayName = CSTRING(fennek_flecktarn);
-        typicalCargo[] = {"B_Soldier_F"};
+        typicalCargo[] = {"B_Soldier_F","B_Soldier_F"};
         side = 1;
         crew = "B_Soldier_F";
         editorPreview = "";
@@ -15,12 +15,7 @@ class CfgVehicles {
             QPATHTOF(data\fennek\fennek_flecktarn_ext_co.paa),
             QPATHTOF(data\fennek\fennek_flecktarn_turret_co.paa)
         };
-        class TransportItems {
-            class _xx_FirstAidKit {
-                name = "FirstAidKit";
-                count = 1;
-            };
-        };
+        class TransportItems { };
         class TransportWeapons { };
         class TransportMagazines { };
     };
@@ -35,7 +30,7 @@ class CfgVehicles {
     class rsr_fennek_hmg_flecktarn: I_MRAP_03_hmg_F {
         author = ECSTRING(rsr_core,rsr);
         displayName = CSTRING(fennek_hmg_flecktarn);
-        typicalCargo[] = {"B_Soldier_F"};
+        typicalCargo[] = {"B_Soldier_F", "B_Soldier_F", "B_Soldier_F"};
         side = 1;
         crew = "B_Soldier_F";
         editorPreview = "";
@@ -45,12 +40,7 @@ class CfgVehicles {
             QPATHTOF(data\fennek\fennek_flecktarn_ext_co.paa),
             QPATHTOF(data\fennek\fennek_flecktarn_turret_co.paa)
         };
-        class TransportItems {
-            class _xx_FirstAidKit {
-                name = "FirstAidKit";
-                count = 1;
-            };
-        };
+        class TransportItems { };
         class TransportWeapons { };
         class TransportMagazines { };
     };
@@ -66,7 +56,7 @@ class CfgVehicles {
     class rsr_fennek_gmg_flecktarn: I_MRAP_03_gmg_F {
         author = ECSTRING(rsr_core,rsr);
         displayName = CSTRING(fennek_gmg_flecktarn);
-        typicalCargo[] = {"B_Soldier_F"};
+        typicalCargo[] = {"B_Soldier_F", "B_Soldier_F", "B_Soldier_F"};
         side = 1;
         crew = "B_Soldier_F";
         editorPreview = "";
@@ -76,12 +66,7 @@ class CfgVehicles {
             QPATHTOF(data\fennek\fennek_flecktarn_ext_co.paa),
             QPATHTOF(data\fennek\fennek_flecktarn_turret_co.paa)
         };
-        class TransportItems {
-            class _xx_FirstAidKit {
-                name = "FirstAidKit";
-                count = 1;
-            };
-        };
+        class TransportItems { };
         class TransportWeapons { };
         class TransportMagazines { };
     };
