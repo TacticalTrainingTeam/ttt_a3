@@ -1,7 +1,6 @@
 class CfgVehicles {
     class I_MRAP_03_F;
-    class I_MRAP_03_hmg_F;
-    class I_MRAP_03_gmg_F;
+
     class rsr_fennek_transport_flecktarn: I_MRAP_03_F {
         author = ECSTRING(rsr_core,rsr);
         displayName = CSTRING(fennek_flecktarn);
@@ -26,7 +25,10 @@ class CfgVehicles {
             QPATHTOF(data\fennek\fennek_tropentarn_ext_co.paa),
             QPATHTOF(data\fennek\fennek_tropentarn_turret_co.paa)
         };
-    };
+    };    
+    
+    class I_MRAP_03_hmg_F;
+
     class rsr_fennek_hmg_flecktarn: I_MRAP_03_hmg_F {
         author = ECSTRING(rsr_core,rsr);
         displayName = CSTRING(fennek_hmg_flecktarn);
@@ -53,6 +55,9 @@ class CfgVehicles {
             QPATHTOF(data\fennek\fennek_tropentarn_turret_co.paa)
         };
     };
+
+    class I_MRAP_03_gmg_F;
+    
     class rsr_fennek_gmg_flecktarn: I_MRAP_03_gmg_F {
         author = ECSTRING(rsr_core,rsr);
         displayName = CSTRING(fennek_gmg_flecktarn);
