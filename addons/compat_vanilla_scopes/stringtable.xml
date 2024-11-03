@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt_a3">
+    <Package name="compat_vanilla_scopes"/>
+        <Key ID="STR_TTT_compat_vanilla_scopes_mosDescriptionShort">
+            <English>Marksman Optical Sights&lt;br /&gt;Magnification: 2,5x-5x&lt;br /&gt;NightVision</English>
+            <German>Marksman Optical Sights&lt;br /&gt;Vergrößerung: 2,5x-5x&lt;br /&gt;Nachtsicht</German>
+        </Key>
+</Project>

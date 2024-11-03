@@ -1,4 +1,6 @@
-# Vanilla
+# Vanilla Zielfernrohre
+
+## NVG
 
 Fügt ausgewählten Vanilla Zielfernrohren ein intergriertes Nachtsichtgerät hinzu:
 
@@ -7,3 +9,7 @@ Fügt ausgewählten Vanilla Zielfernrohren ein intergriertes Nachtsichtgerät hi
 - Burris XTR II (`optic_DMS`)
 - US Optics MR10 (`optic_AMS`)
 - KAHLES Helia (`optic_khs`)
+
+## Maintainers
+
+- Andx

@@ -1,14 +1,11 @@
 class CfgVehicles {
-    class Item_Base_F;     //External class reference
-    
-    class TTT_Beret_Item_Blue : Item_Base_F {
+    class Headgear_H_Beret_02;
+
+    class TTT_Beret_Item_Blue : Headgear_H_Beret_02 {
+        author = ECSTRING(main,TacticalTrainingTeam);
+        authors[] = {"Reimchen"};
+        displayName = CSTRING(blue);
         scope = 2;
-        scopeCurator = 2;
-        displayName = "TTT Barett Blau";
-        author = "Tactical Training Team";//Textures by Reimchen
-        icon = "iconObject_1x1";
-        vehicleClass = "Items";
-        model = "\A3\Weapons_F\DummyCap.p3d";
         
         class TransportItems {
             class TTT_Beret_Blue {
@@ -19,7 +16,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Brown : TTT_Beret_Item_Blue {
-        displayName = "TTT Barett Braun";
+        displayName = CSTRING(brown);
         
         class TransportItems {
             class TTT_Beret_Brown {
@@ -30,7 +27,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Bronze : TTT_Beret_Item_Blue {
-        displayName = "TTT Barett Bronze";
+        displayName = CSTRING(bronze);
         
         class TransportItems {
             class TTT_Beret_Bronze {
@@ -41,7 +38,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Yellow : TTT_Beret_Item_Blue {
-        displayName = "TTT Barett Gelb";
+        displayName = CSTRING(yellow);
         
         class TransportItems {
             class TTT_Beret_Yellow {
@@ -52,7 +49,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Gold : TTT_Beret_Item_Blue {
-        displayName = "TTT Barett Gold";
+        displayName = CSTRING(gold);
         
         class TransportItems {
             class TTT_Beret_Gold {
@@ -63,7 +60,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Grey : TTT_Beret_Item_Blue {
-        displayName = "TTT Barett Grau";
+        displayName = CSTRING(grey);
         
         class TransportItems {
             class TTT_Beret_Grey {
@@ -74,7 +71,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Green : TTT_Beret_Item_Blue {
-        displayName = "TTT Barett Grün";
+        displayName = CSTRING(green);
         
         class TransportItems {
             class TTT_Beret_Green {
@@ -85,7 +82,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Logo : TTT_Beret_Item_Blue {
-        displayName = "TTT Barett Logo";
+        displayName = CSTRING(logo);
         
         class TransportItems {
             class TTT_Beret_Logo {
@@ -96,7 +93,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Platinum : TTT_Beret_Item_Blue {
-        displayName = "TTT Barett Platin";
+        displayName = CSTRING(platinum);
         
         class TransportItems {
             class TTT_Beret_Platinum {
@@ -107,7 +104,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Red : TTT_Beret_Item_Blue {
-        displayName = "TTT Barett Rot";
+        displayName = CSTRING(red);
         
         class TransportItems {
             class TTT_Beret_Red {
@@ -118,7 +115,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Black : TTT_Beret_Item_Blue {
-        displayName = "TTT Barett Schwarz";
+        displayName = CSTRING(black);
         
         class TransportItems {
             class TTT_Beret_Black {
@@ -129,7 +126,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Silver : TTT_Beret_Item_Blue {
-        displayName = "TTT Barett Silber";
+        displayName = CSTRING(silver);
         
         class TransportItems {
             class TTT_Beret_Silver {
@@ -140,7 +137,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Violet : TTT_Beret_Item_Blue {
-        displayName = "TTT Barett Violett";
+        displayName = CSTRING(violet);
         
         class TransportItems {
             class TTT_Beret_Violet {
@@ -151,7 +148,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_White : TTT_Beret_Item_Blue {
-        displayName = "TTT Barett Weiss";
+        displayName = CSTRING(white);
         
         class TransportItems {
             class TTT_Beret_White {
@@ -162,7 +159,7 @@ class CfgVehicles {
     };
 
     class TTT_Beret_Item_Orange : TTT_Beret_Item_Blue {
-        displayName = "TTT Barett Orange";
+        displayName = CSTRING(orange);
         
         class TransportItems {
             class TTT_Beret_Orange {

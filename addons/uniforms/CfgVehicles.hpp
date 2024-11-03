@@ -20,12 +20,12 @@ class CfgVehicles {
         respawnMagazines[] = {};
     };
 
-    class TTT_Platin_Pilot : TTT_Base_US {
+    class TTT_Platinum_Pilot : TTT_Base_US {
         author = "Tactical Training Team";
         displayName = "Klasse Platin Pilot";
         scope = 1;
-        uniformClass = "TTT_Uniform_Platin_Pilot";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\TTT_uniform_platin_pilot.paa" };
+        uniformClass = "TTT_Uniform_Platinum_Pilot";
+        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\TTT_uniform_platinum_pilot.paa" };
     };
 
     class TTT_Yellow_US_Desert : TTT_Base_US {
@@ -113,11 +113,11 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\TTT_uniform_orange_US_Desert.paa" };
     };
 
-    class TTT_Platin_US_Desert : TTT_Yellow_US_Desert {
+    class TTT_Platinum_US_Desert : TTT_Yellow_US_Desert {
         author = "Tactical Training Team";
         displayName = "Klasse Platin Desert";
-        uniformClass = "TTT_Uniform_Platin_US_Desert";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\TTT_uniform_platin_US_Desert.paa" };
+        uniformClass = "TTT_Uniform_Platinum_US_Desert";
+        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\TTT_uniform_platinum_US_Desert.paa" };
     };
 
     class TTT_Base_BW : B_Soldier_base_F {

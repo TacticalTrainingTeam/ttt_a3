@@ -8,18 +8,18 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=316;
+		nextID=323;
 	};
 	class LayerIndexProvider
 	{
-		nextID=104;
+		nextID=88;
 	};
 	class Camera
 	{
-		pos[]={4833.3506,18.768867,6869.4712};
-		dir[]={-0.76666147,-0.3391076,0.54519379};
-		up[]={-0.27635548,0.94074762,0.19652389};
-		aside[]={0.5795325,0,0.81494921};
+		pos[]={4815.4116,11.085146,6893.9556};
+		dir[]={-0.75219774,-0.52929741,-0.39263129};
+		up[]={-0.4692544,0.8484093,-0.24494092};
+		aside[]={-0.46276143,5.1956158e-07,0.8865447};
 	};
 };
 binarizationWanted=0;
@@ -31,13 +31,14 @@ addons[]=
 	"A3_Modules_F_Curator_Curator",
 	"A3_Ui_F",
 	"ttt_signs",
-	"A3_Supplies_F_Heli_CargoNets"
+	"A3_Supplies_F_Heli_CargoNets",
+	"A3_Misc_F_Helpers"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=6;
+		items=7;
 		class Item0
 		{
 			className="A3_Data_F_Exp_A";
@@ -80,6 +81,13 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item6
+		{
+			className="A3_Misc_F";
+			name="Arma 3 - 3D Aids and Helpers";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 dlcs[]=
@@ -90,6 +98,9 @@ randomSeed=2094387;
 class ScenarioData
 {
 	author="&x";
+};
+class CustomAttributes
+{
 };
 class Mission
 {
@@ -114,7 +125,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=4;
+		items=5;
 		class Item0
 		{
 			dataType="Layer";
@@ -839,6 +850,23 @@ class Mission
 			{
 			};
 			id=203;
+		};
+		class Item4
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4816.981,6.0818248,6878.8193};
+				angles[]={0,6.2317696,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				name="pointer";
+			};
+			id=246;
+			type="Sign_Pointer_Pink_F";
+			atlOffset=1.0318246;
 		};
 	};
 };

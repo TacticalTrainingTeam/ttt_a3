@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="ttt_mod">
+<Project name="ttt_a3">
     <Package name="main"/>
+        <Key ID="STR_TTT_main_URL">
+            <English>https://tacticalteam.de</English>
+            <German>https://tacticalteam.de</German>
+        </Key>
+        <Key ID="STR_TTT_main_TacticalTrainingTeam">
+            <English>Tactical Training Team</English>
+            <German>Tactical Training Team</German>
+        </Key>
 </Project>
