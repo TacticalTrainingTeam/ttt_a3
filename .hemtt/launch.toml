@@ -8,7 +8,6 @@ workshop = [
     "3018767334", # Open in VS Code
     "3023395342", # 3DEN Attributes Fast Load
     "1978434625", # Accurate Arsenal Icons
-    "1493485159", # Discord Rich Presence
     "1779063631", # ZEN
 ]
 
@@ -63,4 +62,10 @@ workshop = [
     "1135534951", # BAF Equipment ACRE Compat
     "1515851169", # BAF Vehicles RHS Reskins
     "1515845502", # BAF Weapons RHS Ammo Compat
+]
+
+[drp]
+extends = "default"
+workshop = [
+    "1493485159", # Discord Rich Presence
 ]
