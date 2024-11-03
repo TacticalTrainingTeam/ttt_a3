@@ -4,7 +4,7 @@ class CfgPatches {
     class ttt_discord_RichPresence {
         // Meta information for editor
         name = COMPONENT_NAME;
-        author = "Tactical Training Team";
+        author = ECSTRING(main,TacticalTrainingTeam);
 		authors[] = {"V1irus", "Menom", "Andx"};
         url = "https://tacticalteam.de";
 
