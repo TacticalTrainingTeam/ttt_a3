@@ -1,6 +1,13 @@
 # RsR Vanilla ITC Compat
 
-Fügt dem Fennek aus RsR Vanilla die bessere Kommandanten-Optik des ITC Strider hinzu.
+Fügt eine Aufklärungsvariante des Fennek hinzu, welche die bessere ITC Kommandantenoptik nutzt.
+
+- `rsr_fennek_transport_RV_flecktarn`,
+- `rsr_fennek_hmg_RV_flecktarn`,
+- `rsr_fennek_gmg_RV_flecktarn`,
+- `rsr_fennek_transport_RV_tropentarn`,
+- `rsr_fennek_hmg_RV_tropentarn`,
+- `rsr_fennek_gmg_RV_tropentarn`
 
 ## Referenzen
 
