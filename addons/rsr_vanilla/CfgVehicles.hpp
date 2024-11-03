@@ -57,7 +57,7 @@ class CfgVehicles {
     };
 
     class I_MRAP_03_gmg_F;
-    
+
     class rsr_fennek_gmg_flecktarn: I_MRAP_03_gmg_F {
         author = ECSTRING(rsr_core,rsr);
         displayName = CSTRING(fennek_gmg_flecktarn);
@@ -79,7 +79,7 @@ class CfgVehicles {
         author = ECSTRING(rsr_core,rsr);
         displayName = CSTRING(fennek_gmg_tropentarn);
         editorPreview = "";
-        hiddenSelectionsTextures[]= {
+        hiddenSelectionsTextures[] = {
             QPATHTOF(data\fennek\fennek_tropentarn_ext_co.paa),
             QPATHTOF(data\fennek\fennek_tropentarn_turret_co.paa)
         };
