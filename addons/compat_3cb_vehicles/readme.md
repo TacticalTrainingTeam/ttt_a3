@@ -12,6 +12,10 @@ Fügt drei Typen von Landrover Animations-Interaktionen hinzu.
 
 <https://ace3.acemod.org/wiki/framework/interactionmenu-framework#22-vehicle-interactions-based-on-animations>
 
+## Abhängigkeiten
+
+- 3CB Factions <https://steamcommunity.com/sharedfiles/filedetails/?id=1673456286>
+
 ## Maintainers
 
 - Andx

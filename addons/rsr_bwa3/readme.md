@@ -23,6 +23,12 @@ Roter Diamant statt Rotes Kreuz
 
 <https://ace3.acemod.org/wiki/framework/medical-treatment-framework#21-medical-vehicles>
 
+## Abhängifkeiten
+
+## Abhängigkeiten
+
+- BWmod <https://steamcommunity.com/sharedfiles/filedetails/?id=1200127537>
+
 ## Maintainer
 
 - Andx
