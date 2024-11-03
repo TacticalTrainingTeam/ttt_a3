@@ -6,10 +6,12 @@ Fügt den Vanilla Fahrzeugen von RsR ACE Funktionen hinzu und deaktiviert die en
 - Wisent Reperatur ist `ace_repair_canRepair = 1`
 - Wisent Reperatur hat 4 Ketten im Cargo
 - Wisent Reperatur hat 4 Ersatzreifen im Cargo
+- Wisent Reparatur hat 14 Cargoplätze
 - Wisent Munition hat `ace_rearm_defaultSupply = 1200;`
 - Wisent Treibstoff hat `ace_refuel_fuelCargo = 10000;`
 
-- Bergepanzer hat gleichen Funktionen wie die Wisent Reperatur, Munition, Treibstoff in einem.
+- Bergepanzer hat gleichen Funktionen wie die Wisent Reperatur, Munition, Treibstoff in einem
+- Bergepanzer hat 10 Cargoplätze
 
 ## Referenzen
 
@@ -17,6 +19,7 @@ Fügt den Vanilla Fahrzeugen von RsR ACE Funktionen hinzu und deaktiviert die en
 <https://ace3.acemod.org/wiki/framework/rearm-framework#11-setting-vehicle-as-a-supply>
 <https://ace3.acemod.org/wiki/framework/refuel-framework#1-config-values>
 <https://ace3.acemod.org/wiki/framework/repair-framework#11-setting-vehicle-as-repair-location>
+<https://ace3.acemod.org/wiki/framework/cargo-framework>
 
 ## Maintainer
 

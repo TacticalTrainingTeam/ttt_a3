@@ -9,7 +9,7 @@ class CfgVehicles {
         ace_repair_canRepair = 1; // Make repair vehicle
         ace_refuel_fuelCargo = 3000; // Maximum fuel cargo amount (in liters)
         ace_repair_spareTracks = 4;
-        ace_cargo_space = 6; // To accomodate the tracks
+        ace_cargo_space = 10; // To accomodate the tracks
     };
 
     class O_Truck_03_repair_F;
@@ -18,7 +18,7 @@ class CfgVehicles {
         ace_repair_canRepair = 1; // Make repair vehicle
         ace_repair_spareWheels = 4;
         ace_repair_spareTracks = 4;
-        ace_cargo_space = 10; // To accomodate the wheels and tracks
+        ace_cargo_space = 14; // To accomodate the wheels and tracks
     };
 
     class O_Truck_03_ammo_F;
