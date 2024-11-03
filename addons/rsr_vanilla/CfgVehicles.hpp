@@ -99,24 +99,19 @@ class CfgVehicles {
     class rsr_bergepanzer_flecktarn: B_APC_Tracked_01_CRV_F {
         author = ECSTRING(rsr_core,rsr);
         displayName = CSTRING(bergepanzer_flecktarn);
-        typicalCargo[] = {"B_Soldier_F"};
+        typicalCargo[] = {"B_Soldier_F", "B_Soldier_F"};
         side = 1;
         crew = "B_Soldier_F";
-        editorPreview="";
-        faction="rsr";
-        editorSubcategory="EdSubCat_Tanks";
-        hiddenSelectionsTextures[]= {
+        editorPreview = "";
+        faction = "rsr";
+        editorSubcategory = "EdSubCat_Tanks";
+        hiddenSelectionsTextures[] = {
             QPATHTOF(data\bergepanzer\bergepanzer_flecktarn_body_crv_co.paa),
             QPATHTOF(data\bergepanzer\bergepanzer_flecktarn_body_mbt_co.paa),
             QPATHTOF(data\bergepanzer\bergepanzer_flecktarn_turret_co.paa),
             QPATHTOF(data\bergepanzer\bergepanzer_flecktarn_crv_co.paa)
         };
-        class TransportItems {
-            class _xx_FirstAidKit {
-                name="FirstAidKit";
-                count=1;
-            };
-        };
+        class TransportItems { };
         class TransportWeapons { };
         class TransportMagazines { };
         class UserActions {
