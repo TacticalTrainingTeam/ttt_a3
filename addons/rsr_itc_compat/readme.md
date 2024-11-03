@@ -1,6 +1,6 @@
 # RsR Vanilla ITC Compat
 
-Fügt eine Aufklärungsvariante des Fennek hinzu, welche die bessere ITC Kommandantenoptik nutzt.
+Fügt eine Aufklärungsvariante des Fenneks hinzu, welche die bessere ITC Kommandantenoptik nutzt.
 
 - `rsr_fennek_transport_RV_flecktarn`,
 - `rsr_fennek_hmg_RV_flecktarn`,
