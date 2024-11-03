@@ -138,15 +138,12 @@ class CfgVehicles {
     };
     
     class O_Truck_03_transport_F;
-    class O_Truck_03_covered_F;
-    class O_Truck_03_repair_F;
-    class O_Truck_03_ammo_F;
-    class O_Truck_03_fuel_F;
-    class O_Truck_03_medical_F;
+
     class rsr_wisent_transport_flecktarn: O_Truck_03_transport_F {
         author = ECSTRING(rsr_core,rsr);
-        displayName = "Wisent offen (Flecktarn)";
+        displayName = QUOTE(Wisent offen (Flecktarn));
         side = 1;
+        typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
         editorPreview = "";
         faction = "rsr";
@@ -163,20 +160,29 @@ class CfgVehicles {
         };
         class TextureSources {
             class wisent_flecktarn {
-                displayName="Wisent (Flecktarn)";
-                author="Redd";
-                factions[]= {"BLU_F"};
-                textures[]= {
+                displayName = QUOTE(Wisent (Flecktarn));
+                author = "Redd";
+                textures[] = {
                     QPATHTOF(data\wisent\wisent_flecktarn_ext01_co.paa),
                     QPATHTOF(data\wisent\wisent_flecktarn_ext02_co.paa),
                     QPATHTOF(data\wisent\wisent_flecktarn_cargo_co.paa)
                 };
             };
+        };
+    };
+    class rsr_wisent_transport_tropentarn: rsr_wisent_transport_flecktarn {
+        displayName = QUOTE(Wisent offen (Tropentarn));
+        editorPreview = "";
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_cargo_co.paa)
+        };
+        class TextureSources {
             class wisent_tropentarn {
-                displayName="Wisent (Tropentarn)";
-                author="Redd";
-                factions[]= {"BLU_F"};
-                textures[]= {
+                displayNam = QUOTE(Wisent (Tropentarn));
+                author = "Redd";
+                textures[] = {
                     QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
                     QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
                     QPATHTOF(data\wisent\wisent_tropentarn_cargo_co.paa)
@@ -184,19 +190,14 @@ class CfgVehicles {
             };
         };
     };
-    class rsr_wisent_transport_tropentarn: rsr_wisent_transport_flecktarn {
-        displayName = "Wisent offen (Tropentarn)";
-        editorPreview  ="";
-        hiddenSelectionsTextures[] = {
-            QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
-            QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
-            QPATHTOF(data\wisent\wisent_tropentarn_cargo_co.paa)
-        };
-    };
+
+    class O_Truck_03_covered_F;
+
     class rsr_wisent_covered_flecktarn: O_Truck_03_covered_F {
         author = ECSTRING(rsr_core,rsr);
-        displayName = "Wisent Plane (Flecktarn)";
+        displayName = QUOTE(Wisent Plane (Flecktarn));
         side = 1;
+        typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
         editorPreview = "";
         faction = "rsr";
@@ -212,21 +213,31 @@ class CfgVehicles {
         };
         class TextureSources {
             class wisent_flecktarn {
-                displayName="Wisent (Flecktarn)";
-                author="Redd";
-                factions[]= {"BLU_F"};
-                textures[]= {
+                displayName = QUOTE(Wisent (Flecktarn));
+                textures[] = {
                     QPATHTOF(data\wisent\wisent_flecktarn_ext01_co.paa),
                     QPATHTOF(data\wisent\wisent_flecktarn_ext02_co.paa),
                     QPATHTOF(data\wisent\wisent_flecktarn_cargo_co.paa),
                     QPATHTOF(data\wisent\wisent_flecktarn_cover_co.paa)
                 };
             };
+        };
+    };
+
+    class rsr_wisent_covered_tropentarn: rsr_wisent_covered_flecktarn {
+        displayName = QUOTE(Wisent Plane (Tropentarn));
+        editorPreview = "";
+        hiddenSelectionsTextures[]= {
+            QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_cargo_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_cover_co.paa)
+        };
+        class TextureSources {
             class wisent_tropentarn {
-                displayName="Wisent (Tropentarn)";
-                author="Redd";
-                factions[]= {"BLU_F"};
-                textures[]= {
+                displayName = QUOTE(Wisent (Tropentarn));
+                author = "Redd";
+                textures[] = {
                     QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
                     QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
                     QPATHTOF(data\wisent\wisent_tropentarn_cargo_co.paa),
@@ -235,20 +246,14 @@ class CfgVehicles {
             };
         };
     };
-    class rsr_wisent_covered_tropentarn: rsr_wisent_covered_flecktarn {
-        displayName = "Wisent Plane (Tropentarn)";
-        editorPreview = "";
-        hiddenSelectionsTextures[]= {
-            QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
-            QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
-            QPATHTOF(data\wisent\wisent_tropentarn_cargo_co.paa),
-            QPATHTOF(data\wisent\wisent_tropentarn_cover_co.paa)
-        };
-    };
+
+    class O_Truck_03_repair_F;
+
     class rsr_wisent_repair_flecktarn: O_Truck_03_repair_F {
         author = ECSTRING(rsr_core,rsr);
-        displayName = "Wisent Reparatur (Flecktarn)";
+        displayName = QUOTE(Wisent Reparatur (Flecktarn));
         side = 1;
+        typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
         editorPreview = "";
         faction = "rsr";
@@ -263,23 +268,12 @@ class CfgVehicles {
         };
         class TextureSources {
             class wisent_flecktarn {
-                displayName ="Wisent (Flecktarn)";
+                displayName = QUOTE(Wisent (Flecktarn));
                 author = "Redd";
-                factions[] = {"BLU_F"};
                 textures[] = {
                     QPATHTOF(data\wisent\wisent_flecktarn_ext01_co.paa),
                     QPATHTOF(data\wisent\wisent_flecktarn_ext02_co.paa),
                     QPATHTOF(data\wisent\wisent_flecktarn_ammo_co.paa)
-                };
-            };
-            class wisent_tropentarn {
-                displayName ="Wisent (Tropentarn)";
-                author ="Redd";
-                factions[] = {"BLU_F"};
-                textures[] = {
-                    QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
-                    QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
-                    QPATHTOF(data\wisent\wisent_tropentarn_ammo_co.paa)
                 };
             };
         };
@@ -295,20 +289,36 @@ class CfgVehicles {
             };
         };
     };
+
     class rsr_wisent_repair_tropentarn: rsr_wisent_repair_flecktarn    {
         author = ECSTRING(rsr_core,rsr);
-        displayName = "Wisent Reparatur (Tropentarn)";
+        displayName = QUOTE(Wisent Reparatur (Tropentarn));
         editorPreview = "";
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
             QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
             QPATHTOF(data\wisent\wisent_tropentarn_ammo_co.paa)
         };
+        class TextureSources {
+            class wisent_tropentarn {
+                displayName = QUOTE(Wisent (Tropentarn));
+                author = "Redd";
+                textures[] = {
+                    QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
+                    QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
+                    QPATHTOF(data\wisent\wisent_tropentarn_ammo_co.paa)
+                };
+            };
+        };
     };
+
+    class O_Truck_03_ammo_F;
+
     class rsr_wisent_ammo_flecktarn: O_Truck_03_ammo_F {
         author = ECSTRING(rsr_core,rsr);
-        displayName = "Wisent Munition (Flecktarn)";
+        displayName = QUOTE(Wisent Munition (Flecktarn));
         side = 1;
+        typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
         editorPreview = "";
         faction = "rsr";
@@ -324,9 +334,8 @@ class CfgVehicles {
         };
         class TextureSources {
             class wisent_flecktarn {
-                displayName = "Wisent (Flecktarn)";
+                displayName = QUOTE(Wisent (Flecktarn));
                 author = "Redd";
-                factions[] = {"BLU_F"};
                 textures[] = {
                     QPATHTOF(data\wisent\wisent_flecktarn_ext01_co.paa),
                     QPATHTOF(data\wisent\wisent_flecktarn_ext02_co.paa),
@@ -334,10 +343,23 @@ class CfgVehicles {
                     QPATHTOF(data\wisent\wisent_flecktarn_containers_co.paa)
                 };
             };
+        };
+    };
+
+    class rsr_wisent_ammo_tropentarn: rsr_wisent_ammo_flecktarn {
+        author = ECSTRING(rsr_core,rsr);
+        displayName = QUOTE(Wisent Munition (Tropentarn));
+        editorPreview = "";
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_cargo_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_containers_co.paa)
+        };
+        class TextureSources {
             class wisent_tropentarn {
-                displayName = "Wisent (Tropentarn)";
+                displayName = QUOTE(Wisent (Tropentarn));
                 author = "Redd";
-                factions[] = {"BLU_F"};
                 textures[] = {
                     QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
                     QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
@@ -347,21 +369,14 @@ class CfgVehicles {
             };
         };
     };
-    class rsr_wisent_ammo_tropentarn: rsr_wisent_ammo_flecktarn {
-        author = ECSTRING(rsr_core,rsr);
-        displayName = "Wisent Munition (Tropentarn)";
-        editorPreview = "";
-        hiddenSelectionsTextures[] = {
-            QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
-            QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
-            QPATHTOF(data\wisent\wisent_tropentarn_cargo_co.paa),
-            QPATHTOF(data\wisent\wisent_tropentarn_containers_co.paa)
-        };
-    };
+
+    class O_Truck_03_fuel_F;
+
     class rsr_wisent_fuel_flecktarn: O_Truck_03_fuel_F {
         author = ECSTRING(rsr_core,rsr);
-        displayName = "Wisent Treibstoff (Flecktarn)";
+        displayName = QUOTE(Wisent Treibstoff (Flecktarn));
         side = 1;
+        typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
         editorPreview = "";
         faction = "rsr";
@@ -380,41 +395,40 @@ class CfgVehicles {
                     QPATHTOF(data\wisent\wisent_flecktarn_ext02_co.paa),
                     QPATHTOF(data\wisent\wisent_flecktarn_fuel_co.paa)
                 };
-                factions[]= {"BLU_F"};
-            };
-            class wisent_tropentarn {
-                displayName = "Wisent (Tropentarn)";
-                author = "Redd";
-                textures[] = {
-                    QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
-                    QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
-                    QPATHTOF(data\wisent\wisent_tropentarn_fuel_co.paa)
-                };
-                factions[] = {"BLU_F"};
             };
         };
-        class TransportItems {
-            class _xx_FirstAidKit {
-                name = "FirstAidKit";
-                count = 1;
-            };
-        };
+        class TransportItems { };
         class TransportWeapons { };
         class TransportMagazines { };
     };
     class rsr_wisent_fuel_tropentarn: rsr_wisent_fuel_flecktarn {
-        displayName = "Wisent Treibstoff (Tropentarn)";
+        displayName = QUOTE(Wisent Treibstoff (Tropentarn));
         editorPreview = "";
         hiddenSelectionsTextures[]= {
             QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
             QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
             QPATHTOF(data\wisent\wisent_tropentarn_fuel_co.paa)
         };
+        class TextureSources {
+            class wisent_tropentarn {
+                displayName =QUOTE(Wisent (Tropentarn));
+                author = "Redd";
+                textures[] = {
+                    QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
+                    QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
+                    QPATHTOF(data\wisent\wisent_tropentarn_fuel_co.paa)
+                };
+            };
+        };
     };
+
+    class O_Truck_03_medical_F;
+
     class rsr_wisent_medical_flecktarn: O_Truck_03_medical_F {
         author = ECSTRING(rsr_core,rsr);
-        displayName = "Wisent Sanität (Flecktarn)";
+        displayName = QUOTE(Wisent Sanität (Flecktarn));
         side = 1;
+        typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
         editorPreview = "";
         faction = "rsr";
@@ -427,7 +441,7 @@ class CfgVehicles {
         };
         class TextureSources {
             class wisent_flecktarn {
-                displayName = "Wisent (Flecktarn)";
+                displayName = QUOTE(Wisent (Flecktarn));
                 author = "Redd";
                 textures[] = {
                     QPATHTOF(data\wisent\wisent_flecktarn_ext01_co.paa),
@@ -435,10 +449,23 @@ class CfgVehicles {
                     QPATHTOF(data\wisent\wisent_flecktarn_cargo_co.paa),
                     QPATHTOF(data\wisent\wisent_flecktarn_cover_co.paa)
                 };
-                factions[]= {"BLU_F"};
             };
+        };
+        class TransportItems { };
+        class TransportWeapons { };
+        class TransportMagazines { };
+    };
+    class rsr_wisent_medical_tropentarn: rsr_wisent_medical_flecktarn {
+        displayName = QUOTE(Wisent Sanität (Tropentarn));
+        hiddenSelectionsTextures[]= {
+            QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_cargo_co.paa),
+            QPATHTOF(data\wisent\wisent_tropentarn_cover_co.paa)
+        };
+        class TextureSources {
             class wisent_tropentarn {
-                displayName ="Wisent (Tropentarn)";
+                displayName = QUOTE(Wisent (Tropentarn));
                 author = "Redd";
                 textures[] = {
                     QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
@@ -446,25 +473,7 @@ class CfgVehicles {
                     QPATHTOF(data\wisent\wisent_tropentarn_cargo_co.paa),
                     QPATHTOF(data\wisent\wisent_tropentarn_cover_co.paa)
                 };
-                factions[]= {"BLU_F"};
             };
-        };
-        class TransportItems {
-            class _xx_FirstAidKit {
-                name = "FirstAidKit";
-                count = 1;
-            };
-        };
-        class TransportWeapons { };
-        class TransportMagazines { };
-    };
-    class rsr_wisent_medical_tropentarn: rsr_wisent_medical_flecktarn {
-        displayName = "Wisent Sanität (Tropentarn)";
-        hiddenSelectionsTextures[]= {
-            QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
-            QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
-            QPATHTOF(data\wisent\wisent_tropentarn_cargo_co.paa),
-            QPATHTOF(data\wisent\wisent_tropentarn_cover_co.paa)
         };
     };
 };
