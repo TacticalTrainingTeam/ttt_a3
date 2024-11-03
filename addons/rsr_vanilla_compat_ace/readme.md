@@ -17,3 +17,7 @@ Fügt den Vanilla Fahrzeugen von RsR ACE Funktionen hinzu und deaktiviert die en
 <https://ace3.acemod.org/wiki/framework/rearm-framework#11-setting-vehicle-as-a-supply>
 <https://ace3.acemod.org/wiki/framework/refuel-framework#1-config-values>
 <https://ace3.acemod.org/wiki/framework/repair-framework#11-setting-vehicle-as-repair-location>
+
+## Maintainer
+
+- Andx
