@@ -1,5 +1,5 @@
 class CfgVehicleClasses {
-    class TTT_Flags {
+    class ttt_Flags {
         displayName = QUOTE(TTT Flaggen);         
         priority = 25;                         
     };
@@ -20,16 +20,16 @@ class CfgVehicles {
     #############################################################
     */
     class FlagCarrierCore;
-    class TTT_Flag_Base : FlagCarrierCore {
+    class ttt_Flag_Base : FlagCarrierCore {
         author = QUOTE(Tactical Training Team);
         scope = 0;
         scopeCurator = 0;
         displayName = QUOTE(TTT Flagge Base);
         model = "\a3\Structures_F\Mil\Flags\Mast_F.p3d";
-        vehicleClass = "TTT_Flags";
+        vehicleClass = "ttt_Flags";
     };
 
-    class TTT_Flag_Logo : TTT_Flag_Base {
+    class ttt_Flag_Logo : ttt_Flag_Base {
         scope = 2;
         scopeCurator = 2;
         displayName = QUOTE(TTT Flagge Logo);
@@ -40,7 +40,7 @@ class CfgVehicles {
         };
     };
 
-    class TTT_Flag_Blue : TTT_Flag_Logo {
+    class ttt_Flag_Blue : ttt_Flag_Logo {
         displayName = CSTRING(flag_blue_displayName);
         
         class EventHandlers {
@@ -48,7 +48,7 @@ class CfgVehicles {
         };
     };
 
-    class TTT_Flag_Brown : TTT_Flag_Logo {
+    class ttt_Flag_Brown : ttt_Flag_Logo {
         displayName = QUOTE(TTT Flagge Braun);
         
         class EventHandlers {
@@ -56,7 +56,7 @@ class CfgVehicles {
         };
     };
 
-    class TTT_Flag_Bronze : TTT_Flag_Logo {
+    class ttt_Flag_Bronze : ttt_Flag_Logo {
         displayName = QUOTE(TTT Flagge Bronze);
 
         class EventHandlers {
@@ -64,7 +64,7 @@ class CfgVehicles {
         };
     };
 
-    class TTT_Flag_Yellow : TTT_Flag_Logo {
+    class ttt_Flag_Yellow : ttt_Flag_Logo {
         displayName = QUOTE(TTT Flagge Gelb);
         
         class EventHandlers {
@@ -72,7 +72,7 @@ class CfgVehicles {
         };
     };
 
-    class TTT_Flag_Gold : TTT_Flag_Logo {
+    class ttt_Flag_Gold : ttt_Flag_Logo {
         displayName = QUOTE(TTT Flagge Gold);
 
         class EventHandlers {
@@ -80,7 +80,7 @@ class CfgVehicles {
         };
     };
 
-    class TTT_Flag_Grey : TTT_Flag_Logo {
+    class ttt_Flag_Grey : ttt_Flag_Logo {
         displayName = QUOTE(TTT Flagge Grau);
 
         class EventHandlers {
@@ -88,7 +88,7 @@ class CfgVehicles {
         };
     };
 
-    class TTT_Flag_Green : TTT_Flag_Logo {
+    class ttt_Flag_Green : ttt_Flag_Logo {
         displayName = QUOTE(TTT Flagge Grün);
 
         class EventHandlers {
@@ -96,7 +96,7 @@ class CfgVehicles {
         };
     };
 
-    class TTT_Flag_Platinum : TTT_Flag_Logo {
+    class ttt_Flag_Platinum : ttt_Flag_Logo {
         displayName = QUOTE(TTT Flagge Platin);
 
         class EventHandlers {
@@ -104,7 +104,7 @@ class CfgVehicles {
         };
     };
 
-    class TTT_Flag_Red : TTT_Flag_Logo {
+    class ttt_Flag_Red : ttt_Flag_Logo {
         displayName = QUOTE(TTT Flagge Rot);
 
         class EventHandlers {
@@ -112,7 +112,7 @@ class CfgVehicles {
         };
     };
 
-    class TTT_Flag_Black : TTT_Flag_Logo {
+    class ttt_Flag_Black : ttt_Flag_Logo {
         displayName = QUOTE(TTT Flagge Schwarz);
 
         class EventHandlers {
@@ -120,7 +120,7 @@ class CfgVehicles {
         };
     };
 
-    class TTT_Flag_Silver : TTT_Flag_Logo {
+    class ttt_Flag_Silver : ttt_Flag_Logo {
         displayName = QUOTE(TTT Flagge Silber);
 
         class EventHandlers {
@@ -128,7 +128,7 @@ class CfgVehicles {
         };
     };
 
-    class TTT_Flag_Violet : TTT_Flag_Logo {
+    class ttt_Flag_Violet : ttt_Flag_Logo {
         displayName = QUOTE(TTT Flagge Violett);
 
         class EventHandlers {
@@ -136,7 +136,7 @@ class CfgVehicles {
         };
     };
 
-    class TTT_Flag_White : TTT_Flag_Logo {
+    class ttt_Flag_White : ttt_Flag_Logo {
         displayName = QUOTE(TTT Flagge Weiss);
 
         class EventHandlers {
@@ -144,7 +144,7 @@ class CfgVehicles {
         };
     };
 
-    class TTT_Flag_Orange : TTT_Flag_Logo {
+    class ttt_Flag_Orange : ttt_Flag_Logo {
         displayName = QUOTE(TTT Flagge Orange);
 
         class EventHandlers {
@@ -158,7 +158,7 @@ class CfgVehicles {
     #############################################################
     */
     class NonStrategic;
-    class TTT_Sign_Small_Base : NonStrategic {
+    class ttt_Sign_Small_Base : NonStrategic {
         mapSize = 0.83;
         author = QUOTE(Tactical Training Team);
         scope = 0;
@@ -169,7 +169,7 @@ class CfgVehicles {
         hiddenSelections[] = {"board"};
     };
 
-    class TTT_Sign_Small_Blue : TTT_Sign_Small_Base {
+    class ttt_Sign_Small_Blue : ttt_Sign_Small_Base {
         scope = 2;
         scopeCurator = 2;
         editorSubcategory = "ttt_main_ttt";
@@ -177,71 +177,71 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_blau_co.paa)};
     };
 
-    class TTT_Sign_Small_Bronze : TTT_Sign_Small_Blue {
+    class ttt_Sign_Small_Bronze : ttt_Sign_Small_Blue {
         displayName = QUOTE(TTT Schild Bronze (klein));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_bronze_co.paa)};
     };
 
-    class TTT_Sign_Small_Brown : TTT_Sign_Small_Blue {
+    class ttt_Sign_Small_Brown : ttt_Sign_Small_Blue {
         displayName = QUOTE(TTT Schild Braun (klein));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_braun_co.paa)};
     };
 
-    class TTT_Sign_Small_Yellow : TTT_Sign_Small_Blue {
+    class ttt_Sign_Small_Yellow : ttt_Sign_Small_Blue {
         displayName = QUOTE(TTT Schild Gelb (klein));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_gelb_co.paa)};
     };
 
-    class TTT_Sign_Small_Gold : TTT_Sign_Small_Blue {
+    class ttt_Sign_Small_Gold : ttt_Sign_Small_Blue {
         displayName = QUOTE(TTT Schild Gold (klein));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_gold_co.paa)};
     };
 
-    class TTT_Sign_Small_Grey : TTT_Sign_Small_Blue {
+    class ttt_Sign_Small_Grey : ttt_Sign_Small_Blue {
         displayName = QUOTE(TTT Schild Grau (klein));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_grau_co.paa)};
     };
 
-    class TTT_Sign_Small_Green : TTT_Sign_Small_Blue {
+    class ttt_Sign_Small_Green : ttt_Sign_Small_Blue {
         displayName = QUOTE(TTT Schild Grün (klein));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_gruen_co.paa)};
     };
 
-    class TTT_Sign_Small_Platinum : TTT_Sign_Small_Blue {
+    class ttt_Sign_Small_Platinum : ttt_Sign_Small_Blue {
         displayName = QUOTE(TTT Schild Platin (klein));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_platin_co.paa)};
     };
 
-    class TTT_Sign_Small_Red : TTT_Sign_Small_Blue {
+    class ttt_Sign_Small_Red : ttt_Sign_Small_Blue {
         displayName = QUOTE(TTT Schild Rot (klein));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_rot_co.paa)};
     };
 
-    class TTT_Sign_Small_Black : TTT_Sign_Small_Blue {
+    class ttt_Sign_Small_Black : ttt_Sign_Small_Blue {
         displayName = QUOTE(TTT Schild Schwarz (klein));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_schwarz_co.paa)};
     };
-    class TTT_Sign_Small_Silver : TTT_Sign_Small_Blue {
+    class ttt_Sign_Small_Silver : ttt_Sign_Small_Blue {
         displayName = QUOTE(TTT Schild Silber (klein));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_silber_co.paa)};
     };
 
-    class TTT_Sign_Small_Violet : TTT_Sign_Small_Blue {
+    class ttt_Sign_Small_Violet : ttt_Sign_Small_Blue {
         displayName = QUOTE(TTT Schild Violett (klein));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_violett_co.paa)};
     };
 
-    class TTT_Sign_Small_White : TTT_Sign_Small_Blue {
+    class ttt_Sign_Small_White : ttt_Sign_Small_Blue {
         displayName = QUOTE(TTT Schild Weiss (klein));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_weiss_co.paa)};
     };
 
-    class TTT_Sign_Small_Logo : TTT_Sign_Small_Blue {
+    class ttt_Sign_Small_Logo : ttt_Sign_Small_Blue {
         displayName = QUOTE(TTT Schild Logo (klein));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_sign_co.paa)};
     };
 
-    class TTT_Sign_Small_Orange : TTT_Sign_Small_Blue {
+    class ttt_Sign_Small_Orange : ttt_Sign_Small_Blue {
         displayName = QUOTE(TTT Schild Orange (klein));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_orange_co.paa)};
     };
@@ -251,7 +251,7 @@ class CfgVehicles {
     ### Schilder (groß)
     #############################################################
     */
-    class TTT_Sign_Large_Base : NonStrategic {
+    class ttt_Sign_Large_Base : NonStrategic {
         mapSize = 0.83;
         author = QUOTE(Tactical Training Team);
         scope = 0;
@@ -262,7 +262,7 @@ class CfgVehicles {
         hiddenSelections[] = {"camo"};
     };
 
-    class TTT_Sign_Large_Blue : TTT_Sign_Large_Base {
+    class ttt_Sign_Large_Blue : ttt_Sign_Large_Base {
         scope = 2;
         scopeCurator = 2;
         editorSubcategory = "ttt_main_ttt";
@@ -270,71 +270,71 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_blau_co.paa)};
     };
 
-    class TTT_Sign_Large_Bronze : TTT_Sign_Large_Blue {
+    class ttt_Sign_Large_Bronze : ttt_Sign_Large_Blue {
         displayName = QUOTE(TTT Schild Bronze (groß));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_bronze_co.paa)};
     };
 
-    class TTT_Sign_Large_Brown : TTT_Sign_Large_Blue {
+    class ttt_Sign_Large_Brown : ttt_Sign_Large_Blue {
         displayName = QUOTE(TTT Schild Braun (groß));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_braun_co.paa)};
     };
 
-    class TTT_Sign_Large_Yellow : TTT_Sign_Large_Blue {
+    class ttt_Sign_Large_Yellow : ttt_Sign_Large_Blue {
         displayName = QUOTE(TTT Schild Gelb (groß));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_gelb_co.paa)};
     };
 
-    class TTT_Sign_Large_Gold : TTT_Sign_Large_Blue {
+    class ttt_Sign_Large_Gold : ttt_Sign_Large_Blue {
         displayName = QUOTE(TTT Schild Gold (groß));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_gold_co.paa)};
     };
 
-    class TTT_Sign_Large_Grey : TTT_Sign_Large_Blue {
+    class ttt_Sign_Large_Grey : ttt_Sign_Large_Blue {
         displayName = QUOTE(TTT Schild Grau (groß));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_grau_co.paa)};
     };
 
-    class TTT_Sign_Large_Green : TTT_Sign_Large_Blue {
+    class ttt_Sign_Large_Green : ttt_Sign_Large_Blue {
         displayName = QUOTE(TTT Schild Grün (groß));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_gruen_co.paa)};
     };
 
-    class TTT_Sign_Large_Platinum : TTT_Sign_Large_Blue {
+    class ttt_Sign_Large_Platinum : ttt_Sign_Large_Blue {
         displayName = QUOTE(TTT Schild Platin (groß));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_platin_co.paa)};
     };
-    class TTT_Sign_Large_Red : TTT_Sign_Large_Blue {
+    class ttt_Sign_Large_Red : ttt_Sign_Large_Blue {
         displayName = QUOTE(TTT Schild Rot (groß));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_rot_co.paa)};
     };
 
-    class TTT_Sign_Large_Black : TTT_Sign_Large_Blue {
+    class ttt_Sign_Large_Black : ttt_Sign_Large_Blue {
         displayName = QUOTE(TTT Schild Schwarz (groß));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_schwarz_co.paa)};
     };
 
-    class TTT_Sign_Large_Silver : TTT_Sign_Large_Blue {
+    class ttt_Sign_Large_Silver : ttt_Sign_Large_Blue {
         displayName = QUOTE(TTT Schild Silber (groß));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_silber_co.paa)};
     };
 
-    class TTT_Sign_Large_Violet : TTT_Sign_Large_Blue {
+    class ttt_Sign_Large_Violet : ttt_Sign_Large_Blue {
         displayName = QUOTE(TTT Schild Violett (groß));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_violett_co.paa)};
     };
 
-    class TTT_Sign_Large_White : TTT_Sign_Large_Blue {
+    class ttt_Sign_Large_White : ttt_Sign_Large_Blue {
         displayName = QUOTE(TTT Schild Weiss (groß));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_weiss_co.paa)};
     };
 
-    class TTT_Sign_Large_Logo : TTT_Sign_Large_Blue {
+    class ttt_Sign_Large_Logo : ttt_Sign_Large_Blue {
         displayName = QUOTE(TTT Schild Logo (groß));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_sign_co.paa)};
     };
 
-    class TTT_Sign_Large_Orange : TTT_Sign_Large_Blue {
+    class ttt_Sign_Large_Orange : ttt_Sign_Large_Blue {
         displayName = QUOTE(TTT Schild Orange (groß));
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_orange_co.paa)};
     };

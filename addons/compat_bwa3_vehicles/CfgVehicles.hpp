@@ -7,12 +7,12 @@ class CfgVehicles {
             class backpack_back {
                 positions[] = {{-0.3, -3.3, 1.5}};
                 items[] = {"BWA3_PatrolPack_Fleck"};
-                text = CSTRING(STR_TTT_compat_bwa3_takebackpack);
+                text = CSTRING(STR_ttt_compat_bwa3_takebackpack);
             };
             class backpack_top { 
                 positions[] = {{0.8, -1.9, 2.3}};
                 items[] = {"BWA3_PatrolPack_Fleck"};
-                text = CSTRING(STR_TTT_compat_bwa3_takebackpack);
+                text = CSTRING(STR_ttt_compat_bwa3_takebackpack);
             };
             /*
             This is already done by BWA3, but doenst yield a rope
