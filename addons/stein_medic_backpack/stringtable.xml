@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt_a3">
     <Package name="stein_medic_backpack"/>
+        <Key ID="STR_ttt_stein_medic_backpack_SubCategory">
+            <English>Stein Medical Backpack</English>
+            <German>Stein Medizinischer Rucksack</German>
+        </Key>        
         <Key ID="STR_ttt_stein_medic_backpack_settingEnable_name">
             <English>Enable</English>
             <German>Aktivieren</German>
