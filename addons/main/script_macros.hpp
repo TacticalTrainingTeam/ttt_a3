@@ -17,3 +17,6 @@
 #define CELLY(x,y) (SafeZoneY + y * CELLH)
 
 #define SIZEEX (0.75 * CELLH)
+
+//
+#define QQPATHTOF(var1) QUOTE(QPATHTOF(var1))
