@@ -16,9 +16,6 @@ if (!GVAR(enable)) exitWith {};
 stein_mop_useAnimation = true;// 'bool' should an animation be used while constructiong
 stein_mop_buildAnimation = "Acts_carFixingWheel";// 'string' animation-name from animation-config
 stein_mop_buildTime = 8;// 'integer' time in seconds to construct the tent
-stein_mop_object = "Land_MedicalTent_01_floor_dark_F";// 'string' className for the tent to be build
-stein_mop_items = [];
-//stein_mop_items = ["Land_Camping_Light_F", "Land_FirstAidKit_01_open_F", "Land_Defibrillator_F"];// 'array (string)' classnames for every item that should be created in/on/near the tent
 
 stein_mop_canBuild = {
 	params ["_target", "_caller", "_arguments"];
@@ -36,7 +33,7 @@ stein_mop_canZip = {
 	_bool = false;
 	if (
         !(_target getVariable ["inUse", false]) && 
-        !(player getVariable ["hasTent", true]) && 
+        !(_caller getVariable ["hasTent", true]) && 
         ((parseSimpleArray GVAR(supportedBackpacks)) find (backpack _caller) != -1)) then {
 		_bool = true
 	};
@@ -48,7 +45,7 @@ stein_mop_cancel = {
 
 	hint "Vorgang abgebrochen";
 	_caller switchMove "";
-	if (typeOf _target == stein_mop_object) then {
+	if (typeOf _target == GVAR(supportedObject)) then {
 		_target setVariable ["inUse", false, true];
 	};
 };
@@ -57,7 +54,7 @@ stein_mop_zip = {
 	(_this select 0) params ["_target", "_caller", "_arguments"];
 
 	private _posBP = getPos _target;
-	private _arrayItems = nearestObjects [(getPos _target), stein_mop_items, 10];
+	private _arrayItems = nearestObjects [(getPos _target), (parseSimpleArray GVAR(supportedItems)), 10];
 	{
 		deleteVehicle _x;
 	} forEach _arrayItems;
@@ -79,14 +76,14 @@ stein_mop_build = {
 	(_this select 0) params ["_target", "_caller", "_arguments"];
 
 	private _position = (_target getPos [8, getDir _target]) findEmptyPosition [1, 2, "Tank"];
-	_mop = stein_mop_object createVehicle _position;
+	_mop = (GVAR(supportedObject)) createVehicle _position;
 	_mop setVariable ["ace_medical_isMedicalFacility", true, true];
 	_mop setVariable ["inUse", false, true];
 	_caller setVariable ["hasTent", false];
 	{
 		private _posItem = (getPos _mop) findEmptyPosition [1, 3, "Tank"];
 		_x createVehicle _posItem;
-	} forEach stein_mop_items;
+	} forEach (parseSimpleArray GVAR(supportedItems));
 	_caller switchMove "";
 };
 
@@ -113,4 +110,4 @@ _zipMOP = ["stein_mop_zip", "Baue mobilen Operationsbereich ab", "",
 
 [player, 1, ["ACE_SelfActions", "ACE_Equipment"], _buildMOP] call ace_interact_menu_fnc_AddActionToObject;
 
-[stein_mop_object, 0, ["ACE_MainActions"], _zipMOP] call ace_interact_menu_fnc_AddActionToClass;
+[(GVAR(supportedObject)), 0, ["ACE_MainActions"], _zipMOP] call ace_interact_menu_fnc_AddActionToClass;

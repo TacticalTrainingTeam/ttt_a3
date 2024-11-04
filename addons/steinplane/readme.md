@@ -1,5 +1,0 @@
-# EinStein Plane
-
-## Maintainer
-
-- Andx
