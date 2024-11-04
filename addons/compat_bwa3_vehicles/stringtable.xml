@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt_a3">
     <Package name="compat_bwa3_vehicles"/>
-            <Key ID="STR_TTT_compat_bwa3_takebackpack">
+            <Key ID="STR_ttt_compat_bwa3_takebackpack">
             <English>Take backpack</English>
             <German>Rucksack nehmen</German>
         </Key>

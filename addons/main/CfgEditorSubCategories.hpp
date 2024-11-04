@@ -1,5 +1,5 @@
 class CfgEditorSubcategories {
-    class GVAR(TTT) {
+    class GVAR() {
         displayName = CSTRING(TacticalTrainingTeam);
     };
 };

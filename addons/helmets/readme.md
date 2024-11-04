@@ -4,56 +4,56 @@ Enthält alle Helme in TTT Farben. Es gibt drei Tarnvarianten: Flecktarn, Tropen
 
 Piloten Helme
 
-- `TTT_Helmet_Buzzard`
-- `TTT_Helmet_Hawk`
-- `TTT_Helmet_Falcon`
-- `TTT_Helmet_Eagle`
+- `ttt_Helmet_Buzzard`
+- `ttt_Helmet_Hawk`
+- `ttt_Helmet_Falcon`
+- `ttt_Helmet_Eagle`
 
 Fahrzeugbesatzungs Helme
 
-- `TTT_Helmet_Bronze_Vehiclecrew`
-- `TTT_Helmet_Grey_Vehiclecrew`
-- `TTT_Helmet_Silver_Vehiclecrew`
-- `TTT_Helmet_Yellow_Vehiclecrew`
-- `TTT_Helmet_Old_Vehiclecrew`
+- `ttt_Helmet_Bronze_Vehiclecrew`
+- `ttt_Helmet_Grey_Vehiclecrew`
+- `ttt_Helmet_Silver_Vehiclecrew`
+- `ttt_Helmet_Yellow_Vehiclecrew`
+- `ttt_Helmet_Old_Vehiclecrew`
 
 Infanterie Helme
 
-- `TTT_Helmet_1_US_Desert`
-- `TTT_Helmet_2_US_Desert`
-- `TTT_Helmet_3_US_Desert`
-- `TTT_Helmet_4_US_Desert`
-- `TTT_Helmet_5_US_Desert`
-- `TTT_Helmet_6_US_Desert`
-- `TTT_Helmet_7_US_Desert`
-- `TTT_Helmet_8_US_Desert`
-- `TTT_Helmet_9_US_Desert`
-- `TTT_Helmet_10_US_Desert`
-- `TTT_Helmet_11_US_Desert`
+- `ttt_Helmet_1_US_Desert`
+- `ttt_Helmet_2_US_Desert`
+- `ttt_Helmet_3_US_Desert`
+- `ttt_Helmet_4_US_Desert`
+- `ttt_Helmet_5_US_Desert`
+- `ttt_Helmet_6_US_Desert`
+- `ttt_Helmet_7_US_Desert`
+- `ttt_Helmet_8_US_Desert`
+- `ttt_Helmet_9_US_Desert`
+- `ttt_Helmet_10_US_Desert`
+- `ttt_Helmet_11_US_Desert`
 
-- `TTT_Helmet_1_US_Flecktarn`
-- `TTT_Helmet_2_US_Flecktarn`
-- `TTT_Helmet_3_US_Flecktarn`
-- `TTT_Helmet_4_US_Flecktarn`
-- `TTT_Helmet_5_US_Flecktarn`
-- `TTT_Helmet_6_US_Flecktarn`
-- `TTT_Helmet_7_US_Flecktarn`
-- `TTT_Helmet_8_US_Flecktarn`
-- `TTT_Helmet_9_US_Flecktarn`
-- `TTT_Helmet_10_US_Flecktarn`
-- `TTT_Helmet_11_US_Flecktarn`
+- `ttt_Helmet_1_US_Flecktarn`
+- `ttt_Helmet_2_US_Flecktarn`
+- `ttt_Helmet_3_US_Flecktarn`
+- `ttt_Helmet_4_US_Flecktarn`
+- `ttt_Helmet_5_US_Flecktarn`
+- `ttt_Helmet_6_US_Flecktarn`
+- `ttt_Helmet_7_US_Flecktarn`
+- `ttt_Helmet_8_US_Flecktarn`
+- `ttt_Helmet_9_US_Flecktarn`
+- `ttt_Helmet_10_US_Flecktarn`
+- `ttt_Helmet_11_US_Flecktarn`
 
-- `TTT_Helmet_1_US_Tropentarn`
-- `TTT_Helmet_2_US_Tropentarn`
-- `TTT_Helmet_3_US_Tropentarn`
-- `TTT_Helmet_4_US_Tropentarn`
-- `TTT_Helmet_5_US_Tropentarn`
-- `TTT_Helmet_6_US_Tropentarn`
-- `TTT_Helmet_7_US_Tropentarn`
-- `TTT_Helmet_8_US_Tropentarn`
-- `TTT_Helmet_9_US_Tropentarn`
-- `TTT_Helmet_10_US_Tropentarn`
-- `TTT_Helmet_11_US_Tropentarn`
+- `ttt_Helmet_1_US_Tropentarn`
+- `ttt_Helmet_2_US_Tropentarn`
+- `ttt_Helmet_3_US_Tropentarn`
+- `ttt_Helmet_4_US_Tropentarn`
+- `ttt_Helmet_5_US_Tropentarn`
+- `ttt_Helmet_6_US_Tropentarn`
+- `ttt_Helmet_7_US_Tropentarn`
+- `ttt_Helmet_8_US_Tropentarn`
+- `ttt_Helmet_9_US_Tropentarn`
+- `ttt_Helmet_10_US_Tropentarn`
+- `ttt_Helmet_11_US_Tropentarn`
 
 ## Maintainer
 

@@ -42,7 +42,7 @@ if (isServer or !isMultiplayer) then {
     // check if an Object with the variable name "ttt_teleporter" exists
     // if not, create a TTT-Flag at the respawn and assign it the variable
     if (isNil "ttt_teleporter") then {
-        ttt_teleporter = "TTT_Flag_Logo" createVehicle ttt_respawn_pos;
+        ttt_teleporter = "ttt_Flag_Logo" createVehicle ttt_respawn_pos;
     };
 };
 

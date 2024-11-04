@@ -15,39 +15,39 @@ class CfgPatches {
         requiredAddons[] = {"ttt_main",  "A3_Characters_F", "A3_Weapons_F"};
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {
-            "TTT_Beret_Item_Blue",
-            "TTT_Beret_Item_Brown",
-            "TTT_Beret_Item_Bronze",
-            "TTT_Beret_Item_Yellow",
-            "TTT_Beret_Item_Gold",
-            "TTT_Beret_Item_Grey",
-            "TTT_Beret_Item_Green",
-            "TTT_Beret_Item_Logo",
-            "TTT_Beret_Item_Platinum",
-            "TTT_Beret_Item_Red",
-            "TTT_Beret_Item_Black",
-            "TTT_Beret_Item_Silver",
-            "TTT_Beret_Item_Violet",
-            "TTT_Beret_Item_White",
-            "TTT_Beret_Item_Orange"
+            "ttt_Beret_Item_Blue",
+            "ttt_Beret_Item_Brown",
+            "ttt_Beret_Item_Bronze",
+            "ttt_Beret_Item_Yellow",
+            "ttt_Beret_Item_Gold",
+            "ttt_Beret_Item_Grey",
+            "ttt_Beret_Item_Green",
+            "ttt_Beret_Item_Logo",
+            "ttt_Beret_Item_Platinum",
+            "ttt_Beret_Item_Red",
+            "ttt_Beret_Item_Black",
+            "ttt_Beret_Item_Silver",
+            "ttt_Beret_Item_Violet",
+            "ttt_Beret_Item_White",
+            "ttt_Beret_Item_Orange"
         };
         // List of weapons (CfgWeapons classes) contained in the addon.
         weapons[] = {
-            "TTT_Beret_Blue",
-            "TTT_Beret_Brown",
-            "TTT_Beret_Bronze",
-            "TTT_Beret_Yellow",
-            "TTT_Beret_Gold",
-            "TTT_Beret_Grey",
-            "TTT_Beret_Green",
-            "TTT_Beret_Logo",
-            "TTT_Beret_Platinum",
-            "TTT_Beret_Red",
-            "TTT_Beret_Black",
-            "TTT_Beret_Silver",
-            "TTT_Beret_Violet",
-            "TTT_Beret_White",
-            "TTT_Beret_Orange"
+            "ttt_Beret_Blue",
+            "ttt_Beret_Brown",
+            "ttt_Beret_Bronze",
+            "ttt_Beret_Yellow",
+            "ttt_Beret_Gold",
+            "ttt_Beret_Grey",
+            "ttt_Beret_Green",
+            "ttt_Beret_Logo",
+            "ttt_Beret_Platinum",
+            "ttt_Beret_Red",
+            "ttt_Beret_Black",
+            "ttt_Beret_Silver",
+            "ttt_Beret_Violet",
+            "ttt_Beret_White",
+            "ttt_Beret_Orange"
         };
 
         // Optional. If this is 1, if any of requiredAddons[] entry is missing in your game the entire config will be ignored and return no error (but in rpt) so useful to make a compat Mod (Since Arma 3 2.14)

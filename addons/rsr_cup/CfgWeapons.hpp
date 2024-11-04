@@ -24,7 +24,7 @@ class CfgWeapons {
     class CUP_H_USMC_LWH_DES;
     class rnt_bw_wintertarn_helm_item: CUP_H_USMC_LWH_DES {
         author = ECSTRING(rsr_core,rnt);
-        displayName = CSTRING(TTT_rsr_cup_snowHelmetDisplayName);
+        displayName = CSTRING(ttt_rsr_cup_snowHelmetDisplayName);
         picture = QPATHTOF(data\helmet\rnt_winter_helm_ui_pre_ca.paa);
         scope = 0; //Base Helmet is no longer in CUP => hide it
         hiddenSelectionsTextures[]= {

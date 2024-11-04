@@ -2,21 +2,21 @@
 
 Enthält alle Barette in TTT Farben.
 
-- `TTT_Beret_Blue`
-- `TTT_Beret_Brown`
-- `TTT_Beret_Bronze`
-- `TTT_Beret_Yellow`
-- `TTT_Beret_Gold`
-- `TTT_Beret_Grey`
-- `TTT_Beret_Green`
-- `TTT_Beret_Logo`
-- `TTT_Beret_Platinum`
-- `TTT_Beret_Red`
-- `TTT_Beret_Black`
-- `TTT_Beret_Silver`
-- `TTT_Beret_Violet`
-- `TTT_Beret_White`
-- `TTT_Beret_Orange`
+- `ttt_Beret_Blue`
+- `ttt_Beret_Brown`
+- `ttt_Beret_Bronze`
+- `ttt_Beret_Yellow`
+- `ttt_Beret_Gold`
+- `ttt_Beret_Grey`
+- `ttt_Beret_Green`
+- `ttt_Beret_Logo`
+- `ttt_Beret_Platinum`
+- `ttt_Beret_Red`
+- `ttt_Beret_Black`
+- `ttt_Beret_Silver`
+- `ttt_Beret_Violet`
+- `ttt_Beret_White`
+- `ttt_Beret_Orange`
 
 ## Maintainer
 
