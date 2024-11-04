@@ -18,5 +18,5 @@
 
 #define SIZEEX (0.75 * CELLH)
 
-//
+
 #define QQPATHTOF(var1) QUOTE(QPATHTOF(var1))

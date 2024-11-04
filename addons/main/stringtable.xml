@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt_a3">
     <Package name="main"/>
-        <Key ID="STR_TTT_main_URL">
+        <Key ID="STR_TTT_main_url">
             <English>https://tacticalteam.de</English>
             <German>https://tacticalteam.de</German>
         </Key>
