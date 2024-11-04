@@ -14,7 +14,7 @@
             <German>Teleport Logik aktivieren</German>
         </Key>
         <Key ID="STR_TTT_teleporter_cam_enable_description">
-            <English>If enabled a Teleporter will be automaticly generated at the Respawn.</English>
+            <English>When enabled, a teleporter will automatically be created at the respawn point.</English>
             <German>Wenn aktiviert, wird automatisch ein Teleporter am Respawn erzeugt.</German>
         </Key>
 </Project>
