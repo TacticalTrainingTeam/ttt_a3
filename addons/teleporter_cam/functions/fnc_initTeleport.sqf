@@ -16,13 +16,16 @@
  * Public: No
  */
 
+// check if the logic is enabled, if not exit the function
 if (!GVAR(enableTeleport)) exitWith {};
 
+// Server Side
 if (isServer or !isMultiplayer) then {
     
     private ["_count"];
 
-    // check "respawn" marker or create
+    // check if "respawn" marker exists 
+    // if not, create on at the corner of the map
     ttt_respawn_pos = getMarkerPos "respawn";
     _count = 0;
     {
@@ -36,14 +39,18 @@ if (isServer or !isMultiplayer) then {
         _markerrespawn setMarkerSize [10, 10];
     };
 
-    // check "teleport" obj or create
+    // check if an Object with the variable name "ttt_teleporter" exists
+    // if not, create a TTT Flag at the respawn and assign it the variable
     if (isNil "ttt_teleporter") then {
         ttt_teleporter = "TTT_Flag_Logo" createVehicle ttt_respawn_pos;
     };
 };
 
+// Client Side
 if (hasInterface) then {
-    // check "teleport" obj and wait
+
+    // check if the "ttt_teleporter" exists
+    // if not, wait until it does (through section above)
     if (isNil "ttt_teleporter") then {
         waitUntil {
             !isNil "ttt_teleporter"
