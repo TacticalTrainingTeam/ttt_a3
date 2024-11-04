@@ -18,3 +18,5 @@ corpseRemovalMinTime = 900;
 corpseRemovalMaxTime = 1800;
 
 disabledAI = 1;
+
+cba_settings_hasSettingsFile = 1;

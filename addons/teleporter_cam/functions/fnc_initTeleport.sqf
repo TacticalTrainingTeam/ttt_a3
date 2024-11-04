@@ -1,11 +1,22 @@
-// by Nobody ©
-// V 0.2023.08311112
-// TTT automate Teleport
+#include "..\script_component.hpp"
 
-// set 'ttt_teleport_logic = false;' to deaktiveate logic
+/*
+ * Author: Nobody ©, Andx
+ * Adds a Teleport and Zuschauercamera to a Object, or creates one if it doenst exist.
+ *
+ * Arguments:
+ * None
+ *
+ * Return Value:
+ * None
+ *
+ * Example:
+ * [] call ttt_teleport_cam_initTeleport
+ *
+ * Public: No
+ */
 
-// will create flag & menu
-if (!isNil "ttt_teleport_logic") exitWith {};
+if (!GVAR(enableTeleport)) exitWith {};
 
 if (isServer or !isMultiplayer) then {
     

@@ -5,7 +5,7 @@ class CfgPatches {
         // Meta information for editor
         name = COMPONENT_NAME;
         author = CSTRING(TacticalTrainingTeam);
-        url = CSTRING(URL);
+        url = CSTRING(url);
 
         // Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
         requiredVersion = REQUIRED_VERSION;
@@ -34,6 +34,9 @@ class CfgMods {
         description = "https://www.tacticalteam.de";
     };
 };
+
+#include "CfgSettings.hpp"
+#include "CfgEventHandlers.hpp"
 
 #include "Dialog.hpp"
 #include "CfgEditorSubCategories.hpp"
