@@ -12,7 +12,8 @@
     "EDITBOX",
     ["Erlaubte Rucksäcke", "Classnames der Rucksäcke die eine Plane haben."],
     ["Tactical Training Team", "EinStein medizinischer Rucksack"],
-    "[]"
+    "[""B_Kitbag_cbr""]",
+    true
 ] call CBA_fnc_addSetting;
 
 [
@@ -20,7 +21,8 @@
     "EDITBOX",
     ["Zusätzliche Gegenstände", "Classnames der Gegenstände die auf der Plane gespawnt werden."],
     ["Tactical Training Team", "EinStein medizinischer Rucksack"],
-    "[]"
+    "[""Land_FirstAidKit_01_open_F""]",
+    true
 ] call CBA_fnc_addSetting;
 
 [
@@ -28,5 +30,6 @@
     "EDITBOX",
     ["Objekt", "Classname des Objekts das eine medizinische Einrichtung sein soll."],
     ["Tactical Training Team", "EinStein medizinischer Rucksack"],
-    ""
+    "Land_MedicalTent_01_floor_dark_F",
+    true
 ] call CBA_fnc_addSetting;
