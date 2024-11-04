@@ -1,6 +1,6 @@
 # EinStein Medizinischer Rucksack
 
-Fügt die Fähigkeit hinzu ein medizinisches Objekt aufzubauen - dieses ist `ACE_MedicFacility`.
+Fügt einem Spieler mit dem korrektem Rucksack die Fähigkeit hinzu ein medizinisches Objekt aufzubauen - dieses ist `ACE_MedicFacility`.
 
 ## Default Einstellungen
 

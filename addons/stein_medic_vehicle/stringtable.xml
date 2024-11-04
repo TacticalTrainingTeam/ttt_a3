@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt_a3">
+    <Package name="stein_medic_vehicle"/>
+        <Key ID="STR_ttt_stein_medic_vehicle_SubCategory">
+            <English>Stein Medical Vehicle</English>
+            <German>Stein Medizinisches Fahrzeug</German>
+        </Key>        
+        <Key ID="STR_ttt_stein_medic_vehicle_settingEnable_name">
+            <English>Enable</English>
+            <German>Aktivieren</German>
+        </Key>
+        <Key ID="STR_ttt_stein_medic_vehicle_settingEnable_description">
+            <English>Activates the medic vehicles functionality.</English>
+            <German>Aktiviert die Funktion des medizinischem Fahrzeugs.</German>
+        </Key>
+</Project>
