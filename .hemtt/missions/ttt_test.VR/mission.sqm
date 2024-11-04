@@ -8,18 +8,18 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=330;
+		nextID=334;
 	};
 	class LayerIndexProvider
 	{
-		nextID=96;
+		nextID=98;
 	};
 	class Camera
 	{
-		pos[]={4790.749,12.003452,6906.6758};
-		dir[]={0.59661341,-0.42005768,-0.68393534};
-		up[]={0.27616778,0.90746552,-0.31658831};
-		aside[]={-0.75363374,1.1589727e-06,-0.65741515};
+		pos[]={4839.6021,17.22352,6900.8633};
+		dir[]={-0.74998307,-0.55309528,-0.36301526};
+		up[]={-0.49784899,0.83310378,-0.24097474};
+		aside[]={-0.43571028,9.4278948e-07,0.900181};
 	};
 };
 binarizationWanted=0;
@@ -32,13 +32,18 @@ addons[]=
 	"A3_Ui_F",
 	"ttt_signs",
 	"A3_Supplies_F_Heli_CargoNets",
-	"A3_Misc_F_Helpers"
+	"ttt_berets",
+	"ttt_uniforms",
+	"ttt_vests",
+	"A3_Soft_F_Exp_Truck_01",
+	"ttt_rsr_vanilla",
+	"ttt_rsr_vanilla_compat_ace"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=7;
+		items=12;
 		class Item0
 		{
 			className="A3_Data_F_Exp_A";
@@ -83,16 +88,52 @@ class AddonsMetaData
 		};
 		class Item6
 		{
-			className="A3_Misc_F";
-			name="Arma 3 - 3D Aids and Helpers";
+			className="ttt_berets";
+			name="TTT - Berets";
+			author="Tactical Training Team";
+			url="https://tacticalteam.de";
+		};
+		class Item7
+		{
+			className="ttt_uniforms";
+			name="TTT - Uniforms";
+			author="Tactical Training Team";
+			url="https://tacticalteam.de";
+		};
+		class Item8
+		{
+			className="ttt_vests";
+			name="TTT - Vests";
+			author="Tactical Training Team";
+			url="https://tacticalteam.de";
+		};
+		class Item9
+		{
+			className="A3_Soft_F_Exp";
+			name="Arma 3 Apex - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
+		};
+		class Item10
+		{
+			className="ttt_rsr_vanilla";
+			name="TTT - RsR Vanilla";
+			author="Tactical Training Team";
+			url="https://tacticalteam.de";
+		};
+		class Item11
+		{
+			className="ttt_rsr_vanilla_compat_ace";
+			name="TTT - RsR Vanilla Compat ACE";
+			author="Tactical Training Team";
+			url="https://tacticalteam.de";
 		};
 	};
 };
 dlcs[]=
 {
-	"Heli"
+	"Heli",
+	"Expansion"
 };
 randomSeed=2094387;
 class ScenarioData
@@ -101,7 +142,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -143,7 +184,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=5;
+		items=8;
 		class Item0
 		{
 			dataType="Layer";
@@ -863,14 +904,20 @@ class Mission
 						{
 							class uniform
 							{
-								typeName="U_B_CombatUniform_mcam";
+								typeName="ttt_Uniform_Black_BW_Flecktarn";
+								isBackpack=0;
+							};
+							class vest
+							{
+								typeName="ttt_Vest_Lite_Black_US_Desert";
 								isBackpack=0;
 							};
 							class backpack
 							{
-								typeName="B_Kitbag_cbr";
+								typeName="B_Kitbag_rgr";
 								isBackpack=1;
 							};
+							headgear="ttt_Beret_Black";
 						};
 					};
 					id=204;
@@ -887,17 +934,63 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4816.981,6.0818248,6878.8193};
-				angles[]={0,6.2317696,0};
+				position[]={4794.8496,7.2125969,6874.5669};
+				angles[]={-0,0.75376457,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
-				name="pointer";
 			};
-			id=246;
-			type="Sign_Pointer_Pink_F";
-			atlOffset=1.0318246;
+			id=330;
+			type="B_T_Truck_01_medical_F";
+		};
+		class Item5
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4827.2202,7.6292419,6893.0874};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=331;
+			type="rsr_bergepanzer_flecktarn";
+		};
+		class Item6
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4793.5137,7.421946,6890.6548};
+				angles[]={-0,2.2802432,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=332;
+			type="rsr_wisent_medical_flecktarn";
+		};
+		class Item7
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4820.5068,6.8319178,6876.5059};
+				angles[]={-0,3.0462263,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=333;
+			type="rsr_fennek_transport_flecktarn";
 		};
 	};
 };
