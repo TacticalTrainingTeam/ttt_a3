@@ -30,7 +30,7 @@ Angepasst um mehr Hubschrauber zu unterstützen
 
 ## Referenzen
 
-<https://steamcommunity.com/sharedfiles/filedetails/?id=615007497&searchtext=advanced+sling+load>
+<https://github.com/sethduda/AdvancedSlingLoading>
 
 ## Maintainer
 

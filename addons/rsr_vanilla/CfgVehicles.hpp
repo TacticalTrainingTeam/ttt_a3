@@ -120,7 +120,7 @@ class CfgVehicles {
                 radius=2;
                 showWindow=0;
                 condition="";
-                statement="_this call fn_advancedTowingInit;";
+                statement= QUOTE(ARR_1(_this) call EFUNC(advancedtowing,initAdvancedTowing));
             };
         };
     };
@@ -289,7 +289,7 @@ class CfgVehicles {
                 radius = 2;
                 showWindow = 0;
                 condition = "";
-                statement = "[(_this select 1)] call fn_advancedTowingInit;";
+                statement = QUOTE(ARR_1(_this) call EFUNC(advancedtowing,initAdvancedTowing));
             };
         };
     };

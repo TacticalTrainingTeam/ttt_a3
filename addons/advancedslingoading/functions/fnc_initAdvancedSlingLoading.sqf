@@ -1,7 +1,9 @@
-ASL_Advanced_Sling_Loading_Install = {
+#include "..\script_component.hpp"
 
-// Prevent advanced sling loading from installing twice
+// Prevent advanced sling loading from installing twice 
+ASL_Advanced_Sling_Loading_Install = {
 if(!isNil "ASL_ROPE_INIT") exitWith {};
+
 ASL_ROPE_INIT = true; 
 diag_log "Advanced Sling Loading Loading...";
 
@@ -751,7 +753,8 @@ ASL_Attach_Ropes = {
                 if( _objDistance > _ropeLength ) then {
                     [["The cargo ropes are too short. Move vehicle closer.", false],"ASL_Hint",_player] call ASL_RemoteExec;
                 } else {        
-                    [_vehicle,_player] call ASL_Drop_Ropes;
+                    //[_vehicle,_player] call ASL_Drop_Ropes;
+                    [_vehicle,_player,(_vehicleWithIndex select 1)] call ASL_Drop_Ropes;
                     [_cargo, _attachmentPoints select 0, [0,0,-1]] ropeAttachTo (_ropes select 0);
                     [_cargo, _attachmentPoints select 1, [0,0,-1]] ropeAttachTo (_ropes select 1);
                     [_cargo, _attachmentPoints select 2, [0,0,-1]] ropeAttachTo (_ropes select 2);
