@@ -1,0 +1,22 @@
+OnLoadName = "TTT Testmission";
+OnLoadMission = "Test Hard, Play Smart";
+author="Tactical Training Team";
+
+class Header
+{
+    gameType = "coop";
+    minPlayers = "1";
+    maxPlayers = "5";
+};
+
+respawn = 3;
+respawnDelay = 5;
+respawnDialog = false;
+
+corpseLimit = 75;
+corpseRemovalMinTime = 900;
+corpseRemovalMaxTime = 1800;
+
+disabledAI = 1;
+
+cba_settings_hasSettingsFile = 1;
