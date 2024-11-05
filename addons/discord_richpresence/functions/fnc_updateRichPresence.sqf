@@ -16,6 +16,8 @@
 
  */
 
+ if (!GVAR(enable)) exitWith {};
+
 [
     ["UpdateDetails", missionNameSource],
     ["UpdateState", serverName],
