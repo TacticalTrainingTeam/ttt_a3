@@ -3,10 +3,7 @@ class CfgFunctions {
         tag="RsR";
         class init {
             file="z\ttt\addons\rsr_vanilla\functions";
-            class removeTurretWeapon {
-            };
-            class fired {
-            };
+            class fired { };
         };
     };
 };

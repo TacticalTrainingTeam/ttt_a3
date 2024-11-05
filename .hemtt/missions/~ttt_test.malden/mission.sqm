@@ -8,22 +8,22 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=331;
+		nextID=28;
 	};
 	class LayerIndexProvider
 	{
-		nextID=92;
+		nextID=8;
 	};
 	class Camera
 	{
-		pos[]={4787.8374,11.913815,6910.0146};
-		dir[]={0.59661341,-0.42005768,-0.68393534};
-		up[]={0.27616778,0.90746552,-0.31658831};
-		aside[]={-0.75363374,1.1589727e-06,-0.65741515};
+		pos[]={6461.1992,99.057838,3583.3115};
+		dir[]={0.87379372,-0.47227436,0.11604105};
+		up[]={0.4681671,0.88145006,0.062173188};
+		aside[]={0.13164744,6.3155312e-08,-0.9913075};
 	};
 };
 binarizationWanted=0;
-sourceName="ttt_test";
+sourceName="~ttt_test";
 addons[]=
 {
 	"A3_Data_F_Exp_A_Virtual",
@@ -33,13 +33,20 @@ addons[]=
 	"ttt_signs",
 	"A3_Supplies_F_Heli_CargoNets",
 	"A3_Misc_F_Helpers",
-	"ttt_rsr_vanilla"
+	"ttt_rsr_vanilla",
+	"A3_Armor_F_Beta_APC_Tracked_01",
+	"ace_interaction",
+	"ace_realisticnames",
+	"ace_rearm",
+	"ace_refuel",
+	"ace_vehicle_damage",
+	"acre_sys_intercom"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=8;
+		items=14;
 		class Item0
 		{
 			className="A3_Data_F_Exp_A";
@@ -96,13 +103,55 @@ class AddonsMetaData
 			author="Tactical Training Team";
 			url="https://tacticalteam.de";
 		};
+		class Item8
+		{
+			className="A3_Armor_F_Beta";
+			name="Arma 3 Beta - Armored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item9
+		{
+			className="ace_interaction";
+			name="ACE3 - Interaction";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item10
+		{
+			className="ace_rearm";
+			name="ACE3 - Rearm";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item11
+		{
+			className="ace_refuel";
+			name="ACE3 - Refuel";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item12
+		{
+			className="ace_vehicle_damage";
+			name="ACE3 - Vehicle Damage";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item13
+		{
+			className="acre_sys_intercom";
+			name="ACRE2 - Vehicle Intercom";
+			author="ACRE2Team";
+			url="https://github.com/IDI-Systems/acre2";
+		};
 	};
 };
 dlcs[]=
 {
 	"Heli"
 };
-randomSeed=2094387;
+randomSeed=10768086;
 class ScenarioData
 {
 	author="&x";
@@ -133,25 +182,26 @@ class Mission
 	class Intel
 	{
 		timeOfChanges=1800.0002;
-		startWeather=0;
+		startWeather=0.30000001;
 		startWind=0.1;
 		startWaves=0.1;
-		forecastWeather=0;
+		forecastWeather=0.30000001;
 		forecastWind=0.1;
 		forecastWaves=0.1;
 		forecastLightnings=0.1;
 		wavesForced=1;
 		windForced=1;
 		year=2035;
-		day=28;
-		hour=13;
-		minute=37;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
 		startFogDecay=0.014;
 		forecastFogDecay=0.014;
 	};
 	class Entities
 	{
-		items=6;
+		items=7;
 		class Item0
 		{
 			dataType="Layer";
@@ -171,11 +221,11 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={4805.7095,5,6890.9189};
+								position[]={6496.561,82.623962,3581.2361};
 							};
 							name="spectator_01";
 							isPlayable=1;
-							id=14;
+							id=2;
 							type="VirtualSpectator_F";
 							class CustomAttributes
 							{
@@ -251,11 +301,11 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={4803.7095,5,6890.9189};
+								position[]={6494.561,82.617569,3581.2361};
 							};
 							name="spectator_02";
 							isPlayable=1;
-							id=15;
+							id=3;
 							type="VirtualSpectator_F";
 							class CustomAttributes
 							{
@@ -331,11 +381,11 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={4801.7095,5,6890.9189};
+								position[]={6492.561,82.610199,3581.2361};
 							};
 							name="spectator_03";
 							isPlayable=1;
-							id=16;
+							id=4;
 							type="VirtualSpectator_F";
 							class CustomAttributes
 							{
@@ -411,22 +461,23 @@ class Mission
 							dataType="Comment";
 							class PositionInfo
 							{
-								position[]={4807.7095,5,6890.9189};
+								position[]={6498.561,82.607193,3581.2361};
 							};
 							title="Streamator x3";
 							description="für weitere Streamator-Slots das Modul einfach kopieren";
-							id=17;
+							id=5;
+							atlOffset=-0.023170471;
 						};
 						class Item4
 						{
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={4805.7095,5,6888.9189};
+								position[]={6496.561,82.619156,3579.2361};
 							};
 							name="hc_01";
 							isPlayable=1;
-							id=18;
+							id=6;
 							type="HeadlessClient_F";
 						};
 						class Item5
@@ -434,30 +485,32 @@ class Mission
 							dataType="Comment";
 							class PositionInfo
 							{
-								position[]={4807.7095,5,6888.9189};
+								position[]={6498.561,82.607193,3579.2361};
 							};
 							title="Headless Client";
 							description="für bis zu 2 weitere HCs das Modul einfack kopieren";
-							id=19;
+							id=7;
+							atlOffset=-0.018363953;
 						};
 						class Item6
 						{
 							dataType="Comment";
 							class PositionInfo
 							{
-								position[]={4807.7095,5,6886.9189};
+								position[]={6498.561,82.607193,3577.2361};
 							};
 							title="Zeuse";
-							id=20;
+							id=8;
+							atlOffset=-0.013565063;
 						};
 						class Item7
 						{
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={4805.7095,5,6886.9189};
+								position[]={6496.561,82.613403,3577.2361};
 							};
-							id=21;
+							id=9;
 							type="ModuleCurator_F";
 							class CustomAttributes
 							{
@@ -521,9 +574,9 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={4803.7095,5,6886.9189};
+								position[]={6494.561,82.6054,3577.2361};
 							};
-							id=22;
+							id=10;
 							type="ModuleCurator_F";
 							class CustomAttributes
 							{
@@ -587,9 +640,9 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={4799.7095,5,6886.9189};
+								position[]={6490.561,82.589401,3577.2361};
 							};
-							id=23;
+							id=11;
 							type="ModuleCurator_F";
 							class CustomAttributes
 							{
@@ -653,9 +706,9 @@ class Mission
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={4801.7095,5,6886.9189};
+								position[]={6492.561,82.597397,3577.2361};
 							};
-							id=24;
+							id=12;
 							type="ModuleCurator_F";
 							class CustomAttributes
 							{
@@ -719,66 +772,72 @@ class Mission
 							dataType="Comment";
 							class PositionInfo
 							{
-								position[]={4799.7095,5,6887.9189};
+								position[]={6490.561,82.607193,3578.2361};
 							};
 							title="Zeusslot";
 							description="Zeusslot muss den Variablennamen ""zeus_01"" haben" \n "für weitere Zeusslots das Modul einfach kopieren und Variable anpassen";
-							id=25;
+							id=13;
+							atlOffset=0.014595032;
 						};
 						class Item12
 						{
 							dataType="Comment";
 							class PositionInfo
 							{
-								position[]={4801.7095,5,6887.9189};
+								position[]={6492.561,82.607193,3578.2361};
 							};
 							title="Missionsbauer (deine SteamID einfügen)";
-							id=26;
+							id=14;
+							atlOffset=0.0065994263;
 						};
 						class Item13
 						{
 							dataType="Comment";
 							class PositionInfo
 							{
-								position[]={4803.7095,5,6887.9189};
+								position[]={6494.561,82.607193,3578.2361};
 							};
 							title="#adminLogged";
-							id=27;
+							id=15;
+							atlOffset=-0.0014038086;
 						};
 						class Item14
 						{
 							dataType="Comment";
 							class PositionInfo
 							{
-								position[]={4805.7095,5,6887.9189};
+								position[]={6496.561,82.607193,3578.2361};
 							};
 							title="#adminVoted";
-							id=28;
+							id=16;
+							atlOffset=-0.0094070435;
 						};
 						class Item15
 						{
 							dataType="Marker";
-							position[]={4806.7095,5,6884.9189};
+							position[]={6497.561,82.611,3575.2361};
 							name="respawn";
 							type="Empty";
-							id=29;
+							id=17;
 						};
 						class Item16
 						{
 							dataType="Comment";
 							class PositionInfo
 							{
-								position[]={4807.7095,5,6884.9189};
+								position[]={6498.561,82.607193,3575.2361};
 							};
 							title="Respawn (Marker nur über Karte sichtbar)";
-							id=30;
+							id=18;
+							atlOffset=-0.0078125;
 						};
 						class Item17
 						{
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={4805.7095,8.9768047,6882.9189};
+								position[]={6496.561,86.583054,3573.2361};
+								angles[]={0,0,0.0039967569};
 							};
 							side="Empty";
 							flags=4;
@@ -786,7 +845,7 @@ class Mission
 							{
 								name="ttt_teleporter";
 							};
-							id=31;
+							id=19;
 							type="ttt_Flag_Logo";
 						};
 						class Item18
@@ -794,23 +853,27 @@ class Mission
 							dataType="Comment";
 							class PositionInfo
 							{
-								position[]={4807.7095,5,6882.9189};
+								position[]={6498.561,82.607193,3573.2361};
 							};
 							title="W-Teleporter & Zuschauerkamera";
-							id=32;
+							id=20;
+							atlOffset=-0.0070571899;
 						};
 					};
-					id=13;
+					id=1;
+					atlOffset=-0.0039291382;
 				};
 			};
-			id=35;
+			id=0;
+			atlOffset=-0.0039291382;
 		};
 		class Item1
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4807.0889,5.8253026,6878.3408};
+				position[]={6497.9404,83.437073,3568.658};
+				angles[]={0,0,0.0039967569};
 			};
 			side="Empty";
 			flags=4;
@@ -818,7 +881,7 @@ class Mission
 			{
 				init="[this, true] call ace_arsenal_fnc_initBox;";
 			};
-			id=37;
+			id=21;
 			type="B_CargoNet_01_ammo_F";
 			class CustomAttributes
 			{
@@ -843,10 +906,11 @@ class Mission
 			dataType="Comment";
 			class PositionInfo
 			{
-				position[]={4807.1245,5,6878.5957};
+				position[]={6497.9761,82.607193,3568.9128};
 			};
 			title="Arsenal";
-			id=38;
+			id=22;
+			atlOffset=-0.0047149658;
 		};
 		class Item3
 		{
@@ -860,7 +924,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4808.9678,5.0014391,6891.228};
+						position[]={6499.8193,82.636452,3581.5452};
 					};
 					side="West";
 					flags=7;
@@ -868,21 +932,21 @@ class Mission
 					{
 						isPlayer=1;
 					};
-					id=204;
+					id=24;
 					type="B_Survivor_F";
 				};
 			};
 			class Attributes
 			{
 			};
-			id=203;
+			id=23;
 		};
 		class Item4
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4816.981,6.0818248,6878.8193};
+				position[]={6507.8325,83.722198,3569.1365};
 				angles[]={0,6.2317696,0};
 			};
 			side="Empty";
@@ -890,24 +954,41 @@ class Mission
 			{
 				name="pointer";
 			};
-			id=246;
+			id=25;
 			type="Sign_Pointer_Pink_F";
-			atlOffset=1.0318246;
+			atlOffset=1.0318222;
 		};
 		class Item5
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4799.4575,7.6292419,6900.3916};
+				position[]={6490.3091,85.250816,3590.7087};
+				angles[]={6.2824135,0,0.0032018756};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 			};
-			id=330;
+			id=26;
 			type="rsr_bergepanzer_tropentarn";
+		};
+		class Item6
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6480.7456,85.217636,3590.3115};
+				angles[]={0,0,0.0032018756};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=27;
+			type="B_APC_Tracked_01_CRV_F";
 		};
 	};
 };
