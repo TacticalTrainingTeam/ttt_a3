@@ -13,8 +13,8 @@ parameters = [
     "-world=empty",
 ]
 
-#mission = "ttt_test.VR"
-mission = "ttt_test.Malden"
+mission = "ttt_test.VR"
+#mission = "ttt_test.Malden"
 
 
 #executable = "arma3_x64" # Default: "arma3_x64"
