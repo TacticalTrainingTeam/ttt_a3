@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt_a3">
-    <Package name="uniforms"/>
+    <Package name="uniforms">
         <Key ID="STR_ttt_uniforms_yellow_DisplayName">
             <English>TTT Uniform Yellow (US Desert)</English>
             <German>TTT Uniform Gelb (US Wüste)</German>
         </Key>
+    </Package>
 </Project>

@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt_a3">
-    <Package name="rsr_vanilla"/>
+    <Package name="rsr_vanilla">
+        <Key ID="STR_ttt_rsr_vanilla_bergepanzer_flecktarn">
+            <English>Armored Recovery Vehicle (Flecktarn)</English>
+            <German>Bergepanzer (Flecktarn)</German>
+        </Key>
+        <Key ID="STR_ttt_rsr_vanilla_bergepanzer_tropentarn">
+            <English>Armored Recovery Vehicle (Tropentarn)</English>
+            <German>Bergepanzer (Tropentarn)</German>
+        </Key>
         <Key ID="STR_ttt_rsr_vanilla_fennek_flecktarn">
             <English>Fennek (Flecktarn)</English>
             <German>Fennek (Flecktarn)</German>
-        </Key>
-        <Key ID="STR_ttt_rsr_vanilla_fennek_tropentarn">
-            <English>Fennek (Tropentarn)</English>
-            <German>Fennek (Tropentarn)</German>
-        </Key>
-        <Key ID="STR_ttt_rsr_vanilla_fennek_hmg_flecktarn">
-            <English>Fennek HMG (Flecktern)</English>
-            <German>Fennek HMG (Flecktarn)</German>
-        </Key>
-        <Key ID="STR_ttt_rsr_vanilla_fennek_hmg_tropentarn">
-            <English>Fennek HMG (Tropentarn)</English>
-            <German>Fennek HMG (Tropentarn)</German>
         </Key>
         <Key ID="STR_ttt_rsr_vanilla_fennek_gmg_flecktarn">
             <English>Fennek GMG (Flecktarn)</English>
@@ -25,12 +21,17 @@
             <English>Fennek GMG (Tropentarn)</English>
             <German>Fennek GMW (Tropentarn)</German>
         </Key>
-        <Key ID="STR_ttt_rsr_vanilla_bergepanzer_flecktarn">
-            <English>Armored Recovery Vehicle (Flecktarn)</English>
-            <German>Bergepanzer (Flecktarn)</German>
+        <Key ID="STR_ttt_rsr_vanilla_fennek_hmg_flecktarn">
+            <English>Fennek HMG (Flecktern)</English>
+            <German>Fennek HMG (Flecktarn)</German>
         </Key>
-        <Key ID="STR_ttt_rsr_vanilla_bergepanzer_tropentarn">
-            <English>Armored Recovery Vehicle (Tropentarn)</English>
-            <German>Bergepanzer (Tropentarn)</German>
+        <Key ID="STR_ttt_rsr_vanilla_fennek_hmg_tropentarn">
+            <English>Fennek HMG (Tropentarn)</English>
+            <German>Fennek HMG (Tropentarn)</German>
         </Key>
+        <Key ID="STR_ttt_rsr_vanilla_fennek_tropentarn">
+            <English>Fennek (Tropentarn)</English>
+            <German>Fennek (Tropentarn)</German>
+        </Key>
+    </Package>
 </Project>
