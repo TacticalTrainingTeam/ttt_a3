@@ -15,6 +15,11 @@ class CfgVehicles {
             QPATHTOEF(rsr_vanilla,data\fennek\fennek_flecktarn_ext_co.paa),
             QPATHTOEF(rsr_vanilla,data\fennek\fennek_flecktarn_turret_co.paa)
         };
+        class TransportItems {
+            MACRO_ADDITEM(Toolkit,1);
+        };
+        class TransportWeapons { };
+        class TransportMagazines { };
     };
 
     class rsr_fennek_transport_RV_tropentarn : rsr_fennek_transport_RV_flecktarn {
@@ -36,6 +41,11 @@ class CfgVehicles {
             QPATHTOEF(rsr_vanilla,data\fennek\fennek_flecktarn_ext_co.paa),
             QPATHTOEF(rsr_vanilla,data\fennek\fennek_flecktarn_turret_co.paa)
         };
+        class TransportItems {
+            MACRO_ADDITEM(Toolkit,1);
+        };
+        class TransportWeapons { };
+        class TransportMagazines { };
     };
 
     class rsr_fennek_hmg_RV_tropentarn : rsr_fennek_hmg_RV_flecktarn {
@@ -57,6 +67,11 @@ class CfgVehicles {
             QPATHTOEF(rsr_vanilla,data\fennek\fennek_flecktarn_ext_co.paa),
             QPATHTOEF(rsr_vanilla,data\fennek\fennek_flecktarn_turret_co.paa)
         };
+        class TransportItems {
+            MACRO_ADDITEM(Toolkit,1);
+        };
+        class TransportWeapons { };
+        class TransportMagazines { };
     };
 
     class rsr_fennek_gmg_RV_tropentarn : rsr_fennek_gmg_RV_flecktarn {
