@@ -86,7 +86,9 @@ class CfgVehicles {
                 };
             };
         };
-        class TransportItems { };
+        class TransportItems {
+            MACRO_ADDITEM(Toolkit,1);
+        };
         class TransportWeapons { };
         class TransportMagazines { };
     };
@@ -218,7 +220,9 @@ class CfgVehicles {
                 factions[] = {"BLU_F"};
             };
         };
-        class TransportItems { };
+        class TransportItems {
+            MACRO_ADDITEM(Toolkit,1);
+        };
         class TransportWeapons { };
         class TransportMagazines { };
     };
