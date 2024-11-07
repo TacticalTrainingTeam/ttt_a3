@@ -12,9 +12,11 @@
  * Example:
  * [] call ttt_discord_richpresence_fnc_updateRichPresence
  *
- * Public: No
+ * Public: Yes
 
  */
+
+ if (!GVAR(enable)) exitWith {};
 
 [
     ["UpdateDetails", missionNameSource],
