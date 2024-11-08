@@ -20,7 +20,7 @@
 params ["_tripod", "_player"];
 
 private _primary = primaryWeapon _player;
-private _supportedMgs = [
+private _supportedMgs = [ //todo Remove hlc, add RHS/3CB
     "BWA3_MG3",
     "BWA3_MG3_bipod",
     "BWA3_MG3_MicroT2_pointer_bipod",

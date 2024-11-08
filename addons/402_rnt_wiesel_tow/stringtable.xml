@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt_a3">
+    <Package name="402_rnt_wiesel_tow">
+        <Key ID="STR_ttt_402_rnt_Wiesel_TOW_loadTOW">
+            <Original>Load TOW</Original>
+            <German>TOW laden</German>
+        </Key>
+    </Package>
+</Project>
