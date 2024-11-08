@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt_a3">
+    <Package name="ttt_402_rnt_MG3">
+        <Key ID="STR_ttt_402_rnt_MG3_disassemble">
+            <German>MG3-Lafette demontieren</German>
+        </Key>
+        <Key ID="STR_ttt_402_rnt_MG3_lafette_displayname">
+            <German>MG3-Lafette</German>
+        </Key>
+        <Key ID="STR_ttt_402_rnt_MG3_mount">
+            <German>MG3 lafettieren</German>
+        </Key>
+        <Key ID="STR_ttt_402_rnt_MG3_mounting">
+            <German>Lafettiere MG3</German>
+        </Key>
+        <Key ID="STR_ttt_402_rnt_MG3_settingsLafetteDisassembleTime">
+            <German>MG3-Lafette Abbauzeit</German>
+        </Key>
+        <Key ID="STR_ttt_402_rnt_MG3_settingsLafetteDisassembleTime_tooltip">
+            <German>Die Zeit, die es braucht, um die MG3-Lafette abzubauen.</German>
+        </Key>
+        <Key ID="STR_ttt_402_rnt_MG3_settingsLafetteMountTime">
+            <German>MG3-Lafette Aufbauzeit</German>
+        </Key>
+        <Key ID="STR_ttt_402_rnt_MG3_settingsLafetteMountTime_tooltip">
+            <German>Die Zeit, die es braucht, um ein MG3 zu lafettieren.</German>
+        </Key>
+        <Key ID="STR_ttt_402_rnt_MG3_subCategory">
+            <German>MG3-Lafette</German>
+        </Key>
+    </Package>
+</Project>

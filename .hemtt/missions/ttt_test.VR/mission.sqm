@@ -8,18 +8,18 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=331;
+		nextID=332;
 	};
 	class LayerIndexProvider
 	{
-		nextID=92;
+		nextID=96;
 	};
 	class Camera
 	{
-		pos[]={4787.8374,11.913815,6910.0146};
-		dir[]={0.59661341,-0.42005768,-0.68393534};
-		up[]={0.27616778,0.90746552,-0.31658831};
-		aside[]={-0.75363374,1.1589727e-06,-0.65741515};
+		pos[]={4821.2202,8.1863632,6891.7427};
+		dir[]={-0.84843481,-0.47091562,0.24169011};
+		up[]={-0.452903,0.88217574,0.12901717};
+		aside[]={0.2739684,-8.4546627e-08,0.96174693};
 	};
 };
 binarizationWanted=0;
@@ -32,6 +32,22 @@ addons[]=
 	"A3_Ui_F",
 	"ttt_signs",
 	"A3_Supplies_F_Heli_CargoNets",
+	"bwa3_units",
+	"bwa3_mg3",
+	"bwa3_optics",
+	"bwa3_comp_ace",
+	"bwa3_attachments",
+	"bwa3_p8",
+	"A3_Weapons_F",
+	"acre_main",
+	"bwa3_headgear",
+	"ace_nightvision",
+	"bwa3_uniforms",
+	"bwa3_handgrenades",
+	"A3_Weapons_F_Items",
+	"ace_medical_engine",
+	"ace_medical_treatment",
+	"bwa3_vests",
 	"A3_Misc_F_Helpers",
 	"ttt_rsr_vanilla"
 };
@@ -39,7 +55,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=8;
+		items=23;
 		class Item0
 		{
 			className="A3_Data_F_Exp_A";
@@ -84,12 +100,117 @@ class AddonsMetaData
 		};
 		class Item6
 		{
+			className="bwa3_units";
+			name="Bundeswehr - Characters and Clothing";
+			author="BW-Mod";
+			url="http://www.bwmod.de/index.php/download";
+		};
+		class Item7
+		{
+			className="bwa3_mg3";
+			name="Bundeswehr - MG3";
+			author="BW-Mod";
+			url="http://www.bwmod.de/index.php/download";
+		};
+		class Item8
+		{
+			className="bwa3_optics";
+			name="Bundeswehr - Weapon Optics";
+			author="BW-Mod";
+			url="http://www.bwmod.de/index.php/download";
+		};
+		class Item9
+		{
+			className="bwa3_comp_ace";
+			name="Bundeswehr - ACE3";
+			author="BW-Mod";
+			url="http://www.bwmod.de/index.php/download";
+		};
+		class Item10
+		{
+			className="bwa3_attachments";
+			name="Bundeswehr - Weapon Attachments";
+			author="BW-Mod";
+			url="http://www.bwmod.de/index.php/download";
+		};
+		class Item11
+		{
+			className="bwa3_p8";
+			name="Bundeswehr - Pistols and Submachine Guns";
+			author="BW-Mod";
+			url="http://www.bwmod.de/index.php/download";
+		};
+		class Item12
+		{
+			className="A3_Weapons_F";
+			name="Arma 3 Alpha - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item13
+		{
+			className="acre_main";
+			name="ACRE2 - Main";
+			author="ACRE2Team";
+			url="https://github.com/IDI-Systems/acre2";
+		};
+		class Item14
+		{
+			className="bwa3_headgear";
+			name="Bundeswehr - Hats and Helmets";
+			author="BW-Mod";
+			url="http://www.bwmod.de/index.php/download";
+		};
+		class Item15
+		{
+			className="ace_nightvision";
+			name="ACE3 - Night Vision";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item16
+		{
+			className="bwa3_uniforms";
+			name="Bundeswehr - Uniforms";
+			author="BW-Mod";
+			url="http://www.bwmod.de/index.php/download";
+		};
+		class Item17
+		{
+			className="bwa3_handgrenades";
+			name="Bundeswehr - Hand Grenades";
+			author="BW-Mod";
+			url="http://www.bwmod.de/index.php/download";
+		};
+		class Item18
+		{
+			className="ace_medical_engine";
+			name="ACE3 - Medical Engine";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item19
+		{
+			className="ace_medical_treatment";
+			name="ACE3 - Medical Treatment";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item20
+		{
+			className="bwa3_vests";
+			name="Bundeswehr - Vests";
+			author="BW-Mod";
+			url="http://www.bwmod.de/index.php/download";
+		};
+		class Item21
+		{
 			className="A3_Misc_F";
 			name="Arma 3 - 3D Aids and Helpers";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item7
+		class Item22
 		{
 			className="ttt_rsr_vanilla";
 			name="TTT - RsR Vanilla";
@@ -109,7 +230,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -854,7 +975,7 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=1;
+				items=2;
 				class Item0
 				{
 					dataType="Object";
@@ -870,6 +991,140 @@ class Mission
 					};
 					id=204;
 					type="B_Survivor_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4817.104,5.0014391,6891.8057};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="BWA3_MG3_MicroT2_pointer_bipod";
+								optics="BWA3_optic_MicroT2";
+								flashlight="BWA3_acc_VarioRay_irlaser";
+								underBarrel="BWA3_bipod_MG3";
+								firemode="BWA3_MG3_MicroT2_pointer_bipod:burst";
+								class primaryMuzzleMag
+								{
+									name="BWA3_120Rnd_762x51";
+									ammoLeft=120;
+								};
+							};
+							class handgun
+							{
+								name="BWA3_P8";
+								class primaryMuzzleMag
+								{
+									name="BWA3_15Rnd_9x19_P8";
+									ammoLeft=15;
+								};
+							};
+							class uniform
+							{
+								typeName="BWA3_Uniform_tee_Fleck";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="BWA3_15Rnd_9x19_P8";
+										count=2;
+										ammoLeft=15;
+									};
+									class Item1
+									{
+										name="BWA3_DM51A1";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="BWA3_DM25";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="BWA3_Vest_MachineGunner_Fleck";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="BWA3_120Rnd_762x51";
+										count=3;
+										ammoLeft=120;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="rnt_mg3_static_tripod";
+								isBackpack=1;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							goggles="BWA3_G_Combat_black";
+							hmd="NVGoggles_OPFOR";
+							headgear="BWA3_OpsCore_FastMT_Peltor_Fleck";
+						};
+					};
+					id=331;
+					type="BWA3_MachineGunner_MG3_Fleck";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 			};
 			class Attributes

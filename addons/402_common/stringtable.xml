@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TTT_A3"> <!--PzGrenBtl402-->
+    <Package name="402_core">
+        <Key ID="STR_ttt_402_core_author">
+            <English>PzGrenBtl 402</English>
+            <Czech>PzGrenBtl 402</Czech>
+            <French>PzGrenBtl 402</French>
+            <Spanish>PzGrenBtl 402</Spanish>
+            <Italian>PzGrenBtl 402</Italian>
+            <Polish>PzGrenBtl 402</Polish>
+            <Portuguese>PzGrenBtl 402</Portuguese>
+            <Russian>PzGrenBtl 402</Russian>
+            <German>PzGrenBtl 402</German>
+            <Korean>PzGrenBtl 402</Korean>
+            <Japanese>PzGrenBtl 402</Japanese>
+            <Chinese>PzGrenBtl 402</Chinese>
+            <Chinesesimp>PzGrenBtl 402</Chinesesimp>
+            <Turkish>PzGrenBtl 402</Turkish>
+            <Hungarian>PzGrenBtl 402</Hungarian>
+        </Key>
+        <Key ID="STR_ttt_402_core_URL">
+            <English>https://pzgrenbtl402.de/</English>
+            <Czech>https://pzgrenbtl402.de/</Czech>
+            <French>https://pzgrenbtl402.de/</French>
+            <Spanish>https://pzgrenbtl402.de/</Spanish>
+            <Italian>https://pzgrenbtl402.de/</Italian>
+            <Polish>https://pzgrenbtl402.de/</Polish>
+            <Portuguese>https://pzgrenbtl402.de/</Portuguese>
+            <Russian>https://pzgrenbtl402.de/</Russian>
+            <German>https://pzgrenbtl402.de/</German>
+            <Korean>https://pzgrenbtl402.de/</Korean>
+            <Japanese>https://pzgrenbtl402.de/</Japanese>
+            <Chinese>https://pzgrenbtl402.de/</Chinese>
+            <Chinesesimp>https://pzgrenbtl402.de/</Chinesesimp>
+            <Turkish>https://pzgrenbtl402.de/</Turkish>
+            <Hungarian>https://pzgrenbtl402.de/</Hungarian>
+        </Key>
+        <Key ID="STR_ttt_402_core_BV">
+            <German>Bordverständigungsanlage</German>
+        </Key>
+        <Key ID="STR_ttt_402_core_BVShort">
+            <German>BV</German>
+        </Key>
+        <Key ID="STR_ttt_402_core_RackA">
+            <German>Funkkreis A</German>
+        </Key>
+        <Key ID="STR_tt_402_core_RackAShort">
+            <German>Krs A</German>
+        </Key>
+        <Key ID="STR_ttt_402_core_RackB">
+            <German>Funkkreis B</German>
+        </Key>
+        <Key ID="STR_ttt_402_core_RackBShort">
+            <German>Krs B</German>
+        </Key>
+        <Key ID="STR_ttt_402_core_RackC">
+            <German>Funkkreis C</German>
+        </Key>
+        <Key ID="STR_ttt_402_core_RackCShort">
+            <German>Krs C</German>
+        </Key>
+    </Package>
+</Project>
