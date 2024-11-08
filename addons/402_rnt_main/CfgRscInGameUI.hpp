@@ -50,11 +50,11 @@ class RscInGameUI {
         class CA_IGUI_elements_group: CA_IGUI_elements_group {
             class controls: controls {
                 class CA_Heading: CA_Heading {
-                    //DISABLE_FEATURE;
+                    DISABLE_FEATURE;
                 };
                 class CA_Distance: CA_Distance {
                     // Remove range finder in MILAN optics
-                    //DISABLE_FEATURE;
+                    DISABLE_FEATURE;
                 };
             };
         };
