@@ -42,6 +42,15 @@ class CfgVehicles
         smokeLauncherGrenadeCount = 3;
         smokeLauncherAngle = 120;
 
+        class TransportBackpacks
+        {
+            class _xx_milan_Bag
+            {
+                backpack = "Redd_Milan_Static_Barrel";
+                count = 5;
+            };
+        };
+
         class AcreIntercoms
         {
             class Intercom_1

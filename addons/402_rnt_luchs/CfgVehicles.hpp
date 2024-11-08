@@ -13,8 +13,8 @@ class CfgVehicles
         {
             class Intercom_1
             {
-                displayName = ECSTRING(ACRE,BV);
-                shortName = ECSTRING(ACRE,BVShort);
+                displayName = ECSTRING(402_common,BV);
+                shortName = ECSTRING(402_common,BVShort);
                 allowedPositions[] = {"crew"};
                 disabledPositions[] = {};
                 limitedPositions[] = {};
@@ -29,15 +29,15 @@ class CfgVehicles
         acre_infantryPhoneCustomRinging[] = {};
         acre_infantryPhoneIntercom[] = {"all"};
         acre_infantryPhoneControlActions[] = {"all"};
-        acre_eventInfantryPhone = QEFUNC(ACRE,noApiFunction);
+        acre_eventInfantryPhone = QEFUNC(402_common,noApiFunction);
         acre_infantryPhonePosition[] = {};
 
         class AcreRacks
         {
             class Rack_1
             {
-                displayName = ECSTRING(ACRE,RackA);
-                shortName = ECSTRING(ACRE,RackAShort);
+                displayName = ECSTRING(402_common,RackA);
+                shortName = ECSTRING(402_common,RackAShort);
                 componentName = "ACRE_SEM90";
                 allowedPositions[] = {{"turret", {1}}};
                 disabledPositions[] = {};
@@ -47,10 +47,10 @@ class CfgVehicles
                 intercom[] = {"all"};
             };
 
-            class Rack_2
+            class Rack_2 //mit rückwärts fahrer prüfen
             {
-                displayName = ECSTRING(ACRE,RackB);
-                shortName = ECSTRING(ACRE,RackBShort);
+                displayName = ECSTRING(402_common,RackB);
+                shortName = ECSTRING(402_common,RackBShort);
                 componentName = "ACRE_SEM90";
                 allowedPositions[] = {{"turret", {1}}};
                 disabledPositions[] = {};

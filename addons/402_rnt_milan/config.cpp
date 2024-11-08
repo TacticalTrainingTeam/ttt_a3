@@ -5,14 +5,20 @@ class CfgPatches {
         // Meta information for editor
         name = COMPONENT_NAME;
         author = ECSTRING(402_core,author);
-        authors[] = {"Mishkar"}; //Last Guy made Advanced SLingloading
+        authors[] = {"Lemonberries", "Timi007"}; 
         url = ECSTRING(main,URL);
 
         // Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
         requiredVersion = REQUIRED_VERSION;
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
-        requiredAddons[] = {"ttt_main", "ttt_402_common", "Redd_Tank_Wiesel_1A4_MK20"};
+        requiredAddons[] = {
+            "ttt_main",
+            "ttt_402_common",
+            "ttt_402_rnt_main",
+            "Redd_Milan_Static",
+            "Redd_Bags"
+            };
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {};
         // List of weapons (CfgWeapons classes) contained in the addon.

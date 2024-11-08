@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="TTT_A3"> <!--PzGrenBtl402-->
+<Project name="TTT_A3"> <!--ttt_402-->
     <Package name="402_core">
         <Key ID="STR_ttt_402_core_author">
             <English>PzGrenBtl 402</English>
@@ -19,21 +19,21 @@
             <Hungarian>PzGrenBtl 402</Hungarian>
         </Key>
         <Key ID="STR_ttt_402_core_URL">
-            <English>https://pzgrenbtl402.de/</English>
-            <Czech>https://pzgrenbtl402.de/</Czech>
-            <French>https://pzgrenbtl402.de/</French>
-            <Spanish>https://pzgrenbtl402.de/</Spanish>
-            <Italian>https://pzgrenbtl402.de/</Italian>
-            <Polish>https://pzgrenbtl402.de/</Polish>
-            <Portuguese>https://pzgrenbtl402.de/</Portuguese>
-            <Russian>https://pzgrenbtl402.de/</Russian>
-            <German>https://pzgrenbtl402.de/</German>
-            <Korean>https://pzgrenbtl402.de/</Korean>
-            <Japanese>https://pzgrenbtl402.de/</Japanese>
-            <Chinese>https://pzgrenbtl402.de/</Chinese>
-            <Chinesesimp>https://pzgrenbtl402.de/</Chinesesimp>
-            <Turkish>https://pzgrenbtl402.de/</Turkish>
-            <Hungarian>https://pzgrenbtl402.de/</Hungarian>
+            <English>https://ttt_402.de/</English>
+            <Czech>https://ttt_402.de/</Czech>
+            <French>https://ttt_402.de/</French>
+            <Spanish>https://ttt_402.de/</Spanish>
+            <Italian>https://ttt_402.de/</Italian>
+            <Polish>https://ttt_402.de/</Polish>
+            <Portuguese>https://ttt_402.de/</Portuguese>
+            <Russian>https://ttt_402.de/</Russian>
+            <German>https://ttt_402.de/</German>
+            <Korean>https://ttt_402.de/</Korean>
+            <Japanese>https://ttt_402.de/</Japanese>
+            <Chinese>https://ttt_402.de/</Chinese>
+            <Chinesesimp>https://ttt_402.de/</Chinesesimp>
+            <Turkish>https://ttt_402.de/</Turkish>
+            <Hungarian>https://ttt_402.de/</Hungarian>
         </Key>
         <Key ID="STR_ttt_402_core_BV">
             <German>Bordverständigungsanlage</German>
@@ -58,6 +58,22 @@
         </Key>
         <Key ID="STR_ttt_402_core_RackCShort">
             <German>Krs C</German>
+        </Key>
+        <Key ID="STR_ttt_402_Milan_assemble">
+            <Original>Assemble Milan</Original>
+            <German>Milan aufbauen</German>
+        </Key>
+        <Key ID="STR_ttt_402_Milan_disassemble">
+            <Original>Disassemble Milan</Original>
+            <German>Milan abbauen</German>
+        </Key>
+        <Key ID="STR_ttt_402_Milan_load">
+            <Original>Load Milan</Original>
+            <German>Milan laden</German>
+        </Key>
+        <Key ID="STR_ttt_402_Milan_unload">
+            <Original>Unload Milan</Original>
+            <German>Milan entladen</German>
         </Key>
     </Package>
 </Project>
