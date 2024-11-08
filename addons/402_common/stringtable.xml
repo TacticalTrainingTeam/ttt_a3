@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="TTT_A3"> <!--ttt_402-->
     <Package name="402_core">
-        <Key ID="STR_ttt_402_core_author">
+        <Key ID="STR_ttt_402_common_author">
             <English>PzGrenBtl 402</English>
             <Czech>PzGrenBtl 402</Czech>
             <French>PzGrenBtl 402</French>
@@ -18,7 +18,7 @@
             <Turkish>PzGrenBtl 402</Turkish>
             <Hungarian>PzGrenBtl 402</Hungarian>
         </Key>
-        <Key ID="STR_ttt_402_core_URL">
+        <Key ID="STR_ttt_402_common_URL">
             <English>https://ttt_402.de/</English>
             <Czech>https://ttt_402.de/</Czech>
             <French>https://ttt_402.de/</French>
@@ -35,44 +35,40 @@
             <Turkish>https://ttt_402.de/</Turkish>
             <Hungarian>https://ttt_402.de/</Hungarian>
         </Key>
-        <Key ID="STR_ttt_402_core_BV">
+        <Key ID="STR_ttt_402_common_BV">
             <German>Bordverständigungsanlage</German>
         </Key>
-        <Key ID="STR_ttt_402_core_BVShort">
+        <Key ID="STR_ttt_402_common_BVShort">
             <German>BV</German>
         </Key>
-        <Key ID="STR_ttt_402_core_RackA">
+        <Key ID="STR_ttt_402_common_RackA">
             <German>Funkkreis A</German>
         </Key>
-        <Key ID="STR_tt_402_core_RackAShort">
+        <Key ID="STR_ttt_402_common_RackAShort">
             <German>Krs A</German>
         </Key>
-        <Key ID="STR_ttt_402_core_RackB">
+        <Key ID="STR_ttt_402_common_RackB">
             <German>Funkkreis B</German>
         </Key>
-        <Key ID="STR_ttt_402_core_RackBShort">
+        <Key ID="STR_ttt_402_common_RackBShort">
             <German>Krs B</German>
         </Key>
-        <Key ID="STR_ttt_402_core_RackC">
+        <Key ID="STR_ttt_402_common_RackC">
             <German>Funkkreis C</German>
         </Key>
-        <Key ID="STR_ttt_402_core_RackCShort">
+        <Key ID="STR_ttt_402_common_RackCShort">
             <German>Krs C</German>
         </Key>
-        <Key ID="STR_ttt_402_Milan_assemble">
-            <Original>Assemble Milan</Original>
+        <Key ID="STR_ttt_402_common_Milan_assemble">
             <German>Milan aufbauen</German>
         </Key>
-        <Key ID="STR_ttt_402_Milan_disassemble">
-            <Original>Disassemble Milan</Original>
+        <Key ID="STR_ttt_402_common_disassemble">
             <German>Milan abbauen</German>
         </Key>
-        <Key ID="STR_ttt_402_Milan_load">
-            <Original>Load Milan</Original>
+        <Key ID="STR_ttt_402_common_load">
             <German>Milan laden</German>
         </Key>
-        <Key ID="STR_ttt_402_Milan_unload">
-            <Original>Unload Milan</Original>
+        <Key ID="STR_ttt_402_common_unload">
             <German>Milan entladen</German>
         </Key>
     </Package>

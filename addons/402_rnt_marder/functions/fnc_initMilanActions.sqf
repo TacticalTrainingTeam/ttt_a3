@@ -25,7 +25,7 @@ private _assembleIcon = "\a3\data_f_destroyer\data\UI\IGUI\Cfg\holdactions\holdA
 // Milan aufbauen
 [
     _veh,
-    LELSTRING(Milan,assemble),
+    LELSTRING(402_rnt_milan,assemble),
     _assembleIcon,
     _assembleIcon,
     QUOTE([ARR_2(_target,_this)] call FUNC(canAssembleMilan)),
@@ -46,7 +46,7 @@ private _disassembleIcon = "\a3\data_f_destroyer\data\UI\IGUI\Cfg\holdactions\ho
 // Milan abbauen
 [
     _veh,
-    LELSTRING(Milan,disassemble),
+    LELSTRING(402_rnt_milan,disassemble),
     _disassembleIcon,
     _disassembleIcon,
     QUOTE([ARR_2(_target,_this)] call FUNC(canDisassembleMilan)),

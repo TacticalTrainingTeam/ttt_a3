@@ -28,7 +28,7 @@ class CfgVehicles
     class Redd_Tank_Wiesel_1A4_MK20_base: Tank_F
     {
         //maximumLoad = 10000;
-        driverWeaponsInfoType = QEGVAR(Redd_Main,RSC_Driver);
+        driverWeaponsInfoType = QEGVAR(402_rnt_main,RSC_Driver);
         disableSoundAttenuation = 0;
         attenuationEffectType = "TankAttenuation";
         driverCompartments = "Compartment1";

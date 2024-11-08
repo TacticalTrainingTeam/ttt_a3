@@ -118,7 +118,7 @@ class CfgVehicles
                 weapons[] = {
                     "Redd_Gesichert",
                     "Redd_MK20",
-                    QEGVAR(402_rnt_Main,mg3), // Modified reload time for Rearm
+                    //QEGVAR(402_rnt_Main,mg3), // Modified reload time for Rearm
                     QGVAR(SmokeLauncher) // Add SmokeLauncher to gunner
                 };
                 magazines[] = {
@@ -381,8 +381,8 @@ class CfgVehicles
                 statement = "ACE_player action ['moveToTurret', this, [0, 2]]";
             };
 
-            delete heckluke_auf_2;
-            delete heckluke_zu_2;
+            //delete heckluke_auf_2;
+            //delete heckluke_zu_2;
 
             delete milan_auf;
             delete milan_ab;
