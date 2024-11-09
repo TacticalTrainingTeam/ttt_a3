@@ -4,7 +4,7 @@ class CfgPatches {
     class ADDON    {
         // Meta information for editor
         name = COMPONENT_NAME;
-        author = ECSTRING(402_core,author);
+        author = ECSTRING(402_common,author);
         authors[] = {"Timi007", "Lemonberries"};
         url = ECSTRING(main,URL);
 

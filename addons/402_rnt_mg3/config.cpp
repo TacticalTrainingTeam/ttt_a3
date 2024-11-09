@@ -4,9 +4,9 @@ class CfgPatches {
     class ADDON {
         // Meta information for editor
         name = COMPONENT_NAME;
-        author = ECSTRING(402_core,author);
+        author = ECSTRING(402_common,author);
         authors[] = {"Zumi", "Timi007"};
-        url = ECSTRING(402_core,URL);
+        url = ECSTRING(402_common,URL);
 
         // Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
         requiredVersion = REQUIRED_VERSION;

@@ -30,7 +30,7 @@ class CfgVehicles
     class Redd_Marder_1A5_base: Tank_F
     {
         //maximumLoad = 10000;
-        driverWeaponsInfoType = QEGVAR(402_rnt_Main,RSC_Driver);
+        driverWeaponsInfoType = QEGVAR(402_rnt_main,RSC_Driver);
         disableSoundAttenuation = 0;
         attenuationEffectType = "TankAttenuation";
         driverCompartments = "Compartment1";
@@ -110,7 +110,7 @@ class CfgVehicles
                 discreteDistanceInitIndex = 6; // Set initial gun zeoring to 800 m
                 lockWhenDriverOut = 0; // Don't lock turret when driver is turned out
                 stabilizedInAxes = 0;
-                turretInfoType = QEGVAR(402_rnt_Main,RSC_Turret);
+                turretInfoType = QEGVAR(402_rnt_main,RSC_Turret);
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
                 gunnerCompartments= "Compartment3";
@@ -152,7 +152,7 @@ class CfgVehicles
                     class CommanderOptics: CommanderOptics
                     {
                         stabilizedInAxes = 0;
-                        turretInfoType = QEGVAR(402_rnt_Main,RSC_Turret);
+                        turretInfoType = QEGVAR(402_rnt_main,RSC_Turret);
                         disableSoundAttenuation = 0;
                         soundAttenuationTurret = "TankAttenuation";
                         gunnerCompartments= "Compartment3";
@@ -175,7 +175,7 @@ class CfgVehicles
             {
                 magazines[] = {}; //Waffe ist direkt nach dem Aufbau leer, Patrone muss manuell geladen werden
                 stabilizedInAxes = 0;
-                turretInfoType = QEGVAR(402_rnt_Main,RSC_Milan);
+                turretInfoType = QEGVAR(402_rnt_main,RSC_Milan);
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
                 gunnerCompartments= "Compartment4";
@@ -381,8 +381,8 @@ class CfgVehicles
                 statement = "ACE_player action ['moveToTurret', this, [0, 2]]";
             };
 
-            //delete heckluke_auf_2;
-            //delete heckluke_zu_2;
+            delete heckluke_auf_2;
+            delete heckluke_zu_2;
 
             delete milan_auf;
             delete milan_ab;
@@ -405,10 +405,10 @@ class CfgVehicles
             // delete Spiegel_ausklappen;
             // delete Spiegel_einklappen;
 
-            // delete Sandsacke_auf_Links;
-            // delete Sandsacke_auf_Rechts;
-            // delete Sandsacke_ab_Links;
-            // delete Sandsacke_ab_Rechts;
+            delete Sandsacke_auf_Links;
+            delete Sandsacke_auf_Rechts;
+            delete Sandsacke_ab_Links;
+            delete Sandsacke_ab_Rechts;
         };
 
         class Attributes
@@ -420,7 +420,7 @@ class CfgVehicles
                 property = QGVAR(RampAttribute);
                 control = "Checkbox";
                 expression = "_this setVariable ['%s', _value];";
-                defaultValue = 0;
+                defaultValue = 1;
                 typeName = "BOOL";
             };
         };
