@@ -16,6 +16,7 @@ class CfgPatches {
             "ttt_402_common",
             "ttt_402_rnt_main",
             "rnt_mg3_static",
+            "rnt_ace_compatibility",
             "Redd_Bags",
             "ace_csw"
             };

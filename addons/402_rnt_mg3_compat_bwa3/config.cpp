@@ -22,6 +22,7 @@ class CfgPatches {
     };
 };
 
+#include "CfgMagazines.hpp"
 #include "CfgMagazineWells.hpp"
 #include "CfgMagazineGroups.hpp"
 #include "CfgWeapons.hpp"

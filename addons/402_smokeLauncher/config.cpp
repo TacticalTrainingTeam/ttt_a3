@@ -24,5 +24,5 @@ class CfgPatches {
 };
 
 #include "CfgWeapons.hpp"
-#include "CfgEventhandlers.hpp"
+#include "CfgEventHandlers.hpp"
 #include "SmokeAmmoDisplay.hpp"
