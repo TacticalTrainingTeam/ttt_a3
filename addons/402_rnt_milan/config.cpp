@@ -13,7 +13,6 @@ class CfgPatches {
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
         requiredAddons[] = {
-            "ttt_main",
             "ttt_402_common",
             "ttt_402_rnt_main",
             "Redd_Milan_Static",
