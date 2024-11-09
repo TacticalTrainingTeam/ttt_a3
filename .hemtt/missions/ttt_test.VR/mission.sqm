@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=106;
+		nextID=108;
 	};
 	class Camera
 	{
-		pos[]={4812.0522,9.6132927,6890.0337};
-		dir[]={-0.73747671,-0.4999007,0.45412457};
-		up[]={-0.42566976,0.86608297,0.26211965};
-		aside[]={0.52434343,-1.2980308e-08,0.85150862};
+		pos[]={4814.3213,11.386435,6888.0527};
+		dir[]={-0.78311259,-0.61247778,-0.10777474};
+		up[]={-0.60676396,0.79048359,-0.083505131};
+		aside[]={-0.13633862,2.2269614e-07,0.99066764};
 	};
 };
 binarizationWanted=0;
@@ -31,16 +31,13 @@ addons[]=
 	"A3_Modules_F_Curator_Curator",
 	"A3_Ui_F",
 	"ttt_signs",
-	"A3_Supplies_F_Heli_CargoNets",
-	"rnt_mg3_static",
-	"rnt_ace_compatibility",
-	"ttt_402_rnt_mg3"
+	"A3_Supplies_F_Heli_CargoNets"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=9;
+		items=6;
 		class Item0
 		{
 			className="A3_Data_F_Exp_A";
@@ -82,23 +79,6 @@ class AddonsMetaData
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
-		};
-		class Item6
-		{
-			className="rnt_mg3_static";
-			name="rnt_mg3_static";
-		};
-		class Item7
-		{
-			className="rnt_ace_compatibility";
-			name="rnt_ace_compatibility";
-		};
-		class Item8
-		{
-			className="ttt_402_rnt_mg3";
-			name="TTT - PzGrenBtl 402 RnT MG3";
-			author="PzGrenBtl 402";
-			url="https://ttt_402.de/";
 		};
 	};
 };
@@ -155,7 +135,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=5;
+		items=4;
 		class Item0
 		{
 			dataType="Layer";
@@ -910,21 +890,6 @@ class Mission
 			{
 			};
 			id=203;
-		};
-		class Item4
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4804.6211,6.2595868,6894.2256};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=336;
-			type="rnt_mg3_static";
 		};
 	};
 };
