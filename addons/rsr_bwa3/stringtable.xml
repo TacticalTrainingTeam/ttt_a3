@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
  <Project name="ttt_a3">
-    <Package name="rsr_bwa3"/>
+    <Package name="rsr_bwa3">
         <Key ID="STR_ttt_rsr_bwa3_eaglesan_tropen">
             <English>Eagle IV Medical (Tropentarn)</English>
             <German>Eagle IV Sanität (Tropentarn)</German>
@@ -14,5 +14,6 @@
         <Key ID="STR_ttt_rsr_bwa3_eaglesan_lowvis_tropen">
             <English>Eagle IV Medical lowvis (Tropentarn)</English>
             <German>Eagle IV Sanität lowvis (Tropentarn)</German>
-        </Key>_ttt_
+        </Key>
+    </Package>
 </Project>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
  <Project name="ttt_a3">
-    <Package name="rsr_cup"/>
+    <Package name="rsr_cup">
         <Key ID="STR_ttt_rsr_cup_snowCamoDisplayName">
             <English>Snowcamo Cover</English>
             <German>Wintertarn Überzug</German>
@@ -9,4 +9,5 @@
             <English>Helmet Snowcover</English>
             <German>Wintertarn Überzug Helm</German>
         </Key>
+    </Package>
 </Project>

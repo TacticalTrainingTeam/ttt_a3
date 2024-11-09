@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt_a3">
-    <Package name="berets"/>
+    <Package name="berets">
         <Key ID="STR_ttt_berets_blue">
             <English>TTT Beret Blue</English>
             <German>TTT Barett Blau</German>
@@ -61,4 +61,5 @@
             <English>TTT Beret Bronze</English>
             <German>TTT Barett Bronze</German>
         </Key>
+    </Package>
 </Project>

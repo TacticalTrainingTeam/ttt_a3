@@ -23,18 +23,6 @@ class CfgPatches {
     };
 };
 
-class CfgMainMenuSpotlight { // RscDisplayMain >> Spotlight works but is considered obsolete since SPOTREP #00064
-    class spotlighhs {
-        text = QUOTE(Tactical Training Team - RHS Server); // Text displayed on the square button, converted to upper-case
-        textIsQuote = 0; // 1 to add quotation marks around the text
-        picture = QPATHTOF(data\button.paa); // Square picture, ideally 512x512
-        //video = "\a3\Ui_f\Video\spotlight_1_Apex.ogv"; // Video played on mouse hover
-        action = "connectToServer ['game.tacticalteam.de', 2332, '130']"; // Code called upon clicking, passed arguments are [<button:Control>]
-        actionText = CSTRING(joinHover); // Text displayed in top left corner of on-hover white frame
-        condition = "true"; // Condition for showing the spotlight
-    };
-};
-
 //deactivate all other menus
 class AoW_Showcase_AoW {condition = "false";};
 class AoW_Showcase_Future {condition = "false";};
@@ -52,3 +40,5 @@ class Tacops_Campaign_01 {condition = "false";};
 class Tacops_Campaign_02 {condition = "false";};
 class Tacops_Campaign_03 {condition = "false";};
 class Tanks_Campaign_01 {condition = "false";};
+
+#include "CfgMainMenuSpotlight.hpp"

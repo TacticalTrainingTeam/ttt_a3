@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt_a3">
-    <Package name="advancedslingload"/>
+    <Package name="advancedtowing"/>
         <Key ID="STR_ttt_advancedslingload_extendRope">
             <English>Extend Cargo Ropes</English>
             <German>Frachtseile verlängern</German>
@@ -33,4 +33,5 @@
             <English>Pickup Cargo Ropes</English>
             <German>Frachtseile aufnehemen</German>
         </Key>
+    </Package>
 </Project>
