@@ -8,11 +8,11 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=334;
+		nextID=335;
 	};
 	class LayerIndexProvider
 	{
-		nextID=98;
+		nextID=100;
 	};
 	class Camera
 	{
@@ -993,22 +993,6 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4808.9678,5.0014391,6891.228};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						isPlayer=1;
-					};
-					id=204;
-					type="B_Survivor_F";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
 						position[]={4817.104,5.0014391,6891.8057};
 					};
 					side="West";
@@ -1132,6 +1116,52 @@ class Mission
 								{
 									singleType="SCALAR";
 									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4808.9678,5.0014391,6891.228};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=334;
+					type="B_Soldier_SL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.99000001;
 								};
 							};
 						};
