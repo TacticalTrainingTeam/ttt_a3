@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=100;
+		nextID=102;
 	};
 	class Camera
 	{
-		pos[]={4828.3384,11.291034,6888.542};
-		dir[]={-0.85718232,-0.48251036,-0.18012851};
-		up[]={-0.47220492,0.87588626,-0.099228725};
-		aside[]={-0.20565136,-3.6690835e-08,0.97863692};
+		pos[]={4824.0625,9.6132927,6870.4004};
+		dir[]={-0.63736969,-0.37349164,0.6740244};
+		up[]={-0.25663048,0.92762667,0.27139047};
+		aside[]={0.72660524,-5.7043508e-07,0.68709016};
 	};
 };
 binarizationWanted=0;
@@ -31,33 +31,13 @@ addons[]=
 	"A3_Modules_F_Curator_Curator",
 	"A3_Ui_F",
 	"ttt_signs",
-	"A3_Supplies_F_Heli_CargoNets",
-	"bwa3_units",
-	"bwa3_mg3",
-	"bwa3_optics",
-	"bwa3_comp_ace",
-	"bwa3_attachments",
-	"bwa3_p8",
-	"A3_Weapons_F",
-	"acre_main",
-	"bwa3_headgear",
-	"ace_nightvision",
-	"bwa3_uniforms",
-	"bwa3_handgrenades",
-	"A3_Weapons_F_Items",
-	"ace_medical_engine",
-	"ace_medical_treatment",
-	"bwa3_vests",
-	"A3_Misc_F_Helpers",
-	"ttt_rsr_vanilla",
-	"Redd_Marder_1A5",
-	"Redd_Tank_Wiesel_1A4_MK20"
+	"A3_Supplies_F_Heli_CargoNets"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=25;
+		items=6;
 		class Item0
 		{
 			className="A3_Data_F_Exp_A";
@@ -99,135 +79,6 @@ class AddonsMetaData
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
-		};
-		class Item6
-		{
-			className="bwa3_units";
-			name="Bundeswehr - Characters and Clothing";
-			author="BW-Mod";
-			url="http://www.bwmod.de/index.php/download";
-		};
-		class Item7
-		{
-			className="bwa3_mg3";
-			name="Bundeswehr - MG3";
-			author="BW-Mod";
-			url="http://www.bwmod.de/index.php/download";
-		};
-		class Item8
-		{
-			className="bwa3_optics";
-			name="Bundeswehr - Weapon Optics";
-			author="BW-Mod";
-			url="http://www.bwmod.de/index.php/download";
-		};
-		class Item9
-		{
-			className="bwa3_comp_ace";
-			name="Bundeswehr - ACE3";
-			author="BW-Mod";
-			url="http://www.bwmod.de/index.php/download";
-		};
-		class Item10
-		{
-			className="bwa3_attachments";
-			name="Bundeswehr - Weapon Attachments";
-			author="BW-Mod";
-			url="http://www.bwmod.de/index.php/download";
-		};
-		class Item11
-		{
-			className="bwa3_p8";
-			name="Bundeswehr - Pistols and Submachine Guns";
-			author="BW-Mod";
-			url="http://www.bwmod.de/index.php/download";
-		};
-		class Item12
-		{
-			className="A3_Weapons_F";
-			name="Arma 3 Alpha - Weapons and Accessories";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item13
-		{
-			className="acre_main";
-			name="ACRE2 - Main";
-			author="ACRE2Team";
-			url="https://github.com/IDI-Systems/acre2";
-		};
-		class Item14
-		{
-			className="bwa3_headgear";
-			name="Bundeswehr - Hats and Helmets";
-			author="BW-Mod";
-			url="http://www.bwmod.de/index.php/download";
-		};
-		class Item15
-		{
-			className="ace_nightvision";
-			name="ACE3 - Night Vision";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item16
-		{
-			className="bwa3_uniforms";
-			name="Bundeswehr - Uniforms";
-			author="BW-Mod";
-			url="http://www.bwmod.de/index.php/download";
-		};
-		class Item17
-		{
-			className="bwa3_handgrenades";
-			name="Bundeswehr - Hand Grenades";
-			author="BW-Mod";
-			url="http://www.bwmod.de/index.php/download";
-		};
-		class Item18
-		{
-			className="ace_medical_engine";
-			name="ACE3 - Medical Engine";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item19
-		{
-			className="ace_medical_treatment";
-			name="ACE3 - Medical Treatment";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item20
-		{
-			className="bwa3_vests";
-			name="Bundeswehr - Vests";
-			author="BW-Mod";
-			url="http://www.bwmod.de/index.php/download";
-		};
-		class Item21
-		{
-			className="A3_Misc_F";
-			name="Arma 3 - 3D Aids and Helpers";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item22
-		{
-			className="ttt_rsr_vanilla";
-			name="TTT - RsR Vanilla";
-			author="Tactical Training Team";
-			url="https://tacticalteam.de";
-		};
-		class Item23
-		{
-			className="Redd_Marder_1A5";
-			name="Redd_Marder_1A5";
-		};
-		class Item24
-		{
-			className="Redd_Tank_Wiesel_1A4_MK20";
-			name="Redd_Tank_Wiesel_1A4_MK20";
 		};
 	};
 };
@@ -284,7 +135,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=8;
+		items=4;
 		class Item0
 		{
 			dataType="Layer";
@@ -987,142 +838,8 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=2;
+				items=1;
 				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4817.104,5.0014391,6891.8057};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						isPlayable=1;
-						class Inventory
-						{
-							class primaryWeapon
-							{
-								name="BWA3_MG3_MicroT2_pointer_bipod";
-								optics="BWA3_optic_MicroT2";
-								flashlight="BWA3_acc_VarioRay_irlaser";
-								underBarrel="BWA3_bipod_MG3";
-								firemode="BWA3_MG3_MicroT2_pointer_bipod:burst";
-								class primaryMuzzleMag
-								{
-									name="BWA3_120Rnd_762x51";
-									ammoLeft=120;
-								};
-							};
-							class handgun
-							{
-								name="BWA3_P8";
-								class primaryMuzzleMag
-								{
-									name="BWA3_15Rnd_9x19_P8";
-									ammoLeft=15;
-								};
-							};
-							class uniform
-							{
-								typeName="BWA3_Uniform_tee_Fleck";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=3;
-									class Item0
-									{
-										name="BWA3_15Rnd_9x19_P8";
-										count=2;
-										ammoLeft=15;
-									};
-									class Item1
-									{
-										name="BWA3_DM51A1";
-										count=1;
-										ammoLeft=1;
-									};
-									class Item2
-									{
-										name="BWA3_DM25";
-										count=1;
-										ammoLeft=1;
-									};
-								};
-								class ItemCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="FirstAidKit";
-										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="BWA3_Vest_MachineGunner_Fleck";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="BWA3_120Rnd_762x51";
-										count=3;
-										ammoLeft=120;
-									};
-								};
-							};
-							class backpack
-							{
-								typeName="rnt_mg3_static_tripod";
-								isBackpack=1;
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="ItemWatch";
-							radio="ItemRadio";
-							goggles="BWA3_G_Combat_black";
-							hmd="NVGoggles_OPFOR";
-							headgear="BWA3_OpsCore_FastMT_Peltor_Fleck";
-						};
-					};
-					id=331;
-					type="BWA3_MachineGunner_MG3_Fleck";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="STRING";
-									value="Male02ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									singleType="SCALAR";
-									value=1.04;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
@@ -1173,68 +890,6 @@ class Mission
 			{
 			};
 			id=203;
-		};
-		class Item4
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4816.981,6.0818248,6878.8193};
-				angles[]={0,6.2317696,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-				name="pointer";
-			};
-			id=246;
-			type="Sign_Pointer_Pink_F";
-			atlOffset=1.0318246;
-		};
-		class Item5
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4799.4575,7.6292419,6900.3916};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=330;
-			type="rsr_bergepanzer_tropentarn";
-		};
-		class Item6
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4813.7939,7.4912062,6895.7583};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=332;
-			type="Redd_Marder_1A5_Flecktarn";
-		};
-		class Item7
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4819.6909,6.9824362,6884.6479};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=333;
-			type="Redd_Tank_Wiesel_1A4_MK20_Flecktarn";
 		};
 	};
 };
