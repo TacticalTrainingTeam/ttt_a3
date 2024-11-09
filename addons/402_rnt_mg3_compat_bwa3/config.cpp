@@ -7,7 +7,6 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "ttt_main",
             "ttt_402_common",
             "ttt_402_rnt_mg3",
             "ace_csw",
