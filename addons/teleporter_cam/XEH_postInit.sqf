@@ -1,3 +1,4 @@
 #include "script_component.hpp"
 
-[] call FUNC(initTeleport);
+[] call FUNC(createTeleporter);
+[] call FUNC(initTeleporter);

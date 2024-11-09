@@ -1,1 +1,2 @@
-PREP(initTeleport)
+PREP(createTeleporter);
+PREP(initTeleporter);
