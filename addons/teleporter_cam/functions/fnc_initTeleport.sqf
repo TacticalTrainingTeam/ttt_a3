@@ -17,11 +17,12 @@
  */
 
 // check if the logic is enabled, if not exit the function
-if (!GVAR(enableTeleport)) exitWith {};
+//if (!GVAR(enableTeleport)) exitWith {};
+if (false) exitWith {diag_log "TTT - Teleporter Logic disabled";};
 
 // Server Side
 if (isServer or !isMultiplayer) then {
-    
+    diag_log "TTT - Teleporter Checking for Respawn";
     private ["_count"];
 
     // check if "respawn" marker exists 
@@ -33,6 +34,7 @@ if (isServer or !isMultiplayer) then {
     } forEach ttt_respawn_pos;
 
     if (_count == 0) then {
+        diag_log "TTT - Teleporter No Respawn found, creating ...";
         ttt_respawn_pos = [0, 0, 0];
         _markerrespawn = createMarker ["respawn", ttt_respawn_pos];
         _markerrespawn setMarkerShapeLocal "RECTANGLE";
@@ -41,22 +43,28 @@ if (isServer or !isMultiplayer) then {
 
     // check if an Object with the variable name "ttt_teleporter" exists
     // if not, create a TTT-Flag at the respawn and assign it the variable
+    diag_log "TTT - Teleporter Checking for ttt_teleporter";
+
     if (isNil "ttt_teleporter") then {
-        ttt_teleporter = "ttt_Flag_Logo" createVehicle ttt_respawn_pos;
+        ttt_teleporter = "ttt_Flag_Logo" createVehicleLocal ttt_respawn_pos;
+        diag_log "TTT - Teleporter No ttt_teleporter found, creating ...";
     };
 };
 
 // Client Side
 if (hasInterface) then {
+    diag_log "TTT - Teleporter Waiting for ttt_teleporter ...";
 
     // check if the "ttt_teleporter" exists
     // if not, wait until it does (through section above)
     if (isNil "ttt_teleporter") then {
         waitUntil {
-            !isNil "ttt_teleporter"
+            !isNil "ttt_teleporter";
+            diag_log "TTT - Teleporter found ttt_teleporter ...";
         };
     };
 
+    diag_log "TTT - Teleporter Adding Actions";
     // add spectator cam
     ttt_teleporter addAction ["Zuschauermodus", {
         params ["_target", "_caller"];
@@ -65,7 +73,7 @@ if (hasInterface) then {
     }, [], 0.5, false, true, "", "", 5];
 
     // add teleporter Menü
-    [ttt_teleporter] call ttt_teleporter_fnc_addAction;
+    [ttt_teleporter] call ttt_w_teleporter_fnc_addAction;
 
     // close spectator on respawn
     player addMPEventHandler ["MPRespawn", {
