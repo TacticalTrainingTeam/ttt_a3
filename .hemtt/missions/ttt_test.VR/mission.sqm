@@ -8,18 +8,22 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=347;
+		nextID=349;
+	};
+	class MarkerIDProvider
+	{
+		nextID=2;
 	};
 	class LayerIndexProvider
 	{
-		nextID=104;
+		nextID=122;
 	};
 	class Camera
 	{
-		pos[]={4807.3159,26.888268,6858.8379};
-		dir[]={0.070084445,-0.68545878,0.72473055};
-		up[]={0.065978914,0.72811145,0.68227595};
-		aside[]={0.99535668,-3.7252903e-09,-0.096255109};
+		pos[]={4813.6494,19.591566,6868.938};
+		dir[]={-0.3319988,-0.65267813,0.68104029};
+		up[]={-0.28599933,0.75763375,0.58668017};
+		aside[]={0.89889348,3.8743019e-07,0.438198};
 	};
 };
 binarizationWanted=0;
@@ -27,12 +31,12 @@ sourceName="ttt_test";
 addons[]=
 {
 	"A3_Modules_F_Curator_Curator",
-	"A3_Ui_F",
 	"A3_Supplies_F_Heli_CargoNets",
 	"A3_Characters_F",
 	"ttt_rsr_vanilla",
 	"A3_Air_F_Heli_Heli_Transport_03",
-	"ace_realisticnames"
+	"ace_realisticnames",
+	"A3_Ui_F"
 };
 class AddonsMetaData
 {
@@ -48,36 +52,36 @@ class AddonsMetaData
 		};
 		class Item1
 		{
-			className="A3_Ui_F";
-			name="Arma 3 - User Interface";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item2
-		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item3
+		class Item2
 		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item4
+		class Item3
 		{
 			className="ttt_rsr_vanilla";
 			name="TTT - RsR Vanilla";
 			author="Tactical Training Team";
 			url="https://tacticalteam.de";
 		};
-		class Item5
+		class Item4
 		{
 			className="A3_Air_F_Heli";
 			name="Arma 3 Helicopters - Aircraft";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item5
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -136,7 +140,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=9;
+		items=10;
 		class Item0
 		{
 			dataType="Layer";
@@ -150,7 +154,7 @@ class Mission
 					name="Grundlegendes";
 					class Entities
 					{
-						items=14;
+						items=13;
 						class Item0
 						{
 							dataType="Comment";
@@ -490,14 +494,6 @@ class Mission
 						};
 						class Item11
 						{
-							dataType="Marker";
-							position[]={4805.5566,5,6884.2959};
-							name="respawn";
-							type="Empty";
-							id=29;
-						};
-						class Item12
-						{
 							dataType="Comment";
 							class PositionInfo
 							{
@@ -506,7 +502,7 @@ class Mission
 							title="Respawn (Marker nur über Karte sichtbar)";
 							id=30;
 						};
-						class Item13
+						class Item12
 						{
 							dataType="Comment";
 							class PositionInfo
@@ -710,6 +706,14 @@ class Mission
 			};
 			id=345;
 			type="B_Heli_Transport_03_unarmed_F";
+		};
+		class Item9
+		{
+			dataType="Marker";
+			position[]={4804.7109,5,6882.8462};
+			name="respawn";
+			type="Empty";
+			id=347;
 		};
 	};
 };

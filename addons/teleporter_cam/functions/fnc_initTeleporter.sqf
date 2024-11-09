@@ -16,38 +16,36 @@
  * Public: No
  */
 
-// check if the logic is enabled, if not exit the function
-if (!GVAR(enableTeleport)) exitWith {diag_log "TTT - Teleporter disabled";};
-
-
 // Client Side
 if (hasInterface) then {
     diag_log "TTT - Teleporter Waiting for ttt_teleporter ...";
 
     // check if the "ttt_teleporter" exists
-    // if not, wait until it does (through section above)
-    if (isNil "ttt_teleporter") then {
-        waitUntil {
-            !isNil "ttt_teleporter";
-            diag_log "TTT - Teleporter found ttt_teleporter ...";
-        };
-    };
+    // if not, wait until it does (with ttt_teleporter_cam_fnc_createTeleporter)
+    [
+        {!isNil "ttt_teleporter";},
+        {
+            diag_log "TTT - Teleporter Adding Actions";
 
-    diag_log "TTT - Teleporter Adding Actions";
-    // add spectator cam
-    ttt_teleporter addAction ["Zuschauermodus", {
-        params ["_target", "_caller"];
-        ["Initialize", [_caller, [], true]] call BIS_fnc_EGSpectator;
-        [_caller, true] remoteExecCall ["hideObjectGlobal", 2];
-    },     [],     0,     false];
+            // add spectator cam
+            ttt_teleporter addAction ["Zuschauermodus", {
 
-    // add teleporter Menü
-    [ttt_teleporter] call ttt_w_teleporter_fnc_addAction;
+                params ["_target", "_caller"];
 
-    // close spectator on respawn
-    player addMPEventHandler ["MPRespawn", {
-        ["Terminate"] call BIS_fnc_EGSpectator;
-    }];
+                ["Initialize", [_caller, [], true]] call BIS_fnc_EGSpectator;
+                [_caller, true] remoteExecCall ["hideObjectGlobal", 2];
+
+            }, [], 0, false];
+
+            // add teleporter Menü
+            [ttt_teleporter] call ttt_w_teleporter_fnc_addAction;
+
+            // close spectator on respawn
+            player addMPEventHandler ["MPRespawn", {
+                ["Terminate"] call BIS_fnc_EGSpectator;
+            }];
+        }
+    ] call CBA_fnc_waitUntilAndExecute;
 };
 
 if (true) exitWith {};

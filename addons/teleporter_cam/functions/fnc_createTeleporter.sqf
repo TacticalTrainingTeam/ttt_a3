@@ -18,7 +18,7 @@ if (isServer or !isMultiplayer) then {
     if (_count == 0) then {
         diag_log "TTT - Teleporter No Respawn found, creating ...";
         ttt_respawn_pos = [0, 0, 0];
-        _markerrespawn = createMarker ["respawn", ttt_respawn_pos];
+        _markerrespawn = createMarkerLocal ["respawn", ttt_respawn_pos];
         _markerrespawn setMarkerShapeLocal "RECTANGLE";
         _markerrespawn setMarkerSize [10, 10];
     };
@@ -28,7 +28,7 @@ if (isServer or !isMultiplayer) then {
     diag_log "TTT - Teleporter Checking for ttt_teleporter";
 
     if (isNil "ttt_teleporter") then {
-        ttt_teleporter = "ttt_Flag_Logo" createVehicleLocal ttt_respawn_pos;
         diag_log "TTT - Teleporter No ttt_teleporter found, creating ...";
+        ttt_teleporter = "ttt_Flag_Logo" createVehicle ttt_respawn_pos;
     };
 };
