@@ -8,18 +8,18 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=331;
+		nextID=337;
 	};
 	class LayerIndexProvider
 	{
-		nextID=92;
+		nextID=108;
 	};
 	class Camera
 	{
-		pos[]={4787.8374,11.913815,6910.0146};
-		dir[]={0.59661341,-0.42005768,-0.68393534};
-		up[]={0.27616778,0.90746552,-0.31658831};
-		aside[]={-0.75363374,1.1589727e-06,-0.65741515};
+		pos[]={4814.3213,11.386435,6888.0527};
+		dir[]={-0.78311259,-0.61247778,-0.10777474};
+		up[]={-0.60676396,0.79048359,-0.083505131};
+		aside[]={-0.13633862,2.2269614e-07,0.99066764};
 	};
 };
 binarizationWanted=0;
@@ -31,15 +31,13 @@ addons[]=
 	"A3_Modules_F_Curator_Curator",
 	"A3_Ui_F",
 	"ttt_signs",
-	"A3_Supplies_F_Heli_CargoNets",
-	"A3_Misc_F_Helpers",
-	"ttt_rsr_vanilla"
+	"A3_Supplies_F_Heli_CargoNets"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=8;
+		items=6;
 		class Item0
 		{
 			className="A3_Data_F_Exp_A";
@@ -81,20 +79,6 @@ class AddonsMetaData
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
-		};
-		class Item6
-		{
-			className="A3_Misc_F";
-			name="Arma 3 - 3D Aids and Helpers";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item7
-		{
-			className="ttt_rsr_vanilla";
-			name="TTT - RsR Vanilla";
-			author="Tactical Training Team";
-			url="https://tacticalteam.de";
 		};
 	};
 };
@@ -151,7 +135,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=6;
+		items=4;
 		class Item0
 		{
 			dataType="Layer";
@@ -863,51 +847,49 @@ class Mission
 						position[]={4808.9678,5.0014391,6891.228};
 					};
 					side="West";
-					flags=7;
+					flags=6;
 					class Attributes
 					{
 						isPlayer=1;
 					};
-					id=204;
-					type="B_Survivor_F";
+					id=334;
+					type="B_Soldier_SL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 			};
 			class Attributes
 			{
 			};
 			id=203;
-		};
-		class Item4
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4816.981,6.0818248,6878.8193};
-				angles[]={0,6.2317696,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-				name="pointer";
-			};
-			id=246;
-			type="Sign_Pointer_Pink_F";
-			atlOffset=1.0318246;
-		};
-		class Item5
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4799.4575,7.6292419,6900.3916};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=330;
-			type="rsr_bergepanzer_tropentarn";
 		};
 	};
 };
