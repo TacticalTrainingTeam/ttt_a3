@@ -11,7 +11,7 @@
  * None
  *
  * Example:
- * [] call ttt_teleport_fnc_initTeleport
+ * [] call ttt_teleport_fnc_initTeleporter
  *
  * Public: No
  */

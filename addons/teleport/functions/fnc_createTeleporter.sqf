@@ -11,7 +11,7 @@
  * None
  *
  * Example:
- * [] call ttt_teleport_cam_initTeleport
+ * [] call ttt_teleport_fnc_createTeleporter
  *
  * Public: No
  */
@@ -35,7 +35,7 @@ if (isServer) then {
 
     ttt_respawn_pos = getMarkerPos "respawn";
 
-    // check if an Object with the variable name "ttt_teleporter" exists
+    // check if an Object with the variable name "ttt_teleport_teleporter" exists
     // if not, create a TTT-Flag at the respawn and assign it the variable
     diag_log "TTT - Teleporter Checking for ttt_teleporter";
 

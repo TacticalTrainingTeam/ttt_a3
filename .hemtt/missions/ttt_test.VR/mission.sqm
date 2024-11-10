@@ -8,7 +8,7 @@ class EditorData
 	toggles=641;
 	class ItemIDProvider
 	{
-		nextID=357;
+		nextID=360;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=146;
+		nextID=150;
 	};
 	class Camera
 	{
-		pos[]={4795.7437,11.700358,6895.2148};
-		dir[]={0.63480145,-0.30817217,-0.70874113};
-		up[]={0.20563343,0.95129102,-0.22958432};
-		aside[]={-0.74499404,5.9022568e-08,-0.66727453};
+		pos[]={4808.1763,16.099163,6903.7515};
+		dir[]={-0.1532025,-0.55207902,-0.81962192};
+		up[]={-0.10143863,0.83378392,-0.54268736};
+		aside[]={-0.98299384,3.1793024e-07,0.1837415};
 	};
 };
 binarizationWanted=0;
@@ -36,13 +36,14 @@ addons[]=
 	"ttt_rsr_vanilla",
 	"A3_Air_F_Heli_Heli_Transport_03",
 	"ace_realisticnames",
-	"A3_Ui_F"
+	"A3_Ui_F",
+	"ttt_signs"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=6;
+		items=7;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -84,6 +85,13 @@ class AddonsMetaData
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
+		};
+		class Item6
+		{
+			className="ttt_signs";
+			name="TTT - Signs";
+			author="Tactical Training Team";
+			url="https://tacticalteam.de";
 		};
 	};
 };
@@ -13965,7 +13973,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=9;
+		items=10;
 		class Item0
 		{
 			dataType="Layer";
@@ -14519,7 +14527,7 @@ class Mission
 			{
 				position[]={4799.4575,7.6292419,6900.3916};
 			};
-			side="West";
+			side="Empty";
 			flags=4;
 			class Attributes
 			{
@@ -14604,112 +14612,87 @@ class Mission
 		};
 		class Item7
 		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=3;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4799.4575,5.0014391,6900.4414};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-					};
-					id=353;
-					type="B_crew_F";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4799.4575,5.0014391,6900.4414};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=354;
-					type="B_crew_F";
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={4799.4575,5.0014391,6900.4414};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=355;
-					type="B_crew_F";
-				};
-			};
-			class Attributes
-			{
-			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=3;
-				};
-				class Links
-				{
-					items=3;
-					class Item0
-					{
-						linkID=0;
-						item0=353;
-						item1=330;
-						class CustomData
-						{
-							role=1;
-						};
-					};
-					class Item1
-					{
-						linkID=1;
-						item0=354;
-						item1=330;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={1};
-						};
-					};
-					class Item2
-					{
-						linkID=2;
-						item0=355;
-						item1=330;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0};
-						};
-					};
-				};
-			};
-			id=352;
-		};
-		class Item8
-		{
 			dataType="Marker";
 			position[]={4804.2119,5,6885.293};
 			name="respawn";
 			type="Empty";
 			id=356;
+		};
+		class Item8
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4811.6611,5.0014391,6888.5864};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						name="zeus_03";
+						isPlayable=1;
+					};
+					id=358;
+					type="B_Survivor_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male07ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=357;
+		};
+		class Item9
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4805.7681,8.9768047,6882.7642};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="ttt_teleport_teleporter";
+			};
+			id=359;
+			type="ttt_Flag_Orange";
 		};
 	};
 };
