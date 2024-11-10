@@ -47,6 +47,16 @@ class CfgWeapons {
             uniformClass = "ttt_Gold_US_Desert";
         };
     };
+
+    class ttt_Uniform_Silver_US_Desert : TT_Uniform_Base_US {
+        author = "Tactical Training Team";
+        scope = 2;
+        displayName = "TTT Uniform Silber (US Desert)";
+        
+        class ItemInfo : ItemInfo {
+            uniformClass = "ttt_silver_US_Desert";
+        };
+    };
     
     class ttt_Uniform_Green_US_Desert : TT_Uniform_Base_US {
         author = "Tactical Training Team";
@@ -188,9 +198,20 @@ class CfgWeapons {
         displayName = "TTT Uniform Orange (BW Tropentarn)";
         
         class ItemInfo : ItemInfo {
-            uniformClass = "ttt_Orange_Bw_Tropentarn";
+            uniformClass = "ttt_Orange_BW_Tropentarn";
+        };
+    };   
+
+    class ttt_Uniform_silver_BW_Tropentarn : ttt_Uniform_Base_BW {
+        author = "Tactical Training Team";
+        scope = 2;
+        displayName = "TTT Uniform Silber (BW Tropentarn)";
+        
+        class ItemInfo : ItemInfo {
+            uniformClass = "ttt_silver_BW_Tropentarn";
         };
     };     
+      
     
     class ttt_Uniform_Gold_BW_Tropentarn : ttt_Uniform_Base_BW {
         author = "Tactical Training Team";
@@ -306,7 +327,7 @@ class CfgWeapons {
         displayName = "TTT Uniform Orange (BW Flecktarn)";
         
         class ItemInfo : ItemInfo {
-            uniformClass = "ttt_Orange_Bw_Flecktarn";
+            uniformClass = "ttt_Orange_BW_Flecktarn";
         };
     };     
     
