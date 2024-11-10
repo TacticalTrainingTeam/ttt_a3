@@ -11,7 +11,7 @@
  * None
  *
  * Example:
- * [] call ttt_teleport_cam_initTeleport
+ * [] call ttt_teleport_fnc_initTeleport
  *
  * Public: No
  */
@@ -20,10 +20,10 @@
 if (hasInterface) then {
     diag_log "TTT - Teleporter Waiting for ttt_teleporter ...";
 
-    // check if the "ttt_teleporter" exists
-    // if not, wait until it does (with ttt_teleporter_cam_fnc_createTeleporter)
+    // check if the "ttt_teleport_teleporter" exists
+    // if not, wait until it does (with ttt_teleport_fnc_createTeleporter)
     [
-        {!isNil QGVAR(teleporter);},
+        {!isNil QGVAR(teleporter)},
         {
             diag_log "TTT - Teleporter Adding Actions";
 

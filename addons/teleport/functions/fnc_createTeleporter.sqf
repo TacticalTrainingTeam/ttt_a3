@@ -39,7 +39,7 @@ if (isServer) then {
     // if not, create a TTT-Flag at the respawn and assign it the variable
     diag_log "TTT - Teleporter Checking for ttt_teleporter";
 
-    if (isNil "ttt_teleporter") then {
+    if (isNil QGVAR(teleporter)) then {
         diag_log "TTT - Teleporter No ttt_teleporter found, creating ...";
         GVAR(teleporter) = "ttt_Flag_Logo" createVehicle ttt_respawn_pos;
     };
