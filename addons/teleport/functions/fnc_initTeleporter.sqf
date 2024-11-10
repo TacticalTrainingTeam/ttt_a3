@@ -2,7 +2,7 @@
 
 /*
  * Author: Nobody ©, Andx
- * Adds a teleport and spectator camera to an object, or creates one if it doesn't exist.
+ * Adds a teleport and spectator camera to an object
  *
  * Arguments:
  * None
@@ -23,12 +23,12 @@ if (hasInterface) then {
     // check if the "ttt_teleporter" exists
     // if not, wait until it does (with ttt_teleporter_cam_fnc_createTeleporter)
     [
-        {!isNil "ttt_teleporter";},
+        {!isNil QGVAR(teleporter);},
         {
             diag_log "TTT - Teleporter Adding Actions";
 
             // add spectator cam
-            ttt_teleporter addAction ["Zuschauermodus", {
+            GVAR(teleporter) addAction ["Zuschauermodus", {
 
                 params ["_target", "_caller"];
 
@@ -38,7 +38,7 @@ if (hasInterface) then {
             }, [], 0, false];
 
             // add teleporter Menü
-            [ttt_teleporter] call ttt_w_teleporter_fnc_addAction;
+            [GVAR(teleporter)] call ttt_w_teleporter_fnc_addAction;
 
             // close spectator on respawn
             player addMPEventHandler ["MPRespawn", {
@@ -47,5 +47,3 @@ if (hasInterface) then {
         }
     ] call CBA_fnc_waitUntilAndExecute;
 };
-
-if (true) exitWith {};
