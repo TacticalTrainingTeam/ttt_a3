@@ -8,7 +8,7 @@ class CfgWeapons {
     class TT_Uniform_Base_US : U_B_CombatUniform_mcam {
         scope = 0;
         displayName = "TTT Uniform Base US";
-        picture = "z\ttt\addons\uniforms\data\ttt_uniform_icon_us.paa";
+        picture = QPATHTOF(data\ttt_uniform_icon_us.paa);
         model = "\A3\characters_f\Common\Suitpacks\suitpack_universal_F.p3d";
         
         class ItemInfo : ItemInfo {
@@ -48,7 +48,7 @@ class CfgWeapons {
         };
     };
 
-    class ttt_Uniform_Silver_US_Desert : TT_Uniform_Base_US {
+/*     class ttt_Uniform_Silver_US_Desert : TT_Uniform_Base_US {
         author = "Tactical Training Team";
         scope = 2;
         displayName = "TTT Uniform Silber (US Desert)";
@@ -56,7 +56,7 @@ class CfgWeapons {
         class ItemInfo : ItemInfo {
             uniformClass = "ttt_silver_US_Desert";
         };
-    };
+    }; */
     
     class ttt_Uniform_Green_US_Desert : TT_Uniform_Base_US {
         author = "Tactical Training Team";
@@ -202,7 +202,7 @@ class CfgWeapons {
         };
     };   
 
-    class ttt_Uniform_silver_BW_Tropentarn : ttt_Uniform_Base_BW {
+/*     class ttt_Uniform_silver_BW_Tropentarn : ttt_Uniform_Base_BW {
         author = "Tactical Training Team";
         scope = 2;
         displayName = "TTT Uniform Silber (BW Tropentarn)";
@@ -210,7 +210,7 @@ class CfgWeapons {
         class ItemInfo : ItemInfo {
             uniformClass = "ttt_silver_BW_Tropentarn";
         };
-    };     
+    };   */   
       
     
     class ttt_Uniform_Gold_BW_Tropentarn : ttt_Uniform_Base_BW {
