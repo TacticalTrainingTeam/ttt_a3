@@ -5,25 +5,25 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=641;
+	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=360;
+		nextID=365;
 	};
 	class MarkerIDProvider
 	{
-		nextID=3;
+		nextID=4;
 	};
 	class LayerIndexProvider
 	{
-		nextID=154;
+		nextID=182;
 	};
 	class Camera
 	{
-		pos[]={4808.1763,16.099163,6903.7515};
-		dir[]={-0.1532025,-0.55207902,-0.81962192};
-		up[]={-0.10143863,0.83378392,-0.54268736};
-		aside[]={-0.98299384,3.1793024e-07,0.1837415};
+		pos[]={4802.0879,12.901697,6868.4888};
+		dir[]={0.1850815,-0.408342,0.89386898};
+		up[]={0.082793757,0.91282898,0.39986044};
+		aside[]={0.97922933,-7.4505806e-09,-0.20275593};
 	};
 };
 binarizationWanted=0;
@@ -37,13 +37,14 @@ addons[]=
 	"A3_Air_F_Heli_Heli_Transport_03",
 	"ace_realisticnames",
 	"A3_Ui_F",
+	"ttt_rsr_vanilla_compat_ace",
 	"ttt_signs"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=7;
+		items=8;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -87,6 +88,13 @@ class AddonsMetaData
 			url="https://www.arma3.com";
 		};
 		class Item6
+		{
+			className="ttt_rsr_vanilla_compat_ace";
+			name="TTT - RsR Vanilla Compat ACE";
+			author="Tactical Training Team";
+			url="https://tacticalteam.de";
+		};
+		class Item7
 		{
 			className="ttt_signs";
 			name="TTT - Signs";
@@ -13973,7 +13981,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=10;
+		items=11;
 		class Item0
 		{
 			dataType="Layer";
@@ -14422,7 +14430,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4807.0889,5.8253026,6878.3408};
+				position[]={4804.0078,5.8253026,6878.0713};
 			};
 			side="Empty";
 			flags=4;
@@ -14472,7 +14480,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4809.0762,5.0014391,6890.936};
+						position[]={4804.0376,5.0014391,6891.0444};
+						angles[]={0,3.1396978,0};
 					};
 					side="West";
 					flags=7;
@@ -14525,7 +14534,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4799.4575,7.6292419,6900.3916};
+				position[]={4787.4717,7.6292419,6901.1021};
 			};
 			side="Empty";
 			flags=4;
@@ -14547,7 +14556,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4811.8657,5.0014391,6891.23};
+						position[]={4809.9678,5.0014391,6884.6309};
+						angles[]={0,4.7414722,0};
 					};
 					side="West";
 					flags=7;
@@ -14600,7 +14610,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4819.4209,8.3443718,6896.623};
+				position[]={4819.7329,8.3443718,6902.8701};
 			};
 			side="Empty";
 			flags=4;
@@ -14612,14 +14622,6 @@ class Mission
 		};
 		class Item7
 		{
-			dataType="Marker";
-			position[]={4804.2119,5,6885.293};
-			name="respawn";
-			type="Empty";
-			id=356;
-		};
-		class Item8
-		{
 			dataType="Group";
 			side="West";
 			class Entities
@@ -14630,7 +14632,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4811.6611,5.0014391,6888.5864};
+						position[]={4798.6865,5.0014391,6885.1494};
+						angles[]={0,1.6019441,0};
 					};
 					side="West";
 					flags=7;
@@ -14678,12 +14681,36 @@ class Mission
 			};
 			id=357;
 		};
+		class Item8
+		{
+			dataType="Marker";
+			position[]={4804.0791,5,6884.8501};
+			name="respawn";
+			type="Empty";
+			id=362;
+		};
 		class Item9
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4805.7681,8.9768047,6882.7642};
+				position[]={4792.8047,7.1487036,6901.5322};
+				angles[]={0,6.2743011,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=363;
+			type="rsr_wisent_repair_flecktarn";
+		};
+		class Item10
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4803.3672,8.9768047,6882.9971};
 			};
 			side="Empty";
 			flags=4;
@@ -14691,8 +14718,8 @@ class Mission
 			{
 				name="ttt_teleport_teleporter";
 			};
-			id=359;
-			type="ttt_Flag_Orange";
+			id=364;
+			type="ttt_Flag_Blue";
 		};
 	};
 };

@@ -1,2 +1,2 @@
 PREP(createTeleporter);
-PREP(initTeleporter);
+PREP(addActions);

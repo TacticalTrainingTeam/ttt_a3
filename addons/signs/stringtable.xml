@@ -2,7 +2,7 @@
 <Project name="ttt_a3">
     <Package name="signs">
         <Key ID="STR_ttt_signs_flag_blue_displayName">
-            <English>TTT Flag Blue</Englsh>
+            <English>TTT Flag Blue</English>
             <German>TTT Flagge Blau</German>
         </Key>
     </Package>

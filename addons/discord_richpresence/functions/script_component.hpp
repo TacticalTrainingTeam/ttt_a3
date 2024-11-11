@@ -1,1 +1,1 @@
-#include "\z\ttt\addons\discord_richpresence\script_component.hpp"
+#include "..\script_component.hpp"
