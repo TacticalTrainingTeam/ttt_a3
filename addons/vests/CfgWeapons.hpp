@@ -139,22 +139,18 @@ class CfgWeapons {
         displayName = QUOTE(TTT Crew Veste Basis);
     };
 
-    class ttt_Vest_Crew_US_Desert : ttt_Vest_Crew_Base {
+    class ttt_Vest_Crew_Bronze : ttt_Vest_Crew_Base {
         scope = 2;
-        displayName = QUOTE(TTT Crew Weste (US Desert));
-    };
-    
-    class ttt_Vest_Crew_Bronze : ttt_Vest_Crew_US_Desert {
         displayName = QUOTE(TTT Crew Weste Bronze);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_vest_bronze_co.paa)};
     };
     
-    class ttt_Vest_Crew_Silver : ttt_Vest_Crew_US_Desert {
+    class ttt_Vest_Crew_Silver : ttt_Vest_Crew_Bronze {
         displayName = QUOTE(TTT Crew Weste Silber);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_vest_silver_co.paa)};
     };
     
-    class ttt_Vest_Crew_White : ttt_Vest_Crew_US_Desert {
+    class ttt_Vest_Crew_White : ttt_Vest_Crew_Bronze {
         displayName = QUOTE(TTT Crew Weste Weiss);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_vest_white_co.paa)};
     };
