@@ -31,9 +31,9 @@ if (hasInterface) then {
 };
 
 if (isServer) then {
-    if (locked _veh isNotEqualTo 2) then {
+/*     if (locked _veh isNotEqualTo 2) then {
         [_veh, 2] remoteExecCall ["lock", _veh];
-    };
+    }; */
 
     if (_veh getVariable [QGVAR(RampAttribute), false] isEqualTo true) then { // type checking
         [_veh] call FUNC(openRamp);

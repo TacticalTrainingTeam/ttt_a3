@@ -18,7 +18,7 @@
 
 params ["_milan"];
 
-private _loadIcon = QPATHTOEF(Milan,data\ui\holdaction_load_milan);
+private _loadIcon = QPATHTOF(data\ui\holdaction_load_milan);
 // Milan laden
 [
     _milan,
@@ -39,7 +39,7 @@ private _loadIcon = QPATHTOEF(Milan,data\ui\holdaction_load_milan);
     false
 ] call BIS_fnc_holdActionAdd;
 
-private _unloadIcon = QPATHTOEF(Milan,data\ui\holdaction_unload_milan);
+private _unloadIcon = QPATHTOF(data\ui\holdaction_unload_milan);
 // Milan entladen
 [
     _milan,

@@ -23,5 +23,5 @@ _veh animate ["Hide_Knopf_Heck_luke", 0];
 
 [{(_this select 0) animationSourcePhase "heck_luke_rotation" > 0.9}, {
     params ["_veh"];
-    [_veh, 0] remoteExecCall ["lock", _veh];
+    //[_veh, 0] remoteExecCall ["lock", _veh];
 }, [_veh]] call CBA_fnc_waitUntilAndExecute;

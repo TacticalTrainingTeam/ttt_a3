@@ -21,4 +21,4 @@ params ["_veh"];
 _veh animateSource ["heck_luke_rotation", 0];
 _veh animate ["Hide_Knopf_Heck_luke", 1];
 
-[_veh, 2] remoteExecCall ["lock", _veh];
+//[_veh, 2] remoteExecCall ["lock", _veh];
