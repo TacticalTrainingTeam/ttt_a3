@@ -16,11 +16,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=182;
+		nextID=184;
 	};
 	class Camera
 	{
-		pos[]={4802.0879,12.901697,6868.4888};
+		pos[]={4793.9258,20.871746,6863.8931};
 		dir[]={0.1850815,-0.408342,0.89386898};
 		up[]={0.082793757,0.91282898,0.39986044};
 		aside[]={0.97922933,-7.4505806e-09,-0.20275593};
@@ -37,14 +37,13 @@ addons[]=
 	"A3_Air_F_Heli_Heli_Transport_03",
 	"ace_realisticnames",
 	"A3_Ui_F",
-	"ttt_rsr_vanilla_compat_ace",
-	"ttt_signs"
+	"ttt_rsr_vanilla_compat_ace"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=8;
+		items=7;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -91,13 +90,6 @@ class AddonsMetaData
 		{
 			className="ttt_rsr_vanilla_compat_ace";
 			name="TTT - RsR Vanilla Compat ACE";
-			author="Tactical Training Team";
-			url="https://tacticalteam.de";
-		};
-		class Item7
-		{
-			className="ttt_signs";
-			name="TTT - Signs";
 			author="Tactical Training Team";
 			url="https://tacticalteam.de";
 		};
@@ -13981,7 +13973,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=11;
+		items=10;
 		class Item0
 		{
 			dataType="Layer";
@@ -14534,12 +14526,13 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4787.4717,7.6292419,6901.1021};
+				position[]={4787.4722,7.6292419,6901.1021};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				name="fhz_01";
 			};
 			id=330;
 			type="rsr_bergepanzer_tropentarn";
@@ -14694,32 +14687,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4792.8047,7.1487036,6901.5322};
-				angles[]={0,6.2743011,0};
+				position[]={4792.8052,7.1487036,6901.5322};
+				angles[]={0,6.2743015,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				name="fhz_02";
 			};
 			id=363;
 			type="rsr_wisent_repair_flecktarn";
-		};
-		class Item10
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4803.3672,8.9768047,6882.9971};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				name="ttt_teleport_teleporter";
-			};
-			id=364;
-			type="ttt_Flag_Blue";
 		};
 	};
 };
