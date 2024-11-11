@@ -63,11 +63,6 @@ class CfgWeapons {
 		hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_yellow_vehiclecrew.paa)};
 	};
 
-    class ttt_Helmet_Old_Vehiclecrew : ttt_Helmet_Bronze_Vehiclecrew {
-		displayName = QUOTE(TTT Fahrzeugcrew (alt));
-		hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_Old_vehiclecrew.paa)};
-	};
-
 	//Infanterie Helme
 	class H_HelmetB_plain_mcamo;
 	class H_HelmetSpecB : H_HelmetB_plain_mcamo { class ItemInfo; };

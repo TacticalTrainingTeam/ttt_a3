@@ -29,7 +29,6 @@ class CfgPatches
             "ttt_Helmet_Grey_Vehiclecrew",
             "ttt_Helmet_Silver_Vehiclecrew",
             "ttt_Helmet_Yellow_Vehiclecrew",
-            "ttt_Helmet_Old_Vehiclecrew",
             "ttt_Helmet_1_US_Desert",
             "ttt_Helmet_2_US_Desert",
             "ttt_Helmet_3_US_Desert",

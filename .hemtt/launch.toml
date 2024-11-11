@@ -3,14 +3,16 @@
 workshop = [
     "463939057", # ACE3
     "450814997", # CBA_A3
-    "751965892", # ACRE
+    #"751965892", # ACRE
     "2369477168", # Advanced Developer Tools
-    "3023395342", # 3DEN Attributes Fast Load
+    #"3023395342", # 3DEN Attributes Fast Load
     "1779063631", # ZEN
 ]
 
 parameters = [
     "-world=empty",
+    "-noPause",
+    "-noPauseAudio"
 ]
 
 mission = "ttt_test.VR"
@@ -81,4 +83,25 @@ workshop = [
 extends = "default"
 workshop = [
     "1224892496", # GRAD Trenches
+]
+
+[server]
+extends = "default"
+parameters = [
+    "-server",
+    "-port=2302",
+    "-loadMissionToMemory",
+    "-filePatching",
+    #"-cfg=E:\\SteamLibrary\\steamapps\\common\\Arma 3\\basic.cfg",
+    "-config=E:\\SteamLibrary\\steamapps\\common\\Arma 3\\server.cfg",
+]
+
+[player]
+extends = "default"
+parameters = [
+    "-world=empty",
+    "-noPause",
+    "-noPauseAudio",
+    "-connect=127.0.0.1",
+    "-port=2302",
 ]

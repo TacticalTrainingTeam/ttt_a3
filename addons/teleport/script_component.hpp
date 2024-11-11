@@ -1,4 +1,4 @@
-#define COMPONENT teleporter_cam
+#define COMPONENT teleport
 #define COMPONENT_BEAUTIFIED Teleporter und Zuschauerkamera
 #include "\z\ttt\addons\main\script_mod.hpp"
 

@@ -1,3 +1,5 @@
+#include "script_component.hpp"
+
 /*
 The MIT License (MIT)
 
@@ -58,7 +60,7 @@ SA_Advanced_Towing_Install = {
 if(!isNil "SA_TOW_INIT") exitWith {};
 SA_TOW_INIT = true;
 
-diag_log "Advanced Towing Loading...";
+INFO("Advanced Towing Loading...");
 
 SA_Simulate_Towing_Speed = {
     
@@ -389,7 +391,7 @@ SA_Attach_Tow_Ropes = {
 SA_Take_Tow_Ropes = {
     params ["_vehicle","_player"];
     if(local _vehicle) then {
-        diag_log format ["Take Tow Ropes Called %1", _this];
+        INFO_1("Take Tow Ropes Called %1",_this);
         private ["_existingTowRopes","_hitchPoint","_rope"];
         _existingTowRopes = _vehicle getVariable ["SA_Tow_Ropes",[]];
         if(count _existingTowRopes == 0) then {
@@ -881,7 +883,7 @@ if(isServer) then {
     
 };
 
-diag_log "Advanced Towing Loaded";
+INFO("Advanced Towing Loaded");
 
 };
 

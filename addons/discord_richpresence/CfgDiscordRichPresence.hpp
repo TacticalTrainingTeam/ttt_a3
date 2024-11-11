@@ -6,6 +6,6 @@ class CfgDiscordRichPresence {
     defaultLargeImageText = "";     // Large image hover text
     defaultSmallImageKey = "";      // Small image
     defaultSmallImageText = "";     // Small image hover text
-    defaultButtons[] = {"Mitmachen", "https://www.tacticalteam.de/mitmachen", "Discord", "https://discord.tacticalteam.de"};          // Button texts and urls
+    defaultButtons[] = {"Mitmachen", "https://www.tacticalteam.de/mitmachen", "Discord", "https://discord.com/invite/tYX9TMc"};          // Button texts and urls
     useTimeElapsed = 1;             // Show time elapsed since the player connected (1 - true, 0 - false)
 };

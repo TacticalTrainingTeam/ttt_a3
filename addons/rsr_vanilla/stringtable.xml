@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt_a3">
-    <Package name="rsr_vanilla"/>
+    <Package name="rsr_vanilla">
         <Key ID="STR_ttt_rsr_vanilla_fennek_flecktarn">
             <English>Fennek (Flecktarn)</English>
             <German>Fennek (Flecktarn)</German>
@@ -33,4 +33,5 @@
             <English>Armored Recovery Vehicle (Tropentarn)</English>
             <German>Bergepanzer (Tropentarn)</German>
         </Key>
+    </Package>
 </Project>

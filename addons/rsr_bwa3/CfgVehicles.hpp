@@ -265,7 +265,7 @@ class CfgVehicles {
         scopeCurator = 2;
         scopeArsenal = 2;
         hiddenSelectionsTextures[] = {
-            "z\ttt\addons\rsr_bwa3\data\eagle\bwa3_eagle_tropen_dia_co.paa",
+            QPATHTOF(data\eagle\bwa3_eagle_tropen_dia_co.paa),
             "\bwa3_eagle\data\bwa3_eagle_fahrwerk_co.paa",
             "\bwa3_eagle\data\bwa3_eagle_int_co.paa",
             "\bwa3_eagle\data\bwa3_eagle_alpha_co.paa",
