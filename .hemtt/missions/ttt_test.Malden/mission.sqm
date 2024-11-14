@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=8;
+		nextID=12;
 	};
 	class Camera
 	{
-		pos[]={6504.8394,85.421356,3580.3293};
-		dir[]={-0.88799238,-0.45528966,0.064661533};
-		up[]={-0.45408744,0.89034337,0.033065587};
-		aside[]={0.072625384,0,0.99735945};
+		pos[]={6513.1226,96.843155,3585.5757};
+		dir[]={-0.74298185,-0.66581202,0.068354689};
+		up[]={-0.66301203,0.74611956,0.060997427};
+		aside[]={0.091613591,0,0.99579465};
 	};
 };
 binarizationWanted=0;
@@ -34,8 +34,6 @@ addons[]=
 	"A3_Supplies_F_Heli_CargoNets",
 	"A3_Characters_F_Heads",
 	"ace_goggles",
-	"ttt_compat_cup_vests",
-	"CUP_Creatures_Military_SLA",
 	"A3_Misc_F_Helpers",
 	"ttt_rsr_vanilla",
 	"A3_Armor_F_Beta_APC_Tracked_01",
@@ -49,7 +47,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=16;
+		items=14;
 		class Item0
 		{
 			className="A3_Data_F_Exp_A";
@@ -101,59 +99,47 @@ class AddonsMetaData
 		};
 		class Item7
 		{
-			className="ttt_compat_cup_vests";
-			name="TTT - Compat CUP Vests";
-			author="Tactical Training Team";
-			url="https://tacticalteam.de";
-		};
-		class Item8
-		{
-			className="CUP_Creatures_Military_SLA";
-			name="CUP_Creatures_Military_SLA";
-		};
-		class Item9
-		{
 			className="A3_Misc_F";
 			name="Arma 3 - 3D Aids and Helpers";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item10
+		class Item8
 		{
 			className="ttt_rsr_vanilla";
 			name="TTT - RsR Vanilla";
 			author="Tactical Training Team";
 			url="https://tacticalteam.de";
 		};
-		class Item11
+		class Item9
 		{
 			className="A3_Armor_F_Beta";
 			name="Arma 3 Beta - Armored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item12
+		class Item10
 		{
 			className="ace_interaction";
 			name="ACE3 - Interaction";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item13
+		class Item11
 		{
 			className="ace_rearm";
 			name="ACE3 - Rearm";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item14
+		class Item12
 		{
 			className="ace_refuel";
 			name="ACE3 - Refuel";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item15
+		class Item13
 		{
 			className="ace_vehicle_damage";
 			name="ACE3 - Vehicle Damage";
@@ -164,8 +150,7 @@ class AddonsMetaData
 };
 dlcs[]=
 {
-	"Heli",
-	"CUP_Units"
+	"Heli"
 };
 randomSeed=10768086;
 class ScenarioData
@@ -993,7 +978,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6490.3091,85.250816,3590.7087};
+				position[]={6487.6411,85.249634,3599.9065};
 				angles[]={6.2824135,0,0.0032018756};
 			};
 			side="Empty";
@@ -1009,16 +994,35 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6480.7456,85.217636,3590.3115};
-				angles[]={0,0,0.0032018756};
+				position[]={6495.0137,85.265488,3590.24};
+				angles[]={6.2824173,0,0.0031939524};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this call ttt_advancedtowing_fnc_initAdvancedTowing;";
+				name="tank_01";
 			};
 			id=27;
 			type="B_APC_Tracked_01_CRV_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""arifle_MX_F"",""arifle_MX_SW_F"",""launch_NLAW_F"",""FirstAidKit""],[2,1,1,10]],[[""30Rnd_65x39_caseless_mag"",""100Rnd_65x39_caseless_mag"",""HandGrenade"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""1Rnd_Smoke_Grenade_shell"",""1Rnd_SmokeGreen_Grenade_shell"",""1Rnd_SmokeOrange_Grenade_shell"",""1Rnd_SmokeBlue_Grenade_shell"",""SmokeShell"",""SmokeShellGreen"",""SmokeShellOrange"",""SmokeShellBlue"",""NLAW_F"",""Titan_AT"",""Titan_AP"",""Titan_AA""],[24,12,6,6,6,3,3,3,3,8,8,8,8,5,2,2,2]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 };

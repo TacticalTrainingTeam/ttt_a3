@@ -664,11 +664,13 @@ SA_Can_Pickup_Tow_Ropes = {
     isNull (player getVariable ["SA_Tow_Ropes_Vehicle", objNull]) && count (missionNamespace getVariable ["SA_Nearby_Tow_Vehicles",[]]) > 0 && isNull objectParent player;
 };
 
-SA_TOW_SUPPORTED_VEHICLES = [
-    "Tank", "Car", "Ship"
-];
+// SA_TOW_SUPPORTED_VEHICLES = [
+//     "Tank", "Car", "Ship"
+// ];
 
-/*SA_Is_Supported_Vehicle = {
+SA_TOW_SUPPORTED_VEHICLES = parseSimpleArray GVAR(supportedVehicles);
+
+SA_Is_Supported_Vehicle = {
     params ["_vehicle","_isSupported"];
     _isSupported = false;
     if(not isNull _vehicle) then {
@@ -680,20 +682,20 @@ SA_TOW_SUPPORTED_VEHICLES = [
     };
     _isSupported;
 };
-*/
-SA_Is_Supported_Vehicle = {
+
+/* SA_Is_Supported_Vehicle = {
     params ["_vehicle","_isSupported"];
     _isSupported = false;
     if(not isNull _vehicle) then {
         {
             if((typeOf _vehicle == "rsr_bergepanzer_flecktarn") or (typeOf _vehicle == "rsr_wisent_repair_flecktarn") or
-            (typeOf _vehicle == "rsr_bergepanzer_tropentarn") or (typeOf _vehicle == "rsr_wisent_repair_tropentarn")) then {
+            (typeOf _vehicle == "rsr_bergepanzer_tropentarn") or (typeOf _vehicle == "rsr_wisent_repair_tropentarn") or (typeOf _vehicle == "B_APC_Tracked_01_CRV_F")) then {
                 _isSupported = true;
             };
         } forEach (missionNamespace getVariable ["SA_TOW_SUPPORTED_VEHICLES_OVERRIDE",SA_Tow_Supported_Vehicles]);
     };
     _isSupported;
-};
+}; */
 
 SA_TOW_RULES = [
     ["Tank","CAN_TOW","Tank"],
