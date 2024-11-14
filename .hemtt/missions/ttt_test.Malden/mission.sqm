@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=6;
+		nextID=8;
 	};
 	class Camera
 	{
-		pos[]={6461.1992,99.057838,3583.3115};
-		dir[]={0.87379372,-0.47227436,0.11604105};
-		up[]={0.4681671,0.88145006,0.062173188};
-		aside[]={0.13164744,6.3155312e-08,-0.9913075};
+		pos[]={6504.8394,85.421356,3580.3293};
+		dir[]={-0.88799238,-0.45528966,0.064661533};
+		up[]={-0.45408744,0.89034337,0.033065587};
+		aside[]={0.072625384,0,0.99735945};
 	};
 };
 binarizationWanted=0;
@@ -32,6 +32,10 @@ addons[]=
 	"A3_Ui_F",
 	"ttt_signs",
 	"A3_Supplies_F_Heli_CargoNets",
+	"A3_Characters_F_Heads",
+	"ace_goggles",
+	"ttt_compat_cup_vests",
+	"CUP_Creatures_Military_SLA",
 	"A3_Misc_F_Helpers",
 	"ttt_rsr_vanilla",
 	"A3_Armor_F_Beta_APC_Tracked_01",
@@ -39,14 +43,13 @@ addons[]=
 	"ace_realisticnames",
 	"ace_rearm",
 	"ace_refuel",
-	"ace_vehicle_damage",
-	"acre_sys_intercom"
+	"ace_vehicle_damage"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=14;
+		items=16;
 		class Item0
 		{
 			className="A3_Data_F_Exp_A";
@@ -91,65 +94,78 @@ class AddonsMetaData
 		};
 		class Item6
 		{
+			className="ace_goggles";
+			name="ACE3 - Goggles";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item7
+		{
+			className="ttt_compat_cup_vests";
+			name="TTT - Compat CUP Vests";
+			author="Tactical Training Team";
+			url="https://tacticalteam.de";
+		};
+		class Item8
+		{
+			className="CUP_Creatures_Military_SLA";
+			name="CUP_Creatures_Military_SLA";
+		};
+		class Item9
+		{
 			className="A3_Misc_F";
 			name="Arma 3 - 3D Aids and Helpers";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item7
+		class Item10
 		{
 			className="ttt_rsr_vanilla";
 			name="TTT - RsR Vanilla";
 			author="Tactical Training Team";
 			url="https://tacticalteam.de";
 		};
-		class Item8
+		class Item11
 		{
 			className="A3_Armor_F_Beta";
 			name="Arma 3 Beta - Armored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item9
+		class Item12
 		{
 			className="ace_interaction";
 			name="ACE3 - Interaction";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item10
+		class Item13
 		{
 			className="ace_rearm";
 			name="ACE3 - Rearm";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item11
+		class Item14
 		{
 			className="ace_refuel";
 			name="ACE3 - Refuel";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item12
+		class Item15
 		{
 			className="ace_vehicle_damage";
 			name="ACE3 - Vehicle Damage";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item13
-		{
-			className="acre_sys_intercom";
-			name="ACRE2 - Vehicle Intercom";
-			author="ACRE2Team";
-			url="https://github.com/IDI-Systems/acre2";
-		};
 	};
 };
 dlcs[]=
 {
-	"Heli"
+	"Heli",
+	"CUP_Units"
 };
 randomSeed=10768086;
 class ScenarioData
@@ -931,6 +947,20 @@ class Mission
 					class Attributes
 					{
 						isPlayer=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_B_CombatUniform_mcam";
+								isBackpack=0;
+							};
+							class vest
+							{
+								typeName="CUP_V_O_SLA_Carrier_Belt";
+								isBackpack=0;
+							};
+							goggles="G_Tactical_Clear";
+						};
 					};
 					id=24;
 					type="B_Survivor_F";

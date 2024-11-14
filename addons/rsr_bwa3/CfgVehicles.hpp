@@ -230,9 +230,6 @@ class CfgVehicles {
         author = ECSTRING(rsr_core,RSR);
         displayName = CSTRING(eaglesan_lowvis_tropen);
         editorPreview = "";
-        scope = 2;
-        scopeCurator = 2;
-        scopeArsenal = 2;
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\eagle\bwa3_eagle_tropen_co_vis.paa),
             "\bwa3_eagle\data\bwa3_eagle_fahrwerk_co.paa",
@@ -257,13 +254,10 @@ class CfgVehicles {
         };
     };
 
-    class rsr_eagle_tropentarn_dia: rsr_eagle_tropen {
+    class rsr_eagle_tropen_dia: rsr_eagle_tropen {
         author = ECSTRING(rsr_core,rsr);
         displayName = CSTRING(eaglesan_diamant_tropen);
         editorPreview = "";
-        scope = 2;
-        scopeCurator = 2;
-        scopeArsenal = 2;
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\eagle\bwa3_eagle_tropen_dia_co.paa),
             "\bwa3_eagle\data\bwa3_eagle_fahrwerk_co.paa",
