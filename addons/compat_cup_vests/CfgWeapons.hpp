@@ -1,8 +1,7 @@
 //https://ace3.acemod.org/wiki/framework/wirecutter-framework
 //https://ace3.acemod.org/wiki/framework/trenches-framework
 
-class CfgWeapons
-{
+class CfgWeapons {
     class CUP_Vest_Camo_Base;
     class CUP_V_O_SLA_Flak_Vest01: CUP_Vest_Camo_Base {
 
