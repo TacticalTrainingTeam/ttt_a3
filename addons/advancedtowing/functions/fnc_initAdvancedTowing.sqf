@@ -664,11 +664,9 @@ SA_Can_Pickup_Tow_Ropes = {
     isNull (player getVariable ["SA_Tow_Ropes_Vehicle", objNull]) && count (missionNamespace getVariable ["SA_Nearby_Tow_Vehicles",[]]) > 0 && isNull objectParent player;
 };
 
-// SA_TOW_SUPPORTED_VEHICLES = [
-//     "Tank", "Car", "Ship"
-// ];
-
-SA_TOW_SUPPORTED_VEHICLES = parseSimpleArray GVAR(supportedVehicles);
+SA_TOW_SUPPORTED_VEHICLES = [
+    //"Tank", "Car", "Ship"
+];
 
 SA_Is_Supported_Vehicle = {
     params ["_vehicle","_isSupported"];
@@ -678,7 +676,7 @@ SA_Is_Supported_Vehicle = {
             if(_vehicle isKindOf _x) then {
                 _isSupported = true;
             };
-        } forEach (missionNamespace getVariable ["SA_TOW_SUPPORTED_VEHICLES_OVERRIDE",SA_TOW_SUPPORTED_VEHICLES]);
+        } forEach (missionNamespace getVariable ["SA_TOW_SUPPORTED_VEHICLES_OVERRIDE", SA_TOW_SUPPORTED_VEHICLES]);
     };
     _isSupported;
 };
@@ -786,8 +784,8 @@ SA_Find_Nearby_Tow_Vehicles = {
     private ["_nearVehicles","_nearVehiclesWithTowRopes","_vehicle","_ends","_end1","_end2"];
     _nearVehicles = [];
     {
-        _nearVehicles append  (position player nearObjects [_x, 30]);
-    } forEach (missionNamespace getVariable ["SA_TOW_SUPPORTED_VEHICLES_OVERRIDE",SA_Tow_Supported_Vehicles]);
+        _nearVehicles append (position player nearObjects [_x, 30]);
+    } forEach (missionNamespace getVariable ["SA_TOW_SUPPORTED_VEHICLES_OVERRIDE", SA_TOW_SUPPORTED_VEHICLES]);
     _nearVehiclesWithTowRopes = [];
     {
         _vehicle = _x;

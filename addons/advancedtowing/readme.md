@@ -4,7 +4,9 @@ Ermöglicht es, dass Fahrzeuge sich abschleppen.
 
 ## Settings
 
-```force ttt_advancedtowing_supportedVehicles = "[""rsr_wisent_repair_flecktarn"", ""rsr_wisent_repair_tropentarn""]";```
+in die init.sqf schreiben:
+
+```missionNamespace setVariable ["SA_TOW_SUPPORTED_VEHICLES_OVERRIDE", ["ClassName_des_Fahrzeugs"]];```
 
 ## Referenzen
 
