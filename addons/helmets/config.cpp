@@ -17,7 +17,41 @@ class CfgPatches
         requiredAddons[] = {"ttt_main",  "A3_Characters_F"};
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {
-    
+            "ttt_Helmet_Item_bw_fleck_1",
+            "ttt_Helmet_Item_bw_fleck_2",
+            "ttt_Helmet_Item_bw_fleck_3",
+            "ttt_Helmet_Item_bw_fleck_4",
+            "ttt_Helmet_Item_bw_fleck_5",
+            "ttt_Helmet_Item_bw_fleck_6",
+            "ttt_Helmet_Item_bw_fleck_7",
+            "ttt_Helmet_Item_bw_fleck_8",
+            "ttt_Helmet_Item_bw_fleck_9",
+            "ttt_Helmet_Item_bw_fleck_10",
+            "ttt_Helmet_Item_bw_fleck_11",
+
+            "ttt_Helmet_Item_bw_tropen_1",
+            "ttt_Helmet_Item_bw_tropen_2",
+            "ttt_Helmet_Item_bw_tropen_3",
+            "ttt_Helmet_Item_bw_tropen_4",
+            "ttt_Helmet_Item_bw_tropen_5",
+            "ttt_Helmet_Item_bw_tropen_6",
+            "ttt_Helmet_Item_bw_tropen_7",
+            "ttt_Helmet_Item_bw_tropen_8",
+            "ttt_Helmet_Item_bw_tropen_9",
+            "ttt_Helmet_Item_bw_tropen_10",
+            "ttt_Helmet_Item_bw_tropen_11",
+
+            "ttt_Helmet_Item_us_desert_1",
+            "ttt_Helmet_Item_us_desert_2",
+            "ttt_Helmet_Item_us_desert_3",
+            "ttt_Helmet_Item_us_desert_4",
+            "ttt_Helmet_Item_us_desert_5",
+            "ttt_Helmet_Item_us_desert_6",
+            "ttt_Helmet_Item_us_desert_7",
+            "ttt_Helmet_Item_us_desert_8",
+            "ttt_Helmet_Item_us_desert_9",
+            "ttt_Helmet_Item_us_desert_10",
+            "ttt_Helmet_Item_us_desert_11"
         };
         // List of weapons (CfgWeapons classes) contained in the addon.
         weapons[] = {
@@ -40,6 +74,28 @@ class CfgPatches
             "ttt_Helmet_9_US_Desert",
             "ttt_Helmet_10_US_Desert",
             "ttt_Helmet_11_US_Desert",
+            "ttt_Helmet_1_US_Flecktarn",
+            "ttt_Helmet_2_US_Flecktarn",
+            "ttt_Helmet_3_US_Flecktarn",
+            "ttt_Helmet_4_US_Flecktarn",
+            "ttt_Helmet_5_US_Flecktarn",
+            "ttt_Helmet_6_US_Flecktarn",
+            "ttt_Helmet_7_US_Flecktarn",
+            "ttt_Helmet_8_US_Flecktarn",
+            "ttt_Helmet_9_US_Flecktarn",
+            "ttt_Helmet_10_US_Flecktarn",
+            "ttt_Helmet_11_US_Flecktarn",
+            "ttt_Helmet_1_US_Tropentarn",
+            "ttt_Helmet_2_US_Tropentarn",
+            "ttt_Helmet_3_US_Tropentarn",
+            "ttt_Helmet_4_US_Tropentarn",
+            "ttt_Helmet_5_US_Tropentarn",
+            "ttt_Helmet_6_US_Tropentarn",
+            "ttt_Helmet_7_US_Tropentarn",
+            "ttt_Helmet_8_US_Tropentarn",
+            "ttt_Helmet_9_US_Tropentarn",
+            "ttt_Helmet_10_US_Tropentarn",
+            "ttt_Helmet_11_US_Tropentarn",
         };
 
         // Optional. If this is 1, if any of requiredAddons[] entry is missing in your game the entire config will be ignored and return no error (but in rpt) so useful to make a compat Mod (Since Arma 3 2.14)
@@ -48,3 +104,4 @@ class CfgPatches
 };
 
 #include "CfgWeapons.hpp"
+#include "CfgVehicles.hpp"
