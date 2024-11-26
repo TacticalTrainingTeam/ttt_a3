@@ -3,7 +3,7 @@ class CfgVehicles {
     class RHS_C130J;
     class rsr_c_161: RHS_C130J {
         author = ECSTRING(rsr_core,RSR);
-        displayName="C-161 Transall 2"; //ToDo Still translate?
+        displayName = CSTRING(C161Transall2);
         editorPreview="";
         editorSubcategory="EdSubcat_Planes";
         faction = "rsr";
@@ -16,7 +16,7 @@ class CfgVehicles {
     class RHS_C130J_Cargo;
     class rsr_c_161_viv: RHS_C130J_Cargo {
         author = ECSTRING(rsr_core,RSR);
-        displayName = "C-161 Transall 2 (VIV)"; //ToDo Still translate?
+        displayName = CSTRING(C161Transall2VIV);
         editorPreview="";
         editorSubcategory="EdSubcat_Planes";
         faction = "rsr";
