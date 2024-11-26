@@ -9,5 +9,13 @@
             <English>Helmet Snowcover</English>
             <German>Wintertarn Überzug Helm</German>
         </Key>
+        <Key ID="STR_ttt_rsr_cup_C161_Transall_2">
+            <English>C-161 Transall 2</English>
+            <German>C-161 Transall 2</German>
+        </Key>
+        <Key ID="STR_ttt_rsr_cup_C161_Transall_2_VIV">
+            <English>C-161 Transall 2 (VIV)</English>
+            <German>C-161 Transall 2 (VIV)</German>
+        </Key>
     </Package>
 </Project>

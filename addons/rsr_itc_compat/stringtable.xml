@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
- <Project name="ttt_a3">
+<Project name="ttt_a3">
     <Package name="rsr_itc_compat">
+            <Key ID="Fennek_Aufklaerung_Flecktarn">
+                <Original>Fennek Aufklärung (Flecktarn)</Original>
+                <German>Fennek Aufklärung (Flecktarn)</German>
+                <English>Fennek Reconnaissance (Flecktarn)</English>
+            </Key>
+            <Key ID="Fennek_Aufklaerung_Tropentarn">
+                <Original>Fennek Aufklärung (Tropentarn)</Original>
+                <German>Fennek Aufklärung (Tropentarn)</German>
+                <English>Fennek Reconnaissance (Tropentarn)</English>
+            </Key>
+            <Key ID="Fennek_Aufklaerung_HMG_Flecktarn">
+                <Original>Fennek Aufklärung HMG (Flecktarn)</Original>
+                <German>Fennek Aufklärung HMG (Flecktarn)</German>
+                <English>Fennek Reconnaissance HMG (Flecktarn)</English>
+            </Key>
+            <Key ID="Fennek_Aufklaerung_HMG_Tropentarn">
+                <Original>Fennek Aufklärung HMG (Tropentarn)</Original>
+                <German>Fennek Aufklärung HMG (Tropentarn)</German>
+                <English>Fennek Reconnaissance HMG (Tropentarn)</English>
+            </Key>
+            <Key ID="Fennek_Aufklaerung_GMW_Flecktarn">
+                <Original>Fennek Aufklärung GMW (Flecktarn)</Original>
+                <German>Fennek Aufklärung GMW (Flecktarn)</German>
+                <English>Fennek Reconnaissance GMG (Flecktarn)</English>
+            </Key>
+            <Key ID="Fennek_Aufklaerung_GMW_Tropentarn">
+                <Original>Fennek Aufklärung GMW (Tropentarn)</Original>
+                <German>Fennek Aufklärung GMW (Tropentarn)</German>
+                <English>Fennek Reconnaissance GMG (Tropentarn)</English>
+            </Key>
     </Package>
 </Project>
