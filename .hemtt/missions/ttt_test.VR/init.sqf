@@ -1,0 +1,1 @@
+missionNamespace setVariable ["SA_TOW_SUPPORTED_VEHICLES_OVERRIDE", ["rsr_bergepanzer_tropentarn", "rsr_wisent_repair_flecktarn"]];

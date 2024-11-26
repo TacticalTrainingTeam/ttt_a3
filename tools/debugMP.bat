@@ -8,7 +8,7 @@ rem Check if HEMMT is installed
 rem if not exist hemtt.exe (
 rem  echo Hemtt is not installed, please check the README.
 rem  exit
-rem)
+rem )
 
 rem Launch the HEMTT server
 hemtt launch server
