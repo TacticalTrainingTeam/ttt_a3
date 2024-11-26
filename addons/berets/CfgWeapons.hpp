@@ -4,7 +4,6 @@ class CfgWeapons {
         class ItemInfo;
     };
 
-    //could be H_Beret_02
     class ttt_Beret_Blue : H_Beret_02 {
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Reimchen"};
