@@ -33,5 +33,53 @@
             <English>Armored Recovery Vehicle (Tropentarn)</English>
             <German>Bergepanzer (Tropentarn)</German>
         </Key>
+        <Key ID="STR_ttt_rsr_vanilla_wisent_offen_flecktarn">
+            <English>Wisent open (Flecktarn)</English>
+            <German>Wisent offen (Flecktarn)</German>
+        </Key>
+        <Key ID="STR_ttt_rsr_vanilla_wisent_offen_tropentarn">
+            <English>Wisent open (Tropentarn)</English>
+            <German>Wisent offen (Tropentarn)</German>
+        </Key>
+        <Key ID="STR_ttt_rsr_vanilla_wisent_plane_flecktarn">
+            <English>Wisent covered (Flecktarn)</English>
+            <German>Wisent Plane (Flecktarn)</German>
+        </Key>
+        <Key ID="STR_ttt_rsr_vanilla_wisent_plane_tropentarn">
+            <English>Wisent covered (Tropentarn)</English>
+            <German>Wisent Plane (Tropentarn)</German>
+        </Key>
+        <Key ID="STR_ttt_rsr_vanilla_wisent_reparatur_flecktarn">
+            <English>Wisent repair (Flecktarn)</English>
+            <German>Wisent Reparatur (Flecktarn)</German>
+        </Key>
+        <Key ID="STR_ttt_rsr_vanilla_wisent_reparatur_tropentarn">
+            <English>Wisent repair (Tropentarn)</English>
+            <German>Wisent Reparatur (Tropentarn)</German>
+        </Key>
+        <Key ID="STR_ttt_rsr_vanilla_wisent_munition_flecktarn">
+            <English>Wisent ammo (Flecktarn)</English>
+            <German>Wisent Munition (Flecktarn)</German>
+        </Key>
+        <Key ID="STR_ttt_rsr_vanilla_wisent_munition_tropentarn">
+            <English>Wisent ammo (Tropentarn)</English>
+            <German>Wisent Munition (Tropentarn)</German>
+        </Key>
+        <Key ID="STR_ttt_rsr_vanilla_wisent_treibstoff_flecktarn">
+            <English>Wisent fuel (Flecktarn)</English>
+            <German>Wisent Treibstoff (Flecktarn)</German>
+        </Key>
+        <Key ID="STR_ttt_rsr_vanilla_wisent_treibstoff_tropentarn">
+            <English>Wisent fuel (Tropentarn)</English>
+            <German>Wisent Treibstoff (Tropentarn)</German>
+        </Key>
+        <Key ID="STR_ttt_rsr_vanilla_wisent_sanitat_flecktarn">
+            <English>Wisent medical (Flecktarn)</English>
+            <German>Wisent Sanität (Flecktarn)</German>
+        </Key>
+        <Key ID="STR_ttt_rsr_vanilla_wisent_sanitat_tropentarn">
+            <English>Wisent medical (Tropentarn)</English>
+            <German>Wisent Sanität (Tropentarn)</German>
+        </Key>
     </Package>
 </Project>
