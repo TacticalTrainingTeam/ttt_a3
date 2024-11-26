@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt_a3">
     <Package name="berets">
+        <Key ID="STR_ttt_berets_black">
+            <English>TTT Beret Black</English>
+            <German>TTT Barett Schwarz</German>
+        </Key>
         <Key ID="STR_ttt_berets_blue">
             <English>TTT Beret Blue</English>
             <German>TTT Barett Blau</German>
+        </Key>
+        <Key ID="STR_ttt_berets_bronze">
+            <English>TTT Beret Bronze</English>
+            <German>TTT Barett Bronze</German>
         </Key>
         <Key ID="STR_ttt_berets_brown">
             <English>TTT Beret Brown</English>
             <German>TTT Barett Braun</German>
         </Key>
-        <Key ID="STR_ttt_berets_black">
-            <English>TTT Beret Black</English>
-            <German>TTT Barett Schwarz</German>
+        <Key ID="STR_ttt_berets_gold">
+            <English>TTT Beret Gold</English>
+            <German>TTT Barett Gold</German>
         </Key>
         <Key ID="STR_ttt_berets_green">
             <English>TTT Beret Green</English>
             <German>TTT Barett Grün</German>
         </Key>
-        <Key ID="STR_ttt_berets_silver">
-            <English>TTT Beret Silver</English>
-            <German>TTT Barett Silber</German>
+        <Key ID="STR_ttt_berets_grey">
+            <English>TTT Beret Grey</English>
+            <German>TTT Barett Grau</German>
         </Key>
         <Key ID="STR_ttt_berets_logo">
             <English>TTT Beret Logo</English>
@@ -29,9 +37,21 @@
             <English>TTT Beret Orange</English>
             <German>TTT Barett Orange</German>
         </Key>
+        <Key ID="STR_ttt_berets_platinum">
+            <English>TTT Beret Platinum</English>
+            <German>TTT Barett Platin</German>
+        </Key>
         <Key ID="STR_ttt_berets_red">
             <English>TTT Beret Red</English>
             <German>TTT Barett Rot</German>
+        </Key>
+        <Key ID="STR_ttt_berets_silver">
+            <English>TTT Beret Silver</English>
+            <German>TTT Barett Silber</German>
+        </Key>
+        <Key ID="STR_ttt_berets_violet">
+            <English>TTT Beret Violet</English>
+            <German>TTT Barett Violett</German>
         </Key>
         <Key ID="STR_ttt_berets_white">
             <English>TTT Beret White</English>
@@ -40,26 +60,6 @@
         <Key ID="STR_ttt_berets_yellow">
             <English>TTT Beret Yellow</English>
             <German>TTT Barett Gelb</German>
-        </Key>
-        <Key ID="STR_ttt_berets_violet">
-            <English>TTT Beret Violet</English>
-            <German>TTT Barett Violett</German>
-        </Key>
-        <Key ID="STR_ttt_berets_platinum">
-            <English>TTT Beret Platinum</English>
-            <German>TTT Barett Platin</German>
-        </Key>
-        <Key ID="STR_ttt_berets_gold">
-            <English>TTT Beret Gold</English>
-            <German>TTT Barett Gold</German>
-        </Key>
-       <Key ID="STR_ttt_berets_grey">
-            <English>TTT Beret Grey</English>
-            <German>TTT Barett Grau</German>
-        </Key>
-        <Key ID="STR_ttt_berets_bronze">
-            <English>TTT Beret Bronze</English>
-            <German>TTT Barett Bronze</German>
         </Key>
     </Package>
 </Project>

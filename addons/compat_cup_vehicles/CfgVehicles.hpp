@@ -11,20 +11,5 @@ class CfgVehicles {
             };
         };
     };
-
-    class Car_F;
-    CUP_nHMMWV_Base: Car_F {
-        class ace_interaction_anims {
-            class hide_jerrycans { 
-                positions[] = {{-1.0, -2.7, -1.2}};
-                items[] = {"Land_CanisterFuel_F", "Land_CanisterFuel_F"};
-                text = "Removing Jerry Cans...";
-            };
-            class hide_spare_wheel { 
-                positions[] = {{0.25, -2.7, -1.2}};
-                items[] = {"ACE_Wheel"};
-                text = "Removing Jerry Cans...";
-            };
-        };
-    };
+    //ToDo ACRE Config Shelter Carrier
 };

@@ -112,17 +112,6 @@ class CfgVehicles {
         };
         class TransportWeapons { };
         class TransportMagazines { };
-        class UserActions {
-            class Towing {
-                displayName="Nehme Abschleppseil";
-                onlyforplayer=1;
-                position="mirrors_control";
-                radius=2;
-                showWindow=0;
-                condition="";
-                statement= QUOTE(ARR_1(_this) call EFUNC(advancedtowing,initAdvancedTowing));
-            };
-        };
     };
 
     class rsr_bergepanzer_tropentarn: rsr_bergepanzer_flecktarn {
@@ -279,17 +268,6 @@ class CfgVehicles {
                     QPATHTOF(data\wisent\wisent_flecktarn_ext02_co.paa),
                     QPATHTOF(data\wisent\wisent_flecktarn_ammo_co.paa)
                 };
-            };
-        };
-        class UserActions {
-            class Towing {
-                displayName = "Nehme Abschleppseil";
-                onlyforplayer = 1;
-                position = "mirrors_control";
-                radius = 2;
-                showWindow = 0;
-                condition = "";
-                statement = QUOTE(ARR_1(_this) call EFUNC(advancedtowing,initAdvancedTowing));
             };
         };
     };
