@@ -28,7 +28,7 @@ if (isNull objectParent GVAR(target)) then {
     _listOptions lbSetCurSel 0;
     GVAR(type) = "nearby";
 } else {
-    private _availableOptions = [[LSTRING(nearby)", "nearbyVehicle"]];
+    private _availableOptions = [[LSTRING(nearby), "nearbyVehicle"]];
     if (isNull driver vehicle GVAR(target)) then {
         _availableOptions pushBack [LSTRING(driver), "driver"];
     };
