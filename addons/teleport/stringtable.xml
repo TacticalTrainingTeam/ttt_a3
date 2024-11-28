@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt_a3">
     <Package name="teleporter_cam">
-        <Key ID="STR_ttt_teleporter_cam_category">
+        <Key ID="STR_ttt_teleport_category">
             <English>Teleport Logic</English>
             <German>Teleport Logik</German>
         </Key>
-        <Key ID="STR_ttt_teleporter_cam_displayName">
+        <Key ID="STR_ttt_teleport_displayName">
             <English>Teleport Logic</English>
             <German>Teleport Logik</German>
         </Key>
-        <Key ID="STR_ttt_teleporter_cam_enable_description">
+        <Key ID="STR_ttt_teleport_enable_description">
             <English>When enabled, a teleporter will automatically be created at the respawn point.</English>
             <German>Wenn aktiviert, wird automatisch ein Teleporter am Respawn erzeugt.</German>
         </Key>
-        <Key ID="STR_ttt_teleporter_cam_enable_displayName">
+        <Key ID="STR_ttt_teleport_enable_displayName">
             <English>Activate Teleport Logic</English>
             <German>Teleport Logik aktivieren</German>
         </Key>
