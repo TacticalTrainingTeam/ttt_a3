@@ -4,3 +4,4 @@ hemtt
 hemtt.exe
 *.biprivatekey
 .DS_Store
+/releases/*

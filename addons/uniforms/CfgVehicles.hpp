@@ -25,99 +25,106 @@ class CfgVehicles {
         displayName = "Klasse Platin Pilot";
         scope = 1;
         uniformClass = "ttt_Uniform_Platinum_Pilot";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_platinum_pilot.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_platinum_pilot.paa) };
     };
 
     class ttt_Yellow_US_Desert : ttt_Base_US {
         author = "Tactical Training Team";
-        displayName = "Klasse Gelb Desert";
+        displayName = CSTRING(yellow_US_Desert_DisplayName);
         scope = 1;
         uniformClass = "ttt_Uniform_Yellow_US_Desert";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_yellow_US_Desert.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_yellow_US_Desert.paa) };
     };
 
     class ttt_Grey_US_Desert : ttt_Yellow_US_Desert {
         author = "Tactical Training Team";
-        displayName = "Klasse Grau Desert";
+        displayName = CSTRING(grey_US_Desert_DisplayName);
         uniformClass = "ttt_Uniform_Grey_US_Desert";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_grey_US_Desert.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_grey_US_Desert.paa) };
     };
 
     class ttt_Gold_US_Desert : ttt_Yellow_US_Desert {
         author = "Tactical Training Team";
-        displayName = "Klasse Gold Desert";
+        displayName = CSTRING(gold_US_Desert_DisplayName);
         uniformClass = "ttt_Uniform_Gold_US_Desert";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_gold_US_Desert.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_gold_US_Desert.paa) };
     };
 
     class ttt_Green_US_Desert : ttt_Yellow_US_Desert {
         author = "Tactical Training Team";
-        displayName = "Klasse Grün Desert";
+        displayName = CSTRING(green_US_Desert_DisplayName);
         uniformClass = "ttt_Uniform_Green_US_Desert";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_green_US_Desert.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_green_US_Desert.paa) };
     };
 
     class ttt_Brown_US_Desert : ttt_Yellow_US_Desert {
         author = "Tactical Training Team";
-        displayName = "Klasse Braun Desert";
+        displayName = CSTRING(brown_US_Desert_DisplayName);
         uniformClass = "ttt_Uniform_Brown_US_Desert";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_brown_US_Desert.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_brown_US_Desert.paa) };
     };
 
     class ttt_Black_US_Desert : ttt_Yellow_US_Desert {
         author = "Tactical Training Team";
-        displayName = "Klasse Schwarz Desert";
+        displayName = CSTRING(black_US_Desert_DisplayName);
         uniformClass = "ttt_Uniform_Black_US_Desert";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_black_US_Desert.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_black_US_Desert.paa) };
     };
 
     class ttt_Red_US_Desert : ttt_Yellow_US_Desert {
         author = "Tactical Training Team";
-        displayName = "Klasse Rot Desert";
+        displayName = CSTRING(red_US_Desert_DisplayName);
         uniformClass = "ttt_Uniform_Red_US_Desert";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_red_US_Desert.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_red_US_Desert.paa) };
     };
 
     class ttt_Bronze_US_Desert : ttt_Yellow_US_Desert {
         author = "Tactical Training Team";
-        displayName = "Klasse Bronze Desert";
+        displayName = CSTRING(bronze_US_Desert_DisplayName);
         uniformClass = "ttt_Uniform_Bronze_US_Desert";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_bronze_US_Desert.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_bronze_US_Desert.paa) };
     };
 
     class ttt_Blue_US_Desert : ttt_Yellow_US_Desert {
         author = "Tactical Training Team";
-        displayName = "Klasse Blau Desert";
+        displayName = CSTRING(blue_US_Desert_DisplayName);
         uniformClass = "ttt_Uniform_Blue_US_Desert";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_blue_US_Desert.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_blue_US_Desert.paa) };
     };
 
     class ttt_Violet_US_Desert : ttt_Yellow_US_Desert {
         author = "Tactical Training Team";
-        displayName = "Klasse Violett Desert";
+        displayName = CSTRING(violet_US_Desert_DisplayName);
         uniformClass = "ttt_Uniform_Violet_US_Desert";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_violet_US_Desert.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_violet_US_Desert.paa) };
     };
 
     class ttt_White_US_Desert : ttt_Yellow_US_Desert {
         author = "Tactical Training Team";
-        displayName = "Klasse Weiss Desert";
+        displayName = CSTRING(white_US_Desert_DisplayName);
         uniformClass = "ttt_Uniform_White_US_Desert";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_white_US_Desert.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_white_US_Desert.paa) };
     };
+
+/*     class ttt_Silver_US_Desert : ttt_Yellow_US_Desert {
+        author = "Tactical Training Team";
+        displayName = "Klasse Silber Desert";
+        uniformClass = "ttt_Uniform_Silver_US_Desert";
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_silver_US_Desert.paa) };
+    }; */
 
     class ttt_Orange_US_Desert : ttt_Yellow_US_Desert {
         author = "Tactical Training Team";
-        displayName = "Klasse Orange Desert";
+        displayName = CSTRING(orange_US_Desert_DisplayName);
         uniformClass = "ttt_Uniform_Orange_US_Desert";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_orange_US_Desert.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_orange_US_Desert.paa) };
     };
 
     class ttt_Platinum_US_Desert : ttt_Yellow_US_Desert {
         author = "Tactical Training Team";
-        displayName = "Klasse Platin Desert";
+        displayName = CSTRING(platinum_US_Desert_DisplayName);
         uniformClass = "ttt_Uniform_Platinum_US_Desert";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_platinum_US_Desert.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_platinum_US_Desert.paa) };
     };
 
     class ttt_Base_BW : B_Soldier_base_F {
@@ -141,182 +148,187 @@ class CfgVehicles {
     //Flecktarn
     class ttt_Yellow_BW_Flecktarn : ttt_Base_BW {
         author = "Tactical Training Team";
-        displayName = "Klasse Gelb Flecktarn";
+        displayName = CSTRING(yellow_BW_Flecktarn_DisplayName);
         scope = 1;
         uniformClass = "ttt_Uniform_Yellow_BW_Flecktarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_yellow_bw_flecktarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_yellow_bw_flecktarn.paa) };
         //hiddenSelectionsMaterials[] = {"\ttt_units_base\data\ttt_uniform.rvmat"};
     };
 
     class ttt_Grey_BW_Flecktarn : ttt_Yellow_BW_Flecktarn {
         author = "Tactical Training Team";
-        displayName = "Klasse Grau Flecktarn";
+        displayName = CSTRING(grey_BW_Flecktarn_DisplayName);
         uniformClass = "ttt_Uniform_Grey_BW_Flecktarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_grey_bw_flecktarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_grey_bw_flecktarn.paa) };
     };
 
     class ttt_Gold_BW_Flecktarn : ttt_Yellow_BW_Flecktarn {
         author = "Tactical Training Team";
-        displayName = "Klasse Gold Flecktarn";
+        displayName = CSTRING(gold_BW_Flecktarn_DisplayName);
         uniformClass = "ttt_Uniform_Gold_BW_Flecktarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_gold_bw_flecktarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_gold_bw_flecktarn.paa) };
     };
 
     class ttt_Green_BW_Flecktarn : ttt_Yellow_BW_Flecktarn {
         author = "Tactical Training Team";
-        displayName = "Klasse Grün Flecktarn";
+        displayName = CSTRING(green_BW_Flecktarn_DisplayName);
         uniformClass = "ttt_Uniform_Green_BW_Flecktarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_green_bw_flecktarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_green_bw_flecktarn.paa) };
     };
 
     class ttt_Brown_BW_Flecktarn : ttt_Yellow_BW_Flecktarn {
         author = "Tactical Training Team";
-        displayName = "Klasse Braun Flecktarn";
+        displayName = CSTRING(brown_BW_Flecktarn_DisplayName);
         uniformClass = "ttt_Uniform_Brown_BW_Flecktarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_brown_bw_flecktarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_brown_bw_flecktarn.paa) };
     };
 
     class ttt_Black_BW_Flecktarn : ttt_Yellow_BW_Flecktarn {
         author = "Tactical Training Team";
-        displayName = "Klasse Schwarz Flecktarn";
+        displayName = CSTRING(black_BW_Flecktarn_DisplayName);
         uniformClass = "ttt_Uniform_Black_BW_Flecktarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_black_bw_flecktarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_black_bw_flecktarn.paa) };
     };
 
     class ttt_Red_BW_Flecktarn : ttt_Yellow_BW_Flecktarn {
         author = "Tactical Training Team";
-        displayName = "Klasse Rot Flecktarn";
+        displayName = CSTRING(red_BW_Flecktarn_DisplayName);
         uniformClass = "ttt_Uniform_Red_BW_Flecktarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_red_bw_flecktarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_red_bw_flecktarn.paa) };
     };
 
     class ttt_Bronze_BW_Flecktarn : ttt_Yellow_BW_Flecktarn {
         author = "Tactical Training Team";
-        displayName = "Klasse Bronze Flecktarn";
+        displayName = CSTRING(bronze_BW_Flecktarn_DisplayName);
         uniformClass = "ttt_Uniform_Bronze_BW_Flecktarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_bronze_bw_flecktarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_bronze_bw_flecktarn.paa) };
     };
 
     class ttt_Blue_BW_Flecktarn : ttt_Yellow_BW_Flecktarn {
         author = "Tactical Training Team";
-        displayName = "Klasse Blau Flecktarn";
+        displayName = CSTRING(blue_BW_Flecktarn_DisplayName);
         uniformClass = "ttt_Uniform_Blue_BW_Flecktarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_blue_bw_flecktarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_blue_bw_flecktarn.paa) };
     };
 
     class ttt_Violet_BW_Flecktarn : ttt_Yellow_BW_Flecktarn {
         author = "Tactical Training Team";
-        displayName = "Klasse Violett Flecktarn";
+        displayName = CSTRING(violet_BW_Flecktarn_DisplayName);
         uniformClass = "ttt_Uniform_Violet_BW_Flecktarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_violet_bw_flecktarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_violet_bw_flecktarn.paa) };
     };
 
     class ttt_White_BW_Flecktarn : ttt_Yellow_BW_Flecktarn {
         author = "Tactical Training Team";
-        displayName = "Klasse Weiss Flecktarn";
+        displayName = CSTRING(white_BW_Flecktarn_DisplayName);
         uniformClass = "ttt_Uniform_White_BW_Flecktarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_white_bw_flecktarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_white_bw_flecktarn.paa) };
     };
 
     class ttt_Silver_BW_Flecktarn : ttt_Yellow_BW_Flecktarn {
         author = "Tactical Training Team";
-        displayName = "Klasse Silber Flecktarn";
+        displayName = CSTRING(silver_BW_Flecktarn_DisplayName);
         uniformClass = "ttt_Uniform_Silver_BW_Flecktarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_silver_bw_flecktarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_silver_bw_flecktarn.paa) };
     };
 
     class ttt_Orange_BW_Flecktarn : ttt_Yellow_BW_Flecktarn {
         author = "Tactical Training Team";
-        displayName = "Klasse Orange Flecktarn";
+        displayName = CSTRING(orange_BW_Flecktarn_DisplayName);
         uniformClass = "ttt_Uniform_Orange_BW_Flecktarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_orange_bw_flecktarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_orange_bw_flecktarn.paa) };
     };
 
     //Tropentarn
     class ttt_Yellow_BW_Tropentarn : ttt_Base_BW {
         author = "Tactical Training Team";
-        displayName = "Klasse Gelb Tropentarn";
+        displayName = CSTRING(yellow_BW_Tropentarn_DisplayName);
         scope = 1;
         uniformClass = "ttt_Uniform_Yellow_BW_Tropentarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_yellow_bw_tropentarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_yellow_bw_tropentarn.paa) };
     };
 
     class ttt_Grey_BW_Tropentarn : ttt_Yellow_BW_Tropentarn {
         author = "Tactical Training Team";
-        displayName = "Klasse Grau Tropentarn";
+        displayName = CSTRING(grey_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_Grey_BW_Tropentarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_grey_bw_tropentarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_grey_bw_tropentarn.paa) };
     };
 
     class ttt_Gold_BW_Tropentarn : ttt_Yellow_BW_Tropentarn {
         author = "Tactical Training Team";
-        displayName = "Klasse Gold Tropentarn";
+        displayName = CSTRING(gold_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_Gold_BW_Tropentarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_gold_bw_tropentarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_gold_bw_tropentarn.paa) };
     };
 
     class ttt_Green_BW_Tropentarn : ttt_Yellow_BW_Tropentarn {
         author = "Tactical Training Team";
-        displayName = "Klasse Grün Tropentarn";
+        displayName = CSTRING(green_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_Green_BW_Tropentarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_green_bw_tropentarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_green_bw_tropentarn.paa) };
     };
 
     class ttt_Brown_BW_Tropentarn : ttt_Yellow_BW_Tropentarn {
         author = "Tactical Training Team";
-        displayName = "Klasse Braun Tropentarn";
+        displayName = CSTRING(brown_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_Brown_BW_Tropentarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_brown_bw_tropentarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_brown_bw_tropentarn.paa) };
     };
 
     class ttt_Black_BW_Tropentarn : ttt_Yellow_BW_Tropentarn {
         author = "Tactical Training Team";
-        displayName = "Klasse Schwarz Tropentarn";
+        displayName = CSTRING(black_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_Black_BW_Tropentarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_black_bw_tropentarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_black_bw_tropentarn.paa) };
     };
 
     class ttt_Red_BW_Tropentarn : ttt_Yellow_BW_Tropentarn {
         author = "Tactical Training Team";
-        displayName = "Klasse Rot Tropentarn";
+        displayName = CSTRING(red_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_Red_BW_Tropentarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_red_bw_tropentarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_red_bw_tropentarn.paa) };
     };
 
     class ttt_Bronze_BW_Tropentarn : ttt_Yellow_BW_Tropentarn {
         author = "Tactical Training Team";
-        displayName = "Klasse Bronze Tropentarn";
+        displayName = CSTRING(bronze_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_Bronze_BW_Tropentarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_bronze_bw_tropentarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_bronze_bw_tropentarn.paa) };
     };
 
     class ttt_Blue_BW_Tropentarn : ttt_Yellow_BW_Tropentarn {
         author = "Tactical Training Team";
-        displayName = "Klasse Blau Tropentarn";
+        displayName = CSTRING(blue_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_Blue_BW_Tropentarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_blue_bw_tropentarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_blue_bw_tropentarn.paa) };
     };
 
     class ttt_Violet_BW_Tropentarn : ttt_Yellow_BW_Tropentarn {
         author = "Tactical Training Team";
-        displayName = "Klasse Violett Tropentarn";
+        displayName = CSTRING(violet_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_Violet_BW_Tropentarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_violet_bw_tropentarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_violet_bw_tropentarn.paa) };
     };
 
     class ttt_White_BW_Tropentarn : ttt_Yellow_BW_Tropentarn {
         author = "Tactical Training Team";
-        displayName = "Klasse Weiss Tropentarn";
+        displayName = CSTRING(white_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_White_BW_Tropentarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_white_bw_tropentarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_white_bw_tropentarn.paa) };
     };
+
+/*     class ttt_Silver_BW_Tropentarn : ttt_Yellow_BW_Tropentarn {
+        author = "Tactical Training Team";
+        displayName = "Klasse Silber Tropentarn";
+        uniformClass = "ttt_Uniform_silver_BW_Tropentarn";
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_silver_bw_tropentarn.paa) };
+    }; */
 
     class ttt_Orange_BW_Tropentarn : ttt_Yellow_BW_Tropentarn {
         author = "Tactical Training Team";
-        displayName = "Klasse Orange Tropentarn";
+        displayName = CSTRING(orange_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_Orange_BW_Tropentarn";
-        hiddenSelectionsTextures[] = { "z\ttt\addons\uniforms\data\ttt_uniform_orange_bw_tropentarn.paa" };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_orange_bw_tropentarn.paa) };
     };
-
-
 };

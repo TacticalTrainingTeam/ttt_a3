@@ -1,0 +1,1028 @@
+version=54;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=513;
+	class ItemIDProvider
+	{
+		nextID=28;
+	};
+	class LayerIndexProvider
+	{
+		nextID=12;
+	};
+	class Camera
+	{
+		pos[]={6513.1226,96.843155,3585.5757};
+		dir[]={-0.74298185,-0.66581202,0.068354689};
+		up[]={-0.66301203,0.74611956,0.060997427};
+		aside[]={0.091613591,0,0.99579465};
+	};
+};
+binarizationWanted=0;
+sourceName="ttt_test";
+addons[]=
+{
+	"A3_Data_F_Exp_A_Virtual",
+	"A3_Characters_F",
+	"A3_Modules_F_Curator_Curator",
+	"A3_Ui_F",
+	"ttt_signs",
+	"A3_Supplies_F_Heli_CargoNets",
+	"A3_Characters_F_Heads",
+	"ace_goggles",
+	"A3_Misc_F_Helpers",
+	"ttt_rsr_vanilla",
+	"A3_Armor_F_Beta_APC_Tracked_01",
+	"ace_interaction",
+	"ace_realisticnames",
+	"ace_rearm",
+	"ace_refuel",
+	"ace_vehicle_damage"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=14;
+		class Item0
+		{
+			className="A3_Data_F_Exp_A";
+			name="Arma 3 Nexus Update - Main Configuration";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item2
+		{
+			className="A3_Modules_F_Curator";
+			name="Arma 3 Zeus Update - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item3
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item4
+		{
+			className="ttt_signs";
+			name="TTT - Signs";
+			author="Tactical Training Team";
+			url="https://tacticalteam.de";
+		};
+		class Item5
+		{
+			className="A3_Supplies_F_Heli";
+			name="Arma 3 Helicopters - Ammoboxes and Supplies";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item6
+		{
+			className="ace_goggles";
+			name="ACE3 - Goggles";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item7
+		{
+			className="A3_Misc_F";
+			name="Arma 3 - 3D Aids and Helpers";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item8
+		{
+			className="ttt_rsr_vanilla";
+			name="TTT - RsR Vanilla";
+			author="Tactical Training Team";
+			url="https://tacticalteam.de";
+		};
+		class Item9
+		{
+			className="A3_Armor_F_Beta";
+			name="Arma 3 Beta - Armored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item10
+		{
+			className="ace_interaction";
+			name="ACE3 - Interaction";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item11
+		{
+			className="ace_rearm";
+			name="ACE3 - Rearm";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item12
+		{
+			className="ace_refuel";
+			name="ACE3 - Refuel";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item13
+		{
+			className="ace_vehicle_damage";
+			name="ACE3 - Vehicle Damage";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+	};
+};
+dlcs[]=
+{
+	"Heli"
+};
+randomSeed=10768086;
+class ScenarioData
+{
+	author="&x";
+};
+class CustomAttributes
+{
+	class Category0
+	{
+		name="Scenario";
+		class Attribute0
+		{
+			property="cba_settings_hasSettingsFile";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					singleType="BOOL";
+					value=1;
+				};
+			};
+		};
+		nAttributes=1;
+	};
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		wavesForced=1;
+		windForced=1;
+		year=2035;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=7;
+		class Item0
+		{
+			dataType="Layer";
+			name="TTT - Vorlage - Module";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Layer";
+					name="Grundlegendes";
+					class Entities
+					{
+						items=19;
+						class Item0
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={6496.561,82.623962,3581.2361};
+							};
+							name="spectator_01";
+							isPlayable=1;
+							id=2;
+							type="VirtualSpectator_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="AllowFreeCamera";
+									expression="_this setVariable ['AllowFreeCamera', _value];";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="WhitelistedSides";
+									expression="_this setVariable ['WhitelistedSides', _value];";
+									class Value
+									{
+										class data
+										{
+											singleType="ARRAY";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="ShowFocusInfo";
+									expression="_this setVariable ['ShowFocusInfo', _value];";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="AllowAi";
+									expression="_this setVariable ['AllowAi', _value];";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								class Attribute4
+								{
+									property="Allow3PPCamera";
+									expression="_this setVariable ['Allow3PPCamera', _value];";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								nAttributes=5;
+							};
+						};
+						class Item1
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={6494.561,82.617569,3581.2361};
+							};
+							name="spectator_02";
+							isPlayable=1;
+							id=3;
+							type="VirtualSpectator_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="AllowFreeCamera";
+									expression="_this setVariable ['AllowFreeCamera', _value];";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="WhitelistedSides";
+									expression="_this setVariable ['WhitelistedSides', _value];";
+									class Value
+									{
+										class data
+										{
+											singleType="ARRAY";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="ShowFocusInfo";
+									expression="_this setVariable ['ShowFocusInfo', _value];";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="AllowAi";
+									expression="_this setVariable ['AllowAi', _value];";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								class Attribute4
+								{
+									property="Allow3PPCamera";
+									expression="_this setVariable ['Allow3PPCamera', _value];";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								nAttributes=5;
+							};
+						};
+						class Item2
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={6492.561,82.610199,3581.2361};
+							};
+							name="spectator_03";
+							isPlayable=1;
+							id=4;
+							type="VirtualSpectator_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="AllowFreeCamera";
+									expression="_this setVariable ['AllowFreeCamera', _value];";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="WhitelistedSides";
+									expression="_this setVariable ['WhitelistedSides', _value];";
+									class Value
+									{
+										class data
+										{
+											singleType="ARRAY";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="ShowFocusInfo";
+									expression="_this setVariable ['ShowFocusInfo', _value];";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="AllowAi";
+									expression="_this setVariable ['AllowAi', _value];";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								class Attribute4
+								{
+									property="Allow3PPCamera";
+									expression="_this setVariable ['Allow3PPCamera', _value];";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								nAttributes=5;
+							};
+						};
+						class Item3
+						{
+							dataType="Comment";
+							class PositionInfo
+							{
+								position[]={6498.561,82.607193,3581.2361};
+							};
+							title="Streamator x3";
+							description="für weitere Streamator-Slots das Modul einfach kopieren";
+							id=5;
+							atlOffset=-0.023170471;
+						};
+						class Item4
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={6496.561,82.619156,3579.2361};
+							};
+							name="hc_01";
+							isPlayable=1;
+							id=6;
+							type="HeadlessClient_F";
+						};
+						class Item5
+						{
+							dataType="Comment";
+							class PositionInfo
+							{
+								position[]={6498.561,82.607193,3579.2361};
+							};
+							title="Headless Client";
+							description="für bis zu 2 weitere HCs das Modul einfack kopieren";
+							id=7;
+							atlOffset=-0.018363953;
+						};
+						class Item6
+						{
+							dataType="Comment";
+							class PositionInfo
+							{
+								position[]={6498.561,82.607193,3577.2361};
+							};
+							title="Zeuse";
+							id=8;
+							atlOffset=-0.013565063;
+						};
+						class Item7
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={6496.561,82.613403,3577.2361};
+							};
+							id=9;
+							type="ModuleCurator_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="ModuleCurator_F_Owner";
+									expression="_this setVariable ['Owner',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="#adminVoted";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="ModuleCurator_F_Forced";
+									expression="_this setVariable ['Forced',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=0;
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="ModuleCurator_F_Name";
+									expression="_this setVariable ['Name',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="";
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="ModuleCurator_F_Addons";
+									expression="_this setVariable ['Addons',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=3;
+										};
+									};
+								};
+								nAttributes=4;
+							};
+						};
+						class Item8
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={6494.561,82.6054,3577.2361};
+							};
+							id=10;
+							type="ModuleCurator_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="ModuleCurator_F_Owner";
+									expression="_this setVariable ['Owner',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="#adminLogged";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="ModuleCurator_F_Forced";
+									expression="_this setVariable ['Forced',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=0;
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="ModuleCurator_F_Name";
+									expression="_this setVariable ['Name',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="";
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="ModuleCurator_F_Addons";
+									expression="_this setVariable ['Addons',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=3;
+										};
+									};
+								};
+								nAttributes=4;
+							};
+						};
+						class Item9
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={6490.561,82.589401,3577.2361};
+							};
+							id=11;
+							type="ModuleCurator_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="ModuleCurator_F_Owner";
+									expression="_this setVariable ['Owner',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="zeus_01";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="ModuleCurator_F_Forced";
+									expression="_this setVariable ['Forced',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=0;
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="ModuleCurator_F_Name";
+									expression="_this setVariable ['Name',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="";
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="ModuleCurator_F_Addons";
+									expression="_this setVariable ['Addons',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=3;
+										};
+									};
+								};
+								nAttributes=4;
+							};
+						};
+						class Item10
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={6492.561,82.597397,3577.2361};
+							};
+							id=12;
+							type="ModuleCurator_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="ModuleCurator_F_Owner";
+									expression="_this setVariable ['Owner',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="deineSpielerID";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="ModuleCurator_F_Forced";
+									expression="_this setVariable ['Forced',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=0;
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="ModuleCurator_F_Name";
+									expression="_this setVariable ['Name',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="";
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="ModuleCurator_F_Addons";
+									expression="_this setVariable ['Addons',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=3;
+										};
+									};
+								};
+								nAttributes=4;
+							};
+						};
+						class Item11
+						{
+							dataType="Comment";
+							class PositionInfo
+							{
+								position[]={6490.561,82.607193,3578.2361};
+							};
+							title="Zeusslot";
+							description="Zeusslot muss den Variablennamen ""zeus_01"" haben" \n "für weitere Zeusslots das Modul einfach kopieren und Variable anpassen";
+							id=13;
+							atlOffset=0.014595032;
+						};
+						class Item12
+						{
+							dataType="Comment";
+							class PositionInfo
+							{
+								position[]={6492.561,82.607193,3578.2361};
+							};
+							title="Missionsbauer (deine SteamID einfügen)";
+							id=14;
+							atlOffset=0.0065994263;
+						};
+						class Item13
+						{
+							dataType="Comment";
+							class PositionInfo
+							{
+								position[]={6494.561,82.607193,3578.2361};
+							};
+							title="#adminLogged";
+							id=15;
+							atlOffset=-0.0014038086;
+						};
+						class Item14
+						{
+							dataType="Comment";
+							class PositionInfo
+							{
+								position[]={6496.561,82.607193,3578.2361};
+							};
+							title="#adminVoted";
+							id=16;
+							atlOffset=-0.0094070435;
+						};
+						class Item15
+						{
+							dataType="Marker";
+							position[]={6497.561,82.611,3575.2361};
+							name="respawn";
+							type="Empty";
+							id=17;
+						};
+						class Item16
+						{
+							dataType="Comment";
+							class PositionInfo
+							{
+								position[]={6498.561,82.607193,3575.2361};
+							};
+							title="Respawn (Marker nur über Karte sichtbar)";
+							id=18;
+							atlOffset=-0.0078125;
+						};
+						class Item17
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6496.561,86.583054,3573.2361};
+								angles[]={0,0,0.0039967569};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								name="ttt_teleporter";
+							};
+							id=19;
+							type="ttt_Flag_Logo";
+						};
+						class Item18
+						{
+							dataType="Comment";
+							class PositionInfo
+							{
+								position[]={6498.561,82.607193,3573.2361};
+							};
+							title="W-Teleporter & Zuschauerkamera";
+							id=20;
+							atlOffset=-0.0070571899;
+						};
+					};
+					id=1;
+					atlOffset=-0.0039291382;
+				};
+			};
+			id=0;
+			atlOffset=-0.0039291382;
+		};
+		class Item1
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6497.9404,83.437073,3568.658};
+				angles[]={0,0,0.0039967569};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="[this, true] call ace_arsenal_fnc_initBox;";
+			};
+			id=21;
+			type="B_CargoNet_01_ammo_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item2
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={6497.9761,82.607193,3568.9128};
+			};
+			title="Arsenal";
+			id=22;
+			atlOffset=-0.0047149658;
+		};
+		class Item3
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6499.8193,82.636452,3581.5452};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						isPlayer=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_B_CombatUniform_mcam";
+								isBackpack=0;
+							};
+							class vest
+							{
+								typeName="CUP_V_O_SLA_Carrier_Belt";
+								isBackpack=0;
+							};
+							goggles="G_Tactical_Clear";
+						};
+					};
+					id=24;
+					type="B_Survivor_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=23;
+		};
+		class Item4
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6507.8325,83.722198,3569.1365};
+				angles[]={0,6.2317696,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				name="pointer";
+			};
+			id=25;
+			type="Sign_Pointer_Pink_F";
+			atlOffset=1.0318222;
+		};
+		class Item5
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6487.6411,85.249634,3599.9065};
+				angles[]={6.2824135,0,0.0032018756};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=26;
+			type="rsr_bergepanzer_tropentarn";
+		};
+		class Item6
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6495.0137,85.265488,3590.24};
+				angles[]={6.2824173,0,0.0031939524};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this call ttt_advancedtowing_fnc_initAdvancedTowing;";
+				name="tank_01";
+			};
+			id=27;
+			type="B_APC_Tracked_01_CRV_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""arifle_MX_F"",""arifle_MX_SW_F"",""launch_NLAW_F"",""FirstAidKit""],[2,1,1,10]],[[""30Rnd_65x39_caseless_mag"",""100Rnd_65x39_caseless_mag"",""HandGrenade"",""MiniGrenade"",""1Rnd_HE_Grenade_shell"",""1Rnd_Smoke_Grenade_shell"",""1Rnd_SmokeGreen_Grenade_shell"",""1Rnd_SmokeOrange_Grenade_shell"",""1Rnd_SmokeBlue_Grenade_shell"",""SmokeShell"",""SmokeShellGreen"",""SmokeShellOrange"",""SmokeShellBlue"",""NLAW_F"",""Titan_AT"",""Titan_AP"",""Titan_AA""],[24,12,6,6,6,3,3,3,3,8,8,8,8,5,2,2,2]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+	};
+};
