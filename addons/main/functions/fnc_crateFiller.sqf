@@ -10,18 +10,22 @@
  * None
  *
  * Example:
- * [[fahrzeug_01], [["Toolkit", 1],["ACE_Entrenchingtool", 1]] call ttt_main_fnc_crateFiller;
+ * [[fahrzeug_01], [["Toolkit", 1],["ACE_Entrenchingtool", 1], false] call ttt_main_fnc_crateFiller;
  *
  * Public: Yes
  */
 
- params ["_crates", "_content"];
+ params ["_crates", "_content", ["_clearCrate", true]];
 {
     _crateObject = _x;
-    clearWeaponCargoGlobal _crateObject;
-    clearMagazineCargoGlobal _crateObject;
-    clearItemCargoGlobal _crateObject;
-    clearBackpackCargoGlobal _crateObject;
+    
+    if (_clearCrate) then {
+        clearWeaponCargoGlobal _crateObject;
+        clearMagazineCargoGlobal _crateObject;
+        clearItemCargoGlobal _crateObject;
+        clearBackpackCargoGlobal _crateObject; 
+    };
+
     {
         call {
             if ((_x select 0) isKindOf ["ItemCore", configFile >> "CfgWeapons"]) exitWith {
