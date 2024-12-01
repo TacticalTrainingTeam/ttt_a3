@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
- <Project name="ttt_a3">
+<Project name="ttt_a3">
     <Package name="rsr_cup">
         <Key ID="STR_ttt_rsr_cup_snowCamoDisplayName">
             <English>Snowcamo Cover</English>
@@ -8,6 +8,14 @@
         <Key ID="STR_ttt_rsr_cup_snowHelmetDisplayName">
             <English>Helmet Snowcover</English>
             <German>Wintertarn Überzug Helm</German>
+        </Key>
+        <Key ID="STR_ttt_rsr_cup_C161_Transall_2">
+            <English>C-161 Transall 2</English>
+            <German>C-161 Transall 2</German>
+        </Key>
+        <Key ID="STR_ttt_rsr_cup_C161_Transall_2_VIV">
+            <English>C-161 Transall 2 (VIV)</English>
+            <German>C-161 Transall 2 (VIV)</German>
         </Key>
     </Package>
 </Project>

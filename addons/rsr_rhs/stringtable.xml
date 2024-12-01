@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt_a3">
     <Package name="rsr_rhs">
+        <Key ID="STR_ttt_rsr_rhs_C161Transall2">
+            <German>C-161 Transall 2</German>
+            <English>C-161 Transall 2</English>
+        </Key>
+        <Key ID="STR_ttt_rsr_rhs_C161Transall2VIV">
+            <German>C-161 Transall 2 (VIV)</German>
+            <English>C-161 Transall 2 (VIV)</English>
+        </Key>
     </Package>
 </Project>

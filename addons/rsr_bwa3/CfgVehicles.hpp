@@ -3,7 +3,7 @@ class CfgVehicles {
     class rsr_eagle_fleck: bwa3_eagle_fleck {
         author = CSTRING(RSR);
         attendant = 1;
-        displayName = "Eagle IV Sanität (Flecktarn)";
+        displayName = CSTRING(Eagle_IV_Sanität_Flecktarn);
         typicalCargo[] = {"B_medic_F"};
         crew = "B_medic_F";
         side = 1;
@@ -95,7 +95,7 @@ class CfgVehicles {
 
     class rsr_eagle_fleck_lowvis: rsr_eagle_fleck {
         author = ECSTRING(rsr_core,rsr);
-        displayName = QUOTE(Eagle IV Sanität lowvis (Flecktarn));
+        displayName = CSTRING(Eagle_IV_Sanität_lowvis_Flecktarn);
         editorPreview = "";
         scope = 2;
         scopeCurator = 2;
@@ -125,7 +125,7 @@ class CfgVehicles {
     };
     class rsr_eagle_fleck_dia: rsr_eagle_fleck {
         author = ECSTRING(rsr_core,rsr);
-        displayName = QUOTE(Eagle IV Sanität Diamant (Flecktarn));
+        displayName = CSTRING(Eagle_IV_Sanität_Diamant_Flecktarn);
         editorPreview = "";
         scope = 2;
         scopeCurator = 2;
@@ -158,7 +158,7 @@ class CfgVehicles {
     class rsr_eagle_tropen: bwa3_eagle_tropen {
         author = ECSTRING(rsr_core,RSR);
         attendant = 1;
-        displayName = CSTRING(eaglesan_tropen);
+        displayName = CSTRING(Eagle_IV_Sanität_Tropentarn);
         typicalCargo[] = {"B_medic_F"};
         crew = "B_medic_F";
         side = 1;
@@ -228,11 +228,8 @@ class CfgVehicles {
     };
     class rsr_eagle_tropen_lowvis: rsr_eagle_tropen {
         author = ECSTRING(rsr_core,RSR);
-        displayName = CSTRING(eaglesan_lowvis_tropen);
+        displayName = CSTRING(Eagle_IV_Sanität_lowvis_Tropentarn);
         editorPreview = "";
-        scope = 2;
-        scopeCurator = 2;
-        scopeArsenal = 2;
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\eagle\bwa3_eagle_tropen_co_vis.paa),
             "\bwa3_eagle\data\bwa3_eagle_fahrwerk_co.paa",
@@ -257,13 +254,10 @@ class CfgVehicles {
         };
     };
 
-    class rsr_eagle_tropentarn_dia: rsr_eagle_tropen {
+    class rsr_eagle_tropen_dia: rsr_eagle_tropen {
         author = ECSTRING(rsr_core,rsr);
-        displayName = CSTRING(eaglesan_diamant_tropen);
+        displayName = CSTRING(Eagle_IV_Sanität_Diamant_Tropentarn);
         editorPreview = "";
-        scope = 2;
-        scopeCurator = 2;
-        scopeArsenal = 2;
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\eagle\bwa3_eagle_tropen_dia_co.paa),
             "\bwa3_eagle\data\bwa3_eagle_fahrwerk_co.paa",
@@ -274,6 +268,7 @@ class CfgVehicles {
             "\bwa3_backpacks\data\bwa3_backpack_fleck_co.paa",
             "\bwa3_backpacks\data\bwa3_backpack_fleck_co.paa",
             "\bwa3_common\data\bwa3_normteile_co.paa",
+            "#(argb,8,8,3)color(0,0,0,0,co)",
             "#(argb,8,8,3)color(0,0,0,0,co)",
             "#(argb,8,8,3)color(0,0,0,0,co)",
             "#(argb,8,8,3)color(0,0,0,0,co)",

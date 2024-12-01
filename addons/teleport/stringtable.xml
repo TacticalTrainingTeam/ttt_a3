@@ -9,13 +9,13 @@
             <English>Teleport Logic</English>
             <German>Teleport Logik</German>
         </Key>
-        <Key ID="STR_ttt_teleporter_cam_enable_displayName">
-            <English>Activate Teleport Logic</English>
-            <German>Teleport Logik aktivieren</German>
-        </Key>
         <Key ID="STR_ttt_teleporter_cam_enable_description">
             <English>When enabled, a teleporter will automatically be created at the respawn point.</English>
             <German>Wenn aktiviert, wird automatisch ein Teleporter am Respawn erzeugt.</German>
+        </Key>
+        <Key ID="STR_ttt_teleporter_cam_enable_displayName">
+            <English>Activate Teleport Logic</English>
+            <German>Teleport Logik aktivieren</German>
         </Key>
     </Package>
 </Project>

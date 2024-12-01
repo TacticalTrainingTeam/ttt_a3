@@ -12,7 +12,7 @@ class CfgVehicles {
     class CUP_B_C130J_USMC;
     class rsr_c_161: CUP_B_C130J_USMC {
         author = ECSTRING(rsr_core,rsr);
-        displayName = "C-161 Transall 2";
+        displayName = CSTRING(C161_Transall_2);
         editorPreview = "";
         editorSubcategory = "EdSubcat_Planes";
         faction = "rsr";
@@ -24,7 +24,7 @@ class CfgVehicles {
     class CUP_B_C130J_Cargo_USMC;
     class rsr_c_161_viv: CUP_B_C130J_Cargo_USMC {
         author = ECSTRING(rsr_core,RSR);
-        displayName = "C-161 Transall 2 (VIV)";
+        displayName = CSTRING(C161_Transall_2_VIV);
         editorPreview = "";
         faction = "rsr";
         editorSubcategory = "EdSubcat_Planes";
