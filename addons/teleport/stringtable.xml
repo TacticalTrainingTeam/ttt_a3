@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt_a3">
-    <Package name="teleporter_cam"/>
-        <Key ID="STR_ttt_teleporter_cam_subCategory">
-            <English>Teleporter and Spectator Camera</English>
-            <German>Teleporter und Zuschauerkamera</German>
+    <Package name="teleporter_cam">
+        <Key ID="STR_ttt_teleporter_cam_category">
+            <English>Teleport Logic</English>
+            <German>Teleport Logik</German>
         </Key>
         <Key ID="STR_ttt_teleporter_cam_displayName">
             <English>Teleport Logic</English>
