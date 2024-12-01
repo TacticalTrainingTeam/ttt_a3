@@ -23,23 +23,23 @@ if (isNull GVAR(target)) exitWith {
 
 lbClear _listOptions;
 if (isNull objectParent GVAR(target)) then {
-    _listOptions lbAdd "In die Nähe";
+    _listOptions lbAdd LSTRING(nearby);
     _listOptions lbSetData [0, "nearby"];
     _listOptions lbSetCurSel 0;
     GVAR(type) = "nearby";
 } else {
-    private _availableOptions = [["In die Nähe", "nearbyVehicle"]];
+    private _availableOptions = [[LSTRING(nearby), "nearbyVehicle"]];
     if (isNull driver vehicle GVAR(target)) then {
-        _availableOptions pushBack ["Fahrer", "driver"];
+        _availableOptions pushBack [LSTRING(driver), "driver"];
     };
     if (isNull gunner vehicle GVAR(target)) then {
-        _availableOptions pushBack ["Schütze", "gunner"];
+        _availableOptions pushBack [(LSTRING(gunner)), "gunner"];
     };
     if (isNull commander vehicle GVAR(target)) then {
-        _availableOptions pushBack ["Kommandant", "commander"];
+        _availableOptions pushBack [LSTRING(commander), "commander"];
     };
     if ((vehicle GVAR(target)) emptyPositions "cargo" != 0) then {
-        _availableOptions pushBack ["Passagier", "cargo"];
+        _availableOptions pushBack [LSTRING(passanger), "cargo"];
     };
 
     {

@@ -9,7 +9,7 @@ Wenn kein Objekt mit dem Variablennamen `ttt_teleport_teleporter` existiert wird
 ## Settings
 
 ```c++
-force ttt_teleporter_cam_enableTeleport = true;
+force ttt_teleport_enableTeleport = true;
 ```
 
 `true` schaltet die Teleporter-Logik an (Default-Wert).
