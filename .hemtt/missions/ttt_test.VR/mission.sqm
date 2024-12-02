@@ -105,7 +105,8 @@ class AddonsMetaData
 };
 dlcs[]=
 {
-	"Heli"
+	"Heli",
+	"Expansion"
 };
 randomSeed=2094387;
 class ScenarioData
@@ -14489,6 +14490,25 @@ class Mission
 					{
 						name="zeus_01";
 						isPlayer=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="ttt_Uniform_Black_BW_Flecktarn";
+								isBackpack=0;
+							};
+							class vest
+							{
+								typeName="ttt_Vest_Lite_Black_US_Desert";
+								isBackpack=0;
+							};
+							class backpack
+							{
+								typeName="B_Kitbag_rgr";
+								isBackpack=1;
+							};
+							headgear="ttt_Beret_Black";
+						};
 					};
 					id=204;
 					type="B_Survivor_F";
