@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt_a3">
     <Package name="insignias">
-    
+        <Key ID="STR_ttt_insignias_blue_large_displayName">
+            <German>TTT Blau</German>
+            <English>TTT Blue</English>
+        </Key>
+        <Key ID="STR_ttt_insignias_blue_emblem_displayName">
+            <German>TTT Blau Abzeichen</German>
+            <English>TTT Blue Emblem</English>
+        </Key>
+        <Key ID="STR_ttt_insignias_white_large_displayName">
+            <German>TTT Weiß</German>
+            <English>TTT White</English>
+        </Key>
+        <Key ID="STR_ttt_insignias_white_emblem_displayName">
+            <German>TTT Weiß Abzeichen</German>
+            <English>TTT White Emblem</English>
+        </Key>
+        <Key ID="STR_ttt_insignias_silver_large_displayName">
+            <German>TTT Silber</German>
+            <English>TTT Silver</English>
+        </Key>
+        <Key ID="STR_ttt_insignias_silver_emblem_displayName">
+            <German>TTT Silber Abzeichen</German>
+            <English>TTT Silver Emblem</English>
+        </Key>
+        <Key ID="STR_ttt_insignias_black_large_displayName">
+            <German>TTT Schwarz</German>
+            <English>TTT Black</English>
+        </Key>
+        <Key ID="STR_ttt_insignias_black_emblem_displayName">
+            <German>TTT Schwarz Abzeichen</German>
+            <English>TTT Black Emblem</English>
+        </Key>
+        <Key ID="STR_ttt_insignias_violett_large_displayName">
+            <German>TTT Violett</German>
+            <English>TTT Violett</English>
+        </Key>
+        <Key ID="STR_ttt_insignias_violett_emblem_displayName">
+            <German>TTT Violett Abzeichen</German>
+            <English>TTT Violett Emblem</English>
+        </Key>
+        <Key ID="STR_ttt_insignias_platinum_large_displayName">
+            <German>TTT Platin</German>
+            <English>TTT Platinum</English>
+        </Key>
+        <Key ID="STR_ttt_insignias_platinum_emblem_displayName">
+            <German>TTT Platin Abzeichen</German>
+            <English>TTT Platinum Emblem</English>
+        </Key>
     </Package>
 </Project>
