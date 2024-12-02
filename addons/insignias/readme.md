@@ -25,8 +25,8 @@ Fügt die TTT Farben als Schulter Insignien (linke Schulter) hinzu.
 - `TTT_white_emblem`
 - `TTT_platinum_emblem`
 
-`[this, "TTT_Blue"] call BIS_fnc_setUnitInsignia;` in der Init-Zeile einer Einheit
-`[this, "TTT_platinum_emblem"] call BIS_fnc_setUnitInsignia;` in der Init-Zeile einer Einheit
+`[this, "TTT_Blue"] call BIS_fnc_setUnitInsignia;` in der Init-Zeile einer Einheit für die große Variante
+`[this, "TTT_platinum_emblem"] call BIS_fnc_setUnitInsignia;` in der Init-Zeile einer Einheit für die Abzeichen-Variante
 
 ## Maintainer
 

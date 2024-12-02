@@ -118,6 +118,13 @@ class CfgUnitInsignia {
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
+    class TTT_silver_emblem {
+        displayName = CSTRING(silver_emblem_displayName);
+        author = "Andx";
+        texture = QPATHTOF(data\silber.paa);
+        material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+        textureVehicle = "";
+    };
     class TTT_violett_emblem {
         displayName = CSTRING(violett_emblem_displayName);
         author = "Andx";
