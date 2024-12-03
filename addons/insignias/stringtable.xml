@@ -85,12 +85,12 @@
             <English>TTT Silver</English>
             <German>TTT Silber</German>
         </Key>
-        <Key ID="STR_ttt_insignias_violett_emblem_displayName">
-            <English>TTT Violett Emblem</English>
+        <Key ID="STR_ttt_insignias_violet_emblem_displayName">
+            <English>TTT Violet Emblem</English>
             <German>TTT Violett Abzeichen</German>
         </Key>
-        <Key ID="STR_ttt_insignias_violett_large_displayName">
-            <English>TTT Violett</English>
+        <Key ID="STR_ttt_insignias_violet_large_displayName">
+            <English>TTT Violet</English>
             <German>TTT Violett</German>
         </Key>
         <Key ID="STR_ttt_insignias_white_emblem_displayName">
