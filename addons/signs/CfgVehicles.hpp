@@ -36,7 +36,7 @@ class CfgVehicles {
         editorSubcategory = "ttt_main_ttt";
         
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_sign_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_sign_co.paa)));
         };
     };
 
@@ -44,7 +44,7 @@ class CfgVehicles {
         displayName = CSTRING(flag_blue_displayName);
         
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_blau_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_blau_co.paa)));
         };
     };
 
@@ -52,7 +52,7 @@ class CfgVehicles {
         displayName = CSTRING(flag_brown_displayName);
         
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_braun_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_braun_co.paa)));
         };
     };
 
@@ -60,7 +60,7 @@ class CfgVehicles {
         displayName = CSTRING(flag_bronze_displayName);
 
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_bronze_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_bronze_co.paa)));
         };
     };
 
@@ -68,7 +68,7 @@ class CfgVehicles {
         displayName = CSTRING(flag_yellow_displayName);
         
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_gelb_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_gelb_co.paa)));
         };
     };
 
@@ -76,7 +76,7 @@ class CfgVehicles {
         displayName = CSTRING(flag_gold_displayName);
 
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_gold_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_gold_co.paa)));
         };
     };
 
@@ -84,7 +84,7 @@ class CfgVehicles {
         displayName = CSTRING(flag_grey_displayName);
 
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_grau_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_grau_co.paa)));
         };
     };
 
@@ -92,7 +92,7 @@ class CfgVehicles {
         displayName = CSTRING(flag_green_displayName);
 
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_gruen_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_gruen_co.paa)));
         };
     };
 
@@ -100,7 +100,7 @@ class CfgVehicles {
         displayName = CSTRING(flag_platinum_displayName);
 
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_platin_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_platin_co.paa)));
         };
     };
 
@@ -108,7 +108,7 @@ class CfgVehicles {
         displayName = CSTRING(flag_red_displayName);
 
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_rot_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_rot_co.paa)));
         };
     };
 
@@ -116,7 +116,7 @@ class CfgVehicles {
         displayName = CSTRING(flag_black_displayName);
 
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_schwarz_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_schwarz_co.paa)));
         };
     };
 
@@ -124,7 +124,7 @@ class CfgVehicles {
         displayName = CSTRING(flag_silver_displayName);
 
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_silber_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_silber_co.paa)));
         };
     };
 
@@ -132,7 +132,7 @@ class CfgVehicles {
         displayName = CSTRING(flag_violet_displayName);
 
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_violett_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_violett_co.paa)));
         };
     };
 
@@ -140,7 +140,7 @@ class CfgVehicles {
         displayName = CSTRING(flag_white_displayName);
 
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_weiss_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_weiss_co.paa)));
         };
     };
 
@@ -148,7 +148,7 @@ class CfgVehicles {
         displayName = CSTRING(flag_orange_displayName);
 
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_orange_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_orange_co.paa)));
         };
     };
 
@@ -174,76 +174,76 @@ class CfgVehicles {
         scopeCurator = 2;
         editorSubcategory = "ttt_main_ttt";
         displayName = CSTRING(sign_small_blue_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_blau_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_blau_co.paa)};
     };
 
     class ttt_Sign_Small_Bronze : ttt_Sign_Small_Blue {
         displayName = CSTRING(sign_small_bronze_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_bronze_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_bronze_co.paa)};
     };
 
     class ttt_Sign_Small_Brown : ttt_Sign_Small_Blue {
         displayName = CSTRING(sign_small_brown_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_braun_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_braun_co.paa)};
     };
 
     class ttt_Sign_Small_Yellow : ttt_Sign_Small_Blue {
         displayName = CSTRING(sign_small_yellow_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_gelb_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_gelb_co.paa)};
     };
 
     class ttt_Sign_Small_Gold : ttt_Sign_Small_Blue {
         displayName = CSTRING(sign_small_gold_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_gold_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_gold_co.paa)};
     };
 
     class ttt_Sign_Small_Grey : ttt_Sign_Small_Blue {
         displayName = CSTRING(sign_small_grey_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_grau_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_grau_co.paa)};
     };
 
     class ttt_Sign_Small_Green : ttt_Sign_Small_Blue {
         displayName = CSTRING(sign_small_green_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_gruen_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_gruen_co.paa)};
     };
 
     class ttt_Sign_Small_Platinum : ttt_Sign_Small_Blue {
         displayName = CSTRING(sign_small_platinum_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_platin_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_platin_co.paa)};
     };
 
     class ttt_Sign_Small_Red : ttt_Sign_Small_Blue {
         displayName = CSTRING(sign_small_red_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_rot_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_rot_co.paa)};
     };
 
     class ttt_Sign_Small_Black : ttt_Sign_Small_Blue {
         displayName = CSTRING(sign_small_black_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_schwarz_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_schwarz_co.paa)};
     };
     class ttt_Sign_Small_Silver : ttt_Sign_Small_Blue {
         displayName = CSTRING(sign_small_silver_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_silber_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_silber_co.paa)};
     };
 
     class ttt_Sign_Small_Violet : ttt_Sign_Small_Blue {
         displayName = CSTRING(sign_small_violet_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_violett_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_violett_co.paa)};
     };
 
     class ttt_Sign_Small_White : ttt_Sign_Small_Blue {
         displayName = CSTRING(sign_small_white_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_weiss_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_weiss_co.paa)};
     };
 
     class ttt_Sign_Small_Logo : ttt_Sign_Small_Blue {
         displayName = CSTRING(sign_small_logo_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_sign_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_sign_co.paa)};
     };
 
     class ttt_Sign_Small_Orange : ttt_Sign_Small_Blue {
         displayName = CSTRING(sign_small_orange_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_orange_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_orange_co.paa)};
     };
 
     /*
@@ -267,75 +267,75 @@ class CfgVehicles {
         scopeCurator = 2;
         editorSubcategory = "ttt_main_ttt";
         displayName = CSTRING(sign_large_blue_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_blau_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_blau_co.paa)};
     };
 
     class ttt_Sign_Large_Bronze : ttt_Sign_Large_Blue {
         displayName = CSTRING(sign_large_bronze_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_bronze_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_bronze_co.paa)};
     };
 
     class ttt_Sign_Large_Brown : ttt_Sign_Large_Blue {
         displayName = CSTRING(sign_large_brown_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_braun_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_braun_co.paa)};
     };
 
     class ttt_Sign_Large_Yellow : ttt_Sign_Large_Blue {
         displayName = CSTRING(sign_large_yellow_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_gelb_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_gelb_co.paa)};
     };
 
     class ttt_Sign_Large_Gold : ttt_Sign_Large_Blue {
         displayName = CSTRING(sign_large_gold_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_gold_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_gold_co.paa)};
     };
 
     class ttt_Sign_Large_Grey : ttt_Sign_Large_Blue {
         displayName = CSTRING(sign_large_grey_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_grau_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_grau_co.paa)};
     };
 
     class ttt_Sign_Large_Green : ttt_Sign_Large_Blue {
         displayName = CSTRING(sign_large_green_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_gruen_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_gruen_co.paa)};
     };
 
     class ttt_Sign_Large_Platinum : ttt_Sign_Large_Blue {
         displayName = CSTRING(sign_large_platinum_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_platin_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_platin_co.paa)};
     };
     class ttt_Sign_Large_Red : ttt_Sign_Large_Blue {
         displayName = CSTRING(sign_large_red_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_rot_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_rot_co.paa)};
     };
 
     class ttt_Sign_Large_Black : ttt_Sign_Large_Blue {
         displayName = CSTRING(sign_large_black_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_schwarz_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_schwarz_co.paa)};
     };
 
     class ttt_Sign_Large_Silver : ttt_Sign_Large_Blue {
         displayName = CSTRING(sign_large_silver_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_silber_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_silber_co.paa)};
     };
 
     class ttt_Sign_Large_Violet : ttt_Sign_Large_Blue {
         displayName = CSTRING(sign_large_violet_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_violett_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_violett_co.paa)};
     };
 
     class ttt_Sign_Large_White : ttt_Sign_Large_Blue {
         displayName = CSTRING(sign_large_white_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_weiss_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_weiss_co.paa)};
     };
 
     class ttt_Sign_Large_Logo : ttt_Sign_Large_Blue {
         displayName = CSTRING(sign_large_logo_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_sign_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_sign_co.paa)};
     };
 
     class ttt_Sign_Large_Orange : ttt_Sign_Large_Blue {
         displayName = CSTRING(sign_large_orange_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_logo_orange_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_orange_co.paa)};
     };
 };

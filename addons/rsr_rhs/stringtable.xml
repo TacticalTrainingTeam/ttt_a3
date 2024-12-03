@@ -2,12 +2,12 @@
 <Project name="ttt_a3">
     <Package name="rsr_rhs">
         <Key ID="STR_ttt_rsr_rhs_C161Transall2">
-            <German>C-161 Transall 2</German>
             <English>C-161 Transall 2</English>
+            <German>C-161 Transall 2</German>
         </Key>
         <Key ID="STR_ttt_rsr_rhs_C161Transall2VIV">
-            <German>C-161 Transall 2 (VIV)</German>
             <English>C-161 Transall 2 (VIV)</English>
+            <German>C-161 Transall 2 (VIV)</German>
         </Key>
     </Package>
 </Project>

@@ -1,86 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt_a3">
     <Package name="vests">
-        <Key ID="STR_ttt_vests_heavy_yellow_DisplayName">
-            <English>TTT Heavy Vest Yellow (US Desert)</English>
-            <German>TTT Schwere Weste Gelb (US Wüste)</German>
-        </Key>
-        <Key ID="STR_ttt_vests_light_yellow_DisplayName">
-            <English>TTT Light Vest Yellow (US Desert)</English>
-            <German>TTT Leichte Weste Gelb (US Wüste)</German>
-        </Key>
-        <Key ID="STR_ttt_vests_heavy_blue_DisplayName">
-            <English>TTT Heavy Vest Blue (US Desert)</English>
-            <German>TTT Schwere Weste Blau (US Wüste)</German>
-        </Key>
-        <Key ID="STR_ttt_vests_light_blue_DisplayName">
-            <English>TTT Light Vest Blue (US Desert)</English>
-            <German>TTT Leichte Weste Blau (US Wüste)</German>
-        </Key>
-        <Key ID="STR_ttt_vests_heavy_black_DisplayName">
-            <English>TTT Heavy Vest Black (US Desert)</English>
-            <German>TTT Schwere Weste Schwarz (US Wüste)</German>
-        </Key>
-        <Key ID="STR_ttt_vests_light_black_DisplayName">
-            <English>TTT Light Vest Black (US Desert)</English>
-            <German>TTT Leichte Weste Schwarz (US Wüste)</German>
-        </Key>
-        <Key ID="STR_ttt_vests_heavy_brown_DisplayName">
-            <English>TTT Heavy Vest Brown (US Desert)</English>
-            <German>TTT Schwere Weste Braun (US Wüste)</German>
-        </Key>
-        <Key ID="STR_ttt_vests_light_brown_DisplayName">
-            <English>TTT Light Vest Brown (US Desert)</English>
-            <German>TTT Leichte Weste Braun (US Wüste)</German>
-        </Key>
-        <Key ID="STR_ttt_vests_heavy_gold_DisplayName">
-            <English>TTT Heavy Vest Gold (US Desert)</English>
-            <German>TTT Schwere Weste Gold (US Wüste)</German>
-        </Key>
-        <Key ID="STR_ttt_vests_light_gold_DisplayName">
-            <English>TTT Light Vest Gold (US Desert)</English>
-            <German>TTT Leichte Weste Gold (US Wüste)</German>
-        </Key>
-        <Key ID="STR_ttt_vests_heavy_green_DisplayName">
-            <English>TTT Heavy Vest Green (US Desert)</English>
-            <German>TTT Schwere Weste Grün (US Wüste)</German>
-        </Key>
-        <Key ID="STR_ttt_vests_light_green_DisplayName">
-            <English>TTT Light Vest Green (US Desert)</English>
-            <German>TTT Leichte Weste Grün (US Wüste)</German>
-        </Key>
-        <Key ID="STR_ttt_vests_heavy_grey_DisplayName">
-            <English>TTT Heavy Vest Grey (US Desert)</English>
-            <German>TTT Schwere Weste Grau (US Wüste)</German>
-        </Key>
-        <Key ID="STR_ttt_vests_light_grey_DisplayName">
-            <English>TTT Light Vest Grey (US Desert)</English>
-            <German>TTT Leichte Weste Grau (US Wüste)</German>
-        </Key>
-        <Key ID="STR_ttt_vests_heavy_red_DisplayName">
-            <English>TTT Heavy Vest Red (US Desert)</English>
-            <German>TTT Schwere Weste Rot (US Wüste)</German>
-        </Key>
-        <Key ID="STR_ttt_vests_light_red_DisplayName">
-            <English>TTT Light Vest Red (US Desert)</English>
-            <German>TTT Leichte Weste Rot (US Wüste)</German>
-        </Key>
-        <Key ID="STR_ttt_vests_heavy_violet_DisplayName">
-            <English>TTT Heavy Vest Violet (US Desert)</English>
-            <German>TTT Schwere Weste Violett (US Wüste)</German>
-        </Key>
-        <Key ID="STR_ttt_vests_light_violet_DisplayName">
-            <English>TTT Light Vest Violet (US Desert)</English>
-            <German>TTT Leichte Weste Violett (US Wüste)</German>
-        </Key>
-        <Key ID="STR_ttt_vests_heavy_orange_DisplayName">
-            <English>TTT Heavy Vest Orange (US Desert)</English>
-            <German>TTT Schwere Weste Orange (US Wüste)</German>
-        </Key>
-        <Key ID="STR_ttt_vests_light_orange_DisplayName">
-            <English>TTT Light Vest Orange (US Desert)</English>
-            <German>TTT Leichte Weste Orange (US Wüste)</German>
-        </Key>
         <Key ID="STR_ttt_vests_crew_bronze_DisplayName">
             <English>TTT Crew Vest Bronze</English>
             <German>TTT Crew Weste Bronze</German>
@@ -92,6 +12,86 @@
         <Key ID="STR_ttt_vests_crew_white_DisplayName">
             <English>TTT Crew Vest White</English>
             <German>TTT Crew Weste Weiss</German>
+        </Key>
+        <Key ID="STR_ttt_vests_heavy_black_DisplayName">
+            <English>TTT Heavy Vest Black (US Desert)</English>
+            <German>TTT Schwere Weste Schwarz (US Wüste)</German>
+        </Key>
+        <Key ID="STR_ttt_vests_heavy_blue_DisplayName">
+            <English>TTT Heavy Vest Blue (US Desert)</English>
+            <German>TTT Schwere Weste Blau (US Wüste)</German>
+        </Key>
+        <Key ID="STR_ttt_vests_heavy_brown_DisplayName">
+            <English>TTT Heavy Vest Brown (US Desert)</English>
+            <German>TTT Schwere Weste Braun (US Wüste)</German>
+        </Key>
+        <Key ID="STR_ttt_vests_heavy_gold_DisplayName">
+            <English>TTT Heavy Vest Gold (US Desert)</English>
+            <German>TTT Schwere Weste Gold (US Wüste)</German>
+        </Key>
+        <Key ID="STR_ttt_vests_heavy_green_DisplayName">
+            <English>TTT Heavy Vest Green (US Desert)</English>
+            <German>TTT Schwere Weste Grün (US Wüste)</German>
+        </Key>
+        <Key ID="STR_ttt_vests_heavy_grey_DisplayName">
+            <English>TTT Heavy Vest Grey (US Desert)</English>
+            <German>TTT Schwere Weste Grau (US Wüste)</German>
+        </Key>
+        <Key ID="STR_ttt_vests_heavy_orange_DisplayName">
+            <English>TTT Heavy Vest Orange (US Desert)</English>
+            <German>TTT Schwere Weste Orange (US Wüste)</German>
+        </Key>
+        <Key ID="STR_ttt_vests_heavy_red_DisplayName">
+            <English>TTT Heavy Vest Red (US Desert)</English>
+            <German>TTT Schwere Weste Rot (US Wüste)</German>
+        </Key>
+        <Key ID="STR_ttt_vests_heavy_violet_DisplayName">
+            <English>TTT Heavy Vest Violet (US Desert)</English>
+            <German>TTT Schwere Weste Violett (US Wüste)</German>
+        </Key>
+        <Key ID="STR_ttt_vests_heavy_yellow_DisplayName">
+            <English>TTT Heavy Vest Yellow (US Desert)</English>
+            <German>TTT Schwere Weste Gelb (US Wüste)</German>
+        </Key>
+        <Key ID="STR_ttt_vests_light_black_DisplayName">
+            <English>TTT Light Vest Black (US Desert)</English>
+            <German>TTT Leichte Weste Schwarz (US Wüste)</German>
+        </Key>
+        <Key ID="STR_ttt_vests_light_blue_DisplayName">
+            <English>TTT Light Vest Blue (US Desert)</English>
+            <German>TTT Leichte Weste Blau (US Wüste)</German>
+        </Key>
+        <Key ID="STR_ttt_vests_light_brown_DisplayName">
+            <English>TTT Light Vest Brown (US Desert)</English>
+            <German>TTT Leichte Weste Braun (US Wüste)</German>
+        </Key>
+        <Key ID="STR_ttt_vests_light_gold_DisplayName">
+            <English>TTT Light Vest Gold (US Desert)</English>
+            <German>TTT Leichte Weste Gold (US Wüste)</German>
+        </Key>
+        <Key ID="STR_ttt_vests_light_green_DisplayName">
+            <English>TTT Light Vest Green (US Desert)</English>
+            <German>TTT Leichte Weste Grün (US Wüste)</German>
+        </Key>
+        <Key ID="STR_ttt_vests_light_grey_DisplayName">
+            <English>TTT Light Vest Grey (US Desert)</English>
+            <German>TTT Leichte Weste Grau (US Wüste)</German>
+        </Key>
+        <Key ID="STR_ttt_vests_light_orange_DisplayName">
+            <English>TTT Light Vest Orange (US Desert)</English>
+            <German>TTT Leichte Weste Orange (US Wüste)</German>
+        </Key>
+        <Key ID="STR_ttt_vests_light_red_DisplayName">
+            <English>TTT Light Vest Red (US Desert)</English>
+            <German>TTT Leichte Weste Rot (US Wüste)</German>
+        </Key>
+        <Key ID="STR_ttt_vests_light_violet_DisplayName">
+            <English>TTT Light Vest Violet (US Desert)</English>
+            <German>TTT Leichte Weste Violett (US Wüste)</German>
+        </Key>
+        <Key ID="STR_ttt_vests_light_yellow_DisplayName">
+            <English>TTT Light Vest Yellow (US Desert)</English>
+            <German>TTT Leichte Weste Gelb (US Wüste)</German>
         </Key>
     </Package>
 </Project>

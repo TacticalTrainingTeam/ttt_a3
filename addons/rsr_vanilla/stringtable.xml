@@ -33,6 +33,14 @@
             <English>Fennek (Tropentarn)</English>
             <German>Fennek (Tropentarn)</German>
         </Key>
+        <Key ID="STR_ttt_rsr_vanilla_wisent_munition_flecktarn">
+            <English>Wisent ammo (Flecktarn)</English>
+            <German>Wisent Munition (Flecktarn)</German>
+        </Key>
+        <Key ID="STR_ttt_rsr_vanilla_wisent_munition_tropentarn">
+            <English>Wisent ammo (Tropentarn)</English>
+            <German>Wisent Munition (Tropentarn)</German>
+        </Key>
         <Key ID="STR_ttt_rsr_vanilla_wisent_offen_flecktarn">
             <English>Wisent open (Flecktarn)</English>
             <German>Wisent offen (Flecktarn)</German>
@@ -57,13 +65,13 @@
             <English>Wisent repair (Tropentarn)</English>
             <German>Wisent Reparatur (Tropentarn)</German>
         </Key>
-        <Key ID="STR_ttt_rsr_vanilla_wisent_munition_flecktarn">
-            <English>Wisent ammo (Flecktarn)</English>
-            <German>Wisent Munition (Flecktarn)</German>
+        <Key ID="STR_ttt_rsr_vanilla_wisent_sanitat_flecktarn">
+            <English>Wisent medical (Flecktarn)</English>
+            <German>Wisent Sanität (Flecktarn)</German>
         </Key>
-        <Key ID="STR_ttt_rsr_vanilla_wisent_munition_tropentarn">
-            <English>Wisent ammo (Tropentarn)</English>
-            <German>Wisent Munition (Tropentarn)</German>
+        <Key ID="STR_ttt_rsr_vanilla_wisent_sanitat_tropentarn">
+            <English>Wisent medical (Tropentarn)</English>
+            <German>Wisent Sanität (Tropentarn)</German>
         </Key>
         <Key ID="STR_ttt_rsr_vanilla_wisent_treibstoff_flecktarn">
             <English>Wisent fuel (Flecktarn)</English>
@@ -72,14 +80,6 @@
         <Key ID="STR_ttt_rsr_vanilla_wisent_treibstoff_tropentarn">
             <English>Wisent fuel (Tropentarn)</English>
             <German>Wisent Treibstoff (Tropentarn)</German>
-        </Key>
-        <Key ID="STR_ttt_rsr_vanilla_wisent_sanitat_flecktarn">
-            <English>Wisent medical (Flecktarn)</English>
-            <German>Wisent Sanität (Flecktarn)</German>
-        </Key>
-        <Key ID="STR_ttt_rsr_vanilla_wisent_sanitat_tropentarn">
-            <English>Wisent medical (Tropentarn)</English>
-            <German>Wisent Sanität (Tropentarn)</German>
         </Key>
     </Package>
 </Project>
