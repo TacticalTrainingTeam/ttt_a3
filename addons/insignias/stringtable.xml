@@ -109,5 +109,13 @@
             <English>TTT Yellow</English>
             <German>TTT Gelb</German>
         </Key>
+        <Key ID="STR_ttt_insignias_red_crystal_displayName">
+            <English>Red Cystal</English>
+            <German>Roter Kristall</German>
+        </Key>
+        <Key ID="STR_ttt_insignias_eod_displayName">
+            <English>EOD</English>
+            <German>EOD</German>
+        </Key>
     </Package>
 </Project>

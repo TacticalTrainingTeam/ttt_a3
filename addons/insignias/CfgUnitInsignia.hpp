@@ -98,6 +98,24 @@ class CfgUnitInsignia {
         textureVehicle = "";
     };
 
+    //Other
+    class TTT_red_crystal_dark {
+        displayName = CSTRING(red_crystal_displayName);
+        author = "Andx";
+        texture = QPATHTOF(data\red_crystal_dark.paa);
+        material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+        textureVehicle = "";
+    };
+
+    class TTT_EOD {
+        displayName = CSTRING(eod_displayName);
+        author = "Andx";
+        texture = QPATHTOF(data\eod_kontur.paa);
+        material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+        textureVehicle = "";
+    };
+
+
     //Emblems
     class TTT_blue_emblem {
         displayName = CSTRING(blue_emblem_displayName);
