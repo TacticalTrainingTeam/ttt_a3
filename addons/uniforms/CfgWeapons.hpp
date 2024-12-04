@@ -12,7 +12,7 @@ class CfgWeapons {
         model = "\A3\characters_f\Common\Suitpacks\suitpack_universal_F.p3d";
         
         class ItemInfo : ItemInfo {
-            uniformClass = "TT_Uniform_Base_US";
+            uniformClass = "TTT_Uniform_Base_US";
             containerClass = "Supply60";
         };
     };
@@ -232,6 +232,16 @@ class CfgWeapons {
             uniformClass = "ttt_Green_BW_Tropentarn";
         };
     };
+
+    class ttt_Uniform_Green_alt_BW_Tropentarn : ttt_Uniform_Base_BW {
+        author = "Tactical Training Team";
+        scope = 2;
+        displayName = CSTRING(green_alt_BW_Tropentarn_DisplayName);
+        
+        class ItemInfo : ItemInfo {
+            uniformClass = "ttt_Green_alt_BW_Tropentarn";
+        };
+    };
     
     class ttt_Uniform_Brown_BW_Tropentarn : ttt_Uniform_Base_BW {
         author = "Tactical Training Team";
@@ -349,6 +359,16 @@ class CfgWeapons {
         };
     };
     
+
+    class ttt_Uniform_Green_alt_BW_Flecktarn : ttt_Uniform_Green_BW_Tropentarn {
+        author = "Tactical Training Team";
+        displayName = CSTRING(green_alt_BW_Flecktarn_DisplayName);
+        
+        class ItemInfo : ItemInfo {
+            uniformClass = "ttt_Green_alt_BW_Flecktarn";
+        };
+    };
+
     class ttt_Uniform_Brown_BW_Flecktarn : ttt_Uniform_Brown_BW_Tropentarn {
         author = "Tactical Training Team";
         displayName = CSTRING(brown_BW_Flecktarn_DisplayName);

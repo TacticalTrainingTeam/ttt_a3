@@ -17,7 +17,7 @@
             <English>TTT Uniform Green (BW Tropentarn)</English>
             <German>TTT Uniform Grün (BW Tropentarn)</German>
         </Key>
-        <Key ID="STR_ttt_uniforms_green_BW_Tropentarn_alt_DisplayName">
+        <Key ID="STR_ttt_uniforms_green_alt_BW_Tropentarn_DisplayName">
             <English>TTT Uniform Green alternative (BW Tropentarn)</English>
             <German>TTT Uniform Grün alternativ (BW Tropentarn)</German>
         </Key>
@@ -69,7 +69,7 @@
             <English>TTT Uniform Green (BW Flecktarn)</English>
             <German>TTT Uniform Grün (BW Flecktarn)</German>
         </Key>
-        <Key ID="STR_ttt_uniforms_green_BW_Flecktarn_alt_DisplayName">
+        <Key ID="STR_ttt_uniforms_green_alt_BW_Flecktarn_DisplayName">
             <English>TTT Uniform Green alternative (BW Flecktarn)</English>
             <German>TTT Uniform Grün alternativ (BW Flecktarn)</German>
         </Key>
