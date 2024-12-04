@@ -175,6 +175,12 @@ class CfgVehicles {
         uniformClass = "ttt_Uniform_Green_BW_Flecktarn";
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_green_bw_flecktarn.paa) };
     };
+    class ttt_Green_BW_Flecktarn_alt : ttt_Yellow_BW_Flecktarn {
+        author = "Tactical Training Team";
+        displayName = CSTRING(green_BW_Flecktarn__alt_DisplayName);
+        uniformClass = "ttt_Uniform_Green_BW_Flecktarn";
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_green_bw_flecktarn_kampagne.paa) };
+    };
 
     class ttt_Brown_BW_Flecktarn : ttt_Yellow_BW_Flecktarn {
         author = "Tactical Training Team";
@@ -267,6 +273,13 @@ class CfgVehicles {
         displayName = CSTRING(green_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_Green_BW_Tropentarn";
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_green_bw_tropentarn.paa) };
+    };
+
+    class ttt_Green_BW_Tropentarn_alt : ttt_Yellow_BW_Tropentarn {
+        author = "Tactical Training Team";
+        displayName = CSTRING(green_BW_Tropentarn_alt_DisplayName);
+        uniformClass = "ttt_Uniform_Green_BW_Tropentarn";
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_green_bw_tropentarn_kampagne.paa) };
     };
 
     class ttt_Brown_BW_Tropentarn : ttt_Yellow_BW_Tropentarn {
