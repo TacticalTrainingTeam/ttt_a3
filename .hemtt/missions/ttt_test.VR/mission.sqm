@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=371;
+		nextID=374;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=186;
+		nextID=192;
 	};
 	class Camera
 	{
-		pos[]={4808.5952,5.9563928,6875.2061};
-		dir[]={0.070206657,-0.15560931,0.98536086};
-		up[]={0.011061037,0.98781276,0.15524894};
-		aside[]={0.99750537,4.8926449e-07,-0.07107152};
+		pos[]={4838.27,16.990892,6883.5283};
+		dir[]={-0.91775751,-0.39226866,0.062020309};
+		up[]={-0.39137599,0.91985071,0.026448447};
+		aside[]={0.067424327,-1.8626451e-09,0.99772441};
 	};
 };
 binarizationWanted=0;
@@ -38,13 +38,14 @@ addons[]=
 	"ace_realisticnames",
 	"A3_Ui_F",
 	"ttt_rsr_vanilla_compat_ace",
-	"ttt_signs"
+	"ttt_signs",
+	"CUP_WheeledVehicles_NewM998"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=8;
+		items=9;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -101,11 +102,17 @@ class AddonsMetaData
 			author="Tactical Training Team";
 			url="https://tacticalteam.de";
 		};
+		class Item8
+		{
+			className="CUP_WheeledVehicles_NewM998";
+			name="CUP_WheeledVehicles_NewM998";
+		};
 	};
 };
 dlcs[]=
 {
-	"Heli"
+	"Heli",
+	"CUP_Vehicles"
 };
 randomSeed=2094387;
 class ScenarioData
@@ -13981,7 +13988,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=11;
+		items=13;
 		class Item0
 		{
 			dataType="Layer";
@@ -14720,6 +14727,36 @@ class Mission
 			};
 			id=364;
 			type="ttt_Flag_Blue";
+		};
+		class Item11
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4809.5728,7.1127996,6878.3965};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=371;
+			type="CUP_B_nM1037sc_NATO";
+		};
+		class Item12
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4818.0313,7.1127996,6878.0737};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=373;
+			type="CUP_B_nM1038_Repair_DF_NATO";
 		};
 	};
 };

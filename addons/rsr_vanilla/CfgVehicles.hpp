@@ -158,7 +158,21 @@ class CfgVehicles {
                 };
             };
         };
+        class AcreRacks {
+            class Rack_1 {
+                displayName = "Radio Set";      // Name displayed in the interaction menu
+                shortName = "Radio";                   // Short name displayed on the HUD. Maximum of 5 characters
+                componentName = "ACRE_VRC103";        // Able to mount a PRC152
+                allowedPositions[] = {"driver", {"cargo", 0}}; // Who can configure the radio and open the radio GUI. Same wildcards as the intercom. It also allows transmitting/receiving
+                disabledPositions[] = {};             // Who cannot access the radio (default: {})
+                defaultComponents[] = {};             // Use this to attach simple components like Antennas, they will first attempt to fill empty connectors but will overide existing connectors. Not yet fully implemented. (default: {})
+                mountedRadio = "ACRE_PRC117F";        // Predefined mounted radio (default: "", meaning none)
+                isRadioRemovable = 0;                 // Radio can be removed (default: 0)
+                intercom[] = {};                      // Radio not wired to any intercom. All units in intercom can receive/send transmittions (ACE3 interaction menu) but they cannot manipulate the radio (GUI interface) (default: {})
+            };
+        }; 
     };
+
     class rsr_wisent_transport_tropentarn: rsr_wisent_transport_flecktarn {
         displayName = CSTRING(wisent_offen_tropentarn);
         editorPreview = "";
@@ -213,6 +227,20 @@ class CfgVehicles {
                 };
             };
         };
+
+        class AcreRacks {
+            class Rack_1 {
+                displayName = "Radio Set";      // Name displayed in the interaction menu
+                shortName = "Radio";                   // Short name displayed on the HUD. Maximum of 5 characters
+                componentName = "ACRE_VRC103";        // Able to mount a PRC152
+                allowedPositions[] = {"driver", {"cargo", 0}}; // Who can configure the radio and open the radio GUI. Same wildcards as the intercom. It also allows transmitting/receiving
+                disabledPositions[] = {};             // Who cannot access the radio (default: {})
+                defaultComponents[] = {};             // Use this to attach simple components like Antennas, they will first attempt to fill empty connectors but will overide existing connectors. Not yet fully implemented. (default: {})
+                mountedRadio = "ACRE_PRC117F";        // Predefined mounted radio (default: "", meaning none)
+                isRadioRemovable = 0;                 // Radio can be removed (default: 0)
+                intercom[] = {};                      // Radio not wired to any intercom. All units in intercom can receive/send transmittions (ACE3 interaction menu) but they cannot manipulate the radio (GUI interface) (default: {})
+            };
+        }; 
     };
 
     class rsr_wisent_covered_tropentarn: rsr_wisent_covered_flecktarn {
@@ -270,6 +298,19 @@ class CfgVehicles {
                 };
             };
         };
+        class AcreRacks {
+            class Rack_1 {
+                displayName = "Radio Set";      // Name displayed in the interaction menu
+                shortName = "Radio";                   // Short name displayed on the HUD. Maximum of 5 characters
+                componentName = "ACRE_VRC103";        // Able to mount a PRC152
+                allowedPositions[] = {"driver", {"cargo", 0}}; // Who can configure the radio and open the radio GUI. Same wildcards as the intercom. It also allows transmitting/receiving
+                disabledPositions[] = {};             // Who cannot access the radio (default: {})
+                defaultComponents[] = {};             // Use this to attach simple components like Antennas, they will first attempt to fill empty connectors but will overide existing connectors. Not yet fully implemented. (default: {})
+                mountedRadio = "ACRE_PRC117F";        // Predefined mounted radio (default: "", meaning none)
+                isRadioRemovable = 0;                 // Radio can be removed (default: 0)
+                intercom[] = {};                      // Radio not wired to any intercom. All units in intercom can receive/send transmittions (ACE3 interaction menu) but they cannot manipulate the radio (GUI interface) (default: {})
+            };
+        }; 
     };
 
     class rsr_wisent_repair_tropentarn: rsr_wisent_repair_flecktarn    {
@@ -328,6 +369,19 @@ class CfgVehicles {
                 };
             };
         };
+        class AcreRacks {
+            class Rack_1 {
+                displayName = "Radio Set";      // Name displayed in the interaction menu
+                shortName = "Radio";                   // Short name displayed on the HUD. Maximum of 5 characters
+                componentName = "ACRE_VRC103";        // Able to mount a PRC152
+                allowedPositions[] = {"driver", {"cargo", 0}}; // Who can configure the radio and open the radio GUI. Same wildcards as the intercom. It also allows transmitting/receiving
+                disabledPositions[] = {};             // Who cannot access the radio (default: {})
+                defaultComponents[] = {};             // Use this to attach simple components like Antennas, they will first attempt to fill empty connectors but will overide existing connectors. Not yet fully implemented. (default: {})
+                mountedRadio = "ACRE_PRC117F";        // Predefined mounted radio (default: "", meaning none)
+                isRadioRemovable = 0;                 // Radio can be removed (default: 0)
+                intercom[] = {};                      // Radio not wired to any intercom. All units in intercom can receive/send transmittions (ACE3 interaction menu) but they cannot manipulate the radio (GUI interface) (default: {})
+            };
+        }; 
     };
 
     class rsr_wisent_ammo_tropentarn: rsr_wisent_ammo_flecktarn {
@@ -381,6 +435,19 @@ class CfgVehicles {
                 };
             };
         };
+        class AcreRacks {
+            class Rack_1 {
+                displayName = "Radio Set";      // Name displayed in the interaction menu
+                shortName = "Radio";                   // Short name displayed on the HUD. Maximum of 5 characters
+                componentName = "ACRE_VRC103";        // Able to mount a PRC152
+                allowedPositions[] = {"driver", {"cargo", 0}}; // Who can configure the radio and open the radio GUI. Same wildcards as the intercom. It also allows transmitting/receiving
+                disabledPositions[] = {};             // Who cannot access the radio (default: {})
+                defaultComponents[] = {};             // Use this to attach simple components like Antennas, they will first attempt to fill empty connectors but will overide existing connectors. Not yet fully implemented. (default: {})
+                mountedRadio = "ACRE_PRC117F";        // Predefined mounted radio (default: "", meaning none)
+                isRadioRemovable = 0;                 // Radio can be removed (default: 0)
+                intercom[] = {};                      // Radio not wired to any intercom. All units in intercom can receive/send transmittions (ACE3 interaction menu) but they cannot manipulate the radio (GUI interface) (default: {})
+            };
+        }; 
         class TransportItems {
             MACRO_ADDITEM(Toolkit,1);
         };
@@ -437,6 +504,19 @@ class CfgVehicles {
                 };
             };
         };
+        class AcreRacks {
+            class Rack_1 {
+                displayName = "Radio Set";      // Name displayed in the interaction menu
+                shortName = "Radio";                   // Short name displayed on the HUD. Maximum of 5 characters
+                componentName = "ACRE_VRC103";        // Able to mount a PRC152
+                allowedPositions[] = {"driver", {"cargo", 0}}; // Who can configure the radio and open the radio GUI. Same wildcards as the intercom. It also allows transmitting/receiving
+                disabledPositions[] = {};             // Who cannot access the radio (default: {})
+                defaultComponents[] = {};             // Use this to attach simple components like Antennas, they will first attempt to fill empty connectors but will overide existing connectors. Not yet fully implemented. (default: {})
+                mountedRadio = "ACRE_PRC117F";        // Predefined mounted radio (default: "", meaning none)
+                isRadioRemovable = 0;                 // Radio can be removed (default: 0)
+                intercom[] = {};                      // Radio not wired to any intercom. All units in intercom can receive/send transmittions (ACE3 interaction menu) but they cannot manipulate the radio (GUI interface) (default: {})
+            };
+        }; 
         class TransportItems {
             MACRO_ADDITEM(Toolkit,1);
         };
