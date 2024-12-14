@@ -22,7 +22,7 @@ class CfgVehicles {
     };
     class rsr_fennek_transport_tropentarn: rsr_fennek_transport_flecktarn {
         displayName = CSTRING(fennek_tropentarn);
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\fennek\previews\rsr_fennek_transport_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\fennek\fennek_tropentarn_ext_co.paa),
             QPATHTOF(data\fennek\fennek_tropentarn_turret_co.paa)
@@ -37,7 +37,7 @@ class CfgVehicles {
         typicalCargo[] = {"B_Soldier_F", "B_Soldier_F", "B_Soldier_F"};
         side = 1;
         crew = "B_Soldier_F";
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\fennek\previews\rsr_fennek_hmg_flecktarn_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
         hiddenSelectionsTextures[]= {
@@ -53,7 +53,7 @@ class CfgVehicles {
     class rsr_fennek_hmg_tropentarn: rsr_fennek_hmg_flecktarn {
         author = ECSTRING(rsr_core,rsr);
         displayName = CSTRING(fennek_hmg_tropentarn);
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\fennek\previews\rsr_fennek_hmg_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\fennek\fennek_tropentarn_ext_co.paa),
             QPATHTOF(data\fennek\fennek_tropentarn_turret_co.paa)
@@ -68,7 +68,7 @@ class CfgVehicles {
         typicalCargo[] = {"B_Soldier_F", "B_Soldier_F", "B_Soldier_F"};
         side = 1;
         crew = "B_Soldier_F";
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\fennek\previews\rsr_fennek_gmg_flecktarn_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
         hiddenSelectionsTextures[] = {
@@ -84,7 +84,7 @@ class CfgVehicles {
     class rsr_fennek_gmg_tropentarn: rsr_fennek_gmg_flecktarn {
         author = ECSTRING(rsr_core,rsr);
         displayName = CSTRING(fennek_gmg_tropentarn);
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\fennek\previews\rsr_fennek_gmg_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\fennek\fennek_tropentarn_ext_co.paa),
             QPATHTOF(data\fennek\fennek_tropentarn_turret_co.paa)
@@ -98,7 +98,7 @@ class CfgVehicles {
         typicalCargo[] = {"B_Soldier_F", "B_Soldier_F"};
         side = 1;
         crew = "B_Soldier_F";
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\bergepanzer\previews\rsr_bergepanzer_flecktarn_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Tanks";
         hiddenSelectionsTextures[] = {
@@ -116,6 +116,7 @@ class CfgVehicles {
 
     class rsr_bergepanzer_tropentarn: rsr_bergepanzer_flecktarn {
         displayName = CSTRING(bergepanzer_tropentarn);
+        editorPreview = QPATHTOF(data\bergepanzer\previews\rsr_bergepanzer_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\bergepanzer\bergepanzer_tropentarn_body_crv_co.paa),
             QPATHTOF(data\bergepanzer\bergepanzer_tropentarn_body_mbt_co.paa),
@@ -132,7 +133,7 @@ class CfgVehicles {
         side = 1;
         typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_transport_flecktarn_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
         scope = 2;
@@ -161,7 +162,7 @@ class CfgVehicles {
     };
     class rsr_wisent_transport_tropentarn: rsr_wisent_transport_flecktarn {
         displayName = CSTRING(wisent_offen_tropentarn);
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_transport_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
             QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
@@ -188,7 +189,7 @@ class CfgVehicles {
         side = 1;
         typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_covered_flecktarn_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
         class TransportItems {
@@ -217,7 +218,7 @@ class CfgVehicles {
 
     class rsr_wisent_covered_tropentarn: rsr_wisent_covered_flecktarn {
         displayName = CSTRING(wisent_plane_tropentarn);
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_covered_tropentarn_preview.jpg);
         hiddenSelectionsTextures[]= {
             QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
             QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
@@ -246,7 +247,7 @@ class CfgVehicles {
         side = 1;
         typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_repair_flecktarn_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
         class TransportItems {
@@ -275,7 +276,7 @@ class CfgVehicles {
     class rsr_wisent_repair_tropentarn: rsr_wisent_repair_flecktarn    {
         author = ECSTRING(rsr_core,rsr);
         displayName = CSTRING(wisent_reparatur_tropentarn);
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_repair_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
             QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
@@ -302,7 +303,7 @@ class CfgVehicles {
         side = 1;
         typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_ammo_flecktarn_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
         class TransportItems {
@@ -333,7 +334,7 @@ class CfgVehicles {
     class rsr_wisent_ammo_tropentarn: rsr_wisent_ammo_flecktarn {
         author = ECSTRING(rsr_core,rsr);
         displayName = CSTRING(wisent_munition_tropentarn);
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_ammo_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
             QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
@@ -362,7 +363,7 @@ class CfgVehicles {
         side = 1;
         typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_fuel_flecktarn_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
         hiddenSelectionsTextures[] = {
@@ -389,7 +390,7 @@ class CfgVehicles {
     };
     class rsr_wisent_fuel_tropentarn: rsr_wisent_fuel_flecktarn {
         displayName = CSTRING(wisent_treibstoff_tropentarn);
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\wisent\previews\wisent_tropentarn_fuel_co_preview.paa);
         hiddenSelectionsTextures[]= {
             QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
             QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
@@ -416,7 +417,7 @@ class CfgVehicles {
         side = 1;
         typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\wisent\previews\wisent_flecktarn_medical_co_preview.paa);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
         hiddenSelectionsTextures[] = {
@@ -445,6 +446,7 @@ class CfgVehicles {
     };
     class rsr_wisent_medical_tropentarn: rsr_wisent_medical_flecktarn {
         displayName = CSTRING(wisent_sanitat_tropentarn);
+        editorPreview = QPATHTOF(data\wisent\previews\wisent_tropentarn_medical_co_preview.paa);
         hiddenSelectionsTextures[]= {
             QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
             QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
