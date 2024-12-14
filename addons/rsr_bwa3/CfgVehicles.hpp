@@ -4,6 +4,7 @@ class CfgVehicles {
         author = CSTRING(RSR);
         attendant = 1;
         displayName = CSTRING(Eagle_IV_Sanität_Flecktarn);
+        editorPreview = QPATHTOF(data\eagle\bwa3_eagle_fleck_co_preview.paa);
         typicalCargo[] = {"B_medic_F"};
         crew = "B_medic_F";
         side = 1;
@@ -96,7 +97,7 @@ class CfgVehicles {
     class rsr_eagle_fleck_lowvis: rsr_eagle_fleck {
         author = ECSTRING(rsr_core,rsr);
         displayName = CSTRING(Eagle_IV_Sanität_lowvis_Flecktarn);
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\eagle\bwa3_eagle_fleck_lowvis_co_preview.paa);
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
@@ -126,7 +127,7 @@ class CfgVehicles {
     class rsr_eagle_fleck_dia: rsr_eagle_fleck {
         author = ECSTRING(rsr_core,rsr);
         displayName = CSTRING(Eagle_IV_Sanität_Diamant_Flecktarn);
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\eagle\bwa3_eagle_fleck_dia_co_preview.paa);
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
@@ -162,7 +163,7 @@ class CfgVehicles {
         typicalCargo[] = {"B_medic_F"};
         crew = "B_medic_F";
         side = 1;
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\eagle\bwa3_eagle_tropen_co_preview.paa);
         faction = QUOTE(rsr);
         editorSubcategory = "EdSubCat_Cars";
         scope = 2;
@@ -229,7 +230,7 @@ class CfgVehicles {
     class rsr_eagle_tropen_lowvis: rsr_eagle_tropen {
         author = ECSTRING(rsr_core,RSR);
         displayName = CSTRING(Eagle_IV_Sanität_lowvis_Tropentarn);
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\eagle\bwa3_eagle_tropen_lowvis_co_preview.paa);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\eagle\bwa3_eagle_tropen_co_vis.paa),
             "\bwa3_eagle\data\bwa3_eagle_fahrwerk_co.paa",
@@ -257,7 +258,7 @@ class CfgVehicles {
     class rsr_eagle_tropen_dia: rsr_eagle_tropen {
         author = ECSTRING(rsr_core,rsr);
         displayName = CSTRING(Eagle_IV_Sanität_Diamant_Tropentarn);
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\eagle\bwa3_eagle_tropen_dia_co_preview.paa);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\eagle\bwa3_eagle_tropen_dia_co.paa),
             "\bwa3_eagle\data\bwa3_eagle_fahrwerk_co.paa",
