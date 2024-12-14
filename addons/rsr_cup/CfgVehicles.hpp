@@ -3,6 +3,7 @@ class CfgVehicles {
     class rnt_bw_wintertarn_uniform: CUP_Creatures_Military_CHDKZ_Soldier_04 {
         author = ECSTRING(rsr_core,rnt);
         uniformClass = "rnt_bw_wintertarn_uniform_item";
+        editorPreview = QPATHTOF(data\previews\rnt_bw_wintertarn_uniform_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\uniform\rnt_winter_jacke_co.paa),
             QPATHTOF(data\uniform\rnt_winter_hose_co.paa)
@@ -13,7 +14,7 @@ class CfgVehicles {
     class rsr_c_161: CUP_B_C130J_USMC {
         author = ECSTRING(rsr_core,rsr);
         displayName = CSTRING(C161_Transall_2);
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\uniform\previews\rsr_c_161_preview.jpg);
         editorSubcategory = "EdSubcat_Planes";
         faction = "rsr";
         hiddenSelectionsTextures[] =  {
@@ -25,7 +26,7 @@ class CfgVehicles {
     class rsr_c_161_viv: CUP_B_C130J_Cargo_USMC {
         author = ECSTRING(rsr_core,RSR);
         displayName = CSTRING(C161_Transall_2_VIV);
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\uniform\previews\rsr_c_161_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubcat_Planes";
         hiddenSelectionsTextures[] = {
