@@ -1,18 +1,3 @@
-class CfgVehicleClasses {
-    class ttt_Flags {
-        displayName = CSTRING(ttt_Flags_displayName);         
-        priority = 25;                         
-    };
-    class signs_Small {
-        displayName = CSTRING(signs_Small_displayName);
-        priority = 26;
-    };
-    class signs_Large {
-        displayName = CSTRING(signs_Large_displayName);         
-        priority = 27;                         
-    };
-};
-
 class CfgVehicles {
     /*
     #############################################################
@@ -26,7 +11,6 @@ class CfgVehicles {
         scopeCurator = 0;
         displayName = CSTRING(flag_base_displayName);
         model = "\a3\Structures_F\Mil\Flags\Mast_F.p3d";
-        vehicleClass = "ttt_Flags";
     };
 
     class ttt_Flag_Logo : ttt_Flag_Base {
@@ -36,7 +20,6 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\previews\ttt_Flag_Logo_preview.jpg);
         editorSubcategory = "ttt_main_ttt";
         icon = "iconObject_circle";
-
         
         class EventHandlers {
             init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_sign_co.paa));
@@ -174,15 +157,13 @@ class CfgVehicles {
     ### Schilder Klein
     #############################################################
     */
-    class NonStrategic;
-    class ttt_Sign_Small_Base : NonStrategic {
+    class Land_Noticeboard_F;
+    class ttt_Sign_Small_Base : Land_Noticeboard_F {
         mapSize = 0.83;
         author = QUOTE(Tactical Training Team);
         scope = 0;
         scopeCurator = 0;
         displayName = CSTRING(sign_small_base_displayName);
-        model = "\A3\Structures_F\Civ\InfoBoards\Noticeboard_F.p3d";
-        vehicleClass = "signs_Small";
         hiddenSelections[] = {"board"};
     };
 
@@ -283,14 +264,13 @@ class CfgVehicles {
     ### Schilder (groß)
     #############################################################
     */
-    class ttt_Sign_Large_Base : NonStrategic {
+    class SignAd_Sponsor_F;
+    class ttt_Sign_Large_Base : SignAd_Sponsor_F {
         mapSize = 0.83;
         author = QUOTE(Tactical Training Team);
         scope = 0;
         scopeCurator = 0;
         displayName = CSTRING(sign_large_base_displayName);
-        model = "\A3\Signs_F\Signs_Ad\SignsAd_Sponsor_F.p3d";
-        vehicleClass = "signs_large";
         hiddenSelections[] = {"camo"};
     };
 
