@@ -7,7 +7,7 @@ class CfgVehicles {
         typicalCargo[] = {"B_Soldier_F","B_Soldier_F"};
         side = 1;
         crew = "B_Soldier_F";
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\fennek\previews\rsr_fennek_transport_flecktarn_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
         hiddenSelectionsTextures[] = {

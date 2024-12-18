@@ -10,7 +10,7 @@ class CfgWeapons {
     class rnt_bw_wintertarn_uniform_item: CUP_U_O_CHDKZ_Kam_01 {
         author = ECSTRING(rsr_core,rnt);
         displayName = CSTRING(snowCamoDisplayName);
-        editorPreview = QPATHTOF(data\previews\rnt_bw_wintertarn_uniform_preview.jpg);
+        //editorPreview = QPATHTOF(data\previews\rnt_bw_wintertarn_uniform_preview.jpg);
         picture = QPATHTOF(data\uniform\rnt_winter_uniform_ui_pre_ca.paa);
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 
