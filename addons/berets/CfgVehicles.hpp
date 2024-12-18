@@ -5,7 +5,6 @@ class CfgVehicles {
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Reimchen"};
         displayName = CSTRING(blue);
-        editorPreview = QPATHTOF(data\previews\ttt_Beret_Item_Blue_preview.jpg);
         scope = 2;
         
         class TransportItems {
@@ -18,7 +17,6 @@ class CfgVehicles {
 
     class ttt_Beret_Item_Brown : ttt_Beret_Item_Blue {
         displayName = CSTRING(brown);
-        editorPreview = QPATHTOF(data\previews\ttt_Beret_Item_Brown_preview.jpg);
         
         class TransportItems {
             class ttt_Beret_Brown {
@@ -30,7 +28,6 @@ class CfgVehicles {
 
     class ttt_Beret_Item_Bronze : ttt_Beret_Item_Blue {
         displayName = CSTRING(bronze);
-        editorPreview = QPATHTOF(data\previews\ttt_Beret_Item_Bronze_preview.jpg);
         
         class TransportItems {
             class ttt_Beret_Bronze {
@@ -42,7 +39,6 @@ class CfgVehicles {
 
     class ttt_Beret_Item_Yellow : ttt_Beret_Item_Blue {
         displayName = CSTRING(yellow);
-        editorPreview = QPATHTOF(data\previews\ttt_Beret_Item_Yellow_preview.jpg);
         
         class TransportItems {
             class ttt_Beret_Yellow {
@@ -54,7 +50,6 @@ class CfgVehicles {
 
     class ttt_Beret_Item_Gold : ttt_Beret_Item_Blue {
         displayName = CSTRING(gold);
-        editorPreview = QPATHTOF(data\previews\ttt_Beret_Item_Gold_preview.jpg);
         
         class TransportItems {
             class ttt_Beret_Gold {
@@ -66,7 +61,6 @@ class CfgVehicles {
 
     class ttt_Beret_Item_Grey : ttt_Beret_Item_Blue {
         displayName = CSTRING(grey);
-        editorPreview = QPATHTOF(data\previews\ttt_Beret_Item_Grey_preview.jpg);
         
         class TransportItems {
             class ttt_Beret_Grey {
@@ -78,7 +72,6 @@ class CfgVehicles {
 
     class ttt_Beret_Item_Green : ttt_Beret_Item_Blue {
         displayName = CSTRING(green);
-        editorPreview = QPATHTOF(data\previews\ttt_Beret_Item_Green_preview.jpg);
         
         class TransportItems {
             class ttt_Beret_Green {
@@ -90,7 +83,6 @@ class CfgVehicles {
 
     class ttt_Beret_Item_Logo : ttt_Beret_Item_Blue {
         displayName = CSTRING(logo);
-        editorPreview = QPATHTOF(data\previews\ttt_Beret_Item_Logo_preview.jpg);
         
         class TransportItems {
             class ttt_Beret_Logo {
@@ -102,7 +94,6 @@ class CfgVehicles {
 
     class ttt_Beret_Item_Platinum : ttt_Beret_Item_Blue {
         displayName = CSTRING(platinum);
-        editorPreview = QPATHTOF(data\previews\ttt_Beret_Item_Platinum_preview.jpg);
         
         class TransportItems {
             class ttt_Beret_Platinum {
@@ -114,7 +105,6 @@ class CfgVehicles {
 
     class ttt_Beret_Item_Red : ttt_Beret_Item_Blue {
         displayName = CSTRING(red);
-        editorPreview = QPATHTOF(data\previews\ttt_Beret_Item_Red_preview.jpg);
         
         class TransportItems {
             class ttt_Beret_Red {
@@ -126,7 +116,6 @@ class CfgVehicles {
 
     class ttt_Beret_Item_Black : ttt_Beret_Item_Blue {
         displayName = CSTRING(black);
-        editorPreview = QPATHTOF(data\previews\ttt_Beret_Item_Black_preview.jpg);
         
         class TransportItems {
             class ttt_Beret_Black {
@@ -138,7 +127,6 @@ class CfgVehicles {
 
     class ttt_Beret_Item_Silver : ttt_Beret_Item_Blue {
         displayName = CSTRING(silver);
-        editorPreview = QPATHTOF(data\previews\ttt_Beret_Item_Silver_preview.jpg);
         
         class TransportItems {
             class ttt_Beret_Silver {
@@ -150,7 +138,6 @@ class CfgVehicles {
 
     class ttt_Beret_Item_Violet : ttt_Beret_Item_Blue {
         displayName = CSTRING(violet);
-        editorPreview = QPATHTOF(data\previews\ttt_Beret_Item_Violet_preview.jpg);
         
         class TransportItems {
             class ttt_Beret_Violet {
@@ -162,7 +149,6 @@ class CfgVehicles {
 
     class ttt_Beret_Item_White : ttt_Beret_Item_Blue {
         displayName = CSTRING(white);
-        editorPreview = QPATHTOF(data\previews\ttt_Beret_Item_White_preview.jpg);
         
         class TransportItems {
             class ttt_Beret_White {
@@ -174,7 +160,6 @@ class CfgVehicles {
 
     class ttt_Beret_Item_Orange : ttt_Beret_Item_Blue {
         displayName = CSTRING(orange);
-        editorPreview = QPATHTOF(data\previews\ttt_Beret_Item_Orange_preview.jpg);
         
         class TransportItems {
             class ttt_Beret_Orange {

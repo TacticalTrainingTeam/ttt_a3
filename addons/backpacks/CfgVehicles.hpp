@@ -11,68 +11,57 @@ class CfgVehicles {
     class ttt_backpack_radio_coyote : ttt_Radiobackpack_Base {
         scope = 2;
         displayName = CSTRING(radio_coyote);
-        editorPreview = QPATHTOF(data\previews\ttt_backpack_radio_coyote_preview.jpg);
         hiddenSelections[] = {"Camo1"};
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_backpack_radio_coyote_co.paa)};
     };
 
     class ttt_backpack_radio_olive : ttt_backpack_radio_coyote {
         displayName = CSTRING(radio_olive);
-        editorPreview = QPATHTOF(data\previews\ttt_backpack_radio_olive_preview.jpg);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_backpack_radio_olive_co.paa)};
     };
 
      class ttt_backpack_radio_brown_us_desert : ttt_backpack_radio_coyote {
         displayName = CSTRING(radio_brown_us_desert);
-        editorPreview = QPATHTOF(data\previews\ttt_backpack_radio_brown_us_desert_preview.jpg);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_backpack_radio_brown_us_desert_co.paa)};
     };
     
     class ttt_backpack_radio_bronze_us_desert : ttt_backpack_radio_coyote {
         displayName = CSTRING(radio_bronze_us_desert);
-        editorPreview = QPATHTOF(data\previews\ttt_backpack_radio_bronze_us_desert_preview.jpg);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_backpack_radio_bronze_us_desert_co.paa)};
     };
     
     class ttt_backpack_radio_green_us_desert : ttt_backpack_radio_coyote {
         displayName = CSTRING(radio_green_us_desert);
-        editorPreview = QPATHTOF(data\previews\ttt_backpack_radio_green_us_desert_preview.jpg);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_backpack_radio_green_us_desert_co.paa)};
     };
     
     class ttt_backpack_radio_grey_us_desert : ttt_backpack_radio_coyote {
         displayName = CSTRING(radio_grey_us_desert);
-        editorPreview = QPATHTOF(data\previews\ttt_backpack_radio_grey_us_desert_preview.jpg);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_backpack_radio_grey_us_desert_co.paa)};
     };
     
     class ttt_backpack_radio_gold_us_desert : ttt_backpack_radio_coyote {
         displayName = CSTRING(radio_gold_us_desert);
-        editorPreview = QPATHTOF(data\previews\ttt_backpack_radio_gold_us_desert_preview.jpg);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_backpack_radio_gold_us_desert_co.paa)};
     };
     
     class ttt_backpack_radio_platinum_us_desert : ttt_backpack_radio_coyote {
         displayName = CSTRING(radio_platinum_us_desert);
-        editorPreview = QPATHTOF(data\previews\ttt_backpack_radio_platinum_us_desert_preview.jpg);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_backpack_radio_platinum_us_desert_co.paa)};
     };
     
     class ttt_backpack_radio_silver_us_desert : ttt_backpack_radio_coyote {
         displayName = CSTRING(radio_silver_us_desert);
-        editorPreview = QPATHTOF(data\previews\ttt_backpack_radio_silver_us_desert_preview.jpg);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_backpack_radio_silver_us_desert_co.paa)};
     };
     
     class ttt_backpack_radio_white_us_desert : ttt_backpack_radio_coyote {
         displayName = CSTRING(radio_white_us_desert);
-        editorPreview = QPATHTOF(data\previews\ttt_backpack_radio_white_us_desert_preview.jpg);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_backpack_radio_white_us_desert_co.paa)};
     };
     
     class ttt_backpack_radio_yellow_us_desert : ttt_backpack_radio_coyote {
         displayName = CSTRING(radio_yellow_us_desert);
-        editorPreview = QPATHTOF(data\previews\ttt_backpack_radio_yellow_us_desert_preview.jpg);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_backpack_radio_yellow_us_desert_co.paa)};
     };
 };

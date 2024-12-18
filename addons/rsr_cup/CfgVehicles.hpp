@@ -3,7 +3,6 @@ class CfgVehicles {
     class rnt_bw_wintertarn_uniform: CUP_Creatures_Military_CHDKZ_Soldier_04 {
         author = ECSTRING(rsr_core,rnt);
         uniformClass = "rnt_bw_wintertarn_uniform_item";
-        editorPreview = QPATHTOF(data\previews\rnt_bw_wintertarn_uniform_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\uniform\rnt_winter_jacke_co.paa),
             QPATHTOF(data\uniform\rnt_winter_hose_co.paa)
