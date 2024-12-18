@@ -35,6 +35,8 @@ class CfgVehicles {
         displayName = CSTRING(flag_logo_displayName);
         editorPreview = QPATHTOF(data\previews\ttt_Flag_Logo_preview.jpg);
         editorSubcategory = "ttt_main_ttt";
+        icon = "iconObject_circle";
+
         
         class EventHandlers {
             init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_sign_co.paa));

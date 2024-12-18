@@ -390,7 +390,7 @@ class CfgVehicles {
     };
     class rsr_wisent_fuel_tropentarn: rsr_wisent_fuel_flecktarn {
         displayName = CSTRING(wisent_treibstoff_tropentarn);
-        editorPreview = QPATHTOF(data\wisent\previews\wisent_tropentarn_fuel_co_preview.paa);
+        editorPreview = QPATHTOF(data\wisent\previews\wisent_tropentarn_fuel_co_preview.jpg);
         hiddenSelectionsTextures[]= {
             QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
             QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
@@ -417,7 +417,7 @@ class CfgVehicles {
         side = 1;
         typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
-        editorPreview = QPATHTOF(data\wisent\previews\wisent_flecktarn_medical_co_preview.paa);
+        editorPreview = QPATHTOF(data\wisent\previews\wisent_flecktarn_medical_co_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
         hiddenSelectionsTextures[] = {
@@ -446,7 +446,7 @@ class CfgVehicles {
     };
     class rsr_wisent_medical_tropentarn: rsr_wisent_medical_flecktarn {
         displayName = CSTRING(wisent_sanitat_tropentarn);
-        editorPreview = QPATHTOF(data\wisent\previews\wisent_tropentarn_medical_co_preview.paa);
+        editorPreview = QPATHTOF(data\wisent\previews\wisent_tropentarn_medical_co_preview.jpg);
         hiddenSelectionsTextures[]= {
             QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
             QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
