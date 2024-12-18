@@ -19,6 +19,7 @@ include = [
     "authors.txt",
     "LICENSE",
     "*.paa",
+    "*.jpg"
 ]
 
 [lints.sqf]
