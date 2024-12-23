@@ -1,5 +1,5 @@
-#define COMPONENT spotlight_rhs
-#define COMPONENT_BEAUTIFIED Spotlight RHS
+#define COMPONENT spotlight_event
+#define COMPONENT_BEAUTIFIED Spotlight Event
 #include "\z\ttt\addons\main\script_mod.hpp"
 
 #include "\z\ttt\addons\main\script_macros.hpp"

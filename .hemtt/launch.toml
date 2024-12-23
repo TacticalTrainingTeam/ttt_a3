@@ -3,9 +3,9 @@
 workshop = [
     "463939057", # ACE3
     "450814997", # CBA_A3
-    #"751965892", # ACRE
+    "751965892", # ACRE
     "2369477168", # Advanced Developer Tools
-    #"3023395342", # 3DEN Attributes Fast Load
+    "3023395342", # 3DEN Attributes Fast Load
     "1779063631", # ZEN
 ]
 
@@ -15,7 +15,7 @@ parameters = [
     "-noPauseAudio"
 ]
 
-mission = "ttt_test.VR"
+#mission = "ttt_test.VR"
 #mission = "ttt_test.Malden"
 
 
@@ -89,7 +89,7 @@ workshop = [
 extends = "default"
 parameters = [
     "-server",
-    "-port=2302",
+    "-port=2322",
     "-loadMissionToMemory",
     "-filePatching",
     #"-cfg=E:\\SteamLibrary\\steamapps\\common\\Arma 3\\basic.cfg",
@@ -102,6 +102,6 @@ parameters = [
     "-world=empty",
     "-noPause",
     "-noPauseAudio",
-    "-connect=127.0.0.1",
-    "-port=2302",
+    #"-connect=game.tacticalteam.de",
+    #"-port=2302",
 ]
