@@ -7,6 +7,7 @@ workshop = [
     "2369477168", # Advanced Developer Tools
     "3023395342", # 3DEN Attributes Fast Load
     "1779063631", # ZEN
+    "1493485159", # Discord Rich Presence
 ]
 
 parameters = [
@@ -89,7 +90,7 @@ workshop = [
 extends = "default"
 parameters = [
     "-server",
-    "-port=2322",
+    "-port=2302",
     "-loadMissionToMemory",
     "-filePatching",
     #"-cfg=E:\\SteamLibrary\\steamapps\\common\\Arma 3\\basic.cfg",
@@ -100,8 +101,6 @@ parameters = [
 extends = "default"
 parameters = [
     "-world=empty",
-    "-noPause",
-    "-noPauseAudio",
-    #"-connect=game.tacticalteam.de",
-    #"-port=2302",
+    "-connect=127.0.0.1",
+    "-port=2302",
 ]
