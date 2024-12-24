@@ -11,4 +11,4 @@
  */
 params ["_object"];
 
-_object addAction [LSTRING(technical_teleport), { createDialog "RscFrameworkTeleporter" }, [], 0, false];
+_object addAction ["Technischer Teleport", { createDialog "RscFrameworkTeleporter" }, [], 0, false];

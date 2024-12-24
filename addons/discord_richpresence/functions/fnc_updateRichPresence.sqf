@@ -16,6 +16,10 @@
 
  */
 
+if !(GVAR(enableDRP)) exitWith {INFO("Rich Presence is disabled by client");};
+
+INFO("Updating Rich Presence");
+
 [
     ["UpdateDetails", missionNameSource],
     ["UpdateState", serverName],
