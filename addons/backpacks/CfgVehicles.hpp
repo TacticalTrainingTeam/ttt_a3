@@ -26,7 +26,6 @@ class CfgVehicles {
     };
     
     class ttt_backpack_radio_bronze_us_desert : ttt_backpack_radio_coyote {
-        scope = 2;
         displayName = CSTRING(radio_bronze_us_desert);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_backpack_radio_bronze_us_desert_co.paa)};
     };

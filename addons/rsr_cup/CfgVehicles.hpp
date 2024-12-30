@@ -13,7 +13,7 @@ class CfgVehicles {
     class rsr_c_161: CUP_B_C130J_USMC {
         author = ECSTRING(rsr_core,rsr);
         displayName = CSTRING(C161_Transall_2);
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\uniform\previews\rsr_c_161_preview.jpg);
         editorSubcategory = "EdSubcat_Planes";
         faction = "rsr";
         hiddenSelectionsTextures[] =  {
@@ -25,7 +25,7 @@ class CfgVehicles {
     class rsr_c_161_viv: CUP_B_C130J_Cargo_USMC {
         author = ECSTRING(rsr_core,RSR);
         displayName = CSTRING(C161_Transall_2_VIV);
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\uniform\previews\rsr_c_161_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubcat_Planes";
         hiddenSelectionsTextures[] = {
