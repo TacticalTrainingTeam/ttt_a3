@@ -162,7 +162,7 @@ class CfgWeapons {
     class ttt_Uniform_Base_BW : U_B_CombatUniform_mcam {
         scope = 0;
         displayName = "Tactical Training Team";
-        picture = "z\ttt\addons\uniforms\data\ttt_uniform_icon_bw.paa";
+        picture = QPATHTOF(data\ttt_uniform_icon_bw.paa);
         model = "\A3\characters_f\Common\Suitpacks\suitpack_universal_F";
         
         class ItemInfo : ItemInfo
