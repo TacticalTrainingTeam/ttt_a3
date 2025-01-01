@@ -7,9 +7,9 @@ Bei platzierten Fahrzeugen findet ihr die Option um das Schild zu aktivieren in 
 
 ## Funktionsaufruf (nicht empfohlen)
 
-`[Vehicle] call Framework_fnc_addVehicleShield;`
+1. `[Vehicle] call ttt_w_vehicleshield_fnc_addVehicleShield;`
 
-`[Vehicle, true, true, [true,true], true, true, 25] call Framework_fnc_addVehicleShield;`
+2. `[Vehicle, true, true, [true,true], true, true, 25] call ttt_w_vehicleshield_fnc_addVehicleShield;`
 
 * Arguments:
 * 0:      OBJECT - Target the vehicle shield is applied to
