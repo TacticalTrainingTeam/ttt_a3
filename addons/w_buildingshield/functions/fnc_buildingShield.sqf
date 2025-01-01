@@ -17,7 +17,7 @@
  * Example:
  * [BUILDING] call Framework_fnc_buildingShield;
  *
- * Public: Yes
+ * Public: No
  */
 params [
     [ "_target", objNull, [objNull] ]
