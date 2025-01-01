@@ -19,7 +19,7 @@ class CfgVehicles {
     class ModuleEditTerrainObject_F: Module_F {};
 
     class GVAR(buildingShield): ModuleEditTerrainObject_F {
-        displayName = "Building Shield";
+        displayName = CSTRING(BuildingShield_DisplayName);
         icon = "\a3\Missions_F_Beta\data\img\iconMPTypeDefense_ca.paa";
         portrait = "\a3\Missions_F_Beta\data\img\portraitMPTypeDefense_ca.paa";
         category = "Framework";

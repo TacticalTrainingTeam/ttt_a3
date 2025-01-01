@@ -66,12 +66,12 @@ switch _mode do
 
             private _shield = _module getVariable ["#shield",true];
             if (_shield) then {
-                [_building] call FUNCMAIN(buildingShield);
+                [_building] call FUNC(buildingShield);
             };
 
             private _pop = _module getVariable ["#windowpop",false];
             if (_pop) then {
-                [_building] call FUNCMAIN(removeWindowGlass);
+                [_building] call FUNC(removeWindowGlasses);
             };
 
             //delete module
