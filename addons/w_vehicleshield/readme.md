@@ -18,7 +18,7 @@ Bei platzierten Fahrzeugen findet ihr die Option um das Schild zu aktivieren in 
 * 3 (Optional):      ARRAY - Allow the [MainRotor, RearRotor] to be disabled? Default: [true, true]
 * 4 (Optional):      BOOLEAN - If the hull damage is capped, kill the engine? Default: true
 * 5 (Optional):      BOOLEAN - Allow the vehicle to be destroyed completely? With this set to false, the vehicle can only be destroyed by scripting commands. Default: false
-* 6 (Optional):      NUMBER - How many hits exceeding the normal damage limit can the vehicle take? Default: 20 
+* 6 (Optional):      NUMBER - How many hits exceeding the normal damage limit can the vehicle take? Default: 20
 If Arg. 3 is set to true, the vehicle can be damaged up to 80%. More damage is blocked and each hit that would theoretically "kill" the vehicle get's counted as "excessive hit".
 Once the threshold set in arg 4 is reached, the vehicle can be destroyed with the next hit.
 

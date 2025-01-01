@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
-    <Package name="w_buildingshield">
-        <Key ID="STR_ttt_w_buildingshield_displayName">
+    <Package name="w_vehicleshield">
+        <Key ID="STR_ttt_w_vehicleshield_displayName">
             <English>Vehicle Shield</English>
             <German>Fahrzeugschild</German>
         </Key>
