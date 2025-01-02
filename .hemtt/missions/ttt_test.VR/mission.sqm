@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=190;
+		nextID=192;
 	};
 	class Camera
 	{
-		pos[]={4804.3315,12.507174,6870.0518};
-		dir[]={-0.17435092,-0.42798367,0.88681662};
-		up[]={-0.082562737,0.90378642,0.419947};
-		aside[]={0.98122209,-8.2218321e-09,0.19291146};
+		pos[]={4791.6841,20.43722,6868.1582};
+		dir[]={-0.039805152,-0.49742556,0.8666032};
+		up[]={-0.022823885,0.86750633,0.49690428};
+		aside[]={0.99895465,1.5861588e-09,0.04588462};
 	};
 };
 binarizationWanted=0;
@@ -14526,15 +14526,33 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4787.4717,7.6292419,6901.1021};
+				position[]={4787.4722,7.6292419,6901.1021};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				name="fhz_01";
 			};
 			id=330;
 			type="rsr_bergepanzer_tropentarn";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ttt_w_vehicleshield_addVehicleShield";
+					expression="[[_this, true, true, [true, true], true, false], ttt_w_vehicleshield_fnc_addVehicleShield] call ttt_main_fnc_callGlobalFnc";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item5
 		{
@@ -14686,16 +14704,34 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4792.8047,7.1487036,6901.5322};
-				angles[]={0,6.2743011,0};
+				position[]={4792.8052,7.1487036,6901.5322};
+				angles[]={0,6.2743015,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				name="fhz_02";
 			};
 			id=363;
 			type="rsr_wisent_repair_flecktarn";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ttt_w_vehicleshield_addVehicleShield";
+					expression="[[_this, true, true, [true, true], true, false], ttt_w_vehicleshield_fnc_addVehicleShield] call ttt_main_fnc_callGlobalFnc";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 };
