@@ -1,5 +1,7 @@
 #include "script_component.hpp"
 
+INFO("Toggle Screenshot Mode");
+
 private _newState = param [0, true];
 
 {
