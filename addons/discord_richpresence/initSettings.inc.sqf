@@ -1,7 +1,7 @@
 [
     QGVAR(enable),
     "CHECKBOX",
-    ["Aktivieren", "Aktiviert die Discord Rich Presence Funktion"],
-    ["Tactical Training Team", "Discord Rich Presence"],
+    [LSTRING(displayName), LSTRING(description)],
+    [ELSTRING(main,TacticalTrainingTeam), LSTRING(subCategory)],
     true
 ] call CBA_fnc_addSetting;
