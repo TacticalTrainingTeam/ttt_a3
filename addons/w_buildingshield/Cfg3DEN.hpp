@@ -6,19 +6,6 @@ class Cfg3DEN {
                 collapsed = 1;
 
                 class Attributes {
-                    // class GVAR(addVehicleShield) {
-                    //     displayName = "VehicleShield";
-                    //     tooltip = "Fügt dem Fahrzeug das VehicleShield aus dem Gruppe W Framework hinzu.";
-                    //     property = QGVAR(addVehicleShield);
-                    //     control = "Checkbox";
-
-                    //     expression = QUOTE([ARR_2([ARR_6(_this,true,true,[ARR_2(true,true)],true,false)],FUNCMAIN(addVehicleShield))] call EFUNC(api,callGlobalFnc));
-                    //     defaultValue = 0;
-
-                    //     unique = 0;
-                    //     condition = "objectVehicle";
-                    //     typeName = "BOOL";
-                    // };
                     class GVAR(addBuildingShield) {
                         displayName = "BuildingShield";
                         tooltip = "Fügt dem Objekt das BuildingShield aus dem Gruppe W Framework hinzu.";
