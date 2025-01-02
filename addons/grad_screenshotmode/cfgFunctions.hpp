@@ -7,7 +7,7 @@ class CfgFunctions {
 			class toggleAll {};
 			class toggleACENametags {};
 			class toggleDuiHud {};
-			class toggleSTHud {};
+			//class toggleSTHud {};
 			class toggleVanillaHUD {};
 			class postInit {};
 		};

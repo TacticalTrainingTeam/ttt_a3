@@ -3,9 +3,9 @@
 GVAR(active) = false;
 
 [
-    'Gruppe Adler',
+    ELSTRING(main,TacticalTrainingTeam),
     'GRAD_screenshotMode_toggle',
-    'Toggle Screenshot Mode',
+    LSTRING(toggleScreenShotMode),//'Toggle Screenshot Mode',
     {
         GVAR(active) = !GVAR(active);
         [!GVAR(active)] call FUNC(toggleAll);
