@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=371;
+		nextID=372;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=186;
+		nextID=188;
 	};
 	class Camera
 	{
-		pos[]={4808.5952,5.9563928,6875.2061};
-		dir[]={0.070206657,-0.15560931,0.98536086};
-		up[]={0.011061037,0.98781276,0.15524894};
-		aside[]={0.99750537,4.8926449e-07,-0.07107152};
+		pos[]={4819.1655,25.023836,6900.1201};
+		dir[]={-0.49318683,-0.59942204,-0.63052785};
+		up[]={-0.36930841,0.80042738,-0.47215226};
+		aside[]={-0.78770596,4.811227e-07,0.6161285};
 	};
 };
 binarizationWanted=0;
@@ -37,13 +37,15 @@ addons[]=
 	"A3_Air_F_Heli_Heli_Transport_03",
 	"ace_realisticnames",
 	"A3_Ui_F",
-	"ttt_rsr_vanilla_compat_ace"
+	"ttt_rsr_vanilla_compat_ace",
+	"ttt_signs",
+	"A3_Structures_F_Households_House_Shop01"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=7;
+		items=9;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -92,6 +94,20 @@ class AddonsMetaData
 			name="TTT - RsR Vanilla Compat ACE";
 			author="Tactical Training Team";
 			url="https://tacticalteam.de";
+		};
+		class Item7
+		{
+			className="ttt_signs";
+			name="TTT - Signs";
+			author="Tactical Training Team";
+			url="https://tacticalteam.de";
+		};
+		class Item8
+		{
+			className="A3_Structures_F_Households";
+			name="Arma 3 - Houses";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -13973,7 +13989,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=10;
+		items=12;
 		class Item0
 		{
 			dataType="Layer";
@@ -14698,6 +14714,68 @@ class Mission
 			};
 			id=363;
 			type="rsr_wisent_repair_flecktarn";
+		};
+		class Item10
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4803.3672,8.9768047,6882.9971};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="ttt_teleport_teleporter";
+			};
+			id=364;
+			type="ttt_Flag_Blue";
+		};
+		class Item11
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4803.0571,8.0661001,6859.8291};
+				angles[]={0,3.189153,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=371;
+			type="Land_i_Shop_01_V1_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ttt_w_buildingshield_windowpop";
+					expression="[_this] call ttt_w_buildingshield_fnc_removeWindowGlass;";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ttt_w_buildingshield_addBuildingShield";
+					expression="[_this] call ttt_w_buildingshield_fnc_buildingShield;";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
+			};
 		};
 	};
 };

@@ -4,4 +4,4 @@
 
 #include "\z\ttt\addons\main\script_macros.hpp"
 
-#include "server_connection.hpp"
+#include "\a3\ui_f\hpp\defineResincl.inc"

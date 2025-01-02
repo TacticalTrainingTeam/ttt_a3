@@ -24,7 +24,7 @@ if (isNil "_object") exitWith {(INFO("Object not found!"));};
 if (hasInterface) then {
     INFO_1("Adding Actions to %1",_object);
     // add spectator cam
-    _object addAction ["Zuschauermodus", {
+    _object addAction ["Zuschauerkamera", {
 
         params ["_target", "_caller"];
 
