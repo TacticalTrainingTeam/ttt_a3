@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt_a3">
-    <Package name="stein_medic_vehicle"/>
+    <Package name="stein_medic_vehicle">
         <Key ID="STR_ttt_stein_medic_vehicle_SubCategory">
             <English>Stein Medical Vehicle</English>
             <German>Stein Medizinisches Fahrzeug</German>
@@ -13,4 +13,9 @@
             <English>Activates the medic vehicles functionality.</English>
             <German>Aktiviert die Funktion des medizinischem Fahrzeugs.</German>
         </Key>
+        <Key ID="STR_ttt_stein_medic_vehicle_abort">
+            <English>Action aborted</English>
+            <German>Vorgang abgebrochen</German>
+        </Key>
+    </Package>
 </Project>

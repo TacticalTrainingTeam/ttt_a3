@@ -52,7 +52,7 @@ stein_fnc_canDeconstruct = {
 stein_fnc_cancel = {
 	(_this select 0) params ["_target", "_caller", "_arguments"];
 	_arguments params ["_variable", "_value"];
-	hint "Vorgang abgebrochen";
+	hint LSTRING(abort);
 	_caller switchMove "";
 	if (typeOf _target == GVAR(supportedObject)) then {
 		_target setVariable ["inUse", false, true];
