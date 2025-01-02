@@ -1,1 +1,1 @@
-PREP(updateRichPresence)
+PREP(updateRichPresence);

@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=374;
+		nextID=372;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=192;
+		nextID=188;
 	};
 	class Camera
 	{
-		pos[]={4838.27,16.990892,6883.5283};
-		dir[]={-0.91775751,-0.39226866,0.062020309};
-		up[]={-0.39137599,0.91985071,0.026448447};
-		aside[]={0.067424327,-1.8626451e-09,0.99772441};
+		pos[]={4819.1655,25.023836,6900.1201};
+		dir[]={-0.49318683,-0.59942204,-0.63052785};
+		up[]={-0.36930841,0.80042738,-0.47215226};
+		aside[]={-0.78770596,4.811227e-07,0.6161285};
 	};
 };
 binarizationWanted=0;
@@ -39,7 +39,7 @@ addons[]=
 	"A3_Ui_F",
 	"ttt_rsr_vanilla_compat_ace",
 	"ttt_signs",
-	"CUP_WheeledVehicles_NewM998"
+	"A3_Structures_F_Households_House_Shop01"
 };
 class AddonsMetaData
 {
@@ -104,8 +104,10 @@ class AddonsMetaData
 		};
 		class Item8
 		{
-			className="CUP_WheeledVehicles_NewM998";
-			name="CUP_WheeledVehicles_NewM998";
+			className="A3_Structures_F_Households";
+			name="Arma 3 - Houses";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -13988,7 +13990,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=13;
+		items=12;
 		class Item0
 		{
 			dataType="Layer";
@@ -14733,30 +14735,46 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4809.5728,7.1127996,6878.3965};
+				position[]={4803.0571,8.0661001,6859.8291};
+				angles[]={0,3.189153,0};
 			};
 			side="Empty";
-			flags=4;
+			flags=5;
 			class Attributes
 			{
 			};
 			id=371;
-			type="CUP_B_nM1037sc_NATO";
-		};
-		class Item12
-		{
-			dataType="Object";
-			class PositionInfo
+			type="Land_i_Shop_01_V1_F";
+			class CustomAttributes
 			{
-				position[]={4818.0313,7.1127996,6878.0737};
+				class Attribute0
+				{
+					property="ttt_w_buildingshield_windowpop";
+					expression="[_this] call ttt_w_buildingshield_fnc_removeWindowGlass;";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ttt_w_buildingshield_addBuildingShield";
+					expression="[_this] call ttt_w_buildingshield_fnc_buildingShield;";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=2;
 			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=373;
-			type="CUP_B_nM1038_Repair_DF_NATO";
 		};
 	};
 };

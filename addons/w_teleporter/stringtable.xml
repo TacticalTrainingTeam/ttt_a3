@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt_a3">
-    <Package name="w-teleporter">
-        <Key ID="STR_ttt_w_teleporter_technical_teleport">
+    <Package name="w_teleporter">
+        <Key ID="STR_ttt_w_teleporter_technicalTeleport">
             <English>Technical Teleport</English>
-            <German>Teschnicher Teleport</German>
+            <German>Technischer Teleport</German>
         </Key>
         <Key ID="STR_ttt_w_teleporter_nearby">
             <English>Nearby</English>
