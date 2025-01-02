@@ -24,6 +24,7 @@ class CfgVehicles {
         author = QUOTE(Tactical Training Team);
         scope = 0;
         scopeCurator = 0;
+        icon = "iconObject_circle";
         displayName = CSTRING(flag_base_displayName);
         model = "\a3\Structures_F\Mil\Flags\Mast_F.p3d";
         vehicleClass = "ttt_Flags";
@@ -163,6 +164,7 @@ class CfgVehicles {
         author = QUOTE(Tactical Training Team);
         scope = 0;
         scopeCurator = 0;
+        icon = "iconObject_4x1";
         displayName = CSTRING(sign_small_base_displayName);
         model = "\A3\Structures_F\Civ\InfoBoards\Noticeboard_F.p3d";
         vehicleClass = "signs_Small";
@@ -256,6 +258,7 @@ class CfgVehicles {
         author = QUOTE(Tactical Training Team);
         scope = 0;
         scopeCurator = 0;
+        icon = "iconObject_10x1";
         displayName = CSTRING(sign_large_base_displayName);
         model = "\A3\Signs_F\Signs_Ad\SignsAd_Sponsor_F.p3d";
         vehicleClass = "signs_large";

@@ -2,7 +2,7 @@
     QGVAR(enableTeleport),
     "CHECKBOX",
     [LSTRING(enable_displayName), LSTRING(enable_description)],
-    LSTRING(category),
+    [ELSTRING(main,TacticalTrainingTeam),LSTRING(subCategory)],
     true,
-    true
+    1
 ] call CBA_fnc_addSetting;
