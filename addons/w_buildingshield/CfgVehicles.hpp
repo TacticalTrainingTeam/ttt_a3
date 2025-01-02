@@ -40,15 +40,15 @@ class CfgVehicles {
             };
             class GVAR(shield): Checkbox {
                 property = "#shield";
-                displayName = "Building Shield";
-                tooltip = "Verhindert ein Zerstören der Gebäudestruktur, ausgenommen Fenster.";
+                displayName = CSTRING(displayName);//"Building Shield";
+                tooltip = CSTRING(description);//"Verhindert ein Zerstören der Gebäudestruktur, ausgenommen Fenster.";
                 expression = "_this setVariable ['#shield',_value]";
                 defaultValue = "true";
             };
             class GVAR(windowpop): Checkbox {
                 property = "#windowpop";
-                displayName = "Fenster entglasen";
-                tooltip = "Zerstört alle Fenster im Gebäude.";
+                displayName = CSTRING(window_displayName);//"Fenster entglasen";
+                tooltip = CSTRING(window_description);//"Zerstört alle Fenster im Gebäude.";
                 expression = "_this setVariable ['#windowpop',_value]";
                 defaultValue = "false";
             };
