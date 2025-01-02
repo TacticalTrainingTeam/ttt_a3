@@ -113,7 +113,8 @@ class AddonsMetaData
 };
 dlcs[]=
 {
-	"Heli"
+	"Heli",
+	"CUP_Vehicles"
 };
 randomSeed=2094387;
 class ScenarioData
