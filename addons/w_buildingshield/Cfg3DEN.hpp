@@ -7,7 +7,7 @@ class Cfg3DEN {
 
                 class Attributes {
                     class GVAR(addBuildingShield) {
-                        displayName = "BuildingShield";
+                        displayName = "Building Shield";
                         tooltip = "Fügt dem Objekt das BuildingShield aus dem Gruppe W Framework hinzu.";
                         property = QGVAR(addBuildingShield);
                         control = "Checkbox";
