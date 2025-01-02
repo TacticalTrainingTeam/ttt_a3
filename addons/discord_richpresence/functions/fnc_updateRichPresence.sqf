@@ -12,7 +12,7 @@
  * Example:
  * [] call ttt_discord_richpresence_fnc_updateRichPresence
  *
- * Public: No
+ * Public: Yes
 
  */
 
