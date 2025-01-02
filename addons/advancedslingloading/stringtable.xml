@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt_a3">
+    <Package name="advancedslingload">
+        <Key ID="STR_ttt_advancedslingload_attachRope">
+            <English>Attach To Cargo Ropes</English>
+            <German>Fracht befestigen</German>
+        </Key>
+        <Key ID="STR_ttt_advancedslingload_deployRope">
+            <English>Deploy Cargo Ropes</English>
+            <German>Frachtseile auswerfen</German>
+        </Key>
+        <Key ID="STR_ttt_advancedslingload_dropRope">
+            <English>Drop Cargo Ropes</English>
+            <German>Frachtseile fallen lassen</German>
+        </Key>
+        <Key ID="STR_ttt_advancedslingload_extendRope">
+            <English>Extend Cargo Ropes</English>
+            <German>Frachtseile verlängern</German>
+        </Key>
+        <Key ID="STR_ttt_advancedslingload_pickupRope">
+            <English>Pickup Cargo Ropes</English>
+            <German>Frachtseile aufnehmen</German>
+        </Key>
+        <Key ID="STR_ttt_advancedslingload_releaseRope">
+            <English>Release Cargo</English>
+            <German>Fracht lösen</German>
+        </Key>
+        <Key ID="STR_ttt_advancedslingload_retractRope">
+            <English>Retract Cargo Ropes</English>
+            <German>Frachtseile einziehen</German>
+        </Key>
+        <Key ID="STR_ttt_advancedslingload_shortenRope">
+            <English>Shorten Cargo Ropes</English>
+            <German>Frachtseile verkürzen</German>
+        </Key>
+    </Package>
+</Project>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt_a3">
+    <Package name="signs">
+        <Key ID="STR_ttt_signs_flag_base_displayName">
+            <English>TTT Flag Base</English>
+            <German>TTT Flagge Base</German>
+        </Key>
+        <Key ID="STR_ttt_signs_flag_black_displayName">
+            <English>TTT Flag Black</English>
+            <German>TTT Flagge Schwarz</German>
+        </Key>
+        <Key ID="STR_ttt_signs_flag_blue_displayName">
+            <English>TTT Flag Blue</English>
+            <German>TTT Flagge Blau</German>
+        </Key>
+        <Key ID="STR_ttt_signs_flag_bronze_displayName">
+            <English>TTT Flag Bronze</English>
+            <German>TTT Flagge Bronze</German>
+        </Key>
+        <Key ID="STR_ttt_signs_flag_brown_displayName">
+            <English>TTT Flag Brown</English>
+            <German>TTT Flagge Braun</German>
+        </Key>
+        <Key ID="STR_ttt_signs_flag_gold_displayName">
+            <English>TTT Flag Gold</English>
+            <German>TTT Flagge Gold</German>
+        </Key>
+        <Key ID="STR_ttt_signs_flag_green_displayName">
+            <English>TTT Flag Green</English>
+            <German>TTT Flagge Grün</German>
+        </Key>
+        <Key ID="STR_ttt_signs_flag_grey_displayName">
+            <English>TTT Flag Grey</English>
+            <German>TTT Flagge Grau</German>
+        </Key>
+        <Key ID="STR_ttt_signs_flag_logo_displayName">
+            <English>TTT Flag Logo</English>
+            <German>TTT Flagge Logo</German>
+        </Key>
+        <Key ID="STR_ttt_signs_flag_orange_displayName">
+            <English>TTT Flag Orange</English>
+            <German>TTT Flagge Orange</German>
+        </Key>
+        <Key ID="STR_ttt_signs_flag_platinum_displayName">
+            <English>TTT Flag Platinum</English>
+            <German>TTT Flagge Platin</German>
+        </Key>
+        <Key ID="STR_ttt_signs_flag_red_displayName">
+            <English>TTT Flag Red</English>
+            <German>TTT Flagge Rot</German>
+        </Key>
+        <Key ID="STR_ttt_signs_flag_silver_displayName">
+            <English>TTT Flag Silver</English>
+            <German>TTT Flagge Silber</German>
+        </Key>
+        <Key ID="STR_ttt_signs_flag_violet_displayName">
+            <English>TTT Flag Violet</English>
+            <German>TTT Flagge Violett</German>
+        </Key>
+        <Key ID="STR_ttt_signs_flag_white_displayName">
+            <English>TTT Flag White</English>
+            <German>TTT Flagge Weiss</German>
+        </Key>
+        <Key ID="STR_ttt_signs_flag_yellow_displayName">
+            <English>TTT Flag Yellow</English>
+            <German>TTT Flagge Gelb</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_large_base_displayName">
+            <English>TTT Sign Large Base</English>
+            <German>TTT Schild Groß Base</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_large_black_displayName">
+            <English>TTT Sign Black (large)</English>
+            <German>TTT Schild Schwarz (groß)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_large_blue_displayName">
+            <English>TTT Sign Blue (large)</English>
+            <German>TTT Schild Blau (groß)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_large_bronze_displayName">
+            <English>TTT Sign Bronze (large)</English>
+            <German>TTT Schild Bronze (groß)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_large_brown_displayName">
+            <English>TTT Sign Brown (large)</English>
+            <German>TTT Schild Braun (groß)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_large_gold_displayName">
+            <English>TTT Sign Gold (large)</English>
+            <German>TTT Schild Gold (groß)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_large_green_displayName">
+            <English>TTT Sign Green (large)</English>
+            <German>TTT Schild Grün (groß)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_large_grey_displayName">
+            <English>TTT Sign Grey (large)</English>
+            <German>TTT Schild Grau (groß)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_large_logo_displayName">
+            <English>TTT Sign Logo (large)</English>
+            <German>TTT Schild Logo (groß)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_large_orange_displayName">
+            <English>TTT Sign Orange (large)</English>
+            <German>TTT Schild Orange (groß)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_large_platinum_displayName">
+            <English>TTT Sign Platinum (large)</English>
+            <German>TTT Schild Platin (groß)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_large_red_displayName">
+            <English>TTT Sign Red (large)</English>
+            <German>TTT Schild Rot (groß)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_large_silver_displayName">
+            <English>TTT Sign Silver (large)</English>
+            <German>TTT Schild Silber (groß)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_large_violet_displayName">
+            <English>TTT Sign Violet (large)</English>
+            <German>TTT Schild Violett (groß)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_large_white_displayName">
+            <English>TTT Sign White (large)</English>
+            <German>TTT Schild Weiss (groß)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_large_yellow_displayName">
+            <English>TTT Sign Yellow (large)</English>
+            <German>TTT Schild Gelb (groß)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_small_base_displayName">
+            <English>TTT Sign Small Base</English>
+            <German>TTT Schild Klein Base</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_small_black_displayName">
+            <English>TTT Sign Black (small)</English>
+            <German>TTT Schild Schwarz (klein)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_small_blue_displayName">
+            <English>TTT Sign Blue (small)</English>
+            <German>TTT Schild Blau (klein)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_small_bronze_displayName">
+            <English>TTT Sign Bronze (small)</English>
+            <German>TTT Schild Bronze (klein)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_small_brown_displayName">
+            <English>TTT Sign Brown (small)</English>
+            <German>TTT Schild Braun (klein)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_small_gold_displayName">
+            <English>TTT Sign Gold (small)</English>
+            <German>TTT Schild Gold (klein)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_small_green_displayName">
+            <English>TTT Sign Green (small)</English>
+            <German>TTT Schild Grün (klein)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_small_grey_displayName">
+            <English>TTT Sign Grey (small)</English>
+            <German>TTT Schild Grau (klein)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_small_logo_displayName">
+            <English>TTT Sign Logo (small)</English>
+            <German>TTT Schild Logo (klein)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_small_orange_displayName">
+            <English>TTT Sign Orange (small)</English>
+            <German>TTT Schild Orange (klein)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_small_platinum_displayName">
+            <English>TTT Sign Platinum (small)</English>
+            <German>TTT Schild Platin (klein)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_small_red_displayName">
+            <English>TTT Sign Red (small)</English>
+            <German>TTT Schild Rot (klein)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_small_silver_displayName">
+            <English>TTT Sign Silver (small)</English>
+            <German>TTT Schild Silber (klein)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_small_violet_displayName">
+            <English>TTT Sign Violet (small)</English>
+            <German>TTT Schild Violett (klein)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_small_white_displayName">
+            <English>TTT Sign White (small)</English>
+            <German>TTT Schild Weiss (klein)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_sign_small_yellow_displayName">
+            <English>TTT Sign Yellow (small)</English>
+            <German>TTT Schild Gelb (klein)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_signs_Large_displayName">
+            <English>TTT Signs (large)</English>
+            <German>TTT Schilder (groß)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_signs_Small_displayName">
+            <English>TTT Signs (small)</English>
+            <German>TTT Schilder (klein)</German>
+        </Key>
+        <Key ID="STR_ttt_signs_ttt_Flags_displayName">
+            <English>TTT Flags</English>
+            <German>TTT Flaggen</German>
+        </Key>
+    </Package>
+</Project>

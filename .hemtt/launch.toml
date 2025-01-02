@@ -7,13 +7,18 @@ workshop = [
     "2369477168", # Advanced Developer Tools
     "3023395342", # 3DEN Attributes Fast Load
     "1779063631", # ZEN
+    "1493485159", # Discord Rich Presence
 ]
 
 parameters = [
     "-world=empty",
+    "-noPause",
+    "-noPauseAudio"
 ]
 
 mission = "ttt_test.VR"
+#mission = "ttt_test.Malden"
+
 
 #executable = "arma3_x64" # Default: "arma3_x64"
 #file_patching = true # Default: true
@@ -72,4 +77,30 @@ workshop = [
 extends = "default"
 workshop = [
     "1493485159", # Discord Rich Presence
+]
+
+
+[grad]
+extends = "default"
+workshop = [
+    "1224892496", # GRAD Trenches
+]
+
+[server]
+extends = "default"
+parameters = [
+    "-server",
+    "-port=2302",
+    "-loadMissionToMemory",
+    "-filePatching",
+    #"-cfg=E:\\SteamLibrary\\steamapps\\common\\Arma 3\\basic.cfg",
+    "-config=E:\\SteamLibrary\\steamapps\\common\\Arma 3\\server.cfg",
+]
+
+[player]
+extends = "default"
+parameters = [
+    "-world=empty",
+    "-connect=127.0.0.1",
+    "-port=2302",
 ]

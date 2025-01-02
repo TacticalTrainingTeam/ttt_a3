@@ -1,7 +1,8 @@
 [
-    QGVAR(enable),
+    QGVAR(enableDRP),
     "CHECKBOX",
-    [LSTRING(displayName), LSTRING(description)],
-    [ELSTRING(main,TacticalTrainingTeam), LSTRING(subCategory)],
-    true
+    [LSTRING(enable_displayName), LSTRING(enable_description)],
+    [ELSTRING(main,TacticalTrainingTeam),LSTRING(subCategory)],
+    true,
+    0
 ] call CBA_fnc_addSetting;

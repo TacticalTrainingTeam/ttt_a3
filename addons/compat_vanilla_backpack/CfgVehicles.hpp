@@ -19,11 +19,11 @@ class CfgVehicles
         maximumLoad = 320;
         mass = 50;
     };
-    class B_RadioBag_01_hex_F: B_RadioBag_01_base_F    {
+    class B_RadioBag_01_hex_F: B_RadioBag_01_base_F {
         maximumLoad = 320;
         mass = 50;
     };
-    class B_RadioBag_01_mtp_F: B_RadioBag_01_base_F    {
+    class B_RadioBag_01_mtp_F: B_RadioBag_01_base_F {
         maximumLoad = 320;
         mass = 50;
     };
@@ -35,7 +35,7 @@ class CfgVehicles
         maximumLoad = 320;
         mass = 50;
     };
-    class B_RadioBag_01_wdl_F: B_RadioBag_01_base_F    {
+    class B_RadioBag_01_wdl_F: B_RadioBag_01_base_F {
         maximumLoad = 320;
         mass = 50;
     };
