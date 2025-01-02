@@ -14542,12 +14542,13 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4787.4717,7.6292419,6901.1021};
+				position[]={4787.4722,7.6292419,6901.1021};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				name="fhz_01";
 			};
 			id=330;
 			type="rsr_bergepanzer_tropentarn";
@@ -14702,13 +14703,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4792.8047,7.1487036,6901.5322};
-				angles[]={0,6.2743011,0};
+				position[]={4792.8052,7.1487036,6901.5322};
+				angles[]={0,6.2743015,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				name="fhz_02";
 			};
 			id=363;
 			type="rsr_wisent_repair_flecktarn";
