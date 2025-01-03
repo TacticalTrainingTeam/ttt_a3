@@ -2,12 +2,12 @@
 
 private _newState = param [0, true];
 
+INFO_1("Toggling screenshotmode to %1",_newState);
+
 {
     [_newState] call _x;
 } forEach [
     FUNC(toggleACENametags),
-    //FUNC(toggleSTHud),
-    //FUNC(toggleTFAR),
     FUNC(toggleVanillaHUD),
     FUNC(toggleDuiHud)
 ];

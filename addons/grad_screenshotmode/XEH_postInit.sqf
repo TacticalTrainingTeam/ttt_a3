@@ -1,5 +1,6 @@
 #include "script_component.hpp"
 
+//add the keybind
 GVAR(active) = false;
 
 [
