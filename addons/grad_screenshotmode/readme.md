@@ -4,8 +4,9 @@ Fügt eine Tastenkombination zum Ausblenden aller UI-Elemente für schönere Scr
 
 ## Mod support
 
+* Vanilla Arma
 * DUI Hud
-* ACE: name tags, stamina bar
+* ACE: Name Ttags, Stamina Bar
 
 ## Refrenzen
 
