@@ -14,6 +14,5 @@ Fügt eine Tastenkombination zum Ausblenden aller UI-Elemente für schönere Scr
 
 ## Maintainer
 
-* derZade (Gruppe Adler)
 * Menom (TTT)
 * Andx (TTT)
