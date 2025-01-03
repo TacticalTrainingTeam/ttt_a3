@@ -5,5 +5,9 @@
             <English>Vehicle Shield</English>
             <German>Fahrzeugschild</German>
         </Key>
+        <Key ID="STR_ttt_w_vehicleshield_description">
+            <English>Adds a vehicle shield to the vehicle.</English>
+            <German>Fügt dem Fahrzeug das VehicleShield aus dem Gruppe W Framework hinzu</German>
+        </Key>
     </Package>
 </Project>

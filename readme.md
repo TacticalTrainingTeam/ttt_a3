@@ -7,11 +7,10 @@ Du willst mitmachen? <http://www.tacticalteam.de/mitmachen>
 ## Die Mod bauen
 
 1. Visual Studio Code installieren - <https://code.visualstudio.com>
-    - hemtt Extension installieren - `brettmayson.hemtt`
-    - SQF Language Extension installieren - `Armitxes.sqf`
-2. Arma 3 Tools installieren (über Steam)
-3. hemtt installieren `winget install hemtt` in einer Kommandozeile - <https://hemtt.dev>
-4. das Repo Clonen `git clone https://github.com/TacticalTrainingTeam/ttt_a3.git` in der Kommandozeile
+    - hemtt Extension installieren - <https://marketplace.visualstudio.com/items?itemName=brettmayson.hemtt>
+2. Arma 3 Tools über Steam installieren und einmal starten
+3. hemtt installieren `winget install hemtt` in einer Kommandozeile ausführen - Dokumentation: <https://hemtt.dev>
+4. das Repo Clonen `git clone https://github.com/TacticalTrainingTeam/ttt_a3.git` in der Kommandozeile ausführen
 5. Folgende Mods im Steamworkshop abonnieren:
     - CBA <https://steamcommunity.com/workshop/filedetails/?id=450814997>
     - ACE <https://steamcommunity.com/sharedfiles/filedetails/?id=463939057>

@@ -7,8 +7,8 @@ class Cfg3DEN {
 
                 class Attributes {
                     class GVAR(addVehicleShield) {
-                        displayName = "Vehicle Shield";
-                        tooltip = "Fügt dem Fahrzeug das VehicleShield aus dem Gruppe W Framework hinzu.";
+                        displayName = CSTRING(displayName);//"Vehicle Shield";
+                        tooltip = CSTRING(description);//"Fügt dem Fahrzeug das VehicleShield aus dem Gruppe W Framework hinzu.";
                         property = QGVAR(addVehicleShield);
                         control = "Checkbox";
 
