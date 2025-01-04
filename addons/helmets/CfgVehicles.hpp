@@ -84,7 +84,7 @@ class CfgVehicles {
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Andx"};
         displayName = CSTRING(helmet_7_bw_flecktarn_displayName);
-        
+       
         class TransportItems {
             class ttt_Helmet_7_BW_Flecktarn {
                 name = "ttt_Helmet_7_BW_Flecktarn";
