@@ -3,31 +3,25 @@
 ´* Author: EinStein
  * 
  * Arguments:
- * 0: Unit <OBJECT>
+ * 0: Facility <OBJECT>
+ * 1: Caller <OBJECT>
+ * 2: Arguments <ARRAY>
  *
  * Return Value:
  * BOOLEAN
  *
  * Example:
- * [unit] call ttt_stein_medic_vehicle_fnc_canDeconstruct;
+ * [tent] call ttt_stein_medic_vehicle_fnc_canDeconstruct;
  *
  * Public: No
  */
 
-params ["_unit"];
+(_this select 0) params ["_target", "_caller"];
 
-private _arrayVehicles = nearestObjects [(getPos _unit), (parseSimpleArray GVAR(supportedVehicles)), 15];
-
-_bool = false;
-
+_arrayVehicles = nearestObjects [(getPos _target), (parseSimpleArray GVAR(supportedVehicles)), 15];
+private _return = false;
 {
-	if (!(_x getVariable ["hasTent", true])) then {
-		_bool = true;
-	};
+	if (!(_x getVariable ["hasTent", true]) && !(_target getVariable ["inUse", false])) then {_return = true;};
 } forEach _arrayVehicles;
 
-if ((_unit getVariable ["inUse", false])) then {
-	_bool = false;
-};
-
-_bool;
+_return;

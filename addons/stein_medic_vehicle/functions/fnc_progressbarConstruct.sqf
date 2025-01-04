@@ -6,6 +6,7 @@
  * Arguments:
  * 0: Target Vehicle <OBJECT>
  * 1: Unit <OBJECT>
+ * 2: Arguments <ARRAY>
  *
  * Return Value:
  * None
@@ -16,28 +17,33 @@
  * Public: No
  */
 
-params ["_target", "_unit"];
+(_this select 0) params ["_target", "_caller"];
 
 private _position = (_target getPos [-10, getDir _target]) findEmptyPosition [2, 10, "Tank"];
-_target setVariable ["hasTent", false, true];
 
 if (_position isEqualTo []) exitWith {
-	hint "Nicht genug Platz zum Aufbau des Zeltes vorhanden.";
-	_target setVariable ["hasTent", true, true];
+	hint LLSTRING(hintErrorNoSpace);
 };
 
+_target setVariable ["hasTent", false, true];
 _target setVariable ["fuel", (fuel _target), true];
 [_target, 0] remoteExec ["setFuel", (owner _target), false];
 [_target, [0, 0, 0]] remoteExec ["setVelocity", (owner _target), false];
 
 if (GVAR(useAnimation)) then {
-	_unit playMove GVAR(BuildAnimation);
+	_caller playMove GVAR(buildAnimation);
 };
 
 [
-	GVAR(BuildTime),
-	_this,
-	[_this select 0] call FUNC(buildTent),
-	[_this select 0] call FUNC(cancel),
-	"Baue medizinisches Zelt auf"
+	GVAR(buildTime),
+	[_target,_caller],
+	{
+		(_this select 0) params ["_target", "_caller"];
+		[_target,_caller] call FUNC(tentConstruct);
+	},
+	{
+		(_this select 0) params ["_target", "_caller"];
+		[_target,_caller] call FUNC(cancel)
+	},
+	LLSTRING(actionConstruct)
 ] call ace_common_fnc_progressBar;

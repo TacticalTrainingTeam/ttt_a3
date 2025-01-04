@@ -3,22 +3,24 @@
 ´* Author: EinStein
  * 
  * Arguments:
- * 
+ * 0: Interacted object <OBJECT>
+ * 1: Caller <OBJECT>
  *
  * Return Value:
  * None
  *
  * Example:
- * 
+ * [] call ttt_stein_medic_vehicle_fnc_cancel;
  *
  * Public: No
  */
 
-(_this select 0) params ["_target", "_caller", "_arguments"];
+params ["_target", "_caller"];
 
-hint "Vorgang abgebrochen";
+hint LLSTRING(abort);
 _caller switchMove "";
-if (typeOf _target == GVAR(supportedObject)) then {
+
+if (typeOf _target == GVAR(facitlityObject)) then {
 	_target setVariable ["inUse", false, true];
 	_arrayVehicles = nearestObjects [(getPos _target), (parseSimpleArray GVAR(supportedVehicles)), 15];
 	private "_vehicle";

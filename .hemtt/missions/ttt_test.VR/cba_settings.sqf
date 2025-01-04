@@ -6,5 +6,8 @@ force ttt_stein_medic_backpack_supportedItems = "[""Land_Camping_Light_F"", ""La
 force ttt_stein_medic_backpack_supportedObject = "Land_MedicalTent_01_floor_dark_F";
 
 force ttt_stein_medic_vehicle_enable = true;
-force ttt_stein_medic_vehicle_supportedvehicles = "[""B_T_Truck_01_medical_F"",""rsr_wisent_medical_flecktarn""]";
-force ttt_stein_medic_vehicle_supportedObject = "Land_MedicalTent_01_NATO_tropic_generic_open_F";
+force ttt_stein_medic_vehicle_supportedVehicles = '["B_Truck_01_medical_F","B_T_Truck_01_medical_F"]';
+force ttt_stein_medic_vehicle_facitlityObject = "Land_MedicalTent_01_NATO_tropic_generic_open_F";
+force ttt_stein_medic_vehicle_buildTime = 4;
+force ttt_stein_medic_vehicle_useAnimation = true;
+force ttt_stein_medic_vehicle_buildAnimation = "Acts_carFixingWheel";

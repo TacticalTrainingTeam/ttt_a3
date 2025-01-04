@@ -3,18 +3,20 @@
 ´* Author: EinStein
  * 
  * Arguments:
- * 
+ * 0: facility in deconstruction <OBJECT>
+ * 1: player who is deconstruction <OBJECT>
+ * 2: Arguments <ARRAY>
  *
  * Return Value:
  * None
  *
  * Example:
- * 
+ * [tent,unit] call ttt_stein_medic_vehicle_fnc_canDeconstruct;
  *
  * Public: No
  */
 
-(_this select 0) params ["_target", "_caller", "_arguments"];
+params ["_target", "_caller"];
 
 _arrayVehicles = nearestObjects [(getPos _target), (parseSimpleArray GVAR(supportedVehicles)), 15];
 private "_vehicle";
@@ -27,11 +29,14 @@ private _ArrayVehicle = [];
 
 _vehicle = _ArrayVehicle select 0;
 
-hint Format ["Das Zelt wurde in das Fahrzeug;
-	\nRichtung: %1 Grad\nEntfernung: %2 Meter\ngeladen.",
-(round ((getPos _target) getDir (getPos _vehicle))), (round ((getPos _target) distance (getPos _vehicle)))];
+hint Format [
+	LLSTRING(hintLoaded),
+	(round ((getPos _target) getDir (getPos _vehicle))),
+	(round ((getPos _target) distance (getPos _vehicle)))
+];
 
 _vehicle setVariable ["hasTent", true, true];
+[_vehicle, (_vehicle getVariable ["fuel", 100])] remoteExec ["setFuel", (owner _vehicle), false];
 deleteVehicle _target;
 _caller switchMove "";
-[_vehicle, (_vehicle getVariable ["fuel", 100])] remoteExec ["setFuel", (owner _vehicle), false];
+ 

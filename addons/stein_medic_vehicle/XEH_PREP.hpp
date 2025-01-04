@@ -1,8 +1,8 @@
-PREP(vehicleHasTent);
-PREP(buildProgressBar);
-PREP(buildTent);
+PREP(addActions);
 PREP(cancel);
+PREP(canConstruct);
 PREP(canDeconstruct);
-PREP(deconstructProgressBar);
-PREP(deconstructTent);
-PREP(initVehicle);
+PREP(tentConstruct);
+PREP(tentDeconstruct);
+PREP(progressbarConstruct);
+PREP(progressbarDeconstruct);

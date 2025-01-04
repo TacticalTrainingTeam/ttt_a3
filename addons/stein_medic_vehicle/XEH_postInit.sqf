@@ -2,4 +2,4 @@
 
 if (!hasInterface) exitWith {};
 
-[] call FUNC(initVehicle);
+[] call FUNC(addActions);

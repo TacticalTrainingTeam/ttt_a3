@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=371;
+		nextID=372;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=186;
+		nextID=190;
 	};
 	class Camera
 	{
-		pos[]={4808.5952,5.9563928,6875.2061};
-		dir[]={0.070206657,-0.15560931,0.98536086};
-		up[]={0.011061037,0.98781276,0.15524894};
-		aside[]={0.99750537,4.8926449e-07,-0.07107152};
+		pos[]={4785.7944,34.670143,6866.1948};
+		dir[]={0.53473431,-0.81007171,0.24050629};
+		up[]={0.73878604,0.58633077,0.33228222};
+		aside[]={0.41018867,0,-0.91200089};
 	};
 };
 binarizationWanted=0;
@@ -33,18 +33,23 @@ addons[]=
 	"A3_Modules_F_Curator_Curator",
 	"A3_Supplies_F_Heli_CargoNets",
 	"A3_Characters_F",
+	"ttt_berets",
+	"ttt_uniforms",
+	"ttt_vests",
 	"ttt_rsr_vanilla",
 	"A3_Air_F_Heli_Heli_Transport_03",
 	"ace_realisticnames",
 	"A3_Ui_F",
 	"ttt_rsr_vanilla_compat_ace",
-	"ttt_signs"
+	"ttt_signs",
+	"A3_Soft_F_Gamma_Truck_01",
+	"ace_cargo"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=8;
+		items=13;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -68,45 +73,79 @@ class AddonsMetaData
 		};
 		class Item3
 		{
+			className="ttt_berets";
+			name="TTT - Berets";
+			author="Tactical Training Team";
+			url="https://tacticalteam.de";
+		};
+		class Item4
+		{
+			className="ttt_uniforms";
+			name="TTT - Uniforms";
+			author="Tactical Training Team";
+			url="https://tacticalteam.de";
+		};
+		class Item5
+		{
+			className="ttt_vests";
+			name="TTT - Vests";
+			author="Tactical Training Team";
+			url="https://tacticalteam.de";
+		};
+		class Item6
+		{
 			className="ttt_rsr_vanilla";
 			name="TTT - RsR Vanilla";
 			author="Tactical Training Team";
 			url="https://tacticalteam.de";
 		};
-		class Item4
+		class Item7
 		{
 			className="A3_Air_F_Heli";
 			name="Arma 3 Helicopters - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item5
+		class Item8
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item6
+		class Item9
 		{
 			className="ttt_rsr_vanilla_compat_ace";
 			name="TTT - RsR Vanilla Compat ACE";
 			author="Tactical Training Team";
 			url="https://tacticalteam.de";
 		};
-		class Item7
+		class Item10
 		{
 			className="ttt_signs";
 			name="TTT - Signs";
 			author="Tactical Training Team";
 			url="https://tacticalteam.de";
 		};
+		class Item11
+		{
+			className="A3_Soft_F_Gamma";
+			name="Arma 3 - Unarmored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item12
+		{
+			className="ace_cargo";
+			name="ACE3 - Cargo";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
 	};
 };
 dlcs[]=
 {
-	"Heli",
-	"Expansion"
+	"Heli"
 };
 randomSeed=2094387;
 class ScenarioData
@@ -13982,7 +14021,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=11;
+		items=12;
 		class Item0
 		{
 			dataType="Layer";
@@ -14481,7 +14520,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4804.0376,5.0014391,6891.0444};
+						position[]={4804.0376,5.0014391,6876.0376};
 						angles[]={0,3.1396978,0};
 					};
 					side="West";
@@ -14740,6 +14779,40 @@ class Mission
 			};
 			id=364;
 			type="ttt_Flag_Blue";
+		};
+		class Item11
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4805.042,7.2125969,6869.25};
+				angles[]={0,0.78539819,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="v_01";
+			};
+			id=371;
+			type="B_Truck_01_medical_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="[[[[""FirstAidKit""],[10]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 };
