@@ -40,3 +40,4 @@ class CfgMods {
 
 #include "Dialog.hpp"
 #include "CfgEditorSubCategories.hpp"
+#include "CfgFactionsClasses.hpp"
