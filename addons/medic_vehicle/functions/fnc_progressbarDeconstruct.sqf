@@ -31,7 +31,7 @@ _vehicle setVariable ["fuel", (fuel _vehicle), true];
 [_vehicle, [0, 0, 0]] remoteExec ["setVelocity", (owner _vehicle), false];
 
 if (GVAR(useAnimation)) then {
-	_caller playMove stein_BuildAnimation;
+	_caller playMove BuildAnimation;
 };
 
 [

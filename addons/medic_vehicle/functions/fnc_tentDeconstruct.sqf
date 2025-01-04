@@ -26,7 +26,7 @@ private _ArrayVehicle = [];
 
 _vehicle = _ArrayVehicle select 0;
 
-hint Format [
+hint format [
 	LLSTRING(hintLoaded),
 	(round ((getPos _target) getDir (getPos _vehicle))),
 	(round ((getPos _target) distance (getPos _vehicle)))

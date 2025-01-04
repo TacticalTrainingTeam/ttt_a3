@@ -9,22 +9,22 @@
 * None
 *
 * Example:
-* [] call ttt_stein_medic_vehicle_fnc_addActions;
+* [] call ttt_medic_vehicle_fnc_addActions;
 *
 * Public: No
 */
 
 {
-    [_x, 0, ["ACE_MainActions", "stein_medic_vehicle_constuct"]] call ace_interact_menu_fnc_removeActionFromClass;
+    [_x, 0, ["ACE_MainActions", "medic_vehicle_constuct"]] call ace_interact_menu_fnc_removeActionFromClass;
 } forEach (parseSimpleArray GVAR(supportedVehicles));
 
-[GVAR(facitlityObject), 0, ["ACE_MainActions", "stein_medic_vehicle_deconstuct"]] call ace_interact_menu_fnc_removeActionFromClass;
+[GVAR(facitlityObject), 0, ["ACE_MainActions", "medic_vehicle_deconstuct"]] call ace_interact_menu_fnc_removeActionFromClass;
 
 if (!GVAR(enable)) exitWith {};
 
 _constructTent = 
 [
-    "stein_medic_vehicle_constuct",
+    "medic_vehicle_constuct",
     LLSTRING(actionConstruct),
     "\a3\ui_f\data\IGUI\Cfg\simpleTasks\types\use_ca.paa",
     {[_this] call FUNC(progressbarConstruct)},
@@ -33,7 +33,7 @@ _constructTent =
 
 _deconstructTent =
 [
-    "stein_medic_vehicle_deconstuct",
+    "medic_vehicle_deconstuct",
     LLSTRING(actionDeconstruct),
     "\a3\ui_f\data\IGUI\Cfg\simpleTasks\types\truck_ca.paa",
     {[_this] call FUNC(progressbarDeconstruct)},
