@@ -6,7 +6,7 @@ Eine Signalplane ist eine Möglichkeit einem Hubschrauber auch aus größerer Di
 
 ```c++
 force ttt_signalpanel_enabled = true; //default false
-force ttt_signalpanel_allowedBackpacks = "['B_kitbag_rgr', 'B_AssaultPack_rgr']";
+force ttt_signalpanel_allowedBackpacks = "['B_kitbag_rgr', 'B_AssaultPack_rgr']"; //default "['B_kitbag_rgr']"
 ```
 
 ## Maintainer
