@@ -11,7 +11,7 @@ panel_backpack = [GVAR(allowedBackpacks)] call EFUNC(main,parseCsv);
 
 panel_canBuild = {
     params ["_target","_caller","_arguments"];
-    _arguments params [];
+
     _bool = false;
     {
         if ((backpack _caller == _x) && (player getVariable ["hasTent", true])) then {
@@ -24,7 +24,7 @@ panel_canBuild = {
 
 panel_canZip = {
     params ["_target","_caller","_arguments"];
-    _arguments params [];
+
     _bool = false;
     private _used = _target getVariable "inUse";
     if (!_used) then {_bool = true};
@@ -33,7 +33,7 @@ panel_canZip = {
 
 panel_cancel = {
     (_this select 0) params ["_target","_caller","_arguments"];
-    _arguments params [];
+
     hint LLSTRING(cancel);
     _caller switchMove "";
     if (typeOf _target == panel_object) then {
@@ -43,7 +43,7 @@ panel_cancel = {
 
 panel_zip = {
     (_this select 0) params ["_target","_caller","_arguments"];
-    _arguments params [];
+
     private _posBP = getPos _target;
     deleteVehicle _target;
     _caller setVariable ["hasTent", true];
@@ -51,7 +51,7 @@ panel_zip = {
 
 panel_zip_progressBar = {
     params ["_target","_caller","_arguments"];
-    _arguments params [];
+
     _target setVariable ["inUse", true, true];
     _caller playMove "Acts_carFixingWheel";
     [19, _this, panel_zip, panel_cancel, LLSTRING(collect)] call ace_common_fnc_progressBar;
@@ -59,7 +59,7 @@ panel_zip_progressBar = {
 
 panel_build = {
     (_this select 0) params ["_target","_caller","_arguments"];
-    _arguments params [];
+
     private _position = (_target getPos [8, getDir _target]) findEmptyPosition [1, 2, "Tank"];
     _panel = panel_object createVehicle _position;
     _panel setVariable ["inUse", false, true];
@@ -69,7 +69,7 @@ panel_build = {
 
 panel_build_progressBar = {
     params ["_target","_caller","_arguments"];
-    _arguments params [];
+
     private _position = (_target getPos [8, getDir _target]) findEmptyPosition [1, 2];
     if (_position isEqualTo []) exitWith {
         hint LLSTRING(noSpace);
