@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=371;
+		nextID=373;
 	};
 	class MarkerIDProvider
 	{
@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=192;
+		nextID=194;
 	};
 	class Camera
 	{
@@ -14532,7 +14532,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="fhz_01";
+				name="fhz_02";
 			};
 			id=330;
 			type="rsr_bergepanzer_tropentarn";
@@ -14651,6 +14651,19 @@ class Mission
 					{
 						name="zeus_03";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_B_CombatUniform_mcam";
+								isBackpack=0;
+							};
+							class backpack
+							{
+								typeName="B_Kitbag_rgr";
+								isBackpack=1;
+							};
+						};
 					};
 					id=358;
 					type="B_Survivor_F";
@@ -14711,7 +14724,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				name="fhz_02";
+				name="fhz_01";
 			};
 			id=363;
 			type="rsr_wisent_repair_flecktarn";

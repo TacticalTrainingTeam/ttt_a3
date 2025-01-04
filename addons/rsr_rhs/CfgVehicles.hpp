@@ -4,7 +4,7 @@ class CfgVehicles {
     class rsr_c_161: RHS_C130J {
         author = ECSTRING(rsr_core,RSR);
         displayName = CSTRING(C161Transall2);
-        editorPreview="";
+        editorPreview = QPATHTOF(data\planes\previews\rsr_c_161_preview.jpg);
         editorSubcategory="EdSubcat_Planes";
         faction = "rsr";
         hiddenSelectionsTextures[]= {
@@ -17,7 +17,7 @@ class CfgVehicles {
     class rsr_c_161_viv: RHS_C130J_Cargo {
         author = ECSTRING(rsr_core,RSR);
         displayName = CSTRING(C161Transall2VIV);
-        editorPreview="";
+        editorPreview = QPATHTOF(data\planes\previews\rsr_c_161_preview.jpg);
         editorSubcategory="EdSubcat_Planes";
         faction = "rsr";
         hiddenSelectionsTextures[]= {

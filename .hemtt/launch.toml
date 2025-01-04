@@ -85,6 +85,12 @@ workshop = [
     "1224892496", # GRAD Trenches
 ]
 
+[dui]
+extends = "default"
+workshop = [
+    "1638341685", # DUI Squad Radar
+]
+
 [server]
 extends = "default"
 parameters = [
