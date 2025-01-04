@@ -3,14 +3,12 @@
 * Author: EinStein
 * 
 * Arguments:
-* 0: vehicle that is interacted with <OBJECT>
-* 1: player that is interacting with the vehicle <OBJECT>
+* 0: Vehicle <OBJECT>
+* 1: Player <OBJECT>
+* 2: Arguments <ARRAY>
 *
 * Return Value:
 * None
-*
-* Example:
-* [unit] call ttt_stein_medic_vehicle_fnc_tentConstruct;
 *
 * Public: No
 */

@@ -1,19 +1,17 @@
 #include "..\script_component.hpp"
 /*
-´* Author: EinStein
- * 
- * Arguments:
- * 0: Target Tent <OBJECT>
- * 1: Unit <OBJECT>
- *
- * Return Value:
- * None
- *
- * Example:
- * [tent, unit] call ttt_stein_medic_vehicle_deconstructProgressBar
- *
- * Public: No
- */
+* Author: EinStein
+* 
+* Arguments:
+* 0: Facility <OBJECT>
+* 1: Player <OBJECT>
+* 2: Arguments <ARRAY>
+*
+* Return Value:
+* None
+*
+* Public: No
+*/
 
 (_this select 0) params ["_target", "_caller"];
 

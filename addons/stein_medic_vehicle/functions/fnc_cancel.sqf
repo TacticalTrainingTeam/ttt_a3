@@ -1,19 +1,17 @@
 #include "..\script_component.hpp"
 /*
-´* Author: EinStein
- * 
- * Arguments:
- * 0: Interacted object <OBJECT>
- * 1: Caller <OBJECT>
- *
- * Return Value:
- * None
- *
- * Example:
- * [] call ttt_stein_medic_vehicle_fnc_cancel;
- *
- * Public: No
- */
+* Author: EinStein
+* 
+* Arguments:
+* 0: Facility or Vehicle <OBJECT>
+* 1: Player <OBJECT>
+* 2: Arguments <ARRAY>
+*
+* Return Value:
+* None
+*
+* Public: No
+*/
 
 params ["_target", "_caller"];
 

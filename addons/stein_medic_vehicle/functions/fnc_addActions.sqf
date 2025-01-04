@@ -1,4 +1,18 @@
 #include "..\script_component.hpp"
+/*
+* Author: EinStein
+* 
+* Arguments:
+* None
+*
+* Return Value:
+* None
+*
+* Example:
+* [] call ttt_stein_medic_vehicle_fnc_addActions;
+*
+* Public: No
+*/
 
 {
     [_x, 0, ["ACE_MainActions", "stein_medic_vehicle_constuct"]] call ace_interact_menu_fnc_removeActionFromClass;

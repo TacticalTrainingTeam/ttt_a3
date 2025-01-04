@@ -3,12 +3,12 @@
 * Author: EinStein
 * 
 * Arguments:
-* 0: Vehicle <OBJECT>
+* 0: Player <OBJECT>
 * 1: Player <OBJECT>
 * 2: Arguments <ARRAY>
 *
 * Return Value:
-* None
+* BOOLEAN
 *
 * Public: No
 */
@@ -17,7 +17,8 @@
 
 private _return = false;
 if (
-    _target getVariable ["hasTent", true]
+    ((parseSimpleArray GVAR(supportedBackpacks)) find (backpack _target) != -1) &&
+    ((unitBackpack _target) getVariable ["hasTent", true])
 ) then {
     _return = true;
 };

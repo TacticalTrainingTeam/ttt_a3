@@ -3,4 +3,4 @@
 
 if (!hasInterface) exitWith {};
 
-[] call FUNC(initBackpack);
+[] call FUNC(addActions);

@@ -1,20 +1,17 @@
 #include "..\script_component.hpp"
 /*
-´* Author: EinStein
- * 
- * Arguments:
- * 0: facility in deconstruction <OBJECT>
- * 1: player who is deconstruction <OBJECT>
- * 2: Arguments <ARRAY>
- *
- * Return Value:
- * None
- *
- * Example:
- * [tent,unit] call ttt_stein_medic_vehicle_fnc_canDeconstruct;
- *
- * Public: No
- */
+* Author: EinStein
+* 
+* Arguments:
+* 0: Facility <OBJECT>
+* 1: Player <OBJECT>
+* 2: Arguments <ARRAY>
+*
+* Return Value:
+* None
+*
+* Public: No
+*/
 
 params ["_target", "_caller"];
 

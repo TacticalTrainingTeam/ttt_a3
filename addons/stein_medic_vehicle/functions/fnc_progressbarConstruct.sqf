@@ -1,21 +1,17 @@
 #include "..\script_component.hpp"
 /*
- * Author: EinStein
- * Starts the progress bar for building the tent.
- * 
- * Arguments:
- * 0: Target Vehicle <OBJECT>
- * 1: Unit <OBJECT>
- * 2: Arguments <ARRAY>
- *
- * Return Value:
- * None
- *
- * Example:
- * [vehicle, unit] call ttt_stein_medic_vehicle_fnc_buildProgressBar
- *
- * Public: No
- */
+* Author: EinStein
+* 
+* Arguments:
+* 0: Vehicle <OBJECT>
+* 1: Player <OBJECT>
+* 2: Arguments <ARRAY>
+*
+* Return Value:
+* None
+*
+* Public: No
+*/
 
 (_this select 0) params ["_target", "_caller"];
 
