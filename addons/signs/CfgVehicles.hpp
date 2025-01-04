@@ -9,6 +9,7 @@ class CfgVehicles {
         author = QUOTE(Tactical Training Team);
         scope = 0;
         scopeCurator = 0;
+        icon = "iconObject_circle";
         displayName = CSTRING(flag_base_displayName);
         model = "\a3\Structures_F\Mil\Flags\Mast_F.p3d";
     };
@@ -22,7 +23,7 @@ class CfgVehicles {
         icon = "iconObject_circle";
         
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_sign_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_sign_co.paa)));
         };
     };
 
@@ -31,7 +32,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\previews\ttt_Flag_Blue_preview.jpg);
         
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_blau_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_blau_co.paa)));
         };
     };
 
@@ -40,7 +41,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\previews\ttt_Flag_Brown_preview.jpg);
         
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_braun_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_braun_co.paa)));
         };
     };
 
@@ -49,7 +50,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\previews\ttt_Flag_Bronze_preview.jpg);
 
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_bronze_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_bronze_co.paa)));
         };
     };
 
@@ -58,7 +59,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\previews\ttt_Flag_Yellow_preview.jpg);
         
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_gelb_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_gelb_co.paa)));
         };
     };
 
@@ -67,7 +68,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\previews\ttt_Flag_Gold_preview.jpg);
 
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_gold_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_gold_co.paa)));
         };
     };
 
@@ -76,7 +77,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\previews\ttt_Flag_Grey_preview.jpg);
 
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_grau_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_grau_co.paa)));
         };
     };
 
@@ -85,7 +86,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\previews\ttt_Flag_Green_preview.jpg);
 
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_gruen_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_gruen_co.paa)));
         };
     };
 
@@ -94,7 +95,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\previews\ttt_Flag_Platinum_preview.jpg);
 
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_platin_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_platin_co.paa)));
         };
     };
 
@@ -103,7 +104,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\previews\ttt_Flag_Red_preview.jpg);
 
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_rot_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_rot_co.paa)));
         };
     };
 
@@ -112,7 +113,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\previews\ttt_Flag_Black_preview.jpg);
 
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_schwarz_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_schwarz_co.paa)));
         };
     };
 
@@ -121,7 +122,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\previews\ttt_Flag_Silver_preview.jpg);
 
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_silber_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_silber_co.paa)));
         };
     };
 
@@ -130,7 +131,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\previews\ttt_Flag_Violet_preview.jpg);
 
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_violett_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_violett_co.paa)));
         };
     };
 
@@ -139,7 +140,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\previews\ttt_Flag_White_preview.jpg);
 
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_weiss_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_weiss_co.paa)));
         };
     };
 
@@ -148,7 +149,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\previews\ttt_Flag_Orange_preview.jpg);
 
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QQPATHTOF(data\ttt_logo_orange_co.paa));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_orange_co.paa)));
         };
     };
 
@@ -163,6 +164,7 @@ class CfgVehicles {
         author = QUOTE(Tactical Training Team);
         scope = 0;
         scopeCurator = 0;
+        icon = "iconObject_4x1";
         displayName = CSTRING(sign_small_base_displayName);
         hiddenSelections[] = {"board"};
     };
@@ -270,6 +272,7 @@ class CfgVehicles {
         author = QUOTE(Tactical Training Team);
         scope = 0;
         scopeCurator = 0;
+        icon = "iconObject_10x1";
         displayName = CSTRING(sign_large_base_displayName);
         hiddenSelections[] = {"camo"};
     };

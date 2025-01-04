@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=188;
+		nextID=190;
 	};
 	class Camera
 	{
-		pos[]={4786.4941,31.641375,6857.7554};
-		dir[]={0.21180339,-0.47298044,0.85532701};
-		up[]={0.11369549,0.88105541,0.45914075};
-		aside[]={0.97075099,4.0035957e-07,-0.24038348};
+		pos[]={4804.3315,12.507174,6870.0518};
+		dir[]={-0.17435092,-0.42798367,0.88681662};
+		up[]={-0.082562737,0.90378642,0.419947};
+		aside[]={0.98122209,-8.2218321e-09,0.19291146};
 	};
 };
 binarizationWanted=0;
@@ -37,14 +37,13 @@ addons[]=
 	"A3_Air_F_Heli_Heli_Transport_03",
 	"ace_realisticnames",
 	"A3_Ui_F",
-	"ttt_rsr_vanilla_compat_ace",
-	"ttt_signs"
+	"ttt_rsr_vanilla_compat_ace"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=8;
+		items=7;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -91,13 +90,6 @@ class AddonsMetaData
 		{
 			className="ttt_rsr_vanilla_compat_ace";
 			name="TTT - RsR Vanilla Compat ACE";
-			author="Tactical Training Team";
-			url="https://tacticalteam.de";
-		};
-		class Item7
-		{
-			className="ttt_signs";
-			name="TTT - Signs";
 			author="Tactical Training Team";
 			url="https://tacticalteam.de";
 		};
@@ -13981,7 +13973,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=11;
+		items=10;
 		class Item0
 		{
 			dataType="Layer";
@@ -14704,22 +14696,6 @@ class Mission
 			};
 			id=363;
 			type="rsr_wisent_repair_flecktarn";
-		};
-		class Item10
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4803.3672,8.9768047,6882.9971};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				name="ttt_teleport_teleporter";
-			};
-			id=364;
-			type="ttt_Flag_Blue";
 		};
 	};
 };
