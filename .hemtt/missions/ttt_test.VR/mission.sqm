@@ -14593,15 +14593,33 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4787.4717,7.6292419,6901.1021};
+				position[]={4787.4722,7.6292419,6901.1021};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				name="fhz_02";
 			};
 			id=330;
 			type="rsr_bergepanzer_tropentarn";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ttt_w_vehicleshield_addVehicleShield";
+					expression="[[_this, true, true, [true, true], true, false], ttt_w_vehicleshield_fnc_addVehicleShield] call ttt_main_fnc_callGlobalFnc";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item5
 		{
@@ -14700,6 +14718,19 @@ class Mission
 					{
 						name="zeus_03";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_B_CombatUniform_mcam";
+								isBackpack=0;
+							};
+							class backpack
+							{
+								typeName="B_Kitbag_rgr";
+								isBackpack=1;
+							};
+						};
 					};
 					id=358;
 					type="B_Survivor_F";
@@ -14753,32 +14784,34 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4792.8047,7.1487036,6901.5322};
-				angles[]={0,6.2743011,0};
+				position[]={4792.8052,7.1487036,6901.5322};
+				angles[]={0,6.2743015,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				name="fhz_01";
 			};
 			id=363;
 			type="rsr_wisent_repair_flecktarn";
-		};
-		class Item10
-		{
-			dataType="Object";
-			class PositionInfo
+			class CustomAttributes
 			{
-				position[]={4803.3672,8.9768047,6882.9971};
+				class Attribute0
+				{
+					property="ttt_w_vehicleshield_addVehicleShield";
+					expression="[[_this, true, true, [true, true], true, false], ttt_w_vehicleshield_fnc_addVehicleShield] call ttt_main_fnc_callGlobalFnc";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
 			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				name="ttt_teleport_teleporter";
-			};
-			id=364;
-			type="ttt_Flag_Blue";
 		};
 		class Item11
 		{

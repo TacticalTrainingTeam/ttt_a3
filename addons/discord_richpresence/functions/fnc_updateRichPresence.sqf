@@ -12,9 +12,13 @@
  * Example:
  * [] call ttt_discord_richpresence_fnc_updateRichPresence
  *
- * Public: No
+ * Public: Yes
 
  */
+
+if !(GVAR(enableDRP)) exitWith {INFO("Rich Presence is disabled by client");};
+
+INFO("Updating Rich Presence");
 
 [
     ["UpdateDetails", missionNameSource],

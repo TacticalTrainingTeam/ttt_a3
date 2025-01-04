@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <Project name="ttt_mod">
-    <Package name="discord_richpresence"></Package>
+    <Package name="discord_richpresence">
+        <Key ID="STR_ttt_discord_richpresence_subCategory">
+            <English>Discord Rich Presence</English>
+            <German>Discord Rich Presence</German>
+        </Key>
+        <Key ID="STR_ttt_discord_richpresence_enable_displayName">
+            <English>Enable Discord Rich Presence</English>
+            <German>Discord Rich Presence aktivieren</German>
+        </Key>
+        <Key ID="STR_ttt_discord_richpresence_enable_description">
+            <English>When enabled, the Discord Rich Presence will be displayed.</English>
+            <German>Wenn aktiviert, wird Discord Rich Presence angezeigt.</German>
+        </Key>
+    </Package>
 </Project>
+
