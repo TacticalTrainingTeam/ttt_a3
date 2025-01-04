@@ -3,11 +3,11 @@
     <Package name="signalpanel">
         <Key ID="STR_ttt_signalpanel_enable_displayName">
             <English>Enable Signaling Panel</English>
-            <German>Signalplanel aktivieren</German>
+            <German>Signalplane aktivieren</German>
         </Key>
         <Key ID="STR_ttt_signalpanel_enable_description">
             <English>Enable Signaling Panel</English>
-            <German>Signalplanel aktivieren</German>
+            <German>Signalplane aktivieren</German>
         </Key>
         <Key ID="STR_ttt_signalpanel_allowedBackpacks_displayName">
             <English>Allowed Backpacks</English>
@@ -15,10 +15,10 @@
         </Key>
         <Key ID="STR_ttt_signalpanel_allowedBackpacks_description">
             <English>Backpacks that are allowed to lay out the plane</English>
-            <German>Rucksäcke die eine Signalplane aufbauen dürfe</German>
+            <German>Rucksäcke die eine Signalplane aufbauen dürfen</German>
         </Key>
         <Key ID="STR_ttt_signalpanel_collect">
-            <English>Pick Up Signaling Panel</English>
+            <English>Pick up Signaling Panel</English>
             <German>Signalplane einsammeln</German>
         </Key>
         <Key ID="STR_ttt_signalpanel_build">
