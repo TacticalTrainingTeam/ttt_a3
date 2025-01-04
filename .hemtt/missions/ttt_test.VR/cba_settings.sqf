@@ -9,8 +9,11 @@ force ttt_stein_medic_backpack_useAnimation = true;
 force ttt_stein_medic_backpack_buildAnimation = "Acts_carFixingWheel";
 
 force ttt_stein_medic_vehicle_enable = true;
-force ttt_stein_medic_vehicle_supportedVehicles = '["B_Truck_01_medical_F","B_T_Truck_01_medical_F"]';
+force ttt_stein_medic_vehicle_supportedVehicles = '["B_Truck_01_medical_F","B_T_Truck_01_medical_F","rsr_wisent_medical_tropentarn (fhz_02)]';
 force ttt_stein_medic_vehicle_facitlityObject = "Land_MedicalTent_01_NATO_tropic_generic_open_F";
 force ttt_stein_medic_vehicle_buildTime = 8;
 force ttt_stein_medic_vehicle_useAnimation = true;
 force ttt_stein_medic_vehicle_buildAnimation = "Acts_carFixingWheel";
+
+force ttt_signalpanel_enable = true;
+force ttt_signalpanel_allowedBackpackse = '["B_Kitbag_rgr"]';
