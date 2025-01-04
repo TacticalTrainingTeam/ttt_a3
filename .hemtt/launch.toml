@@ -15,7 +15,6 @@ parameters = [
     "-noPause",
     "-noPauseAudio"
 ]
-
 mission = "ttt_test.VR"
 #mission = "ttt_test.Malden"
 
