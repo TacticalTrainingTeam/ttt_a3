@@ -20,13 +20,11 @@
 
 if (!GVAR(enable)) exitWith {};
 
-INFO("adding dismantle actions");
-
 _dismantle =
 [
     "dismantleAction",
     LLSTRING(action),
-    "a3\ui_f\data\igui\cfg\actions\repair_ca.paa",//todo icon
+    "a3\ui_f\data\igui\cfg\actions\repair_ca.paa",
     {[_this] call FUNC(dismantleProgressbar)},
     {[_this] call FUNC(canDismantle)}
 ] call ace_interact_menu_fnc_createAction;

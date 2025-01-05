@@ -35,7 +35,7 @@
     "LIST",
     [LSTRING(neededSkill_displayName), LSTRING(neededSkill_description)],
     [ELSTRING(main,TacticalTrainingTeam), LSTRING(subCategory)],
-    [[0, 1, 2], ["None", "Engineer", "Advanced Engineer"], 1],
+    [[0, 1, 2], ["STR_ACE_Repair_AssignEngineerRole_role_none", "STR_ACE_Repair_AssignEngineerRole_role_engineer", "STR_ACE_Repair_AssignEngineerRole_role_advanced"], 1],
     true,
     {[] call FUNC(addActions);},
     true

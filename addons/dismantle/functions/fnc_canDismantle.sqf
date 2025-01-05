@@ -1,16 +1,9 @@
 #include "script_component.hpp"
 
-(_this select 0) params ["_caller", "_target"];
+(_this select 0) params ["_target","_caller","_args"];
 
-_return = false;
+if !([_caller, GVAR(neededSkill)] call ace_repair_fnc_isEngineer) exitWith { false; };
 
-if (
-    //overhaul
-    ([_caller, QGVAR(neededItem)] call BIS_fnc_hasItem) && 
-    ([_caller, GVAR(neededSkill)] call ace_repair_fnc_isEngineer)
-) 
-then {
-    _return = true;
-};
+if !([_caller, GVAR(neededItem)] call BIS_fnc_hasItem) exitWith { false; };
 
-_return;
+true;
