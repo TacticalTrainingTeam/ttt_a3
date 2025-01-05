@@ -2,8 +2,8 @@
 <Project name="ttt_a3">
     <Package name="medic_vehicle">
         <Key ID="STR_ttt_medic_vehicle_SubCategory">
-            <English>Stein Medical Vehicle</English>
-            <German>Stein Medizinisches Fahrzeug</German>
+            <English>TTT Medical Vehicle</English>
+            <German>TTT Medizinisches Fahrzeug</German>
         </Key>        
         <Key ID="STR_ttt_medic_vehicle_settingEnable_name">
             <English>Enable</English>
