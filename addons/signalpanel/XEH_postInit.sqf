@@ -2,5 +2,5 @@
 
 if (!hasInterface) exitWith {};
 
-[] call FUNC(init);
+[] call FUNC(addActions);
 
