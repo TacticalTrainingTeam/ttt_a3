@@ -7,8 +7,8 @@ class Cfg3DEN {
 
                 class Attributes {
                     class GVAR(addBuildingShield) {
-                        displayName = "Building Shield";
-                        tooltip = "Fügt dem Objekt das BuildingShield aus dem Gruppe W Framework hinzu.";
+                        displayName = CSTRING(displayName);//"Building Shield";
+                        tooltip = CSTRING(descsription);//;
                         property = QGVAR(addBuildingShield);
                         control = "Checkbox";
 
@@ -20,8 +20,8 @@ class Cfg3DEN {
                         typeName = "BOOL";
                     };
                     class GVAR(popWindows) {
-                        displayName = "Fenster entglasen";
-                        tooltip = "Zerstört alle Fenster im Gebäude.";
+                        displayName = CSTRING(window_displayName);//"Fenster entglasen";
+                        tooltip = CSTRING(window_description);//"Zerstört alle Fenster im Gebäude.";
                         property = QGVAR(windowpop);
                         control = "Checkbox";
 

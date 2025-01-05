@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt_a3">
     <Package name="w_buildingshield">
+        <Key ID="STR_ttt_w_buildingshield_description">
+            <English>Building Shield</English>
+            <German>Fügt dem Objekt das BuildingShield aus dem Gruppe W Framework hinzu.</German>
+        </Key>
         <Key ID="STR_ttt_w_buildingshield_displayName">
             <English>Building Shield</English>
             <German>Gebäudeschild</German>
+        </Key>
+        <Key ID="STR_ttt_w_buildingshield_window_description">
+            <English>Destroys all windows in the building.</English>
+            <German>Zerstört alle Fenster im Gebäude.</German>
+        </Key>
+        <Key ID="STR_ttt_w_buildingshield_window_displayName">
+            <English>Destroy Windows</English>
+            <German>Fenster entglases</German>
         </Key>
     </Package>
 </Project>

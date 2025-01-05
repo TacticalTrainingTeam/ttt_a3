@@ -20,3 +20,5 @@
 
 
 #define QQPATHTOF(var1) QUOTE(QPATHTOF(var1))
+
+#include "script_debug.hpp"
