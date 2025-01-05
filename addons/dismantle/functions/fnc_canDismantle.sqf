@@ -5,8 +5,9 @@
 _return = false;
 
 if (
-    ([_caller, "Toolkit"] call BIS_fnc_hasItem) && 
-    ([_caller, 1] call ace_repair_fnc_isEngineer)
+    //overhaul
+    ([_caller, QGVAR(neededItem)] call BIS_fnc_hasItem) && 
+    ([_caller, GVAR(neededSkill)] call ace_repair_fnc_isEngineer)
 ) 
 then {
     _return = true;

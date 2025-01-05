@@ -8,7 +8,8 @@ _caller playMove "Acts_carFixingWheel";
     19,
     _this, 
     {
-        (_this select 0) params ["_target"]; deleteVehicle _target;
+        (_this select 0) params ["_target"]; 
+        deleteVehicle _target;
     },
     {
         (_this select 0) params ["_target","_caller"];
