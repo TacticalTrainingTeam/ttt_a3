@@ -3,4 +3,3 @@
 if (!hasInterface) exitWith {};
 
 [] call FUNC(addActions);
-

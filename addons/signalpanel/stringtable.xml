@@ -5,7 +5,7 @@
             <English>Backpacks that are allowed to lay out the plane</English>
             <German>Rucksäcke die eine Signalplane aufbauen dürfen</German>
         </Key>
-        <Key ID="STR_ttt_signalpanel_allowedBackpacks_displayName">
+        <Key ID="STR_ttt_signalpanel_supportedBackpacks_displayName">
             <English>Allowed Backpacks</English>
             <German>Erlaubte Rucksäcke</German>
         </Key>
@@ -36,6 +36,18 @@
         <Key ID="STR_ttt_signalpanel_subcategory">
             <English>Signaling Panel</English>
             <German>Signalplane</German>
+        </Key>
+        <Key ID="STR_ttt_signalpanel_hintLoaded">
+            <English>The panel was stowed into the backpack.</English>
+            <German>"Die Plane wurde in den Rucksack gepackt."</German>
+        </Key>
+        <Key ID="STR_ttt_signalpanel_actionConstruct">
+            <English>Laying out signaling panel - </English>
+            <German>Signalplane auslegen - </German>
+        </Key>
+        <Key ID="STR_ttt_signalpanel_actionDeconstruct">
+            <English>Stow signaling panel into backpack - </English>
+            <German>Packe Signal Plane in Rucksack - </German>
         </Key>
     </Package>
 </Project>
