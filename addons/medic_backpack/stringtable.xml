@@ -2,8 +2,8 @@
 <Project name="ttt_a3">
     <Package name="medic_backpack">
         <Key ID="STR_ttt_medic_backpack_SubCategory">
-            <English>Stein Medical Backpack</English>
-            <German>Stein Medizinischer Rucksack</German>
+            <English>TTT Medical Backpack</English>
+            <German>TTT medizinischer Rucksack</German>
         </Key>        
         <Key ID="STR_ttt_medic_backpack_settingEnable_name">
             <English>Enable</English>
