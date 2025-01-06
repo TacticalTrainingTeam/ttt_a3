@@ -24,7 +24,9 @@
 params ["_object", "_title", "_delete","_textInfo"];
 
 if (_object getVariable ["ttt_infoShared", false]) exitWith {
-    player createDiarySubject ["ttt_intel", "Intel"];
+    if !(player diarySubjectExists "ttt_intel") then {
+        player createDiarySubject ["ttt_intel", "Intel"];
+    };
     player createDiaryRecord ["ttt_intel", _textInfo];
 };
 
@@ -34,8 +36,10 @@ _object addAction [
         params ["_target", "_caller", "_actionId", "_arguments"];
         _arguments params ["_delete", "_textInfo"];
 
-        if !(player diarySubjectExists "ttt_intel") then {
-            player createDiarySubject ["ttt_intel", "Intel"];
+        if !(_caller diarySubjectExists "ttt_intel") then {
+            {
+                [_x, ["ttt_intel", "Intel"]] remoteExec ["createDiarySubject", _x, false];
+            } forEach allPlayers;
         };
 
         {
