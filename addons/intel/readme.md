@@ -1,6 +1,6 @@
 # EinStein Intel
 
-Bietet die Möglichkeit über A3 Vanilla Intel zu verbauen, welches dann für jeden Spieler über eine eigene Kategorie in der Kartenansicht zur Verfügugn steht.
+Bietet die Möglichkeit über eine A3-Vanilla-AddAction Intel zu verbauen, welches dann für jeden Spieler über eine eigene Kategorie namens "Intel" in der Kartenansicht zur Verfügung steht.
 
 ## Maintainer
 
