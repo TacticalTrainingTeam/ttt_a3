@@ -13,7 +13,7 @@
 * Public: No
 */
 
-params ["_target", "_caller", "_args"];
+params ["_caller"];
 
 hint LLSTRING(abort);
 _caller switchMove "";
