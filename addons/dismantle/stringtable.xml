@@ -14,8 +14,8 @@
             <German>Erlaubte Objekte</German>
         </Key>
         <Key ID="STR_ttt_dismantle_supportedObjects_description">
-            <English>Classnames of Objects that should be allowed to be dismantlet</English>
-            <German>Classnames von Objekten, welche zerlegt werden sollen können</German>
+            <English>Classnames of Objects that should be allowed to be dismantled</English>
+            <German>Classnames von Objekten, welche zerlegt werden können</German>
         </Key>
         <Key ID="STR_ttt_dismantle_neededItem_description">
             <English>Player must have this item in its inventory to be able to dismantle objects</English>
@@ -33,7 +33,7 @@
             <English>Needed Skill</English>
             <German>Benötigte Fähigkeit</German>
         </Key>
-        <Key ID="STR_ttt_dismantle_dismantle">
+        <Key ID="STR_ttt_dismantle_hintDismantle">
             <English>Dismantling -</English>
             <German>Zerlege - </German>
         </Key>

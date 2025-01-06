@@ -13,7 +13,7 @@ _caller playMove "Acts_carFixingWheel";
     },
     {
         (_this select 0) params ["_target","_caller"];
-        [_target, _caller] call FUNC(cancel);
+        [_caller] call FUNC(cancel);
     },
-    LLSTRING(dismantle)
+    LLSTRING(hintDismantle),
 ] call ace_common_fnc_progressBar;

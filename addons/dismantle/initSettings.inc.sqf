@@ -13,7 +13,7 @@
     "EDITBOX",
     [LSTRING(supportedObjects_displayName), LSTRING(supportedObjects_description)],
     [ELSTRING(main,TacticalTrainingTeam), LSTRING(subCategory)],
-    ["['Land_CzechHedgehog_01_new_F', 'Land_CzechHedgehog_01_old_F']"],
+    ["[]"],
     true,
     {[] call FUNC(addActions);},
     true
@@ -24,7 +24,7 @@
     "EDITBOX",
     [LSTRING(neededItem_displayName), LSTRING(neededItem_description)],
     [ELSTRING(main,TacticalTrainingTeam), LSTRING(subCategory)],
-    ["Toolkit"],
+    [''],
     true,
     {[] call FUNC(addActions);},
     true

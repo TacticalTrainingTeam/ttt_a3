@@ -15,7 +15,5 @@
 
 params ["_target", "_caller", "_args"];
 
-INFO_1("Dismantle cancelled by %1", _caller);
-INFO_1("Dismantle target %1", _target);
 hint LLSTRING(abort);
 _caller switchMove "";
