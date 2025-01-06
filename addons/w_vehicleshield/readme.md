@@ -21,13 +21,15 @@ Schreibt in die `init.sqf` folgendes:
 * 4 (Optional):      BOOLEAN - If the hull damage is capped, kill the engine? Default: true
 * 5 (Optional):      BOOLEAN - Allow the vehicle to be destroyed completely? With this set to false, the vehicle can only be destroyed by scripting commands. Default: false
 * 6 (Optional):      NUMBER - How many hits exceeding the normal damage limit can the vehicle take? Default: 20
-If Arg. 3 is set to true, the vehicle can be damaged up to 80%. More damage is blocked and each hit that would theoretically "kill" the vehicle get's counted as "excessive hit".
-Once the threshold set in arg 4 is reached, the vehicle can be destroyed with the next hit.
+If Arg. 5 is set to true, the vehicle can be damaged up to 80%. More damage is blocked and each hit that would theoretically "kill" the vehicle get's counted as "excessive hit".
+Once the threshold set in arg 6 is reached, the vehicle can be destroyed with the next hit.
 
 ## Referenzen
 
 Danke an Miller von Gruppe W, der uns das Skript zur Verfügung gestellt hat.
 <https://gitlab.gruppe-w.de/Missionsbau/Framework/-/blob/master/addons/API/functions/fnc_addVehicleShield.sqf>
+
+<https://wiki.gruppe-w.de/m_framework_vehicleshield.html>
 
 ## Maintainers
 
