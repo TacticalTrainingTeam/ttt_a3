@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="W_Teleporter">
+        <Key ID="STR_ttt_W_Teleporter_commander">
+            <English>Commander</English>
+            <German>Kommandant</German>
+        </Key>
         <Key ID="STR_ttt_W_Teleporter_driver">
             <English>Driver</English>
             <German>Fahrer</German>
@@ -8,10 +12,6 @@
         <Key ID="STR_ttt_W_Teleporter_gunner">
             <English>Gunner</English>
             <German>Schütze</German>
-        </Key>
-        <Key ID="STR_ttt_W_Teleporter_commander">
-            <English>Commander</English>
-            <German>Kommandant</German>
         </Key>
         <Key ID="STR_ttt_W_Teleporter_nearby">
             <English>Nearby</English>

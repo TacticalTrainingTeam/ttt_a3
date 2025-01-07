@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Signalpanel">
-        <Key ID="STR_ttt_Signalpanel_allowedBackpacks_description">
-            <English>Backpacks that are allowed to lay out the plane</English>
-            <German>Rucksäcke die eine Signalplane aufbauen dürfen</German>
-        </Key>
-        <Key ID="STR_ttt_Signalpanel_supportedBackpacks_displayName">
-            <English>Allowed Backpacks</English>
-            <German>Erlaubte Rucksäcke</German>
-        </Key>
         <Key ID="STR_ttt_Signalpanel_abort">
             <English>Aborted</English>
             <German>Abgebrochen</German>
+        </Key>
+        <Key ID="STR_ttt_Signalpanel_actionConstruct">
+            <English>Laying out signaling panel -</English>
+            <German>Signalplane auslegen -</German>
+        </Key>
+        <Key ID="STR_ttt_Signalpanel_actionDeconstruct">
+            <English>Stow signaling panel into backpack -</English>
+            <German>Packe Signal Plane in Rucksack -</German>
+        </Key>
+        <Key ID="STR_ttt_Signalpanel_allowedBackpacks_description">
+            <English>Backpacks that are allowed to lay out the plane</English>
+            <German>Rucksäcke die eine Signalplane aufbauen dürfen</German>
         </Key>
         <Key ID="STR_ttt_Signalpanel_enable_description">
             <English>Enable Signaling Panel</English>
@@ -25,21 +29,17 @@
             <English>No space to lay out the panel</English>
             <German>Nicht genügend Platz um die Plane auszulegen</German>
         </Key>
-        <Key ID="STR_ttt_Signalpanel_subcategory">
-            <English>Signaling Panel</English>
-            <German>Signalplane</German>
-        </Key>
         <Key ID="STR_ttt_Signalpanel_hintLoaded">
             <English>The panel was stowed into the backpack.</English>
             <German>"Die Plane wurde in den Rucksack gepackt."</German>
         </Key>
-        <Key ID="STR_ttt_Signalpanel_actionConstruct">
-            <English>Laying out signaling panel - </English>
-            <German>Signalplane auslegen - </German>
+        <Key ID="STR_ttt_Signalpanel_subcategory">
+            <English>Signaling Panel</English>
+            <German>Signalplane</German>
         </Key>
-        <Key ID="STR_ttt_Signalpanel_actionDeconstruct">
-            <English>Stow signaling panel into backpack - </English>
-            <German>Packe Signal Plane in Rucksack - </German>
+        <Key ID="STR_ttt_Signalpanel_supportedBackpacks_displayName">
+            <English>Allowed Backpacks</English>
+            <German>Erlaubte Rucksäcke</German>
         </Key>
     </Package>
 </Project>
