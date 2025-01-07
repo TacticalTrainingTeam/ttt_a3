@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="ttt_a3">
+<Project name="ttt">
     <Package name="signalpanel">
         <Key ID="STR_ttt_signalpanel_enable_displayName">
             <English>Enable Signaling Panel</English>

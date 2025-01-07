@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="ttt_a3">
+<Project name="ttt">
     <Package name="rsr_vanilla">
         <Key ID="STR_ttt_rsr_vanilla_bergepanzer_flecktarn">
             <English>Armored Recovery Vehicle (Flecktarn)</English>

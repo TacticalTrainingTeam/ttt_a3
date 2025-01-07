@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="ttt_a3">
+<Project name="ttt">
     <Package name="advancedslingload">
         <Key ID="STR_ttt_advancedslingload_attachRope">
             <English>Attach To Cargo Ropes</English>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="ttt_a3">
+<Project name="ttt">
     <Package name="signs">
         <Key ID="STR_ttt_signs_flag_base_displayName">
             <English>TTT Flag Base</English>

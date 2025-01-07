@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="ttt_a3">
+<Project name="ttt">
     <Package name="uniforms">
         <Key ID="STR_ttt_uniforms_yellow_BW_Tropentarn_DisplayName">
             <English>TTT Uniform Yellow (BW Tropentarn)</English>
@@ -61,10 +61,6 @@
             <English>TTT Uniform Brown (BW Flecktarn)</English>
             <German>TTT Uniform Braun (BW Flecktarn)</German>
         </Key>
-        <Key ID="STR_ttt_uniforms_brown_BW_Tropentarn_DisplayName">
-            <English>TTT Uniform Brown (BW Tropentarn)</English>
-            <German>TTT Uniform Braun (BW Tropentarn)</German>
-        </Key>
         <Key ID="STR_ttt_uniforms_brown_US_Desert_DisplayName">
             <English>TTT Uniform Brown (US Desert)</English>
             <German>TTT Uniform Braun (US Wüste)</German>
@@ -72,10 +68,6 @@
         <Key ID="STR_ttt_uniforms_gold_BW_Flecktarn_DisplayName">
             <English>TTT Uniform Gold (BW Flecktarn)</English>
             <German>TTT Uniform Gold (BW Flecktarn)</German>
-        </Key>
-        <Key ID="STR_ttt_uniforms_gold_BW_Tropentarn_DisplayName">
-            <English>TTT Uniform Gold (BW Tropentarn)</English>
-            <German>TTT Uniform Gold (BW Tropentarn)</German>
         </Key>
         <Key ID="STR_ttt_uniforms_gold_US_Desert_DisplayName">
             <English>TTT Uniform Gold (US Desert)</English>
@@ -88,10 +80,6 @@
         <Key ID="STR_ttt_uniforms_green_alt_BW_Flecktarn_DisplayName">
             <English>TTT Uniform Green alternative (BW Flecktarn)</English>
             <German>TTT Uniform Grün alternativ (BW Flecktarn)</German>
-        </Key>
-        <Key ID="STR_ttt_uniforms_brown_BW_Flecktarn_DisplayName">
-            <English>TTT Uniform Brown (BW Flecktarn)</English>
-            <German>TTT Uniform Braun (BW Flecktarn)</German>
         </Key>
         <Key ID="STR_ttt_uniforms_black_BW_Flecktarn_DisplayName">
             <English>TTT Uniform Black (BW Flecktarn)</English>
@@ -108,10 +96,6 @@
         <Key ID="STR_ttt_uniforms_grey_BW_Flecktarn_DisplayName">
             <English>TTT Uniform Grey (BW Flecktarn)</English>
             <German>TTT Uniform Grau (BW Flecktarn)</German>
-        </Key>
-        <Key ID="STR_ttt_uniforms_grey_BW_Tropentarn_DisplayName">
-            <English>TTT Uniform Grey (BW Tropentarn)</English>
-            <German>TTT Uniform Grau (BW Tropentarn)</German>
         </Key>
         <Key ID="STR_ttt_uniforms_grey_US_Desert_DisplayName">
             <English>TTT Uniform Grey (US Desert)</English>
@@ -132,14 +116,6 @@
         <Key ID="STR_ttt_uniforms_platinum_US_Desert_DisplayName">
             <English>TTT Uniform Platinum (US Desert)</English>
             <German>TTT Uniform Platin (US Wüste)</German>
-        </Key>
-        <Key ID="STR_ttt_uniforms_green_US_Desert_DisplayName">
-            <English>TTT Uniform Green (US Desert)</English>
-            <German>TTT Uniform Grün (US Wüste)</German>
-        </Key>
-        <Key ID="STR_ttt_uniforms_brown_US_Desert_DisplayName">
-            <English>TTT Uniform Brown (US Desert)</English>
-            <German>TTT Uniform Braun (US Wüste)</German>
         </Key>
         <Key ID="STR_ttt_uniforms_red_BW_Tropentarn_DisplayName">
             <English>TTT Uniform Red (BW Tropentarn)</English>
@@ -180,10 +156,6 @@
         <Key ID="STR_ttt_uniforms_yellow_BW_Flecktarn_DisplayName">
             <English>TTT Uniform Yellow (BW Flecktarn)</English>
             <German>TTT Uniform Gelb (BW Flecktarn)</German>
-        </Key>
-        <Key ID="STR_ttt_uniforms_yellow_BW_Tropentarn_DisplayName">
-            <English>TTT Uniform Yellow (BW Tropentarn)</English>
-            <German>TTT Uniform Gelb (BW Tropentarn)</German>
         </Key>
         <Key ID="STR_ttt_uniforms_yellow_US_Desert_DisplayName">
             <English>TTT Uniform Yellow (US Desert)</English>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="ttt_a3">
-    <Package name="teleporter_cam">
+<Project name="ttt">
+    <Package name="teleport">
         <Key ID="STR_ttt_teleport_subCategory">
             <English>Teleport Logic</English>
             <German>Teleport Logik</German>
