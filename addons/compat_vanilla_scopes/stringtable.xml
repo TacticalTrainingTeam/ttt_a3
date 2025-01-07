@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Compat_Vanilla_Scopes">
-        <Key ID="STR_ttt_compat_vanilla_scopes_burrisDescriptionShort">
+        <Key ID="STR_ttt_Compat_Vanilla_Scopes_burrisDescriptionShort">
             <English>Burris XTR II&lt;br /&gt;magnification: 2x-4x&lt;br /&gt;NightVision</English>
             <German>Burris XTR II&lt;br /&gt;Vergrößerung: 2x-4x&lt;br /&gt;Nachtsicht</German>
         </Key>

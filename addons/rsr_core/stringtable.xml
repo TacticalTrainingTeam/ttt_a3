@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
-    <Package name="rsr_core">
-        <Key ID="STR_ttt_rsr_core_rnt">
+    <Package name="Rsr_Core">
+        <Key ID="STR_ttt_Rsr_Core_rnt">
             <English>Redd'n'Tank</English>
             <German>Redd'n'Tank</German>
         </Key>
-        <Key ID="STR_ttt_rsr_core_rsr">
+        <Key ID="STR_ttt_Rsr_Core_rsr">
             <English>Redd Stura Reimchen</English>
             <German>Redd Stura Reimchen</German>
         </Key>

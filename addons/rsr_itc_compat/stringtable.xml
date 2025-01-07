@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
-    <Package name="rsr_itc_compat">
-        <Key ID="STR_ttt_rsr_itc_compat_Fennek_RV_Flecktarn">
+    <Package name="Rsr_Itc_Compat">
+        <Key ID="STR_ttt_Rsr_Itc_Compat_Fennek_RV_Flecktarn">
             <English>Fennek Reconnaissance (Flecktarn)</English>
             <German>Fennek Aufklärung (Flecktarn)</German>
         </Key>
-        <Key ID="STR_ttt_rsr_itc_compat_Fennek_RV_GMW_Flecktarn">
+        <Key ID="STR_ttt_Rsr_Itc_Compat_Fennek_RV_GMW_Flecktarn">
             <English>Fennek Reconnaissance GMG (Flecktarn)</English>
             <German>Fennek Aufklärung GMW (Flecktarn)</German>
         </Key>
-        <Key ID="STR_ttt_rsr_itc_compat_Fennek_RV_GMW_Tropentarn">
+        <Key ID="STR_ttt_Rsr_Itc_Compat_Fennek_RV_GMW_Tropentarn">
             <English>Fennek Reconnaissance GMG (Tropentarn)</English>
             <German>Fennek Aufklärung GMW (Tropentarn)</German>
         </Key>
-        <Key ID="STR_ttt_rsr_itc_compat_Fennek_RV_HMG_Flecktarn">
+        <Key ID="STR_ttt_Rsr_Itc_Compat_Fennek_RV_HMG_Flecktarn">
             <English>Fennek Reconnaissance HMG (Flecktarn)</English>
             <German>Fennek Aufklärung HMG (Flecktarn)</German>
         </Key>
-        <Key ID="STR_ttt_rsr_itc_compat_Fennek_RV_HMG_Tropentarn">
+        <Key ID="STR_ttt_Rsr_Itc_Compat_Fennek_RV_HMG_Tropentarn">
             <English>Fennek Reconnaissance HMG (Tropentarn)</English>
             <German>Fennek Aufklärung HMG (Tropentarn)</German>
         </Key>
-        <Key ID="STR_ttt_rsr_itc_compat_Fennek_RV_Tropentarn">
+        <Key ID="STR_ttt_Rsr_Itc_Compat_Fennek_RV_Tropentarn">
             <English>Fennek Reconnaissance (Tropentarn)</English>
             <German>Fennek Aufklärung (Tropentarn)</German>
         </Key>

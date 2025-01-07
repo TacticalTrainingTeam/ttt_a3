@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
-    <Package name="Advancedslingloading">
-        <Key ID="STR_ttt_advancedslingload_attachRope">
+    <Package name="AdvancedSlingloadinging">
+        <Key ID="STR_ttt_AdvancedSlingloading_attachRope">
             <English>Attach To Cargo Ropes</English>
             <German>Fracht befestigen</German>
         </Key>
-        <Key ID="STR_ttt_advancedslingload_deployRope">
+        <Key ID="STR_ttt_AdvancedSlingloading_deployRope">
             <English>Deploy Cargo Ropes</English>
             <German>Frachtseile auswerfen</German>
         </Key>
-        <Key ID="STR_ttt_advancedslingload_dropRope">
+        <Key ID="STR_ttt_AdvancedSlingloading_dropRope">
             <English>Drop Cargo Ropes</English>
             <German>Frachtseile fallen lassen</German>
         </Key>
-        <Key ID="STR_ttt_advancedslingload_extendRope">
+        <Key ID="STR_ttt_AdvancedSlingloading_extendRope">
             <English>Extend Cargo Ropes</English>
             <German>Frachtseile verlängern</German>
         </Key>
-        <Key ID="STR_ttt_advancedslingload_pickupRope">
+        <Key ID="STR_ttt_AdvancedSlingloading_pickupRope">
             <English>Pickup Cargo Ropes</English>
             <German>Frachtseile aufnehmen</German>
         </Key>
-        <Key ID="STR_ttt_advancedslingload_releaseRope">
+        <Key ID="STR_ttt_AdvancedSlingloading_releaseRope">
             <English>Release Cargo</English>
             <German>Fracht lösen</German>
         </Key>
-        <Key ID="STR_ttt_advancedslingload_retractRope">
+        <Key ID="STR_ttt_AdvancedSlingloading_retractRope">
             <English>Retract Cargo Ropes</English>
             <German>Frachtseile einziehen</German>
         </Key>
-        <Key ID="STR_ttt_advancedslingload_shortenRope">
+        <Key ID="STR_ttt_AdvancedSlingloading_shortenRope">
             <English>Shorten Cargo Ropes</English>
             <German>Frachtseile verkürzen</German>
         </Key>

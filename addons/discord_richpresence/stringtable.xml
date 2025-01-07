@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Discord_Richpresence">
-        <Key ID="STR_ttt_discord_richpresence_subCategory">
+        <Key ID="STR_ttt_Discord_Richpresence_subCategory">
             <English>Discord Rich Presence</English>
             <German>Discord Rich Presence</German>
         </Key>
-        <Key ID="STR_ttt_discord_richpresence_enable_displayName">
+        <Key ID="STR_ttt_Discord_Richpresence_enable_displayName">
             <English>Enable Discord Rich Presence</English>
             <German>Discord Rich Presence aktivieren</German>
         </Key>
-        <Key ID="STR_ttt_discord_richpresence_subCategory">
+        <Key ID="STR_ttt_Discord_Richpresence_subCategory">
             <English>Discord Rich Presence</English>
             <German>Discord Rich Presence</German>
         </Key>

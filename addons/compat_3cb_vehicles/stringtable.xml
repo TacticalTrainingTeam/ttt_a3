@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Compat_3cb_Vehicles">
-        <Key ID="STR_ttt_compat_3cb_vehicles_takegear">
+        <Key ID="STR_ttt_Compat_3cb_Vehicles_takegear">
             <English>Take gear</English>
             <German>Ausrüstung nehmen</German>
         </Key>

@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="ttt_a3">
-    <Package name="dismantle">
-        <Key ID="STR_ttt_dismantle_enable_displayName">
+<Project name="ttt">
+    <Package name="Dismantle">
+        <Key ID="STR_ttt_Dismantle_enable_displayName">
             <English>Enable Dismantle</English>
             <German>Zerlegen aktivieren</German>
         </Key>
-        <Key ID="STR_ttt_dismantle_enable_description">
+        <Key ID="STR_ttt_Dismantle_enable_description">
             <English>Enable Dismantle</English>
             <German>Zerlegen aktivieren</German>
         </Key>
-        <Key ID="STR_ttt_dismantle_supportedObjects_displayName">
+        <Key ID="STR_ttt_Dismantle_supportedObjects_displayName">
             <English>Allowed Objects</English>
             <German>Erlaubte Objekte</German>
         </Key>
-        <Key ID="STR_ttt_dismantle_supportedObjects_description">
+        <Key ID="STR_ttt_Dismantle_supportedObjects_description">
             <English>Classnames of Objects that should be allowed to be dismantled</English>
             <German>Classnames von Objekten, welche zerlegt werden können</German>
         </Key>
-        <Key ID="STR_ttt_dismantle_neededItem_description">
+        <Key ID="STR_ttt_Dismantle_neededItem_description">
             <English>Player must have this item in its inventory to be able to dismantle objects</English>
             <German>Spieler muss diesen Gegenstand im Inventar haben um etwas zerlegen zu können</German>
         </Key>
-        <Key ID="STR_ttt_dismantle_neededItem_displayName">
+        <Key ID="STR_ttt_Dismantle_neededItem_displayName">
             <English>Needed Item</English>
             <German>Benötigter Gegenstand</German>
         </Key>
-        <Key ID="STR_ttt_dismantle_neededSkill_description">
+        <Key ID="STR_ttt_Dismantle_neededSkill_description">
             <English>Player must be at least this skill to be able to dismantle objects</English>
             <German>Spieler muss mindestens diese Befähigkung haben um Objekte zerlegen zu können</German>
         </Key>
-        <Key ID="STR_ttt_dismantle_neededSkill_displayName">
+        <Key ID="STR_ttt_Dismantle_neededSkill_displayName">
             <English>Needed Skill</English>
             <German>Benötigte Fähigkeit</German>
         </Key>
-        <Key ID="STR_ttt_dismantle_hintDismantle">
+        <Key ID="STR_ttt_Dismantle_hintDismantle">
             <English>Dismantling -</English>
             <German>Zerlege - </German>
         </Key>
-        <Key ID="STR_ttt_dismantle_action">
+        <Key ID="STR_ttt_Dismantle_action">
             <English>Dismantle</English>
             <German>Zerlegen</German>
         </Key>
-        <Key ID="STR_ttt_dismantle_abort">
+        <Key ID="STR_ttt_Dismantle_abort">
             <English>Aborted</English>
             <German>Abgebrochen</German>
         </Key>
-        <Key ID="STR_ttt_dismantle_subcategory">
+        <Key ID="STR_ttt_Dismantle_subcategory">
             <English>Object Dismantle</English>
             <German>Objekte Zerlegen</German>
         </Key>
