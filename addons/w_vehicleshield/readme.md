@@ -5,7 +5,7 @@
 
 Bei platzierten Fahrzeugen findet ihr die Option um das Schild zu aktivieren in den Attributen des Gebäudes im Abschnitt `W-Framework`.
 
-!["3DEN Editor Attribute mit dem W-Vehicle Shield"](https://i.imgur.com/c9Irw2F.jpeg)
+!["3DEN-Editor-Attribute mit dem W-Vehicle-Shield"](https://i.imgur.com/c9Irw2F.jpeg)
 
 ## Funktionsaufruf (nicht empfohlen)
 
