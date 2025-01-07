@@ -4,14 +4,17 @@
     [LSTRING(enable_displayName), LSTRING(enable_description)],
     [ELSTRING(main,TacticalTrainingTeam), LSTRING(subCategory)],
     false,
-    1
+    true,
+    {[] call FUNC(addActions);}
 ] call CBA_fnc_addSetting;
 
 [
-    QGVAR(allowedBackpacks),
+    QGVAR(supportedBackpacks),
     "EDITBOX",
-    [LSTRING(allowedBackpacks_displayName), LSTRING(allowedBackpacks_description)],
+    [LSTRING(supportedBackpacks_displayName), LSTRING(allowedBackpacks_description)],
     [ELSTRING(main,TacticalTrainingTeam), LSTRING(subCategory)],
     ["['B_Kitbag_rgr']"],
-    1
+    true,
+    {[] call FUNC(addActions);},
+    true
 ] call CBA_fnc_addSetting;
