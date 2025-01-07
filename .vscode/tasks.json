@@ -36,7 +36,8 @@
 			},
 			"args": [
 				"check_strings.py"
-			]
+			],
+			"problemMatcher": []
 		},
 		{
 			"label": "HEMTT check",
