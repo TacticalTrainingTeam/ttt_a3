@@ -1,53 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt_a3">
     <Package name="medic_backpack">
-        <Key ID="STR_ttt_medic_backpack_SubCategory">
-            <English>Medical Backpack</English>
-            <German>medizinischer Rucksack</German>
-        </Key>        
-        <Key ID="STR_ttt_Medic_Backpack_settingEnable_name">
-            <English>Enable</English>
-            <German>Aktivieren</German>
-        </Key>
-        <Key ID="STR_ttt_Medic_Backpack_settingEnable_description">
-            <English>Activates the medic backapck functionality.</English>
-            <German>Aktiviert die Funktion des medizinischen Rucksacks.</German>
-        </Key>
         <Key ID="STR_ttt_Medic_Backpack_abort">
             <English>Action aborted</English>
             <German>Vorgang abgebrochen</German>
-        </Key>
-        <Key ID="STR_ttt_Medic_Backpack_settingSupportedBackpacks_name">
-            <English>Supported Backpacks</English>
-            <German>Unterstützte Rucksäcke</German>
-        </Key>
-        <Key ID="STR_ttt_medic_backpack_settingSupportedBackpacks_description">
-            <English>Classnames of the backpacks that can carry a medical device.\n(By default, each of these backpacks has one loaded, including those of the AI. To deactivate, add the following code to the loadout of the unit: (unitBackpack this) setVariable ["hasTent", false])\ni.e.: ["B_Kitbag_rgr","B_Kitbag_blk"]\n(The array must be enclosed with ' in cba_settings.sqf)</English>
-            <German>Classnames der Rucksäcke die eine medizinische Einrichtung transportieren können.\n(Standardmäßig hat jeder dieser Rucksäcke eine geladen; auch die der KI. Zum Deaktivieren folgenden Code zum Loadout der Einheit hinzufügen: (unitBackpack this) setVariable ["hasTent", false]\nBsp.: ["B_Kitbag_rgr","B_Kitbag_cbr"])\n(In der cba_settings.sqf muss das Array mit ' umschlossen werden)</German>
-        </Key>
-        <Key ID="STR_ttt_Medic_Backpack_settingFacitlityObject_name">
-            <English>Facitlityobject</English>
-            <German>Einrichtungsobjekt</German>
-        </Key>
-        <Key ID="STR_ttt_Medic_Backpack_settingFacitlityObject_description">
-            <English>Classname of the object that the player builds and is then to be a medical facility. A defined object, that has already been placed (from the editor), can then also be loaded.\nChanges during the mission do not completely remove the function of the facility; newly added ones work perfectly.\ni.e.: Land_MedicalTent_01_floor_dark_F</English>
-            <German>Klassennamen des Objekts das der Spieler aufbaut und dann eine medizinische Einrichtung sein soll. Ein eingetragenes, (aus dem Editor) bereits vorhandenes Objekt, kann dann ebenfalls aufgeladen werden.\nBei Änderungen während der Mission wir den aufgebauten Einrichtungen die Funktion nicht vollständig genommen; neu hinzugefügte funktionieren einwandfrei.\nBsp: "Land_MedicalTent_01_floor_dark_F"</German>
-        </Key>
-        <Key ID="STR_ttt_Medic_Backpack_settingAdditionalItems_name">
-            <English>Additional Objects</English>
-            <German>Zusätzliche Objekte</German>
-        </Key>
-        <Key ID="STR_ttt_Medic_Backpack_settingAdditionalItems_description">
-            <English>Classnames of additional items to be placed on/near the facility.\ni.e.: ["Land_Camping_Light_F","Land_FirstAidKit_01_open_F","Land_Defibrillator_F"]\n(The array must be enclosed with ' in cba_settings.sqf)</English>
-            <German>Klassennamen zusätzlicher Objekte die auf/bei der Einrichtung platziert werden sollen.\nBsp: ["Land_Camping_Light_F","Land_FirstAidKit_01_open_F","Land_Defibrillator_F"]\n(In der cba_settings.sqf muss das Array mit ' umschlossen werden)</German>
-        </Key>
-        <Key ID="STR_ttt_Medic_Backpack_settingBuildTime_name">
-            <English>Buildtime</English>
-            <German>Bauzeit</German>
-        </Key>
-        <Key ID="STR_ttt_Medic_Backpack_settingBuildTime_description">
-            <English>How many seconds does the player need to de-/construct the facility.</English>
-            <German>Wie viele Sekunden der Spieler braucht, um die Einrichtung auf und ab zu bauen.</German>
         </Key>
         <Key ID="STR_ttt_Medic_Backpack_actionConstruct">
             <English>Build medical facility</English>
@@ -61,25 +17,69 @@
             <English>Not enough space available to set up the equipment.</English>
             <German>Nicht genug Platz zum Aufbau der Einrichtung vorhanden.</German>
         </Key>
-        <Key ID="STR_ttt_Medic_Backpack_settingUseAnimation_name">
-            <English>Play Animation</English>
-            <German>Animation abspielen</German>
+        <Key ID="STR_ttt_Medic_Backpack_hintLoaded">
+            <English>The equipment was stowed into the backpack.</English>
+            <German>"Die Einrichtung wurde in den Rucksack gepackt."</German>
         </Key>
-        <Key ID="STR_ttt_Medic_Backpack_settingUseAnimation_description">
-            <English>Should the player play an animation during the execution.\n(the animation duration is not taken into account)</English>
-            <German>Soll der Spieler während der Durchführung eine Animation abspielen.\n(Die Animationsdauer wird nicht berücksichtigt)</German>
+        <Key ID="STR_ttt_Medic_Backpack_settingAdditionalItems_description">
+            <English>Classnames of additional items to be placed on/near the facility.\ni.e.: ["Land_Camping_Light_F","Land_FirstAidKit_01_open_F","Land_Defibrillator_F"]\n(The array must be enclosed with ' in cba_settings.sqf)</English>
+            <German>Klassennamen zusätzlicher Objekte die auf/bei der Einrichtung platziert werden sollen.\nBsp: ["Land_Camping_Light_F","Land_FirstAidKit_01_open_F","Land_Defibrillator_F"]\n(In der cba_settings.sqf muss das Array mit ' umschlossen werden)</German>
         </Key>
-        <Key ID="STR_ttt_Medic_Backpack_settingBuildAnimation_name">
-            <English>Animation</English>
-            <German>Animation</German>
+        <Key ID="STR_ttt_Medic_Backpack_settingAdditionalItems_name">
+            <English>Additional Objects</English>
+            <German>Zusätzliche Objekte</German>
         </Key>
         <Key ID="STR_ttt_Medic_Backpack_settingBuildAnimation_description">
             <English>The name of the animation to be played.\ni.e.: Acts_carFixingWheel</English>
             <German>Die Bezeichnung der abzuspielenden Animation.\nBsp.: Acts_carFixingWheel</German>
         </Key>
-        <Key ID="STR_ttt_Medic_Backpack_hintLoaded">
-            <English>The equipment was stowed into the backpack.</English>
-            <German>"Die Einrichtung wurde in den Rucksack gepackt."</German>
+        <Key ID="STR_ttt_Medic_Backpack_settingBuildAnimation_name">
+            <English>Animation</English>
+            <German>Animation</German>
+        </Key>
+        <Key ID="STR_ttt_Medic_Backpack_settingBuildTime_description">
+            <English>How many seconds does the player need to de-/construct the facility.</English>
+            <German>Wie viele Sekunden der Spieler braucht, um die Einrichtung auf und ab zu bauen.</German>
+        </Key>
+        <Key ID="STR_ttt_Medic_Backpack_settingBuildTime_name">
+            <English>Buildtime</English>
+            <German>Bauzeit</German>
+        </Key>
+        <Key ID="STR_ttt_Medic_Backpack_settingEnable_description">
+            <English>Activates the medic backapck functionality.</English>
+            <German>Aktiviert die Funktion des medizinischen Rucksacks.</German>
+        </Key>
+        <Key ID="STR_ttt_Medic_Backpack_settingEnable_name">
+            <English>Enable</English>
+            <German>Aktivieren</German>
+        </Key>
+        <Key ID="STR_ttt_Medic_Backpack_settingFacitlityObject_description">
+            <English>Classname of the object that the player builds and is then to be a medical facility. A defined object, that has already been placed (from the editor), can then also be loaded.\nChanges during the mission do not completely remove the function of the facility; newly added ones work perfectly.\ni.e.: Land_MedicalTent_01_floor_dark_F</English>
+            <German>Klassennamen des Objekts das der Spieler aufbaut und dann eine medizinische Einrichtung sein soll. Ein eingetragenes, (aus dem Editor) bereits vorhandenes Objekt, kann dann ebenfalls aufgeladen werden.\nBei Änderungen während der Mission wir den aufgebauten Einrichtungen die Funktion nicht vollständig genommen; neu hinzugefügte funktionieren einwandfrei.\nBsp: "Land_MedicalTent_01_floor_dark_F"</German>
+        </Key>
+        <Key ID="STR_ttt_Medic_Backpack_settingFacitlityObject_name">
+            <English>Facitlityobject</English>
+            <German>Einrichtungsobjekt</German>
+        </Key>
+        <Key ID="STR_ttt_Medic_Backpack_settingSupportedBackpacks_name">
+            <English>Supported Backpacks</English>
+            <German>Unterstützte Rucksäcke</German>
+        </Key>
+        <Key ID="STR_ttt_Medic_Backpack_settingUseAnimation_description">
+            <English>Should the player play an animation during the execution.\n(the animation duration is not taken into account)</English>
+            <German>Soll der Spieler während der Durchführung eine Animation abspielen.\n(Die Animationsdauer wird nicht berücksichtigt)</German>
+        </Key>
+        <Key ID="STR_ttt_Medic_Backpack_settingUseAnimation_name">
+            <English>Play Animation</English>
+            <German>Animation abspielen</German>
+        </Key>
+        <Key ID="STR_ttt_medic_backpack_SubCategory">
+            <English>Medical Backpack</English>
+            <German>medizinischer Rucksack</German>
+        </Key>
+        <Key ID="STR_ttt_medic_backpack_settingSupportedBackpacks_description">
+            <English>Classnames of the backpacks that can carry a medical device.\n(By default, each of these backpacks has one loaded, including those of the AI. To deactivate, add the following code to the loadout of the unit: (unitBackpack this) setVariable ["hasTent", false])\ni.e.: ["B_Kitbag_rgr","B_Kitbag_blk"]\n(The array must be enclosed with ' in cba_settings.sqf)</English>
+            <German>Classnames der Rucksäcke die eine medizinische Einrichtung transportieren können.\n(Standardmäßig hat jeder dieser Rucksäcke eine geladen; auch die der KI. Zum Deaktivieren folgenden Code zum Loadout der Einheit hinzufügen: (unitBackpack this) setVariable ["hasTent", false]\nBsp.: ["B_Kitbag_rgr","B_Kitbag_cbr"])\n(In der cba_settings.sqf muss das Array mit ' umschlossen werden)</German>
         </Key>
     </Package>
 </Project>
