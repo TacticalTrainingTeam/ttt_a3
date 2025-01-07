@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Teleport">
-        <Key ID="STR_ttt_Teleport_subCategory">
-            <English>Teleport Logic</English>
-            <German>Teleport Logik</German>
-        </Key>
         <Key ID="STR_ttt_Teleport_enable_description">
             <English>When enabled, a teleporter will automatically be created at the respawn point.</English>
             <German>Wenn aktiviert, wird automatisch ein Teleporter am Respawn erzeugt.</German>

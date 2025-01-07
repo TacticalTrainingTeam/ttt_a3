@@ -10,7 +10,7 @@
 		},
 		{
 			"label": "Validate Config",
-			"command": "${config:python.pythonPath}",
+			"command": "${command:python.interpreterPath}}",
 			"options": {
 				"cwd": "${workspaceFolder}/tools"
 			},
@@ -20,7 +20,7 @@
 		},
 		{
 			"label": "Validate Stringtables",
-			"command": "${config:python.pythonPath}",
+			"command": "${command:python.interpreterPath}}",
 			"options": {
 				"cwd": "${workspaceFolder}/tools"
 			},
@@ -30,7 +30,7 @@
 		},
 		{
 			"label": "Check Strings",
-			"command": "${config:python.pythonPath}",
+			"command": "${command:python.interpreterPath}}",
 			"options": {
 				"cwd": "${workspaceFolder}/tools"
 			},
