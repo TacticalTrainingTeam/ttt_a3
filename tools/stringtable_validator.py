@@ -16,7 +16,7 @@ import xml.etree.ElementTree as ET
 
 
 ######## GLOBALS #########
-PROJECT_NAME = "TTT"
+PROJECT_NAME = "ttt"
 ##########################
 
 
