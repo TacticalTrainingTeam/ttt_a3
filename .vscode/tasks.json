@@ -10,34 +10,44 @@
 		},
 		{
 			"label": "Validate Config",
-			"command": "${command:python.interpreterPath}}",
+			"command": "${config:python.defaultInterpreterPath}",
 			"options": {
 				"cwd": "${workspaceFolder}/tools"
 			},
 			"args": [
 				"config_style_checker.py"
-			]
+			],
 		},
 		{
 			"label": "Validate Stringtables",
-			"command": "${command:python.interpreterPath}}",
+			"command": "${config:python.defaultInterpreterPath}",
 			"options": {
 				"cwd": "${workspaceFolder}/tools"
 			},
 			"args": [
 				"stringtable_validator.py"
-			]
+			],
 		},
 		{
 			"label": "Check Strings",
-			"command": "${command:python.interpreterPath}}",
+			"command": "${config:python.defaultInterpreterPath}",
 			"options": {
 				"cwd": "${workspaceFolder}/tools"
 			},
 			"args": [
 				"check_strings.py"
 			],
-			"problemMatcher": []
+		},
+		{
+			"label": "Check for Unused Strings",
+			"command": "${config:python.defaultInterpreterPath}",
+			"options": {
+				"cwd": "${workspaceFolder}/tools"
+			},
+			"args": [
+				"check_strings.py",
+				"-u"
+			],
 		},
 		{
 			"label": "HEMTT check",
@@ -48,22 +58,6 @@
 			"args": [
 				"check"
 			],
-			"problemMatcher": []
-		},
-		{
-			"label": "Build: Hemtt",
-			"command": "hemtt.exe",
-			"options": {
-				"cwd": "${workspaceFolder}"
-			},
-			"args": [
-				"build",
-				"-v"
-			],
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			}
 		},
 		{
 			"label": "Test All",

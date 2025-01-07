@@ -3,5 +3,6 @@
 		"**/.hemttout": true,
 		"**/include": true,
 		"**/extras": true
-	}
-}
+	},
+	"python.defaultInterpreterPath": "C:\\Users\\andyb\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe"
+} 

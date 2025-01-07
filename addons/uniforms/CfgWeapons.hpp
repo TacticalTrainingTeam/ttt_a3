@@ -165,8 +165,7 @@ class CfgWeapons {
         picture = QPATHTOF(data\ttt_uniform_icon_bw.paa);
         model = "\A3\characters_f\Common\Suitpacks\suitpack_universal_F";
         
-        class ItemInfo: ItemInfo
-        {
+        class ItemInfo: ItemInfo {
             uniformClass = "ttt_Base_BW";
             containerClass = "Supply60";
         };

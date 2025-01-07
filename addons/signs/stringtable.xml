@@ -193,17 +193,5 @@
             <English>TTT Sign Yellow (small)</English>
             <German>TTT Schild Gelb (klein)</German>
         </Key>
-        <Key ID="STR_ttt_Signs_Signs_Large_displayName">
-            <English>TTT Signs (large)</English>
-            <German>TTT Schilder (groß)</German>
-        </Key>
-        <Key ID="STR_ttt_Signs_Signs_Small_displayName">
-            <English>TTT Signs (small)</English>
-            <German>TTT Schilder (klein)</German>
-        </Key>
-        <Key ID="STR_ttt_Signs_ttt_Flags_displayName">
-            <English>TTT Flags</English>
-            <German>TTT Flaggen</German>
-        </Key>
     </Package>
 </Project>

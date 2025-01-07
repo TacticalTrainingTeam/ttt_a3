@@ -25,9 +25,5 @@
             <English>Technical Teleport</English>
             <German>Technischer Teleport</German>
         </Key>
-        <Key ID="STR_ttt_W_Teleporter_technical_teleport">
-            <English>Technical Teleport</English>
-            <German>Teschnicher Teleport</German>
-        </Key>
     </Package>
 </Project>
