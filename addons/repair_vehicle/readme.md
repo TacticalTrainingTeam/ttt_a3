@@ -1,4 +1,4 @@
-# EinStein Medizinisches Fahrzeug
+# TTT Reparatur Fahrzeug
 
 Fügt einem Fahrzeug die Fähigkeit hinzu eine Reparaturstation aufzubauen - dieses ist `ACE_isRepairFacility`.
 
