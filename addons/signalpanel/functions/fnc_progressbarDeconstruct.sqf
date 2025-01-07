@@ -15,7 +15,7 @@
 
 (_this select 0) params ["_target", "_caller"];
 
-target setVariable ["inUse", true, true];
+target setVariable ["ttt_signalpanel_inUse", true, true];
 
 _caller playMove "Acts_carFixingWheel";
 

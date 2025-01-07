@@ -14,14 +14,14 @@
 * Public: No
 */
 
-[player, 1, ["ACE_SelfActions", "ACE_Equipment", "medic_backpack_constuct"]] call ace_interact_menu_fnc_removeActionFromObject;
-[GVAR(facitlityObject), 0, ["ACE_MainActions", "medic_backpack_deconstuct"]] call ace_interact_menu_fnc_removeActionFromClass;
+[player, 1, ["ACE_SelfActions", "ACE_Equipment", "ttt_medic_backpack_constuct"]] call ace_interact_menu_fnc_removeActionFromObject;
+[GVAR(facitlityObject), 0, ["ACE_MainActions", "ttt_medic_backpack_deconstuct"]] call ace_interact_menu_fnc_removeActionFromClass;
 
 if (!GVAR(enable)) exitWith {};
 
 _constructPlane = 
 [
-    "medic_backpack_constuct",
+    "ttt_medic_backpack_constuct",
     LLSTRING(actionConstruct),
     "\a3\ui_f\data\IGUI\Cfg\simpleTasks\types\use_ca.paa",
     {[_this] call FUNC(progressbarConstruct)},

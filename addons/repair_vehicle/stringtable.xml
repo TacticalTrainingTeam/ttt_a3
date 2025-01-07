@@ -2,8 +2,8 @@
 <Project name="ttt_a3">
     <Package name="repair_vehicle">
         <Key ID="STR_ttt_repair_vehicle_SubCategory">
-            <English>TTT Repairfacility Vehicle</English>
-            <German>TTT Reparaturstation Fahrzeug</German>
+            <English>Repairfacility Vehicle</English>
+            <German>Reparaturstation Fahrzeug</German>
         </Key>        
         <Key ID="STR_ttt_repair_vehicle_settingEnable_name">
             <English>Enable</English>
@@ -22,16 +22,16 @@
             <German>Unterstützte Fahrzeuge</German>
         </Key>
         <Key ID="STR_ttt_repair_vehicle_settingSupportedVehicles_description">
-            <English>Classnames of the vehicles that carry the repair facilty.\n(All these vehicles have one loaded as standard. To deactivate, add the following code in the init of the vehicle: this setVariable ["hasWorkshop", false])\nChanges during the mission do not completely remove the function of the vehicles; newly added ones work perfectly.\ni.e.: ["B_Truck_01_medical_F","B_T_Truck_01_medical_F"]\n(The array must be enclosed with ' in cba_settings.sqf)</English>
-            <German>Classnames der Fahrzeuge die eine Reparaturstation transportieren können.\n(Standardmäßig haben alle diese Fahrzeuge eine geladen. Zum Deaktivieren folgenden Code in die init des Fahrzeugs hinzufügen: this setVariable ["hasWorkshop", false])\nBei Änderungen während der Mission wird den Fahrzeugen die Funktion nicht vollständig genommen; neu hinzugefügte funktionieren einwandfrei.\nBsp.: ["B_Truck_01_medical_F","B_T_Truck_01_medical_F"]\n(In der cba_settings.sqf muss das Array mit ' umschlossen werden)</German>
+            <English>Classnames of the vehicles that can transport the repair facilty.\n(All these vehicles have one loaded as standard. To deactivate, add the following code in the init of the vehicle: this setVariable ["hasWorkshop", false])\nChanges during the mission do not completely remove the function of the vehicles; newly added ones work perfectly.\ni.e.: ["B_Truck_01_Repair_F","rsr_wisent_repair_flecktarn"]\n(The array must be enclosed with ' in cba_settings.sqf)</English>
+            <German>Classnames der Fahrzeuge die eine Reparaturstation transportieren können.\n(Standardmäßig haben alle diese Fahrzeuge eine geladen. Zum Deaktivieren folgenden Code in die init des Fahrzeugs hinzufügen: this setVariable ["hasWorkshop", false])\nBei Änderungen während der Mission wird den Fahrzeugen die Funktion nicht vollständig genommen; neu hinzugefügte funktionieren einwandfrei.\nBsp.: ["B_Truck_01_Repair_F","rsr_wisent_repair_flecktarn"]\n(In der cba_settings.sqf muss das Array mit ' umschlossen werden)</German>
         </Key>
         <Key ID="STR_ttt_repair_vehicle_settingFacitlityObject_name">
-            <English>Facitlityobject</English>
-            <German>Einrichtungsobjekt</German>
+            <English>Repairfacitlity</English>
+            <German>Reparaturstation</German>
         </Key>
         <Key ID="STR_ttt_repair_vehicle_settingFacitlityObject_description">
-            <English>Classname of the object that the player builds and is then to be a repair facility. A defined object, that has already been placed (from the editor), can then also be loaded.\nChanges during the mission do not completely remove the function of the facility; newly added ones work perfectly.\ni.e.: Land_MedicalTent_01_NATO_tropic_generic_open_F</English>
-            <German>Classname des Objekts das der Spieler aufbaut und dann eine Reparaturstation sein soll. Ein eingetragenes, (aus dem Editor) bereits vorhandenes Objekt, kann dann ebenfalls aufgeladen werden.\nBei Änderungen während der Mission wird den aufgebauten Einrichtungen die Funktion nicht vollständig genommen; neu hinzugefügte funktionieren einwandfrei.\nBsp: "Land_MedicalTent_01_NATO_tropic_generic_open_F"</German>
+            <English>Classname of the object that the player builds and is then to be a repair facility. A defined object, that has already been placed (from the editor), can then also be loaded.\nChanges during the mission do not completely remove the function of the facility; newly added ones work perfectly.\ni.e.: Land_RepairDepot_01_green_F</English>
+            <German>Classname des Objekts das der Spieler aufbaut und dann eine Reparaturstation sein soll. Ein eingetragenes, (aus dem Editor) bereits vorhandenes Objekt, kann dann ebenfalls aufgeladen werden.\nBei Änderungen während der Mission wird den aufgebauten Einrichtungen die Funktion nicht vollständig genommen; neu hinzugefügte funktionieren einwandfrei.\nBsp: "Land_RepairDepot_01_green_F"</German>
         </Key>
         <Key ID="STR_ttt_repair_vehicle_settingBuildTime_name">
             <English>Buildtime</English>

@@ -24,7 +24,7 @@
     "EDITBOX",
     [LSTRING(settingFacitlityObject_name), LSTRING(settingFacitlityObject_description)],
     [ELSTRING(main,TacticalTrainingTeam), LSTRING(SubCategory)],
-    "Land_MedicalTent_01_NATO_generic_open_F",
+    "Land_RepairDepot_01_green_F",
     true,
     {[] call FUNC(addActions);},
     true

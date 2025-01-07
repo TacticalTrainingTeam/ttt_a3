@@ -18,7 +18,7 @@
 private _return = false;
 if (
     ((parseSimpleArray GVAR(supportedBackpacks)) find (backpack _target) != -1) &&
-    ((unitBackpack _target) getVariable ["hasTent", true])
+    ((unitBackpack _target) getVariable ["ttt_signalpanel_hasTarp", true])
 ) then {
     _return = true;
 };

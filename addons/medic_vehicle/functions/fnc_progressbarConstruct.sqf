@@ -21,8 +21,8 @@ if (_position isEqualTo []) exitWith {
 	hint LLSTRING(hintErrorNoSpace);
 };
 
-_target setVariable ["hasTent", false, true];
-_target setVariable ["fuel", (fuel _target), true];
+_target setVariable ["ttt_medic_vehicle_hasTent", false, true];
+_target setVariable ["ttt_medic_vehicle_fuel", (fuel _target), true];
 [_target, 0] remoteExec ["setFuel", (owner _target), false];
 [_target, [0, 0, 0]] remoteExec ["setVelocity", (owner _target), false];
 
