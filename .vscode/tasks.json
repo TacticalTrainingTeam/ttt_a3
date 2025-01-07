@@ -39,17 +39,6 @@
 			]
 		},
 		{
-			"label": "Validate headers",
-			"command": "${config:python.pythonPath}",
-			"options": {
-				"cwd": "${workspaceFolder}/docs/tools"
-			},
-			"args": [
-				"document_functions.py",
-				"--debug"
-			]
-		},
-		{
 			"label": "HEMTT check",
 			"command": "hemtt.exe",
 			"options": {
@@ -59,20 +48,6 @@
 				"check"
 			],
 			"problemMatcher": []
-		},
-		{
-			"label": "Test All",
-			"dependsOn": [
-				"Validate Config",
-				"Validate Stringtables",
-				"Validate headers",
-				"Check Strings",
-				"HEMTT check"
-			],
-			"group": {
-				"kind": "test",
-				"isDefault": true
-			}
 		},
 		{
 			"label": "Build: Hemtt",
@@ -86,6 +61,19 @@
 			],
 			"group": {
 				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "Test All",
+			"dependsOn": [
+				"Validate Config",
+				"Validate Stringtables",
+				"Check Strings",
+				"HEMTT check"
+			],
+			"group": {
+				"kind": "test",
 				"isDefault": true
 			}
 		}
