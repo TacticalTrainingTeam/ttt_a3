@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
-    <Package name="berets">
+    <Package name="Berets">
         <Key ID="STR_ttt_berets_black">
             <English>TTT Beret Black</English>
             <German>TTT Barett Schwarz</German>

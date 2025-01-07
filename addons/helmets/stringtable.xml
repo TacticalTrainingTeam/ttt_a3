@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
-    <Package name="helmets">
+    <Package name="Helmets">
         <Key ID="STR_ttt_helmets_bronze_vehiclecrew_displayName">
             <English>TTT Vehicle Crew Helmet (Bronze)</English>
             <German>TTT Fahrzeugcrew (Bronze)</German>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
-    <Package name="backpacks">
+    <Package name="Backpacks">
         <Key ID="STR_ttt_backpacks_radio_bronze_us_desert">
             <English>TTT Radio Backpack Bronze (US Desert)</English>
             <German>TTT Funk Rucksack Bronze (US Desert)</German>
