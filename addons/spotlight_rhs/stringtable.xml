@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="ttt_a3">
-    <Package name="spotlight_rhs">
-        <Key ID="STR_ttt_spotlight_rhs_joinHover">
+<Project name="ttt">
+    <Package name="Spotlight_Rhs">
+        <Key ID="STR_ttt_Spotlight_Rhs_joinHover">
             <English>Join server: Tactical Training Team - RHS</English>
             <German>Server beitreten: Tactical Training Team - RHS</German>
         </Key>

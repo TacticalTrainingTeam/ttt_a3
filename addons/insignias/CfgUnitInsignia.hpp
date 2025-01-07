@@ -1,18 +1,18 @@
 class CfgUnitInsignia {
-	class TTT_Blue {
-		displayName = CSTRING(blue_large_displayName);
-		author = "Andx";
-		texture = QPATHTOEF(main,data\ttt_logo_blau_co.paa);
-		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
-		textureVehicle = "";
-	};
-	class TTT_Brown {
-		displayName = CSTRING(brown_large_displayName);
-		author = "Andx";
-		texture = QPATHTOEF(main,data\ttt_logo_braun_co.paa);
-		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
-		textureVehicle = "";
-	};
+    class TTT_Blue {
+        displayName = CSTRING(blue_large_displayName);
+        author = "Andx";
+        texture = QPATHTOEF(main,data\ttt_logo_blau_co.paa);
+        material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+        textureVehicle = "";
+    };
+    class TTT_Brown {
+        displayName = CSTRING(brown_large_displayName);
+        author = "Andx";
+        texture = QPATHTOEF(main,data\ttt_logo_braun_co.paa);
+        material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+        textureVehicle = "";
+    };
     class TTT_Yellow {
         displayName = CSTRING(yellow_large_displayName);
         author = "Andx";
@@ -83,10 +83,10 @@ class CfgUnitInsignia {
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
-    class TTT_Violett {
-        displayName = CSTRING(violett_large_displayName);
+    class TTT_Violet {
+        displayName = CSTRING(violet_large_displayName);
         author = "Andx";
-        texture = QPATHTOEF(main,data\ttt_logo_violett_co.paa);
+        texture = QPATHTOEF(main,data\ttt_logo_violet_co.paa);
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
@@ -152,10 +152,10 @@ class CfgUnitInsignia {
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
-    class TTT_violett_emblem {
-        displayName = CSTRING(violett_emblem_displayName);
+    class TTT_violet_emblem {
+        displayName = CSTRING(violet_emblem_displayName);
         author = "Andx";
-        texture = QPATHTOF(data\violett.paa);
+        texture = QPATHTOF(data\violet.paa);
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };

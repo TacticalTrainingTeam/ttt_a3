@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="ttt_a3">
-    <Package name="w_vehicleshield">
-        <Key ID="STR_ttt_w_vehicleshield_description">
+<Project name="ttt">
+    <Package name="W_Vehicleshield">
+        <Key ID="STR_ttt_W_Vehicleshield_description">
             <English>Adds a vehicle shield to the vehicle.</English>
             <German>Fügt dem Fahrzeug das VehicleShield aus dem Gruppe W Framework hinzu</German>
         </Key>
-        <Key ID="STR_ttt_w_vehicleshield_displayName">
+        <Key ID="STR_ttt_W_Vehicleshield_displayName">
             <English>Vehicle Shield</English>
             <German>Fahrzeugschild</German>
         </Key>

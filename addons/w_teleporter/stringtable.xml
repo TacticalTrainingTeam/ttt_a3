@@ -1,33 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="ttt_a3">
-    <Package name="w_teleporter">
-        <Key ID="STR_ttt_w_teleporter_driver">
+<Project name="ttt">
+    <Package name="W_Teleporter">
+        <Key ID="STR_ttt_W_Teleporter_driver">
             <English>Driver</English>
             <German>Fahrer</German>
         </Key>
-        <Key ID="STR_ttt_w_teleporter_gunner">
+        <Key ID="STR_ttt_W_Teleporter_gunner">
             <English>Gunner</English>
             <German>Schütze</German>
         </Key>
-        <Key ID="STR_ttt_w_teleporter_nearby">
+        <Key ID="STR_ttt_W_Teleporter_commander">
+            <English>Commander</English>
+            <German>Kommandant</German>
+        </Key>
+        <Key ID="STR_ttt_W_Teleporter_nearby">
             <English>Nearby</English>
             <German>In der Nähe</German>
         </Key>
-        <Key ID="STR_ttt_w_teleporter_nearby">
-            <English>Nearby</English>
-            <German>In der Nähe</German>
-        </Key>
-        <Key ID="STR_ttt_w_teleporter_passenger">
+        <Key ID="STR_ttt_W_Teleporter_passenger">
             <English>Passenger</English>
             <German>Passagier</German>
         </Key>
-        <Key ID="STR_ttt_w_teleporter_technicalTeleport">
+        <Key ID="STR_ttt_W_Teleporter_technicalTeleport">
             <English>Technical Teleport</English>
             <German>Technischer Teleport</German>
-        </Key>
-        <Key ID="STR_ttt_w_teleporter_technical_teleport">
-            <English>Technical Teleport</English>
-            <German>Teschnicher Teleport</German>
         </Key>
     </Package>
 </Project>

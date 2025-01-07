@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5891.1865,24.517677,4808.1997};
-		dir[]={0.89144135,-0.44777197,-0.069712281};
-		up[]={0.44642463,0.89413965,-0.034911599};
-		aside[]={-0.077966444,-4.126814e-07,-0.99696869};
+		pos[]={5930.4561,36.208916,4821.5811};
+		dir[]={-0.40594503,-0.77096945,-0.49077579};
+		up[]={-0.49139562,0.63686693,-0.59408259};
+		aside[]={-0.77057844,9.8261808e-08,0.63738465};
 	};
 };
 binarizationWanted=0;
@@ -126,7 +126,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Scenario";
 		class Attribute0
@@ -209,7 +209,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5936.0972,7.2125969,4785.0029};
-				angles[]={-0,1.599901,0};
+				angles[]={0,1.599901,0};
 			};
 			side="Empty";
 			flags=4;
@@ -716,7 +716,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5905.9536,8.3443718,4785.8711};
-				angles[]={-0,4.7572289,0};
+				angles[]={0,4.7572289,0};
 			};
 			side="Empty";
 			flags=4;
@@ -732,7 +732,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5919.8208,7.6292419,4828.2144};
-				angles[]={-0,6.2229528,0};
+				angles[]={0,6.2229528,0};
 			};
 			side="Empty";
 			flags=4;

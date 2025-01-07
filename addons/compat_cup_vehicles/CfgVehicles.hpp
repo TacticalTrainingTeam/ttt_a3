@@ -12,7 +12,7 @@ class CfgVehicles {
     };
 
     class CUP_nHMMWV_Base;
-    class CUP_nM1037sc_Base : CUP_nHMMWV_Base {
+    class CUP_nM1037sc_Base: CUP_nHMMWV_Base {
         class AcreRacks {
             class Rack_1 {
                 displayName = "Radio Set";      // Name displayed in the interaction menu

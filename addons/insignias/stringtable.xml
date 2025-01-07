@@ -1,119 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="ttt_a3">
-    <Package name="insignias">
-        <Key ID="STR_ttt_insignias_black_emblem_displayName">
+<Project name="ttt">
+    <Package name="Insignias">
+        <Key ID="STR_ttt_Insignias_black_emblem_displayName">
             <English>TTT Black Emblem</English>
             <German>TTT Schwarz Abzeichen</German>
         </Key>
-        <Key ID="STR_ttt_insignias_black_large_displayName">
+        <Key ID="STR_ttt_Insignias_black_large_displayName">
             <English>TTT Black</English>
             <German>TTT Schwarz</German>
         </Key>
-        <Key ID="STR_ttt_insignias_blue_emblem_displayName">
+        <Key ID="STR_ttt_Insignias_blue_emblem_displayName">
             <English>TTT Blue Emblem</English>
             <German>TTT Blau Abzeichen</German>
         </Key>
-        <Key ID="STR_ttt_insignias_blue_large_displayName">
+        <Key ID="STR_ttt_Insignias_blue_large_displayName">
             <English>TTT Blue</English>
             <German>TTT Blau</German>
         </Key>
-        <Key ID="STR_ttt_insignias_bronze_emblem_displayName">
+        <Key ID="STR_ttt_Insignias_bronze_emblem_displayName">
             <English>TTT Bronze Emblem</English>
             <German>TTT Bronze Abzeichen</German>
         </Key>
-        <Key ID="STR_ttt_insignias_bronze_large_displayName">
+        <Key ID="STR_ttt_Insignias_bronze_large_displayName">
             <English>TTT Bronze</English>
             <German>TTT Bronze</German>
         </Key>
-        <Key ID="STR_ttt_insignias_brown_emblem_displayName">
+        <Key ID="STR_ttt_Insignias_brown_emblem_displayName">
             <English>TTT Brown Emblem</English>
             <German>TTT Braun Abzeichen</German>
         </Key>
-        <Key ID="STR_ttt_insignias_brown_large_displayName">
+        <Key ID="STR_ttt_Insignias_brown_large_displayName">
             <English>TTT Brown</English>
             <German>TTT Braun</German>
         </Key>
-        <Key ID="STR_ttt_insignias_eod_displayName">
+        <Key ID="STR_ttt_Insignias_eod_displayName">
             <English>EOD</English>
             <German>EOD</German>
         </Key>
-        <Key ID="STR_ttt_insignias_grau_emblem_displayName">
+        <Key ID="STR_ttt_Insignias_grau_emblem_displayName">
             <English>TTT Grey Emblem</English>
             <German>TTT Grau Abzeichen</German>
         </Key>
-        <Key ID="STR_ttt_insignias_grau_large_displayName">
+        <Key ID="STR_ttt_Insignias_grau_large_displayName">
             <English>TTT Grey</English>
             <German>TTT Grau</German>
         </Key>
-        <Key ID="STR_ttt_insignias_green_emblem_displayName">
+        <Key ID="STR_ttt_Insignias_green_emblem_displayName">
             <English>TTT Green Emblem</English>
             <German>TTT Grün Abzeichen</German>
         </Key>
-        <Key ID="STR_ttt_insignias_green_large_displayName">
+        <Key ID="STR_ttt_Insignias_green_large_displayName">
             <English>TTT Green</English>
             <German>TTT Grün</German>
         </Key>
-        <Key ID="STR_ttt_insignias_logo_large_displayName">
+        <Key ID="STR_ttt_Insignias_logo_large_displayName">
             <English>TTT Logo</English>
             <German>TTT Logo</German>
         </Key>
-        <Key ID="STR_ttt_insignias_orange_emblem_displayName">
+        <Key ID="STR_ttt_Insignias_orange_emblem_displayName">
             <English>TTT Orange Emblem</English>
             <German>TTT Orange Abezeichen</German>
         </Key>
-        <Key ID="STR_ttt_insignias_orange_large_displayName">
+        <Key ID="STR_ttt_Insignias_orange_large_displayName">
             <English>TTT Orange</English>
             <German>TTT Orange</German>
         </Key>
-        <Key ID="STR_ttt_insignias_platinum_emblem_displayName">
+        <Key ID="STR_ttt_Insignias_platinum_emblem_displayName">
             <English>TTT Platinum Emblem</English>
             <German>TTT Platin Abzeichen</German>
         </Key>
-        <Key ID="STR_ttt_insignias_platinum_large_displayName">
+        <Key ID="STR_ttt_Insignias_platinum_large_displayName">
             <English>TTT Platinum</English>
             <German>TTT Platin</German>
         </Key>
-        <Key ID="STR_ttt_insignias_red_crystal_displayName">
+        <Key ID="STR_ttt_Insignias_red_crystal_displayName">
             <English>Red Cystal</English>
             <German>Roter Kristall</German>
         </Key>
-        <Key ID="STR_ttt_insignias_red_emblem_displayName">
+        <Key ID="STR_ttt_Insignias_red_emblem_displayName">
             <English>TTT Red Emblem</English>
             <German>TTT Rot Abzeichen</German>
         </Key>
-        <Key ID="STR_ttt_insignias_red_large_displayName">
+        <Key ID="STR_ttt_Insignias_red_large_displayName">
             <English>TTT Red</English>
             <German>TTT Rot</German>
         </Key>
-        <Key ID="STR_ttt_insignias_silver_emblem_displayName">
+        <Key ID="STR_ttt_Insignias_silver_emblem_displayName">
             <English>TTT Silver Emblem</English>
             <German>TTT Silber Abzeichen</German>
         </Key>
-        <Key ID="STR_ttt_insignias_silver_large_displayName">
+        <Key ID="STR_ttt_Insignias_silver_large_displayName">
             <English>TTT Silver</English>
             <German>TTT Silber</German>
         </Key>
-        <Key ID="STR_ttt_insignias_violet_emblem_displayName">
+        <Key ID="STR_ttt_Insignias_violet_emblem_displayName">
             <English>TTT Violet Emblem</English>
             <German>TTT Violett Abzeichen</German>
         </Key>
-        <Key ID="STR_ttt_insignias_violet_large_displayName">
+        <Key ID="STR_ttt_Insignias_violet_large_displayName">
             <English>TTT Violet</English>
             <German>TTT Violett</German>
         </Key>
-        <Key ID="STR_ttt_insignias_white_emblem_displayName">
+        <Key ID="STR_ttt_Insignias_white_emblem_displayName">
             <English>TTT White Emblem</English>
             <German>TTT Weiß Abzeichen</German>
         </Key>
-        <Key ID="STR_ttt_insignias_white_large_displayName">
+        <Key ID="STR_ttt_Insignias_white_large_displayName">
             <English>TTT White</English>
             <German>TTT Weiß</German>
         </Key>
-        <Key ID="STR_ttt_insignias_yellow_emblem_displayName">
+        <Key ID="STR_ttt_Insignias_yellow_emblem_displayName">
             <English>TTT Yellow Emblem</English>
             <German>TTT Gelb Abzeichen</German>
         </Key>
-        <Key ID="STR_ttt_insignias_yellow_large_displayName">
+        <Key ID="STR_ttt_Insignias_yellow_large_displayName">
             <English>TTT Yellow</English>
             <German>TTT Gelb</German>
         </Key>
