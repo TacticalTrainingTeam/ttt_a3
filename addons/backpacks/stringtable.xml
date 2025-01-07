@@ -1,8 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt_a3">
-    <Package name="backpacks"/>
+    <Package name="backpacks">
+        <Key ID="STR_ttt_backpacks_radio_bronze_us_desert">
+            <English>TTT Radio Backpack Bronze (US Desert)</English>
+            <German>TTT Funk Rucksack Bronze (US Desert)</German>
+        </Key>
+        <Key ID="STR_ttt_backpacks_radio_brown_us_desert">
+            <English>TTT Radio Backpack Brown (US Desert)</English>
+            <German>TTT Funk Rucksack Braun (US Desert)</German>
+        </Key>
         <Key ID="STR_ttt_backpacks_radio_coyote">
             <English>TTT Radio Backpack (Coyote)</English>
             <German>TTT Funk Rucksack (Coyote)</German>
         </Key>
+        <Key ID="STR_ttt_backpacks_radio_gold_us_desert">
+            <English>TTT Radio Backpack Gold (US Desert)</English>
+            <German>TTT Funk Rucksack Gold (US Desert)</German>
+        </Key>
+        <Key ID="STR_ttt_backpacks_radio_green_us_desert">
+            <English>TTT Radio Backpack Green (US Desert)</English>
+            <German>TTT Funk Rucksack Grün (US Desert)</German>
+        </Key>
+        <Key ID="STR_ttt_backpacks_radio_grey_us_desert">
+            <English>TTT Radio Backpack Grey (US Desert)</English>
+            <German>TTT Funk Rucksack Grau (US Desert)</German>
+        </Key>
+        <Key ID="STR_ttt_backpacks_radio_olive">
+            <English>TTT Radio Backpack (Olive)</English>
+            <German>TTT Funk Rucksack (Olive)</German>
+        </Key>
+        <Key ID="STR_ttt_backpacks_radio_platinum_us_desert">
+            <English>TTT Radio Backpack Platinum (US Desert)</English>
+            <German>TTT Funk Rucksack Platin (US Desert)</German>
+        </Key>
+        <Key ID="STR_ttt_backpacks_radio_silver_us_desert">
+            <English>TTT Radio Backpack Silver (US Desert)</English>
+            <German>TTT Funk Rucksack Silber (US Desert)</German>
+        </Key>
+        <Key ID="STR_ttt_backpacks_radio_white_us_desert">
+            <English>TTT Radio Backpack White (US Desert)</English>
+            <German>TTT Funk Rucksack Weiss (US Desert)</German>
+        </Key>
+        <Key ID="STR_ttt_backpacks_radio_yellow_us_desert">
+            <English>TTT Radio Backpack Yellow (US Desert)</English>
+            <German>TTT Funk Rucksack Gelb (US Desert)</German>
+        </Key>
+    </Package>
 </Project>

@@ -7,7 +7,7 @@ class CfgVehicles {
         typicalCargo[] = {"B_Soldier_F","B_Soldier_F"};
         side = 1;
         crew = "B_Soldier_F";
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\fennek\previews\rsr_fennek_transport_flecktarn_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
         hiddenSelectionsTextures[] = {
@@ -22,7 +22,7 @@ class CfgVehicles {
     };
     class rsr_fennek_transport_tropentarn: rsr_fennek_transport_flecktarn {
         displayName = CSTRING(fennek_tropentarn);
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\fennek\previews\rsr_fennek_transport_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\fennek\fennek_tropentarn_ext_co.paa),
             QPATHTOF(data\fennek\fennek_tropentarn_turret_co.paa)
@@ -37,7 +37,7 @@ class CfgVehicles {
         typicalCargo[] = {"B_Soldier_F", "B_Soldier_F", "B_Soldier_F"};
         side = 1;
         crew = "B_Soldier_F";
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\fennek\previews\rsr_fennek_hmg_flecktarn_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
         hiddenSelectionsTextures[]= {
@@ -53,7 +53,7 @@ class CfgVehicles {
     class rsr_fennek_hmg_tropentarn: rsr_fennek_hmg_flecktarn {
         author = ECSTRING(rsr_core,rsr);
         displayName = CSTRING(fennek_hmg_tropentarn);
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\fennek\previews\rsr_fennek_hmg_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\fennek\fennek_tropentarn_ext_co.paa),
             QPATHTOF(data\fennek\fennek_tropentarn_turret_co.paa)
@@ -68,7 +68,7 @@ class CfgVehicles {
         typicalCargo[] = {"B_Soldier_F", "B_Soldier_F", "B_Soldier_F"};
         side = 1;
         crew = "B_Soldier_F";
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\fennek\previews\rsr_fennek_gmg_flecktarn_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
         hiddenSelectionsTextures[] = {
@@ -84,7 +84,7 @@ class CfgVehicles {
     class rsr_fennek_gmg_tropentarn: rsr_fennek_gmg_flecktarn {
         author = ECSTRING(rsr_core,rsr);
         displayName = CSTRING(fennek_gmg_tropentarn);
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\fennek\previews\rsr_fennek_gmg_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\fennek\fennek_tropentarn_ext_co.paa),
             QPATHTOF(data\fennek\fennek_tropentarn_turret_co.paa)
@@ -98,7 +98,7 @@ class CfgVehicles {
         typicalCargo[] = {"B_Soldier_F", "B_Soldier_F"};
         side = 1;
         crew = "B_Soldier_F";
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\bergepanzer\previews\rsr_bergepanzer_flecktarn_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Tanks";
         hiddenSelectionsTextures[] = {
@@ -112,21 +112,11 @@ class CfgVehicles {
         };
         class TransportWeapons { };
         class TransportMagazines { };
-        class UserActions {
-            class Towing {
-                displayName="Nehme Abschleppseil";
-                onlyforplayer=1;
-                position="mirrors_control";
-                radius=2;
-                showWindow=0;
-                condition="";
-                statement= QUOTE(ARR_1(_this) call EFUNC(advancedtowing,initAdvancedTowing));
-            };
-        };
     };
 
     class rsr_bergepanzer_tropentarn: rsr_bergepanzer_flecktarn {
         displayName = CSTRING(bergepanzer_tropentarn);
+        editorPreview = QPATHTOF(data\bergepanzer\previews\rsr_bergepanzer_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\bergepanzer\bergepanzer_tropentarn_body_crv_co.paa),
             QPATHTOF(data\bergepanzer\bergepanzer_tropentarn_body_mbt_co.paa),
@@ -139,11 +129,11 @@ class CfgVehicles {
 
     class rsr_wisent_transport_flecktarn: O_Truck_03_transport_F {
         author = ECSTRING(rsr_core,rsr);
-        displayName = QUOTE(Wisent offen (Flecktarn));
+        displayName = CSTRING(wisent_offen_flecktarn);
         side = 1;
         typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_transport_flecktarn_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
         scope = 2;
@@ -169,10 +159,24 @@ class CfgVehicles {
                 };
             };
         };
+        class AcreRacks {
+            class Rack_1 {
+                displayName = "Radio Set";      // Name displayed in the interaction menu
+                shortName = "Radio";                   // Short name displayed on the HUD. Maximum of 5 characters
+                componentName = "ACRE_VRC103";        // Able to mount a PRC152
+                allowedPositions[] = {"driver", {"cargo", 0}}; // Who can configure the radio and open the radio GUI. Same wildcards as the intercom. It also allows transmitting/receiving
+                disabledPositions[] = {};             // Who cannot access the radio (default: {})
+                defaultComponents[] = {};             // Use this to attach simple components like Antennas, they will first attempt to fill empty connectors but will overide existing connectors. Not yet fully implemented. (default: {})
+                mountedRadio = "ACRE_PRC117F";        // Predefined mounted radio (default: "", meaning none)
+                isRadioRemovable = 0;                 // Radio can be removed (default: 0)
+                intercom[] = {};                      // Radio not wired to any intercom. All units in intercom can receive/send transmittions (ACE3 interaction menu) but they cannot manipulate the radio (GUI interface) (default: {})
+            };
+        }; 
     };
+
     class rsr_wisent_transport_tropentarn: rsr_wisent_transport_flecktarn {
-        displayName = QUOTE(Wisent offen (Tropentarn));
-        editorPreview = "";
+        displayName = CSTRING(wisent_offen_tropentarn);
+        editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_transport_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
             QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
@@ -195,11 +199,11 @@ class CfgVehicles {
 
     class rsr_wisent_covered_flecktarn: O_Truck_03_covered_F {
         author = ECSTRING(rsr_core,rsr);
-        displayName = QUOTE(Wisent Plane (Flecktarn));
+        displayName = CSTRING(wisent_plane_flecktarn);
         side = 1;
         typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_covered_flecktarn_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
         class TransportItems {
@@ -224,11 +228,25 @@ class CfgVehicles {
                 };
             };
         };
+
+        class AcreRacks {
+            class Rack_1 {
+                displayName = "Radio Set";      // Name displayed in the interaction menu
+                shortName = "Radio";                   // Short name displayed on the HUD. Maximum of 5 characters
+                componentName = "ACRE_VRC103";        // Able to mount a PRC152
+                allowedPositions[] = {"driver", {"cargo", 0}}; // Who can configure the radio and open the radio GUI. Same wildcards as the intercom. It also allows transmitting/receiving
+                disabledPositions[] = {};             // Who cannot access the radio (default: {})
+                defaultComponents[] = {};             // Use this to attach simple components like Antennas, they will first attempt to fill empty connectors but will overide existing connectors. Not yet fully implemented. (default: {})
+                mountedRadio = "ACRE_PRC117F";        // Predefined mounted radio (default: "", meaning none)
+                isRadioRemovable = 0;                 // Radio can be removed (default: 0)
+                intercom[] = {};                      // Radio not wired to any intercom. All units in intercom can receive/send transmittions (ACE3 interaction menu) but they cannot manipulate the radio (GUI interface) (default: {})
+            };
+        }; 
     };
 
     class rsr_wisent_covered_tropentarn: rsr_wisent_covered_flecktarn {
-        displayName = QUOTE(Wisent Plane (Tropentarn));
-        editorPreview = "";
+        displayName = CSTRING(wisent_plane_tropentarn);
+        editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_covered_tropentarn_preview.jpg);
         hiddenSelectionsTextures[]= {
             QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
             QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
@@ -253,11 +271,11 @@ class CfgVehicles {
 
     class rsr_wisent_repair_flecktarn: O_Truck_03_repair_F {
         author = ECSTRING(rsr_core,rsr);
-        displayName = QUOTE(Wisent Reparatur (Flecktarn));
+        displayName = CSTRING(wisent_reparatur_flecktarn);
         side = 1;
         typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_repair_flecktarn_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
         class TransportItems {
@@ -281,23 +299,25 @@ class CfgVehicles {
                 };
             };
         };
-        class UserActions {
-            class Towing {
-                displayName = "Nehme Abschleppseil";
-                onlyforplayer = 1;
-                position = "mirrors_control";
-                radius = 2;
-                showWindow = 0;
-                condition = "";
-                statement = QUOTE(ARR_1(_this) call EFUNC(advancedtowing,initAdvancedTowing));
+        class AcreRacks {
+            class Rack_1 {
+                displayName = "Radio Set";      // Name displayed in the interaction menu
+                shortName = "Radio";                   // Short name displayed on the HUD. Maximum of 5 characters
+                componentName = "ACRE_VRC103";        // Able to mount a PRC152
+                allowedPositions[] = {"driver", {"cargo", 0}}; // Who can configure the radio and open the radio GUI. Same wildcards as the intercom. It also allows transmitting/receiving
+                disabledPositions[] = {};             // Who cannot access the radio (default: {})
+                defaultComponents[] = {};             // Use this to attach simple components like Antennas, they will first attempt to fill empty connectors but will overide existing connectors. Not yet fully implemented. (default: {})
+                mountedRadio = "ACRE_PRC117F";        // Predefined mounted radio (default: "", meaning none)
+                isRadioRemovable = 0;                 // Radio can be removed (default: 0)
+                intercom[] = {};                      // Radio not wired to any intercom. All units in intercom can receive/send transmittions (ACE3 interaction menu) but they cannot manipulate the radio (GUI interface) (default: {})
             };
-        };
+        }; 
     };
 
     class rsr_wisent_repair_tropentarn: rsr_wisent_repair_flecktarn    {
         author = ECSTRING(rsr_core,rsr);
-        displayName = QUOTE(Wisent Reparatur (Tropentarn));
-        editorPreview = "";
+        displayName = CSTRING(wisent_reparatur_tropentarn);
+        editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_repair_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
             QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
@@ -320,11 +340,11 @@ class CfgVehicles {
 
     class rsr_wisent_ammo_flecktarn: O_Truck_03_ammo_F {
         author = ECSTRING(rsr_core,rsr);
-        displayName = QUOTE(Wisent Munition (Flecktarn));
+        displayName = CSTRING(wisent_munition_flecktarn);
         side = 1;
         typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_ammo_flecktarn_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
         class TransportItems {
@@ -350,12 +370,25 @@ class CfgVehicles {
                 };
             };
         };
+        class AcreRacks {
+            class Rack_1 {
+                displayName = "Radio Set";      // Name displayed in the interaction menu
+                shortName = "Radio";                   // Short name displayed on the HUD. Maximum of 5 characters
+                componentName = "ACRE_VRC103";        // Able to mount a PRC152
+                allowedPositions[] = {"driver", {"cargo", 0}}; // Who can configure the radio and open the radio GUI. Same wildcards as the intercom. It also allows transmitting/receiving
+                disabledPositions[] = {};             // Who cannot access the radio (default: {})
+                defaultComponents[] = {};             // Use this to attach simple components like Antennas, they will first attempt to fill empty connectors but will overide existing connectors. Not yet fully implemented. (default: {})
+                mountedRadio = "ACRE_PRC117F";        // Predefined mounted radio (default: "", meaning none)
+                isRadioRemovable = 0;                 // Radio can be removed (default: 0)
+                intercom[] = {};                      // Radio not wired to any intercom. All units in intercom can receive/send transmittions (ACE3 interaction menu) but they cannot manipulate the radio (GUI interface) (default: {})
+            };
+        }; 
     };
 
     class rsr_wisent_ammo_tropentarn: rsr_wisent_ammo_flecktarn {
         author = ECSTRING(rsr_core,rsr);
-        displayName = QUOTE(Wisent Munition (Tropentarn));
-        editorPreview = "";
+        displayName = CSTRING(wisent_munition_tropentarn);
+        editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_ammo_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
             QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
@@ -380,11 +413,11 @@ class CfgVehicles {
 
     class rsr_wisent_fuel_flecktarn: O_Truck_03_fuel_F {
         author = ECSTRING(rsr_core,rsr);
-        displayName = QUOTE(Wisent Treibstoff (Flecktarn));
+        displayName = CSTRING(wisent_treibstoff_flecktarn);
         side = 1;
         typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_fuel_flecktarn_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
         hiddenSelectionsTextures[] = {
@@ -403,6 +436,19 @@ class CfgVehicles {
                 };
             };
         };
+        class AcreRacks {
+            class Rack_1 {
+                displayName = "Radio Set";      // Name displayed in the interaction menu
+                shortName = "Radio";                   // Short name displayed on the HUD. Maximum of 5 characters
+                componentName = "ACRE_VRC103";        // Able to mount a PRC152
+                allowedPositions[] = {"driver", {"cargo", 0}}; // Who can configure the radio and open the radio GUI. Same wildcards as the intercom. It also allows transmitting/receiving
+                disabledPositions[] = {};             // Who cannot access the radio (default: {})
+                defaultComponents[] = {};             // Use this to attach simple components like Antennas, they will first attempt to fill empty connectors but will overide existing connectors. Not yet fully implemented. (default: {})
+                mountedRadio = "ACRE_PRC117F";        // Predefined mounted radio (default: "", meaning none)
+                isRadioRemovable = 0;                 // Radio can be removed (default: 0)
+                intercom[] = {};                      // Radio not wired to any intercom. All units in intercom can receive/send transmittions (ACE3 interaction menu) but they cannot manipulate the radio (GUI interface) (default: {})
+            };
+        }; 
         class TransportItems {
             MACRO_ADDITEM(Toolkit,1);
         };
@@ -410,8 +456,8 @@ class CfgVehicles {
         class TransportMagazines { };
     };
     class rsr_wisent_fuel_tropentarn: rsr_wisent_fuel_flecktarn {
-        displayName = QUOTE(Wisent Treibstoff (Tropentarn));
-        editorPreview = "";
+        displayName = CSTRING(wisent_treibstoff_tropentarn);
+        editorPreview = QPATHTOF(data\wisent\previews\wisent_tropentarn_fuel_co_preview.jpg);
         hiddenSelectionsTextures[]= {
             QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
             QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),
@@ -434,11 +480,11 @@ class CfgVehicles {
 
     class rsr_wisent_medical_flecktarn: O_Truck_03_medical_F {
         author = ECSTRING(rsr_core,rsr);
-        displayName = QUOTE(Wisent Sanität (Flecktarn));
+        displayName = CSTRING(wisent_sanitat_flecktarn);
         side = 1;
         typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
-        editorPreview = "";
+        editorPreview = QPATHTOF(data\wisent\previews\wisent_flecktarn_medical_co_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
         hiddenSelectionsTextures[] = {
@@ -459,6 +505,19 @@ class CfgVehicles {
                 };
             };
         };
+        class AcreRacks {
+            class Rack_1 {
+                displayName = "Radio Set";      // Name displayed in the interaction menu
+                shortName = "Radio";                   // Short name displayed on the HUD. Maximum of 5 characters
+                componentName = "ACRE_VRC103";        // Able to mount a PRC152
+                allowedPositions[] = {"driver", {"cargo", 0}}; // Who can configure the radio and open the radio GUI. Same wildcards as the intercom. It also allows transmitting/receiving
+                disabledPositions[] = {};             // Who cannot access the radio (default: {})
+                defaultComponents[] = {};             // Use this to attach simple components like Antennas, they will first attempt to fill empty connectors but will overide existing connectors. Not yet fully implemented. (default: {})
+                mountedRadio = "ACRE_PRC117F";        // Predefined mounted radio (default: "", meaning none)
+                isRadioRemovable = 0;                 // Radio can be removed (default: 0)
+                intercom[] = {};                      // Radio not wired to any intercom. All units in intercom can receive/send transmittions (ACE3 interaction menu) but they cannot manipulate the radio (GUI interface) (default: {})
+            };
+        }; 
         class TransportItems {
             MACRO_ADDITEM(Toolkit,1);
         };
@@ -466,7 +525,8 @@ class CfgVehicles {
         class TransportMagazines { };
     };
     class rsr_wisent_medical_tropentarn: rsr_wisent_medical_flecktarn {
-        displayName = QUOTE(Wisent Sanität (Tropentarn));
+        displayName = CSTRING(wisent_sanitat_tropentarn);
+        editorPreview = QPATHTOF(data\wisent\previews\wisent_tropentarn_medical_co_preview.jpg);
         hiddenSelectionsTextures[]= {
             QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
             QPATHTOF(data\wisent\wisent_tropentarn_ext02_co.paa),

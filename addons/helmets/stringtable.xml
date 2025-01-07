@@ -1,8 +1,169 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt_a3">
-    <Package name="helmets"/>
+    <Package name="helmets">
+        <Key ID="STR_ttt_helmets_bronze_vehiclecrew_displayName">
+            <English>TTT Vehicle Crew Helmet (Bronze)</English>
+            <German>TTT Fahrzeugcrew (Bronze)</German>
+        </Key>
         <Key ID="STR_ttt_helmets_buzzard_displayName">
             <English>TTT Helicopter Helmet Buzzard</English>
             <German>TTT Helikopter Helm Bussard</German>
         </Key>
+        <Key ID="STR_ttt_helmets_eagle_displayName">
+            <English>TTT Helicopter Helmet Eagle</English>
+            <German>TTT Helikopter Helm Adler</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_falcon_displayName">
+            <English>TTT Helicopter Helmet Falcon</English>
+            <German>TTT Helikopter Helm Falke</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_grey_vehiclecrew_displayName">
+            <English>TTT Vehicle Crew Helmet (Grey)</English>
+            <German>TTT Fahrzeugcrew (Grau)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_hawk_displayName">
+            <English>TTT Helicopter Helmet Hawk</English>
+            <German>TTT Helikopter Helm Habicht</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_10_bw_flecktarn_displayName">
+            <English>TTT Helmet X (BW Flecktarn)</English>
+            <German>TTT Helm X (BW Flecktarn)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_10_bw_tropentarn_displayName">
+            <English>TTT Helmet X (BW Tropentarn)</English>
+            <German>TTT Helm X (BW Tropentarn)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_10_us_desert_displayName">
+            <English>TTT Helmet X (US Desert)</English>
+            <German>TTT Helm X (US Desert)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_11_bw_flecktarn_displayName">
+            <English>TTT Helmet XI (BW Flecktarn)</English>
+            <German>TTT Helm XI (BW Flecktarn)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_11_bw_tropentarn_displayName">
+            <English>TTT Helmet XI (BW Tropentarn)</English>
+            <German>TTT Helm XI (BW Tropentarn)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_11_us_desert_displayName">
+            <English>TTT Helmet XI (US Desert)</English>
+            <German>TTT Helm XI (US Desert)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_1_bw_flecktarn_displayName">
+            <English>TTT Helmet I (BW Flecktarn)</English>
+            <German>TTT Helm I (BW Flecktarn)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_1_bw_tropentarn_displayName">
+            <English>TTT Helmet I (BW Tropentarn)</English>
+            <German>TTT Helm I (BW Tropentarn)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_1_us_desert_displayName">
+            <English>TTT Helmet I (US Desert)</English>
+            <German>TTT Helm I (US Desert)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_2_bw_flecktarn_displayName">
+            <English>TTT Helmet II (BW Flecktarn)</English>
+            <German>TTT Helm II (BW Flecktarn)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_2_bw_tropentarn_displayName">
+            <English>TTT Helmet II (BW Tropentarn)</English>
+            <German>TTT Helm II (BW Tropentarn)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_2_us_desert_displayName">
+            <English>TTT Helmet II (US Desert)</English>
+            <German>TTT Helm II (US Desert)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_3_bw_flecktarn_displayName">
+            <English>TTT Helmet III (BW Flecktarn)</English>
+            <German>TTT Helm III (BW Flecktarn)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_3_bw_tropentarn_displayName">
+            <English>TTT Helmet III (BW Tropentarn)</English>
+            <German>TTT Helm III (BW Tropentarn)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_3_us_desert_displayName">
+            <English>TTT Helmet III (US Desert)</English>
+            <German>TTT Helm III (US Desert)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_4_bw_flecktarn_displayName">
+            <English>TTT Helmet IV (BW Flecktarn)</English>
+            <German>TTT Helm IV (BW Flecktarn)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_4_bw_tropentarn_displayName">
+            <English>TTT Helmet IV (BW Tropentarn)</English>
+            <German>TTT Helm IV (BW Tropentarn)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_4_us_desert_displayName">
+            <English>TTT Helmet IV (US Desert)</English>
+            <German>TTT Helm IV (US Desert)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_5_bw_flecktarn_displayName">
+            <English>TTT Helmet V (BW Flecktarn)</English>
+            <German>TTT Helm V (BW Flecktarn)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_5_bw_tropentarn_displayName">
+            <English>TTT Helmet V (BW Tropentarn)</English>
+            <German>TTT Helm V (BW Tropentarn)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_5_us_desert_displayName">
+            <English>TTT Helmet V (US Desert)</English>
+            <German>TTT Helm V (US Desert)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_6_bw_flecktarn_displayName">
+            <English>TTT Helmet VI (BW Flecktarn)</English>
+            <German>TTT Helm VI (BW Flecktarn)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_6_bw_tropentarn_displayName">
+            <English>TTT Helmet VI (BW Tropentarn)</English>
+            <German>TTT Helm VI (BW Tropentarn)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_6_us_desert_displayName">
+            <English>TTT Helmet VI (US Desert)</English>
+            <German>TTT Helm VI (US Desert)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_7_bw_flecktarn_displayName">
+            <English>TTT Helmet VII (BW Flecktarn)</English>
+            <German>TTT Helm VII (BW Flecktarn)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_7_bw_tropentarn_displayName">
+            <English>TTT Helmet VII (BW Tropentarn)</English>
+            <German>TTT Helm VII (BW Tropentarn)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_7_us_desert_displayName">
+            <English>TTT Helmet VII (US Desert)</English>
+            <German>TTT Helm VII (US Desert)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_8_bw_flecktarn_displayName">
+            <English>TTT Helmet VIII (BW Flecktarn)</English>
+            <German>TTT Helm VIII (BW Flecktarn)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_8_bw_tropentarn_displayName">
+            <English>TTT Helmet VIII (BW Tropentarn)</English>
+            <German>TTT Helm VIII (BW Tropentarn)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_8_us_desert_displayName">
+            <English>TTT Helmet VIII (US Desert)</English>
+            <German>TTT Helm VIII (US Desert)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_9_bw_flecktarn_displayName">
+            <English>TTT Helmet IX (BW Flecktarn)</English>
+            <German>TTT Helm IX (BW Flecktarn)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_9_bw_tropentarn_displayName">
+            <English>TTT Helmet IX (BW Tropentarn)</English>
+            <German>TTT Helm IX (BW Tropentarn)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_helmet_9_us_desert_displayName">
+            <English>TTT Helmet IX (US Desert)</English>
+            <German>TTT Helm IX (US Desert)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_silver_vehiclecrew_displayName">
+            <English>TTT Vehicle Crew Helmet (Silver)</English>
+            <German>TTT Fahrzeugcrew (Silber)</German>
+        </Key>
+        <Key ID="STR_ttt_helmets_yellow_vehiclecrew_displayName">
+            <English>TTT Vehicle Crew Helmet (Yellow)</English>
+            <German>TTT Fahrzeugcrew (Gelb)</German>
+        </Key>
+    </Package>
 </Project>

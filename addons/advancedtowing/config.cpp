@@ -5,7 +5,7 @@ class CfgPatches {
         // Meta information for editor
         name = COMPONENT_NAME;
         author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx", "Sethduda"}; //Last Guy made Advanced SLingloading
+        authors[] = {"Andx", "Sethduda"}; //Last Guy made Advanced Towing
         url = ECSTRING(main,URL);
 
         // Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
@@ -23,5 +23,5 @@ class CfgPatches {
     };
 };
 
-#include "CfgFunctions.hpp"
-#include "CfgNetworkMessages.hpp"
+#include "CfgEventHandlers.hpp"
+

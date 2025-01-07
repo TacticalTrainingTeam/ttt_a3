@@ -11,8 +11,9 @@ workshop = [
 
 parameters = [
     "-world=empty",
+    "-noPause",
+    "-noPauseAudio"
 ]
-
 mission = "ttt_test.VR"
 #mission = "ttt_test.Malden"
 
@@ -81,4 +82,29 @@ workshop = [
 extends = "default"
 workshop = [
     "1224892496", # GRAD Trenches
+]
+
+[dui]
+extends = "default"
+workshop = [
+    "1638341685", # DUI Squad Radar
+]
+
+[server]
+extends = "default"
+parameters = [
+    "-server",
+    "-port=2302",
+    "-loadMissionToMemory",
+    "-filePatching",
+    #"-cfg=E:\\SteamLibrary\\steamapps\\common\\Arma 3\\basic.cfg",
+    "-config=E:\\SteamLibrary\\steamapps\\common\\Arma 3\\server.cfg",
+]
+
+[player]
+extends = "default"
+parameters = [
+    "-world=empty",
+    "-connect=127.0.0.1",
+    "-port=2302",
 ]

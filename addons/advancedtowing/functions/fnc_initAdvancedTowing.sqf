@@ -1,3 +1,5 @@
+#include "script_component.hpp"
+
 /*
 The MIT License (MIT)
 
@@ -58,7 +60,7 @@ SA_Advanced_Towing_Install = {
 if(!isNil "SA_TOW_INIT") exitWith {};
 SA_TOW_INIT = true;
 
-diag_log "Advanced Towing Loading...";
+INFO("Advanced Towing Loading...");
 
 SA_Simulate_Towing_Speed = {
     
@@ -389,7 +391,7 @@ SA_Attach_Tow_Ropes = {
 SA_Take_Tow_Ropes = {
     params ["_vehicle","_player"];
     if(local _vehicle) then {
-        diag_log format ["Take Tow Ropes Called %1", _this];
+        INFO_1("Take Tow Ropes Called %1",_this);
         private ["_existingTowRopes","_hitchPoint","_rope"];
         _existingTowRopes = _vehicle getVariable ["SA_Tow_Ropes",[]];
         if(count _existingTowRopes == 0) then {
@@ -663,10 +665,10 @@ SA_Can_Pickup_Tow_Ropes = {
 };
 
 SA_TOW_SUPPORTED_VEHICLES = [
-    "Tank", "Car", "Ship"
+    //"Tank", "Car", "Ship"
 ];
 
-/*SA_Is_Supported_Vehicle = {
+SA_Is_Supported_Vehicle = {
     params ["_vehicle","_isSupported"];
     _isSupported = false;
     if(not isNull _vehicle) then {
@@ -674,24 +676,24 @@ SA_TOW_SUPPORTED_VEHICLES = [
             if(_vehicle isKindOf _x) then {
                 _isSupported = true;
             };
-        } forEach (missionNamespace getVariable ["SA_TOW_SUPPORTED_VEHICLES_OVERRIDE",SA_TOW_SUPPORTED_VEHICLES]);
+        } forEach (missionNamespace getVariable ["SA_TOW_SUPPORTED_VEHICLES_OVERRIDE", SA_TOW_SUPPORTED_VEHICLES]);
     };
     _isSupported;
 };
-*/
-SA_Is_Supported_Vehicle = {
+
+/* SA_Is_Supported_Vehicle = {
     params ["_vehicle","_isSupported"];
     _isSupported = false;
     if(not isNull _vehicle) then {
         {
             if((typeOf _vehicle == "rsr_bergepanzer_flecktarn") or (typeOf _vehicle == "rsr_wisent_repair_flecktarn") or
-            (typeOf _vehicle == "rsr_bergepanzer_tropentarn") or (typeOf _vehicle == "rsr_wisent_repair_tropentarn")) then {
+            (typeOf _vehicle == "rsr_bergepanzer_tropentarn") or (typeOf _vehicle == "rsr_wisent_repair_tropentarn") or (typeOf _vehicle == "B_APC_Tracked_01_CRV_F")) then {
                 _isSupported = true;
             };
         } forEach (missionNamespace getVariable ["SA_TOW_SUPPORTED_VEHICLES_OVERRIDE",SA_Tow_Supported_Vehicles]);
     };
     _isSupported;
-};
+}; */
 
 SA_TOW_RULES = [
     ["Tank","CAN_TOW","Tank"],
@@ -782,8 +784,8 @@ SA_Find_Nearby_Tow_Vehicles = {
     private ["_nearVehicles","_nearVehiclesWithTowRopes","_vehicle","_ends","_end1","_end2"];
     _nearVehicles = [];
     {
-        _nearVehicles append  (position player nearObjects [_x, 30]);
-    } forEach (missionNamespace getVariable ["SA_TOW_SUPPORTED_VEHICLES_OVERRIDE",SA_Tow_Supported_Vehicles]);
+        _nearVehicles append (position player nearObjects [_x, 30]);
+    } forEach (missionNamespace getVariable ["SA_TOW_SUPPORTED_VEHICLES_OVERRIDE", SA_TOW_SUPPORTED_VEHICLES]);
     _nearVehiclesWithTowRopes = [];
     {
         _vehicle = _x;
@@ -881,7 +883,7 @@ if(isServer) then {
     
 };
 
-diag_log "Advanced Towing Loaded";
+INFO("Advanced Towing Loaded");
 
 };
 

@@ -15,7 +15,6 @@ Fahrzeugbesatzungs Helme
 - `ttt_Helmet_Grey_Vehiclecrew`
 - `ttt_Helmet_Silver_Vehiclecrew`
 - `ttt_Helmet_Yellow_Vehiclecrew`
-- `ttt_Helmet_Old_Vehiclecrew`
 
 Infanterie Helme
 
