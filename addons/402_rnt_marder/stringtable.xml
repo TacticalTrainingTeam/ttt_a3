@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt_a3">
+    <Package name="402_rnt_marder">
+        <Key ID="STR_ttt_402_rnt_Marder_closeRamp">
+            <German>Heckklappe schließen</German>
+        </Key>
+        <Key ID="STR_ttt_402_rnt_Marder_getOutHatch">
+            <German>Aussteigen durch Luke</German>
+        </Key>
+        <Key ID="STR_ttt_402_rnt_Marder_moveToHatch">
+            <German>Zum Lukenplatz wechseln</German>
+        </Key>
+        <Key ID="STR_ttt_402_rnt_Marder_openRamp">
+            <German>Heckklappe öffnen</German>
+        </Key>
+        <Key ID="STR_ttt_402_rnt_Marder_openRamp3DENTooltip">
+            <German>Heckklappe beim Spawnen des Marders öffnen.</German>
+        </Key>
+    </Package>
+</Project>

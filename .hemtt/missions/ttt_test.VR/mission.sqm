@@ -8,18 +8,18 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=17;
+		nextID=337;
 	};
 	class MarkerIDProvider
 	{
-		nextID=1;
+		nextID=108;
 	};
 	class Camera
 	{
-		pos[]={5891.1865,24.517677,4808.1997};
-		dir[]={0.89144135,-0.44777197,-0.069712281};
-		up[]={0.44642463,0.89413965,-0.034911599};
-		aside[]={-0.077966444,-4.126814e-07,-0.99696869};
+		pos[]={4814.3213,11.386435,6888.0527};
+		dir[]={-0.78311259,-0.61247778,-0.10777474};
+		up[]={-0.60676396,0.79048359,-0.083505131};
+		aside[]={-0.13633862,2.2269614e-07,0.99066764};
 	};
 };
 binarizationWanted=0;
@@ -34,15 +34,15 @@ addons[]=
 	"A3_Characters_F",
 	"ttt_uniforms",
 	"A3_Modules_F_Curator_Curator",
-	"A3_Supplies_F_Heli_CargoNets",
-	"ttt_rsr_vanilla_compat_ace",
-	"A3_Air_F_Heli_Heli_Transport_03"
+	"A3_Ui_F",
+	"ttt_signs",
+	"A3_Supplies_F_Heli_CargoNets"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=10;
+		items=6;
 		class Item0
 		{
 			className="ttt_rsr_vanilla";
@@ -89,27 +89,6 @@ class AddonsMetaData
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item7
-		{
-			className="A3_Supplies_F_Heli";
-			name="Arma 3 Helicopters - Ammoboxes and Supplies";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item8
-		{
-			className="ttt_rsr_vanilla_compat_ace";
-			name="TTT - RsR Vanilla Compat ACE";
-			author="Tactical Training Team";
-			url="https://tacticalteam.de";
-		};
-		class Item9
-		{
-			className="A3_Air_F_Heli";
-			name="Arma 3 Helicopters - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -168,7 +147,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=13;
+		items=4;
 		class Item0
 		{
 			dataType="Object";
@@ -696,9 +675,14 @@ class Mission
 			{
 				class Attribute0
 				{
-					property="ttt_w_vehicleshield_addVehicleShield";
-					expression="[[_this, true, true, [true, true], true, false], ttt_w_vehicleshield_fnc_addVehicleShield] call ttt_main_fnc_callGlobalFnc";
-					class Value
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={4808.9678,5.0014391,6891.228};
+					};
+					side="West";
+					flags=6;
+					class Attributes
 					{
 						class data
 						{
@@ -706,41 +690,41 @@ class Mission
 							value=0;
 						};
 					};
+					id=334;
+					type="B_Soldier_SL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="Male02ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="SCALAR";
+									value=0.99000001;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 				nAttributes=1;
 			};
-		};
-		class Item11
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={5905.9536,8.3443718,4785.8711};
-				angles[]={-0,4.7572289,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=15;
-			type="B_Heli_Transport_03_F";
-		};
-		class Item12
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={5919.8208,7.6292419,4828.2144};
-				angles[]={-0,6.2229528,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=16;
-			type="rsr_bergepanzer_flecktarn";
 		};
 	};
 };

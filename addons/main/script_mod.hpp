@@ -3,7 +3,6 @@
 #define MAINPREFIX z
 #define PREFIX ttt
 
-
 #include "script_version.hpp"
 
 #define VERSION     MAJOR.MINOR
@@ -22,3 +21,4 @@
 #else
     #define COMPONENT_NAME QUOTE(TTT - COMPONENT_BEAUTIFIED)
 #endif
+

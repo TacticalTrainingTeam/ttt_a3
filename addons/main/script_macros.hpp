@@ -18,7 +18,9 @@
 
 #define SIZEEX (0.75 * CELLH)
 
-
+// Helper
 #define QQPATHTOF(var1) QUOTE(QPATHTOF(var1))
+
+#define CREATE_MAGAZINE_GROUP(ammo) class ammo { ammo = 1; }
 
 #include "script_debug.hpp"
