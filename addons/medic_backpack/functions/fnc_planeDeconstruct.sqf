@@ -25,4 +25,4 @@ deleteVehicle _target;
 hint LLSTRING(hintLoaded);
 
 _caller switchMove "";
-(unitBackpack _caller) setVariable ["hasTent", true, true];
+(unitBackpack _caller) setVariable ["ttt_medic_backpack_hasTent", true, true];

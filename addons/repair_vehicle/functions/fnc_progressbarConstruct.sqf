@@ -21,8 +21,8 @@ if (_position isEqualTo []) exitWith {
 	hint LLSTRING(hintErrorNoSpace);
 };
 
-_target setVariable ["ttt_medic_vehicle_hasTent", false, true];
-_target setVariable ["ttt_medic_vehicle_fuel", (fuel _target), true];
+_target setVariable ["ttt_repair_vehicle_hasWorkshop", false, true];
+_target setVariable ["ttt_repair_vehicle_fuel", (fuel _target), true];
 [_target, 0] remoteExec ["setFuel", (owner _target), false];
 [_target, [0, 0, 0]] remoteExec ["setVelocity", (owner _target), false];
 
@@ -35,7 +35,7 @@ if (GVAR(useAnimation)) then {
 	[_target,_caller],
 	{
 		(_this select 0) params ["_target", "_caller"];
-		[_target,_caller] call FUNC(tentConstruct);
+		[_target,_caller] call FUNC(workshopConstruct);
 	},
 	{
 		(_this select 0) params ["_target", "_caller"];
