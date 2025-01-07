@@ -4,7 +4,7 @@ class CfgWeapons {
     class H_CrewHelmetHeli_B: H_HelmetB { class ItemInfo; };
     class ttt_Helmet_Pilot: H_CrewHelmetHeli_B {
         author = QUOTE(Tactical Training Team);
-        displayName = CSTRING(pilot_displayName);
+        displayName = "ttt_Helmet_Pilot";
         scope = 0;
 
         class ItemInfo: ItemInfo {
@@ -38,7 +38,7 @@ class CfgWeapons {
     class H_HelmetCrew_I;
     class ttt_Helmet_Vehiclecrew: H_HelmetCrew_I {
         author = ECSTRING(main,TacticalTrainingTeam);
-        displayName = CSTRING(vehiclecrew_displayName);
+        displayName = "ttt_Helmet_Vehiclecrew";
         scope = 0;
     };
 

@@ -1,7 +1,7 @@
 class CfgVehicles {
     class bwa3_eagle_fleck;
     class rsr_eagle_fleck: bwa3_eagle_fleck {
-        author = CSTRING(RSR);
+        author = ECSTRING(rsr_core,rsr);
         attendant = 1;
         displayName = CSTRING(Eagle_IV_Sanität_Flecktarn);
         editorPreview = QPATHTOF(data\eagle\previews\bwa3_eagle_fleck_co_preview.jpg);

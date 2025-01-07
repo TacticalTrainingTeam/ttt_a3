@@ -8,7 +8,7 @@ class Cfg3DEN {
                 class Attributes {
                     class GVAR(addBuildingShield) {
                         displayName = CSTRING(displayName);//"Building Shield";
-                        tooltip = CSTRING(descsription);//;
+                        tooltip = CSTRING(description);//;
                         property = QGVAR(addBuildingShield);
                         control = "Checkbox";
 

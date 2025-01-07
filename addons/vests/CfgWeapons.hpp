@@ -8,7 +8,7 @@ class CfgWeapons {
     class ttt_Vest_Heavy_Base: V_PlateCarrier3_rgr {
         author = ECSTRING(main,TacticalTrainingTeam);
         scope = 0;
-        displayName = CSTRING(heavy_base_DisplayName);
+        displayName = "ttt_Vest_Heavy_Base";
         hiddenSelections[] = { "camo" }; //needs to stay here to work
         hiddenSelectionsTextures[] = { QPATHTOF(data\vest_yellow_co.paa) };
 
@@ -20,7 +20,7 @@ class CfgWeapons {
     class ttt_Vest_Lite_Base: V_PlateCarrier1_rgr {
         author = ECSTRING(main,TacticalTrainingTeam);
         scope = 0;
-        displayName = CSTRING(light_base_DisplayName);
+        displayName = "ttt_Vest_Lite_Base";
         hiddenSelections[] = { "camo" };
         hiddenSelectionsTextures[] = { QPATHTOF(data\vest_yellow_co.paa) };
 
@@ -136,7 +136,7 @@ class CfgWeapons {
     class ttt_Vest_Crew_Base: V_TacVest_brn {
         scope = 0;
         author = ECSTRING(main,TacticalTrainingTeam);
-        displayName = CSTRING(crew_base_DisplayName);
+        displayName = "ttt_Vest_Crew_Base";
     };
 
     class ttt_Vest_Crew_Bronze: ttt_Vest_Crew_Base {

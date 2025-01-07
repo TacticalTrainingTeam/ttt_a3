@@ -9,6 +9,10 @@
             <English>Gunner</English>
             <German>Schütze</German>
         </Key>
+        <Key ID="STR_ttt_W_Teleporter_commander">
+            <English>Commander</English>
+            <German>Kommandant</German>
+        </Key>
         <Key ID="STR_ttt_W_Teleporter_nearby">
             <English>Nearby</English>
             <German>In der Nähe</German>
