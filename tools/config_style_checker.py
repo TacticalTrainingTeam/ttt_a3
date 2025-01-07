@@ -5,7 +5,6 @@
 import fnmatch
 import os
 import re
-import ntpath
 import sys
 import argparse
 
@@ -44,7 +43,7 @@ def check_config_style(filepath):
         # We ignore everything inside a string
         isInString = False
         # Used to store the starting type of a string, so we can match that to the end of a string
-        inStringType = '';
+        inStringType = ''
 
         lastIsCurlyBrace = False
         checkForSemiColumn = False
@@ -111,7 +110,7 @@ def check_config_style(filepath):
 
             else: # Look for the end of our comment block
                 if (c == '*'):
-                    checkIfNextIsClosingBlock = True;
+                    checkIfNextIsClosingBlock = True
                 elif (checkIfNextIsClosingBlock):
                     if (c == '/'):
                         isInCommentBlock = False
@@ -165,10 +164,10 @@ def main():
             rootDir = folder
 
         for root, dirnames, filenames in os.walk(rootDir + '/' + args.module):
-          for filename in fnmatch.filter(filenames, '*.cpp'):
-            sqf_list.append(os.path.join(root, filename))
-          for filename in fnmatch.filter(filenames, '*.hpp'):
-            sqf_list.append(os.path.join(root, filename))
+            for filename in fnmatch.filter(filenames, '*.cpp'):
+                sqf_list.append(os.path.join(root, filename))
+            for filename in fnmatch.filter(filenames, '*.hpp'):
+                sqf_list.append(os.path.join(root, filename))
 
     for filename in sqf_list:
         bad_count = bad_count + check_config_style(filename)
