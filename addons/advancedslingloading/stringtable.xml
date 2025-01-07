@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
-    <Package name="AdvancedSlingloadinging">
+    <Package name="AdvancedSlingloading">
         <Key ID="STR_ttt_AdvancedSlingloading_attachRope">
             <English>Attach To Cargo Ropes</English>
             <German>Fracht befestigen</German>

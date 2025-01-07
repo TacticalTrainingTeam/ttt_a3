@@ -13,10 +13,6 @@
             <English>Nearby</English>
             <German>In der Nähe</German>
         </Key>
-        <Key ID="STR_ttt_W_Teleporter_nearby">
-            <English>Nearby</English>
-            <German>In der Nähe</German>
-        </Key>
         <Key ID="STR_ttt_W_Teleporter_passenger">
             <English>Passenger</English>
             <German>Passagier</German>

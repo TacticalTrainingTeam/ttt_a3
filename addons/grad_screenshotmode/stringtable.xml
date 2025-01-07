@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Grad_Screenshotmode">
-        <Key ID="STR_ttt_Grad_Screenshotmodee_displayName">
+        <Key ID="STR_ttt_Grad_Screenshotmode_displayName">
             <English>Screenshot Mode</English>
             <German>Screenshot Modus</German>
         </Key>

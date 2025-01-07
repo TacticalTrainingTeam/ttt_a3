@@ -9,9 +9,5 @@
             <English>Enable Discord Rich Presence</English>
             <German>Discord Rich Presence aktivieren</German>
         </Key>
-        <Key ID="STR_ttt_Discord_Richpresence_subCategory">
-            <English>Discord Rich Presence</English>
-            <German>Discord Rich Presence</German>
-        </Key>
     </Package>
 </Project>
