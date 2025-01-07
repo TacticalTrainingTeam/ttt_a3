@@ -11,6 +11,8 @@ In den Attributen des Modul kann das Schild eingeschalten werden und die alle Fe
 
 Bei selbst platzierten Gebäuden findet ihr die Option um das Schild zu aktivieren in den Attributen des Gebäudes im Abschnitt `W-Framework`. Dort können ebenso die Fenster zerstört werden.
 
+!["3DEN Editor Attribute mit den optionen für das Building Shield"](https://i.imgur.com/Iw1i6Ou.jpeg)
+
 ## Referenzen
 
 Danke an Miller von Gruppe W, der uns das Skript zur Verfügung gestellt hat.

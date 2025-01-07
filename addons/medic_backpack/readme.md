@@ -11,6 +11,10 @@ force ttt_medic_backpack_supportedItems = "[""Land_Camping_Light_F"", ""Land_Fir
 force ttt_medic_backpack_supportedObject = "Land_MedicalTent_01_floor_dark_F";
 ```
 
+## Beispielbild
+
+![Eine volle VSS mit medic_Backpack in Action.](https://i.imgur.com/3xIppv9.jpeg)
+
 ## Maintainer
 
 - Andx
