@@ -16,7 +16,7 @@
 			},
 			"args": [
 				"config_style_checker.py"
-			],
+			]
 		},
 		{
 			"label": "Validate Stringtables",
@@ -26,7 +26,7 @@
 			},
 			"args": [
 				"stringtable_validator.py"
-			],
+			]
 		},
 		{
 			"label": "Check Strings",
@@ -36,7 +36,7 @@
 			},
 			"args": [
 				"check_strings.py"
-			],
+			]
 		},
 		{
 			"label": "Check for Unused Strings",
@@ -48,6 +48,7 @@
 				"check_strings.py",
 				"-u"
 			],
+			"problemMatcher": []
 		},
 		{
 			"label": "HEMTT check",
@@ -57,7 +58,7 @@
 			},
 			"args": [
 				"check"
-			],
+			]
 		},
 		{
 			"label": "Test All",
