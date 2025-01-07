@@ -1,41 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="signalpanel">
-        <Key ID="STR_ttt_signalpanel_enable_displayName">
-            <English>Enable Signaling Panel</English>
-            <German>Signalplane aktivieren</German>
-        </Key>
-        <Key ID="STR_ttt_signalpanel_enable_description">
-            <English>Enable Signaling Panel</English>
-            <German>Signalplane aktivieren</German>
-        </Key>
-        <Key ID="STR_ttt_signalpanel_allowedBackpacks_displayName">
-            <English>Allowed Backpacks</English>
-            <German>Erlaubte Rucksäcke</German>
-        </Key>
         <Key ID="STR_ttt_signalpanel_allowedBackpacks_description">
             <English>Backpacks that are allowed to lay out the plane</English>
             <German>Rucksäcke die eine Signalplane aufbauen dürfen</German>
         </Key>
-        <Key ID="STR_ttt_signalpanel_collect">
-            <English>Pick up Signaling Panel</English>
-            <German>Signalplane einsammeln</German>
+        <Key ID="STR_ttt_signalpanel_supportedBackpacks_displayName">
+            <English>Allowed Backpacks</English>
+            <German>Erlaubte Rucksäcke</German>
         </Key>
         <Key ID="STR_ttt_signalpanel_build">
             <English>Lay out Signaling Panel</English>
             <German>Signalplane auslegen</German>
         </Key>
-        <Key ID="STR_ttt_signalpanel_noSpace">
-            <English>No space to lay out the panel</English>
-            <German>Nicht genügend Platz um die Plane auszulegen</German>
-        </Key>
         <Key ID="STR_ttt_signalpanel_cancel">
             <English>Aborted</English>
             <German>Abgebrochen</German>
         </Key>
+        <Key ID="STR_ttt_signalpanel_collect">
+            <English>Pick up Signaling Panel</English>
+            <German>Signalplane einsammeln</German>
+        </Key>
+        <Key ID="STR_ttt_signalpanel_enable_description">
+            <English>Enable Signaling Panel</English>
+            <German>Signalplane aktivieren</German>
+        </Key>
+        <Key ID="STR_ttt_signalpanel_enable_displayName">
+            <English>Enable Signaling Panel</English>
+            <German>Signalplane aktivieren</German>
+        </Key>
+        <Key ID="STR_ttt_signalpanel_noSpace">
+            <English>No space to lay out the panel</English>
+            <German>Nicht genügend Platz um die Plane auszulegen</German>
+        </Key>
         <Key ID="STR_ttt_signalpanel_subcategory">
             <English>Signaling Panel</English>
             <German>Signalplane</German>
+        </Key>
+        <Key ID="STR_ttt_signalpanel_hintLoaded">
+            <English>The panel was stowed into the backpack.</English>
+            <German>"Die Plane wurde in den Rucksack gepackt."</German>
+        </Key>
+        <Key ID="STR_ttt_signalpanel_actionConstruct">
+            <English>Laying out signaling panel - </English>
+            <German>Signalplane auslegen - </German>
+        </Key>
+        <Key ID="STR_ttt_signalpanel_actionDeconstruct">
+            <English>Stow signaling panel into backpack - </English>
+            <German>Packe Signal Plane in Rucksack - </German>
         </Key>
     </Package>
 </Project>

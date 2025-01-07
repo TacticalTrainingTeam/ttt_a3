@@ -33,6 +33,18 @@
             <English>TTT Brown</English>
             <German>TTT Braun</German>
         </Key>
+        <Key ID="STR_ttt_insignias_eod_displayName">
+            <English>EOD</English>
+            <German>EOD</German>
+        </Key>
+        <Key ID="STR_ttt_insignias_grau_emblem_displayName">
+            <English>TTT Grey Emblem</English>
+            <German>TTT Grau Abzeichen</German>
+        </Key>
+        <Key ID="STR_ttt_insignias_grau_large_displayName">
+            <English>TTT Grey</English>
+            <German>TTT Grau</German>
+        </Key>
         <Key ID="STR_ttt_insignias_green_emblem_displayName">
             <English>TTT Green Emblem</English>
             <German>TTT Grün Abzeichen</German>
@@ -40,14 +52,6 @@
         <Key ID="STR_ttt_insignias_green_large_displayName">
             <English>TTT Green</English>
             <German>TTT Grün</German>
-        </Key>
-            <Key ID="STR_ttt_insignias_grau_emblem_displayName">
-            <English>TTT Grey Emblem</English>
-            <German>TTT Grau Abzeichen</German>
-        </Key>
-        <Key ID="STR_ttt_insignias_grau_large_displayName">
-            <English>TTT Grey</English>
-            <German>TTT Grau</German>
         </Key>
         <Key ID="STR_ttt_insignias_logo_large_displayName">
             <English>TTT Logo</English>
@@ -68,6 +72,10 @@
         <Key ID="STR_ttt_insignias_platinum_large_displayName">
             <English>TTT Platinum</English>
             <German>TTT Platin</German>
+        </Key>
+        <Key ID="STR_ttt_insignias_red_crystal_displayName">
+            <English>Red Cystal</English>
+            <German>Roter Kristall</German>
         </Key>
         <Key ID="STR_ttt_insignias_red_emblem_displayName">
             <English>TTT Red Emblem</English>
@@ -108,14 +116,6 @@
         <Key ID="STR_ttt_insignias_yellow_large_displayName">
             <English>TTT Yellow</English>
             <German>TTT Gelb</German>
-        </Key>
-        <Key ID="STR_ttt_insignias_red_crystal_displayName">
-            <English>Red Cystal</English>
-            <German>Roter Kristall</German>
-        </Key>
-        <Key ID="STR_ttt_insignias_eod_displayName">
-            <English>EOD</English>
-            <German>EOD</German>
         </Key>
     </Package>
 </Project>
