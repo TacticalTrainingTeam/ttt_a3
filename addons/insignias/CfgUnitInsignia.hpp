@@ -1,18 +1,18 @@
 class CfgUnitInsignia {
-	class TTT_Blue {
-		displayName = CSTRING(blue_large_displayName);
-		author = "Andx";
-		texture = QPATHTOEF(main,data\ttt_logo_blau_co.paa);
-		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
-		textureVehicle = "";
-	};
-	class TTT_Brown {
-		displayName = CSTRING(brown_large_displayName);
-		author = "Andx";
-		texture = QPATHTOEF(main,data\ttt_logo_braun_co.paa);
-		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
-		textureVehicle = "";
-	};
+    class TTT_Blue {
+        displayName = CSTRING(blue_large_displayName);
+        author = "Andx";
+        texture = QPATHTOEF(main,data\ttt_logo_blau_co.paa);
+        material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+        textureVehicle = "";
+    };
+    class TTT_Brown {
+        displayName = CSTRING(brown_large_displayName);
+        author = "Andx";
+        texture = QPATHTOEF(main,data\ttt_logo_braun_co.paa);
+        material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+        textureVehicle = "";
+    };
     class TTT_Yellow {
         displayName = CSTRING(yellow_large_displayName);
         author = "Andx";
