@@ -91,14 +91,14 @@ def main(argv):
     countUndefinedStrings = 0
     for s in allDefinedStrings:
         if (not (s in allUsedStrings)):
-            countUnusedStrings = countUnusedStrings + 1;
+            countUnusedStrings = countUnusedStrings + 1
             if ("-u" in argv):
                 print("String {} defined but not used".format(s))
     print("-----------")
     for s in allUsedStrings:
         if (not (s in allDefinedStrings)):
             print("String {} not defined".format(s))
-            countUndefinedStrings = countUndefinedStrings + 1;
+            countUndefinedStrings = countUndefinedStrings + 1
     print("-----------")
 
     print("Defined Strings:{0} Used Strings:{1}".format(len(allDefinedStrings),len(allUsedStrings)))
