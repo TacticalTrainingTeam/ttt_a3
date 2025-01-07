@@ -20,4 +20,4 @@ deleteVehicle _target;
 hint LLSTRING(hintLoaded);
 
 _caller switchMove "";
-(unitBackpack _caller) setVariable ["hasTent", true, true];
+(unitBackpack _caller) setVariable ["ttt_signalpanel_hasTarp", true, true];

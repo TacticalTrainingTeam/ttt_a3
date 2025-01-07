@@ -17,7 +17,7 @@
 
 private _return = false;
 if (
-    _target getVariable ["ttt_medic_vehicle_hasTent", true]
+    _target getVariable ["ttt_repair_vehicle_hasWorkshop", true]
 ) then {
     _return = true;
 };

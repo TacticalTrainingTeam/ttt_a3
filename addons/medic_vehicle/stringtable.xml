@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="ttt">
-    <Package name="Medic_Vehicle">
-        <Key ID="STR_ttt_Medic_Vehicle_SubCategory">
-            <English>TTT Medical Vehicle</English>
-            <German>TTT Medizinisches Fahrzeug</German>
+<Project name="ttt_a3">
+    <Package name="medic_vehicle">
+        <Key ID="STR_ttt_medic_vehicle_SubCategory">
+            <English>Medical Vehicle</English>
+            <German>Medizinisches Fahrzeug</German>
         </Key>        
         <Key ID="STR_ttt_Medic_Vehicle_settingEnable_name">
             <English>Enable</English>
@@ -21,8 +21,8 @@
             <English>Supported Vehicles</English>
             <German>Unterstützte Fahrzeuge</German>
         </Key>
-        <Key ID="STR_ttt_Medic_Vehicle_settingSupportedVehicles_description">
-            <English>Classnames of the vehicles that carry the medical facilty.\n(All these vehicles have one loaded as standard. To deactivate, add the following code in the init of the vehicle: this setVariable [“hasTent”, false])\nChanges during the mission do not completely remove the function of the vehicles; newly added ones work perfectly.\ni.e.: ["B_Truck_01_medical_F","B_T_Truck_01_medical_F"]\n(The array must be enclosed with ' in cba_settings.sqf)</English>
+        <Key ID="STR_ttt_medic_vehicle_settingSupportedVehicles_description">
+            <English>Classnames of the vehicles that can transport the medical facilty.\n(All these vehicles have one loaded as standard. To deactivate, add the following code in the init of the vehicle: this setVariable [“hasTent”, false])\nChanges during the mission do not completely remove the function of the vehicles; newly added ones work perfectly.\ni.e.: ["B_Truck_01_medical_F","B_T_Truck_01_medical_F"]\n(The array must be enclosed with ' in cba_settings.sqf)</English>
             <German>Classnames der Fahrzeuge die eine medizinische Einrichtung transportieren können.\n(Standardmäßig haben alle diese Fahrzeuge eine geladen. Zum Deaktivieren folgenden Code in die init des Fahrzeugs hinzufügen: this setVariable ["hasTent", false])\nBei Änderungen während der Mission wird den Fahrzeugen die Funktion nicht vollständig genommen; neu hinzugefügte funktionieren einwandfrei.\nBsp.: ["B_Truck_01_medical_F","B_T_Truck_01_medical_F"]\n(In der cba_settings.sqf muss das Array mit ' umschlossen werden)</German>
         </Key>
         <Key ID="STR_ttt_Medic_Vehicle_settingFacitlityObject_name">

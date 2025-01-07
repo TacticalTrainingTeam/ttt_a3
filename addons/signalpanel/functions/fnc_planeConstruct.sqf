@@ -19,7 +19,7 @@ private _position = (_target getPos [8, getDir _target]) findEmptyPosition [1, 2
 _plane = ("Tarp_01_Large_Red_F") createVehicle _position;
 _plane setDir (getDir _target);
 
-_plane setVariable ["inUse", false, true];
-(unitBackpack _target) setVariable ["hasTent", false, true];
+_plane setVariable ["ttt_signalpanel_inUse", false, true];
+(unitBackpack _target) setVariable ["ttt_signalpanel_hasTarp", false, true];
 
 _target switchMove "";

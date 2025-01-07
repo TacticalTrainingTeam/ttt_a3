@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="ttt">
-    <Package name="Medic_Backpack">
-        <Key ID="STR_ttt_Medic_Backpack_SubCategory">
-            <English>TTT Medical Backpack</English>
-            <German>TTT medizinischer Rucksack</German>
+<Project name="ttt_a3">
+    <Package name="medic_backpack">
+        <Key ID="STR_ttt_medic_backpack_SubCategory">
+            <English>Medical Backpack</English>
+            <German>medizinischer Rucksack</German>
         </Key>        
         <Key ID="STR_ttt_Medic_Backpack_settingEnable_name">
             <English>Enable</English>
@@ -21,9 +21,9 @@
             <English>Supported Backpacks</English>
             <German>Unterstützte Rucksäcke</German>
         </Key>
-        <Key ID="STR_ttt_Medic_Backpack_settingSupportedBackpacks_description">
-            <English>Classnames of the backpacks that can carry a medical device.\n(By default, all players with this backpack have one stowed. To deactivate, add the following code to the loadout of the unit: (unitBackpack this) setVariable ["hasTent", false])\ni.e.: ["B_Kitbag_rgr","B_Kitbag_blk"]\n(The array must be enclosed with ' in cba_settings.sqf)</English>
-            <German>Classnames der Rucksäcke die eine medizinische Einrichtung transportieren können.\n(Standardmäßig haben alle Spieler mit diesem Rucksack eine verstaut. Zum Deaktivieren folgenden Code zum Loadout der Einheit hinzufügen: (unitBackpack this) setVariable ["hasTent", false]\nBsp.: ["B_Kitbag_rgr","B_Kitbag_cbr"])\n(In der cba_settings.sqf muss das Array mit ' umschlossen werden)</German>
+        <Key ID="STR_ttt_medic_backpack_settingSupportedBackpacks_description">
+            <English>Classnames of the backpacks that can carry a medical device.\n(By default, each of these backpacks has one loaded, including those of the AI. To deactivate, add the following code to the loadout of the unit: (unitBackpack this) setVariable ["hasTent", false])\ni.e.: ["B_Kitbag_rgr","B_Kitbag_blk"]\n(The array must be enclosed with ' in cba_settings.sqf)</English>
+            <German>Classnames der Rucksäcke die eine medizinische Einrichtung transportieren können.\n(Standardmäßig hat jeder dieser Rucksäcke eine geladen; auch die der KI. Zum Deaktivieren folgenden Code zum Loadout der Einheit hinzufügen: (unitBackpack this) setVariable ["hasTent", false]\nBsp.: ["B_Kitbag_rgr","B_Kitbag_cbr"])\n(In der cba_settings.sqf muss das Array mit ' umschlossen werden)</German>
         </Key>
         <Key ID="STR_ttt_Medic_Backpack_settingFacitlityObject_name">
             <English>Facitlityobject</English>
