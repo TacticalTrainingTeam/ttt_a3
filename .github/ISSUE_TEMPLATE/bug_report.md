@@ -22,7 +22,7 @@ Eine kurze und präzise Beschreibung was der Fehler ist.
 
 1. _Gehe zu ..._
 2. _Klicke ..._
-3. _Du Siehst, dass ..._
+3. _Du siehst, dass ..._
 
 **Erwartetes Verhalten:**
 
@@ -30,13 +30,13 @@ Eine kurze und präzise Beschreibung was du anstatt des Fehlers erwartet hast.
 
 **Wo ist das Problem aufgetreten?**
 
-- Dedicated oderr TTT-Server / Selbst-gehostetes Multiplayer / Einzelspieler / Editor (Einzelspieler) / Editor (Multiplayer) / Virtuelles Arsenal
+- Dedicated oder TTT-Server / Selbst-gehostetes Multiplayer / Einzelspieler / Editor (Einzelspieler) / Editor (Multiplayer) / Virtuelles Arsenal
 
 **Log Datein:**
 
 - Verlinke hier ([gist](https://gist.github.com) oder [pastebin](http://pastebin.com)) die .rpt-Datei von dir bzw. dem Server. Eine Anleitung wie du an die .rpt-Datei kommst findest du [hier](https://community.bistudio.com/wiki/Crash_Files#Arma_3).
 
-**Zusätzliche Inforamtionen:**
+**Zusätzliche Informationen:**
 
 Alles was sonst noch nützliche Informationen sein könnten.
 
