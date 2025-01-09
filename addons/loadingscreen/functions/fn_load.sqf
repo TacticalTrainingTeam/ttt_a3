@@ -9,7 +9,7 @@ with uiNamespace do
 	_display = _params select 0;
 	RscDisplayLoading_display = _display;
 	// Initial loading - maintain visual style of RscDisplayStart
-	if !(uiNamespace getVariable ["BIS_initGame",false]) exitWith {};
+	if !(uiNamespace getVariable ["BIS_initGame", false]) exitWith {};
 
 	// Hide start loading screen
 	_ctrlLoadingStart = _display displayCtrl IDC_LOADINGSTART_LOADINGSTART;
@@ -63,12 +63,12 @@ with uiNamespace do
 		_pictureShot = getText (_cfgWorld >> "pictureShot");
 
 		// Randomized map Y coordinate
-		_worldType = uiNamespace getVariable ["RscDisplayLoading_worldType",""];
-		_ran = uiNamespace getVariable ["RscDisplayLoading_ran",random 1];
+		_worldType = uiNamespace getVariable ["RscDisplayLoading_worldType", ""];
+		_ran = uiNamespace getVariable ["RscDisplayLoading_ran", random 1];
 		if (worldName != _worldType) then {
 			_ran = random 1;
-			uiNamespace setVariable ["RscDisplayLoading_ran",_ran];
-			uiNamespace setVariable ["RscDisplayLoading_worldType",worldName];
+			uiNamespace setVariable ["RscDisplayLoading_ran", _ran];
+			uiNamespace setVariable ["RscDisplayLoading_worldType", worldName];
 		};
 		
 		_ctrlMap ctrlSetText _pictureMap;
@@ -79,9 +79,9 @@ with uiNamespace do
 		_ctrlMapDescription ctrlSetStructuredText parseText _loadingText;
 
 		if (!(isNull _ctrlMission)) then {
-			[missionConfigFile,_ctrlMissionAuthor] call bis_fnc_overviewauthor;
+			[missionConfigFile, _ctrlMissionAuthor] call bis_fnc_overviewauthor;
 		} else {
-			[_cfgWorld,_ctrlMapAuthor] call bis_fnc_overviewauthor;
+			[_cfgWorld, _ctrlMapAuthor] call bis_fnc_overviewauthor;
 		};
 	};
 
@@ -116,12 +116,12 @@ with uiNamespace do
 		];
 
 		_typePos = (ctrlPosition _ctrlMissionType);
-		_typePos params ["_mainX","_mainY","_mainW"];	// Get position of mission type, because it's the highest control
+		_typePos params ["_mainX", "_mainY", "_mainW"];	// Get position of mission type, because it's the highest control
 		_descriptionPos = (ctrlPosition _ctrlMissionDescription);
-		_descriptionPos params ["_descX","_descY","_descW","_descH"];	// Get position of the description, because it's the lowest control
+		_descriptionPos params ["_descX", "_descY", "_descW", "_descH"];	// Get position of the description, because it's the lowest control
 		_mainY= (ctrlPosition _ctrlMissionDescriptionEngine) select 1;	// Highest point in dialog
 		_mainH = (_descY + _descH) - _mainY;	// Calculate the difference of the lowest point of description and highest point of type (the total height)
-		_mainPos = [_mainX,_mainY,_mainW,_mainH];	//main pos as array
+		_mainPos = [_mainX, _mainY, _mainW, _mainH];	//main pos as array
 
 		//Find bottom bar height
 		_mapBackBottom = _display displayCtrl 1003;	// bottom bar
@@ -138,7 +138,7 @@ with uiNamespace do
 		_nul = {
 			_control = _x;
 			_pos = ctrlPosition _control;	//x,y,w,h
-			_pos params ["_moveX","_moveY","_moveW","_moveH"];
+			_pos params ["_moveX", "_moveY", "_moveW", "_moveH"];
 			_newX = _moveX + 10;
 			_newY = _moveY + 10;
 			_control ctrlSetPosition [_newX, _newY, _moveW, _moveH];
@@ -157,7 +157,7 @@ with uiNamespace do
 		_loadingTextConfig = if (false) then {getText (missionConfigFile >> "onLoadIntro")} else {getText (missionConfigFile >> "onLoadMission")};
 		_loadingText = ctrlText _ctrlMissionDescriptionEngine;
 		if (_loadingText == "") then {_loadingText = _loadingTextConfig;}; //--- Use overview data
-		if (_loadingText in ["",localize "str_load_world"]) then {_loadingText = getText (missionConfigFile >> "overviewText");};
+		if (_loadingText in ["", localize "str_load_world"]) then {_loadingText = getText (missionConfigFile >> "overviewText");};
 
 		// MP type
 		_gameType = getText (missionConfigFile >> "Header" >> "gameType");
@@ -165,11 +165,11 @@ with uiNamespace do
 		if (_gameTypeName == "") then {_gameTypeName = getText (configFile >> "CfgMPGameTypes" >> "Unknown" >> "name");};
 
 		// When loading a different terrain, current mission is sometimes still available. Check if it belongs to the terrain.
-		_last = uiNamespace getVariable ["RscDisplayLoading_last",[worldName,missionName]];
+		_last = uiNamespace getVariable ["RscDisplayLoading_last", [worldName, missionName]];
 		_lastWorld = _last select 0;
 		_lastMission = _last select 1;
 		_showMission = if (missionName == _lastMission) then {worldName == _lastWorld} else {true};
-		uiNamespace setVariable ["RscDisplayLoading_last",[worldName,missionName]];
+		uiNamespace setVariable ["RscDisplayLoading_last", [worldName, missionName]];
 
 		// Get loading bars
 		_progressMap = _display displayCtrl IDC_PROGRESS_PROGRESS;
@@ -196,12 +196,12 @@ with uiNamespace do
 
 			// Set heigh/*t based on text
 			_ctrlMissionDescriptionPos = ctrlPosition _ctrlMissionDescription;
-			_ctrlMissionDescriptionPos set [3,ctrlTextHeight _ctrlMissionDescription + 0.01];
-			if (_loadingText == "") then {_ctrlMissionDescriptionPos set [3,0];};
+			_ctrlMissionDescriptionPos set [3, ctrlTextHeight _ctrlMissionDescription + 0.01];
+			if (_loadingText == "") then {_ctrlMissionDescriptionPos set [3, 0];};
 			_ctrlMissionDescription ctrlSetPosition _ctrlMissionDescriptionPos;
 			_ctrlMissionDescription ctrlCommit 0;
 
-			[missionConfigFile,_ctrlMissionAuthor] call bis_fnc_overviewauthor;
+			[missionConfigFile, _ctrlMissionAuthor] call bis_fnc_overviewauthor;
 
 
 			// DLC notification
@@ -244,9 +244,9 @@ with uiNamespace do
 						if(count _dlcColor != 4) then
 						{
 							_dlcColor = [
-								(profileNamespace getVariable ['GUI_BCG_RGB_R',0.77]),
-								(profileNamespace getVariable ['GUI_BCG_RGB_G',0.51]),
-								(profileNamespace getVariable ['GUI_BCG_RGB_B',0.08]),
+								(profileNamespace getVariable ['GUI_BCG_RGB_R', 0.77]),
+								(profileNamespace getVariable ['GUI_BCG_RGB_G', 0.51]),
+								(profileNamespace getVariable ['GUI_BCG_RGB_B', 0.08]),
 								1];
 						};
 
@@ -303,7 +303,7 @@ with uiNamespace do
 			//--- Mission loading bar
 			_progressMapPos = ctrlPosition _progressMap;
 			_progressMissionPos = ctrlPosition _progressMission;
-			if (missionNamespace getVariable ["RscDisplayLoading_progressMission",false]) then {
+			if (missionNamespace getVariable ["RscDisplayLoading_progressMission", false]) then {
 
 				//--- Mission loading - make the terrain bar full and animate only the mission bar
 				_progressMap ctrlSetPosition _progressMissionPos;
@@ -316,7 +316,7 @@ with uiNamespace do
 			} else {
 
 				//--- When loading a different map, a rogue loading screen without progress bar appears. Move the progress bar by script.
-				_limit = [1,2] select _isMultiplayer;
+				_limit = [1, 2] select _isMultiplayer;
 				if (count (uiNamespace getVariable "loading_displays") > _limit) then {
 					_progressMap ctrlShow false;
 					_progressMission ctrlSetPosition _progressMapPos;
@@ -336,7 +336,7 @@ with uiNamespace do
 
 	_ctrlMission = _display displayCtrl IDC_LOADING_MISSION;
 	if (!(isNull _ctrlMission)) then {
-		[_display,0] call _fnc_loadMission;
+		[_display, 0] call _fnc_loadMission;
 	};
 
 	// Moved here to prevent showing Lite Disclaimer when starting/shutting down the game
@@ -360,8 +360,8 @@ with uiNamespace do
 
 			_ctrlDisclaimerName ctrlSetStructuredText parseText _disclaimerName;
 			_ctrlDisclaimerDescription ctrlSetStructuredText parseText localize "STR_A3_RSCDISPLAY_LOADING_DEVINFO";
-			_ctrlDisclaimerDescription ctrlSetTextColor [1,1,1,1];
-			[_ctrlDisclaimerDescription,0.01] call bis_fnc_ctrlFitToTextHeight;
+			_ctrlDisclaimerDescription ctrlSetTextColor [1, 1, 1, 1];
+			[_ctrlDisclaimerDescription, 0.01] call bis_fnc_ctrlFitToTextHeight;
 			_ctrlDisclaimer ctrlShow true;
 		}
 		else
@@ -374,8 +374,8 @@ with uiNamespace do
 													  "<img image='A3\Ui_f\data\GUI\RscCommon\RscTrafficLight\TrafficLight_ca.paa'/>"];
 
 				_ctrlDisclaimerDescription ctrlSetStructuredText parseText localize "STR_A3_RSCDISPLAY_LOADING_MODDEDINFO";
-				_ctrlDisclaimerDescription ctrlSetTextColor [1,1,1,1];
-				[_ctrlDisclaimerDescription,0.01] call bis_fnc_ctrlFitToTextHeight;
+				_ctrlDisclaimerDescription ctrlSetTextColor [1, 1, 1, 1];
+				[_ctrlDisclaimerDescription, 0.01] call bis_fnc_ctrlFitToTextHeight;
 				_ctrlDisclaimer ctrlShow true;
 			}
 			else
