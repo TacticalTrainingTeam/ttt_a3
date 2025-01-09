@@ -1,6 +1,7 @@
 OnLoadName = "TTT Testmission";
 OnLoadMission = "Test Hard, Play Smart";
 author="Tactical Training Team";
+loadScreen  = "OP_Adlerklaue.paa";
 
 class Header
 {
