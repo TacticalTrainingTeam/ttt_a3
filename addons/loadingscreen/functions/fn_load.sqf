@@ -38,6 +38,7 @@ with uiNamespace do
 
 			_author = getText (missionConfigFile >> "author");
 			_pictureMap = getText (missionConfigFile >> "loadScreen");
+			//Fallback falls Mission kein Bild definiert hat
 			if (_pictureMap == "") then {_pictureMap = getText (missionConfigFile >> "overviewPicture");};
 
 			_worldName = getText (missionConfigFile >> "briefingName");
