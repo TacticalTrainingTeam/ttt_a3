@@ -1,40 +1,45 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: Fehlerbericht
+about: Erstelle einen Fehlerbericht um uns zu helfen
 title: ''
 labels: 'bug'
 assignees: ''
 
 ---
 
-**Mods (complete and add to the following information):**
+**Mods (Komplett und mit den folgenden Information):**
 
-- **Arma 3:** `x.xx` [e.g. 1.00 stable, rc,  dev]
-- **CBA:** `3.x.x` [e.g. 3.0.0 stable, commit hash]
-- **ACE3:** `3.x.x` [e.g. 3.0.0 stable, commit hash]
+- **Arma 3:** `x.xx` [z.B. 1.00 stable, rc,  dev]
+- **CBA:** `3.x.x` [z.B. 3.0.0 stable, commit hash]
+- **ACE3:** `3.x.x` [z.B. 3.0.0 stable, commit hash]
+- **TTT:** `3.x.x` [z.B. 3.0.0]
 
-**Description:**
-A clear and concise description of what the bug is.
+**Beschreibung:**
 
-**Steps to reproduce:**
+Eine kurze und präzise Beschreibung was der Fehler ist.
 
-1. _Go to ..._
-2. _Click ..._
-3. _See ..._
+**Schritte zum Reproduzieren:**
 
-**Expected behavior:**
-A clear and concise description of what you expected to happen.
+1. _Gehe zu ..._
+2. _Klicke ..._
+3. _Du Siehst, dass ..._
 
-**Where did the issue occur?**
+**Erwartetes Verhalten:**
 
-- Dedicated / Self-Hosted Multiplayer / Singleplayer / Editor (Singleplayer) / Editor (Multiplayer) / Virtual Arsenal
+Eine kurze und präzise Beschreibung was du anstatt des Fehlers erwartet hast.
 
-**Log Files:**
+**Wo ist das Problem aufgetreten?**
 
-- Link to ([gist](https://gist.github.com) or [pastebin](http://pastebin.com)) to the client and/or server RPT file. An instruction to find your RPT files can be found [here](https://community.bistudio.com/wiki/Crash_Files#Arma_3).
+- Dedicated oderr TTT-Server / Selbst-gehostetes Multiplayer / Einzelspieler / Editor (Einzelspieler) / Editor (Multiplayer) / Virtuelles Arsenal
 
-**Additional context:**
-Add any other context about the problem here.
+**Log Datein:**
+
+- Verlinke hier ([gist](https://gist.github.com) oder [pastebin](http://pastebin.com)) die .rpt-Datei von dir bzw. dem Server. Eine Anleitung wie du an die .rpt-Datei kommst findest du [hier](https://community.bistudio.com/wiki/Crash_Files#Arma_3).
+
+**Zusätzliche Inforamtionen:**
+
+Alles was sonst noch nützliche Informationen sein könnten.
 
 **Screenshots:**
-If applicable, add screenshots to help explain your problem.
+
+Wenn hilfreich, verlinke Screenshots (z.B. auf [imgur](https://imgur.com)) des Problems. 

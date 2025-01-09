@@ -1,23 +1,23 @@
 ---
-name: Enhancement request
-about: Suggest an improvement for this project
-title: ""
-labels: enhancement
-assignees: ""
+name: Verbesserungsanfrage
+about: Schlage eine Verbesserung einer bestehenden Funktion vor
+title: ''
+labels: 'enhancement'
+assignees: ''
 ---
 
-**Is your enhancement related to a problem?**
+**Hat dein Vorschlag etwas mit einem Problem zu tun?**
 
-A clear and concise description of what the enhancement entails. Ex. [...] would improve user experience.
+Eine klare und kurze Beschreibung was dein Verbesserungsvorschlag ist.
 
-**Solution you'd like:**
+**Lösungsvorschlag:**
 
-A clear and concise description of what you want to happen.
+Eine klare und kurze Beschreibung was passieren sollte.
 
-**Alternatives you've considered:**
+**Alternativen die du in Betracht gezogen hast:**
 
-A clear and concise description of any alternative solutions or ideas you've considered.
+Eine klare und kurze Beschreibung welche Alternativen du in Betracht gezogen hast - und warum diese nicht ausreichend sind.
 
-**Additional context:**
+**Zusätzliche Inforamtionen:**
 
-Add any other context or screenshots about the enhancement here.
+Alles was sonst noch nützliche Informationen sein könnten.

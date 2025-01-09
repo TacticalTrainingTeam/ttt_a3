@@ -1,20 +1,24 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: Feature Anfrage
+about: Schlage eine neue Idee für die Mod vor
 title: ''
 labels: 'feature request'
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**Ist dein Vorschlag für eine Neue Funktion verbunden mit einem Problem? Bitte beschreibe inwiefern.**
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+Eine klare und kurze Beschreibung was der Auslöser für den Vorschlag ist.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**Beschreibe die Lösung die due vorstellst**
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+Eine klare und kurze Beschreibung was du gerne als Lösung sehen würdest.
+
+**Beschreibe Alternativen die du in berracht gezogen hast**
+
+Eine klare und kurze Beschreibung welche Alternativen du in Betracht gezogen hast - und warum diese nicht ausreichend sind.
+
+**Zusätzliche Inforamtionen:**
+
+Alles was sonst noch nützliche Informationen sein könnten.
