@@ -1,6 +1,6 @@
 with uiNamespace do
 {
-	disableserialization;
+	disableSerialization;
 
 	_mode = _this select 0;
 	_params = _this select 1;
@@ -9,77 +9,77 @@ with uiNamespace do
 	_display = _params select 0;
 	RscDisplayLoading_display = _display;
 	// Initial loading - maintain visual style of RscDisplayStart
-	if !(uinamespace getvariable ["BIS_initGame",false]) exitwith {};
+	if !(uiNamespace getVariable ["BIS_initGame",false]) exitWith {};
 
 	// Hide start loading screen
-	_ctrlLoadingStart = _display displayctrl IDC_LOADINGSTART_LOADINGSTART;
-	_ctrlLoadingStart ctrlsetfade 1;
-	_ctrlLoadingStart ctrlcommit 0;
+	_ctrlLoadingStart = _display displayCtrl IDC_LOADINGSTART_LOADINGSTART;
+	_ctrlLoadingStart ctrlSetFade 1;
+	_ctrlLoadingStart ctrlCommit 0;
 	_pictureShot = "";
 
 	//Map
-	if (worldname != "") then {
-		_ctrlMap = _display displayctrl IDC_LOADING_MAP;	//idc 999
-		_ctrlMapName = _display displayctrl IDC_LOADING_MAPNAME;
-		_ctrlMapAuthor = _display displayctrl IDC_LOADING_MAPAUTHOR;
-		_ctrlMapDescription = _display displayctrl IDC_LOADING_MAPDESCRIPTION;
-		_ctrlMissionDescriptionEngine = _display displayctrl IDC_LOAD_MISSION_NAME;		//101
-		_ctrlMissionAuthor = _display displayctrl IDC_LOADING_MISSIONAUTHOR;
+	if (worldName != "") then {
+		_ctrlMap = _display displayCtrl IDC_LOADING_MAP;	//idc 999
+		_ctrlMapName = _display displayCtrl IDC_LOADING_MAPNAME;
+		_ctrlMapAuthor = _display displayCtrl IDC_LOADING_MAPAUTHOR;
+		_ctrlMapDescription = _display displayCtrl IDC_LOADING_MAPDESCRIPTION;
+		_ctrlMissionDescriptionEngine = _display displayCtrl IDC_LOAD_MISSION_NAME;		//101
+		_ctrlMissionAuthor = _display displayCtrl IDC_LOADING_MISSIONAUTHOR;
 
-		_cfgWorld = configfile >> "cfgworlds" >> worldname;
+		_cfgWorld = configFile >> "cfgworlds" >> worldName;
 
 		_pictureMap = "";
 		_worldName = "";
 		_loadingText = "";
 		_author = "";
 		// Mission check
-		_ctrlMission = _display displayctrl IDC_LOADING_MISSION;
-		if (!(isnull _ctrlMission)) then {
+		_ctrlMission = _display displayCtrl IDC_LOADING_MISSION;
+		if (!(isNull _ctrlMission)) then {
 
-			_author = gettext (missionconfigfile >> "author");
-			_pictureMap = gettext (missionconfigfile >> "loadScreen");
-			if (_pictureMap == "") then {_pictureMap = gettext (missionconfigfile >> "overviewPicture");};
+			_author = getText (missionConfigFile >> "author");
+			_pictureMap = getText (missionConfigFile >> "loadScreen");
+			if (_pictureMap == "") then {_pictureMap = getText (missionConfigFile >> "overviewPicture");};
 
-			_worldName = getText (missionConfigFile >> "briefingname");
-			if (_worldName == "") then {_worldName = gettext (missionconfigfile >> "onLoadName");};
-			_loadingName = _worldName call (uinamespace getvariable "bis_fnc_localize");
+			_worldName = getText (missionConfigFile >> "briefingName");
+			if (_worldName == "") then {_worldName = getText (missionConfigFile >> "onLoadName");};
+			_loadingName = _worldName call (uiNamespace getVariable "bis_fnc_localize");
 
-			_loadingTextConfig = gettext (missionconfigfile >> "onLoadMission");
+			_loadingTextConfig = getText (missionConfigFile >> "onLoadMission");
 			_loadingText = _loadingTextConfig;
-			if (_loadingText == "") then {_loadingText = ctrltext _ctrlMissionDescriptionEngine;}; //--- Use overview data
-			if (_loadingText == "") then {_loadingText = gettext (missionconfigfile >> "overviewText");};
+			if (_loadingText == "") then {_loadingText = ctrlText _ctrlMissionDescriptionEngine;}; //--- Use overview data
+			if (_loadingText == "") then {_loadingText = getText (missionConfigFile >> "overviewText");};
 		};
-		if (_pictureMap == "") then {_pictureMap = gettext (_cfgWorld >> "pictureMap");};
+		if (_pictureMap == "") then {_pictureMap = getText (_cfgWorld >> "pictureMap");};
 		if (_pictureMap == "") then {_pictureMap = "#(argb,8,8,3)color(1,1,1,0.9)";};
-		if (_worldName == "") then {_worldName = gettext (_cfgWorld >> "description");};
+		if (_worldName == "") then {_worldName = getText (_cfgWorld >> "description");};
 		if (_loadingText == "") then {
-			_loadingTexts = getarray (_cfgWorld >> "loadingTexts");
+			_loadingTexts = getArray (_cfgWorld >> "loadingTexts");
 			_loadingText = if (count _loadingTexts > 0) then {
-				_loadingTexts select floor (((diag_ticktime / 10) % (count _loadingTexts)));
+				_loadingTexts select floor (((diag_tickTime / 10) % (count _loadingTexts)));
 			} else {
 				""
 			};
 		};
-		_pictureShot = gettext (_cfgWorld >> "pictureShot");
+		_pictureShot = getText (_cfgWorld >> "pictureShot");
 
 		// Randomized map Y coordinate
-		_worldType = uinamespace getvariable ["RscDisplayLoading_worldType",""];
-		_ran = uinamespace getvariable ["RscDisplayLoading_ran",random 1];
-		if (worldname != _worldType) then {
+		_worldType = uiNamespace getVariable ["RscDisplayLoading_worldType",""];
+		_ran = uiNamespace getVariable ["RscDisplayLoading_ran",random 1];
+		if (worldName != _worldType) then {
 			_ran = random 1;
-			uinamespace setvariable ["RscDisplayLoading_ran",_ran];
-			uinamespace setvariable ["RscDisplayLoading_worldType",worldname];
+			uiNamespace setVariable ["RscDisplayLoading_ran",_ran];
+			uiNamespace setVariable ["RscDisplayLoading_worldType",worldName];
 		};
 		
-		_ctrlMap ctrlsettext _pictureMap;
-		_ctrlMap ctrlSetPosition [safezoneX, safezoneY, safezoneW, safezoneH];
+		_ctrlMap ctrlSetText _pictureMap;
+		_ctrlMap ctrlSetPosition [safeZoneX, safeZoneY, safeZoneW, safeZoneH];
 		_ctrlMap ctrlCommit 0;
-		_ctrlMapName ctrlsettext toupper _worldName;
-		_ctrlMapAuthor ctrlsettext toUpper _author;
-		_ctrlMapDescription ctrlsetstructuredtext parsetext _loadingText;
+		_ctrlMapName ctrlSetText toUpper _worldName;
+		_ctrlMapAuthor ctrlSetText toUpper _author;
+		_ctrlMapDescription ctrlSetStructuredText parseText _loadingText;
 
-		if (!(isnull _ctrlMission)) then {
-			[missionconfigfile,_ctrlMissionAuthor] call bis_fnc_overviewauthor;
+		if (!(isNull _ctrlMission)) then {
+			[missionConfigFile,_ctrlMissionAuthor] call bis_fnc_overviewauthor;
 		} else {
 			[_cfgWorld,_ctrlMapAuthor] call bis_fnc_overviewauthor;
 		};
@@ -88,19 +88,19 @@ with uiNamespace do
 	// Mission
 	_fnc_loadMission = {
 
-		disableserialization;
+		disableSerialization;
 		_display = _this select 0;
-		_isMultiplayer = servertime > 0;
+		_isMultiplayer = serverTime > 0;
 
 
-		_ctrlMission = _display displayctrl IDC_LOADING_MISSION;						//2300
-		_ctrlMissionProgress = _display displayctrl IDC_LOADING_PROGRESSMISSION;		//1013
-		_ctrlMissionType = _display displayctrl IDC_LOADING_MISSIONGAMETYPE;			//1012
-		_ctrlMissionName = _display displayctrl IDC_LOADING_MISSIONNAME;				//1006
-		_ctrlMissionAuthor = _display displayctrl IDC_LOADING_MISSIONAUTHOR;			//1007
-		_ctrlMissionPicture = _display displayctrl IDC_LOAD_MISSION_PICTURE;			//105
-		_ctrlMissionDescription = _display displayctrl IDC_LOADING_MISSIONDESCRIPTION;	//1100
-		_ctrlMissionDescriptionEngine = _display displayctrl IDC_LOAD_MISSION_NAME;		//101
+		_ctrlMission = _display displayCtrl IDC_LOADING_MISSION;						//2300
+		_ctrlMissionProgress = _display displayCtrl IDC_LOADING_PROGRESSMISSION;		//1013
+		_ctrlMissionType = _display displayCtrl IDC_LOADING_MISSIONGAMETYPE;			//1012
+		_ctrlMissionName = _display displayCtrl IDC_LOADING_MISSIONNAME;				//1006
+		_ctrlMissionAuthor = _display displayCtrl IDC_LOADING_MISSIONAUTHOR;			//1007
+		_ctrlMissionPicture = _display displayCtrl IDC_LOAD_MISSION_PICTURE;			//105
+		_ctrlMissionDescription = _display displayCtrl IDC_LOADING_MISSIONDESCRIPTION;	//1100
+		_ctrlMissionDescriptionEngine = _display displayCtrl IDC_LOAD_MISSION_NAME;		//101
 
 		//Controls to move to bottom right
 		_toMove = [
@@ -124,11 +124,11 @@ with uiNamespace do
 		_mainPos = [_mainX,_mainY,_mainW,_mainH];	//main pos as array
 
 		//Find bottom bar height
-		_mapBackBottom = _display displayctrl 1003;	// bottom bar
+		_mapBackBottom = _display displayCtrl 1003;	// bottom bar
 		_backBottomPos = ctrlPosition _mapBackBottom;	//x,y,w,h
 		_backBottomH = _backBottomPos param [3];	// Get height of bottom
-		_tempX = (safeZoneX + safezoneW) - _mainW;	// Find position Width away from right side
-		_tempY = (safeZoneY + safezoneH) - (_mainH + _backBottomH);	// Find position Height away from bottom
+		_tempX = (safeZoneX + safeZoneW) - _mainW;	// Find position Width away from right side
+		_tempY = (safeZoneY + safeZoneH) - (_mainH + _backBottomH);	// Find position Height away from bottom
 		_ctrlMission ctrlSetPosition [_tempX+3, _tempY+3]; // Removes the whole block completely
 		_ctrlMission ctrlCommit 0;
 		// Move the mission bar1013
@@ -147,93 +147,93 @@ with uiNamespace do
 		} count _toMove;
 
 		//Picture
-		_loadingPicture = gettext (missionconfigfile >> "loadScreen");
-		if (_loadingPicture == "") then {_loadingPicture = gettext (missionconfigfile >> "overviewPicture");}; //--- Use overview data
+		_loadingPicture = getText (missionConfigFile >> "loadScreen");
+		if (_loadingPicture == "") then {_loadingPicture = getText (missionConfigFile >> "overviewPicture");}; //--- Use overview data
 
 		// Mission name
-		_loadingName = gettext (missionconfigfile >> "onLoadName");
+		_loadingName = getText (missionConfigFile >> "onLoadName");
 
 		// Description
-		_loadingTextConfig = if (false) then {gettext (missionconfigfile >> "onLoadIntro")} else {gettext (missionconfigfile >> "onLoadMission")};
-		_loadingText = ctrltext _ctrlMissionDescriptionEngine;
+		_loadingTextConfig = if (false) then {getText (missionConfigFile >> "onLoadIntro")} else {getText (missionConfigFile >> "onLoadMission")};
+		_loadingText = ctrlText _ctrlMissionDescriptionEngine;
 		if (_loadingText == "") then {_loadingText = _loadingTextConfig;}; //--- Use overview data
-		if (_loadingText in ["",localize "str_load_world"]) then {_loadingText = gettext (missionconfigfile >> "overviewText");};
+		if (_loadingText in ["",localize "str_load_world"]) then {_loadingText = getText (missionConfigFile >> "overviewText");};
 
 		// MP type
-		_gameType = gettext (missionconfigfile >> "Header" >> "gameType");
-		_gameTypeName = gettext (configfile >> "CfgMPGameTypes" >> _gameType >> "name");
-		if (_gameTypeName == "") then {_gameTypeName = gettext (configfile >> "CfgMPGameTypes" >> "Unknown" >> "name");};
+		_gameType = getText (missionConfigFile >> "Header" >> "gameType");
+		_gameTypeName = getText (configFile >> "CfgMPGameTypes" >> _gameType >> "name");
+		if (_gameTypeName == "") then {_gameTypeName = getText (configFile >> "CfgMPGameTypes" >> "Unknown" >> "name");};
 
 		// When loading a different terrain, current mission is sometimes still available. Check if it belongs to the terrain.
-		_last = uinamespace getvariable ["RscDisplayLoading_last",[worldname,missionname]];
+		_last = uiNamespace getVariable ["RscDisplayLoading_last",[worldName,missionName]];
 		_lastWorld = _last select 0;
 		_lastMission = _last select 1;
-		_showMission = if (missionname == _lastMission) then {worldname == _lastWorld} else {true};
-		uinamespace setvariable ["RscDisplayLoading_last",[worldname,missionname]];
+		_showMission = if (missionName == _lastMission) then {worldName == _lastWorld} else {true};
+		uiNamespace setVariable ["RscDisplayLoading_last",[worldName,missionName]];
 
 		// Get loading bars
-		_progressMap = _display displayctrl IDC_PROGRESS_PROGRESS;
-		if (isnull _progressMap) then {_display displayctrl IDC_CLIENT_PROGRESS};
-		_progressMission = _display displayctrl IDC_LOADING_PROGRESSMISSION;
+		_progressMap = _display displayCtrl IDC_PROGRESS_PROGRESS;
+		if (isNull _progressMap) then {_display displayCtrl IDC_CLIENT_PROGRESS};
+		_progressMission = _display displayCtrl IDC_LOADING_PROGRESSMISSION;
 		RscDisplayLoading_progress = _progressMap;
 
-		if (str missionconfigfile != "" && _showMission) then {
-			_loadingName = _loadingName call (uinamespace getvariable "bis_fnc_localize");
-			_loadingText = _loadingText call (uinamespace getvariable "bis_fnc_localize");
+		if (str missionConfigFile != "" && _showMission) then {
+			_loadingName = _loadingName call (uiNamespace getVariable "bis_fnc_localize");
+			_loadingText = _loadingText call (uiNamespace getVariable "bis_fnc_localize");
 
-			if (_loadingName == "") then {_loadingName = briefingname;};
+			if (_loadingName == "") then {_loadingName = briefingName;};
 			if (_loadingName == "") then {_loadingName = localize "STR_a3_rscdisplay_loading_noname";};
 			if (_loadingPicture == "") then {_loadingPicture = _pictureShot;};
 
 			if (_gameTypeName != "" && _isMultiplayer) then {
-				_ctrlMissionType ctrlsettext toupper _gameTypeName;
+				_ctrlMissionType ctrlSetText toUpper _gameTypeName;
 			} else {
-				_ctrlMissionType ctrlshow false;
+				_ctrlMissionType ctrlShow false;
 			};
-			_ctrlMissionName ctrlsettext toupper _loadingName;
-			_ctrlMissionPicture ctrlsettext _loadingPicture;
-			_ctrlMissionDescription ctrlsetstructuredtext parsetext _loadingText;
+			_ctrlMissionName ctrlSetText toUpper _loadingName;
+			_ctrlMissionPicture ctrlSetText _loadingPicture;
+			_ctrlMissionDescription ctrlSetStructuredText parseText _loadingText;
 
 			// Set heigh/*t based on text
-			_ctrlMissionDescriptionPos = ctrlposition _ctrlMissionDescription;
-			_ctrlMissionDescriptionPos set [3,ctrltextheight _ctrlMissionDescription + 0.01];
+			_ctrlMissionDescriptionPos = ctrlPosition _ctrlMissionDescription;
+			_ctrlMissionDescriptionPos set [3,ctrlTextHeight _ctrlMissionDescription + 0.01];
 			if (_loadingText == "") then {_ctrlMissionDescriptionPos set [3,0];};
-			_ctrlMissionDescription ctrlsetposition _ctrlMissionDescriptionPos;
-			_ctrlMissionDescription ctrlcommit 0;
+			_ctrlMissionDescription ctrlSetPosition _ctrlMissionDescriptionPos;
+			_ctrlMissionDescription ctrlCommit 0;
 
-			[missionconfigfile,_ctrlMissionAuthor] call bis_fnc_overviewauthor;
+			[missionConfigFile,_ctrlMissionAuthor] call bis_fnc_overviewauthor;
 
 
 			// DLC notification
 			_missionDLCs = [];
 			{
-				_appId = getNumber(configfile >> "CfgMods" >> _x >> "appId");
+				_appId = getNumber(configFile >> "CfgMods" >> _x >> "appId");
 				_missionDLCs = _missionDLCs + [_appId];
-			} foreach (getMissionDlcs); //Take all not owned DLCs and check whether they were released already. If yes, count them as not owned
+			} forEach (getMissionDLCs); //Take all not owned DLCs and check whether they were released already. If yes, count them as not owned
 
 			_notOwnedDLCs = [];
 			_showDLCLoading = false;
 
 			{
-				if((isDlcAvailable _x) && (_x in _missionDLCs)) then
+				if((isDLCAvailable _x) && (_x in _missionDLCs)) then
 				{
 					_notOwnedDLCs = _notOwnedDLCs + [_x];
 					_showDLCLoading = true;
 				};
-			} foreach (getDlcs 2); //Take all not owned DLCs and check whether they were released already. If yes, count them as not owned
+			} forEach (getDLCs 2); //Take all not owned DLCs and check whether they were released already. If yes, count them as not owned
 
 			if(_showDLCLoading) then
 			{
-				_selectedDLCAppId = uinamespace getvariable ['BIS_RscDisplayLoading_SelectedDLCAppId', 0];
+				_selectedDLCAppId = uiNamespace getVariable ['BIS_RscDisplayLoading_SelectedDLCAppId', 0];
 
 				if(_selectedDLCAppId == 0) then
 				{
 					//_notOwnedDLCs is non-empty => add DLC Bundle
-					_notOwnedDLCs = _notOwnedDLCs + [getNumber(configfile >> "CfgMods" >> "DLCBundle" >> "appId")];
+					_notOwnedDLCs = _notOwnedDLCs + [getNumber(configFile >> "CfgMods" >> "DLCBundle" >> "appId")];
 					//Randomly select one of the non-owned DLCs and read info from it
 					_selectedDLC = floor(random (count _notOwnedDLCs));
 					_selectedDLCAppId = _notOwnedDLCs select _selectedDLC;
-					uinamespace setvariable ["BIS_RscDisplayLoading_SelectedDLCAppId", _selectedDLCAppId];
+					uiNamespace setVariable ["BIS_RscDisplayLoading_SelectedDLCAppId", _selectedDLCAppId];
 				};
 
 				{ //For each class from cfgMods
@@ -244,49 +244,49 @@ with uiNamespace do
 						if(count _dlcColor != 4) then
 						{
 							_dlcColor = [
-								(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77]),
-								(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51]),
-								(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08]),
+								(profileNamespace getVariable ['GUI_BCG_RGB_R',0.77]),
+								(profileNamespace getVariable ['GUI_BCG_RGB_G',0.51]),
+								(profileNamespace getVariable ['GUI_BCG_RGB_B',0.08]),
 								1];
 						};
 
 						//name
-						_ctrl = _display displayctrl IDC_LOADING_DLCNAME;
+						_ctrl = _display displayCtrl IDC_LOADING_DLCNAME;
 						_ctrl ctrlSetText getText(_x >> "name");
 						_ctrl ctrlSetTextColor _dlcColor;
 						//author
-						_ctrl = _display displayctrl IDC_LOADING_DLCAUTHOR;
+						_ctrl = _display displayCtrl IDC_LOADING_DLCAUTHOR;
 						_ctrl ctrlSetText (format [localize "STR_FORMAT_AUTHOR_SCRIPTED", getText(_x >> "author")]);
 						_ctrl ctrlSetTextColor _dlcColor;
 						//stripe
-						_ctrl = _display displayctrl IDC_LOADING_DLCSTRIPE;
+						_ctrl = _display displayCtrl IDC_LOADING_DLCSTRIPE;
 						_ctrl ctrlSetTextColor _dlcColor;
 						//logo
-						_ctrl = _display displayctrl IDC_LOADING_DLCICON;
+						_ctrl = _display displayCtrl IDC_LOADING_DLCICON;
 						_ctrl ctrlSetText getText(_x >> "logo");
 						//picture background
-						_ctrl = _display displayctrl IDC_LOADING_DLCPICTUREBACK;
+						_ctrl = _display displayCtrl IDC_LOADING_DLCPICTUREBACK;
 						_ctrl ctrlSetBackgroundColor _dlcColor;
 						//picture
-						_ctrl = _display displayctrl IDC_LOADING_DLCPICTURE;
+						_ctrl = _display displayCtrl IDC_LOADING_DLCPICTURE;
 						_ctrl ctrlSetText getText(_x >> "overviewPicture");
 						//description
-						_ctrl = _display displayctrl IDC_LOADING_DLCDESCRIPTION;
+						_ctrl = _display displayCtrl IDC_LOADING_DLCDESCRIPTION;
 						_ctrl ctrlSetStructuredText (parseText getText(_x >> "overviewText"));
 					};
-				} foreach ((configfile >> "CfgMods") call bis_fnc_returnChildren);
+				} forEach ((configFile >> "CfgMods") call bis_fnc_returnChildren);
 			};
 
 			//--- Set height of description based on text
-			_ctrlDLCDescription = _display displayctrl IDC_LOADING_DLCDESCRIPTION;
-			_ctrlDLCDescriptionPos = ctrlposition _ctrlDLCDescription;
-			_ctrlDLCDescriptionPos set [3, (ctrltextheight _ctrlDLCDescription) + 0.01]; //TODO-add proper grid
-			_ctrlDLCDescription ctrlsetposition _ctrlDLCDescriptionPos;
-			_ctrlDLCDescription ctrlcommit 0;
+			_ctrlDLCDescription = _display displayCtrl IDC_LOADING_DLCDESCRIPTION;
+			_ctrlDLCDescriptionPos = ctrlPosition _ctrlDLCDescription;
+			_ctrlDLCDescriptionPos set [3, (ctrlTextHeight _ctrlDLCDescription) + 0.01]; //TODO-add proper grid
+			_ctrlDLCDescription ctrlSetPosition _ctrlDLCDescriptionPos;
+			_ctrlDLCDescription ctrlCommit 0;
 
 			//Show/hide DLC part of loading screen
 			{
-				(_display displayctrl _x) ctrlshow _showDLCLoading;
+				(_display displayCtrl _x) ctrlShow _showDLCLoading;
 			}
 			forEach
 			[
@@ -301,52 +301,52 @@ with uiNamespace do
 
 			//DLC notification
 			//--- Mission loading bar
-			_progressMapPos = ctrlposition _progressMap;
-			_progressMissionPos = ctrlposition _progressMission;
-			if (missionnamespace getvariable ["RscDisplayLoading_progressMission",false]) then {
+			_progressMapPos = ctrlPosition _progressMap;
+			_progressMissionPos = ctrlPosition _progressMission;
+			if (missionNamespace getVariable ["RscDisplayLoading_progressMission",false]) then {
 
 				//--- Mission loading - make the terrain bar full and animate only the mission bar
-				_progressMap ctrlsetposition _progressMissionPos;
-				_progressMap ctrlshow false;
-				_progressMap ctrlcommit 0;
-				_progressMission ctrlsetposition _progressMapPos;
-				_progressMission ctrlcommit 0;
-				_progressMission progresssetposition 0;
-				_progressMission ctrlshow false;
+				_progressMap ctrlSetPosition _progressMissionPos;
+				_progressMap ctrlShow false;
+				_progressMap ctrlCommit 0;
+				_progressMission ctrlSetPosition _progressMapPos;
+				_progressMission ctrlCommit 0;
+				_progressMission progressSetPosition 0;
+				_progressMission ctrlShow false;
 			} else {
 
 				//--- When loading a different map, a rogue loading screen without progress bar appears. Move the progress bar by script.
 				_limit = [1,2] select _isMultiplayer;
-				if (count (uinamespace getvariable "loading_displays") > _limit) then {
-					_progressMap ctrlshow false;
-					_progressMission ctrlsetposition _progressMapPos;
-					_progressMission ctrlcommit 0;
-					_progressMission progresssetposition 0;
-					_progressMission ctrlshow false;
+				if (count (uiNamespace getVariable "loading_displays") > _limit) then {
+					_progressMap ctrlShow false;
+					_progressMission ctrlSetPosition _progressMapPos;
+					_progressMission ctrlCommit 0;
+					_progressMission progressSetPosition 0;
+					_progressMission ctrlShow false;
 				} else {
-					_progressMission ctrlshow false;
+					_progressMission ctrlShow false;
 				};
 			};
 		} else {
-			_ctrlMission ctrlshow false;
-			_ctrlMission ctrlsetfade 1;
-			_ctrlMission ctrlcommit 0;
+			_ctrlMission ctrlShow false;
+			_ctrlMission ctrlSetFade 1;
+			_ctrlMission ctrlCommit 0;
 		};
 	};
 
-	_ctrlMission = _display displayctrl IDC_LOADING_MISSION;
-	if (!(isnull _ctrlMission)) then {
+	_ctrlMission = _display displayCtrl IDC_LOADING_MISSION;
+	if (!(isNull _ctrlMission)) then {
 		[_display,0] call _fnc_loadMission;
 	};
 
 	// Moved here to prevent showing Lite Disclaimer when starting/shutting down the game
-	if (getnumber (configfile >> "CfgMods" >> "gamma") == 1) then
+	if (getNumber (configFile >> "CfgMods" >> "gamma") == 1) then
 	{
-		_ctrlDisclaimer = _display displayctrl IDC_LOADING_DISCLAIMER;
-		_ctrlDisclaimerName = _display displayctrl IDC_LOADING_DISCLAIMERNAME;
-		_ctrlDisclaimerDescription = _display displayctrl IDC_LOADING_DISCLAIMERDESCRIPTION;
-		_productVersionArray = productversion;
-		_versionNr = ctrltext ((finddisplay 0) displayctrl 118);
+		_ctrlDisclaimer = _display displayCtrl IDC_LOADING_DISCLAIMER;
+		_ctrlDisclaimerName = _display displayCtrl IDC_LOADING_DISCLAIMERNAME;
+		_ctrlDisclaimerDescription = _display displayCtrl IDC_LOADING_DISCLAIMERDESCRIPTION;
+		_productVersionArray = productVersion;
+		_versionNr = ctrlText ((findDisplay 0) displayCtrl 118);
 
 		if (_productVersionArray select 4 == "Development") then
 		{
@@ -359,10 +359,10 @@ with uiNamespace do
 			};
 
 			_ctrlDisclaimerName ctrlSetStructuredText parseText _disclaimerName;
-			_ctrlDisclaimerDescription ctrlsetstructuredtext parsetext localize "STR_A3_RSCDISPLAY_LOADING_DEVINFO";
-			_ctrlDisclaimerDescription ctrlsettextcolor [1,1,1,1];
+			_ctrlDisclaimerDescription ctrlSetStructuredText parseText localize "STR_A3_RSCDISPLAY_LOADING_DEVINFO";
+			_ctrlDisclaimerDescription ctrlSetTextColor [1,1,1,1];
 			[_ctrlDisclaimerDescription,0.01] call bis_fnc_ctrlFitToTextHeight;
-			_ctrlDisclaimer ctrlshow true;
+			_ctrlDisclaimer ctrlShow true;
 		}
 		else
 		{
@@ -373,14 +373,14 @@ with uiNamespace do
 													  _versionNr,
 													  "<img image='A3\Ui_f\data\GUI\RscCommon\RscTrafficLight\TrafficLight_ca.paa'/>"];
 
-				_ctrlDisclaimerDescription ctrlsetstructuredtext parsetext localize "STR_A3_RSCDISPLAY_LOADING_MODDEDINFO";
-				_ctrlDisclaimerDescription ctrlsettextcolor [1,1,1,1];
+				_ctrlDisclaimerDescription ctrlSetStructuredText parseText localize "STR_A3_RSCDISPLAY_LOADING_MODDEDINFO";
+				_ctrlDisclaimerDescription ctrlSetTextColor [1,1,1,1];
 				[_ctrlDisclaimerDescription,0.01] call bis_fnc_ctrlFitToTextHeight;
-				_ctrlDisclaimer ctrlshow true;
+				_ctrlDisclaimer ctrlShow true;
 			}
 			else
 			{
-				_ctrlDisclaimer ctrlshow false;
+				_ctrlDisclaimer ctrlShow false;
 			};
 		};
 	};
