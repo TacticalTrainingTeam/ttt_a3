@@ -17,8 +17,8 @@
 
 _return = false;
 if (
-	!(_target getVariable ["inUse", false]) && 
-	!((unitBackpack _caller) getVariable ["hasTent", true]) && 
+	!(_target getVariable ["ttt_signalpanel_inUse", false]) && 
+	!((unitBackpack _caller) getVariable ["ttt_signalpanel_hasTarp", true]) && 
 	((parseSimpleArray GVAR(supportedBackpacks)) find (backpack _caller) != -1)
 ) then {
 	_return = true;

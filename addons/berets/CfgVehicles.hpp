@@ -1,7 +1,7 @@
 class CfgVehicles {
     class Headgear_H_Beret_02;
 
-    class ttt_Beret_Item_Blue : Headgear_H_Beret_02 {
+    class ttt_Beret_Item_Blue: Headgear_H_Beret_02 {
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Reimchen"};
         displayName = CSTRING(blue);
@@ -15,7 +15,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Beret_Item_Brown : ttt_Beret_Item_Blue {
+    class ttt_Beret_Item_Brown: ttt_Beret_Item_Blue {
         displayName = CSTRING(brown);
         
         class TransportItems {
@@ -26,7 +26,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Beret_Item_Bronze : ttt_Beret_Item_Blue {
+    class ttt_Beret_Item_Bronze: ttt_Beret_Item_Blue {
         displayName = CSTRING(bronze);
         
         class TransportItems {
@@ -37,7 +37,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Beret_Item_Yellow : ttt_Beret_Item_Blue {
+    class ttt_Beret_Item_Yellow: ttt_Beret_Item_Blue {
         displayName = CSTRING(yellow);
         
         class TransportItems {
@@ -48,7 +48,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Beret_Item_Gold : ttt_Beret_Item_Blue {
+    class ttt_Beret_Item_Gold: ttt_Beret_Item_Blue {
         displayName = CSTRING(gold);
         
         class TransportItems {
@@ -59,7 +59,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Beret_Item_Grey : ttt_Beret_Item_Blue {
+    class ttt_Beret_Item_Grey: ttt_Beret_Item_Blue {
         displayName = CSTRING(grey);
         
         class TransportItems {
@@ -70,7 +70,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Beret_Item_Green : ttt_Beret_Item_Blue {
+    class ttt_Beret_Item_Green: ttt_Beret_Item_Blue {
         displayName = CSTRING(green);
         
         class TransportItems {
@@ -81,7 +81,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Beret_Item_Logo : ttt_Beret_Item_Blue {
+    class ttt_Beret_Item_Logo: ttt_Beret_Item_Blue {
         displayName = CSTRING(logo);
         
         class TransportItems {
@@ -92,7 +92,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Beret_Item_Platinum : ttt_Beret_Item_Blue {
+    class ttt_Beret_Item_Platinum: ttt_Beret_Item_Blue {
         displayName = CSTRING(platinum);
         
         class TransportItems {
@@ -103,7 +103,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Beret_Item_Red : ttt_Beret_Item_Blue {
+    class ttt_Beret_Item_Red: ttt_Beret_Item_Blue {
         displayName = CSTRING(red);
         
         class TransportItems {
@@ -114,7 +114,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Beret_Item_Black : ttt_Beret_Item_Blue {
+    class ttt_Beret_Item_Black: ttt_Beret_Item_Blue {
         displayName = CSTRING(black);
         
         class TransportItems {
@@ -125,7 +125,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Beret_Item_Silver : ttt_Beret_Item_Blue {
+    class ttt_Beret_Item_Silver: ttt_Beret_Item_Blue {
         displayName = CSTRING(silver);
         
         class TransportItems {
@@ -136,7 +136,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Beret_Item_Violet : ttt_Beret_Item_Blue {
+    class ttt_Beret_Item_Violet: ttt_Beret_Item_Blue {
         displayName = CSTRING(violet);
         
         class TransportItems {
@@ -147,7 +147,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Beret_Item_White : ttt_Beret_Item_Blue {
+    class ttt_Beret_Item_White: ttt_Beret_Item_Blue {
         displayName = CSTRING(white);
         
         class TransportItems {
@@ -158,7 +158,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Beret_Item_Orange : ttt_Beret_Item_Blue {
+    class ttt_Beret_Item_Orange: ttt_Beret_Item_Blue {
         displayName = CSTRING(orange);
         
         class TransportItems {

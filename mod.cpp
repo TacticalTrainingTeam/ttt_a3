@@ -1,8 +1,8 @@
-name = "TTT-Mod 3.0.0.";
+name = "TTT-Mod {version}";
 picture = "logo_ttt_ca.paa";
 actionName = "Website";
 action = "https://tacticalteam.de";
-description = "TTT-Mod - Version 3.0.0.";
+description = "TTT-Mod - Version {version}";
 logo = "logo_ttt_ca.paa";
 logoOver = "logo_ttt_ca.paa";
 tooltip = "Tactical Training Team Mod";

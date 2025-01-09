@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="ttt_a3">
-    <Package name="grad_screenshotmode">
-        <Key ID="STR_ttt_grad_screenshotmode_displayName">
+<Project name="ttt">
+    <Package name="Grad_Screenshotmode">
+        <Key ID="STR_ttt_Grad_Screenshotmode_displayName">
             <English>Screenshot Mode</English>
             <German>Screenshot Modus</German>
         </Key>
-        <Key ID="STR_ttt_grad_screenshotmode_helpTexts">
+        <Key ID="STR_ttt_Grad_Screenshotmode_helpTexts">
             <English>Adds a keybind to hide all UI elements for prettier screenshots. This does not have a default keybind, so if you want to use it, check Controls &gt;&gt; Configure Addons &gt;&gt; Tactical Training Team.</English>
             <German>Fügt eine Tastenkombination zum Ausblenden aller UI-Elemente für schönere Screenshots hinzu. Dies hat keine Standard-Keybind, so dass, wenn du es verwenden möchtest, eine Taste zugewiesen werden muss in Controls &gt;&gt; Configure Addons &gt;&gt; Tactical Training Team.</German>
         </Key>
-        <Key ID="STR_ttt_grad_screenshotmode_toggleScreenShotMode">
+        <Key ID="STR_ttt_Grad_Screenshotmode_toggleScreenShotMode">
             <English>Toggle Screenshot Mode</English>
             <German>Screenshot Modus umschalten</German>
         </Key>

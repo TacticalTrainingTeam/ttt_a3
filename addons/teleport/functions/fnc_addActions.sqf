@@ -24,7 +24,7 @@ if (isNil "_object") exitWith {(INFO("Object not found!"));};
 if (hasInterface) then {
     INFO_1("Adding Actions to %1",_object);
     // add spectator cam
-    _object addAction ["Zuschauerkamera", {
+    _object addAction [LLSTRING(spectator), {
 
         params ["_target", "_caller"];
 
@@ -34,7 +34,7 @@ if (hasInterface) then {
     }, [], 0, false];
 
     // add teleporter Menü
-    [_object] call ttt_w_teleporter_fnc_addAction;
+    [_object] call EFUNC(w_teleporter,addAction);
 
     // close spectator on respawn
     player addMPEventHandler ["MPRespawn", {

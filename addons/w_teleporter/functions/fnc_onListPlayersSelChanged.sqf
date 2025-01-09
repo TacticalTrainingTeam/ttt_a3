@@ -39,7 +39,7 @@ if (isNull objectParent GVAR(target)) then {
         _availableOptions pushBack [LSTRING(commander), "commander"];
     };
     if ((vehicle GVAR(target)) emptyPositions "cargo" != 0) then {
-        _availableOptions pushBack [LSTRING(passanger), "cargo"];
+        _availableOptions pushBack [LSTRING(passenger), "cargo"];
     };
 
     {

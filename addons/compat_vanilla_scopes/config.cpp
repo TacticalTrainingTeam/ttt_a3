@@ -1,9 +1,7 @@
 #include "script_component.hpp"
 
-class CfgPatches
-{
-    class ttt_compat_vanilla_scopes
-    {
+class CfgPatches {
+    class ttt_compat_vanilla_scopes {
         // Meta information for editor
         name = COMPONENT_NAME;
         author = ECSTRING(main,TacticalTrainingTeam);

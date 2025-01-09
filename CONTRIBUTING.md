@@ -15,4 +15,5 @@ When contributing to this repository, please first discuss the change you wish t
 Please note that all contributors to this project are volunteers and do this in their own time. This means that issues and/or PRs may be open for a long time before being picked up and reviewed. We try to keep this time as short as possible, but some times things may fall short. If you feel that an issue or PR has not received attention, please comment asking for a review using the mention @TacticalTrainingTeam/mods.
 
 ## Assistance with contributing
+
 If you require assistance with contributing, check out the TTT-Mod channel on our [Discord](https://discord.com/channels/121399943393968128/1299008414436950057).

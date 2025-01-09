@@ -20,7 +20,7 @@ rem Sleep for 5 seconds
 timeout /t 5 >nul
 
 rem Launch the Arma 3 clients (2 clients)
-hemtt launch player -Q
+hemtt launch player -Q -i 2
 
 rem sleep for 5 seconds
 timeout /t 5 >nul

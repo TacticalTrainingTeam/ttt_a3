@@ -19,7 +19,7 @@ _arrayVehicles = nearestObjects [(getPos _target), (parseSimpleArray GVAR(suppor
 private "_vehicle";
 private _ArrayVehicle = [];
 {
-	if (!(_x getVariable ["hasTent", true])) then {
+	if (!(_x getVariable ["ttt_medic_vehicle_hasTent", true])) then {
 		_ArrayVehicle pushBack _x
 	};
 } forEach _arrayVehicles;
@@ -32,8 +32,8 @@ hint format [
 	(round ((getPos _target) distance (getPos _vehicle)))
 ];
 
-_vehicle setVariable ["hasTent", true, true];
-[_vehicle, (_vehicle getVariable ["fuel", 100])] remoteExec ["setFuel", (owner _vehicle), false];
+_vehicle setVariable ["ttt_medic_vehicle_hasTent", true, true];
+[_vehicle, (_vehicle getVariable ["ttt_medic_vehicle_fuel", 100])] remoteExec ["setFuel", (owner _vehicle), false];
 deleteVehicle _target;
 _caller switchMove "";
  

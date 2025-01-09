@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Intel">
+        <Key ID="STR_ttt_Intel_intelAdded">
+            <English>%1 has found the intel:\n"%2".</English>
+            <German>%1 hat den Intel:\n"%2"\ngefunden.</German>
+        </Key>
+    </Package>
+</Project>

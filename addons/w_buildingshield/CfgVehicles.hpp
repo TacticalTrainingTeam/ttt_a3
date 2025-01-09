@@ -1,6 +1,6 @@
 class CfgVehicles {
     class Logic;
-    class Module_F : Logic {
+    class Module_F: Logic {
         class AttributesBase {
             class Default;
             class Edit;
@@ -54,7 +54,7 @@ class CfgVehicles {
             };
         };
 
-        class ModuleDescription : ModuleDescription {
+        class ModuleDescription: ModuleDescription {
             description = "Das markierte Gebäude erhält ein Building-Shield, welches ein Zerstören der Gebäudestruktur verhindert.";
             sync[] = { QGVAR(shield) };
 

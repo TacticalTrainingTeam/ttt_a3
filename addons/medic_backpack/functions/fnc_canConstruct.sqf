@@ -18,7 +18,7 @@
 private _return = false;
 if (
     ((parseSimpleArray GVAR(supportedBackpacks)) find (backpack _target) != -1) &&
-    ((unitBackpack _target) getVariable ["hasTent", true])
+    ((unitBackpack _target) getVariable ["ttt_medic_backpack_hasTent", true])
 ) then {
     _return = true;
 };
