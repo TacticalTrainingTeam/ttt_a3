@@ -5,5 +5,5 @@
 		"**/extras": true
 	},
 	//must be changed to your local path
-	"python.defaultInterpreterPath": "C:\\Users\\andyb\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe"
+	"python.defaultInterpreterPath": "C:\\Users\\USERNAME\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe"
 } 
