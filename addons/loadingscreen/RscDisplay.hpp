@@ -4,8 +4,11 @@ class RscPicture;
 class RscVignette;
 
 class RscDisplayLoadMission: RscStandardDisplay {
-    onLoad="['onload',_this,'RscDisplayLoading'] call (uiNamespace getVariable 'full_mission_load_fnc_load')";
-    onUnload="[""onUnload"",_this,""RscDisplayLoading""] call (uiNamespace getVariable 'full_mission_load_fnc_load')";
+    //QUOTE([ARR_3(_this,'example.com','2302')] call (uiNamespace getVariable QQFUNC(join)));.
+    onLoad = QUOTE([ARR_3('onload',_this,'RscDisplayLoading')] call (uiNamespace getVariable QQFUNC(load)));
+    //onLoad="['onload', _this,'RscDisplayLoading'] call (uiNamespace getVariable 'ttt_loadingscreen_fnc_load')";
+    onUnload = QUOTE([ARR_3('onUnload',_this,'RscDisplayLoading')] call (uiNamespace getVariable QQFUNC(load)));
+    //onUnload="[""onUnload"", _this,""RscDisplayLoading""] call (uiNamespace getVariable 'ttt_loadingscreen_fnc_load')";
 
     class controlsBackground {
         class CA_Vignette: RscVignette {
@@ -34,8 +37,11 @@ class RscDisplayLoadMission: RscStandardDisplay {
 };
 
 class RscDisplayLoading {
-    onLoad="['onload',_this,'RscDisplayLoading'] call (uiNamespace getVariable 'full_mission_load_fnc_load')";
-    onUnload="[""onUnload"",_this,""RscDisplayLoading""] call (uiNamespace getVariable 'full_mission_load_fnc_load')";
+    //QUOTE([ARR_3(_this,'example.com','2302')] call (uiNamespace getVariable QQFUNC(join)));.
+    onload = QUOTE([ARR_3('onload',_this,'RscDisplayLoading')] call (uiNamespace getVariable QQFUNC(load)));
+    //onLoad="['onload', _this,'RscDisplayLoading'] call (uiNamespace getVariable 'ttt_loadingscreen_fnc_load')";
+    onUnload = QUOTE([ARR_3('onUnload',_this,'RscDisplayLoading')] call (uiNamespace getVariable QQFUNC(load)));
+    //onUnload="[""onUnload"", _this,""RscDisplayLoading""] call (uiNamespace getVariable 'ttt_loadingscreen_fnc_load')";
 
     class controlsBackground {
         class CA_Vignette: RscVignette {
@@ -64,8 +70,11 @@ class RscDisplayLoading {
 };
 
 class RscDisplayNotFreeze: RscStandardDisplay {
-    onLoad="['onload',_this,'RscDisplayLoading'] call (uiNamespace getVariable 'full_mission_load_fnc_load')";
-    onUnload="[""onUnload"",_this,""RscDisplayLoading""] call (uiNamespace getVariable 'full_mission_load_fnc_load')";
+    //QUOTE([ARR_3(_this,'example.com','2302')] call (uiNamespace getVariable QQFUNC(join)));.
+    onload = QUOTE([ARR_3('onload',_this,'RscDisplayLoading')] call (uiNamespace getVariable QQFUNC(load)));
+    //onLoad="['onload', _this,'RscDisplayLoading'] call (uiNamespace getVariable 'ttt_loadingscreen_fnc_load')";
+    onUnload = QUOTE([ARR_3('onUnload',_this,'RscDisplayLoading')] call (uiNamespace getVariable QQFUNC(load)));
+    //onUnload="[""onUnload"", _this,""RscDisplayLoading""] call (uiNamespace getVariable 'ttt_loadingscreen_fnc_load')";
 
     class controlsBackground {
         class CA_Vignette: RscVignette {
@@ -94,8 +103,11 @@ class RscDisplayNotFreeze: RscStandardDisplay {
 };
 
 class RscDisplayLoadCustom: RscDisplayLoadMission {
-    onLoad="['onload',_this,'RscDisplayLoading'] call (uiNamespace getVariable 'full_mission_load_fnc_load')";
-    onUnload="[""onUnload"",_this,""RscDisplayLoading""] call (uiNamespace getVariable 'full_mission_load_fnc_load')";
+    //QUOTE([ARR_3(_this,'example.com','2302')] call (uiNamespace getVariable QQFUNC(join)));.
+    onload = QUOTE([ARR_3('onload',_this,'RscDisplayLoading')] call (uiNamespace getVariable QQFUNC(load)));
+    //onLoad="['onload', _this,'RscDisplayLoading'] call (uiNamespace getVariable 'ttt_loadingscreen_fnc_load')";
+    onUnload = QUOTE([ARR_3('onUnload',_this,'RscDisplayLoading')] call (uiNamespace getVariable QQFUNC(load)));
+    //onUnload="[""onUnload"", _this,""RscDisplayLoading""] call (uiNamespace getVariable 'ttt_loadingscreen_fnc_load')";
 
     class controlsBackground {
         class CA_Vignette: RscVignette {

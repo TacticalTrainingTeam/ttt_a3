@@ -1,7 +1,7 @@
 #include "script_component.hpp"
 
 class CfgPatches {
-    class loadingscreen {
+    class ADDON {
         // Meta information for editor
         name = COMPONENT_NAME;
         author = ECSTRING(main,TacticalTrainingTeam);
@@ -23,5 +23,5 @@ class CfgPatches {
     };
 };
 
-#include "CfgFunctions.hpp"
+#include "CfgEventHandlers.hpp"
 #include "RscDisplay.hpp"

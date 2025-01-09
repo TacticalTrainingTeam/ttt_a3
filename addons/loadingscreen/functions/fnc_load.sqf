@@ -1,5 +1,9 @@
+#include "script_component.hpp"
+
 with uiNamespace do
 {
+	INFO("Loadingscreen init");
+	
 	disableSerialization;
 
 	_mode = _this select 0;
