@@ -1,13 +1,13 @@
 OnLoadName = "TTT Testmission";
 OnLoadMission = "Test Hard, Play Smart";
-author="Tactical Training Team";
-loadScreen  = "OP_Adlerklaue.paa";
+author = "Tactical Training Team";
+loadScreen = "OP_Adlerklaue.paa";
 
 class Header
 {
     gameType = "coop";
     minPlayers = "1";
-    maxPlayers = "5";
+    maxPlayers = "3";
 };
 
 respawn = 3;

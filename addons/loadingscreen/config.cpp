@@ -12,7 +12,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
-        requiredAddons[] = {"A3_Data_F"};
+        requiredAddons[] = {"A3_Data_F","A3_Characters_F","A3_Air_F","A3_Armor_F","A3_Boat_F","A3_Soft_F","A3_Air_F_Heli_Heli_Transport_04","A3_Characters_F_exp"};
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {};
         // List of weapons (CfgWeapons classes) contained in the addon.
@@ -23,5 +23,20 @@ class CfgPatches {
     };
 };
 
+// Configs imports
+class RscPicture;
+class RscText;
+class RscStandardDisplay;
+class RscVignette;
+class RscStructuredText;
+class RscProgress;
+class RscControlsGroup;
+class RscPictureKeepAspect;
+class RscActivePicture;
+
 #include "CfgEventHandlers.hpp"
-#include "RscDisplay.hpp"
+
+// Override base classes
+#include "RscDisplayLoading.hpp"
+#include "RscDisplayLoadMission.hpp"
+#include "RscDisplayNotFreeze.hpp"
