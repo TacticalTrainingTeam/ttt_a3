@@ -1,8 +1,29 @@
-# TTT Reparatur Fahrzeug
+## TTT Reparaturstation Fahrzeug
 
-Fügt einem Fahrzeug die Fähigkeit hinzu eine Reparaturstation aufzubauen - dieses ist `ACE_isRepairFacility`.
+Fügt bestimmten Fahrzeugen die Möglichekeit hinzu ein Objekt, wie z.B. einen Cargokran über eine ACE-Fremdinteraktion aufzubauen.
+Dies ist dann eine reparatur Einrichtung ("ACE_isRepairFacility").
+Jedes zugelassene Fahrzeug welches derzeit keine Einrichtung transportiert, kann diese dann aufnehmen indem an der Einrichtung die ACE-Fremdinteraktion zum aufladen verwendet wird.
 
-## Maintainer
+# Hinweis
+
+Jedes zugelassene Fahrzeug hat standardmäßig eine Einrichtung geladen. Sollte dies nicht gewünscht sein, muss auf dem Fahrzeug die Variable "ttt_repair_vehicle_hasWorkshop" auf false gesetzt werden.
+Am einfachsten passiert das in der init des Objekts mittels:
+```c++
+this setVariable ["ttt_repair_vehicle_hasWorkshop", false, true];
+```
+
+## Beispiel CBA-Einstellungen
+
+```c++
+force ttt_repair_vehicle_enable = true;
+force ttt_repair_vehicle_supportedvehicles ='["B_Truck_01_Repair_F","rsr_wisent_repair_flecktarn"]';
+force ttt_repair_vehicle_facitlityObject = "Land_RepairDepot_01_green_F";
+force ttt_repair_vehicle_buildTime = 4;
+force ttt_repair_vehicle_useAnimation = true;
+force ttt_repair_vehicle_buildAnimation = "Acts_carFixingWheel";
+```
+
+## Instandhalter
 
 - Andx
 - EinStein

@@ -1,21 +1,34 @@
-# EinStein Medizinischer Rucksack
+## TTT Medizinischer Rucksack
 
-Fügt einem Spieler mit dem korrektem Rucksack die Fähigkeit hinzu ein medizinisches Objekt aufzubauen - dieses ist `ACE_MedicFacility`.
+Fügt einem Spieler mit dem korrekten Rucksacktypen die Möglichekeit hinzu ein Objekt, wie z.B. eine Plane über eine ACE-Eigeninteraktion aufzubauen.
+Dies ist dann eine medizinische Einrichtung ("ace_medical_isMedicalFacility").
+Jeder Spieler dessen Rucksack einem zugelassenem Typen entspricht und derzeit keine Einrichtung transportiert, kann diese über eine ACE-Fremdinteraktion abbauen und woanders wieder aufbauen.
 
-## Default Einstellungen
+# Hinweis
+
+Jeder zugelassene Rucksack hat standardmäßig eine Einrichtung geladen. Sollte dies nicht gewünscht sein, muss auf dem Rucksack die Variable "ttt_medic_backpack_hasTent" auf false gesetzt werden.
+Am einfachsten passiert das in der Loadout.sqf des Spielers mittels:
+```c++
+(unitBackpack player) setVariable ["ttt_medic_backpack_hasTent", false];
+```
+
+## Beispiel CBA-Einstellungen
 
 ```c++
 force ttt_medic_backpack_enable = true;
-force ttt_medic_backpack_supportedBackpacks = "[""B_Kitbag_rgr""]";
-force ttt_medic_backpack_supportedItems = "[""Land_Camping_Light_F"", ""Land_FirstAidKit_01_open_F"", ""Land_Defibrillator_F""]";
-force ttt_medic_backpack_supportedObject = "Land_MedicalTent_01_floor_dark_F";
+force ttt_medic_backpack_supportedBackpacks = '["B_Kitbag_rgr"]';
+force ttt_medic_backpack_facitlityObject = "Land_MedicalTent_01_floor_dark_F";
+force ttt_medic_backpack_additionalItems = '["Land_Camping_Light_F","Land_FirstAidKit_01_open_F","Land_Defibrillator_F"]';
+force ttt_medic_backpack_buildTime = 4;
+force ttt_medic_backpack_useAnimation = true;
+force ttt_medic_backpack_buildAnimation = "Acts_carFixingWheel";
 ```
 
 ## Beispielbild
 
-![Eine volle VSS mit medic_Backpack in Action.](https://i.imgur.com/3xIppv9.jpeg)
+![Eine VSS mit ttt_medic_backpack in Aktion.](https://i.imgur.com/3xIppv9.jpeg)
 
-## Maintainer
+## Instandhalter
 
 - Andx
 - EinStein
