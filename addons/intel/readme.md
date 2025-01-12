@@ -5,15 +5,16 @@ Bietet die Möglichkeit über eine A3-Vanilla-AddAction Intel zu verbauen, welch
 ## Anleitung
 
 ```c++
-[_intel,"Action",_delete,["Titel","Text"]] call ttt_intel_fnc_addIntel;
+[intel, action, hide, [titel, text]] call ttt_intel_fnc_addIntel;
 ```
 
-0: Intelobject <OBJECT>
-1: Actiontitel der als Interaktion gezeigt wird <STRING> 
-2: Object nach Interaktion löschen (ausblenden) <BOOL>
-3: Intelinhalt <ARRAY> format [Titel <STRING>, Inhalt <STRING>] (Der String unterstüzt HTML-Syntax für z.B. Bilder)
+**intel:** OBJECT - Das interagierbare Objekt<br/>
+**action:** STRING - Actiontitel der als Interaktion gezeigt wird<br/>
+**hide:** BOOLEAN - Object nach Interaktion ausblenden<br/>
+**titel:** STRING - Intelüberschrift auf der Kartenansicht<br/>
+**text:** STRING - Intelinhalt der unter der Überschrift steht (Der Text unterstüzt HTML-Syntax für z.B. Bilder)
 
-### Beispiel:
+### Beispiel
 
 ```c++
 [intel_01, "Lagekarte des Gegners untersuchen", false, ["gefundene Karte", "<img image='pictures\Karte_v3.paa' width=370 height=370/>"]] call ttt_intel_fnc_addIntel;
