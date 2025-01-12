@@ -240,7 +240,7 @@ class CfgVehicles {
     class ttt_Sign_Small_Violet: ttt_Sign_Small_Blue {
         displayName = CSTRING(sign_small_violet_displayName);
         editorPreview = QPATHTOF(data\previews\ttt_Sign_Small_Violet_preview.jpg);
-        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_violett_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_violet_co.paa)};
     };
 
     class ttt_Sign_Small_White: ttt_Sign_Small_Blue {
@@ -348,7 +348,7 @@ class CfgVehicles {
     class ttt_Sign_Large_Violet: ttt_Sign_Large_Blue {
         displayName = CSTRING(sign_large_violet_displayName);
         editorPreview = QPATHTOF(data\previews\ttt_Sign_Large_Violet_preview.jpg);
-        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_violett_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOEF(main,data\ttt_logo_violet_co.paa)};
     };
 
     class ttt_Sign_Large_White: ttt_Sign_Large_Blue {
