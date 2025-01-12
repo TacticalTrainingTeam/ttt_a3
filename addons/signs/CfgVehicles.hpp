@@ -131,7 +131,7 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\previews\ttt_Flag_Violet_preview.jpg);
 
         class EventHandlers {
-            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_violett_co.paa)));
+            init = QUOTE((_this select 0) setFlagTexture QUOTE(QPATHTOEF(main,data\ttt_logo_violet_co.paa)));
         };
     };
 
