@@ -6,17 +6,17 @@ labels: 'enhancement'
 assignees: ''
 ---
 
-**Hat dein Vorschlag etwas mit einem Problem zu tun?**
+**Wie lautet dein Vorschlag? Hat er etwas mit einem Problem zu tun?**
 
-Eine klare und kurze Beschreibung was dein Verbesserungsvorschlag ist.
+Eine klare und kurze Beschreibung, was dein Verbesserungsvorschlag ist.
 
 **Lösungsvorschlag:**
 
 Eine klare und kurze Beschreibung was passieren sollte.
 
-**Alternativen die du in Betracht gezogen hast:**
+**Alternativen, die du in Betracht gezogen hast:**
 
-Eine klare und kurze Beschreibung welche Alternativen du in Betracht gezogen hast - und warum diese nicht ausreichend sind.
+Eine klare und kurze Beschreibung, welche Alternativen du in Betracht gezogen hast - und warum diese nicht ausreichend sind.
 
 **Zusätzliche Inforamtionen:**
 

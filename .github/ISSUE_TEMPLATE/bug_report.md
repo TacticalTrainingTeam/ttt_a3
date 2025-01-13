@@ -4,15 +4,14 @@ about: Erstelle einen Fehlerbericht um uns zu helfen
 title: ''
 labels: 'bug'
 assignees: ''
-
 ---
 
-**Mods (Komplett und mit den folgenden Information):**
+**Mods (vollständig und mit den folgenden Information):**
 
 - **Arma 3:** `x.xx` [z.B. 1.00 stable, rc,  dev]
 - **CBA:** `3.x.x` [z.B. 3.0.0 stable, commit hash]
 - **ACE3:** `3.x.x` [z.B. 3.0.0 stable, commit hash]
-- **TTT:** `3.x.x` [z.B. 3.0.0]
+- **TTT-Mod:** `3.x.x` [z.B. 3.0.0]
 
 **Beschreibung:**
 
@@ -26,7 +25,7 @@ Eine kurze und präzise Beschreibung was der Fehler ist.
 
 **Erwartetes Verhalten:**
 
-Eine kurze und präzise Beschreibung was du anstatt des Fehlers erwartet hast.
+Eine kurze und präzise Beschreibung, was du anstatt des Fehlers erwartet hast.
 
 **Wo ist das Problem aufgetreten?**
 
@@ -42,4 +41,4 @@ Alles was sonst noch nützliche Informationen sein könnten.
 
 **Screenshots:**
 
-Wenn hilfreich, verlinke Screenshots (z.B. auf [imgur](https://imgur.com)) des Problems. 
+Wenn hilfreich, verlinke Screenshots (z.B. auf [imgur](https://imgur.com)) des Problems.
