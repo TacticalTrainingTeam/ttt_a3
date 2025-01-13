@@ -12,7 +12,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
-        requiredAddons[] = {"cba_main", "CUP_Vehicles_LoadOrder", "ace_interaction"};
+        requiredAddons[] = {"cba_main", "CUP_Vehicles_LoadOrder", "ace_interaction", "ace_viewports"};
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {};
         // List of weapons (CfgWeapons classes) contained in the addon.
