@@ -138,7 +138,7 @@ class CfgVehicles {
         };
     };
 
-    // Tweaks to the GTK Boxer's handling (accel/braking) + HMG swap to M3M + countermeasures move to gunner
+    // Tweaks to the GTK Boxer's handling (accel/braking) + countermeasures move to gunner
     class Wheeled_APC_F: Car_F {
         class NewTurret;
         class Turrets {
