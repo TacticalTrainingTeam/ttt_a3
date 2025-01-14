@@ -1,12 +1,14 @@
 # Compat RHS Weapons
 
+Enthält Configfixes und einige Funktionen für Objekte in `CfgWeapons`.
+
 ## Visor öffnen / schließen
 
 Fügt ACE-Interaktionen hinzu um den Visor einiger Helme auf- und zuzuklappen.
 
 ## Staubschutzbrille aufsetzen / abnehmen
 
-Fügt ACE-Interaktionen hinzum, um eine Staubschutzbrille auf einem Helm zu befestigen / abzunehmen.
+Fügt ACE-Interaktionen hinzu um, um eine Staubschutzbrille auf einem Helm zu befestigen / abzunehmen.
 
 ## Referenzen
 
