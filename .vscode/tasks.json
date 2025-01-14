@@ -16,7 +16,8 @@
 			},
 			"args": [
 				"config_style_checker.py"
-			]
+			],
+			"problemMatcher": []
 		},
 		{
 			"label": "Validate Stringtables",
