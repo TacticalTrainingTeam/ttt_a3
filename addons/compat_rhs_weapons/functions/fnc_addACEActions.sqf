@@ -126,7 +126,7 @@ private _changeGoggles = [
 //visor change action
 private _changeVisor = [
     QGVAR(visorChange),
-    LSTRING(visorOnOff)//"Visor hoch-/runterklappen",
+    LSTRING(visorOnOff),//"Visor hoch-/runterklappen",
     "\a3\ui_f\data\gui\rsc\rscdisplayarsenal\headgear_ca.paa",
     {
         [_player] call FUNC(switchVisor);
