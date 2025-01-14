@@ -14,7 +14,7 @@ if (!hasInterface) exitWith {};
 //goggle change action
 private _changeGoggles = [
     QGVAR(goggleChange),
-    "Staubschutzbrille auf-/absetzen",
+    LSTRING(gogglesOnOff),//"Staubschutzbrille auf-/absetzen",
     "\a3\ui_f\data\gui\rsc\rscdisplayarsenal\headgear_ca.paa",
     {
         [_player] call FUNC(switchGoggles);
@@ -126,7 +126,7 @@ private _changeGoggles = [
 //visor change action
 private _changeVisor = [
     QGVAR(visorChange),
-    "Visor hoch-/runterklappen",
+    LSTRING(visorOnOff)//"Visor hoch-/runterklappen",
     "\a3\ui_f\data\gui\rsc\rscdisplayarsenal\headgear_ca.paa",
     {
         [_player] call FUNC(switchVisor);
