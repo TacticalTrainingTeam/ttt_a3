@@ -17,6 +17,7 @@ if (!local _player) exitWith {};
 
 private _currHeadgear = headgear _player;
 
+//Needs expanding for Russian Helmets
 switch (_currHeadgear) do {
     case "rhsusf_hgu56p_black":                     { _player addHeadgear "rhsusf_hgu56p_visor_black";};
     case "rhsusf_hgu56p_visor_black":               { _player addHeadgear "rhsusf_hgu56p_black";};

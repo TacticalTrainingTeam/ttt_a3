@@ -15,6 +15,7 @@ params ["_player"];
 
 if (!local _player) exitWith {};
 
+//expand for 3CB and maybe Russian Helmets
 private _currHeadgear = headgear _player;
 private _currGoggles = goggles _player;
 
