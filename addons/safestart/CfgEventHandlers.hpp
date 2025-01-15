@@ -17,7 +17,7 @@ class Extended_PostInit_EventHandlers {
 class Extended_Respawn_EventHandlers {
     class CAManBase {
         class ADDON {
-            respawn = QUOTE([ARR_2(QGVAR(enableSafety),player)] call CBA_fnc_localEvent;);
+            respawn = QUOTE([ARR_2(QQGVAR(enableSafety),player)] call CBA_fnc_localEvent;);
         };
     };
 };
