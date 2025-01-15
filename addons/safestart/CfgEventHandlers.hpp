@@ -13,3 +13,11 @@ class Extended_PostInit_EventHandlers {
         clientInit = QUOTE(call COMPILE_SCRIPT(XEH_postInitClient));
     };
 };
+
+class Extended_Respawn_EventHandlers {
+    class CAManBase {
+        class ADDON {
+            respawn = QUOTE([ARR_2(QGVAR(enableSafety),player)] call CBA_fnc_localEvent;);
+        };
+    };
+};
