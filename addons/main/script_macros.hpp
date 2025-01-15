@@ -2,7 +2,9 @@
 #include "\x\cba\addons\xeh\script_xeh.hpp"
 #include "\z\ace\addons\main\script_macros.hpp"
 
-// AFM macros
+// macros by AFM
+// for checking if a certain Mod is loaded
+// https://github.com/ArmaForces/Mods/blob/master/addons/main/script_macros.hpp
 #define IS_MOD_LOADED(modclass)     (isClass (configFile >> "CfgPatches" >> #modclass))
 
 // ACE3 reference macros
@@ -17,7 +19,7 @@
 #define ACELSTRING(module,string)   QUOTE(TRIPLES(STR,DOUBLES(ACE_PREFIX,module),string))
 #define ACECSTRING(module,string)   QUOTE(TRIPLES($STR,DOUBLES(ACE_PREFIX,module),string))
 
-// - UI macros ----------------------------------------------------------------
+// UI macros
 #define MIDX (SafeZoneX + (SafeZoneW / 2))
 #define MIDY (SafeZoneY + (SafeZoneH / 2))
 
