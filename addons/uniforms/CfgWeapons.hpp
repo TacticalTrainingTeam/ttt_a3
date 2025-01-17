@@ -163,7 +163,7 @@ class CfgWeapons {
         scope = 0;
         displayName = "Tactical Training Team";
         picture = QPATHTOF(data\ttt_uniform_icon_bw.paa);
-        model = "\A3\characters_f\Common\Suitpacks\suitpack_universal_F";
+        model = "\A3\characters_f\Common\Suitpacks\suitpack_universal_F.p3d";
         
         class ItemInfo: ItemInfo {
             uniformClass = "ttt_Base_BW";
