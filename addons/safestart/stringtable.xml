@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Safestart">
+        <Key ID="STR_ttt_Safestart_subcategory">
+            <English>Safestart</English>
+            <Polish>Bezpieczny start</Polish>
+            <German>Sicherer Start</German>
+        </Key>
+        <Key ID="STR_ttt_Safestart_StartLocked">
+            <English>Lock weapon</English>
+            <Polish>Zabezpiecz broń</Polish>
+            <German>Waffe sichern</German>
+        </Key>
+        <Key ID="STR_ttt_Safestart_StartLocked_Description">
+            <English>Locks your weapon safety on game start</English>
+            <Polish>Powoduje zabezpieczenie broni podczas startu rozgrywki</Polish>
+            <German>Sichert die Waffe beim Spielstart</German>
+        </Key>
+    </Package>
+</Project>
