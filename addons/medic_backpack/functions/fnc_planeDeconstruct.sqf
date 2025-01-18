@@ -16,10 +16,7 @@
 params ["_target", "_caller"];
 
 private _arrayItems = nearestObjects [(getPos _target), (parseSimpleArray GVAR(additionalItems)), 10];
-{
-	deleteVehicle _x;
-} forEach _arrayItems;
-
+deleteVehicle _arrayItems;
 deleteVehicle _target;
 
 hint LLSTRING(hintLoaded);
