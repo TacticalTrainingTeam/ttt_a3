@@ -21,7 +21,7 @@ if (!GVAR(enable)) exitWith {};
 
 _constructPlane = 
 [
-    QGVAR(constuct),
+    QGVAR(construct),
     LLSTRING(actionConstruct),
     "\a3\ui_f\data\IGUI\Cfg\simpleTasks\types\use_ca.paa",
     {[_this] call FUNC(progressbarConstruct)},

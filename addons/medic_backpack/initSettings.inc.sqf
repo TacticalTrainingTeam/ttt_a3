@@ -5,7 +5,7 @@
     [ELSTRING(main,TacticalTrainingTeam), LSTRING(SubCategory)],
     false,
     true,
-    {/* [] call FUNC(addActions); */}
+    {[] call FUNC(addActions);}
 ] call CBA_fnc_addSetting;
 
 [
@@ -15,7 +15,7 @@
     [ELSTRING(main,TacticalTrainingTeam), LSTRING(SubCategory)],
     "[]",
     true,
-    {/* [] call FUNC(addActions) */;},
+    {[] call FUNC(addActions);},
     true
 ] call CBA_fnc_addSetting;
 
@@ -26,7 +26,7 @@
     [ELSTRING(main,TacticalTrainingTeam), LSTRING(SubCategory)],
     "Land_MedicalTent_01_floor_dark_F",
     true,
-    {/* [] call FUNC(addActions); */},
+    {[] call FUNC(addActions);},
     true
 ] call CBA_fnc_addSetting;
 
