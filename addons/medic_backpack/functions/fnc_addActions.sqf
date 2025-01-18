@@ -14,8 +14,8 @@
 * Public: No
 */
 
-[player, 1, ["ACE_SelfActions", "ACE_Equipment", "ttt_medical_backpack_construct"]] call ace_interact_menu_fnc_removeActionFromObject;
-[GVAR(facitlityObject), 0, ["ACE_MainActions", "ttt_medical_backpack_deconstruct"]] call ace_interact_menu_fnc_removeActionFromClass;
+[player, 1, ["ACE_SelfActions", "ACE_Equipment", "ttt_medic_backpack_construct"]] call ace_interact_menu_fnc_removeActionFromObject;
+[GVAR(facitlityObject), 0, ["ACE_MainActions", "ttt_medic_backpack_deconstruct"]] call ace_interact_menu_fnc_removeActionFromClass;
 
 if (!GVAR(enable)) exitWith {};
 
