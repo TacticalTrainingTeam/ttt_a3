@@ -15,7 +15,7 @@ Du willst mitmachen? <http://www.tacticalteam.de/mitmachen>
     - CBA <https://steamcommunity.com/workshop/filedetails/?id=450814997>
     - ACE <https://steamcommunity.com/sharedfiles/filedetails/?id=463939057>
     - ACRE <https://steamcommunity.com/sharedfiles/filedetails/?id=751965892>
-    - Advanced Developer Tools <https://steamcommunity.com/sharedfiles/filedetails/?id=463939057>
+    - Advanced Developer Tools <https://steamcommunity.com/sharedfiles/filedetails/?id=2369477168>
     - 3DEN Attributes Fast Load <https://steamcommunity.com/sharedfiles/filedetails/?id=3023395342>
     - ZEN <https://steamcommunity.com/sharedfiles/filedetails/?id=1779063631>
 6. In der Kommandozeile `hemtt launch` um Arma 3 mit dem Basismods zu starten
