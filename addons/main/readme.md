@@ -20,6 +20,7 @@ Stellt anderen Mods folgende Basisfunktionen zu Verfügung.
 **clear:** BOOLEAN (Optional, default: true) - Vorherigen Inventarinhalt des Objektes leeren
 
 ### Beispiel
+
 ```c++
 [
     [fahrzeug_01, fahrzeug_03],
