@@ -17,9 +17,9 @@ class EditorData
 	class Camera
 	{
 		pos[]={5894.3604,20.79681,4827.7163};
-		dir[]={-0.50006098,-0.68773085,0.52628261};
-		up[]={-0.47372243,0.72596169,0.4985624};
-		aside[]={0.72493714,-1.8154969e-07,0.68881798};
+		dir[]={0.58669043,-0.60964715,-0.53305227};
+		up[]={0.45122468,0.79266709,-0.40996996};
+		aside[]={-0.67246759,-1.2433156e-07,-0.74013537};
 	};
 };
 binarizationWanted=0;
@@ -33,6 +33,7 @@ addons[]=
 	"A3_Ui_F",
 	"A3_Characters_F",
 	"ttt_uniforms",
+	"ace_goggles",
 	"A3_Modules_F_Curator_Curator",
 	"A3_Supplies_F_Heli_CargoNets",
 	"ttt_rsr_vanilla_compat_ace",
@@ -43,7 +44,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=11;
+		items=12;
 		class Item0
 		{
 			className="ttt_rsr_vanilla";
@@ -88,33 +89,40 @@ class AddonsMetaData
 		};
 		class Item6
 		{
+			className="ace_goggles";
+			name="ACE3 - Goggles";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item7
+		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item7
+		class Item8
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item8
+		class Item9
 		{
 			className="ttt_rsr_vanilla_compat_ace";
 			name="TTT - RsR Vanilla Compat ACE";
 			author="Tactical Training Team";
 			url="https://tacticalteam.de";
 		};
-		class Item9
+		class Item10
 		{
 			className="A3_Air_F_Heli";
 			name="Arma 3 Helicopters - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item10
+		class Item11
 		{
 			className="ttt_signs";
 			name="TTT - Signs";
@@ -134,7 +142,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -387,6 +395,20 @@ class Mission
 					{
 						name="zeus_03";
 						isPlayable=1;
+						class Inventory
+						{
+							class uniform
+							{
+								typeName="U_B_CombatUniform_mcam";
+								isBackpack=0;
+							};
+							class backpack
+							{
+								typeName="B_Kitbag_rgr";
+								isBackpack=1;
+							};
+							goggles="G_Combat";
+						};
 					};
 					id=8;
 					type="B_Survivor_F";
