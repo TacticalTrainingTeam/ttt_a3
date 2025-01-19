@@ -123,7 +123,7 @@ class CfgVehicles {
             };
             class MortarTurret: NewTurret {
                 primaryGunner = 1; // this breaks "stow gpmg" user action
-                gunnerOutOpticsModel = "\A3\weapons_f\reticle\Optics_Commander_02_F";
+                gunnerOutOpticsModel = "\A3\weapons_f\reticle\Optics_Commander_02_F.p3d";
             };
         };
         class UserActions {}; // clear all user actions (not a big deal)
