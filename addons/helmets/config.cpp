@@ -49,7 +49,9 @@ class CfgPatches {
             "ttt_Helmet_Item_us_desert_8",
             "ttt_Helmet_Item_us_desert_9",
             "ttt_Helmet_Item_us_desert_10",
-            "ttt_Helmet_Item_us_desert_11"
+            "ttt_Helmet_Item_us_desert_11",
+
+            "ttt_Helmet_item_Buzzard",
         };
         // List of weapons (CfgWeapons classes) contained in the addon.
         weapons[] = {

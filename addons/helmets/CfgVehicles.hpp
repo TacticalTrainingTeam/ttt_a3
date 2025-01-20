@@ -1,4 +1,104 @@
 class CfgVehicles {
+
+    class Headgear_H_CrewHelmetHeli_B;
+
+    //Piloten
+    class ttt_Helmet_item_Buzzard: Headgear_H_CrewHelmetHeli_B {
+        author = ECSTRING(main,TacticalTrainingTeam);
+        authors[] = {"Andx"};
+        displayName = CSTRING(buzzard_displayName);
+        scope = 2;
+        
+        class TransportItems {
+            class ttt_Helmet_Buzzard {
+                name = "ttt_Helmet_Buzzard";
+                count = 1;
+            };
+        };
+    };
+
+    class ttt_Helmet_item_hawk: ttt_Helmet_item_Buzzard {
+        displayName = CSTRING(hawk_displayName);
+        
+        class TransportItems {
+            class ttt_Helmet_Hawk {
+                name = "ttt_Helmet_Hawk";
+                count = 1;
+            };
+        };
+    };
+
+    class ttt_Helmet_item_Falcon: ttt_Helmet_item_Buzzard {
+        displayName = CSTRING(falcon_displayName);
+        
+        class TransportItems {
+            class ttt_Helmet_Falcon {
+                name = "ttt_Helmet_Falcon";
+                count = 1;
+            };
+        };
+    };
+
+    class ttt_Helmet_item_Eagle: ttt_Helmet_item_Buzzard {
+        displayName = CSTRING(eagle_displayName);
+        
+        class TransportItems {
+            class ttt_Helmet_Eagle {
+                name = "ttt_Helmet_Eagle";
+                count = 1;
+            };
+        };
+    };
+
+    //Crew
+    class Headgear_H_HelmetCrew_I;
+    class ttt_Helmet_item_crew_bronze: Headgear_H_HelmetCrew_I {
+        author = ECSTRING(main,TacticalTrainingTeam);
+        authors[] = {"Andx"};
+        displayname = CSTRING(bronze_vehiclecrew_displayName);
+        scope = 2;
+        
+        class TransportItems {
+            class ttt_Helmet_Bronze_Vehiclecrew {
+                name = "ttt_Helmet_Bronze_Vehiclecrew";
+                count = 1;
+            };
+        };
+    };
+
+    class ttt_Helmet_item_crew_grey: ttt_Helmet_item_crew_bronze {
+        displayname = CSTRING(grey_vehiclecrew_displayName);
+        
+        class TransportItems {
+            class ttt_Helmet_Grey_Vehiclecrew {
+                name = "ttt_Helmet_Grey_Vehiclecrew";
+                count = 1;
+            };
+        };
+    };
+
+    class ttt_Helmet_item_crew_silver: ttt_Helmet_item_crew_bronze {
+        displayname = CSTRING(silver_vehiclecrew_displayName);
+        
+        class TransportItems {
+            class ttt_Helmet_Silver_Vehiclecrew {
+                name = "ttt_Helmet_Silver_Vehiclecrew";
+                count = 1;
+            };
+        };
+    };
+
+    class ttt_Helmet_item_crew_yellow: ttt_Helmet_item_crew_bronze {
+        displayname = CSTRING(yellow_vehiclecrew_displayName);
+        
+        class TransportItems {
+            class ttt_Helmet_Yellow_Vehiclecrew {
+                name = "ttt_Helmet_Yellow_Vehiclecrew";
+                count = 1;
+            };
+        };
+    };
+
     class Headgear_H_HelmetB;
 
     //Fleck Tarn
