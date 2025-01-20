@@ -1,6 +1,7 @@
 class CfgVehicles {
     class Headgear_H_HelmetB;
 
+    //Fleck Tarn
     class ttt_Helmet_Item_bw_fleck_1: Headgear_H_HelmetB {
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Andx"};
@@ -16,8 +17,6 @@ class CfgVehicles {
     };
 
     class ttt_Helmet_Item_bw_fleck_2: ttt_Helmet_Item_bw_fleck_1 {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
         displayName = CSTRING(helmet_2_bw_flecktarn_displayName);
 
         class TransportItems {
@@ -28,9 +27,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_bw_fleck_3: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_bw_fleck_3: ttt_Helmet_Item_bw_fleck_1 {
         displayName = CSTRING(helmet_3_bw_flecktarn_displayName);
 
         class TransportItems {
@@ -41,9 +38,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_bw_fleck_4: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_bw_fleck_4: ttt_Helmet_Item_bw_fleck_1 {
         displayName = CSTRING(helmet_4_bw_flecktarn_displayName);
 
         class TransportItems {
@@ -54,9 +49,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_bw_fleck_5: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_bw_fleck_5: ttt_Helmet_Item_bw_fleck_1 {
         displayName = CSTRING(helmet_5_bw_flecktarn_displayName);
 
         class TransportItems {
@@ -67,9 +60,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_bw_fleck_6: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_bw_fleck_6: ttt_Helmet_Item_bw_fleck_1 {
         displayName = CSTRING(helmet_6_bw_flecktarn_displayName);
 
         class TransportItems {
@@ -80,9 +71,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_bw_fleck_7: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_bw_fleck_7: ttt_Helmet_Item_bw_fleck_1 {
         displayName = CSTRING(helmet_7_bw_flecktarn_displayName);
        
         class TransportItems {
@@ -93,9 +82,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_bw_fleck_8: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_bw_fleck_8: ttt_Helmet_Item_bw_fleck_1 {
         displayName = CSTRING(helmet_8_bw_flecktarn_displayName);
 
         class TransportItems {
@@ -106,9 +93,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_bw_fleck_9: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_bw_fleck_9: ttt_Helmet_Item_bw_fleck_1 {
         displayName = CSTRING(helmet_9_bw_flecktarn_displayName);
 
         class TransportItems {
@@ -119,9 +104,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_bw_fleck_10: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_bw_fleck_10: ttt_Helmet_Item_bw_fleck_1 {
         displayName = CSTRING(helmet_10_bw_flecktarn_displayName);
 
         class TransportItems {
@@ -132,7 +115,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_bw_fleck_11: Headgear_H_HelmetB {
+    class ttt_Helmet_Item_bw_fleck_11: ttt_Helmet_Item_bw_fleck_1 {
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Andx"};
         displayName = CSTRING(helmet_11_bw_flecktarn_displayName);
@@ -145,6 +128,7 @@ class CfgVehicles {
         };
     };
 
+    //Tropentarn
     class ttt_Helmet_Item_bw_tropen_1: Headgear_H_HelmetB {
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Andx"};
@@ -160,8 +144,6 @@ class CfgVehicles {
     };
 
     class ttt_Helmet_Item_bw_tropen_2: ttt_Helmet_Item_bw_tropen_1 {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
         displayName = CSTRING(helmet_2_bw_tropentarn_displayName);
 
         class TransportItems {
@@ -172,9 +154,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_bw_tropen_3: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_bw_tropen_3: ttt_Helmet_Item_bw_tropen_1 {
         displayName = CSTRING(helmet_3_bw_tropentarn_displayName);
 
         class TransportItems {
@@ -185,9 +165,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_bw_tropen_4: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_bw_tropen_4: ttt_Helmet_Item_bw_tropen_1 {
         displayName = CSTRING(helmet_4_bw_tropentarn_displayName);
 
         class TransportItems {
@@ -198,9 +176,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_bw_tropen_5: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_bw_tropen_5: ttt_Helmet_Item_bw_tropen_1 {
         displayName = CSTRING(helmet_5_bw_tropentarn_displayName);
 
         class TransportItems {
@@ -211,9 +187,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_bw_tropen_6: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_bw_tropen_6: ttt_Helmet_Item_bw_tropen_1 {
         displayName = CSTRING(helmet_6_bw_tropentarn_displayName);
 
         class TransportItems {
@@ -224,9 +198,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_bw_tropen_7: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_bw_tropen_7: ttt_Helmet_Item_bw_tropen_1 {
         displayName = CSTRING(helmet_7_bw_tropentarn_displayName);
         
         class TransportItems {
@@ -237,9 +209,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_bw_tropen_8: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_bw_tropen_8: ttt_Helmet_Item_bw_tropen_1 {
         displayName = CSTRING(helmet_8_bw_tropentarn_displayName);
 
         class TransportItems {
@@ -250,9 +220,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_bw_tropen_9: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_bw_tropen_9: ttt_Helmet_Item_bw_tropen_1 {
         displayName = CSTRING(helmet_9_bw_tropentarn_displayName);
 
         class TransportItems {
@@ -263,9 +231,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_bw_tropen_10: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_bw_tropen_10: ttt_Helmet_Item_bw_tropen_1 {
         displayName = CSTRING(helmet_10_bw_tropentarn_displayName);
 
         class TransportItems {
@@ -276,9 +242,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_bw_tropen_11: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_bw_tropen_11: ttt_Helmet_Item_bw_tropen_1 {
         displayName = CSTRING(helmet_11_bw_tropentarn_displayName);
 
         class TransportItems {
@@ -289,10 +253,11 @@ class CfgVehicles {
         };
     };
 
+    //US Desert
     class ttt_Helmet_Item_us_desert_1: Headgear_H_HelmetB {
+        displayName = CSTRING(helmet_1_us_desert_displayName);
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Andx"};
-        displayName = CSTRING(helmet_1_us_desert_displayName);
         scope = 2;
         
         class TransportItems {
@@ -304,8 +269,6 @@ class CfgVehicles {
     };
 
     class ttt_Helmet_Item_us_desert_2: ttt_Helmet_Item_us_desert_1 {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
         displayName = CSTRING(helmet_2_us_desert_displayName);
 
         class TransportItems {
@@ -316,9 +279,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_us_desert_3: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_us_desert_3: ttt_Helmet_Item_us_desert_1 {
         displayName = CSTRING(helmet_3_us_desert_displayName);
 
         class TransportItems {
@@ -329,9 +290,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_us_desert_4: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_us_desert_4: ttt_Helmet_Item_us_desert_1 {
         displayName = CSTRING(helmet_4_us_desert_displayName);
 
         class TransportItems {
@@ -342,7 +301,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_us_desert_5: Headgear_H_HelmetB {
+    class ttt_Helmet_Item_us_desert_5: ttt_Helmet_Item_us_desert_1 {
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Andx"};
         displayName = CSTRING(helmet_5_us_desert_displayName);
@@ -355,9 +314,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_us_desert_6: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_us_desert_6: ttt_Helmet_Item_us_desert_1 {
         displayName = CSTRING(helmet_6_us_desert_displayName);
 
         class TransportItems {
@@ -368,9 +325,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_us_desert_7: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_us_desert_7: ttt_Helmet_Item_us_desert_1 {
         displayName = CSTRING(helmet_7_us_desert_displayName);
         
         class TransportItems {
@@ -381,9 +336,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_us_desert_8: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_us_desert_8: ttt_Helmet_Item_us_desert_1 {
         displayName = CSTRING(helmet_8_us_desert_displayName);
 
         class TransportItems {
@@ -394,9 +347,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_us_desert_9: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_us_desert_9: ttt_Helmet_Item_us_desert_1 {
         displayName = CSTRING(helmet_9_us_desert_displayName);
 
         class TransportItems {
@@ -407,9 +358,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_us_desert_10: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_us_desert_10: ttt_Helmet_Item_us_desert_1 {
         displayName = CSTRING(helmet_10_us_desert_displayName);
 
         class TransportItems {
@@ -420,9 +369,7 @@ class CfgVehicles {
         };
     };
 
-    class ttt_Helmet_Item_us_desert_11: Headgear_H_HelmetB {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+    class ttt_Helmet_Item_us_desert_11: ttt_Helmet_Item_us_desert_1 {
         displayName = CSTRING(helmet_11_us_desert_displayName);
 
         class TransportItems {
