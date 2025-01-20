@@ -52,6 +52,14 @@ class CfgPatches {
             "ttt_Helmet_Item_us_desert_11",
 
             "ttt_Helmet_item_Buzzard",
+            "ttt_Helmet_item_Eagle",
+            "ttt_Helmet_item_Hawk",
+            "ttt_Helmet_item_Falcon",
+
+            "ttt_Helmet_item_crew_yellow",
+            "ttt_Helmet_item_crew_bronze",
+            "ttt_Helmet_item_crew_grey",
+            "ttt_Helmet_item_crew_silver",
         };
         // List of weapons (CfgWeapons classes) contained in the addon.
         weapons[] = {
@@ -59,10 +67,12 @@ class CfgPatches {
             "ttt_Helmet_Hawk",
             "ttt_Helmet_Falcon",
             "ttt_Helmet_Eagle",
+
             "ttt_Helmet_Bronze_Vehiclecrew",
             "ttt_Helmet_Grey_Vehiclecrew",
             "ttt_Helmet_Silver_Vehiclecrew",
             "ttt_Helmet_Yellow_Vehiclecrew",
+
             "ttt_Helmet_1_US_Desert",
             "ttt_Helmet_2_US_Desert",
             "ttt_Helmet_3_US_Desert",
