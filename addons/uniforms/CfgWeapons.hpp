@@ -20,11 +20,11 @@ class CfgWeapons {
     class ttt_Uniform_plain_US_Desert: TTT_Uniform_Base_US {
         author = "Tactical Training Team";
         scope = 2;
-        displayName = CSTRING(yellow_US_Desert_DisplayName);
+        displayName = "TTT Uniform (US Desert)";
         picture = QPATHTOF(data\pictures\ttt_uniform_base_us.paa);
         
         class ItemInfo: ItemInfo {
-            uniformClass = "ttt_Yellow_US_Desert";
+            uniformClass = "ttt_plain_US_Desert";
         };
     };
 
@@ -185,7 +185,7 @@ class CfgWeapons {
     class ttt_Uniform_Base_BW: U_B_CombatUniform_mcam {
         scope = 0;
         displayName = "Tactical Training Team";
-        picture = QPATHTOF(data\ttt_uniform_plain_bw_tropen.paa);
+        //picture = QPATHTOF(data\pictures\ttt_uniform_plain_bw_tropen.paa);
         model = "\A3\characters_f\Common\Suitpacks\suitpack_universal_F.p3d";
         
         class ItemInfo: ItemInfo {
@@ -353,7 +353,7 @@ class CfgWeapons {
     class ttt_Uniform_plain_BW_Flecktarn: ttt_Uniform_Base_BW {
         author = "Tactical Training Team";
         scope = 2;
-        displayName = "TTT Uniform BW Fleck (no color)";
+        displayName = "TTT Uniform (BW Flecktarn)";
         picture = QPATHTOF(data\pictures\ttt_uniform_plain_bw_flecktarn.paa);
             
         class ItemInfo: ItemInfo {

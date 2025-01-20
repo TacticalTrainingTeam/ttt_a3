@@ -30,16 +30,15 @@ class CfgVehicles {
 
     class ttt_plain_US_Desert: ttt_Base_US {
         author = "Tactical Training Team";
-        displayName = "TTT Uniform US (no color)";
+        displayName = "TTT Uniform (US Desert)";
         scope = 1;
         uniformClass = "ttt_Uniform_plain_US_Desert";
-        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_base_US_Desert.paa) };
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_base_US.paa) };
     };
 
     class ttt_Yellow_US_Desert: ttt_plain_US_Desert {
         author = "Tactical Training Team";
         displayName = CSTRING(yellow_US_Desert_DisplayName);
-        scope = 1;
         uniformClass = "ttt_Uniform_Yellow_US_Desert";
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_yellow_US_Desert.paa) };
     };
