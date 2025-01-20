@@ -10,9 +10,6 @@ class CfgWeapons {
         displayName = CSTRING(blue);
         picture = QPATHTOF(data\previews\berets_blau_icon_co.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\berets_blau_co.paa)};
-
-        class ItemInfo: ItemInfo {
-        };
     };
  
     class ttt_Beret_Brown: ttt_Beret_Blue {
