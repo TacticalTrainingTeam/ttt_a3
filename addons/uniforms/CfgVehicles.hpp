@@ -280,4 +280,30 @@ class CfgVehicles {
         uniformClass = "ttt_Uniform_Orange_BW_Tropentarn";
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_orange_bw_tropentarn.paa) };
     };
+
+    class Item_U_B_CombatUniform_mcam;
+    class ttt_uniform_item_plain_BW_Flecktarn: Item_U_B_CombatUniform_mcam {
+        author = ECSTRING(main,TacticalTrainingTeam);
+        authors[] = {"Andx"};
+        displayName = CSTRING(plain_BW_Flecktarn_DisplayName);
+        scope = 2;
+
+        class TransportItems {
+            class ttt_Uniform_plain_BW_Flecktarn {
+                name = "ttt_Uniform_plain_BW_Flecktarn";
+                count = 1;
+            };
+        };
+    };
+
+    class ttt_uniform_item_black_BW_Flecktarn: ttt_uniform_item_plain_BW_Flecktarn {
+        displayName = CSTRING(black_BW_Flecktarn_DisplayName);
+
+        class TransportItems {
+            class ttt_Uniform_black_BW_Flecktarn {
+                name = "ttt_Uniform_black_BW_Flecktarn";
+                count = 1;
+            };
+        };
+    };
 };
