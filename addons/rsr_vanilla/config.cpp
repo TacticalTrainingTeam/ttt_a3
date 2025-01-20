@@ -50,4 +50,3 @@ class CfgPatches {
 
 #include "CfgVehicles.hpp"
 #include "CfgDigVehicles.hpp"
-#include "CfgFunctions.hpp"
