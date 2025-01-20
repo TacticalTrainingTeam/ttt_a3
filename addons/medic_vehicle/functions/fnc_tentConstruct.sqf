@@ -16,7 +16,7 @@
 params ["_target", "_caller"];
 
 private _position = (_target getPos [-10, getDir _target]) findEmptyPosition [2, 10, "Tank"];
-_medicTent = GVAR(facitlityObject) createVehicle _position;
+_medicTent = GVAR(facitlityObject) createVehicleLocal _position;
 _medicTent setDir (getDir _target);
 
 _medicTent setVariable ["ace_medical_isMedicalFacility", true, true];
