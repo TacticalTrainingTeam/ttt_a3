@@ -84,6 +84,7 @@ class CfgPatches {
             "ttt_Helmet_9_US_Desert",
             "ttt_Helmet_10_US_Desert",
             "ttt_Helmet_11_US_Desert",
+            
             "ttt_Helmet_1_US_Flecktarn",
             "ttt_Helmet_2_US_Flecktarn",
             "ttt_Helmet_3_US_Flecktarn",
@@ -95,6 +96,7 @@ class CfgPatches {
             "ttt_Helmet_9_US_Flecktarn",
             "ttt_Helmet_10_US_Flecktarn",
             "ttt_Helmet_11_US_Flecktarn",
+
             "ttt_Helmet_1_US_Tropentarn",
             "ttt_Helmet_2_US_Tropentarn",
             "ttt_Helmet_3_US_Tropentarn",
