@@ -5,14 +5,14 @@ class CfgPatches {
         // Meta information for editor
         name = COMPONENT_NAME;
         author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Redd", "Stura", "Reimchen", "Andx", "Sethduda"}; //Last Guy made Advanced Towing, used in the Bergepanzer
+        authors[] = {"Redd", "Stura", "Reimchen", "Andx"}; //Last Guy made Advanced Towing, used in the Bergepanzer
         url = ECSTRING(main,URL);
         
         // Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
         requiredVersion = REQUIRED_VERSION;
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
-        requiredAddons[] = {"ttt_main", "ttt_rsr_core", "A3_Soft_F_Beta_MRAP_03", "A3_Armor_F_Beta_APC_Tracked_01", "A3_Soft_F_EPC_Truck_03"};
+        requiredAddons[] = {"ttt_main", "ttt_rsr_core", "A3_Soft_F_Beta_MRAP_03", "A3_Armor_F_Beta_APC_Tracked_01", "A3_Soft_F_EPC_Truck_03", "ace_repair", "ace_refuel", "ace_rearm"};
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {
             "rsr_fennek_transport_flecktarn",
