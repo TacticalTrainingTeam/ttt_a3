@@ -1,4 +1,4 @@
-# new feature template
+# Name des Features
 
 ## Inhalt des Features
 
