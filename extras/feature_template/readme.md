@@ -2,6 +2,8 @@
 
 ## Inhalt des Features
 
+Blank.
+
 ## Maintainer
 
 - Dein Name
