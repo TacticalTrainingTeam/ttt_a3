@@ -1,31 +1,24 @@
-class CfgVehicles
-{
+class CfgVehicles {
     class LandVehicle;
 
-    class Tank: LandVehicle
-    {
+    class Tank: LandVehicle {
         class NewTurret;
     };
 
-    class Tank_F: Tank
-    {
+    class Tank_F: Tank    {
         class Components;
         class EventHandlers;
-        class Turrets
-        {
-            class MainTurret: NewTurret
-            {
+        class Turrets {
+            class MainTurret: NewTurret {
                 class ViewOptics;
-                class Turrets
-                {
+                class Turrets {
                     class CommanderOptics;
                 };
             };
         };
     };
 
-    class Redd_Tank_Wiesel_1A2_TOW_base: Tank_F
-    {
+    class Redd_Tank_Wiesel_1A2_TOW_base: Tank_F {
         //maximumLoad = 10000;
         driverWeaponsInfoType = QEGVAR(402_rnt_main,RSC_Driver);
         disableSoundAttenuation = 0;
@@ -34,10 +27,8 @@ class CfgVehicles
         //enableGPS = 0;
 
 
-        class AcreIntercoms
-        {
-            class Intercom_1
-            {
+        class AcreIntercoms {
+            class Intercom_1 {
                 displayName = ECSTRING(402_common,BV);
                 shortName = ECSTRING(402_common,BVShort);
                 allowedPositions[] = {"crew"};
@@ -50,10 +41,8 @@ class CfgVehicles
         };
 
 
-        class TransportBackpacks
-        {
-            class _xx_milan_Bag
-            {
+        class TransportBackpacks {
+            class _xx_milan_Bag {
                 backpack = "Redd_Milan_Static_Barrel";
                 count = 5;
             };
@@ -67,10 +56,8 @@ class CfgVehicles
         acre_eventInfantryPhone = QEFUNC(402_common,noApiFunction);
         acre_infantryPhonePosition[] = {};
 
-        class AcreRacks
-        {
-            class Rack_1
-            {
+        class AcreRacks {
+            class Rack_1 {
                 displayName = ECSTRING(402_common,RackA);
                 shortName = ECSTRING(402_common,RackAShort);
                 componentName = "ACRE_SEM90";
@@ -82,8 +69,7 @@ class CfgVehicles
                 intercom[] = {"all"};
             };
 
-            class Rack_2
-            {
+            class Rack_2 {
                 displayName = ECSTRING(402_common,RackB);
                 shortName = ECSTRING(402_common,RackBShort);
                 componentName = "ACRE_SEM90";
@@ -96,15 +82,12 @@ class CfgVehicles
             };
         };
 
-        class EventHandlers: EventHandlers
-        {
+        class EventHandlers: EventHandlers {
             fired = QUOTE(_this call FUNC(handleTOWFired));
         };
 
-        class Components: Components
-        {
-            class VehicleSystemsDisplayManagerComponentLeft
-            {
+        class Components: Components {
+            class VehicleSystemsDisplayManagerComponentLeft {
                 componentType = "VehicleSystemsDisplayManager";
                 defaultDisplay = "EmptyDisplay";
                 left = 1;
@@ -113,8 +96,7 @@ class CfgVehicles
 
             };
 
-            class VehicleSystemsDisplayManagerComponentRight
-            {
+            class VehicleSystemsDisplayManagerComponentRight {
                 componentType = "VehicleSystemsDisplayManager";
                 defaultDisplay = "EmptyDisplay";
                 right = 1;
@@ -124,10 +106,8 @@ class CfgVehicles
             };
         };
 
-        class Turrets: Turrets
-        {
-            class MainTurret: MainTurret
-            {
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {
                 lockWhenDriverOut = 0;
                 stabilizedInAxes = 0;
                 turretInfoType = QEGVAR(402_rnt_main,RSC_Milan);
@@ -136,10 +116,8 @@ class CfgVehicles
                 gunnerCompartments= "Compartment3";
                 magazines[] = {"Redd_TOW_Mag"};
 
-                class Components
-                {
-                    class VehicleSystemsDisplayManagerComponentLeft
-                    {
+                class Components {
+                    class VehicleSystemsDisplayManagerComponentLeft {
                         componentType = "VehicleSystemsDisplayManager";
                         defaultDisplay = "EmptyDisplay";
                         left = 1;
@@ -148,8 +126,7 @@ class CfgVehicles
 
                     };
 
-                    class VehicleSystemsDisplayManagerComponentRight
-                    {
+                    class VehicleSystemsDisplayManagerComponentRight {
                         componentType = "VehicleSystemsDisplayManager";
                         defaultDisplay = "EmptyDisplay";
                         right = 1;
@@ -158,31 +135,24 @@ class CfgVehicles
                     };
                 };
 
-                class OpticsIn
-                {
-                    class Day1
-                    {
+                class OpticsIn {
+                    class Day1 {
                         visionMode[] = {"Normal"};
                     };
-                    class Day2
-                    {
+                    class Day2 {
                         visionMode[] = {"Normal"};
                     };
                 };
 
-                class Turrets: Turrets
-                {
-                    class CommanderOptic: CommanderOptics
-                    {
+                class Turrets: Turrets {
+                    class CommanderOptic: CommanderOptics {
                         stabilizedInAxes = 0;
                         disableSoundAttenuation = 0;
                         soundAttenuationTurret = "TankAttenuation";
                         gunnerCompartments= "Compartment2";
 
-                        class Components
-                        {
-                            class VehicleSystemsDisplayManagerComponentLeft
-                            {
+                        class Components {
+                            class VehicleSystemsDisplayManagerComponentLeft {
                                 componentType = "VehicleSystemsDisplayManager";
                                 defaultDisplay = "EmptyDisplay";
                                 left = 1;
@@ -191,8 +161,7 @@ class CfgVehicles
 
                             };
 
-                            class VehicleSystemsDisplayManagerComponentRight
-                            {
+                            class VehicleSystemsDisplayManagerComponentRight {
                                 componentType = "VehicleSystemsDisplayManager";
                                 defaultDisplay = "EmptyDisplay";
                                 right = 1;
@@ -205,8 +174,7 @@ class CfgVehicles
             };
         };
 
-        class Loader_MG3: NewTurret
-        {
+        class Loader_MG3: NewTurret {
             lockWhenDriverOut = 0;
             stabilizedInAxes = 0;
             turretInfoType = QEGVAR(402_common,RSC_MG3);
@@ -214,10 +182,8 @@ class CfgVehicles
             soundAttenuationTurret = "TankAttenuation";
             gunnerCompartments = "Compartment3";
 
-            class Components
-            {
-                class VehicleSystemsDisplayManagerComponentLeft
-                {
+            class Components {
+                class VehicleSystemsDisplayManagerComponentLeft {
                     componentType = "VehicleSystemsDisplayManager";
                     defaultDisplay = "EmptyDisplay";
                     left = 1;
@@ -226,8 +192,7 @@ class CfgVehicles
 
                 };
 
-                class VehicleSystemsDisplayManagerComponentRight
-                {
+                class VehicleSystemsDisplayManagerComponentRight {
                     componentType = "VehicleSystemsDisplayManager";
                     defaultDisplay = "EmptyDisplay";
                     right = 1;
@@ -238,17 +203,14 @@ class CfgVehicles
             };
         };
 
-        class Bino_Turret_Com: NewTurret
-        {
+        class Bino_Turret_Com: NewTurret {
             stabilizedInAxes = 0;
             disableSoundAttenuation = 0;
             soundAttenuationTurret = "TankAttenuation";
             gunnerCompartments = "Compartment3";
 
-            class Components
-            {
-                class VehicleSystemsDisplayManagerComponentLeft
-                {
+            class Components {
+                class VehicleSystemsDisplayManagerComponentLeft                {
                     componentType = "VehicleSystemsDisplayManager";
                     defaultDisplay = "EmptyDisplay";
                     left = 1;
@@ -257,8 +219,7 @@ class CfgVehicles
 
                 };
 
-                class VehicleSystemsDisplayManagerComponentRight
-                {
+                class VehicleSystemsDisplayManagerComponentRight {
                     componentType = "VehicleSystemsDisplayManager";
                     defaultDisplay = "EmptyDisplay";
                     right = 1;
@@ -269,17 +230,14 @@ class CfgVehicles
             };
         };
 
-        class Bino_Turret_Loader: NewTurret
-        {
+        class Bino_Turret_Loader: NewTurret {
             stabilizedInAxes = 0;
             disableSoundAttenuation = 0;
             soundAttenuationTurret = "TankAttenuation";
             gunnerCompartments = "Compartment3";
 
-            class Components
-            {
-                class VehicleSystemsDisplayManagerComponentLeft
-                {
+            class Components {
+                class VehicleSystemsDisplayManagerComponentLeft {
                     componentType = "VehicleSystemsDisplayManager";
                     defaultDisplay = "EmptyDisplay";
                     left = 1;
@@ -288,8 +246,7 @@ class CfgVehicles
 
                 };
 
-                class VehicleSystemsDisplayManagerComponentRight
-                {
+                class VehicleSystemsDisplayManagerComponentRight {
                     componentType = "VehicleSystemsDisplayManager";
                     defaultDisplay = "EmptyDisplay";
                     right = 1;

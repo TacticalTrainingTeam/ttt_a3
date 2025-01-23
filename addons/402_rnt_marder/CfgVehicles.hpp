@@ -1,34 +1,27 @@
 class CBA_Extended_EventHandlers_base;
 
-class CfgVehicles
-{
-    class LandVehicle;
+class CfgVehicles {
 
-    class Tank: LandVehicle
-    {
+    class LandVehicle;
+    class Tank: LandVehicle {
         class NewTurret;
     };
 
-    class Tank_F: Tank
-    {
+    class Tank_F: Tank {
         class Components;
         class EventHandlers;
         class ViewOptics;
-        class Turrets
-        {
-            class MainTurret: NewTurret
-            {
+        class Turrets {
+            class MainTurret: NewTurret {
                 class ViewOptics;
-                class Turrets
-                {
+                class Turrets {
                     class CommanderOptics;
                 };
             };
         };
     };
 
-    class Redd_Marder_1A5_base: Tank_F
-    {
+    class Redd_Marder_1A5_base: Tank_F {
         //maximumLoad = 10000;
         driverWeaponsInfoType = QEGVAR(402_rnt_main,RSC_Driver);
         disableSoundAttenuation = 0;
@@ -75,10 +68,8 @@ class CfgVehicles
         acre_eventInfantryPhone = QEFUNC(402_common,noApiFunction);
         acre_infantryPhonePosition[] = {-1.23, -3.37, -0.78};
 
-        class AcreRacks
-        {
-            class Rack_1
-            {
+        class AcreRacks {
+            class Rack_1 {
                 displayName = ECSTRING(402_common,RackA);
                 shortName = ECSTRING(402_common,RackAShort);
                 componentName = "ACRE_SEM90";
@@ -90,8 +81,7 @@ class CfgVehicles
                 intercom[] = {"all"};
             };
 
-            class Rack_2
-            {
+            class Rack_2 {
                 displayName = ECSTRING(402_common,RackB);
                 shortName = ECSTRING(402_common,RackBShort);
                 componentName = "ACRE_SEM90";
@@ -104,10 +94,8 @@ class CfgVehicles
             };
         };
 
-        class Turrets: Turrets
-        {
-            class MainTurret: MainTurret
-            {
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {
                 discreteDistanceInitIndex = 6; // Set initial gun zeoring to 800 m
                 lockWhenDriverOut = 0; // Don't lock turret when driver is turned out
                 stabilizedInAxes = 0;
@@ -130,28 +118,22 @@ class CfgVehicles
                 };
 
                 // Remove NVG
-                class ViewOptics: ViewOptics
-                {
+                class ViewOptics: ViewOptics {
                     //visionMode[] = {"Normal", "TI"};
                 };
 
                 // Remove NVG
-                class OpticsIn
-                {
-                    class Day1
-                    {
+                class OpticsIn {
+                    class Day1 {
                         //visionMode[] = {"Normal"};
                     };
-                    class Day2
-                    {
+                    class Day2 {
                         //visionMode[] = {"Normal"};
                     };
                 };
 
-                class Turrets: Turrets
-                {
-                    class CommanderOptics: CommanderOptics
-                    {
+                class Turrets: Turrets {
+                    class CommanderOptics: CommanderOptics {
                         stabilizedInAxes = 0;
                         turretInfoType = QEGVAR(402_rnt_main,RSC_Turret);
                         disableSoundAttenuation = 0;
@@ -162,8 +144,7 @@ class CfgVehicles
 
                     };
 
-                    class CargoTurret_Links: NewTurret
-                    {
+                    class CargoTurret_Links: NewTurret {
                         stabilizedInAxes = 0;
                         disableSoundAttenuation = 0;
                         soundAttenuationTurret = "TankAttenuation";
@@ -172,8 +153,7 @@ class CfgVehicles
                 };
             };
 
-            class Redd_Milan: NewTurret
-            {
+            class Redd_Milan: NewTurret {
                 magazines[] = {}; //Waffe ist direkt nach dem Aufbau leer, Patrone muss manuell geladen werden
                 stabilizedInAxes = 0;
                 turretInfoType = QEGVAR(402_rnt_main,RSC_Milan);
@@ -181,23 +161,19 @@ class CfgVehicles
                 soundAttenuationTurret = "TankAttenuation";
                 gunnerCompartments= "Compartment4";
 
-                class OpticsIn
-                {
-                    class Day1
-                    {
+                class OpticsIn {
+                    class Day1 {
                         visionMode[] = {"Normal"};
                     };
 
-                    class Day2
-                    {
+                    class Day2 {
                         visionMode[] = {"Normal"};
                     };
                 };
 
             };
 
-            class Luchs_Bino_Turret_Com: NewTurret
-            {
+            class Luchs_Bino_Turret_Com: NewTurret {
                 stabilizedInAxes = 0;
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
@@ -206,10 +182,8 @@ class CfgVehicles
             };
         };
 
-        class AnimationSources
-        {
-            class heck_luke_rotation
-            {
+        class AnimationSources  {
+            class heck_luke_rotation {
                 source = "user";
                 initPhase = 0;
                 animPeriod = 3;
@@ -217,59 +191,50 @@ class CfgVehicles
                 soundPosition = "HecklukePoint";
             };
 
-            class ReloadMagazine
-            {
+            class ReloadMagazine  {
                 source = "user"; //Hide-Animation auf User-Kontrolle umschreiben, um sie über Eventhandler kontrollieren zu können
                 initPhase = 1; //Damit die Patrone beim ersten Aufbau versteckt ist
                 AnimPeriod = 0;
             };
 
-            class Spiegel_Source
-            {
+            class Spiegel_Source {
                 source = "user";
                 initPhase = 1; // eingeklappt
                 animPeriod = 2;
             };
 
-            class Redd_Sandsacke_Links
-            {
+            class Redd_Sandsacke_Links {
                 source = "user";
                 initPhase = 0;
                 animPeriod = 0;
             };
 
-            class Redd_Sandsacke_Rechts
-            {
+            class Redd_Sandsacke_Rechts  {
                 source = "user";
                 initPhase = 0;
                 animPeriod = 0;
             };
 
-            class Redd_sandsackrolle_links
-            {
+            class Redd_sandsackrolle_links  {
                 source = "user";
                 initPhase = 0;
                 animPeriod = 0;
             };
 
-            class Redd_sandsackrolle_rechts
-            {
+            class Redd_sandsackrolle_rechts  {
                 source = "user";
                 initPhase = 0;
                 animPeriod = 0;
             };
         };
 
-        class EventHandlers: EventHandlers
-        {
+        class EventHandlers: EventHandlers {
             fired = QUOTE(_this call FUNC(handleFired); _this call redd_fnc_Marder_Fired); //Patrone an der Waffe verstecken und Magazin entfernen, gleichzeitig RnT Funktion weiterhin aufrufen
             class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers_base {};
         };
 
-        class UserActions
-        {
-            class heckluke_auf
-            {
+        class UserActions {
+            class heckluke_auf {
                 displayName = CSTRING(openRamp);
                 displayNameDefault = CSTRING(openRamp);
                 position = "HecklukePoint";
@@ -280,8 +245,7 @@ class CfgVehicles
                 statement = QUOTE(this call FUNC(openRamp));
             };
 
-            class heckluke_zu
-            {
+            class heckluke_zu {
                 displayName = CSTRING(closeRamp);
                 displayNameDefault = CSTRING(closeRamp);
                 position = "HecklukePoint";
@@ -292,8 +256,7 @@ class CfgVehicles
                 statement = QUOTE(this call FUNC(closeRamp));
             };
 
-            class Bino_in
-            {
+            class Bino_in {
                 displayName = "$STR_Hoeher_steigen";
                 displayNameDefault = "$STR_Hoeher_steigen";
                 position = "actionPoint";
@@ -305,8 +268,7 @@ class CfgVehicles
                 statement = "ACE_player action ['moveToTurret', this, [2]]; [this, [[0, 0], true]] remoteExecCall ['lockTurret']; this setVariable ['Redd_Marder_Bino_In', true, true];";
             };
 
-            class Bino_out
-            {
+            class Bino_out {
                 displayName = "$STR_Tiefer_steigen";
                 displayNameDefault = "$STR_Tiefer_steigen";
                 position = "actionPoint";
@@ -318,8 +280,7 @@ class CfgVehicles
                 statement = "ACE_player action ['moveToTurret', this, [0,0]]; [this, [[0, 0], false]] remoteExecCall ['lockTurret']; this setVariable ['Redd_Marder_Bino_In', false, true];";
             };
 
-            class GetOutHatchCommander
-            {
+            class GetOutHatchCommander {
                 displayName = CSTRING(getOutHatch);
                 displayNameDefault = "<img image='\A3\ui_f\data\igui\cfg\actions\getout_ca.paa' size='1.8' shadow=2 />";
                 position = "actionsPoint";
@@ -332,32 +293,27 @@ class CfgVehicles
                 statement = QUOTE([ARR_3(this,ACE_player,'commander')] call FUNC(getOutHatch));
             };
 
-            class GetOutHatchDriver: GetOutHatchCommander
-            {
+            class GetOutHatchDriver: GetOutHatchCommander {
                 condition = "(alive this) && (this turretUnit [-1] isEqualTo ACE_player) && (isTurnedOut ACE_player)";
                 statement = QUOTE([ARR_3(this,ACE_player,'driver')] call FUNC(getOutHatch));
             };
 
-            class GetOutHatchLeft: GetOutHatchCommander
-            {
+            class GetOutHatchLeft: GetOutHatchCommander {
                 condition = "(alive this) && (this turretUnit [0, 1] isEqualTo ACE_player) && (isTurnedOut ACE_player)";
                 statement = QUOTE([ARR_3(this,ACE_player,'left')] call FUNC(getOutHatch));
             };
 
-            class GetOutHatchRight: GetOutHatchCommander
-            {
+            class GetOutHatchRight: GetOutHatchCommander  {
                 condition = "(alive this) && (this turretUnit [0, 2] isEqualTo ACE_player) && (isTurnedOut ACE_player)";
                 statement = QUOTE([ARR_3(this,ACE_player,'right')] call FUNC(getOutHatch));
             };
 
-            class GetOutHatchMiddle: GetOutHatchCommander
-            {
+            class GetOutHatchMiddle: GetOutHatchCommander {
                 condition = "(alive this) && (this turretUnit [0, 3] isEqualTo ACE_player) && (isTurnedOut ACE_player)";
                 statement = QUOTE([ARR_3(this,ACE_player,'middle')] call FUNC(getOutHatch));
             };
 
-            class MovePassengerOneToHatchLeft
-            {
+            class MovePassengerOneToHatchLeft {
                 displayName = CSTRING(moveToHatch);
                 displayNameDefault = "<img image='\A3\ui_f\data\igui\cfg\actions\getingunner_ca.paa' size='1.8' shadow=2 />";
                 position = "actionsPoint";
@@ -370,14 +326,12 @@ class CfgVehicles
                 statement = "ACE_player action ['moveToTurret', this, [0, 1]]";
             };
 
-            class MovePassengerTwoToHatchLeft: MovePassengerOneToHatchLeft
-            {
+            class MovePassengerTwoToHatchLeft: MovePassengerOneToHatchLeft  {
                 condition = "(alive this) && (this getCargoIndex player isEqualTo 2) && (isNull (this turretunit [0, 1]))";
                 statement = "ACE_player action ['moveToTurret', this, [0, 1]]";
             };
 
-            class MovePassengerThreeToHatchRight: MovePassengerOneToHatchLeft
-            {
+            class MovePassengerThreeToHatchRight: MovePassengerOneToHatchLeft {
                 condition = "(alive this) && (this getCargoIndex ACE_player isEqualTo 3) && (isNull (this turretunit [0, 2]))";
                 statement = "ACE_player action ['moveToTurret', this, [0, 2]]";
             };
@@ -412,10 +366,8 @@ class CfgVehicles
             delete Sandsacke_ab_Rechts;
         };
 
-        class Attributes
-        {
-            class GVAR(RampAttribute)
-            {
+        class Attributes {
+            class GVAR(RampAttribute) {
                 displayName = CSTRING(openRamp);
                 tooltip = CSTRING(openRamp3DENTooltip);
                 property = QGVAR(RampAttribute);
