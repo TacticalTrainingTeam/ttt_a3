@@ -31,4 +31,4 @@ Im Code wird Tactical Training Team immer klein geschrieben, also 'ttt', im Inte
 ## Pull Request Merging
 
 - Jeder Pull Request muss das CI ohne Fehler durchlaufen.
-- Jeder Pull Request muss von einem Reviewer bestätigt werden bevor er gemergt wird. 
+- Jeder Pull Request muss von einem Reviewer bestätigt werden bevor er gemergt wird.
