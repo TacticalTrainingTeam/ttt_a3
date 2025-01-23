@@ -15,16 +15,16 @@
 */
 
 {
-    [_x, 0, ["ACE_MainActions", "medic_vehicle_constuct"]] call ace_interact_menu_fnc_removeActionFromClass;
+    [_x, 0, ["ACE_MainActions", "ttt_medic_vehicle_constuct"]] call ace_interact_menu_fnc_removeActionFromClass;
 } forEach (parseSimpleArray GVAR(supportedVehicles));
 
-[GVAR(facitlityObject), 0, ["ACE_MainActions", "medic_vehicle_deconstuct"]] call ace_interact_menu_fnc_removeActionFromClass;
+[GVAR(facitlityObject), 0, ["ACE_MainActions", "ttt_medic_vehicle_deconstuct"]] call ace_interact_menu_fnc_removeActionFromClass;
 
 if (!GVAR(enable)) exitWith {};
 
 _constructTent = 
 [
-    "medic_vehicle_constuct",
+    "ttt_medic_vehicle_constuct",
     LLSTRING(actionConstruct),
     "\a3\ui_f\data\IGUI\Cfg\simpleTasks\types\use_ca.paa",
     {[_this] call FUNC(progressbarConstruct)},
@@ -33,7 +33,7 @@ _constructTent =
 
 _deconstructTent =
 [
-    "medic_vehicle_deconstuct",
+    "ttt_medic_vehicle_deconstuct",
     LLSTRING(actionDeconstruct),
     "\a3\ui_f\data\IGUI\Cfg\simpleTasks\types\truck_ca.paa",
     {[_this] call FUNC(progressbarDeconstruct)},

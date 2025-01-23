@@ -1,0 +1,78 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "markdownlint",
+			"problemMatcher": [
+				"$markdownlint"
+			],
+			"label": "markdownlint: Lint all Markdown files in the workspace with markdownlint"
+		},
+		{
+			"label": "Validate Config",
+			"command": "${config:python.defaultInterpreterPath}",
+			"options": {
+				"cwd": "${workspaceFolder}/tools"
+			},
+			"args": [
+				"config_style_checker.py"
+			],
+			"problemMatcher": []
+		},
+		{
+			"label": "Validate Stringtables",
+			"command": "${config:python.defaultInterpreterPath}",
+			"options": {
+				"cwd": "${workspaceFolder}/tools"
+			},
+			"args": [
+				"stringtable_validator.py"
+			]
+		},
+		{
+			"label": "Check Strings",
+			"command": "${config:python.defaultInterpreterPath}",
+			"options": {
+				"cwd": "${workspaceFolder}/tools"
+			},
+			"args": [
+				"check_strings.py"
+			]
+		},
+		{
+			"label": "Check for Unused Strings",
+			"command": "${config:python.defaultInterpreterPath}",
+			"options": {
+				"cwd": "${workspaceFolder}/tools"
+			},
+			"args": [
+				"check_strings.py",
+				"-u"
+			],
+			"problemMatcher": []
+		},
+		{
+			"label": "HEMTT check",
+			"command": "hemtt.exe",
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"args": [
+				"check"
+			]
+		},
+		{
+			"label": "Test All",
+			"dependsOn": [
+				"Validate Config",
+				"Validate Stringtables",
+				"Check Strings",
+				"HEMTT check"
+			],
+			"group": {
+				"kind": "test",
+				"isDefault": true
+			}
+		}
+	]
+}

@@ -13,7 +13,7 @@
     "EDITBOX",
     [LSTRING(supportedBackpacks_displayName), LSTRING(allowedBackpacks_description)],
     [ELSTRING(main,TacticalTrainingTeam), LSTRING(subCategory)],
-    ["['B_Kitbag_rgr']"],
+    "[]",
     true,
     {[] call FUNC(addActions);},
     true

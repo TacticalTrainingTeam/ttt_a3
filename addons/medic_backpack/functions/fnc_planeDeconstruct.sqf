@@ -16,13 +16,10 @@
 params ["_target", "_caller"];
 
 private _arrayItems = nearestObjects [(getPos _target), (parseSimpleArray GVAR(additionalItems)), 10];
-{
-	deleteVehicle _x;
-} forEach _arrayItems;
-
+deleteVehicle _arrayItems;
 deleteVehicle _target;
 
 hint LLSTRING(hintLoaded);
 
 _caller switchMove "";
-(unitBackpack _caller) setVariable ["hasTent", true, true];
+(unitBackpack _caller) setVariable ["ttt_medic_backpack_hasTent", true, true];

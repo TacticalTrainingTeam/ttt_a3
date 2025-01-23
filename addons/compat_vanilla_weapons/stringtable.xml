@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Compat_Vanilla_Weapons">
+        <Key ID="STR_ttt_Compat_Vanilla_Weapons_burrisDescriptionShort">
+            <English>Burris XTR II&lt;br /&gt;magnification: 2x-4x&lt;br /&gt;NightVision</English>
+            <German>Burris XTR II&lt;br /&gt;Vergrößerung: 2x-4x&lt;br /&gt;Nachtsicht</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Vanilla_Weapons_kahlesDescriptionShort">
+            <English>KAHLES Helia&lt;br /&gt;Magnification: 4,2x-9,6x&lt;br /&gt;NightVision</English>
+            <German>KAHLES Helia&lt;br /&gt;Vergrößerung: 4,2x-9,6x&lt;br /&gt;Nachtsicht</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Vanilla_Weapons_mosDescriptionShort">
+            <English>Marksman Optical Sights&lt;br /&gt;Magnification: 2,5x-5x&lt;br /&gt;NightVision</English>
+            <German>Marksman Optical Sights&lt;br /&gt;Vergrößerung: 2,5x-5x&lt;br /&gt;Nachtsicht</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Vanilla_Weapons_nightforceDescriptionShort">
+            <English>Nightforce NXS&lt;br /&gt;Magnification: 5,6x-22,7x</English>
+            <German>Nightforce NXS&lt;br /&gt;Vergrößerung: 5,6x-22,7x</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Vanilla_Weapons_usOpticsDescriptionShort">
+            <English>US Optics MR 10&lt;br /&gt;Magnification:2,9x-8,8x&lt;br /&gt;NightVision</English>
+            <German>US Optics MR 10&lt;br /&gt;Vergrößerung:2,9x-8,8x&lt;br /&gt;Nachtsicht</German>
+        </Key>
+    </Package>
+</Project>

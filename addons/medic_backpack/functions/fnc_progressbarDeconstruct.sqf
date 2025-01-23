@@ -15,7 +15,7 @@
 
 (_this select 0) params ["_target", "_caller"];
 
-target setVariable ["inUse", true, true];
+_target setVariable ["ttt_medic_backpack_inUse", true, true];
 
 if (GVAR(useAnimation)) then {
 	_caller playMove GVAR(buildAnimation);
