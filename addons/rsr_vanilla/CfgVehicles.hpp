@@ -112,6 +112,15 @@ class CfgVehicles {
         };
         class TransportWeapons { };
         class TransportMagazines { };
+
+        transportRepair = 0;
+        transportAmmo = 0;
+        transportFuel = 0;
+        ace_rearm_defaultSupply = 1200;
+        ace_repair_canRepair = 1; // Make repair vehicle
+        ace_refuel_fuelCargo = 3000; // Maximum fuel cargo amount (in liters)
+        ace_repair_spareTracks = 4;
+        ace_cargo_space = 10; // To accomodate the tracks
     };
 
     class rsr_bergepanzer_tropentarn: rsr_bergepanzer_flecktarn {
@@ -278,6 +287,13 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_repair_flecktarn_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
+
+        transportRepair = 0;
+        ace_repair_canRepair = 1; // Make repair vehicle
+        ace_repair_spareWheels = 4;
+        ace_repair_spareTracks = 4;
+        ace_cargo_space = 14; // To accomodate the wheels and tracks
+
         class TransportItems {
             MACRO_ADDITEM(Toolkit,1);
         };
@@ -347,6 +363,10 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_ammo_flecktarn_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
+
+        transportAmmo = 0;
+        ace_rearm_defaultSupply = 1200;
+
         class TransportItems {
             MACRO_ADDITEM(Toolkit,1);
         };
@@ -425,6 +445,10 @@ class CfgVehicles {
             QPATHTOF(data\wisent\wisent_flecktarn_ext02_co.paa),
             QPATHTOF(data\wisent\wisent_flecktarn_fuel_co.paa)
         };
+
+        transportFuel = 0;
+        ace_refuel_fuelCargo = 10000; // Maximum fuel cargo amount (in liters)
+
         class TextureSources {
             class wisent_flecktarn {
                 displayName = "Wisent (Flecktarn)";
@@ -487,6 +511,9 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\wisent\previews\wisent_flecktarn_medical_co_preview.jpg);
         faction = "rsr";
         editorSubcategory = "EdSubCat_Cars";
+
+        attendant = 1; //is ACE Medical Vehicle
+
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\wisent\wisent_flecktarn_ext01_co.paa),
             QPATHTOF(data\wisent\wisent_flecktarn_ext02_co.paa),
