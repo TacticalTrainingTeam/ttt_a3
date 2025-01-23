@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project name="ttt_a3">
-    <Package name="SmokeLauncher">
-        <Key ID="STR_402_SmokeLauncher_ammoCount">
-            <German>NbMWAnl: %1</German>
-        </Key>
-    </Package>
-</Project>

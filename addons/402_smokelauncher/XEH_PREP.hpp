@@ -1,2 +1,0 @@
-PREP(fireSmoke);
-PREP(turretChanged);
