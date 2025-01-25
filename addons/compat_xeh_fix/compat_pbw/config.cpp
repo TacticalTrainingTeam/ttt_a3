@@ -6,10 +6,12 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ttt_main"};
+        requiredAddons[] = {"PBW_German_Chests"};
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {""};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };
+
+#include "CfgVehicles.hpp"
