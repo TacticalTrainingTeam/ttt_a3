@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="402_Rnt_Wiesel_Tow">
-        <Key ID="STR_ttt_402_rnt_Wiesel_TOW_loadTOW">
+        <Key ID="STR_ttt_402_Rnt_Wiesel_Tow_loadTOW">
             <English>Load TOW</English>
             <German>TOW laden</German>
         </Key>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="TTT"> <!--ttt_402-->
-    <Package name="402_common">
+<Project name="ttt">
+    <Package name="402_Common">
         <Key ID="STR_ttt_402_common_author">
             <English>PzGrenBtl 402</English>
             <Czech>PzGrenBtl 402</Czech>

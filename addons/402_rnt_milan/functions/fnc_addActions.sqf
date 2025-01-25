@@ -22,7 +22,7 @@ private _loadIcon = QPATHTOF(data\ui\holdaction_load_milan);
 // Milan laden
 [
     _milan,
-    LELSTRING(Milan,load),
+    LELSTRING(402_common,load),
     _loadIcon,
     _loadIcon,
     QUOTE([ARR_2(_target,_this)] call FUNC(canLoad)),
@@ -43,7 +43,7 @@ private _unloadIcon = QPATHTOF(data\ui\holdaction_unload_milan);
 // Milan entladen
 [
     _milan,
-    LELSTRING(Milan,unload),
+    LELSTRING(402_common,unload),
     _unloadIcon,
     _unloadIcon,
     QUOTE([ARR_2(_target,_this)] call FUNC(canUnload)),

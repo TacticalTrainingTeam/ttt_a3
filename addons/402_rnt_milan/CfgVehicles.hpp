@@ -48,7 +48,7 @@ class CfgVehicles {
 
         class UserActions {
             class Disassemble {
-                displayName = ECSTRING(Milan,disassemble);
+                displayName = CSTRING(disassemble);
                 priority = 5;
                 position = "actionPoint";
                 radius = 5;

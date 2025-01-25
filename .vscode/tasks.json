@@ -37,7 +37,8 @@
 			},
 			"args": [
 				"check_strings.py"
-			]
+			],
+			"problemMatcher": []
 		},
 		{
 			"label": "Check for Unused Strings",
