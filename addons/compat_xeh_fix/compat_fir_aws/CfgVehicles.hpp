@@ -12,7 +12,7 @@ class CfgVehicles {
     class Motorcycle;
     class aces_ejection_seat: Motorcycle { XEH_ENABLED; }; // "ACES Ejection Seat" @FIR_AWS_AirWeaponSystem
     class SJU7_Ejection_Seat: Motorcycle { XEH_ENABLED; }; // "ACES Ejection Seat" @FIR_AWS_AirWeaponSystem
-    class  Radar_System_01_base_F;
+    class Radar_System_01_base_F;
     class FIR_Aegis_Radar_Base: Radar_System_01_base_F { XEH_ENABLED; }; // "Aegis Radar" @FIR_AWS_AirWeaponSystem
 };
 
