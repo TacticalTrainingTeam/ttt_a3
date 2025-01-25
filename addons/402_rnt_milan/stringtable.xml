@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="ttt_a3">
+<Project name="ttt">
     <Package name="402_rnt_milan">
-        <Key ID="STR_ttt_402_milan_assemble">
+        <Key ID="STR_ttt_402_rnt_milan_assemble">
+            <English>Assemble Milan</English>
             <German>Milan abbauen</German>
         </Key>
-        <Key ID="STR_ttt_402_milan_disassemble">
+        <Key ID="STR_ttt_402_rnt_milan_disassemble">
+            <English>Disassemble Milan</English>
             <German>Milan aufbauen</German>
         </Key>
     </Package>

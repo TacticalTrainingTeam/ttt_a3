@@ -10,7 +10,7 @@ class CfgPatches {
             "ttt_402_common",
             "ace_tacticalladder"
         };
-        author = ECSTRING(Main,authors);
+        author = ECSTRING(402_common,author);
         authors[] = {"Mishkar", "Timi007"};
         url = ECSTRING(Main,URL);
         VERSION_CONFIG;

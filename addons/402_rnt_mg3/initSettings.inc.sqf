@@ -9,7 +9,6 @@
     QGVAR(lafetteMountTime),
     "SLIDER",
     [LLSTRING(settingsLafetteMountTime), LLSTRING(settingsLafetteMountTime_tooltip)],
-    //[LELSTRING(main,category), LLSTRING(subCategory)],
     [LELSTRING(main,TacticalTrainingTeam), "RnT Compat"],
     [MIN_DURATION, MAX_DURATION, MG_MOUNT_TIME, TRAILING_DECIMALS],
     IS_SERVER_SETTINGS
@@ -19,7 +18,6 @@
     QGVAR(lafetteDisassembleTime),
     "SLIDER",
     [LLSTRING(settingsLafetteDisassembleTime), LLSTRING(settingsLafetteDisassembleTime_tooltip)],
-    //[LELSTRING(main,category), LLSTRING(subCategory)],
     [LELSTRING(main,TacticalTrainingTeam), "RnT Compat"],
     [MIN_DURATION, MAX_DURATION, DISASSEMBLE_TIME, TRAILING_DECIMALS],
     IS_SERVER_SETTINGS

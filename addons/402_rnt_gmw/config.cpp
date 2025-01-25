@@ -7,7 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"ttt_402_common", "ttt_402_RnT_Main", "rnt_gmw_static"};
-        author = ECSTRING(402_common,authors);
+        author = ECSTRING(402_common,author);
         authors[] = {"Timi007"};
         url = ECSTRING(402_common,URL);
         VERSION_CONFIG;

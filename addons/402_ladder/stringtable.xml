@@ -2,19 +2,19 @@
 <Project name="ttt_a3">
     <Package name="402_Ladder">
         <Key ID="STR_ttt_402_Ladder_adjustLadder">
-            <Original>Adjust ladder</Original>
+            <English>Adjust ladder</English>
             <German>Leiter anpassen</German>
         </Key>
         <Key ID="STR_ttt_402_Ladder_adjustTiltLadder">
-            <Original>Tilt ladder</Original>
+            <English>Tilt ladder</English>
             <German>Leiter kippen</German>
         </Key>
         <Key ID="STR_ttt_402_Ladder_attachLadder">
-            <Original>Set up ladder</Original>
+            <English>Set up ladder</English>
             <German>Leiter aufstellen</German>
         </Key>
         <Key ID="STR_ttt_402_Ladder_deployLadder">
-            <Original>Deploy ladder</Original>
+            <English>Deploy ladder</English>
             <German>Leiter fixieren</German>
         </Key>
     </Package>

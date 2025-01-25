@@ -13,9 +13,9 @@ class CfgPatches {
             "Redd_Bags",
             "ace_common"
         };
-        author = ECSTRING(Main,authors);
+        author = ECSTRING(402_common,author);
         authors[] = {"Lemonberries", "Mishkar", "Timi007"};
-        url = ECSTRING(Main,URL);
+        url = ECSTRING(402_common,URL);
         VERSION_CONFIG;
 
         // Optional. If this is 1, if any of requiredAddons[] entry is missing in your game the entire config will be ignored and return no error (but in rpt) so useful to make a compat Mod (Since Arma 3 2.14)

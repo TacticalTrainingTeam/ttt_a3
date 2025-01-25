@@ -16,7 +16,7 @@ class CfgPatches {
             "acre_sys_intercom",
             "acre_sys_rack"
         };
-        author = CSTRING(author);
+        author = ESTRING(402_common,author);
         authors[] = {"Timi007", "Mishkar"};
         url = CSTRING(URL);
         VERSION_CONFIG;
