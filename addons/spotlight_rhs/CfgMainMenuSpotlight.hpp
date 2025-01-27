@@ -2,7 +2,7 @@ class CfgMainMenuSpotlight { // RscDisplayMain >> Spotlight works but is conside
     class spotlight_rhs {
         text = QUOTE(Tactical Training Team - RHS Server); // Text displayed on the square button, converted to upper-case
         textIsQuote = 0; // 1 to add quotation marks around the text
-        picture = QPATHTOEF(main,data\button.paa); // Square picture, ideally 512x512
+        picture = QPATHTOEF(common,data\button.paa); // Square picture, ideally 512x512
         //video = "\a3\Ui_f\Video\spotlight_1_Apex.ogv"; // Video played on mouse hover
         action = QUOTE(_this call (uiNamespace getVariable QQFUNC(joinServer))); // Code called upon clicking, passed arguments are [<button:Control>]
         actionText = CSTRING(joinHover); // Text displayed in top left corner of on-hover white frame
