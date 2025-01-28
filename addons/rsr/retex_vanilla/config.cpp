@@ -2,11 +2,8 @@
 
 class CfgPatches {
     class SUBADDON    {
-        // Meta information for editor
-        name = COMPONENT_NAME;
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Redd", "Stura", "Reimchen", "Andx"}; //Last Guy made Advanced Towing, used in the Bergepanzer
-        url = ECSTRING(main,URL);
+        // Use meta information from specified addon. Used to avoid repeated declarations.
+        addonRootClass = QUOTE(ADDON);
         
         // Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
         requiredVersion = REQUIRED_VERSION;

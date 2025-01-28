@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
-    <Package name="Rsr_Bwa3">
-        <Key ID="STR_ttt_Rsr_Bwa3_Eagle_IV_Sanität_Diamant_Flecktarn">
+    <Package name="Retex_Bwa3">
+        <Key ID="STR_ttt_Retex_Bwa3_Eagle_IV_Sanität_Diamant_Flecktarn">
             <English>Eagle IV Medical Diamond (Flecktarn)</English>
             <German>Eagle IV Sanität Diamant (Flecktarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Bwa3_Eagle_IV_Sanität_Diamant_Tropentarn">
+        <Key ID="STR_ttt_Retex_Bwa3_Eagle_IV_Sanität_Diamant_Tropentarn">
             <English>Eagle IV Medical Diamond (Tropentarn)</English>
             <German>Eagle IV Sanität Diamant (Tropentarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Bwa3_Eagle_IV_Sanität_Flecktarn">
+        <Key ID="STR_ttt_Retex_Bwa3_Eagle_IV_Sanität_Flecktarn">
             <English>Eagle IV Medical (Flecktarn)</English>
             <German>Eagle IV Sanität (Flecktarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Bwa3_Eagle_IV_Sanität_Tropentarn">
+        <Key ID="STR_ttt_Retex_Bwa3_Eagle_IV_Sanität_Tropentarn">
             <English>Eagle IV Medical (Tropentarn)</English>
             <German>Eagle IV Sanität (Tropentarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Bwa3_Eagle_IV_Sanität_lowvis_Flecktarn">
+        <Key ID="STR_ttt_Retex_Bwa3_Eagle_IV_Sanität_lowvis_Flecktarn">
             <English>Eagle IV Medical lowvis (Flecktarn)</English>
             <German>Eagle IV Sanität lowvis (Flecktarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Bwa3_Eagle_IV_Sanität_lowvis_Tropentarn">
+        <Key ID="STR_ttt_Retex_Bwa3_Eagle_IV_Sanität_lowvis_Tropentarn">
             <English>Eagle IV Medical lowvis (Tropentarn)</English>
             <German>Eagle IV Sanität lowvis (Tropentarn)</German>
         </Key>

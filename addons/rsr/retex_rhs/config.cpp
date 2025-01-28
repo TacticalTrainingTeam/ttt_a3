@@ -2,23 +2,18 @@
 
 class CfgPatches {
     class SUBADDON {
-        // Meta information for editor
-        name = COMPONENT_NAME;
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Redd", "Stura", "Reimchen", "Tank", "Andx"};
-        url = ECSTRING(main,URL);
+        // Use meta information from specified addon. Used to avoid repeated declarations.
+        addonRootClass = QUOTE(ADDON);
 
         // Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
         requiredVersion = REQUIRED_VERSION;
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
-        requiredAddons[] = {"CUP_Vehicles_LoadOrder", "CUP_Creatures_People_LoadOrder", "CUP_Weapons_LoadOrder"};
+        requiredAddons[] = {"rhsusf_main_loadorder"};
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {
             "rsr_c_161",
-            "rsr_c_161_viv",
-            "rnt_bw_wintertarn_uniform_item",
-            "rnt_bw_wintertarn_helm_item"
+            "rsr_c_161_viv"
         };
         // List of weapons (CfgWeapons classes) contained in the addon.
         weapons[] = {};
@@ -29,4 +24,3 @@ class CfgPatches {
 };
 
 #include "CfgVehicles.hpp"
-#include "CfgWeapons.hpp"
