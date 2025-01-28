@@ -1,7 +1,7 @@
 #include "script_component.hpp"
 
 class CfgPatches {
-    class ADDON    {
+    class SUBADDON    {
         // Meta information for editor
         name = COMPONENT_NAME;
         author = ECSTRING(main,TacticalTrainingTeam);
@@ -12,7 +12,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
-        requiredAddons[] = {"ttt_main", "ttt_rsr_core", "A3_Soft_F_Beta_MRAP_03", "A3_Armor_F_Beta_APC_Tracked_01", "A3_Soft_F_EPC_Truck_03", "ace_repair", "ace_refuel", "ace_rearm"};
+        requiredAddons[] = {"A3_Soft_F_Beta_MRAP_03", "A3_Armor_F_Beta_APC_Tracked_01", "A3_Soft_F_EPC_Truck_03", "ace_repair", "ace_refuel", "ace_rearm"};
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {
             "rsr_fennek_transport_flecktarn",
