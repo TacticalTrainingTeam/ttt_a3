@@ -1,4 +1,4 @@
-#define COMPONENT rsr_core
+#define COMPONENT rsr
 #define COMPONENT_BEAUTIFIED RsR Core
 #include "\z\ttt\addons\main\script_mod.hpp"
 

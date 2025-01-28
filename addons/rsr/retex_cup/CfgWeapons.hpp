@@ -8,7 +8,7 @@ class CfgWeapons {
     };
 
     class rnt_bw_wintertarn_uniform_item: CUP_U_O_CHDKZ_Kam_01 {
-        author = ECSTRING(rsr_core,rnt);
+        author = ECSTRING(rsr,rnt);
         displayName = CSTRING(snowCamoDisplayName);
         //picture = QPATHTOF(data\uniform\rnt_winter_uniform_ui_pre_ca.paa);
         picture = QPATHTOF(data\uniform\pictures\rnt_winter_uniform.paa);
@@ -24,7 +24,7 @@ class CfgWeapons {
     
     class CUP_H_USMC_LWH_DES;
     class rnt_bw_wintertarn_helm_item: CUP_H_USMC_LWH_DES {
-        author = ECSTRING(rsr_core,rnt);
+        author = ECSTRING(rsr,rnt);
         displayName = CSTRING(snowHelmetDisplayName);
         picture = QPATHTOF(data\helmet\rnt_winter_helm_ui_pre_ca.paa);
         scope = 0; //Base Helmet is no longer in CUP => hide it
