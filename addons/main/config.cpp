@@ -36,8 +36,4 @@ class CfgMods {
 };
 
 #include "CfgSettings.hpp"
-#include "CfgEventHandlers.hpp"
-
-#include "Dialog.hpp"
 #include "CfgEditorSubCategories.hpp"
-#include "CfgFactionsClasses.hpp"
