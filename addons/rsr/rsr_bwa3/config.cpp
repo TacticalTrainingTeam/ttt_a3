@@ -1,24 +1,26 @@
 #include "script_component.hpp"
 
 class CfgPatches {
-    class ADDON {
+    class SUBADDON    {
         // Meta information for editor
         name = COMPONENT_NAME;
         author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Redd", "Stura", "Reimchen", "Tank", "Andx"};
+        authors[] = {"Redd", "Stura", "Reimchen", "Tank", "V1irus", "Addi", "Andx"};
         url = ECSTRING(main,URL);
 
         // Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
         requiredVersion = REQUIRED_VERSION;
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
-        requiredAddons[] = {"ttt_main", "ttt_rsr_core", "CUP_Vehicles_LoadOrder", "CUP_Creatures_People_LoadOrder", "CUP_Weapons_LoadOrder"};
+        requiredAddons[] = {"ttt_main", "ttt_rsr_core", "bwa3_common", "ace_common"};
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {
-            "rsr_c_161",
-            "rsr_c_161_viv",
-            "rnt_bw_wintertarn_uniform_item",
-            "rnt_bw_wintertarn_helm_item"
+            "rsr_eagle_fleck",
+            "rsr_eagle_fleck_lowvis",
+            "rsr_eagle_fleck_dia",
+            "rsr_eagle_tropen",
+            "rsr_eagle_tropen_lowvis",
+            "rsr_eagle_tropen_dia"
         };
         // List of weapons (CfgWeapons classes) contained in the addon.
         weapons[] = {};
@@ -29,4 +31,3 @@ class CfgPatches {
 };
 
 #include "CfgVehicles.hpp"
-#include "CfgWeapons.hpp"
