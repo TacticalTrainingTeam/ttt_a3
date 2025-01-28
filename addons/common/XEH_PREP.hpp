@@ -1,3 +1,3 @@
-PREP(callGlobalfFnc);
+PREP(callGlobalFnc);
 PREP(crateFiller);
 PREP(parseCsv);
