@@ -15,7 +15,7 @@ Stellt folgende Funktionen an andere Addons zur Verfügung:
         [item, count]
     ],
     clear
-] call ttt_main_fnc_crateFiller; 
+] call ttt_common_fnc_crateFiller; 
 ```
 
 **container:** OBJECT - Objekte denen der Cargoinhalt hinzugefügt werden soll  
@@ -34,7 +34,7 @@ Stellt folgende Funktionen an andere Addons zur Verfügung:
         ["30Rnd_556x45_Stanag", 50]
     ],
     false
-] call ttt_main_fnc_crateFiller;
+] call ttt_common_fnc_crateFiller;
 ```
 
 Dabei werden die bisherigen Gegenstände des Fahrzeugs nicht entfernt und bleiben im Inventar beider Fahrzeuge vorhanden.  
