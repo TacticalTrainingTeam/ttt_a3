@@ -3,7 +3,7 @@ class CfgVehicles {
 
     class rsr_fennek_transport_flecktarn: I_MRAP_03_F {
         author = ECSTRING(rsr,rsr);
-        displayName = CSTRING(fennek_flecktarn);
+        displayName = SUBCSTRING(fennek_flecktarn);
         typicalCargo[] = {"B_Soldier_F","B_Soldier_F"};
         side = 1;
         crew = "B_Soldier_F";
@@ -21,7 +21,7 @@ class CfgVehicles {
         class TransportMagazines { };
     };
     class rsr_fennek_transport_tropentarn: rsr_fennek_transport_flecktarn {
-        displayName = CSTRING(fennek_tropentarn);
+        displayName = SUBCSTRING(fennek_tropentarn);
         editorPreview = QPATHTOF(data\fennek\previews\rsr_fennek_transport_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\fennek\fennek_tropentarn_ext_co.paa),
@@ -33,7 +33,7 @@ class CfgVehicles {
 
     class rsr_fennek_hmg_flecktarn: I_MRAP_03_hmg_F {
         author = ECSTRING(rsr,rsr);
-        displayName = CSTRING(fennek_hmg_flecktarn);
+        displayName = SUBCSTRING(fennek_hmg_flecktarn);
         typicalCargo[] = {"B_Soldier_F", "B_Soldier_F", "B_Soldier_F"};
         side = 1;
         crew = "B_Soldier_F";
@@ -52,7 +52,7 @@ class CfgVehicles {
     };
     class rsr_fennek_hmg_tropentarn: rsr_fennek_hmg_flecktarn {
         author = ECSTRING(rsr,rsr);
-        displayName = CSTRING(fennek_hmg_tropentarn);
+        displayName = SUBCSTRING(fennek_hmg_tropentarn);
         editorPreview = QPATHTOF(data\fennek\previews\rsr_fennek_hmg_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\fennek\fennek_tropentarn_ext_co.paa),
@@ -64,7 +64,7 @@ class CfgVehicles {
 
     class rsr_fennek_gmg_flecktarn: I_MRAP_03_gmg_F {
         author = ECSTRING(rsr,rsr);
-        displayName = CSTRING(fennek_gmg_flecktarn);
+        displayName = SUBCSTRING(fennek_gmg_flecktarn);
         typicalCargo[] = {"B_Soldier_F", "B_Soldier_F", "B_Soldier_F"};
         side = 1;
         crew = "B_Soldier_F";
@@ -83,7 +83,7 @@ class CfgVehicles {
     };
     class rsr_fennek_gmg_tropentarn: rsr_fennek_gmg_flecktarn {
         author = ECSTRING(rsr,rsr);
-        displayName = CSTRING(fennek_gmg_tropentarn);
+        displayName = SUBCSTRING(fennek_gmg_tropentarn);
         editorPreview = QPATHTOF(data\fennek\previews\rsr_fennek_gmg_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\fennek\fennek_tropentarn_ext_co.paa),
@@ -94,7 +94,7 @@ class CfgVehicles {
     class B_APC_Tracked_01_CRV_F;
     class rsr_bergepanzer_flecktarn: B_APC_Tracked_01_CRV_F {
         author = ECSTRING(rsr,rsr);
-        displayName = CSTRING(bergepanzer_flecktarn);
+        displayName = SUBCSTRING(bergepanzer_flecktarn);
         typicalCargo[] = {"B_Soldier_F", "B_Soldier_F"};
         side = 1;
         crew = "B_Soldier_F";
@@ -124,7 +124,7 @@ class CfgVehicles {
     };
 
     class rsr_bergepanzer_tropentarn: rsr_bergepanzer_flecktarn {
-        displayName = CSTRING(bergepanzer_tropentarn);
+        displayName = SUBCSTRING(bergepanzer_tropentarn);
         editorPreview = QPATHTOF(data\bergepanzer\previews\rsr_bergepanzer_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\bergepanzer\bergepanzer_tropentarn_body_crv_co.paa),
@@ -138,7 +138,7 @@ class CfgVehicles {
 
     class rsr_wisent_transport_flecktarn: O_Truck_03_transport_F {
         author = ECSTRING(rsr,rsr);
-        displayName = CSTRING(wisent_offen_flecktarn);
+        displayName = SUBCSTRING(wisent_offen_flecktarn);
         side = 1;
         typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
@@ -184,7 +184,7 @@ class CfgVehicles {
     };
 
     class rsr_wisent_transport_tropentarn: rsr_wisent_transport_flecktarn {
-        displayName = CSTRING(wisent_offen_tropentarn);
+        displayName = SUBCSTRING(wisent_offen_tropentarn);
         editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_transport_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
@@ -208,7 +208,7 @@ class CfgVehicles {
 
     class rsr_wisent_covered_flecktarn: O_Truck_03_covered_F {
         author = ECSTRING(rsr,rsr);
-        displayName = CSTRING(wisent_plane_flecktarn);
+        displayName = SUBCSTRING(wisent_plane_flecktarn);
         side = 1;
         typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
@@ -254,7 +254,7 @@ class CfgVehicles {
     };
 
     class rsr_wisent_covered_tropentarn: rsr_wisent_covered_flecktarn {
-        displayName = CSTRING(wisent_plane_tropentarn);
+        displayName = SUBCSTRING(wisent_plane_tropentarn);
         editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_covered_tropentarn_preview.jpg);
         hiddenSelectionsTextures[]= {
             QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
@@ -280,7 +280,7 @@ class CfgVehicles {
 
     class rsr_wisent_repair_flecktarn: O_Truck_03_repair_F {
         author = ECSTRING(rsr,rsr);
-        displayName = CSTRING(wisent_reparatur_flecktarn);
+        displayName = SUBCSTRING(wisent_reparatur_flecktarn);
         side = 1;
         typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
@@ -332,7 +332,7 @@ class CfgVehicles {
 
     class rsr_wisent_repair_tropentarn: rsr_wisent_repair_flecktarn    {
         author = ECSTRING(rsr,rsr);
-        displayName = CSTRING(wisent_reparatur_tropentarn);
+        displayName = SUBCSTRING(wisent_reparatur_tropentarn);
         editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_repair_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
@@ -356,7 +356,7 @@ class CfgVehicles {
 
     class rsr_wisent_ammo_flecktarn: O_Truck_03_ammo_F {
         author = ECSTRING(rsr,rsr);
-        displayName = CSTRING(wisent_munition_flecktarn);
+        displayName = SUBCSTRING(wisent_munition_flecktarn);
         side = 1;
         typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
@@ -407,7 +407,7 @@ class CfgVehicles {
 
     class rsr_wisent_ammo_tropentarn: rsr_wisent_ammo_flecktarn {
         author = ECSTRING(rsr,rsr);
-        displayName = CSTRING(wisent_munition_tropentarn);
+        displayName = SUBCSTRING(wisent_munition_tropentarn);
         editorPreview = QPATHTOF(data\wisent\previews\rsr_wisent_ammo_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
@@ -433,7 +433,7 @@ class CfgVehicles {
 
     class rsr_wisent_fuel_flecktarn: O_Truck_03_fuel_F {
         author = ECSTRING(rsr,rsr);
-        displayName = CSTRING(wisent_treibstoff_flecktarn);
+        displayName = SUBCSTRING(wisent_treibstoff_flecktarn);
         side = 1;
         typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
@@ -480,7 +480,7 @@ class CfgVehicles {
         class TransportMagazines { };
     };
     class rsr_wisent_fuel_tropentarn: rsr_wisent_fuel_flecktarn {
-        displayName = CSTRING(wisent_treibstoff_tropentarn);
+        displayName = SUBCSTRING(wisent_treibstoff_tropentarn);
         editorPreview = QPATHTOF(data\wisent\previews\wisent_tropentarn_fuel_co_preview.jpg);
         hiddenSelectionsTextures[]= {
             QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),
@@ -504,7 +504,7 @@ class CfgVehicles {
 
     class rsr_wisent_medical_flecktarn: O_Truck_03_medical_F {
         author = ECSTRING(rsr,rsr);
-        displayName = CSTRING(wisent_sanitat_flecktarn);
+        displayName = SUBCSTRING(wisent_sanitat_flecktarn);
         side = 1;
         typicalCargo[] = {"B_Soldier_F"};
         crew = "B_Soldier_F";
@@ -552,7 +552,7 @@ class CfgVehicles {
         class TransportMagazines { };
     };
     class rsr_wisent_medical_tropentarn: rsr_wisent_medical_flecktarn {
-        displayName = CSTRING(wisent_sanitat_tropentarn);
+        displayName = SUBCSTRING(wisent_sanitat_tropentarn);
         editorPreview = QPATHTOF(data\wisent\previews\wisent_tropentarn_medical_co_preview.jpg);
         hiddenSelectionsTextures[]= {
             QPATHTOF(data\wisent\wisent_tropentarn_ext01_co.paa),

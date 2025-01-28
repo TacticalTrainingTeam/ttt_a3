@@ -3,7 +3,7 @@ class CfgVehicles {
     class RHS_C130J;
     class rsr_c_161: RHS_C130J {
         author = ECSTRING(rsr,RSR);
-        displayName = CSTRING(C161Transall2);
+        displayName = SUBCSTRING(C161Transall2);
         editorPreview = QPATHTOF(data\planes\previews\rsr_c_161_preview.jpg);
         editorSubcategory="EdSubcat_Planes";
         faction = "rsr";
@@ -16,7 +16,7 @@ class CfgVehicles {
     class RHS_C130J_Cargo;
     class rsr_c_161_viv: RHS_C130J_Cargo {
         author = ECSTRING(rsr,RSR);
-        displayName = CSTRING(C161Transall2VIV);
+        displayName = SUBCSTRING(C161Transall2VIV);
         editorPreview = QPATHTOF(data\planes\previews\rsr_c_161_preview.jpg);
         editorSubcategory="EdSubcat_Planes";
         faction = "rsr";
