@@ -1,4 +1,4 @@
-#define COMPONENT retex_bwa3
-#define COMPONENT_BEAUTIFIED BWA3
+#define SUBCOMPONENT retex_bwa3
+#define SUBCOMPONENT_BEAUTIFIED BWA3
 
 #include "..\script_component.hpp"

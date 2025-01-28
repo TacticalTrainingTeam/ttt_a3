@@ -1,4 +1,4 @@
-#define COMPONENT retex_cup
-#define COMPONENT_BEAUTIFIED CUP
+#define SUBCOMPONENT retex_cup
+#define SUBCOMPONENT_BEAUTIFIED CUP
 
 #include "..\script_component.hpp"
