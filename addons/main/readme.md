@@ -1,6 +1,6 @@
 # TTT Main
 
-Stellt anderen Mods folgende Basisfunktionen zu Verfügung.
+Enthält Macros für andere Addons.
 
 ## Maintainer
 
