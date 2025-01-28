@@ -26,7 +26,8 @@
  * None
  *
  * Example:
- * [Vehicle, true, true, [true,true], true, true, 25] call Framework_fnc_addVehicleShield;
+ * [Vehicle] call ttt_w_vehicleshield_fnc_addVehicleShield;
+ * [Vehicle, true, true, [true,true], true, true, 25] call ttt_w_vehicleshield_fnc_addVehicleShield;
  *
  * Public: No
  */
