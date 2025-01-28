@@ -1,1 +1,1 @@
-PREP(addaddVehicleShield);
+PREP(addVehicleShield);
