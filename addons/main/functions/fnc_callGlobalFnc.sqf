@@ -1,6 +1,6 @@
 #include "script_component.hpp"
 
 [
-    QEGVAR(main,call),
+    QGVAR(call),
     _this
 ] call CBA_fnc_globalEventJIP;
