@@ -1,83 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
-    <Package name="Rsr_Vanilla">
-        <Key ID="STR_ttt_Rsr_Vanilla_bergepanzer_flecktarn">
+    <Package name="Retex_Vanilla">
+        <Key ID="STR_ttt_Retex_Vanilla_bergepanzer_flecktarn">
             <English>Armored Recovery Vehicle (Flecktarn)</English>
             <German>Bergepanzer (Flecktarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Vanilla_bergepanzer_tropentarn">
+        <Key ID="STR_ttt_Retex_Vanilla_bergepanzer_tropentarn">
             <English>Armored Recovery Vehicle (Tropentarn)</English>
             <German>Bergepanzer (Tropentarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Vanilla_fennek_flecktarn">
+        <Key ID="STR_ttt_Retex_Vanilla_fennek_flecktarn">
             <English>Fennek (Flecktarn)</English>
             <German>Fennek (Flecktarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Vanilla_fennek_gmg_flecktarn">
+        <Key ID="STR_ttt_Retex_Vanilla_fennek_gmg_flecktarn">
             <English>Fennek GMG (Flecktarn)</English>
             <German>Fennek GMW (Flecktarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Vanilla_fennek_gmg_tropentarn">
+        <Key ID="STR_ttt_Retex_Vanilla_fennek_gmg_tropentarn">
             <English>Fennek GMG (Tropentarn)</English>
             <German>Fennek GMW (Tropentarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Vanilla_fennek_hmg_flecktarn">
+        <Key ID="STR_ttt_Retex_Vanilla_fennek_hmg_flecktarn">
             <English>Fennek HMG (Flecktern)</English>
             <German>Fennek HMG (Flecktarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Vanilla_fennek_hmg_tropentarn">
+        <Key ID="STR_ttt_Retex_Vanilla_fennek_hmg_tropentarn">
             <English>Fennek HMG (Tropentarn)</English>
             <German>Fennek HMG (Tropentarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Vanilla_fennek_tropentarn">
+        <Key ID="STR_ttt_Retex_Vanilla_fennek_tropentarn">
             <English>Fennek (Tropentarn)</English>
             <German>Fennek (Tropentarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Vanilla_wisent_munition_flecktarn">
+        <Key ID="STR_ttt_Retex_Vanilla_wisent_munition_flecktarn">
             <English>Wisent ammo (Flecktarn)</English>
             <German>Wisent Munition (Flecktarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Vanilla_wisent_munition_tropentarn">
+        <Key ID="STR_ttt_Retex_Vanilla_wisent_munition_tropentarn">
             <English>Wisent ammo (Tropentarn)</English>
             <German>Wisent Munition (Tropentarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Vanilla_wisent_offen_flecktarn">
+        <Key ID="STR_ttt_Retex_Vanilla_wisent_offen_flecktarn">
             <English>Wisent open (Flecktarn)</English>
             <German>Wisent offen (Flecktarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Vanilla_wisent_offen_tropentarn">
+        <Key ID="STR_ttt_Retex_Vanilla_wisent_offen_tropentarn">
             <English>Wisent open (Tropentarn)</English>
             <German>Wisent offen (Tropentarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Vanilla_wisent_plane_flecktarn">
+        <Key ID="STR_ttt_Retex_Vanilla_wisent_plane_flecktarn">
             <English>Wisent covered (Flecktarn)</English>
             <German>Wisent Plane (Flecktarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Vanilla_wisent_plane_tropentarn">
+        <Key ID="STR_ttt_Retex_Vanilla_wisent_plane_tropentarn">
             <English>Wisent covered (Tropentarn)</English>
             <German>Wisent Plane (Tropentarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Vanilla_wisent_reparatur_flecktarn">
+        <Key ID="STR_ttt_Retex_Vanilla_wisent_reparatur_flecktarn">
             <English>Wisent repair (Flecktarn)</English>
             <German>Wisent Reparatur (Flecktarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Vanilla_wisent_reparatur_tropentarn">
+        <Key ID="STR_ttt_Retex_Vanilla_wisent_reparatur_tropentarn">
             <English>Wisent repair (Tropentarn)</English>
             <German>Wisent Reparatur (Tropentarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Vanilla_wisent_sanitat_flecktarn">
+        <Key ID="STR_ttt_Retex_Vanilla_wisent_sanitat_flecktarn">
             <English>Wisent medical (Flecktarn)</English>
             <German>Wisent Sanität (Flecktarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Vanilla_wisent_sanitat_tropentarn">
+        <Key ID="STR_ttt_Retex_Vanilla_wisent_sanitat_tropentarn">
             <English>Wisent medical (Tropentarn)</English>
             <German>Wisent Sanität (Tropentarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Vanilla_wisent_treibstoff_flecktarn">
+        <Key ID="STR_ttt_Retex_Vanilla_wisent_treibstoff_flecktarn">
             <English>Wisent fuel (Flecktarn)</English>
             <German>Wisent Treibstoff (Flecktarn)</German>
         </Key>
-        <Key ID="STR_ttt_Rsr_Vanilla_wisent_treibstoff_tropentarn">
+        <Key ID="STR_ttt_Retex_Vanilla_wisent_treibstoff_tropentarn">
             <English>Wisent fuel (Tropentarn)</English>
             <German>Wisent Treibstoff (Tropentarn)</German>
         </Key>
