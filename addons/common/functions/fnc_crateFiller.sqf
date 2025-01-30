@@ -1,4 +1,5 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
+
 /*
  * Author: Reimchen, Andx
  * 
@@ -10,7 +11,7 @@
  * None
  *
  * Example:
- * [[fahrzeug_01], [["Toolkit", 1],["ACE_Entrenchingtool", 1], false] call ttt_main_fnc_crateFiller;
+ * [[fahrzeug_01], [["Toolkit", 1],["ACE_Entrenchingtool", 1], false] call ttt_common_fnc_crateFiller;
  *
  * Public: Yes
  */

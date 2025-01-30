@@ -11,7 +11,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
-        requiredAddons[] = {"A3_Weapons_F_Acc", "A3_Weapons_F_Mark_Acc", "ttt_main"};
+        requiredAddons[] = {"A3_Weapons_F_Acc", "A3_Weapons_F_Mark_Acc", "ttt_common"};
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {};
         // List of weapons (CfgWeapons classes) contained in the addon.

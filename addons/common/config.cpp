@@ -6,13 +6,14 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ttt_common"};
-        authors[] = {"BlauBär"};
-        author = "Gruppe W Bauleitung";
-        authorUrl = "https://www.gruppe-w.de/";
+        requiredAddons[] = {"ttt_main"};
+        author = ECSTRING(main,TacticalTrainingTeam);
+        authors[] = {""};
+        url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };
 
 #include "CfgEventHandlers.hpp"
+#include "CfgFactionsClasses.hpp"
 #include "Dialog.hpp"

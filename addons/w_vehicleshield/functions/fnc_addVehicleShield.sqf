@@ -64,6 +64,8 @@ _target addEventHandler [
         private _returnDamage = 0;
         _hitPointEHits = _unit getVariable [format["WVS_%1", _hitPoint], 0];
 
+        INFO_1("Vehicle Shield triggered on %1",_unit);
+
         if (
 
             ("hull" in _hitPoint) || {

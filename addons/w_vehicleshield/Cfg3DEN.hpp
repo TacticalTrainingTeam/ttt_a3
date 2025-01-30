@@ -12,7 +12,7 @@ class Cfg3DEN {
                         property = QGVAR(addVehicleShield);
                         control = "Checkbox";
 
-                        expression = QUOTE([ARR_2([ARR_6(_this,true,true,[ARR_2(true,true)],true,false)],FUNC(addVehicleShield))] call EFUNC(main,callGlobalFnc));
+                        expression = QUOTE([ARR_2([ARR_6(_this,true,true,[ARR_2(true,true)],true,false)],FUNC(addVehicleShield))] call EFUNC(common,callGlobalFnc));
                         defaultValue = 0;
 
                         unique = 0;

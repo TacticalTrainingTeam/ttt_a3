@@ -11,14 +11,14 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
-        requiredAddons[] = {"cba_main"};
+        requiredAddons[] = {"cba_main", "ace_main"};
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {};
         // List of weapons (CfgWeapons classes) contained in the addon.
         weapons[] = {};
 
         // Optional. If this is 1, if any of requiredAddons[] entry is missing in your game the entire config will be ignored and return no error (but in rpt) so useful to make a compat Mod (Since Arma 3 2.14)
-        skipWhenMissingDependencies = 1;
+        //skipWhenMissingDependencies = 1;
     };
 };
 
@@ -36,8 +36,4 @@ class CfgMods {
 };
 
 #include "CfgSettings.hpp"
-#include "CfgEventHandlers.hpp"
-
-#include "Dialog.hpp"
 #include "CfgEditorSubCategories.hpp"
-#include "CfgFactionsClasses.hpp"
