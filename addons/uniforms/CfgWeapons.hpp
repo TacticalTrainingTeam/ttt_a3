@@ -52,7 +52,7 @@ class CfgWeapons {
             uniformClass = "ttt_Gold_US_Desert";
         };
     };
-    class ttt_Uniform_Silver_US_Desert: TT_Uniform_Base_US {
+    class ttt_Uniform_Silver_US_Desert: ttt_Uniform_plain_US_Desert {
         scope = 2;
         displayName = CSTRING(silver_US_Desert_DisplayName);
         picture = QPATHTOF(data\pictures\ttt_uniform_silver_us.paa);
@@ -312,7 +312,7 @@ class CfgWeapons {
         };
     };
     
-    class ttt_Uniform_Grey_BW_Tropentarn: ttt_Uniform_Base {
+    class ttt_Uniform_Grey_BW_Tropentarn: ttt_Uniform_plain_BW_Flecktarn {
         displayName = CSTRING(grey_BW_Tropentarn_DisplayName);
         picture = QPATHTOF(data\pictures\ttt_uniform_grey_bw_tropen.paa);
         
@@ -321,7 +321,7 @@ class CfgWeapons {
         };
     };
 
-    class ttt_Uniform_Orange_BW_Tropentarn: ttt_Uniform_Base {
+    class ttt_Uniform_Orange_BW_Tropentarn: ttt_Uniform_plain_BW_Flecktarn {
         displayName = CSTRING(orange_BW_Tropentarn_DisplayName);
         picture = QPATHTOF(data\pictures\ttt_uniform_orange_bw_tropen.paa);
         
@@ -330,7 +330,7 @@ class CfgWeapons {
         };
     };       
     
-    class ttt_Uniform_Gold_BW_Tropentarn: ttt_Uniform_Base {
+    class ttt_Uniform_Gold_BW_Tropentarn: ttt_Uniform_plain_BW_Flecktarn {
         displayName = CSTRING(gold_BW_Tropentarn_DisplayName);
         picture = QPATHTOF(data\pictures\ttt_uniform_gold_bw_tropen.paa);
         
@@ -339,7 +339,7 @@ class CfgWeapons {
         };
     };
     
-    class ttt_Uniform_Green_BW_Tropentarn: ttt_Uniform_Base {
+    class ttt_Uniform_Green_BW_Tropentarn: ttt_Uniform_plain_BW_Flecktarn {
         displayName = CSTRING(green_BW_Tropentarn_DisplayName);
         picture = QPATHTOF(data\pictures\ttt_uniform_green_bw_tropen.paa);
         
@@ -348,7 +348,7 @@ class CfgWeapons {
         };
     };
 
-    class ttt_Uniform_Green_alt_BW_Tropentarn: ttt_Uniform_Base {
+    class ttt_Uniform_Green_alt_BW_Tropentarn: ttt_Uniform_plain_BW_Flecktarn {
         displayName = CSTRING(green_alt_BW_Tropentarn_DisplayName);
         picture = QPATHTOF(data\pictures\ttt_uniform_green_alt_bw_tropen.paa);
         
@@ -357,7 +357,7 @@ class CfgWeapons {
         };
     };
     
-    class ttt_Uniform_Brown_BW_Tropentarn: ttt_Uniform_Base {
+    class ttt_Uniform_Brown_BW_Tropentarn: ttt_Uniform_plain_BW_Flecktarn {
         displayName = CSTRING(brown_BW_Tropentarn_DisplayName);
         picture = QPATHTOF(data\pictures\ttt_uniform_brown_bw_tropen.paa);
         
@@ -366,7 +366,7 @@ class CfgWeapons {
         };
     };
     
-    class ttt_Uniform_Black_BW_Tropentarn: ttt_Uniform_Base {
+    class ttt_Uniform_Black_BW_Tropentarn: ttt_Uniform_plain_BW_Flecktarn {
         displayName = CSTRING(black_BW_Tropentarn_DisplayName);
         picture = QPATHTOF(data\pictures\ttt_uniform_black_bw_tropen.paa);
         
@@ -375,7 +375,7 @@ class CfgWeapons {
         };
     };
     
-    class ttt_Uniform_Red_BW_Tropentarn: ttt_Uniform_Base {
+    class ttt_Uniform_Red_BW_Tropentarn: ttt_Uniform_plain_BW_Flecktarn {
         displayName = CSTRING(red_BW_Tropentarn_DisplayName);
         picture = QPATHTOF(data\pictures\ttt_uniform_red_bw_tropen.paa);
         
@@ -384,7 +384,7 @@ class CfgWeapons {
         };
     };    
     
-    class ttt_Uniform_Bronze_BW_Tropentarn: ttt_Uniform_Base {
+    class ttt_Uniform_Bronze_BW_Tropentarn: ttt_Uniform_plain_BW_Flecktarn {
         displayName = CSTRING(bronze_BW_Tropentarn_DisplayName);
         picture = QPATHTOF(data\pictures\ttt_uniform_bronze_bw_tropen.paa);
         
@@ -393,7 +393,7 @@ class CfgWeapons {
         };
     };
     
-    class ttt_Uniform_Blue_BW_Tropentarn: ttt_Uniform_Base {
+    class ttt_Uniform_Blue_BW_Tropentarn: ttt_Uniform_plain_BW_Flecktarn {
         displayName = CSTRING(blue_BW_Tropentarn_DisplayName);
         picture = QPATHTOF(data\pictures\ttt_uniform_blue_bw_tropen.paa);
         
@@ -402,7 +402,7 @@ class CfgWeapons {
         };
     };
 
-    class ttt_Uniform_Violet_BW_Tropentarn: ttt_Uniform_Base {
+    class ttt_Uniform_Violet_BW_Tropentarn: ttt_Uniform_plain_BW_Flecktarn {
         displayName = CSTRING(violet_BW_Tropentarn_DisplayName);
         picture = QPATHTOF(data\pictures\ttt_uniform_violet_bw_tropen.paa);
         
@@ -411,7 +411,7 @@ class CfgWeapons {
         };
     };        
     
-    class ttt_Uniform_White_BW_Tropentarn: ttt_Uniform_Base {
+    class ttt_Uniform_White_BW_Tropentarn: ttt_Uniform_plain_BW_Flecktarn {
         displayName = CSTRING(white_BW_Tropentarn_DisplayName);
         picture = QPATHTOF(data\pictures\ttt_uniform_white_bw_tropen.paa);
         

@@ -209,114 +209,87 @@ class CfgVehicles {
     };
 
     //Tropentarn
-    class ttt_Yellow_BW_Tropentarn: ttt_Base {
+    class ttt_Yellow_BW_Tropentarn: ttt_plain_BW_Flecktarn {
         displayName = CSTRING(yellow_BW_Tropentarn_DisplayName);
-        scope = 2;
         uniformClass = "ttt_Uniform_Yellow_BW_Tropentarn";
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_yellow_bw_tropentarn.paa) };
     };
 
-    class ttt_Grey_BW_Tropentarn: ttt_Yellow_BW_Tropentarn {
+    class ttt_Grey_BW_Tropentarn: ttt_plain_BW_Flecktarn {
         displayName = CSTRING(grey_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_Grey_BW_Tropentarn";
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_grey_bw_tropentarn.paa) };
     };
 
-    class ttt_Gold_BW_Tropentarn: ttt_Yellow_BW_Tropentarn {
+    class ttt_Gold_BW_Tropentarn: ttt_plain_BW_Flecktarn {
         displayName = CSTRING(gold_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_Gold_BW_Tropentarn";
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_gold_bw_tropentarn.paa) };
     };
 
-    class ttt_Green_BW_Tropentarn: ttt_Yellow_BW_Tropentarn {
+    class ttt_Green_BW_Tropentarn: ttt_plain_BW_Flecktarn {
         displayName = CSTRING(green_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_Green_BW_Tropentarn";
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_green_bw_tropentarn.paa) };
     };
 
-    class ttt_Green_alt_BW_Tropentarn: ttt_Yellow_BW_Tropentarn {
+    class ttt_Green_alt_BW_Tropentarn: ttt_plain_BW_Flecktarn {
         displayName = CSTRING(green_alt_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_Green_alt_BW_Tropentarn";
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_green_bw_tropentarn_kampagne.paa) };
     };
 
-    class ttt_Brown_BW_Tropentarn: ttt_Yellow_BW_Tropentarn {
+    class ttt_Brown_BW_Tropentarn: ttt_plain_BW_Flecktarn {
         displayName = CSTRING(brown_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_Brown_BW_Tropentarn";
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_brown_bw_tropentarn.paa) };
     };
 
-    class ttt_Black_BW_Tropentarn: ttt_Yellow_BW_Tropentarn {
+    class ttt_Black_BW_Tropentarn: ttt_plain_BW_Flecktarn {
         displayName = CSTRING(black_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_Black_BW_Tropentarn";
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_black_bw_tropentarn.paa) };
     };
 
-    class ttt_Red_BW_Tropentarn: ttt_Yellow_BW_Tropentarn {
+    class ttt_Red_BW_Tropentarn: ttt_plain_BW_Flecktarn {
         displayName = CSTRING(red_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_Red_BW_Tropentarn";
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_red_bw_tropentarn.paa) };
     };
 
-    class ttt_Bronze_BW_Tropentarn: ttt_Yellow_BW_Tropentarn {
+    class ttt_Bronze_BW_Tropentarn: ttt_plain_BW_Flecktarn {
         displayName = CSTRING(bronze_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_Bronze_BW_Tropentarn";
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_bronze_bw_tropentarn.paa) };
     };
 
-    class ttt_Blue_BW_Tropentarn: ttt_Yellow_BW_Tropentarn {
+    class ttt_Blue_BW_Tropentarn: ttt_plain_BW_Flecktarn {
         displayName = CSTRING(blue_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_Blue_BW_Tropentarn";
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_blue_bw_tropentarn.paa) };
     };
 
-    class ttt_Violet_BW_Tropentarn: ttt_Yellow_BW_Tropentarn {
+    class ttt_Violet_BW_Tropentarn: ttt_plain_BW_Flecktarn {
         displayName = CSTRING(violet_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_Violet_BW_Tropentarn";
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_violet_bw_tropentarn.paa) };
     };
 
-    class ttt_White_BW_Tropentarn: ttt_Yellow_BW_Tropentarn {
+    class ttt_White_BW_Tropentarn: ttt_plain_BW_Flecktarn {
         displayName = CSTRING(white_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_White_BW_Tropentarn";
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_white_bw_tropentarn.paa) };
     };
 
-     class ttt_Silver_BW_Tropentarn: ttt_Yellow_BW_Tropentarn {
+     class ttt_Silver_BW_Tropentarn: ttt_plain_BW_Flecktarn {
         displayName = CSTRING(silver_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_silver_BW_Tropentarn";
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_silver_bw_tropentarn.paa) };
     };
 
-    class ttt_Orange_BW_Tropentarn: ttt_Yellow_BW_Tropentarn {
+    class ttt_Orange_BW_Tropentarn: ttt_plain_BW_Flecktarn {
         displayName = CSTRING(orange_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_Orange_BW_Tropentarn";
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_orange_bw_tropentarn.paa) };
-    };
-
-    class Item_U_B_CombatUniform_mcam;
-    class ttt_uniform_item_plain_BW_Flecktarn: Item_U_B_CombatUniform_mcam {
-        author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
-        displayName = CSTRING(plain_BW_Flecktarn_DisplayName);
-        scope = 2;
-
-        class TransportItems {
-            class ttt_Uniform_plain_BW_Flecktarn {
-                name = "ttt_Uniform_plain_BW_Flecktarn";
-                count = 1;
-            };
-        };
-    };
-
-    class ttt_uniform_item_black_BW_Flecktarn: ttt_uniform_item_plain_BW_Flecktarn {
-        displayName = CSTRING(black_BW_Flecktarn_DisplayName);
-
-        class TransportItems {
-            class ttt_Uniform_black_BW_Flecktarn {
-                name = "ttt_Uniform_black_BW_Flecktarn";
-                count = 1;
-            };
-        };
     };
 };
