@@ -49,16 +49,15 @@ class CfgWeapons {
             uniformClass = "ttt_Gold_US_Desert";
         };
     };
-
-/*     class ttt_Uniform_Silver_US_Desert: TT_Uniform_Base_US {
-        author = "Tactical Training Team";
+    class ttt_Uniform_Silver_US_Desert: TT_Uniform_Base_US {
         scope = 2;
-        displayName = "TTT Uniform Silber (US Desert)";
+        displayName = CSTRING(silver_US_Desert_DisplayName);
+        picture = QPATHTOF(data\pictures\ttt_uniform_silver_us.paa);
         
         class ItemInfo: ItemInfo {
             uniformClass = "ttt_silver_US_Desert";
         };
-    }; */
+    }; 
     
     class ttt_Uniform_Green_US_Desert: TT_Uniform_Base_US {
         author = "Tactical Training Team";
@@ -214,17 +213,17 @@ class CfgWeapons {
         class ItemInfo: ItemInfo {
             uniformClass = "ttt_Orange_BW_Tropentarn";
         };
-    };   
+    };  
 
-/*     class ttt_Uniform_silver_BW_Tropentarn: ttt_Uniform_Base_BW {
-        author = "Tactical Training Team";
+    class ttt_Uniform_silver_BW_Tropentarn: ttt_Uniform_Base_BW {
         scope = 2;
-        displayName = "TTT Uniform Silber (BW Tropentarn)";
+        displayName = CSTRING(silver_BW_Tropentarn_DisplayName);
+        picture = QPATHTOF(data\pictures\ttt_uniform_silver_bw.paa);
         
         class ItemInfo: ItemInfo {
             uniformClass = "ttt_silver_BW_Tropentarn";
         };
-    };   */   
+    };      
       
     
     class ttt_Uniform_Gold_BW_Tropentarn: ttt_Uniform_Base_BW {

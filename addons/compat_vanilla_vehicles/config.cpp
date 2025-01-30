@@ -13,7 +13,7 @@ class CfgPatches {
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
         requiredAddons[] = {
-            "ttt_main", 
+            "ttt_common", 
             "A3_Air_F_Heli_Heli_Transport_03",
             "A3_Air_F_Heli_Heli_Transport_02",
             "acre_main",

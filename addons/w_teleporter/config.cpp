@@ -6,7 +6,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ttt_main"};
+        requiredAddons[] = {"ttt_common"};
         authors[] = {"BlauBär"};
         author = "Gruppe W Bauleitung";
         authorUrl = "https://www.gruppe-w.de/";
