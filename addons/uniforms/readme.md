@@ -15,6 +15,7 @@ US Desert
 - `ttt_Uniform_Grey_US_Desert`
 - `ttt_Uniform_Gold_US_Desert`
 - `ttt_Uniform_Orange_US_Desert`
+- `ttt_Unifrom_Silver_US_Desert`
 - `ttt_Uniform_Platinum_US_Desert`
 
 BW Flecktarn
@@ -44,6 +45,7 @@ BW Tropentarn
 - `ttt_Uniform_White_BW_Flecktarn`
 - `ttt_Uniform_Grey_BW_Flecktarn`
 - `ttt_Uniform_Gold_BW_Flecktarn`
+- `ttt_Unifrom_Silver_BW_Flecktarn`
 - `ttt_Uniform_Orange_BW_Flecktarn`
 
 Piloten
