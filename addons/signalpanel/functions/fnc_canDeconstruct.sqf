@@ -17,11 +17,11 @@
 
 _return = false;
 if (
-	!(_target getVariable ["ttt_signalpanel_inUse", false]) && 
-	!((unitBackpack _caller) getVariable ["ttt_signalpanel_hasTarp", true]) && 
-	((parseSimpleArray GVAR(supportedBackpacks)) find (backpack _caller) != -1)
+    !(_target getVariable ["ttt_signalpanel_inUse", false]) && 
+    !((unitBackpack _caller) getVariable ["ttt_signalpanel_hasTarp", true]) && 
+    ((parseSimpleArray GVAR(supportedBackpacks)) find (backpack _caller) != -1)
 ) then {
-	_return = true;
+    _return = true;
 };
 
 _return;
