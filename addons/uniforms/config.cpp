@@ -27,7 +27,7 @@ class CfgPatches {
             "ttt_Uniform_Blue_US_Desert",
             "ttt_Uniform_Grey_US_Desert",
             "ttt_Uniform_Gold_US_Desert",
-            //"ttt_Uniform_Silver_US_Desert", //.paa fehlt
+            "ttt_Uniform_Silver_US_Desert",
             "ttt_Uniform_Orange_US_Desert",
             "ttt_Uniform_Platinum_US_Desert",
 
@@ -56,7 +56,7 @@ class CfgPatches {
             "ttt_Uniform_White_BW_Flecktarn",
             "ttt_Uniform_Grey_BW_Flecktarn",
             "ttt_Uniform_Gold_BW_Flecktarn",
-            //"ttt_Uniform_Silver_BW_Flecktarn", //.paa fehlt
+            "ttt_Uniform_Silver_BW_Flecktarn",
             "ttt_Uniform_Orange_BW_Flecktarn",
 
             "ttt_Uniform_Platinum_Pilot",

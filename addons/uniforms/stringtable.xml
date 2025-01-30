@@ -125,6 +125,14 @@
             <English>TTT Uniform Silver (BW Flecktarn)</English>
             <German>TTT Uniform Silber (BW Flecktarn)</German>
         </Key>
+        <Key ID="STR_ttt_Uniforms_silver_BW_Tropentarn_DisplayName">
+            <English>TTT Uniform Silver (BW Tropentarn)</English>
+            <German>TTT Uniform Silber (BW Tropentarn)</German>
+        </Key>
+        <Key ID="STR_ttt_Uniforms_silver_US_Desert_DisplayName">
+            <English>TTT Uniform Silver (US Desert)</English>
+            <German>TTT Uniform Silber (US Wüste)</German>
+        </Key>
         <Key ID="STR_ttt_Uniforms_violet_BW_Flecktarn_DisplayName">
             <English>TTT Uniform Violet (BW Flecktarn)</English>
             <German>TTT Uniform Violett (BW Flecktarn)</German>

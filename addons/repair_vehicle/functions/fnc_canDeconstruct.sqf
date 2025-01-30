@@ -19,12 +19,12 @@ _arrayVehicles = nearestObjects [(getPos _target), (parseSimpleArray GVAR(suppor
 
 private _return = false;
 {
-	if (
-		!(_x getVariable ["ttt_repair_vehicle_hasWorkshop", true]) &&
-		!(_target getVariable ["ttt_repair_vehicle_inUse", false])
-	) then {
-		_return = true;
-	};
+    if (
+        !(_x getVariable ["ttt_repair_vehicle_hasWorkshop", true]) &&
+        !(_target getVariable ["ttt_repair_vehicle_inUse", false])
+    ) then {
+        _return = true;
+    };
 } forEach _arrayVehicles;
 
 _return;
