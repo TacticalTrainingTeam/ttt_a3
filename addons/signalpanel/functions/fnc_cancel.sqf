@@ -18,5 +18,5 @@ params ["_target", "_caller"];
 hint LLSTRING(abort);
 _caller switchMove "";
 if (typeOf _target == "Tarp_01_Large_Red_F") then {
-	_target setVariable ["ttt_signalpanel_inUse", false, true];
+    _target setVariable ["ttt_signalpanel_inUse", false, true];
 };

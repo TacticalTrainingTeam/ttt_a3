@@ -8,10 +8,10 @@ Bietet die Möglichkeit über eine A3-Vanilla-AddAction Intel zu verbauen, welch
 [intel, action, hide, [titel, text]] call ttt_intel_fnc_addIntel;
 ```
 
-**intel:** OBJECT - Das interagierbare Objekt<br/>
-**action:** STRING - Actiontitel der als Interaktion gezeigt wird<br/>
-**hide:** BOOLEAN - Object nach Interaktion ausblenden<br/>
-**titel:** STRING - Intelüberschrift auf der Kartenansicht<br/>
+**intel:** OBJECT - Das interagierbare Objekt  
+**action:** STRING - Actiontitel der als Interaktion gezeigt wird  
+**hide:** BOOLEAN - Object nach Interaktion ausblenden  
+**titel:** STRING - Intelüberschrift auf der Kartenansicht  
 **text:** STRING - Intelinhalt der unter der Überschrift steht (Der Text unterstüzt HTML-Syntax für z.B. Bilder)
 
 ### Beispiel

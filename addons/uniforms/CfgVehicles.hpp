@@ -106,12 +106,11 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_white_US_Desert.paa) };
     };
 
-/*     class ttt_Silver_US_Desert: ttt_Yellow_US_Desert {
-        author = "Tactical Training Team";
-        displayName = "Klasse Silber Desert";
+    class ttt_Silver_US_Desert: ttt_Yellow_US_Desert {
+        displayName = CSTRING(silver_US_Desert_DisplayName);
         uniformClass = "ttt_Uniform_Silver_US_Desert";
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_silver_US_Desert.paa) };
-    }; */
+    };
 
     class ttt_Orange_US_Desert: ttt_Yellow_US_Desert {
         author = "Tactical Training Team";
@@ -331,12 +330,11 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_white_bw_tropentarn.paa) };
     };
 
-/*     class ttt_Silver_BW_Tropentarn: ttt_Yellow_BW_Tropentarn {
-        author = "Tactical Training Team";
-        displayName = "Klasse Silber Tropentarn";
+     class ttt_Silver_BW_Tropentarn: ttt_Yellow_BW_Tropentarn {
+        displayName = CSTRING(silver_BW_Tropentarn_DisplayName);
         uniformClass = "ttt_Uniform_silver_BW_Tropentarn";
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_silver_bw_tropentarn.paa) };
-    }; */
+    };
 
     class ttt_Orange_BW_Tropentarn: ttt_Yellow_BW_Tropentarn {
         author = "Tactical Training Team";

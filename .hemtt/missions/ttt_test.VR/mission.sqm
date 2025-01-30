@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5894.3604,20.79681,4827.7163};
-		dir[]={0.58669043,-0.60964715,-0.53305227};
-		up[]={0.45122468,0.79266709,-0.40996996};
-		aside[]={-0.67246759,-1.2433156e-07,-0.74013537};
+		pos[]={5832.4717,85.829765,4858.5972};
+		dir[]={0.58668458,-0.60964113,-0.53304684};
+		up[]={0.45121384,0.79267758,-0.40996155};
+		aside[]={-0.67246372,-1.4901161e-08,-0.74013019};
 	};
 };
 binarizationWanted=0;
@@ -36,7 +36,6 @@ addons[]=
 	"ace_goggles",
 	"A3_Modules_F_Curator_Curator",
 	"A3_Supplies_F_Heli_CargoNets",
-	"ttt_rsr_vanilla_compat_ace",
 	"A3_Air_F_Heli_Heli_Transport_03",
 	"ttt_signs"
 };
@@ -44,7 +43,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=12;
+		items=11;
 		class Item0
 		{
 			className="ttt_rsr_vanilla";
@@ -110,19 +109,12 @@ class AddonsMetaData
 		};
 		class Item9
 		{
-			className="ttt_rsr_vanilla_compat_ace";
-			name="TTT - RsR Vanilla Compat ACE";
-			author="Tactical Training Team";
-			url="https://tacticalteam.de";
-		};
-		class Item10
-		{
 			className="A3_Air_F_Heli";
 			name="Arma 3 Helicopters - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item11
+		class Item10
 		{
 			className="ttt_signs";
 			name="TTT - Signs";
@@ -142,7 +134,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Scenario";
 		class Attribute0
@@ -197,6 +189,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="[this] call ttt_w_vehicleShield_fnc_addVehicleShield;";
 				name="fhz_02";
 			};
 			id=0;
@@ -206,7 +199,7 @@ class Mission
 				class Attribute0
 				{
 					property="ttt_w_vehicleshield_addVehicleShield";
-					expression="[[_this, true, true, [true, true], true, false], ttt_w_vehicleshield_fnc_addVehicleShield] call ttt_main_fnc_callGlobalFnc";
+					expression="[[_this, true, true, [true, true], true, false], ttt_w_vehicleshield_fnc_addVehicleShield] call ttt_common_fnc_callGlobalFnc";
 					class Value
 					{
 						class data
@@ -727,13 +720,13 @@ class Mission
 				class Attribute0
 				{
 					property="ttt_w_vehicleshield_addVehicleShield";
-					expression="[[_this, true, true, [true, true], true, false], ttt_w_vehicleshield_fnc_addVehicleShield] call ttt_main_fnc_callGlobalFnc";
+					expression="[[_this, true, true, [true, true], true, false], ttt_w_vehicleshield_fnc_addVehicleShield] call ttt_common_fnc_callGlobalFnc";
 					class Value
 					{
 						class data
 						{
 							singleType="BOOL";
-							value=0;
+							value=1;
 						};
 					};
 				};
@@ -761,8 +754,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5919.8208,7.6292419,4828.2144};
-				angles[]={0,6.2229528,0};
+				position[]={5919.8208,7.6292419,4828.2139};
+				angles[]={0,6.2229543,0};
 			};
 			side="Empty";
 			flags=4;
@@ -771,6 +764,23 @@ class Mission
 			};
 			id=16;
 			type="rsr_bergepanzer_flecktarn";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ttt_w_vehicleshield_addVehicleShield";
+					expression="[[_this, true, true, [true, true], true, false], ttt_w_vehicleshield_fnc_addVehicleShield] call ttt_common_fnc_callGlobalFnc";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item13
 		{

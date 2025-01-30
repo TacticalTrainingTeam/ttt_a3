@@ -1,0 +1,23 @@
+# XEH Fix
+
+Behebt `18:07:28 [CBA] (xeh) WARNING: FIR_Aegis_Radar_Base does not support Extended Event Handlers! Addon: @FIR_AWS_AirWeaponSystem` Fehlermeldungen.
+
+Enthält SUBCOMPONENT für:
+
+- BWmod
+- RnT
+- PBW
+- FIR AWS
+- Vanilla
+- Breach
+
+## Referenzen
+
+Erstellt mit:
+<https://github.com/BourbonWarfare/POTATO/blob/master/addons/miscFixes/xehFix.sqf>
+Beispiel:
+<https://github.com/BourbonWarfare/POTATO/blob/master/addons/miscFixes/patchHAFM/config.cpp>
+
+## Maintainer
+
+- Andx

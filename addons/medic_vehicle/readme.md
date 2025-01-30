@@ -8,6 +8,7 @@ Jedes zugelassene Fahrzeug welches derzeit keine Einrichtung transportiert, kann
 
 Jedes zugelassene Fahrzeug hat standardmäßig eine Einrichtung geladen. Sollte dies nicht gewünscht sein, muss auf dem Fahrzeug die Variable "ttt_medic_vehicle_hasTent" auf false gesetzt werden.
 Am einfachsten passiert das in der init des Objekts mittels:
+
 ```c++
 this setVariable ["ttt_medic_vehicle_hasTent", false, true];
 ```
