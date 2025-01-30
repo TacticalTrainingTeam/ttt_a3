@@ -27,7 +27,8 @@
 			},
 			"args": [
 				"stringtable_validator.py"
-			]
+			],
+			"problemMatcher": []
 		},
 		{
 			"label": "Check Strings",

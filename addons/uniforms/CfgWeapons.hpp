@@ -52,8 +52,19 @@ class CfgWeapons {
             uniformClass = "ttt_Gold_US_Desert";
         };
     };
-
+    class ttt_Uniform_Silver_US_Desert: TT_Uniform_Base_US {
+        scope = 2;
+        displayName = CSTRING(silver_US_Desert_DisplayName);
+        picture = QPATHTOF(data\pictures\ttt_uniform_silver_us.paa);
+        
+        class ItemInfo: ItemInfo {
+            uniformClass = "ttt_silver_US_Desert";
+        };
+    }; 
+    
     class ttt_Uniform_Green_US_Desert: ttt_Uniform_plain_US_Desert {
+        author = "Tactical Training Team";
+        scope = 2;
         displayName = CSTRING(green_US_Desert_DisplayName);
         picture = QPATHTOF(data\pictures\ttt_uniform_green_us.paa);
         

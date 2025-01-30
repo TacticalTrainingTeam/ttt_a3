@@ -22,6 +22,7 @@ _plane setDir (getDir _target);
 _plane setVariable ["ace_medical_isMedicalFacility", true, true];
 _plane setVariable ["ttt_medic_backpack_inUse", false, true];
 (unitBackpack _target) setVariable ["ttt_medic_backpack_hasTent", false, true];
+[_plane, false] remoteExec ["allowDamage", (owner _plane), false];
 
 {
     private _posItem = (getPos _plane) findEmptyPosition [1, 3, "Tank"];

@@ -19,17 +19,17 @@ _arrayVehicles = nearestObjects [(getPos _target), (parseSimpleArray GVAR(suppor
 private "_vehicle";
 private _ArrayVehicle = [];
 {
-	if (!(_x getVariable ["ttt_medic_vehicle_hasTent", true])) then {
-		_ArrayVehicle pushBack _x
-	};
+    if (!(_x getVariable ["ttt_medic_vehicle_hasTent", true])) then {
+        _ArrayVehicle pushBack _x
+    };
 } forEach _arrayVehicles;
 
 _vehicle = _ArrayVehicle select 0;
 
 hint format [
-	LLSTRING(hintLoaded),
-	(round ((getPos _target) getDir (getPos _vehicle))),
-	(round ((getPos _target) distance (getPos _vehicle)))
+    LLSTRING(hintLoaded),
+    (round ((getPos _target) getDir (getPos _vehicle))),
+    (round ((getPos _target) distance (getPos _vehicle)))
 ];
 
 _vehicle setVariable ["ttt_medic_vehicle_hasTent", true, true];

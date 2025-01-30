@@ -18,5 +18,5 @@ params ["_target", "_caller"];
 hint LLSTRING(abort);
 _caller switchMove "";
 if (typeOf _target == GVAR(facitlityObject)) then {
-	_target setVariable ["ttt_medic_backpack_inUse", false, true];
+    _target setVariable ["ttt_medic_backpack_inUse", false, true];
 };

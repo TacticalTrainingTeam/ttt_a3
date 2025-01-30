@@ -36,7 +36,6 @@ addons[]=
 	"ace_goggles",
 	"A3_Modules_F_Curator_Curator",
 	"A3_Supplies_F_Heli_CargoNets",
-	"ttt_rsr_vanilla_compat_ace",
 	"A3_Air_F_Heli_Heli_Transport_03",
 	"ttt_signs"
 };
@@ -44,7 +43,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=12;
+		items=11;
 		class Item0
 		{
 			className="ttt_rsr_vanilla";
@@ -110,19 +109,12 @@ class AddonsMetaData
 		};
 		class Item9
 		{
-			className="ttt_rsr_vanilla_compat_ace";
-			name="TTT - RsR Vanilla Compat ACE";
-			author="Tactical Training Team";
-			url="https://tacticalteam.de";
-		};
-		class Item10
-		{
 			className="A3_Air_F_Heli";
 			name="Arma 3 Helicopters - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item11
+		class Item10
 		{
 			className="ttt_signs";
 			name="TTT - Signs";
@@ -142,7 +134,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Scenario";
 		class Attribute0
