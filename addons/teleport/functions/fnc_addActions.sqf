@@ -31,6 +31,15 @@ if (hasInterface) then {
         ["Initialize", [_caller, [], true]] call BIS_fnc_EGSpectator;
         [_caller, true] remoteExecCall ["hideObjectGlobal", 2];
 
+        removeAllWeapons _caller;
+        removeAllItems _caller;
+        removeAllAssignedItems _caller;
+        removeUniform _caller;
+        removeVest _caller;
+        removeBackpack _caller;
+        removeHeadgear _caller;
+        removeGoggles _caller;
+
     }, [], 0, false];
 
     // add teleporter Menü
