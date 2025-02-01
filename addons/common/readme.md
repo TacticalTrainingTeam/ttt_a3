@@ -56,7 +56,7 @@ Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=72
 **side:** SIDE - Welcher Seite sollen die neuen Einheiten angehören  
 **vehicle:** STRING - Welches Fahrzeug soll die Infanterie transportieren  
 **rpBehaviour:** INTEGER (optional, default: 0) - Welches Verhalten nimmt das Fahrzeug am Releasepunkt an; abhängig davon ob es ein Luft- oder Landfahrzeug ist (Siehe dazu die Tabelle unten)  
-**infantry:** ARRAY format characterTypes or CONFIG format CfgGroups entry (optional, default: _grpCfg = configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad";) - Welche Infanterieeinheiten sollen erstellt werden (Sollte das Array oder die Config zu groß für den Frachtraum des Fahrzeugs sein, werden übrige Einheiten gelöscht)  
+**infantry:** ARRAY format characterTypes or CONFIG format CfgGroups entry (optional, default: configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad") - Welche Infanterieeinheiten sollen erstellt werden (Sollte das Array oder die Config zu groß für den Frachtraum des Fahrzeugs sein, werden übrige Einheiten gelöscht)  
 **groupBehaviour:** INTEGER (optional, default: 2) - Welches Verhalten haben die Einheiten ab ihrem Releasepunkt (0: relaxed, 1: cautious, 2: combat)  
 **flyHeight:** INTEGER (optional, default: 80) - Auf welcher höhe soll das Luftfahrzeug fliegen
 
