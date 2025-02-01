@@ -1,19 +1,22 @@
 #include "..\script_component.hpp"
 /*
-	author: EinStein
-	original idea: by Ares Mod-Team https://github.com/ArmaAchilles/Achilles/blob/f123656459cab7766aa40c32d5ee12d29ebadaae/%40AresModAchillesExpansion/addons/modules_f_ares/Reinforcements/functions/fn_ReinforcementsCreateUnits.sqf
-	description: spawns vehicle and infantry group, moves to RP, releases units and attacks or RTB
-	example: 
-		[l_spawn_1, l_rp_1, l_atk_1, EAST, "O_APC_Wheeled_02_rcws_v2_F",1] spawn ttt_common_fnc_callReinforcements;
-		argument 0: 'array' or 'object' position to create units
-		argument 1: 'array' or 'object' position to release units
-		argument 2: 'array' or 'object' position to attack (uses SaD for infantry and vehicle, but if LAMBS is active and vehicle is no airborne, infantry will use lambs_rush instead)
-		argument 3: 'side' side of created units
-		argument 4: 'classname' of the transport vehicle
-		argument 5: (optional, default: 0) 'integer' RP behaviour [vehicle type: air / ground ] (0: Landing-Unload-RTB / Unload-RTB, 1: Fastrope-RTB / Unload-Attack, 2: Paradrop-RTB / Unload-Guard)
-		argument 6: (optional, default: configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad") 'array' or '_grpCfgName' of the infantry group
-		argument 7: (optional, default: 1) 'integer' group behaviour (0: relaxed, 1:cautious, 2: combat)
-		argument 8: (optional, default: 80) 'integer' fly height for air vehicles
+* Author: EinStein
+* Original idea: by Ares Mod-Team https://github.com/ArmaAchilles/Achilles/blob/f123656459cab7766aa40c32d5ee12d29ebadaae/%40AresModAchillesExpansion/addons/modules_f_ares/Reinforcements/functions/fn_ReinforcementsCreateUnits.sqf
+* Description: spawns vehicle and infantry group, moves to RP, releases units and attacks or RTB
+* Example: 
+*	[l_sp_1, l_rp_1, l_at_1, EAST, "O_APC_Wheeled_02_rcws_v2_F"] call ttt_common_fnc_callReinforcements;
+*
+*	argument 0: 'array' or 'object' position to create units
+*	argument 1: 'array' or 'object' position to release units
+*	argument 2: 'array' or 'object' position to attack (uses SaD for infantry and vehicle, but if LAMBS is active and vehicle is no airborne, infantry will use lambs_rush instead)
+*	argument 3: 'side' side of created units
+*	argument 4: 'classname' of the transport vehicle
+*	argument 5: (optional, default: 0) 'integer' RP behaviour [vehicle type: air / ground ] (0: Landing-Unload-RTB / Unload-RTB, 1: Fastrope-RTB / Unload-Attack, 2: Paradrop-RTB / Unload-Guard)
+*	argument 6: (optional, default: configFile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad") 'array' or '_grpCfgName' of the infantry group
+*	argument 7: (optional, default: 1) 'integer' group behaviour (0: relaxed, 1:cautious, 2: combat)
+*	argument 8: (optional, default: 80) 'integer' fly height for air vehicles
+*
+* Public: Yes
 */
 
 if (!isServer) exitWith {};
@@ -29,7 +32,7 @@ if (typeName _spPos == "OBJECT") then {_spPos = [getPosASL _spPos select 0,getPo
 if (typeName _rpPos == "OBJECT") then {_rpPos = [getPosASL _rpPos select 0,getPosASL _rpPos select 1,0];};
 if (typeName _atPos == "OBJECT") then {_atPos = [getPosASL _atPos select 0,getPosASL _atPos select 1,0];};
 if (isNil "_rpBehaviour") then {_rpBehaviour = 0;};
-if (isNil "_grpCfg") then {_grpCfg = configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad";};
+if (isNil "_grpCfg") then {_grpCfg = configFile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad";};
 if (isNil "_grpBehaviour") then {_grpBehaviour = 2;};
 if (isNil "_height") then {_height = 80;};
 
@@ -45,9 +48,9 @@ if (_vehicle isKindOf "Plane") then
 	_vehicle setPos (_spPos vectorAdd [0, 0, _height]);
 	
 	// Fix for CUP planes (somehow they don't have a start velocity despite using BIS_fnc_spawnVehicle)
-	private _speed = getNumber (configfile >> "CfgVehicles" >> _vehicleType >> "maxSpeed");
+	private _speed = getNumber (configFile >> "CfgVehicles" >> _vehicleType >> "maxSpeed");
 	private _coefName = ["normalSpeedForwardCoef", "limitedSpeedCoef"] select (speedMode _vehicleGroup == "LIMITED");
-	_speed = _speed * getNumber (configfile >> "CfgVehicles" >> _vehicleType >> _coefName);
+	_speed = _speed * getNumber (configFile >> "CfgVehicles" >> _vehicleType >> _coefName);
 	_vehicle setVelocityModelSpace [0, _speed/3.6, 0];
 };
 
@@ -88,7 +91,7 @@ switch (_grpBehaviour) do
 
 // Choose a attack position for the squad to head to once unloaded and set their waypoint.
 private _infantryAtWp = _infantryGroup addWaypoint [_atPos, _atSize];
-if (isClass(configfile >> "CfgPatches" >> "lambs_danger") && !(_vehicle isKindOf "Air")) then	// LAMBS only if loaded and only for ground vehicles
+if (isClass(configFile >> "CfgPatches" >> "lambs_danger") && !(_vehicle isKindOf "Air")) then	// LAMBS only if loaded and only for ground vehicles
 {	
 	_infantryAtWp setWaypointType "SCRIPTED";
 	_infantryAtWp setWaypointScript "\z\lambs\addons\wp\scripts\fnc_wpRush.sqf";
@@ -114,7 +117,7 @@ if (isClass (configFile >> "CfgPatches" >> "acex_headless") && {acex_headless_en
 
 if ((_vehicle getVariable ["Achilles_var_noFastrope", false]) && (_rpBehaviour > 0) && (_vehicle isKindOf "Air")) exitWith
 {
-	["ACE3 or AR is not loaded!"] call Achilles_fnc_showZeusErrorMessage;
+	["ACE3 or AR is not loaded!"] call ace_zeus_fnc_showMessage;
 	{deleteVehicle _x} forEach _infantryList;
 };
 
@@ -126,7 +129,7 @@ if ((_rpBehaviour == 0) && (_vehicle isKindOf "Air") && (count nearestObjects [_
 
 // create a RP waypoint for deploying the units
 private _vehicleUnloadWp = _vehicleGroup addWaypoint [_rpPos, _rpSize];
-if (_vehicle isKindOf "Air" && (_rpBehaviour > 0) && (isClass(configfile >> "CfgPatches" >> "achilles_functions_f_ares"))) then
+if (_vehicle isKindOf "Air" && (_rpBehaviour > 0) && (isClass(configFile >> "CfgPatches" >> "achilles_functions_f_ares"))) then
 {
 	_vehicleUnloadWp setWaypointType "SCRIPTED";
 	private _script =
@@ -200,4 +203,4 @@ if (isClass (configFile >> "CfgPatches" >> "acex_headless") && {acex_headless_en
 };
 
 // print a confirmation
-["Reinforcements spawned with %1", (gettext (configfile >> "CfgVehicles" >> _vehicleType >> "displayName"))] call ace_zeus_fnc_showMessage;
+["Reinforcements spawned with %1", (getText (configFile >> "CfgVehicles" >> _vehicleType >> "displayName"))] call ace_zeus_fnc_showMessage;
