@@ -23,6 +23,13 @@ mission = "ttt_test.VR"
 #binarize = false # Default: false
 #rapify = true # Default: true
 
+[debug]
+extends = "default"
+workshop = [
+    "1645973522", # Intercept Minimal Dev
+    "1585582292" # Arma Debug Engine
+]
+
 # Launched with `hemtt launch cup/rhs/bwa/3cb`
 [cup]
 extends = "default"
