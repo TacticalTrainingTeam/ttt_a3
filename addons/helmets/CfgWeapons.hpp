@@ -3,7 +3,7 @@ class CfgWeapons {
     class H_HelmetB;
     class H_CrewHelmetHeli_B: H_HelmetB { class ItemInfo; };
     class ttt_Helmet_Pilot: H_CrewHelmetHeli_B {
-        author = QUOTE(Tactical Training Team);
+        author = ECSTRING(main,TacticalTrainingTeam);
         displayName = "ttt_Helmet_Pilot";
         scope = 0;
 
@@ -75,7 +75,7 @@ class CfgWeapons {
     class H_HelmetB_plain_mcamo;
     class H_HelmetSpecB: H_HelmetB_plain_mcamo { class ItemInfo; };
     class ttt_Helmet_Base: H_HelmetSpecB {
-        author = QUOTE(Tactical Training Team);
+        author = ECSTRING(main,TacticalTrainingTeam);
         scope = 0;
         model = QUOTE(\A3\Characters_F\BLUFOR\headgear_b_helmet_light.p3d);
 

@@ -1,0 +1,19 @@
+{
+    //Config für sqf Debugger von dedmen
+    //benötigt arma mod https://steamcommunity.com/sharedfiles/filedetails/?id=1585582292
+    //benötigt vscode extension https://marketplace.visualstudio.com/items?itemName=billw2011.sqf-debugger
+
+    //Then in debug tab in VSC you can press the green play button, while Arma is running.
+    //And tadaa, breakpoints
+
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "connect",
+            "type": "sqf",
+            "request": "launch",
+            "missionRoot": "${workspaceFolder}",
+            "scriptPrefix": "z\\ttt"
+        }
+    ]
+}

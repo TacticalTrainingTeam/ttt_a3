@@ -20,15 +20,15 @@ target setVariable ["ttt_signalpanel_inUse", true, true];
 _caller playMove "Acts_carFixingWheel";
 
 [
-	19,
-	[_target,_caller],
-	{
-		(_this select 0) params ["_target", "_caller"];
-		[_target,_caller] call FUNC(planeDeconstruct);
-	},
-	{
-		(_this select 0) params ["_target", "_caller"];
-		[_target,_caller] call FUNC(cancel)
-	},
-	LLSTRING(actionDeconstruct)
+    19,
+    [_target,_caller],
+    {
+        (_this select 0) params ["_target", "_caller"];
+        [_target,_caller] call FUNC(planeDeconstruct);
+    },
+    {
+        (_this select 0) params ["_target", "_caller"];
+        [_target,_caller] call FUNC(cancel)
+    },
+    LLSTRING(actionDeconstruct)
 ] call ace_common_fnc_progressBar;

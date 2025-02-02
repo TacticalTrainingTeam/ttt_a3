@@ -21,7 +21,7 @@ _workshop setDir (getDir _target);
 
 _workshop setVariable ["ACE_isRepairFacility", true, true];
 _workshop setVariable ["ttt_repair_vehicle_inUse", false, true];
-_workshop allowDamage false;
+[_workshop, false] remoteExec ["allowDamage", (owner _workshop), false];
 [_target, (_target getVariable ["ttt_repair_vehicle_fuel", 100])] remoteExec ["setFuel", (owner _target), false];
 
 {

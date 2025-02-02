@@ -17,11 +17,11 @@
 
 _return = false;
 if (
-	!(_target getVariable ["ttt_medic_backpack_inUse", false]) && 
-	!((unitBackpack _caller) getVariable ["ttt_medic_backpack_hasTent", true]) && 
-	((parseSimpleArray GVAR(supportedBackpacks)) find (backpack _caller) != -1)
+    !(_target getVariable ["ttt_medic_backpack_inUse", false]) && 
+    !((unitBackpack _caller) getVariable ["ttt_medic_backpack_hasTent", true]) && 
+    ((parseSimpleArray GVAR(supportedBackpacks)) find (backpack _caller) != -1)
 ) then {
-	_return = true;
+    _return = true;
 };
 
 _return;

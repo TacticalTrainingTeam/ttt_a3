@@ -43,10 +43,9 @@ class CfgWeapons {
     };
     class optic_AMS_base: ItemCore {
         descriptionShort = CSTRING(usOpticsDescriptionShort);
-        DLC="Mark";
         class ItemInfo: InventoryOpticsItem_Base_F {
             class OpticsModes {
-                class Snip {
+                class AMS {
                     visionMode[]= {
                         "Normal",
                         "NVG"
@@ -57,10 +56,9 @@ class CfgWeapons {
     };
     class optic_KHS_base: ItemCore {
         descriptionShort = CSTRING(kahlesDescriptionShort);
-        DLC="Mark";
         class ItemInfo: InventoryOpticsItem_Base_F {
             class OpticsModes {
-                class Snip {
+                class KHS {
                     visionMode[]= {
                         "Normal",
                         "NVG"
