@@ -10,7 +10,6 @@ class CfgWeapons {
         scope = 0;
         displayName = "ttt_Vest_Heavy_Base";
         hiddenSelections[] = { "camo" }; //needs to stay here to work
-        hiddenSelectionsTextures[] = { QPATHTOF(data\vest_yellow_co.paa) };
 
         class ItemInfo: ItemInfo {
             hiddenSelections[] = { "camo" };
@@ -22,7 +21,6 @@ class CfgWeapons {
         scope = 0;
         displayName = "ttt_Vest_Lite_Base";
         hiddenSelections[] = { "camo" };
-        hiddenSelectionsTextures[] = { QPATHTOF(data\vest_yellow_co.paa) };
 
         class ItemInfo: ItemInfo {
             hiddenSelections[] = { "camo" };
