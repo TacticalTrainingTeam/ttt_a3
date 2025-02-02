@@ -18,23 +18,23 @@
 
 private _position = (_target getPos [8, getDir _target]) findEmptyPosition [1, 2, "Tank"];
 if (_position isEqualTo []) exitWith {
-	hint LLSTRING(hintErrorNoSpace);
+    hint LLSTRING(hintErrorNoSpace);
 };
 
 if (GVAR(useAnimation)) then {
-	_target playMove GVAR(buildAnimation);
+    _target playMove GVAR(buildAnimation);
 };
 
 [
-	GVAR(buildTime),
-	[_target],
-	{
-		(_this select 0) params ["_target"];
-		[_target] call FUNC(planeConstruct);
-	},
-	{
-		(_this select 0) params ["_target"];
-		[_target,_target] call FUNC(cancel)
-	},
-	LLSTRING(actionConstruct)
+    GVAR(buildTime),
+    [_target],
+    {
+        (_this select 0) params ["_target"];
+        [_target] call FUNC(planeConstruct);
+    },
+    {
+        (_this select 0) params ["_target"];
+        [_target,_target] call FUNC(cancel)
+    },
+    LLSTRING(actionConstruct)
 ] call ace_common_fnc_progressBar;

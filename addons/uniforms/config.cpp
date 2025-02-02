@@ -12,9 +12,12 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
-        requiredAddons[] = {"ttt_main",  "A3_Characters_F"};
+        requiredAddons[] = {"ttt_common",  "A3_Characters_F"};
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
-        units[] = {};
+        units[] = {
+            "ttt_uniform_item_plain_BW_Flecktarn",
+            "ttt_uniform_item_black_BW_Flecktarn"            
+        };
         // List of weapons (CfgWeapons classes) contained in the addon.
         weapons[] = {
             "ttt_Uniform_Yellow_US_Desert",
@@ -27,7 +30,7 @@ class CfgPatches {
             "ttt_Uniform_Blue_US_Desert",
             "ttt_Uniform_Grey_US_Desert",
             "ttt_Uniform_Gold_US_Desert",
-            //"ttt_Uniform_Silver_US_Desert", //.paa fehlt
+            "ttt_Uniform_Silver_US_Desert",
             "ttt_Uniform_Orange_US_Desert",
             "ttt_Uniform_Platinum_US_Desert",
 
@@ -56,14 +59,14 @@ class CfgPatches {
             "ttt_Uniform_White_BW_Flecktarn",
             "ttt_Uniform_Grey_BW_Flecktarn",
             "ttt_Uniform_Gold_BW_Flecktarn",
-            //"ttt_Uniform_Silver_BW_Flecktarn", //.paa fehlt
+            "ttt_Uniform_Silver_BW_Flecktarn",
             "ttt_Uniform_Orange_BW_Flecktarn",
 
             "ttt_Uniform_Platinum_Pilot",
         };
 
         // Optional. If this is 1, if any of requiredAddons[] entry is missing in your game the entire config will be ignored and return no error (but in rpt) so useful to make a compat Mod (Since Arma 3 2.14)
-        skipWhenMissingDependencies = 1;
+        //skipWhenMissingDependencies = 1;
     };
 };
 

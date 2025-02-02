@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
-    <Package name="compat_rhs_weapons">
-        <Key ID="STR_ttt_compat_rhs_weapons_gogglesonoff">
+    <Package name="Compat_Rhs_Weapons">
+        <Key ID="STR_ttt_Compat_Rhs_Weapons_gogglesonoff">
             <English>Take off / Put on Goggles</English>
             <German>Staubschutzbrille auf-/absetzen</German>
         </Key>
-        <Key ID="STR_ttt_compat_rhs_weapons_visoronoff">
+        <Key ID="STR_ttt_Compat_Rhs_Weapons_visoronoff">
             <English>Lift / Lower Visor</English>
             <German>Visor hoch-/runterklappen</German>
         </Key>

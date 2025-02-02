@@ -12,7 +12,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
-        requiredAddons[] = {"ttt_main",  "A3_Characters_F"};
+        requiredAddons[] = {"ttt_common",  "A3_Characters_F"};
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {
             "ttt_Helmet_Item_bw_fleck_1",
@@ -49,7 +49,17 @@ class CfgPatches {
             "ttt_Helmet_Item_us_desert_8",
             "ttt_Helmet_Item_us_desert_9",
             "ttt_Helmet_Item_us_desert_10",
-            "ttt_Helmet_Item_us_desert_11"
+            "ttt_Helmet_Item_us_desert_11",
+
+            "ttt_Helmet_item_Buzzard",
+            "ttt_Helmet_item_Eagle",
+            "ttt_Helmet_item_Hawk",
+            "ttt_Helmet_item_Falcon",
+
+            "ttt_Helmet_item_crew_yellow",
+            "ttt_Helmet_item_crew_bronze",
+            "ttt_Helmet_item_crew_grey",
+            "ttt_Helmet_item_crew_silver",
         };
         // List of weapons (CfgWeapons classes) contained in the addon.
         weapons[] = {
@@ -57,10 +67,12 @@ class CfgPatches {
             "ttt_Helmet_Hawk",
             "ttt_Helmet_Falcon",
             "ttt_Helmet_Eagle",
+
             "ttt_Helmet_Bronze_Vehiclecrew",
             "ttt_Helmet_Grey_Vehiclecrew",
             "ttt_Helmet_Silver_Vehiclecrew",
             "ttt_Helmet_Yellow_Vehiclecrew",
+
             "ttt_Helmet_1_US_Desert",
             "ttt_Helmet_2_US_Desert",
             "ttt_Helmet_3_US_Desert",
@@ -72,6 +84,7 @@ class CfgPatches {
             "ttt_Helmet_9_US_Desert",
             "ttt_Helmet_10_US_Desert",
             "ttt_Helmet_11_US_Desert",
+            
             "ttt_Helmet_1_US_Flecktarn",
             "ttt_Helmet_2_US_Flecktarn",
             "ttt_Helmet_3_US_Flecktarn",
@@ -83,6 +96,7 @@ class CfgPatches {
             "ttt_Helmet_9_US_Flecktarn",
             "ttt_Helmet_10_US_Flecktarn",
             "ttt_Helmet_11_US_Flecktarn",
+
             "ttt_Helmet_1_US_Tropentarn",
             "ttt_Helmet_2_US_Tropentarn",
             "ttt_Helmet_3_US_Tropentarn",
