@@ -10,7 +10,7 @@ class CfgVehicles {
         crew = "B_Soldier_F";
         side = 1;
         faction = "RsR";
-        editorPreview = QPATHTOF(data\fennek\previews\rsr_fennek_transport_RV_flecktarn_preview.jpg);
+        editorPreview = QPATHTOF(retex_itc\data\fennek\previews\rsr_fennek_transport_RV_flecktarn_preview.jpg);
 
         hiddenSelectionsTextures[] = {
             QPATHTOEF(rsr_vanilla,data\fennek\fennek_flecktarn_ext_co.paa),
@@ -37,7 +37,7 @@ class CfgVehicles {
         crew = "B_Soldier_F";
         side = 1;
         faction = "RsR";
-        editorPreview = QPATHTOF(data\fennek\previews\rsr_fennek_hmg_RV_flecktarn_preview.jpg);
+        editorPreview = QPATHTOF(retex_itc\data\fennek\previews\rsr_fennek_hmg_RV_flecktarn_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOEF(rsr_vanilla,data\fennek\fennek_flecktarn_ext_co.paa),
             QPATHTOEF(rsr_vanilla,data\fennek\fennek_flecktarn_turret_co.paa)
@@ -63,7 +63,7 @@ class CfgVehicles {
         crew = "B_Soldier_F";
         side = 1;
         faction = "RsR";
-        editorPreview = QPATHTOF(data\fennek\previews\rsr_fennek_gmg_RV_flecktarn_preview.jpg);
+        editorPreview = QPATHTOF(retex_itc\data\fennek\previews\rsr_fennek_gmg_RV_flecktarn_preview.jpg);
         hiddenSelectionsTextures[] = {
             QPATHTOEF(rsr_vanilla,data\fennek\fennek_flecktarn_ext_co.paa),
             QPATHTOEF(rsr_vanilla,data\fennek\fennek_flecktarn_turret_co.paa)
