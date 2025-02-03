@@ -2,7 +2,7 @@ class CfgVehicles {
     class B_RadioBag_01_black_F;
 
     class ttt_Radiobackpack_Base: B_RadioBag_01_black_F {
-        author = QUOTE(Tactical Training Team);
+        author = ECSTRING(main,TacticalTrainingTeam);
         scope = 0;
         maximumLoad = 320;
         mass = 50;
