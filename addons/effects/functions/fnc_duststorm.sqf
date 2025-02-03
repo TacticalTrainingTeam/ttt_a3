@@ -207,8 +207,8 @@ private _clock = 0;
 		if (!(_active) || (_clock >= _duration)) exitWith {};
 		_clock = _clock + 1;
 		setWind [
-			sin * _direction * ((216 * _clock * (_duration - _clock)) / (_duration ^ 2)),
-			cos * _direction * ((216 * _clock * (_duration - _clock)) / (_duration ^ 2)),
+			sin * _direction * ((216 * _clock * (_duration - _clock)) / (_duration ^ 2)),//sinus von was? 
+			cos * _direction * ((216 * _clock * (_duration - _clock)) / (_duration ^ 2)),//cosinus von was?
 			true
 		];
 	},
