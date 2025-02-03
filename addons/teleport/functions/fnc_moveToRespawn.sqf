@@ -1,7 +1,8 @@
 #include "..\script_component.hpp"
 /*
  * Authors: Andx
- * Move a jipping player to respawm
+ * Move a player to the respawn marker
+ * if a regular ttt_teleport_teleporter exists, the player will be rotated to face the teleporter
  *
  * Arguments:
  * 0: player <OBJECT>
