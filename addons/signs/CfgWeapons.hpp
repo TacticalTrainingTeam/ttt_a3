@@ -100,9 +100,9 @@ class CfgWeapons {
 
     class ttt_signs_flags_grey: ttt_signs_flags_logo {
         displayName = CSTRING(flag_grey_displayName);
-        picture = QPATHTOF(data\pictures\grau_item.paa);
+        picture = QPATHTOF(data\pictures\grey_item.paa);
 
-        ACE_flags_texture = QPATHTOEF(common,data\ttt_logo_grey_co.paa);
+        ACE_flags_texture = QPATHTOEF(common,data\ttt_logo_grau_co.paa);
         ACE_flags_carrier = QGVAR(flags_carrier_grey);
     };
 };
