@@ -4,7 +4,7 @@ class CfgVehicles {
         author = ECSTRING(rsr,rsr);
         attendant = 1;
         displayName = SUBCSTRING(Eagle_IV_Sanität_Flecktarn);
-        editorPreview = QPATHTOF(retex_bwa3\data\eagle\previews\bwa3_eagle_fleck_co_preview.jpg);
+        editorPreview = QPATHTOF(rsr_retex_bwa3\data\eagle\previews\bwa3_eagle_fleck_co_preview.jpg);
         typicalCargo[] = {"B_medic_F"};
         crew = "B_medic_F";
         side = 1;
@@ -14,7 +14,7 @@ class CfgVehicles {
         scopeCurator = 2;
         scopeArsenal = 2;
         hiddenSelectionsTextures[] = {
-            QPATHTOF(retex_bwa3\data\eagle\bwa3_eagle_fleck_co.paa),
+            QPATHTOF(rsr_retex_bwa3\data\eagle\bwa3_eagle_fleck_co.paa),
             "\bwa3_eagle\data\bwa3_eagle_fahrwerk_co.paa",
             "\bwa3_eagle\data\bwa3_eagle_int_co.paa",
             "\bwa3_eagle\data\bwa3_eagle_alpha_co.paa",
