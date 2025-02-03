@@ -11,7 +11,8 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
-        requiredAddons[] = {"ttt_common", "A3_Data_F"};
+        requiredAddons[] = {"ttt_common", "ace_flags","A3_Data_F"};
+
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {            
             "ttt_Flag_Logo",
@@ -28,6 +29,7 @@ class CfgPatches {
             "ttt_Flag_Violet",
             "ttt_Flag_White",
             "ttt_Flag_Orange",
+
             "ttt_Sign_Small_Blue",
             "ttt_Sign_Small_Bronze",
             "ttt_Sign_Small_Brown",
@@ -43,6 +45,7 @@ class CfgPatches {
             "ttt_Sign_Small_White",
             "ttt_Sign_Small_Logo",
             "ttt_Sign_Small_Orange",
+            
             "ttt_Sign_Large_Blue",
             "ttt_Sign_Large_Bronze",
             "ttt_Sign_Large_Brown",
@@ -57,11 +60,37 @@ class CfgPatches {
             "ttt_Sign_Large_Violet",
             "ttt_Sign_Large_White",
             "ttt_Sign_Large_Logo",
-            "ttt_Sign_Large_Orange"
+            "ttt_Sign_Large_Orange",
+
+            "ttt_signs_flags_carrier_gold",
+            "ttt_signs_flags_carrier_white",
+            "ttt_signs_flags_carrier_blue",
+            "ttt_signs_flags_carrier_silver",
+            "ttt_signs_flags_carrier_bronze",
+            "ttt_signs_flags_carrier_logo",
+            "ttt_signs_flags_carrier_yellow",
+            "ttt_signs_flags_carrier_green",
+            "ttt_signs_flags_carrier_red",
+            "ttt_signs_flags_carrier_black",
+            "ttt_signs_flags_carrier_orange",
+            "ttt_signs_flags_carrier_violet",
+            "ttt_signs_flags_carrier_grey"
             };
         // List of weapons (CfgWeapons classes) contained in the addon.
         weapons[] = {
-            "ttt_carrier_flag_logo",
+            "ttt_signs_flags_logo",
+            "ttt_signs_flags_white",
+            "ttt_signs_flags_blue",
+            "ttt_signs_flags_silver",
+            "ttt_signs_flags_bronze",
+            "ttt_signs_flags_gold",
+            "ttt_signs_flags_yellow",
+            "ttt_signs_flags_green",
+            "ttt_signs_flags_red",
+            "ttt_signs_flags_black",
+            "ttt_signs_flags_orange",
+            "ttt_signs_flags_violet",
+            "ttt_signs_flags_grey"
         };
 
         // Optional. If this is 1, if any of requiredAddons[] entry is missing in your game the entire config will be ignored and return no error (but in rpt) so useful to make a compat Mod (Since Arma 3 2.14)

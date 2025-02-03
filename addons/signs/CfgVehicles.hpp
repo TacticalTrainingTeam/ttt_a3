@@ -160,11 +160,71 @@ class CfgVehicles {
     */
 
     class ace_flags_carrier_white;
-
-    class GVAR(carrier_logo): ace_flags_carrier_white {
+    class ttt_signs_flags_carrier_logo: ace_flags_carrier_white {
         displayName = CSTRING(flag_logo_displayName);
         editorPreview = QPATHTOF(data\previews\ttt_signs_carrier_logo.jpg);
     };
+
+    class ttt_signs_flags_carrier_white: ttt_signs_flags_carrier_logo {
+        displayName = CSTRING(flag_white_displayName);
+        editorPreview = QPATHTOF(data\previews\ttt_signs_carrier_white.jpg);
+    };
+
+    class ttt_signs_flags_carrier_blue: ttt_signs_flags_carrier_logo {
+        displayName = CSTRING(flag_blue_displayName);
+        editorPreview = QPATHTOF(data\previews\ttt_signs_carrier_blue.jpg);
+    };
+
+    class ttt_signs_flags_carrier_silver: ttt_signs_flags_carrier_logo {
+        displayName = CSTRING(flag_silver_displayName);
+        editorPreview = QPATHTOF(data\previews\ttt_signs_carrier_silver.jpg);
+    };
+
+    class ttt_signs_flags_carrier_bronze: ttt_signs_flags_carrier_logo {
+        displayName = CSTRING(flag_bronze_displayName);
+        editorPreview = QPATHTOF(data\previews\ttt_signs_carrier_bronze.jpg);
+    };
+
+    class ttt_signs_flags_carrier_gold: ttt_signs_flags_carrier_logo {
+        displayName = CSTRING(flag_gold_displayName);
+        editorPreview = QPATHTOF(data\previews\ttt_signs_carrier_gold.jpg);
+    };
+
+    class ttt_signs_flags_carrier_yellow: ttt_signs_flags_carrier_logo {
+        displayName = CSTRING(flag_yellow_displayName);
+        editorPreview = QPATHTOF(data\previews\ttt_signs_carrier_yellow.jpg);
+    };
+
+    class ttt_signs_flags_carrier_black: ttt_signs_flags_carrier_logo {
+        displayName = CSTRING(flag_black_displayName);
+        editorPreview = QPATHTOF(data\previews\ttt_signs_carrier_black.jpg);
+    };
+
+    class ttt_signs_flags_carrier_red: ttt_signs_flags_carrier_logo {
+        displayName = CSTRING(flag_red_displayName);
+        editorPreview = QPATHTOF(data\previews\ttt_signs_carrier_red.jpg);
+    };
+
+    class ttt_signs_flags_carrier_green: ttt_signs_flags_carrier_logo {
+        displayName = CSTRING(flag_green_displayName);
+        editorPreview = QPATHTOF(data\previews\ttt_signs_carrier_green.jpg);
+    };
+    
+    class ttt_signs_flags_carrier_orange: ttt_signs_flags_carrier_logo {
+        displayName = CSTRING(flag_orange_displayName);
+        editorPreview = QPATHTOF(data\previews\ttt_signs_carrier_orange.jpg);
+    };
+
+    class ttt_signs_flags_carrier_violet: ttt_signs_flags_carrier_logo {
+        displayName = CSTRING(flag_violet_displayName);
+        editorPreview = QPATHTOF(data\previews\ttt_signs_carrier_violet.jpg);
+    };
+
+    class ttt_signs_flags_carrier_grey: ttt_signs_flags_carrier_logo {
+        displayName = CSTRING(flag_grey_displayName);
+        editorPreview = QPATHTOF(data\previews\ttt_signs_carrier_grey.jpg);
+    };
+
 
     /*
     #############################################################
