@@ -1,5 +1,5 @@
-#define COMPONENT blank
-#define COMPONENT_BEAUTIFIED Blank
+#define COMPONENT effects
+#define COMPONENT_BEAUTIFIED Effects
 #include "\z\ttt\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
