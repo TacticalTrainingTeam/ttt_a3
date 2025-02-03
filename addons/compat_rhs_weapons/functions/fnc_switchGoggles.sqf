@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: [W] Miller
  * Erlaubt das auf-/absetzten einer Staubschutzbrille

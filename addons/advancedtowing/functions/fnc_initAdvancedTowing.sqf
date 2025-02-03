@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 
 /*
 The MIT License (MIT)
