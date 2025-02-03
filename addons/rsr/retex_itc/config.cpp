@@ -9,7 +9,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
-        requiredAddons[] = {"ttt_common", "itc_land_veh_strider"};
+        requiredAddons[] = {"ttt_common","ttt_rsr_retex_vanilla", "itc_land_veh_strider"};
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {
             "rsr_fennek_transport_RV_flecktarn",

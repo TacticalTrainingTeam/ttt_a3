@@ -1,7 +1,7 @@
 #include "script_component.hpp"
 
 class CfgPatches {
-    class SUBADDON    {
+    class SUBADDON {
         // Use meta information from specified addon. Used to avoid repeated declarations.
         addonRootClass = QUOTE(ADDON);
         
