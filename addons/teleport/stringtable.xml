@@ -9,6 +9,14 @@
             <English>Activate Teleport Logic</English>
             <German>Teleport Logik aktivieren</German>
         </Key>
+        <Key ID="STR_ttt_Teleport_enableJipMove_description">
+            <English>When enabled, a jipping player will be automatically moved to the respawn</English>
+            <German>Wenn aktiviert, wird ein Spieler welcher jippt autoamtisch zum Respawm teleportiert.</German>
+        </Key>
+        <Key ID="STR_ttt_Teleport_enableJipMove_displayName">
+            <English>Activate JIP Move to Respawm Logic</English>
+            <German>JIP spawnt am respawn Logik aktivieren</German>
+        </Key>
         <Key ID="STR_ttt_Teleport_spectator">
             <English>Spectator</English>
             <German>Zuschauermodus</German>
