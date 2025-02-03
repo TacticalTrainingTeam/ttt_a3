@@ -155,6 +155,19 @@ class CfgVehicles {
 
     /*
     #############################################################
+    ### Flaggen (tragbar)
+    #############################################################
+    */
+
+    class ace_flags_carrier_white;
+
+    class GVAR(carrier_logo): ace_flags_carrier_white {
+        displayName = CSTRING(flag_logo_displayName);
+        editorPreview = QPATHTOF(data\previews\ttt_signs_carrier_logo.jpg);
+    };
+
+    /*
+    #############################################################
     ### Schilder Klein
     #############################################################
     */
