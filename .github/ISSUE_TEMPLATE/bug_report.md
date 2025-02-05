@@ -9,9 +9,7 @@ assignees: ''
 **Mods (vollständig und mit den folgenden Information):**
 
 - **Arma 3:** `x.xx` [z.B. 1.00 stable, rc,  dev]
-- **CBA:** `3.x.x` [z.B. 3.0.0 stable, commit hash]
-- **ACE3:** `3.x.x` [z.B. 3.0.0 stable, commit hash]
-- **TTT-Mod:** `3.x.x` [z.B. 3.0.0]
+- ***TTT-Modset:** `Kompakt vom TT.MM.JJ` [Kompakt, CUP, RHS, Event mit Datum]
 
 **Beschreibung:**
 
