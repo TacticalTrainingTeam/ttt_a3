@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Release Drafter
-        if: github.repository == 'tacticaltrainingteam/ttt_a3'
+        if: github.repository == 'TacticalTrainingTeam/ttt_a3'
         uses: release-drafter/release-drafter@v6
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
