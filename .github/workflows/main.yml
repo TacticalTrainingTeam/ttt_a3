@@ -22,7 +22,7 @@ jobs:
       - name: Check for BOM
         uses: arma-actions/bom-check@master
 
-  build:
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
