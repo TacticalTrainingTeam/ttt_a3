@@ -1,9 +1,10 @@
 #include "script_component.hpp"
 
 class CfgPatches {
-    class ADDON {
+    class SUBADDON {
+        // Use meta information from specified addon. Used to avoid repeated declarations.
         addonRootClass = QUOTE(ADDON);
-        name = COMPONENT_NAME;
+        
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;

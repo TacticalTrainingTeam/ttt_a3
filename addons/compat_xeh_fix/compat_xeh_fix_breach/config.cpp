@@ -2,8 +2,9 @@
 
 class CfgPatches {
     class SUBADDON {
+        // Use meta information from specified addon. Used to avoid repeated declarations.
         addonRootClass = QUOTE(ADDON);
-        name = COMPONENT_NAME;
+
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
