@@ -9,7 +9,7 @@ assignees: ''
 **Mods (vollständig und mit den folgenden Information):**
 
 - **Arma 3:** `x.xx` [z.B. 1.00 stable, rc,  dev]
-- ***TTT-Modset:** `Kompakt vom TT.MM.JJ` [Kompakt, CUP, RHS, Event mit Datum]
+- ***TTT-Modset:** `Kompakt vom TT.MM.JJ` [z.B. Kompakt, CUP, RHS, Event mit Datum]
 
 **Beschreibung:**
 
