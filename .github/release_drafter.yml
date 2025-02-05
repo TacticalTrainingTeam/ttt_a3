@@ -12,7 +12,7 @@ categories:
   - title: '**NEU:**'
     labels:
       - 'pr/feature'
-  - title: '**FIXED:**'
+  - title: '**REPARIERT:**'
     labels:
       - 'pr/bug-fix'
   - title: '**VERBESSERT:**'
