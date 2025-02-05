@@ -33,6 +33,7 @@ categories:
 exclude-labels:
   - 'ignore-changelog'
   - 'dependencies'
+  - 'tools'
 
 change-template: '- $TITLE (#$NUMBER)'
 template: |
