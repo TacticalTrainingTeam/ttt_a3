@@ -9,24 +9,24 @@ sort-by: title # sort alphabetically
 sort-direction: ascending
 
 categories:
-  - title: '**ADDED:**'
+  - title: '**NEU:**'
     labels:
       - 'pr/feature'
   - title: '**FIXED:**'
     labels:
       - 'pr/bug-fix'
-  - title: '**IMPROVED:**'
+  - title: '**VERBESSERT:**'
     labels:
       - 'pr/enhancement'
       - 'pr/optimization'
-  - title: '**CHANGED:**'
+  - title: '**VERÄNDERT:**'
     labels:
       - 'pr/cleanup'
       - 'pr/change'
-  - title: '**SETTINGS:**'
+  - title: '**EINSTELLUNGEN:**'
     labels:
       - 'pr/setting'
-  - title: '**TRANSLATIONS:**'
+  - title: '**ÜBERSETZUNGEN:**'
     labels:
       - 'pr/translation'
 
@@ -38,7 +38,7 @@ change-template: '- $TITLE (#$NUMBER)'
 template: |
   _Requires CBA version X.Y.Z or later and Arma 3 version X.Y or later._
 
-  ## Change Log Summary
+  ## Change Log Zusammenfassung
 
   $CHANGES
 
