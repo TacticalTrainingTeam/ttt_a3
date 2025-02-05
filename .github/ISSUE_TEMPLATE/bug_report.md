@@ -17,6 +17,8 @@ Eine kurze und präzise Beschreibung was der Fehler ist.
 
 **Schritte zum Reproduzieren:**
 
+Beschreibe was getan werden muss, um den Fehler zu bekommen:
+
 1. _Gehe zu ..._
 2. _Klicke ..._
 3. _Du siehst, dass ..._
