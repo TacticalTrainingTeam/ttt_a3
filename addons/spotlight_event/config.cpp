@@ -17,6 +17,7 @@ class CfgPatches {
         units[] = {};
         // List of weapons (CfgWeapons classes) contained in the addon.
         weapons[] = {};
+        VERSION_CONFIG;
     };
 };
 
