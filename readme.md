@@ -1,6 +1,6 @@
 # TTT Mod
 
-Arma 3 Modifikation für das Tactical Training Team.
+Arma 3 Modifikation für das Tactical Training Team. Benötigt die aktuellste version von [CBA A3](https://github.com/CBATeam/CBA_A3/releases) und [ACE](https://github.com/acemod/ACE3/releases).
 
 Du willst mitmachen? <http://www.tacticalteam.de/mitmachen>
 
@@ -9,8 +9,8 @@ Du willst mitmachen? <http://www.tacticalteam.de/mitmachen>
 1. Visual Studio Code installieren - <https://code.visualstudio.com>
     - hemtt Extension installieren - <https://marketplace.visualstudio.com/items?itemName=brettmayson.hemtt>
 2. Arma 3 Tools über Steam installieren und einmal starten
-3. hemtt installieren `winget install hemtt` in einer Kommandozeile ausführen - Dokumentation: <https://hemtt.dev>
-4. das Repo Clonen `git clone https://github.com/TacticalTrainingTeam/ttt_a3.git` in der Kommandozeile ausführen
+3. hemtt installieren - `winget install hemtt` in einer Kommandozeile ausführen - Dokumentation: <https://hemtt.dev>
+4. das Repo Clonen - `git clone https://github.com/TacticalTrainingTeam/ttt_a3.git` in der Kommandozeile ausführen
 5. Folgende Mods im Steamworkshop abonnieren:
     - CBA <https://steamcommunity.com/workshop/filedetails/?id=450814997>
     - ACE <https://steamcommunity.com/sharedfiles/filedetails/?id=463939057>
