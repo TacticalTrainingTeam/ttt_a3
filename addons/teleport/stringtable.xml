@@ -3,7 +3,7 @@
     <Package name="Teleport">
         <Key ID="STR_ttt_Teleport_enableJipMove_description">
             <English>When enabled, a jipping player will be automatically moved to the respawn</English>
-            <German>Wenn aktiviert, wird ein Spieler welcher jippt autoamtisch zum Respawm teleportiert.</German>
+            <German>Wenn aktiviert, wird ein Spieler welcher während der Mission beitritt automatisch zum Respawn teleportiert.</German>
         </Key>
         <Key ID="STR_ttt_Teleport_enableJipMove_displayName">
             <English>Activate JIP Move to Respawm Logic</English>

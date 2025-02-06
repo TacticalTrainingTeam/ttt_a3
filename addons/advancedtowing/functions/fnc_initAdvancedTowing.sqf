@@ -398,7 +398,7 @@ SA_Take_Tow_Ropes = {
             _hitchPoint = [_vehicle] call SA_Get_Hitch_Points select 1;
             _rope = ropeCreate [_vehicle, _hitchPoint, 10];
             _vehicle setVariable ["SA_Tow_Ropes",[_rope],true];
-            _this call SA_Pickup_Tow_Ropes;
+            call SA_Pickup_Tow_Ropes;
         };
     } else {
         [_this,"SA_Take_Tow_Ropes",_vehicle,true] call SA_RemoteExec;
@@ -456,8 +456,8 @@ SA_Put_Away_Tow_Ropes = {
         private ["_existingTowRopes","_hitchPoint","_rope"];
         _existingTowRopes = _vehicle getVariable ["SA_Tow_Ropes",[]];
         if(count _existingTowRopes > 0) then {
-            _this call SA_Pickup_Tow_Ropes;
-            _this call SA_Drop_Tow_Ropes;
+            call SA_Pickup_Tow_Ropes;
+            call SA_Drop_Tow_Ropes;
             {
                 ropeDestroy _x;
             } forEach _existingTowRopes;
