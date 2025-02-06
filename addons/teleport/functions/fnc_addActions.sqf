@@ -31,6 +31,17 @@ if (hasInterface) then {
         ["Initialize", [_caller, [], true]] call BIS_fnc_EGSpectator;
         [_caller, true] remoteExecCall ["hideObjectGlobal", 2];
 
+    	//remove all items so nothing bad can happen
+        //including things like android so the spectators dont show up on the map
+        removeAllWeapons _caller;
+        removeAllItems _caller;
+        removeAllAssignedItems _caller;
+        removeUniform _caller;
+        removeVest _caller;
+        removeBackpack _caller;
+        removeHeadgear _caller;
+        removeGoggles _caller;
+
     }, [], 0, false];
 
     // add teleporter Menü
