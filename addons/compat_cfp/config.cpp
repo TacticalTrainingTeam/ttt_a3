@@ -1,7 +1,7 @@
 #include "script_component.hpp"
 
 class CfgPatches {
-    class ADDON    {
+    class ADDON {
         // Meta information for editor
         name = COMPONENT_NAME;
         author = ECSTRING(main,TacticalTrainingTeam);
