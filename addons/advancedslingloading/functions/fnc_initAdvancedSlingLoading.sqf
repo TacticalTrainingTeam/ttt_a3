@@ -197,7 +197,7 @@ ASL_Get_Active_Ropes_With_Cargo = {
     private ["_activeRopesWithCargo","_existingCargo","_activeRopes","_cargo"];
     _activeRopesWithCargo = [];
     _existingCargo = _vehicle getVariable ["ASL_Cargo",[]];
-    _activeRopes = _this call ASL_Get_Active_Ropes;
+    _activeRopes = call ASL_Get_Active_Ropes;
     {
         _cargo = _existingCargo select (_x select 0);
         if(!isNull _cargo) then {
@@ -212,7 +212,7 @@ ASL_Get_Active_Ropes_Without_Cargo = {
     private ["_activeRopesWithoutCargo","_existingCargo","_activeRopes","_cargo"];
     _activeRopesWithoutCargo = [];
     _existingCargo = _vehicle getVariable ["ASL_Cargo",[]];
-    _activeRopes = _this call ASL_Get_Active_Ropes;
+    _activeRopes = call ASL_Get_Active_Ropes;
     {
         _cargo = _existingCargo select (_x select 0);
         if(isNull _cargo) then {
@@ -253,8 +253,8 @@ ASL_Get_Cargo = {
 ASL_Get_Ropes_And_Cargo = {
     params ["_vehicle","_ropeIndex"];
     private ["_selectedCargo","_selectedRopes"];
-    _selectedCargo = (_this call ASL_Get_Cargo);
-    _selectedRopes = (_this call ASL_Get_Ropes);
+    _selectedCargo = (call ASL_Get_Cargo);
+    _selectedRopes = (call ASL_Get_Ropes);
     [_selectedRopes, _selectedCargo];
 };
 
@@ -338,7 +338,7 @@ ASL_Shorten_Ropes = {
         if(count _existingRopes > 0) then {
             _ropeLength = ropeLength (_existingRopes select 0);
             if(_ropeLength <= 2 ) then {
-                _this call ASL_Release_Cargo;
+                call ASL_Release_Cargo;
             } else {
                 {
                     if(_ropeLength >= 10) then {
@@ -410,7 +410,7 @@ ASL_Release_Cargo = {
         _allCargo = _vehicle getVariable ["ASL_Cargo",[]];
         _allCargo set [_ropeIndex,objNull];
         _vehicle setVariable ["ASL_Cargo",_allCargo, true];
-        _this call ASL_Retract_Ropes;
+        call ASL_Retract_Ropes;
     } else {
         [_this,"ASL_Release_Cargo",_vehicle,true] call ASL_RemoteExec;
     };
@@ -467,7 +467,7 @@ ASL_Retract_Ropes = {
         _existingRopes = _existingRopesAndCargo select 0;
         _existingCargo = _existingRopesAndCargo select 1; 
         if(isNull _existingCargo) then {
-            _this call ASL_Drop_Ropes;
+            call ASL_Drop_Ropes;
             {
                 [_x,_vehicle] spawn {
                     params ["_rope","_vehicle"];
