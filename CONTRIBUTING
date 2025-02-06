@@ -22,3 +22,5 @@ Wenn Du zu diesem Projekt beitragen möchtest, bespreche bitte zuerst die Änder
 Bitte beachte, dass alle Mitwirkenden an diesem Projekt Freiwillige sind und dies in ihrer eigenen Zeit tun. Das bedeutet, dass Probleme und/oder PRs lange Zeit offen sein können, bevor sie aufgegriffen und überprüft werden. Wir versuchen, diese Zeit so kurz wie möglich zu halten, aber manchmal kann es vorkommen, dass dies nicht gelingt. Wenn du der Meinung sind, dass ein Problem oder eine PR nicht beachtet wurde, teilen Sie dies bitte im Discord mit.
 
 Im Code wird Tactical Training Team immer klein geschrieben, also `ttt`, im Interface immer groß `TTT`.
+
+Als `author` wird in der `config.cpp` aus konsistenzgründen immer `ECSTRING(main,TactiaclTrainingTeam)` angegeben. In `authors[]`-Array können sich alle, die an der jeweiligen Component mitgearbeitet haben selbst eintragen.
