@@ -271,11 +271,66 @@ class CfgVehicles {
     //Puma
     class BWA3_Puma_base: Tank_F {
 
-        acre_hasInfantryPhone = 1;
+        acre_hasInfantryPhone = 0;
         acre_infantryPhoneDisableRinging = 1;
+        acre_infantryPhoneCustomRinging[] = {};
         acre_infantryPhoneIntercom[] = {"all"};
         acre_infantryPhoneControlActions[] = {"all"};
+        acre_eventInfantryPhone = QEFUNC(common,noApiFunction);
+        acre_infantryPhonePosition[] = {};
 
+        class AcreIntercoms {
+            class Intercom_1 {
+                displayName = ECSTRING(common,BV);
+                shortName = ECSTRING(common,BVShort);
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                limitedPositions[] = {{"cargo", "all"}};
+                numLimitedPositions = 2;
+                masterPositions[] = {};
+                connectedByDefault = 1;
+            };
+        };
+
+        class AcreRacks {
+            class Rack_1 {
+                displayName = ECSTRING(common,RackA);
+                shortName = ECSTRING(common,RackAShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_SEM70";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_2 {
+                displayName = ECSTRING(common,RackB);
+                shortName = ECSTRING(common,RackBShort);
+                componentName = "ACRE_VRC103";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_PRC117F";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_3 {
+                displayName = ECSTRING(common,RackC);
+                shortName = ECSTRING(common,RackCShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "";
+                isRadioRemovable = 1;
+                intercom[] = {"all"};
+            };
+        };
+    };
+
+    //Skorpion
+    class BWA3_Skorpion_base: Tank_F {
         class AcreIntercoms {
             class Intercom_1 {
                 displayName = ECSTRING(common,BV);
