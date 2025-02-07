@@ -10,5 +10,9 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         VERSION_CONFIG;
+
+        skipWhenMissingDependencies = 1;
     };
 };
+
+#include "CfgVehicles.hpp"
