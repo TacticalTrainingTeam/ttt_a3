@@ -1,8 +1,18 @@
-# Compat BWmod 
+# Compat BWmod
 
 ## Eagle IV
 
 Fügt dem Eagle IV zwei abnehmbare Rucksäcke `BWA3_PatrolPack_Fleck` hinzu.
+
+## ACRE
+
+Konfiguriert alle Fahrzeuge mit den gleichen Rack Einstellungen:
+
+- Rack 1: SEM90 + SEM70 (Funkkreis A)
+- Rack 2: PRC107 + PRC117F (Funkkreis B)
+- Rack 3: SEM90 (Funkkreis C)
+
+Verbessert außerdem das Infanterietelefon und die Bordverständigungsanlage.
 
 ## Referenzen
 

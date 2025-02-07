@@ -27,8 +27,7 @@ class CfgVehicles {
 
         class AcreRacks
         {
-            class Rack_1
-            {
+            class Rack_1 {
                 displayName = ECSTRING(common,RackA);
                 shortName = ECSTRING(common,RackAShort);
                 componentName = "ACRE_SEM90";
@@ -40,8 +39,7 @@ class CfgVehicles {
                 intercom[] = {"none"};
             };
 
-            class Rack_2
-            {
+            class Rack_2 {
                 displayName = ECSTRING(common,RackB);
                 shortName = ECSTRING(common,RackBShort);
                 componentName = "ACRE_VRC103";
@@ -53,8 +51,7 @@ class CfgVehicles {
                 intercom[] = {"none"};
             };
 
-            class Rack_3
-            {
+            class Rack_3 {
                 displayName = ECSTRING(common,RackC);
                 shortName = ECSTRING(common,RackCShort);
                 componentName = "ACRE_SEM90";
@@ -72,8 +69,8 @@ class CfgVehicles {
      class BWA3_Dingo2_base: Car_F {
         class AcreRacks {
             class Rack_1 {
-                displayName = ECSTRING(ACRE,RackA);
-                shortName = ECSTRING(ACRE,RackAShort);
+                displayName = ECSTRING(common,RackA);
+                shortName = ECSTRING(common,RackAShort);
                 componentName = "ACRE_SEM90";
                 allowedPositions[] = {"inside"};
                 disabledPositions[] = {};
@@ -83,8 +80,8 @@ class CfgVehicles {
                 intercom[] = {"none"};
             };
             class Rack_2 {
-                displayName = ECSTRING(ACRE,RackB);
-                shortName = ECSTRING(ACRE,RackBShort);
+                displayName = ECSTRING(common,RackB);
+                shortName = ECSTRING(common,RackBShort);
                 componentName = "ACRE_VRC103";
                 allowedPositions[] = {"inside"};
                 disabledPositions[] = {};
@@ -93,8 +90,7 @@ class CfgVehicles {
                 isRadioRemovable = 0;
                 intercom[] = {"none"};
             };
-            class Rack_3
-            {
+            class Rack_3 {
                 displayName = ECSTRING(common,RackC);
                 shortName = ECSTRING(common,RackCShort);
                 componentName = "ACRE_SEM90";
@@ -113,8 +109,8 @@ class CfgVehicles {
      class BWA3_Multi_base: Truck_F {
         class AcreRacks {
             class Rack_1 {
-                displayName = ECSTRING(ACRE,RackA);
-                shortName = ECSTRING(ACRE,RackAShort);
+                displayName = ECSTRING(common,RackA);
+                shortName = ECSTRING(common,RackAShort);
                 componentName = "ACRE_SEM90";
                 allowedPositions[] = {"inside"};
                 disabledPositions[] = {};
@@ -124,8 +120,8 @@ class CfgVehicles {
                 intercom[] = {"none"};
             };
             class Rack_2 {
-                displayName = ECSTRING(ACRE,RackB);
-                shortName = ECSTRING(ACRE,RackBShort);
+                displayName = ECSTRING(common,RackB);
+                shortName = ECSTRING(common,RackBShort);
                 componentName = "ACRE_VRC103";
                 allowedPositions[] = {"inside"};
                 disabledPositions[] = {};
@@ -134,8 +130,7 @@ class CfgVehicles {
                 isRadioRemovable = 0;
                 intercom[] = {"none"};
             };
-            class Rack_3
-            {
+            class Rack_3 {
                 displayName = ECSTRING(common,RackC);
                 shortName = ECSTRING(common,RackCShort);
                 componentName = "ACRE_SEM90";
@@ -176,8 +171,8 @@ class CfgVehicles {
 
         class AcreRacks {
             class Rack_1 {
-                displayName = ECSTRING(ACRE,RackA);
-                shortName = ECSTRING(ACRE,RackAShort);
+                displayName = ECSTRING(common,RackA);
+                shortName = ECSTRING(common,RackAShort);
                 componentName = "ACRE_SEM90";
                 allowedPositions[] = {"crew"};
                 disabledPositions[] = {};
@@ -187,8 +182,8 @@ class CfgVehicles {
                 intercom[] = {"all"};
             };
             class Rack_2 {
-                displayName = ECSTRING(ACRE,RackB);
-                shortName = ECSTRING(ACRE,RackBShort);
+                displayName = ECSTRING(common,RackB);
+                shortName = ECSTRING(common,RackBShort);
                 componentName = "ACRE_VRC103";
                 allowedPositions[] = {"crew"};
                 disabledPositions[] = {};
@@ -197,8 +192,7 @@ class CfgVehicles {
                 isRadioRemovable = 0;
                 intercom[] = {"all"};
             };
-            class Rack_3
-            {
+            class Rack_3 {
                 displayName = ECSTRING(common,RackC);
                 shortName = ECSTRING(common,RackCShort);
                 componentName = "ACRE_SEM90";
@@ -239,8 +233,8 @@ class CfgVehicles {
 
         class AcreRacks {
             class Rack_1 {
-                displayName = ECSTRING(ACRE,RackA);
-                shortName = ECSTRING(ACRE,RackAShort);
+                displayName = ECSTRING(common,RackA);
+                shortName = ECSTRING(common,RackAShort);
                 componentName = "ACRE_SEM90";
                 allowedPositions[] = {"crew"};
                 disabledPositions[] = {};
@@ -250,8 +244,8 @@ class CfgVehicles {
                 intercom[] = {"all"};
             };
             class Rack_2 {
-                displayName = ECSTRING(ACRE,RackB);
-                shortName = ECSTRING(ACRE,RackBShort);
+                displayName = ECSTRING(common,RackB);
+                shortName = ECSTRING(common,RackBShort);
                 componentName = "ACRE_VRC103";
                 allowedPositions[] = {"crew"};
                 disabledPositions[] = {};
@@ -260,8 +254,7 @@ class CfgVehicles {
                 isRadioRemovable = 0;
                 intercom[] = {"all"};
             };
-            class Rack_3
-            {
+            class Rack_3 {
                 displayName = ECSTRING(common,RackC);
                 shortName = ECSTRING(common,RackCShort);
                 componentName = "ACRE_SEM90";
@@ -290,7 +283,7 @@ class CfgVehicles {
                 allowedPositions[] = {"crew"};
                 disabledPositions[] = {};
                 limitedPositions[] = {{"cargo", "all"}};
-                numLimitedPositions = 1;
+                numLimitedPositions = 6;
                 masterPositions[] = {};
                 connectedByDefault = 1;
             };
@@ -298,8 +291,8 @@ class CfgVehicles {
 
         class AcreRacks {
             class Rack_1 {
-                displayName = ECSTRING(ACRE,RackA);
-                shortName = ECSTRING(ACRE,RackAShort);
+                displayName = ECSTRING(common,RackA);
+                shortName = ECSTRING(common,RackAShort);
                 componentName = "ACRE_SEM90";
                 allowedPositions[] = {"crew"};
                 disabledPositions[] = {};
@@ -309,8 +302,8 @@ class CfgVehicles {
                 intercom[] = {"all"};
             };
             class Rack_2 {
-                displayName = ECSTRING(ACRE,RackB);
-                shortName = ECSTRING(ACRE,RackBShort);
+                displayName = ECSTRING(common,RackB);
+                shortName = ECSTRING(common,RackBShort);
                 componentName = "ACRE_VRC103";
                 allowedPositions[] = {"crew"};
                 disabledPositions[] = {};
