@@ -12,7 +12,7 @@ Konfiguriert alle Fahrzeuge mit den gleichen Rack Einstellungen:
 - Rack 2: PRC107 + PRC117F (Funkkreis B)
 - Rack 3: SEM90 (Funkkreis C)
 
-Verbessert außerdem das Infanterietelefon und die Bordverständigungsanlage.
+Vereinheitlicht außerdem das Infanterietelefon und die Bordverständigungsanlage.
 
 ## Referenzen
 
