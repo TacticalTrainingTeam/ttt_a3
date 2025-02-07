@@ -14,7 +14,7 @@
  *      None
  *
  *  Example:
- *      [cursorTarget, player, 1] call PzGrenBtl402_ACRE_fnc_noApiFunction
+ *      [cursorTarget, player, 1] call ttt_common_fnc_noApiFunction
  *
  */
 

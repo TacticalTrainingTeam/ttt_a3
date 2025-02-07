@@ -271,13 +271,10 @@ class CfgVehicles {
     //Puma
     class BWA3_Puma_base: Tank_F {
 
-        acre_hasInfantryPhone = 0;
+        acre_hasInfantryPhone = 1;
         acre_infantryPhoneDisableRinging = 1;
-        acre_infantryPhoneCustomRinging[] = {};
         acre_infantryPhoneIntercom[] = {"all"};
         acre_infantryPhoneControlActions[] = {"all"};
-        acre_eventInfantryPhone = QEFUNC(common,noApiFunction);
-        acre_infantryPhonePosition[] = {};
 
         class AcreIntercoms {
             class Intercom_1 {
