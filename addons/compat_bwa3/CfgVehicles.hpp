@@ -203,6 +203,15 @@ class CfgVehicles {
     };
     //Skorpion
     class BWA3_Skorpion_base: Tank_F {
+
+        acre_hasInfantryPhone = 0;
+        acre_infantryPhoneDisableRinging = 1;
+        acre_infantryPhoneCustomRinging[] = {};
+        acre_infantryPhoneIntercom[] = {"all"};
+        acre_infantryPhoneControlActions[] = {"all"};
+        acre_eventInfantryPhone = QEFUNC(common,noApiFunction);
+        acre_infantryPhonePosition[] = {};
+
         class AcreIntercoms {
             class Intercom_1 {
                 displayName = ECSTRING(common,BV);
