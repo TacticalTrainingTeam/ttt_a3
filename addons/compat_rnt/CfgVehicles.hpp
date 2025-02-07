@@ -152,30 +152,24 @@ class CfgVehicles {
 
     class Car_F;
     //Fuchs
-    class Wheeled_APC_F: Car_F
-    {
+    class Wheeled_APC_F: Car_F {
         class NewTurret;
 
-        class Turrets
-        {
-            class MainTurret: NewTurret
-            {
+        class Turrets {
+            class MainTurret: NewTurret{
                 class Turrets;
             };
         };
     };
 
-    class Redd_Tank_Fuchs_1A4_Base: Wheeled_APC_F
-    {
+    class Redd_Tank_Fuchs_1A4_Base: Wheeled_APC_F{
         disableSoundAttenuation = 0;
         attenuationEffectType = "TankAttenuation";
         driverCompartments = "Compartment1";
         cargoCompartments[] = {"Compartment2"};
 
-        class AcreIntercoms
-        {
-            class Intercom_1
-            {
+        class AcreIntercoms {
+            class Intercom_1 {
                 displayName = ECSTRING(common,BV);
                 shortName = ECSTRING(common,BVShort);
                 allowedPositions[] = {"driver", "gunner", {"turret", {0,3}}};
@@ -195,8 +189,7 @@ class CfgVehicles {
         acre_eventInfantryPhone = QEFUNC(common,noApiFunction);
         acre_infantryPhonePosition[] = {-1.1, -3.3, -0.4};
 
-        class AcreRacks
-        {
+        class AcreRacks {
             class Rack_1 {
                 displayName = ECSTRING(common,RackA);
                 shortName = ECSTRING(common,RackAShort);
