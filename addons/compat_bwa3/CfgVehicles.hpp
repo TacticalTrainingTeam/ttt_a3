@@ -2,6 +2,8 @@
 
 class CfgVehicles {
     class Car_F;
+
+    //Eagle IV
     class BWA3_Eagle_base: Car_F {
         class ace_interaction_anims {
             class backpack_back {
@@ -22,19 +24,312 @@ class CfgVehicles {
                 text = "Removing Rope...";
             }*/
         };
-        class AcreRacks {
-            //Rack_1 and Rack_2 are already defined in BWA3
-            class Rack_3 {
-                displayName = "Dash Upper II";      // Name displayed in the interaction menu
-                shortName = "D.Up2";                   // Short name displayed on the HUD. Maximum of 5 characters
-                componentName = "ACRE_VRC103";        // Able to mount a PRC152
-                allowedPositions[] = {"inside"}; // Who can configure the radio and open the radio GUI. Same wildcards as the intercom. It also allows transmitting/receiving
-                disabledPositions[] = {};             // Who cannot access the radio (default: {})
-                defaultComponents[] = {};             // Use this to attach simple components like Antennas, they will first attempt to fill empty connectors but will overide existing connectors. Not yet fully implemented. (default: {})
-                mountedRadio = "ACRE_PRC117F";        // Predefined mounted radio (default: "", meaning none)
-                isRadioRemovable = 0;                 // Radio can be removed (default: 0)
-                intercom[] = {};                      // Radio not wired to any intercom. All units in intercom can receive/send transmittions (ACE3 interaction menu) but they cannot manipulate the radio (GUI interface) (default: {})
+
+        class AcreRacks
+        {
+            class Rack_1
+            {
+                displayName = ECSTRING(common,RackA);
+                shortName = ECSTRING(common,RackAShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"inside"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_SEM70";
+                isRadioRemovable = 0;
+                intercom[] = {"none"};
             };
-        }; 
+
+            class Rack_2
+            {
+                displayName = ECSTRING(common,RackB);
+                shortName = ECSTRING(common,RackBShort);
+                componentName = "ACRE_VRC103";
+                allowedPositions[] = {"inside"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_PRC117F";
+                isRadioRemovable = 0;
+                intercom[] = {"none"};
+            };
+
+            class Rack_3
+            {
+                displayName = ECSTRING(common,RackC);
+                shortName = ECSTRING(common,RackCShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"inside"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "";
+                isRadioRemovable = 1;
+                intercom[] = {"none"};
+            };
+        };
+    };
+
+    //Dingo
+     class BWA3_Dingo2_base: Car_F {
+        class AcreRacks {
+            class Rack_1 {
+                displayName = ECSTRING(ACRE,RackA);
+                shortName = ECSTRING(ACRE,RackAShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"inside"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_SEM70";
+                isRadioRemovable = 0;
+                intercom[] = {"none"};
+            };
+            class Rack_2 {
+                displayName = ECSTRING(ACRE,RackB);
+                shortName = ECSTRING(ACRE,RackBShort);
+                componentName = "ACRE_VRC103";
+                allowedPositions[] = {"inside"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_PRC117F";
+                isRadioRemovable = 0;
+                intercom[] = {"none"};
+            };
+            class Rack_3
+            {
+                displayName = ECSTRING(common,RackC);
+                shortName = ECSTRING(common,RackCShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"inside"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "";
+                isRadioRemovable = 1;
+                intercom[] = {"none"};
+            };
+        };
+     };
+
+     //Multi
+     class Truck_F;
+     class BWA3_Multi_base: Truck_F {
+        class AcreRacks {
+            class Rack_1 {
+                displayName = ECSTRING(ACRE,RackA);
+                shortName = ECSTRING(ACRE,RackAShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"inside"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_SEM70";
+                isRadioRemovable = 0;
+                intercom[] = {"none"};
+            };
+            class Rack_2 {
+                displayName = ECSTRING(ACRE,RackB);
+                shortName = ECSTRING(ACRE,RackBShort);
+                componentName = "ACRE_VRC103";
+                allowedPositions[] = {"inside"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_PRC117F";
+                isRadioRemovable = 0;
+                intercom[] = {"none"};
+            };
+            class Rack_3
+            {
+                displayName = ECSTRING(common,RackC);
+                shortName = ECSTRING(common,RackCShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"inside"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "";
+                isRadioRemovable = 1;
+                intercom[] = {"none"};
+            };
+        };
+     };
+
+    //Leopard 2
+    class Tank_F;
+    class BWA3_Leopard2_base: Tank_F {
+
+        acre_hasInfantryPhone = 0;
+        acre_infantryPhoneDisableRinging = 1;
+        acre_infantryPhoneCustomRinging[] = {};
+        acre_infantryPhoneIntercom[] = {"all"};
+        acre_infantryPhoneControlActions[] = {"all"};
+        acre_eventInfantryPhone = QEFUNC(common,noApiFunction);
+        acre_infantryPhonePosition[] = {};
+
+        class AcreIntercoms {
+            class Intercom_1 {
+                displayName = ECSTRING(common,BV);
+                shortName = ECSTRING(common,BVShort);
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                limitedPositions[] = {};
+                numLimitedPositions = 0;
+                masterPositions[] = {};
+                connectedByDefault = 1;
+            };
+        };
+
+        class AcreRacks {
+            class Rack_1 {
+                displayName = ECSTRING(ACRE,RackA);
+                shortName = ECSTRING(ACRE,RackAShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_SEM70";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_2 {
+                displayName = ECSTRING(ACRE,RackB);
+                shortName = ECSTRING(ACRE,RackBShort);
+                componentName = "ACRE_VRC103";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_PRC117F";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_3
+            {
+                displayName = ECSTRING(common,RackC);
+                shortName = ECSTRING(common,RackCShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "";
+                isRadioRemovable = 1;
+                intercom[] = {"all"};
+            };
+        };
+    };
+
+
+    //Pzh2000
+    class BWA3_Panzerhaubitze2000_base: Tank_F {
+    
+        acre_hasInfantryPhone = 0;
+        acre_infantryPhoneDisableRinging = 1;
+        acre_infantryPhoneCustomRinging[] = {};
+        acre_infantryPhoneIntercom[] = {"all"};
+        acre_infantryPhoneControlActions[] = {"all"};
+        acre_eventInfantryPhone = QEFUNC(common,noApiFunction);
+        acre_infantryPhonePosition[] = {};
+
+        class AcreIntercoms {
+            class Intercom_1 {
+                displayName = ECSTRING(common,BV);
+                shortName = ECSTRING(common,BVShort);
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                limitedPositions[] = {};
+                numLimitedPositions = 0;
+                masterPositions[] = {};
+                connectedByDefault = 1;
+            };
+        };
+
+        class AcreRacks {
+            class Rack_1 {
+                displayName = ECSTRING(ACRE,RackA);
+                shortName = ECSTRING(ACRE,RackAShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_SEM70";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_2 {
+                displayName = ECSTRING(ACRE,RackB);
+                shortName = ECSTRING(ACRE,RackBShort);
+                componentName = "ACRE_VRC103";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_PRC117F";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_3
+            {
+                displayName = ECSTRING(common,RackC);
+                shortName = ECSTRING(common,RackCShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "";
+                isRadioRemovable = 1;
+                intercom[] = {"all"};
+            };
+        };
+    };
+
+    //Puma
+    class BWA3_Puma_base: Tank_F {
+
+        acre_hasInfantryPhone = 1;
+        acre_infantryPhoneDisableRinging = 1;
+        acre_infantryPhoneIntercom[] = {"all"};
+        acre_infantryPhoneControlActions[] = {"all"};
+
+        class AcreIntercoms {
+            class Intercom_1 {
+                displayName = ECSTRING(common,BV);
+                shortName = ECSTRING(common,BVShort);
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                limitedPositions[] = {{"cargo", "all"}};
+                numLimitedPositions = 1;
+                masterPositions[] = {};
+                connectedByDefault = 1;
+            };
+        };
+
+        class AcreRacks {
+            class Rack_1 {
+                displayName = ECSTRING(ACRE,RackA);
+                shortName = ECSTRING(ACRE,RackAShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_SEM70";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_2 {
+                displayName = ECSTRING(ACRE,RackB);
+                shortName = ECSTRING(ACRE,RackBShort);
+                componentName = "ACRE_VRC103";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_PRC117F";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_3 {
+                displayName = ECSTRING(common,RackC);
+                shortName = ECSTRING(common,RackCShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "";
+                isRadioRemovable = 1;
+                intercom[] = {"all"};
+            };
+        };
     };
 };

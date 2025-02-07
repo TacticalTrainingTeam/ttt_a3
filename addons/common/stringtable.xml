@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="common">
+        <Key ID="STR_ttt_common_BV">
+            <English>Bordverständigungsanlage</English>
+            <German>Bordverständigungsanlage</German>
+        </Key>
+        <Key ID="STR_ttt_common_BVShort">
+            <English>BV</English>
+            <German>BV</German>
+        </Key>
+        <Key ID="STR_ttt_common_RackA">
+            <English>Funkkreis A</English>
+            <German>Funkkreis A</German>
+        </Key>
+        <Key ID="STR_ttt_common_RackAShort">
+            <English>Krs A</English>
+            <German>Krs A</German>
+        </Key>
+        <Key ID="STR_ttt_common_RackB">
+            <English>Funkkreis B</English>
+            <German>Funkkreis B</German>
+        </Key>
+        <Key ID="STR_ttt_common_RackBShort">
+            <English>Krs B</English>
+            <German>Krs B</German>
+        </Key>
+        <Key ID="STR_ttt_common_RackC">
+            <English>Funkkreis C</English>
+            <German>Funkkreis C</German>
+        </Key>
+        <Key ID="STR_ttt_common_RackCShort">
+            <English>Krs C</English>
+            <German>Krs C</German>
+        </Key>
+    </Package>
+</Project>
