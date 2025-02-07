@@ -1,4 +1,4 @@
-#define COMPONENT trenches
-#define COMPONENT_BEAUTIFIED Trenches
+#define SUBCOMPONENT trenches
+#define SUBCOMPONENT_BEAUTIFIED Trenches
 #include "..\script_component.hpp"
 

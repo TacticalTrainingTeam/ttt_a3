@@ -2,7 +2,7 @@
 
 class CfgPatches {
     class SUBADDON {
-        author = ECSTRING(main,TacticalTrainingTeam);;
+        author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Andx"};
         name = COMPONENT_NAME;
         addonRootClass = QUOTE(ADDON);
