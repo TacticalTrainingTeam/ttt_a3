@@ -9,7 +9,7 @@ Fügt dem Eagle IV zwei abnehmbare Rucksäcke `BWA3_PatrolPack_Fleck` hinzu.
 Konfiguriert alle Fahrzeuge mit den gleichen Rack Einstellungen:
 
 - Rack 1: SEM90 + SEM70 (Funkkreis A)
-- Rack 2: PRC107 + PRC117F (Funkkreis B)
+- Rack 2: PRC103 + PRC117F (Funkkreis B)
 - Rack 3: SEM90 (Funkkreis C)
 
 Vereinheitlicht außerdem das Infanterietelefon und die Bordverständigungsanlage.
