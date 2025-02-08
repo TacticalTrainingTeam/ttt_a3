@@ -1,4 +1,4 @@
-# Compat BWmod 
+# Compat BWmod
 
 ## Eagle IV
 
