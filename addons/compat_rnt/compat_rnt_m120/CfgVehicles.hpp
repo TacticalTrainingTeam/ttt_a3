@@ -3,7 +3,7 @@ class XEH_CLASS_BASE;
 class CfgVehicles {
 
     class LandVehicle;
-    class StaticWeapon: LandVehicle{
+    class StaticWeapon: LandVehicle {
         class Turrets {
             class MainTurret;
         };
@@ -17,6 +17,10 @@ class CfgVehicles {
     };
 
     class Redd_Tank_M120_Tampella_Base: StaticMortar {
+        armor = 500000; // Make invincible
+
+        ace_cargo_noRename = 1;
+        ace_cargo_canLoad = 0;
 
         class ACE_CSW {
             enabled = 1; // Enables ACE CSW for this weapon              
@@ -29,9 +33,9 @@ class CfgVehicles {
             disassembleFunc = "prefix_fnc_handleDisassembly";
         };
 
-        class assembleInfo {
-            dissasembleTo[] = {};
-        };
+        // class assembleInfo {
+        //     dissasembleTo[] = {};
+        // };
 
         class UserActions {
             delete M120_removeflag;

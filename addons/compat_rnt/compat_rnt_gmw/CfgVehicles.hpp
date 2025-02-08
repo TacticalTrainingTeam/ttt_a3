@@ -18,6 +18,9 @@ class CfgVehicles {
     class rnt_gmw_static: GMG_01_base_F {
         armor = 500000; // Make invincible
 
+        ace_cargo_noRename = 1;
+        ace_cargo_canLoad = 0;
+
         class Turrets: Turrets {
             class MainTurret: MainTurret {
                 //turretInfoType = QEGVAR(Redd_Main,RSC_MG3);

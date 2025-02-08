@@ -80,7 +80,7 @@ class CfgVehicles {
         };
 
         class Turrets: Turrets {
-            class MainTurret: MainTurret{
+            class MainTurret: MainTurret {
                 stabilizedInAxes = 0;
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
