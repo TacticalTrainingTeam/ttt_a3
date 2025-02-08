@@ -18,6 +18,8 @@
 
 params ["_milan"];
 
+INFO("Adding actions to Milan");
+
 private _loadIcon = QPATHTOF(data\ui\holdaction_load_milan);
 // Milan laden
 [
@@ -29,7 +31,7 @@ private _loadIcon = QPATHTOF(data\ui\holdaction_load_milan);
     QUOTE([ARR_2(_target,_caller)] call FUNC(canLoad)),
     {},
     {},
-    LINKFUNC(load),
+    FUNC(load),
     {},
     [],
     10,
@@ -50,7 +52,7 @@ private _unloadIcon = QPATHTOF(data\ui\holdaction_unload_milan);
     QUOTE([ARR_2(_target,_caller)] call FUNC(canUnload)),
     {},
     {},
-    LINKFUNC(unload),
+    FUNC(unload),
     {},
     [],
     10,
