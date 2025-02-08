@@ -5,6 +5,11 @@ class CfgVehicles {
     class StaticWeapon: LandVehicle {
         class Turrets;
         class MainTurret;
+
+        class ACE_Actions {
+            class ACE_MainActions;
+        };
+        class ACE_SelfActions;
     };
     class StaticGrenadeLauncher: StaticWeapon {};
     class GMG_TriPod: StaticGrenadeLauncher {};
@@ -15,7 +20,7 @@ class CfgVehicles {
 
         class Turrets: Turrets {
             class MainTurret: MainTurret {
-                turretInfoType = QEGVAR(Redd_Main,RSC_MG3);
+                //turretInfoType = QEGVAR(Redd_Main,RSC_MG3);
 
                 gunnerGetInAction = "PlayerCrouch";
                 gunnerGetOutAction = "PlayerCrouch";
