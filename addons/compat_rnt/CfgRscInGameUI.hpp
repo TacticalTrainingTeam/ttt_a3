@@ -16,7 +16,27 @@ class RscInGameUI {
             };
         };
     };
-    
+
+    // class GVAR(RSC_Turret): Redd_RCS_Turret {
+    //     class CA_IGUI_elements_group: CA_IGUI_elements_group {
+    //         class controls: controls {
+    //             class CA_TurretIndicator: CA_TurretIndicator {
+    //                 // Remove turret picture in gunner and commander optics
+    //                 DISABLE_FEATURE;
+    //             };
+    //             class CA_HorizontalCompass: CA_HorizontalCompass {};
+    //             class AzimuthMark: AzimuthMark {};
+    //             class CA_Heading: CA_Heading {};
+    //             class CA_LasedRange: CA_LasedRange {
+    //                 // Remove range finder in gunner and commander optics
+    //                 DISABLE_FEATURE;
+    //             };
+    //         };
+    //     };
+    // };
+
+
+
     class Redd_RSC_Milan: RscUnitInfo {
         class CA_IGUI_elements_group: RscControlsGroup {
             class controls {
@@ -40,6 +60,29 @@ class RscInGameUI {
         };
     };
 
+
+
+    // class Redd_RCS_Driver: RscUnitInfo {
+    //     class CA_IGUI_elements_group: RscControlsGroup {
+    //         class controls {
+    //             class CA_TurretIndicator;
+    //             class CA_HorizontalCompass;
+    //             class CA_Heading;
+    //         };
+    //     };
+    // };
+
+    // class GVAR(RSC_Driver): Redd_RCS_Driver {
+    //     class CA_IGUI_elements_group: CA_IGUI_elements_group {
+    //         class controls: controls {
+    //             class CA_TurretIndicator: CA_TurretIndicator {
+    //                 DISABLE_FEATURE;
+    //             };
+    //             class CA_HorizontalCompass: CA_HorizontalCompass {};
+    //             class CA_Heading: CA_Heading {};
+    //         };
+    //     };
+    // };
 
     class Redd_RSC_MG3: RscUnitInfo {
         class CA_IGUI_elements_group: RscControlsGroupNoScrollbars {
