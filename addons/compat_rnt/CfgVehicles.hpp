@@ -1,7 +1,8 @@
 class XEH_CLASS_BASE;
 
 class CfgVehicles {
-
+    
+    //MG3
     class Bag_Base;
     class rnt_mg3_static_tripod: Bag_Base {
         armor = 500000; // Make invincible
@@ -15,7 +16,6 @@ class CfgVehicles {
         };
     };
 
-    //MG3 und GMW
     class LandVehicle;
     class StaticWeapon: LandVehicle {
         class Turrets;
@@ -171,6 +171,7 @@ class CfgVehicles {
         };
     };
 
+    //GraMaWa
     class StaticGrenadeLauncher: StaticWeapon {};
     class GMG_TriPod: StaticGrenadeLauncher {};
     class GMG_01_base_F: GMG_TriPod {};
