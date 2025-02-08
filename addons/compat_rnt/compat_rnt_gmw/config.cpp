@@ -7,7 +7,8 @@ class CfgPatches {
         addonRootClass = QUOTE(ADDON);
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "rnt_gmw_static"
+            "rnt_gmw_static",
+            "rnt_ace_compatibility"
         };
         units[] = {};
         weapons[] = {};
