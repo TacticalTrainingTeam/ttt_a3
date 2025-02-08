@@ -2,7 +2,7 @@
 
 class CfgPatches {
     class SUBADDON {
-        authors[] = {"Andx"};
+        authors[] = {"Andx", "Addi"};
         name = COMPONENT_NAME;
         addonRootClass = QUOTE(ADDON);
         requiredVersion = REQUIRED_VERSION;
@@ -20,3 +20,5 @@ class CfgPatches {
 
 #include "CfgEventhandlers.hpp"
 #include "CfgVehicles.hpp"
+#include "CfgWeapons.hpp"
+#include "CfgMagazineGroups.hpp"

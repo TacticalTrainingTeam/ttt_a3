@@ -1,8 +1,34 @@
 class XEH_CLASS_BASE;
 
 class CfgVehicles {
-    class StaticMortar;
+
+    class LandVehicle;
+    class StaticWeapon: LandVehicle{
+        class Turrets {
+            class MainTurret;
+        };
+    };
+    class StaticMortar: StaticWeapon {
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {
+                class ViewOptics;
+            };
+        };
+    };
+
     class Redd_Tank_M120_Tampella_Base: StaticMortar {
+
+        class ACE_CSW {
+            enabled = 1; // Enables ACE CSW for this weapon              
+            proxyWeapon = "Addi_M120_Tampella_proxy"; // The proxy weapon created above
+            magazineLocation = "_target selectionPosition 'muendung'"; // Ammo handling interaction point location
+            ammoLoadTime = 1;   // How long it takes in seconds to load ammo into the weapon           
+            ammoUnloadTime = 5; // How long it takes in seconds to unload ammo from the weapon
+            desiredAmmo = 1;  // When the weapon is reloaded it will try and reload to this ammo capacity
+            // Optional callback function for when the CSW gets disassembled, called with [tripod, staticWeapon]
+            disassembleFunc = "prefix_fnc_handleDisassembly";
+        };
+
         class assembleInfo {
             dissasembleTo[] = {};
         };
