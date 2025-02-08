@@ -6,7 +6,7 @@ class CfgVehicles {
         class CommanderOptics;
     };
 
-    class Tank_F: Tank{
+    class Tank_F: Tank {
         class Components;
         class ViewOptics;
         class Turrets {
@@ -19,8 +19,7 @@ class CfgVehicles {
         };
     };
 
-    class Redd_Tank_Wiesel_1A4_MK20_base: Tank_F
-    {
+    class Redd_Tank_Wiesel_1A4_MK20_base: Tank_F {
         //maximumLoad = 10000;
         disableSoundAttenuation = 0;
         attenuationEffectType = "TankAttenuation";

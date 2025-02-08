@@ -1,4 +1,4 @@
-class CfgVehicles{
+class CfgVehicles {
     class Car_F;
     class Redd_Tank_LKW_leicht_gl_Wolf_Base: Car_F {
         //maximumLoad = 10000;
