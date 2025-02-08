@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Compat_Rnt_Milan">
+        <Key ID="STR_Compat_Rnt_Milan_assemble">
+            <English>Assemble Milan</English>
+            <German>Milan aufbauen</German>
+        </Key>
+        <Key ID="STR_Compat_Rnt_Milan_disassemble">
+            <English>Disassemble Milan</English>
+            <German>Milan abbauen</German>
+        </Key>
+        <Key ID="STR_Compat_Rnt_Milan_load">
+            <English>Load Milan</English>
+            <German>Milan laden</German>
+        </Key>
+        <Key ID="STR_Compat_Rnt_Milan_unload">
+            <English>Unload Milan</English>
+            <German>Milan entladen</German>
+        </Key>
+    </Package>
+</Project>
