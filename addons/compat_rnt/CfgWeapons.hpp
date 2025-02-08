@@ -14,6 +14,15 @@ class CfgWeapons {
         magazines[] += { // ACE CSW needs all compatible magazines in this array for reloading
             "150Rnd_762x51_Box",
             "150Rnd_762x51_Box_Tracer"
+            //ToDo Erweitern
         };
+        class GVAR(mg3): Redd_MG3 {
+            magazineReloadTime = 0.1;
+        };
+    };
+
+    class missiles_titan;
+    class Redd_Milan: missiles_titan {
+        magazineReloadTime = 0.1; //Armanachladezeit möglichst gering, um Ein-, Aussteigebug zu umgehen
     };
 };

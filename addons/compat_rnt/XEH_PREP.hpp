@@ -1,4 +1,4 @@
-PREP(canAdjustHeigt);
+PREP(canAdjustHeight);
 PREP(canMountMG);
 PREP(disassemble);
 PREP(mountMG);
