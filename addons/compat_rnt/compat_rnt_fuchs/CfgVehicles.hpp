@@ -1,22 +1,18 @@
-class CfgVehicles
-{
+class CfgVehicles {
+
     class Car_F;
 
-    class Wheeled_APC_F: Car_F
-    {
+    class Wheeled_APC_F: Car_F {
         class NewTurret;
 
-        class Turrets
-        {
-            class MainTurret: NewTurret
-            {
+        class Turrets {
+            class MainTurret: NewTurret {
                 class Turrets;
             };
         };
     };
 
-    class Redd_Tank_Fuchs_1A4_Base: Wheeled_APC_F
-    {
+    class Redd_Tank_Fuchs_1A4_Base: Wheeled_APC_F {
         //maximumLoad = 10000;
         disableSoundAttenuation = 0;
         attenuationEffectType = "TankAttenuation";
@@ -24,13 +20,8 @@ class CfgVehicles
         cargoCompartments[] = {"Compartment2"};
         //enableGPS = 0;
 
-        //class TransportBackpacks {delete _xx_B_AssaultPack_rgr;};
-        //class TransportItems {delete _xx_Toolkit;};
-
-        class AcreIntercoms
-        {
-            class Intercom_1
-            {
+        class AcreIntercoms {
+            class Intercom_1 {
                 displayName = ECSTRING(common,BV);
                 shortName = ECSTRING(common,BVShort);
                 allowedPositions[] = {"driver", "gunner", {"turret", {0,3}}};
@@ -88,27 +79,22 @@ class CfgVehicles
             };
         };
 
-        class Turrets: Turrets
-        {
-            class MainTurret: MainTurret
-            {
+        class Turrets: Turrets {
+            class MainTurret: MainTurret{
                 stabilizedInAxes = 0;
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
                 gunnerCompartments= "Compartment3";
 
-                class Turrets: Turrets
-                {
-                    class commander_hatch: NewTurret
-                    {
+                class Turrets: Turrets {
+                    class commander_hatch: NewTurret {
                         stabilizedInAxes = 0;
                         disableSoundAttenuation = 0;
                         soundAttenuationTurret = "TankAttenuation";
                         gunnerCompartments= "Compartment2";
                     };
 
-                    class fake_gunner_turret: commander_hatch
-                    {
+                    class fake_gunner_turret: commander_hatch {
                         stabilizedInAxes = 0;
                         disableSoundAttenuation = 0;
                         soundAttenuationTurret = "TankAttenuation";
@@ -117,16 +103,14 @@ class CfgVehicles
                 };
             };
 
-            class Fuchs_Bino_Turret_Com: NewTurret
-            {
+            class Fuchs_Bino_Turret_Com: NewTurret {
                 stabilizedInAxes = 0;
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
                 gunnerCompartments= "Compartment3";
             };
 
-            class Fuchs_Milan_Turret: NewTurret
-            {
+            class Fuchs_Milan_Turret: NewTurret            {
                 stabilizedInAxes = 0;
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";

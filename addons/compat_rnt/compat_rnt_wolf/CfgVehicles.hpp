@@ -1,32 +1,10 @@
-class CfgVehicles {
-    class Wheeled_APC_F;
-    class rnt_sppz_2a2_luchs_Base: Wheeled_APC_F{
+class CfgVehicles{
+    class Car_F;
+    class Redd_Tank_LKW_leicht_gl_Wolf_Base: Car_F {
         //maximumLoad = 10000;
-        disableSoundAttenuation = 0;
-        attenuationEffectType = "TankAttenuation";
-        driverCompartments = "Compartment1";
-        //enableGPS = 0;
 
-        class AcreIntercoms {
-            class Intercom_1 {
-                displayName = ECSTRING(common,BV);
-                shortName = ECSTRING(common,BVShort);
-                allowedPositions[] = {"crew"};
-                disabledPositions[] = {};
-                limitedPositions[] = {};
-                numLimitedPositions = 0;
-                masterPositions[] = {};
-                connectedByDefault = 1;
-            };
-        };
-
-        acre_hasInfantryPhone = 0;
-        acre_infantryPhoneDisableRinging = 1;
-        acre_infantryPhoneCustomRinging[] = {};
-        acre_infantryPhoneIntercom[] = {"all"};
-        acre_infantryPhoneControlActions[] = {"all"};
-        acre_eventInfantryPhone = QEFUNC(common,noApiFunction);
-        acre_infantryPhonePosition[] = {};
+        delete AcreIntercoms;
+        delete acre_hasInfantryPhone;
 
         class AcreRacks {
             class Rack_1 {

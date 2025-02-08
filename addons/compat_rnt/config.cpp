@@ -7,17 +7,17 @@ class CfgPatches {
         url = ECSTRING(main,url);
         name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ttt_common"};
+        requiredAddons[] = {"ttt_common", "Redd_Vehicles_Main"};
         units[] = {};
         weapons[] = {};
         VERSION_CONFIG;
 
-    skipWhenMissingDependencies = 1;
+        skipWhenMissingDependencies = 1;
     };
 };
 
 #include "CfgAmmo.hpp"
-#include "CfgAnimationSoundSources.hpp"
+#include "CfgAnimationSourceSounds.hpp"
 #include "CfgWeapons.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgRscInGameUI.hpp"

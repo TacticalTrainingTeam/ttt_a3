@@ -2,12 +2,12 @@
 
 class CfgPatches {
     class SUBADDON {
-        authors[] = {"Mishkar", "Andx"};
+        authors[] = {"Timi007", "Andx"};
         name = COMPONENT_NAME;
         addonRootClass = QUOTE(ADDON);
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "rnt_sppz_2a2_luchs"
+            "rnt_gmw_static"
         };
         units[] = {};
         weapons[] = {};

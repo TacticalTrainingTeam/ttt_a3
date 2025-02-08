@@ -7,7 +7,7 @@ class CfgPatches {
         addonRootClass = QUOTE(ADDON);
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "rnt_sppz_2a2_luchs"
+            "redd_tank_lkw_leicht_gl"
         };
         units[] = {};
         weapons[] = {};

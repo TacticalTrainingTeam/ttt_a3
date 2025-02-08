@@ -1,3 +1,3 @@
-#define COMPONENT fuchs
-#define COMPONENT_BEAUTIFIED Fuchs
+#define SUBCOMPONENT luchs
+#define SUBCOMPONENT_BEAUTIFIED Luchs
 #include "..\script_component.hpp"
