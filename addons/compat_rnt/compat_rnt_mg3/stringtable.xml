@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Compat_Rnt_Mg3">
+        <Key ID="STR_ttt_Compat_Rnt_Mg3_disassemble">
+            <Original>Disassemble MG3 Tripod</Original>
+            <German>MG3-Lafette demontieren</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Rnt_Mg3_lafette_displayname">
+            <Original>MG3 Tripod</Original>
+            <German>MG3-Lafette</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Rnt_Mg3_mount">
+            <Original>Mount MG3</Original>
+            <German>MG3 lafettieren</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Rnt_Mg3_mounting">
+            <Original>Mounting MG3</Original>
+            <German>Lafettiere MG3</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Rnt_Mg3_settingsLafetteDisassembleTime">
+            <Original>MG3 Tripod disassemble time</Original>
+            <German>MG3-Lafette Abbauzeit</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Rnt_Mg3_settingsLafetteDisassembleTime_tooltip">
+            <Original>Time it takes to disassemble the MG3 tripod.</Original>
+            <German>Die Zeit, die es braucht, um die MG3-Lafette abzubauen.</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Rnt_Mg3_settingsLafetteMountTime">
+            <Original>MG3 Tripod mounting time</Original>
+            <German>MG3-Lafette Aufbauzeit</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Rnt_Mg3_settingsLafetteMountTime_tooltip">
+            <Original>Time it takes to mount the MG3 onto a tripod.</Original>
+            <German>Die Zeit, die es braucht, um ein MG3 zu lafettieren.</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Rnt_Mg3_subCategory">
+            <Original>MG3 Tripod</Original>
+            <German>MG3-Lafette</German>
+        </Key>
+    </Package>
+</Project>

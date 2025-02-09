@@ -13,7 +13,7 @@
  *       BOOLEAN - Can adjust height.
  *
  *  Example:
- *      [this, "up"] call ttt2_compat_rnt_fnc_canAdjustHeight
+ *      [this, "up"] call ttt_compat_rnt_fnc_canAdjustHeight
  *
  * Public: NO
  */
