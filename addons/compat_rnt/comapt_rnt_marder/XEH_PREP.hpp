@@ -1,2 +1,0 @@
-PREP(closeRamp);
-PREP(openRamp);

@@ -2,7 +2,9 @@
 
 ## Allgemein
 
-Fügt die Möglichkeit hinzu, über die Luken auszuteigen.
+- entfernt, dass der Turm gesperrt ist wenn der Fahrer überluke ist
+- erhöht die Zeit bis der Motor gestartet ist auf 5 Sekunden
+- fixt einige Fehler im Original
 
 ## ACRE
 
