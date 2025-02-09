@@ -1,0 +1,537 @@
+class CBA_Extended_EventHandlers_base;
+
+class CfgVehicles {
+    class LandVehicle;
+
+    class Tank: LandVehicle {
+        class NewTurret;
+    };
+
+    class Tank_F: Tank{
+        class Components;
+        class EventHandlers;
+        class ViewOptics;
+        class Turrets {
+            class MainTurret: NewTurret {
+                class ViewOptics;
+                class Turrets {
+                    class CommanderOptics;
+                };
+            };
+        };
+    };
+
+    class Redd_Marder_1A5_base: Tank_F
+    {
+        //maximumLoad = 10000;
+        //driverWeaponsInfoType = QEGVAR(Redd_Main,RSC_Driver);
+        disableSoundAttenuation = 0;
+        attenuationEffectType = "TankAttenuation";
+        driverCompartments = "Compartment1";
+        cargoCompartments[] = {"Compartment2"};
+        //enableGPS = 0;
+
+        ace_vehicles_engineStartDelay = 5;
+
+        // class TransportMagazines {
+        //     class _xx_mk20_ap_ammo {
+        //         magazine = QEGVAR(Rearm,mk20_ap_ammo);
+        //         count = 9;
+        //     };
+        //     class _xx_mk20_he_ammo {
+        //         magazine = QEGVAR(Rearm,mk20_he_ammo);
+        //         count = 21;
+        //     };
+        //     class _xx_smoke_3grenade_ammo {
+        //         magazine = QEGVAR(Rearm,smoke_3grenade_ammo);
+        //         count = 2;
+        //     };
+        // };
+
+        //PzGrenBtl402_gunnerAndCommanderCanSmoke = 1; // Requires that gunner has smoke launcher as weapon
+        //PzGrenBtl402_smokeLauncherMuzzle = QGVAR(SmokeLauncher);
+
+        //smokeLauncherGrenadeCount = 3;
+        //smokeLauncherAngle = 120;
+
+        class AcreIntercoms {
+            class Intercom_1 {
+                displayName = ECSTRING(common,BV);
+                shortName = ECSTRING(common,BVShort);
+                allowedPositions[] = {"driver", "gunner", {"turret", {0,3}}};
+                disabledPositions[] = {};
+                limitedPositions[] = {"commander", {"turret", {1}}, {"cargo", "all"}, {"ffv", "all"}};
+                numLimitedPositions = 6;
+                masterPositions[] = {};
+                connectedByDefault = 1;
+            };
+        };
+
+        acre_hasInfantryPhone = 1;
+        acre_infantryPhoneDisableRinging = 1;
+        acre_infantryPhoneCustomRinging[] = {};
+        acre_infantryPhoneIntercom[] = {"all"};
+        acre_infantryPhoneControlActions[] = {"all"};
+        acre_eventInfantryPhone = QEFUNC(common,noApiFunction);
+        acre_infantryPhonePosition[] = {-1.23, -3.37, -0.78};
+
+        class AcreRacks {
+            class Rack_1 {
+                displayName = ECSTRING(common,RackA);
+                shortName = ECSTRING(common,RackAShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"inside"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_SEM70";
+                isRadioRemovable = 0;
+                intercom[] = {"none"};
+            };
+
+            class Rack_2 {
+                displayName = ECSTRING(common,RackB);
+                shortName = ECSTRING(common,RackBShort);
+                componentName = "ACRE_VRC103";
+                allowedPositions[] = {"inside"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_PRC117F";
+                isRadioRemovable = 0;
+                intercom[] = {"none"};
+            };
+
+            class Rack_3 {
+                displayName = ECSTRING(common,RackC);
+                shortName = ECSTRING(common,RackCShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"inside"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "";
+                isRadioRemovable = 1;
+                intercom[] = {"none"};
+            };
+        };
+
+        class Turrets: Turrets {
+            class MainTurret: MainTurret  {
+                //discreteDistanceInitIndex = 6; // Set initial gun zeoring to 800 m
+                lockWhenDriverOut = 0; // Don't lock turret when driver is turned out
+                //stabilizedInAxes = 0;
+                //turretInfoType = QEGVAR(Redd_Main,RSC_Turret);
+                disableSoundAttenuation = 0;
+                soundAttenuationTurret = "TankAttenuation";
+                gunnerCompartments= "Compartment3";
+
+                // weapons[] = {
+                //     "Redd_Gesichert",
+                //     "Redd_MK20",
+                //     QEGVAR(Redd_Main,mg3), // Modified reload time for Rearm
+                //     QGVAR(SmokeLauncher) // Add SmokeLauncher to gunner
+                // };
+                // magazines[] = {
+                //     "Redd_MK20_HE_Mag",
+                //     "Redd_MK20_AP_Mag",
+                //     "Redd_Mg3_Mag",
+                //     "Redd_SmokeLauncherMag" // PzGrenBtl402_SmokeLauncher still uses Redds Mags
+                // };
+
+                // Remove NVG
+                // class ViewOptics: ViewOptics {
+                //     visionMode[] = {"Normal", "TI"};
+                // };
+
+                // Remove NVG
+                // class OpticsIn {
+                //     class Day1 {
+                //         visionMode[] = {"Normal"};
+                //     };
+                //     class Day2 {
+                //         visionMode[] = {"Normal"};
+                //     };
+                // };
+
+
+                class Turrets: Turrets  {
+                    class CommanderOptics: CommanderOptics {
+                        // Turret is not stabilized
+                        //stabilizedInAxes = 0;
+
+                        // Turret HUD
+                        //turretInfoType = QEGVAR(Redd_Main,RSC_Turret);
+
+                        disableSoundAttenuation = 0;
+                        soundAttenuationTurret = "TankAttenuation";
+                        gunnerCompartments= "Compartment3";
+
+                        //weapons[] = {}; // Move SmokeLauncher to gunner
+                        //magazines[] = {};
+
+                        // Remove NVG
+                        // class ViewOptics: ViewOptics {
+                        //     visionMode[] = {"Normal", "TI"};
+                        // };
+
+                        // // Remove NVG
+                        // class OpticsIn {
+                        //     class Day1 {
+                        //         visionMode[] = {"Normal"};
+                        //     };
+                        //     class Day2 {
+                        //         visionMode[] = {"Normal"};
+                        //     };
+                        // };
+
+                    };
+
+                    class CargoTurret_Links: NewTurret {
+                        stabilizedInAxes = 0;
+                        disableSoundAttenuation = 0;
+                        soundAttenuationTurret = "TankAttenuation";
+                        gunnerCompartments= "Compartment2";
+
+                        class Components
+                        {
+                            class VehicleSystemsDisplayManagerComponentLeft
+                            {
+                                componentType = "VehicleSystemsDisplayManager";
+                                defaultDisplay = "EmptyDisplay";
+                                left = 1;
+                                x = "(profileNamespace getVariable [""IGUI_GRID_CUSTOMINFOLEFT_X"", (safezoneX + 0.5 * (((safezoneW / safezoneH) min 1.2) / 40))])";
+                                y = "(profileNamespace getVariable [""IGUI_GRID_CUSTOMINFOLEFT_Y"", (safezoneY + safezoneH - 21 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25))])";
+
+                                class Components {
+                                    class EmptyDisplay {
+                                        componentType = "EmptyDisplayComponent";
+                                    };
+                                };
+                            };
+
+                            class VehicleSystemsDisplayManagerComponentRight {
+                                componentType = "VehicleSystemsDisplayManager";
+                                defaultDisplay = "EmptyDisplay";
+                                right = 1;
+                                x = "(profileNamespace getVariable [""IGUI_GRID_CUSTOMINFORIGHT_X"", ((safezoneX + safezoneW) - ((10 * (((safezoneW / safezoneH) min 1.2) / 40)) + 0.5 * (((safezoneW / safezoneH) min 1.2) / 40)))])";
+                                y = "(profileNamespace getVariable [""IGUI_GRID_CUSTOMINFORIGHT_Y"", (safezoneY + safezoneH - 21 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25))])";
+
+                                class Components {
+                                    class EmptyDisplay {
+                                        componentType = "EmptyDisplayComponent";
+                                    };
+                                };
+                            };
+                        };
+                    };
+                };
+            };
+
+            // class Redd_Milan: NewTurret
+            // {
+            //     magazines[] = {}; // Empty Milan when assembled, must be loaded manually with action
+            //     stabilizedInAxes = 0;
+            //     turretInfoType = QEGVAR(Redd_Main,RSC_Milan);
+            //     disableSoundAttenuation = 0;
+            //     soundAttenuationTurret = "TankAttenuation";
+            //     gunnerCompartments= "Compartment4";
+
+            //     class OpticsIn
+            //     {
+            //         class Day1
+            //         {
+            //             visionMode[] = {"Normal"};
+            //         };
+
+            //         class Day2
+            //         {
+            //             visionMode[] = {"Normal"};
+            //         };
+            //     };
+
+            //     class Components
+            //     {
+            //         class VehicleSystemsDisplayManagerComponentLeft
+            //         {
+            //             componentType = "VehicleSystemsDisplayManager";
+            //             defaultDisplay = "EmptyDisplay";
+            //             left = 1;
+            //             x = "(profileNamespace getVariable [""IGUI_GRID_CUSTOMINFOLEFT_X"", (safezoneX + 0.5 * (((safezoneW / safezoneH) min 1.2) / 40))])";
+            //             y = "(profileNamespace getVariable [""IGUI_GRID_CUSTOMINFOLEFT_Y"", (safezoneY + safezoneH - 21 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25))])";
+
+            //             class Components
+            //             {
+            //                 class EmptyDisplay
+            //                 {
+            //                     componentType = "EmptyDisplayComponent";
+            //                 };
+            //             };
+            //         };
+
+            //         class VehicleSystemsDisplayManagerComponentRight
+            //         {
+            //             componentType = "VehicleSystemsDisplayManager";
+            //             defaultDisplay = "EmptyDisplay";
+            //             right = 1;
+            //             x = "(profileNamespace getVariable [""IGUI_GRID_CUSTOMINFORIGHT_X"", ((safezoneX + safezoneW) - ((10 * (((safezoneW / safezoneH) min 1.2) / 40)) + 0.5 * (((safezoneW / safezoneH) min 1.2) / 40)))])";
+            //             y = "(profileNamespace getVariable [""IGUI_GRID_CUSTOMINFORIGHT_Y"", (safezoneY + safezoneH - 21 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25))])";
+
+            //             class Components
+            //             {
+            //                 class EmptyDisplay
+            //                 {
+            //                     componentType = "EmptyDisplayComponent";
+            //                 };
+            //             };
+            //         };
+            //     };
+            // };
+
+            class Marder_Bino_Turret_Com: NewTurret {
+                stabilizedInAxes = 0;
+                disableSoundAttenuation = 0;
+                soundAttenuationTurret = "TankAttenuation";
+                gunnerCompartments= "Compartment4";
+
+                class Components                {
+                    class VehicleSystemsDisplayManagerComponentLeft {
+                        componentType = "VehicleSystemsDisplayManager";
+                        defaultDisplay = "EmptyDisplay";
+                        left = 1;
+                        x = "(profileNamespace getVariable [""IGUI_GRID_CUSTOMINFOLEFT_X"", (safezoneX + 0.5 * (((safezoneW / safezoneH) min 1.2) / 40))])";
+                        y = "(profileNamespace getVariable [""IGUI_GRID_CUSTOMINFOLEFT_Y"", (safezoneY + safezoneH - 21 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25))])";
+
+                        class Components {
+                            class EmptyDisplay {
+                                componentType = "EmptyDisplayComponent";
+                            };
+                        };
+                    };
+
+                    class VehicleSystemsDisplayManagerComponentRight                    {
+                        componentType = "VehicleSystemsDisplayManager";
+                        defaultDisplay = "EmptyDisplay";
+                        right = 1;
+                        x = "(profileNamespace getVariable [""IGUI_GRID_CUSTOMINFORIGHT_X"", ((safezoneX + safezoneW) - ((10 * (((safezoneW / safezoneH) min 1.2) / 40)) + 0.5 * (((safezoneW / safezoneH) min 1.2) / 40)))])";
+                        y = "(profileNamespace getVariable [""IGUI_GRID_CUSTOMINFORIGHT_Y"", (safezoneY + safezoneH - 21 * ((((safezoneW / safezoneH) min 1.2) / 1.2) / 25))])";
+
+                        class Components {
+                            class EmptyDisplay {
+                                componentType = "EmptyDisplayComponent";
+                            };
+                        };
+                    };
+                };
+            };
+        };
+
+        class AnimationSources {
+            class heck_luke_rotation  {
+                source = "user";
+                initPhase = 0;
+                animPeriod = 3;
+                sound = "Redd_Heckluke_sound";
+                soundPosition = "HecklukePoint";
+            };
+
+            // class ReloadMagazine
+            // {
+            //     source = "user"; // Let us control when to hide the Milan tube
+            //     initPhase = 1; // Hide tube when assembled
+            //     AnimPeriod = 0;
+            // };
+
+            class Spiegel_Source  {
+                source = "user";
+                initPhase = 1; // fold in
+                animPeriod = 2;
+            };
+
+            class Redd_Sandsacke_Links {
+                source = "user";
+                initPhase = 0;
+                animPeriod = 0;
+            };
+
+            class Redd_Sandsacke_Rechts {
+                source = "user";
+                initPhase = 0;
+                animPeriod = 0;
+            };
+
+            class Redd_sandsackrolle_links {
+                source = "user";
+                initPhase = 0;
+                animPeriod = 0;
+            };
+
+            class Redd_sandsackrolle_rechts {
+                source = "user";
+                initPhase = 0;
+                animPeriod = 0;
+            };
+
+            // Changes for Rearm (own MG weapon class)
+            // class recoil_source_2
+            // {
+            //     source = "reload";
+            //     weapon = QEGVAR(Redd_Main,mg3);
+            // };
+
+            // class flash_mg3_source
+            // {
+            //     source = "reload";
+            //     weapon = QEGVAR(Redd_Main,mg3);
+            //     initPhase = 0;
+            // };
+        };
+
+        class EventHandlers: EventHandlers {
+            //fired = QUOTE(_this call FUNC(handleFired); _this call redd_fnc_Marder_Fired); // Hide tube and remove magazine of Milan
+            class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers_base {};
+        };
+
+        class UserActions {
+            // class heckluke_auf {
+            //     displayName = SUBCSTRING(openRamp);
+            //     displayNameDefault = SUBCSTRING(openRamp);
+            //     position = "HecklukePoint";
+            //     radius = 10;
+            //     onlyforplayer = 1;
+            //     showWindow = 0;
+            //     condition = "(ACE_player in [driver this, gunner this, this turretUnit [0, 3]]) && (this animationSourcePhase 'heck_luke_rotation' == 0) && (alive this)";
+            //     statement = QUOTE(this call FUNC(openRamp));
+            // };
+
+            // class heckluke_zu {
+            //     displayName = SUBCSTRING(closeRamp);
+            //     displayNameDefault = SUBCSTRING(closeRamp);
+            //     position = "HecklukePoint";
+            //     radius = 10;
+            //     onlyforplayer = 1;
+            //     showWindow = 0;
+            //     condition = "(ACE_player in [driver this, gunner this, this turretUnit [0, 3]]) && (this animationSourcePhase 'heck_luke_rotation' > 0) && (alive this)";
+            //     statement = QUOTE(this call FUNC(closeRamp));
+            // };
+
+            class Bino_in {
+                displayName = "$STR_Hoeher_steigen";
+                displayNameDefault = "$STR_Hoeher_steigen";
+                position = "actionPoint";
+                radius = 25;
+                onlyforplayer = 1;
+                showWindow = 0;
+                shortcut = "turnOut";
+                condition = "(this turretUnit [0, 0] isEqualTo ACE_player) && (this animationSourcePhase 'hatchCommander' > 0) && (alive this)";
+                statement = "ACE_player action ['moveToTurret', this, [2]]; [this, [[0, 0], true]] remoteExecCall ['lockTurret']; this setVariable ['Redd_Marder_Bino_In', true, true];";
+            };
+
+            class Bino_out  {
+                displayName = "$STR_Tiefer_steigen";
+                displayNameDefault = "$STR_Tiefer_steigen";
+                position = "actionPoint";
+                radius = 25;
+                onlyforplayer = 1;
+                showWindow = 0;
+                shortcut = "turnIn";
+                condition = "(this turretUnit [2] isEqualTo ACE_player) && (alive this)";
+                statement = "ACE_player action ['moveToTurret', this, [0,0]]; [this, [[0, 0], false]] remoteExecCall ['lockTurret']; this setVariable ['Redd_Marder_Bino_In', false, true];";
+            };
+
+            // class GetOutHatchCommander {
+            //     displayName = SUBCSTRING(getOutHatch);
+            //     displayNameDefault = "<img image='\A3\ui_f\data\igui\cfg\actions\getout_ca.paa' size='1.8' shadow=2 />";
+            //     position = "actionsPoint";
+            //     radius = 10;
+            //     onlyforplayer = 1;
+            //     showWindow = 0;
+            //     priority = 6.2;
+            //     shortcut = "GetOut";
+            //     condition = "(alive this) && {this turretUnit [0, 0] isEqualTo ACE_player} && {isTurnedOut ACE_player}";
+            //     statement = QUOTE([ARR_3(this,ACE_player,'commander')] call FUNC(getOutHatch));
+            // };
+
+            // class GetOutHatchDriver: GetOutHatchCommander  {
+            //     condition = "(alive this) && (this turretUnit [-1] isEqualTo ACE_player) && (isTurnedOut ACE_player)";
+            //     statement = QUOTE([ARR_3(this,ACE_player,'driver')] call FUNC(getOutHatch));
+            // };
+
+            // class GetOutHatchLeft: GetOutHatchCommander  {
+            //     condition = "(alive this) && (this turretUnit [0, 1] isEqualTo ACE_player) && (isTurnedOut ACE_player)";
+            //     statement = QUOTE([ARR_3(this,ACE_player,'left')] call FUNC(getOutHatch));
+            // };
+
+            // class GetOutHatchRight: GetOutHatchCommander {
+            //     condition = "(alive this) && (this turretUnit [0, 2] isEqualTo ACE_player) && (isTurnedOut ACE_player)";
+            //     statement = QUOTE([ARR_3(this,ACE_player,'right')] call FUNC(getOutHatch));
+            // };
+
+            // class GetOutHatchMiddle: GetOutHatchCommander {
+            //     condition = "(alive this) && (this turretUnit [0, 3] isEqualTo ACE_player) && (isTurnedOut ACE_player)";
+            //     statement = QUOTE([ARR_3(this,ACE_player,'middle')] call FUNC(getOutHatch));
+            // };
+
+            class MovePassengerOneToHatchLeft {
+                displayName = SUBCSTRING(moveToHatch);
+                displayNameDefault = "<img image='\A3\ui_f\data\igui\cfg\actions\getingunner_ca.paa' size='1.8' shadow=2 />";
+                position = "actionsPoint";
+                radius = 10;
+                onlyforplayer = 1;
+                showWindow = 0;
+                priority = 1.35;
+                shortcut = "SwapGunner";
+                condition = "(alive this) && (this getCargoIndex ACE_player isEqualTo 1) && (isNull (this turretunit [0, 1]))";
+                statement = "ACE_player action ['moveToTurret', this, [0, 1]]";
+            };
+
+            class MovePassengerTwoToHatchLeft: MovePassengerOneToHatchLeft {
+                condition = "(alive this) && (this getCargoIndex player isEqualTo 2) && (isNull (this turretunit [0, 1]))";
+                statement = "ACE_player action ['moveToTurret', this, [0, 1]]";
+            };
+
+            class MovePassengerThreeToHatchRight: MovePassengerOneToHatchLeft {
+                condition = "(alive this) && (this getCargoIndex ACE_player isEqualTo 3) && (isNull (this turretunit [0, 2]))";
+                statement = "ACE_player action ['moveToTurret', this, [0, 2]]";
+            };
+
+            delete heckluke_auf_2;
+            delete heckluke_zu_2;
+
+            //delete milan_auf;
+            //delete milan_ab;
+
+            // delete orangelicht_auf;
+            // delete orangelicht_ab;
+            // delete Orangelicht_an;
+            // delete Orangelicht_aus;
+
+            // delete Redd_removeflag;
+            // delete Redd_redFlag;
+            // delete Redd_greenFlag;
+            // delete Redd_blueFlag;
+
+            delete Tarnnetz_Fzg_aufbauen;
+            delete Tarnnetz_Fzg_abbauen;
+            // delete Tarnnetz_Boden_aufbauen;
+            // delete Tarnnetz_Boden_abbauen;
+
+            //delete Spiegel_ausklappen;
+            //delete Spiegel_einklappen;
+
+            // delete Sandsacke_auf_Links;
+            // delete Sandsacke_auf_Rechts;
+            // delete Sandsacke_ab_Links;
+            // delete Sandsacke_ab_Rechts;
+        };
+
+        class Attributes {
+            class GVAR(RampAttribute) {
+                displayName = SUBCSTRING(openRamp);
+                tooltip = SUBCSTRING(openRamp3DENTooltip);
+                property = QGVAR(RampAttribute);
+                control = "Checkbox";
+                expression = "_this setVariable ['%s', _value];";
+                defaultValue = 0;
+                typeName = "BOOL";
+            };
+        };
+    };
+};

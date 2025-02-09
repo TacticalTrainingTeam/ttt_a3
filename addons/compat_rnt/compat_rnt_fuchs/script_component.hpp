@@ -1,3 +1,3 @@
-#define SUBCOMPONENT fuchs
-#define SUBCOMPONENT_BEAUTIFIED Fuchs
+#define SUBCOMPONENT marder
+#define SUBCOMPONENT_BEAUTIFIED Marder
 #include "..\script_component.hpp"

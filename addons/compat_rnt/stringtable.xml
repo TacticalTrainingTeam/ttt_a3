@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TTT">
+    <Package name="compat_rnt">
+        <Key ID="STR_ttt_compat_rnt_CSTRING">
+            <English></English>
+        </Key>
+    </Package>
+</Project>
