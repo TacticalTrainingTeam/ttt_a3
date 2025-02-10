@@ -3,7 +3,7 @@ class XEH_CLASS_BASE;
 class CfgVehicles {
     class Bag_Base;
     class rnt_mg3_static_tripod: Bag_Base {
-        armor = 500000;
+        armor = 500000; // Make invincible
 
         class assembleInfo {
             primary = 1;
@@ -35,7 +35,7 @@ class CfgVehicles {
 
         class Turrets: Turrets {
             class MainTurret: MainTurret {
-                turretInfoType = QEGVAR(compat_rnt,RSC_MG3);
+                turretInfoType = QEGVAR(compat_rnt,RSC_MG3);//removes direction in gunner view
 
                 gunnerGetInAction = "PlayerProne";
                 gunnerGetOutAction = "PlayerProne";
@@ -60,15 +60,73 @@ class CfgVehicles {
                 displayName = SUBCSTRING(lafette_displayname);
 
                 class GVAR(disassemble) {
-                    displayName = SUBCSTRING(disassemble);
+                    displayName = CSTRING(disassemble);
                     condition = "(crew _target) isEqualTo []";
                     statement = QUOTE(call EFUNC(compat_rnt,disassembleMG));
+                };
+                
+                class MG_hoehe_justieren {
+                    condition = "true";
+
+                    class MG3_up_ext {
+                        condition = QUOTE([ARR_2(_target,'up')] call EFUNC(compat_rnt,canAdjustHeight));
+                        statement = "[_target, 'up'] spawn redd_fnc_mg3_adjust_height";
+                    };
+
+                    class MG3_down_ext {
+                        condition = QUOTE([ARR_2(_target,'down')] call EFUNC(compat_rnt,canAdjustHeight));
+                        statement = "[_target, 'down'] spawn redd_fnc_mg3_adjust_height";
+                    };
+                };
+
+                class MG_hoehe_drehen {
+                    condition = "true";
+
+                    class MG3_left_ext {
+                        condition = "!(_target getVariable ['isInAnimation', false])";
+                        statement = "[_target, 'left'] spawn redd_fnc_mg3_turn";
+                    };
+
+                    class MG3_right_ext {
+                        condition = "!(_target getVariable ['isInAnimation', false])";
+                        statement = "[_target, 'right'] spawn redd_fnc_mg3_turn";
+                    };
                 };
             };
         };
 
         class ACE_SelfActions: ACE_SelfActions {
             delete MG3_load;
+
+            condition = "alive _target";
+
+            class MG_hoehe_justieren {
+                condition = "alive _target";
+
+                class MG3_up_int {
+                    condition = QUOTE([ARR_2(_target,'up')] call EFUNC(compat_rnt,canAdjustHeight));
+                    statement = "[_target, 'up'] spawn redd_fnc_mg3_adjust_height";
+                };
+
+                class MG3_down_int {
+                    condition = QUOTE([ARR_2(_target,'down')] call EFUNC(compat_rnt,canAdjustHeight));
+                    statement = "[_target, 'down'] spawn redd_fnc_mg3_adjust_height";
+                };
+            };
+
+            class MG_hoehe_drehen {
+                condition = "alive _target";
+
+                class MG3_left_int {
+                    condition = "!(_target getVariable ['isInAnimation', false])";
+                    statement = "[_target, 'left'] spawn redd_fnc_mg3_turn";
+                };
+
+                class MG3_right_int {
+                    condition = "!(_target getVariable ['isInAnimation', false])";
+                    statement = "[_target, 'right'] spawn redd_fnc_mg3_turn";
+                };
+            };
         };
 
         class EventHandlers {
@@ -95,7 +153,7 @@ class CfgVehicles {
                 condition = "alive _target";
 
                 class GVAR(mountWeapon) {
-                    displayName = SUBCSTRING(mount);
+                    displayName = CSTRING(mount);
                     condition = QUOTE(call EFUNC(compat_rnt,canMountMG));
                     icon = "\Redd_Backpacks\pictures\rnt_mg3_static_barell_ui_pre_ca.paa";
                     statement = QUOTE(call EFUNC(compat_rnt,mountMG));

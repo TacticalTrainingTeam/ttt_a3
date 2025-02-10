@@ -9,7 +9,8 @@ class CfgPatches {
         requiredAddons[] = {
             "ace_csw",
             "Redd_Bags",
-            "rnt_mg3_static"
+            "rnt_mg3_static",
+            "rnt_ace_compatibility"
         };
         units[] = {};
         weapons[] = {};
@@ -20,7 +21,7 @@ class CfgPatches {
 };
 
 #include "CfgEventHandlers.hpp"
-#include "CfgVehicles.hpp"
-#include "CfgMagazineWells.hpp"
 #include "CfgMagazineGroups.hpp"
+#include "CfgMagazineWells.hpp"
+#include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
