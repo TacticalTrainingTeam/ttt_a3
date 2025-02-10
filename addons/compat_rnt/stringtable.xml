@@ -9,9 +9,9 @@
             <English>Mount MG3</English>
             <German>MG3 lafettieren</German>
         </Key>
-        <Key ID="STR_ttt_Compat_Rnt_subCategoryMG">
-            <English>MG3 Tripod</English>
-            <German>MG3-Lafette</German>
+        <Key ID="STR_ttt_Compat_Rnt_mounting">
+            <English>Mounting MG3</English>
+            <German>Lafettiere MG3</German>
         </Key>
         <Key ID="STR_ttt_Compat_Rnt_settingsLafetteDisassembleTime">
             <English>MG3 Tripod disassemble time</English>
@@ -29,9 +29,9 @@
             <English>Time it takes to mount the MG3 onto a tripod.</English>
             <German>Die Zeit, die es braucht, um ein MG3 zu lafettieren.</German>
         </Key>
-        <Key ID="STR_ttt_Compat_Rnt_mounting">
-            <English>Mounting MG3</English>
-            <German>Lafettiere MG3</German>
+        <Key ID="STR_ttt_Compat_Rnt_subCategoryMG">
+            <English>MG3 Tripod</English>
+            <German>MG3-Lafette</German>
         </Key>
     </Package>
 </Project>
