@@ -105,7 +105,7 @@ class CfgVehicles {
         class Loader_MG3: NewTurret {
             lockWhenDriverOut = 0;
             stabilizedInAxes = 0;
-            turretInfoType = QEGVAR(Redd_Main,RSC_MG3);
+            turretInfoType = QEGVAR(compat_rnt,RSC_MG3);
             disableSoundAttenuation = 0;
             soundAttenuationTurret = "TankAttenuation";
             gunnerCompartments = "Compartment3";
