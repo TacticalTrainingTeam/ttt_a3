@@ -20,6 +20,7 @@ Eigene Erweiterungen und Anpassungen and CUP-Fahrzeugen.
 - erlaubt mehr Munitionstypen für das M2
 - übergibt Kontrolle des Nebelwerfes dem Richtschützen
 - verbessert die Fahreigenschaften
+- ACRE Config wie in BWMod und RnT
 
 ## BTR-80/90
 
