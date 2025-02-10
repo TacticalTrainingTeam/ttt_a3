@@ -23,13 +23,13 @@
 
 if (!isServer || !hasInterface) exitWith {};
 
-params ["_directionDuststorm", "_durationDuststorm", "_effectOnObjects", "_dustWall"];
+params [["_directionDuststorm",(random 360),[42]],["_durationDuststorm",(120),[42]],["_effectOnObjects",(false),[true]],["_dustWall",(false),[true]]];
 
 //define fallback
-if (isNil "_directionDuststorm") then {_directionDuststorm = random 360;};
-if (isNil "_durationDuststorm") then {_durationDuststorm = 120;};
-if (isNil "_effectOnObjects") then {_effectOnObjects = false;};
-if (isNil "_dustWall") then {_dustWall = false;};
+// if (isNil "_directionDuststorm") then {_directionDuststorm = random 360;};
+// if (isNil "_durationDuststorm") then {_durationDuststorm = 120;};
+// if (isNil "_effectOnObjects") then {_effectOnObjects = false;};
+// if (isNil "_dustWall") then {_dustWall = false;};
 
 private _duststormActive = true;
 //save current environment
@@ -54,7 +54,7 @@ private _environment_windlevel = wind;
 //ambient sound
 [
 	{
-		params ["_active"];
+		(_this select 0) params ["_active"];
 		if !(_active) exitWith {};
 		playSound "bcg_wind";
 	}, 
@@ -67,7 +67,7 @@ private _fogStart = 0;
 0 setFog _fogStart;
 [
 	{
-		params ["_active", "_fog"];
+		(_this select 0) params ["_active", "_fog"];
 		if ((fog > 0.3) || !(_active)) exitWith {};
 		_fog = _fog + 0.001;
 		0 setFog _fog;
@@ -76,7 +76,7 @@ private _fogStart = 0;
 	[_duststormActive, _fogStart]
 ] call CBA_fnc_addPerFrameHandler;
 
-[] call ttt_effects_fnc_duststorm_effect;
+//[] call ttt_effects_fnc_duststorm_effect;
 
 
 
@@ -200,20 +200,21 @@ if (_dustWall) then {
 };
 
 //heavy wind in direction
-private _clock = 0;
+private _endTime = time + _durationDuststorm;
 [
 	{
-		params ["_active", "_direction", "_duration"];
-		if (!(_active) || (_clock >= _duration)) exitWith {};
-		_clock = _clock + 1;
+		(_this select 0) params ["_active", "_direction", "_duration", "_end"];
+		if (!(_active) || (time >= _end)) exitWith {};
+		_clock = _duration - (_end - time) + 1;
+		hint str _clock;
 		setWind [
-			sin * _direction * ((216 * _clock * (_duration - _clock)) / (_duration ^ 2)),
-			cos * _direction * ((216 * _clock * (_duration - _clock)) / (_duration ^ 2)),
+			(sin _direction * ((216 * _clock * (_duration - _clock)) / (_duration ^ 2))),
+			(cos _direction * ((216 * _clock * (_duration - _clock)) / (_duration ^ 2))),
 			true
 		];
 	},
 	1,
-	[_duststormActive, _directionDuststorm, _durationDuststorm]
+	[_duststormActive, _directionDuststorm, _durationDuststorm, _endTime]
 ] call CBA_fnc_addPerFrameHandler;
 
 
@@ -267,12 +268,11 @@ if (_effectOnObjects) then {
 			_yy=0;
 			
 			while {(_xx< _xblow) or (_yy< _yblow)} do {
-				_blowobj setvelocity [_xx*fctx,_yy*fcty,random -1];
+				_blowobj setVelocity [_xx*fctx,_yy*fcty,random -1];
 				_xx = _xx + 0.01;
 				_yy = _yy + 0.01;
 				sleep 0.001;
 			};
-		
 		};
 	};
 };
