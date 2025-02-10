@@ -150,60 +150,6 @@ class CfgVehicles {
 
     class CUP_Boxer_Base: Wheeled_APC_F {
         class AnimationSources;
-
-        acre_hasInfantryPhone = 1;
-        acre_infantryPhoneDisableRinging = 1;
-        acre_infantryPhoneIntercom[] = {"all"};
-        acre_infantryPhoneControlActions[] = {"all"};
-
-        class AcreIntercoms {
-            class Intercom_1 {
-                displayName = ECSTRING(common,BV);
-                shortName = ECSTRING(common,BVShort);
-                allowedPositions[] = {"crew"};
-                disabledPositions[] = {};
-                limitedPositions[] = {{"cargo", "all"}};
-                numLimitedPositions = 8;
-                masterPositions[] = {};
-                connectedByDefault = 1;
-            };
-        };
-
-        class AcreRacks {
-            class Rack_1 {
-                displayName = ECSTRING(common,RackA);
-                shortName = ECSTRING(common,RackAShort);
-                componentName = "ACRE_SEM90";
-                allowedPositions[] = {"crew"};
-                disabledPositions[] = {};
-                defaultComponents[] = {};
-                mountedRadio = "ACRE_SEM70";
-                isRadioRemovable = 0;
-                intercom[] = {"all"};
-            };
-            class Rack_2 {
-                displayName = ECSTRING(common,RackB);
-                shortName = ECSTRING(common,RackBShort);
-                componentName = "ACRE_VRC103";
-                allowedPositions[] = {"crew"};
-                disabledPositions[] = {};
-                defaultComponents[] = {};
-                mountedRadio = "ACRE_PRC117F";
-                isRadioRemovable = 0;
-                intercom[] = {"all"};
-            };
-            class Rack_3 {
-                displayName = ECSTRING(common,RackC);
-                shortName = ECSTRING(common,RackCShort);
-                componentName = "ACRE_SEM90";
-                allowedPositions[] = {"crew"};
-                disabledPositions[] = {};
-                defaultComponents[] = {};
-                mountedRadio = "";
-                isRadioRemovable = 1;
-                intercom[] = {"all"};
-            };
-        };
     };
 
     class CUP_Boxer_Base_HMG: CUP_Boxer_Base {

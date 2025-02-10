@@ -1,4 +1,4 @@
-#define COMPONENT compat_cup_vehicles
+#define COMPONENT comapt_cup_vehicles
 #define COMPONENT_BEAUTIFIED Compat CUP Vehicles
 #include "\z\ttt\addons\main\script_mod.hpp"
 
