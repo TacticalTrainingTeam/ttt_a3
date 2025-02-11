@@ -1,4 +1,4 @@
-#define SUBCOMPONENT pbw
-#define SUBCOMPONENT_BEAUTIFIED PBW
+#define SUBCOMPONENT jbad
+#define SUBCOMPONENT_BEAUTIFIED JBAD
 
 #include "..\script_component.hpp"
