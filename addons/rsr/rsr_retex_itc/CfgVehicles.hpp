@@ -10,11 +10,11 @@ class CfgVehicles {
         crew = "B_Soldier_F";
         side = 1;
         faction = "RsR";
-        editorPreview = QPATHTOF(retex_itc\data\fennek\previews\rsr_fennek_transport_RV_flecktarn_preview.jpg);
+        editorPreview = QPATHTOF(rsr_retex_itc\data\fennek\previews\rsr_fennek_transport_RV_flecktarn_preview.jpg);
 
         hiddenSelectionsTextures[] = {
-            QPATHTOF(retex_vanilla\data\fennek\fennek_flecktarn_ext_co.paa),
-            QPATHTOF(retex_vanilla\data\fennek\fennek_flecktarn_turret_co.paa)
+            QPATHTOF(rsr_retex_vanilla\data\fennek\fennek_flecktarn_ext_co.paa),
+            QPATHTOF(rsr_retex_vanilla\data\fennek\fennek_flecktarn_turret_co.paa)
         };
         class TransportItems {
             MACRO_ADDITEM(Toolkit,1);
@@ -26,8 +26,8 @@ class CfgVehicles {
     class rsr_fennek_transport_RV_tropentarn: rsr_fennek_transport_RV_flecktarn {
         displayName = SUBCSTRING(Fennek_RV_Tropentarn);
         hiddenSelectionsTextures[] = {
-            QPATHTOF(retex_vanilla\data\fennek\fennek_tropentarn_ext_co.paa),
-            QPATHTOF(retex_vanilla\data\fennek\fennek_tropentarn_turret_co.paa)
+            QPATHTOF(rsr_retex_vanilla\data\fennek\fennek_tropentarn_ext_co.paa),
+            QPATHTOF(rsr_retex_vanilla\data\fennek\fennek_tropentarn_turret_co.paa)
         };
     };
 
@@ -37,10 +37,10 @@ class CfgVehicles {
         crew = "B_Soldier_F";
         side = 1;
         faction = "RsR";
-        editorPreview = QPATHTOF(retex_itc\data\fennek\previews\rsr_fennek_hmg_RV_flecktarn_preview.jpg);
+        editorPreview = QPATHTOF(rsr_retex_itc\data\fennek\previews\rsr_fennek_hmg_RV_flecktarn_preview.jpg);
         hiddenSelectionsTextures[] = {
-            QPATHTOEF(rsr,retex_vanilla\data\fennek\fennek_flecktarn_ext_co.paa),
-            QPATHTOEF(rsr,retex_vanilla\data\fennek\fennek_flecktarn_turret_co.paa)
+            QPATHTOF(rsr_retex_vanilla\data\fennek\fennek_flecktarn_ext_co.paa),
+            QPATHTOF(rsr_retex_vanilla\data\fennek\fennek_flecktarn_turret_co.paa)
         };
         class TransportItems {
             MACRO_ADDITEM(Toolkit,1);
@@ -52,8 +52,8 @@ class CfgVehicles {
     class rsr_fennek_hmg_RV_tropentarn: rsr_fennek_hmg_RV_flecktarn {
         displayName = SUBCSTRING(Fennek_RV_HMG_Tropentarn);
         hiddenSelectionsTextures[] = {
-            QPATHTOEF(rsr,retex_vanilla\data\fennek\fennek_tropentarn_ext_co.paa),
-            QPATHTOEF(rsr,retex_vanilla\data\fennek\fennek_tropentarn_turret_co.paa)
+            QPATHTOF(rsr_retex_vanilla\data\fennek\fennek_tropentarn_ext_co.paa),
+            QPATHTOF(rsr_retex_vanilla\data\fennek\fennek_tropentarn_turret_co.paa)
         };
     };
 
@@ -63,10 +63,10 @@ class CfgVehicles {
         crew = "B_Soldier_F";
         side = 1;
         faction = "RsR";
-        editorPreview = QPATHTOF(retex_itc\data\fennek\previews\rsr_fennek_gmg_RV_flecktarn_preview.jpg);
+        editorPreview = QPATHTOF(rsr_retex_itc\data\fennek\previews\rsr_fennek_gmg_RV_flecktarn_preview.jpg);
         hiddenSelectionsTextures[] = {
-            QPATHTOEF(rsr,retex_vanilla\data\fennek\fennek_flecktarn_ext_co.paa),
-            QPATHTOEF(rsr,retex_vanilla\data\fennek\fennek_flecktarn_turret_co.paa)
+            QPATHTOF(rsr_retex_vanilla\data\fennek\fennek_flecktarn_ext_co.paa),
+            QPATHTOF(rsr_retex_vanilla\data\fennek\fennek_flecktarn_turret_co.paa)
         };
         class TransportItems {
             MACRO_ADDITEM(Toolkit,1);
@@ -78,8 +78,8 @@ class CfgVehicles {
     class rsr_fennek_gmg_RV_tropentarn: rsr_fennek_gmg_RV_flecktarn {
         displayName = SUBCSTRING(Fennek_RV_GMW_Tropentarn);
         hiddenSelectionsTextures[] = {
-            QPATHTOEF(rsr,retex_vanilla\data\fennek\fennek_tropentarn_ext_co.paa),
-            QPATHTOEF(rsr,retex_vanilla\data\fennek\fennek_tropentarn_turret_co.paa)
+            QPATHTOF(rsr_retex_vanilla\data\fennek\fennek_tropentarn_ext_co.paa),
+            QPATHTOF(rsr_retex_vanilla\data\fennek\fennek_tropentarn_turret_co.paa)
         };
     };
 };

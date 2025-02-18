@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
-    <Package name="Retex_Vanilla">
+    <Package name="rsr_Retex_Vanilla">
         <Key ID="STR_ttt_rsr_Retex_Vanilla_bergepanzer_flecktarn">
             <English>Armored Recovery Vehicle (Flecktarn)</English>
             <German>Bergepanzer (Flecktarn)</German>

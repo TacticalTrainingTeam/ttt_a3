@@ -2,6 +2,7 @@
 
 class CfgPatches {
     class SUBADDON {
+        name = COMPONENT_NAME;
         // Use meta information from specified addon. Used to avoid repeated declarations.
         addonRootClass = QUOTE(ADDON);
         
