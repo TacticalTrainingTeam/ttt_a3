@@ -10,6 +10,7 @@ Enthält SUBCOMPONENT für:
 - FIR AWS
 - Vanilla
 - Breach
+- JBAD
 
 ## Referenzen
 
