@@ -4,7 +4,7 @@
 
 Entfernt den Turm und sperrt den Schützenplatz.
 
-`[fhz] call ttt_rsr_vanilla_fnc_removeTurretWeapon`
+`[fhz] call ttt_rsr_retex_vanilla_fnc_removeTurretWeapon`
 
 ## Fennek
 
