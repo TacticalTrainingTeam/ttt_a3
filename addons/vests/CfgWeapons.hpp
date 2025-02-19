@@ -30,7 +30,7 @@ class CfgWeapons {
     class ttt_Vest_Heavy_Yellow_US_Desert: ttt_Vest_Heavy_Base {
         scope = 2;
         displayName = CSTRING(heavy_yellow_DisplayName);
-        picture = QPATHTOF(data\pictures\ttt_Vest_Heaby_Yellow_US_Desert.paa);
+        picture = QPATHTOF(data\pictures\ttt_Vest_Heavy_Yellow_US_Desert.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_vest_yellow_us_desert_co.paa)};
     };
     
