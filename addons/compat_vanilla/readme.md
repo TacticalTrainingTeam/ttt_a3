@@ -1,4 +1,4 @@
-# Vanilla Zielfernrohre
+# Compat Vanilla
 
 ## NVG
 
