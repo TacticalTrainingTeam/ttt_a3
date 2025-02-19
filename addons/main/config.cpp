@@ -26,13 +26,13 @@ class CfgPatches {
 class CfgMods {
     class PREFIX {
         dir = "@ttt_a3";
-        name = QUOTE(Tactical Training Team);
+        name = CSTRING(TacticalTrainingTeam);
         picture = "A3\Ui_f\data\Logos\arma3_expansion_alpha_ca.paa";
         hidePicture = "true";
         hideName = "true";
         actionName = "Website";
-        action = "https://tacticalteam.de";
-        description = "https://www.tacticalteam.de";
+        action = CSTRING(url);
+        description = CSTRING(url);
     };
 };
 
