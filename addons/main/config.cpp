@@ -25,7 +25,7 @@ class CfgPatches {
 
 class CfgMods {
     class PREFIX {
-        dir = "@ttt_a3";
+        dir = "@ttt";
         name = CSTRING(TacticalTrainingTeam);
         picture = "A3\Ui_f\data\Logos\arma3_expansion_alpha_ca.paa";
         hidePicture = "true";
