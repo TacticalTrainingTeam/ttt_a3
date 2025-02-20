@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
-    <Package name="Retex_Itc">
+    <Package name="rsr_Retex_Itc">
         <Key ID="STR_ttt_rsr_Retex_Itc_Fennek_RV_Flecktarn">
             <English>Fennek Reconnaissance (Flecktarn)</English>
             <German>Fennek Aufklärung (Flecktarn)</German>
