@@ -25,13 +25,8 @@ if (!isServer || !hasInterface) exitWith {};
 
 params [["_directionDuststorm",(random 360),[42]],["_durationDuststorm",(120),[42]],["_effectOnObjects",(false),[true]],["_dustWall",(false),[true]]];
 
-//define fallback
-// if (isNil "_directionDuststorm") then {_directionDuststorm = random 360;};
-// if (isNil "_durationDuststorm") then {_durationDuststorm = 120;};
-// if (isNil "_effectOnObjects") then {_effectOnObjects = false;};
-// if (isNil "_dustWall") then {_dustWall = false;};
-
 private _duststormActive = true;
+private _endTime = time + _durationDuststorm;
 //save current environment
 private _environment_foglevel = fogParams;
 private _environment_rainlevel = rain;
@@ -46,19 +41,20 @@ private _environment_windlevel = wind;
 		(45 + (random 30)) setRain _environment_rainlevel;
 		(45 + (random 30)) setLightnings _environment_lightninglevel;
 		setWind [_environment_windlevel select 0, _environment_windlevel select 1, true];
+		_duststormActive = false;
 	}, 
 	[_environment_foglevel,_environment_rainlevel,_environment_lightninglevel,_environment_windlevel], 
 	_durationDuststorm
 ] call CBA_fnc_waitAndExecute;
 
-//ambient sound
+//ambient sound !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! FUNKTIOENIERT NICHT RICHTIG
 [
 	{
 		(_this select 0) params ["_active"];
 		if !(_active) exitWith {};
-		playSound "bcg_wind";
+		playSound (selectRandom ["wind_1","wind_2","wind_3","wind_4","wind_5"]);
 	}, 
-	67, 
+	4, 
 	[_duststormActive]
 ] call CBA_fnc_addPerFrameHandler;
 
@@ -78,129 +74,7 @@ private _fogStart = 0;
 
 //[] call ttt_effects_fnc_duststorm_effect;
 
-
-
-
-
-
-
-
-
-
-
-
-
-if (_dustWall) then {
-	// perete de praf
-	_rand_pl = [] execVM "scripts\dust_storm\alias_hunt.sqf";
-	waitUntil {scriptDone _rand_pl};
-
-	//_origine_storm = -1*_directionDuststorm;
-
-	//_pozstorm = getpos hunt_alias;
-	_rapoz = 360-_directionDuststorm;
-
-	_xpoz= 0;
-	_ypoz= 0;
-	 
-	if (_rapoz>=315) then {_xpoz = 0; _ypoz = -800};
-	if (_rapoz <45) then {_xpoz = 0; _ypoz = -800};
-	if ((_rapoz <90) and (_rapoz >=45)) then {_xpoz = 800; _ypoz = 0};
-	if ((315>_rapoz) and (_rapoz>=270)) then {_xpoz = -800; _ypoz = 0};
-	if ((270>_rapoz) and (_rapoz>=225)) then {_xpoz = -800; _ypoz = 0};
-	if ((225>_rapoz) and (_rapoz>=180)) then {_xpoz = 0; _ypoz = 800};
-	if ((180>_rapoz) and (_rapoz>=135)) then {_xpoz = 0; _ypoz = 800};
-	if ((135>_rapoz) and (_rapoz>=90)) then {_xpoz = 800; _ypoz = 0};
-
-	//hint str _xpoz;sleep 1;hint str _ypoz;
-
-	_pozobcj = [(getPos hunt_alias select 0) + _xpoz, (getPos hunt_alias select 1) + _ypoz, 0];
-
-	_xadd = 0;
-	_yadd = 0;
-
-	if ((_ypoz == -800) or ((_ypoz == 800))) then {_yadd =0; _xadd = 160};
-	if ((_xpoz == -800) or ((_xpoz == 800))) then {_yadd =160; _xadd = 0};
-
-
-	_stormsource = "Land_HelipadEmpty_F" createVehicle _pozobcj;
-
-	_stormsource_1 = "Land_HelipadEmpty_F" createVehicle [(_pozobcj select 0)-2*_xadd,(_pozobcj select 1)-2*_yadd,0];
-	_stormsource_2 = "Land_HelipadEmpty_F" createVehicle [(_pozobcj select 0)-_xadd,(_pozobcj select 1)-_yadd,0];
-
-	_stormsource_3 = "Land_HelipadEmpty_F" createVehicle [(_pozobcj select 0)+_xadd,(_pozobcj select 1)+_yadd,0];
-	_stormsource_4 = "Land_HelipadEmpty_F" createVehicle [(_pozobcj select 0)+2*_xadd,(_pozobcj select 1)+2*_yadd,0];
-
-	_stormsource_5 = "Land_HelipadEmpty_F" createVehicle [(_pozobcj select 0)-3*_xadd,(_pozobcj select 1)-3*_yadd,0];
-	_stormsource_6 = "Land_HelipadEmpty_F" createVehicle [(_pozobcj select 0)+3*_xadd,(_pozobcj select 1)+3*_yadd,0];
-	
-	[_stormsource,_stormsource_1,_stormsource_2,_stormsource_3,_stormsource_4,_stormsource_5,_stormsource_6] spawn {
-		private ["_xadv","_yadv","_storm","_storm_1","_storm_2","_storm_3","_storm_4","_storm_5","_storm_6"];
-		_storm = _this select 0;
-		_storm_1 = _this select 1;
-		_storm_2 = _this select 2;
-		_storm_3 = _this select 3;
-		_storm_4 = _this select 4;
-		_storm_5 = _this select 5;
-		_storm_6 = _this select 6;
-
-		_xadv = 0;
-		_yadv = 0;
-		
-		// depl vert
-		if (((getPos _storm select 1)-(getPos hunt_alias select 1)) > 0) then {
-		/*_xadv = 0;*/_yadv =-5;
-		} else {/*_xadv = 0;*/_yadv =5;};
-
-		// depl oriz
-		if (((getPos _storm select 0)-(getPos hunt_alias select 0)) > 0) then {
-		_xadv = -5;/*_yadv =0;*/
-		} else {_xadv = 5;/*_yadv =0;*/};
-			
-		//hint str _xadv;		
-		
-		while {duststormOn} do {		
-			_storm 	 setPos [(getPos _storm select 0)+_xadv,(getPos _storm select 1)+_yadv,0];
-			_storm_1 setPos [(getPos _storm_1 select 0)+_xadv,(getPos _storm_1 select 1)+_yadv,0];
-			_storm_2 setPos [(getPos _storm_2 select 0)+_xadv,(getPos _storm_2 select 1)+_yadv,0];
-			_storm_3 setPos [(getPos _storm_3 select 0)+_xadv,(getPos _storm_3 select 1)+_yadv,0];
-			_storm_4 setPos [(getPos _storm_4 select 0)+_xadv,(getPos _storm_4 select 1)+_yadv,0];
-			_storm_5 setPos [(getPos _storm_5 select 0)+_xadv,(getPos _storm_5 select 1)+_yadv,0];
-			_storm_6 setPos [(getPos _storm_6 select 0)+_xadv,(getPos _storm_6 select 1)+_yadv,0];		
-			sleep 5;
-			//hint str getPos _storm;
-		};
-	};	
-	
-	sleep 0.1;
-	
-	[_stormsource] spawn {
-		_stormsource_s = _this select 0;
-		while {duststormOn} do {
-			[_stormsource_s,["uragan_1",2000]] remoteExec ["say3d"];
-			sleep 40;
-		};
-	};
-
-// >>>>>>>>>>>>>>>>>>>>	
-
-	[[_stormsource,_durationDuststorm],"scripts\dust_storm\alias_dust_wall.sqf"] remoteExec ["BIS_fnc_execVM"];
-	sleep 0.1;
-	[[_stormsource_1,_durationDuststorm],"scripts\dust_storm\alias_dust_wall.sqf"] remoteExec ["BIS_fnc_execVM"];
-	sleep 0.1;
-	[[_stormsource_2,_durationDuststorm],"scripts\dust_storm\alias_dust_wall.sqf"] remoteExec ["BIS_fnc_execVM"];
-	sleep 0.1;
-	[[_stormsource_3,_durationDuststorm],"scripts\dust_storm\alias_dust_wall.sqf"] remoteExec ["BIS_fnc_execVM"];
-	sleep 0.1;
-	[[_stormsource_4,_durationDuststorm],"scripts\dust_storm\alias_dust_wall.sqf"] remoteExec ["BIS_fnc_execVM"];
-	sleep 0.1;
-	[[_stormsource_5,_durationDuststorm],"scripts\dust_storm\alias_dust_wall.sqf"] remoteExec ["BIS_fnc_execVM"];
-	sleep 0.1;
-	[[_stormsource_6,_durationDuststorm],"scripts\dust_storm\alias_dust_wall.sqf"] remoteExec ["BIS_fnc_execVM"];
-};
-
 //heavy wind in direction
-private _endTime = time + _durationDuststorm;
 [
 	{
 		(_this select 0) params ["_active", "_direction", "_duration", "_end"];
@@ -276,11 +150,3 @@ if (_effectOnObjects) then {
 		};
 	};
 };
-
-while {duststormOn} do {
-	_rafale = ["rafala_1","sandstorm","rafala_4_dr","rafala_5_st"] call BIS_fnc_selectRandom;
-	[_rafale] remoteExec ["playSound"];
-	sleep 60+random 120;
-};
-
-//deleteVehicle _stormsource;deleteVehicle _stormsource_1;deleteVehicle _stormsource_2;deleteVehicle _stormsource_3;deleteVehicle _stormsource_4;deleteVehicle _stormsource_5;deleteVehicle _stormsource_6;

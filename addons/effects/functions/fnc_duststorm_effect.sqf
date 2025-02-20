@@ -57,14 +57,14 @@ while {al_duststorm_on} do {
 	"colorCorrections" ppEffectEnable true;
 
 	// particule in aer
-	_leaves_p  = "#particlesource" createVehicleLocal (getpos player);
-	if (vehicle player != player) then {_leaves_p attachto [vehicle player];} else {_leaves_p attachto [player];};
+	_leaves_p  = "#particlesource" createVehicleLocal (getPos player);
+	if (!isNull objectParent player) then {_leaves_p attachTo [vehicle player];} else {_leaves_p attachTo [player];};
 	_leaves_p setParticleRandom [0, [10, 10, 7], [4, 4, 5], 2, 0.1, [0, 0, 0, 0.5], 1, 1];
 	_leaves_p setParticleCircle [10, [0, 0, 0]]; 
 	_leaves_p setParticleParams [["\A3\data_f\cl_basic", 1, 0, 1], "", "Billboard", 1, 12, [0, 0, 0], [-1, -1, 0], 3, 10.15, 7.9, 0.01, [10, 10, 20], [[0.65, 0.5, 0.5, 0], [0.65, 0.6, 0.5, 0.3], [1, 0.95, 0.8, 0]], [0.08], 1, 0, "", "", vehicle player];
 
-	_alias_local_fog = "#particlesource" createVehicleLocal (getpos player); 
-	if (vehicle player != player) then {_alias_local_fog attachto [vehicle player];} else {_alias_local_fog attachto [player];};
+	_alias_local_fog = "#particlesource" createVehicleLocal (getPos player); 
+	if (!isNull objectParent player) then {_alias_local_fog attachTo [vehicle player];} else {_alias_local_fog attachTo [player];};
 	_alias_local_fog setParticleCircle [10, [3, 3, 0]];
 	_alias_local_fog setParticleRandom [10, [0.25, 0.25, 0], [1, 1, 0], 1, 1, [0, 0, 0, 0.1], 0, 0];
 	_alias_local_fog setParticleParams [["\A3\data_f\cl_basic", 1, 0, 1], "", "Billboard", 1, 12, [0, 0, 0], [-1, -1, 0], 3, 10.15, 7.9, 0.01, [10, 10, 20], [[0.65, 0.5, 0.5, 0], [0.65, 0.6, 0.5, 0.3], [1, 0.95, 0.8, 0]], [0.08], 1, 0, "", "", vehicle player];
@@ -76,14 +76,14 @@ while {al_duststorm_on} do {
 	_alias_local_fog setDropInterval _alias_drop_fog_factor;
 
 	sleep 5 + random 15;
-	deletevehicle _leaves_p;
-	deletevehicle _alias_local_fog;
+	deleteVehicle _leaves_p;
+	deleteVehicle _alias_local_fog;
 };
 
 hndl_blur = ppEffectCreate ["DynamicBlur", 500];
-hndl_blur ppeffectenable true;
-hndl_blur ppeffectadjust [3];
-hndl_blur ppeffectcommit 3;
+hndl_blur ppEffectEnable true;
+hndl_blur ppEffectAdjust [3];
+hndl_blur ppEffectCommit 3;
 sleep 3;
 
 //hint "desc";sleep 5;
@@ -103,8 +103,8 @@ col_fct =0.86;
 "colorCorrections" ppEffectEnable true;
 */
 
-hndl_blur ppeffectadjust [0];
-hndl_blur ppeffectcommit 3;
+hndl_blur ppEffectAdjust [0];
+hndl_blur ppEffectCommit 3;
 sleep 3;
 hndl_blur ppEffectEnable false;
 ppEffectDestroy hndl_blur;
