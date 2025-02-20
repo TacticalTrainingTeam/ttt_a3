@@ -22,7 +22,7 @@ jobs:
       - name: Check for BOM
         uses: arma-actions/bom-check@master
 
-  build:
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
@@ -30,10 +30,5 @@ jobs:
           fetch-depth: 0
       - name: Setup HEMTT
         uses: arma-actions/hemtt@v1
-      - name: Run HEMTT build
-        run: hemtt release
-      - name: Upload Release
-        uses: actions/upload-artifact@v4
-        with:
-          name: "@ttt_a3"
-          path: ".hemttout/release/*"
+      - name: Run HEMTT check
+        run: hemtt check
