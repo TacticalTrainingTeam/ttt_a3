@@ -27,7 +27,7 @@ if (!GVAR(enableJIPMoveToRespawn)) exitWith {};
 //platziert den Spieler auf dem Respawn Marker, bzw. bis zu 5m darum
 _target setVehiclePosition [getMarkerPos "respawn", [], 5]; 
 
-if !(isNil GVAR(teleporter)) then {
+if !(isNil QGVAR(teleporter)) then {
     _target setDir (_target getDir GVAR(teleporter));
 };
 
