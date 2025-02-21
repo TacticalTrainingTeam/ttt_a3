@@ -2,7 +2,7 @@
 
 class CfgPatches {
     class ADDON {
-        author = ECSTRING(main,TacticalTrainingTeam);
+        author = "Gruppe W";
         authors[] = {"[W] Miller"};
         url = ECSTRING(main,url);
         name = COMPONENT_NAME;
