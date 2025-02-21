@@ -2,9 +2,9 @@
 
 class CfgPatches {
     class ADDON {
-        author = ECSTRING(main,TacticalTrainingTeam);
+        author = "Gruppe W";
         authors[] = {"[W] Miller", "Andx"};
-        url = ECSTRING(main,url);
+        authorUrl = "https://www.gruppe-w.de/";
         name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
