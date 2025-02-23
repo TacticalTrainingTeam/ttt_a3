@@ -74,6 +74,37 @@
 				"kind": "test",
 				"isDefault": true
 			}
-		}
+		},
+		{
+            "label": "Build: HEMTT",
+            "command": "hemtt.exe",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "args": [
+                "build",
+                "-v"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+		{
+            "label": "Release: HEMTT --no-sign",
+            "command": "hemtt.exe",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "args": [
+                "release",
+				"--no-sign",
+                "-v"
+            ],
+            "group": {
+                "kind": "build",
+                //"isDefault": true
+            }
+        },
 	]
 }
