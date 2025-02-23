@@ -91,6 +91,21 @@
             }
         },
 		{
+            "label": "Build: HEMTT --just",
+            "command": "hemtt.exe",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "args": [
+                "build",
+                "--just",
+                "${input:addon}"
+            ],
+            "group": {
+                "kind": "build"
+            }
+        },
+		{
             "label": "Release: HEMTT --no-sign",
             "command": "hemtt.exe",
             "options": {
@@ -106,5 +121,13 @@
                 //"isDefault": true
             }
         },
+	],
+    "inputs": [
+        {
+            "id": "addon",
+            "description": "Addon Name:",
+            "default": "common",
+            "type": "promptString"
+        }
 	]
 }
