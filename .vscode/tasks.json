@@ -42,6 +42,17 @@
 			"problemMatcher": []
 		},
 		{
+			"label": "Check: Unused Privates",
+			"command": "${config:python.defaultInterpreterPath}",
+			"options": {
+				"cwd": "${workspaceFolder}/tools"
+			},
+			"args": [
+				"search_unused_privates.py"
+			],
+			"problemMatcher": []
+		},
+		{
 			"label": "Check: HEMTT",
 			"command": "hemtt.exe",
 			"options": {
