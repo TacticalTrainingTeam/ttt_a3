@@ -66,10 +66,11 @@
 		{
 			"label": "Test All",
 			"dependsOn": [
-				"Validate Config",
-				"Validate Stringtables",
-				"Check Strings",
-				"HEMTT check"
+				"Validate: Config",
+				"Validate: Stringtables",
+				"Check: Undefined Strings",
+				"Check: Unused Privates",
+				"Check: HEMTT"
 			],
 			"group": {
 				"kind": "test",
