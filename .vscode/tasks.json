@@ -31,24 +31,13 @@
 			"problemMatcher": []
 		},
 		{
-			"label": "Check: Strings",
+			"label": "Check: Undefined Strings",
 			"command": "${config:python.defaultInterpreterPath}",
 			"options": {
 				"cwd": "${workspaceFolder}/tools"
 			},
 			"args": [
 				"check_strings.py"
-			]
-		},
-		{
-			"label": "Check for Unused Strings",
-			"command": "${config:python.defaultInterpreterPath}",
-			"options": {
-				"cwd": "${workspaceFolder}/tools"
-			},
-			"args": [
-				"check_strings.py",
-				"-u"
 			],
 			"problemMatcher": []
 		},

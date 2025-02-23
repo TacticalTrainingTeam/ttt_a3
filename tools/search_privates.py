@@ -17,7 +17,7 @@ def get_private_declare(content):
     srch = re.compile('(?<![_a-zA-Z0-9])(_[a-zA-Z0-9]*?)[ ,\}\]\)";]')
     priv_split = srch.findall(priv_dec_str)
     priv_split = sorted(set(priv_split))
-    priv_declared += priv_split;
+    priv_declared += priv_split
 
     srch = re.compile('params \[.*\]|PARAMS_[0-9].*|EXPLODE_[0-9]_PVT.*|DEFAULT_PARAM.*|KEY_PARAM.*|IGNORE_PRIVATE_WARNING.*')
     priv_srch_declared = srch.findall(content)
@@ -29,13 +29,13 @@ def get_private_declare(content):
     priv_split = srch.findall(priv_dec_str)
     priv_split = sorted(set(priv_split))
 
-    priv_declared += priv_split;
+    priv_declared += priv_split
 
     srch = re.compile('(?i)[\s]*local[\s]+(_[\w\d]*)[\s]*=.*')
     priv_local = srch.findall(content)
     priv_local_declared = sorted(set(priv_local))
 
-    priv_declared += priv_local_declared;
+    priv_declared += priv_local_declared
 
 
     return priv_declared
@@ -80,7 +80,7 @@ def check_privates(filepath):
         if len(missing) > 0:
             print (filepath)
 
-            private_output = 'private[';
+            private_output = 'private['
             first = True
             for bad_priv in missing:
                 if first:
@@ -89,7 +89,7 @@ def check_privates(filepath):
                 else:
                     private_output = private_output + '", "' + bad_priv
 
-            private_output = private_output + '"];';
+            private_output = private_output + '"];'
             print (private_output)
 
             for bad_priv in missing:
