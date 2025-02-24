@@ -7,7 +7,7 @@ private ["_addon", "_actionid", "_tooltip", "_description", "_key", "_modifier",
 _keybind = [
     ELSTRING(main,TacticalTrainingTeam),
     "SwitchChat",
-    ["Disable / Enable Chat","Press to toggle the chat suppression"], //ToDo Stringtable
+    [LSTRING(chatKeybindName),LSTRING(chatKeybindTooltip)], //ToDo Stringtable
     { call FUNC(suppressChat)},
     "",
     [DIK_COMMA, [true, false, false]]
