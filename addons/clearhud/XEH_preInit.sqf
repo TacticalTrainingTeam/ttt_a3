@@ -13,5 +13,5 @@ NO_DEDICATED;
 
 //Define a global variable, chat deactivated by default
 if(isNil QGVAR(activated)) then {
-GVAR(activated) = true;
+    GVAR(activated) = true;
 };
