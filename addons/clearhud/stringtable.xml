@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
-    <Package name="clearhud">
-        <Key ID="STR_ttt_clearhud_chatKeybindName">
+    <Package name="Clearhud">
+        <Key ID="STR_ttt_Clearhud_chatKeybindName">
             <English>Disable / Enable Chat</English>
             <German>Chat deaktivieren / aktivieren</German>
         </Key>
-        <Key ID="STR_ttt_clearhud_chatKeybindTooltip">
+        <Key ID="STR_ttt_Clearhud_chatKeybindTooltip">
             <English>Press to toggle the chat suppression</English>
             <German>Drücke um die Chat-Unterdrückung zu aktivieren/deaktivieren</German>
         </Key>

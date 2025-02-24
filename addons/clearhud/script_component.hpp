@@ -18,11 +18,11 @@
 
 /// PFH ////
 ////////////
-#define KILLPFH			[_this select 1] call CBA_fnc_removePerFrameHandler
+#define KILLPFH         [_this select 1] call CBA_fnc_removePerFrameHandler
 
 // local event handler naming macro
-#define NO_DEDICATED	if(isDedicated) exitWith { }
-#define NO_CLIENT		if(!isServer) exitWith { }
+#define NO_DEDICATED    if(isDedicated) exitWith { }
+#define NO_CLIENT       if(!isServer) exitWith { }
 
 #define RGB_GREEN 0, 0.5, 0, 1
 #define RGB_BLUE 0, 0, 1, 1
