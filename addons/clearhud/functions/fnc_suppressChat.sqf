@@ -11,7 +11,7 @@ _status = GVAR(activated);
 //local copy of the DIK Code to String Table and transform it to a hash
 _diktable = uiNamespace getVariable QUOTE(CBA_keybinding_dikDecToStringTable);
 _hash = [_diktable,0] call CBA_fnc_hashCreate;
-_key = [_hash, format ["%1", _dikCode]] call CBA_fnc_hashGet;
+_key = [_hash, format ["%1", _dikCode]] call CBA_fnc_hashGet;//seems to return wrong key: 0 instead of ,
 
 //create several strings for the current variables
 if (_status) then {
@@ -44,7 +44,7 @@ if (_alt) then {
 
 _keybind = parseText format ["<t color='#FFA54F'>%1%2%3%4</t>",_shift,_ctrl,_alt,_key];
 
-hint formatText ["The Chat is now %1.%2This can be changed by pressing %3",_activated,parseText "<br/>",_keybind];
+hint formatText ["The Chat is now %1.%2This can be changed by pressing %3", _activated, parseText "<br/>", _keybind]; //toDo stringtable
 
 GVAR(activated) = _status;
 

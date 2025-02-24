@@ -1,2 +1,2 @@
-PREP(registerKeybind);
+PREP(registerChatKeybind);
 PREP(suppressChat);

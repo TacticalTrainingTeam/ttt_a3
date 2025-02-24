@@ -1,7 +1,7 @@
 #include "script_component.hpp"
 
 //For each client, register the keybind
-[] call CALLSTACK(FUNC(registerKeybind));
+[] call CALLSTACK(FUNC(registerChatKeybind));
 
 //deactivate the chat by default in MP and assign it to a handle
 if (isMultiplayer && GVAR(activated)) then {
