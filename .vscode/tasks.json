@@ -59,7 +59,9 @@
 				"cwd": "${workspaceFolder}"
 			},
 			"args": [
-				"check"
+				"check",
+				"-p",
+				"-v"
 			],
 			"problemMatcher": []
 		},
@@ -101,7 +103,8 @@
 			"args": [
 				"build",
 				"--just",
-				"${input:addon}"
+				"${input:addon}",
+				"-v"
 			],
 			"group": {
 				"kind": "build"
