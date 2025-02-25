@@ -1,2 +1,2 @@
 PREP(registerChatKeybind);
-PREP(suppressChat);
+PREP(toggleChat);
