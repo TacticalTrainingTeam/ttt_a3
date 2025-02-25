@@ -1,5 +1,5 @@
 #define COMPONENT w_vehicleshield
-#define COMPONENT_BEAUTIFIED W Vehicle Shield
+#define COMPONENT_BEAUTIFIED W-Vehicle Shield
 #include "\z\ttt\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

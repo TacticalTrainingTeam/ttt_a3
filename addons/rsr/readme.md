@@ -1,4 +1,4 @@
-# RsR Core
+# RsR
 
 Stellt Basisfunktionen bereit für alle RsR Mods.
 
