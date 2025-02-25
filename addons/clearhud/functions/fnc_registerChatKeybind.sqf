@@ -6,18 +6,17 @@
  * Add Keybind to toggle Chat visibility
  *
  * Arguments:
- * 0: Argument (optional, default: value) <OBJECT>
+ * None
  *
  * Return Value:
- * Return description <NONE>
+ * True <BOOLEAN>
  *
  * Example:
- * [params] call PREFIX_clearhud_fnc_registerChatKeybind
+ * [] call ttt_clearhud_fnc_registerChatKeybind
  *
  * Public: No
  */
 
-params [];
 TRACE_1("fnc_registerChatKeybind",_this);
 
 //initiate the cba keybind, will return the current keybind
