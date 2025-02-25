@@ -9,7 +9,7 @@ class CfgPatches {
         requiredAddons[] = {"ttt_common"};
         authors[] = {"BlauBär"};
         author = "Gruppe W";
-        authorUrl = "https://www.gruppe-w.de/";
+        url = "https://www.gruppe-w.de/";
         VERSION_CONFIG;
     };
 };

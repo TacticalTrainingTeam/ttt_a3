@@ -7,9 +7,7 @@ class CfgPatches {
         authorUrl = "https://www.gruppe-w.de/";
         name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {
-            "ttt_common"
-        };
+        requiredAddons[] = {"ttt_common"};
         units[] = {};
         weapons[] = {};
         VERSION_CONFIG;
