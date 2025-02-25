@@ -1,7 +1,29 @@
 #include "..\script_component.hpp"
 #include "\a3\editor_f\Data\Scripts\dikCodes.h"
 
-private ["_status", "_handle", "_key", "_keybind", "_activated"];
+/*
+ * Authors: Soldia, Andx
+ * Hides Chat
+ *
+ * Arguments:
+ * 0: display <STRING>
+ * 1: dikcode <STRING>
+ * 2: shift <STRING>
+ * 3: ctrl <STRING>
+ * 4: alt <STRING>
+ *
+ * Return Value:
+ * True <BOOLEAN>
+ *
+ * Example:
+ * [] call ttt_clearhud_fnc_suppressChat
+ *
+ * Public: No
+ */
+
+TRACE_1("fnc_suppressChat",_this);
+
+private ["_status", "_key", "_keybind", "_activated"];
 
 PARAMS_5(_display,_dikCode,_shift,_ctrl,_alt);
 

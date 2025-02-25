@@ -1,14 +1,31 @@
 #include "..\script_component.hpp"
 #include "\a3\editor_f\Data\Scripts\dikCodes.h"
 
-private ["_addon", "_actionid", "_tooltip", "_description", "_key", "_modifier", "_keybind"];
+/*
+ * Authors: Soldia, Andx
+ * Add Keybind to toggle Chat visibility
+ *
+ * Arguments:
+ * 0: Argument (optional, default: value) <OBJECT>
+ *
+ * Return Value:
+ * Return description <NONE>
+ *
+ * Example:
+ * [params] call PREFIX_clearhud_fnc_registerChatKeybind
+ *
+ * Public: No
+ */
+
+params [];
+TRACE_1("fnc_registerChatKeybind",_this);
 
 //initiate the cba keybind, will return the current keybind
-_keybind = [
+private _keybind = [
     ELSTRING(main,TacticalTrainingTeam),
     "SwitchChat",
-    [LSTRING(chatKeybindName),LSTRING(chatKeybindTooltip)], //ToDo Stringtable
-    { call FUNC(suppressChat)},
+    [LSTRING(chatKeybindName),LSTRING(chatKeybindTooltip)],
+    { call FUNC(toggleChat)},
     "",
     [DIK_COMMA, [true, false, false]]
 ] call CBA_fnc_addKeybind;
