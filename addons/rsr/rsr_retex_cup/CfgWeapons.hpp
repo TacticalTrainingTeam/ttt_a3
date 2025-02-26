@@ -22,14 +22,14 @@ class CfgWeapons {
         };
     };
     
-    class CUP_H_USMC_LWH_DES;
-    class rnt_bw_wintertarn_helm_item: CUP_H_USMC_LWH_DES {
-        author = ECSTRING(rsr,rnt);
-        displayName = SUBCSTRING(snowHelmetDisplayName);
-        picture = QPATHTOF(rsr_retex_cup\data\helmet\rnt_winter_helm_ui_pre_ca.paa);
-        scope = 0; //Base Helmet is no longer in CUP => hide it
-        hiddenSelectionsTextures[]= {
-            QPATHTOF(rsr_retex_cup\data\helmet\rnt_winter_helm_co.paa)
-        };
-    };
+    // class CUP_H_USMC_LWH_DES;
+    // class rnt_bw_wintertarn_helm_item: CUP_H_USMC_LWH_DES {
+    //     author = ECSTRING(rsr,rnt);
+    //     displayName = SUBCSTRING(snowHelmetDisplayName);
+    //     picture = QPATHTOF(rsr_retex_cup\data\helmet\rnt_winter_helm_ui_pre_ca.paa);
+    //     scope = 0; //Base Helmet is no longer in CUP => hide it
+    //     hiddenSelectionsTextures[]= {
+    //         QPATHTOF(rsr_retex_cup\data\helmet\rnt_winter_helm_co.paa)
+    //     };
+    // };
 };
