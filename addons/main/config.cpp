@@ -19,19 +19,20 @@ class CfgPatches {
 
         // Optional. If this is 1, if any of requiredAddons[] entry is missing in your game the entire config will be ignored and return no error (but in rpt) so useful to make a compat Mod (Since Arma 3 2.14)
         //skipWhenMissingDependencies = 1;
+        VERSION_CONFIG;
     };
 };
 
 class CfgMods {
     class PREFIX {
-        dir = "@ttt_a3";
-        name = QUOTE(Tactical Training Team);
+        dir = "@ttt";
+        name = CSTRING(TacticalTrainingTeam);
         picture = "A3\Ui_f\data\Logos\arma3_expansion_alpha_ca.paa";
         hidePicture = "true";
         hideName = "true";
         actionName = "Website";
-        action = "https://tacticalteam.de";
-        description = "https://www.tacticalteam.de";
+        action = CSTRING(url);
+        description = CSTRING(url);
     };
 };
 

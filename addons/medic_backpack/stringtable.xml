@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Medic_Backpack">
+        <Key ID="STR_ttt_Medic_Backpack_SubCategory">
+            <English>Medical Backpack</English>
+            <German>medizinischer Rucksack</German>
+        </Key>
         <Key ID="STR_ttt_Medic_Backpack_abort">
             <English>Action aborted</English>
             <German>Vorgang abgebrochen</German>
@@ -61,6 +65,10 @@
             <English>Facitlityobject</English>
             <German>Einrichtungsobjekt</German>
         </Key>
+        <Key ID="STR_ttt_Medic_Backpack_settingSupportedBackpacks_description">
+            <English>Classnames of the backpacks that can carry a medical device.\n(By default, each of these backpacks has one loaded, including those of the AI. To deactivate, add the following code to the loadout of the unit: (unitBackpack player) setVariable ["hasTent", false])\ni.e.: ["B_Kitbag_rgr","B_Kitbag_blk"]\n(The array must be enclosed with ' in cba_settings.sqf)</English>
+            <German>Classnames der Rucksäcke die eine medizinische Einrichtung transportieren können.\n(Standardmäßig hat jeder dieser Rucksäcke eine geladen; auch die der KI. Zum Deaktivieren folgenden Code zum Loadout der Einheit hinzufügen: (unitBackpack player) setVariable ["hasTent", false]\nBsp.: ["B_Kitbag_rgr","B_Kitbag_cbr"])\n(In der cba_settings.sqf muss das Array mit ' umschlossen werden)</German>
+        </Key>
         <Key ID="STR_ttt_Medic_Backpack_settingSupportedBackpacks_name">
             <English>Supported Backpacks</English>
             <German>Unterstützte Rucksäcke</German>
@@ -72,14 +80,6 @@
         <Key ID="STR_ttt_Medic_Backpack_settingUseAnimation_name">
             <English>Play Animation</English>
             <German>Animation abspielen</German>
-        </Key>
-        <Key ID="STR_ttt_Medic_Backpack_SubCategory">
-            <English>Medical Backpack</English>
-            <German>medizinischer Rucksack</German>
-        </Key>
-        <Key ID="STR_ttt_Medic_Backpack_settingSupportedBackpacks_description">
-            <English>Classnames of the backpacks that can carry a medical device.\n(By default, each of these backpacks has one loaded, including those of the AI. To deactivate, add the following code to the loadout of the unit: (unitBackpack player) setVariable ["hasTent", false])\ni.e.: ["B_Kitbag_rgr","B_Kitbag_blk"]\n(The array must be enclosed with ' in cba_settings.sqf)</English>
-            <German>Classnames der Rucksäcke die eine medizinische Einrichtung transportieren können.\n(Standardmäßig hat jeder dieser Rucksäcke eine geladen; auch die der KI. Zum Deaktivieren folgenden Code zum Loadout der Einheit hinzufügen: (unitBackpack player) setVariable ["hasTent", false]\nBsp.: ["B_Kitbag_rgr","B_Kitbag_cbr"])\n(In der cba_settings.sqf muss das Array mit ' umschlossen werden)</German>
         </Key>
     </Package>
 </Project>
