@@ -82,7 +82,7 @@ Stellt TTT-Bilder anderen Addons zur Verfügung.
 
 ### Kisten
 
-Fügt einige TTT-spezifische Kisten hinzu.
+Fügt einige TTT-spezifische Kisten hinzu. Alle Kisten sind ein (1) ACE-Cargo groß.
 
 #### Sanitätskisten
 

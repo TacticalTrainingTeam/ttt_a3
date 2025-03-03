@@ -24,8 +24,10 @@ class GVAR(vba_crate): ACE_medicalSupplyCrate {
 
         MACRO_ADDITEM(ACE_personalAidKit,3);
         MACRO_ADDITEM(ACE_surgicalKit,1);
-        MACRO_ADDITEM(ACE_suture,40);
+        MACRO_ADDITEM(ACE_suture,50);
         MACRO_ADDITEM(ACE_bodyBag,3);
+
+        MACRO_ADDITEM(ace_flags_blue,1);
     };
 };
 
@@ -35,10 +37,12 @@ class GVAR(vbt_crate): Box_B_UAV_06_medical_F {
     author = ECSTRING(main,TacticalTrainingTeam);
     editorSubcategory = QEGVAR(main,ttt);
     ace_cargo_size = 1;
+    maximumLoad = 150;
     
     class TransportItems {
-        MACRO_ADDITEM(ACE_fieldDressing,50);
-        MACRO_ADDITEM(ACE_packingBandage,50);
+        MACRO_ADDITEM(ACE_fieldDressing,100);
+        MACRO_ADDITEM(ACE_packingBandage,80);
+        MACRO_ADDITEM(ACE_quikclot,15);
         MACRO_ADDITEM(ACE_tourniquet,12);
 
         MACRO_ADDITEM(ACE_painkillers,10);
