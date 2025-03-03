@@ -42,8 +42,8 @@ Hinzu kommen allerdings wie gewünscht bei beiden ein Werkzeugkasten, fünf Klap
 
 ### callReinforcements
 
-Diese Funktion erstellt Verstärkungstruppen mit einem Fahrzeug und sendet diese zu einem Releasepunkt von woaus sie angreifen. Dabei kann das Fahrzeug wie bei mechanisierten Kräften u.a. zum Angriff genutzt werden. Es stehen für Luft- sowie Bodenfahrzeuge jeweils 3 Einstellungen zur Verfügung.  
-Sollte die Mod [LAMBS DANGER](https://steamcommunity.com/workshop/filedetails/?id=1858075458) aktiv sein, werden alle möglichen Wegpunkte durch das LAMBS Äquivalent ersetzt.  
+Diese Funktion erstellt Verstärkungstruppen mit einem Fahrzeug und sendet diese zu einem Releasepunkt von woaus sie angreifen. Dabei kann das Fahrzeug wie bei mechanisierten Kräften, u.a. zum Angriff, genutzt werden. Es stehen für Luft- sowie Bodenfahrzeuge jeweils drei Einstellungen zur Verfügung.  
+Sollte die Mod [LAMBS DANGER](https://steamcommunity.com/workshop/filedetails/?id=1858075458) aktiv sein, werden alle möglichen Wegpunkte durch das LAMBS-Äquivalent ersetzt.  
 Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=723217262) nicht aktiv sein, werden Helikopter keine Fastrope oder Fallschirmsprünge durchführen, sondern immer landen.
 
 ```c++
@@ -83,6 +83,30 @@ Stellt TTT-Bilder anderen Addons zur Verfügung.
 ### Einheiten
 
 Fügt ein paar generische Einheiten (ohne eigenes Loadout), als Hilfe für einheiten-basierte Loadoutsystem wie z.b. Poppy, hinzu.
+
+### Kisten
+
+Fügt einige TTT-spezifische Kisten hinzu. Alle Kisten sind ein (1) ACE-Cargo groß.
+
+#### Sanitätskisten
+
+Fügt folgende Sanitätskisten  hinzu:
+
+- Sanitätskiste (VBA) `ttt_common_vba_crate`
+- Sanitätskiste (VBT) `ttt_common_vbt_crate`
+
+Inhalt ist im [Wiki VBA](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#verbandsmaterial-arzt) bzw. [Wiki VBT](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#verbandsmaterial-truppe) definiert.
+
+#### Pionierkisten
+
+Fügt folgende Pionierkisten hinzu:
+
+- Sprengkiste `ttt_common_spreng_crate`
+- Pionierkiste `ttt_common_pio_crate`
+- EOD-Kiste `ttt_common_eod_crate`
+- EOD-Kiste mit UGV (ED-1D) `ttt_common_eod_ugv_crate`
+
+Inhalt ist im [Wiki spezielle Kisten](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#spezielle-kisten) definiert.
 
 ## Maintainer
 

@@ -50,5 +50,7 @@ class CfgVehicles {
     class TTT_B_EOD_TL_F: TTT_B_EOD_F{
         displayName = CSTRING(EODTL);
     };
-};
 
+    #include "configs\crates_medic.hpp"
+    #include "configs\crates_engineer.hpp"
+};
