@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Common">
+        <Key ID="STR_ttt_Common_vba">
+            <English>TTT Medical Crate (VBA)</English>
+            <German>TTT Sanitätskiste (VBA)</German>
+        </Key>
+        <Key ID="STR_ttt_Common_vbs">
+            <English>TTT Medical Crate (VBS)</English>
+            <German>TTT Sanitätskiste (VBS)</German>
+        </Key>
+        <Key ID="STR_ttt_Common_vbt">
+            <English>TTT Medical Crate (VBT)</English>
+            <German>TTT Sanitätskiste (VBT)</German>
+        </Key>
+    </Package>
+</Project>
