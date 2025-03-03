@@ -1,4 +1,7 @@
 class CfgVehicles {
+
+    //Custom Units
+    //Used for Unit-based Loadoutsystems like poppy or grad-loadout
     class B_Officer_F;
     class B_Medic_F;
     class B_Crew_F;
