@@ -23,7 +23,7 @@
         </Key>
         <Key ID="STR_ttt_Common_eod_ugv">
             <English>TTT EOD+UGV Crate (EOD+)</English>
-            <German>TTT EOD*UGV Kiste (EOD+)</German>
+            <German>TTT EOD+UGV Kiste (EOD+)</German>
         </Key>
     </Package>
 </Project>
