@@ -80,6 +80,49 @@ Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=72
 
 Stellt TTT-Bilder anderen Addons zur Verfügung.
 
+### Sanitätskisten
+
+Fügt folgende drei Sanitätskisten mit Inhalt hinzu:
+
+#### TTT-Sanitätskiste (VBA)
+
+-ACE_elasticBandage,100
+-ACE_quikclot,50
+-ACE_packingBandage,100
+-ACE_tourniquet,50
+-ACE_morphine,50
+-ACE_epinephrine,50
+-ACE_painkillers,10
+-ACE_SalineIV,20
+-ACE_SalineIV_500,10
+-ACE_SalineIV_250,10
+-ACE_personalAidKit,3
+-ACE_surgicalKit,1
+-ACE_suture,40
+-ACE_bodyBag,3
+
+#### TTT-Sanitätskiste (VBS)
+
+-ACE_elasticBandage,50
+-ACE_quikclot,30
+-ACE_packingBandage,50
+-ACE_tourniquet,18
+-ACE_morphine,25
+-ACE_epinephrine,25
+-ACE_painkillers,10
+-ACE_SalineIV,20
+-ACE_SalineIV_500,10
+-ACE_SalineIV_250,10
+-ACE_surgicalKit,1
+-ACE_suture,40
+
+#### TTT-Sanitätskiste (VBT)
+
+-ACE_fieldDressing,50
+-ACE_packingBandage,50
+-ACE_tourniquet,12
+-ACE_painkillers,10
+
 ## Maintainer
 
 - Andx
