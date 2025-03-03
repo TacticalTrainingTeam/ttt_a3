@@ -80,6 +80,10 @@ Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=72
 
 Stellt TTT-Bilder anderen Addons zur Verfügung.
 
+### Einheiten
+
+Fügt ein paar generische Einheiten (ohne eigenes Loadout), als Hilfe für einheiten-basierte Loadoutsystem wie z.b. Poppy, hinzu.
+
 ## Maintainer
 
 - Andx
