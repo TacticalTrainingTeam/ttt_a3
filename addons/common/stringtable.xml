@@ -45,5 +45,9 @@
             <English>EOD Team Leader</English>
             <German>EOD Truppführer</German>
         </Key>
+        <Key ID="STR_ttt_Common_EngTL">
+            <English>Engineer Team Leader</English>
+            <German>Pionier Truppführer</German>
+        </Key>
     </Package>
 </Project>

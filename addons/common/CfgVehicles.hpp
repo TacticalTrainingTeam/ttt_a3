@@ -7,6 +7,7 @@ class CfgVehicles {
     class B_Crew_F;
     class B_soldier_mine_F;
     class B_Soldier_Repair_F;
+    class B_engineer_F;
 
     class TTT_B_Commanding_Officer_F : B_Officer_F {
         displayName = CSTRING(CO);
@@ -33,6 +34,10 @@ class CfgVehicles {
     };
     class TTT_B_Medic_CM_F : B_Medic_F {
         displayName = CSTRING(CM);
+    };
+
+    class TTT_B_engineer_TL_F: B_engineer_F{
+        displayName = CSTRING(EngTL);
     };
 
     class TTT_B_Crew_TL_F : B_Crew_F {
