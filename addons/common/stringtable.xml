@@ -29,7 +29,7 @@
             <English>Crew Commander</English>
             <German>Fahrzeug Kommandant</German>
         </Key>
-        <Key ID="STR_ttt_Common_CombatMedic">
+        <Key ID="STR_ttt_Common_CM">
             <English>Combat Medic</English>
             <German>Combat Medic</German>
         </Key>
