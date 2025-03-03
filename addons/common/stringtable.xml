@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Common">
+        <Key ID="STR_ttt_Common_CO">
+            <English>Commanding Officer</English>
+            <German>Kompanie Chef</German>
+        </Key>
+        <Key ID="STR_ttt_Common_XO">
+            <English>Executive Officer</English>
+            <German>Kompanieeinsatz Offizier</German>
+        </Key>
+        <Key ID="STR_ttt_Common_JTAC">
+            <English>Joint-Terminal-Attack-Controller</English>
+            <German>Fliegerleitoffizier</German>
+        </Key>
+        <Key ID="STR_ttt_Common_FO">
+            <English>Forward Observer</English>
+            <German>Vorgeschobener Beobachter</German>
+        </Key>
+        <Key ID="STR_ttt_Common_RadioOperator">
+            <English>Radio Operator</English>
+            <German>Funker</German>
+        </Key>
+        <Key ID="STR_ttt_Common_LogTL">
+            <English>Logistics Team Leader</English>
+            <German>Logistik Trupp Führer</German>
+        </Key>
+        <Key ID="STR_ttt_Common_CrewTL">
+            <English>Crew Commander</English>
+            <German>Fahrzeug Kommandant</German>
+        </Key>
+        <Key ID="STR_ttt_Common_CombatMedic">
+            <English>Combat Medic</English>
+            <German>Combat Medic</German>
+        </Key>
+        <Key ID="STR_ttt_Common_Doc">
+            <English>Doctor</English>
+            <German>Arzt</German>
+        </Key>
+        <Key ID="STR_ttt_Common_EOD">
+            <English>EOD Technician</English>
+            <German>EOD Spezialist</German>
+        </Key>
+        <Key ID="STR_ttt_Common_EODTL">
+            <English>EOD Team Leader</English>
+            <German>EOD Truppführer</German>
+        </Key>
+    </Package>
+</Project>
