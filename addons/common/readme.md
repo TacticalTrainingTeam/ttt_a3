@@ -80,48 +80,29 @@ Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=72
 
 Stellt TTT-Bilder anderen Addons zur Verfügung.
 
-### Sanitätskisten
+### Kisten
 
-Fügt folgende drei Sanitätskisten mit Inhalt hinzu:
+Fügt einige TTT-spezifische Kisten hinzu.
 
-#### TTT-Sanitätskiste (VBA)
+#### Sanitätskisten
 
--ACE_elasticBandage,100
--ACE_quikclot,50
--ACE_packingBandage,100
--ACE_tourniquet,50
--ACE_morphine,50
--ACE_epinephrine,50
--ACE_painkillers,10
--ACE_SalineIV,20
--ACE_SalineIV_500,10
--ACE_SalineIV_250,10
--ACE_personalAidKit,3
--ACE_surgicalKit,1
--ACE_suture,40
--ACE_bodyBag,3
+Fügt folgende Sanitätskisten  hinzu.
 
-#### TTT-Sanitätskiste (VBS)
+- Sanitätskiste (VBA) `ttt_common_vba_crate`
+- Sanitätskiste (VBT) `ttt_common_vbt_crate`
 
--ACE_elasticBandage,50
--ACE_quikclot,30
--ACE_packingBandage,50
--ACE_tourniquet,18
--ACE_morphine,25
--ACE_epinephrine,25
--ACE_painkillers,10
--ACE_SalineIV,20
--ACE_SalineIV_500,10
--ACE_SalineIV_250,10
--ACE_surgicalKit,1
--ACE_suture,40
+Inhalt ist im [Wiki VBA](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#verbandsmaterial-arzt) bzw. [Wiki VBT](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#verbandsmaterial-truppe) definiert.
 
-#### TTT-Sanitätskiste (VBT)
+#### Pionierkisten
 
--ACE_fieldDressing,50
--ACE_packingBandage,50
--ACE_tourniquet,12
--ACE_painkillers,10
+Fügt folgende Pionierkisten hinzu:
+
+- Sprengkiste `ttt_common_spreng_crate`
+- Pionierkiste `ttt_common_pio_crate`
+- EOD-Kiste `ttt_common_eod_crate`
+- EOD-Kiste mit UGV (ED-1D) `ttt_common_eod_ugv_crate`
+
+Inhalt ist im [Wiki spezielle Kisten](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#spezielle-kisten) definiert.
 
 ## Maintainer
 
