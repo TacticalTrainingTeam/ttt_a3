@@ -97,7 +97,7 @@ Inhalt ist im [Wiki VBA](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubki
 
 Fügt folgende Pionierkisten hinzu:
 
-- Sprengkiste `ttt_common_spreng_crate`
+- Sprengkiste `ttt_common_explosives_crate`
 - Pionierkiste `ttt_common_pio_crate`
 - EOD-Kiste `ttt_common_eod_crate`
 - EOD-Kiste mit UGV (ED-1D) `ttt_common_eod_ugv_crate`
