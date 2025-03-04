@@ -16,13 +16,12 @@ jobs:
         run: python3 tools/config_style_checker.py
       - name: Validate Stringtables
         run: python3 tools/stringtable_validator.py
-        continue-on-error: true
       - name: Check Strings
         run: python3 tools/check_strings.py
       - name: Check for BOM
         uses: arma-actions/bom-check@master
 
-  build:
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
@@ -30,10 +29,5 @@ jobs:
           fetch-depth: 0
       - name: Setup HEMTT
         uses: arma-actions/hemtt@v1
-      - name: Run HEMTT build
-        run: hemtt release
-      - name: Upload Release
-        uses: actions/upload-artifact@v4
-        with:
-          name: "@ttt_a3"
-          path: ".hemttout/release/*"
+      - name: Run HEMTT check
+        run: hemtt check

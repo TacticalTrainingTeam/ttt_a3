@@ -1,0 +1,2 @@
+PREP(registerChatKeybind);
+PREP(toggleChat);
