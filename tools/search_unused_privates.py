@@ -4,6 +4,7 @@ import fnmatch
 import os
 import re
 import argparse
+import sys
 
 def get_private_declare(content):
     priv_declared = []
@@ -116,5 +117,7 @@ def main():
 
     print ("Bad Count {0}".format(bad_count))
 
+    return bad_count
+
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
