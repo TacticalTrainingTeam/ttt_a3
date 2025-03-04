@@ -11,7 +11,7 @@ class CfgWeapons {
         author = ECSTRING(rsr,rnt);
         displayName = SUBCSTRING(snowCamoDisplayName);
         //picture = QPATHTOF(retex_cup\data\uniform\rnt_winter_uniform_ui_pre_ca.paa);
-        picture = QPATHTOF(retex_cup\data\uniform\pictures\rnt_winter_uniform.paa);
+        picture = QPATHTOF(rsr_retex_cup\data\uniform\pictures\rnt_winter_uniform.paa);
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 
         class ItemInfo: UniformItem {
@@ -22,14 +22,14 @@ class CfgWeapons {
         };
     };
     
-    class CUP_H_USMC_LWH_DES;
-    class rnt_bw_wintertarn_helm_item: CUP_H_USMC_LWH_DES {
-        author = ECSTRING(rsr,rnt);
-        displayName = SUBCSTRING(snowHelmetDisplayName);
-        picture = QPATHTOF(retex_cup\data\helmet\rnt_winter_helm_ui_pre_ca.paa);
-        scope = 0; //Base Helmet is no longer in CUP => hide it
-        hiddenSelectionsTextures[]= {
-            QPATHTOF(retex_cup\data\helmet\rnt_winter_helm_co.paa)
-        };
-    };
+    // class CUP_H_USMC_LWH_DES;
+    // class rnt_bw_wintertarn_helm_item: CUP_H_USMC_LWH_DES {
+    //     author = ECSTRING(rsr,rnt);
+    //     displayName = SUBCSTRING(snowHelmetDisplayName);
+    //     picture = QPATHTOF(rsr_retex_cup\data\helmet\rnt_winter_helm_ui_pre_ca.paa);
+    //     scope = 0; //Base Helmet is no longer in CUP => hide it
+    //     hiddenSelectionsTextures[]= {
+    //         QPATHTOF(rsr_retex_cup\data\helmet\rnt_winter_helm_co.paa)
+    //     };
+    // };
 };
