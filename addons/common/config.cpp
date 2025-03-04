@@ -6,7 +6,7 @@ class CfgPatches {
         units[] = {
             "ttt_common_vba_crate",
             "ttt_common_vbt_crate",
-            "ttt_common_spreng_crate",
+            "ttt_common_explosives_crate",
             "ttt_common_pio_crate",
             "ttt_common_eod_crate",
             "ttt_common_eod_ugv_crate"
