@@ -8,7 +8,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"ttt_common"};
         authors[] = {"BlauBär"};
-        author = "Gruppe W Bauleitung";
+        author = "Gruppe W";
         url = "https://www.gruppe-w.de/";
         VERSION_CONFIG;
     };
