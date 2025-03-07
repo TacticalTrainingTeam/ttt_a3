@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="rsr_Retex_Rhs">
+        <Key ID="STR_ttt_rsr_Retex_Rhs_C161Transall2">
+            <English>C-161 Transall 2</English>
+            <German>C-161 Transall 2</German>
+        </Key>
+        <Key ID="STR_ttt_rsr_Retex_Rhs_C161Transall2VIV">
+            <English>C-161 Transall 2 (VIV)</English>
+            <German>C-161 Transall 2 (VIV)</German>
+        </Key>
+    </Package>
+</Project>

@@ -21,7 +21,7 @@ class CfgVehicles {
 
     class ttt_plain_US_Desert: ttt_Base {
         displayName = CSTRING(plain_US_desert_DisplayName);
-        scope = 2;
+        scope = 1;
         uniformClass = "ttt_Uniform_plain_US_Desert";
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_base_US.paa) };
     };
@@ -120,7 +120,7 @@ class CfgVehicles {
     //Flecktarn
     class ttt_plain_BW_Flecktarn: ttt_Base {
         displayName = CSTRING(plain_BW_Flecktarn_DisplayName);
-        scope = 2;
+        scope = 1;
         uniformClass = "ttt_Uniform_plain_BW_Flecktarn";
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_base_bw_flecktarn.paa) };
     };
