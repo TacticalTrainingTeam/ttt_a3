@@ -1,6 +1,6 @@
 # Logistics
 
-Fügt ausgewählten Rucksäcken die `ACE_Wirecutter` funktion hinzu:
+Fügt ausgewählten Rucksäcken die `ACE_Wirecutter` Funktion hinzu:
 
 - `CFP_Cutters`
 
@@ -8,7 +8,7 @@ Fügt ausgewählten Rucksäcken die `ACE_Wirecutter` funktion hinzu:
 
 <https://ace3.acemod.org/wiki/framework/wirecutter-framework#1-config-values>
 
-## Abhängikeiten
+## Abhängigkeiten
 
 - ace_logistics
 - cfp_main
