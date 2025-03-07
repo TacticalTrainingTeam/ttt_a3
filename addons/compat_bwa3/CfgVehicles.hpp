@@ -23,8 +23,7 @@ class CfgVehicles {
             }*/
         };
 
-        class AcreRacks
-        {
+        class AcreRacks {
             class Rack_1 {
                 displayName = ECSTRING(common,RackA);
                 shortName = ECSTRING(common,RackAShort);
