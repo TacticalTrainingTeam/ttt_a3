@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Common">
+        <Key ID="STR_ttt_Common_vba">
+            <English>TTT Medical Crate (VBA)</English>
+            <German>TTT Sanitätskiste (VBA)</German>
+        </Key>
+        <Key ID="STR_ttt_Common_vbt">
+            <English>TTT Medical Crate (VBT)</English>
+            <German>TTT Sanitätskiste (VBT)</German>
+        </Key>
+        <Key ID="STR_ttt_Common_pio">
+            <English>TTT Combat Engineer Crate (Pio)</English>
+            <German>TTT Pionierkiste (Pio)</German>
+        </Key>
+        <Key ID="STR_ttt_Common_spreng">
+            <English>TTT Explosives Crate (Spreng)</English>
+            <German>TTT Sprengkiste (Spreng)</German>
+        </Key>
+        <Key ID="STR_ttt_Common_eod">
+            <English>TTT EOD Crate (EOD)</English>
+            <German>TTT EOD Kiste (EOD)</German>
+        </Key>
+        <Key ID="STR_ttt_Common_eod_ugv">
+            <English>TTT EOD+UGV Crate (EOD+)</English>
+            <German>TTT EOD+UGV Kiste (EOD+)</German>
+        </Key>
+    </Package>
+</Project>
