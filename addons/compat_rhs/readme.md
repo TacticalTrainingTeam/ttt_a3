@@ -1,6 +1,10 @@
-# Compat RHS Weapons
+# Compat RHS
 
-Enthält Configfixes und einige Funktionen für Objekte in `CfgWeapons`.
+Enthält Configfixes und einige Funktionen für RHS.
+
+## No 40mm Smoke Bounce
+
+Verhindert das RHS 40mm Rauchgranaten über den Boden springen.
 
 ## Visor öffnen / schließen
 
