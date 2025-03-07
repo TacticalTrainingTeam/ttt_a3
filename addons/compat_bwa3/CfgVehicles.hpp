@@ -260,7 +260,6 @@ class CfgVehicles {
             };
         };
     };
-    //ToDo
     //Leopard 2 
     class BWA3_Leopard_base: Tank_F {
 
