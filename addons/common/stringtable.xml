@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Common">
+        <Key ID="STR_ttt_Common_BV">
+            <English>Bordverständigungsanlage</English>
+            <German>Bordverständigungsanlage</German>
+        </Key>
+        <Key ID="STR_ttt_Common_BVShort">
+            <English>BV</English>
+            <German>BV</German>
+        </Key>
+        <Key ID="STR_ttt_Common_RackA">
+            <English>Funkkreis A</English>
+            <German>Funkkreis A</German>
+        </Key>
+        <Key ID="STR_ttt_Common_RackAShort">
+            <English>Krs A</English>
+            <German>Krs A</German>
+        </Key>
+        <Key ID="STR_ttt_Common_RackB">
+            <English>Funkkreis B</English>
+            <German>Funkkreis B</German>
+        </Key>
+        <Key ID="STR_ttt_Common_RackBShort">
+            <English>Krs B</English>
+            <German>Krs B</German>
+        </Key>
+        <Key ID="STR_ttt_Common_RackC">
+            <English>Funkkreis C</English>
+            <German>Funkkreis C</German>
+        </Key>
+        <Key ID="STR_ttt_Common_RackCShort">
+            <English>Krs C</English>
+            <German>Krs C</German>
+        </Key>
         <Key ID="STR_ttt_Common_vba">
             <English>TTT Medical Crate (VBA)</English>
             <German>TTT Sanitätskiste (VBA)</German>
