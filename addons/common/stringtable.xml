@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Common">
-        <Key ID="STR_ttt_Common_eod">
-            <English>TTT EOD Crate (EOD)</English>
-            <German>TTT EOD Kiste (EOD)</German>
-        </Key>
         <Key ID="STR_ttt_Common_BV">
             <English>Bordverständigungsanlage</English>
             <German>Bordverständigungsanlage</German>
@@ -36,6 +32,10 @@
         <Key ID="STR_ttt_Common_RackCShort">
             <English>Krs C</English>
             <German>Krs C</German>
+        </Key>
+        <Key ID="STR_ttt_Common_eod">
+            <English>TTT EOD Crate (EOD)</English>
+            <German>TTT EOD Kiste (EOD)</German>
         </Key>
         <Key ID="STR_ttt_Common_eod_ugv">
             <English>TTT EOD+UGV Crate (EOD+)</English>
