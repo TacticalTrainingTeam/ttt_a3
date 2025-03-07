@@ -1,28 +1,25 @@
 #include "script_component.hpp"
 
 class CfgPatches {
-    class ADDON    {
+    class ADDON {
         // Meta information for editor
         name = COMPONENT_NAME;
         author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
         url = ECSTRING(main,URL);
+        authors[] = {"[A] Willard", "dedmen", "[A] Fusselwurm", "Andx", "PabstMirror", "AACO",};
 
         // Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
         requiredVersion = REQUIRED_VERSION;
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
         requiredAddons[] = {
-            "ttt_common", 
-            "bwa3_eagle", 
-            "bwa3_dingo2",
-            "bwa3_puma", 
-            "bwa3_pzh2000", 
-            "bwa3_leopard2", 
-            "bwa3_multi",
-            "acre_sys_intercom",
-            "acre_sys_rack"
-        };
+            "A3_Air_F_Heli_Heli_Transport_03",
+            "A3_Air_F_Heli_Heli_Transport_02",
+            "A3_Supplies_F_Enoch_Bags",
+            "A3_Weapons_F_Acc",
+            "A3_Weapons_F_Mark_Acc",
+            "ttt_common"
+            };
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {};
         // List of weapons (CfgWeapons classes) contained in the addon.
@@ -34,4 +31,6 @@ class CfgPatches {
     };
 };
 
+#include "CfgWeapons.hpp"
 #include "CfgVehicles.hpp"
+#include "CfgAmmo.hpp"
