@@ -16,7 +16,7 @@ jobs:
 
     - name: Build TTT Mod
       run: hemtt release
-      working-directory: "@ttt
+      working-directory: "@ttt"
 
     - uses: Shopify/upload-to-release@master
       with:
