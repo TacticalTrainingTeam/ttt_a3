@@ -1,0 +1,26 @@
+# copied from https://github.com/jetelain/cTab/blob/2.8-alpha2/.github/workflows/release-mods.yml
+name: Mods Release
+
+on:
+  release:
+    types: [ "published" ]
+    
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - uses: arma-actions/hemtt@v1
+      name: Setup HEMTT
+
+    - name: Build cTab Mod
+      run: hemtt release
+      working-directory: "@ttt
+
+    - uses: Shopify/upload-to-release@master
+      with:
+        name: ttt-latest.zip
+        path: "@ttt/releases/ttt-latest.zip"
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        content-type: application/zip
