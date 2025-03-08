@@ -22,6 +22,6 @@ jobs:
     - uses: Shopify/upload-to-release@master
       with:
         name: ttt-latest.zip
-        path: "@ttt_a3/releases/ttt-latest.zip"
+        path: "TTT_a3/releases/ttt-latest.zip"
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         content-type: application/zip
