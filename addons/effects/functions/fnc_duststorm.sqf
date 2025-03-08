@@ -25,6 +25,7 @@ if (!isServer || !hasInterface) exitWith {};
 
 params [["_directionDuststorm",(random 360),[42]],["_durationDuststorm",(120),[42]],["_effectOnObjects",(false),[true]],["_dustWall",(false),[true]]];
 
+//save current missiontime
 private _duststormActive = true;
 private _endTime = time + _durationDuststorm;
 //save current environment
@@ -47,15 +48,17 @@ private _environment_windlevel = wind;
 	_durationDuststorm
 ] call CBA_fnc_waitAndExecute;
 
-//ambient sound !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! FUNKTIOENIERT NICHT RICHTIG
+//ambient sound
 [
 	{
-		(_this select 0) params ["_active"];
-		if !(_active) exitWith {};
-		playSound (selectRandom ["wind_1","wind_2","wind_3","wind_4","wind_5"]);
+		(_this select 0) params ["_active", "_end"];
+		if (!(_active) || (time >= (_end - 15))) exitWith {};
+		if (isNil "_wind") then {
+			_wind = playSound (selectRandom ["wind_1","wind_2","wind_3","wind_4","wind_5"]);
+		};
 	}, 
-	4, 
-	[_duststormActive]
+	11.2,																						//duration of all files is 11.1198 seconds
+	[_duststormActive, _endTime]
 ] call CBA_fnc_addPerFrameHandler;
 
 //raise fog for storm beginning
@@ -64,7 +67,7 @@ private _fogStart = 0;
 [
 	{
 		(_this select 0) params ["_active", "_fog"];
-		if ((fog > 0.3) || !(_active)) exitWith {};
+		if ((fog > 3) || !(_active)) exitWith {}; //eigentlich 0.3
 		_fog = _fog + 0.001;
 		0 setFog _fog;
 	},
@@ -80,12 +83,12 @@ private _fogStart = 0;
 		(_this select 0) params ["_active", "_direction", "_duration", "_end"];
 		if (!(_active) || (time >= _end)) exitWith {};
 		_clock = _duration - (_end - time) + 1;
-		hint str _clock;
 		setWind [
 			(sin _direction * ((216 * _clock * (_duration - _clock)) / (_duration ^ 2))),
 			(cos _direction * ((216 * _clock * (_duration - _clock)) / (_duration ^ 2))),
 			true
 		];
+		hint str wind;
 	},
 	1,
 	[_duststormActive, _directionDuststorm, _durationDuststorm, _endTime]
