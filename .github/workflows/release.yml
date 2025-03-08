@@ -17,13 +17,12 @@ jobs:
 
     - name: Build TTT Mod Release
       run: hemtt release
-      #working-directory: ".."
 
     - name: Upload to release
       uses: svenstaro/upload-release-action@v2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: TTT_A3/releases/ttt-latest.zip
+        file: releases/ttt-latest.zip
         asset_name: ttt-latest.zip
         tag: ${{ github.ref }}
         overwrite: true
