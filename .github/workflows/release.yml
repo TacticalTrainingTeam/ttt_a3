@@ -1,4 +1,3 @@
-# copied from https://github.com/jetelain/cTab/blob/2.8-alpha2/.github/workflows/release-mods.yml
 name: Upload Release 
 
 on:
