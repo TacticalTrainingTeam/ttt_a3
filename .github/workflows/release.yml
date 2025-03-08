@@ -14,7 +14,7 @@ jobs:
     - uses: arma-actions/hemtt@v1
       name: Setup HEMTT
 
-    - name: Build cTab Mod
+    - name: Build TTT Mod
       run: hemtt release
       working-directory: "@ttt
 
