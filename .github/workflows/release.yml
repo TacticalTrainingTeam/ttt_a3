@@ -1,5 +1,5 @@
 # copied from https://github.com/jetelain/cTab/blob/2.8-alpha2/.github/workflows/release-mods.yml
-name: Mods Release
+name: Upload Release 
 
 on:
   release:
@@ -7,16 +7,16 @@ on:
     
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout the source code
+      uses: actions/checkout@v3
 
-    - uses: arma-actions/hemtt@v1
-      name: Setup HEMTT
+    - name: Setup HEMTT
+      uses: arma-actions/hemtt@v1
 
-    - name: Build TTT Mod
+    - name: Build TTT Mod Release
       run: hemtt release
-      working-directory: "ttt_a3"
 
     - uses: Shopify/upload-to-release@master
       with:
