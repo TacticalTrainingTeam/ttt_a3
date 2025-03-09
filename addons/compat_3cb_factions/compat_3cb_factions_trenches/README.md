@@ -1,4 +1,6 @@
-# Compat 3CB Factions - Trenches
+# Compat 3CB Factions
+
+## Trenches
 
 Fügt einigen Rucksäcken die Klappspatenfunktion hinzu:
 
