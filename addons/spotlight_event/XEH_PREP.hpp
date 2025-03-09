@@ -1,1 +1,1 @@
-PREP(joinServer);
+PREP(join);
