@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
-    <Package name="Spotlight_Event">
-        <Key ID="STR_ttt_Spotlight_Event_joinHover">
-            <English>Join server: Tactical Training Team - EVENT</English>
-            <German>Server beitreten: Tactical Training Team - EVENT</German>
+    <Package name="Spotlight_Rhs">
+        <Key ID="STR_ttt_Spotlight_rhs_joinHover">
+            <English>Join server: Tactical Training Team - RHS</English>
+            <German>Server beitreten: Tactical Training Team - RHS</German>
         </Key>
     </Package>
 </Project>
