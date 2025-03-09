@@ -1,6 +1,6 @@
 class CfgMainMenuSpotlight { // RscDisplayMain >> Spotlight works but is considered obsolete since SPOTREP #00064
     class spotlight_cup {
-        text = QUOTE(Tactical Training Team - CUP Server); // Text displayed on the square button, converted to upper-case
+        text = CSTRING(text); // Text displayed on the square button, converted to upper-case
         textIsQuote = 0; // 1 to add quotation marks around the text
         picture = QPATHTOEF(common,data\ttt_logo.paa); // Square picture, ideally 512x512
         //video = "\a3\Ui_f\Video\spotlight_1_Apex.ogv"; // Video played on mouse hover
