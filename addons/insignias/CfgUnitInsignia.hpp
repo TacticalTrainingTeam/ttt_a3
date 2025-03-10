@@ -102,7 +102,7 @@ class CfgUnitInsignia {
     class TTT_red_crystal_dark {
         displayName = CSTRING(red_crystal_displayName);
         author = "Andx";
-        texture = QPATHTOF(data\red_crystal_dark.paa);
+        texture = QPATHTOF(data\red_crystal_dark_co.paa);
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
@@ -110,7 +110,7 @@ class CfgUnitInsignia {
     class TTT_EOD {
         displayName = CSTRING(eod_displayName);
         author = "Andx";
-        texture = QPATHTOF(data\eod_kontur.paa);
+        texture = QPATHTOF(data\eod_kontur_ca.paa);
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
@@ -120,91 +120,91 @@ class CfgUnitInsignia {
     class TTT_blue_emblem {
         displayName = CSTRING(blue_emblem_displayName);
         author = "Andx";
-        texture = QPATHTOF(data\blau.paa);
+        texture = QPATHTOF(data\blau_ca.paa);
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
     class TTT_white_emblem {
         displayName = CSTRING(white_emblem_displayName);
         author = "Andx";
-        texture = QPATHTOF(data\weiss.paa);
+        texture = QPATHTOF(data\weiss_ca.paa);
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
     class TTT_platinum_emblem {
         displayName = CSTRING(platinum_emblem_displayName);
         author = "Andx";
-        texture = QPATHTOF(data\platinum.paa);
+        texture = QPATHTOF(data\platinum_ca.paa);
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
     class TTT_black_emblem {
         displayName = CSTRING(black_emblem_displayName);
         author = "Andx";
-        texture = QPATHTOF(data\schwarz.paa);
+        texture = QPATHTOF(data\schwarz_ca.paa);
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
     class TTT_silver_emblem {
         displayName = CSTRING(silver_emblem_displayName);
         author = "Andx";
-        texture = QPATHTOF(data\silber.paa);
+        texture = QPATHTOF(data\silber_ca.paa);
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
     class TTT_violet_emblem {
         displayName = CSTRING(violet_emblem_displayName);
         author = "Andx";
-        texture = QPATHTOF(data\violet.paa);
+        texture = QPATHTOF(data\violet_ca.paa);
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
     class TTT_brown_emblem {
         displayName = CSTRING(brown_emblem_displayName);
         author = "Andx";
-        texture = QPATHTOF(data\braun.paa);
+        texture = QPATHTOF(data\braun_ca.paa);
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
     class TTT_yellow_emblem {
         displayName = CSTRING(yellow_emblem_displayName);
         author = "Andx";
-        texture = QPATHTOF(data\gelb.paa);
+        texture = QPATHTOF(data\gelb_ca.paa);
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
     class TTT_red_emblem {
         displayName = CSTRING(red_emblem_displayName);
         author = "Andx";
-        texture = QPATHTOF(data\rot.paa);
+        texture = QPATHTOF(data\rot_ca.paa);
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
     class TTT_green_emblem {
         displayName = CSTRING(green_emblem_displayName);
         author = "Andx";
-        texture = QPATHTOF(data\gruen.paa);
+        texture = QPATHTOF(data\gruen_ca.paa);
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
     class TTT_orange_emblem {
         displayName = CSTRING(orange_emblem_displayName);
         author = "Andx";
-        texture = QPATHTOF(data\orange.paa);
+        texture = QPATHTOF(data\orange_ca.paa);
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
     class TTT_bronze_emblem {
         displayName = CSTRING(bronze_emblem_displayName);
         author = "Andx";
-        texture = QPATHTOF(data\bronze.paa);
+        texture = QPATHTOF(data\bronze_ca.paa);
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
     class TTT_grau_emblem {
         displayName = CSTRING(grau_emblem_displayName);
         author = "Andx";
-        texture = QPATHTOF(data\grau.paa);
+        texture = QPATHTOF(data\grau_ca.paa);
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
