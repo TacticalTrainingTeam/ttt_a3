@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /*
  * Author: veteran29
- * Join ArmaForces server from main menu.
+ * Join a server. Meant to be used from main menu.
  * Based on article from KillZonekid
  *
  * Arguments:
@@ -27,6 +27,6 @@ uiNamespace setVariable ["EMM_multiplayerMenu_enabled", false];
 
 INFO_2("Auto joining to %1:%2",_server,_port);
 
-connectToServer [_server, _port, "130"];
+connectToServer [_server, _port, "130"]; // 130 is the default password for the server
 
 nil
