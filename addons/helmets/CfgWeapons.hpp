@@ -17,25 +17,25 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(buzzard_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_buzzard.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_buzzard.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_buzzard_co.pac);
     };
 
     class ttt_Helmet_Hawk: ttt_Helmet_Buzzard {
         displayName = CSTRING(hawk_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_buzzard.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_hawk.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_hawk_co.pac);
     };
 
     class ttt_Helmet_Falcon: ttt_Helmet_Buzzard {
         displayName = CSTRING(falcon_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_falcon.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_falcon.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_falcon_co.pac);
     };
 
     class ttt_Helmet_Eagle: ttt_Helmet_Buzzard {
         displayName = CSTRING(eagle_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_eagle.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_eagle.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_eagle_co.pac);
     };
 
     //Crew
@@ -50,25 +50,25 @@ class CfgWeapons {
         displayName = CSTRING(bronze_vehiclecrew_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_bronze_vehiclecrew.paa)};
         scope = 2;
-        picture = QPATHTOF(data\pictures\ttt_helmet_bronze_vehiclecrew.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_bronze_vehiclecrew_co.pac);
     };
 
     class ttt_Helmet_Grey_Vehiclecrew: ttt_Helmet_Bronze_Vehiclecrew {
         displayName = CSTRING(grey_vehiclecrew_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_grey_vehiclecrew.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_grey_vehiclecrew.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_grey_vehiclecrew_co.pac);
     };
 
     class ttt_Helmet_Silver_Vehiclecrew: ttt_Helmet_Bronze_Vehiclecrew {
         displayName = CSTRING(silver_vehiclecrew_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_silver_vehiclecrew.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_silver_vehiclecrew.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_silver_vehiclecrew_co.pac);
     };
 
     class ttt_Helmet_Yellow_Vehiclecrew: ttt_Helmet_Bronze_Vehiclecrew {
         displayName = CSTRING(yellow_vehiclecrew_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_yellow_vehiclecrew.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_yellow_vehiclecrew.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_yellow_vehiclecrew_co.pac);
     };
 
     //Infanterie Helme
@@ -91,57 +91,57 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(helmet_1_us_desert_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_1_us_desert.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_1_us_desert.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_1_us_desert_co.pac);
     };
     class ttt_Helmet_2_US_Desert: ttt_Helmet_1_US_Desert {
         displayName = CSTRING(helmet_2_us_desert_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_2_us_desert.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_2_us_desert.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_2_us_desert_co.pac);
     };
     class ttt_Helmet_3_US_Desert: ttt_Helmet_1_US_Desert {
         displayName = CSTRING(helmet_3_us_desert_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_3_us_desert.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_3_us_desert.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_3_us_desert_co.pac);
     };
     class ttt_Helmet_4_US_Desert: ttt_Helmet_1_US_Desert {
         displayName = CSTRING(helmet_4_us_desert_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_4_us_desert.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_4_us_desert.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_4_us_desert_co.pac);
     };
     class ttt_Helmet_5_US_Desert: ttt_Helmet_1_US_Desert {
         displayName = CSTRING(helmet_5_us_desert_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_5_us_desert.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_5_us_desert.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_5_us_desert_co.pac);
     };
     class ttt_Helmet_6_US_Desert: ttt_Helmet_1_US_Desert {
         displayName = CSTRING(helmet_6_us_desert_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_6_us_desert.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_6_us_desert.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_6_us_desert_co.pac);
     };
     class ttt_Helmet_7_US_Desert: ttt_Helmet_1_US_Desert {
         displayName = CSTRING(helmet_7_us_desert_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_7_us_desert.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_7_us_desert.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_7_us_desert_co.pac);
     };
     class ttt_Helmet_8_US_Desert: ttt_Helmet_1_US_Desert {
         displayName = CSTRING(helmet_8_us_desert_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_8_us_desert.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_8_us_desert.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_8_us_desert_co.pac);
     };
     class ttt_Helmet_9_US_Desert: ttt_Helmet_1_US_Desert {
         displayName = CSTRING(helmet_9_us_desert_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_9_us_desert.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_9_us_desert.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_9_us_desert_co.pac);
     };
     class ttt_Helmet_10_US_Desert: ttt_Helmet_1_US_Desert {
         displayName = CSTRING(helmet_10_us_desert_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_10_us_desert.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_10_us_desert.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_10_us_desert_co.pac);
     };
     class ttt_Helmet_11_US_Desert: ttt_Helmet_1_US_Desert {
         displayName = CSTRING(helmet_11_us_desert_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_11_us_desert.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_11_us_desert.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_11_us_desert_co.pac);
     };
 
     //Flecktarn
@@ -149,57 +149,57 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(helmet_1_bw_flecktarn_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_1_bw_flecktarn.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_1_bw_flecktarn.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_1_bw_flecktarn_co.pac);
     };
     class ttt_Helmet_2_BW_Flecktarn: ttt_Helmet_1_BW_Flecktarn {
         displayName = CSTRING(helmet_2_bw_flecktarn_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_2_bw_flecktarn.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_2_bw_flecktarn.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_2_bw_flecktarn_co.pac);
     };
     class ttt_Helmet_3_BW_Flecktarn: ttt_Helmet_1_BW_Flecktarn {
         displayName = CSTRING(helmet_3_bw_flecktarn_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_3_bw_flecktarn.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_3_bw_flecktarn.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_3_bw_flecktarn_co.pac);
     };
     class ttt_Helmet_4_BW_Flecktarn: ttt_Helmet_1_BW_Flecktarn {
         displayName = CSTRING(helmet_4_bw_flecktarn_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_4_bw_flecktarn.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_4_bw_flecktarn.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_4_bw_flecktarn_co.pac);
     };
     class ttt_Helmet_5_BW_Flecktarn: ttt_Helmet_1_BW_Flecktarn {
         displayName = CSTRING(helmet_5_bw_flecktarn_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_5_bw_flecktarn.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_5_bw_flecktarn.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_5_bw_flecktarn_co.pac);
     };
     class ttt_Helmet_6_BW_Flecktarn: ttt_Helmet_1_BW_Flecktarn {
         displayName = CSTRING(helmet_6_bw_flecktarn_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_6_bw_flecktarn.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_6_bw_flecktarn.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_6_bw_flecktarn_co.pac);
     };
     class ttt_Helmet_7_BW_Flecktarn: ttt_Helmet_1_BW_Flecktarn {
         displayName = CSTRING(helmet_7_bw_flecktarn_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_7_bw_flecktarn.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_7_bw_flecktarn.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_7_bw_flecktarn_co.pac);
     };
     class ttt_Helmet_8_BW_Flecktarn: ttt_Helmet_1_BW_Flecktarn {
         displayName = CSTRING(helmet_8_bw_flecktarn_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_8_bw_flecktarn.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_8_bw_flecktarn.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_8_bw_flecktarn_co.pac);
     };
     class ttt_Helmet_9_BW_Flecktarn: ttt_Helmet_1_BW_Flecktarn {
         displayName = CSTRING(helmet_9_bw_flecktarn_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_9_bw_flecktarn.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_9_bw_flecktarn.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_9_bw_flecktarn_co.pac);
     };
     class ttt_Helmet_10_BW_Flecktarn: ttt_Helmet_1_BW_Flecktarn {
         displayName = CSTRING(helmet_10_bw_flecktarn_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_10_bw_flecktarn.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_10_bw_flecktarn.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_10_bw_flecktarn_co.pac);
     };
     class ttt_Helmet_11_BW_Flecktarn: ttt_Helmet_1_BW_Flecktarn {
         displayName = CSTRING(helmet_11_bw_flecktarn_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_11_bw_flecktarn.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_11_bw_flecktarn.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_11_bw_flecktarn_co.pac);
     };
 
     //BW Tropen
@@ -207,56 +207,56 @@ class CfgWeapons {
         scope = 2;
         displayName = CSTRING(helmet_1_bw_tropentarn_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_1_bw_tropentarn.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_1_bw_tropentarn.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_1_bw_tropentarn_co.pac);
     };
     class ttt_Helmet_2_BW_Tropentarn: ttt_Helmet_1_BW_Tropentarn {
         displayName = CSTRING(helmet_2_bw_tropentarn_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_2_bw_tropentarn.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_2_bw_tropentarn.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_2_bw_tropentarn_co.pac);
     };
     class ttt_Helmet_3_BW_Tropentarn: ttt_Helmet_1_BW_Tropentarn {
         displayName = CSTRING(helmet_3_bw_tropentarn_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_3_bw_tropentarn.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_3_bw_tropentarn.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_3_bw_tropentarn_co.pac);
     };
     class ttt_Helmet_4_BW_Tropentarn: ttt_Helmet_1_BW_Tropentarn {
         displayName = CSTRING(helmet_4_bw_tropentarn_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_4_bw_tropentarn.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_4_bw_tropentarn.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_4_bw_tropentarn_co.pac);
     };
     class ttt_Helmet_5_BW_Tropentarn: ttt_Helmet_1_BW_Tropentarn {
         displayName = CSTRING(helmet_5_bw_tropentarn_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_5_bw_tropentarn.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_5_bw_tropentarn.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_5_bw_tropentarn_co.pac);
     };
     class ttt_Helmet_6_BW_Tropentarn: ttt_Helmet_1_BW_Tropentarn {
         displayName = CSTRING(helmet_6_bw_tropentarn_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_6_bw_tropentarn.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_6_bw_tropentarn.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_6_bw_tropentarn_co.pac);
     };
     class ttt_Helmet_7_BW_Tropentarn: ttt_Helmet_1_BW_Tropentarn {
         displayName = CSTRING(helmet_7_bw_tropentarn_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_7_bw_tropentarn.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_7_bw_tropentarn.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_7_bw_tropentarn_co.pac);
     };
     class ttt_Helmet_8_BW_Tropentarn: ttt_Helmet_1_BW_Tropentarn {
         displayName = CSTRING(helmet_8_bw_tropentarn_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_8_bw_tropentarn.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_8_bw_tropentarn.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_8_bw_tropentarn_co.pac);
     };
     class ttt_Helmet_9_BW_Tropentarn: ttt_Helmet_1_BW_Tropentarn {
         displayName = CSTRING(helmet_9_bw_tropentarn_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_9_bw_tropentarn.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_9_bw_tropentarn.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_9_bw_tropentarn_co.pac);
     };
     class ttt_Helmet_10_BW_Tropentarn: ttt_Helmet_1_BW_Tropentarn {
         displayName = CSTRING(helmet_10_bw_tropentarn_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_10_bw_tropentarn.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_10_bw_tropentarn.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_10_bw_tropentarn_co.pac);
     };
     class ttt_Helmet_11_BW_Tropentarn: ttt_Helmet_1_BW_Tropentarn {
         displayName = CSTRING(helmet_11_bw_tropentarn_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_11_bw_tropentarn.paa)};
-        picture = QPATHTOF(data\pictures\ttt_helmet_11_bw_tropentarn.pac);
+        picture = QPATHTOF(data\pictures\ttt_helmet_11_bw_tropentarn_co.pac);
     };
 };
