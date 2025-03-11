@@ -1,2 +1,2 @@
-PREP(duststorm_effect);
-PREP(duststorm);
+PREP(stormEffects);
+PREP(stormInit);
