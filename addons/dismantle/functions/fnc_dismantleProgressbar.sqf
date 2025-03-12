@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 
 (_this select 0) params ["_target", "_caller", "_args"];
 

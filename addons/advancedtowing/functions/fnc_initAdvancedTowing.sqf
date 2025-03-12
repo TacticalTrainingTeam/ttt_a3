@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include "..\script_component.hpp"
 
 /*
 The MIT License (MIT)
@@ -398,7 +398,7 @@ SA_Take_Tow_Ropes = {
             _hitchPoint = [_vehicle] call SA_Get_Hitch_Points select 1;
             _rope = ropeCreate [_vehicle, _hitchPoint, 10];
             _vehicle setVariable ["SA_Tow_Ropes",[_rope],true];
-            _this call SA_Pickup_Tow_Ropes;
+            call SA_Pickup_Tow_Ropes;
         };
     } else {
         [_this,"SA_Take_Tow_Ropes",_vehicle,true] call SA_RemoteExec;
@@ -456,8 +456,8 @@ SA_Put_Away_Tow_Ropes = {
         private ["_existingTowRopes","_hitchPoint","_rope"];
         _existingTowRopes = _vehicle getVariable ["SA_Tow_Ropes",[]];
         if(count _existingTowRopes > 0) then {
-            _this call SA_Pickup_Tow_Ropes;
-            _this call SA_Drop_Tow_Ropes;
+            call SA_Pickup_Tow_Ropes;
+            call SA_Drop_Tow_Ropes;
             {
                 ropeDestroy _x;
             } forEach _existingTowRopes;
@@ -664,7 +664,7 @@ SA_Can_Pickup_Tow_Ropes = {
     isNull (player getVariable ["SA_Tow_Ropes_Vehicle", objNull]) && count (missionNamespace getVariable ["SA_Nearby_Tow_Vehicles",[]]) > 0 && isNull objectParent player;
 };
 
-SA_TOW_SUPPORTED_VEHICLES = [
+SA_tow_supported_vehicles = [
     //"Tank", "Car", "Ship"
 ];
 
@@ -676,7 +676,7 @@ SA_Is_Supported_Vehicle = {
             if(_vehicle isKindOf _x) then {
                 _isSupported = true;
             };
-        } forEach (missionNamespace getVariable ["SA_TOW_SUPPORTED_VEHICLES_OVERRIDE", SA_TOW_SUPPORTED_VEHICLES]);
+        } forEach (missionNamespace getVariable ["SA_TOW_SUPPORTED_VEHICLES_OVERRIDE", SA_tow_supported_vehicles]);
     };
     _isSupported;
 };
@@ -690,7 +690,7 @@ SA_Is_Supported_Vehicle = {
             (typeOf _vehicle == "rsr_bergepanzer_tropentarn") or (typeOf _vehicle == "rsr_wisent_repair_tropentarn") or (typeOf _vehicle == "B_APC_Tracked_01_CRV_F")) then {
                 _isSupported = true;
             };
-        } forEach (missionNamespace getVariable ["SA_TOW_SUPPORTED_VEHICLES_OVERRIDE",SA_Tow_Supported_Vehicles]);
+        } forEach (missionNamespace getVariable ["SA_TOW_SUPPORTED_VEHICLES_OVERRIDE",SA_tow_supported_vehicles]);
     };
     _isSupported;
 }; */
@@ -785,7 +785,7 @@ SA_Find_Nearby_Tow_Vehicles = {
     _nearVehicles = [];
     {
         _nearVehicles append (position player nearObjects [_x, 30]);
-    } forEach (missionNamespace getVariable ["SA_TOW_SUPPORTED_VEHICLES_OVERRIDE", SA_TOW_SUPPORTED_VEHICLES]);
+    } forEach (missionNamespace getVariable ["SA_TOW_SUPPORTED_VEHICLES_OVERRIDE", SA_tow_supported_vehicles]);
     _nearVehiclesWithTowRopes = [];
     {
         _vehicle = _x;
