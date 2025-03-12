@@ -8,18 +8,18 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=36;
+		nextID=37;
 	};
 	class LayerIndexProvider
 	{
-		nextID=20;
+		nextID=26;
 	};
 	class Camera
 	{
-		pos[]={6500.6201,107.62041,3559.084};
-		dir[]={0.024147162,-0.81217963,0.58290768};
-		up[]={0.033616006,0.5834074,0.81148374};
-		aside[]={0.99914324,0,-0.041389868};
+		pos[]={6496.498,113.1048,3581.6067};
+		dir[]={0.37157425,-0.83185148,0.41227609};
+		up[]={0.55712712,0.55452049,0.61815464};
+		aside[]={0.74282974,5.7765283e-07,-0.66949344};
 	};
 };
 binarizationWanted=0;
@@ -202,7 +202,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=10;
+		items=11;
 		class Item0
 		{
 			dataType="Layer";
@@ -1377,6 +1377,25 @@ class Mission
 			};
 			id=32;
 			atlOffset=7.6293945e-06;
+		};
+		class Item10
+		{
+			dataType="Trigger";
+			position[]={6510.3828,82.689224,3597.0659};
+			angle=0.67090452;
+			class Attributes
+			{
+				onActivation="[65] call ttt_effects_fnc_stormInit; " \n "";
+				sizeA=36.506001;
+				sizeB=5;
+				sizeC=5;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+				isServerOnly=1;
+			};
+			id=36;
+			type="EmptyDetectorArea10x10";
+			atlOffset=-0.0039978027;
 		};
 	};
 };

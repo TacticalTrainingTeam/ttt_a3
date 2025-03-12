@@ -1,24 +1,25 @@
 #include "..\script_component.hpp"
 /*
-* Author: ALIAS, modified EinStein
+* Author: EinStein
 *
 * Description:
 * Creates Post-Process-Effects, sounds and camshake local on player-machines.
 * 
 * Arguments:
-* 0: endtime of storm <INTEGER>
-* 1: type (sand or snow) <INTEGER>
+* 0: <INTEGER>	endtime of storm 
+* 1: <INTEGER>	type (sand or snow) 
+* 2: <BOOL>		force walk 
 *
 * Return Value:
 * None
 *
-* Example (called only local on each player via the duststorm script):
+* Example (called automatically only local on each player via the duststorm script):
 *	[endTime, stormType] call ttt_effects_fnc_stormEffects;
 *
 * Public: No
 */
 
-if (isServer && !hasInterface) exitWith {};
+if (isServer && isDedicated && !hasInterface) exitWith {};
 
 params [["_endTime",(time + 120),[42]],["_stormType",(0),[42]],["_walk",(true),[true]]];
 
@@ -40,7 +41,7 @@ screenEffectOne ppEffectAdjust [0.15];
 screenEffectOne ppEffectCommit 8;
 screenEffectOne ppEffectEnable true;
 screenEffectTwo = ppEffectCreate ["FilmGrain", 2000];
-screenEffectTwo ppEffectAdjust [0.5, 2, 4, 0.1, 0.1, true];
+screenEffectTwo ppEffectAdjust [0.6, 2, 4, 0.1, 0.1, true];
 screenEffectTwo ppEffectCommit 10;
 screenEffectTwo ppEffectEnable true;
 
@@ -54,7 +55,7 @@ private _particleThree = "#particlesource" createVehicleLocal (player modelToWor
 		"", "Billboard", 1, 25,																	// animationName, type, timerPeriod, lifeTime
 		[0, 0, 0],																				// position relative to referenceObject
 		[0, 0, 0],																				// velocity
-		3, 10.15, 7.9, 0, [0.2, 35],															// rotation, weight, volume, rubbing, size
+		3, 10.15, 7.9, 0, [0.2, 10, 15, 15, 35, 0],												// rotation, weight, volume, rubbing, size
 		[(_corlorCorrectionType select 1)],														// colors
 		[0.08],																					// animationPhase
 		2, 0.5,																					// randomDirectionPeriod, randomDirectionIntensity
@@ -62,16 +63,16 @@ private _particleThree = "#particlesource" createVehicleLocal (player modelToWor
 		(vehicle player)																		// attached to referenceObject
 	];
 	(_x select 0) setDropInterval (0.1 + (random 0.1));											// time to spawn new particle
-	(_x select 0) setParticleCircle [40, (_x select 1)];										// randomise position to spawn
+	(_x select 0) setParticleCircle [30, (_x select 1)];										// randomise position to spawn
 } forEach [[_particleOne, [0.25, -0.1, 0.25]],[_particleTwo, [-0.25, -0.1, 0.25]],[_particleThree, [0.2, -0.2, 0.25]]];
 
-// ambient sound and camerashake
+// ambient sound and camshake
 [
 	{
 		(_this select 0) params ["_end"];
 		if (time >= (_end - 15)) exitWith {};
 		_wind = playSound (selectRandom ["wind_1","wind_2","wind_3","wind_4","wind_5"]);
-		if (selectRandomWeighted [true, 40, false, 60]) then {addCamShake [0.2, 20, 20];};		// random camshake
+		if (selectRandomWeighted [true, 40, false, 60]) then {addCamShake [0.25, 20, 20];};		// random camshake
 	}, 
 	11.2,																						//duration of all files is 11.1198 seconds
 	[_endTime]

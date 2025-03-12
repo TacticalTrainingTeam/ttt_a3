@@ -1,30 +1,30 @@
 #include "..\script_component.hpp"
 /*
-* Author: ALIAS, modified EinStein
+* Author: EinStein
 *
 * Description:
-* Spawns a duststorm VFX around the player.
+* Creates storm VFX and environmental changes for sand or snow.
 * 
 * Arguments:
-* 0: storm duration <INTEGER> 
-* 1: effect on objects <BOOL>
-* 2: type (sand or snow) <INTEGER>
-* 3: walk <BOOL>
-* 4: wind direction <INTEGER>
+* 0: <INTEGER>	(optional, default: 300) 			storm duration in seconds
+* 1: <BOOL>		(optional, default: false) 			effect on objects
+* 2: <INTEGER>	(optional, default: 0) 				type (sand (0) or snow (1))
+* 3: <BOOL>		(optional, default: true) 			force walking on infantry
+* 4: <INTEGER>	(optional, default: random 360) 	wind direction
 *
 * Return Value:
-* None
+* 1: <INTEGER> missionEndTimeForStorm
+* 2: <INTEGER> directionStorm
 *
 * Example (called on Server i.e.: initServer.sqf or serverside trigger):
-* 	Tutorial: https://www.youtube.com/user/aliascartoons
 *	[duration, effect, stormType, walk, direction] call ttt_effects_fnc_stormInit;
 *
-* Public: No
+* Public: Yes
 */
 
 if (!isServer || !hasInterface || missionNamespace getVariable ["ttt_effects_stormActive", false]) exitWith {};
 
-params [["_durationDuststorm",(120),[42]],["_effectOnObjects",(false),[true]],["_stormType",(0),[42]],["_walk",(true),[true]],["_directionDuststorm",(random 360),[42]]];
+params [["_durationDuststorm",(300),[42]],["_effectOnObjects",(false),[true]],["_stormType",(0),[42]],["_walk",(true),[true]],["_directionDuststorm",(random 360),[42]]];
 
 _durationDuststorm = _durationDuststorm max 60;
 missionNamespace setVariable ["ttt_effects_stormActive", true, false];
@@ -100,4 +100,4 @@ private _allEntities = 8 allObjects 1;
 ] call CBA_fnc_addPerFrameHandler;
 
 [[_endTime, _stormType, _walk], ttt_effects_fnc_stormEffects] remoteExec ["call", ([0, -2] select isDedicated), true];
-[true, _directionDuststorm];
+[_endTime, _directionDuststorm];
