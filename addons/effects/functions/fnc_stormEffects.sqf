@@ -28,8 +28,8 @@ enableCamShake true;
 if (_walk) then {player forceWalk true;};
 
 private _corlorCorrectionType = [
-	[[0.85, 1, 0.01, [-0.14, 0.17, 0.33, -0.14], [0.86, -0.4, 0.86, 0.86], [-0.57, 0.86, -1.2, 0.86]], [0.40,0.35,0.25, 0.35]],	//sand
-	[[0.85, 1, 0.01, [-0.14, 0.17, 0.33, -0.14], [1.31, 0.81, 0.62, 1.22], [-0.57, 0.86, -1.2, 0.86]], [0.35,0.30,0.30, 0.35]]	//snow
+	[[0.85, 1, 0.01, [-0.14, 0.17, 0.33, -0.14], [0.86, -0.4, 0.86, 0.86], [-0.57, 0.86, -1.2, 0.86]], [0.40,0.35,0.25, 0.35], [0.40,0.35,0.25, 0]],	//sand
+	[[0.85, 1, 0.01, [-0.14, 0.17, 0.33, -0.14], [1.31, 0.81, 0.62, 1.22], [-0.57, 0.86, -1.2, 0.86]], [0.35,0.30,0.30, 0.35], [0.35,0.30,0.30, 0]]		//snow
 ] select _stormType;
 
 // add grain, blur and colorfilter for immersive FOV
@@ -56,7 +56,9 @@ private _particleThree = "#particlesource" createVehicleLocal (player modelToWor
 		[0, 0, 0],																				// position relative to referenceObject
 		[0, 0, 0],																				// velocity
 		3, 10.15, 7.9, 0, [0.2, 10, 15, 15, 35, 0],												// rotation, weight, volume, rubbing, size
-		[(_corlorCorrectionType select 1)],														// colors
+		[(_corlorCorrectionType select 1),(_corlorCorrectionType select 1),
+		(_corlorCorrectionType select 1),(_corlorCorrectionType select 1),
+		(_corlorCorrectionType select 1),(_corlorCorrectionType select 2)],						// colors
 		[0.08],																					// animationPhase
 		2, 0.5,																					// randomDirectionPeriod, randomDirectionIntensity
 		"", "",																					// onTimer, beforeDestroy
