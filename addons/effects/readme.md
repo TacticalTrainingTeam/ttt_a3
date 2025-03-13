@@ -6,8 +6,9 @@ Eine Sammlung immersiver VFX-Effekte, welche in Missionen dem Spieler die Sicht 
 
 ### Ausatemeffekt
 
-Vor den Mündern der Spieler (nicht der KI) entstehet ein Effekt, welcher feuchte, ausatmende Luft immitiert.
-Die Funktion muss lokal von jedem Spieler ausgeführt werden. Dazu bietet sich die initPlayerLocal.sqf an:
+Vor den Mündern der Spieler (nicht der KI) entstehet ein Effekt, welcher feuchte, ausatmende Luft immitiert.  
+Die Funktion muss lokal von jedem Spieler ausgeführt werden.  
+Dazu bietet sich die initPlayerLocal.sqf an:  
 
 ```c++
 [] call ttt_effects_fnc_condensedBreath;
@@ -21,9 +22,9 @@ Return Value:
 
 ### Schneefall
 
-Um den Spieler herum werden Schneeflocken erstellt. Die Intensität des Schneefalls ist einstellbar.
-Die Funktion nimmt keine Änderungen am Wetter vor.
-Die Funktion muss lokal von jedem Spieler ausgeführt werden. Dazu bietet sich die initPlayerLocal.sqf an:
+Um den Spieler herum werden Schneeflocken erstellt. Die Intensität des Schneefalls ist einstellbar.  
+Die Funktion nimmt keine Änderungen am Wetter vor und muss lokal von jedem Spieler ausgeführt werden.  
+Dazu bietet sich die initPlayerLocal.sqf an:  
 
 ```c++
 [intensity] call ttt_effects_fnc_snow;
@@ -36,10 +37,11 @@ Return Value:
 
 ### Sturm
 
-Dem Spieler wird die Sicht eingeschränkt, Sturmgeräusche abgespielt und gelegentlich die Kamera verwackelt.
-Um ihn herum werden Partikel erstellt, die ihn zusätlich stark an der Sicht hindern. Standardmäßig ist es einem Infanteristen nur noch möglich zu gehen, nicht schneller.
-Es ist einstellbar ob gelegentlich Objekte wie Fahrzeuge oder Spieler vom Wind leicht bewegt werden sollen.
-Im Gegenzug wird die KI vorrübergehend um 75% in den Skills: "aimingAccuracy", "aimingShake", "aimingSpeed" und "spotDistance" verschlechtert.
+Dem Spieler wird die Sicht eingeschränkt, Sturmgeräusche abgespielt und gelegentlich die Kamera verwackelt. Um ihn herum werden Partikel erstellt, die ihn zusätlich stark an der Sicht hindern.  
+Standardmäßig ist es einem Infanteristen nur noch möglich zu gehen, nicht schneller. Es ist einstellbar ob gelegentlich Objekte wie Fahrzeuge oder Spieler vom Wind leicht bewegt werden sollen.  
+Im Gegenzug wird die KI vorrübergehend um 75% in den Skills: "aimingAccuracy", "aimingShake", "aimingSpeed" und "spotDistance" verschlechtert.  
+Die Funktion muss serverseitig, wie z.B. durch einen eingestellten Trigger oder durch die initServer.sqf aufgerufen werden.
+Es kann nur ein Sturm gleichzeitig aktiv sein.
 
 ```c++
 [duration, effect, stormType, walk, direction] call ttt_effects_fnc_stormInit;
