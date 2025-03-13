@@ -1,0 +1,20 @@
+on:
+  release:
+    types: [published]
+
+jobs:
+  github-releases-to-discord:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Github Releases To Discord
+        uses: SethCohen/github-releases-to-discord@v1
+        with:
+          webhook_url: ${{ secrets.WEBHOOK_URL }}
+          username: "TTT-Mod Changelog"
+          avatar_url: "https://wiki.tacticalteam.de/bilder/ttt_logo_heagon_512x512.png"
+          content: ""
+          footer_title: "Changelog"
+          footer_icon_url: "https://wiki.tacticalteam.de/bilder/ttt_logo_heagon_512x512.png"
+          footer_timestamp: true
