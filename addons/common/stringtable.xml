@@ -52,6 +52,7 @@
         <Key ID="STR_ttt_Common_vba">
             <English>TTT Medical Crate (VBA)</English>
             <German>TTT Sanitätskiste (VBA)</German>
+        </Key>
         <Key ID="STR_ttt_Common_BV">
             <English>Onboard Communication System</English>
             <German>Bordverständigungsanlage</German>
