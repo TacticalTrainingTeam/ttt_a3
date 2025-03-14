@@ -97,7 +97,7 @@ class CfgWeapons {
     
     class ttt_Vest_Lite_Green_US_Desert: ttt_Vest_Lite_Yellow_US_Desert {
         displayName = CSTRING(light_green_DisplayName);
-        picture = QPATHTOF(data\pictures\ttt_Vest_Lite_Green_US_Desert.paa);
+        picture = QPATHTOF(data\pictures\ttt_Vest_Lite_Green_US_Desert_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_vest_green_us_desert_co.paa)};
     };
     
