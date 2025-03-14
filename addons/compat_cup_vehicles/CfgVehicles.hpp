@@ -152,6 +152,8 @@ class CfgVehicles {
         class AnimationSources;
     };
 
+    class CUP_Boxer_Base_Empty;
+
     class CUP_Boxer_Base_HMG: CUP_Boxer_Base {
         class CargoTurret;
         class Turrets {
@@ -194,6 +196,7 @@ class CfgVehicles {
     };
 
     class CUP_Boxer_Base_GMG: CUP_Boxer_Base_HMG {
+    
         class CargoTurret;
         class Turrets {
             class MainTurret: NewTurret {
@@ -203,6 +206,460 @@ class CfgVehicles {
             class CommanderTurret: NewTurret {
                 weapons[] = {}; // was "SmokeLauncher"
                 magazines[] = {}; // was "SmokeLauncherMag"
+            };
+        };
+    };
+
+    class CUP_B_Boxer_HMG_GER_DES: CUP_Boxer_Base_HMG {
+
+        acre_hasInfantryPhone = 1;
+        acre_infantryPhoneDisableRinging = 1;
+        acre_infantryPhoneIntercom[] = {"all"};
+        acre_infantryPhoneControlActions[] = {"all"};
+
+        class AcreIntercoms {
+            class Intercom_1 {
+                displayName = ECSTRING(common,BV);
+                shortName = ECSTRING(common,BVShort);
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                limitedPositions[] = {{"cargo", "all"}};
+                numLimitedPositions = 8;
+                masterPositions[] = {};
+                connectedByDefault = 1;
+            };
+        };
+
+        class AcreRacks {
+            class Rack_1 {
+                displayName = ECSTRING(common,RackA);
+                shortName = ECSTRING(common,RackAShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_SEM70";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_2 {
+                displayName = ECSTRING(common,RackB);
+                shortName = ECSTRING(common,RackBShort);
+                componentName = "ACRE_VRC103";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_PRC117F";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_3 {
+                displayName = ECSTRING(common,RackC);
+                shortName = ECSTRING(common,RackCShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "";
+                isRadioRemovable = 1;
+                intercom[] = {"all"};
+            };
+        };
+    };
+
+    class CUP_B_Boxer_GMG_GER_DES: CUP_Boxer_Base_GMG {
+
+        acre_hasInfantryPhone = 1;
+        acre_infantryPhoneDisableRinging = 1;
+        acre_infantryPhoneIntercom[] = {"all"};
+        acre_infantryPhoneControlActions[] = {"all"};
+
+        class AcreIntercoms {
+            class Intercom_1 {
+                displayName = ECSTRING(common,BV);
+                shortName = ECSTRING(common,BVShort);
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                limitedPositions[] = {{"cargo", "all"}};
+                numLimitedPositions = 8;
+                masterPositions[] = {};
+                connectedByDefault = 1;
+            };
+        };
+
+        class AcreRacks {
+            class Rack_1 {
+                displayName = ECSTRING(common,RackA);
+                shortName = ECSTRING(common,RackAShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_SEM70";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_2 {
+                displayName = ECSTRING(common,RackB);
+                shortName = ECSTRING(common,RackBShort);
+                componentName = "ACRE_VRC103";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_PRC117F";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_3 {
+                displayName = ECSTRING(common,RackC);
+                shortName = ECSTRING(common,RackCShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "";
+                isRadioRemovable = 1;
+                intercom[] = {"all"};
+            };
+        };
+    };
+    class CUP_B_Boxer_Empty_GER_DES: CUP_Boxer_Base_Empty {
+
+        acre_hasInfantryPhone = 1;
+        acre_infantryPhoneDisableRinging = 1;
+        acre_infantryPhoneIntercom[] = {"all"};
+        acre_infantryPhoneControlActions[] = {"all"};
+
+        class AcreIntercoms {
+            class Intercom_1 {
+                displayName = ECSTRING(common,BV);
+                shortName = ECSTRING(common,BVShort);
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                limitedPositions[] = {{"cargo", "all"}};
+                numLimitedPositions = 8;
+                masterPositions[] = {};
+                connectedByDefault = 1;
+            };
+        };
+
+        class AcreRacks {
+            class Rack_1 {
+                displayName = ECSTRING(common,RackA);
+                shortName = ECSTRING(common,RackAShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_SEM70";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_2 {
+                displayName = ECSTRING(common,RackB);
+                shortName = ECSTRING(common,RackBShort);
+                componentName = "ACRE_VRC103";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_PRC117F";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_3 {
+                displayName = ECSTRING(common,RackC);
+                shortName = ECSTRING(common,RackCShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "";
+                isRadioRemovable = 1;
+                intercom[] = {"all"};
+            };
+        };
+    };
+
+    class CUP_B_Boxer_HMG_GER_WDL: CUP_Boxer_Base_HMG {
+
+        acre_hasInfantryPhone = 1;
+        acre_infantryPhoneDisableRinging = 1;
+        acre_infantryPhoneIntercom[] = {"all"};
+        acre_infantryPhoneControlActions[] = {"all"};
+
+        class AcreIntercoms {
+            class Intercom_1 {
+                displayName = ECSTRING(common,BV);
+                shortName = ECSTRING(common,BVShort);
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                limitedPositions[] = {{"cargo", "all"}};
+                numLimitedPositions = 8;
+                masterPositions[] = {};
+                connectedByDefault = 1;
+            };
+        };
+
+        class AcreRacks {
+            class Rack_1 {
+                displayName = ECSTRING(common,RackA);
+                shortName = ECSTRING(common,RackAShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_SEM70";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_2 {
+                displayName = ECSTRING(common,RackB);
+                shortName = ECSTRING(common,RackBShort);
+                componentName = "ACRE_VRC103";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_PRC117F";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_3 {
+                displayName = ECSTRING(common,RackC);
+                shortName = ECSTRING(common,RackCShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "";
+                isRadioRemovable = 1;
+                intercom[] = {"all"};
+            };
+        };
+    };
+
+    class CUP_B_Boxer_GMG_GER_WDL: CUP_Boxer_Base_GMG {
+
+        acre_hasInfantryPhone = 1;
+        acre_infantryPhoneDisableRinging = 1;
+        acre_infantryPhoneIntercom[] = {"all"};
+        acre_infantryPhoneControlActions[] = {"all"};
+
+        class AcreIntercoms {
+            class Intercom_1 {
+                displayName = ECSTRING(common,BV);
+                shortName = ECSTRING(common,BVShort);
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                limitedPositions[] = {{"cargo", "all"}};
+                numLimitedPositions = 8;
+                masterPositions[] = {};
+                connectedByDefault = 1;
+            };
+        };
+
+        class AcreRacks {
+            class Rack_1 {
+                displayName = ECSTRING(common,RackA);
+                shortName = ECSTRING(common,RackAShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_SEM70";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_2 {
+                displayName = ECSTRING(common,RackB);
+                shortName = ECSTRING(common,RackBShort);
+                componentName = "ACRE_VRC103";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_PRC117F";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_3 {
+                displayName = ECSTRING(common,RackC);
+                shortName = ECSTRING(common,RackCShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "";
+                isRadioRemovable = 1;
+                intercom[] = {"all"};
+            };
+        };
+    };
+    class CUP_B_Boxer_Empty_GER_WDL: CUP_Boxer_Base_Empty {
+
+        acre_hasInfantryPhone = 1;
+        acre_infantryPhoneDisableRinging = 1;
+        acre_infantryPhoneIntercom[] = {"all"};
+        acre_infantryPhoneControlActions[] = {"all"};
+
+        class AcreIntercoms {
+            class Intercom_1 {
+                displayName = ECSTRING(common,BV);
+                shortName = ECSTRING(common,BVShort);
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                limitedPositions[] = {{"cargo", "all"}};
+                numLimitedPositions = 8;
+                masterPositions[] = {};
+                connectedByDefault = 1;
+            };
+        };
+
+        class AcreRacks {
+            class Rack_1 {
+                displayName = ECSTRING(common,RackA);
+                shortName = ECSTRING(common,RackAShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_SEM70";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_2 {
+                displayName = ECSTRING(common,RackB);
+                shortName = ECSTRING(common,RackBShort);
+                componentName = "ACRE_VRC103";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_PRC117F";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_3 {
+                displayName = ECSTRING(common,RackC);
+                shortName = ECSTRING(common,RackCShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "";
+                isRadioRemovable = 1;
+                intercom[] = {"all"};
+            };
+        };
+    };
+
+    //Leopard 2
+    class CUP_Leopard2_Base: Tank_F {
+        acre_hasInfantryPhone = 1;
+        acre_infantryPhoneDisableRinging = 1;
+        acre_infantryPhoneIntercom[] = {"all"};
+        acre_infantryPhoneControlActions[] = {"all"};
+
+        class AcreIntercoms {
+            class Intercom_1 {
+                displayName = ECSTRING(common,BV);
+                shortName = ECSTRING(common,BVShort);
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                limitedPositions[] = {{"cargo", "all"}};
+                numLimitedPositions = 8;
+                masterPositions[] = {};
+                connectedByDefault = 1;
+            };
+        };
+
+        class AcreRacks {
+            class Rack_1 {
+                displayName = ECSTRING(common,RackA);
+                shortName = ECSTRING(common,RackAShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_SEM70";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_2 {
+                displayName = ECSTRING(common,RackB);
+                shortName = ECSTRING(common,RackBShort);
+                componentName = "ACRE_VRC103";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_PRC117F";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_3 {
+                displayName = ECSTRING(common,RackC);
+                shortName = ECSTRING(common,RackCShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "";
+                isRadioRemovable = 1;
+                intercom[] = {"all"};
+            };
+        };
+    };
+
+    //Leopard 1
+    class CUP_leopard_1A3_base: Tank_F {
+        acre_hasInfantryPhone = 1;
+        acre_infantryPhoneDisableRinging = 1;
+        acre_infantryPhoneIntercom[] = {"all"};
+        acre_infantryPhoneControlActions[] = {"all"};
+
+        class AcreIntercoms {
+            class Intercom_1 {
+                displayName = ECSTRING(common,BV);
+                shortName = ECSTRING(common,BVShort);
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                limitedPositions[] = {{"cargo", "all"}};
+                numLimitedPositions = 8;
+                masterPositions[] = {};
+                connectedByDefault = 1;
+            };
+        };
+
+        class AcreRacks {
+            class Rack_1 {
+                displayName = ECSTRING(common,RackA);
+                shortName = ECSTRING(common,RackAShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_SEM70";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_2 {
+                displayName = ECSTRING(common,RackB);
+                shortName = ECSTRING(common,RackBShort);
+                componentName = "ACRE_VRC103";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "ACRE_PRC117F";
+                isRadioRemovable = 0;
+                intercom[] = {"all"};
+            };
+            class Rack_3 {
+                displayName = ECSTRING(common,RackC);
+                shortName = ECSTRING(common,RackCShort);
+                componentName = "ACRE_SEM90";
+                allowedPositions[] = {"crew"};
+                disabledPositions[] = {};
+                defaultComponents[] = {};
+                mountedRadio = "";
+                isRadioRemovable = 1;
+                intercom[] = {"all"};
             };
         };
     };
