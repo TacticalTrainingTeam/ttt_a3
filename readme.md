@@ -9,18 +9,18 @@ Du willst mitmachen? <http://www.tacticalteam.de/mitmachen>
 ## Die Mod bauen
 
 1. Visual Studio Code installieren - <https://code.visualstudio.com>
-    - vorgeschlagene Extensions in Visual StudioCode installieren
+    - vorgeschlagene Extensions in Visual Studio Code installieren
 2. Arma 3 Tools über Steam installieren und einmal starten
 3. `hemtt` installieren - dazu `winget install hemtt` in der Kommandozeile ausführen
    - Dokumentation: <https://hemtt.dev>
-4. das Repo Clonen - `git clone https://github.com/TacticalTrainingTeam/ttt_a3.git` in der Kommandozeile ausführen
-5. Folgende Mods im Steamworkshop abonnieren:
-    - CBA <https://steamcommunity.com/workshop/filedetails/?id=450814997>
+4. das Repo clonen - `git clone https://github.com/TacticalTrainingTeam/ttt_a3.git` in der Kommandozeile ausführen
+5. Folgende Mods im Steam-Workshop abonnieren:
+    - CBA_A3 <https://steamcommunity.com/workshop/filedetails/?id=450814997>
     - ACE <https://steamcommunity.com/sharedfiles/filedetails/?id=463939057>
-    - ACRE <https://steamcommunity.com/sharedfiles/filedetails/?id=751965892>
+    - ACRE2 <https://steamcommunity.com/sharedfiles/filedetails/?id=751965892>
     - Advanced Developer Tools <https://steamcommunity.com/sharedfiles/filedetails/?id=2369477168>
     - 3DEN Attributes Fast Load <https://steamcommunity.com/sharedfiles/filedetails/?id=3023395342>
-    - ZEN <https://steamcommunity.com/sharedfiles/filedetails/?id=1779063631>
+    - Zeus Enhanced <https://steamcommunity.com/sharedfiles/filedetails/?id=1779063631>
 6. In der Kommandozeile `hemtt launch` ausführen, um Arma 3 mit dem Basismods zu starten
 
 Für CUP, RHS, BWmod etc. sind zum Testen weitere Mods erforderlich, diese sind in der `.hemtt/launch.toml` angeben.
