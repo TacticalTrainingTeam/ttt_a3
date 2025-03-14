@@ -19,7 +19,7 @@
 * Public: No
 */
 
-if (isServer && isDedicated && !hasInterface) exitWith {};
+if (isDedicated || !hasInterface) exitWith {};
 
 params [["_endTime",(time + 120),[42]],["_stormType",(0),[42]],["_walk",(true),[true]]];
 

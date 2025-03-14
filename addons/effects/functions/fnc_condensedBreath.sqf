@@ -34,5 +34,5 @@ _breathParticle setParticleParams [
 ];
 _breathParticle setParticleRandom [0.5, [0, 0, 0], [0, 0.1, 0.1], 0, 0.5, [0, 0, 0, 0.2], 0, 0, 10];
 _breathParticle setDropInterval (3.5 + random 1);
-_breathParticle attachto [player, [0,0.14,0.01], "neck", true];												// get fog to come out of player mouth  
+_breathParticle attachTo [player, [0,0.14,0.01], "neck", true];												// get fog to come out of player mouth  
 _breathParticle;

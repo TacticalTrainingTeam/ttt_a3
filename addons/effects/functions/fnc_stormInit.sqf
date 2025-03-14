@@ -22,7 +22,7 @@
 * Public: Yes
 */
 
-if (!isServer || !hasInterface || missionNamespace getVariable ["ttt_effects_stormActive", false]) exitWith {};
+if (!isServer || missionNamespace getVariable ["ttt_effects_stormActive", false]) exitWith {};
 
 params [["_durationDuststorm",(300),[42]],["_effectOnObjects",(false),[true]],["_stormType",(0),[42]],["_walk",(true),[true]],["_directionDuststorm",(random 360),[42]]];
 
@@ -51,7 +51,7 @@ private _allEntities = 8 allObjects 1;
 // reset environment afterwards
 [
 	{
-		params ["_environment_foglevel","_environment_rainlevel","_environment_lightninglevel","_environment_windlevel", "_skills"];
+		params ["_environment_foglevel","_environment_rainlevel","_environment_lightninglevel","_environment_windlevel"];
 		(10 + (random 10)) setFog _environment_foglevel;
 		(10 + (random 10)) setRain _environment_rainlevel;
 		(10 + (random 10)) setLightnings _environment_lightninglevel;
@@ -64,7 +64,7 @@ private _allEntities = 8 allObjects 1;
 		} forEach (allUnits - allPlayers);
 		missionNamespace setVariable ["ttt_effects_stormActive", false, false];
 	}, 
-	[_environment_foglevel,_environment_rainlevel,_environment_lightninglevel,_environment_windlevel, _aiSkills], 
+	[_environment_foglevel,_environment_rainlevel,_environment_lightninglevel,_environment_windlevel], 
 	_durationDuststorm
 ] call CBA_fnc_waitAndExecute;
 
