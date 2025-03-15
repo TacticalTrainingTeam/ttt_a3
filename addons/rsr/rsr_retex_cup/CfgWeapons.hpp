@@ -11,7 +11,7 @@ class CfgWeapons {
         author = ECSTRING(rsr,rnt);
         displayName = SUBCSTRING(snowCamoDisplayName);
         //picture = QPATHTOF(retex_cup\data\uniform\rnt_winter_uniform_ui_pre_ca.paa);
-        picture = QPATHTOF(rsr_retex_cup\data\uniform\pictures\rnt_winter_uniform.paa);
+        picture = QPATHTOF(rsr_retex_cup\data\uniform\pictures\rnt_winter_uniform_ca.paa);
         model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 
         class ItemInfo: UniformItem {

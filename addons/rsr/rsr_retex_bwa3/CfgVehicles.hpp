@@ -102,7 +102,7 @@ class CfgVehicles {
         scopeCurator = 2;
         scopeArsenal = 2;
         hiddenSelectionsTextures[] = {
-            QPATHTOF(rsr_retex_bwa3\data\eagle\bwa3_eagle_fleck_co_vis.paa),
+            QPATHTOF(rsr_retex_bwa3\data\eagle\bwa3_eagle_fleck_vis_co.paa),
             "\bwa3_eagle\data\bwa3_eagle_fahrwerk_co.paa",
             "\bwa3_eagle\data\bwa3_eagle_int_co.paa",
             "\bwa3_eagle\data\bwa3_eagle_alpha_co.paa",
@@ -232,7 +232,7 @@ class CfgVehicles {
         displayName = SUBCSTRING(Eagle_IV_Sanität_lowvis_Tropentarn);
         editorPreview = QPATHTOF(rsr_retex_bwa3\data\eagle\previews\bwa3_eagle_tropen_lowvis_co_preview.jpg);
         hiddenSelectionsTextures[] = {
-            QPATHTOF(rsr_retex_bwa3\data\eagle\bwa3_eagle_tropen_co_vis.paa),
+            QPATHTOF(rsr_retex_bwa3\data\eagle\bwa3_eagle_tropen_vis_co.paa),
             "\bwa3_eagle\data\bwa3_eagle_fahrwerk_co.paa",
             "\bwa3_eagle\data\bwa3_eagle_int_co.paa",
             "\bwa3_eagle\data\bwa3_eagle_alpha_co.paa",
