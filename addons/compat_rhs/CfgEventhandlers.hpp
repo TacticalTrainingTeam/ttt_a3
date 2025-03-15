@@ -18,6 +18,6 @@ class Extended_PostInit_EventHandlers {
 
 class Extended_SlotItemChanged_Eventhandlers {
     class CAManBase {
-        GVAR(SlotItemChanged) = QUOTE(_this call FUNC(handleSlotItemChanged););
+        GVAR(SlotItemChanged) = QUOTE(call FUNC(handleSlotItemChanged););
     };
 };
