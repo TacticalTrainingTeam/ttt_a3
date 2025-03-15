@@ -11,7 +11,7 @@ jobs:
       - name: Github Releases To Discord
         uses: SethCohen/github-releases-to-discord@v1
         with:
-          webhook_url: ${{ secrets.WEBHOOK_URL }}
+          webhook_url: ${{ secrets.DISCORD_WEBHOOK_URL }}
           username: "TTT-Mod Release Changelog"
           avatar_url: "https://wiki.tacticalteam.de/bilder/ttt_logo_heagon_512x512.png"
           content: ""
