@@ -9,7 +9,7 @@
 			"label": "markdownlint: Lint all Markdown files in the workspace with markdownlint"
 		},
 		{
-			"label": "Validate Config",
+			"label": "Validate: Config",
 			"command": "${config:python.defaultInterpreterPath}",
 			"options": {
 				"cwd": "${workspaceFolder}/tools"
@@ -20,7 +20,7 @@
 			"problemMatcher": []
 		},
 		{
-			"label": "Validate Stringtables",
+			"label": "Validate: Stringtables",
 			"command": "${config:python.defaultInterpreterPath}",
 			"options": {
 				"cwd": "${workspaceFolder}/tools"
@@ -31,49 +31,106 @@
 			"problemMatcher": []
 		},
 		{
-			"label": "Check Strings",
+			"label": "Check: Undefined Strings",
 			"command": "${config:python.defaultInterpreterPath}",
 			"options": {
 				"cwd": "${workspaceFolder}/tools"
 			},
 			"args": [
 				"check_strings.py"
-			]
+			],
+			"problemMatcher": []
 		},
 		{
-			"label": "Check for Unused Strings",
+			"label": "Check: Unused Privates",
 			"command": "${config:python.defaultInterpreterPath}",
 			"options": {
 				"cwd": "${workspaceFolder}/tools"
 			},
 			"args": [
-				"check_strings.py",
-				"-u"
+				"search_unused_privates.py"
 			],
 			"problemMatcher": []
 		},
 		{
-			"label": "HEMTT check",
+			"label": "Check: HEMTT",
 			"command": "hemtt.exe",
 			"options": {
 				"cwd": "${workspaceFolder}"
 			},
 			"args": [
-				"check"
-			]
+				"check",
+				"-v"
+			],
+			"problemMatcher": []
 		},
 		{
 			"label": "Test All",
 			"dependsOn": [
-				"Validate Config",
-				"Validate Stringtables",
-				"Check Strings",
-				"HEMTT check"
+				"Validate: Config",
+				"Validate: Stringtables",
+				"Check: Undefined Strings",
+				"Check: Unused Privates",
+				"Check: HEMTT"
 			],
 			"group": {
 				"kind": "test",
 				"isDefault": true
 			}
+		},
+		{
+			"label": "Build: HEMTT",
+			"command": "hemtt.exe",
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"args": [
+				"build",
+				"-v"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "Build: HEMTT --just",
+			"command": "hemtt.exe",
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"args": [
+				"build",
+				"--just",
+				"${input:addon}",
+				"-v"
+			],
+			"group": {
+				"kind": "build"
+			}
+		},
+		{
+			"label": "Release: HEMTT --no-sign",
+			"command": "hemtt.exe",
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"args": [
+				"release",
+				"--no-sign",
+				"-v"
+			],
+			"group": {
+				"kind": "build"
+			}
 		}
+	],
+    "inputs": [
+        {
+            "id": "addon",
+            "description": "Addon Name:",
+            "default": "common",
+            "type": "promptString"
+        }
 	]
 }
