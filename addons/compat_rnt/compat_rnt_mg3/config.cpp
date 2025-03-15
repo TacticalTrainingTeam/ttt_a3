@@ -20,7 +20,6 @@ class CfgPatches {
     };
 };
 
-#include "CfgEventHandlers.hpp"
 #include "CfgMagazineGroups.hpp"
 #include "CfgMagazineWells.hpp"
 #include "CfgVehicles.hpp"

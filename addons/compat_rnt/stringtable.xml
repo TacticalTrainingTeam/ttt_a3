@@ -19,7 +19,7 @@
         </Key>
         <Key ID="STR_ttt_Compat_Rnt_settingsLafetteDisassembleTime_tooltip">
             <English>Time it takes to disassemble the MG3 tripod.</English>
-            <German>Die Zeit, die es braucht, um die MG3-Lafette abzubauen.</German>
+            <German>Die Zeit, die es braucht, um das MG3-Dreibein zu demontieren.</German>
         </Key>
         <Key ID="STR_ttt_Compat_Rnt_settingsLafetteMountTime">
             <English>MG3 Tripod mounting time</English>
@@ -27,7 +27,7 @@
         </Key>
         <Key ID="STR_ttt_Compat_Rnt_settingsLafetteMountTime_tooltip">
             <English>Time it takes to mount the MG3 onto a tripod.</English>
-            <German>Die Zeit, die es braucht, um ein MG3 zu lafettieren.</German>
+            <German>Die Zeit, die es braucht, um ein MG3 auf einem Dreibein zu montieren.</German>
         </Key>
         <Key ID="STR_ttt_Compat_Rnt_subCategoryMG">
             <English>MG3 Tripod</English>
