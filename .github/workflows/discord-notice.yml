@@ -14,8 +14,8 @@ jobs:
         with:
           webhook_url: ${{ secrets.DISCORD_WEBHOOK_URL }}
           username: "TTT-Mod Release Changelog"
-          avatar_url: "https://wiki.tacticalteam.de/bilder/ttt_logo_heagon_512x512.png"
+          avatar_url: "https://cdn.discordapp.com/icons/121399943393968128/0cfecfd43c61e79ee5e9b40a612ef9e3.webp?size=96"
           content: ""
-          footer_title: "Changelog"
-          footer_icon_url: "https://wiki.tacticalteam.de/bilder/ttt_logo_heagon_512x512.png"
+          footer_title: "TTT-Mod"
+          footer_icon_url: "https://cdn.discordapp.com/icons/121399943393968128/0cfecfd43c61e79ee5e9b40a612ef9e3.webp?size=96"
           footer_timestamp: true
