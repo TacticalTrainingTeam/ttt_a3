@@ -2,6 +2,9 @@
 #include "\x\cba\addons\xeh\script_xeh.hpp"
 #include "\z\ace\addons\main\script_macros.hpp"
 
+// - 402 macros ---------------------------------------------------------------
+#define CREATE_MAGAZINE_GROUP(ammo) class ammo { ammo = 1; }
+
 // - UI macros ----------------------------------------------------------------
 #define MIDX (SafeZoneX + (SafeZoneW / 2))
 #define MIDY (SafeZoneY + (SafeZoneH / 2))
@@ -17,7 +20,6 @@
 #define CELLY(x,y) (SafeZoneY + y * CELLH)
 
 #define SIZEEX (0.75 * CELLH)
-
 
 #define QQPATHTOF(var1) QUOTE(QPATHTOF(var1))
 
