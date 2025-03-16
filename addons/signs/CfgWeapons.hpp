@@ -54,7 +54,6 @@ class CfgWeapons {
         ACE_flags_texture = QPATHTOEF(common,data\ttt_logo_orange_co.paa);
         ACE_flags_carrier = QGVAR(flags_carrier_orange);
     };
-
     class ttt_signs_flags_gold: ACE_flags_orange {
         displayName = CSTRING(flag_gold_displayName);
 
