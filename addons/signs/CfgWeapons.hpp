@@ -32,6 +32,7 @@ class CfgWeapons {
 
     class ACE_flags_blue;
     class ttt_signs_flags_blue: ACE_flags_blue {
+        author = ECSTRING(main,TacticalTrainingTeam);
         displayName = CSTRING(flag_blue_displayName);
 
         ACE_flags_texture = QPATHTOEF(common,data\ttt_logo_blau_co.paa);
@@ -41,6 +42,7 @@ class CfgWeapons {
 
     class ACE_flags_orange;
     class ttt_signs_flags_bronze: ACE_flags_orange {
+        author = ECSTRING(main,TacticalTrainingTeam);
         displayName = CSTRING(flag_bronze_displayName);
 
         ACE_flags_texture = QPATHTOEF(common,data\ttt_logo_bronze_co.paa);
@@ -62,6 +64,7 @@ class CfgWeapons {
 
     class ACE_flags_yellow;
     class ttt_signs_flags_yellow: ACE_flags_yellow {
+        author = ECSTRING(main,TacticalTrainingTeam);
         displayName = CSTRING(flag_yellow_displayName);
 
         ACE_flags_texture = QPATHTOEF(common,data\ttt_logo_gelb_co.paa);
@@ -70,6 +73,7 @@ class CfgWeapons {
 
     class ACE_flags_black;
     class ttt_signs_flags_black: ACE_flags_black {
+        author = ECSTRING(main,TacticalTrainingTeam);
         displayName = CSTRING(flag_black_displayName);
 
         ACE_flags_texture = QPATHTOEF(common,data\ttt_logo_schwarz_co.paa);
@@ -77,7 +81,6 @@ class CfgWeapons {
     };
     class ttt_signs_flags_grey: ACE_flags_black {
         displayName = CSTRING(flag_grey_displayName);
-        //picture = QPATHTOF(data\pictures\grey_item.paa);
 
         ACE_flags_texture = QPATHTOEF(common,data\ttt_logo_grau_co.paa);
         ACE_flags_carrier = QGVAR(flags_carrier_grey);
@@ -93,8 +96,8 @@ class CfgWeapons {
 
     class ACE_flags_purple;
     class ttt_signs_flags_violet: ACE_flags_purple {
+        author = ECSTRING(main,TacticalTrainingTeam);
         displayName = CSTRING(flag_violet_displayName);
-        //picture = QPATHTOF(data\pictures\orange_item.paa);
 
         ACE_flags_texture = QPATHTOEF(common,data\ttt_logo_violet_co.paa);
         ACE_flags_carrier = QGVAR(flags_carrier_violet);
@@ -102,6 +105,7 @@ class CfgWeapons {
 
     class ACE_flags_green;
     class ttt_signs_flags_green: ACE_flags_green {
+        author = ECSTRING(main,TacticalTrainingTeam);
         displayName = CSTRING(flag_green_displayName);
 
         ACE_flags_texture = QPATHTOEF(common,data\ttt_logo_gruen_co.paa);
