@@ -24,7 +24,12 @@
 
 if (!isServer || missionNamespace getVariable ["ttt_effects_stormActive", false]) exitWith {};
 
-params [["_durationDuststorm",(300),[42]],["_effectOnObjects",(false),[true]],["_stormType",(0),[42]],["_walk",(true),[true]],["_directionDuststorm",(random 360),[42]]];
+params [
+	["_durationDuststorm",(300),[42]],
+	["_effectOnObjects",(false),[true]],
+	["_stormType",(0),[42]],
+	["_walk",(true),[true]],
+	["_directionDuststorm",(random 360),[42]]];
 
 INFO("Init Storm");
 
