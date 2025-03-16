@@ -15,8 +15,7 @@ class CfgVehicles {
     };
 
     class ACE_Module;
-    class GVAR(initStormModule): ACE_Module
-    {
+    class GVAR(initStormModule): ACE_Module{
         scope = 2;
         displayName = "Sandstorm Module ACE";
         category = "TTT";
@@ -73,8 +72,8 @@ class CfgVehicles {
 
                 // Listbox items
                 class Values {
-                    class sand    { name = "Sandsturm";    value = 0; };
-                    class snow    { name = "Schneesturm"; value = 1; };
+                    class sand { name = "Sandsturm"; value = 0; };
+                    class snow { name = "Schneesturm"; value = 1; };
                 };
             };
 
