@@ -225,6 +225,11 @@ class CfgVehicles {
         editorPreview = QPATHTOF(data\previews\ttt_signs_carrier_grey.jpg);
     };
 
+    class ttt_signs_flags_carrier_platinum: ttt_signs_flags_carrier_logo {
+        displayName = CSTRING(flag_platinum_displayName);
+        editorPreview = QPATHTOF(data\previews\ttt_signs_carrier_platinum.jpg);
+    };
+
 
     /*
     #############################################################
