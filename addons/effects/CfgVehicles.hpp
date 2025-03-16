@@ -1,19 +1,15 @@
-class CfgVehicles
-{
+class CfgVehicles {
 
     class Logic;
-    class Module_F: Logic
-    {
-        class AttributesBase
-        {
+    class Module_F: Logic {
+        class AttributesBase {
             class Default;          
             class Combo;                // Default combo box (i.e. drop-down menu)
             class Slider;
         };
 
         // Description base classes (for more information see below):
-        class ModuleDescription
-        {
+        class ModuleDescription {
             class AnyBrain;
         };
     };
