@@ -1,15 +1,8 @@
 # Insignias - Tagging
 
-Fügt TTT Insignien dem ACE-Tagging Framework hinzu.
+Fügt eine neue Spürhdose (TTT) hinzu. Fügt TTT Insignien dem ACE-Tagging Framework hinzu.
 
-## Sprühdosen
-
-- Schwarz -> Schwarz, Grau
-- Rot -> Rod, Violett
-- Blau -> Blau
-- Gelb -> Gelb, Orange, Bronze, Gold
-- Grün -> Grün
-- Weiß -> Weiß, Silver, Platin
+`TTT_Spraypaint`
 
 ## Referenzen
 

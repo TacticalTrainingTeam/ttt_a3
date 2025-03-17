@@ -97,6 +97,13 @@ class CfgUnitInsignia {
         material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
         textureVehicle = "";
     };
+    class TTT_Gold{
+        displayName = CSTRING(gold_large_displayName);
+        author = "Andx";
+        texture = QPATHTOEF(common,data\ttt_logo_gold_co.paa);
+        material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+        textureVehicle = "";
+    };
 
     //Other
     class TTT_red_crystal_dark {
