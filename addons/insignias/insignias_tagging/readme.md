@@ -7,7 +7,7 @@ Fügt TTT Insignien dem ACE-Tagging Framework hinzu.
 - Schwarz -> Schwarz, Grau
 - Rot -> Rod, Violett
 - Blau -> Blau
-- Gelb -> Gelb, Orange, Bronze
+- Gelb -> Gelb, Orange, Bronze, Gold
 - Grün -> Grün
 - Weiß -> Weiß, Silver, Platin
 
