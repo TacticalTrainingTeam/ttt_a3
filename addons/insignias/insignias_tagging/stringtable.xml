@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Insignias_Tagging">
+        <Key ID="STR_ttt_Insignias_Tagging_spraypaint_displayName">
+            <English>Spray Paint (TTT)</English>
+            <German>Sprühfarbe (TTT)</German>
+        </Key>
+    </Package>
+</Project>
