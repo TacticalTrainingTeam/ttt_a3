@@ -62,17 +62,7 @@ class CfgUnitInsignia {
         displayName = CSTRING(yellow_large_displayName);
         texture = QPATHTOEF(common,data\ttt_logo_gelb_co.paa);
     };
-
-    //Other
-    class TTT_EOD {
-        displayName = CSTRING(eod_displayName);
-        texture = QPATHTOF(data\eod_kontur_ca.paa);
-    };
-    class TTT_red_crystal_dark: TTT_EOD {
-        displayName = CSTRING(red_crystal_displayName);
-        texture = QPATHTOF(data\red_crystal_dark_co.paa);
-    };
-
+    
     //Emblems
     class TTT_black_emblem {
         author = "Andx";
@@ -128,5 +118,15 @@ class CfgUnitInsignia {
     class TTT_yellow_emblem: TTT_black_emblem {
         displayName = CSTRING(yellow_emblem_displayName);
         texture = QPATHTOF(data\gelb_ca.paa);
+    };
+
+    //Other
+    class TTT_EOD {
+        displayName = CSTRING(eod_displayName);
+        texture = QPATHTOF(data\eod_kontur_ca.paa);
+    };
+    class TTT_red_crystal_dark: TTT_EOD {
+        displayName = CSTRING(red_crystal_displayName);
+        texture = QPATHTOF(data\red_crystal_dark_co.paa);
     };
 };
