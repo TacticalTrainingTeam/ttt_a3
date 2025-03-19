@@ -62,7 +62,7 @@ class CfgUnitInsignia {
         displayName = CSTRING(yellow_large_displayName);
         texture = QPATHTOEF(common,data\ttt_logo_gelb_co.paa);
     };
-    
+
     //Emblems
     class TTT_black_emblem {
         author = "Andx";
@@ -70,7 +70,7 @@ class CfgUnitInsignia {
         textureVehicle = "";
         displayName = CSTRING(black_emblem_displayName);
         texture = QPATHTOF(data\schwarz_ca.paa);
-    };
+    }; 
     class TTT_blue_emblem: TTT_black_emblem {
         displayName = CSTRING(blue_emblem_displayName);
         texture = QPATHTOF(data\blau_ca.paa);
@@ -78,7 +78,7 @@ class CfgUnitInsignia {
     class TTT_bronze_emblem: TTT_black_emblem {
         displayName = CSTRING(bronze_emblem_displayName);
         texture = QPATHTOF(data\bronze_ca.paa);
-    };
+    }; 
     class TTT_brown_emblem: TTT_black_emblem {
         displayName = CSTRING(brown_emblem_displayName);
         texture = QPATHTOF(data\braun_ca.paa);
@@ -122,11 +122,14 @@ class CfgUnitInsignia {
 
     //Other
     class TTT_EOD {
+        author = "Andx";
+        material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";
+        textureVehicle = "";
         displayName = CSTRING(eod_displayName);
         texture = QPATHTOF(data\eod_kontur_ca.paa);
-    };
+    }; 
     class TTT_red_crystal_dark: TTT_EOD {
         displayName = CSTRING(red_crystal_displayName);
         texture = QPATHTOF(data\red_crystal_dark_co.paa);
-    };
+    };  
 };
