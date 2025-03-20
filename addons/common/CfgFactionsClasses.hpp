@@ -5,4 +5,9 @@ class CfgFactionClasses {
         priority = 2;
         side = 7;
     };
+    class TTT: NO_CATEGORY {
+        displayName = ECSTRING(main,TacticalTrainingTeam);
+        priority = 2;
+        side = 7;
+    };
 };
