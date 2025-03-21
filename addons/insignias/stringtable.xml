@@ -25,14 +25,6 @@
             <English>TTT Bronze</English>
             <German>TTT Bronze</German>
         </Key>
-        <Key ID="STR_ttt_Insignias_gold_emblem_displayName">
-            <English>TTT Gold Emblem</English>
-            <German>TTT Gold Abzeichen</German>
-        </Key>
-        <Key ID="STR_ttt_Insignias_gold_large_displayName">
-            <English>TTT Gold</English>
-            <German>TTT Gold</German>
-        </Key>
         <Key ID="STR_ttt_Insignias_brown_emblem_displayName">
             <English>TTT Brown Emblem</English>
             <German>TTT Braun Abzeichen</German>
@@ -44,6 +36,14 @@
         <Key ID="STR_ttt_Insignias_eod_displayName">
             <English>EOD</English>
             <German>EOD</German>
+        </Key>
+        <Key ID="STR_ttt_Insignias_gold_emblem_displayName">
+            <English>TTT Gold Emblem</English>
+            <German>TTT Gold Abzeichen</German>
+        </Key>
+        <Key ID="STR_ttt_Insignias_gold_large_displayName">
+            <English>TTT Gold</English>
+            <German>TTT Gold</German>
         </Key>
         <Key ID="STR_ttt_Insignias_grau_emblem_displayName">
             <English>TTT Grey Emblem</English>
