@@ -59,7 +59,7 @@
 			};
 
 		}
-		foreach _enemyArtyArray;
+		forEach _enemyArtyArray;
 		
 		//Check for range
 		if ((getPos _ownArty) inRangeOfArtillery [_enemyArtyArray, _ammo]) then
@@ -84,7 +84,7 @@
 					};
 
 				}
-				foreach _enemyArtyRadarArray;
+				forEach _enemyArtyRadarArray;
 
 				//Now wait to "calculate" the own artillery position for the enemy to shoot back
 				uiSleep _counterTime;
@@ -120,16 +120,16 @@
 					};
 
 				}
-				foreach _enemyArtyArray;
+				forEach _enemyArtyArray;
 				
 				//Wait for all rounds to be shot, than remove eventhandler for each artillery and set ammo 1
 				waitUntil {sleep 1;Redd_arti_shots == _allShots};
 				{
 					
-					_x setvehicleAmmo 1;
+					_x setVehicleAmmo 1;
 					
 				}
-				foreach _enemyArtyArray;
+				forEach _enemyArtyArray;
 				
 				//Set global variable to false so artillery can get another firemission
 				missionNamespace setVariable ["Redd_artiMission", false];
