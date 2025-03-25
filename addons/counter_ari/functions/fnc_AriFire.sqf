@@ -88,6 +88,7 @@
 					//Doesent work for mortar with ACE
 					_ammo = getArtilleryAmmo [_x] select 0;
 
+					//ToDo Remove Spawn
 					//Spawn the firemission function
 					[_x,_centerPos,_radius,_ammo,_rounds,_decrementRadius] spawn FUNC(AriFireMission);
 					
