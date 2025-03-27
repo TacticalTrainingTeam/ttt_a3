@@ -2,8 +2,7 @@ class CfgVehicles {
 
     class B_Soldier_base_F;            // External class reference
     class ttt_Base: B_Soldier_base_F {
-        _generalMacro = "B_Soldier_base_F";
-        author = "Tactical Training Team";
+        author = ECSTRING(main,TacticalTrainingTeam);
         displayName = "TTT Basis-Klasse";
         scope = 0;
         icon = "iconMan";
