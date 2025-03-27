@@ -12,7 +12,7 @@ class CfgWeapons {
         
         class ItemInfo: ItemInfo {
             uniformClass = "ttt_Uniform_Base_US";
-            containerClass = "Supply60";
+            containerClass = "Supply60"; // Supply40
         };
     };
 
