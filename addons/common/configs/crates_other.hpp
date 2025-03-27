@@ -14,4 +14,5 @@ class GVAR(uav_crate): Box_NATO_Support_F {
         MACRO_ADDITEM(B_UavTerminal,1); 
         MACRO_ADDITEM(ACE_UAVBattery,10);   
     };
+    class TransportMagazines {};
 };
