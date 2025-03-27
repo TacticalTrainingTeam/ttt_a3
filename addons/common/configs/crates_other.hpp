@@ -1,5 +1,5 @@
 //Custom UAV Crate
-class Box_NATO_Support_F; //ToDo Change Crate Base
+class Box_NATO_Support_F;
 
 //Benötigt ITC+ACE
 class GVAR(uav_crate): Box_NATO_Support_F {
