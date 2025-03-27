@@ -58,8 +58,8 @@
             <German>TTT Sanitätskiste (VBT)</German>
         </Key>
         <Key ID="STR_ttt_Common_uav">
-            <English>TTT UAV Crate</English>
-            <German>TTT Drohenkiste</German>
+            <English>TTT UAV Crate (UAV)</English>
+            <German>TTT Drohenkiste (UAV)</German>
         </Key>
     </Package>
 </Project>

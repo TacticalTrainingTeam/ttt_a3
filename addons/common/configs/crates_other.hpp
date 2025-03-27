@@ -4,7 +4,6 @@ class Box_NATO_Support_F;
 //Benötigt ITC+ACE
 class GVAR(uav_crate): Box_NATO_Support_F {
     displayName = CSTRING(uav);
-    editorCategory = "EdCat_Supplies";
     author = ECSTRING(main,TacticalTrainingTeam);
     editorSubcategory = QEGVAR(main,ttt);
     ace_cargo_size = 1;
