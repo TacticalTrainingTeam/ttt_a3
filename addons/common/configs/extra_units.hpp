@@ -38,7 +38,7 @@ class TTT_B_Crew_TL_F : B_Crew_F {
     displayName = CSTRING(CrewTL);
 };
 class TTT_B_EOD_F: B_soldier_mine_F{
-    displayName = CSTRING(EOD);
+    displayName = CSTRING(EODunit);
 };
 class TTT_B_EOD_TL_F: TTT_B_EOD_F{
     displayName = CSTRING(EODTL);
