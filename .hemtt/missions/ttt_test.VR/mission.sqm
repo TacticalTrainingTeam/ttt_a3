@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=513;
+	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=70;
+		nextID=73;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5921.124,30,4825.2974};
-		dir[]={0.04447389,-0.44428027,-0.89479434};
-		up[]={0.022055015,0.8958813,-0.44373965};
-		aside[]={-0.99877584,5.0378731e-08,-0.04964247};
+		pos[]={5921.0898,30,4823.8423};
+		dir[]={0.015040579,-0.5904215,-0.80697811};
+		up[]={0.011002478,0.80708623,-0.5903278};
+		aside[]={-0.99984187,-1.4381385e-08,-0.018635668};
 	};
 };
 binarizationWanted=0;
@@ -37,13 +37,14 @@ addons[]=
 	"A3_Supplies_F_Heli_CargoNets",
 	"A3_Air_F_Heli_Heli_Transport_03",
 	"ttt_signs",
-	"A3_Modules_F"
+	"A3_Modules_F",
+	"ttt_effects"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=11;
+		items=12;
 		class Item0
 		{
 			className="A3_Soft_F_Gamma";
@@ -121,6 +122,13 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item11
+		{
+			className="ttt_effects";
+			name="TTT - Effekte";
+			author="Tactical Training Team";
+			url="https://tacticalteam.de";
+		};
 	};
 };
 dlcs[]=
@@ -176,7 +184,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=59;
+		items=60;
 		class Item0
 		{
 			dataType="Object";
@@ -1391,17 +1399,117 @@ class Mission
 		class Item58
 		{
 			dataType="Trigger";
-			position[]={5919.041,5,4785.9678};
+			position[]={5919.041,5,4790.8389};
 			class Attributes
 			{
 				sizeA=21.708;
-				sizeB=5;
+				sizeB=9.8710938;
 				sizeC=5;
 				activationBy="ANYPLAYER";
 				isRectangle=1;
 			};
 			id=66;
 			type="EmptyDetectorArea10x10";
+		};
+		class Item59
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={5918.793,5,4767.5039};
+			};
+			id=72;
+			type="ttt_effects_initStormModule_Vanilla";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ttt_effects_stormType";
+					expression="_this setVariable ['ttt_effects_stormType',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=1;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ttt_effects_direction";
+					expression="_this setVariable ['ttt_effects_direction',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=212;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ttt_effects_effect";
+					expression="_this setVariable ['ttt_effects_effect',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ttt_effects_walk";
+					expression="_this setVariable ['ttt_effects_walk',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ttt_effects_duration";
+					expression="_this setVariable ['ttt_effects_duration',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=501;
+						};
+					};
+				};
+				nAttributes=5;
+			};
+		};
+	};
+	class Connections
+	{
+		class LinkIDProvider
+		{
+			nextID=1;
+		};
+		class Links
+		{
+			items=1;
+			class Item0
+			{
+				linkID=0;
+				item0=66;
+				item1=72;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
 		};
 	};
 };
