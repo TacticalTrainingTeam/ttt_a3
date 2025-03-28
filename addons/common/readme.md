@@ -82,7 +82,7 @@ Stellt TTT-Bilder anderen Addons zur Verfügung.
 
 ### Einheiten
 
-Fügt ein paar generische Einheiten (ohne eigenes Loadout), als Hilfe für einheiten-basierte Loadoutsystem wie z.b. Poppy, hinzu.
+Fügt ein paar generische Einheiten (ohne eigenes Loadout), als Hilfe für einheiten-basierte Loadoutsystem wie z.B. Poppy, hinzu.
 
 ### Kisten
 
