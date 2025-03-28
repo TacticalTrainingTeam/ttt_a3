@@ -60,7 +60,6 @@
 			},
 			"args": [
 				"check",
-				"-p",
 				"-v"
 			],
 			"problemMatcher": []
