@@ -1,5 +1,6 @@
 class CfgVehicles {
 
+    //Uniforms on People need a Soldier at its base
     class B_Soldier_base_F;            // External class reference
     class ttt_Base: B_Soldier_base_F {
         author = ECSTRING(main,TacticalTrainingTeam);
@@ -302,6 +303,9 @@ class CfgVehicles {
         };
     };
 
+    //Ground Weapon Holders
+    //these appear in the 3DEN Editor to be placed in the world
+    //ToDo: hiddenselections
     class ttt_Item_Green_alt_BW_Tropentarn : Item_U_B_CombatUniform_mcam {
         displayName = CSTRING(green_alt_BW_Tropentarn_DisplayName);
         author = ECSTRING(main,TacticalTrainingTeam);
