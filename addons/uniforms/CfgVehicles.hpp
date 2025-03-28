@@ -290,6 +290,12 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_orange_bw_tropentarn_co.paa) };
     };
 
+    class ttt_Platinum_BW_Tropentarn: ttt_plain_BW_Flecktarn {
+        displayName = CSTRING(platinum_BW_Tropentarn_DisplayName);
+        uniformClass = "ttt_Uniform_Platinum_BW_Tropentarn";
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_platinum_bw_tropentarn_co.paa) };
+    };
+
     class Item_U_B_CombatUniform_mcam;
     class ttt_Item_black_BW_Tropentarn : Item_U_B_CombatUniform_mcam {
         displayName = CSTRING(black_BW_Tropentarn_DisplayName);
@@ -457,6 +463,18 @@ class CfgVehicles {
         class TransportItems {
             class ttt_Uniform_Orange_BW_Tropentarn {
                 name = "ttt_Uniform_Orange_BW_Tropentarn";
+                count = 1;
+            };
+        };
+    };
+
+    class ttt_Item_Platinum_BW_Tropentarn : Item_U_B_CombatUniform_mcam {
+        displayName = CSTRING(platinum_BW_Tropentarn_DisplayName);
+        author = ECSTRING(main,TacticalTrainingTeam);
+
+        class TransportItems {
+            class ttt_Uniform_platinum_BW_Tropentarn {
+                name = "ttt_Uniform_platinum_BW_Tropentarn";
                 count = 1;
             };
         };
@@ -789,10 +807,24 @@ class CfgVehicles {
     class ttt_Item_Platinum_US_Desert : Item_U_B_CombatUniform_mcam {
         displayName = CSTRING(platinum_US_Desert_DisplayName);
         author = ECSTRING(main,TacticalTrainingTeam);
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_platinum_US_Desert_co.paa) };
 
         class TransportItems {
             class ttt_Uniform_Platinum_US_Desert {
                 name = "ttt_Uniform_Platinum_US_Desert";
+                count = 1;
+            };
+        };
+    };
+
+    class ttt_Item_Platinum_Pilot : Item_U_B_CombatUniform_mcam {
+        displayName = CSTRING(platinum_pilot_DisplayName);
+        author = ECSTRING(main,TacticalTrainingTeam);
+        hiddenSelectionsTextures[] = { QPATHTOF(data\ttt_uniform_platinum_pilot_co.paa) };
+
+        class TransportItems {
+            class ttt_Uniform_Platinum_Pilot {
+                name = "ttt_Uniform_Platinum_Pilot";
                 count = 1;
             };
         };
