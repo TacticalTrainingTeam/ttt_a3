@@ -37,7 +37,7 @@
             <English>Doctor</English>
             <German>Arzt</German>
         </Key>
-        <Key ID="STR_ttt_Common_EODunit">
+        <Key ID="STR_ttt_Common_EOD">
             <English>EOD Technician</English>
             <German>EOD Spezialist</German>
         </Key>

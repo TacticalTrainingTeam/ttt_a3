@@ -22,28 +22,23 @@ class TTT_B_FO_F : B_Officer_F {
 class TTT_B_RadioOperator_F : B_Officer_F {
     displayName = CSTRING(RadioOperator);
 };
-
 class TTT_B_Soldier_Repair_TL_F : B_Soldier_Repair_F {
     displayName = CSTRING(LogTL);
 };
-
 class TTT_B_Medic_Doctor_F : B_Medic_F {
     displayName = CSTRING(Doc);
 };
 class TTT_B_Medic_CM_F : B_Medic_F {
     displayName = CSTRING(CM);
 };
-
 class TTT_B_engineer_TL_F: B_engineer_F{
     displayName = CSTRING(EngTL);
 };
-
 class TTT_B_Crew_TL_F : B_Crew_F {
     displayName = CSTRING(CrewTL);
 };
-
 class TTT_B_EOD_F: B_soldier_mine_F{
-    displayName = CSTRING(EODunit);
+    displayName = CSTRING(EOD);
 };
 class TTT_B_EOD_TL_F: TTT_B_EOD_F{
     displayName = CSTRING(EODTL);
