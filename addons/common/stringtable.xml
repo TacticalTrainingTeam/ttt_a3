@@ -49,13 +49,45 @@
             <English>Engineer Team Leader</English>
             <German>Pionier Truppführer</German>
         </Key>
-        <Key ID="STR_ttt_Common_vba">
-            <English>TTT Medical Crate (VBA)</English>
-            <German>TTT Sanitätskiste (VBA)</German>
+        <Key ID="STR_ttt_Common_BV">
+            <English>Onboard Communication System</English>
+            <German>Bordverständigungsanlage</German>
         </Key>
-        <Key ID="STR_ttt_Common_vbt">
-            <English>TTT Medical Crate (VBT)</English>
-            <German>TTT Sanitätskiste (VBT)</German>
+        <Key ID="STR_ttt_Common_BVShort">
+            <English>OCS</English>
+            <German>BV</German>
+        </Key>
+        <Key ID="STR_ttt_Common_RackA">
+            <English>Radio Circuit A</English>
+            <German>Funkkreis A</German>
+        </Key>
+        <Key ID="STR_ttt_Common_RackAShort">
+            <English>Circuit A</English>
+            <German>Krs A</German>
+        </Key>
+        <Key ID="STR_ttt_Common_RackB">
+            <English>Radio Circuit B</English>
+            <German>Funkkreis B</German>
+        </Key>
+        <Key ID="STR_ttt_Common_RackBShort">
+            <English>Circuit B</English>
+            <German>Krs B</German>
+        </Key>
+        <Key ID="STR_ttt_Common_RackC">
+            <English>Radio Circuit C</English>
+            <German>Funkkreis C</German>
+        </Key>
+        <Key ID="STR_ttt_Common_RackCShort">
+            <English>Circuit C</English>
+            <German>Krs C</German>
+        </Key>
+        <Key ID="STR_ttt_Common_eod">
+            <English>TTT EOD Crate (EOD)</English>
+            <German>TTT EOD Kiste (EOD)</German>
+        </Key>
+        <Key ID="STR_ttt_Common_eod_ugv">
+            <English>TTT EOD+UGV Crate (EOD+)</English>
+            <German>TTT EOD+UGV Kiste (EOD+)</German>
         </Key>
         <Key ID="STR_ttt_Common_pio">
             <English>TTT Combat Engineer Crate (Pio)</English>
@@ -65,13 +97,13 @@
             <English>TTT Explosives Crate (Spreng)</English>
             <German>TTT Sprengkiste (Spreng)</German>
         </Key>
-        <Key ID="STR_ttt_Common_eod">
-            <English>TTT EOD Crate (EOD)</English>
-            <German>TTT EOD Kiste (EOD)</German>
+        <Key ID="STR_ttt_Common_vba">
+            <English>TTT Medical Crate (VBA)</English>
+            <German>TTT Sanitätskiste (VBA)</German>
         </Key>
-        <Key ID="STR_ttt_Common_eod_ugv">
-            <English>TTT EOD+UGV Crate (EOD+)</English>
-            <German>TTT EOD+UGV Kiste (EOD+)</German>
+        <Key ID="STR_ttt_Common_vbt">
+            <English>TTT Medical Crate (VBT)</English>
+            <German>TTT Sanitätskiste (VBT)</German>
         </Key>
     </Package>
 </Project>

@@ -1,7 +1,7 @@
 //Custom Engineer Crates
 class Box_NATO_AmmoOrd_F;
 
-class GVAR(spreng_crate): Box_NATO_AmmoOrd_F {
+class GVAR(explosives_crate): Box_NATO_AmmoOrd_F {
     displayName = CSTRING(spreng);
     editorCategory = "EdCat_Supplies";
     author = ECSTRING(main,TacticalTrainingTeam);
