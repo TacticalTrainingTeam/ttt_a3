@@ -6,7 +6,6 @@ class CfgVehicles {
         author = ECSTRING(main,TacticalTrainingTeam);
         displayName = "TTT Basis-Klasse";
         scope = 0;
-        //uniformAccessories[] = {};
         //empty all inventory
         items[] = {};
         respawnItems[] = {};
