@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Compat_Rnt_Mg3">
+        <Key ID="STR_ttt_Compat_Rnt_Mg3_lafette_displayname">
+            <English>MG3 Tripod</English>
+            <German>MG3-Lafette</German>
+        </Key>
+    </Package>
+</Project>
