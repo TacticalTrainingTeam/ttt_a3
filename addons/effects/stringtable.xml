@@ -1,91 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Effects">
-        <Key ID="STR_ttt_effects_stormModule_displayName">
+        <Key ID="STR_ttt_Effects_stormModule_displayName">
             <English>Create Storm</English>
             <German>Erstelle Sturm</German>
         </Key>
-        <Key ID="STR_ttt_effects_stormModule_duration_displayName">
+        <Key ID="STR_ttt_Effects_stormModule_duration_displayName">
             <English>Duration</English>
             <German>Dauer</German>
         </Key>
-        <Key ID="STR_ttt_effects_stormModule_duration_tooltip">
+        <Key ID="STR_ttt_Effects_stormModule_duration_tooltip">
             <English>How long should the storm last (in seconds). (Minumum 60 seconds)</English>
             <German>Wie lange soll der Sturm andauern (in Sekunden). (Minumum 60 Sekunden)</German>
         </Key>
-        <Key ID="STR_ttt_effects_stormModule_effect_displayName">
+        <Key ID="STR_ttt_Effects_stormModule_effect_displayName">
             <English>Effect on Objects</English>
             <German>Objekteffekte</German>
         </Key>
-        <Key ID="STR_ttt_effects_stormModule_effect_tooltip">
+        <Key ID="STR_ttt_Effects_stormModule_effect_tooltip">
             <English>Should objects such as vehicles or players be slightly moved by the wind.</English>
             <German>Sollen Objekte wie Fahrzeuge oder Spieler vom Wind leicht bewegt werden.</German>
         </Key>
-        <Key ID="STR_ttt_effects_stormModule_stormType_displayName">
+        <Key ID="STR_ttt_Effects_stormModule_stormType_displayName">
             <English>Stormtype</English>
             <German>Sturmtyp</German>
         </Key>
-        <Key ID="STR_ttt_effects_stormModule_stormType_tooltip">
+        <Key ID="STR_ttt_Effects_stormModule_stormType_tooltip">
             <English></English>
             <German></German>
         </Key>
-        <Key ID="STR_ttt_effects_stormModule_stormType_sandstorm">
+        <Key ID="STR_ttt_Effects_stormModule_stormType_sandstorm">
             <English>Sandstorm</English>
             <German>Sandsturm</German>
         </Key>
-        <Key ID="STR_ttt_effects_stormModule_stormType_snowstorm">
+        <Key ID="STR_ttt_Effects_stormModule_stormType_snowstorm">
             <English>Snowstorm</English>
             <German>Schneesturm</German>
         </Key>
-        <Key ID="STR_ttt_effects_stormModule_walk_displayName">
+        <Key ID="STR_ttt_Effects_stormModule_walk_displayName">
             <English>Limit movement speed </English>
             <German>Bewegungsgeschwindigkeit begrenzen</German>
         </Key>
-        <Key ID="STR_ttt_effects_stormModule_walk_tooltip">
+        <Key ID="STR_ttt_Effects_stormModule_walk_tooltip">
             <English>An infantryman can only move at “walking” speed. (Recommended)</English>
             <German>Ein Infanterist kann sich nur noch im Tempo "Gehen" fortbewegen. (Empfohlen)</German>
         </Key>
-        <Key ID="STR_ttt_effects_stormModule_direction_displayName">
+        <Key ID="STR_ttt_Effects_stormModule_direction_displayName">
             <English>Wind Direction</English>
             <German>Windrichtung</German>
         </Key>
-        <Key ID="STR_ttt_effects_stormModule_direction_tooltip">
+        <Key ID="STR_ttt_Effects_stormModule_direction_tooltip">
             <English>Wind direction in degrees.</English>
             <German>Windrichtung in Grad.</German>
         </Key>
-        <Key ID="STR_ttt_effects_stormModule_description">
+        <Key ID="STR_ttt_Effects_stormModule_description">
             <English>The player's view is restricted, storm noises are played and the camera occasionally shakes. Particles are created around the player, which further restrict their view. In return, the already existing AI is temporarily degraded by 75% in the skills: 'aimingAccuracy', 'aimingShake', 'aimingSpeed' and 'spotDistance'. Only one storm can be active at a time.</English>
             <German>Dem Spieler wird die Sicht eingeschränkt, Sturmgeräusche abgespielt und gelegentlich die Kamera verwackelt. Um ihn herum werden Partikel erstellt, die ihn zusätlich stark an der Sicht hindern. Im Gegenzug wird die bereits existierende KI vorrübergehend um 75% in den Skills: 'aimingAccuracy', 'aimingShake', 'aimingSpeed' und 'spotDistance' verschlechtert. Es kann nur ein Sturm gleichzeitig aktiv sein.</German>
         </Key>
-        <Key ID="STR_ttt_effects_snowModule_displayName">
+        <Key ID="STR_ttt_Effects_snowModule_displayName">
             <English>Create Snowfall</English>
             <German>Erzeuge Schneefall</German>
         </Key>
-        <Key ID="STR_ttt_effects_snowModule_intensity_displayName">
+        <Key ID="STR_ttt_Effects_snowModule_intensity_displayName">
             <English>Intensity</English>
             <German>Intensität</German>
         </Key>
-        <Key ID="STR_ttt_effects_snowModule_intensity_tooltip">
+        <Key ID="STR_ttt_Effects_snowModule_intensity_tooltip">
             <English>Intensity of snowfall in percent.</English>
             <German>Intensität des Schneefalls in Prozent.</German>
         </Key>
-        <Key ID="STR_ttt_effects_snowModule_description">
+        <Key ID="STR_ttt_Effects_snowModule_description">
             <English>Snowflakes are created around the player. The function does not make any changes to the weather. However, the effect can't be terminated.</English>
             <German>Um den Spieler herum werden Schneeflocken erstellt. Die Funktion nimmt keine Änderungen am Wetter vor. Der Effekt kann jedoch nicht beendet werden.</German>
         </Key>
-        <Key ID="STR_ttt_effects_condensedBreathModule_displayName">
+        <Key ID="STR_ttt_Effects_condensedBreathModule_displayName">
             <English>Create Exhale Effect</English>
             <German>Erzeuge Ausatemeffekt</German>
         </Key>
-        <Key ID="STR_ttt_effects_condensedBreathModule_description">
+        <Key ID="STR_ttt_Effects_condensedBreathModule_description">
             <English>An effect is created in front of the players' mouths (not the AI) which imitates moist, exhaled air. However, the effect can't be terminated.</English>
             <German>Vor den Mündern der Spieler (nicht der KI) entstehet ein Effekt, welcher feuchte, ausatmende Luft immitiert. Der Effekt kann jedoch nicht beendet werden.</German>
         </Key>
-        <Key ID="STR_ttt_effects_category_effects">
+        <Key ID="STR_ttt_Effects_category_effects">
             <English>Effects</English>
             <German>Effekte</German>
         </Key>
-        <Key ID="STR_ttt_effects_category_environment">
+        <Key ID="STR_ttt_Effects_category_environment">
             <English>Environment</English>
             <German>Umgebung</German>
         </Key>
