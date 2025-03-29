@@ -24,7 +24,13 @@
 
 if (!isServer || missionNamespace getVariable ["ttt_effects_stormActive", false]) exitWith {};
 
-params [["_durationDuststorm",(300),[42]],["_effectOnObjects",(false),[true]],["_stormType",(0),[42]],["_walk",(true),[true]],["_directionDuststorm",(random 360),[42]]];
+params [
+	["_durationDuststorm", 300, [42]],
+	["_effectOnObjects", false, [true]],
+	["_stormType", 0, [42]],
+	["_walk", true, [true]],
+	["_directionDuststorm", (random 360), [42]]
+];
 
 _durationDuststorm = _durationDuststorm max 60;
 missionNamespace setVariable ["ttt_effects_stormActive", true, false];
@@ -42,6 +48,7 @@ private _allEntities = 8 allObjects 1;
 // edit environment
 10 setFog (0.4 max fog);
 {
+	_x setVariable ["ttt_effects_stormSkillRebalance", true, false];
 	private _aiUnit = _x;
 	{
 		[_aiUnit, [_x, ((_aiUnit skill _x) * 0.25)]] remoteExec ["setSkill", (owner _aiUnit), false];
@@ -57,10 +64,12 @@ private _allEntities = 8 allObjects 1;
 		(10 + (random 10)) setLightnings _environment_lightninglevel;
 		setWind [_environment_windlevel select 0, _environment_windlevel select 1, true];
 		{
-			private _aiUnit = _x;
-			{
-				[_aiUnit, [_x, ((_aiUnit skill _x) / 0.25)]] remoteExec ["setSkill", (owner _aiUnit), false];
-			} forEach ["aimingAccuracy", "aimingShake", "aimingSpeed", "spotDistance"];
+			if (_x getVariable ["ttt_effects_stormSkillRebalance", false]) then {
+				private _aiUnit = _x;
+				{
+					[_aiUnit, [_x, ((_aiUnit skill _x) / 0.25)]] remoteExec ["setSkill", (owner _aiUnit), false];
+				} forEach ["aimingAccuracy", "aimingShake", "aimingSpeed", "spotDistance"];
+			};
 		} forEach (allUnits - allPlayers);
 		missionNamespace setVariable ["ttt_effects_stormActive", false, false];
 	}, 

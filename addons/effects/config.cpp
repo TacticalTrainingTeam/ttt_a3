@@ -3,10 +3,10 @@
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
-        units[] = {};
+        units[] = {QGVAR(initStormModule),QGVAR(snowModule)};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ttt_main"};
+        requiredAddons[] = {"ttt_main", "zen_main"};
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"EinStein"};
         url = ECSTRING(main,URL);
@@ -16,3 +16,4 @@ class CfgPatches {
 
 #include "CfgEventHandlers.hpp"
 #include "CfgSounds.hpp"
+#include "CfgVehicles.hpp"
