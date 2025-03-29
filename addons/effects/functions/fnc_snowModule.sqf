@@ -3,7 +3,7 @@
 * Author: EinStein
 *
 * Description:
-* Calls the stormInit function for module users.
+* Calls the snow function for module users.
 * 
 * Arguments:
 * Arma 3 Module Function Parameters
@@ -22,11 +22,7 @@ params [
 ];
 
 if (_activated) then {
-    private _duration = _logic getVariable [QGVAR(stormModule_duration), 300];
-    private _effect = _logic getVariable [QGVAR(stormModule_effect), false];
-    private _stormType = _logic getVariable [QGVAR(stormModule_stormType), 0];
-    private _walk = _logic getVariable [QGVAR(stormModule_walk), true];
-    private _direction = _logic getVariable [QGVAR(stormModule_direction), 0];
+    private _intensity = _logic getVariable [QGVAR(snowModule_intensity), 50];
 
-    [_duration, _effect, _stormType, _walk, _direction] call ttt_effects_fnc_stormInit;
+    [_intensity] call ttt_effects_fnc_snow;
 };

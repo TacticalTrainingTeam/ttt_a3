@@ -8,7 +8,7 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=73;
+		nextID=78;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5921.0898,30,4823.8423};
-		dir[]={0.015040579,-0.5904215,-0.80697811};
-		up[]={0.011002478,0.80708623,-0.5903278};
-		aside[]={-0.99984187,-1.4381385e-08,-0.018635668};
+		pos[]={5924.5708,30,4833.3086};
+		dir[]={-0.045381315,-0.67009425,-0.74088746};
+		up[]={-0.040968265,0.74227601,-0.66884077};
+		aside[]={-0.99812931,0,0.06113806};
 	};
 };
 binarizationWanted=0;
@@ -1416,78 +1416,26 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={5918.793,5,4767.5039};
+				position[]={5929.3818,5,4807.498};
 			};
-			id=72;
-			type="ttt_effects_initStormModule_Vanilla";
+			id=77;
+			type="ttt_effects_snowModule";
 			class CustomAttributes
 			{
 				class Attribute0
 				{
-					property="ttt_effects_stormType";
-					expression="_this setVariable ['ttt_effects_stormType',_value,true];";
+					property="ttt_effects_snowModule_intensity";
+					expression="_this setVariable ['ttt_effects_snowModule_intensity',_value,true];";
 					class Value
 					{
 						class data
 						{
 							singleType="SCALAR";
-							value=1;
+							value=80;
 						};
 					};
 				};
-				class Attribute1
-				{
-					property="ttt_effects_direction";
-					expression="_this setVariable ['ttt_effects_direction',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=212;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ttt_effects_effect";
-					expression="_this setVariable ['ttt_effects_effect',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ttt_effects_walk";
-					expression="_this setVariable ['ttt_effects_walk',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="ttt_effects_duration";
-					expression="_this setVariable ['ttt_effects_duration',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=501;
-						};
-					};
-				};
-				nAttributes=5;
+				nAttributes=1;
 			};
 		};
 	};
@@ -1504,7 +1452,7 @@ class Mission
 			{
 				linkID=0;
 				item0=66;
-				item1=72;
+				item1=77;
 				class CustomData
 				{
 					type="Sync";
