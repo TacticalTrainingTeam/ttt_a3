@@ -20,7 +20,8 @@ class CfgVehicles {
     class GVAR(initStormModule): Module_F {
         scope = 2;                                                                           // Editor visibility; 2 will show it in the menu, 1 will hide it.
         displayName = CSTRING(stormModule_displayName);                                      // Name displayed in the menu
-        icon = "\a3\Modules_F_Curator\Data\iconSmoke_ca.paa";                                // Map icon. Delete this entry to use the default icon.
+        icon = "\a3\Modules_F_Curator\Data\iconFlare_ca.paa";                                // Map icon. Delete this entry to use the default icon.
+        portrait = "\a3\Modules_F_Curator\Data\portraitWeather_ca.paa";                          
         category = CSTRING(category_environment);
         function = QFUNC(stormInitModule);                                                   // Name of function triggered once conditions are met
         functionPriority = 10;                                                               // Execution priority, modules with lower number are executed first. 0 is used when the attribute is undefined
@@ -85,17 +86,19 @@ class CfgVehicles {
     };
 
     class GVAR(snowModule): GVAR(initStormModule) {
-        displayName = CSTRING(snowModule_displayName);                                       // Name displayed in the menu
-        function = QFUNC(snowModule);                                                        // Name of function triggered once conditions are met
-        isGlobal = 1;                                                                        // 0 for server only execution, 1 for global execution, 2 for persistent global execution
+        displayName = CSTRING(snowModule_displayName);
+        icon = "\a3\Modules_F_Curator\Data\iconFlare_ca.paa";
+        portrait = "\a3\Modules_F_Curator\Data\portraitFlare_ca.paa";
+        function = QFUNC(snowModule);
+        isGlobal = 1;
 
         class Attributes: AttributesBase {
             class GVAR(snowModule_intensity): Edit {
-                property = QGVAR(snowModule_intensity);                                      // Unique property
-                displayName = CSTRING(snowModule_intensity_displayName);                     // Argument label
-                tooltip = CSTRING(snowModule_intensity_tooltip);                             // Tooltip description
-                typeName = "NUMBER";                                                         // Value type, can be "NUMBER", "STRING" or "BOOL"
-                defaultValue = "50";                                                         // Default attribute value. Warning: this is an expression, and its returned value will be used
+                property = QGVAR(snowModule_intensity);
+                displayName = CSTRING(snowModule_intensity_displayName);
+                tooltip = CSTRING(snowModule_intensity_tooltip);
+                typeName = "NUMBER";
+                defaultValue = "50";
             };
 
             class ModuleDescription: ModuleDescription {};
@@ -107,12 +110,14 @@ class CfgVehicles {
     };
 
     class GVAR(condensedBreathModule): GVAR(initStormModule) {
-        displayName = CSTRING(condensedBreathModule_displayName);                            // Name displayed in the menu
+        displayName = CSTRING(condensedBreathModule_displayName);
+        icon = "\a3\Modules_F_Curator\Data\iconFlare_ca.paa";
+        portrait = "\a3\Modules_F_Curator\Data\portraitSmoke_ca.paa";
         category = CSTRING(category_effects);
-        function = QFUNC(condensedBreath);                                                   // Name of function triggered once conditions are met
-        isGlobal = 1;                                                                        // 0 for server only execution, 1 for global execution, 2 for persistent global execution
+        function = QFUNC(condensedBreath);
+        isGlobal = 1;
         
-        class Attributes: AttributesBase {                                                   // otherweise inherited from initStormModule with five attributes
+        class Attributes: AttributesBase {
             class ModuleDescription: ModuleDescription {};
         };
 
