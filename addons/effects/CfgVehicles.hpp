@@ -76,7 +76,7 @@ class CfgVehicles {
                 defaultValue = "0";
             };
 
-            class ModuleDescription : ModuleDescription {};
+            class ModuleDescription: ModuleDescription {};
         };
         
         class ModuleDescription: ModuleDescription {
@@ -98,7 +98,7 @@ class CfgVehicles {
                 defaultValue = "50";                                                         // Default attribute value. Warning: this is an expression, and its returned value will be used
             };
 
-            class ModuleDescription : ModuleDescription {};
+            class ModuleDescription: ModuleDescription {};
         };
         
         class ModuleDescription: ModuleDescription {
@@ -113,7 +113,7 @@ class CfgVehicles {
         isGlobal = 1;                                                                        // 0 for server only execution, 1 for global execution, 2 for persistent global execution
         
         class Attributes: AttributesBase {                                                   // otherweise inherited from initStormModule with five attributes
-            class ModuleDescription : ModuleDescription {};
+            class ModuleDescription: ModuleDescription {};
         };
 
         class ModuleDescription: ModuleDescription {
