@@ -3,7 +3,6 @@ class Box_NATO_AmmoOrd_F;
 
 class GVAR(explosives_crate): Box_NATO_AmmoOrd_F {
     displayName = CSTRING(spreng);
-    editorCategory = "EdCat_Supplies";
     author = ECSTRING(main,TacticalTrainingTeam);
     editorSubcategory = QEGVAR(main,ttt);
     ace_cargo_size = 1;
@@ -23,7 +22,6 @@ class GVAR(explosives_crate): Box_NATO_AmmoOrd_F {
 
 class GVAR(pio_crate): Box_NATO_AmmoOrd_F {
     displayName = CSTRING(pio);
-    editorCategory = "EdCat_Supplies";
     author = ECSTRING(main,TacticalTrainingTeam);
     editorSubcategory = QEGVAR(main,ttt);
     ace_cargo_size = 1;
@@ -54,7 +52,6 @@ class GVAR(pio_crate): Box_NATO_AmmoOrd_F {
 
 class GVAR(eod_crate): Box_NATO_AmmoOrd_F {
     displayName = CSTRING(eod);
-    editorCategory = "EdCat_Supplies";
     author = ECSTRING(main,TacticalTrainingTeam);
     editorSubcategory = QEGVAR(main,ttt);
     ace_cargo_size = 1;
