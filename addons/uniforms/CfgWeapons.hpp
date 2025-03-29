@@ -12,7 +12,7 @@ class CfgWeapons {
         
         class ItemInfo: ItemInfo {
             uniformClass = "ttt_Uniform_Base_US";
-            containerClass = "Supply60";
+            containerClass = "Supply60"; // Supply40
         };
     };
 
@@ -400,12 +400,21 @@ class CfgWeapons {
         };
     };
 
-    class ttt_Uniform_silver_BW_Tropentarn: ttt_Uniform_plain_BW_Flecktarn {
+    class ttt_Uniform_Silver_BW_Tropentarn: ttt_Uniform_plain_BW_Flecktarn {
         displayName = CSTRING(silver_BW_Tropentarn_DisplayName);
         picture = QPATHTOF(data\pictures\ttt_uniform_silver_bw_tropen_ca.paa);
         
         class ItemInfo: ItemInfo {
             uniformClass = "ttt_silver_BW_Tropentarn";
+        };
+    };
+
+    class ttt_Uniform_Platinum_BW_Tropentarn: ttt_Uniform_plain_BW_Flecktarn {
+        displayName = CSTRING(platinum_BW_Tropentarn_DisplayName);
+        picture = QPATHTOF(data\pictures\ttt_uniform_platinum_bw_tropen_ca.paa);
+        
+        class ItemInfo: ItemInfo {
+            uniformClass = "ttt_platinum_BW_Tropentarn";
         };
     };
 

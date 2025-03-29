@@ -47,6 +47,7 @@ class CfgPatches {
             "ttt_Uniform_Gold_BW_Tropentarn",
             "ttt_Uniform_Silver_BW_Tropentarn",
             "ttt_Uniform_Orange_BW_Tropentarn",
+            "ttt_Uniform_Platinum_BW_Tropentarn",
             
             "ttt_Uniform_Yellow_BW_Flecktarn",
             "ttt_Uniform_Green_BW_Flecktarn",
