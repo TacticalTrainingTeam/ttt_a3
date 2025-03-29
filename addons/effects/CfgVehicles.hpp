@@ -106,7 +106,7 @@ class CfgVehicles {
         };
     };
 
-        class GVAR(condensedBreathModule): GVAR(initStormModule) {
+    class GVAR(condensedBreathModule): GVAR(initStormModule) {
         displayName = CSTRING(condensedBreathModule_displayName);                            // Name displayed in the menu
         category = CSTRING(category_effects);
         function = QFUNC(condensedBreath);                                                   // Name of function triggered once conditions are met
