@@ -37,14 +37,13 @@ addons[]=
 	"A3_Supplies_F_Heli_CargoNets",
 	"A3_Air_F_Heli_Heli_Transport_03",
 	"ttt_signs",
-	"A3_Modules_F",
-	"ttt_effects"
+	"A3_Modules_F"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=12;
+		items=11;
 		class Item0
 		{
 			className="A3_Soft_F_Gamma";
@@ -122,13 +121,6 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item11
-		{
-			className="ttt_effects";
-			name="TTT - Effekte";
-			author="Tactical Training Team";
-			url="https://tacticalteam.de";
-		};
 	};
 };
 dlcs[]=
@@ -184,7 +176,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=60;
+		items=59;
 		class Item0
 		{
 			dataType="Object";
@@ -1410,54 +1402,6 @@ class Mission
 			};
 			id=66;
 			type="EmptyDetectorArea10x10";
-		};
-		class Item59
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={5929.3818,5,4807.498};
-			};
-			id=77;
-			type="ttt_effects_snowModule";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ttt_effects_snowModule_intensity";
-					expression="_this setVariable ['ttt_effects_snowModule_intensity',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=80;
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-	};
-	class Connections
-	{
-		class LinkIDProvider
-		{
-			nextID=1;
-		};
-		class Links
-		{
-			items=1;
-			class Item0
-			{
-				linkID=0;
-				item0=66;
-				item1=77;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
 		};
 	};
 };

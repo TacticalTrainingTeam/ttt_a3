@@ -3,7 +3,7 @@
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
-        units[] = {QGVAR(initStormModule),QGVAR(snowModule),QGVAR(condensedBreathModule)};
+        units[] = {QGVAR(initStormModule),QGVAR(condensedBreathModule)};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"ttt_main"};

@@ -85,30 +85,6 @@ class CfgVehicles {
         };
     };
 
-    class GVAR(snowModule): GVAR(initStormModule) {
-        displayName = CSTRING(snowModule_displayName);
-        icon = "\a3\Modules_F_Curator\Data\iconFlare_ca.paa";
-        portrait = "\a3\Modules_F_Curator\Data\portraitFlare_ca.paa";
-        function = QFUNC(snowModule);
-        isGlobal = 1;
-
-        class Attributes: AttributesBase {
-            class GVAR(snowModule_intensity): Edit {
-                property = QGVAR(snowModule_intensity);
-                displayName = CSTRING(snowModule_intensity_displayName);
-                tooltip = CSTRING(snowModule_intensity_tooltip);
-                typeName = "NUMBER";
-                defaultValue = "50";
-            };
-
-            class ModuleDescription: ModuleDescription {};
-        };
-        
-        class ModuleDescription: ModuleDescription {
-            description = CSTRING(snowModule_description);
-        };
-    };
-
     class GVAR(condensedBreathModule): GVAR(initStormModule) {
         displayName = CSTRING(condensedBreathModule_displayName);
         icon = "\a3\Modules_F_Curator\Data\iconFlare_ca.paa";

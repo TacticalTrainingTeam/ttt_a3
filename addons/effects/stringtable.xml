@@ -57,22 +57,6 @@
             <English>The player's view is restricted, storm noises are played and the camera occasionally shakes. Particles are created around the player, which further restrict their view. In return, the already existing AI is temporarily degraded by 75% in the skills: 'aimingAccuracy', 'aimingShake', 'aimingSpeed' and 'spotDistance'. Only one storm can be active at a time.</English>
             <German>Dem Spieler wird die Sicht eingeschränkt, Sturmgeräusche abgespielt und gelegentlich die Kamera verwackelt. Um ihn herum werden Partikel erstellt, die ihn zusätlich stark an der Sicht hindern. Im Gegenzug wird die bereits existierende KI vorrübergehend um 75% in den Skills: 'aimingAccuracy', 'aimingShake', 'aimingSpeed' und 'spotDistance' verschlechtert. Es kann nur ein Sturm gleichzeitig aktiv sein.</German>
         </Key>
-        <Key ID="STR_ttt_Effects_snowModule_displayName">
-            <English>Create Snowfall</English>
-            <German>Erzeuge Schneefall</German>
-        </Key>
-        <Key ID="STR_ttt_Effects_snowModule_intensity_displayName">
-            <English>Intensity</English>
-            <German>Intensität</German>
-        </Key>
-        <Key ID="STR_ttt_Effects_snowModule_intensity_tooltip">
-            <English>Intensity of snowfall in percent.</English>
-            <German>Intensität des Schneefalls in Prozent.</German>
-        </Key>
-        <Key ID="STR_ttt_Effects_snowModule_description">
-            <English>Snowflakes are created around the player. The function does not make any changes to the weather. However, the effect can't be terminated.</English>
-            <German>Um den Spieler herum werden Schneeflocken erstellt. Die Funktion nimmt keine Änderungen am Wetter vor. Der Effekt kann jedoch nicht beendet werden.</German>
-        </Key>
         <Key ID="STR_ttt_Effects_condensedBreathModule_displayName">
             <English>Create Exhale Effect</English>
             <German>Erzeuge Ausatemeffekt</German>

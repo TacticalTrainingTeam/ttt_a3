@@ -19,24 +19,6 @@
     [[], ttt_effects_fnc_condensedBreath] remoteExec ["call", ([0, -2] select isDedicated), true];
 }, "\a3\Modules_F_Curator\Data\portraitSmoke_ca.paa"] call zen_custom_modules_fnc_register;
 
-[CSTRING(category_environment), CSTRING(snowModule_displayName), {
-    [
-        CSTRING(snowModule_displayName),
-        [
-            [
-                "SLIDER",
-                [CSTRING(snowModule_intensity_displayName), CSTRING(snowModule_intensity_tooltip)],
-                [0, 100, 50, 0, [0, 0, 0], [0, 0, 0, 0]]
-            ]
-        ],
-        {
-            params ["_returnValues", "_functionArguments"];
-            _returnValues params ["_intensity"];
-            [[_intensity], ttt_effects_fnc_snow] remoteExec ["call", ([0, -2] select isDedicated), true];
-        }
-    ] call zen_dialog_fnc_create;
-}, "\a3\Modules_F_Curator\Data\portraitFlare_ca.paa"] call zen_custom_modules_fnc_register;
-
 [CSTRING(category_environment), CSTRING(stormModule_displayName), {
     [
         CSTRING(stormModule_displayName),
