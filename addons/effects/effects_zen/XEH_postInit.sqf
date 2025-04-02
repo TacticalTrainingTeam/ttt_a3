@@ -1,6 +1,5 @@
 #include "script_component.hpp"
 
-
 if (!hasInterface) exitWith {};
 
-[] call FUNC(zenRegister);
+[] call EFUNC(effects,zenRegister);
