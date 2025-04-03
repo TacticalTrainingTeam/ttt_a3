@@ -1,5 +1,5 @@
 class ACEX_Fortify_Presets {
-    class TTT_ohk {
+    class TTT_OHK {
         displayName = "TTT - OHK";
         objects[] = {
             {"EFM_wood_wall_2m_single_filled", 5},
@@ -10,7 +10,7 @@ class ACEX_Fortify_Presets {
         };
     };
 
-    class TTT_fob {
+    class TTT_FOB {
         displayName = "TTT - FOB";
         objects[] = {
             {"Land_MedicalTent_01_NATO_generic_outer_F", 5},
