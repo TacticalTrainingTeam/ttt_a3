@@ -25,3 +25,4 @@ class CfgPatches {
 #include "CfgFactionsClasses.hpp"
 #include "Dialog.hpp"
 #include "CfgVehicles.hpp"
+#include "configs\ACE_Fortify.hpp"

@@ -5,7 +5,8 @@ class ACEX_Fortify_Presets {
             {"EFM_wood_wall_2m_single_filled", 5},
             {"Land_BagFence_Short_F", 2},
             {"Land_Net_Fence_4m_F", 5},
-            {"Land_Plank_01_4m_F", 1}
+            {"Land_Plank_01_4m_F", 1},
+            {"Land_Razorwire_F", 2}
         };
     };
 
