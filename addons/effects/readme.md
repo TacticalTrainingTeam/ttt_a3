@@ -20,23 +20,7 @@ None
   
 Return Value:  
 **breathParticle:** OBJECT - Partikelgenarator (wird dieser gelöscht, endet der Effekt)  
-  
-### Schneefall
-  
-Um den Spieler herum werden Schneeflocken erstellt. Die Intensität des Schneefalls ist einstellbar; der Effekt kann jedoch nicht mehr beendet werden.  
-Die Funktion nimmt keine Änderungen am Wetter vor und muss lokal von jedem Spieler ausgeführt werden.  
-Dazu bietet sich neben dem 3DEN-Editor-Modul die initPlayerLocal.sqf an:  
-  
-```c++
-[intensity] call ttt_effects_fnc_snow;
-```
-  
-Arguments:  
-**intensity:** INTEGER (optional, default: 50) - Intensität des Schneefalls in Prozent  
-  
-Return Value:  
-**snowParticle:** OBJECT - Partikelgenarator (wird dieser gelöscht, endet der Effekt)  
-  
+
 ### Sturm
 
 Dem Spieler wird die Sicht eingeschränkt, Sturmgeräusche abgespielt und gelegentlich die Kamera verwackelt. Um ihn herum werden Partikel erstellt, die ihn zusätzlich stark an der Sicht hindern.  
