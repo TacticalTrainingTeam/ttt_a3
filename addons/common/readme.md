@@ -84,6 +84,21 @@ Stellt TTT-Bilder anderen Addons zur Verfügung.
 
 Fügt ein paar generische Einheiten (ohne eigenes Loadout), als Hilfe für einheiten-basierte Loadoutsystem wie z.B. Poppy, hinzu.
 
+### ACE-Fortify Presets
+
+Definiert Presets für ACE Fortify, die in spontanen Missionen und Trainings genutzt werden können:
+
+Benutztung:
+
+1. `ACE_Fortify` an Spieler ausgeben
+2. als Admin im Chat `#ace-fortify blufor presetname` eingeben, `presetname` durch eins der unten angegebenen ersetzen.
+
+Folgendes Prests stehen zur Verfügung:
+
+- `TTT_OHK` für das Befestigen einzelner Gebäude im OHK
+- `TTT_FOB` für das Errichten einer FOB oder eines Checkpoint
+- `TTT_GM` enthält Assets auf dem GM DLC, nicht speziell für ein bestimmtes Szenario gedacht
+
 ### Kisten
 
 Fügt einige TTT-spezifische Kisten hinzu. Alle Kisten sind ein (1) ACE-Cargo groß.
@@ -106,6 +121,12 @@ Fügt folgende Pionierkisten hinzu:
 - EOD-Kiste `ttt_common_eod_crate`
 - EOD-Kiste mit UGV (ED-1D) `ttt_common_eod_ugv_crate`
 
+Inhalt ist im [Wiki spezielle Kisten](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#spezielle-kisten) definiert.
+
+#### Spezialkisten
+
+- Drohnenkiste (UAV) `ttt_common_uav_crate`
+- Markierkiste (Mark) `ttt_common_mark_crate`
 Inhalt ist im [Wiki spezielle Kisten](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#spezielle-kisten) definiert.
 
 ## Maintainer

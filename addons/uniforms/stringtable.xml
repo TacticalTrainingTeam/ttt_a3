@@ -121,6 +121,10 @@
             <English>TTT Uniform Platinum (Pilot)</English>
             <German>TTT Uniform Platin (Pilot)</German>
         </Key>
+        <Key ID="STR_ttt_Uniforms_platinum_bw_tropentarn_DisplayName">
+            <English>TTT Uniform Platinum (BW Tropentarn)</English>
+            <German>TTT Uniform Platin (BW Tropentarn)</German>
+        </Key>
         <Key ID="STR_ttt_Uniforms_red_BW_Flecktarn_DisplayName">
             <English>TTT Uniform Red (BW Flecktarn)</English>
             <German>TTT Uniform Rot (BW Flecktarn)</German>

@@ -20,7 +20,9 @@ class CfgPatches {
             "ttt_common_explosives_crate",
             "ttt_common_pio_crate",
             "ttt_common_eod_crate",
-            "ttt_common_eod_ugv_crate"
+            "ttt_common_eod_ugv_crate",
+            "ttt_common_uav_crate",
+            "ttt_common_mark_crate"
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
@@ -36,3 +38,4 @@ class CfgPatches {
 #include "CfgFactionsClasses.hpp"
 #include "Dialog.hpp"
 #include "CfgVehicles.hpp"
+#include "configs\ACE_Fortify.hpp"
