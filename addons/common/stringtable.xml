@@ -57,5 +57,13 @@
             <English>TTT Medical Crate (VBT)</English>
             <German>TTT Sanitätskiste (VBT)</German>
         </Key>
+        <Key ID="STR_ttt_Common_uav">
+            <English>TTT UAV Crate (UAV)</English>
+            <German>TTT Drohenkiste (UAV)</German>
+        </Key>
+        <Key ID="STR_ttt_Common_marker">
+            <English>TTT Markings Crate (Mark)</English>
+            <German>TTT Markier Kiste (Mark)</German>
+        </Key>
     </Package>
 </Project>
