@@ -8,7 +8,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"ttt_common, itc_land_common"};
         author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {""};
+        authors[] = {"Addi", "Andx"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
         skipWhenMissingDependencies = 1; // Skip this addon if the required addons are not present

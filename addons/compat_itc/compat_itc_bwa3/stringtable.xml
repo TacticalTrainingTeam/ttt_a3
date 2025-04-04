@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Compat_Itc_Bwa3">
+        <Key ID="STR_ttt_Compat_Itc_Bwa3_Panzerhaubitze2000Name1">
+            <English>ITC Panzerhaubitze 2000 (Fleck)</English>
+            <German>ITC Panzerhaubitze 2000 (Fleck)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Itc_Bwa3_Panzerhaubitze2000Name2">
+            <English>ITC Panzerhaubitze 2000 (Tropen)</English>
+            <German>ITC Panzerhaubitze 2000 (Tropen)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Itc_Bwa3_AmmoHandling">
+            <English>Open Ammo Handling Interface</English>
+            <German>Munitions Interface</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Itc_Bwa3_MountetTablet">
+            <English>Open Mounted Tablet</English>
+            <German>Feuerleitrechner</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Itc_Bwa3_Panzerhaubitze2000">
+            <English>PzH2000 - 155mmm Howitzer</English>
+            <German>PzH2000 - 155mmm Haubitze</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Itc_Bwa3_RH155_52">
+            <English>RH-155 L/52</English>
+            <German>RH-155 L/52</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Itc_Bwa3_DM121_Name">
+            <English>DM121 HE-Shell</English>
+            <German>DM121 HE-Granate</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Itc_Bwa3_DM121_ShortName">
+            <English>DM121 (HE)</English>
+            <German>DM121 (HE)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Itc_Bwa3_DM125_Name">
+            <English>DM125 Smoke-Shell</English>
+            <German>DM125 Rauch-Granate</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Itc_Bwa3_DM125_ShortName">
+            <English>DM125 (Smoke)</English>
+            <German>DM125 (Rauch)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Itc_Bwa3_M718_Name">
+            <English>M718 Mine-AT</English>
+            <German>M718 Mine-AT</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Itc_Bwa3_M718_ShortName">
+            <English>M718 (M-AT)</English>
+            <German>M718 (M-AT)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Itc_Bwa3_DM702_lgm_Name">
+            <English>DM702 SMArt-Shell Laser Guided</English>
+            <German>DM702 SMArt-Granate Laser gelenkt</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Itc_Bwa3_DM702_lgm_ShortName">
+            <English>DM702 (SMArt Laser)</English>
+            <German>DM702 (SMArt Laser)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Itc_Bwa3_DM702_pgm_Name">
+            <English>DM702 SMArt-Shell GPS Guided</English>
+            <German>DM702 SMArt-Granate GPS gelenkt</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Itc_Bwa3_DM702_pgm_ShortName">
+            <English>DM702 (SMArt GPS)</English>
+            <German>DM702 (SMArt GPS)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Itc_Bwa3_DM106_Name">
+            <English>DM106 Illum-Shell</English>
+            <German>DM106 Leucht-Granate</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Itc_Bwa3_DM106_ShortName">
+            <English>DM106 (Illum)</English>
+            <German>DM106 (Leucht)</German>
+        </Key>  
+    </Package>
+</Project>
