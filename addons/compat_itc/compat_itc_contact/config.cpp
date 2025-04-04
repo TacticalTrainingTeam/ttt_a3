@@ -6,7 +6,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"a3_contact"};
+        requiredAddons[] = {"A3_Characters_F_Enoch"};
         VERSION_CONFIG;
 
         skipWhenMissingDependencies = 1; // Skip this addon if the required addons are not present
