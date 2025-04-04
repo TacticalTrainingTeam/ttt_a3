@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Effects">
+        <Key ID="STR_ttt_Effects_category_effects">
+            <English>Effects</English>
+            <German>Effekte</German>
+        </Key>
+        <Key ID="STR_ttt_Effects_category_environment">
+            <English>Environment</English>
+            <German>Umgebung</German>
+        </Key>
+        <Key ID="STR_ttt_Effects_condensedBreathModule_description">
+            <English>An effect is created in front of the players' mouths (not the AI) which imitates moist, exhaled air. However, the effect can't be terminated.</English>
+            <German>Vor den Mündern der Spieler (nicht der KI) entstehet ein Effekt, welcher feuchte, ausatmende Luft immitiert. Der Effekt kann jedoch nicht beendet werden.</German>
+        </Key>
+        <Key ID="STR_ttt_Effects_condensedBreathModule_displayName">
+            <English>Create Exhale Effect</English>
+            <German>Erzeuge Ausatemeffekt</German>
+        </Key>
+        <Key ID="STR_ttt_Effects_stormModule_description">
+            <English>The player's view is restricted, storm noises are played and the camera occasionally shakes. Particles are created around the player, which further restrict their view. In return, the already existing AI is temporarily degraded by 75% in the skills: 'aimingAccuracy', 'aimingShake', 'aimingSpeed' and 'spotDistance'. Only one storm can be active at a time.</English>
+            <German>Dem Spieler wird die Sicht eingeschränkt, Sturmgeräusche abgespielt und gelegentlich die Kamera verwackelt. Um ihn herum werden Partikel erstellt, die ihn zusätlich stark an der Sicht hindern. Im Gegenzug wird die bereits existierende KI vorrübergehend um 75% in den Skills: 'aimingAccuracy', 'aimingShake', 'aimingSpeed' und 'spotDistance' verschlechtert. Es kann nur ein Sturm gleichzeitig aktiv sein.</German>
+        </Key>
+        <Key ID="STR_ttt_Effects_stormModule_direction_displayName">
+            <English>Wind Direction</English>
+            <German>Windrichtung</German>
+        </Key>
+        <Key ID="STR_ttt_Effects_stormModule_direction_tooltip">
+            <English>Wind direction in degrees.</English>
+            <German>Windrichtung in Grad.</German>
+        </Key>
         <Key ID="STR_ttt_Effects_stormModule_displayName">
             <English>Create Storm</English>
             <German>Erstelle Sturm</German>
@@ -25,10 +53,6 @@
             <English>Stormtype</English>
             <German>Sturmtyp</German>
         </Key>
-        <Key ID="STR_ttt_Effects_stormModule_stormType_tooltip">
-            <English></English>
-            <German></German>
-        </Key>
         <Key ID="STR_ttt_Effects_stormModule_stormType_sandstorm">
             <English>Sandstorm</English>
             <German>Sandsturm</German>
@@ -37,41 +61,17 @@
             <English>Snowstorm</English>
             <German>Schneesturm</German>
         </Key>
+        <Key ID="STR_ttt_Effects_stormModule_stormType_tooltip">
+            <English></English>
+            <German></German>
+        </Key>
         <Key ID="STR_ttt_Effects_stormModule_walk_displayName">
-            <English>Limit movement speed </English>
+            <English>Limit movement speed</English>
             <German>Bewegungsgeschwindigkeit begrenzen</German>
         </Key>
         <Key ID="STR_ttt_Effects_stormModule_walk_tooltip">
             <English>An infantryman can only move at “walking” speed. (Recommended)</English>
             <German>Ein Infanterist kann sich nur noch im Tempo "Gehen" fortbewegen. (Empfohlen)</German>
-        </Key>
-        <Key ID="STR_ttt_Effects_stormModule_direction_displayName">
-            <English>Wind Direction</English>
-            <German>Windrichtung</German>
-        </Key>
-        <Key ID="STR_ttt_Effects_stormModule_direction_tooltip">
-            <English>Wind direction in degrees.</English>
-            <German>Windrichtung in Grad.</German>
-        </Key>
-        <Key ID="STR_ttt_Effects_stormModule_description">
-            <English>The player's view is restricted, storm noises are played and the camera occasionally shakes. Particles are created around the player, which further restrict their view. In return, the already existing AI is temporarily degraded by 75% in the skills: 'aimingAccuracy', 'aimingShake', 'aimingSpeed' and 'spotDistance'. Only one storm can be active at a time.</English>
-            <German>Dem Spieler wird die Sicht eingeschränkt, Sturmgeräusche abgespielt und gelegentlich die Kamera verwackelt. Um ihn herum werden Partikel erstellt, die ihn zusätlich stark an der Sicht hindern. Im Gegenzug wird die bereits existierende KI vorrübergehend um 75% in den Skills: 'aimingAccuracy', 'aimingShake', 'aimingSpeed' und 'spotDistance' verschlechtert. Es kann nur ein Sturm gleichzeitig aktiv sein.</German>
-        </Key>
-        <Key ID="STR_ttt_Effects_condensedBreathModule_displayName">
-            <English>Create Exhale Effect</English>
-            <German>Erzeuge Ausatemeffekt</German>
-        </Key>
-        <Key ID="STR_ttt_Effects_condensedBreathModule_description">
-            <English>An effect is created in front of the players' mouths (not the AI) which imitates moist, exhaled air. However, the effect can't be terminated.</English>
-            <German>Vor den Mündern der Spieler (nicht der KI) entstehet ein Effekt, welcher feuchte, ausatmende Luft immitiert. Der Effekt kann jedoch nicht beendet werden.</German>
-        </Key>
-        <Key ID="STR_ttt_Effects_category_effects">
-            <English>Effects</English>
-            <German>Effekte</German>
-        </Key>
-        <Key ID="STR_ttt_Effects_category_environment">
-            <English>Environment</English>
-            <German>Umgebung</German>
         </Key>
     </Package>
 </Project>
