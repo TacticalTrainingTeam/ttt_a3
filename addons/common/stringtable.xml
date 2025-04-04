@@ -15,11 +15,11 @@
         </Key>
         <Key ID="STR_ttt_Common_CO">
             <English>Commanding Officer</English>
-            <German>Kompanie Chef</German>
+            <German>Kompaniechef</German>
         </Key>
         <Key ID="STR_ttt_Common_CrewTL">
             <English>Crew Commander</English>
-            <German>Fahrzeug Kommandant</German>
+            <German>Fahrzeugkommandant</German>
         </Key>
         <Key ID="STR_ttt_Common_Doc">
             <English>Doctor</English>
@@ -47,7 +47,7 @@
         </Key>
         <Key ID="STR_ttt_Common_LogTL">
             <English>Logistics Team Leader</English>
-            <German>Logistik Trupp Führer</German>
+            <German>Logistik Truppführer</German>
         </Key>
         <Key ID="STR_ttt_Common_RackA">
             <English>Radio Circuit A</English>
@@ -79,7 +79,7 @@
         </Key>
         <Key ID="STR_ttt_Common_XO">
             <English>Executive Officer</English>
-            <German>Kompanieeinsatz Offizier</German>
+            <German>Kompanieeinsatzoffizier</German>
         </Key>
         <Key ID="STR_ttt_Common_eod">
             <English>TTT EOD Crate (EOD)</English>
@@ -91,7 +91,7 @@
         </Key>
         <Key ID="STR_ttt_Common_marker">
             <English>TTT Markings Crate (Mark)</English>
-            <German>TTT Markier Kiste (Mark)</German>
+            <German>TTT Markierungskiste (Mark)</German>
         </Key>
         <Key ID="STR_ttt_Common_pio">
             <English>TTT Combat Engineer Crate (Pio)</English>
