@@ -18,6 +18,9 @@
 */
 
 if (isServer && isDedicated && !hasInterface) exitWith {};
+if (player getVariable ["ttt_effects_condensedBreathActive", false]) exitWith {};
+
+player setVariable ["ttt_effects_condensedBreathActive", true, false];
 
 private _breathParticle = "#particlesource" createVehicle  (player modelToWorld [0,0,0]);
 _breathParticle setParticleParams [
