@@ -26,12 +26,9 @@ class ACEX_Fortify_Presets {
         objects[] = {
             {"Land_MedicalTent_01_NATO_generic_outer_F", 5},
             {"Land_Cargo_Patrol_V1_F", 10},
-            {"Land_Cargo_House_V1_F", 15},
             {"CamoNet_BLUFOR_open_F", 2},
-            {"CamoNet_BLUFOR_big_F", 3},
             {"Land_PortableLight_single_F", 1},
             {"Land_HelipadCircle_F", 10},
-            {"Land_HelipadRescue_F", 12},
             {"PortableHelipadLight_01_blue_F", 5},
             {"PortableHelipadLight_01_green_F", 5},
             {"Land_BagFence_Long_F", 2},
@@ -39,9 +36,9 @@ class ACEX_Fortify_Presets {
             {"Land_BagBunker_Large_F", 10},
             {"Land_BagBunker_Tower_F", 15},
             {"Land_HBarrierWall4_F", 5},
-            {"Land_HBarrierTower_F", 20},
             {"Land_Razorwire_F", 2},
-            {"Land_ClutterCutter_large_F", 1}
+            {"Land_ClutterCutter_large_F", 1},
+            {"Land_CzechHedgehog_01_old_F", 2}
         };
     };
 };
