@@ -80,6 +80,21 @@ Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=72
 
 Stellt TTT-Bilder anderen Addons zur Verfügung.
 
+### ACE-Fortify Presets
+
+Definiert Presets für ACE Fortify, die in spontanen Missionen und Trainings genutzt werden können:
+
+Benutztung:
+
+1. `ACE_Fortify` an Spieler ausgeben
+2. als Admin im Chat `#ace-fortify blufor presetname` eingeben, `presetname` durch eins der unten angegebenen ersetzen.
+
+Folgendes Prests stehen zur Verfügung:
+
+- `TTT_OHK` für das Befestigen einzelner Gebäude im OHK
+- `TTT_FOB` für das Errichten einer FOB oder eines Checkpoint
+- `TTT_GM` enthält Assets auf dem GM DLC, nicht speziell für ein bestimmtes Szenario gedacht
+
 ### Kisten
 
 Fügt einige TTT-spezifische Kisten hinzu. Alle Kisten sind ein (1) ACE-Cargo groß.
