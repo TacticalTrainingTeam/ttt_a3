@@ -134,6 +134,12 @@ dlc = [
     "Global Mobilization - Cold War Germany"
 ]
 
+[csla]
+extends = "default"
+dlc = [
+    "CSLA Iron Curtain"
+]   
+
 [server]
 extends = "default"
 parameters = [
