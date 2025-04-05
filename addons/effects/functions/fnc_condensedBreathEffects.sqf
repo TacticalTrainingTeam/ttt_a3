@@ -3,7 +3,7 @@
 * Author: EinStein
 *
 * Description:
-* Creates condensed breath particels locally.
+* Creates condensed breath particles locally.
 * 
 * Arguments:
 * 0: <OBJECT>   unit to attach effect to
