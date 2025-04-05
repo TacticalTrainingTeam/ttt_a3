@@ -29,7 +29,7 @@ if (_walk) then {player forceWalk true;};
 
 private _corlorCorrectionType = [
 	[[0.78, 1, 0.01, [-0.14, 0.17, 0.33, -0.14], [0.86, -0.4, 0.86, 0.86], [-0.57, 0.86, -1.2, 0.86]], [0.40,0.35,0.25, 0.35], [0.40,0.35,0.25, 0]],	//sand
-	[[0.80, 1, 0.01, [-0.14, 0.17, 0.33, -0.14], [1.15, 1.11, 1.12, 1.15], [-0.57, 0.86, -1.2, 0.86]], [0.80,0.80,0.80, 0.25], [0.70,0.70,0.70, 0]]		//snow
+	[[1.25, 0.9, 0.0, [0.25, 0.35, 0.5, 0.0], [1.05, 1.05, 1.1, 1.0], [0.35, 0.5, 0.75, 0.4]], [0.80,0.80,0.80, 0.25], [0.70,0.70,0.70, 0]]		//snow
 ] select _stormType;
 
 // add grain, blur and colorfilter for immersive FOV
@@ -37,11 +37,11 @@ private _corlorCorrectionType = [
 "colorCorrections" ppEffectCommit 5;
 "colorCorrections" ppEffectEnable true;
 screenEffectOne = ppEffectCreate ["DynamicBlur", 500];
-screenEffectOne ppEffectAdjust [0.15];
+screenEffectOne ppEffectAdjust [0.25];
 screenEffectOne ppEffectCommit 8;
 screenEffectOne ppEffectEnable true;
 screenEffectTwo = ppEffectCreate ["FilmGrain", 2000];
-screenEffectTwo ppEffectAdjust [0.6, 2, 4, 0.1, 0.1, true];
+screenEffectTwo ppEffectAdjust [0.7, 2, 4, 0.1, 0.1, true];
 screenEffectTwo ppEffectCommit 10;
 screenEffectTwo ppEffectEnable true;
 
@@ -74,7 +74,7 @@ private _particleThree = "#particlesource" createVehicleLocal (player modelToWor
 		(_this select 0) params ["_end"];
 		if (time >= (_end - 15)) exitWith {};
 		_wind = playSound (selectRandom ["wind_1","wind_2","wind_3","wind_4","wind_5"]);
-		if (selectRandomWeighted [true, 40, false, 60]) then {addCamShake [0.25, 20, 20];};		// random camshake
+		if (selectRandomWeighted [true, 40, false, 60]) then {addCamShake [0.35, 20, 25];};		// random camshake
 	}, 
 	11.2,																						//duration of all files is 11.1198 seconds
 	[_endTime]
