@@ -3,7 +3,7 @@
 workshop = [
     "463939057", # ACE3
     "450814997", # CBA_A3
-    "751965892", # ACRE
+    #"751965892", # ACRE
     "2369477168", # Advanced Developer Tools
     "3023395342", # 3DEN Attributes Fast Load
     "1779063631", # ZEN
@@ -96,6 +96,49 @@ extends = "default"
 workshop = [
     "1638341685", # DUI Squad Radar
 ]
+
+# cDLCs
+[spe]
+extends = "default"
+dlc = [
+    "Spearhead 1944"
+]
+
+[vn]
+extends = "default"
+dlc = [
+    "S.O.G. Prairie Fire",
+]
+
+[ws]
+extends = "default"
+dlc = [
+    "Western Sahara",
+]
+
+[rf]
+extends = "default"
+dlc = [
+    "Reaction Forces"
+]
+
+[ef]
+extends = "default"
+dlc = [
+    "Expeditionary Forces"
+]
+
+[gm]
+extends = "default"
+dlc = [
+    "Global Mobilization - Cold War Germany"
+]
+
+[csla]
+extends = "default"
+dlc = [
+    "CSLA Iron Curtain"
+]   
 
 [server]
 extends = "default"
