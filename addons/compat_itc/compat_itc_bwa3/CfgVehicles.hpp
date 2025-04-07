@@ -28,17 +28,17 @@ class CfgVehicles {
         };
     };
     class itc_land_bwa3_pzh2000: BWA3_Panzerhaubitze2000_Fleck {
-        displayname = CSTRING(Panzerhaubitze2000Name1);
+        displayname = SUBCSTRING(Panzerhaubitze2000Name1);
         scopeCurator = 2;
         class ACE_SelfActions: ACE_SelfActions {
             class ITC_Land_SPHammohandler {
-                displayName = CSTRING(AmmoHandling);
+                displayName = SUBCSTRING(AmmoHandling);
                 icon = "\itc_land_tablet\UI\tableticon256.paa";
                 condition = "( gunner _target ) == ACE_Player";
                 statement = "createDialog 'ITC_Land_SPHammohandler'";
             };
             class ITC_Land_CommanderTablet {
-                displayName = CSTRING(MountetTablet);
+                displayName = SUBCSTRING(MountetTablet);
                 icon = "\itc_land_tablet\UI\arty-icon.paa";
                 condition = "([_target] call itc_land_tablet_fnc_vehicleHasTablet) && (( commander _target ) == ACE_Player)";
                 statement = "[_target] call itc_land_tablet_fnc_openVehicleTablet";
@@ -80,17 +80,17 @@ class CfgVehicles {
         };
     };
     class itc_land_bwa3_pzh2000d: BWA3_Panzerhaubitze2000_Tropen {
-        displayname = CSTRING(Panzerhaubitze2000Name2);
+        displayname = SUBCSTRING(Panzerhaubitze2000Name2);
         scopeCurator = 2;
         class ACE_SelfActions: ACE_SelfActions {
             class ITC_Land_SPHammohandler {
-                displayName = CSTRING(AmmoHandling);
+                displayName = SUBCSTRING(AmmoHandling);
                 icon = "\itc_land_tablet\UI\tableticon256.paa";
                 condition = "( gunner _target ) == ACE_Player";
                 statement = "createDialog 'ITC_Land_SPHammohandler'";
             };
             class ITC_Land_CommanderTablet {
-                displayName = CSTRING(MountetTablet);
+                displayName = SUBCSTRING(MountetTablet);
                 icon = "\itc_land_tablet\UI\arty-icon.paa";
                 condition = "([_target] call itc_land_tablet_fnc_vehicleHasTablet) && (( commander _target ) == ACE_Player)";
                 statement = "[_target] call itc_land_tablet_fnc_openVehicleTablet";

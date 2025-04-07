@@ -2,9 +2,9 @@ class CfgMagazines {
     class itc_land_g155hex;
     class itc_land_pzh2000hex: itc_land_g155hex {
         author = "Toadball";
-        displayName = CSTRING(DM121_Name);
+        displayName = SUBCSTRING(DM121_Name);
         ammo = "itc_land_155mm";
-        displayNameShort = CSTRING(DM121_ShortName);
+        displayNameShort = SUBCSTRING(DM121_ShortName);
         itc_land_charge_format = "itc_land_pzh2000hex_chg%1";
         itc_land_btabListFile = "itc_land_bwa3_pzh2000\ballistics\tables\pzh2000\list.sqf";
     };
@@ -17,8 +17,8 @@ class CfgMagazines {
     class itc_land_g155smo;
     class itc_land_pzh2000smo: itc_land_g155smo {
         author = "Toadball";
-        displayName = CSTRING(DM125_Name);
-        displayNameShort = CSTRING(DM125_ShortName);
+        displayName = SUBCSTRING(DM125_Name);
+        displayNameShort = SUBCSTRING(DM125_ShortName);
         itc_land_charge_format = "itc_land_pzh2000smo_chg%1";
         itc_land_timeModifier = -1.5;
         itc_land_btabListFile = "itc_land_bwa3_pzh2000\ballistics\tables\pzh2000\list.sqf";
@@ -32,8 +32,8 @@ class CfgMagazines {
     class itc_land_g155mat;
     class itc_land_pzh2000mat: itc_land_g155mat {
         author = "Toadball";
-        displayName = CSTRING(M718_Name);
-        displayNameShort = CSTRING(M718_ShortName);
+        displayName = SUBCSTRING(M718_Name);
+        displayNameShort = SUBCSTRING(M718_ShortName);
         itc_land_charge_format = "itc_land_pzh2000mat_chg%1";
         itc_land_timeModifier = -1.2;
         itc_land_btabListFile = "itc_land_bwa3_pzh2000\ballistics\tables\pzh2000\list.sqf";
@@ -47,8 +47,8 @@ class CfgMagazines {
     class itc_land_g155pgm;
     class itc_land_pzh2000pgm: itc_land_g155pgm {
         author = "Toadball";
-        displayName = CSTRING(DM702_pgm_Name);
-        displayNameShort = CSTRING(DM702_pgm_ShortName);
+        displayName = SUBCSTRING(DM702_pgm_Name);
+        displayNameShort = SUBCSTRING(DM702_pgm_ShortName);
         itc_land_charge_format = "itc_land_pzh2000pgm_chg%1";
         itc_land_btabListFile = "itc_land_bwa3_pzh2000\ballistics\tables\pzh2000\list.sqf";
     };
@@ -61,8 +61,8 @@ class CfgMagazines {
     class itc_land_g155lgm;
     class itc_land_pzh2000lgm: itc_land_g155lgm {
         author = "Toadball";
-        displayName = CSTRING(DM702_lgm_Name);
-        displayNameShort = CSTRING(DM702_lgm_ShortName);
+        displayName = SUBCSTRING(DM702_lgm_Name);
+        displayNameShort = SUBCSTRING(DM702_lgm_ShortName);
         itc_land_charge_format = "itc_land_pzh2000lgm_chg%1";
         itc_land_btabListFile = "itc_land_bwa3_pzh2000\ballistics\tables\pzh2000\list.sqf";
     };
@@ -75,8 +75,8 @@ class CfgMagazines {
     class itc_land_g155ill;
     class itc_land_pzh2000ill: itc_land_g155ill {
         author = "Toadball";
-        displayName = CSTRING(DM106_Name);
-        displayNameShort = CSTRING(DM106_ShortName);
+        displayName = SUBCSTRING(DM106_Name);
+        displayNameShort = SUBCSTRING(DM106_ShortName);
         itc_land_charge_format = "itc_land_pzh2000ill_chg%1";
         itc_land_btabListFile = "itc_land_bwa3_pzh2000\ballistics\tables\pzh2000\list.sqf";
     };
