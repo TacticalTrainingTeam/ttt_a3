@@ -296,7 +296,7 @@ class CfgVehicles {
     };
 
     class Item_U_B_CombatUniform_mcam;
-    class ttt_Item_black_BW_Tropentarn : Item_U_B_CombatUniform_mcam {
+    class ttt_Item_black_BW_Tropentarn: Item_U_B_CombatUniform_mcam {
         displayName = CSTRING(black_BW_Tropentarn_DisplayName);
         author = ECSTRING(main,TacticalTrainingTeam);
 
