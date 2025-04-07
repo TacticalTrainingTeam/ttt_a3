@@ -17,3 +17,12 @@ PREP_RECOMPILE_END;
 
 
 ADDON = true;
+
+// disable the physics collision flag when unconscious
+// originally by Puotek https://steamcommunity.com/sharedfiles/filedetails/?id=3451978697
+if hasInterface then {
+    ["ace_unconscious", {
+        params ["_unit", "_state"];
+        _unit setPhysicsCollisionFlag !_state;
+    }] call CBA_fnc_addEventHandler;
+};
