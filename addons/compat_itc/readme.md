@@ -1,5 +1,0 @@
-# Compat ITC
-
-## Maintainer
-
-- Andx
