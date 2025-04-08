@@ -28,7 +28,7 @@ class CfgVehicles {
         };
     };
     class itc_land_bwa3_pzh2000: BWA3_Panzerhaubitze2000_Fleck {
-        displayname = SUBCSTRING(Panzerhaubitze2000Name1);
+        displayName = SUBCSTRING(Panzerhaubitze2000Name1);
         scopeCurator = 2;
         class ACE_SelfActions: ACE_SelfActions {
             class ITC_Land_SPHammohandler {
@@ -80,7 +80,7 @@ class CfgVehicles {
         };
     };
     class itc_land_bwa3_pzh2000d: BWA3_Panzerhaubitze2000_Tropen {
-        displayname = SUBCSTRING(Panzerhaubitze2000Name2);
+        displayName = SUBCSTRING(Panzerhaubitze2000Name2);
         scopeCurator = 2;
         class ACE_SelfActions: ACE_SelfActions {
             class ITC_Land_SPHammohandler {
