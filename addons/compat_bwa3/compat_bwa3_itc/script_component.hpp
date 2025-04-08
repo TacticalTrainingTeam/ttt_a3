@@ -1,3 +1,3 @@
-#define SUBCOMPONENT bwa3
-#define SUBCOMPONENT_BEAUTIFIED BWA3
+#define SUBCOMPONENT itc
+#define SUBCOMPONENT_BEAUTIFIED ITC
 #include "..\script_component.hpp" 
