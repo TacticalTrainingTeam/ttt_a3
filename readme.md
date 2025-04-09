@@ -9,7 +9,7 @@ Du willst mitmachen? <http://www.tacticalteam.de/mitmachen>
 ## Die Mod bauen
 
 1. Visual Studio Code installieren - <https://code.visualstudio.com> & git installieren <https://git-scm.com/downloads>
-2. das Repo clonen - `git clone https://github.com/TacticalTrainingTeam/ttt_a3.git` in der Kommandozeile ausführen
+2. das Repo klonen - `git clone https://github.com/TacticalTrainingTeam/ttt_a3.git` in der Kommandozeile ausführen
     - vorgeschlagene Extensions in Visual Studio Code installieren
 3. Arma 3 Tools über Steam installieren und einmal starten
 4. `hemtt` installieren - dazu `winget install hemtt` in der Kommandozeile ausführen
