@@ -129,6 +129,10 @@ Inhalt ist im [Wiki spezielle Kisten](https://wiki.tacticalteam.de/de/Missionsba
 - Markierkiste (Mark) `ttt_common_mark_crate`
 Inhalt ist im [Wiki spezielle Kisten](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#spezielle-kisten) definiert.
 
+## Bewusstlose haben keine Kollision
+
+Bewusstlose haben keine Kollision mit Spielern - vergleichbar mit <https://steamcommunity.com/sharedfiles/filedetails/?id=3450571478>
+
 ## Maintainer
 
 - Andx
