@@ -113,5 +113,9 @@
             <English>TTT Medical Crate (VBT)</English>
             <German>TTT Sanitätskiste (VBT)</German>
         </Key>
+        <Key ID="STR_ttt_Common_paradrop">
+            <English>TTT Paradrop Crate</English>
+            <German>TTT Fallschirmkiste</German>
+        </Key>
     </Package>
 </Project>
