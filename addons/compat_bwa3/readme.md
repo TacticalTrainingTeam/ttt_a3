@@ -4,6 +4,10 @@
 
 Fügt dem Eagle IV zwei abnehmbare Rucksäcke `BWA3_PatrolPack_Fleck` hinzu.
 
+### Referenzen
+
+<https://ace3.acemod.org/wiki/framework/interactionmenu-framework#22-vehicle-interactions-based-on-animations>
+
 ## ACRE
 
 Konfiguriert alle Fahrzeuge mit den gleichen Rack Einstellungen:
@@ -14,9 +18,13 @@ Konfiguriert alle Fahrzeuge mit den gleichen Rack Einstellungen:
 
 Vereinheitlicht außerdem das Infanterietelefon und die Bordverständigungsanlage.
 
-## Referenzen
+## Compat ITC
 
-<https://ace3.acemod.org/wiki/framework/interactionmenu-framework#22-vehicle-interactions-based-on-animations>
+Macht die Pzh2000 schussfähig mit ITC.
+
+### ABhängigkeiten
+
+- ITC Landsystems <https://steamcommunity.com/sharedfiles/filedetails/?id=1388192893>
 
 ## Abhängigkeiten
 
