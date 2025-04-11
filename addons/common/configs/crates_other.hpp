@@ -38,3 +38,22 @@ class GVAR(mark_crate): Box_NATO_Support_F {
     };
 
 };
+
+class B_supplyCrate_F;
+class GVAR(paradrop_crate): B_supplyCrate_F {
+    displayName = CSTRING(paradrop);
+    author = ECSTRING(main,TacticalTrainingTeam);
+    editorSubcategory = QEGVAR(main,ttt);
+    ace_cargo_size = 1;
+
+    class TransportMagazines {};
+    class TransportWeapons {};
+
+    class TransportItems {
+        MACRO_ADDITEM(ACE_Altimeter,20); //Höhenmesser
+    };
+    class TransportBackpacks {
+        MACRO_ADDBACKPACK(B_Parachute,20); //Fallschirm
+    };
+
+};
