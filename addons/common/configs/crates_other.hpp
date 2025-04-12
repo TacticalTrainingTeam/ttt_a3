@@ -44,7 +44,8 @@ class GVAR(paradrop_crate): B_supplyCrate_F {
     displayName = CSTRING(paradrop);
     author = ECSTRING(main,TacticalTrainingTeam);
     editorSubcategory = QEGVAR(main,ttt);
-    ace_cargo_size = 1;
+    ace_cargo_size =  10;
+    ace_cargo_canLoad = 0; //Unloadable
 
     class TransportMagazines {};
     class TransportWeapons {};
