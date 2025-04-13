@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=513;
+	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=65;
+		nextID=81;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5992.5181,141.83975,4783.3315};
-		dir[]={-0.56025648,-0.8187111,0.12580104};
-		up[]={-0.79882139,0.57420421,0.17936893};
-		aside[]={0.21908687,-3.799687e-08,0.97570598};
+		pos[]={5922.9243,30,4835.1514};
+		dir[]={-0.087452315,-0.65224379,-0.75295001};
+		up[]={-0.07524991,0.75800782,-0.6478886};
+		aside[]={-0.99332285,-9.6351869e-09,0.11537098};
 	};
 };
 binarizationWanted=0;
@@ -32,6 +32,7 @@ addons[]=
 	"A3_Ui_F",
 	"A3_Characters_F",
 	"ttt_uniforms",
+	"ace_fortify",
 	"ace_goggles",
 	"A3_Modules_F_Curator_Curator",
 	"A3_Supplies_F_Heli_CargoNets",
@@ -43,7 +44,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=11;
+		items=12;
 		class Item0
 		{
 			className="A3_Soft_F_Gamma";
@@ -81,40 +82,47 @@ class AddonsMetaData
 		};
 		class Item5
 		{
+			className="ace_fortify";
+			name="ACE3 - Fortify";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item6
+		{
 			className="ace_goggles";
 			name="ACE3 - Goggles";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item6
+		class Item7
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item7
+		class Item8
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item8
+		class Item9
 		{
 			className="A3_Air_F_Heli";
 			name="Arma 3 Helicopters - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item9
+		class Item10
 		{
 			className="ttt_signs";
 			name="TTT - Signs";
 			author="Tactical Training Team";
 			url="https://tacticalteam.de";
 		};
-		class Item10
+		class Item11
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
@@ -176,7 +184,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=58;
+		items=59;
 		class Item0
 		{
 			dataType="Object";
@@ -229,6 +237,15 @@ class Mission
 							{
 								typeName="ttt_Uniform_Green_alt_BW_Flecktarn";
 								isBackpack=0;
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="ACE_Fortify";
+										count=1;
+									};
+								};
 							};
 						};
 					};
@@ -1387,6 +1404,21 @@ class Mission
 			name="l_at_1";
 			id=64;
 			type="Logic";
+		};
+		class Item58
+		{
+			dataType="Trigger";
+			position[]={5919.041,5,4790.8389};
+			class Attributes
+			{
+				sizeA=21.708;
+				sizeB=9.8710938;
+				sizeC=5;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+			};
+			id=66;
+			type="EmptyDetectorArea10x10";
 		};
 	};
 };
