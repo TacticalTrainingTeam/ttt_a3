@@ -127,11 +127,26 @@ Inhalt ist im [Wiki spezielle Kisten](https://wiki.tacticalteam.de/de/Missionsba
 
 - Drohnenkiste (UAV) `ttt_common_uav_crate`
 - Markierkiste (Mark) `ttt_common_mark_crate`
+- Fallschirmkiste `ttt_common_paradrop_crate`
 Inhalt ist im [Wiki spezielle Kisten](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#spezielle-kisten) definiert.
 
 ## Bewusstlose haben keine Kollision
 
 Bewusstlose haben keine Kollision mit Spielern - vergleichbar mit <https://steamcommunity.com/sharedfiles/filedetails/?id=3450571478>
+
+## Compositions
+
+Stellt eine Komposition zur Verfügung um immer benutzte Module beim Anfang einer Mission einfach zu setzen:
+
+- HC, spielbar, `hc_01`
+- 3x Spectator, spielbar
+- Zeus `#loggedAdmin`
+- Zeus `#votedAdmin`
+- Zeus `zeus`
+- Zeus `zeus_1`
+- Zeus Missionsbauer -> SteamID eintragen!
+- Leerer Marker `respawn` (TTT-Flagge mit Zuschauerkamera und techn. Teleport wird automatisch erzeugt)
+- 2x Zivilist `zeus` + `zeus_1`
 
 ## Maintainer
 

@@ -36,6 +36,7 @@ class CfgPatches {
 
 #include "CfgEventHandlers.hpp"
 #include "CfgFactionsClasses.hpp"
+#include "Cfg3DEN.hpp"
 #include "Dialog.hpp"
 #include "CfgVehicles.hpp"
 #include "configs\ACE_Fortify.hpp"
