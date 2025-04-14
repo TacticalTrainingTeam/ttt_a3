@@ -2,7 +2,7 @@
 
 class CfgPatches {
     class SUBADDON {
-        authors[] = {"You"};
+        authors[] = {"Andx"};
         name = COMPONENT_NAME;
         addonRootClass = QUOTE(ADDON);
         requiredVersion = REQUIRED_VERSION;
