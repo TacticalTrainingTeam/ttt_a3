@@ -144,6 +144,10 @@ Stellt eine Komposition zur Verfügung um immer benutzte Module beim Anfang eine
 - Leerer Marker `respawn` (TTT-Flagge mit Zuschauerkamera und techn. Teleport wird automatisch erzeugt)
 - 2x Zivilist `zeus` + `zeus_1`
 
+Benutzung: `F2` Compositions -> Props -> Other -> Tactical Training Team
+
+![Inhalt und Pfad zur Benutzung](https://i.imgur.com/kX7gUkp.jpeg)
+
 ## Maintainer
 
 - Andx
