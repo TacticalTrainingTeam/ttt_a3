@@ -544,7 +544,7 @@ class items
 						flags=7;
 						class Attributes
 						{
-							name="zeus";
+							name="zeus_2";
 							description="Zeus@Zeus";
 							isPlayable=1;
 						};
@@ -646,7 +646,7 @@ class items
 							class data
 							{
 								singleType="STRING";
-								value="zeus";
+								value="zeus_2";
 							};
 						};
 					};
@@ -699,7 +699,7 @@ class items
 				{
 					position[]={-1.3334961,0,2.9611816};
 				};
-				title="Zeus Slot 1";
+				title="Zeus Slot 2";
 				id=19;
 			};
 			class Item17
@@ -775,7 +775,7 @@ class items
 				{
 					position[]={-1.3334961,0,4.9611816};
 				};
-				title="Zeus Slot 2";
+				title="Zeus Slot 1";
 				id=23;
 			};
 		};
