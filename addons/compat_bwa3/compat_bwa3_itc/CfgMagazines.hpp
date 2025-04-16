@@ -6,7 +6,7 @@ class CfgMagazines {
         ammo = "itc_land_155mm";
         displayNameShort = SUBCSTRING(DM121_ShortName);
         itc_land_charge_format = "itc_land_pzh2000hex_chg%1";
-        itc_land_btabListFile = QPATHTOEF(compat_bwa3,compat_bwa3_itc\ballistics\tables\pzh2000\list.sqf);
+        itc_land_btabListFile = QPATHTOEF(compat_bwa3,compat_bwa3_itc\ballistics\pzh2000_list.sqf);
     };
     class itc_land_pzh2000hex_chg1: itc_land_pzh2000hex { initSpeed = 92; itc_land_CountInAH = 0;  };
     class itc_land_pzh2000hex_chg2: itc_land_pzh2000hex { initSpeed = 170; itc_land_CountInAH = 0;  };
@@ -21,7 +21,7 @@ class CfgMagazines {
         displayNameShort = SUBCSTRING(DM125_ShortName);
         itc_land_charge_format = "itc_land_pzh2000smo_chg%1";
         itc_land_timeModifier = -1.5;
-        itc_land_btabListFile = QPATHTOEF(compat_bwa3,compat_bwa3_itc\ballistics\tables\pzh2000\list.sqf);
+        itc_land_btabListFile = QPATHTOEF(compat_bwa3,compat_bwa3_itc\ballistics\pzh2000_list.sqf);
     };
     class itc_land_pzh2000smo_chg1: itc_land_pzh2000smo { initSpeed = 92; itc_land_CountInAH = 0;  };
     class itc_land_pzh2000smo_chg2: itc_land_pzh2000smo { initSpeed = 170; itc_land_CountInAH = 0;  };
@@ -36,7 +36,7 @@ class CfgMagazines {
         displayNameShort = SUBCSTRING(M718_ShortName);
         itc_land_charge_format = "itc_land_pzh2000mat_chg%1";
         itc_land_timeModifier = -1.2;
-        itc_land_btabListFile = QPATHTOEF(compat_bwa3,compat_bwa3_itc\ballistics\tables\pzh2000\list.sqf);
+        itc_land_btabListFile = QPATHTOEF(compat_bwa3,compat_bwa3_itc\ballistics\pzh2000_list.sqf);
     };
     class itc_land_pzh2000mat_chg1: itc_land_pzh2000mat { initSpeed = 92; itc_land_CountInAH = 0;  };
     class itc_land_pzh2000mat_chg2: itc_land_pzh2000mat { initSpeed = 170; itc_land_CountInAH = 0;  };
@@ -50,7 +50,7 @@ class CfgMagazines {
         displayName = SUBCSTRING(DM702_pgm_Name);
         displayNameShort = SUBCSTRING(DM702_pgm_ShortName);
         itc_land_charge_format = "itc_land_pzh2000pgm_chg%1";
-        itc_land_btabListFile = QPATHTOEF(compat_bwa3,compat_bwa3_itc\ballistics\tables\pzh2000\list.sqf);
+        itc_land_btabListFile = QPATHTOEF(compat_bwa3,compat_bwa3_itc\ballistics\pzh2000_list.sqf);
     };
     class itc_land_pzh2000pgm_chg1: itc_land_pzh2000pgm { initSpeed = 92; itc_land_CountInAH = 0;  };
     class itc_land_pzh2000pgm_chg2: itc_land_pzh2000pgm { initSpeed = 170; itc_land_CountInAH = 0;  };
@@ -64,7 +64,7 @@ class CfgMagazines {
         displayName = SUBCSTRING(DM702_lgm_Name);
         displayNameShort = SUBCSTRING(DM702_lgm_ShortName);
         itc_land_charge_format = "itc_land_pzh2000lgm_chg%1";
-        itc_land_btabListFile = QPATHTOEF(compat_bwa3,compat_bwa3_itc\ballistics\tables\pzh2000\list.sqf);
+        itc_land_btabListFile = QPATHTOEF(compat_bwa3,compat_bwa3_itc\ballistics\pzh2000_list.sqf);
     };
     class itc_land_pzh2000lgm_chg1: itc_land_pzh2000lgm { initSpeed = 92; itc_land_CountInAH = 0;  };
     class itc_land_pzh2000lgm_chg2: itc_land_pzh2000lgm { initSpeed = 170; itc_land_CountInAH = 0;  };
@@ -78,7 +78,7 @@ class CfgMagazines {
         displayName = SUBCSTRING(DM106_Name);
         displayNameShort = SUBCSTRING(DM106_ShortName);
         itc_land_charge_format = "itc_land_pzh2000ill_chg%1";
-        itc_land_btabListFile = QPATHTOEF(compat_bwa3,compat_bwa3_itc\ballistics\tables\pzh2000\list.sqf);
+        itc_land_btabListFile = QPATHTOEF(compat_bwa3,compat_bwa3_itc\ballistics\pzh2000_list.sqf);
     };
     class itc_land_pzh2000ill_chg1: itc_land_pzh2000ill { initSpeed = 92; itc_land_CountInAH = 0;  };
     class itc_land_pzh2000ill_chg2: itc_land_pzh2000ill { initSpeed = 170; itc_land_CountInAH = 0;  };
