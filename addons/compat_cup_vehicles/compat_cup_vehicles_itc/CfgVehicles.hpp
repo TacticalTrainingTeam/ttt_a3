@@ -77,7 +77,7 @@ class CfgVehicles {
         availableForSupportTypes[] = {"Artillery"};
         class ACE_SelfActions: ACE_SelfActions {
             class ITC_Land_CommanderTablet {
-                displayName = SUBCSTRING(MountetTablet);
+                displayName = SUBCSTRING(MountedTablet);
                 icon = "\itc_land_tablet\UI\tableticon256.paa";
                 condition = "([_target] call itc_land_tablet_fnc_vehicleHasTablet) && (( gunner _target ) == ACE_Player)";
                 statement = "[_target] call itc_land_tablet_fnc_openVehicleTablet";
@@ -120,7 +120,7 @@ class CfgVehicles {
         availableForSupportTypes[] = {"Artillery"};
         class ACE_SelfActions: ACE_SelfActions {
             class ITC_Land_CommanderTablet {
-                displayName = SUBCSTRING(MountetTablet);
+                displayName = SUBCSTRING(MountedTablet);
                 icon = "\itc_land_tablet\UI\tableticon256.paa";
                 condition = "([_target] call itc_land_tablet_fnc_vehicleHasTablet) && (( gunner _target ) == ACE_Player)";
                 statement = "[_target] call itc_land_tablet_fnc_openVehicleTablet";
