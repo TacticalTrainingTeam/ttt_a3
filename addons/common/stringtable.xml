@@ -93,6 +93,10 @@
             <English>TTT Markings Crate (Mark)</English>
             <German>TTT Markierungskiste (Mark)</German>
         </Key>
+        <Key ID="STR_ttt_Common_paradrop">
+            <English>TTT Paradrop Cargo Net</English>
+            <German>TTT Fallschirm-Frachtnetz</German>
+        </Key>
         <Key ID="STR_ttt_Common_pio">
             <English>TTT Combat Engineer Crate (Pio)</English>
             <German>TTT Pionierkiste (Pio)</German>
@@ -112,10 +116,6 @@
         <Key ID="STR_ttt_Common_vbt">
             <English>TTT Medical Crate (VBT)</English>
             <German>TTT Sanitätskiste (VBT)</German>
-        </Key>
-        <Key ID="STR_ttt_Common_paradrop">
-            <English>TTT Paradrop Cargo Net</English>
-            <German>TTT Fallschirm-Frachtnetz</German>
         </Key>
     </Package>
 </Project>
