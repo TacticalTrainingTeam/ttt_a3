@@ -38,7 +38,7 @@ class CfgVehicles {
                 statement = "createDialog 'ITC_Land_SPHammohandler'";
             };
             class ITC_Land_CommanderTablet {
-                displayName = SUBCSTRING(MountetTablet);
+                displayName = SUBCSTRING(MountedTablet);
                 icon = "\itc_land_tablet\UI\arty-icon.paa";
                 condition = "([_target] call itc_land_tablet_fnc_vehicleHasTablet) && (( commander _target ) == ACE_Player)";
                 statement = "[_target] call itc_land_tablet_fnc_openVehicleTablet";
@@ -90,7 +90,7 @@ class CfgVehicles {
                 statement = "createDialog 'ITC_Land_SPHammohandler'";
             };
             class ITC_Land_CommanderTablet {
-                displayName = SUBCSTRING(MountetTablet);
+                displayName = SUBCSTRING(MountedTablet);
                 icon = "\itc_land_tablet\UI\arty-icon.paa";
                 condition = "([_target] call itc_land_tablet_fnc_vehicleHasTablet) && (( commander _target ) == ACE_Player)";
                 statement = "[_target] call itc_land_tablet_fnc_openVehicleTablet";

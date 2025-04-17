@@ -3,7 +3,7 @@ class CfgWeapons {
     class BWA3_RH155mm_AMOS: CannonCore {class Single1;};
     class itc_land_bwa3_weap_RH155: BWA3_RH155mm_AMOS {
         scope = 1;
-        displayName = "$STR_RH155_52";
+        displayName = SUBCSTRING(RH155_52);
         autoReload = 0;
         modes[] = {"Single"};
         reloadTime = 1;
