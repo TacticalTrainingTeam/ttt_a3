@@ -80,6 +80,25 @@ Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=72
 
 Stellt TTT-Bilder anderen Addons zur Verfügung.
 
+### Einheiten
+
+Fügt ein paar generische Einheiten (ohne eigenes Loadout), als Hilfe für einheiten-basierte Loadoutsystem wie z.B. Poppy, hinzu.
+
+### ACE-Fortify Presets
+
+Definiert Presets für ACE Fortify, die in spontanen Missionen und Trainings genutzt werden können:
+
+Benutztung:
+
+1. `ACE_Fortify` an Spieler ausgeben
+2. als Admin im Chat `#ace-fortify blufor presetname` eingeben, `presetname` durch eins der unten angegebenen ersetzen.
+
+Folgendes Prests stehen zur Verfügung:
+
+- `TTT_OHK` für das Befestigen einzelner Gebäude im OHK
+- `TTT_FOB` für das Errichten einer FOB oder eines Checkpoint
+- `TTT_GM` enthält Assets auf dem GM DLC, nicht speziell für ein bestimmtes Szenario gedacht
+
 ### Kisten
 
 Fügt einige TTT-spezifische Kisten hinzu. Alle Kisten sind ein (1) ACE-Cargo groß.
@@ -103,6 +122,31 @@ Fügt folgende Pionierkisten hinzu:
 - EOD-Kiste mit UGV (ED-1D) `ttt_common_eod_ugv_crate`
 
 Inhalt ist im [Wiki spezielle Kisten](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#spezielle-kisten) definiert.
+
+#### Spezialkisten
+
+- Drohnenkiste (UAV) `ttt_common_uav_crate`
+- Markierkiste (Mark) `ttt_common_mark_crate`
+- Fallschirmkiste `ttt_common_paradrop_crate`
+Inhalt ist im [Wiki spezielle Kisten](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#spezielle-kisten) definiert.
+
+## Compositions
+
+Stellt eine Komposition zur Verfügung um immer benutzte Module beim Anfang einer Mission einfach zu setzen:
+
+- HC, spielbar, `hc_01`
+- 3x Spectator, spielbar
+- Zeus `#loggedAdmin`
+- Zeus `#votedAdmin`
+- Zeus `zeus`
+- Zeus `zeus_1`
+- Zeus Missionsbauer -> SteamID eintragen!
+- Leerer Marker `respawn` (TTT-Flagge mit Zuschauerkamera und techn. Teleport wird automatisch erzeugt)
+- 2x Zivilist `zeus` + `zeus_1`
+
+Benutzung: `F2` Compositions -> Props -> Other -> Tactical Training Team
+
+![Inhalt und Pfad zur Benutzung](https://i.imgur.com/kX7gUkp.jpeg)
 
 ## Maintainer
 

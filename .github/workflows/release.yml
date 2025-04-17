@@ -1,0 +1,27 @@
+name: Upload Release 
+
+on:
+  release:
+    types: [ "published" ]
+    
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout the source code
+      uses: actions/checkout@v3
+
+    - name: Setup HEMTT
+      uses: arma-actions/hemtt@v1
+
+    - name: Build TTT Mod Release
+      run: hemtt release
+
+    - name: Upload to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: releases/ttt-latest.zip
+        asset_name: ttt-$tag.zip
+        tag: ${{ github.ref }}
+        overwrite: true

@@ -1,11 +1,5 @@
 # RsR Vanilla
 
-## fnc_removeTurretWeapon
-
-Entfernt den Turm und sperrt den Schützenplatz.
-
-`[fhz] call ttt_rsr_retex_vanilla_fnc_removeTurretWeapon`
-
 ## Fennek
 
 Fügt drei Varianten des "Strider" in zwei Tarnfarben hinzu.
