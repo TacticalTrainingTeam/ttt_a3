@@ -23,10 +23,13 @@ class ACEX_Fortify_Presets {
     class TTT_GM {
         displayName = "TTT - GM";
         objects[] = {
-            {"land_gm_sandbags_02_bunker_high", 10},
+            {"land_gm_woodbunker_01_bags", 10},
             {"land_gm_sandbags_01_wall_02", 2},
             {"land_gm_sandbags_01_round_01", 2},
-            {"land_gm_sandbags_01_wall_01", 2}
+            {"land_gm_sandbags_01_wall_01", 2},
+            {"land_gm_barbedwire_02", 5},
+            {"land_gm_camonet_03_nato", 5},
+            {"land_gm_tanktrap_01", 2}
         };
     };
 
