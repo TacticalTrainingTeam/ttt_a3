@@ -1,4 +1,14 @@
 class ACEX_Fortify_Presets {
+    class TTT_Camping {
+        displayName = "TTT - Camping";
+        objects[] = {
+            {"Land_TentDome_F", 5},
+            {"Land_TentA_F", 5},
+            {"Land_Campfire_F", 1},
+            {"Land_Camping_Light_off_F", 1}
+        };
+    };
+
     class TTT_OHK {
         displayName = "TTT - OHK";
         objects[] = {
