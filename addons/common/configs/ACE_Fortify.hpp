@@ -30,7 +30,6 @@ class ACEX_Fortify_Presets {
         };
     };
 
-    //ToDo reduzieren auf ca 12 Objekte
     class TTT_FOB {
         displayName = "TTT - FOB";
         objects[] = {
