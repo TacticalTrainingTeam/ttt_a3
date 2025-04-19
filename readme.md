@@ -27,7 +27,7 @@ Für CUP, RHS, BWmod etc. sind zum Testen weitere Mods erforderlich, diese sind 
 
 ### Entwickeln mit lokalen Mods
 
-Wenn es nicht möglich ist die Steam-Workshop Mods herunterzuladen (z.B. aus Platzgründen), kannst du folgendes in die `launch.toml` schreiben, den Pfad an passen, und damit deine lokalen Mods aus dem TTT-Repo nutzen. Diese Änderung der Datei **nicht** mit commiten.
+Falls es nicht möglich ist, die Steam-Workshop-Mods herunterzuladen (zum Beispiel aus Platzgründen), kannst du folgendes in die `launch.toml` eintragen, den Pfad entsprechend anpassen und so deine lokalen Mods aus dem TTT-Repo verwenden. Diese Änderung der Datei darf **nicht** committet werden.
 
 ```toml
 [cup_local]
