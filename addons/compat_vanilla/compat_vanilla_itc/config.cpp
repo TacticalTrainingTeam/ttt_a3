@@ -21,7 +21,7 @@ class CfgPatches {
          };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"A3_Armor_F_Slammer", "CUP_TrackedVehicles_M270", "itc_land_common"};
+        requiredAddons[] = {"", "", "itc_land_common"};
         authors[] = {"Addi"};
         VERSION_CONFIG;
         skipWhenMissingDependencies = 1; // Skip this addon if the required addons are not present
