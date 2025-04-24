@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Compat_Cup_Vehicles_Itc">
+        <Key ID="STR_ttt_Compat_Cup_Vehicles_Itc_M230_HE_NAME">
+            <English>M230 HE-Rocket</English>
+            <German>M230 HE-Rakete</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Cup_Vehicles_Itc_M230_HE_SHORTNAME">
+            <English>M230 (HE)</English>
+            <German>M230 (HE)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Cup_Vehicles_Itc_M230_HE_VEHICLE">
+            <English>ITC M270 MRLS (HE)</English>
+            <German>ITC M270 MRLS (HE)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Cup_Vehicles_Itc_M230_PGM_NAME">
+            <English>M230 GPS guided Rocket</English>
+            <German>M230 GPS gelenkte Rakete</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Cup_Vehicles_Itc_M230_PGM_SHORTNAME">
+            <English>M230 (GPS)</English>
+            <German>M230 (GPS)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Cup_Vehicles_Itc_M230_PGM_VEHICLE">
+            <English>ITC M270 MRLS (PGM)</English>
+            <German>ITC M270 MRLS (PGM)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Cup_Vehicles_Itc_MRLS230Name1">
+            <English>M270 MRLS - 230mm</English>
+            <German>M270 MRLS - 230mm</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Cup_Vehicles_Itc_MRLS230Name2">
+            <English>MRLS</English>
+            <German>MRLS</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Cup_Vehicles_Itc_MountedTablet">
+            <English>Open Mounted Tablet</English>
+            <German>Feuerleitrechner</German>
+        </Key>
+    </Package>
+</Project>
