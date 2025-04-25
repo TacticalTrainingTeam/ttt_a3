@@ -2,8 +2,7 @@
 
 Fügt Zamak Mehrfachraketenwerfer mit ITC Unterstützung hinzu.
 
-- `itc_land_cup_m270_ba_wood_he`
-
+- `itc_land_ldf_mlrs_zamak`
 
 ## Maintainer
 
