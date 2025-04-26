@@ -79,7 +79,7 @@ Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=72
 ### Atmosphärisches Flak-Feuer
 
 1. Eine Flak-Einheit setzen und z.b. `flak_01` als Variablennamen vergeben
-2. Einen Trigger platzieren und in die aktivierung eintragen:
+2. Einen Trigger platzieren und in die Aktivierung eintragen:
 
 ```c++
 handle_01 = [flak_01] call ttt_common_fnc_doFlakFire;
