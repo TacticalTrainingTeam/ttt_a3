@@ -36,7 +36,7 @@ _handle = [
                 _unit doSuppressiveFire _target;
             };
         },
-        (6 + floor random 15),
+        (6 + floor random 10),
         [_unit,_target]
     ] call CBA_fnc_addPerFrameHandler;
 
