@@ -78,12 +78,11 @@ Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=72
 
 ### Atmosphärisches Flak-Feuer
 
-1. Eine Flak-Einheite setzen und z.b. `flak_01` als Variablennamen vergeben
-2. Eine Game-Logic setzen und z.b. `flak_target_01` als Variablennamen vergeben
-3. Einen Trigger platzieren und in die aktivierung eintragen:
+1. Eine Flak-Einheit setzen und z.b. `flak_01` als Variablennamen vergeben
+2. Einen Trigger platzieren und in die aktivierung eintragen:
 
 ```c++
-handle_01 = [flak_01, flak_target_01] call ttt_common_fnc_doFlakFire;
+handle_01 = [flak_011] call ttt_common_fnc_doFlakFire;
 ```
 
 `handle_01` ist ein Identifikator mit dem die Funktion wieder beendet werden kann, indem der Per-Frame-Handler entfernt wird. Um das Flakfeuer wieder zu beenden, in einen weiteren Trigger folgendes in die Aktivierung schreiben:
