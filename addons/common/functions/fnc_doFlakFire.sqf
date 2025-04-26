@@ -24,7 +24,7 @@ private _group = createGroup sideLogic;
 
 //To create objects of type "Logic", use createUnit.
 private _target = _group createUnit ["Logic", [0,0,0], [], 0, "NONE"];
-hint format ["Ziel: %1, Gruppe: %2", _target, _group];
+//hint format ["Ziel: %1, Gruppe: %2", _target, _group];
 
 //Fire
 _handle = [
