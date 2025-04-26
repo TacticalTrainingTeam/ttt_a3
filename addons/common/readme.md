@@ -76,6 +76,22 @@ Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=72
 [l_sp_1, l_rp_1, l_at_1, EAST, "O_Heli_Light_02_dynamicLoadout_F", 2, ["O_Soldier_SL_F","O_Soldier_TL_F","O_Soldier_F"], 1, 50] call ttt_common_fnc_callReinforcements; 
 ```
 
+### Atmosphärisches Flak-Feuer
+
+1. Eine Flak-Einheite setzen und z.b. `flak_01` als Variablennamen vergeben
+2. Eine Game-Logic setzen und z.b. `flak_target_01` als Variablennamen vergeben
+3. Einen Trigger platzieren und in die aktivierung eintragen:
+
+```c++
+handle_01 = [flag_01, flak_target_01] call ttt_common_fnc_doFlakFire;
+```
+
+`handle_01` ist ein Identifikator mit dem die Funktion wieder beendet werden kann, indem der Per-Frame-Handler entfernt wird. Um das Flakfeuer wieder zu beenden, in einen weiteren Trigger folgendes in die Aktivierung schreiben:
+
+```c++
+[handle_01] call CBA_fnc_removePerFrameHandler;
+```
+
 ### Bilder
 
 Stellt TTT-Bilder anderen Addons zur Verfügung.
