@@ -82,7 +82,7 @@ Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=72
 2. Einen Trigger platzieren und in die aktivierung eintragen:
 
 ```c++
-handle_01 = [flak_011] call ttt_common_fnc_doFlakFire;
+handle_01 = [flak_01] call ttt_common_fnc_doFlakFire;
 ```
 
 `handle_01` ist ein Identifikator mit dem die Funktion wieder beendet werden kann, indem der Per-Frame-Handler entfernt wird. Um das Flakfeuer wieder zu beenden, in einen weiteren Trigger folgendes in die Aktivierung schreiben:
