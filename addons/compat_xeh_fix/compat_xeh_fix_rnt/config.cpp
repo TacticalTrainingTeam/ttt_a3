@@ -10,6 +10,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "Redd_Tank_M120_Tampella",
+            "m120_comp_ace",
             "rnt_ace_compatibility",
             "rnt_gmw_static",
             "rnt_mg3_static"
