@@ -1,12 +1,12 @@
 # Advanced Slingloading
 
-Ermöglicht es Kisten per Slingload am Hubschrauber zu transportieren.
+Mittels Advanced Sling Load (ASL) ist es möglich Kisten per Außenlast am Hubschrauber zu transportieren. ASL ist immer aktiv.
 
-Angepasst um mehr Hubschrauber zu unterstützen
+## Attach Points
 
-## Hubschrauber
+Die Punkte, an denen das Seil den Hubschrauber berührt wurden für einige Modelle angepasst:
 
-[classname, [Attach Point Offset]]
+Schema: `[classname, [Attach Point Offset]]`
 
 ```c++
     ["All", [-0.05, -0.05, -0.05]],
