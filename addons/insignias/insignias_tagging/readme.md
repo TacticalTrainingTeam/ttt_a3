@@ -2,7 +2,9 @@
 
 Fügt eine neue Sprühdose (`TTT_Spraypaint`) hinzu. Fügt alle TTT Insignien dem ACE-Tagging Framework hinzu, welche mittels der "Sprühdose (TTT)" verfügbar sind.
 
-`TTT_Spraypaint`
+## Class names
+
+- `TTT_Spraypaint`
 
 ## Referenzen
 

@@ -2,6 +2,8 @@
 
 Enthält Flaggen und Schilder in TTT Farben.
 
+## Class Names
+
 Flaggen
 
 - `ttt_Flag_Logo`
