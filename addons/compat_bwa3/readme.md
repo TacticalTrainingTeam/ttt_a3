@@ -2,7 +2,7 @@
 
 ## Eagle IV
 
-Fügt dem Eagle IV zwei abnehmbare Rucksäcke `BWA3_PatrolPack_Fleck` hinzu.
+Fügt dem Eagle IV zwei abnehmbare Rucksäcke `BWA3_PatrolPack_Fleck` über ACE-Interaktionen hinzu.
 
 ### Referenzen
 
@@ -17,14 +17,6 @@ Konfiguriert alle Fahrzeuge mit den gleichen Rack Einstellungen:
 - Rack 3: SEM90 (Funkkreis C)
 
 Vereinheitlicht außerdem das Infanterietelefon und die Bordverständigungsanlage.
-
-## Compat ITC
-
-Macht die Pzh2000 schussfähig mit ITC.
-
-### ABhängigkeiten
-
-- ITC Landsystems <https://steamcommunity.com/sharedfiles/filedetails/?id=1388192893>
 
 ## Abhängigkeiten
 
