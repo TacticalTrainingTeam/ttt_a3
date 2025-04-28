@@ -1,6 +1,8 @@
 # Helme
 
-Enthält alle Helme in TTT Farben. Es gibt drei Tarnvarianten: Flecktarn, Tropentarn und US Desert. Außerdem gibt es jedem Helm nummeriert von 1 bis 11.
+Enthält alle Helme in TTT Farben. Es gibt drei Tarnvarianten: _Flecktarn_, _Tropentarn_ und _US Desert_. Außerdem gibt es jedem Helm nummeriert von 1 bis 11.
+
+## Class Names
 
 Piloten Helme
 

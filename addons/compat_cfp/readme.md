@@ -4,6 +4,6 @@
 
 - Community Factions Project <https://steamcommunity.com/sharedfiles/filedetails/?id=1369691841>
 
-## Maintainers
+## Maintainer
 
 - Andx
