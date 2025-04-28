@@ -1,7 +1,6 @@
 # Advanced Towing
 
-Advacned Towing ermöglicht es, dass ein Fahrzeug ein anderes mittels ein Abschleppseils abschleppen kann.
-
+Advanced Towing ermöglicht es, dass ein Fahrzeug ein anderes mittels ein Abschleppseils abschleppen kann.
 ## Benutzung
 
 Um bestimmten fahrzeugen die Funktion zu geben, müsst ihr folgendes in die `init.sqf` eurer Mission schreiben:
