@@ -14,7 +14,8 @@ Fügt drei Typen von Landrover Animations-Interaktionen hinzu.
 
 ## Abhängigkeiten
 
-- 3CB Factions <https://steamcommunity.com/sharedfiles/filedetails/?id=1673456286>
+- 3CB Vehicles <https://steamcommunity.com/sharedfiles/filedetails/?id=893349825>
+- ACE - Interactions <https://steamcommunity.com/sharedfiles/filedetails/?id=463939057>
 
 ## Maintainers
 

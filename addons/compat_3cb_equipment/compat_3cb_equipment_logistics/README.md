@@ -9,8 +9,8 @@ Fügt ausgewählten Rucksäcken die Funktion des "ACE_Wirecutters" hinzu.
 
 ## Abhängigkeiten
 
-- 3CB Equipment
-- ACE Logistics
+- 3CB Equipment <https://steamcommunity.com/workshop/filedetails/?id=893328083>
+- ACE - Logistics <https://steamcommunity.com/sharedfiles/filedetails/?id=463939057>
 
 ## Maintainer
 

@@ -2,7 +2,9 @@
 
 ## ALICE Pack Olive
 
-Fixt einen Configfehler in 3CB Equipment in dem die Objekte versteckt werden und das fehlende Anzeigebild ausgeblendet wird:
+Behebt einen Configfehler in 3CB Equipment in dem die Objekte versteckt werden und das fehlende Anzeigebild ausgeblendet wird:
+
+Behobene Fehlermeldung:
 
 ```c++
 21:56:19 Warning Message: Picture \uk3cb_baf_equipment_alicepack\data\ui\icon_alicepack_dpmw_ca.paa not found
@@ -14,7 +16,7 @@ Fixt einen Configfehler in 3CB Equipment in dem die Objekte versteckt werden und
 
 ## Abhängigkeiten
 
-- 3CB Factions <https://steamcommunity.com/sharedfiles/filedetails/?id=1673456286>
+- 3CB Equipment <https://steamcommunity.com/workshop/filedetails/?id=893328083>
 
 ## Maintainers
 

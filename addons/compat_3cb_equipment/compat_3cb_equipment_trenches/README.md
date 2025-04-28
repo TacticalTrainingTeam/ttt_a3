@@ -12,8 +12,8 @@ Fügt ausgewählten Rucksäcken die Funktion des "ACE_EntrechningTools" hinzu.
 
 ## Abhängigkeiten
 
-- 3CB Equipment
-- ACE Trenches
+- 3CB Equipment <https://steamcommunity.com/workshop/filedetails/?id=893328083>
+- ACE - Trenches <https://steamcommunity.com/sharedfiles/filedetails/?id=463939057>
 
 ## Maintainer
 
