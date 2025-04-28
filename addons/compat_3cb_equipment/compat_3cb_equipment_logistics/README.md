@@ -2,10 +2,14 @@
 
 ## Drahtschneider
 
-Fügt ausgewählten Rucksäcken die Funktion des "ACE_Wirecutters" hinzu.
+Fügt ausgewählten Rucksäcken die Funktion des `ACE_wirecutter` hinzu.
 
 - `UK3CB_BAF_B_Bergen_MTP_Engineer_H_A`
 - `UK3CB_BAF_B_Bergen_MTP_Engineer_L_A`
+
+## Referezen
+
+- <https://ace3.acemod.org/wiki/framework/wirecutter-framework#1-config-values>
 
 ## Abhängigkeiten
 
