@@ -18,6 +18,6 @@ Behobene Fehlermeldung:
 
 - 3CB Equipment <https://steamcommunity.com/workshop/filedetails/?id=893328083>
 
-## Maintainers
+## Maintainer
 
 - Andx

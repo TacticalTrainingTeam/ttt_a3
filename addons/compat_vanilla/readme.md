@@ -27,6 +27,6 @@ Erlaubt dem Vanilla Chinook and EH302 (IDAP/FIA Transport Hubschrauber) auf dem 
 
 Verhindert das Vanilla 40mm Rauchgranaten über den Boden springen. Erhöht die Intensität von UGL und Mörser Flares.
 
-## Maintainers
+## Maintainer
 
 - Andx

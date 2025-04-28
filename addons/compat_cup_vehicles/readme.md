@@ -31,6 +31,6 @@ Quelle für viele der Fixes: <https://github.com/BourbonWarfare/POTATO/blob/mast
 
 - CUP Vehicles <https://steamcommunity.com/workshop/filedetails/?id=541888371>
 
-## Maintainers
+## Maintainer
 
 - Andx

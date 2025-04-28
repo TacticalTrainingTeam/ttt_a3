@@ -56,6 +56,6 @@ Piloten
 
 - `ttt_Uniform_Platinum_Pilot`
 
-## Maintainers
+## Maintainer
 
 - Andx

@@ -22,6 +22,6 @@ Vereinheitlicht außerdem das Infanterietelefon und die Bordverständigungsanlag
 
 - BWmod <https://steamcommunity.com/sharedfiles/filedetails/?id=1200127537>
 
-## Maintainers
+## Maintainer
 
 - Andx
