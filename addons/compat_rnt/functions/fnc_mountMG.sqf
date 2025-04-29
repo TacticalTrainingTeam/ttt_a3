@@ -32,7 +32,7 @@ playSound "ACE_BarrelSwap";
     GVAR(lafetteMountTime),
     [_player, _tripod],
     {
-        params ["_args", "_elapsedTime", "_totalTime", "_errorCode"];
+        params ["_args", "", "", ""];
         _args params ["_player", "_tripod"];
 
         private _weaponType = primaryWeapon _player;
