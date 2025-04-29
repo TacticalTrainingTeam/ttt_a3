@@ -69,7 +69,6 @@
 			"dependsOn": [
 				"Validate: Config",
 				"Validate: Stringtables",
-				"Check: Undefined Strings",
 				"Check: Unused Privates",
 				"Check: HEMTT"
 			],
