@@ -31,17 +31,6 @@
 			"problemMatcher": []
 		},
 		{
-			"label": "Check: Undefined Strings",
-			"command": "${config:python.defaultInterpreterPath}",
-			"options": {
-				"cwd": "${workspaceFolder}/tools"
-			},
-			"args": [
-				"check_strings.py"
-			],
-			"problemMatcher": []
-		},
-		{
 			"label": "Check: Unused Privates",
 			"command": "${config:python.defaultInterpreterPath}",
 			"options": {
