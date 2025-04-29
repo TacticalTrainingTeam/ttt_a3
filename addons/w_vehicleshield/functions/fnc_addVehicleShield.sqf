@@ -36,7 +36,7 @@ params [
     [ "_allowEngineKill",   true,           [true]      ],
     [ "_allowFuelKill",     true,           [true]      ],
     [ "_rotors",            [true, true],   [[]]        ],
-    [ "_killEngine",        true,           [true]      ],kw
+    [ "_killEngine",        true,           [true]      ],
     [ "_canExplode",        false,          [true]      ],
     [ "_excessiveHits",     20,             [1]         ]
 ];
