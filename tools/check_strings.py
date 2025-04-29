@@ -8,42 +8,42 @@ import re
 import sys
 
 def getDefinedStrings(filepath):
-    # print("getDefinedStrings {0}".format(filepath))
+ # print("getDefinedStrings {0}".format(filepath))
     with open(filepath, 'r', encoding="latin-1") as file:
         content = file.read()
-        srch = re.compile('Key ID\=\"(STR_ttt_[_a-zA-Z0-9]*)"', re.IGNORECASE)
+        srch = re.compile(r'Key ID\=\"(STR_TTT_[_a-zA-Z0-9]*)"', re.IGNORECASE)
         modStrings = srch.findall(content)
     modStrings = [s.lower() for s in modStrings]
     return modStrings
 
 def getStringUsage(filepath):
-    selfmodule = (re.search('(addons|optionals)[\W]*([_a-zA-Z0-9]*)', filepath)).group(2)
-    submodule = (re.search(f'(addons|optionals)[\W]*{selfmodule}[\W]*([_a-zA-Z0-9]*)', filepath)).group(2)
+    selfmodule = (re.search(r'(addons|optionals)[\W]*([_a-zA-Z0-9]*)', filepath)).group(2)
+    submodule = (re.search(rf'(addons|optionals)[\W]*{selfmodule}[\W]*([_a-zA-Z0-9]*)', filepath)).group(2)
     # print(f"Checking {filepath} from {selfmodule} ({submodule})")
     fileStrings = []
 
     with open(filepath, 'r') as file:
         content = file.read()
 
-        srch = re.compile('(STR_ttt_[_a-zA-Z0-9]*)', re.IGNORECASE)
+        srch = re.compile(r'(STR_TTT_[_a-zA-Z0-9]*)', re.IGNORECASE)
         fileStrings = srch.findall(content)
 
-        srch = re.compile('[^EB][CL]STRING\(([_a-zA-Z0-9]*)\)', re.IGNORECASE)
+        srch = re.compile(r'[^EB][CL]STRING\(([_a-zA-Z0-9]*)\)', re.IGNORECASE)
         modStrings = srch.findall(content)
         for localString in modStrings:
-            fileStrings.append("STR_ttt_{0}_{1}".format(selfmodule, localString))
+            fileStrings.append("STR_TTT_{0}_{1}".format(selfmodule, localString))
 
-        srch = re.compile('E[CL]STRING\(([_a-zA-Z0-9]*),([_a-zA-Z0-9]*)\)')
+        srch = re.compile(r'E[CL]STRING\(([_a-zA-Z0-9]*),([_a-zA-Z0-9]*)\)')
         exStrings = srch.findall(content)
         for (exModule, exString) in exStrings:
-            fileStrings.append("STR_ttt_{0}_{1}".format(exModule, exString))
+            fileStrings.append("STR_TTT_{0}_{1}".format(exModule, exString))
 
-        srch = re.compile('SUB[CL]STRING\(([_a-zA-Z0-9]*)\)')
+        srch = re.compile(r'SUB[CL]STRING\(([_a-zA-Z0-9]*)\)')
         subStrings = srch.findall(content)
         for (subString) in subStrings:
-            fileStrings.append(f"STR_ttt_{submodule}_{subString}")
+            fileStrings.append(f"STR_TTT_{submodule}_{subString}")
 
-        srch = re.compile('IGNORE_STRING_WARNING\([\'"]*([_a-zA-Z0-9]*)[\'"]*\)')
+        srch = re.compile(r'IGNORE_STRING_WARNING\([\'"]*([_a-zA-Z0-9]*)[\'"]*\)')
         ignoreWarnings = srch.findall(content)
 
     fileStrings = [s.lower() for s in fileStrings]
