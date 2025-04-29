@@ -50,7 +50,7 @@
             ]
         ],
         {
-            params ["_returnValues", ""];
+            params ["_returnValues"];
             _returnValues params ["_duration", "_effect", "_stormType", "_walk", "_direction"];
             [[_duration, _effect, _stormType, _walk, _direction], ttt_effects_fnc_stormInit] remoteExec ["call", 0, true];
         }

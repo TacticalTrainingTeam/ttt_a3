@@ -14,7 +14,7 @@
  * Public: [Yes/No]
  */
 
-params ["_unit", "", "_slot", ""];
+params ["_unit", "", "_slot"];
 
 if (!hasInterface) exitWith {};
 if ((!local _unit) || (_unit != player)) exitWith {};

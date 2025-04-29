@@ -36,7 +36,7 @@ params [
     [ "_allowEngineKill",   true,           [true]      ],
     [ "_allowFuelKill",     true,           [true]      ],
     [ "_rotors",            [true, true],   [[]]        ],
-    [ "_killEngine",        true,           [true]      ],
+    [ "_killEngine",        true,           [true]      ],kw
     [ "_canExplode",        false,          [true]      ],
     [ "_excessiveHits",     20,             [1]         ]
 ];
@@ -58,7 +58,7 @@ if (_excessiveHits != 20) then {_target setVariable ["WVS_excessiveHits", _exces
 _target addEventHandler [
     "HandleDamage",
     {
-        params ["_unit", "", "_damage", "", "", "", "", "_hitPoint", "", ""];
+        params ["_unit", "", "_damage", "", "", "", "", "_hitPoint"];
 
         //get some variables
         private _returnDamage = 0;
