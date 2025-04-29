@@ -35,7 +35,7 @@ params [
 
 disableSerialization;
 
-// static inputs and filling optional variables
+// static inputs
 private _rpSize = 20;
 private _atSize = 50;
 if (typeName _spPos == "OBJECT") then {_spPos = [getPosASL _spPos select 0,getPosASL _spPos select 1,0];};
