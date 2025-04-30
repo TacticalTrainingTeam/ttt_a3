@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1025;
+	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=89;
+		nextID=94;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5967.2251,22.722506,4833.2515};
-		dir[]={-0.97606683,-0.21087617,-0.053807292};
-		up[]={-0.21056373,0.97750628,-0.011607577};
-		aside[]={-0.055047229,2.540537e-08,0.99851948};
+		pos[]={5872.4531,48.923992,4880.4214};
+		dir[]={0.65274608,-0.42752776,-0.6254397};
+		up[]={0.30870545,0.90399426,-0.29579091};
+		aside[]={-0.69185281,-2.3911707e-07,-0.72205895};
 	};
 };
 binarizationWanted=0;
@@ -41,13 +41,15 @@ addons[]=
 	"A3_Modules_F",
 	"A3_Armor_F_Beta_APC_Tracked_01",
 	"ace_repair",
-	"ace_vehicle_damage"
+	"ace_vehicle_damage",
+	"A3_Structures_F_Civ_Camping",
+	"ace_dragging"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=15;
+		items=17;
 		class Item0
 		{
 			className="A3_Soft_F_Gamma";
@@ -153,6 +155,20 @@ class AddonsMetaData
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
+		class Item15
+		{
+			className="A3_Structures_F";
+			name="Arma 3 - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item16
+		{
+			className="ace_dragging";
+			name="ACE3 - Dragging";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
 	};
 };
 dlcs[]=
@@ -208,7 +224,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=63;
+		items=67;
 		class Item0
 		{
 			dataType="Object";
@@ -1446,118 +1462,13 @@ class Mission
 		};
 		class Item59
 		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=3;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={5825.5918,5.0014391,4814.8071};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-						name="flak_01D";
-					};
-					id=84;
-					type="B_crew_F";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={5825.5918,7.9868002,4814.8071};
-					};
-					side="West";
-					class Attributes
-					{
-						name="flak_01G";
-					};
-					id=85;
-					type="B_crew_F";
-					atlOffset=2.9853611;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={5825.5918,7.9868002,4814.8071};
-					};
-					side="West";
-					flags=2;
-					class Attributes
-					{
-						name="flak_01C";
-					};
-					id=86;
-					type="B_crew_F";
-					atlOffset=2.9853611;
-				};
-			};
-			class Attributes
-			{
-			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=3;
-				};
-				class Links
-				{
-					items=3;
-					class Item0
-					{
-						linkID=0;
-						item0=84;
-						item1=83;
-						class CustomData
-						{
-							role=1;
-						};
-					};
-					class Item1
-					{
-						linkID=1;
-						item0=85;
-						item1=83;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0};
-						};
-					};
-					class Item2
-					{
-						linkID=2;
-						item0=86;
-						item1=83;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0,0};
-						};
-					};
-				};
-			};
-			id=82;
-		};
-		class Item60
-		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={5825.5918,7.9853611,4814.7568};
 			};
-			side="West";
-			flags=6;
+			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				name="flak_01";
@@ -1584,7 +1495,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item61
+		class Item60
 		{
 			dataType="Trigger";
 			position[]={5920.7021,5,4832.9331};
@@ -1601,7 +1512,7 @@ class Mission
 			id=87;
 			type="EmptyDetectorArea10x10";
 		};
-		class Item62
+		class Item61
 		{
 			dataType="Object";
 			class PositionInfo
@@ -1659,6 +1570,71 @@ class Mission
 				};
 				nAttributes=3;
 			};
+		};
+		class Item62
+		{
+			dataType="Trigger";
+			position[]={5939.3101,5.3070002,4816.7178};
+			class Attributes
+			{
+				onActivation="[r_s_1, r_r_1, r_a_1, EAST, ""O_APC_Wheeled_02_rcws_v2_F""] call ttt_common_fnc_callReinforcements;";
+				sizeA=5;
+				sizeB=5;
+				sizeC=5;
+				activationBy="ANYPLAYER";
+				isRectangle=1;
+				isServerOnly=1;
+			};
+			id=89;
+			type="EmptyDetectorArea10x10";
+		};
+		class Item63
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={5999.5122,5,4751.2798};
+			};
+			name="r_s_1";
+			id=90;
+			type="Logic";
+		};
+		class Item64
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={6191.7075,5,4880.1597};
+			};
+			name="r_r_1";
+			id=91;
+			type="Logic";
+		};
+		class Item65
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={5902.0742,5,5072.187};
+			};
+			name="r_a_1";
+			id=92;
+			type="Logic";
+		};
+		class Item66
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5939.0762,5.4091678,4816.7153};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=93;
+			type="Land_Sun_chair_F";
 		};
 	};
 };
