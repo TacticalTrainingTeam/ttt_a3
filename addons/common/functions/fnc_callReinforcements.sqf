@@ -28,7 +28,7 @@ params [
 	"_side", 
 	"_vehicleType", 
 	["_rpBehaviour", 0, ["NUMBER"]],
-	["_grpCfg", configFile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad", ["GROUP","ARRAY"]],
+	["_grpCfg", configFile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad", ["GROUP", "ARRAY"]],
 	["_grpBehaviour", 2, ["NUMBER"]],
 	["_height", 80, ["NUMBER"]]
 	];
