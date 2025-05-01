@@ -4,6 +4,8 @@
 
 Fügt drei Varianten des "Strider" in zwei Tarnfarben hinzu.
 
+### Class Names
+
 - `rsr_fennek_transport_flecktarn`
 - `rsr_fennek_transport_tropentarn`
 - `rsr_fennek_hmg_flecktarn`
@@ -14,6 +16,8 @@ Fügt drei Varianten des "Strider" in zwei Tarnfarben hinzu.
 ## Wisent
 
 Fügt mehrere Varianten des "Typhoon" in zwei Tarnfarben hinzu. Basiert auf dem GFF 4 Wisent Prototyp der Bundeswehr.
+
+### Class Names
 
 - `rsr_wisent_transport_flecktarn`
 - `rsr_wisent_transport_tropentarn`
@@ -32,5 +36,11 @@ Fügt mehrere Varianten des "Typhoon" in zwei Tarnfarben hinzu. Basiert auf dem 
 
 Fügt zwei Tarnfarben des "Nemmera" Panzers als Bundeswehr Bergepanzer mit Abschleppfunktion hinzu.
 
+### Class Names
+
 - `rsr_bergepanzer_flecktarn`
 - `rsr_bergepanzer_tropentarn`
+
+## Maintainer
+
+- Andx

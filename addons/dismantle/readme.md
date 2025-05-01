@@ -1,6 +1,6 @@
 # Dismantle
 
-Erlaubt Spielen die das Nötige Werkzeug und die nötige Befähigung haben bestimmte Objekte zu zerlegen. Gedacht für Panzersperren und ähnliches.
+Erlaubt Spielen die das nötige Werkzeug und die nötige Befähigung haben bestimmte Objekte zu zerlegen. Gedacht für Panzersperren und ähnliches.
 
 ## Settings
 

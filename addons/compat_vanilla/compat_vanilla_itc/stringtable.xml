@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Compat_Vanilla_Itc">
+        <Key ID="STR_ttt_Compat_Vanilla_Itc_Zamak1">
+            <English>ITC Zamak MRLS (HE)</English>
+            <German>ITC Zamak MRLS (HE)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Vanilla_Itc_Zamak2">
+            <English>ITC Zamak MRLS (GPS guided)</English>
+            <German>ITC Zamak MRLS (GPS gelenkt)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Vanilla_Itc_MountedTablet">
+            <English>Open Mounted Tablet</English>
+            <German>Feuerleitrechner</German>
+        </Key>
+    </Package>
+</Project>

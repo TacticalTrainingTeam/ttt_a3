@@ -33,13 +33,13 @@ if (isDedicated || !hasInterface) exitWith {};
 		}];
 
 		_unit addMPEventHandler ["MPKilled", {																			// EH will trigger globally only once per client
-			params ["_unit", "_killer", "_instigator", "_useEffects"];
+			params ["_unit"];
 			deleteVehicle (_unit getVariable "ttt_effects_breathParticle");												// delete effect for every player
 			_unit setVariable ["ttt_effects_breathParticle", nil, false];
 		}];
 
 		player addMPEventHandler ["MPRespawn", {																		// Only triggered where the unit is local
-			params ["_unit", "_corpse"];
+			params ["_unit"];
 			[[_unit], ttt_effects_fnc_condensedBreathEffects] remoteExec ["call", ([0, -2] select isDedicated), true];	// re-add effect for every player
 		}];
 
