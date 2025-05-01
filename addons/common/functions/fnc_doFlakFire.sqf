@@ -42,7 +42,7 @@ _handle = [
 
 //Set Ammo to full on reload
 private _reloaded = _unit addEventHandler ["Reloaded", {
-    params ["_unit", "_weapon", "_muzzle", "_newMagazine", "_oldMagazine"];
+    params ["_unit"];
     _unit setVehicleAmmo 1;
 }];
 
