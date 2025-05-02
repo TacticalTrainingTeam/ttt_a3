@@ -2,15 +2,15 @@
 <Project name="ttt">
     <Package name="Counterari">
         <Key ID="STR_ttt_Counterari_enemyAri_displayName">
-            <English>Counterbattery - Enemy Artilly</English>
+            <English>Counterbattery - Enemy Artillery</English>
             <German>Konterartillerie - Feindl. Artillerie</German>
         </Key>
         <Key ID="STR_ttt_Counterari_enemyAri_description">
             <English>Synchronized Objects are added to the pool of enemy artillery that will fire on friendly artillery.</English>
             <German>Synchronisierte Objette werden der Gruppe feindlicher Artillery hinzugefügt, welche auf freundliches Artilleriefreuer feuert.</German>
         </Key>
-        <Key ID="STR_ttt_Counterari_friendlyyAri_displayName">
-            <English>Counterbattery - Friendly Artilly</English>
+        <Key ID="STR_ttt_Counterari_friendlyAri_displayName">
+            <English>Counterbattery - Friendly Artillery</English>
             <German>Konterartillerie - Freundl. Artillerie</German>
         </Key>
         <Key ID="STR_ttt_Counterari_friendlyAri_description">

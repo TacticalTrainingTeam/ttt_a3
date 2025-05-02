@@ -47,7 +47,7 @@ class CfgVehicles {
         };
 
         class ModuleDescription: ModuleDescription {
-            description = CSTRING(friendlyAri_desription);;
+            description = CSTRING(friendlyAri_desription);
         };
     };
 };

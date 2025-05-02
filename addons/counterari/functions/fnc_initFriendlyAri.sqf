@@ -26,7 +26,7 @@ if (_activated) then
 {
     
      {
-        _x addeventhandler ["fired", 
+        _x addeventhandler ["Fired", 
             {
                 [
                     _this select 0,
@@ -45,7 +45,7 @@ if (_activated) then
             _x call lambs_wp_fnc_taskReset;
         };
 
-        INFO_1("Adding EH to  friendly Ari %1: ", _x);
+        INFO_1("Adding EH to  friendly Ari %1: ",_x);
      } forEach _units;
 
 };

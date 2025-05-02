@@ -28,7 +28,7 @@ if (_activated) then
 {
      {
         GVAR(enemyAri) pushBack _x;
-        INFO_1("Adding enemy Ari %1: ", _x);
+        INFO_1("Adding enemy Ari %1: ",_x);
      } forEach _units;
 
 };
