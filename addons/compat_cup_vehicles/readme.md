@@ -21,14 +21,6 @@ Eigene Erweiterungen und Anpassungen and CUP-Fahrzeugen.
 - übergibt Kontrolle des Nebelwerfes dem Richtschützen
 - verbessert die Fahreigenschaften
 
-## BTR-80/90
-
-- fügt ACE-Viewports Kompatibilität hinzu
-
-## Bradly M2
-
-- fügt ACE-Viewports Kompatibilität hinzu
-
 ## Referenzen
 
 <https://ace3.acemod.org/wiki/framework/interactionmenu-framework#22-vehicle-interactions-based-on-animations>
@@ -39,6 +31,6 @@ Quelle für viele der Fixes: <https://github.com/BourbonWarfare/POTATO/blob/mast
 
 - CUP Vehicles <https://steamcommunity.com/workshop/filedetails/?id=541888371>
 
-## Maintainers
+## Maintainer
 
 - Andx

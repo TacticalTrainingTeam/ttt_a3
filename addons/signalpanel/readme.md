@@ -7,7 +7,7 @@ Die Plane ist dabei weder an edn Spieler noch den Rucksacktypen gebunden. Der ab
 ## Hinweis
 
 Jeder zugelassene Rucksack hat standardmäßig eine Plane geladen. Sollte dies nicht gewünscht sein, muss auf dem Rucksack die Variable "ttt_signalpanel_hasTarp" auf false gesetzt werden.
-Am einfachsten passiert das in der Loadout.sqf des Spielers mittels:
+Am einfachsten passiert das in der `Loadout.sqf` des Spielers mittels:
 
 ```c++
 (unitBackpack player) setVariable ["ttt_signalpanel_hasTarp", false];

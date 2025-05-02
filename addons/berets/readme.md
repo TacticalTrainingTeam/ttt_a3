@@ -2,6 +2,8 @@
 
 Enthält alle Barette in TTT Farben.
 
+## Class Names
+
 - `ttt_Beret_Blue`
 - `ttt_Beret_Brown`
 - `ttt_Beret_Bronze`

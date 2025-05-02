@@ -4,9 +4,13 @@ Fügt eine Tastenkombination zum Ausblenden aller UI-Elemente für schönere Scr
 
 ## Mod support
 
-* Vanilla Arma
-* DUI Hud
-* ACE: Name Tags, Stamina Bar
+- Vanilla Arma
+- DUI Hud
+- ACE: Name Tags, Stamina Bar
+
+## Bekannte Fehler
+
+- ACRE Funkkreise in Fahrzeugen werden nicht ausgeblendet
 
 ## Refrenzen
 

@@ -2,6 +2,8 @@
 
 Enthält alle Westen in TTT Farben. Es gibt eine leichte, eine schwere und eine für Hubschrauber- oder Fahrzeugbesatzungen.
 
+## Class Names
+
 US Desert
 
 - `ttt_Vest_Heavy_Yellow_US_Desert`

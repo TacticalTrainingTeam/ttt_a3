@@ -495,7 +495,7 @@ ASL_Retract_Ropes = {
 };
 
 ASL_Retract_Ropes_Action = {
-    private ["_vehicle","_canRetractRopes"];
+    private ["_vehicle"];
     if(isNull objectParent player) then {
         _vehicle = cursorTarget;
     } else {
@@ -547,7 +547,7 @@ ASL_Can_Retract_Ropes = {
 ASL_Deploy_Ropes = {
     params ["_vehicle","_player",["_cargoCount",1],["_ropeLength",15]];
     if(local _vehicle) then {
-        private ["_existingRopes","_cargoRopes","_startLength","_slingLoadPoints"];
+        private ["_existingRopes","_cargoRopes","_slingLoadPoints"];
         _slingLoadPoints = [_vehicle] call ASL_Get_Sling_Load_Points;
         _existingRopes = _vehicle getVariable ["ASL_Ropes",[]];
         if(count _existingRopes == 0) then {

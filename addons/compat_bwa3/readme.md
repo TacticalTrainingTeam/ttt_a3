@@ -2,7 +2,11 @@
 
 ## Eagle IV
 
-Fügt dem Eagle IV zwei abnehmbare Rucksäcke `BWA3_PatrolPack_Fleck` hinzu.
+Fügt dem Eagle IV zwei abnehmbare Rucksäcke `BWA3_PatrolPack_Fleck` über ACE-Interaktionen hinzu.
+
+### Referenzen
+
+<https://ace3.acemod.org/wiki/framework/interactionmenu-framework#22-vehicle-interactions-based-on-animations>
 
 ## ACRE
 
@@ -14,14 +18,10 @@ Konfiguriert alle Fahrzeuge mit den gleichen Rack Einstellungen:
 
 Vereinheitlicht außerdem das Infanterietelefon und die Bordverständigungsanlage.
 
-## Referenzen
-
-<https://ace3.acemod.org/wiki/framework/interactionmenu-framework#22-vehicle-interactions-based-on-animations>
-
 ## Abhängigkeiten
 
 - BWmod <https://steamcommunity.com/sharedfiles/filedetails/?id=1200127537>
 
-## Maintainers
+## Maintainer
 
 - Andx

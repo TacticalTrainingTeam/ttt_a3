@@ -1,8 +1,7 @@
 //https://ace3.acemod.org/wiki/framework/interactionmenu-framework#22-vehicle-interactions-based-on-animations
 
 class CfgVehicles {
-    class Car_F;
-    class UK3CB_BAF_LandRover_WMIK_Base: Car_F {};
+    class UK3CB_BAF_LandRover_WMIK_Base;
     class UK3CB_BAF_LandRover_WMIK_Milan_Base: UK3CB_BAF_LandRover_WMIK_Base {
         class ace_interaction_anims {
             class Gear_Hide { 
