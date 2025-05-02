@@ -84,7 +84,7 @@
 				if ((alive _x) and ({alive _x} count crew _x > 0)) then 
 				{
 				
-					//Get the right ammo, ever artillery should have HE at first magazine
+					//Get the right ammo, every artillery should have HE at first magazine
 					//Doesent work for mortar with ACE
 					_ammo = getArtilleryAmmo [_x] select 0;
 

@@ -1,5 +1,5 @@
-#define COMPONENT counter_ari
-#define COMPONENT_BEAUTIFIED Konter Artillerie
+#define COMPONENT counterari
+#define COMPONENT_BEAUTIFIED Counter Artillery
 #include "\z\ttt\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

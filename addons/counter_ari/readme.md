@@ -1,5 +1,0 @@
-# Konterartillerie
-
-## Maintainer
-
-- Andx
