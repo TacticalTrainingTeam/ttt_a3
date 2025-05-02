@@ -26,7 +26,7 @@ if (_activated) then
 {
     
      {
-        _x addeventhandler ["Fired", 
+        _x addEventHandler ["Fired", 
             {
                 [
                     _this select 0,

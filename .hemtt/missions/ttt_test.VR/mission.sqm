@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=106;
+		nextID=108;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5836.0342,51.747639,4917.5264};
-		dir[]={0.69530696,-0.61046892,-0.37938771};
-		up[]={0.53590137,0.79202616,-0.2924087};
-		aside[]={-0.47899309,-4.2140891e-07,-0.87785578};
+		pos[]={5852.7827,142.78827,4774.3501};
+		dir[]={-0.64591354,-0.37916443,0.66264635};
+		up[]={-0.26468489,0.92531466,0.27154133};
+		aside[]={0.71611798,-3.3364631e-07,0.69803542};
 	};
 };
 binarizationWanted=0;
@@ -43,17 +43,13 @@ addons[]=
 	"ace_repair",
 	"ace_vehicle_damage",
 	"A3_Structures_F_Civ_Camping",
-	"ace_dragging",
-	"ttt_counterari",
-	"A3_Characters_F_Exp",
-	"A3_Armor_F_Exp_MBT_01",
-	"A3_Armor_F_Gamma_MBT_02"
+	"ace_dragging"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=21;
+		items=17;
 		class Item0
 		{
 			className="A3_Soft_F_Gamma";
@@ -173,40 +169,11 @@ class AddonsMetaData
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item17
-		{
-			className="ttt_counterari";
-			name="TTT - Counter Artillery";
-			author="Tactical Training Team";
-			url="https://tacticalteam.de";
-		};
-		class Item18
-		{
-			className="A3_Characters_F_Exp";
-			name="Arma 3 Apex - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item19
-		{
-			className="A3_Armor_F_Exp";
-			name="Arma 3 Apex - Armored Land Vehicles";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item20
-		{
-			className="A3_Armor_F_Gamma";
-			name="Arma 3 - Armored Land Vehicles";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
 	};
 };
 dlcs[]=
 {
-	"Heli",
-	"Expansion"
+	"Heli"
 };
 randomSeed=2912351;
 class ScenarioData
@@ -257,7 +224,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=73;
+		items=67;
 		class Item0
 		{
 			dataType="Object";
@@ -1668,293 +1635,6 @@ class Mission
 			};
 			id=93;
 			type="Land_Sun_chair_F";
-		};
-		class Item67
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={2605.7881,5,7115.6558};
-			};
-			id=94;
-			type="ttt_counterari_enemy_ari";
-		};
-		class Item68
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={5886.0273,5,4887.4829};
-			};
-			id=95;
-			type="ttt_counterari_friendly_ari";
-		};
-		class Item69
-		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=3;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={5922.709,5.0014391,4895.6987};
-					};
-					side="West";
-					flags=4;
-					class Attributes
-					{
-					};
-					id=98;
-					type="B_T_Crew_F";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={5922.709,8.0847502,4895.6987};
-					};
-					side="West";
-					class Attributes
-					{
-					};
-					id=99;
-					type="B_T_Crew_F";
-					atlOffset=3.0833111;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={5922.709,8.0847502,4895.6987};
-					};
-					side="West";
-					flags=2;
-					class Attributes
-					{
-					};
-					id=100;
-					type="B_T_Crew_F";
-					atlOffset=3.0833111;
-				};
-			};
-			class Attributes
-			{
-			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=3;
-				};
-				class Links
-				{
-					items=3;
-					class Item0
-					{
-						linkID=0;
-						item0=98;
-						item1=97;
-						class CustomData
-						{
-							role=1;
-						};
-					};
-					class Item1
-					{
-						linkID=1;
-						item0=99;
-						item1=97;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0};
-						};
-					};
-					class Item2
-					{
-						linkID=2;
-						item0=100;
-						item1=97;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0,0};
-						};
-					};
-				};
-			};
-			id=96;
-			atlOffset=-4.7683716e-07;
-		};
-		class Item70
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={5922.709,8.0833111,4895.6489};
-			};
-			side="West";
-			flags=6;
-			class Attributes
-			{
-			};
-			id=97;
-			type="B_T_MBT_01_arty_F";
-			atlOffset=-4.7683716e-07;
-		};
-		class Item71
-		{
-			dataType="Group";
-			side="East";
-			class Entities
-			{
-				items=3;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2454.9517,5.0014391,7146.2197};
-					};
-					side="East";
-					flags=4;
-					class Attributes
-					{
-					};
-					id=103;
-					type="O_crew_F";
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2454.9517,7.9177775,7146.2197};
-					};
-					side="East";
-					class Attributes
-					{
-					};
-					id=104;
-					type="O_crew_F";
-					atlOffset=2.9163384;
-				};
-				class Item2
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={2454.9517,7.9177775,7146.2197};
-					};
-					side="East";
-					flags=2;
-					class Attributes
-					{
-					};
-					id=105;
-					type="O_crew_F";
-					atlOffset=2.9163384;
-				};
-			};
-			class Attributes
-			{
-			};
-			class CrewLinks
-			{
-				class LinkIDProvider
-				{
-					nextID=3;
-				};
-				class Links
-				{
-					items=3;
-					class Item0
-					{
-						linkID=0;
-						item0=103;
-						item1=102;
-						class CustomData
-						{
-							role=1;
-						};
-					};
-					class Item1
-					{
-						linkID=1;
-						item0=104;
-						item1=102;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0};
-						};
-					};
-					class Item2
-					{
-						linkID=2;
-						item0=105;
-						item1=102;
-						class CustomData
-						{
-							role=2;
-							turretPath[]={0,0};
-						};
-					};
-				};
-			};
-			id=101;
-		};
-		class Item72
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2454.9517,7.9163384,7146.1699};
-			};
-			side="East";
-			flags=6;
-			class Attributes
-			{
-			};
-			id=102;
-			type="O_MBT_02_arty_F";
-		};
-	};
-	class Connections
-	{
-		class LinkIDProvider
-		{
-			nextID=2;
-		};
-		class Links
-		{
-			items=2;
-			class Item0
-			{
-				linkID=0;
-				item0=95;
-				item1=97;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
-			class Item1
-			{
-				linkID=1;
-				item0=94;
-				item1=102;
-				class CustomData
-				{
-					type="Sync";
-				};
-			};
 		};
 	};
 };

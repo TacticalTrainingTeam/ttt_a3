@@ -30,7 +30,7 @@ class CfgVehicles {
         };
 
         class ModuleDescription: ModuleDescription {
-            description = CSTRING(enemyAri_desription);
+            description = CSTRING(enemyAri_description);
         };
     };
 
@@ -47,7 +47,7 @@ class CfgVehicles {
         };
 
         class ModuleDescription: ModuleDescription {
-            description = CSTRING(friendlyAri_desription);
+            description = CSTRING(friendlyAri_description);
         };
     };
 };
