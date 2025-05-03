@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Compat_Bwa3_Itc">
-        <Key ID="STR_ttt_Compat_Bwa3_Itc_Panzerhaubitze2000Name1">
-            <English>ITC Panzerhaubitze 2000 (Fleck)</English>
-            <German>ITC Panzerhaubitze 2000 (Fleck)</German>
-        </Key>
-        <Key ID="STR_ttt_Compat_Bwa3_Itc_Panzerhaubitze2000Name2">
-            <English>ITC Panzerhaubitze 2000 (Tropen)</English>
-            <German>ITC Panzerhaubitze 2000 (Tropen)</German>
-        </Key>
         <Key ID="STR_ttt_Compat_Bwa3_Itc_AmmoHandling">
             <English>Open Ammo Handling Interface</English>
             <German>Munitions Interface</German>
         </Key>
-        <Key ID="STR_ttt_Compat_Bwa3_Itc_MountedTablet">
-            <English>Open Mounted Tablet</English>
-            <German>Feuerleitrechner</German>
+        <Key ID="STR_ttt_Compat_Bwa3_Itc_DM106_Name">
+            <English>DM106 Illum-Shell</English>
+            <German>DM106 Leucht-Granate</German>
         </Key>
-        <Key ID="STR_ttt_Compat_Bwa3_Itc_Panzerhaubitze2000">
-            <English>PzH2000 - 155mmm Howitzer</English>
-            <German>PzH2000 - 155mmm Haubitze</German>
-        </Key>
-        <Key ID="STR_ttt_Compat_Bwa3_Itc_RH155_52">
-            <English>RH-155 L/52</English>
-            <German>RH-155 L/52</German>
+        <Key ID="STR_ttt_Compat_Bwa3_Itc_DM106_ShortName">
+            <English>DM106 (Illum)</English>
+            <German>DM106 (Leucht)</German>
         </Key>
         <Key ID="STR_ttt_Compat_Bwa3_Itc_DM121_Name">
             <English>DM121 HE-Shell</English>
@@ -41,14 +29,6 @@
             <English>DM125 (Smoke)</English>
             <German>DM125 (Rauch)</German>
         </Key>
-        <Key ID="STR_ttt_Compat_Bwa3_Itc_M718_Name">
-            <English>M718 Mine-AT</English>
-            <German>M718 Mine-AT</German>
-        </Key>
-        <Key ID="STR_ttt_Compat_Bwa3_Itc_M718_ShortName">
-            <English>M718 (M-AT)</English>
-            <German>M718 (M-AT)</German>
-        </Key>
         <Key ID="STR_ttt_Compat_Bwa3_Itc_DM702_lgm_Name">
             <English>DM702 SMArt-Shell Laser Guided</English>
             <German>DM702 SMArt-Granate Laser gelenkt</German>
@@ -65,13 +45,33 @@
             <English>DM702 (SMArt GPS)</English>
             <German>DM702 (SMArt GPS)</German>
         </Key>
-        <Key ID="STR_ttt_Compat_Bwa3_Itc_DM106_Name">
-            <English>DM106 Illum-Shell</English>
-            <German>DM106 Leucht-Granate</German>
+        <Key ID="STR_ttt_Compat_Bwa3_Itc_M718_Name">
+            <English>M718 Mine-AT</English>
+            <German>M718 Mine-AT</German>
         </Key>
-        <Key ID="STR_ttt_Compat_Bwa3_Itc_DM106_ShortName">
-            <English>DM106 (Illum)</English>
-            <German>DM106 (Leucht)</German>
-        </Key>  
+        <Key ID="STR_ttt_Compat_Bwa3_Itc_M718_ShortName">
+            <English>M718 (M-AT)</English>
+            <German>M718 (M-AT)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_Itc_MountedTablet">
+            <English>Open Mounted Tablet</English>
+            <German>Feuerleitrechner</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_Itc_Panzerhaubitze2000">
+            <English>PzH2000 - 155mmm Howitzer</English>
+            <German>PzH2000 - 155mmm Haubitze</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_Itc_Panzerhaubitze2000Name1">
+            <English>ITC Panzerhaubitze 2000 (Fleck)</English>
+            <German>ITC Panzerhaubitze 2000 (Fleck)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_Itc_Panzerhaubitze2000Name2">
+            <English>ITC Panzerhaubitze 2000 (Tropen)</English>
+            <German>ITC Panzerhaubitze 2000 (Tropen)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_Itc_RH155_52">
+            <English>RH-155 L/52</English>
+            <German>RH-155 L/52</German>
+        </Key>
     </Package>
 </Project>
