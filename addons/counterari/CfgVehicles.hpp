@@ -17,37 +17,69 @@ class CfgVehicles {
         };
     };
 
-    class GVAR(enemy_ari): Module_F {
+    class GVAR(registerEnemyAriModule): Module_F {
         scope = 2;
-        displayName = CSTRING(enemyAri_displayName);
+        displayName = CSTRING(registerEnemyAriModule_displayName);
         icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
         category = "Supports";
         function = QFUNC(initEnemyAri); 
         isGlobal = 1;
-        
+
         class Attributes: AttributesBase {
             class ModuleDescription: ModuleDescription {};
         };
 
         class ModuleDescription: ModuleDescription {
-            description = CSTRING(enemyAri_description);
+            description = CSTRING(registerEnemyAriModule_description);
         };
     };
 
-    class GVAR(friendly_ari): Module_F {
+    class GVAR(registerFriendlyAriModule): Module_F {
         scope = 2;
-        displayName = CSTRING(friendlyAri_displayName);
+        displayName = CSTRING(registerFriendlyAriModule_displayName);
         icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
         category = "Supports";
         function = QFUNC(initFriendlyAri);
         isGlobal = 1;
         
         class Attributes: AttributesBase {
+            class GVAR(registerFriendlyAriModule_radius): Edit {
+                property = QGVAR(registerFriendlyAriModule_radius);
+                displayName = CSTRING(registerFriendlyAriModule_radius_displayName);
+                tooltip = CSTRING(registerFriendlyAriModule_radius_tooltip);
+                typeName = "NUMBER";
+                defaultValue = "100";
+            };
+
+            class GVAR(registerFriendlyAriModule_rounds): Edit {
+                property = QGVAR(registerFriendlyAriModule_rounds);
+                displayName = CSTRING(registerFriendlyAriModule_rounds_displayName);
+                tooltip = CSTRING(registerFriendlyAriModule_rounds_tooltip);
+                typeName = "NUMBER";
+                defaultValue = "5";
+            };
+
+            class GVAR(registerFriendlyAriModule_decrementing): Checkbox {
+                property = QGVAR(registerFriendlyAriModule_decrementing);
+                displayName = CSTRING(registerFriendlyAriModule_decrementing_displayName);
+                tooltip = CSTRING(registerFriendlyAriModule_decrementing_tooltip);
+                typeName = "BOOL";
+                defaultValue = "true";
+            };
+
+            class GVAR(registerFriendlyAriModule_delay): Edit {
+                property = QGVAR(registerFriendlyAriModule_delay);
+                displayName = CSTRING(registerFriendlyAriModule_delay_displayName);
+                tooltip = CSTRING(registerFriendlyAriModule_delay_tooltip);
+                typeName = "NUMBER";
+                defaultValue = "5";
+            };
+            
             class ModuleDescription: ModuleDescription {};
         };
 
         class ModuleDescription: ModuleDescription {
-            description = CSTRING(friendlyAri_description);
+            description = CSTRING(registerFriendlyAriModule_description);
         };
     };
 };

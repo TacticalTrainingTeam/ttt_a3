@@ -1,6 +1,6 @@
 #include "..\script_component.hpp"
 /*
- * Authors: You
+ * Authors: Andx
  * Description.
  *
  * Arguments:
@@ -24,19 +24,22 @@ params [
 // Module specific behavior. Function can extract arguments from logic and use them.
 if (_activated) then
 {
-    
+    private _radius = _logic getVariable [QGVAR(registerFriendlyAriModule_radius), 100];
+    private _rounds = _logic getVariable [QGVAR(registerFriendlyAriModule_rounds), 5];
+    private _decrementing = _logic getVariable [QGVAR(registerFriendlyAriModule_decrementing), true];
+    private _delay = _logic getVariable [QGVAR(registerFriendlyAriModule_delay), 5];
      {
         _x addEventHandler ["Fired", 
             {
                 [
-                    _this select 0,
-                    _this select 5,
-                    100,
-                    selectRandom [3,4,5],
-                    true,
-                    GVAR(enemyAri),
-                    [],
-                    0
+                    (_this select 0),
+                    (_this select 5),
+                    (GVAR(enemyAri)),
+                    _radius,
+                    _rounds,
+                    _decrementing,
+                    _delay,
+                    []
                 ] remoteExec ["ttt_counterAri_fnc_AriCounterFire",2]
             }
         ];
@@ -47,7 +50,6 @@ if (_activated) then
 
         INFO_1("Adding EH to  friendly Ari %1: ",_x);
      } forEach _units;
-
 };
 // Module function is executed by spawn command, so returned value is not necessary, but it is good practice.
 true;

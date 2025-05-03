@@ -10,7 +10,7 @@
 	//				 
 	//	Blacklist units when useing headless client: Yes (Blacklist enemy arti crew)
 	//
-	//	Example: [thisTrigger,100,selectRandom [3,4,5],true,[enemyAri_1,enemyAri_2,enemyAri_3,enemyAri_4]] spawn Redd_fnc_AriFire;
+	//	Example: [thisTrigger,100,selectRandom [3,4,5],true,[enemyAri_1,enemyAri_2,enemyAri_3,enemyAri_4]] call  ttt_counterari_fnc_AriFire;
 	//			 Create trigger on position where you want the artillery to shoot at with specific radius, set to "OnlyServer"	
 	//			 Take trigger radius for parameter radius
 	//			 Spawn from OnActivation 
@@ -27,17 +27,17 @@
 	
 	//Check if global variable is initialised
 	/*
-	if (isNil {Redd_artiMission}) then 
+	if (isNil {Redd_ariFire}) then 
 	{
   
   		//Set global variable
-		missionNamespace setVariable ["Redd_artiMission", false];
+		missionNamespace setVariable ["Redd_ariFire", false];
   
 	};
 	*/
 
 	//As long as there is no other firemission the artillery can shoot
-	if !(missionNamespace getVariable ["Redd_artiMission", false]) then 
+	if !(missionNamespace getVariable ["Redd_ariFire", false]) then 
 	{
 		
 		params ["_artiTarget","_radius","_rounds","_decrementRadius","_enemyArtyArray"];
@@ -64,8 +64,8 @@
 		{
 			
 			//Set global variable true so no other trigger can call this function
-			//Redd_artiMission = true;
-			missionNamespace setVariable ["Redd_artiMission", true];
+			//Redd_ariFire = true;
+			missionNamespace setVariable ["Redd_ariFire", true];
 
 			//Get trigger position
 			_centerPos = getPos _artiTarget;
@@ -77,43 +77,48 @@
 			Redd_arti_shots = 0;
 			
 			{
-				//Check if artillery is alive, otherwise exit and subtract the rounds this artillery has shot
+				//Check if artillery is alive, otherwise subtract the rounds this artillery has shot
 				if ((!alive _x) or ({alive _x} count crew _x == 0)) then {_allShots = _allShots - _rounds};
 
 				//Only run if artillery is alive and has crew
 				if ((alive _x) and ({alive _x} count crew _x > 0)) then 
 				{
 				
-					//Get the right ammo, every artillery should have HE at first magazine
+					//Get the right ammo, ever artillery should have HE at first magazine
 					//Doesent work for mortar with ACE
 					_ammo = getArtilleryAmmo [_x] select 0;
 
-					//ToDo Remove Spawn
-					//Spawn the firemission function
-					[_x,_centerPos,_radius,_ammo,_rounds,_decrementRadius] spawn FUNC(AriFireMission);
-					
-					//Wait a while for the next artillery to fire
-					uiSleep (0.75 + random 0.5);
-
+					//Call the firemission function random delayed for each Arty via CBA
+					[
+						{
+							params ["_arty","_centerPos","_radius","_ammo","_rounds","_decrementRadius"];
+							[_arty,_centerPos,_radius,_ammo,_rounds,_decrementRadius] call FUNC(AriFireMission);
+						},
+						[_x,_centerPos,_radius,_ammo,_rounds,_decrementRadius],
+						(0.75 + random 0.5)
+					] call CBA_fnc_waitAndExecute;
 				};
-				
-			}
-			forEach _enemyArtyArray;
+			} forEach _enemyArtyArray;
 			
 			//Wait for all rounds to be shot, than remove eventhandler for each artillery and set ammo 1
-			waitUntil {sleep 1;Redd_arti_shots == _allShots};
-			{
-				
-				_x setVehicleAmmo 1;
-				
-			}
-			forEach _enemyArtyArray;
+			[
+				{
+					params ["_allShots"];
+					Redd_arti_shots == _allShots
+				},
+				{
+					params ["","_enemyArtyArray"];
+					//reset ammo
+					{_x setVehicleAmmo 1;} forEach _enemyArtyArray;
+
+					//Set global variable to false so artillery can get another firemission
+					missionNamespace setVariable ["Redd_ariCounterFire", false];
+				},
+				[_allShots,_enemyArtyArray]
+			] call CBA_fnc_waitUntilAndExecute;
 			
 			//Set global variable to false so artillery can get another firemission
-			missionNamespace setVariable ["Redd_artiMission", false];
-			
+			missionNamespace setVariable ["Redd_ariFire", false];
 		};
-		
 	};
-
 	true

@@ -23,58 +23,46 @@
 
 	params ["_unit","_centerPos","_radius","_ammo","_rounds","_decrementRadius"];
 	
-	_decrementStep = 0;
-
 	//Get weapon classname
 	_weaponsArray = _unit weaponsTurret [0];
 	_weapon = _weaponsArray select 0;
 
-	//check if you want to decrement the radius and decrement it per shot depending on radius
-	if (_decrementRadius) then
-	{
-		_decrementStep = _radius / _rounds + 1;
-
-	};
-	
 	//Let artillery shot the ammount of rounds
 	for "_i" from 1 to _rounds do
 	{
-		
-		//Calculate where to shot to simulate deviation
-		_randomPos = _centerPos getPos [_radius * sqrt random 1, random 360];
-        _randomPos = [round (_randomPos select 0), round (_randomPos select 1), 0];
-
-		//Calculate new radius if you want to decrement the radius
-		if (_decrementRadius) then
-		{
-			
-			_radius = _radius - _decrementStep;
-
-		};
-
-		if (alive _unit) then {_unit doArtilleryFire [_randomPos, _ammo, 1];};
-		
-		waitUntil 
-		{
-
-			sleep 1;
-			if (alive _unit) then 
+		[
 			{
-
-				unitReady _unit;
-
-			}
-			else
+				params ["_unit"];			
+				if (alive _unit) then 
+				{
+					unitReady _unit;
+				}
+				else
+				{
+					true;
+				};
+			},
 			{
+				params ["_unit","_centerPos","_radius","_ammo","_decrementRadius","_rounds","_fireIndex"];
 
-				true;
+				private _startRad = _radius;
 
-			};
+				//check if you want to decrement the radius and decrement it per shot depending on radius and current count
+				if (_decrementRadius) then
+				{
+					_radius = _radius - ((_fireIndex - 1) * (_radius / _rounds));
+				};
 
-		};
+				//Calculate where to shot to simulate deviation
+				_randomPos = _centerPos getPos [_radius * sqrt random 1, random 360];
+				_randomPos = [round (_randomPos select 0), round (_randomPos select 1), 0];
 
-		Redd_arti_shots = Redd_arti_shots + 1;
-
+				if (alive _unit) then {_unit doArtilleryFire [_randomPos, _ammo, 1];};
+				
+				Redd_arti_shots = Redd_arti_shots + 1;
+				//hint format ["Unit: %1\nShot: %2 / %5\nRadius: %3 / %6\n\n(Decrement: %4)",_unit,_fireIndex,_radius,_decrementRadius,_rounds,_startRad];
+			},
+			[_unit,_centerPos,_radius,_ammo,_decrementRadius,_rounds,_i]
+		] call CBA_fnc_waitUntilAndExecute;
 	};
-
 	true

@@ -4,14 +4,14 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            QGVAR(enemy_ari),
-            QGVAR(friendly_ari)
+            QGVAR(registerEnemyAriModule),
+            QGVAR(registerFriendlyAriModule)
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"ttt_common", "A3_Modules_F"};
         author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Redd", "Andx"};
+        authors[] = {"Redd", "Andx", "EinStein"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
