@@ -60,7 +60,7 @@
 				if (alive _unit) then {_unit doArtilleryFire [_randomPos, _ammo, 1];};
 				
 				Redd_arti_shots = Redd_arti_shots + 1;
-				//hint format ["Unit: %1\nShot: %2 / %5\nRadius: %3 / %6\n\n(Decrement: %4)",_unit,_fireIndex,_radius,_decrementRadius,_rounds,_startRad];
+				hint format ["Unit: %1\nShot: %2 / %5\nRadius: %3 / %6\n\n(Decrement: %4)",_unit,_fireIndex,_radius,_decrementRadius,_rounds,_startRad];
 			},
 			[_unit,_centerPos,_radius,_ammo,_decrementRadius,_rounds,_i]
 		] call CBA_fnc_waitUntilAndExecute;

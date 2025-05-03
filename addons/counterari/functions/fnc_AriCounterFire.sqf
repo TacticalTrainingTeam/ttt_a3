@@ -37,11 +37,11 @@ params [
 	"_ownArty",
 	"_magazine",
 	"_enemyArtyArray",
-	["_radius", 100, ["NUMBER"]],
-	["_rounds", (selectRandom [3,4,5]), ["NUMBER"]],
-	["_decrementRadius", true, ["BOOLEAN"]],
-	["_counterTime", 0, ["NUMBER"]],
-	["_enemyArtyRadarArray", [], ["ARRAY"]]
+	["_radius", 100, [42]],
+	["_rounds", (selectRandom [3,4,5]), [42]],
+	["_decrementRadius", true, [true]],
+	["_counterTime", 0, [42]],
+	["_enemyArtyRadarArray", [], [[]]]
 ];
 
 //Exit if there are no guns anymore

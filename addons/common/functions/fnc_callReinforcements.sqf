@@ -27,11 +27,11 @@ params [
 	"_atPos", 
 	"_side", 
 	"_vehicleType", 
-	["_rpBehaviour", 0, ["NUMBER"]],
-	["_grpCfg", configFile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad", ["GROUP", "ARRAY"]],
-	["_grpBehaviour", 2, ["NUMBER"]],
-	["_height", 80, ["NUMBER"]]
-	];
+	["_rpBehaviour", 0, [42]],
+	["_grpCfg", configFile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad", [[]]],
+	["_grpBehaviour", 2, [42]],
+	["_height", 80, [42]]
+];
 
 disableSerialization;
 

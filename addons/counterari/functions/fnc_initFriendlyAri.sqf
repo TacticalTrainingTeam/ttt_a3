@@ -35,10 +35,10 @@ if (_activated) then
                     (_this select 0),
                     (_this select 5),
                     (GVAR(enemyAri)),
-                    _radius,
-                    _rounds,
-                    _decrementing,
-                    _delay,
+                    100,
+                    selectRandom [3,4,5],
+                    true,
+                    0,
                     []
                 ] remoteExec ["ttt_counterAri_fnc_AriCounterFire",2]
             }
