@@ -141,6 +141,7 @@ Folgendes Prests stehen zur Verfügung:
 
 - `TTT_OHK` für das Befestigen einzelner Gebäude im OHK
 - `TTT_FOB` für das Errichten einer FOB oder eines Checkpoint
+- `TTT_Camping` - für Übernachtungen (z.B. in Patrouillen)
 - `TTT_GM` enthält Assets auf dem GM DLC, nicht speziell für ein bestimmtes Szenario gedacht
 
 ### Kisten
