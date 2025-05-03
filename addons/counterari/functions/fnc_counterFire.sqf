@@ -25,27 +25,33 @@
 * <BOOL> true if executed
 *
 * Example:
-* this addEventhandler ["fired", {[_this select 0,_this select 5,100,selectRandom [3,4,5],true,[enemyAri_1,enemyAri_2,enemyAri_3,enemyAri_4],[],0] remoteExec ["ttt_counterari_fnc_AriCounterFire",2]}];
+* this addEventhandler ["fired", {[_this select 0,_this select 5,100,selectRandom [3,4,5],true,[enemyAri_1,enemyAri_2,enemyAri_3,enemyAri_4],[],0] remoteExec ["ttt_counterari_fnc_counterFire",2]}];
 * Add eventhandler to own artillery in units initline
 *
 * Public: Yes
 */
 
-if (!isServer || missionNamespace getVariable ["Redd_ariCounterFire", false]) exitWith {};
+if (!isServer || missionNamespace getVariable ["Redd_counterFire", false]) exitWith {};
 
 params [
 	"_ownArty",
 	"_magazine",
 	"_enemyArtyArray",
-	["_radius", 100, ["NUMBER"]],
-	["_rounds", (selectRandom [3,4,5]), ["NUMBER"]],
-	["_decrementRadius", true, ["BOOLEAN"]],
-	["_counterTime", 0, ["NUMBER"]],
-	["_enemyArtyRadarArray", [], ["ARRAY"]]
+	["_radius", 100, [42]],
+	["_rounds", (selectRandom [3,4,5]), [42]],
+	["_decrementRadius", true, [true]],
+	["_counterTime", 0, [42]],
+	["_enemyArtyRadarArray", [], [[]]]
 ];
 
 //Exit if there are no guns anymore
 if (_enemyArtyArray isEqualTo []) exitWith {};
+
+//if module is used, entered values should be used
+if !(missionNamespace isNil QGVAR(registerFriendlyAriModule_radius)) then {_radius = missionNamespace getVariable QGVAR(registerFriendlyAriModule_radius)};
+if !(missionNamespace isNil QGVAR(registerFriendlyAriModule_rounds)) then {_rounds = missionNamespace getVariable QGVAR(registerFriendlyAriModule_rounds)};
+if !(missionNamespace isNil QGVAR(registerFriendlyAriModule_decrementing)) then {_decrementRadius = missionNamespace getVariable QGVAR(registerFriendlyAriModule_decrementing)};
+if !(missionNamespace isNil QGVAR(registerFriendlyAriModule_delay)) then {_counterTime = missionNamespace getVariable QGVAR(registerFriendlyAriModule_delay)};
 
 _ammo = 0;//init
 //Get enemy ari ammo
@@ -65,8 +71,7 @@ if ((getPos _ownArty) inRangeOfArtillery [_enemyArtyArray, _ammo]) then
 	{
 	
 		//Set global variable true so no other trigger can call this function
-		//Redd_ariCounterFire = true;
-		missionNamespace setVariable ["Redd_ariCounterFire", true];
+		missionNamespace setVariable ["Redd_counterFire", true];
 
 		//Calculate time for counterfire depending on number of Enemy artillery radars
 		{
@@ -105,10 +110,10 @@ if ((getPos _ownArty) inRangeOfArtillery [_enemyArtyArray, _ammo]) then
 						[
 							{
 								params ["_arty","_centerPos","_radius","_ammo","_rounds","_decrementRadius"];
-								[_arty,_centerPos,_radius,_ammo,_rounds,_decrementRadius] call FUNC(AriFireMission);
+								[_arty,_centerPos,_radius,_ammo,_rounds,_decrementRadius] call FUNC(fireMission);
 							},
 							[_x,_centerPos,_radius,_ammo,_rounds,_decrementRadius],
-							(0.75 + random 0.5)
+							random 2
 						] call CBA_fnc_waitAndExecute;
 					};
 				} forEach _enemyArtyArray;
@@ -125,7 +130,7 @@ if ((getPos _ownArty) inRangeOfArtillery [_enemyArtyArray, _ammo]) then
 						{_x setVehicleAmmo 1;} forEach _enemyArtyArray;
 
 						//Set global variable to false so artillery can get another firemission
-						missionNamespace setVariable ["Redd_ariCounterFire", false];
+						missionNamespace setVariable ["Redd_counterFire", false];
 					},
 					[_allShots,_enemyArtyArray]
 				] call CBA_fnc_waitUntilAndExecute;

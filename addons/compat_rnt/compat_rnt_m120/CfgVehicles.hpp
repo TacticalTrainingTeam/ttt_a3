@@ -44,7 +44,7 @@ class CfgVehicles {
         };
 
         class EventHandlers {
-            init = "_this call redd_fnc_m120_init";
+            init = "call redd_fnc_m120_init";
             fired = QUOTE(_this spawn redd_fnc_m120_fired; call FUNC(m120HandleFired)); // Replace Redd's ACE fired handler with own because Redd's causes script errors.
 
             // Readd CBA XEH EventHandlers. (Redd didn't inherit from base eventhandlers overwriting all eventhandlers including XEH)

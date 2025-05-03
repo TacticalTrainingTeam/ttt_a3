@@ -1,19 +1,22 @@
 #include "..\script_component.hpp"
 /*
- * Authors: Andx
- * Description.
- *
- * Arguments:
- * 0: Argument (optional, default: value) <OBJECT>
- *
- * Return Value:
- * Return description <NONE>
- *
- * Example:
- * [params] call PREFIX_counter_ari_fnc_initEnemyAri
- *
- * Public: No
- */
+* Authors: Andx & EinStein
+*
+* Description:
+* n.a.
+*
+* Arguments:
+* Arma 3 Module Function Parameters
+* https://community.bistudio.com/wiki/Modules#Configuring_the_Module_Function
+*
+* Return Value:
+* n.a.
+*
+* Example:
+* n.a.
+*
+* Public: No
+*/
 
 params [
 	["_logic", objNull, [objNull]],		// Argument 0 is module logic

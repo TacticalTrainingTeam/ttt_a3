@@ -23,7 +23,7 @@
         </Key>
         <Key ID="STR_ttt_Counterari_registerFriendlyAriModule_radius_tooltip">
             <English>In which radius should the return fire hit. If “Reduce radius” is selected, the shots become increasingly accurate.</English>
-            <German>In welchem Radius soll das Gegenfeuer einschlagen. Ist "Radius verkleinern", werden die Schüsse immer genauer.</German>
+            <German>In welchem Radius soll das Gegenfeuer einschlagen. Ist "Radius verkleinern" aktiviert, werden die Schüsse immer genauer.</German>
         </Key>
         <Key ID="STR_ttt_Counterari_registerFriendlyAriModule_rounds_displayName">
             <English>Rounds to Fire</English>
@@ -31,7 +31,7 @@
         </Key>
         <Key ID="STR_ttt_Counterari_registerFriendlyAriModule_rounds_tooltip">
             <English>How often should the counterbattery fire (per vehicle).</English>
-            <German>Wie oft soll die Konterartillerie (je Fahrzeug) feuern.</German>
+            <German>Wie oft soll die Konterartillerie (pro Fahrzeug) feuern.</German>
         </Key>
         <Key ID="STR_ttt_Counterari_registerFriendlyAriModule_decrementing_displayName">
             <English>Reduce radius</English>
