@@ -33,7 +33,8 @@ Stellt folgende Funktionen an andere Addons zur Verfügung:
 [
     [container],
     [
-        [item, count]
+        ["item", count],
+        ["item", count]
     ],
     clear
 ] call ttt_common_fnc_crateFiller; 
@@ -180,10 +181,10 @@ Stellt eine Komposition zur Verfügung um immer benutzte Module beim Anfang eine
 
 - HC, spielbar, `hc_01`
 - 3x Spectator, spielbar
-- Zeus `#loggedAdmin`
-- Zeus `#votedAdmin`
-- Zeus `zeus`
+- Zeus `#adminLogged`
+- Zeus `#adminVoted`
 - Zeus `zeus_1`
+- Zeus `zeus_2`
 - Zeus Missionsbauer -> SteamID eintragen!
 - Leerer Marker `respawn` (TTT-Flagge mit Zuschauerkamera und techn. Teleport wird automatisch erzeugt)
 - 2x Zivilist `zeus` + `zeus_1`
