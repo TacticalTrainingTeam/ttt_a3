@@ -17,7 +17,7 @@
  *
  */
 
-params ["_tripod", "_player"];
+params ["", "_player"];
 
 private _primary = primaryWeapon _player;
 private _supportedMgs = [

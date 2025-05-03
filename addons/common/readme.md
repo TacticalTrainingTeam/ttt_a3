@@ -1,5 +1,26 @@
 # Common
 
+## Inhaltsverzeichnis
+
+- [Common](#common)
+  - [Inhaltsverzeichnis](#inhaltsverzeichnis)
+  - [Funktionen](#funktionen)
+    - [crateFiller](#cratefiller)
+      - [Beispiel](#beispiel)
+    - [callReinforcements](#callreinforcements)
+      - [Beispiele](#beispiele)
+    - [Atmosphärisches Flak-Feuer](#atmosphärisches-flak-feuer)
+      - [Beispiel](#beispiel-1)
+    - [ACE-Fortify Presets](#ace-fortify-presets)
+    - [Kisten](#kisten)
+      - [Sanitätskisten](#sanitätskisten)
+      - [Pionierkisten](#pionierkisten)
+      - [Spezialkisten](#spezialkisten)
+  - [Compositions](#compositions)
+  - [Bilder](#bilder)
+  - [Einheiten](#einheiten)
+  - [Maintainer](#maintainer)
+
 ## Funktionen
 
 Stellt folgende Funktionen an andere Addons zur Verfügung:
@@ -22,6 +43,8 @@ Stellt folgende Funktionen an andere Addons zur Verfügung:
 **item:** STRING - Inventargegenstand welcher hinzugefügt werden soll  
 **count:**  INTEGER - Anzahl der hinzuzufügenden Inventargegenstände  
 **clear:** BOOLEAN (Optional, default: true) - Vorherigen Inventarinhalt des Objektes leeren
+
+Kann in der `initServer.sqf` oder während der Mission auf dem Server aufgerufen werden.
 
 #### Beispiel
 
@@ -60,6 +83,8 @@ Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=72
 **groupBehaviour:** INTEGER (optional, default: 2) - Welches Verhalten haben die Einheiten ab ihrem Releasepunkt (0: relaxed, 1: cautious, 2: combat)  
 **flyHeight:** INTEGER (optional, default: 80) - Auf welcher höhe soll das Luftfahrzeug fliegen
 
+Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
+
 | rpBehaviour  | Luftfahrzeug | Landfahrzeug |
 | - | - | - |
 | 0 | Fahrzeug landet und Infanterie sitzt ab; Fahrzeug kehrt zum Spawnpunkt zurück und wird gelöscht | Infanterie sitzt ab; Fahrzeug kehrt zum Spawnpunkt zurück und wird gelöscht |
@@ -76,19 +101,37 @@ Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=72
 [l_sp_1, l_rp_1, l_at_1, EAST, "O_Heli_Light_02_dynamicLoadout_F", 2, ["O_Soldier_SL_F","O_Soldier_TL_F","O_Soldier_F"], 1, 50] call ttt_common_fnc_callReinforcements; 
 ```
 
-### Bilder
+### Atmosphärisches Flak-Feuer
 
-Stellt TTT-Bilder anderen Addons zur Verfügung.
+```c++
+handle = [object] call ttt_common_fnc_doFlakFire;
+```
 
-### Einheiten
+**handle**: NUMBER - Rückgabewert mit dem das Feuer später beendet werden kann
+**object**: OBJECT - Flak die schießen soll
 
-Fügt ein paar generische Einheiten (ohne eigenes Loadout), als Hilfe für einheiten-basierte Loadoutsystem wie z.B. Poppy, hinzu.
+Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
+
+#### Beispiel
+
+1. Eine Flak-Einheit setzen und z.b. `flak_01` als Variablennamen vergeben
+2. Einen Trigger platzieren und in die Aktivierung eintragen:
+
+```c++
+handle_01 = [flak_01] call ttt_common_fnc_doFlakFire;
+```
+
+`handle_01` ist ein Identifikator mit dem die Funktion wieder beendet werden kann, indem der Per-Frame-Handler entfernt wird. Um das Flakfeuer wieder zu beenden, in einen weiteren Trigger folgendes in die Aktivierung schreiben:
+
+```c++
+[handle_01] call CBA_fnc_removePerFrameHandler;
+```
 
 ### ACE-Fortify Presets
 
 Definiert Presets für ACE Fortify, die in spontanen Missionen und Trainings genutzt werden können:
 
-Benutztung:
+Benutzung:
 
 1. `ACE_Fortify` an Spieler ausgeben
 2. als Admin im Chat `#ace-fortify blufor presetname` eingeben, `presetname` durch eins der unten angegebenen ersetzen.
@@ -127,7 +170,8 @@ Inhalt ist im [Wiki spezielle Kisten](https://wiki.tacticalteam.de/de/Missionsba
 
 - Drohnenkiste (UAV) `ttt_common_uav_crate`
 - Markierkiste (Mark) `ttt_common_mark_crate`
-- Fallschirmkiste `ttt_common_paradrop_crate`
+- Fallschirmkiste `ttt_common_paradrop_crate` (Nicht verladbar!)
+
 Inhalt ist im [Wiki spezielle Kisten](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#spezielle-kisten) definiert.
 
 ## Compositions
@@ -144,9 +188,18 @@ Stellt eine Komposition zur Verfügung um immer benutzte Module beim Anfang eine
 - Leerer Marker `respawn` (TTT-Flagge mit Zuschauerkamera und techn. Teleport wird automatisch erzeugt)
 - 2x Zivilist `zeus` + `zeus_1`
 
-Benutzung: `F2` Compositions -> Props -> Other -> Tactical Training Team
+Benutzung: Im 3DEN-Editor `F2` Compositions -> Props -> Other -> Tactical Training Team
 
 ![Inhalt und Pfad zur Benutzung](https://i.imgur.com/kX7gUkp.jpeg)
+****
+
+## Bilder
+
+Stellt TTT-Bilder anderen Addons zur Verfügung.
+
+## Einheiten
+
+Fügt ein paar generische Einheiten (ohne eigenes Loadout), als Hilfe für einheiten-basierte Loadoutsystem wie z.B. Poppy oder [grad-loadout](https://github.com/gruppe-adler/grad-loadout), hinzu.
 
 ## Maintainer
 

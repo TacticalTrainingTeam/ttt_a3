@@ -1,6 +1,8 @@
 # Backpacks
 
-Enthält verschiedene Funkrucksäcke in TTT Farben.
+Enthält verschiedene Funkrucksäcke in TTT Farben. Diese sind in der Größe angepasst, damit zwei `ACRE_PRC117F` darin Platz finden.
+
+## Class Names
 
 - `ttt_backpack_radio_coyote`
 - `ttt_backpack_radio_olive`
