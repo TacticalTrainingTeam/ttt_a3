@@ -107,7 +107,7 @@ if (isClass(configFile >> "CfgPatches" >> "lambs_danger") && !(_vehicle isKindOf
 };
 
 //Check ACEX Headless Client
-if (isClass (configFile >> "CfgPatches" >> "acex_headless") && {acex_headless_enabled}) then
+if (isClass (configFile >> "CfgPatches" >> "acex_headless") && acex_headless_enabled) then
 {
     //to ensure unload, blacklist
     _infantryGroup setVariable ["acex_headless_blacklist", true, true];
@@ -169,8 +169,12 @@ else
 };
 
 // create RTB or attack waypoints for the vehicle after dropoff
-if !(_vehicle isKindOf "Air") then
+if (_vehicle isKindOf "Air") then
 {
+	private _vehicleReturnWp = _vehicleGroup addWaypoint [_spPos, 0,3];
+	_vehicleReturnWp setWaypointTimeout [2,2,2]; // Let the unit stop before being despawned.
+	_vehicleReturnWp setWaypointStatements ["true", "deleteVehicle (vehicle this); {deleteVehicle _x} foreach thisList;"];
+} else {
 	switch (_rpBehaviour) do
 	{
 		case 0: // RTB after Unload
@@ -192,14 +196,10 @@ if !(_vehicle isKindOf "Air") then
 			_vehicleExitWp setWaypointType "GUARD";
 		};
 	};
-} else {
-	private _vehicleReturnWp = _vehicleGroup addWaypoint [_spPos, 0,3];
-	_vehicleReturnWp setWaypointTimeout [2,2,2]; // Let the unit stop before being despawned.
-	_vehicleReturnWp setWaypointStatements ["true", "deleteVehicle (vehicle this); {deleteVehicle _x} foreach thisList;"];
 };
 
 //Check ACEX Headless Client
-if (isClass (configFile >> "CfgPatches" >> "acex_headless") && {acex_headless_enabled}) then
+if (isClass (configFile >> "CfgPatches" >> "acex_headless") && acex_headless_enabled) then
 {
     //to ensure unload, blacklist
     _vehicleGroup setVariable ["acex_headless_blacklist", true, true];

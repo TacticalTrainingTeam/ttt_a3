@@ -989,14 +989,14 @@ ASL_Is_Supported_Cargo = {
 
 ASL_Hint = {
     params ["_msg",["_isSuccess",true]];
-    if(!isNil "ExileClient_gui_notification_event_addNotification") then {
+    if(isNil "ExileClient_gui_notification_event_addNotification") then {
+        hint _msg;
+    } else {
         if(_isSuccess) then {
             ["Success", [_msg]] call ExileClient_gui_notification_event_addNotification; 
         } else {
             ["Whoops", [_msg]] call ExileClient_gui_notification_event_addNotification; 
         };
-    } else {
-        hint _msg;
     };
 };
 
@@ -1094,27 +1094,27 @@ if(!isDedicated) then {
 
 ASL_RemoteExec = {
     params ["_params","_functionName","_target",["_isCall",false]];
-    if(!isNil "ExileClient_system_network_send") then {
-        ["AdvancedSlingLoadingRemoteExecClient",[_params,_functionName,_target,_isCall]] call ExileClient_system_network_send;
-    } else {
+    if(isNil "ExileClient_system_network_send") then {
         if(_isCall) then {
             _params remoteExecCall [_functionName, _target];
         } else {
             _params remoteExec [_functionName, _target];
         };
+    } else {
+        ["AdvancedSlingLoadingRemoteExecClient",[_params,_functionName,_target,_isCall]] call ExileClient_system_network_send;
     };
 };
 
 ASL_RemoteExecServer = {
     params ["_params","_functionName",["_isCall",false]];
-    if(!isNil "ExileClient_system_network_send") then {
-        ["AdvancedSlingLoadingRemoteExecServer",[_params,_functionName,_isCall]] call ExileClient_system_network_send;
-    } else {
+    if(isNil "ExileClient_system_network_send") then {
         if(_isCall) then {
             _params remoteExecCall [_functionName, 2];
         } else {
             _params remoteExec [_functionName, 2];
         };
+    } else {
+        ["AdvancedSlingLoadingRemoteExecServer",[_params,_functionName,_isCall]] call ExileClient_system_network_send;
     };
 };
 

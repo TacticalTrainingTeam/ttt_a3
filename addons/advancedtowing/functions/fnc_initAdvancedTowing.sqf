@@ -729,14 +729,14 @@ SA_Is_Supported_Cargo = {
 
 SA_Hint = {
     params ["_msg",["_isSuccess",true]];
-    if(!isNil "ExileClient_gui_notification_event_addNotification") then {
+    if(isNil "ExileClient_gui_notification_event_addNotification") then {
+        hint _msg;
+    } else {
         if(_isSuccess) then {
             ["Success", [_msg]] call ExileClient_gui_notification_event_addNotification; 
         } else {
             ["Whoops", [_msg]] call ExileClient_gui_notification_event_addNotification; 
         };
-    } else {
-        hint _msg;
     };
 };
 
@@ -820,27 +820,27 @@ if(!isDedicated) then {
 
 SA_RemoteExec = {
     params ["_params","_functionName","_target",["_isCall",false]];
-    if(!isNil "ExileClient_system_network_send") then {
-        ["AdvancedTowingRemoteExecClient",[_params,_functionName,_target,_isCall]] call ExileClient_system_network_send;
-    } else {
+    if(isNil "ExileClient_system_network_send") then {
         if(_isCall) then {
             _params remoteExecCall [_functionName, _target];
         } else {
             _params remoteExec [_functionName, _target];
         };
+    } else {
+        ["AdvancedTowingRemoteExecClient",[_params,_functionName,_target,_isCall]] call ExileClient_system_network_send;
     };
 };
 
 SA_RemoteExecServer = {
     params ["_params","_functionName",["_isCall",false]];
-    if(!isNil "ExileClient_system_network_send") then {
-        ["AdvancedTowingRemoteExecServer",[_params,_functionName,_isCall]] call ExileClient_system_network_send;
-    } else {
+    if(isNil "ExileClient_system_network_send") then {
         if(_isCall) then {
             _params remoteExecCall [_functionName, 2];
         } else {
             _params remoteExec [_functionName, 2];
         };
+    } else {
+        ["AdvancedTowingRemoteExecServer",[_params,_functionName,_isCall]] call ExileClient_system_network_send;
     };
 };
 
