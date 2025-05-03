@@ -1,19 +1,22 @@
 #include "..\script_component.hpp"
 /*
- * Authors: Andx
- * Description.
- *
- * Arguments:
- * 0: Argument (optional, default: value) <OBJECT>
- *
- * Return Value:
- * Return description <NONE>
- *
- * Example:
- * [params] call PREFIX_counter_ari_fnc_addEventHandler
- *
- * Public: No
- */
+* Authors: Andx & EinStein
+*
+* Description:
+* n.a.
+*
+* Arguments:
+* Arma 3 Module Function Parameters
+* https://community.bistudio.com/wiki/Modules#Configuring_the_Module_Function
+*
+* Return Value:
+* n.a.
+*
+* Example:
+* n.a.
+*
+* Public: No
+*/
 
 params [
 	["_logic", objNull, [objNull]],		// Argument 0 is module logic
@@ -24,10 +27,10 @@ params [
 // Module specific behavior. Function can extract arguments from logic and use them.
 if (_activated) then
 {
-    private _radius = _logic getVariable [QGVAR(registerFriendlyAriModule_radius), 100];
-    private _rounds = _logic getVariable [QGVAR(registerFriendlyAriModule_rounds), 5];
-    private _decrementing = _logic getVariable [QGVAR(registerFriendlyAriModule_decrementing), true];
-    private _delay = _logic getVariable [QGVAR(registerFriendlyAriModule_delay), 5];
+    missionNamespace setVariable [QGVAR(registerFriendlyAriModule_radius),_logic getVariable [QGVAR(registerFriendlyAriModule_radius), 100]];
+    missionNamespace setVariable [QGVAR(registerFriendlyAriModule_rounds),_logic getVariable [QGVAR(registerFriendlyAriModule_rounds), 5]];
+    missionNamespace setVariable [QGVAR(registerFriendlyAriModule_decrementing),_logic getVariable [QGVAR(registerFriendlyAriModule_decrementing), true]];
+    missionNamespace setVariable [QGVAR(registerFriendlyAriModule_delay),_logic getVariable [QGVAR(registerFriendlyAriModule_delay), 5]];
      {
         _x addEventHandler ["Fired", 
             {
@@ -40,7 +43,7 @@ if (_activated) then
                     true,
                     0,
                     []
-                ] remoteExec ["ttt_counterAri_fnc_AriCounterFire",2]
+                ] remoteExec ["ttt_counterAri_fnc_counterFire",2]
             }
         ];
         if (isClass(configFile >> "CfgPatches" >> "lambs_danger")) then	// LAMBS only if loaded and only for ground vehicles

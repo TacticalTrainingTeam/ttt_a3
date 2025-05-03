@@ -1,5 +1,5 @@
-PREP(AriCounterFire);
-PREP(AriFire);
-PREP(AriFireMission);
+PREP(counterFire);
+PREP(fireMission);
 PREP(initEnemyAri);
 PREP(initFriendlyAri);
+PREP(positionFire);
