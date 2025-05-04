@@ -160,7 +160,7 @@ Benutzung:
 1. `ACE_Fortify` an Spieler ausgeben
 2. als Admin im Chat `#ace-fortify blufor presetname` eingeben, `presetname` durch eins der unten angegebenen ersetzen.
 
-Folgendes Prests stehen zur Verfügung:
+Folgendes Presets stehen zur Verfügung:
 
 - `TTT_OHK` für das Befestigen einzelner Gebäude im OHK
 - `TTT_FOB` für das Errichten einer FOB oder eines Checkpoint
