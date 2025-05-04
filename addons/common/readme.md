@@ -7,10 +7,12 @@
   - [Funktionen](#funktionen)
     - [crateFiller](#cratefiller)
       - [Beispiel](#beispiel)
+    - [Intel](#intel)
+      - [Beispiel](#beispiel-1)
     - [callReinforcements](#callreinforcements)
       - [Beispiele](#beispiele)
     - [Atmosphärisches Flak-Feuer](#atmosphärisches-flak-feuer)
-      - [Beispiel](#beispiel-1)
+      - [Beispiel](#beispiel-2)
     - [ACE-Fortify Presets](#ace-fortify-presets)
     - [Kisten](#kisten)
       - [Sanitätskisten](#sanitätskisten)
@@ -62,6 +64,28 @@ Kann in der `initServer.sqf` oder während der Mission auf dem Server aufgerufen
 
 Dabei werden die bisherigen Gegenstände des Fahrzeugs nicht entfernt und bleiben im Inventar beider Fahrzeuge vorhanden.  
 Hinzu kommen allerdings wie gewünscht bei beiden ein Werkzeugkasten, fünf Klappspaten und 50 Magazine.
+
+### Intel
+
+```c++
+[intel, action, hide, [titel, text]] call ttt_intel_fnc_addIntel;
+```
+
+**intel:** OBJECT - Das interagierbare Objekt  
+**action:** STRING - Actiontitel der als Interaktion gezeigt wird  
+**hide:** BOOLEAN - Object nach Interaktion ausblenden  
+**titel:** STRING - Intelüberschrift auf der Kartenansicht  
+**text:** STRING - Intelinhalt der unter der Überschrift steht (Der Text unterstüzt HTML-Syntax für z.B. Bilder)
+
+#### Beispiel
+
+In der `initPlayerLocal.sqf` ausführen.
+
+```c++
+[intel_01, "Lagekarte des Gegners untersuchen", false, ["gefundene Karte", "<img image='pictures\Karte_v3.paa' width=370 height=370/>"]] call ttt_intel_fnc_addIntel;
+[intel_02, "Dokumente nehmen", true, ["eingesammeltes Dokument", "Hier stehen wichtige Informationen"]] call ttt_intel_fnc_addIntel;
+```
+
 
 ### callReinforcements
 

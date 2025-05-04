@@ -1,3 +1,4 @@
+PREP(addIntel);
 PREP(callGlobalFnc);
 PREP(callReinforcements);
 PREP(crateFiller);
