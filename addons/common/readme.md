@@ -227,6 +227,8 @@ Benutzung: Im 3DEN-Editor `F2` Compositions -> Props -> Other -> Tactical Traini
 
 Stellt TTT-Bilder anderen Addons zur Verfügung.
 
+Zugriff auf die Bilder über diesen Pfad `z\ttt\addons\common\data\bildname.paa`.
+
 ## Einheiten
 
 Fügt ein paar generische Einheiten (ohne eigenes Loadout), als Hilfe für einheiten-basierte Loadoutsystem wie z.B. Poppy oder [grad-loadout](https://github.com/gruppe-adler/grad-loadout), hinzu.
