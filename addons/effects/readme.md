@@ -10,7 +10,7 @@ Alle Effekte sind sowohl über Code, 3DEN-Modul, als auch Zeus-Modul verfügbar.
 Vor den Mündern aller bestehenden Einheiten entstehet ein Effekt, welcher feuchte, ausatmende Luft immitiert.  
 Der Effekt kann nicht beendet werden.
 Die Funktion muss lokal von jedem Spieler ausgeführt werden.  
-Dazu bietet sich neben dem 3DEN-Editor-Modul die initPlayerLocal.sqf an:  
+Dazu bietet sich neben dem 3DEN-Editor-Modul die `initPlayerLocal.sqf` an:  
   
 ```c++
 [] call ttt_effects_fnc_condensedBreathInit;

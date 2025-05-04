@@ -32,7 +32,7 @@ playSound "ACE_BarrelSwap";
     GVAR(lafetteDisassembleTime),
     [_mg3Static, _player],
     {
-        params ["_args", "_elapsedTime", "_totalTime", "_errorCode"];
+        params ["_args"];
         _args params ["_mg3Static", "_player"];
 
         {

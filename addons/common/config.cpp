@@ -22,7 +22,8 @@ class CfgPatches {
             "ttt_common_eod_crate",
             "ttt_common_eod_ugv_crate",
             "ttt_common_uav_crate",
-            "ttt_common_mark_crate"
+            "ttt_common_mark_crate",
+            "ttt_common_paradrop_crate",
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;

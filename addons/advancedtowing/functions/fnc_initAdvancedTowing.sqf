@@ -66,7 +66,7 @@ SA_Simulate_Towing_Speed = {
     
     params ["_vehicle"];
     
-    private ["_runSimulation","_currentCargo","_maxVehicleSpeed","_maxTowedVehicles","_vehicleMass"];
+    private ["_runSimulation","_currentCargo","_maxVehicleSpeed","_vehicleMass"];
     
     _maxVehicleSpeed = getNumber (configFile >> "CfgVehicles" >> typeOf _vehicle >> "maxSpeed");
     _vehicleMass = 1000 max (getMass _vehicle);
@@ -128,7 +128,7 @@ SA_Simulate_Towing = {
     params ["_vehicle","_vehicleHitchModelPos","_cargo","_cargoHitchModelPos","_ropeLength"];
 
     private ["_lastCargoHitchPosition","_lastCargoVectorDir","_cargoLength","_maxDistanceToCargo","_lastMovedCargoPosition","_cargoHitchPoints"];
-    private ["_vehicleHitchPosition","_cargoHitchPosition","_newCargoHitchPosition","_cargoVector","_movedCargoVector","_attachedObjects","_currentCargo"];
+    private ["_vehicleHitchPosition","_cargoHitchPosition","_newCargoHitchPosition","_cargoVector","_movedCargoVector","_currentCargo"];
     private ["_newCargoDir","_lastCargoVectorDir","_newCargoPosition","_doExit","_cargoPosition","_vehiclePosition","_maxVehicleSpeed","_vehicleMass","_cargoMass","_cargoCanFloat"];    
     private ["_cargoCorner1AGL","_cargoCorner1ASL","_cargoCorner2AGL","_cargoCorner2ASL","_cargoCorner3AGL","_cargoCorner3ASL","_cargoCorner4AGL","_cargoCorner4ASL","_surfaceNormal1","_surfaceNormal2","_surfaceNormal"];
     private ["_cargoCenterASL","_surfaceHeight","_surfaceHeight2","_maxSurfaceHeight"];
@@ -729,14 +729,14 @@ SA_Is_Supported_Cargo = {
 
 SA_Hint = {
     params ["_msg",["_isSuccess",true]];
-    if(!isNil "ExileClient_gui_notification_event_addNotification") then {
+    if(isNil "ExileClient_gui_notification_event_addNotification") then {
+        hint _msg;
+    } else {
         if(_isSuccess) then {
             ["Success", [_msg]] call ExileClient_gui_notification_event_addNotification; 
         } else {
             ["Whoops", [_msg]] call ExileClient_gui_notification_event_addNotification; 
         };
-    } else {
-        hint _msg;
     };
 };
 
@@ -820,27 +820,27 @@ if(!isDedicated) then {
 
 SA_RemoteExec = {
     params ["_params","_functionName","_target",["_isCall",false]];
-    if(!isNil "ExileClient_system_network_send") then {
-        ["AdvancedTowingRemoteExecClient",[_params,_functionName,_target,_isCall]] call ExileClient_system_network_send;
-    } else {
+    if(isNil "ExileClient_system_network_send") then {
         if(_isCall) then {
             _params remoteExecCall [_functionName, _target];
         } else {
             _params remoteExec [_functionName, _target];
         };
+    } else {
+        ["AdvancedTowingRemoteExecClient",[_params,_functionName,_target,_isCall]] call ExileClient_system_network_send;
     };
 };
 
 SA_RemoteExecServer = {
     params ["_params","_functionName",["_isCall",false]];
-    if(!isNil "ExileClient_system_network_send") then {
-        ["AdvancedTowingRemoteExecServer",[_params,_functionName,_isCall]] call ExileClient_system_network_send;
-    } else {
+    if(isNil "ExileClient_system_network_send") then {
         if(_isCall) then {
             _params remoteExecCall [_functionName, 2];
         } else {
             _params remoteExec [_functionName, 2];
         };
+    } else {
+        ["AdvancedTowingRemoteExecServer",[_params,_functionName,_isCall]] call ExileClient_system_network_send;
     };
 };
 

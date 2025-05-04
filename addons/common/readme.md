@@ -1,8 +1,31 @@
 # Common
 
+## Inhaltsverzeichnis
+
+- [Common](#common)
+  - [Inhaltsverzeichnis](#inhaltsverzeichnis)
+  - [Funktionen](#funktionen)
+    - [crateFiller](#cratefiller)
+      - [Beispiel](#beispiel)
+    - [Intel](#intel)
+      - [Beispiel](#beispiel-1)
+    - [callReinforcements](#callreinforcements)
+      - [Beispiele](#beispiele)
+    - [Atmosphärisches Flak-Feuer](#atmosphärisches-flak-feuer)
+      - [Beispiel](#beispiel-2)
+    - [ACE-Fortify Presets](#ace-fortify-presets)
+    - [Kisten](#kisten)
+      - [Sanitätskisten](#sanitätskisten)
+      - [Pionierkisten](#pionierkisten)
+      - [Spezialkisten](#spezialkisten)
+  - [Compositions](#compositions)
+  - [Bilder](#bilder)
+  - [Einheiten](#einheiten)
+  - [Maintainer](#maintainer)
+
 ## Funktionen
 
-Stellt folgende Funktionen an andere Addons zur Verfügung:
+Stellt die folgenden Funktionen anderen Addons zur Verfügung:
 
 ### crateFiller
 
@@ -12,7 +35,8 @@ Stellt folgende Funktionen an andere Addons zur Verfügung:
 [
     [container],
     [
-        [item, count]
+        ["item", count],
+        ["item", count]
     ],
     clear
 ] call ttt_common_fnc_crateFiller; 
@@ -22,6 +46,8 @@ Stellt folgende Funktionen an andere Addons zur Verfügung:
 **item:** STRING - Inventargegenstand welcher hinzugefügt werden soll  
 **count:**  INTEGER - Anzahl der hinzuzufügenden Inventargegenstände  
 **clear:** BOOLEAN (Optional, default: true) - Vorherigen Inventarinhalt des Objektes leeren
+
+Kann in der `initServer.sqf` oder während der Mission auf dem Server aufgerufen werden.
 
 #### Beispiel
 
@@ -40,9 +66,31 @@ Stellt folgende Funktionen an andere Addons zur Verfügung:
 Dabei werden die bisherigen Gegenstände des Fahrzeugs nicht entfernt und bleiben im Inventar beider Fahrzeuge vorhanden.  
 Hinzu kommen allerdings wie gewünscht bei beiden ein Werkzeugkasten, fünf Klappspaten und 50 Magazine.
 
+### Intel
+
+```c++
+[intel, action, hide, [titel, text]] call ttt_intel_fnc_addIntel;
+```
+
+**intel:** OBJECT - Das interagierbare Objekt  
+**action:** STRING - Actiontitel der als Interaktion gezeigt wird  
+**hide:** BOOLEAN - Object nach Interaktion ausblenden  
+**titel:** STRING - Intelüberschrift auf der Kartenansicht  
+**text:** STRING - Intelinhalt der unter der Überschrift steht (Der Text unterstüzt HTML-Syntax für z.B. Bilder)
+
+#### Beispiel
+
+In der `initPlayerLocal.sqf` ausführen.
+
+```c++
+[intel_01, "Lagekarte des Gegners untersuchen", false, ["gefundene Karte", "<img image='pictures\Karte_v3.paa' width=370 height=370/>"]] call ttt_intel_fnc_addIntel;
+[intel_02, "Dokumente nehmen", true, ["eingesammeltes Dokument", "Hier stehen wichtige Informationen"]] call ttt_intel_fnc_addIntel;
+```
+
+
 ### callReinforcements
 
-Diese Funktion erstellt Verstärkungstruppen mit einem Fahrzeug und sendet diese zu einem Releasepunkt von woaus sie angreifen. Dabei kann das Fahrzeug wie bei mechanisierten Kräften, u.a. zum Angriff, genutzt werden. Es stehen für Luft- sowie Bodenfahrzeuge jeweils drei Einstellungen zur Verfügung.  
+Diese Funktion erstellt Verstärkungstruppen mit einem Fahrzeug und sendet diese zu einem Releasepunkt, von woaus sie angreifen. Dabei kann das Fahrzeug wie bei mechanisierten Kräften, u.a. zum Angriff, genutzt werden. Es stehen für Luft- sowie Bodenfahrzeuge jeweils drei Einstellungen zur Verfügung.  
 Sollte die Mod [LAMBS DANGER](https://steamcommunity.com/workshop/filedetails/?id=1858075458) aktiv sein, werden alle möglichen Wegpunkte durch das LAMBS-Äquivalent ersetzt.  
 Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=723217262) nicht aktiv sein, werden Helikopter keine Fastrope oder Fallschirmsprünge durchführen, sondern immer landen.
 
@@ -56,9 +104,11 @@ Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=72
 **side:** SIDE - Welcher Seite sollen die neuen Einheiten angehören  
 **vehicle:** STRING - Welches Fahrzeug soll die Infanterie transportieren  
 **rpBehaviour:** INTEGER (optional, default: 0) - Welches Verhalten nimmt das Fahrzeug am Releasepunkt an; abhängig davon ob es ein Luft- oder Landfahrzeug ist (Siehe dazu die Tabelle unten)  
-**infantry:** ARRAY format characterTypes or CONFIG format CfgGroups entry (optional, default: configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad") - Welche Infanterieeinheiten sollen erstellt werden (Sollte das Array oder die Config zu groß für den Frachtraum des Fahrzeugs sein, werden übrige Einheiten gelöscht)  
+**infantry:** ARRAY format characterTypes or CONFIG format CfgGroups entry (optional, default: configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad") - Welche Infanterieeinheiten sollen erstellt werden (Sollte das Array oder die Konfig zu groß für den Frachtraum des Fahrzeugs sein, werden übrige Einheiten gelöscht)  
 **groupBehaviour:** INTEGER (optional, default: 2) - Welches Verhalten haben die Einheiten ab ihrem Releasepunkt (0: relaxed, 1: cautious, 2: combat)  
-**flyHeight:** INTEGER (optional, default: 80) - Auf welcher höhe soll das Luftfahrzeug fliegen
+**flyHeight:** INTEGER (optional, default: 80) - Auf welcher Höhe soll das Luftfahrzeug fliegen
+
+Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 
 | rpBehaviour  | Luftfahrzeug | Landfahrzeug |
 | - | - | - |
@@ -78,7 +128,18 @@ Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=72
 
 ### Atmosphärisches Flak-Feuer
 
-1. Eine Flak-Einheit setzen und z.b. `flak_01` als Variablennamen vergeben
+```c++
+handle = [object] call ttt_common_fnc_doFlakFire;
+```
+
+**handle**: NUMBER - Rückgabewert mit dem das Feuer später beendet werden kann
+**object**: OBJECT - Flak die schießen soll
+
+Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
+
+#### Beispiel
+
+1. Eine Flak-Einheit setzen und z.B. `flak_01` als Variablennamen vergeben
 2. Einen Trigger platzieren und in die Aktivierung eintragen:
 
 ```c++
@@ -91,28 +152,21 @@ handle_01 = [flak_01] call ttt_common_fnc_doFlakFire;
 [handle_01] call CBA_fnc_removePerFrameHandler;
 ```
 
-### Bilder
-
-Stellt TTT-Bilder anderen Addons zur Verfügung.
-
-### Einheiten
-
-Fügt ein paar generische Einheiten (ohne eigenes Loadout), als Hilfe für einheiten-basierte Loadoutsystem wie z.B. Poppy, hinzu.
-
 ### ACE-Fortify Presets
 
-Definiert Presets für ACE Fortify, die in spontanen Missionen und Trainings genutzt werden können:
+Definiert Presets für ACE-Fortify, die in spontanen Missionen und Trainings genutzt werden können:
 
-Benutztung:
+Benutzung:
 
 1. `ACE_Fortify` an Spieler ausgeben
 2. als Admin im Chat `#ace-fortify blufor presetname` eingeben, `presetname` durch eins der unten angegebenen ersetzen.
 
-Folgendes Prests stehen zur Verfügung:
+Folgendes Presets stehen zur Verfügung:
 
 - `TTT_OHK` für das Befestigen einzelner Gebäude im OHK
 - `TTT_FOB` für das Errichten einer FOB oder eines Checkpoint
-- `TTT_GM` enthält Assets auf dem GM DLC, nicht speziell für ein bestimmtes Szenario gedacht
+- `TTT_Camping` - für Übernachtungen (z.B. in Patrouillen)
+- `TTT_GM` enthält Assets auf dem GM-DLC, nicht speziell für ein bestimmtes Szenario gedacht
 
 ### Kisten
 
@@ -142,7 +196,7 @@ Inhalt ist im [Wiki spezielle Kisten](https://wiki.tacticalteam.de/de/Missionsba
 
 - Drohnenkiste (UAV) `ttt_common_uav_crate`
 - Markierkiste (Mark) `ttt_common_mark_crate`
-- Fallschirmkiste `ttt_common_paradrop_crate`
+- Fallschirmkiste `ttt_common_paradrop_crate` (Nicht verladbar!)
 
 Inhalt ist im [Wiki spezielle Kisten](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#spezielle-kisten) definiert.
 
@@ -152,21 +206,30 @@ Bewusstlose haben keine Kollision mit Spielern - vergleichbar mit <https://steam
 
 ## Compositions
 
-Stellt eine Komposition zur Verfügung um immer benutzte Module beim Anfang einer Mission einfach zu setzen:
+Stellt eine Komposition zur Verfügung, um immer benutzte Module beim Anfang einer Mission einfach zu setzen:
 
 - HC, spielbar, `hc_01`
 - 3x Spectator, spielbar
-- Zeus `#loggedAdmin`
-- Zeus `#votedAdmin`
-- Zeus `zeus`
+- Zeus `#adminLogged`
+- Zeus `#adminVoted`
 - Zeus `zeus_1`
+- Zeus `zeus_2`
 - Zeus Missionsbauer -> SteamID eintragen!
 - Leerer Marker `respawn` (TTT-Flagge mit Zuschauerkamera und techn. Teleport wird automatisch erzeugt)
 - 2x Zivilist `zeus` + `zeus_1`
 
-Benutzung: `F2` Compositions -> Props -> Other -> Tactical Training Team
+Benutzung: Im 3DEN-Editor `F2` Compositions -> Props -> Other -> Tactical Training Team
 
 ![Inhalt und Pfad zur Benutzung](https://i.imgur.com/kX7gUkp.jpeg)
+****
+
+## Bilder
+
+Stellt TTT-Bilder anderen Addons zur Verfügung.
+
+## Einheiten
+
+Fügt ein paar generische Einheiten (ohne eigenes Loadout), als Hilfe für einheiten-basierte Loadoutsystem wie z.B. Poppy oder [grad-loadout](https://github.com/gruppe-adler/grad-loadout), hinzu.
 
 ## Maintainer
 
