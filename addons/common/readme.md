@@ -25,7 +25,7 @@
 
 ## Funktionen
 
-Stellt folgende Funktionen an andere Addons zur Verfügung:
+Stellt die folgenden Funktionen anderen Addons zur Verfügung:
 
 ### crateFiller
 
@@ -35,7 +35,8 @@ Stellt folgende Funktionen an andere Addons zur Verfügung:
 [
     [container],
     [
-        [item, count]
+        ["item", count],
+        ["item", count]
     ],
     clear
 ] call ttt_common_fnc_crateFiller; 
@@ -89,7 +90,7 @@ In der `initPlayerLocal.sqf` ausführen.
 
 ### callReinforcements
 
-Diese Funktion erstellt Verstärkungstruppen mit einem Fahrzeug und sendet diese zu einem Releasepunkt von woaus sie angreifen. Dabei kann das Fahrzeug wie bei mechanisierten Kräften, u.a. zum Angriff, genutzt werden. Es stehen für Luft- sowie Bodenfahrzeuge jeweils drei Einstellungen zur Verfügung.  
+Diese Funktion erstellt Verstärkungstruppen mit einem Fahrzeug und sendet diese zu einem Releasepunkt, von woaus sie angreifen. Dabei kann das Fahrzeug wie bei mechanisierten Kräften, u.a. zum Angriff, genutzt werden. Es stehen für Luft- sowie Bodenfahrzeuge jeweils drei Einstellungen zur Verfügung.  
 Sollte die Mod [LAMBS DANGER](https://steamcommunity.com/workshop/filedetails/?id=1858075458) aktiv sein, werden alle möglichen Wegpunkte durch das LAMBS-Äquivalent ersetzt.  
 Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=723217262) nicht aktiv sein, werden Helikopter keine Fastrope oder Fallschirmsprünge durchführen, sondern immer landen.
 
@@ -103,9 +104,9 @@ Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=72
 **side:** SIDE - Welcher Seite sollen die neuen Einheiten angehören  
 **vehicle:** STRING - Welches Fahrzeug soll die Infanterie transportieren  
 **rpBehaviour:** INTEGER (optional, default: 0) - Welches Verhalten nimmt das Fahrzeug am Releasepunkt an; abhängig davon ob es ein Luft- oder Landfahrzeug ist (Siehe dazu die Tabelle unten)  
-**infantry:** ARRAY format characterTypes or CONFIG format CfgGroups entry (optional, default: configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad") - Welche Infanterieeinheiten sollen erstellt werden (Sollte das Array oder die Config zu groß für den Frachtraum des Fahrzeugs sein, werden übrige Einheiten gelöscht)  
+**infantry:** ARRAY format characterTypes or CONFIG format CfgGroups entry (optional, default: configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad") - Welche Infanterieeinheiten sollen erstellt werden (Sollte das Array oder die Konfig zu groß für den Frachtraum des Fahrzeugs sein, werden übrige Einheiten gelöscht)  
 **groupBehaviour:** INTEGER (optional, default: 2) - Welches Verhalten haben die Einheiten ab ihrem Releasepunkt (0: relaxed, 1: cautious, 2: combat)  
-**flyHeight:** INTEGER (optional, default: 80) - Auf welcher höhe soll das Luftfahrzeug fliegen
+**flyHeight:** INTEGER (optional, default: 80) - Auf welcher Höhe soll das Luftfahrzeug fliegen
 
 Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 
@@ -138,7 +139,7 @@ Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 
 #### Beispiel
 
-1. Eine Flak-Einheit setzen und z.b. `flak_01` als Variablennamen vergeben
+1. Eine Flak-Einheit setzen und z.B. `flak_01` als Variablennamen vergeben
 2. Einen Trigger platzieren und in die Aktivierung eintragen:
 
 ```c++
@@ -153,7 +154,7 @@ handle_01 = [flak_01] call ttt_common_fnc_doFlakFire;
 
 ### ACE-Fortify Presets
 
-Definiert Presets für ACE Fortify, die in spontanen Missionen und Trainings genutzt werden können:
+Definiert Presets für ACE-Fortify, die in spontanen Missionen und Trainings genutzt werden können:
 
 Benutzung:
 
@@ -164,7 +165,8 @@ Folgendes Presets stehen zur Verfügung:
 
 - `TTT_OHK` für das Befestigen einzelner Gebäude im OHK
 - `TTT_FOB` für das Errichten einer FOB oder eines Checkpoint
-- `TTT_GM` enthält Assets auf dem GM DLC, nicht speziell für ein bestimmtes Szenario gedacht
+- `TTT_Camping` - für Übernachtungen (z.B. in Patrouillen)
+- `TTT_GM` enthält Assets auf dem GM-DLC, nicht speziell für ein bestimmtes Szenario gedacht
 
 ### Kisten
 
@@ -200,14 +202,14 @@ Inhalt ist im [Wiki spezielle Kisten](https://wiki.tacticalteam.de/de/Missionsba
 
 ## Compositions
 
-Stellt eine Komposition zur Verfügung um immer benutzte Module beim Anfang einer Mission einfach zu setzen:
+Stellt eine Komposition zur Verfügung, um immer benutzte Module beim Anfang einer Mission einfach zu setzen:
 
 - HC, spielbar, `hc_01`
 - 3x Spectator, spielbar
-- Zeus `#loggedAdmin`
-- Zeus `#votedAdmin`
-- Zeus `zeus`
+- Zeus `#adminLogged`
+- Zeus `#adminVoted`
 - Zeus `zeus_1`
+- Zeus `zeus_2`
 - Zeus Missionsbauer -> SteamID eintragen!
 - Leerer Marker `respawn` (TTT-Flagge mit Zuschauerkamera und techn. Teleport wird automatisch erzeugt)
 - 2x Zivilist `zeus` + `zeus_1`
