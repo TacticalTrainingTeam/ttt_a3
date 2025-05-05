@@ -5,4 +5,10 @@ class CfgWeapons {
         author = "Andx";
         displayname = SUBCSTRING(spraypaint_displayName);
     };
+
+    class ACE_SpraypaintYellow;
+    class TTT_Spraypaint2: ACE_SpraypaintYellow {
+        author = "Andx";
+        displayname = SUBCSTRING(spraypaint2_displayName);
+    };
 };
