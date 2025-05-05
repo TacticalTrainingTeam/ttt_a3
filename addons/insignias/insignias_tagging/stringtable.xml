@@ -9,15 +9,15 @@
             <English>Spray Paint - Meme (TTT)</English>
             <German>Sprühfarbe - Meme (TTT)</German>
         </Key>
-        <Key ID="STR_ttt_Insignias_Tagging_meme_rollator_displayName">
-            <English>Rollator-Gang</English>
+        <Key ID="STR_ttt_Insignias_Tagging_meme_rollatorgang_displayName">
+            <English>Rollator Gang</English>
             <German>Rollator-Gang</German>
         </Key>
-        <Key ID="STR_ttt_Insignias_Tagging_meme_wantYou_displayName">
+        <Key ID="STR_ttt_Insignias_Tagging_meme_wantyou_displayName">
             <English>I want YOU for TTT</English>
             <German>I want YOU for TTT</German>
         </Key>
-        <Key ID="STR_ttt_Insignias_Tagging_memeNettHier_displayName">
+        <Key ID="STR_ttt_Insignias_Tagging_meme_netthier_displayName">
             <English>Neat around here, but ...</English>
             <German>Nett hier, aber ...</German>
         </Key>

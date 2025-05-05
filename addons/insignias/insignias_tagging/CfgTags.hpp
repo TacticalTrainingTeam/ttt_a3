@@ -82,7 +82,7 @@ class ACE_Tags {
     };
 
     class meme_nett: insignia_black {
-        displayName = CSTRING(meme_nett_displayName);  // Name of your tag being displayed in the interaction menu
+        displayName = SUBCSTRING(meme_netthier_displayName);  // Name of your tag being displayed in the interaction menu
         requiredItem = "TTT_Spraypaint2";  // Required item to have in the inventory to be able to spray your tag (eg. `"ACE_SpraypaintBlack"`, `"ACE_SpraypaintRed"`, `"ACE_SpraypaintGreen"`, `"ACE_SpraypaintBlue"` or any custom item from `CfgWeapons`)
         textures[] = {QPATHTOEF(common,data\p_nettHier_ca.paa)};  // List of texture variations (one is randomly selected when tagging)
         materials[] = {}; // Optional: List of material variations (one is randomly selected). Keep empty if you don't need a custom material.
@@ -91,14 +91,14 @@ class ACE_Tags {
     };
 
     class meme_wantYou: meme_nett {
-        displayName = CSTRING(meme_wantYou_displayName);
+        displayName = SUBCSTRING(meme_wantyou_displayName);
         textures[] = {QPATHTOEF(common,data\p_wantYou_ca.paa)};  
         icon = QPATHTOEF(common,data\p_wantYou_ca.paa);  
     };
 
     class meme_rollator: meme_nett {
-        displayName = CSTRING(meme_rollator_displayName);
-        textures[] = {QPATHTOEF(common,data\p_rollator_ca.paa)};  
-        icon = QPATHTOEF(common,data\p_rollator_ca.paa);  
+        displayName = SUBCSTRING(meme_rollatorgang_displayName);
+        textures[] = {QPATHTOEF(common,data\p_rollatorgang_ca.paa)};  
+        icon = QPATHTOEF(common,data\p_rollatorgang_ca.paa);  
     };
 };
