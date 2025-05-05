@@ -83,10 +83,9 @@ Hinzu kommen allerdings wie gewünscht bei beiden ein Werkzeugkasten, fünf Klap
 In der `initPlayerLocal.sqf` ausführen.
 
 ```c++
-[intel_01, "Lagekarte des Gegners untersuchen", false, ["gefundene Karte", "<img image='pictures\Karte_v3.paa' width=370 height=370/>"]] call ttt_intel_fnc_addIntel;
-[intel_02, "Dokumente nehmen", true, ["eingesammeltes Dokument", "Hier stehen wichtige Informationen"]] call ttt_intel_fnc_addIntel;
+[intel_01, "Lagekarte des Gegners untersuchen", false, ["gefundene Karte", "<img image='pictures\Karte_v3.paa' width=370 height=370/>"]] call ttt_common_fnc_addIntel;
+[intel_02, "Dokumente nehmen", true, ["eingesammeltes Dokument", "Hier stehen wichtige Informationen"]] call ttt_common_fnc_addIntel;
 ```
-
 
 ### callReinforcements
 
@@ -200,6 +199,10 @@ Inhalt ist im [Wiki spezielle Kisten](https://wiki.tacticalteam.de/de/Missionsba
 
 Inhalt ist im [Wiki spezielle Kisten](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#spezielle-kisten) definiert.
 
+## Bewusstlose haben keine Kollision
+
+Bewusstlose haben keine Kollision mit Spielern - vergleichbar mit <https://steamcommunity.com/sharedfiles/filedetails/?id=3450571478>
+
 ## Compositions
 
 Stellt eine Komposition zur Verfügung, um immer benutzte Module beim Anfang einer Mission einfach zu setzen:
@@ -222,6 +225,8 @@ Benutzung: Im 3DEN-Editor `F2` Compositions -> Props -> Other -> Tactical Traini
 ## Bilder
 
 Stellt TTT-Bilder anderen Addons zur Verfügung.
+
+Zugriff auf die Bilder über diesen Pfad `z\ttt\addons\common\data\bildname.paa`.
 
 ## Einheiten
 
