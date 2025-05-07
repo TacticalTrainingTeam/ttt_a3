@@ -5,19 +5,20 @@
 - [Common](#common)
   - [Inhaltsverzeichnis](#inhaltsverzeichnis)
   - [Funktionen](#funktionen)
-    - [crateFiller](#cratefiller)
+    - [`ttt_common_fnc_crateFiller`](#ttt_common_fnc_cratefiller)
       - [Beispiel](#beispiel)
-    - [Intel](#intel)
+    - [`ttt_common_fnc_addIntel`](#ttt_common_fnc_addintel)
       - [Beispiel](#beispiel-1)
-    - [callReinforcements](#callreinforcements)
+    - [`ttt_common_fnc_callReinforcements`](#ttt_common_fnc_callreinforcements)
       - [Beispiele](#beispiele)
-    - [Atmosphärisches Flak-Feuer](#atmosphärisches-flak-feuer)
+    - [`ttt_common_fnc_doFlakFire`](#ttt_common_fnc_doflakfire)
       - [Beispiel](#beispiel-2)
     - [ACE-Fortify Presets](#ace-fortify-presets)
     - [Kisten](#kisten)
       - [Sanitätskisten](#sanitätskisten)
       - [Pionierkisten](#pionierkisten)
       - [Spezialkisten](#spezialkisten)
+  - [Bewusstlose haben keine Kollision](#bewusstlose-haben-keine-kollision)
   - [Compositions](#compositions)
   - [Bilder](#bilder)
   - [Einheiten](#einheiten)
@@ -27,7 +28,7 @@
 
 Stellt die folgenden Funktionen anderen Addons zur Verfügung:
 
-### crateFiller
+### `ttt_common_fnc_crateFiller`
 
 (ehem. r_crate)
 
@@ -66,10 +67,10 @@ Kann in der `initServer.sqf` oder während der Mission auf dem Server aufgerufen
 Dabei werden die bisherigen Gegenstände des Fahrzeugs nicht entfernt und bleiben im Inventar beider Fahrzeuge vorhanden.  
 Hinzu kommen allerdings wie gewünscht bei beiden ein Werkzeugkasten, fünf Klappspaten und 50 Magazine.
 
-### Intel
+### `ttt_common_fnc_addIntel`
 
 ```c++
-[intel, action, hide, [titel, text]] call ttt_intel_fnc_addIntel;
+[intel, action, hide, [titel, text]] call ttt_common_fnc_addIntel;
 ```
 
 **intel:** OBJECT - Das interagierbare Objekt  
@@ -87,7 +88,7 @@ In der `initPlayerLocal.sqf` ausführen.
 [intel_02, "Dokumente nehmen", true, ["eingesammeltes Dokument", "Hier stehen wichtige Informationen"]] call ttt_common_fnc_addIntel;
 ```
 
-### callReinforcements
+### `ttt_common_fnc_callReinforcements`
 
 Diese Funktion erstellt Verstärkungstruppen mit einem Fahrzeug und sendet diese zu einem Releasepunkt, von woaus sie angreifen. Dabei kann das Fahrzeug wie bei mechanisierten Kräften, u.a. zum Angriff, genutzt werden. Es stehen für Luft- sowie Bodenfahrzeuge jeweils drei Einstellungen zur Verfügung.  
 Sollte die Mod [LAMBS DANGER](https://steamcommunity.com/workshop/filedetails/?id=1858075458) aktiv sein, werden alle möglichen Wegpunkte durch das LAMBS-Äquivalent ersetzt.  
@@ -125,7 +126,7 @@ Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 [l_sp_1, l_rp_1, l_at_1, EAST, "O_Heli_Light_02_dynamicLoadout_F", 2, ["O_Soldier_SL_F","O_Soldier_TL_F","O_Soldier_F"], 1, 50] call ttt_common_fnc_callReinforcements; 
 ```
 
-### Atmosphärisches Flak-Feuer
+### `ttt_common_fnc_doFlakFire`
 
 ```c++
 handle = [object] call ttt_common_fnc_doFlakFire;
