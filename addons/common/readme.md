@@ -26,7 +26,7 @@
 
 ## Funktionen
 
-Stellt die folgenden Funktionen anderen Addons zur Verfügung:
+Stellt die folgenden Funktionen zur Verfügung:
 
 ### `ttt_common_fnc_crateFiller`
 
@@ -64,9 +64,6 @@ Kann in der `initServer.sqf` oder während der Mission auf dem Server aufgerufen
 ] call ttt_common_fnc_crateFiller;
 ```
 
-Dabei werden die bisherigen Gegenstände des Fahrzeugs nicht entfernt und bleiben im Inventar beider Fahrzeuge vorhanden.  
-Hinzu kommen allerdings wie gewünscht bei beiden ein Werkzeugkasten, fünf Klappspaten und 50 Magazine.
-
 ### `ttt_common_fnc_addIntel`
 
 ```c++
@@ -79,9 +76,9 @@ Hinzu kommen allerdings wie gewünscht bei beiden ein Werkzeugkasten, fünf Klap
 **titel:** STRING - Intelüberschrift auf der Kartenansicht  
 **text:** STRING - Intelinhalt der unter der Überschrift steht (Der Text unterstüzt HTML-Syntax für z.B. Bilder)
 
-#### Beispiel
-
 In der `initPlayerLocal.sqf` ausführen.
+
+#### Beispiel
 
 ```c++
 [intel_01, "Lagekarte des Gegners untersuchen", false, ["gefundene Karte", "<img image='pictures\Karte_v3.paa' width=370 height=370/>"]] call ttt_common_fnc_addIntel;
@@ -92,21 +89,21 @@ In der `initPlayerLocal.sqf` ausführen.
 
 Diese Funktion erstellt Verstärkungstruppen mit einem Fahrzeug und sendet diese zu einem Releasepunkt, von woaus sie angreifen. Dabei kann das Fahrzeug wie bei mechanisierten Kräften, u.a. zum Angriff, genutzt werden. Es stehen für Luft- sowie Bodenfahrzeuge jeweils drei Einstellungen zur Verfügung.  
 Sollte die Mod [LAMBS DANGER](https://steamcommunity.com/workshop/filedetails/?id=1858075458) aktiv sein, werden alle möglichen Wegpunkte durch das LAMBS-Äquivalent ersetzt.  
-Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=723217262) nicht aktiv sein, werden Helikopter keine Fastrope oder Fallschirmsprünge durchführen, sondern immer landen.
+Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=723217262) bzw [ZEN Add](https://steamcommunity.com/sharedfiles/filedetails/?id=2319721149) nicht aktiv sein, werden Helikopter keine Fastrope oder Fallschirmsprünge durchführen, sondern immer landen.
 
 ```c++
 [spawnPos, releasePos, attackPos, side, vehicle, rpBehaviour, infantry, groupBehaviour, flyHeight] call ttt_common_fnc_callReinforcements;
 ```
 
-**spawnPos:**  OBJECT or ARRAY format Position - Wo wird die Verstärkung mit Fahrzeug erstellt, wovon sie sich dann in Bewegung setzt  
-**releasePos:** OBJECT or ARRAY format Position - Wo wird die Infanterie absitzen um zu Fuß anzugreifen  
-**attackPos:** OBJECT or ARRAY format Position - Welchen Bereich soll die Infanterie und ggf. das Fahrzeug angreifen  
-**side:** SIDE - Welcher Seite sollen die neuen Einheiten angehören  
-**vehicle:** STRING - Welches Fahrzeug soll die Infanterie transportieren  
-**rpBehaviour:** INTEGER (optional, default: 0) - Welches Verhalten nimmt das Fahrzeug am Releasepunkt an; abhängig davon ob es ein Luft- oder Landfahrzeug ist (Siehe dazu die Tabelle unten)  
-**infantry:** ARRAY format characterTypes or CONFIG format CfgGroups entry (optional, default: configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad") - Welche Infanterieeinheiten sollen erstellt werden (Sollte das Array oder die Konfig zu groß für den Frachtraum des Fahrzeugs sein, werden übrige Einheiten gelöscht)  
-**groupBehaviour:** INTEGER (optional, default: 2) - Welches Verhalten haben die Einheiten ab ihrem Releasepunkt (0: relaxed, 1: cautious, 2: combat)  
-**flyHeight:** INTEGER (optional, default: 80) - Auf welcher Höhe soll das Luftfahrzeug fliegen
+**spawnPos**:  OBJECT or ARRAY format Position - Wo wird die Verstärkung mit Fahrzeug erstellt, wovon sie sich dann in Bewegung setzt  
+**releasePos**: OBJECT or ARRAY format Position - Wo wird die Infanterie absitzen um zu Fuß anzugreifen  
+**attackPos**: OBJECT or ARRAY format Position - Welchen Bereich soll die Infanterie und ggf. das Fahrzeug angreifen  
+**side**: SIDE - Welcher Seite sollen die neuen Einheiten angehören  
+**vehicle**: STRING - Welches Fahrzeug soll die Infanterie transportieren  
+**rpBehaviour**: INTEGER (optional, default: 0) - Welches Verhalten nimmt das Fahrzeug am Releasepunkt an; abhängig davon ob es ein Luft- oder Landfahrzeug ist (Siehe dazu die Tabelle unten)  
+**infantry**: ARRAY format characterTypes or CONFIG format CfgGroups entry (optional, default: configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad") - Welche Infanterieeinheiten sollen erstellt werden (Sollte das Array oder die Konfig zu groß für den Frachtraum des Fahrzeugs sein, werden übrige Einheiten gelöscht)  
+**groupBehaviour**: INTEGER (optional, default: 2) - Welches Verhalten haben die Einheiten ab ihrem Releasepunkt (0: relaxed, 1: cautious, 2: combat)  
+**flyHeight**: INTEGER (optional, default: 80) - Auf welcher Höhe soll das Luftfahrzeug fliegen
 
 Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 
@@ -132,7 +129,7 @@ Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 handle = [object] call ttt_common_fnc_doFlakFire;
 ```
 
-**handle**: NUMBER - Rückgabewert mit dem das Feuer später beendet werden kann
+**handle**: NUMBER - Rückgabewert mit dem das Feuer später beendet werden kann  
 **object**: OBJECT - Flak die schießen soll
 
 Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
@@ -161,12 +158,16 @@ Benutzung:
 1. `ACE_Fortify` an Spieler ausgeben
 2. als Admin im Chat `#ace-fortify blufor presetname` eingeben, `presetname` durch eins der unten angegebenen ersetzen.
 
+Alternativ kann im 3DEN-Editor das ACE-Fortify-Modul platziert werden und dort eines des Presets ausgewählt werden.
+
 Folgendes Presets stehen zur Verfügung:
 
 - `TTT_OHK` für das Befestigen einzelner Gebäude im OHK
 - `TTT_FOB` für das Errichten einer FOB oder eines Checkpoint
-- `TTT_Camping` - für Übernachtungen (z.B. in Patrouillen)
+- `TTT_Camping` für Übernachtungen (z.B. in Patrouillen)
 - `TTT_GM` enthält Assets auf dem GM-DLC, nicht speziell für ein bestimmtes Szenario gedacht
+
+Siehe auch [Fortify Framework](https://ace3.acemod.org/wiki/framework/fortify-framework)
 
 ### Kisten
 
@@ -190,7 +191,7 @@ Fügt folgende Pionierkisten hinzu:
 - EOD-Kiste `ttt_common_eod_crate`
 - EOD-Kiste mit UGV (ED-1D) `ttt_common_eod_ugv_crate`
 
-Inhalt ist im [Wiki spezielle Kisten](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#spezielle-kisten) definiert.
+Inhalt ist im [Wiki](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#spezielle-kisten) definiert.
 
 #### Spezialkisten
 
@@ -198,11 +199,11 @@ Inhalt ist im [Wiki spezielle Kisten](https://wiki.tacticalteam.de/de/Missionsba
 - Markierkiste (Mark) `ttt_common_mark_crate`
 - Fallschirmkiste `ttt_common_paradrop_crate` (Nicht verladbar!)
 
-Inhalt ist im [Wiki spezielle Kisten](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#spezielle-kisten) definiert.
+Inhalt ist im [Wiki](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#spezielle-kisten) definiert.
 
 ## Bewusstlose haben keine Kollision
 
-Bewusstlose haben keine Kollision mit Spielern - vergleichbar mit <https://steamcommunity.com/sharedfiles/filedetails/?id=3450571478>
+Bewusstlose Spieler haben keine Kollision mit anderen Spielern - vergleichbar mit [Unconscious Collision Disabler (Steam Workshop)](https://steamcommunity.com/sharedfiles/filedetails/?id=3450571478)
 
 ## Compositions
 
@@ -215,19 +216,18 @@ Stellt eine Komposition zur Verfügung, um immer benutzte Module beim Anfang ein
 - Zeus `zeus_1`
 - Zeus `zeus_2`
 - Zeus Missionsbauer -> SteamID eintragen!
-- Leerer Marker `respawn` (TTT-Flagge mit Zuschauerkamera und techn. Teleport wird automatisch erzeugt)
+- Leerer Marker `respawn` (TTT-Flagge mit Zuschauerkamera und techn. Teleport wird automatisch erzeugt durch `ttt_teleport`-Addon)
 - 2x Zivilist `zeus` + `zeus_1`
 
 Benutzung: Im 3DEN-Editor `F2` Compositions -> Props -> Other -> Tactical Training Team
 
 ![Inhalt und Pfad zur Benutzung](https://i.imgur.com/kX7gUkp.jpeg)
-****
 
 ## Bilder
 
 Stellt TTT-Bilder anderen Addons zur Verfügung.
 
-Zugriff auf die Bilder über diesen Pfad `z\ttt\addons\common\data\bildname.paa`.
+Zugriff auf die Bilder erfolgt über diesen Pfad `z\ttt\addons\common\data\bildname.paa`.
 
 ## Einheiten
 
