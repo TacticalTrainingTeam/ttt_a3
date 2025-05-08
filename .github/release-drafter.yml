@@ -53,13 +53,28 @@ template: |
 
   $CONTRIBUTORS
 
+version-resolver:
+  major:
+    labels:
+      - "target/next-arma"
+  minor:
+    labels:
+      - "pr/feature"
+      - "pr/cleanup"
+      - "pr/change"
+      - "pr/enhancement"
+      - "pr/optimization"
+      - "pr/setting"
+      - 'pr/translation'
+  patch:
+    labels:
+      - "pr/documentation"
+      - "pr/bug-fix"
+  default: patch
+
 replacers:
   # Category titles
   # Der Release Drafter macht die Kategorie automatisch als ## Heading
   # und wir wollen sie als ### Heading haben
   - search: '/\#\# (\#\#\# (NEU|REPARIERT|VERBESSERT|VERÄNDERT|EINSTELLUNGEN|ÜBERSETZUNGEN|DOKUMENTATION):)/g'
     replace: '$1'
-
-
-
-# just a silly comment to trigger a push
