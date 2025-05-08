@@ -38,7 +38,7 @@ exclude-labels:
   - 'dependencies'
   - 'tools'
 
-change-template: '- $TITLE (#$NUMBER) by $AUTHOR'
+change-template: '* $TITLE (#$NUMBER) by $AUTHOR'
 template: |
   _Requires the latest Version of [CBA](https://github.com/CBATeam/CBA_A3) and [ACE](https://github.com/acemod/ACE3)._
 
