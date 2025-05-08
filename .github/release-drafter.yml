@@ -2,8 +2,8 @@ branches:
   - master
   - release-drafter  # for testing edits to this configuration
 
-name-template: 'Version $NEXT_MINOR_VERSION'
-tag-template: 'v$NEXT_MINOR_VERSION'
+name-template: 'Version $RESOLVED_VERSION'
+tag-template: 'v$RESOLVED_VERSION'
 
 sort-by: title # sort alphabetically
 sort-direction: ascending
@@ -43,8 +43,6 @@ template: |
 
   ## Zusammenfassung
 
-  
-
   ## Änderungsprotokoll 
 
   $CHANGES
@@ -53,6 +51,9 @@ template: |
 
   $CONTRIBUTORS
 
+# PR mit dem Label target/next-arma tirggern einen bump der Major version
+# die meisten anderen triggern einen bump der Minor version
+# PR mit dem Label pr/bug-fix triggern einen bump der Patch version
 version-resolver:
   major:
     labels:
