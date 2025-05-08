@@ -35,7 +35,6 @@ categories:
 
 exclude-labels:
   - 'ignore-changelog'
-  - 'dependencies'
   - 'tools'
 
 change-template: '* $TITLE (#$NUMBER) by $AUTHOR'
@@ -47,8 +46,3 @@ template: |
   $CHANGES
 
   $CONTRIBUTORS
-
-replacers:
-  # Category titles
-  - search: '/\#\# (\*\*(ADDED|FIXED|IMPROVED|CHANGED|SETTINGS|TRANSLATIONS):\*\*)/g'
-    replace: '$1'
