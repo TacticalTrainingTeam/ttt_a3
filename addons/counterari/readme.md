@@ -5,6 +5,7 @@
 Modul `Konterartillerie - Feindl. Artillerie` platzieren und mit allen feindlichen Artilleriegeschützen synchronisieren, die Gegenfeuer geben sollen.  
 Modul `Konterartillerie - Freundl. Artillerie` platzieren und mit allen freundlichen Artilleriegeschützen synchronisieren, die Gegenfeuer auf sich ziehen sollen.  
 In diesem Modul können noch Einstellungen vorgenommen werden, die sich auf das Gegenfeuer beziehen:
+
 - Radius: In welchem Radius soll das Gegenfeuer einschlagen. Ist `Radius verkleinern` aktiviert, werden die Schüsse immer genauer.
 - Schüsse: Wie oft soll die Konterartillerie (pro Fahrzeug) feuern.
 - Radius verkleinern: Soll der Radius mit fortlaufendem Beschuss verkleinert werden.
@@ -29,7 +30,9 @@ vehicle addEventhandler ["Fired", {
 ```
 
 ## Alternative Nutzung
+
 Diese Funktion ermöglicht es auch auf einen beliebeigen Punkt schießen zu lassen.
+
 ```c++
 [target, radius, shots, decrementing, vehicles] call ttt_counterari_fnc_positionFire;
 ```
