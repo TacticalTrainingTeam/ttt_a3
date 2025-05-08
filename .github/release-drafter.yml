@@ -2,48 +2,53 @@ branches:
   - master
   - release-drafter  # for testing edits to this configuration
 
-name-template: 'Version $NEXT_PATCH_VERSION'
-tag-template: 'v$NEXT_PATCH_VERSION'
+name-template: 'Version $NEXT_MINOR_VERSION'
+tag-template: 'v$NEXT_MINOR_VERSION'
 
 sort-by: title # sort alphabetically
 sort-direction: ascending
 
 categories:
-  - title: '**NEU:**'
+  - title: '### NEU:'
     labels:
       - 'pr/feature'
-  - title: '**REPARIERT:**'
+  - title: '### REPARIERT:'
     labels:
       - 'pr/bug-fix'
-  - title: '**VERBESSERT:**'
+  - title: '### VERBESSERT:'
     labels:
       - 'pr/enhancement'
       - 'pr/optimization'
-  - title: '**VERÄNDERT:**'
+  - title: '### VERÄNDERT:'
     labels:
       - 'pr/cleanup'
       - 'pr/change'
-  - title: '**EINSTELLUNGEN:**'
+  - title: '### EINSTELLUNGEN:'
     labels:
       - 'pr/setting'
-  - title: '**ÜBERSETZUNGEN:**'
+  - title: '### ÜBERSETZUNGEN:'
     labels:
       - 'pr/translation'
+  - title: '## DOKUMENTATION:'
+    labels:
+      - 'pr/documentation'
 
 exclude-labels:
   - 'ignore-changelog'
-  - 'dependencies'
   - 'tools'
 
-change-template: '- $TITLE (#$NUMBER)'
+change-template: '* $TITLE (#$NUMBER) by $AUTHOR'
 template: |
-  _Requires CBA version X.Y.Z or later and Arma 3 version X.Y or later._
+  _Requires the latest Version of [CBA](https://github.com/CBATeam/CBA_A3) and [ACE](https://github.com/acemod/ACE3)._
 
-  ## Change Log Zusammenfassung
+  ## Zusammenfassung
+
+  
+
+  ## Änderungsprotokoll 
 
   $CHANGES
 
-replacers:
-  # Category titles
-  - search: '/\#\# (\*\*(ADDED|FIXED|IMPROVED|CHANGED|SETTINGS|TRANSLATIONS):\*\*)/g'
-    replace: '$1'
+  ## Mitwirkende
+
+  $CONTRIBUTORS
