@@ -55,5 +55,7 @@ template: |
 
 replacers:
   # Category titles
+  # Der Release Drafter macht die Kategorie automaischt als ## Heading
+  # und wir wollen sie als ### Heading haben
   - search: '\#\# (\#\#\# (NEU|REPARIERT|VERBESSERT|VERÄNDERT|EINSTELLUNGEN|ÜBERSETZUNGEN|DOKUMENTATION):)/g'
     replace: '$1'
