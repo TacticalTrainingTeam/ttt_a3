@@ -72,7 +72,7 @@ Kann in der `initServer.sqf` oder während der Mission auf dem Server aufgerufen
 
 **intel:** OBJECT - Das interagierbare Objekt  
 **action:** STRING - Actiontitel der als Interaktion gezeigt wird  
-**hide:** BOOLEAN - Object nach Interaktion ausblenden  
+**hide:** BOOLEAN - Objekt nach Interaktion ausblenden  
 **titel:** STRING - Intelüberschrift auf der Kartenansicht  
 **text:** STRING - Intelinhalt der unter der Überschrift steht (Der Text unterstüzt HTML-Syntax für z.B. Bilder)
 
@@ -96,7 +96,7 @@ Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=72
 ```
 
 **spawnPos**:  OBJECT or ARRAY format Position - Wo wird die Verstärkung mit Fahrzeug erstellt, wovon sie sich dann in Bewegung setzt  
-**releasePos**: OBJECT or ARRAY format Position - Wo wird die Infanterie absitzen um zu Fuß anzugreifen  
+**releasePos**: OBJECT or ARRAY format Position - Wo wird die Infanterie absitzen, um zu Fuß anzugreifen  
 **attackPos**: OBJECT or ARRAY format Position - Welchen Bereich soll die Infanterie und ggf. das Fahrzeug angreifen  
 **side**: SIDE - Welcher Seite sollen die neuen Einheiten angehören  
 **vehicle**: STRING - Welches Fahrzeug soll die Infanterie transportieren  
@@ -156,7 +156,7 @@ Definiert Presets für ACE-Fortify, die in spontanen Missionen und Trainings gen
 Benutzung:
 
 1. `ACE_Fortify` an Spieler ausgeben
-2. als Admin im Chat `#ace-fortify blufor presetname` eingeben, `presetname` durch eins der unten angegebenen ersetzen.
+2. als Admin im Chat `#ace-fortify blufor presetname` eingeben, `presetname` durch eins der unten angegebenen Presets ersetzen.
 
 Alternativ kann im 3DEN-Editor das ACE-Fortify-Modul platziert werden und dort eines des Presets ausgewählt werden.
 
