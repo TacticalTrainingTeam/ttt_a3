@@ -2,7 +2,7 @@
 
 ## Eagle IV
 
-Fügt dem Eagle IV zwei abnehmbare Rucksäcke `BWA3_PatrolPack_Fleck` über ACE-Interaktionen hinzu.
+Fügt dem Eagle IV zwei abnehmbare Rucksäcke `BWA3_PatrolPack_Fleck`/`BWA3_PatrolPack_Tropen` über ACE-Interaktionen hinzu.
 
 ### Referenzen
 
