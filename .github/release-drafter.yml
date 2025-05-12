@@ -29,7 +29,7 @@ categories:
   - title: '### ÜBERSETZUNGEN:'
     labels:
       - 'pr/translation'
-  - title: '## DOKUMENTATION:'
+  - title: '### DOKUMENTATION:'
     labels:
       - 'pr/documentation'
 
