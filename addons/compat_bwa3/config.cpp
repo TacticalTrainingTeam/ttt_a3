@@ -13,7 +13,8 @@ class CfgPatches {
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
         requiredAddons[] = {
-            "ttt_common", 
+            "ttt_common",
+            "bwa3_backpacks", 
             "bwa3_eagle", 
             "bwa3_dingo2",
             "bwa3_puma", 
