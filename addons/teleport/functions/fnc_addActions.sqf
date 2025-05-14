@@ -26,7 +26,7 @@ if (hasInterface) then {
     // add spectator cam
     _object addAction [LLSTRING(spectator), {
 
-        params ["_target", "_caller"];
+        params ["", "_caller"];
 
         ["Initialize", [_caller, [], true]] call BIS_fnc_EGSpectator;
         [_caller, true] remoteExecCall ["hideObjectGlobal", 2];

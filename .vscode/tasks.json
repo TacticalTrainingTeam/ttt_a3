@@ -31,17 +31,6 @@
 			"problemMatcher": []
 		},
 		{
-			"label": "Check: Undefined Strings",
-			"command": "${config:python.defaultInterpreterPath}",
-			"options": {
-				"cwd": "${workspaceFolder}/tools"
-			},
-			"args": [
-				"check_strings.py"
-			],
-			"problemMatcher": []
-		},
-		{
 			"label": "Check: Unused Privates",
 			"command": "${config:python.defaultInterpreterPath}",
 			"options": {
@@ -60,7 +49,6 @@
 			},
 			"args": [
 				"check",
-				"-p",
 				"-v"
 			],
 			"problemMatcher": []
@@ -70,7 +58,6 @@
 			"dependsOn": [
 				"Validate: Config",
 				"Validate: Stringtables",
-				"Check: Undefined Strings",
 				"Check: Unused Privates",
 				"Check: HEMTT"
 			],

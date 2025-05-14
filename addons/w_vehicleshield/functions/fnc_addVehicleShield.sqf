@@ -58,7 +58,7 @@ if (_excessiveHits != 20) then {_target setVariable ["WVS_excessiveHits", _exces
 _target addEventHandler [
     "HandleDamage",
     {
-        params ["_unit", "_selection", "_damage", "_source", "_projectile", "_hitIndex", "_instigator", "_hitPoint", "_directHit", "_context"];
+        params ["_unit", "", "_damage", "", "", "", "", "_hitPoint"];
 
         //get some variables
         private _returnDamage = 0;

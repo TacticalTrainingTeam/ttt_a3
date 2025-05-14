@@ -1,9 +1,16 @@
 class CfgVehicles {
     class ACE_Explosives_Place_SLAM;
-    class tsp_frameCharge_place: ACE_Explosives_Place_SLAM { XEH_ENABLED; }; // "Frame Charge" @Breach
-    class tsp_popperCharge_place: ACE_Explosives_Place_SLAM { XEH_ENABLED; }; // "Lock Popper" @Breach
-    class tsp_popperCharge_auto_place: tsp_popperCharge_place { XEH_ENABLED; }; // "Lock Popper (Auto-Fuse)" @Breach
-    class tsp_stickCharge_place: ACE_Explosives_Place_SLAM { XEH_ENABLED; }; // "Stick Charge" @Breach
-    class tsp_stickCharge_auto_place: tsp_stickCharge_place { XEH_ENABLED; }; // "Stick Charge (Auto-Fuse)" @Breach
+    class tsp_breach_block_place: ACE_Explosives_Place_SLAM { XEH_ENABLED; }; // "M4A1 SLAM" @Breach_Rewrite
+
+    class tsp_breach_block_auto_place: tsp_breach_block_place { XEH_ENABLED; }; // "M4A1 SLAM" @Breach_Rewrite
+    class tsp_breach_linear_place: ACE_Explosives_Place_SLAM { XEH_ENABLED; }; // "M4A1 SLAM" @Breach_Rewrite
+
+    class tsp_breach_linear_auto_place: tsp_breach_linear_place { XEH_ENABLED; }; // "M4A1 SLAM" @Breach_Rewrite
+    class tsp_breach_package_place: ACE_Explosives_Place_SLAM { XEH_ENABLED; }; // "M4A1 SLAM" @Breach_Rewrite
+    class tsp_breach_popper_place: ACE_Explosives_Place_SLAM { XEH_ENABLED; }; // "M4A1 SLAM" @Breach_Rewrite
+
+    class tsp_breach_popper_auto_place: tsp_breach_popper_place { XEH_ENABLED; }; // "M4A1 SLAM" @Breach_Rewrite
+    class tsp_breach_silhouette_place: ACE_Explosives_Place_SLAM { XEH_ENABLED; }; // "M4A1 SLAM" @Breach_Rewrite
+    class tsp_breach_stick_place: ACE_Explosives_Place_SLAM { XEH_ENABLED; }; // "M4A1 SLAM" @Breach_Rewrite
 };
 

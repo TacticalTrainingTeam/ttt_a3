@@ -2,48 +2,80 @@ branches:
   - master
   - release-drafter  # for testing edits to this configuration
 
-name-template: 'Version $NEXT_PATCH_VERSION'
-tag-template: 'v$NEXT_PATCH_VERSION'
+name-template: 'Version $RESOLVED_VERSION'
+tag-template: 'v$RESOLVED_VERSION'
 
 sort-by: title # sort alphabetically
 sort-direction: ascending
 
 categories:
-  - title: '**NEU:**'
+  - title: '### NEU:'
     labels:
       - 'pr/feature'
-  - title: '**REPARIERT:**'
+  - title: '### REPARIERT:'
     labels:
       - 'pr/bug-fix'
-  - title: '**VERBESSERT:**'
+  - title: '### VERBESSERT:'
     labels:
       - 'pr/enhancement'
       - 'pr/optimization'
-  - title: '**VERÄNDERT:**'
+  - title: '### VERÄNDERT:'
     labels:
       - 'pr/cleanup'
       - 'pr/change'
-  - title: '**EINSTELLUNGEN:**'
+  - title: '### EINSTELLUNGEN:'
     labels:
       - 'pr/setting'
-  - title: '**ÜBERSETZUNGEN:**'
+  - title: '### ÜBERSETZUNGEN:'
     labels:
       - 'pr/translation'
+  - title: '### DOKUMENTATION:'
+    labels:
+      - 'pr/documentation'
 
 exclude-labels:
   - 'ignore-changelog'
-  - 'dependencies'
   - 'tools'
 
-change-template: '- $TITLE (#$NUMBER)'
+change-template: '* $TITLE (#$NUMBER) by $AUTHOR'
 template: |
-  _Requires CBA version X.Y.Z or later and Arma 3 version X.Y or later._
+  _Requires the latest Version of [CBA](https://github.com/CBATeam/CBA_A3) and [ACE](https://github.com/acemod/ACE3)._
 
-  ## Change Log Zusammenfassung
+  ## Zusammenfassung
+
+  ## Änderungsprotokoll 
 
   $CHANGES
 
+  ## Mitwirkende
+
+  $CONTRIBUTORS
+
+# PR mit dem Label target/next-arma tirggern einen bump der Major version
+# die meisten anderen triggern einen bump der Minor version
+# PR mit dem Label pr/bug-fix triggern einen bump der Patch version
+version-resolver:
+  major:
+    labels:
+      - "target/next-arma"
+  minor:
+    labels:
+      - "pr/feature"
+      - "pr/cleanup"
+      - "pr/change"
+      - "pr/enhancement"
+      - "pr/optimization"
+      - "pr/setting"
+      - 'pr/translation'
+  patch:
+    labels:
+      - "pr/documentation"
+      - "pr/bug-fix"
+  default: patch
+
 replacers:
   # Category titles
-  - search: '/\#\# (\*\*(ADDED|FIXED|IMPROVED|CHANGED|SETTINGS|TRANSLATIONS):\*\*)/g'
+  # Der Release Drafter macht die Kategorie automatisch als ## Heading
+  # und wir wollen sie als ### Heading haben
+  - search: '/\#\# (\#\#\# (NEU|REPARIERT|VERBESSERT|VERÄNDERT|EINSTELLUNGEN|ÜBERSETZUNGEN|DOKUMENTATION):)/g'
     replace: '$1'

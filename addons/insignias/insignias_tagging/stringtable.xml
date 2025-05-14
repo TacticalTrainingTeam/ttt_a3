@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Insignias_Tagging">
+        <Key ID="STR_ttt_Insignias_Tagging_spraypaint_displayName">
+            <English>Spray Paint (TTT)</English>
+            <German>Sprühfarbe (TTT)</German>
+        </Key>
+        <Key ID="STR_ttt_Insignias_Tagging_spraypaint2_displayName">
+            <English>Spray Paint - Meme (TTT)</English>
+            <German>Sprühfarbe - Meme (TTT)</German>
+        </Key>
+        <Key ID="STR_ttt_Insignias_Tagging_meme_rollatorgang_displayName">
+            <English>Rollator-Gang</English>
+            <German>Rollator-Gang</German>
+        </Key>
+        <Key ID="STR_ttt_Insignias_Tagging_meme_wantyou_displayName">
+            <English>I want YOU for TTT</English>
+            <German>I want YOU for TTT</German>
+        </Key>
+        <Key ID="STR_ttt_Insignias_Tagging_meme_netthier_displayName">
+            <English>Neat around here, but ...</English>
+            <German>Nett hier, aber ...</German>
+        </Key>
+    </Package>
+</Project>
