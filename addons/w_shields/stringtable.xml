@@ -17,7 +17,7 @@
             <English>Destroy Windows</English>
             <German>Fenster entglasen</German>
         </Key>
-            <Key ID="STR_ttt_W_Shields_variableDescription">
+        <Key ID="STR_ttt_W_Shields_variableDescription">
             <English>Global variablename for the building.</English>
             <German>Globaler Variablenname für das Gebäude.</German>
         </Key>
