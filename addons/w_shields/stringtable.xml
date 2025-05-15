@@ -9,11 +9,11 @@
             <English>Building Shield</English>
             <German>Gebäudeschild</German>
         </Key>
-        <Key ID="STR_ttt_W_Shields_window_description">
+        <Key ID="STR_ttt_W_Shields_windowdescription">
             <English>Destroys all windows in the building.</English>
             <German>Zerstört alle Fenster im Gebäude.</German>
         </Key>
-        <Key ID="STR_ttt_W_Shields_window_displayName">
+        <Key ID="STR_ttt_W_Shields_windowdisplayName">
             <English>Destroy Windows</English>
             <German>Fenster entglases</German>
         </Key>

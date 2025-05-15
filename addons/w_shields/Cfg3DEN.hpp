@@ -7,12 +7,12 @@ class Cfg3DEN {
 
                 class Attributes {
                     class GVAR(addVehicleShield) {
-                        displayName = "VehicleShield";
-                        tooltip = "Fügt dem Fahrzeug das VehicleShield aus dem Gruppe W Framework hinzu.";
+                        displayName = CSTRING(VehicledisplayName);//"VehicleShield";
+                        tooltip = CSTRING(Vehicledescription);//"Fügt dem Fahrzeug das VehicleShield aus dem Gruppe W Framework hinzu.";
                         property = QGVAR(addVehicleShield);
                         control = "Checkbox";
 
-                        expression = QUOTE([ARR_2([ARR_4(_this,false,[ARR_2(true,true)],true)],FUNC(addVehicleShield))] call EFUNC(api,callGlobalFnc));
+                        expression = QUOTE([ARR_2([ARR_4(_this,false,[ARR_2(true,true)],true)],FUNC(addVehicleShield))] call EFUNC(common,callGlobalFnc));
                         defaultValue = 0;
 
                         unique = 0;
@@ -20,12 +20,12 @@ class Cfg3DEN {
                         typeName = "BOOL";
                     };
                     class GVAR(addBuildingShield) {
-                        displayName = "BuildingShield";
-                        tooltip = "Fügt dem Objekt das BuildingShield aus dem Gruppe W Framework hinzu.";
+                        displayName = CSTRING(BuildingdisplayName);//"BuildingShield";
+                        tooltip = CSTRING(Buildingdescription);//"Fügt dem Objekt das BuildingShield aus dem Gruppe W Framework hinzu.";
                         property = QGVAR(addBuildingShield);
                         control = "Checkbox";
 
-                        expression = QUOTE([_this] call FUNCMAIN(buildingShield););
+                        expression = QUOTE([_this] call FUNC(buildingShield););
                         defaultValue = 0;
 
                         unique = 0;
@@ -33,12 +33,12 @@ class Cfg3DEN {
                         typeName = "BOOL";
                     };
                     class GVAR(popWindows) {
-                        displayName = "Fenster entglasen";
-                        tooltip = "Zerstört alle Fenster im Gebäude.";
+                        displayName = CSTRING(windowdisplayName)M//"Fenster entglasen";
+                        tooltip = CSTRING(windowdescription);//"Zerstört alle Fenster im Gebäude.";
                         property = QGVAR(windowpop);
                         control = "Checkbox";
 
-                        expression = QUOTE([_this] call FUNCMAIN(removeWindowGlass););
+                        expression = QUOTE([_this] call FUNC(removeWindowGlass););
                         defaultValue = 0;
 
                         unique = 0;
