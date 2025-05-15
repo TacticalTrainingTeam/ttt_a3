@@ -23,7 +23,7 @@ params [
     [ "_target", objNull, [objNull] ]
 ];
 
-if (isNull _target) exitWith { ["Kein Objekt übergeben."] call BIS_fnc_error };
+if (isNull _target) exitWith { ["Kein Objekt übergeben."] call BIS_fnc_error };//Maybe localize this in the future
 
 //Add the HandleDamage Eventhandler
 _target addEventHandler [

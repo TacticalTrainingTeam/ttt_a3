@@ -3,7 +3,7 @@
     <Package name="W_Shields">
         <Key ID="STR_ttt_W_Shields_Buildingdescription">
             <English>Building Shield</English>
-            <German>Fügt dem Objekt das BuildingShield aus dem Gruppe W Framework hinzu.</German>
+            <German>Verhindert ein Zerstören der Gebäudestruktur, ausgenommen Fenster.</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_BuildingdisplayName">
             <English>Building Shield</English>
@@ -15,7 +15,15 @@
         </Key>
         <Key ID="STR_ttt_W_Shields_windowdisplayName">
             <English>Destroy Windows</English>
-            <German>Fenster entglases</German>
+            <German>Fenster entglasen</German>
+        </Key>
+            <Key ID="STR_ttt_W_Shields_variableDescription">
+            <English>Global variablename for the building.</English>
+            <German>Globaler Variablenname für das Gebäude.</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_variabledisplayName">
+            <English>Varaible Name</English>
+            <German>Variablenname</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_Vehicledescription">
             <English>Adds a vehicle shield to the vehicle.</English>
