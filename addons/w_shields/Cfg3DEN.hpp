@@ -33,7 +33,7 @@ class Cfg3DEN {
                         typeName = "BOOL";
                     };
                     class GVAR(popWindows) {
-                        displayName = CSTRING(windowdisplayName)M//"Fenster entglasen";
+                        displayName = CSTRING(windowdisplayName);//"Fenster entglasen";
                         tooltip = CSTRING(windowdescription);//"Zerstört alle Fenster im Gebäude.";
                         property = QGVAR(windowpop);
                         control = "Checkbox";
