@@ -12,8 +12,8 @@ class Cfg3DEN {
                         property = QGVAR(addVehicleShield);
                         control = "Checkbox";
 
-                        expression = QUOTE( [ARR_2([ARR_4(_this,false,[ARR_2(true,true)],true)],FUNC(addVehicleShield))] call EFUNC(api,callGlobalFnc));
-                        defaultValue = false;
+                        expression = QUOTE([ARR_2([ARR_4(_this,false,[ARR_2(true,true)],true)],FUNC(addVehicleShield))] call EFUNC(api,callGlobalFnc));
+                        defaultValue = 0;
 
                         unique = 0;
                         condition = "objectVehicle";
@@ -25,8 +25,8 @@ class Cfg3DEN {
                         property = QGVAR(addBuildingShield);
                         control = "Checkbox";
 
-                        expression = QUOTE( [_this] call FUNCMAIN(buildingShield); );
-                        defaultValue = false;
+                        expression = QUOTE([_this] call FUNCMAIN(buildingShield););
+                        defaultValue = 0;
 
                         unique = 0;
                         condition = "objectDestructable - objectHasInventoryCargo - objectBrain - objectAgent - logicModule";
@@ -38,8 +38,8 @@ class Cfg3DEN {
                         property = QGVAR(windowpop);
                         control = "Checkbox";
 
-                        expression = QUOTE( [_this] call FUNCMAIN(removeWindowGlass); );
-                        defaultValue = false;
+                        expression = QUOTE([_this] call FUNCMAIN(removeWindowGlass););
+                        defaultValue = 0;
 
                         unique = 0;
                         condition = "objectDestructable - objectHasInventoryCargo - objectBrain - objectAgent - logicModule";

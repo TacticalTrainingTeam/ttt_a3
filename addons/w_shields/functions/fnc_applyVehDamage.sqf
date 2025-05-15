@@ -32,7 +32,8 @@ if (_hitPoint == "hithull") then {
     _unit setHitpointDamage ["hithull", _newDamage];
 } else {
     //cap critical hitpoints at 0.9 - prevents hardcoded explosions but they still get disabled
-    private _maxValue = if (_hitPoint in _unitCritHPs) then { 0.9 } else { 1 };
+    //private _maxValue = if (_hitPoint in _unitCritHPs) then { 0.9 } else { 1 };
+    private _maxValue = [1, 0.9] select (_hitPoint in _unitCritHPs);
     if (("gun" in _hitPoint) || {"turret" in _hitPoint}) then { _maxValue = 1 }; //except for guns/turrets. They need 100% damage to get disabled.
     
     //check for VHS param kill preventions

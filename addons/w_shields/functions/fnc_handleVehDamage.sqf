@@ -90,7 +90,8 @@ if (_currHash isEqualTo []) then {
 
                     {
                         private _currDamage = _unit getHitPointDamage _X;
-                        private _maxDmg = if (_currDamage >= 0.33 && { _currDamage < 0.66}) then { 1 } else { 0.65 };
+                        //private _maxDmg = if (_currDamage >= 0.33 && { _currDamage < 0.66}) then { 1 } else { 0.65 };
+                        private _maxDmg = [0.65, 1] select ((_currDamage >= 0.33) && {_currDamage < 0.66});
                         private _hpDamage = (_currDamage + _excessDmg) min _maxDmg;
 
                         //special effects for engine
