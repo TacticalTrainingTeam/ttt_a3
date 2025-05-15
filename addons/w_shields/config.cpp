@@ -11,7 +11,6 @@ class CfgPatches {
         author = "Gruppe W";
         url = "https://www.gruppe-w.de/";
         VERSION_CONFIG;
-        skipWhenMissingDependencies = 1;
     };
 };
 
