@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="W_Shields">
+        <Key ID="STR_ttt_W_Shields_Buildingdescription">
+            <English>Building Shield</English>
+            <German>Fügt dem Objekt das BuildingShield aus dem Gruppe W Framework hinzu.</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_BuildingdisplayName">
+            <English>Building Shield</English>
+            <German>Gebäudeschild</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_window_description">
+            <English>Destroys all windows in the building.</English>
+            <German>Zerstört alle Fenster im Gebäude.</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_window_displayName">
+            <English>Destroy Windows</English>
+            <German>Fenster entglases</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_Vehicledescription">
+            <English>Adds a vehicle shield to the vehicle.</English>
+            <German>Fügt dem Fahrzeug das VehicleShield aus dem Gruppe W Framework hinzu</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_VehicledisplayName">
+            <English>Vehicle Shield</English>
+            <German>Fahrzeugschild</German>
+        </Key>
+    </Package>
+</Project>
