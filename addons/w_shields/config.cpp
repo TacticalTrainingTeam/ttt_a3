@@ -2,18 +2,18 @@
 
 class CfgPatches {
     class ADDON {
-        author = "Gruppe W";
-        authors[] = {"[W] Miller", "Andx"};
-        authorUrl = "https://www.gruppe-w.de/";
         name = COMPONENT_NAME;
+        units[] = {QGVAR(moduleAddVHS)};
+        weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"ttt_common"};
-        units[] = {};
-        weapons[] = {};
+        authors[] = {"Miller"};
+        author = "Gruppe W";
+        url = "https://www.gruppe-w.de/";
         VERSION_CONFIG;
     };
 };
 
+#include "Cfg3DEN.hpp"
 #include "CfgEventHandlers.hpp"
 #include "CfgVehicles.hpp"
-#include "Cfg3DEN.hpp"
