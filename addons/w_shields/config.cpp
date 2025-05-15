@@ -8,8 +8,8 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"ttt_common"};
         authors[] = {"Miller"};
-        author = ECSTRING(main,author);
-        authorUrl = ECSTRING(main,url);
+        author = "Gruppe W";
+        url = "https://www.gruppe-w.de/";
         VERSION_CONFIG;
         skipWhenMissingDependencies = 1;
     };
