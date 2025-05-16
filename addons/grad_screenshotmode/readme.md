@@ -17,5 +17,5 @@ Fügt eine Tastenkombination zum Ausblenden aller UI-Elemente für schönere Scr
 
 ## Maintainer
 
-* Menom (TTT)
-* Andx (TTT)
+- Menom (TTT)
+- Andx (TTT)
