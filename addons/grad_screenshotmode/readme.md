@@ -6,7 +6,6 @@ Fügt eine Tastenkombination zum Ausblenden aller UI-Elemente für schönere Scr
 
 - Vanilla Arma
 - DUI Hud
-- ACE: Name Tags, Stamina Bar
 
 ## Bekannte Fehler
 
