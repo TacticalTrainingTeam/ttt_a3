@@ -2,16 +2,16 @@
 
 /*
  * Authors: You
- * Description.
+ * Toggles the Display of various Displayelements.
  *
  * Arguments:
- * 0: Argument (optional, default: value) <OBJECT>
+ * None
  *
  * Return Value:
  * Return description <NONE>
  *
  * Example:
- * [params] call PREFIX_ttt_screenshotmode_fnc_addEventHandler
+ * [] call ttt_screenshotmode_fnc_addEventHandler
  *
  * Public: No
  */
@@ -19,14 +19,11 @@
 params [];
 TRACE_1("fnc_addEventHandler",_this);
 
-INFO("UI toggled!");
-
-private _id = [
+_id = [
     "ace_ui_hideHud",
     { 
         params ["_set"];
-        //DUI
-        diwako_dui_main_toggled_off = _set;
+        INFO_1("UI toggled %1", _set);
 
         //Vanilla
         if (_set) then {
@@ -35,5 +32,8 @@ private _id = [
             GVAR(vanillaHUD) = shownHUD;
             showHUD [false,false,false,false,false,false,false,false];
         };
+
+        //ACRE
+        [!_set] call acre_sys_gui_fnc_showVehicleInfo;
     }
-    ] call CBA_fnc_addEventHandler;
+] call CBA_fnc_addEventHandler;
