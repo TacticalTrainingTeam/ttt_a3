@@ -26,4 +26,6 @@ force ttt_signalpanel_enable = false;
 force ttt_signalpanel_supportedBackpacks = '["B_kitbag_rgr", "B_AssaultPack_rgr"]';
 
 force ttt_dismantle_enable = true;
-force ttt_dismantle_supportedObjects = '["Land_CzechHedgehog_01_new_F", "Land_CzechHedgehog_01_old_F"]'
+force ttt_dismantle_supportedObjects = '["Land_CzechHedgehog_01_new_F", "Land_CzechHedgehog_01_old_F"]';
+force ttt_dismantle_neededItem = "Toolkit";
+force ttt_dismantle_neededSkill = 2;

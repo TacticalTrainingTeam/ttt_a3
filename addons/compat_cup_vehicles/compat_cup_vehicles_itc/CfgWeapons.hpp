@@ -18,7 +18,7 @@ class CfgWeapons {
         };
         class EventHandlers {
             class itc_land_veh_weapons {
-                fired = "_this call itc_land_veh_weapons_fnc_fired;";
+                fired = "call itc_land_veh_weapons_fnc_fired;";
             };
         };
     };
