@@ -89,6 +89,10 @@
             <English>TTT EOD+UGV Crate (EOD+)</English>
             <German>TTT EOD+UGV Kiste (EOD+)</German>
         </Key>
+        <Key ID="STR_ttt_Common_intelAdded">
+            <English>%1 has found the intel:\n"%2".</English>
+            <German>%1 hat den Intel:\n"%2"\ngefunden.</German>
+        </Key>
         <Key ID="STR_ttt_Common_marker">
             <English>TTT Markings Crate (Mark)</English>
             <German>TTT Markierungskiste (Mark)</German>
@@ -116,10 +120,6 @@
         <Key ID="STR_ttt_Common_vbt">
             <English>TTT Medical Crate (VBT)</English>
             <German>TTT Sanitätskiste (VBT)</German>
-        </Key>
-        <Key ID="STR_ttt_Common_intelAdded">
-            <English>%1 has found the intel:\n"%2".</English>
-            <German>%1 hat den Intel:\n"%2"\ngefunden.</German>
         </Key>
     </Package>
 </Project>
