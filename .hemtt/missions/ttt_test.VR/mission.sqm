@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5984.4551,50.579994,4767.6353};
-		dir[]={-0.50171578,-0.41445932,0.75928468};
-		up[]={-0.22848998,0.91006655,0.34579095};
-		aside[]={0.83431631,-8.9916284e-08,0.55129385};
+		pos[]={5947.7153,19.229395,4834.5317};
+		dir[]={-0.87988204,-0.42691764,-0.20875424};
+		up[]={-0.41539857,0.9042871,-0.098554321};
+		aside[]={-0.23084918,-1.6775448e-07,0.9730075};
 	};
 };
 binarizationWanted=0;
@@ -42,6 +42,7 @@ addons[]=
 	"A3_Armor_F_Beta_APC_Tracked_01",
 	"ace_repair",
 	"ace_vehicle_damage",
+	"acre_sys_intercom",
 	"A3_Structures_F_Civ_Camping",
 	"ace_dragging",
 	"A3_Armor_F_Gamma_MBT_01",
@@ -52,7 +53,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=19;
+		items=20;
 		class Item0
 		{
 			className="A3_Soft_F_Gamma";
@@ -160,26 +161,33 @@ class AddonsMetaData
 		};
 		class Item15
 		{
+			className="acre_sys_intercom";
+			name="ACRE2 - Vehicle Intercom";
+			author="ACRE2Team";
+			url="https://github.com/IDI-Systems/acre2";
+		};
+		class Item16
+		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item16
+		class Item17
 		{
 			className="ace_dragging";
 			name="ACE3 - Dragging";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item17
+		class Item18
 		{
 			className="A3_Armor_F_Gamma";
 			name="Arma 3 - Armored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item18
+		class Item19
 		{
 			className="ttt_counterari";
 			name="TTT - Counter Artillery";
@@ -1465,7 +1473,7 @@ class Mission
 		class Item58
 		{
 			dataType="Trigger";
-			position[]={5919.041,5,4790.8389};
+			position[]={5919.3062,5,4768.6875};
 			class Attributes
 			{
 				sizeA=21.708;
@@ -1803,13 +1811,13 @@ class Mission
 						position[]={6238.978,7.9177775,1646.1453};
 					};
 					side="East";
+					flags=4;
 					class Attributes
 					{
 						name="enemyAri_1G";
 					};
 					id=128;
 					type="O_crew_F";
-					atlOffset=2.9163384;
 				};
 				class Item2
 				{
@@ -1819,14 +1827,13 @@ class Mission
 						position[]={6238.978,7.9177775,1646.1453};
 					};
 					side="East";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						name="enemyAri_1C";
 					};
 					id=129;
 					type="O_crew_F";
-					atlOffset=2.9163384;
 				};
 			};
 			class Attributes
@@ -1882,7 +1889,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6200.0059,7.9163384,1600.6416};
+				position[]={53.490459,7.9163384,36.825684};
 			};
 			side="East";
 			flags=6;
@@ -1929,7 +1936,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={5409.6157,5,1975.5947};
+				position[]={564.28723,5,723.31641};
 			};
 			id=142;
 			type="ttt_counterari_registerEnemyAriModule";
@@ -2031,13 +2038,13 @@ class Mission
 						position[]={6033.4443,7.9177775,1452.3496};
 					};
 					side="East";
+					flags=4;
 					class Attributes
 					{
 						name="enemyAri_1G_1";
 					};
 					id=146;
 					type="O_crew_F";
-					atlOffset=2.9163384;
 				};
 				class Item2
 				{
@@ -2047,14 +2054,13 @@ class Mission
 						position[]={6033.4443,7.9177775,1452.3496};
 					};
 					side="East";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						name="enemyAri_1C_1";
 					};
 					id=147;
 					type="O_crew_F";
-					atlOffset=2.9163384;
 				};
 			};
 			class Attributes
@@ -2110,7 +2116,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6165.5464,7.9163384,1583.0786};
+				position[]={19.030987,7.9163384,19.262695};
 			};
 			side="East";
 			flags=6;
@@ -2169,13 +2175,13 @@ class Mission
 						position[]={6332.625,7.9177775,1304.9917};
 					};
 					side="East";
+					flags=4;
 					class Attributes
 					{
 						name="enemyAri_1G_2";
 					};
 					id=151;
 					type="O_crew_F";
-					atlOffset=2.9163384;
 				};
 				class Item2
 				{
@@ -2185,14 +2191,13 @@ class Mission
 						position[]={6332.625,7.9177775,1304.9917};
 					};
 					side="East";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 						name="enemyAri_1C_2";
 					};
 					id=152;
 					type="O_crew_F";
-					atlOffset=2.9163384;
 				};
 			};
 			class Attributes
@@ -2248,7 +2253,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6233.5757,7.9163384,1568.4053};
+				position[]={87.060287,7.9163384,4.5893555};
 			};
 			side="East";
 			flags=6;
