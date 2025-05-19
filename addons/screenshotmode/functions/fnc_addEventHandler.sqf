@@ -27,7 +27,6 @@ _id = [
     "ace_ui_hideHud",
     { 
         params ["_set"];
-        INFO_1("UI toggled %1", _set);
 
         // Vanilla
         if (_set) then {
