@@ -1,37 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Counterari">
-        <Key ID="STR_ttt_Counterari_registerEnemyAriModule_displayName">
-            <English>Counterbattery - Enemy Artillery</English>
-            <German>Konterartillerie - Feindl. Artillerie</German>
-        </Key>
         <Key ID="STR_ttt_Counterari_registerEnemyAriModule_description">
             <English>Synchronized Objects are added to the pool of enemy artillery that will fire on friendly artillery. There can only be one module.</English>
             <German>Synchronisierte Objekte werden der Gruppe feindlicher Artillery hinzugefügt, welche auf freundliches Artilleriefreuer feuert. Es kann nur ein Modul geben.</German>
         </Key>
-        <Key ID="STR_ttt_Counterari_registerFriendlyAriModule_displayName">
-            <English>Counterbattery - Friendly Artillery</English>
-            <German>Konterartillerie - Freundl. Artillerie</German>
-        </Key>
-        <Key ID="STR_ttt_Counterari_registerFriendlyAriModule_description">
-            <English>Synchronized Objects will receive counter fire. There can only be one module.</English>
-            <German>Synchronisierte Objekte werden Konter-Feuer bekommen. Es kann nur ein Modul geben.</German>
-        </Key>
-        <Key ID="STR_ttt_Counterari_registerFriendlyAriModule_radius_displayName">
-            <English>Radius</English>
-            <German>Radius</German>
-        </Key>
-        <Key ID="STR_ttt_Counterari_registerFriendlyAriModule_radius_tooltip">
-            <English>In which radius should the return fire hit. If “Reduce radius” is selected, the shots become increasingly accurate.</English>
-            <German>In welchem Radius soll das Gegenfeuer einschlagen. Ist "Radius verkleinern" aktiviert, werden die Schüsse immer genauer.</German>
-        </Key>
-        <Key ID="STR_ttt_Counterari_registerFriendlyAriModule_rounds_displayName">
-            <English>Rounds to Fire</English>
-            <German>Schüsse</German>
-        </Key>
-        <Key ID="STR_ttt_Counterari_registerFriendlyAriModule_rounds_tooltip">
-            <English>How often should the counterbattery fire (per vehicle).</English>
-            <German>Wie oft soll die Konterartillerie (pro Fahrzeug) feuern.</German>
+        <Key ID="STR_ttt_Counterari_registerEnemyAriModule_displayName">
+            <English>Counterbattery - Enemy Artillery</English>
+            <German>Konterartillerie - Feindl. Artillerie</German>
         </Key>
         <Key ID="STR_ttt_Counterari_registerFriendlyAriModule_decrementing_displayName">
             <English>Reduce radius</English>
@@ -48,6 +24,30 @@
         <Key ID="STR_ttt_Counterari_registerFriendlyAriModule_delay_tooltip">
             <English>After how many seconds, starting after the first own shot, should the counterbattery begin its fire.</English>
             <German>Nach wie vielen Sekunden, gestartet nach dem erstem eigenem Schuss, soll die Konterartillerie ihr Feuer beginnen.</German>
+        </Key>
+        <Key ID="STR_ttt_Counterari_registerFriendlyAriModule_description">
+            <English>Synchronized Objects will receive counter fire. There can only be one module.</English>
+            <German>Synchronisierte Objekte werden Konter-Feuer bekommen. Es kann nur ein Modul geben.</German>
+        </Key>
+        <Key ID="STR_ttt_Counterari_registerFriendlyAriModule_displayName">
+            <English>Counterbattery - Friendly Artillery</English>
+            <German>Konterartillerie - Freundl. Artillerie</German>
+        </Key>
+        <Key ID="STR_ttt_Counterari_registerFriendlyAriModule_radius_displayName">
+            <English>Radius</English>
+            <German>Radius</German>
+        </Key>
+        <Key ID="STR_ttt_Counterari_registerFriendlyAriModule_radius_tooltip">
+            <English>In which radius should the return fire hit. If “Reduce radius” is selected, the shots become increasingly accurate.</English>
+            <German>In welchem Radius soll das Gegenfeuer einschlagen. Ist "Radius verkleinern" aktiviert, werden die Schüsse immer genauer.</German>
+        </Key>
+        <Key ID="STR_ttt_Counterari_registerFriendlyAriModule_rounds_displayName">
+            <English>Rounds to Fire</English>
+            <German>Schüsse</German>
+        </Key>
+        <Key ID="STR_ttt_Counterari_registerFriendlyAriModule_rounds_tooltip">
+            <English>How often should the counterbattery fire (per vehicle).</English>
+            <German>Wie oft soll die Konterartillerie (pro Fahrzeug) feuern.</German>
         </Key>
     </Package>
 </Project>
