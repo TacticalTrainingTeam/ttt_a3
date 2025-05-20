@@ -21,6 +21,7 @@
   - [Bewusstlose haben keine Kollision](#bewusstlose-haben-keine-kollision)
   - [Compositions](#compositions)
   - [Bilder](#bilder)
+  - [Ground-2-Air Channel](#ground-2-air-channel)
   - [Einheiten](#einheiten)
   - [Maintainer](#maintainer)
 
@@ -228,6 +229,10 @@ Benutzung: Im 3DEN-Editor `F2` Compositions -> Props -> Other -> Tactical Traini
 Stellt TTT-Bilder anderen Addons zur Verfügung.
 
 Zugriff auf die Bilder erfolgt über diesen Pfad `z\ttt\addons\common\data\bildname.paa`.
+
+## Ground-2-Air Channel
+
+Fügt einen extra Kartenkanal für die Kommunikation mit Luftfahrzeugen hinzu.
 
 ## Einheiten
 
