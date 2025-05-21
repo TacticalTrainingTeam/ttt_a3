@@ -1,4 +1,5 @@
 class ACE_Tags {
+    // Graphics by Gigls
     class GVAR(numberZeroTag) {
         displayName = "0";
         requiredItem = "ACE_SpraypaintBlack";
