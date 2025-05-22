@@ -41,3 +41,4 @@ class CfgPatches {
 #include "Dialog.hpp"
 #include "CfgVehicles.hpp"
 #include "configs\ACE_Fortify.hpp"
+#include "configs\ACE_Tagging.hpp"
