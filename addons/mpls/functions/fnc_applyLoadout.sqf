@@ -1,6 +1,6 @@
 #include "..\script_component.hpp"
 /*
- * Authors: You
+ * Authors: Andx
  * Applies Loadout from missionNamepsace.
  *
  * Arguments:
