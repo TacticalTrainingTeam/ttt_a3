@@ -15,7 +15,7 @@
  * Public: No
  */
 
-params ["_playerUID"];
+params ["_player"];
 TRACE_1("fnc_applyLoadout",_this);
 
 private _loadoutDB = missionNamespace getVariable [QGVAR(loadoutDB), nil];

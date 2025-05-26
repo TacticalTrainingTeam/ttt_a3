@@ -1,13 +1,5 @@
 #include "script_component.hpp"
 
-//Make an extra save is player disconnects
-if (isServer) then {
-    addMissionEventHandler ["HandleDisconnect", {
-        params ["_unit", "_id", "_uid", "_name"];
-        [_unit] call FUNC(saveLoadout); 
-    }];
-};
-
 if (hasInterface) then {
 
     private _loadoutDB = missionNamespace getVariable [QGVAR(loadoutDB), []];
