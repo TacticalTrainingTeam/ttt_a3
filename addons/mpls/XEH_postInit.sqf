@@ -2,30 +2,29 @@
 
 if (hasInterface) then {
 
-    private _loadoutDB = missionNamespace getVariable [QGVAR(loadoutDB), []];
+    private _loadoutDB = missionNamespace getVariable [QGVAR(loadoutDB), nil];
     _loadout = _loadoutDB get (getPlayerUID ACE_player);
 
-    if (isNil _loadout) then {
-        //es gibt für diese Spieler UID noch kein gespeichertes Loaodut
-        [ACE_player] call FUNC(saveLoadout); //Functions calls itself every 10 Minutes
-    } else {
-        //es gibt für diese Spieler UID schon ein gespeichertes Loaodut
+    if (!isNil _loadout) then {
+        INFO_1("Saved Loadout found for player %1, applying", getPlayerUID ACE_player);
+        //es gibt für diese Spieler UID schon ein gespeichertes Loaodut, also laden wir das
         [
             {
                 params [_player];
-                [_player] call FUNC(applyLoadout) //gespeichertes Loadout laden
+                [_player] call FUNC(applyLoadout);
             },
             [ACE_player],
-            5
-        ] call CBA_fnc_waitAndExecute;
-        //und dann das Loadout neu speichern
-        [
-            {
-                params [_player];
-                [_player] call FUNC(saveLoadout); 
-            },
-            [ACE_player],
-            10
+            5 //5 Sekunden warten für Lag bei der normalen Loadoutvergabe
         ] call CBA_fnc_waitAndExecute;
     };
+
+    //regelmäßgies Speichern triggern
+    [
+        {
+            params [_player];
+            [_player] call FUNC(saveLoadout); 
+        },
+        [ACE_player],
+        5
+    ] call CBA_fnc_waitAndExecute;
 };
