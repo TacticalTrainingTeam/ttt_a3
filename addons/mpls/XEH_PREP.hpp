@@ -1,1 +1,2 @@
-PREP(empty);
+PREP(applyLoadout);
+PREP(saveLoadout);

@@ -13,7 +13,7 @@ if (hasInterface) then {
         [
             {
                 params [_player];
-                _player setUnitLoadout (GVAR(loadoutDB) get (getPlayerUID _player)); //gespeichertes Loadout laden
+                [_player] call FUNC(applyLoadout) //gespeichertes Loadout laden
             },
             [ACE_player],
             5
