@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5947.7153,19.229395,4834.5317};
-		dir[]={-0.87988204,-0.42691764,-0.20875424};
-		up[]={-0.41539857,0.9042871,-0.098554321};
-		aside[]={-0.23084918,-1.6775448e-07,0.9730075};
+		pos[]={5937.5874,19.229395,4788.1465};
+		dir[]={-0.69440973,-0.45306143,0.55905342};
+		up[]={-0.35290676,0.89147717,0.28411761};
+		aside[]={0.62710774,2.3494067e-07,0.77893883};
 	};
 };
 binarizationWanted=0;
@@ -1811,13 +1811,13 @@ class Mission
 						position[]={6238.978,7.9177775,1646.1453};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 						name="enemyAri_1G";
 					};
 					id=128;
 					type="O_crew_F";
+					atlOffset=2.9163384;
 				};
 				class Item2
 				{
@@ -1827,13 +1827,14 @@ class Mission
 						position[]={6238.978,7.9177775,1646.1453};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 						name="enemyAri_1C";
 					};
 					id=129;
 					type="O_crew_F";
+					atlOffset=2.9163384;
 				};
 			};
 			class Attributes
@@ -2038,13 +2039,13 @@ class Mission
 						position[]={6033.4443,7.9177775,1452.3496};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 						name="enemyAri_1G_1";
 					};
 					id=146;
 					type="O_crew_F";
+					atlOffset=2.9163384;
 				};
 				class Item2
 				{
@@ -2054,13 +2055,14 @@ class Mission
 						position[]={6033.4443,7.9177775,1452.3496};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 						name="enemyAri_1C_1";
 					};
 					id=147;
 					type="O_crew_F";
+					atlOffset=2.9163384;
 				};
 			};
 			class Attributes
@@ -2175,13 +2177,13 @@ class Mission
 						position[]={6332.625,7.9177775,1304.9917};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 						name="enemyAri_1G_2";
 					};
 					id=151;
 					type="O_crew_F";
+					atlOffset=2.9163384;
 				};
 				class Item2
 				{
@@ -2191,13 +2193,14 @@ class Mission
 						position[]={6332.625,7.9177775,1304.9917};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 						name="enemyAri_1C_2";
 					};
 					id=152;
 					type="O_crew_F";
+					atlOffset=2.9163384;
 				};
 			};
 			class Attributes

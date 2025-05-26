@@ -29,3 +29,5 @@ force ttt_dismantle_enable = true;
 force ttt_dismantle_supportedObjects = '["Land_CzechHedgehog_01_new_F", "Land_CzechHedgehog_01_old_F"]';
 force ttt_dismantle_neededItem = "Toolkit";
 force ttt_dismantle_neededSkill = 2;
+
+force ttt_teleport_enableTeleport = false;

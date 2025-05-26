@@ -22,11 +22,10 @@ private _loadoutDB = missionNamespace getVariable [QGVAR(loadoutDB), nil];
 
 _loadoutDB set [getPlayerUID _player, getUnitLoadout _player];
 
-
 [ // recall function after 10 minutes
     {
         params ["_player"];
-        [_player] call FUNC(saveLoaodut);
+        [_player] call FUNC(saveLoadout);
     },
     [ACE_player],
     600
