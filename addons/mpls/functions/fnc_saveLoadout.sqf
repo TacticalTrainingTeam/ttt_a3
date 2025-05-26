@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /*
  * Authors: Andx
- * Saves the current players loadout to the missionProfileNamespace.
+ * Saves the current players loadout to the missionNamespace.
  *
  * Arguments:
  * 0: PLAYER <OBJECT>
@@ -21,6 +21,7 @@ TRACE_1("fnc_saveLoadout",_this);
 private _loadoutDB = missionNamespace getVariable [QGVAR(loadoutDB), nil];
 
 _loadoutDB set [getPlayerUID _player, getUnitLoadout _player];
+INFO_1("Loadout Saved for player %1", _player);
 
 [ // recall function after 10 minutes
     {

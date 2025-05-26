@@ -1,10 +1,11 @@
 #include "script_component.hpp"
 
+//Nur für Spieler
 if (!hasInterface) exitWith {};
 
 private _loadoutDB = missionNamespace getVariable [QGVAR(loadoutDB), nil];
-_loadout = _loadoutDB get (getPlayerUID ACE_player);
-_loadoutDB set [[getPlayerUID ACE_player, "_first"] joinString "", getUnitLoadout ACE_player];
+_loadout = _loadoutDB getOrDefault [getPlayerUID player, nil];
+_loadoutDB set [[getPlayerUID player, "_first"] joinString "", getUnitLoadout player]; //saves the very first loadout to the DB
 
 if (!isNil _loadout) then {
     //es gibt für diese Spieler UID schon ein gespeichertes Loaodut, also laden wir das
@@ -13,42 +14,38 @@ if (!isNil _loadout) then {
             params ["_player"];
             [_player] call FUNC(applyLoadout);
         },
-        [ACE_player],
+        [player],
         5 //5 Sekunden warten für Lag bei der normalen Loadoutvergabe
     ] call CBA_fnc_waitAndExecute;
 };
 
+//erster Loadoutsave und Start für den 10-minütigen Save
 [
     {            
         params ["_player"];
         [_player] call FUNC(saveLoadout); 
-        hint format ["Loadout Saved!"];
     },
-    [ACE_player],
-    5 //5 Sekunden warten für Lag bei der normalen Loadoutvergabe
+    [player],
+    10
 ] call CBA_fnc_waitAndExecute;
 
-
-
-
-//if (didJIP) then {
-if (true) then {
-
-    if (!isNil QEGVAR(teleport,teleporter)) then {
+//Nur für JIP
+if (didJIP) then {
+    if (!isNil QEGVAR(teleport,teleporter)) then { //addAction am Teleporter
         QEGVAR(teleport,teleporter) addAction ["Startloadout ausrüsten", {
 
             params ["", "_caller"];
             private _loadoutDB = missionNamespace getVariable [QGVAR(loadoutDB), nil];
-            private _loadout = _loadoutDB get ([getPlayerUID ACE_player, "_first"] joinString "");
+            private _loadout = _loadoutDB get ([getPlayerUID player, "_first"] joinString "");
             _caller setUnitLoadout _loadout;
 
         }, [], 0, false, true];
-    } else {
-        actionID = ACE_player addAction ["Startloadout ausrüsten", {
+    } else { //addAction am Spieler selber wenn Teleporter nicht existiert
+        actionID = player addAction ["Startloadout ausrüsten", {
 
             params ["", "_caller"];
             private _loadoutDB = missionNamespace getVariable [QGVAR(loadoutDB), nil];
-            _caller setUnitLoadout (_loadoutDB get ([getPlayerUID ACE_player, "_first"] joinString ""));
+            _caller setUnitLoadout (_loadoutDB get ([getPlayerUID player, "_first"] joinString ""));
         }, [], 0, false, true];
     };
 
@@ -58,7 +55,7 @@ if (true) then {
             _player removeAction _actionID;
             hint format ["Zeit vorbei!"];
         },
-        [ACE_player, actionID],
-        10 //nach 60 Sekunden wird die AddAction gelöscht
+        [player, actionID],
+        60 //nach 60 Sekunden wird die AddAction gelöscht
     ] call CBA_fnc_waitAndExecute;
 };

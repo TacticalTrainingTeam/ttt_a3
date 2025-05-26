@@ -19,8 +19,8 @@ params ["_player"];
 TRACE_1("fnc_applyLoadout",_this);
 
 private _loadoutDB = missionNamespace getVariable [QGVAR(loadoutDB), nil];
-_player setUnitLoadout (_loadoutDB get (getPlayerUID _player));
-INFO_1("Saved Loadout found for player %1 , applying ...",getPlayerUID ACE_player);
-hint format ["Saved Loadout applied!"];
 
-
+if ((_loadoutDB get (getPlayerUID _player)) isNotEqualTo []) then {
+    _player setUnitLoadout (_loadoutDB get (getPlayerUID _player));
+    INFO_1("Saved Loadout found for player %1 , applying ...",getPlayerUID _player);
+};

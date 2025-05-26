@@ -10,7 +10,7 @@ ADDON = true;
 
 if (isServer) then {
     private _loadoutDB = createHashMap;
-    missionNamespace setVariable [QGVAR(loadoutDB), _loadoutDB];
+    missionNamespace setVariable [QGVAR(loadoutDB), _loadoutDB, true];
 
     //Make an extra save if player disconnects
     addMissionEventHandler ["HandleDisconnect", {

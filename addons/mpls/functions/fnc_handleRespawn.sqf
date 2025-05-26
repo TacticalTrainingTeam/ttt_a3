@@ -23,11 +23,8 @@ TRACE_1("fnc_handleRespawn",_this);
 [
     {
         params ["_player"];
-
         [_player] call FUNC(applyLoadout);
     },
-    [
-        _unit
-    ],
+    [_unit],
     5
 ] call CBA_fnc_waitAndExecute;
