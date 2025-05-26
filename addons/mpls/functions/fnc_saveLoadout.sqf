@@ -25,7 +25,7 @@ _loadoutDB set [getPlayerUID _player, getUnitLoadout _player];
 
 [ // recall function after 10 minutes
     {
-        params [_player];
+        params ["_player"];
         [_player] call FUNC(saveLoaodut);
     },
     [ACE_player],

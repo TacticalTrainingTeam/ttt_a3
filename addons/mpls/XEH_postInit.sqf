@@ -9,7 +9,7 @@ if (hasInterface) then {
         //es gibt für diese Spieler UID schon ein gespeichertes Loaodut, also laden wir das
         [
             {
-                params [_player];
+                params ["_player"];
                 [_player] call FUNC(applyLoadout);
             },
             [ACE_player],
@@ -20,7 +20,7 @@ if (hasInterface) then {
     //regelmäßgies Speichern triggern
     [
         {
-            params [_player];
+            params ["_player"];
             [_player] call FUNC(saveLoadout); 
         },
         [ACE_player],
