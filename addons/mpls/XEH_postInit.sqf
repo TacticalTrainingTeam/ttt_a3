@@ -6,7 +6,6 @@ if (hasInterface) then {
     _loadout = _loadoutDB get (getPlayerUID ACE_player);
 
     if (!isNil _loadout) then {
-        INFO_1("Saved Loadout found for player %1, applying", getPlayerUID ACE_player);
         //es gibt für diese Spieler UID schon ein gespeichertes Loaodut, also laden wir das
         [
             {
