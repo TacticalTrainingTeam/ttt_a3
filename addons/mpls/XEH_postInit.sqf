@@ -1,9 +1,10 @@
 #include "script_component.hpp"
 
-if (hasinterface) then {
+if (hasInterface) then {
 
-    private _loadout = GVAR(loadoutDB) get (getPlayerUID ACE_player);
-    
+    private _loadoutDB = missionNamespace getVariable [QGVAR(loadoutDB), []];
+    _loadout = _loadoutDB get (getPlayerUID ACE_player);
+
     if (isNil _loadout) then {
         //es gibt für diese Spieler UID noch kein gespeichertes Loaodut
         [ACE_player] call FUNC(saveLoadout); //Functions calls itself every 10 Minutes
@@ -23,7 +24,7 @@ if (hasinterface) then {
                 params [_player];
                 [_player] call FUNC(saveLoadout); 
             },
-            [ACE_player]
+            [ACE_player],
             10
         ] call CBA_fnc_waitAndExecute;
     };

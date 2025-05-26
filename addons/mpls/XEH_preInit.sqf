@@ -10,5 +10,5 @@ ADDON = true;
 
 if (isServer) then {
     private _loadoutDB = createHashMap;
-    missionNamespace setVariable [GVAR(loadoutDB), _loadoutDB];
+    missionNamespace setVariable [QGVAR(loadoutDB), _loadoutDB];
 };

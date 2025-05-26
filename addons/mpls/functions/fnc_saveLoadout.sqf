@@ -18,13 +18,16 @@
 params ["_player"];
 TRACE_1("fnc_saveLoadout",_this);
 
-GVAR(loaodutDB) set [getPlayerUID _player, getUnitLoadout _player];
+private _loadoutDB = missionNamespace getVariable [QGVAR(loadoutDB), nil];
+
+_loadoutDB set [getPlayerUID _player, getUnitLoadout _player];
 
 
 [ // recall function after 10 minutes
     {
+        params [_player];
         [_player] call FUNC(saveLoaodut);
     },
-    [],
+    [ACE_player],
     600
 ] call CBA_fnc_waitAndExecute;
