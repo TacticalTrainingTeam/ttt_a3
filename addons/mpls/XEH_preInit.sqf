@@ -8,4 +8,7 @@ PREP_RECOMPILE_END;
 
 ADDON = true;
 
-missionNamespace GVAR(loadoutDB) = createHashMap;
+if (isServer) then {
+    private _loadoutDB = createHashMap;
+    missionNamespace setVariable [GVAR(loadoutDB), _loadoutDB];
+};

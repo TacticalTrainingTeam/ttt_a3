@@ -1,6 +1,10 @@
+#include "script_component.hpp"
 
 if (hasinterface) then {
-    if (isNil GVAR(loadoutDB) get (getPlayerUID ACE_player)) then {
+
+    private _loadout = GVAR(loadoutDB) get (getPlayerUID ACE_player);
+    
+    if (isNil _loadout) then {
         //es gibt für diese Spieler UID noch kein gespeichertes Loaodut
         [ACE_player] call FUNC(saveLoadout); //Functions calls itself every 10 Minutes
     } else {
