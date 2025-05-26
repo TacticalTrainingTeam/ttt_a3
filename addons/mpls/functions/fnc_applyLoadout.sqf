@@ -22,5 +22,5 @@ private _loadoutDB = missionNamespace getVariable [QGVAR(loadoutDB), nil];
 
 if ((_loadoutDB get (getPlayerUID _player)) isNotEqualTo []) then {
     _player setUnitLoadout (_loadoutDB get (getPlayerUID _player));
-    INFO_1("Saved Loadout found for player %1 , applying ...",getPlayerUID _player);
+    INFO_1("Saved Loadout found for player %1 , applying ...", _player);
 };
