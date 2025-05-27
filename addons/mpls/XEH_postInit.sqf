@@ -3,9 +3,8 @@
 //Nur für Spieler
 if (!hasInterface) exitWith {};
 
-private _loadoutDB = missionNamespace getVariable [QGVAR(loadoutDB), nil];
-_loadout = _loadoutDB getOrDefault [getPlayerUID player, nil];
-_loadoutDB set [[getPlayerUID player, "_first"] joinString "", getUnitLoadout player]; //saves the very first loadout to the DB
+loadoutDB = missionNamespace getVariable [QGVAR(loadoutDB), nil];
+private _loadout = loadoutDB getOrDefault [getPlayerUID player, nil];
 
 if (!isNil _loadout) then {
     //es gibt für diese Spieler UID schon ein gespeichertes Loaodut, also laden wir das
@@ -23,7 +22,8 @@ if (!isNil _loadout) then {
 [
     {            
         params ["_player"];
-        [_player] call FUNC(saveLoadout); 
+        [_player] call FUNC(saveLoadout);
+        loadoutDB set [[getPlayerUID player, "_first"] joinString "", getUnitLoadout player]; //saves the very first loadout to the DB 
     },
     [player],
     10
@@ -35,8 +35,7 @@ if (didJIP) then {
         QEGVAR(teleport,teleporter) addAction ["Startloadout ausrüsten", {
 
             params ["", "_caller"];
-            private _loadoutDB = missionNamespace getVariable [QGVAR(loadoutDB), nil];
-            private _loadout = _loadoutDB get ([getPlayerUID player, "_first"] joinString "");
+            private _loadout = loadoutDB get ([getPlayerUID player, "_first"] joinString "");
             _caller setUnitLoadout _loadout;
 
         }, [], 0, false, true];
@@ -44,8 +43,8 @@ if (didJIP) then {
         actionID = player addAction ["Startloadout ausrüsten", {
 
             params ["", "_caller"];
-            private _loadoutDB = missionNamespace getVariable [QGVAR(loadoutDB), nil];
-            _caller setUnitLoadout (_loadoutDB get ([getPlayerUID player, "_first"] joinString ""));
+
+            _caller setUnitLoadout (loadoutDB get ([getPlayerUID player, "_first"] joinString ""));
         }, [], 0, false, true];
     };
 
