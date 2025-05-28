@@ -45,15 +45,17 @@ if (didJIP) then {
 
             _caller setUnitLoadout (loadoutDB get ([getPlayerUID player, "_first"] joinString ""));
         }, [], 0, false, true];
+
+        [
+            {            
+                params ["_player", "_actionID"];
+                _player removeAction _actionID;
+                hint format ["Zeit vorbei!"];
+            },
+            [player, actionID],
+            60 //nach 60 Sekunden wird die AddAction gelöscht
+        ] call CBA_fnc_waitAndExecute;
     };
 
-    [
-        {            
-            params ["_player", "_actionID"];
-            _player removeAction _actionID;
-            hint format ["Zeit vorbei!"];
-        },
-        [player, actionID],
-        60 //nach 60 Sekunden wird die AddAction gelöscht
-    ] call CBA_fnc_waitAndExecute;
+
 };
