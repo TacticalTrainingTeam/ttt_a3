@@ -3,15 +3,15 @@
 //Nur für Spieler
 if (!hasInterface) exitWith {};
 
-loadoutDB = missionNamespace getVariable [QGVAR(loadoutDB), nil];
-private _loadout = loadoutDB getOrDefault [getPlayerUID player, nil];
+GVAR(loadoutDB) = createHashMap; 
+private _loadout = GVAR(loadoutDB) getOrDefault [getPlayerUID player, nil];
 
 if (!isNil _loadout) then {
     //es gibt für diese Spieler UID schon ein gespeichertes Loaodut, also laden wir das
     [
         {
             params ["_player"];
-            [_player] call FUNC(applyLoadout);
+            _player call FUNC(applyLoadout);
         },
         [player],
         5 //5 Sekunden warten für Lag bei der normalen Loadoutvergabe
@@ -22,7 +22,7 @@ if (!isNil _loadout) then {
 [
     {            
         params ["_player"];
-        loadoutDB set [[getPlayerUID player, "_first"] joinString "", getUnitLoadout player]; //saves the very first loadout to the DB 
+        GVAR(loadoutDB) set [[getPlayerUID player, "_first"] joinString "", getUnitLoadout player]; //saves the very first loadout to the DB 
     },
     [player],
     10
@@ -34,7 +34,7 @@ if (didJIP) then {
         QEGVAR(teleport,teleporter) addAction ["Startloadout ausrüsten", {
 
             params ["", "_caller"];
-            private _loadout = loadoutDB get ([getPlayerUID player, "_first"] joinString "");
+            private _loadout = GVAR(loadoutDB) get ([getPlayerUID player, "_first"] joinString "");
             _caller setUnitLoadout _loadout;
 
         }, [], 0, false, true];
@@ -43,7 +43,7 @@ if (didJIP) then {
 
             params ["", "_caller"];
 
-            _caller setUnitLoadout (loadoutDB get ([getPlayerUID player, "_first"] joinString ""));
+            _caller setUnitLoadout (GVAR(loadoutDB) get ([getPlayerUID player, "_first"] joinString ""));
         }, [], 0, false, true];
 
         [
