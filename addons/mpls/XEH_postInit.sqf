@@ -18,11 +18,10 @@ if (!isNil _loadout) then {
     ] call CBA_fnc_waitAndExecute;
 };
 
-//erster Loadoutsave und Start für den 10-minütigen Save
+//erster Loadoutsav
 [
     {            
         params ["_player"];
-        [_player] call FUNC(saveLoadout);
         loadoutDB set [[getPlayerUID player, "_first"] joinString "", getUnitLoadout player]; //saves the very first loadout to the DB 
     },
     [player],
