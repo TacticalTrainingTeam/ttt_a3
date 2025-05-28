@@ -40,5 +40,6 @@ class CfgPatches {
 #include "Cfg3DEN.hpp"
 #include "Dialog.hpp"
 #include "CfgVehicles.hpp"
+#include "CfgWeapons.hpp"
 #include "configs\ACE_Fortify.hpp"
 #include "configs\ACE_Tagging.hpp"
