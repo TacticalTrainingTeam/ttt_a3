@@ -14,7 +14,7 @@ if (isServer) then {
     //Make an extra save if player disconnects
     addMissionEventHandler ["HandleDisconnect", {
         params ["_unit", "_id", "_uid", "_name"];
-        [_unit] call FUNC(saveLoadout);
+        [_unit, getPlayerUID _unit] call FUNC(saveLoadout);
     }];
 
     INFO("Mission-Persistent Loadoutsystem initialized");

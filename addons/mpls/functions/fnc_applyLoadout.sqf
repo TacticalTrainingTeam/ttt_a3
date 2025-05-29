@@ -15,10 +15,13 @@
  * Public: No
  */
 
-params ["_player"];
+params [["_player", ACE_player, [ACE_player]]];
+
 TRACE_1("fnc_applyLoadout",_this);
 
-if ((QGVAR(loadoutDB) get (getPlayerUID _player)) isNotEqualTo []) then {
-    [_player, QGVAR(loadoutDB) get (getPlayerUID _player)] call CBA_fnc_setLoadout;
-    INFO_1("Saved Loadout found for player %1, applying", _player);
+if ((GVAR(loadoutDB) get (getPlayerUID _player)) isNotEqualTo []) then {
+    [_player, GVAR(loadoutDB) get (getPlayerUID _player)] call CBA_fnc_setLoadout;
+    INFO_1("Saved Loadout found for player %1 ,applying ...",_player);
 };
+
+true;

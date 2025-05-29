@@ -13,49 +13,31 @@ if (!isNil _loadout) then {
             params ["_player"];
             _player call FUNC(applyLoadout);
         },
-        [player],
+        [ACE_player],
         5 //5 Sekunden warten für Lag bei der normalen Loadoutvergabe
     ] call CBA_fnc_waitAndExecute;
 };
 
-//erster Loadoutsav
+//erster Loadoutsave
 [
     {            
         params ["_player"];
-        GVAR(loadoutDB) set [[getPlayerUID player, "_first"] joinString "", getUnitLoadout player]; //saves the very first loadout to the DB 
+        GVAR(loadoutDB) set [[getPlayerUID _player, "_first"] joinString "", getUnitLoadout _player]; //saves the very first loadout to the DB
+        _player call FUNC(saveLoadout); //make a regular save and start the periodic save
     },
-    [player],
+    [ACE_player],
     10
 ] call CBA_fnc_waitAndExecute;
 
 //Nur für JIP
 if (didJIP) then {
     if (!isNil QEGVAR(teleport,teleporter)) then { //addAction am Teleporter
-        QEGVAR(teleport,teleporter) addAction ["Startloadout ausrüsten", {
+        QEGVAR(teleport,teleporter) addAction [LLSTRING(startLoadout), {
 
             params ["", "_caller"];
-            private _loadout = GVAR(loadoutDB) get ([getPlayerUID player, "_first"] joinString "");
-            _caller setUnitLoadout _loadout;
+            private _loadout = GVAR(loadoutDB) get ([getPlayerUID _caller, "_first"] joinString "");
+            [_caller, _loadout] call CBA_fnc_setLoadout;
 
         }, [], 0, false, true];
-    } else { //addAction am Spieler selber wenn Teleporter nicht existiert
-        actionID = player addAction ["Startloadout ausrüsten", {
-
-            params ["", "_caller"];
-
-            _caller setUnitLoadout (GVAR(loadoutDB) get ([getPlayerUID player, "_first"] joinString ""));
-        }, [], 0, false, true];
-
-        [
-            {            
-                params ["_player", "_actionID"];
-                _player removeAction _actionID;
-                hint format ["Zeit vorbei!"];
-            },
-            [player, actionID],
-            60 //nach 60 Sekunden wird die AddAction gelöscht
-        ] call CBA_fnc_waitAndExecute;
     };
-
-
 };
