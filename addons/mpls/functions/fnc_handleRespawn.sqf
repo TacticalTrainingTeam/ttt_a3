@@ -1,13 +1,13 @@
 #include "..\script_component.hpp"
 /*
  * Authors: Andx
- * Handles Respawn.
+ * Assigns last saved loadout again after respawn.
  *
  * Arguments:
  * 0: Player <OBJECT>
  *
  * Return Value:
- * None
+ * True
  *
  * Example:
  * [player] call ttt_mpls_fnc_handleRespawn

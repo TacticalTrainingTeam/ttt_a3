@@ -9,13 +9,27 @@ PREP_RECOMPILE_END;
 ADDON = true;
 
 if (isServer) then {
-    missionNamespace setVariable [QGVAR(loadoutDB), createHashMap, true];
+    // Create the "Database"
+    GVAR(loadoutNamespace) = true call CBA_fnc_createNamespace;
+    publicVariable QGVAR(loadoutNamespace);
 
-    //Make an extra save if player disconnects
+    // Handle the player disconnect:
+    // Save the last loadout the player had
     addMissionEventHandler ["HandleDisconnect", {
         params ["_unit", "_id", "_uid", "_name"];
-        [_unit, getPlayerUID _unit] call FUNC(saveLoadout);
+        [_unit, _uid] call FUNC(saveLoadout);
+        false; //prevents player from being replaced by AI on disconnect
     }];
-
-    INFO("Mission-Persistent Loadoutsystem initialized");
 };
+
+// Add Eventhandler for the loadout saving event
+// if the event is raised, save the current loadout
+[
+    QGVAR(doBackup),
+    {
+        if (!hasInterface) exitWith {};
+        ace_player call FUNC(saveLoadout);
+    }
+] call CBA_fnc_addEventHandler;
+
+INFO("Mission-Persistent Loadoutsystem initialized");

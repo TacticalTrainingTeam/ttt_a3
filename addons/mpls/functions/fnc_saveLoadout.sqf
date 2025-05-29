@@ -7,7 +7,7 @@
  * 0: PLAYER <OBJECT>
  *
  * Return Value:
- * None
+ * True
  *
  * Example:
  * [this] call ttt_mpls_fnc_saveLoadout
@@ -15,20 +15,18 @@
  * Public: Yes
  */
 
-params ["_player"];
+params [
+    "_player",
+    ["_uid", "", [""]]];
 TRACE_1("fnc_saveLoadout",_this);
 
-GVAR(loadoutDB) set [getPlayerUID _player, [_player] call CBA_fnc_getLoadout];
+if (_uid isNotEqualTo "") then {
+    GVAR(loadoutNamespace) setVariable [_uid, [_player] call CBA_fnc_getLoadout, true];
+} else {
+    GVAR(loadoutNamespace) setVariable [getPlayerUID _player, [_player] call CBA_fnc_getLoadout, true];
+};
+
+GVAR(loadoutNamespace) setVariable [getPlayerUID _player, [_player] call CBA_fnc_getLoadout, true];
 INFO_1("Loadout Saved for player %1",_player);
 
-//Save Loadout every ten minutes
-[
-    {
-        params ["_player"];
-        _player call FUNC(saveLoadout);
-    },
-    [_player],
-    600
-] call CBA_fnc_waitAndExecute;
-
-true;
+true

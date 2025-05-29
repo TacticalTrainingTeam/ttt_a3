@@ -1,43 +1,53 @@
 #include "script_component.hpp"
 
-//Nur für Spieler
-if (!hasInterface) exitWith {};
-
-GVAR(loadoutDB) = createHashMap; 
-private _loadout = GVAR(loadoutDB) getOrDefault [getPlayerUID player, nil];
-
-if (!isNil _loadout) then {
-    //es gibt für diese Spieler UID schon ein gespeichertes Loaodut, also laden wir das
+if (isServer) then {
     [
         {
-            params ["_player"];
-            _player call FUNC(applyLoadout);
+            // start the save Loop
+            call FUNC(init);
         },
-        [ACE_player],
-        5 //5 Sekunden warten für Lag bei der normalen Loadoutvergabe
+        [],
+        20
     ] call CBA_fnc_waitAndExecute;
 };
+
+// Below this line only for player machines
+if (!hasInterface) exitWith {};
 
 //erster Loadoutsave
 [
     {            
         params ["_player"];
-        GVAR(loadoutDB) set [[getPlayerUID _player, "_first"] joinString "", getUnitLoadout _player]; //saves the very first loadout to the DB
-        _player call FUNC(saveLoadout); //make a regular save and start the periodic save
+        if (GVAR(loadoutNamespace) getVariable ([getPlayerUID _player, "_first"] joinString "") isEqualTo []) then {
+            GVAR(loadoutNamespace) setVariable [[getPlayerUID _player, "_first"] joinString "", [_player] call CBA_fnc_getLoadout, true]; //saves the very first loadout to the DB
+        };
     },
-    [ACE_player],
-    10
+    [ace_player],
+    5
 ] call CBA_fnc_waitAndExecute;
 
-//Nur für JIP
+// If player is JIP
 if (didJIP) then {
-    if (!isNil QEGVAR(teleport,teleporter)) then { //addAction am Teleporter
-        QEGVAR(teleport,teleporter) addAction [LLSTRING(startLoadout), {
+     // add addAction to the teleporter object
+    if (!isNil QEGVAR(teleport,teleporter)) then {
+        EGVAR(teleport,teleporter) addAction [LLSTRING(startLoadout), {
 
             params ["", "_caller"];
-            private _loadout = GVAR(loadoutDB) get ([getPlayerUID _caller, "_first"] joinString "");
-            [_caller, _loadout] call CBA_fnc_setLoadout;
+
+            if ((GVAR(loadoutNamespace) getVariable ([getPlayerUID _caller, "_first"] joinString "")) isEqualTo []) exitWith {false};
+            [_caller, GVAR(loadoutNamespace) getVariable ([getPlayerUID _caller, "_first"] joinString "")] call CBA_fnc_setLoadout;
 
         }, [], 0, false, true];
     };
+
+    // apply the last saved loadout to the player
+    // wait 5 seconds to account for any delay with loadouts assigned through onPlayerResawn.sqf
+    [
+        {
+            params ["_player"];
+            _player call FUNC(applyLoadout);
+        },
+        [ace_player],
+        5
+    ] call CBA_fnc_waitAndExecute;
 };

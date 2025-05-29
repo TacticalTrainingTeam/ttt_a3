@@ -2,6 +2,8 @@
 
 Das MPLS speichert zum Start der Mission, alle 10 Minuten und beim Disconnect das aktuelle Loadout des Spielers im `missionNamespace` der Mission. Beim JIP/Respawn wird das letzte gespeicherte Loadout dem Spieler wieder zugewiesen. Zusätzlich gibt es für JIP Spieler am TTT-Teleporter die Möglichkeit per Mausrad-Menü das erste gespeicherte Loadout wieder auszuwählen.
 
+Inspiriert von [W] Millers <https://gitlab.gruppe-w.de/Missionsbau/Framework/-/tree/master/addons/mcls>
+
 ## Maintainer
 
 - Andx
