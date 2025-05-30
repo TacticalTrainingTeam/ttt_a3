@@ -4,7 +4,7 @@ if (isServer) then {
     [
         {
             // start the save Loop
-            call FUNC(init);
+            call FUNC(initSave);
         },
         [],
         20

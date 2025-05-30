@@ -24,7 +24,7 @@ TRACE_1("fnc_init",_this);
 // Call this function again after 10 Minutes
 [
     {
-        call FUNC(init);
+        call FUNC(initSave);
     },
     [],
     600

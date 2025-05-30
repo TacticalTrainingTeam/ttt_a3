@@ -1,4 +1,4 @@
 PREP(applyLoadout);
 PREP(handleRespawn);
-PREP(init);
+PREP(initSave);
 PREP(saveLoadout);
