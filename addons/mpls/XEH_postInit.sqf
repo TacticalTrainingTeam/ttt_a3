@@ -14,11 +14,11 @@ if (isServer) then {
 // Below this line only for player machines
 if (!hasInterface) exitWith {};
 
-//erster Loadoutsave
+// If the _first Loadout does not exist, create it
 [
     {            
         params ["_player"];
-        if (GVAR(loadoutNamespace) getVariable ([getPlayerUID _player, "_first"] joinString "") isEqualTo []) then {
+        if (GVAR(loadoutNamespace) getVariable [([getPlayerUID _player, "_first"] joinString ""), []] isEqualTo []) then {
             GVAR(loadoutNamespace) setVariable [[getPlayerUID _player, "_first"] joinString "", [_player] call CBA_fnc_getLoadout, true]; //saves the very first loadout to the DB
         };
     },
@@ -34,8 +34,9 @@ if (didJIP) then {
 
             params ["", "_caller"];
 
-            if ((GVAR(loadoutNamespace) getVariable ([getPlayerUID _caller, "_first"] joinString "")) isEqualTo []) exitWith {false};
-            [_caller, GVAR(loadoutNamespace) getVariable ([getPlayerUID _caller, "_first"] joinString "")] call CBA_fnc_setLoadout;
+            if ((GVAR(loadoutNamespace) getVariable [([getPlayerUID _caller, "_first"] joinString ""), []]) isNotEqualTo []) then {
+                [_caller, GVAR(loadoutNamespace) getVariable ([getPlayerUID _caller, "_first"] joinString "")] call CBA_fnc_setLoadout;
+            };
 
         }, [], 0, false, true];
     };

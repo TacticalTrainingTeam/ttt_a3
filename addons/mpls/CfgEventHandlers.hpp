@@ -23,3 +23,11 @@ class Extended_Respawn_EventHandlers {
         };
     };
 };
+
+class Extended_Killed_EventHandlers {
+    class CAManBase {
+        class GVAR(killed_XEH) {
+            killed = QUOTE(ace_player call FUNC(saveLoadout));
+        };
+    };
+};
