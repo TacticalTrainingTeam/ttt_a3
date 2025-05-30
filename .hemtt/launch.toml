@@ -155,7 +155,7 @@ parameters = [
 extends = "default"
 parameters = [
     "-world=empty",
-    #"-connect=127.0.0.1",
-    #"-port=2302",
+    "-connect=127.0.0.1",
+    "-port=2302",
     "-window",
 ]
