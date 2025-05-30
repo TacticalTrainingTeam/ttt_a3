@@ -17,8 +17,6 @@
 
 params ["_player"];
 
-TRACE_1("fnc_applyLoadout",_this);
-
 if ((GVAR(loadoutNamespace) getVariable [(getPlayerUID _player),[]]) isEqualTo []) exitWith {};
 
 [_player, GVAR(loadoutNamespace) getVariable (getPlayerUID _player)] call CBA_fnc_setLoadout;

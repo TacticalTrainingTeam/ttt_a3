@@ -20,7 +20,6 @@ params [
     "_player",
     ["_uid", "", [""]]
     ];
-TRACE_1("fnc_saveLoadout",_this);
 
 if (_uid isNotEqualTo "") then {
     // this case is called on disconnect

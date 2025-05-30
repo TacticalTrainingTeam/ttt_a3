@@ -15,8 +15,7 @@
  * Public: No
  */
 
-params ["_unit", "_corpse"];
-TRACE_1("fnc_handleRespawn",_this);
+params ["_unit", ""];
 
 [
     {

@@ -16,7 +16,6 @@
  */
 
 params [];
-TRACE_1("fnc_init",_this);
 
 // Raise the event on all machine to save the current loadout
 [QGVAR(doBackup), []] call CBA_fnc_remoteEvent;
