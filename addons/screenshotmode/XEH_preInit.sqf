@@ -7,3 +7,5 @@ PREP_RECOMPILE_START;
 PREP_RECOMPILE_END;
 
 ADDON = true;
+
+if (hasInterface) then {call FUNC(addEventHandler);};

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Mpls">
+        <Key ID="STR_ttt_Mpls_startLoadout">
+            <English>Equip starting Loadout</English>
+            <German>Start-Loadout ausrüsten</German>
+        </Key>
+    </Package>
+</Project>
