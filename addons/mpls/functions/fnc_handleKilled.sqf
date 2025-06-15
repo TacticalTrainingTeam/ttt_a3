@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /*
  * Authors: Andx
- * Handles the loadout save if a player is killed.
+ * Handles the loadout save if a player respawns manually.
  *
  * Arguments:
  * 0: Unit that got killed <OBJECT>
