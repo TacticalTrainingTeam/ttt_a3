@@ -21,6 +21,9 @@ params [
     ["_uid", "", [""]]
     ];
 
+if (_uid isEqualTo "") then {
+    _uid = getPlayerUID _player;
+};
 
 GVAR(loadoutNamespace) setVariable [_uid, [_player] call CBA_fnc_getLoadout, true];
 
