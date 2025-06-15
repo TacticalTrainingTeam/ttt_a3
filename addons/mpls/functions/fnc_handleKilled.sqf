@@ -1,6 +1,6 @@
 #include "..\script_component.hpp"
 /*
- * Authors: You
+ * Authors: Andx
  * Handles the loadout save if a player is killed.
  *
  * Arguments:
