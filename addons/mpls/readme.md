@@ -7,7 +7,7 @@ Inspiriert von [W] Millers <https://gitlab.gruppe-w.de/Missionsbau/Framework/-/t
 ## `ttt_mpls_fnc_saveLoadout`
 
 ```c++
-[player] call ttt_mpls_fnc_saveLoadout;
+[player, getPlayerUID player] call ttt_mpls_fnc_saveLoadout;
 ```
 
 Ermöglicht ein manuelles speichern des aktuellen Loadouts.

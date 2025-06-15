@@ -5,6 +5,8 @@
  *
  * Arguments:
  * 0: Unit that got killed <OBJECT>
+ * 1: Object that Killed Unit <OBJECT>
+ * 2: Unit that pulled the trigger <OBJECT>
  *
  * Return Value:
  * <NONE>
@@ -15,10 +17,10 @@
  * Public: No
  */
 
-params ["_unit", "", "", ""];
+params ["_unit", "_killer", "_instigator", ""];
 
-if (hasInterface) then {
-    _unit call FUNC(saveLoadout);
+if (_unit == _killer || _unit == _instigator) then {
+    [_unit, getPlayerUID _unit] call FUNC(saveLoadout);
 };
 
 

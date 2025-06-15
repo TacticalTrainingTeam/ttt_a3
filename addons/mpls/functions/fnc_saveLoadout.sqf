@@ -21,13 +21,8 @@ params [
     ["_uid", "", [""]]
     ];
 
-if (_uid isNotEqualTo "") then {
-    // this case is called on disconnect
-    GVAR(loadoutNamespace) setVariable [_uid, [_player] call CBA_fnc_getLoadout, true];
-} else {
-    // this case is called on repsawn and during the regular saves
-    GVAR(loadoutNamespace) setVariable [getPlayerUID _player, [_player] call CBA_fnc_getLoadout, true];
-};
+
+GVAR(loadoutNamespace) setVariable [_uid, [_player] call CBA_fnc_getLoadout, true];
 
 INFO_1("Loadout Saved for player %1",_player);
 

@@ -28,7 +28,7 @@ if (isServer) then {
     QGVAR(doBackup),
     {
         if (!hasInterface) exitWith {};
-        ace_player call FUNC(saveLoadout);
+        [ace_player, getPlayerUID ace_player] call FUNC(saveLoadout);
     }
 ] call CBA_fnc_addEventHandler;
 
