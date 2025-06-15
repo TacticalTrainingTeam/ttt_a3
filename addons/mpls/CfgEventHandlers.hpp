@@ -26,7 +26,7 @@ class Extended_Respawn_EventHandlers {
 
 class Extended_Killed_EventHandlers {
     class CAManBase {
-        class GVAR(respawn_XEH) {
+        class GVAR(killed_XEH) {
             killed = QUOTE(call FUNC(handleKilled));
         };
     };
