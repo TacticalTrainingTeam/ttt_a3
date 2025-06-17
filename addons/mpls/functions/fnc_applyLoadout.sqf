@@ -17,9 +17,10 @@
 
 params ["_player"];
 
-if ((GVAR(loadoutNamespace) getVariable [(getPlayerUID _player),[]]) isEqualTo []) exitWith {};
+if ((GVAR(loadoutNamespace) getVariable [(getPlayerUID _player),[]]) isEqualTo []) exitWith {false};
 
 [_player, GVAR(loadoutNamespace) getVariable (getPlayerUID _player)] call CBA_fnc_setLoadout;
+
 INFO_1("Saved Loadout found for player %1 ,applying ...",_player);
 
 true
