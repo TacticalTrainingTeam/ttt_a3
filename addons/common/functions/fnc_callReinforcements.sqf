@@ -135,13 +135,13 @@ if ((_rpBehaviour == 0) && (_vehicle isKindOf "Air") && (count nearestObjects [_
 
 // create a RP waypoint for deploying the units
 private _vehicleUnloadWp = _vehicleGroup addWaypoint [_rpPos, _rpSize];
-if (_vehicle isKindOf "Air" && (_rpBehaviour > 0) && (isClass(configFile >> "CfgPatches" >> "achilles_functions_f_ares"))) then
+if (_vehicle isKindOf "Air" && (_rpBehaviour > 0)) then
 {
 	_vehicleUnloadWp setWaypointType "SCRIPTED";
 	private _script =
 	[
-		"\achilles\functions_f_achilles\scripts\fn_wpParadrop.sqf",
-		"\achilles\functions_f_achilles\scripts\fn_wpFastrope.sqf"
+		"\zen\addons\ai\functions\fnc_waypointParadrop.sqf",
+		"\zen\addons\compat_ace\functions\fnc_waypointFastrope.sqf"
 	] select (_rpBehaviour isEqualTo 1);
 	_vehicleUnloadWp setWaypointScript _script;
 } else
