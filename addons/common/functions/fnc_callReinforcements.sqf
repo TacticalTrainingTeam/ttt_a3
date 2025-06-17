@@ -121,9 +121,9 @@ if (isClass (configFile >> "CfgPatches" >> "acex_headless") && acex_headless_ena
 	_x moveInCargo _vehicle;
 } forEach _infantryList;
 
-if ((_vehicle getVariable ["Achilles_var_noFastrope", false]) && (_rpBehaviour > 0) && (_vehicle isKindOf "Air")) exitWith
+if (([_vehicle] call zen_compat_ace_fnc_canFastrope) && (_rpBehaviour > 0) && (_vehicle isKindOf "Air")) exitWith
 {
-	["ACE3 or AR is not loaded!"] call ace_zeus_fnc_showMessage;
+	["ACE3 or AR is not loaded!"] call ace_zeus_fnc_showMessage; //Update Error Msg
 	{deleteVehicle _x} forEach _infantryList;
 };
 
@@ -135,7 +135,7 @@ if ((_rpBehaviour == 0) && (_vehicle isKindOf "Air") && (count nearestObjects [_
 
 // create a RP waypoint for deploying the units
 private _vehicleUnloadWp = _vehicleGroup addWaypoint [_rpPos, _rpSize];
-if (_vehicle isKindOf "Air" && (_rpBehaviour > 0)) then
+if (_vehicle isKindOf "Air" && (_rpBehaviour > 0)) then //Add Check for ZEN instead of requiring it?
 {
 	_vehicleUnloadWp setWaypointType "SCRIPTED";
 	private _script =
