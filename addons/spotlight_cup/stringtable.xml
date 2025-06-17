@@ -5,5 +5,9 @@
             <English>Join server: Tactical Training Team - CUP</English>
             <German>Server beitreten: Tactical Training Team - CUP</German>
         </Key>
+        <Key ID="STR_ttt_Spotlight_Cup_text">
+            <English>Tactical Training Team - CUP Server</English>
+            <German>Tactical Training Team - CUP Server</German>
+        </Key>
     </Package>
 </Project>
