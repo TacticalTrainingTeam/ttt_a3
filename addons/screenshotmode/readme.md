@@ -11,7 +11,7 @@ Funktioniert für:
 
 ## Funktion
 
-Der Screenshotmodus nutzt das [ACE User Interface Framework](https://ace3.acemod.org/wiki/framework/ui-framework). Speziell den Standard ACE-Keybind um das Interface zu verstecken. Beim Druck von `Strg`+`F12` wird von ACE ein Event ausgelöst, auf das die TTT-Mod reagiert und weitere Interfaceelemente ausblendet.
+Der Screenshotmodus nutzt das [ACE User Interface Framework](https://ace3.acemod.org/wiki/framework/ui-framework). Speziell den Standard ACE-Keybind um das Interface zu verstecken. Beim Druck von <kbd>Strg</kbd>+<kbd>F12</kbd> wird von ACE ein Event ausgelöst, auf das die TTT-Mod reagiert und weitere Interfaceelemente ausblendet.
 
 *ACE* und *DUI Squad Radar* wird bereits von ACE verarbeitet. *ACRE* und die Vanillaelemente werden durch die TTT-Mod ausgeblendet.
 
