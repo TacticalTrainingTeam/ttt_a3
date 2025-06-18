@@ -1,0 +1,42 @@
+# Number of days of inactivity before an issue becomes stale
+daysUntilStale: 90
+
+# Number of days of inactivity before a stale issue is closed
+daysUntilClose: 14
+
+# Issues with these labels will never be considered stale
+exemptLabels:
+  - Hilfe Gesucht
+  - target/next-arma
+
+# Label to use when marking an issue as stale
+staleLabel: status/stale
+
+# Comment to post when marking an issue as stale. Set to `false` to disable
+markComment: >
+ Dieses Thema wurde automatisch als veraltet markiert, da es in letzter Zeit keine
+ Aktivität gegeben hat. Es wird geschlossen, wenn keine weitere Aktivität stattfindet. 
+ 
+ Vielen Dank für Ihre Beiträge.
+# Comment to post when closing a stale issue. Set to `false` to disable
+closeComment: >
+  Dieses Thema wurde wegen Inaktivität automatisch geschlossen.
+  
+  Wenn das Problem weiterhin besteht, können Sie es gerne wieder öffnen. Geben Sie bei Bedarf zusätzliche Details an, die uns bei der Lösung des Problems helfen.
+  
+  Wenn Sie uns bei der Lösung dieses Problems helfen möchten, 
+  öffnen Sie es bitte erneut oder erstellen Sie ein neues Problem mit dem Hinweis, dass Sie uns helfen möchten.
+  
+  Wir danken Ihnen für Ihre Beiträge.
+  
+# Limit the number of actions per hour, from 1-30. Default is 30
+limitPerRun: 30
+
+# Limit to only `issues` or `pulls`
+only: issues
+
+# Set to true to ignore issues in a project (defaults to false)
+exemptProjects: true
+
+# Set to true to ignore issues in a milestone (defaults to false)
+exemptMilestones: true
