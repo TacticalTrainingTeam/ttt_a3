@@ -10,7 +10,7 @@
  * True
  *
  * Example:
- * [] call ttt_mpls_fnc_init
+ * [] call ttt_mpls_fnc_initSave
  *
  * Public: No
  */
