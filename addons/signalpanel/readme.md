@@ -17,7 +17,7 @@ Am einfachsten passiert das in der `Loadout.sqf` des Spielers mittels:
 
 ```c++
 force ttt_signalpanel_enable = true;                                                //default: false;
-force ttt_signalpanel_allowedBackpacks = '["B_kitbag_rgr", "B_AssaultPack_rgr"]';   //default: [];
+force ttt_signalpanel_supportedBackpacks = '["B_kitbag_rgr", "B_AssaultPack_rgr"]';   //default: [];
 ```
 
 ## Beispielbild
