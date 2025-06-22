@@ -13,11 +13,11 @@
       - [Beispiele](#beispiele)
     - [`ttt_common_fnc_doFlakFire`](#ttt_common_fnc_doflakfire)
       - [Beispiel](#beispiel-2)
-    - [ACE-Fortify Presets](#ace-fortify-presets)
-    - [Kisten](#kisten)
-      - [Sanitätskisten](#sanitätskisten)
-      - [Pionierkisten](#pionierkisten)
-      - [Spezialkisten](#spezialkisten)
+  - [ACE-Fortify Presets](#ace-fortify-presets)
+  - [Kisten](#kisten)
+    - [Sanitätskisten](#sanitätskisten)
+    - [Pionierkisten](#pionierkisten)
+    - [Spezialkisten](#spezialkisten)
   - [Bewusstlose haben keine Kollision](#bewusstlose-haben-keine-kollision)
   - [Compositions](#compositions)
   - [Bilder](#bilder)
@@ -149,7 +149,7 @@ handle_01 = [flak_01] call ttt_common_fnc_doFlakFire;
 [handle_01] call CBA_fnc_removePerFrameHandler;
 ```
 
-### ACE-Fortify Presets
+## ACE-Fortify Presets
 
 Definiert Presets für ACE-Fortify, die in spontanen Missionen und Trainings genutzt werden können:
 
@@ -169,11 +169,11 @@ Folgendes Presets stehen zur Verfügung:
 
 Siehe auch [Fortify Framework](https://ace3.acemod.org/wiki/framework/fortify-framework)
 
-### Kisten
+## Kisten
 
 Fügt einige TTT-spezifische Kisten hinzu. Alle Kisten sind ein (1) ACE-Cargo groß.
 
-#### Sanitätskisten
+### Sanitätskisten
 
 Fügt folgende Sanitätskisten  hinzu:
 
@@ -182,7 +182,7 @@ Fügt folgende Sanitätskisten  hinzu:
 
 Inhalt ist im [Wiki VBA](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#verbandsmaterial-arzt) bzw. [Wiki VBT](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#verbandsmaterial-truppe) definiert.
 
-#### Pionierkisten
+### Pionierkisten
 
 Fügt folgende Pionierkisten hinzu:
 
@@ -193,7 +193,7 @@ Fügt folgende Pionierkisten hinzu:
 
 Inhalt ist im [Wiki](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#spezielle-kisten) definiert.
 
-#### Spezialkisten
+### Spezialkisten
 
 - Drohnenkiste (UAV) `ttt_common_uav_crate`
 - Markierkiste (Mark) `ttt_common_mark_crate`
@@ -219,7 +219,7 @@ Stellt eine Komposition zur Verfügung, um immer benutzte Module beim Anfang ein
 - Leerer Marker `respawn` (TTT-Flagge mit Zuschauerkamera und techn. Teleport wird automatisch erzeugt durch `ttt_teleport`-Addon)
 - 2x Zivilist `zeus` + `zeus_1`
 
-Benutzung: Im 3DEN-Editor `F2` Compositions -> Props -> Other -> Tactical Training Team
+Benutzung: Im 3DEN-Editor <kbd>F2</kbd> Compositions -> Props -> Other -> Tactical Training Team
 
 ![Inhalt und Pfad zur Benutzung](https://i.imgur.com/kX7gUkp.jpeg)
 
