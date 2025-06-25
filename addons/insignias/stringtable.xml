@@ -125,5 +125,9 @@
             <English>TTT Yellow</English>
             <German>TTT Gelb</German>
         </Key>
+        <Key ID="STR_ttt_Insignias_spraypaint_displayName">
+            <English>Spray Paint (TTT)</English>
+            <German>Sprühfarbe (TTT)</German>
+        </Key>
     </Package>
 </Project>
