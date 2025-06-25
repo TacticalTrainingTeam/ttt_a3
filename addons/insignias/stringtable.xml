@@ -101,6 +101,10 @@
             <English>TTT Silver</English>
             <German>TTT Silber</German>
         </Key>
+        <Key ID="STR_ttt_Insignias_spraypaint_displayName">
+            <English>Spray Paint (TTT)</English>
+            <German>Sprühfarbe (TTT)</German>
+        </Key>
         <Key ID="STR_ttt_Insignias_violet_emblem_displayName">
             <English>TTT Violet Emblem</English>
             <German>TTT Violett Abzeichen</German>
@@ -124,10 +128,6 @@
         <Key ID="STR_ttt_Insignias_yellow_large_displayName">
             <English>TTT Yellow</English>
             <German>TTT Gelb</German>
-        </Key>
-        <Key ID="STR_ttt_Insignias_spraypaint_displayName">
-            <English>Spray Paint (TTT)</English>
-            <German>Sprühfarbe (TTT)</German>
         </Key>
     </Package>
 </Project>
