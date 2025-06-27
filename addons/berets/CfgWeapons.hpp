@@ -1,8 +1,6 @@
 class CfgWeapons {
     class H_Beret_blk;
-    class H_Beret_02: H_Beret_blk {
-        class ItemInfo;
-    };
+    class H_Beret_02: H_Beret_blk {};
 
     class ttt_Beret_Blue: H_Beret_02 {
         author = ECSTRING(main,TacticalTrainingTeam);

@@ -1,6 +1,5 @@
 class CfgWeapons {
     class InventoryItem_Base_F;
-    class ItemCore;
     class CUP_U_O_CHDKZ_Kam_01;
 
     class UniformItem: InventoryItem_Base_F {

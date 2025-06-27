@@ -1,6 +1,5 @@
 class CfgWeapons {
     class ItemCore;
-    class InventoryItem_Base_F;
     class InventoryOpticsItem_Base_F;
     class optic_SOS: ItemCore {
         descriptionShort = CSTRING(mosDescriptionShort);

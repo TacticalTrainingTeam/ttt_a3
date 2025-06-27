@@ -10,9 +10,7 @@ class CfgVehicles {
     };
     class StaticMortar: StaticWeapon {
         class Turrets: Turrets {
-            class MainTurret: MainTurret {
-                class ViewOptics;
-            };
+            class MainTurret: MainTurret {};
         };
     };
 
