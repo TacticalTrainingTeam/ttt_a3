@@ -2,7 +2,7 @@
 
 Eine Signalplane ist eine Möglichkeit einem Hubschrauber auch aus größerer Distanz optisch eine Landezone zu markieren.
 Mit dieser Erweiterung können bestimmte Rucksäcke eine große farbige Plane transportieren, die der Spieler dann auf und abbauen kann.
-Die Plane ist dabei weder an edn Spieler noch den Rucksacktypen gebunden. Der abbauende Spieler muss nur den richtigen Rucksack nutzen und derzeit nicht schon eine Plane transportieren.
+Die Plane ist dabei weder an den Spieler noch den Rucksacktypen gebunden. Der abbauende Spieler muss nur den richtigen Rucksack nutzen und derzeit nicht schon eine Plane transportieren.
 
 ## Hinweis
 
@@ -17,7 +17,8 @@ Am einfachsten passiert das in der `Loadout.sqf` des Spielers mittels:
 
 ```c++
 force ttt_signalpanel_enable = true;                                                //default: false;
-force ttt_signalpanel_supportedBackpacks = '["B_kitbag_rgr", "B_AssaultPack_rgr"]';   //default: [];
+force ttt_signalpanel_supportedBackpacks = '["B_kitbag_rgr", "B_AssaultPack_rgr"]';   //default: '[]';
+force ttt_signalpanel_buildTime = 19; //default: 6;
 ```
 
 ## Beispielbild
