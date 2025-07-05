@@ -2,7 +2,7 @@
 
 Eine Signalplane ist eine Möglichkeit einem Hubschrauber auch aus größerer Distanz optisch eine Landezone zu markieren.
 Mit dieser Erweiterung können bestimmte Rucksäcke eine große farbige Plane transportieren, die der Spieler dann auf und abbauen kann.
-Die Plane ist dabei weder an den Spieler noch den Rucksacktypen gebunden. Der abbauende Spieler muss nur den richtigen Rucksack nutzen und derzeit nicht schon eine Plane transportieren.
+Die Plane ist dabei nicht an den Spieler gebunden. Der abbauende Spieler muss nur den richtigen Rucksack nutzen und derzeit nicht schon eine Plane transportieren.
 
 ## Hinweis
 
