@@ -13,6 +13,7 @@
       - [Beispiele](#beispiele)
     - [`ttt_common_fnc_doFlakFire`](#ttt_common_fnc_doflakfire)
       - [Beispiel](#beispiel-2)
+    - [`ttt_common_fnc_setAISkill`](#ttt_common_fnc_setaiskill)
   - [ACE-Fortify Presets](#ace-fortify-presets)
   - [Kisten](#kisten)
     - [Sanitätskisten](#sanitätskisten)
@@ -148,6 +149,34 @@ handle_01 = [flak_01] call ttt_common_fnc_doFlakFire;
 ```c++
 [handle_01] call CBA_fnc_removePerFrameHandler;
 ```
+
+### `ttt_common_fnc_setAISkill`
+
+```c++
+[unit, general, courage, aimingAccuracy, aimingShake, aimingSpeed, commanding, endurance, spotDistance, spotTime, reloadSpeed] call ttt_common_fnc_setAISkill;
+```
+
+Wenn nur die Unit angegeben wird, werden die Default Werte genutzt:
+```c++
+["_general",        0.75, [0.0]],
+["_courage",        0.75, [0.0]],
+["_aimingAccuracy", 0.65, [0.0]],
+["_aimingShake",    0.65, [0.0]],
+["_aimingSpeed",    0.65, [0.0]],
+["_commanding",     0.75, [0.0]],
+["_endurance",      0.75, [0.0]],
+["_spotDistance",   0.85, [0.0]],
+["_spotTime",       0.85, [0.0]],
+["_reloadSpeed",    0.75, [0.0]]
+```
+
+Refrenzen: <https://community.bistudio.com/wiki/setSkill>
+Approximate ranges are:  
+Novice < 0.25  
+Rookie >= 0.25 and <= 0.45  
+Recruit > 0.45 and <= 0.65  
+Veteran > 0.65 and <= 0.85  
+Expert > 0.85  
 
 ## ACE-Fortify Presets
 

@@ -29,7 +29,8 @@
  * None
  *
  * Example:
- * [unit] call ttt_common_fnc_setAIskill
+ * make a unit a Rookie
+ * [unit, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25,] call ttt_common_fnc_setAIskill
  *
  * Public: Yes
  */
