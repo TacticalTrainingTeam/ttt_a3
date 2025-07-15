@@ -170,7 +170,7 @@ Wenn nur die Unit angegeben wird, werden die Default Werte genutzt:
 ["_reloadSpeed",    0.75, [0.0]]
 ```
 
-Refrenzen: <https://community.bistudio.com/wiki/setSkill>
+Refrenzen: <https://community.bistudio.com/wiki/setSkill>  
 Approximate ranges are:  
 Novice < 0.25  
 Rookie >= 0.25 and <= 0.45  
