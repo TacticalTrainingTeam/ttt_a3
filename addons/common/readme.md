@@ -156,7 +156,8 @@ handle_01 = [flak_01] call ttt_common_fnc_doFlakFire;
 [unit, general, courage, aimingAccuracy, aimingShake, aimingSpeed, commanding, endurance, spotDistance, spotTime, reloadSpeed] call ttt_common_fnc_setAISkill;
 ```
 
-Wenn nur die Unit angegeben wird, werden die Default Werte genutzt:
+Wenn nur die `unit` angegeben wird, werden die Default Werte genutzt:
+
 ```c++
 ["_general",        0.75, [0.0]],
 ["_courage",        0.75, [0.0]],
