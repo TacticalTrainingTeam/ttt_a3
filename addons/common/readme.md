@@ -153,7 +153,7 @@ handle_01 = [flak_01] call ttt_common_fnc_doFlakFire;
 ### `ttt_common_fnc_setAISkill`
 
 ```c++
-[unit, general, courage, aimingAccuracy, aimingShake, aimingSpeed, commanding, endurance, spotDistance, spotTime, reloadSpeed] call ttt_common_fnc_setAISkill;
+[unit, general, courage, aimingAccuracy, aimingShake, aimingSpeed, commanding, spotDistance, spotTime, reloadSpeed] call ttt_common_fnc_setAISkill;
 ```
 
 Wenn nur die `unit` angegeben wird, werden die Default Werte genutzt:
@@ -165,7 +165,6 @@ Wenn nur die `unit` angegeben wird, werden die Default Werte genutzt:
 ["_aimingShake",    0.65, [0.0]],
 ["_aimingSpeed",    0.65, [0.0]],
 ["_commanding",     0.75, [0.0]],
-["_endurance",      0.75, [0.0]],
 ["_spotDistance",   0.85, [0.0]],
 ["_spotTime",       0.85, [0.0]],
 ["_reloadSpeed",    0.75, [0.0]]
@@ -178,6 +177,11 @@ Rookie >= 0.25 and <= 0.45
 Recruit > 0.45 and <= 0.65  
 Veteran > 0.65 and <= 0.85  
 Expert > 0.85  
+
+```c++
+//Make a rookie
+[ai_01, 0.45, 0.45, 0.25, 0.25, 0.25, 0.45, 0.45, 0.45, 0.45] call ttt_common_fnc_setAISkill;
+```
 
 ## ACE-Fortify Presets
 
