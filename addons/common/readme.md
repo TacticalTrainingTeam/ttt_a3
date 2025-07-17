@@ -13,6 +13,9 @@
       - [Beispiele](#beispiele)
     - [`ttt_common_fnc_doFlakFire`](#ttt_common_fnc_doflakfire)
       - [Beispiel](#beispiel-2)
+    - [`ttt_common_fnc_setAISkillLevel`](#ttt_common_fnc_setaiskilllevel)
+      - [Beispiele](#beispiele-1)
+      - [Quellen](#quellen)
   - [ACE-Fortify Presets](#ace-fortify-presets)
   - [Kisten](#kisten)
     - [Sanitätskisten](#sanitätskisten)
@@ -148,6 +151,33 @@ handle_01 = [flak_01] call ttt_common_fnc_doFlakFire;
 ```c++
 [handle_01] call CBA_fnc_removePerFrameHandler;
 ```
+
+### `ttt_common_fnc_setAISkillLevel`
+
+```c++
+[unit, "Skill-Level"] call ttt_fnc_common_setAISkillLevel;
+```
+
+Mögliche Skill-Level sind:
+
+- "Novice"  
+- "Rookie"
+- "Recruit"  
+- "Veteran"  
+- "Expert"  
+
+Bei fehlender oder falscher Angabe wird "Veteran" ausgewählt. Die Werte innerhalb der Level sind alle gleich, aber zufällig aus der Spanne ausgewählt. `aiming`-Werte sind immer 0,2 Schlechter als alle anderen.
+
+#### Beispiele
+
+```c++
+[ai_01, "Recruit"] call ttt_fnc_common_setAISkillLevel;
+[_x_, "Veteran"] call ttt_fnc_common_setAISkillLevel;
+```
+
+#### Quellen
+
+<https://community.bistudio.com/wiki/setSkill>
 
 ## ACE-Fortify Presets
 
