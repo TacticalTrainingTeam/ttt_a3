@@ -38,16 +38,16 @@ switch (_skillLevel) do {
         _skill = random [0.25, 0.345, 0.44];
     };
     case "Recruit": {
-        _skill = random [0.45, 0.55, 0.64];
+        _skill = random [0.45, 0.545, 0.64];
     };
     case "Veteran": {
-        _skill = random [0.65, 0.75,  0.84];
+        _skill = random [0.65, 0.745,  0.84];
     };
     case "Expert": {
         _skill = random [0.85, 0.925, 1];
     };
     default {
-        _skill = random [0.65, 0.75,  0.84]; //same as Veteran
+        _skill = random [0.65, 0.745,  0.84]; //same as Veteran
     };
 }; 
 
