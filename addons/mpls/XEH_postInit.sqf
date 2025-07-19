@@ -42,13 +42,13 @@ if (didJIP) then {
     };
 
     // apply the last saved loadout to the player
-    // wait 5 seconds to account for any delay with loadouts assigned through onPlayerResawn.sqf
+    // wait 10 seconds to account for any delay with loadouts assigned through onPlayerRespawn.sqf
     [
         {
             params ["_player"];
             _player call FUNC(applyLoadout);
         },
         [ace_player],
-        5
+        10
     ] call CBA_fnc_waitAndExecute;
 };
