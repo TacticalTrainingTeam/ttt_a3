@@ -7,7 +7,7 @@ class CfgVehicles {
                     condition = false;
                 };
                 class tsp_ace_earplug_remove: tsp_ace_earplug_insert {
-                    condition = false
+                    condition = false;
                 };
             };
         };
