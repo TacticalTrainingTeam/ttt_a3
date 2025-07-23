@@ -97,11 +97,16 @@ class CfgWeapons {
         ace_flags_carrier = QGVAR(carrier_orange);
     };
     class GVAR(gold): GVAR(orange) {
-        author = ECSTRING(main,TacticalTrainingTeam);
         displayName = CSTRING(gold);
 
         ace_flags_texture = QPATHTOF(data\ace_flags_gold_ca.paa);
         ace_flags_carrier = QGVAR(carrier_gold);
+    };
+    class GVAR(bronze): GVAR(orange) {
+        displayName = CSTRING(bronze);
+
+        ace_flags_texture = QPATHTOF(data\ace_flags_bronze_ca.paa);
+        ace_flags_carrier = QGVAR(carrier_bronze);
     };
 
 };
