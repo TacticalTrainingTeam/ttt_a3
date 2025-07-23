@@ -1,28 +1,28 @@
 class CfgWeapons {
     class ace_flags_white;
-    class GVAR(weiß): ace_flags_white {
+    class GVAR(weiss): ace_flags_white {
         author = ECSTRING(main,TacticalTrainingTeam);
-        displayName = CSTRING(weiß); // Item/Flag name
+        displayName = CSTRING(weiss); // Item/Flag name
 
-        ace_flags_texture = QPATHTOF(data\ace_flags_weiß_ca.paa); // Path to the flag texture
-        ace_flags_carrier = QGVAR(carrier_weiß); // Classname of the corresponding vehicle that gets placed.
+        ace_flags_texture = QPATHTOF(data\ace_flags_weiss_ca.paa); // Path to the flag texture
+        ace_flags_carrier = QGVAR(carrier_weiss); // Classname of the corresponding vehicle that gets placed.
     };
-    class GVAR(silber): GVAR(weiß) {
+    class GVAR(silber): GVAR(weiss) {
         displayName = CSTRING(silber);
         ace_flags_texture = QPATHTOF(data\ace_flags_silber_ca.paa);
         ace_flags_carrier = QGVAR(carrier_silber);
     };
-    class GVAR(platin): GVAR(weiß) {
+    class GVAR(platin): GVAR(weiss) {
         displayName = CSTRING(platin);
         ace_flags_texture = QPATHTOF(data\ace_flags_platin_ca.paa);
         ace_flags_carrier = QGVAR(carrier_platin);
     };
-    class GVAR(logo): GVAR(weiß) {
+    class GVAR(logo): GVAR(weiss) {
         displayName = CSTRING(logo);
         ace_flags_texture = QPATHTOF(data\ace_flags_logo_ca.paa);
         ace_flags_carrier = QGVAR(carrier_logo);
     };
-    class GVAR(grau): GVAR(weiß) {
+    class GVAR(grau): GVAR(weiss) {
         displayName = CSTRING(grau);
         ace_flags_texture = QPATHTOF(data\ace_flags_grau_ca.paa);
         ace_flags_carrier = QGVAR(carrier_grau);
@@ -62,12 +62,12 @@ class CfgWeapons {
     };
 
     class ace_flags_green;
-    class GVAR(grün): ace_flags_green {
+    class GVAR(grun): ace_flags_green {
         author = ECSTRING(main,TacticalTrainingTeam);
-        displayName = CSTRING(grün);
+        displayName = CSTRING(grun);
 
-        ace_flags_texture = QPATHTOF(data\ace_flags_grün_ca.paa);
-        ace_flags_carrier = QGVAR(carrier_grün);
+        ace_flags_texture = QPATHTOF(data\ace_flags_grun_ca.paa);
+        ace_flags_carrier = QGVAR(carrier_grun);
     };
 
     class ace_flags_yellow;
@@ -80,12 +80,12 @@ class CfgWeapons {
     };
 
     class ace_flags_purple;
-    class GVAR(violet): ace_flags_purple {
+    class GVAR(violett): ace_flags_purple {
         author = ECSTRING(main,TacticalTrainingTeam);
-        displayName = CSTRING(violet);
+        displayName = CSTRING(violett);
 
-        ace_flags_texture = QPATHTOF(data\ace_flags_violet_ca.paa);
-        ace_flags_carrier = QGVAR(carrier_violet);
+        ace_flags_texture = QPATHTOF(data\ace_flags_violett_ca.paa);
+        ace_flags_carrier = QGVAR(carrier_violett);
     };
 
     class ace_flags_orange;
