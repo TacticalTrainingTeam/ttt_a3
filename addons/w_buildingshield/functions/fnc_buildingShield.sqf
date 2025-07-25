@@ -15,7 +15,7 @@
  * None
  *
  * Example:
- * [BUILDING] call Framework_fnc_buildingShield;
+ * [BUILDING] call ttt_w_buildingshield_fnc_buildingShield;
  *
  * Public: No
  */
@@ -24,6 +24,8 @@ params [
 ];
 
 if (isNull _target) exitWith { ["Kein Objekt übergeben."] call BIS_fnc_error };
+
+INFO_1("Adding Buildingshield to %1",_target);
 
 //Add the HandleDamage Eventhandler
 _target addEventHandler [

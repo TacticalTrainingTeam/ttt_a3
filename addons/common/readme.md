@@ -13,6 +13,10 @@
       - [Beispiele](#beispiele)
     - [`ttt_common_fnc_doFlakFire`](#ttt_common_fnc_doflakfire)
       - [Beispiel](#beispiel-2)
+    - [`ttt_common_fnc_setAISkill`](#ttt_common_fnc_setaiskill)
+    - [`ttt_common_fnc_setAISkillLevel`](#ttt_common_fnc_setaiskilllevel)
+      - [Beispiele](#beispiele-1)
+      - [Quellen](#quellen)
   - [ACE-Fortify Presets](#ace-fortify-presets)
   - [Kisten](#kisten)
     - [Sanitätskisten](#sanitätskisten)
@@ -148,6 +152,66 @@ handle_01 = [flak_01] call ttt_common_fnc_doFlakFire;
 ```c++
 [handle_01] call CBA_fnc_removePerFrameHandler;
 ```
+
+### `ttt_common_fnc_setAISkill`
+
+```c++
+[unit, general, courage, aimingAccuracy, aimingShake, aimingSpeed, commanding, spotDistance, spotTime, reloadSpeed] call ttt_common_fnc_setAISkill;
+```
+
+Wenn nur die `unit` angegeben wird, werden die Default Werte genutzt:
+
+```c++
+["_general",        0.75, [0.0]],
+["_courage",        0.75, [0.0]],
+["_aimingAccuracy", 0.65, [0.0]],
+["_aimingShake",    0.65, [0.0]],
+["_aimingSpeed",    0.65, [0.0]],
+["_commanding",     0.75, [0.0]],
+["_spotDistance",   0.85, [0.0]],
+["_spotTime",       0.85, [0.0]],
+["_reloadSpeed",    0.75, [0.0]]
+```
+
+Refrenzen: <https://community.bistudio.com/wiki/setSkill>  
+Approximate ranges are:  
+Novice < 0.25  
+Rookie >= 0.25 and <= 0.45  
+Recruit > 0.45 and <= 0.65  
+Veteran > 0.65 and <= 0.85  
+Expert > 0.85  
+
+```c++
+//Make a rookie
+[ai_01, 0.45, 0.45, 0.25, 0.25, 0.25, 0.45, 0.45, 0.45, 0.45] call ttt_common_fnc_setAISkill;
+```
+
+### `ttt_common_fnc_setAISkillLevel`
+
+```c++
+[unit, "Skill-Level"] call ttt_fnc_common_setAISkillLevel;
+```
+
+Mögliche Skill-Level sind:
+
+- "Novice"  
+- "Rookie"
+- "Recruit"  
+- "Veteran"  
+- "Expert"  
+
+Bei fehlender oder falscher Angabe wird "Veteran" ausgewählt. Die Werte innerhalb der Level sind alle gleich, aber zufällig aus der Spanne ausgewählt. `aiming`-Werte sind immer 0,2 Schlechter als alle anderen.
+
+#### Beispiele
+
+```c++
+[ai_01, "Recruit"] call ttt_fnc_common_setAISkillLevel;
+[_x_, "Veteran"] call ttt_fnc_common_setAISkillLevel;
+```
+
+#### Quellen
+
+<https://community.bistudio.com/wiki/setSkill>
 
 ## ACE-Fortify Presets
 
