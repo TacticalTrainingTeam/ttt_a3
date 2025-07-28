@@ -20,8 +20,10 @@ params [
     "_player",
     ["_uid", "", [""]]
     ];
+    
+if (!hasInterface) exitWith {};
 
-if (_uid isEqualTo "") then {
+if (_uid isEqualTo "") then { 
     _uid = getPlayerUID _player;
 };
 
