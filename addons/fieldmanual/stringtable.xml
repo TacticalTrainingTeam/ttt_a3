@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
-    <Package name="Field_Manual">
-        <Key ID="STR_ttt_Field_Manual_example_displayName">
+    <Package name="Fieldmanual">
+        <Key ID="STR_ttt_Fieldmanual_example_displayName">
             <English>Example</English>
             <German>Beispiel</German>
         </Key>
-        <Key ID="STR_ttt_Field_Manual_example_displayNameShort">
+        <Key ID="STR_ttt_Fieldmanual_example_displayNameShort">
             <English>Example</English>
             <German>Beispiel</German>
         </Key>
-        <Key ID="STR_ttt_Field_Manual_example_description">
+        <Key ID="STR_ttt_Fieldmanual_example_description">
             <English>Example</English>
             <German>Beispiel</German>
         </Key>
-        <Key ID="STR_ttt_Field_Manual_example_tip">
+        <Key ID="STR_ttt_Fieldmanual_example_tip">
             <English>Example</English>
             <German>Beispiel</German>
         </Key>
