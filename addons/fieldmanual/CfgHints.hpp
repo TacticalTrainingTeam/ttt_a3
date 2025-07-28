@@ -1,6 +1,12 @@
 class CfgHints {
     class GVAR(base) {
-        displayName = ECSTRING(main,TacticalTrainingTeam);
+        tip = ECSTRING(main,url);
+        //arguments[] = {};
+        //image = "\z\ace\addons\common\data\logo_ace3_ca.paa";
+    };
+
+    class GVAR(handbuch) {
+        category = "ttt_fieldmanual";
 
         class GVAR(example) {
             displayName = CSTRING(example_displayName);
