@@ -21,12 +21,16 @@ params [
     ["_uid", "", [""]]
     ];
 
+if (!hasInterface) exitWith {};
+
 if (_uid isEqualTo "") then {
     _uid = getPlayerUID _player;
 };
 
-GVAR(loadoutNamespace) setVariable [_uid, [_player] call CBA_fnc_getLoadout, true];
+private _loadout = [_player] call CBA_fnc_getLoadout;
 
-INFO_1("Loadout Saved for player %1",_player);
+GVAR(loadoutNamespace) setVariable [_uid, _loadout, true];
+
+INFO_2("Loadout Saved for player %1 is %2",_player,_loaodout);
 
 true
