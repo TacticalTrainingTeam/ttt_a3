@@ -1,28 +1,82 @@
 class CfgVehicles {
-    class Car_F;
 
-    //Eagle IV
-    class BWA3_Eagle_base: Car_F {
-        class ace_interaction_anims { //https://ace3.acemod.org/wiki/framework/interactionmenu-framework#22-vehicle-interactions-based-on-animations
+    class Helicopter_Base_F;
+    class BWA3_NH90_base: Helicopter_Base_F {
+        cargoProxyIndexes[] = {1,2,3,4,5,6,7,8,9,10,11,12};
+        getInProxyOrder[] = {1,2,3,4,5,6,7,8,9,10,11,12};
+        transportSoldier = 12;
+    };
+
+    // Interactions
+    // https://ace3.acemod.org/wiki/framework/interactionmenu-framework#22-vehicle-interactions-based-on-animations
+    class BWA3_Eagle_hatch_base;
+    class BWA3_Eagle_flw100_base;
+    
+    class BWA3_Eagle_Fleck: BWA3_Eagle_hatch_base {
+            class ace_interaction_anims { 
+                class backpack_back {
+                    positions[] = {{-0.3, -3.3, 1.5}};
+                    items[] = {"BWA3_PatrolPack_Fleck"};
+                    text = CSTRING(takebackpack);
+                };
+                class backpack_top { 
+                    positions[] = {{0.8, -1.9, 2.3}};
+                    items[] = {"BWA3_PatrolPack_Fleck"};
+                    text = CSTRING(takebackpack);
+                };
+            };
+        };
+
+    class BWA3_Eagle_Tropen: BWA3_Eagle_hatch_base {
+        class ace_interaction_anims { 
             class backpack_back {
                 positions[] = {{-0.3, -3.3, 1.5}};
-                items[] = {"BWA3_PatrolPack_Fleck"};
+                items[] = {"BWA3_PatrolPack_Tropen"};
                 text = CSTRING(takebackpack);
             };
             class backpack_top { 
                 positions[] = {{0.8, -1.9, 2.3}};
-                items[] = {"BWA3_PatrolPack_Fleck"};
+                items[] = {"BWA3_PatrolPack_Tropen"};
                 text = CSTRING(takebackpack);
             };
-            /*
-            This is already done by BWA3, but doenst yield a rope
-            class hide_rope {
-                selections[] = {"vhc_bags"};
-                items[] = {"ACE_Rope12"};
-                text = "Removing Rope...";
-            }*/
+            };
         };
 
+    class BWA3_Eagle_FLW100_Fleck: BWA3_Eagle_flw100_base {
+            class ace_interaction_anims { 
+                class backpack_back {
+                    positions[] = {{-0.3, -3.3, 1.5}};
+                    items[] = {"BWA3_PatrolPack_Fleck"};
+                    text = CSTRING(takebackpack);
+                };
+                class backpack_top { 
+                    positions[] = {{0.8, -1.9, 2.3}};
+                    items[] = {"BWA3_PatrolPack_Fleck"};
+                    text = CSTRING(takebackpack);
+                };
+            };
+        };
+
+    class BWA3_Eagle_FLW100_Tropen: BWA3_Eagle_flw100_base {
+        class ace_interaction_anims { 
+            class backpack_back {
+                positions[] = {{-0.3, -3.3, 1.5}};
+                items[] = {"BWA3_PatrolPack_Tropen"};
+                text = CSTRING(takebackpack);
+            };
+            class backpack_top { 
+                positions[] = {{0.8, -1.9, 2.3}};
+                items[] = {"BWA3_PatrolPack_Tropen"};
+                text = CSTRING(takebackpack);
+            };
+            };
+        };
+
+    // ACRE
+    class Car_F;
+
+    //Eagle IV
+    class BWA3_Eagle_base: Car_F {
         class AcreRacks {
             class Rack_1 {
                 displayName = ECSTRING(common,RackA);

@@ -1,6 +1,6 @@
 #include "..\script_component.hpp"
 
-(_this select 0) params ["_target", "_caller", "_args"];
+(_this select 0) params ["_target", "_caller"];
 
 _caller playMove "Acts_carFixingWheel";
 

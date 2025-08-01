@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Compat_Rnt">
+        <Key ID="STR_ttt_Compat_Rnt_disassemble">
+            <English>Disassemble MG3 Tripod</English>
+            <German>MG3-Lafette demontieren</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Rnt_mount">
+            <English>Mount MG3</English>
+            <German>MG3 lafettieren</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Rnt_mounting">
+            <English>Mounting MG3</English>
+            <German>Lafettiere MG3</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Rnt_settingsLafetteDisassembleTime">
+            <English>MG3 Tripod disassemble time</English>
+            <German>MG3-Lafette Abbauzeit</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Rnt_settingsLafetteDisassembleTime_tooltip">
+            <English>Time it takes to disassemble the MG3 tripod.</English>
+            <German>Die Zeit, die es braucht, um das MG3-Dreibein zu demontieren.</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Rnt_settingsLafetteMountTime">
+            <English>MG3 Tripod mounting time</English>
+            <German>MG3-Lafette Aufbauzeit</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Rnt_settingsLafetteMountTime_tooltip">
+            <English>Time it takes to mount the MG3 onto a tripod.</English>
+            <German>Die Zeit, die es braucht, um ein MG3 auf einem Dreibein zu montieren.</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Rnt_subCategoryMG">
+            <English>MG3 Tripod</English>
+            <German>MG3-Lafette</German>
+        </Key>
+    </Package>
+</Project>

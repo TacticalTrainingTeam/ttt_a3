@@ -52,7 +52,17 @@ switch _mode do
     case "init":
     {
 
-        if (!is3DEN) then
+        if (is3DEN) then
+        {
+            //add 'Draw3D' eh to ease operations with module
+            private _ehDraw3D = missionNamespace getVariable [QGVAR(ModulebuildingShield_ehDraw3D),-1];
+            if (_ehDraw3D == -1) then
+            {
+                _ehDraw3D = addMissionEventHandler ["Draw3D",{["eh_draw3d"] call FUNC(moduleBuildingShield)}];
+                missionNamespace setVariable [QGVAR(ModulebuildingShield_ehDraw3D),_ehDraw3D];
+            };
+        }
+        else
         {
             //get parent buidling
             private _building = if (isNull _directInput) then {["getBuilding",[_module]] call FUNC(moduleBuildingShield)} else {_directInput};
@@ -76,16 +86,6 @@ switch _mode do
 
             //delete module
             deleteVehicle _module;
-        }
-        else
-        {
-            //add 'Draw3D' eh to ease operations with module
-            private _ehDraw3D = missionNamespace getVariable [QGVAR(ModulebuildingShield_ehDraw3D),-1];
-            if (_ehDraw3D == -1) then
-            {
-                _ehDraw3D = addMissionEventHandler ["Draw3D",{["eh_draw3d"] call FUNC(moduleBuildingShield)}];
-                missionNamespace setVariable [QGVAR(ModulebuildingShield_ehDraw3D),_ehDraw3D];
-            };
         };
     };
     // When some attributes were changed (including position and rotation)

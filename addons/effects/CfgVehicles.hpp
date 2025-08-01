@@ -90,7 +90,7 @@ class CfgVehicles {
         icon = "\a3\Modules_F_Curator\Data\iconFlare_ca.paa";
         portrait = "\a3\Modules_F_Curator\Data\portraitSmoke_ca.paa";
         category = CSTRING(category_effects);
-        function = QFUNC(condensedBreath);
+        function = QFUNC(condensedBreathInit);
         isGlobal = 1;
         
         class Attributes: AttributesBase {

@@ -1,6 +1,8 @@
 
 # W-Vehicleshield
 
+Macht Fahrzeuge unzerstörbar. Einzelne Module sind aber weiterhin zerstörbar.
+
 ## 3DEN-Attribute
 
 Bei platzierten Fahrzeugen findet ihr die Option um das Schild zu aktivieren in den Attributen des Gebäudes im Abschnitt `W-Framework`.
@@ -33,6 +35,6 @@ Danke an Miller von Gruppe W, der uns das Skript zur Verfügung gestellt hat.
 
 <https://wiki.gruppe-w.de/m_framework_vehicleshield.html>
 
-## Maintainers
+## Maintainer
 
 * Andx

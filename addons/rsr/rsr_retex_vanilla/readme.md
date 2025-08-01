@@ -1,14 +1,10 @@
 # RsR Vanilla
 
-## fnc_removeTurretWeapon
-
-Entfernt den Turm und sperrt den Schützenplatz.
-
-`[fhz] call ttt_rsr_retex_vanilla_fnc_removeTurretWeapon`
-
 ## Fennek
 
 Fügt drei Varianten des "Strider" in zwei Tarnfarben hinzu.
+
+### Class Names
 
 - `rsr_fennek_transport_flecktarn`
 - `rsr_fennek_transport_tropentarn`
@@ -20,6 +16,8 @@ Fügt drei Varianten des "Strider" in zwei Tarnfarben hinzu.
 ## Wisent
 
 Fügt mehrere Varianten des "Typhoon" in zwei Tarnfarben hinzu. Basiert auf dem GFF 4 Wisent Prototyp der Bundeswehr.
+
+### Class Names
 
 - `rsr_wisent_transport_flecktarn`
 - `rsr_wisent_transport_tropentarn`
@@ -38,5 +36,11 @@ Fügt mehrere Varianten des "Typhoon" in zwei Tarnfarben hinzu. Basiert auf dem 
 
 Fügt zwei Tarnfarben des "Nemmera" Panzers als Bundeswehr Bergepanzer mit Abschleppfunktion hinzu.
 
+### Class Names
+
 - `rsr_bergepanzer_flecktarn`
 - `rsr_bergepanzer_tropentarn`
+
+## Maintainer
+
+- Andx

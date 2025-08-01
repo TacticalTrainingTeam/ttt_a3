@@ -16,7 +16,7 @@
 */
 
 [CSTRING(category_effects), CSTRING(condensedBreathModule_displayName), {
-    [[], ttt_effects_fnc_condensedBreath] remoteExec ["call", ([0, -2] select isDedicated), true];
+    [[], ttt_effects_fnc_condensedBreathInit] remoteExec ["call", ([0, -2] select isDedicated), true];
 }, "\a3\Modules_F_Curator\Data\portraitSmoke_ca.paa"] call zen_custom_modules_fnc_register;
 
 [CSTRING(category_environment), CSTRING(stormModule_displayName), {
@@ -50,7 +50,7 @@
             ]
         ],
         {
-            params ["_returnValues", "_functionArguments"];
+            params ["_returnValues"];
             _returnValues params ["_duration", "_effect", "_stormType", "_walk", "_direction"];
             [[_duration, _effect, _stormType, _walk, _direction], ttt_effects_fnc_stormInit] remoteExec ["call", 0, true];
         }

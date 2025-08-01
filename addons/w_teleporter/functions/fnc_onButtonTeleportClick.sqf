@@ -9,7 +9,7 @@
  * Return Value:
  * None
  */
-params ["_ctrl"];
+params [""];
 
 if (isNull GVAR(target)) exitWith {};
 closeDialog 0;
