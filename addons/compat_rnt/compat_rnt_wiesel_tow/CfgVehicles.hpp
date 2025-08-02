@@ -7,11 +7,8 @@ class CfgVehicles {
     };
 
     class Tank_F: Tank {
-        class Components;
-        class ViewOptics;
         class Turrets {
             class MainTurret: NewTurret {
-                class ViewOptics;
                 class Turrets {
                     class CommanderOptics;
                 };
