@@ -15,6 +15,8 @@ Enthält verschiedene Funkrucksäcke in TTT Farben. Diese sind in der Größe an
 - `ttt_backpack_radio_silver_us_desert`
 - `ttt_backpack_radio_white_us_desert`
 - `ttt_backpack_radio_yellow_us_desert`
+- `medic_01_backpack_fast_tan_co`
+- `medic_02_backpack_fast_tan_co`
 
 ## Maintainer
 
