@@ -25,7 +25,9 @@ class CfgPatches {
             "ttt_backpack_radio_platinum_us_desert",
             "ttt_backpack_radio_silver_us_desert",
             "ttt_backpack_radio_white_us_desert",
-            "ttt_backpack_radio_yellow_us_desert"
+            "ttt_backpack_radio_yellow_us_desert",
+            "medic_01_backpack_fast_tan_co",
+            "medic_02_backpack_fast_tan_co"
         };
         // List of weapons (CfgWeapons classes) contained in the addon.
         weapons[] = {};
