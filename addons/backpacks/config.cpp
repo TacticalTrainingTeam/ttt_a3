@@ -5,7 +5,7 @@ class CfgPatches {
         // Meta information for editor
         name = COMPONENT_NAME;
         author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Reimchen", "Andx"};
+        authors[] = {"Reimchen", "Andx", "G.Wagner"};
         url = ECSTRING(main,URL);
 
         // Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
@@ -26,8 +26,12 @@ class CfgPatches {
             "ttt_backpack_radio_silver_us_desert",
             "ttt_backpack_radio_white_us_desert",
             "ttt_backpack_radio_yellow_us_desert",
-            "medic_01_backpack_fast_tan_co",
-            "medic_02_backpack_fast_tan_co"
+            "ttt_01_backpack_fast_tan_co",
+            "ttt_02_backpack_fast_tan_co",
+            "ttt_03_backpack_fast_tan_co",
+            "ttt_01_backpack_fast_rgr_co",
+            "ttt_02_backpack_fast_rgr_co",
+            "ttt_03_backpack_fast_rgr_co"
         };
         // List of weapons (CfgWeapons classes) contained in the addon.
         weapons[] = {};

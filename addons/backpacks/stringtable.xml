@@ -45,5 +45,29 @@
             <English>TTT Radio Backpack Yellow (Coyote)</English>
             <German>TTT Funk Rucksack Gelb (Coyote)</German>
         </Key>
+        <Key ID="STR_ttt_01_backpack_fast_tan_co">
+            <English>TTT Medic Backpack Cross (Tan)</English>
+            <German>TTT Sanitäter Rucksack Kreuz (Tan)</German>
+        </Key>
+        <Key ID="STR_ttt_02_backpack_fast_tan_co">
+            <English>TTT Medic Backpack Rod of Asclepius (Tan)</English>
+            <German>TTT Sanitäter Rucksack Asklepiosstab (Tan)</German>
+        </Key>
+        <Key ID="STR_ttt_03_backpack_fast_tan_co">
+            <English>TTT Medic Backpack Red Crystal (Tan)</English>
+            <German>TTT Sanitäter Rucksack Roter Kristall (Tan)</German>
+        </Key>
+        <Key ID="STR_ttt_01_backpack_fast_rgr_co">
+            <English>TTT Medic Backpack Cross (Rgr)</English>
+            <German>TTT Sanitäter Rucksack Kreuz (Rgr)</German>
+        </Key>
+        <Key ID="STR_ttt_02_backpack_fast_rgr_co">
+            <English>TTT Medic Backpack Rod of Asclepius (Rgr)</English>
+            <German>TTT Sanitäter Rucksack Asklepiosstab (Rgr)</German>
+        </Key>
+        <Key ID="STR_ttt_03_backpack_fast_rgr_co">
+            <English>TTT Medic Backpack Red Crystal (Rgr)</English>
+            <German>TTT Sanitäter Rucksack Roter Kristall (Rgr)</German>
+        </Key>
     </Package>
 </Project>

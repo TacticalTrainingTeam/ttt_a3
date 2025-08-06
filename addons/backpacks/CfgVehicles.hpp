@@ -76,24 +76,52 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_backpack_radio_yellow_us_desert_co.paa)};
     };
 
-    class medic_backpack_Base: B_Kitbag_tan {
+    // Medical backpacks
+
+    class B_Kitbag_tan;
+   
+    class ttt_backpack_Base: B_Kitbag_tan {
         author = ECSTRING(main,TacticalTrainingTeam);
         scope = 0;
-        maximumLoad = 380;
+        maximumLoad = 400;
         mass = 30;
     };
 
-    class medic_01_backpack_fast_tan_co: medic_backpack_Base {
+    class ttt_01_backpack_fast_tan_co: ttt_backpack_Base {
         scope = 2;
-        displayName = CSTRING(medic_01_backpack_fast_tan_co);
+        displayName = CSTRING(medical_bagpack_desert);
         picture = QPATHTOF(data\pictures\medic_01_backpack_fast_tan_co_ca.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\medic_01_backpack_fast_tan_co.paa)};
     };
 
-    class medic_02_backpack_fast_tan_co: medic_01_backpack_fast_tan_co {
-        displayName = CSTRING(medic_02_backpack_fast_tan_co);
-        picture = QPATHTOF(data\pictures\medic_02_backpack_fast_tan_co_ca.paa);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\medic_02_backpack_fast_tan_co.paa)};
+    class ttt_02_backpack_fast_tan_co: ttt_01_backpack_fast_tan_co {
+        displayName = CSTRING(medical_bagpack_desert);
+        picture = QPATHTOF(data\pictures\ttt_02_backpack_fast_tan_co_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_02_backpack_fast_tan_co.paa)};
+    };
+
+    class ttt_03_backpack_fast_tan_co: ttt_01_backpack_fast_tan_co {
+        displayName = CSTRING(medical_bagpack_desert);
+        picture = QPATHTOF(data\pictures\ttt_03_backpack_fast_tan_co_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_03_backpack_fast_tan_co.paa)};
+    };
+
+    class ttt_01_backpack_fast_rgr_co: ttt_01_backpack_fast_tan_co {
+        displayName = CSTRING(medical_bagpack_green);
+        picture = QPATHTOF(data\pictures\ttt_01_backpack_fast_tan_co_ca.jpg);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_01_backpack_fast_rgr_co.paa)};
+    };
+
+    class ttt_02_backpack_fast_rgr_co: ttt_01_backpack_fast_tan_co {
+        displayName = CSTRING(medical_bagpack_green);
+        picture = QPATHTOF(data\pictures\ttt_02_backpack_fast_tan_co_ca.jpg);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_02_backpack_fast_rgr_co.paa)};
+    };
+
+    class ttt_03_backpack_fast_rgr_co: ttt_01_backpack_fast_tan_co {
+        displayName = CSTRING(medical_bagpack_green);
+        picture = QPATHTOF(data\pictures\ttt_03_backpack_fast_tan_co_ca.jpg);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_03_backpack_fast_rgr_co.paa)};
     };
 };
 
