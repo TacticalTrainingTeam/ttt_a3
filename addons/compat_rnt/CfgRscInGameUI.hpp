@@ -8,11 +8,6 @@ class RscInGameUI {
     class Redd_RCS_Turret: RscUnitInfo {
         class CA_IGUI_elements_group: RscControlsGroup {
             class controls {
-                class CA_TurretIndicator;
-                class CA_HorizontalCompass;
-                class AzimuthMark;
-                class CA_Heading;
-                class CA_LasedRange;
             };
         };
     };
