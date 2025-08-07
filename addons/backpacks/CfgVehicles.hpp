@@ -91,36 +91,36 @@ class CfgVehicles {
         scope = 2;
         displayName = CSTRING(Backpacks_medic_tan_01);
         picture = QPATHTOF(data\pictures\ttt_backpack_medic_tan_01_co.paa);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\medic_01_backpack_fast_tan_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\TTT_backpack_medic_01_tan_co.paa)};
     };
 
     class ttt_backpack_medic_tan_02: ttt_backpack_medic_tan_01 {
         displayName = CSTRING(Backpacks_medic_tan_02);
         picture = QPATHTOF(data\pictures\ttt_backpack_medic_tan_02_co.paa);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_02_backpack_fast_tan_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\TTT_backpack_medic_02_tan_co.paa)};
     };
 
     class ttt_backpack_medic_tan_03: ttt_backpack_medic_tan_01 {
         displayName = CSTRING(Backpacks_medic_tan_03);
         picture = QPATHTOF(data\pictures\ttt_backpack_medic_tan_03_co.paa);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_03_backpack_fast_tan_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\TTT_backpack_medic_03_tan_co.paa)};
     };
 
     class ttt_backpack_medic_rgr_01: ttt_backpack_medic_tan_01 {
         displayName = CSTRING(Backpacks_medic_rgr_01);
         picture = QPATHTOF(data\pictures\ttt_backpack_medic_rgr_01_co.paa);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_01_backpack_fast_rgr_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\TTT_backpack_medic_01_rgr_co.paa)};
     };
 
     class ttt_backpack_medic_rgr_02: ttt_backpack_medic_tan_01 {
         displayName = CSTRING(Backpacks_medic_rgr_02);
         picture = QPATHTOF(data\pictures\ttt_backpack_medic_rgr_02_co.paa);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_02_backpack_fast_rgr_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\TTT_backpack_medic_02_rgr_co.paa)};
     };
 
     class ttt_backpack_medic_rgr_03: ttt_backpack_medic_tan_01 {
         displayName = CSTRING(Backpacks_medic_rgr_03);
         picture = QPATHTOF(data\pictures\ttt_backpack_medic_rgr_03_co.paa);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_03_backpack_fast_rgr_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\TTT_backpack_medic_03_rgr_co.paa)};
     };
 };
