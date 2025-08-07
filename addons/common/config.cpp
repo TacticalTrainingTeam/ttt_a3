@@ -29,7 +29,7 @@ class CfgPatches {
             QGVAR(spraypaintMemes),
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ttt_main"};
+        requiredAddons[] = {"ttt_main", "zen_main"};
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Andx","Reimchen","EinStein"};
         url = ECSTRING(main,URL);
