@@ -17,12 +17,12 @@ Ergänzend wurden zwei zusätzliche Rucksackmodelle integriert, jeweils ausgesta
 - `ttt_backpack_radio_silver_us_desert`
 - `ttt_backpack_radio_white_us_desert`
 - `ttt_backpack_radio_yellow_us_desert`
-- `ttt_backpack_fast_tan_01`
-- `ttt_backpack_fast_tan_02`
-- `ttt_backpack_fast_tan_03`
-- `ttt_backpack_fast_rgr_01`
-- `ttt_backpack_fast_rgr_02`
-- `ttt_backpack_fast_rgr_03`
+- `ttt_backpack_medic_tan_01`
+- `ttt_backpack_medic_tan_02`
+- `ttt_backpack_medic_tan_03`
+- `ttt_backpack_medic_rgr_01`
+- `ttt_backpack_medic_rgr_02`
+- `ttt_backpack_medic_rgr_03`
 
 ## Maintainer
 
