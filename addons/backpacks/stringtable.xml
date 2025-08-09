@@ -46,8 +46,8 @@
             <German>TTT Funk Rucksack Gelb (Coyote)</German>
         </Key>
         <Key ID="STR_ttt_Backpacks_medic_tan_01">
-            <English>TTT Medic Backpack Cross (Tan)</English>
-            <German>TTT Sanitäter Rucksack Kreuz (Tan)</German>
+            <English>TTT Medic Backpack Red Cross (Tan)</English>
+            <German>TTT Sanitäter Rucksack Rotes Kreuz (Tan)</German>
         </Key>
         <Key ID="STR_ttt_Backpacks_medic_tan_02">
             <English>TTT Medic Backpack Rod of Asclepius (Tan)</English>
@@ -58,8 +58,8 @@
             <German>TTT Sanitäter Rucksack Roter Kristall (Tan)</German>
         </Key>
         <Key ID="STR_ttt_Backpacks_medic_rgr_01">
-            <English>TTT Medic Backpack Cross (Green)</English>
-            <German>TTT Sanitäter Rucksack Kreuz (Grün)</German>
+            <English>TTT Medic Backpack Red Cross (Green)</English>
+            <German>TTT Sanitäter Rucksack Rotes Kreuz (Grün)</German>
         </Key>
         <Key ID="STR_ttt_Backpacks_medic_rgr_02">
             <English>TTT Medic Backpack Rod of Asclepius (Green)</English>
