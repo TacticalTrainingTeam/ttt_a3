@@ -1,18 +1,17 @@
 class CfgVehicles {
     class B_RadioBag_01_black_F;
 
-    class ttt_Radiobackpack_Base: B_RadioBag_01_black_F {
+    class ttt_backpack_radio_Base: B_RadioBag_01_black_F {
         author = ECSTRING(main,TacticalTrainingTeam);
         scope = 0;
         maximumLoad = 320;
         mass = 50;
     };
 
-    class ttt_backpack_radio_coyote: ttt_Radiobackpack_Base {
+    class ttt_backpack_radio_coyote: ttt_backpack_radio_Base {
         scope = 2;
         displayName = CSTRING(radio_coyote);
         picture = QPATHTOF(data\pictures\ttt_backpack_radio_coyote_ca.paa);
-        hiddenSelections[] = {"Camo1"};
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_backpack_radio_coyote_co.paa)};
     };
 
@@ -80,14 +79,14 @@ class CfgVehicles {
 
     class B_Kitbag_tan;
 
-    class ttt_backpack_Base: B_Kitbag_tan {
+    class ttt_backpack_medic_Base: B_Kitbag_tan {
         author = ECSTRING(main,TacticalTrainingTeam);
         scope = 0;
         maximumLoad = 400;
         mass = 30;
     };
 
-    class ttt_backpack_medic_tan_01: ttt_backpack_Base {
+    class ttt_backpack_medic_tan_01: ttt_backpack_medic_Base {
         scope = 2;
         displayName = CSTRING(medic_tan_01);
         picture = QPATHTOF(data\pictures\ttt_backpack_medic_tan_01_ca.paa);
