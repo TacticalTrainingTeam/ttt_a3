@@ -1,6 +1,7 @@
 [TTT] Addi
 [TTT] Andx
 [TTT] EinStein
+[TTT] G.Wagner
 [TTT] Menom
 [TTT] Stura
 [TTT] Redd
@@ -17,4 +18,3 @@ lambdatiger, AChesheireCat, PapstMirror & Bourbon Warfare
 Puotek & Bromium
 ACE Team
 HEMTT
-

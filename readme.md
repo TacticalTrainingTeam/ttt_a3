@@ -18,12 +18,12 @@ Du willst mitmachen? <http://www.tacticalteam.de/mitmachen>
     - CBA_A3 <https://steamcommunity.com/workshop/filedetails/?id=450814997>
     - ACE <https://steamcommunity.com/sharedfiles/filedetails/?id=463939057>
     - ACRE2 <https://steamcommunity.com/sharedfiles/filedetails/?id=751965892>
-    - Advanced Developer Tools <https://steamcommunity.com/sharedfiles/filedetails/?id=2369477168>
+    - Advanced Developer Tools <https://steamcommunity.com/sharedfiles/filedetails/?id=3499977893>
     - 3DEN Attributes Fast Load <https://steamcommunity.com/sharedfiles/filedetails/?id=3023395342>
     - Zeus Enhanced <https://steamcommunity.com/sharedfiles/filedetails/?id=1779063631>
 7. In der Kommandozeile `hemtt launch` ausführen, um Arma 3 mit dem Basismods zu starten
 
-Für CUP, RHS, BWmod etc. sind zum Testen weitere Mods erforderlich, diese sind in der `.hemtt/launch.toml` angeben.
+Für CUP, RHS, BWmod etc. sind zum Testen weitere Mods erforderlich, diese sind in der [.hemtt/launch.toml](.hemtt/launch.toml) angeben.
 
 ### Entwickeln mit lokalen Mods
 
