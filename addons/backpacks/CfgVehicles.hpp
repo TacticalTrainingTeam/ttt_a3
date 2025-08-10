@@ -1,7 +1,7 @@
 class CfgVehicles {
-    class B_RadioBag_01_black_F;
-
-    class ttt_backpack_radio_Base: B_RadioBag_01_black_F {
+    //Radio Backpacks
+    class B_RadioBag_01_base_F;
+    class ttt_backpack_radio_Base: B_RadioBag_01_base_F {
         author = ECSTRING(main,TacticalTrainingTeam);
         scope = 0;
         maximumLoad = 320;
@@ -76,10 +76,8 @@ class CfgVehicles {
     };
 
     // Medical backpacks
-
-    class B_Kitbag_tan;
-
-    class ttt_backpack_medic_Base: B_Kitbag_tan {
+    class B_Kitbag_Base;
+    class ttt_backpack_medic_Base: B_Kitbag_Base {
         author = ECSTRING(main,TacticalTrainingTeam);
         scope = 0;
         maximumLoad = 400;
