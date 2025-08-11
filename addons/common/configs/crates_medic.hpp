@@ -1,46 +1,70 @@
 //Custom Medical Supply Crates
 class Box_NATO_Support_F;
 
-class GVAR(sana_crate): Box_NATO_Support_F {
+class GVAR(san_crate_base): Box_NATO_Support_F {
     author = ECSTRING(main,TacticalTrainingTeam);
     editorSubcategory = QEGVAR(main,ttt);
     ace_cargo_size = 1;
     icon = "a3\ui_f\data\igui\cfg\actions\heal_ca.paa";
+    scope = 0;
 
+    class TransportMagazines {};
+    class TransportItems {};
+};
+
+class GVAR(sana_crate): GVAR(san_crate_base) {
+    scope = 2;
     displayName = CSTRING(sana_displayName);
     hiddenSelectionsTextures[] = {
-        QPATHTOF(data\AmmoBox_signs_CA.paa),
+        QPATHTOF(data\AmmoBox_signsA_CA.paa),
         "A3\Weapons_F\Ammoboxes\data\AmmoBox_CO.paa"
+    };
+
+    class TransportMagazines {
+        MACRO_ADDMAGAZINE(ACE_painkillers,10);
     };
 
     class TransportItems {
         MACRO_ADDITEM(ACE_fieldDressing,100);
         MACRO_ADDITEM(ACE_packingBandage,80);
-        MACRO_ADDITEM(ACE_quikclot,15);
+        MACRO_ADDITEM(ACE_quikclot,20);
         MACRO_ADDITEM(ACE_tourniquet,12);
-
-        MACRO_ADDITEM(ACE_painkillers,10);
     };
 };
 
-class GVAR(sanb_crate): GVAR(sana_crate) {
+class GVAR(sanb_crate): GVAR(san_crate_base) {
+    scope = 2;
     displayName = CSTRING(sanb_displayName);
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\AmmoBox_signsB_CA.paa),
+        "A3\Weapons_F\Ammoboxes\data\AmmoBox_CO.paa"
+    };
+
+    class TransportItems {};
 };
 
-class GVAR(sanc_crate): GVAR(sanb_crate) {
+class GVAR(sanc_crate): GVAR(san_crate_base) {
+    scope = 2;
     displayName = CSTRING(sanc_displayName);
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\AmmoBox_signsC_CA.paa),
+        "A3\Weapons_F\Ammoboxes\data\AmmoBox_CO.paa"
+    };
+
+    class TransportMagazines {
+        MACRO_ADDMAGAZINE(ACE_painkillers,10);
+    };
 
     class TransportItems {
-        MACRO_ADDITEM(ACE_elasticBandage,100);
-        MACRO_ADDITEM(ACE_quikclot,50);
-        MACRO_ADDITEM(ACE_packingBandage,100);
-        MACRO_ADDITEM(ACE_tourniquet,50);
+        MACRO_ADDITEM(ACE_elasticBandage,80);
+        MACRO_ADDITEM(ACE_quikclot,40);
+        MACRO_ADDITEM(ACE_packingBandage,80);
+        MACRO_ADDITEM(ACE_tourniquet,25);
 
-        MACRO_ADDITEM(ACE_morphine,50);
-        MACRO_ADDITEM(ACE_epinephrine,50);
-        MACRO_ADDITEM(ACE_painkillers,10);
+        MACRO_ADDITEM(ACE_morphine,25);
+        MACRO_ADDITEM(ACE_epinephrine,25);
 
-        MACRO_ADDITEM(ACE_SalineIV,30);
+        MACRO_ADDITEM(ACE_SalineIV,20);
         MACRO_ADDITEM(ACE_SalineIV_500,15);
         MACRO_ADDITEM(ACE_SalineIV_250,15);
 
