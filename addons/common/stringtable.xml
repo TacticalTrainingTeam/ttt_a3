@@ -137,5 +137,9 @@
             <English>TTT Medical Crate (VBT)</English>
             <German>TTT Sanitätskiste (VBT)</German>
         </Key>
+        <Key ID="STR_ttt_Common_vbs">
+            <English>TTT Medical Crate (VBS)</English>
+            <German>TTT Sanitätskiste (VBS)</German>
+        </Key>
     </Package>
 </Project>
