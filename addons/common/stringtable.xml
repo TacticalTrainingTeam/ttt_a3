@@ -137,9 +137,17 @@
             <English>TTT Medical Crate (VBT)</English>
             <German>TTT Sanitätskiste (VBT)</German>
         </Key>
-        <Key ID="STR_ttt_Common_vbs">
-            <English>TTT Medical Crate (VBS)</English>
-            <German>TTT Sanitätskiste (VBS)</German>
+        <Key ID="STR_ttt_Common_sana_displayName">
+            <English>TTT Medical Crate (San-Alpha)</English>
+            <German>TTT Sanitätskiste (San-Alpha)</German>
+        </Key>
+        <Key ID="STR_ttt_Common_sanb_displayName">
+            <English>TTT Medical Crate (San-Bravo)</English>
+            <German>TTT Sanitätskiste (San-Bravo)</German>
+        </Key>
+        <Key ID="STR_ttt_Common_sanc_displayName">
+            <English>TTT Medical Crate (San-Charlie)</English>
+            <German>TTT Sanitätskiste (San-Charlie)</German>
         </Key>
     </Package>
 </Project>

@@ -1,14 +1,17 @@
 //Custom Medical Supply Crates
-class ACE_medicalSupplyCrate;
-class Box_B_UAV_06_medical_F;
+class Box_NATO_Support_F;
 
-class GVAR(vbt_crate): ACE_medicalSupplyCrate {
+class GVAR(sana_crate): Box_NATO_Support_F {
     author = ECSTRING(main,TacticalTrainingTeam);
     editorSubcategory = QEGVAR(main,ttt);
     ace_cargo_size = 1;
+    icon = "a3\ui_f\data\igui\cfg\actions\heal_ca.paa";
 
-    displayName = CSTRING(vbt);
-    hiddenSelectionTextures[] = {}; //ToDo Texture
+    displayName = CSTRING(sana_displayName);
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\AmmoBox_signs_CA.paa),
+        "A3\Weapons_F\Ammoboxes\data\AmmoBox_CO.paa"
+    };
 
     class TransportItems {
         MACRO_ADDITEM(ACE_fieldDressing,100);
@@ -20,16 +23,12 @@ class GVAR(vbt_crate): ACE_medicalSupplyCrate {
     };
 };
 
-class GVAR(vbs_crate): GVAR(vbt_crate) {
-    displayName = CSTRING(vbs);
-    hiddenSelectionTextures[] = {}; //ToDo Texture
-
-    //ToDo Items
+class GVAR(sanb_crate): GVAR(sana_crate) {
+    displayName = CSTRING(sanb_displayName);
 };
 
-class GVAR(vba_crate): GVAR(vbs_crate) {
-    displayName = CSTRING(vba);
-    hiddenSelectionTextures[] = {}; //ToDo Texture
+class GVAR(sanc_crate): GVAR(sanb_crate) {
+    displayName = CSTRING(sanc_displayName);
 
     class TransportItems {
         MACRO_ADDITEM(ACE_elasticBandage,100);
@@ -52,4 +51,15 @@ class GVAR(vba_crate): GVAR(vbs_crate) {
 
         MACRO_ADDITEM(ace_flags_blue,1);
     };
+};
+
+//Backwards Compatibility
+class GVAR(vba_crate): GVAR(sanc_crate) {
+    scope = 0;
+    displayName = CSTRING(vba);
+};
+
+class GVAR(vbt_crate): GVAR(sana_crate) {
+    scope = 0;
+    displayName = CSTRING(vbt);
 };
