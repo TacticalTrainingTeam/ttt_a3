@@ -78,11 +78,6 @@ class GVAR(sanc_crate): GVAR(san_crate_base) {
 };
 
 //Backwards Compatibility
-class GVAR(vba_crate): GVAR(sanc_crate) {
-    scope = 0;
-    displayName = CSTRING(vba);
-};
-//Backwards Compatibility
 // DEPRECATED: This class exists for backwards compatibility with legacy code that references 'vba_crate'.
 // It is deprecated and will be removed in a future release. New code should use 'sanc_crate' instead.
 class GVAR(vba_crate): GVAR(sanc_crate) {
