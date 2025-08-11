@@ -7,6 +7,7 @@ class GVAR(vba_crate): ACE_medicalSupplyCrate {
     author = ECSTRING(main,TacticalTrainingTeam);
     editorSubcategory = QEGVAR(main,ttt);
     ace_cargo_size = 1;
+    hiddenSelectionTextures[] = {}; //ToDo Texture
 
     class TransportItems {
         MACRO_ADDITEM(ACE_elasticBandage,100);
@@ -31,14 +32,23 @@ class GVAR(vba_crate): ACE_medicalSupplyCrate {
     };
 };
 
-class GVAR(vbt_crate): Box_B_UAV_06_medical_F {
-    displayName = CSTRING(vbt);
-    editorCategory = "EdCat_Supplies";
+class GVAR(vbs_crate): ACE_medicalSupplyCrate {
+    displayName = CSTRING(vba);
     author = ECSTRING(main,TacticalTrainingTeam);
     editorSubcategory = QEGVAR(main,ttt);
     ace_cargo_size = 1;
-    maximumLoad = 150;
-    
+    hiddenSelectionTextures[] = {}; //ToDo Texture
+
+    //ToDo Items
+};
+
+class GVAR(vbt_crate): ACE_medicalSupplyCrate {
+    displayName = CSTRING(vbt);
+    author = ECSTRING(main,TacticalTrainingTeam);
+    editorSubcategory = QEGVAR(main,ttt);
+    ace_cargo_size = 1;
+    hiddenSelectionTextures[] = {}; //ToDo Texture
+
     class TransportItems {
         MACRO_ADDITEM(ACE_fieldDressing,100);
         MACRO_ADDITEM(ACE_packingBandage,80);
