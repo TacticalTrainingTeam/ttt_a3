@@ -91,7 +91,7 @@ class CfgVehicles {
         scope = 2;
         displayName = CSTRING(Backpacks_medic_tan_01);
         picture = QPATHTOF(data\pictures\ttt_01_backpack_fast_tan_co_ca.jpg);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\TTT_01_backpack_fast_tan_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\medic_01_backpack_fast_tan_co.paa)};
     };
 
     class ttt_backpack_medic_tan_02: ttt_backpack_medic_tan_01 {
