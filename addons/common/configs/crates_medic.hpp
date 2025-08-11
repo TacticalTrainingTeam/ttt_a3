@@ -27,7 +27,7 @@ class GVAR(sana_crate): GVAR(san_crate_base) {
     class TransportItems {
         MACRO_ADDITEM(ACE_fieldDressing,100);
         MACRO_ADDITEM(ACE_packingBandage,80);
-        MACRO_ADDITEM(ACE_quikclot,20);
+        MACRO_ADDITEM(ACE_quikclot,15);
         MACRO_ADDITEM(ACE_tourniquet,12);
     };
 };
