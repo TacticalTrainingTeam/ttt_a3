@@ -463,7 +463,7 @@ ace_maptools_rotateModifierKey = 1;
 ace_maptools_plottingBoardAllowChannelDrawing = 1;
 
 // ACE Medical
-force force ace_medical_ai_enabledFor = 2;
+//force force ace_medical_ai_enabledFor = 2; //not in user config to be disabled for medical trainings
 force ace_medical_ai_requireItems = 0;
 force ace_medical_AIDamageThreshold = 1;
 force ace_medical_bleedingCoefficient = 0.3;
