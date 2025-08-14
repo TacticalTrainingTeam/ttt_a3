@@ -1,7 +1,7 @@
 #include "script_component.hpp"
 
 class CfgPatches {
-    class ADDON    {
+    class ADDON {
         // Meta information for editor
         name = COMPONENT_NAME;
         author = ECSTRING(main,TacticalTrainingTeam);
@@ -12,9 +12,9 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
-        requiredAddons[] = {"ttt_common",  "A3_Characters_F", "A3_Weapons_F"};
+        requiredAddons[] = {"ttt_common", "A3_Supplies_F_Enoch_Bags", "A3_Weapons_F_Ammoboxes"};
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
-        units[] = {            
+        units[] = {
             "ttt_backpack_radio_coyote",
             "ttt_backpack_radio_olive",
             "ttt_backpack_radio_brown_us_desert",

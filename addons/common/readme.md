@@ -44,13 +44,13 @@ Stellt die folgenden Funktionen zur Verfügung:
         ["item", count]
     ],
     clear
-] call ttt_common_fnc_crateFiller; 
+] call ttt_common_fnc_crateFiller;
 ```
 
-**container:** OBJECT - Objekte denen der Cargoinhalt hinzugefügt werden soll  
-**item:** STRING - Inventargegenstand welcher hinzugefügt werden soll  
-**count:**  INTEGER - Anzahl der hinzuzufügenden Inventargegenstände  
-**clear:** BOOLEAN (Optional, default: true) - Vorherigen Inventarinhalt des Objektes leeren
+- **container:** OBJECT - Objekte denen der Cargoinhalt hinzugefügt werden soll
+- **item:** STRING - Inventargegenstand welcher hinzugefügt werden soll
+- **count:**  INTEGER - Anzahl der hinzuzufügenden Inventargegenstände
+- **clear:** BOOLEAN (Optional, default: true) - Vorherigen Inventarinhalt des Objektes leeren
 
 Kann in der `initServer.sqf` oder während der Mission auf dem Server aufgerufen werden.
 
@@ -74,11 +74,11 @@ Kann in der `initServer.sqf` oder während der Mission auf dem Server aufgerufen
 [intel, action, hide, [titel, text]] call ttt_common_fnc_addIntel;
 ```
 
-**intel:** OBJECT - Das interagierbare Objekt  
-**action:** STRING - Actiontitel der als Interaktion gezeigt wird  
-**hide:** BOOLEAN - Objekt nach Interaktion ausblenden  
-**titel:** STRING - Intelüberschrift auf der Kartenansicht  
-**text:** STRING - Intelinhalt der unter der Überschrift steht (Der Text unterstüzt HTML-Syntax für z.B. Bilder)
+- **intel:** OBJECT - Das interagierbare Objekt
+- **action:** STRING - Actiontitel der als Interaktion gezeigt wird
+- **hide:** BOOLEAN - Objekt nach Interaktion ausblenden
+- **titel:** STRING - Intelüberschrift auf der Kartenansicht
+- **text:** STRING - Intelinhalt der unter der Überschrift steht (Der Text unterstüzt HTML-Syntax für z.B. Bilder)
 
 In der `initPlayerLocal.sqf` ausführen.
 
@@ -91,23 +91,23 @@ In der `initPlayerLocal.sqf` ausführen.
 
 ### `ttt_common_fnc_callReinforcements`
 
-Diese Funktion erstellt Verstärkungstruppen mit einem Fahrzeug und sendet diese zu einem Releasepunkt, von woaus sie angreifen. Dabei kann das Fahrzeug wie bei mechanisierten Kräften, u.a. zum Angriff, genutzt werden. Es stehen für Luft- sowie Bodenfahrzeuge jeweils drei Einstellungen zur Verfügung.  
-Sollte die Mod [LAMBS DANGER](https://steamcommunity.com/workshop/filedetails/?id=1858075458) aktiv sein, werden alle möglichen Wegpunkte durch das LAMBS-Äquivalent ersetzt.  
+Diese Funktion erstellt Verstärkungstruppen mit einem Fahrzeug und sendet diese zu einem Releasepunkt, von woaus sie angreifen. Dabei kann das Fahrzeug wie bei mechanisierten Kräften, u.a. zum Angriff, genutzt werden. Es stehen für Luft- sowie Bodenfahrzeuge jeweils drei Einstellungen zur Verfügung.
+Sollte die Mod [LAMBS DANGER](https://steamcommunity.com/workshop/filedetails/?id=1858075458) aktiv sein, werden alle möglichen Wegpunkte durch das LAMBS-Äquivalent ersetzt.
 Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=723217262) bzw [ZEN Add](https://steamcommunity.com/sharedfiles/filedetails/?id=2319721149) nicht aktiv sein, werden Helikopter keine Fastrope oder Fallschirmsprünge durchführen, sondern immer landen.
 
 ```c++
 [spawnPos, releasePos, attackPos, side, vehicle, rpBehaviour, infantry, groupBehaviour, flyHeight] call ttt_common_fnc_callReinforcements;
 ```
 
-**spawnPos**:  OBJECT or ARRAY format Position - Wo wird die Verstärkung mit Fahrzeug erstellt, wovon sie sich dann in Bewegung setzt  
-**releasePos**: OBJECT or ARRAY format Position - Wo wird die Infanterie absitzen, um zu Fuß anzugreifen  
-**attackPos**: OBJECT or ARRAY format Position - Welchen Bereich soll die Infanterie und ggf. das Fahrzeug angreifen  
-**side**: SIDE - Welcher Seite sollen die neuen Einheiten angehören  
-**vehicle**: STRING - Welches Fahrzeug soll die Infanterie transportieren  
-**rpBehaviour**: INTEGER (optional, default: 0) - Welches Verhalten nimmt das Fahrzeug am Releasepunkt an; abhängig davon ob es ein Luft- oder Landfahrzeug ist (Siehe dazu die Tabelle unten)  
-**infantry**: ARRAY format characterTypes or CONFIG format CfgGroups entry (optional, default: configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad") - Welche Infanterieeinheiten sollen erstellt werden (Sollte das Array oder die Konfig zu groß für den Frachtraum des Fahrzeugs sein, werden übrige Einheiten gelöscht)  
-**groupBehaviour**: INTEGER (optional, default: 2) - Welches Verhalten haben die Einheiten ab ihrem Releasepunkt (0: relaxed, 1: cautious, 2: combat)  
-**flyHeight**: INTEGER (optional, default: 80) - Auf welcher Höhe soll das Luftfahrzeug fliegen
+- **spawnPos**:  OBJECT or ARRAY format Position - Wo wird die Verstärkung mit Fahrzeug erstellt, wovon sie sich dann in Bewegung setzt
+ -**releasePos**: OBJECT or ARRAY format Position - Wo wird die Infanterie absitzen, um zu Fuß anzugreifen
+- **attackPos**: OBJECT or ARRAY format Position - Welchen Bereich soll die Infanterie und ggf. das Fahrzeug angreifen
+- **side**: SIDE - Welcher Seite sollen die neuen Einheiten angehören
+- **vehicle**: STRING - Welches Fahrzeug soll die Infanterie transportieren
+- **rpBehaviour**: INTEGER (optional, default: 0) - Welches Verhalten nimmt das Fahrzeug am Releasepunkt an; abhängig davon ob es ein Luft- oder Landfahrzeug ist (Siehe dazu die Tabelle unten)
+- **infantry**: ARRAY format characterTypes or CONFIG format CfgGroups entry (optional, default: configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad") - Welche Infanterieeinheiten sollen erstellt werden (Sollte das Array oder die Konfig zu groß für den Frachtraum des Fahrzeugs sein, werden übrige Einheiten gelöscht)
+- **groupBehaviour**: INTEGER (optional, default: 2) - Welches Verhalten haben die Einheiten ab ihrem Releasepunkt (0: relaxed, 1: cautious, 2: combat)
+- **flyHeight**: INTEGER (optional, default: 80) - Auf welcher Höhe soll das Luftfahrzeug fliegen
 
 Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 
@@ -124,7 +124,7 @@ Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 [[300.51, 5151.98, 806.54], releasepunkt_2, oplSpieler, WEST, "rsr_bergepanzer_flecktarn", 2] call ttt_common_fnc_callReinforcements;
 [l_sp_1, l_rp_1, l_at_1, EAST, "O_Heli_Light_02_dynamicLoadout_F", 2, ["O_Soldier_SL_F","O_Soldier_TL_F","O_Soldier_F","O_Soldier_F"]] call ttt_common_fnc_callReinforcements;
 [l_sp_1, l_rp_1, l_at_1, EAST, "O_APC_Wheeled_02_rcws_v2_F", 2, configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad"] call ttt_common_fnc_callReinforcements;
-[l_sp_1, l_rp_1, l_at_1, EAST, "O_Heli_Light_02_dynamicLoadout_F", 2, ["O_Soldier_SL_F","O_Soldier_TL_F","O_Soldier_F"], 1, 50] call ttt_common_fnc_callReinforcements; 
+[l_sp_1, l_rp_1, l_at_1, EAST, "O_Heli_Light_02_dynamicLoadout_F", 2, ["O_Soldier_SL_F","O_Soldier_TL_F","O_Soldier_F"], 1, 50] call ttt_common_fnc_callReinforcements;
 ```
 
 ### `ttt_common_fnc_doFlakFire`
@@ -133,8 +133,8 @@ Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 handle = [object] call ttt_common_fnc_doFlakFire;
 ```
 
-**handle**: NUMBER - Rückgabewert mit dem das Feuer später beendet werden kann  
-**object**: OBJECT - Flak die schießen soll
+- **handle**: NUMBER - Rückgabewert mit dem das Feuer später beendet werden kann
+- **object**: OBJECT - Flak die schießen soll
 
 Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 
@@ -173,13 +173,13 @@ Wenn nur die `unit` angegeben wird, werden die Default Werte genutzt:
 ["_reloadSpeed",    0.75, [0.0]]
 ```
 
-Refrenzen: <https://community.bistudio.com/wiki/setSkill>  
-Approximate ranges are:  
-Novice < 0.25  
-Rookie >= 0.25 and <= 0.45  
-Recruit > 0.45 and <= 0.65  
-Veteran > 0.65 and <= 0.85  
-Expert > 0.85  
+Refrenzen: <https://community.bistudio.com/wiki/setSkill>
+Approximate ranges are:
+Novice < 0.25
+Rookie >= 0.25 and <= 0.45
+Recruit > 0.45 and <= 0.65
+Veteran > 0.65 and <= 0.85
+Expert > 0.85
 
 ```c++
 //Make a rookie
@@ -194,11 +194,11 @@ Expert > 0.85
 
 Mögliche Skill-Level sind:
 
-- "Novice"  
+- "Novice"
 - "Rookie"
-- "Recruit"  
-- "Veteran"  
-- "Expert"  
+- "Recruit"
+- "Veteran"
+- "Expert"
 
 Bei fehlender oder falscher Angabe wird "Veteran" ausgewählt. Die Werte innerhalb der Level sind alle gleich, aber zufällig aus der Spanne ausgewählt. `aiming`-Werte sind immer 0,2 Schlechter als alle anderen.
 
@@ -241,10 +241,11 @@ Fügt einige TTT-spezifische Kisten hinzu. Alle Kisten sind ein (1) ACE-Cargo gr
 
 Fügt folgende Sanitätskisten  hinzu:
 
-- Sanitätskiste (VBA) `ttt_common_vba_crate`
-- Sanitätskiste (VBT) `ttt_common_vbt_crate`
+- Sanitätskiste (San-Alpha) `ttt_common_sana_crate`
+- Sanitätskiste (San-Bravo) `ttt_common_sanb_crate`
+- Sanitätskiste (San-Charlie) `ttt_common_sanc_crate`
 
-Inhalt ist im [Wiki VBA](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#verbandsmaterial-arzt) bzw. [Wiki VBT](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#verbandsmaterial-truppe) definiert.
+Inhalt ist im [Wiki San-Charlie](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#san-charlie) bzw. [Wiki San-Alpha](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#san-alpha) definiert.
 
 ### Pionierkisten
 
