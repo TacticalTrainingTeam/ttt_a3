@@ -76,6 +76,7 @@ class CfgVehicles {
     };
 
     // Medical backpacks
+
     class B_Kitbag_Base;
     class ttt_backpack_medic_Base: B_Kitbag_Base {
         author = ECSTRING(main,TacticalTrainingTeam);
