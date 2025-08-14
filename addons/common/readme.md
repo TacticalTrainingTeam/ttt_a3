@@ -47,10 +47,10 @@ Stellt die folgenden Funktionen zur Verfügung:
 ] call ttt_common_fnc_crateFiller;
 ```
 
-**container:** OBJECT - Objekte denen der Cargoinhalt hinzugefügt werden soll
-**item:** STRING - Inventargegenstand welcher hinzugefügt werden soll
-**count:**  INTEGER - Anzahl der hinzuzufügenden Inventargegenstände
-**clear:** BOOLEAN (Optional, default: true) - Vorherigen Inventarinhalt des Objektes leeren
+- **container:** OBJECT - Objekte denen der Cargoinhalt hinzugefügt werden soll
+- **item:** STRING - Inventargegenstand welcher hinzugefügt werden soll
+- **count:**  INTEGER - Anzahl der hinzuzufügenden Inventargegenstände
+- **clear:** BOOLEAN (Optional, default: true) - Vorherigen Inventarinhalt des Objektes leeren
 
 Kann in der `initServer.sqf` oder während der Mission auf dem Server aufgerufen werden.
 
@@ -74,11 +74,11 @@ Kann in der `initServer.sqf` oder während der Mission auf dem Server aufgerufen
 [intel, action, hide, [titel, text]] call ttt_common_fnc_addIntel;
 ```
 
-**intel:** OBJECT - Das interagierbare Objekt
-**action:** STRING - Actiontitel der als Interaktion gezeigt wird
-**hide:** BOOLEAN - Objekt nach Interaktion ausblenden
-**titel:** STRING - Intelüberschrift auf der Kartenansicht
-**text:** STRING - Intelinhalt der unter der Überschrift steht (Der Text unterstüzt HTML-Syntax für z.B. Bilder)
+- **intel:** OBJECT - Das interagierbare Objekt
+- **action:** STRING - Actiontitel der als Interaktion gezeigt wird
+- **hide:** BOOLEAN - Objekt nach Interaktion ausblenden
+- **titel:** STRING - Intelüberschrift auf der Kartenansicht
+- **text:** STRING - Intelinhalt der unter der Überschrift steht (Der Text unterstüzt HTML-Syntax für z.B. Bilder)
 
 In der `initPlayerLocal.sqf` ausführen.
 
@@ -99,15 +99,15 @@ Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=72
 [spawnPos, releasePos, attackPos, side, vehicle, rpBehaviour, infantry, groupBehaviour, flyHeight] call ttt_common_fnc_callReinforcements;
 ```
 
-**spawnPos**:  OBJECT or ARRAY format Position - Wo wird die Verstärkung mit Fahrzeug erstellt, wovon sie sich dann in Bewegung setzt
-**releasePos**: OBJECT or ARRAY format Position - Wo wird die Infanterie absitzen, um zu Fuß anzugreifen
-**attackPos**: OBJECT or ARRAY format Position - Welchen Bereich soll die Infanterie und ggf. das Fahrzeug angreifen
-**side**: SIDE - Welcher Seite sollen die neuen Einheiten angehören
-**vehicle**: STRING - Welches Fahrzeug soll die Infanterie transportieren
-**rpBehaviour**: INTEGER (optional, default: 0) - Welches Verhalten nimmt das Fahrzeug am Releasepunkt an; abhängig davon ob es ein Luft- oder Landfahrzeug ist (Siehe dazu die Tabelle unten)
-**infantry**: ARRAY format characterTypes or CONFIG format CfgGroups entry (optional, default: configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad") - Welche Infanterieeinheiten sollen erstellt werden (Sollte das Array oder die Konfig zu groß für den Frachtraum des Fahrzeugs sein, werden übrige Einheiten gelöscht)
-**groupBehaviour**: INTEGER (optional, default: 2) - Welches Verhalten haben die Einheiten ab ihrem Releasepunkt (0: relaxed, 1: cautious, 2: combat)
-**flyHeight**: INTEGER (optional, default: 80) - Auf welcher Höhe soll das Luftfahrzeug fliegen
+- **spawnPos**:  OBJECT or ARRAY format Position - Wo wird die Verstärkung mit Fahrzeug erstellt, wovon sie sich dann in Bewegung setzt
+ -**releasePos**: OBJECT or ARRAY format Position - Wo wird die Infanterie absitzen, um zu Fuß anzugreifen
+- **attackPos**: OBJECT or ARRAY format Position - Welchen Bereich soll die Infanterie und ggf. das Fahrzeug angreifen
+- **side**: SIDE - Welcher Seite sollen die neuen Einheiten angehören
+- **vehicle**: STRING - Welches Fahrzeug soll die Infanterie transportieren
+- **rpBehaviour**: INTEGER (optional, default: 0) - Welches Verhalten nimmt das Fahrzeug am Releasepunkt an; abhängig davon ob es ein Luft- oder Landfahrzeug ist (Siehe dazu die Tabelle unten)
+- **infantry**: ARRAY format characterTypes or CONFIG format CfgGroups entry (optional, default: configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad") - Welche Infanterieeinheiten sollen erstellt werden (Sollte das Array oder die Konfig zu groß für den Frachtraum des Fahrzeugs sein, werden übrige Einheiten gelöscht)
+- **groupBehaviour**: INTEGER (optional, default: 2) - Welches Verhalten haben die Einheiten ab ihrem Releasepunkt (0: relaxed, 1: cautious, 2: combat)
+- **flyHeight**: INTEGER (optional, default: 80) - Auf welcher Höhe soll das Luftfahrzeug fliegen
 
 Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 
@@ -133,8 +133,8 @@ Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 handle = [object] call ttt_common_fnc_doFlakFire;
 ```
 
-**handle**: NUMBER - Rückgabewert mit dem das Feuer später beendet werden kann
-**object**: OBJECT - Flak die schießen soll
+- **handle**: NUMBER - Rückgabewert mit dem das Feuer später beendet werden kann
+- **object**: OBJECT - Flak die schießen soll
 
 Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 
