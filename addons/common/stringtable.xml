@@ -97,6 +97,18 @@
             <English>TTT Markings Crate (Mark)</English>
             <German>TTT Markierungskiste (Mark)</German>
         </Key>
+        <Key ID="STR_ttt_Common_meme_netthier_displayName">
+            <English>Neat around here, but ...</English>
+            <German>Nett hier, aber ...</German>
+        </Key>
+        <Key ID="STR_ttt_Common_meme_rollatorgang_displayName">
+            <English>Rollator-Gang</English>
+            <German>Rollator-Gang</German>
+        </Key>
+        <Key ID="STR_ttt_Common_meme_wantyou_displayName">
+            <English>I want YOU for TTT</English>
+            <German>I want YOU for TTT</German>
+        </Key>
         <Key ID="STR_ttt_Common_paradrop">
             <English>TTT Paradrop Cargo Net</English>
             <German>TTT Fallschirm-Frachtnetz</German>
@@ -104,6 +116,10 @@
         <Key ID="STR_ttt_Common_pio">
             <English>TTT Combat Engineer Crate (Pio)</English>
             <German>TTT Pionierkiste (Pio)</German>
+        </Key>
+        <Key ID="STR_ttt_Common_spraypaintMemes_displayName">
+            <English>Spray Paint - Meme (TTT)</English>
+            <German>Sprühfarbe - Meme (TTT)</German>
         </Key>
         <Key ID="STR_ttt_Common_spreng">
             <English>TTT Explosives Crate (Spreng)</English>
@@ -120,6 +136,18 @@
         <Key ID="STR_ttt_Common_vbt">
             <English>TTT Medical Crate (VBT)</English>
             <German>TTT Sanitätskiste (VBT)</German>
+        </Key>
+        <Key ID="STR_ttt_Common_sana_displayName">
+            <English>TTT Medical Crate (San-Alpha)</English>
+            <German>TTT Sanitätskiste (San-Alpha)</German>
+        </Key>
+        <Key ID="STR_ttt_Common_sanb_displayName">
+            <English>TTT Medical Crate (San-Bravo)</English>
+            <German>TTT Sanitätskiste (San-Bravo)</German>
+        </Key>
+        <Key ID="STR_ttt_Common_sanc_displayName">
+            <English>TTT Medical Crate (San-Charlie)</English>
+            <German>TTT Sanitätskiste (San-Charlie)</German>
         </Key>
     </Package>
 </Project>
