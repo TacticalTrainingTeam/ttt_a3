@@ -106,6 +106,7 @@ if (isClass(configFile >> "CfgPatches" >> "lambs_danger") && !(_vehicle isKindOf
 	_infantryAtWp setWaypointType "SAD";
 };
 
+
 //Check ACEX Headless Client
 if (isClass (configFile >> "CfgPatches" >> "acex_headless") && acex_headless_enabled) then
 {
@@ -117,6 +118,7 @@ if (isClass (configFile >> "CfgPatches" >> "acex_headless") && acex_headless_ena
 };
 
 // Load the units into the vehicle.
+if !(_vehicle isKindOf "Air") then {_infantryGroup addVehicle _vehicle};						// stop units from disembarking after been telepoted in
 {
 	_x moveInCargo _vehicle;
 } forEach _infantryList;
@@ -144,6 +146,27 @@ if (_vehicle isKindOf "Air" && (_rpBehaviour > 0) && (isClass(configFile >> "Cfg
 		"\achilles\functions_f_achilles\scripts\fn_wpFastrope.sqf"
 	] select (_rpBehaviour isEqualTo 1);
 	_vehicleUnloadWp setWaypointScript _script;
+	if (_rpBehaviour isEqualTo 1) then {
+		_vehicleUnloadWp setWaypointStatements ["true", "(vehicle this) setVariable ['wpDone', true, true]; hint 'ist true'"];
+		[
+			{_vehicle getVariable ["wpDone", false]},
+			{
+				params ["_infantryGroup", "_atPos", "_atSize"];
+				private _infantryAtWp = _infantryGroup addWaypoint [_atPos, _atSize];
+				if (isClass(configFile >> "CfgPatches" >> "lambs_danger") && !(_vehicle isKindOf "Air")) then	// LAMBS only if loaded and only for ground vehicles
+				{	
+					_infantryAtWp setWaypointType "SCRIPTED";
+					_infantryAtWp setWaypointScript "\z\lambs\addons\wp\scripts\fnc_wpRush.sqf";
+				} else
+				{
+					_infantryAtWp setWaypointType "SAD";
+				};
+				hint "WP gesetzt";
+			},
+			[_infantryGroup, _atPos, _atSize],
+			5
+		] call CBA_fnc_waitUntilAndExecute;
+	};
 } else
 {
 	_vehicleUnloadWp setWaypointBehaviour  "SAFE";
