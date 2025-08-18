@@ -1,11 +1,13 @@
 # Spotlight Event
 
-Event-basierte Scheinwerfer-Funktionen.
+Setzt eine Kachel im Hauptmenü von Arma um direkt auf dem Event-Server zu verbinden. Entfernt außerdem alle Vanilla Kacheln.
 
-## Beschreibung
+## Referenzen
 
-Stellt event-basierte Scheinwerfer-Funktionen für spezielle Anlässe zur Verfügung.
+<https://community.bistudio.com/wiki/Arma_3:_Main_Menu#Spotlight>
+<https://community.bistudio.com/wiki/connectToServer>
 
 ## Maintainer
 
-- TTT Team
+- Andx
+- Menom

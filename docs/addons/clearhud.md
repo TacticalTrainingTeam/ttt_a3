@@ -1,11 +1,11 @@
 # Clear HUD
 
-Dieses Addon ermöglicht es, das HUD zu verstecken oder anzuzeigen.
+## Chat ausblenden
 
-## Beschreibung
+Blendet den Chat aus. Fügt einen Keybind hinzu um den Chat wieder umzuschalten. Basierd auf _Soldias Clearhud_.
 
-Stellt Funktionen zur Verfügung, um das HUD für Screenshots oder andere Zwecke auszublenden.
+Standard-Taste: <kbd>Shift</kbd> + <kbd>,</kbd>
 
 ## Maintainer
 
-- TTT Team
+- Andx

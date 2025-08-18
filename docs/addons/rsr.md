@@ -1,11 +1,15 @@
-# RSR
+# RsR
 
-Rapid Strike Regiment spezifische Funktionen.
+Stellt Basisfunktionen bereit für alle RsR Mods.
 
-## Beschreibung
+## fnc_removeTurretWeapon
 
-Enthält spezielle Funktionen und Konfigurationen für das Rapid Strike Regiment.
+Entfernt den Turm und sperrt den Schützenplatz. Gedacht für den Bergepanzer.
+
+`[fhz] call ttt_rsr_fnc_removeTurretWeapon;`
+
+Muss in der Init des Fahrzeuges ausgeführt werden.
 
 ## Maintainer
 
-- TTT Team
+- Andx

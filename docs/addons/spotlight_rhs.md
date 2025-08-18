@@ -1,11 +1,13 @@
 # Spotlight RHS
 
-Scheinwerfer-Funktionen für RHS Fahrzeuge.
+Setzt eine Kachel im Hauptmenü von Arma um direkt auf dem RHS-Server zu verbinden. Entfernt außerdem alle Vanilla Kacheln.
 
-## Beschreibung
+## Referenzen
 
-Erweitert RHS Fahrzeuge um Scheinwerfer-Funktionalität.
+<https://community.bistudio.com/wiki/Arma_3:_Main_Menu#Spotlight>
+<https://community.bistudio.com/wiki/connectToServer>
 
 ## Maintainer
 
-- TTT Team
+- Andx
+- Menom

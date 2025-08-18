@@ -1,11 +1,9 @@
 # Compat 3CB Factions
 
-Kompatibilitäts-Addon für 3CB Factions.
+## Abhängigkeiten
 
-## Beschreibung
-
-Sorgt für Kompatibilität zwischen dem TTT Mod und 3CB Factions Mod.
+- 3CB Factions <https://steamcommunity.com/sharedfiles/filedetails/?id=1673456286>
 
 ## Maintainer
 
-- TTT Team
+- Andx

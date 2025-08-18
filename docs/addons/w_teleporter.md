@@ -1,11 +1,7 @@
-# W Teleporter
+# Framework Teleporter
 
-Erweiterte Teleporter-Funktionen.
+Adds a teleporter to teleport to your squad or vehicle after a technical disconnect.
 
-## Beschreibung
+## Referenzen
 
-Stellt erweiterte Teleporter-Funktionen mit zusätzlichen Features zur Verfügung.
-
-## Maintainer
-
-- TTT Team
+Source: <https://gitlab.gruppe-w.de/Missionsbau/Framework/-/tree/master/addons/teleporter?ref_type=heads>

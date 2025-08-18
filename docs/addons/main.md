@@ -1,11 +1,7 @@
-# Main
+# TTT Main
 
-Das Haupt-Addon des TTT Mods.
-
-## Beschreibung
-
-Enthält die grundlegenden Konfigurationen und Abhängigkeiten für den gesamten TTT Mod.
+Enthält Macros für andere Addons.
 
 ## Maintainer
 
-- TTT Team
+- Andx

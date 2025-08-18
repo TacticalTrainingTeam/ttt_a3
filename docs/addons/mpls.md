@@ -1,11 +1,17 @@
-# MPLS
+# Missionspersistentes Loadout-System
 
-Multi-Protocol Label Switching Funktionalität.
+Das MPLS speichert alle 10 Minuten, beim Respawn und beim Disconnect das aktuelle Loadout des Spielers im `missionNamespace` der Mission. Beim JIP/Respawn wird das letzte gespeicherte Loadout dem Spieler wieder zugewiesen. Zusätzlich gibt es für JIP Spieler am TTT-Teleporter die Möglichkeit per Mausrad-Menü das erste gespeicherte Loadout wieder auszuwählen.
 
-## Beschreibung
+Inspiriert von [W] Millers <https://gitlab.gruppe-w.de/Missionsbau/Framework/-/tree/master/addons/mcls>
 
-Stellt MPLS-bezogene Funktionen für erweiterte Netzwerk-Simulation zur Verfügung.
+## `ttt_mpls_fnc_saveLoadout`
+
+```c++
+[player, getPlayerUID player] call ttt_mpls_fnc_saveLoadout;
+```
+
+Ermöglicht ein manuelles speichern des aktuellen Loadouts.
 
 ## Maintainer
 
-- TTT Team
+- Andx

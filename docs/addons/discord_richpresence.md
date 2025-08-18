@@ -1,11 +1,18 @@
 # Discord Rich Presence
 
-Integration für Discord Rich Presence.
+Zeigt im Discord einige Informationen über die Mission die wir spielen an. Fügt außerdem einen Link zur unserer Mitmachen Seite und zu unserem Discord hinzu.
 
-## Beschreibung
+## Settings
 
-Zeigt Aktivitäten im Spiel in Discord an, sodass andere sehen können, was du in Arma 3 machst.
+Kann unter `Konfigurieren` - `Addon Einstellungen` - `Tactical Training Team` - `Discord Rich Presence` teilweise deaktiviert werden.
+
+Wenn deaktviert werden folgende Informationen nicht mehr angezeigt:
+
+- Servername
+- Missionsname
+- Spielerzahl
 
 ## Maintainer
 
-- TTT Team
+- Andx
+- Menom

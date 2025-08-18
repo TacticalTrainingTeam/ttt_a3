@@ -1,11 +1,23 @@
-# Flags
+# Flaggen
 
-TTT-spezifische Flaggen und Banner.
+Enthält Trag- und Platzierbare Flaggen für alle Truppfarben.
 
-## Beschreibung
-
-Enthält verschiedene Flaggen und Banner für das Tactical Training Team.
+- `ttt_flags_blau`
+- `ttt_flags_braun`
+- `ttt_flags_bronze`
+- `ttt_flags_gelb`
+- `ttt_flags_gold`
+- `ttt_flags_grau`
+- `ttt_flags_grun`
+- `ttt_flags_logo`
+- `ttt_flags_orange`
+- `ttt_flags_platin`
+- `ttt_flags_rot`
+- `ttt_flags_schwarz`
+- `ttt_flags_silber`
+- `ttt_flags_violett`
+- `ttt_flags_weiss`
 
 ## Maintainer
 
-- TTT Team
+- Andx

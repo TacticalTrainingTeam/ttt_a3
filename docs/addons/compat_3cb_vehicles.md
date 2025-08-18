@@ -1,11 +1,22 @@
-# Compat 3CB Vehicles
+# Compat 3CB
 
-Kompatibilitäts-Addon für 3CB Vehicles.
+## Land Rover
 
-## Beschreibung
+Fügt drei Typen von Landrover Animations-Interaktionen hinzu.
 
-Sorgt für Kompatibilität zwischen dem TTT Mod und 3CB Vehicles Mod.
+- `UK3CB_BAF_LandRover_WMIK_GMG_Base`
+- `UK3CB_BAF_LandRover_WMIK_HMG_Base`
+- `UK3CB_BAF_LandRover_WMIK_Milan_Base`
+
+## Referenzen
+
+<https://ace3.acemod.org/wiki/framework/interactionmenu-framework#22-vehicle-interactions-based-on-animations>
+
+## Abhängigkeiten
+
+- 3CB Vehicles <https://steamcommunity.com/sharedfiles/filedetails/?id=893349825>
+- ACE - Interactions <https://steamcommunity.com/sharedfiles/filedetails/?id=463939057>
 
 ## Maintainer
 
-- TTT Team
+- Andx

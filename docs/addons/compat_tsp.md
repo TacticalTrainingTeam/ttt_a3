@@ -1,11 +1,9 @@
 # Compat TSP
 
-Kompatibilitäts-Addon für TSP.
+## Fixes TSP Earplugs Error
 
-## Beschreibung
-
-Sorgt für Kompatibilität zwischen dem TTT Mod und TSP Mod.
+Overrides ACE Action in `tsp_core` to fix error `21:28:14 [ACE] (interact_menu) ERROR: Action [tsp_ace_earplug_insert] bad condition return`.
 
 ## Maintainer
 
-- TTT Team
+- Andx

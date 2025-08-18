@@ -1,11 +1,15 @@
-# Compat RNT
+# Compat Redd'n'Tank
 
-Kompatibilitäts-Addon für RNT.
+Enthält diverse Verbesserungen und Fixes für Redd'n'Tank Fahrzeuge.
 
-## Beschreibung
+## Referenzen
 
-Sorgt für Kompatibilität zwischen dem TTT Mod und RNT Mod.
+<https://github.com/PzGrenBtl-402/PzGrenBtl402/tree/master>
+
+## Abhängigkeiten
+
+- Redd'n'Tank Vehicles <https://steamcommunity.com/sharedfiles/filedetails/?id=1128145626>
 
 ## Maintainer
 
-- TTT Team
+- Andx

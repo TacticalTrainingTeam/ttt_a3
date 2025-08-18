@@ -1,11 +1,15 @@
-# Compat XEH Fix
+# XEH Fix
 
-Kompatibilitäts-Fix für Extended Event Handlers (XEH).
+Behebt `18:07:28 [CBA] (xeh) WARNING: FIR_Aegis_Radar_Base does not support Extended Event Handlers! Addon: @FIR_AWS_AirWeaponSystem` Fehlermeldungen.
 
-## Beschreibung
+## Referenzen
 
-Behebt Kompatibilitätsprobleme mit Extended Event Handlers in verschiedenen Mods.
+Erstellt mit:
+<https://github.com/BourbonWarfare/POTATO/blob/master/addons/miscFixes/dev_xehFix.sqf>
+
+Beispiel:
+<https://github.com/BourbonWarfare/POTATO/blob/master/addons/miscFixes/patchHAFM/config.cpp>
 
 ## Maintainer
 
-- TTT Team
+- Andx
