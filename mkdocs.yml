@@ -9,7 +9,7 @@ theme:
     - toml
     - python
   locale: de
-  logo: logo_ttt.png
+  logo: ttt_logo.png
 
 nav:
  - Startseite: index.md
@@ -57,4 +57,7 @@ nav:
    - W Building Shield: addons/w_buildingshield.md
    - W Teleporter: addons/w_teleporter.md
    - W Vehicle Shield: addons/w_vehicleshield.md
- - Mitmachen: contribute.md
+ - About:
+   - Mitmachen: contribute.md
+   - Lizenz: license.md
+   - Über Uns: about.md

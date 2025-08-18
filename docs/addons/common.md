@@ -1,33 +1,5 @@
 # Common
 
-## Inhaltsverzeichnis
-
-- [Common](#common)
-  - [Inhaltsverzeichnis](#inhaltsverzeichnis)
-  - [Funktionen](#funktionen)
-    - [`ttt_common_fnc_crateFiller`](#ttt_common_fnc_cratefiller)
-      - [Beispiel](#beispiel)
-    - [`ttt_common_fnc_addIntel`](#ttt_common_fnc_addintel)
-      - [Beispiel](#beispiel-1)
-    - [`ttt_common_fnc_callReinforcements`](#ttt_common_fnc_callreinforcements)
-      - [Beispiele](#beispiele)
-    - [`ttt_common_fnc_doFlakFire`](#ttt_common_fnc_doflakfire)
-      - [Beispiel](#beispiel-2)
-    - [`ttt_common_fnc_setAISkill`](#ttt_common_fnc_setaiskill)
-    - [`ttt_common_fnc_setAISkillLevel`](#ttt_common_fnc_setaiskilllevel)
-      - [Beispiele](#beispiele-1)
-      - [Quellen](#quellen)
-  - [ACE-Fortify Presets](#ace-fortify-presets)
-  - [Kisten](#kisten)
-    - [Sanitätskisten](#sanitätskisten)
-    - [Pionierkisten](#pionierkisten)
-    - [Spezialkisten](#spezialkisten)
-  - [Bewusstlose haben keine Kollision](#bewusstlose-haben-keine-kollision)
-  - [Compositions](#compositions)
-  - [Bilder](#bilder)
-  - [Einheiten](#einheiten)
-  - [Maintainer](#maintainer)
-
 ## Funktionen
 
 Stellt die folgenden Funktionen zur Verfügung:
