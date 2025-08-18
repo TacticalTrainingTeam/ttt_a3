@@ -1,0 +1,10 @@
+:root  > * {
+  --md-primary-fg-color:        #a10f2b;
+  --md-primary-fg-color--light: #a10f2b;
+  --md-primary-fg-color--dark:  #a10f2b;
+
+  --md-accent-fg-color:                #a10f2b;
+  --md-accent-fg-color--transparent:  #c6cfba;
+
+  --md-h1-font: "Rubik";
+}
