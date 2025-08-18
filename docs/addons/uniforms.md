@@ -1,10 +1,10 @@
 # Uniformen
 
-Enthält alle Uniformen in TTT Farben. Es gibt drei Tarnvarianten: _BW Flecktarn_, _BW Tropentarn_ und _US Desert_.
+Enthält Uniformen in allen TTT Farben. Es gibt drei Tarnvarianten: _BW Flecktarn_, _BW Tropentarn_ und _Wüstentarn_.
 
 ## Class Names
 
-US Desert
+### US Wüstentarn
 
 - `ttt_Uniform_Black_US_Desert`
 - `ttt_Uniform_Blue_US_Desert`
@@ -21,7 +21,7 @@ US Desert
 - `ttt_Uniform_Yellow_US_Desert`
 - `ttt_Uniform_plain_US_Desert`
 
-BW Flecktarn
+### BW Flecktarn
 
 - `ttt_Uniform_Black_BW_Flecktarn`
 - `ttt_Uniform_Blue_BW_Flecktarn`
@@ -37,7 +37,7 @@ BW Flecktarn
 - `ttt_Uniform_Yellow_BW_Flecktarn`
 - `ttt_uniform_plain_BW_Flecktarn`
 
-BW Tropentarn
+### BW Tropentarn
 
 - `ttt_Uniform_Black_BW_Tropentarn`
 - `ttt_Uniform_Blue_BW_Tropentarn`
@@ -52,7 +52,7 @@ BW Tropentarn
 - `ttt_Uniform_White_BW_Tropentarn`
 - `ttt_Uniform_Yellow_BW_Tropentarn`
 
-Piloten
+### Piloten
 
 - `ttt_Uniform_Platinum_Pilot`
 

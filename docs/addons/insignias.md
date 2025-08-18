@@ -1,6 +1,6 @@
 # Insignien
 
-Fügt die TTT Farben als Schulter Insignien (linke Schulter) hinzu.
+Fügt die TTT Farben als Schulterinsignien (linke Schulter) hinzu.
 
 ## Class Names
 
@@ -40,7 +40,7 @@ Abzeichen:
 - `TTT_white_emblem`
 - `TTT_yellow_emblem`
 
-## Beispiel
+## Benutzung
 
 `[this, "TTT_Blue"] call BIS_fnc_setUnitInsignia;` in der Init-Zeile einer Einheit für die große Variante
 

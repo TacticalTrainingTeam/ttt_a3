@@ -15,4 +15,3 @@ Wenn deaktviert werden folgende Informationen nicht mehr angezeigt:
 ## Maintainer
 
 - Andx
-- Menom

@@ -1,6 +1,6 @@
-# Berets
+# Barette
 
-Enthält alle Barette in TTT Farben.
+Enthält Barette in allen TTT Farben.
 
 ## Class Names
 

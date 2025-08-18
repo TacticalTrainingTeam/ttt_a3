@@ -18,6 +18,10 @@ Enthält Trag- und Platzierbare Flaggen für alle Truppfarben.
 - `ttt_flags_violett`
 - `ttt_flags_weiss`
 
+## Referenzen
+
+<https://ace3.acemod.org/wiki/framework/flags-framework>
+
 ## Maintainer
 
 - Andx

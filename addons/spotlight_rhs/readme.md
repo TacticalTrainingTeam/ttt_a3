@@ -10,4 +10,3 @@ Setzt eine Kachel im Hauptmenü von Arma um direkt auf dem RHS-Server zu verbind
 ## Maintainer
 
 - Andx
-- Menom

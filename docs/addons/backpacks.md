@@ -1,10 +1,12 @@
-# Backpacks
+# Rucksäcke
 
 Enthält verschiedene Funkrucksäcke in TTT Farben. Diese sind in der Größe angepasst, damit zwei `ACRE_PRC117F` darin Platz finden.
 
 Ergänzend wurden zwei zusätzliche Rucksackmodelle integriert, jeweils ausgestattet mit drei variierenden medizinischen Abzeichen. Die Stauraumkapazität wurde leicht erweitert, um auch umfangreicheres medizinisches Equipment unterbringen zu können.
 
 ## Class Names
+
+### Funkrucksäcke
 
 - `ttt_backpack_radio_coyote`
 - `ttt_backpack_radio_olive`
@@ -17,6 +19,9 @@ Ergänzend wurden zwei zusätzliche Rucksackmodelle integriert, jeweils ausgesta
 - `ttt_backpack_radio_silver_us_desert`
 - `ttt_backpack_radio_white_us_desert`
 - `ttt_backpack_radio_yellow_us_desert`
+
+### Sanitätsrucksäcke
+
 - `ttt_backpack_medic_tan_01`
 - `ttt_backpack_medic_tan_02`
 - `ttt_backpack_medic_tan_03`
