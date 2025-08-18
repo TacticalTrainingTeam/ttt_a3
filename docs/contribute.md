@@ -1,4 +1,6 @@
-# Die Mod bauen
+# Zur TTT-Mod beitragen
+
+## Die Mod bauen
 
 1. Visual Studio Code installieren - <https://code.visualstudio.com> & git installieren <https://git-scm.com/downloads>
 2. das Repo klonen - `git clone https://github.com/TacticalTrainingTeam/ttt_a3.git` in der Kommandozeile ausführen
@@ -31,3 +33,30 @@ parameters = [
     "-mod=C:\\Pfad\\zu\\deinen\\TTT\\mods\\@Community_Factions_Project_CFP"
 ]
 ```
+
+## Zum Projekt beitragen
+
+Wir heißen jeden willkommen, der zu diesem Repository beiträgt. Themen, für die wir aktiv Hilfe suchen, sind als [„Hilfe gesucht“](https://github.com/TacticalTrainingTeam/ttt_a3/issues?q=is%3Aissue+state%3Aopen+label%3A%22hilfe+gesucht%22) gekennzeichnet.
+
+## Pull Request Prozess
+
+Wenn Du zu diesem Projekt beitragen möchtest, bespreche bitte zuerst die Änderung, die du vornehmen möchtest, per [Issue](https://github.com/TacticalTrainingTeam/ttt_a3/issues) oder [Discord](https://discord.tacticalteam.de/) mit den TTT-Mod-Projektbetreuern, bevor du eine Änderung vornimmst. Dies ist nicht unbedingt notwendig, wenn du etwas beitragen möchtest, für das es bereits ein Issue in unserem Repository gibt.
+
+1. Bitte erstelle deinen [Pull Request](https://github.com/TacticalTrainingTeam/ttt_a3/pulls) (PR) so früh wie möglich. Dies ermöglicht es uns, dir bei der Entwicklung zu helfen. Wenn du einen Pull-Request eröffnest, verwende ggf. die Draft-Funktion von GitHub. Dadurch wird der PR als in Arbeit markiert und kann nicht zusammengeführt werden, bis du ihn als reif für die Überprüfung markiers.
+
+2. Beschreibe in der Beschreibung deines PRs, was dieser Pull Request tun wird und wie er das Problem löst. Eine klare Absicht und Beschreibung der Art und Weise, wie das Problem gelöst wird, wird uns helfen, den PR effizienter zu prüfen.
+
+3. Bitte beachte die [Entwicklungsrichtlinien von (ACE3)](https://ace3.acemod.org/wiki/development/coding-guidelines).
+
+### Pull Request Merging
+
+- Jeder Pull Request muss das [CI](https://github.com/TacticalTrainingTeam/ttt_a3/actions) ohne Fehler durchlaufen bevor er gemergt werden kann.
+- Jeder Pull Request muss von mindestens einem Reviewer freigegeben werden bevor er gemergt wird.
+
+## Anmerkungen
+
+Bitte beachte, dass alle Mitwirkenden an diesem Projekt Freiwillige sind und dies in ihrer eigenen Zeit tun. Das bedeutet, dass Probleme und/oder PRs lange Zeit offen sein können, bevor sie aufgegriffen und überprüft werden. Wir versuchen, diese Zeit so kurz wie möglich zu halten, aber manchmal kann es vorkommen, dass dies nicht gelingt. Wenn du der Meinung sind, dass ein Problem oder eine PR nicht beachtet wurde, teilen Sie dies bitte im Discord mit.
+
+Im Code wird Tactical Training Team immer klein geschrieben, also `ttt`, im Interface immer groß `TTT`.
+
+Als `author` wird in der `config.cpp` aus konsistenzgründen immer `ECSTRING(main,TactiaclTrainingTeam)` angegeben. In `authors[]`-Array können sich alle, die an der jeweiligen Component mitgearbeitet haben selbst eintragen.
