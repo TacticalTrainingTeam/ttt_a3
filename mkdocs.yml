@@ -5,6 +5,9 @@ extra_css:
 
 theme:
   name: material
+  font:
+    text: Ubuntu
+    code: Ubuntu Mono
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -59,7 +62,9 @@ theme:
   logo: ttt_logo.png
 
 nav:
- - Startseite: index.md
+ - Startseite:
+   - index.md
+   - Beitragen: contribute.md
  - Addons - Allgemein:
      - Common: addons/common.md
      - Main: addons/main.md
@@ -107,4 +112,3 @@ nav:
    - Compat TSP: addons/compat_tsp.md
    - Compat Vanilla: addons/compat_vanilla.md
    - Compat XEH Fix: addons/compat_xeh_fix.md
- - Beitragen: contribute.md
