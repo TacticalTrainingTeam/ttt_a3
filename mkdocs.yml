@@ -13,13 +13,42 @@ theme:
 
 nav:
  - Startseite: index.md
- - Addons:
-   - Advanced Slingloading: addons/advancedslingloading.md
-   - Advanced Towing: addons/advancedtowing.md
-   - Backpacks: addons/backpacks.md
-   - Berets: addons/berets.md
-   - Chat Commands: addons/chatcommands.md
-   - Clear HUD: addons/clearhud.md
+ - Addons - Allgemein:
+     - Common: addons/common.md
+     - Main: addons/main.md
+     - Spotlight CUP: addons/spotlight_cup.md
+     - Spotlight Event: addons/spotlight_event.md
+     - Spotlight RHS: addons/spotlight_rhs.md
+ - Addons - Funktional:
+    - Advanced Slingloading: addons/advancedslingloading.md
+    - Advanced Towing: addons/advancedtowing.md
+    - Chat Commands: addons/chatcommands.md
+    - Clear HUD: addons/clearhud.md
+    - Effects: addons/effects.md
+    - Counter ARI: addons/counterari.md
+    - Discord Rich Presence: addons/discord_richpresence.md
+    - Dismantle: addons/dismantle.md
+    - Medic Backpack: addons/medic_backpack.md
+    - Medic Vehicle: addons/medic_vehicle.md
+    - MPLS: addons/mpls.md
+    - Repair Vehicle: addons/repair_vehicle.md
+    - RSR: addons/rsr.md
+    - Screenshot Mode: addons/screenshotmode.md
+    - Signal Panel: addons/signalpanel.md
+    - Teleport: addons/teleport.md
+    - W Building Shield: addons/w_buildingshield.md
+    - W Teleporter: addons/w_teleporter.md
+    - W Vehicle Shield: addons/w_vehicleshield.md
+ - Addons - Ausrüstung:
+    - Helmets: addons/helmets.md
+    - Insignias: addons/insignias.md
+    - Backpacks: addons/backpacks.md
+    - Berets: addons/berets.md
+    - Flags: addons/flags.md
+    - Signs: addons/signs.md
+    - Uniforms: addons/uniforms.md
+    - Vests: addons/vests.md
+ - Addons - Kompatibilität:
    - Compat 3CB Equipment: addons/compat_3cb_equipment.md
    - Compat 3CB Factions: addons/compat_3cb_factions.md
    - Compat 3CB Vehicles: addons/compat_3cb_vehicles.md
@@ -31,32 +60,6 @@ nav:
    - Compat TSP: addons/compat_tsp.md
    - Compat Vanilla: addons/compat_vanilla.md
    - Compat XEH Fix: addons/compat_xeh_fix.md
-   - Counter ARI: addons/counterari.md
-   - Common: addons/common.md
-   - Discord Rich Presence: addons/discord_richpresence.md
-   - Dismantle: addons/dismantle.md
-   - Effects: addons/effects.md
-   - Flags: addons/flags.md
-   - Helmets: addons/helmets.md
-   - Insignias: addons/insignias.md
-   - Main: addons/main.md
-   - Medic Backpack: addons/medic_backpack.md
-   - Medic Vehicle: addons/medic_vehicle.md
-   - MPLS: addons/mpls.md
-   - Repair Vehicle: addons/repair_vehicle.md
-   - RSR: addons/rsr.md
-   - Screenshot Mode: addons/screenshotmode.md
-   - Signal Panel: addons/signalpanel.md
-   - Signs: addons/signs.md
-   - Spotlight CUP: addons/spotlight_cup.md
-   - Spotlight Event: addons/spotlight_event.md
-   - Spotlight RHS: addons/spotlight_rhs.md
-   - Teleport: addons/teleport.md
-   - Uniforms: addons/uniforms.md
-   - Vests: addons/vests.md
-   - W Building Shield: addons/w_buildingshield.md
-   - W Teleporter: addons/w_teleporter.md
-   - W Vehicle Shield: addons/w_vehicleshield.md
  - About:
    - Mitmachen: contribute.md
    - Lizenz: license.md
