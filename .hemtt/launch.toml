@@ -38,7 +38,7 @@ workshop = [
     "497660133", # CUP Weapons
     "541888371", # CUP Vehicles
     "497661914", # CUP Units
-    "1369691841", # CFP
+    "1369691841" # CFP
 ]
 
 [rhs]
@@ -48,14 +48,14 @@ workshop = [
     "843577117", # RHS USAF
     "843593391", # RHS GREF
     "843632231", # RHS SAF
-    "1673456286", # 3CB Factions
+    "1673456286" # 3CB Factions
 ]
 
 [bwa3]
 extends = "default"
 workshop = [
     "1200127537", # BWmod
-    "1128145626", # RnT
+    "1128145626" # RnT
 ]
 
 [3cb]
@@ -70,7 +70,7 @@ workshop = [
     "1135539579", # BAF Units ACE Compat
     "1135534951", # BAF Equipment ACRE Compat
     "1515851169", # BAF Vehicles RHS Reskins
-    "1515845502", # BAF Weapons RHS Ammo Compat
+    "1515845502" # BAF Weapons RHS Ammo Compat
 ]
 
 [itc]
@@ -78,24 +78,24 @@ extends = "default"
 workshop = [
     "1388192893" # ITC Landsystems
 ]
- 
+
 [drp]
 extends = "default"
 workshop = [
-    "1493485159", # Discord Rich Presence
+    "1493485159" # Discord Rich Presence
 ]
 
 
 [grad]
 extends = "default"
 workshop = [
-    "1224892496", # GRAD Trenches
+    "1224892496" # GRAD Trenches
 ]
 
 [dui]
 extends = "default"
 workshop = [
-    "1638341685", # DUI Squad Radar
+    "1638341685" # DUI Squad Radar
 ]
 
 # cDLCs
@@ -108,13 +108,13 @@ dlc = [
 [vn]
 extends = "default"
 dlc = [
-    "S.O.G. Prairie Fire",
+    "S.O.G. Prairie Fire"
 ]
 
 [ws]
 extends = "default"
 dlc = [
-    "Western Sahara",
+    "Western Sahara"
 ]
 
 [rf]
@@ -139,7 +139,7 @@ dlc = [
 extends = "default"
 dlc = [
     "CSLA Iron Curtain"
-]   
+]
 
 [server]
 extends = "default"
@@ -149,14 +149,14 @@ parameters = [
     "-loadMissionToMemory",
     "-filePatching",
     #"-cfg=E:\\SteamLibrary\\steamapps\\common\\Arma 3\\basic.cfg",
-    "-config=E:\\SteamLibrary\\steamapps\\common\\Arma 3\\server.cfg",
+    "-config=E:\\SteamLibrary\\steamapps\\common\\Arma 3\\server.cfg"
 ]
 
 [player]
 extends = "default"
 parameters = [
     "-world=empty",
-    #"-connect=127.0.0.1",
-    #"-port=2302",
-    "-window",
+    "-connect=127.0.0.1",
+    "-port=2302",
+    "-window"
 ]

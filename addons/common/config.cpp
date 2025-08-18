@@ -25,7 +25,9 @@ class CfgPatches {
             "ttt_common_mark_crate",
             "ttt_common_paradrop_crate",
         };
-        weapons[] = {};
+        weapons[] = {
+            QGVAR(spraypaintMemes),
+        };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"ttt_main"};
         author = ECSTRING(main,TacticalTrainingTeam);
@@ -40,4 +42,6 @@ class CfgPatches {
 #include "Cfg3DEN.hpp"
 #include "Dialog.hpp"
 #include "CfgVehicles.hpp"
+#include "CfgWeapons.hpp"
 #include "configs\ACE_Fortify.hpp"
+#include "configs\ACE_Tags.hpp"

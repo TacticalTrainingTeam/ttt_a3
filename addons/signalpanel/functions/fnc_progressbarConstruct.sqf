@@ -24,7 +24,7 @@ if (_position isEqualTo []) exitWith {
 _target playMove "Acts_carFixingWheel";
 
 [
-    19,
+    GVAR(buildTime),
     [_target],
     {
         (_this select 0) params ["_target"];

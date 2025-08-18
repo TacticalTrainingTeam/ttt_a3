@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=154;
+		nextID=166;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5984.4551,50.579994,4767.6353};
-		dir[]={-0.50171578,-0.41445932,0.75928468};
-		up[]={-0.22848998,0.91006655,0.34579095};
-		aside[]={0.83431631,-8.9916284e-08,0.55129385};
+		pos[]={5936.7441,7.6433673,4801.0391};
+		dir[]={-0.89370924,-0.33833593,0.29490581};
+		up[]={-0.32131693,0.94100124,0.10602826};
+		aside[]={0.31338173,-1.6821286e-07,0.94969994};
 	};
 };
 binarizationWanted=0;
@@ -42,6 +42,7 @@ addons[]=
 	"A3_Armor_F_Beta_APC_Tracked_01",
 	"ace_repair",
 	"ace_vehicle_damage",
+	"acre_sys_intercom",
 	"A3_Structures_F_Civ_Camping",
 	"ace_dragging"
 };
@@ -157,12 +158,19 @@ class AddonsMetaData
 		};
 		class Item15
 		{
+			className="acre_sys_intercom";
+			name="ACRE2 - Vehicle Intercom";
+			author="ACRE2Team";
+			url="https://github.com/IDI-Systems/acre2";
+		};
+		class Item16
+		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item16
+		class Item17
 		{
 			className="ace_dragging";
 			name="ACE3 - Dragging";
@@ -1448,7 +1456,7 @@ class Mission
 		class Item58
 		{
 			dataType="Trigger";
-			position[]={5919.041,5,4790.8389};
+			position[]={5919.3062,5,4768.6875};
 			class Attributes
 			{
 				sizeA=21.708;
