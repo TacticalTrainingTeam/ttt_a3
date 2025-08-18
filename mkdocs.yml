@@ -1,7 +1,54 @@
 site_name: "Tactical Training Team Mod Documentation"
 
+extra_css:
+  - stylesheets/extra.css
+
 theme:
-  name: readthedocs
+  name: material
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+    - navigation.path
+    - navigation.indexes
+
+    - search.suggest
+    - search.highlight
+    - search.share
+
   hljs_languages:
     - sqf
     - c++
@@ -60,3 +107,4 @@ nav:
    - Compat TSP: addons/compat_tsp.md
    - Compat Vanilla: addons/compat_vanilla.md
    - Compat XEH Fix: addons/compat_xeh_fix.md
+ - Beitragen: contribute.md

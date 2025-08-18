@@ -13,7 +13,7 @@ Enthält Uniformen in allen TTT Farben. Es gibt drei Tarnvarianten: _BW Flecktar
 - `ttt_Uniform_Green_US_Desert`
 - `ttt_Uniform_Grey_US_Desert`
 - `ttt_Uniform_Orange_US_Desert`
-- `ttt_Unifrom_Silver_US_Desert`
+- `ttt_Uniform_Silver_US_Desert`
 - `ttt_Uniform_Platinum_US_Desert`
 - `ttt_Uniform_Red_US_Desert`
 - `ttt_Uniform_Violet_US_Desert`
@@ -29,7 +29,7 @@ Enthält Uniformen in allen TTT Farben. Es gibt drei Tarnvarianten: _BW Flecktar
 - `ttt_Uniform_Gold_BW_Flecktarn`
 - `ttt_Uniform_Green_BW_Flecktarn`
 - `ttt_Uniform_Grey_BW_Flecktarn`
-- `ttt_Unifrom_Silver_BW_Flecktarn`
+- `ttt_Uniform_Silver_BW_Flecktarn`
 - `ttt_Uniform_Orange_BW_Flecktarn`
 - `ttt_Uniform_Red_BW_Flecktarn`
 - `ttt_Uniform_Violet_BW_Flecktarn`

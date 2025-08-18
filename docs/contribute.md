@@ -17,7 +17,7 @@
     - Zeus Enhanced <https://steamcommunity.com/sharedfiles/filedetails/?id=1779063631>
 7. In der Kommandozeile `hemtt launch` ausführen, um Arma 3 mit dem Basismods zu starten
 
-Für CUP, RHS, BWmod etc. sind zum Testen weitere Mods erforderlich, diese sind in der [.hemtt/launch.toml](.hemtt/launch.toml) angeben.
+Für CUP, RHS, BWmod etc. sind zum Testen weitere Mods erforderlich, diese sind in der .hemtt/launch.toml angeben.
 
 ## Entwickeln mit lokalen Mods
 
@@ -59,4 +59,4 @@ Bitte beachte, dass alle Mitwirkenden an diesem Projekt Freiwillige sind und die
 
 Im Code wird Tactical Training Team immer klein geschrieben, also `ttt`, im Interface immer groß `TTT`.
 
-Als `author` wird in der `config.cpp` aus konsistenzgründen immer `ECSTRING(main,TactiaclTrainingTeam)` angegeben. In `authors[]`-Array können sich alle, die an der jeweiligen Component mitgearbeitet haben selbst eintragen.
+Als `author` wird in der `config.cpp` aus konsistenzgründen immer `ECSTRING(main,TacticalTrainingTeam)` angegeben. In `authors[]`-Array können sich alle, die an der jeweiligen Component mitgearbeitet haben selbst eintragen.

@@ -8,7 +8,7 @@ Wenn kein Objekt mit dem Variablennamen `ttt_teleport_teleporter` existiert wird
 
 JIP Spieler werden automatisch zum Marker "respawn" bewegt.
 
-## Settings
+## CBA-Einstellungen
 
 ```c++
 force ttt_teleport_enableTeleport = true;

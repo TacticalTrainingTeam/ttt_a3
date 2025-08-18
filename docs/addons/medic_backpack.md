@@ -13,7 +13,7 @@ Am einfachsten passiert das in der `Loadout.sqf` des Spielers mittels:
 (unitBackpack player) setVariable ["ttt_medic_backpack_hasTent", false];
 ```
 
-## Beispiel CBA-Einstellungen
+## CBA-Einstellungen
 
 ```c++
 force ttt_medic_backpack_enable = true;                                                                                     //default: false;

@@ -13,7 +13,7 @@ Am einfachsten passiert das in der Init des Objekts mittels:
 this setVariable ["ttt_repair_vehicle_hasWorkshop", false, true];
 ```
 
-## Beispiel CBA-Einstellungen
+## CBA-Einstellungen
 
 ```c++
 force ttt_repair_vehicle_enable = true;                                                                 //default: false;
