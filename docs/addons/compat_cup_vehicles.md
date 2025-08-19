@@ -1,3 +1,9 @@
+---
+tags:
+  - Kompatibilität
+  - CUP
+---
+
 # Compat CUP Fahrzeuge
 
 Eigene Erweiterungen und Anpassungen and CUP-Fahrzeugen.

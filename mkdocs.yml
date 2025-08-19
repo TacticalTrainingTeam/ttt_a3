@@ -1,4 +1,10 @@
-site_name: "Tactical Training Team Mod Dokumentation"
+site_name: Tactical Training Team Mod Dokumentation
+site_url: https://tacticaltrainingteam.github.io/ttt_a3/
+site_author: Tactical Training Team
+site_description: Dokumentation für die Modifikation des Tactical Training Teams für Arma 3.
+
+repo_url: https://github.com/TacticalTrainingTeam/ttt_a3
+repo_name: TacticalTrainingTeam/ttt_a3
 
 extra_css:
   - stylesheets/extra.css
@@ -33,6 +39,9 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 
+  language: de
+  logo: ttt_logo.png
+  favicon: ttt_favicon.ico
 
   features:
     - navigation.instant
@@ -52,21 +61,37 @@ theme:
     - search.highlight
     - search.share
 
-  hljs_languages:
-    - sqf
-    - c++
-    - yaml
-    - toml
-    - python
-  locale: de
-  logo: ttt_logo.png
+    - content.code.copy
+
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/TacticalTrainingTeam
+      name: Das TTT auf GitHub
+
+    - icon: fontawesome/brands/twitter
+      link: https://x.com/TTT_ArmA
+      name: Das TTT auf X/Twitter
+
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/tacticaltrainingteam/
+      name: Das TTT auf Instagram
+
+plugins:
+  - privacy
+  - search
+  - tags:
+      tags_file: tags.md
 
 nav:
  - Startseite:
    - index.md
    - Beitragen: contribute.md
+   - Tags: tags.md
  - Addons - Allgemein:
-     - Common: addons/common.md
      - Main: addons/main.md
      - Spotlight CUP: addons/spotlight_cup.md
      - Spotlight Event: addons/spotlight_event.md
@@ -76,6 +101,7 @@ nav:
      - Chat Befehle: addons/chatcommands.md
      - Clear HUD: addons/clearhud.md
  - Addons - Funktional:
+    - Common: addons/common.md
     - Advanced Slingloading: addons/advancedslingloading.md
     - Advanced Towing: addons/advancedtowing.md
     - Umgebungseffekte: addons/effects.md

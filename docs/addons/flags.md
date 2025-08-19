@@ -1,3 +1,9 @@
+---
+tags:
+  - Asset
+  - TTT Original
+---
+
 # Flaggen
 
 Enthält Trag- und Platzierbare Flaggen für alle Truppfarben.
@@ -17,6 +23,10 @@ Enthält Trag- und Platzierbare Flaggen für alle Truppfarben.
 - `ttt_flags_silber`
 - `ttt_flags_violett`
 - `ttt_flags_weiss`
+
+## Bekannte Fehler
+
+Beim tragen ist ein Teil der Flagge unsichtbar.
 
 ## Referenzen
 

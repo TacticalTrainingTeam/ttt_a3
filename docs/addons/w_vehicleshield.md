@@ -1,14 +1,20 @@
+---
+tags:
+  - Feature
+  - Gruppe W
+---
+
 # W-Vehicleshield
 
 Macht Fahrzeuge unzerstörbar. Einzelne Module sind aber weiterhin zerstörbar.
 
-## 3DEN-Attribute
+## Benutzung: 3DEN-Attribute
 
 Bei platzierten Fahrzeugen findet ihr die Option um das Schild zu aktivieren in den Attributen des Gebäudes im Abschnitt `W-Framework`.
 
 !["3DEN-Editor-Attribute mit dem W-Vehicle-Shield"](https://i.imgur.com/c9Irw2F.jpeg)
 
-## Funktionsaufruf (nicht empfohlen)
+## Benutzung: Funktionsaufruf (nicht empfohlen)
 
 Schreibt in die `init.sqf` folgendes:
 

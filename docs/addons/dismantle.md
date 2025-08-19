@@ -1,10 +1,15 @@
-# Dismantle
+---
+tags:
+  - Feature
+---
 
-Erlaubt Spielen die das nötige Werkzeug und die nötige Befähigung haben bestimmte Objekte zu zerlegen. Gedacht für Panzersperren und ähnliches.
+# Abbauen
 
-## Settings
+Erlaubt Spielern die das nötige Werkzeug und die nötige Befähigung haben bestimmte Objekte zu zerlegen. Gedacht für Panzersperren und ähnliches.
 
-```c++
+## CBA-Einstellungen
+
+``` cpp
 force ttt_dismantle_enable = true; //default false
 force ttt_dismantle_supportedObjects = "['Land_CzechHedgehog_01_new_F', 'Land_CzechHedgehog_01_old_F']";
 force ttt_dismantle_neededItem = "Toolkit"; //"" for no item needed

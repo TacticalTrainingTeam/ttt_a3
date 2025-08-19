@@ -1,3 +1,8 @@
+---
+tags:
+  - Feature
+---
+
 # Teleporter und Zuschauerkamera
 
 Fügt automatisch einem Objekt das den Variablennamen `ttt_teleport_teleporter` hat, eine Mausrad-Aktion für den W-Teleporter und eine Zuschauerkamera hinzu.
@@ -10,14 +15,14 @@ JIP Spieler werden automatisch zum Marker "respawn" bewegt.
 
 ## CBA-Einstellungen
 
-```c++
+``` cpp
 force ttt_teleport_enableTeleport = true;
 ```
 
 `true` schaltet die Teleporter-Logik an (Default-Wert).
 `false` schaltet die Teleporter-Logik aus.
 
-```c++
+``` cpp
 force ttt_teleport_enableJIPMoveToRespawn = true;
 ```
 

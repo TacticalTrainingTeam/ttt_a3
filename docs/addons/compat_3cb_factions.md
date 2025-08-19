@@ -1,4 +1,12 @@
+---
+tags:
+  - Kompatibilität
+  - 3CB
+---
+
 # Compat 3CB Factions
+
+Fügt einigen Rucksäcken die `ACE_Entrenchingtool` Fähigkeit hinzu.
 
 ## Abhängigkeiten
 

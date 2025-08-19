@@ -1,3 +1,8 @@
+---
+tags:
+  - Feature
+---
+
 # TTT Signalplane
 
 Eine Signalplane ist eine Möglichkeit einem Hubschrauber auch aus größerer Distanz optisch eine Landezone zu markieren.
@@ -9,13 +14,13 @@ Die Plane ist dabei nicht an den Spieler gebunden. Der abbauende Spieler muss nu
 Jeder zugelassene Rucksack hat standardmäßig eine Plane geladen. Sollte dies nicht gewünscht sein, muss auf dem Rucksack die Variable "ttt_signalpanel_hasTarp" auf false gesetzt werden.
 Am einfachsten passiert das in der `Loadout.sqf` des Spielers mittels:!
 
-```c++
+``` cpp
 (unitBackpack player) setVariable ["ttt_signalpanel_hasTarp", false];
 ```
 
 ## CBA-Einstellungen
 
-```c++
+``` cpp
 force ttt_signalpanel_enable = true;                                                //default: false;
 force ttt_signalpanel_supportedBackpacks = '["B_kitbag_rgr", "B_AssaultPack_rgr"]';   //default: '[]';
 force ttt_signalpanel_buildTime = 19; //default: 6;

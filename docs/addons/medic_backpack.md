@@ -1,3 +1,8 @@
+---
+tags:
+  - Feature
+---
+
 # TTT Medizinischer Rucksack
 
 Fügt einem Spieler mit dem korrekten Rucksacktypen die Möglichekeit hinzu ein Objekt, wie z.B. eine Plane über eine ACE-Eigeninteraktion aufzubauen.
@@ -9,13 +14,13 @@ Jeder Spieler dessen Rucksack einem zugelassenem Typen entspricht und derzeit ke
 Jeder zugelassene Rucksack hat standardmäßig eine Einrichtung geladen. Sollte dies nicht gewünscht sein, muss auf dem Rucksack die Variable "ttt_medic_backpack_hasTent" auf false gesetzt werden.
 Am einfachsten passiert das in der `Loadout.sqf` des Spielers mittels:
 
-```c++
+``` cpp
 (unitBackpack player) setVariable ["ttt_medic_backpack_hasTent", false];
 ```
 
 ## CBA-Einstellungen
 
-```c++
+``` cpp
 force ttt_medic_backpack_enable = true;                                                                                     //default: false;
 force ttt_medic_backpack_supportedBackpacks = '["B_Kitbag_rgr"]';                                                           //default: [];
 force ttt_medic_backpack_facitlityObject = "Land_MedicalTent_01_floor_dark_F";                                              //default: "Land_MedicalTent_01_floor_dark_F";
