@@ -1,5 +1,7 @@
 site_name: Tactical Training Team Mod Dokumentation
 site_url: https://tacticaltrainingteam.github.io/ttt_a3/
+site_author: Tactical Training Team
+site_description: Dokumentation für die Modifikation des Tactical Training Teams für Arma 3.
 
 repo_url: https://github.com/TacticalTrainingTeam/ttt_a3
 repo_name: TacticalTrainingTeam/ttt_a3
@@ -37,10 +39,6 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 
-  hljs_languages:
-    - c++
-    - yaml
-    - python
   language: de
   logo: ttt_logo.png
   favicon: ttt_favicon.ico
@@ -62,6 +60,8 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+
+    - content.code.copy
 
   icon:
     repo: fontawesome/brands/github
@@ -92,7 +92,6 @@ nav:
    - Beitragen: contribute.md
    - Tags: tags.md
  - Addons - Allgemein:
-     - Common: addons/common.md
      - Main: addons/main.md
      - Spotlight CUP: addons/spotlight_cup.md
      - Spotlight Event: addons/spotlight_event.md
@@ -102,6 +101,7 @@ nav:
      - Chat Befehle: addons/chatcommands.md
      - Clear HUD: addons/clearhud.md
  - Addons - Funktional:
+    - Common: addons/common.md
     - Advanced Slingloading: addons/advancedslingloading.md
     - Advanced Towing: addons/advancedtowing.md
     - Umgebungseffekte: addons/effects.md

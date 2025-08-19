@@ -14,7 +14,7 @@ Stellt die folgenden Funktionen zur Verfügung:
 
 (ehem. r_crate)
 
-```c++
+``` cpp
 [
     [container],
     [
@@ -34,7 +34,7 @@ Kann in der `initServer.sqf` oder während der Mission auf dem Server aufgerufen
 
 #### Beispiel
 
-```c++
+``` cpp
 [
     [fahrzeug_01, fahrzeug_03],
     [
@@ -48,7 +48,7 @@ Kann in der `initServer.sqf` oder während der Mission auf dem Server aufgerufen
 
 ### `ttt_common_fnc_addIntel`
 
-```c++
+``` cpp
 [intel, action, hide, [titel, text]] call ttt_common_fnc_addIntel;
 ```
 
@@ -62,7 +62,7 @@ In der `initPlayerLocal.sqf` ausführen.
 
 #### Beispiel
 
-```c++
+``` cpp
 [intel_01, "Lagekarte des Gegners untersuchen", false, ["gefundene Karte", "<img image='pictures\Karte_v3.paa' width=370 height=370/>"]] call ttt_common_fnc_addIntel;
 [intel_02, "Dokumente nehmen", true, ["eingesammeltes Dokument", "Hier stehen wichtige Informationen"]] call ttt_common_fnc_addIntel;
 ```
@@ -73,7 +73,7 @@ Diese Funktion erstellt Verstärkungstruppen mit einem Fahrzeug und sendet diese
 Sollte die Mod [LAMBS DANGER](https://steamcommunity.com/workshop/filedetails/?id=1858075458) aktiv sein, werden alle möglichen Wegpunkte durch das LAMBS-Äquivalent ersetzt.
 Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=723217262) bzw [ZEN Add](https://steamcommunity.com/sharedfiles/filedetails/?id=2319721149) nicht aktiv sein, werden Helikopter keine Fastrope oder Fallschirmsprünge durchführen, sondern immer landen.
 
-```c++
+``` cpp
 [spawnPos, releasePos, attackPos, side, vehicle, rpBehaviour, infantry, groupBehaviour, flyHeight] call ttt_common_fnc_callReinforcements;
 ```
 
@@ -97,7 +97,7 @@ Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 
 #### Beispiele
 
-```c++
+``` cpp
 [l_sp_1, l_rp_1, l_at_1, EAST, "O_APC_Wheeled_02_rcws_v2_F"] call ttt_common_fnc_callReinforcements;
 [[300.51, 5151.98, 806.54], releasepunkt_2, oplSpieler, WEST, "rsr_bergepanzer_flecktarn", 2] call ttt_common_fnc_callReinforcements;
 [l_sp_1, l_rp_1, l_at_1, EAST, "O_Heli_Light_02_dynamicLoadout_F", 2, ["O_Soldier_SL_F","O_Soldier_TL_F","O_Soldier_F","O_Soldier_F"]] call ttt_common_fnc_callReinforcements;
@@ -107,7 +107,7 @@ Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 
 ### `ttt_common_fnc_doFlakFire`
 
-```c++
+``` cpp
 handle = [object] call ttt_common_fnc_doFlakFire;
 ```
 
@@ -118,25 +118,25 @@ Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 
 `handle_01` ist ein Identifikator mit dem die Funktion wieder beendet werden kann, indem der Per-Frame-Handler entfernt wird. Um das Flakfeuer wieder zu beenden, in einen weiteren Trigger folgendes in die Aktivierung schreiben:
 
-```c++
+``` cpp
 [handle_01] call CBA_fnc_removePerFrameHandler;
 ```
 
 #### Beispiel
 
-```c++
+``` cpp
 handle_01 = [flak_01] call ttt_common_fnc_doFlakFire;
 ```
 
 ### `ttt_common_fnc_setAISkill`
 
-```c++
+``` cpp
 [unit, general, courage, aimingAccuracy, aimingShake, aimingSpeed, commanding, spotDistance, spotTime, reloadSpeed] call ttt_common_fnc_setAISkill;
 ```
 
 Wenn nur die `unit` angegeben wird, werden die Default Werte genutzt:
 
-```c++
+``` cpp
 ["_general",        0.75, [0.0]],
 ["_courage",        0.75, [0.0]],
 ["_aimingAccuracy", 0.65, [0.0]],
@@ -160,14 +160,14 @@ Wenn nur die `unit` angegeben wird, werden die Default Werte genutzt:
 
 #### Beispiel
 
-```c++
+``` cpp
 //Make a rookie
 [ai_01, 0.45, 0.45, 0.25, 0.25, 0.25, 0.45, 0.45, 0.45, 0.45] call ttt_common_fnc_setAISkill;
 ```
 
 ### `ttt_common_fnc_setAISkillLevel`
 
-```c++
+``` cpp
 [unit, "Skill-Level"] call ttt_fnc_common_setAISkillLevel;
 ```
 
@@ -183,7 +183,7 @@ Bei fehlender oder falscher Angabe wird "Veteran" ausgewählt. Die Werte innerha
 
 #### Beispiele
 
-```c++
+``` cpp
 [ai_01, "Recruit"] call ttt_fnc_common_setAISkillLevel;
 [_x_, "Veteran"] call ttt_fnc_common_setAISkillLevel;
 ```

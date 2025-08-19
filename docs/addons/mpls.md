@@ -11,7 +11,7 @@ Inspiriert von [W] Millers <https://gitlab.gruppe-w.de/Missionsbau/Framework/-/t
 
 ## `ttt_mpls_fnc_saveLoadout`
 
-```c++
+``` cpp
 [player, getPlayerUID player] call ttt_mpls_fnc_saveLoadout;
 ```
 

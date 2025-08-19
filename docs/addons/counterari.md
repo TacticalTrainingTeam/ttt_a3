@@ -20,7 +20,7 @@ In diesem Modul können noch Einstellungen vorgenommen werden, die sich auf das 
 
 **Wichtig: Von beiden Modulen darf jeweils nur eins pro Mission verbaut werden. Alle jeweiligen Fahrzeuge sind daran zu synchronisieren.** Dementsprechend kann es nicht mehr als eine Schuss-/Beschussgruppe geben.
 
-```c++
+``` cpp
 vehicle addEventhandler ["Fired", {
     [
         _this select 0,
@@ -39,7 +39,7 @@ vehicle addEventhandler ["Fired", {
 
 Diese Funktion ermöglicht es auch auf einen beliebeigen Punkt schießen zu lassen.
 
-```c++
+``` cpp
 [target, radius, shots, decrementing, vehicles] call ttt_counterari_fnc_positionFire;
 ```
 

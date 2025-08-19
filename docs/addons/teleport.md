@@ -15,14 +15,14 @@ JIP Spieler werden automatisch zum Marker "respawn" bewegt.
 
 ## CBA-Einstellungen
 
-```c++
+``` cpp
 force ttt_teleport_enableTeleport = true;
 ```
 
 `true` schaltet die Teleporter-Logik an (Default-Wert).
 `false` schaltet die Teleporter-Logik aus.
 
-```c++
+``` cpp
 force ttt_teleport_enableJIPMoveToRespawn = true;
 ```
 
