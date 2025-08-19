@@ -1,3 +1,8 @@
+---
+tags:
+  - Feature
+---
+
 # Chat Commands
 
 Stellt Chat Befehle zur Verfügung um im Notfall die Mission zu beenden oder einen neuen Zeus festzulegen. Um den Chat in Arma 3 zu öffnen drücke die <kbd>-</kbd>-Taste. Die Befehle beginnen immer mit einem <kbd>#</kbd>. Für alle Befehle muss man Admin sein (entweder "voted" oder "logged").

@@ -1,3 +1,9 @@
+---
+tags:
+  - Kompatibilität
+  - BWA3
+---
+
 # Compat BWmod
 
 ## Eagle IV

@@ -1,3 +1,9 @@
+---
+tags:
+  - Asset
+  - TTT Original
+---
+
 # Insignien
 
 Fügt die TTT Farben als Schulterinsignien (linke Schulter) hinzu.

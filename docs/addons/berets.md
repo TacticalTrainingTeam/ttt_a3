@@ -1,3 +1,9 @@
+---
+tags:
+  - Asset
+  - TTT Original
+---
+
 # Barette
 
 Enthält Barette in allen TTT Farben.

@@ -1,3 +1,8 @@
+---
+tags:
+  - Feature
+---
+
 # Abbauen
 
 Erlaubt Spielern die das nötige Werkzeug und die nötige Befähigung haben bestimmte Objekte zu zerlegen. Gedacht für Panzersperren und ähnliches.

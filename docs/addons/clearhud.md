@@ -1,3 +1,8 @@
+---
+tags:
+  - Feature
+---
+
 # Clear HUD
 
 Blendet den Chat aus. Fügt einen Keybind hinzu um den Chat wieder einzublenden. Basierd auf _Soldias Clearhud_.

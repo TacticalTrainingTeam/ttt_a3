@@ -1,3 +1,9 @@
+---
+tags:
+  - Feature
+  - User
+---
+
 # Screenshotmodus
 
 Mit <kbd>Strg</kbd>+<kbd>F12</kbd> könnt ihr das Ingame-UI ausblenden.

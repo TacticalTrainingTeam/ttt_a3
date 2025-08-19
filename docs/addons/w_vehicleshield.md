@@ -1,3 +1,9 @@
+---
+tags:
+  - Feature
+  - Gruppe W
+---
+
 # W-Vehicleshield
 
 Macht Fahrzeuge unzerstörbar. Einzelne Module sind aber weiterhin zerstörbar.

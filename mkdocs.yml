@@ -1,4 +1,5 @@
-site_name: "Tactical Training Team Mod Dokumentation"
+site_name: Tactical Training Team Mod Dokumentation
+site_url: https://tacticaltrainingteam.github.io/ttt_a3/
 
 repo_url: https://github.com/TacticalTrainingTeam/ttt_a3
 repo_name: TacticalTrainingTeam/ttt_a3
@@ -79,10 +80,17 @@ extra:
       link: https://www.instagram.com/tacticaltrainingteam/
       name: Das TTT auf Instagram
 
+plugins:
+  - privacy
+  - search
+  - tags:
+      tags_file: tags.md
+
 nav:
  - Startseite:
    - index.md
    - Beitragen: contribute.md
+   - Tags: tags.md
  - Addons - Allgemein:
      - Common: addons/common.md
      - Main: addons/main.md

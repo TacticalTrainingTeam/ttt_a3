@@ -1,3 +1,9 @@
+---
+tags:
+  - Feature
+  - Gruppe W
+---
+
 # W-Buildingshield
 
 Macht ein Gebäude unzerstörbar, aber die Fenster-Scheiben können weiterhin zerstört werden.
