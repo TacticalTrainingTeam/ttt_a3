@@ -1,6 +1,6 @@
 # Framework Teleporter
 
-Adds a teleporter to teleport to your squad or vehicle after a technical disconnect.
+Stellt Funktionen für einen Teleporter zur Verfügung.
 
 ## Referenzen
 

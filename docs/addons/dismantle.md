@@ -1,8 +1,8 @@
-# Dismantle
+# Abbauen
 
-Erlaubt Spielen die das nötige Werkzeug und die nötige Befähigung haben bestimmte Objekte zu zerlegen. Gedacht für Panzersperren und ähnliches.
+Erlaubt Spielern die das nötige Werkzeug und die nötige Befähigung haben bestimmte Objekte zu zerlegen. Gedacht für Panzersperren und ähnliches.
 
-## Settings
+## CBA-Einstellungen
 
 ```c++
 force ttt_dismantle_enable = true; //default false

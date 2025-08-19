@@ -72,7 +72,7 @@ Sollte die Mod [ACHILLES](https://steamcommunity.com/workshop/filedetails/?id=72
 ```
 
 - **spawnPos**:  OBJECT or ARRAY format Position - Wo wird die Verstärkung mit Fahrzeug erstellt, wovon sie sich dann in Bewegung setzt
- -**releasePos**: OBJECT or ARRAY format Position - Wo wird die Infanterie absitzen, um zu Fuß anzugreifen
+- **releasePos**: OBJECT or ARRAY format Position - Wo wird die Infanterie absitzen, um zu Fuß anzugreifen
 - **attackPos**: OBJECT or ARRAY format Position - Welchen Bereich soll die Infanterie und ggf. das Fahrzeug angreifen
 - **side**: SIDE - Welcher Seite sollen die neuen Einheiten angehören
 - **vehicle**: STRING - Welches Fahrzeug soll die Infanterie transportieren
@@ -110,19 +110,16 @@ handle = [object] call ttt_common_fnc_doFlakFire;
 
 Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 
-#### Beispiel
-
-1. Eine Flak-Einheit setzen und z.B. `flak_01` als Variablennamen vergeben
-2. Einen Trigger platzieren und in die Aktivierung eintragen:
-
-```c++
-handle_01 = [flak_01] call ttt_common_fnc_doFlakFire;
-```
-
 `handle_01` ist ein Identifikator mit dem die Funktion wieder beendet werden kann, indem der Per-Frame-Handler entfernt wird. Um das Flakfeuer wieder zu beenden, in einen weiteren Trigger folgendes in die Aktivierung schreiben:
 
 ```c++
 [handle_01] call CBA_fnc_removePerFrameHandler;
+```
+
+#### Beispiel
+
+```c++
+handle_01 = [flak_01] call ttt_common_fnc_doFlakFire;
 ```
 
 ### `ttt_common_fnc_setAISkill`
@@ -145,13 +142,17 @@ Wenn nur die `unit` angegeben wird, werden die Default Werte genutzt:
 ["_reloadSpeed",    0.75, [0.0]]
 ```
 
-Refrenzen: <https://community.bistudio.com/wiki/setSkill>
-Approximate ranges are:
-Novice < 0.25
-Rookie >= 0.25 and <= 0.45
-Recruit > 0.45 and <= 0.65
-Veteran > 0.65 and <= 0.85
-Expert > 0.85
+#### Referenzen
+
+<https://community.bistudio.com/wiki/setSkill>
+
+- Novice < 0.25
+- Rookie >= 0.25 and <= 0.45
+- Recruit > 0.45 and <= 0.65
+- Veteran > 0.65 and <= 0.85
+- Expert > 0.85
+
+#### Beispiel
 
 ```c++
 //Make a rookie
@@ -181,15 +182,21 @@ Bei fehlender oder falscher Angabe wird "Veteran" ausgewählt. Die Werte innerha
 [_x_, "Veteran"] call ttt_fnc_common_setAISkillLevel;
 ```
 
-#### Quellen
+#### Referenzen
 
 <https://community.bistudio.com/wiki/setSkill>
 
+- Novice < 0.25
+- Rookie >= 0.25 and <= 0.45
+- Recruit > 0.45 and <= 0.65
+- Veteran > 0.65 and <= 0.85
+- Expert > 0.85
+
 ## ACE-Fortify Presets
 
-Definiert Presets für ACE-Fortify, die in spontanen Missionen und Trainings genutzt werden können:
+Definiert Vorlagen für ACE-Fortify, die in Missionen und Trainings genutzt werden können:
 
-Benutzung:
+### Benutzung
 
 1. `ACE_Fortify` an Spieler ausgeben
 2. als Admin im Chat `#ace-fortify blufor presetname` eingeben, `presetname` durch eins der unten angegebenen Presets ersetzen.
@@ -203,7 +210,9 @@ Folgendes Presets stehen zur Verfügung:
 - `TTT_Camping` für Übernachtungen (z.B. in Patrouillen)
 - `TTT_GM` enthält Assets auf dem GM-DLC, nicht speziell für ein bestimmtes Szenario gedacht
 
-Siehe auch [Fortify Framework](https://ace3.acemod.org/wiki/framework/fortify-framework)
+### Referenzen
+
+[ACE Fortify Framework](https://ace3.acemod.org/wiki/framework/fortify-framework)
 
 ## Kisten
 
@@ -253,7 +262,7 @@ Stellt eine Komposition zur Verfügung, um immer benutzte Module beim Anfang ein
 - Zeus `zeus_1`
 - Zeus `zeus_2`
 - Zeus Missionsbauer -> SteamID eintragen!
-- Leerer Marker `respawn` (TTT-Flagge mit Zuschauerkamera und techn. Teleport wird automatisch erzeugt durch `ttt_teleport`-Addon)
+- Leerer Marker `respawn` (TTT-Flagge mit Zuschauerkamera und techn. Teleport wird automatisch erzeugt durch [Teleport](teleport.md))
 - 2x Zivilist `zeus` + `zeus_1`
 
 Benutzung: Im 3DEN-Editor <kbd>F2</kbd> Compositions -> Props -> Other -> Tactical Training Team
