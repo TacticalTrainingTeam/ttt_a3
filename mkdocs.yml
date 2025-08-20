@@ -143,9 +143,8 @@ nav:
      - Clear HUD: addons/clearhud.md
  - Addons - Funktional:
     - Common:
-      - addons/common.md
       - Funktionen: addons/common/functions.md
-      - Assets: addons/common/assets.md
+      - Gemeinsame Objekte: addons/common/objects.md
     - Advanced Slingloading: addons/advancedslingloading.md
     - Advanced Towing: addons/advancedtowing.md
     - Umgebungseffekte: addons/effects.md

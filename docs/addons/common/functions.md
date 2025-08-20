@@ -1,6 +1,6 @@
 ---
 tags:
-  - Asset
+  - Funktionen
 ---
 
 Stellt die folgenden Funktionen zur Verfügung:
