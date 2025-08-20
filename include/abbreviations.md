@@ -17,3 +17,4 @@
 *[UAV]: Unmanned Arial Vehicle
 *[VFX]: Visual Effects
 *[JIP]: Join in Progress
+*[RSR]: Redd Stura Reimchen
