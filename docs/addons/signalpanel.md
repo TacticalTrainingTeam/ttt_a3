@@ -21,9 +21,9 @@ Am einfachsten passiert das in der `Loadout.sqf` des Spielers mittels:!
 ## CBA-Einstellungen
 
 ``` cpp
-force ttt_signalpanel_enable = true;                                                //default: false;
-force ttt_signalpanel_supportedBackpacks = '["B_kitbag_rgr", "B_AssaultPack_rgr"]';   //default: '[]';
-force ttt_signalpanel_buildTime = 19; //default: 6;
+force ttt_signalpanel_enable = true;                             //default: false;
+force ttt_signalpanel_supportedBackpacks = '["B_kitbag_rgr"]';   //default: '[]';
+force ttt_signalpanel_buildTime = 6;                             //default: 6;
 ```
 
 ## Beispielbild

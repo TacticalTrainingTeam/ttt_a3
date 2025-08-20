@@ -20,13 +20,6 @@ Bei selbst platzierten Gebäuden findet ihr die Option um das Schild zu aktivier
 
 !["3DEN-Editor-Attribute mit den Optionen für das Building-Shield"](https://i.imgur.com/Iw1i6Ou.jpeg)
 
-## Referenzen
-
-Danke an Miller von Gruppe W, der uns das Skript zur Verfügung gestellt hat.
-<https://gitlab.gruppe-w.de/Missionsbau/Framework/-/tree/master/addons/3den>
-
-<https://gitlab.gruppe-w.de/Missionsbau/Framework/-/tree/master/addons/API/functions>
-
 ## Maintainer
 
 - Andx
