@@ -8,9 +8,9 @@ tags:
 
 Fügt einigen Rucksäcken die `ACE_Entrenchingtool` Fähigkeit hinzu.
 
-## Abhängigkeiten
-
-- 3CB Factions <https://steamcommunity.com/sharedfiles/filedetails/?id=1673456286>
+- `UK3CB_B_Bedroll_Shovel_Backpack_KHK`
+- `UK3CB_B_Bedroll_Shovel_Backpack_GRY`
+- `UK3CB_B_Bedroll_Shovel_Backpack_GRN`
 
 ## Maintainer
 

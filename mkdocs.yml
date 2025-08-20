@@ -1,5 +1,5 @@
 site_name: Tactical Training Team Mod Dokumentation
-site_url: https://tacticaltrainingteam.github.io/ttt_a3/
+site_url: https://docs.tacticalteam.de
 site_author: Tactical Training Team
 site_description: Dokumentation für die Modifikation des Tactical Training Teams für Arma 3.
 
@@ -62,6 +62,7 @@ theme:
     - search.share
 
     - content.code.copy
+    - content.tooltips
 
   icon:
     repo: fontawesome/brands/github
@@ -83,8 +84,48 @@ extra:
 plugins:
   - privacy
   - search
-  - tags:
-      tags_file: tags.md
+  - tags
+
+markdown_extensions:
+
+  # Python Markdown
+  - abbr
+  - attr_list
+  - admonition
+  - def_list
+  - footnotes
+
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      use_pygments: true
+      linenums: true
+      anchor_linenums: true
+      line_spans: __span
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - include/abbreviations.md
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
 nav:
  - Startseite:
@@ -101,7 +142,9 @@ nav:
      - Chat Befehle: addons/chatcommands.md
      - Clear HUD: addons/clearhud.md
  - Addons - Funktional:
-    - Common: addons/common.md
+    - Common:
+      - Funktionen: addons/common/functions.md
+      - Gemeinsame Objekte: addons/common/objects.md
     - Advanced Slingloading: addons/advancedslingloading.md
     - Advanced Towing: addons/advancedtowing.md
     - Umgebungseffekte: addons/effects.md

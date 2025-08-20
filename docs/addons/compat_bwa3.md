@@ -14,10 +14,6 @@ Fügt dem Eagle IV zwei abnehmbare Rucksäcke `BWA3_PatrolPack_Fleck`/`BWA3_Patr
 
 Sperrt die Plätze 13 und 14 des NH-90, da diese unter dem Hubschrauber sitzen.
 
-### Referenzen
-
-<https://ace3.acemod.org/wiki/framework/interactionmenu-framework#22-vehicle-interactions-based-on-animations>
-
 ## ACRE
 
 Konfiguriert alle Fahrzeuge mit den gleichen Rack Einstellungen:
@@ -27,10 +23,6 @@ Konfiguriert alle Fahrzeuge mit den gleichen Rack Einstellungen:
 - Rack 3: SEM90 (Funkkreis C)
 
 Vereinheitlicht außerdem das Infanterietelefon und die Bordverständigungsanlage.
-
-## Abhängigkeiten
-
-- BWmod <https://steamcommunity.com/sharedfiles/filedetails/?id=1200127537>
 
 ## Maintainer
 

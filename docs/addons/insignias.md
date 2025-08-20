@@ -1,6 +1,6 @@
 ---
 tags:
-  - Asset
+  - Objekte
   - TTT Original
 ---
 
@@ -48,9 +48,7 @@ Abzeichen:
 
 ## Benutzung
 
-`[this, "TTT_Blue"] call BIS_fnc_setUnitInsignia;` in der Init-Zeile einer Einheit für die große Variante
-
-`[this, "TTT_platinum_emblem"] call BIS_fnc_setUnitInsignia;` in der Init-Zeile einer Einheit für die Abzeichen-Variante
+`[this, "TTT_Blue"] call BIS_fnc_setUnitInsignia;` in der Init-Zeile einer Einheit für die große Variante.
 
 ## Maintainer
 

@@ -16,7 +16,7 @@ Bei platzierten Fahrzeugen findet ihr die Option um das Schild zu aktivieren in 
 
 ## Benutzung: Funktionsaufruf (nicht empfohlen)
 
-Schreibt in die `init.sqf` folgendes:
+Schreibt in die `init.sqf` z.B. folgendes:
 
 1. `[Vehicle] call ttt_w_vehicleshield_fnc_addVehicleShield;`
 
@@ -32,13 +32,6 @@ Schreibt in die `init.sqf` folgendes:
 * 6 (Optional):      NUMBER - How many hits exceeding the normal damage limit can the vehicle take? Default: 20
 If Arg. 5 is set to true, the vehicle can be damaged up to 80%. More damage is blocked and each hit that would theoretically "kill" the vehicle get's counted as "excessive hit".
 Once the threshold set in arg 6 is reached, the vehicle can be destroyed with the next hit.
-
-## Referenzen
-
-Danke an Miller von Gruppe W, der uns das Skript zur Verfügung gestellt hat.
-<https://gitlab.gruppe-w.de/Missionsbau/Framework/-/blob/master/addons/API/functions/fnc_addVehicleShield.sqf>
-
-<https://wiki.gruppe-w.de/m_framework_vehicleshield.html>
 
 ## Maintainer
 

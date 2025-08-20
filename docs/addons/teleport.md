@@ -11,23 +11,14 @@ Wenn kein `respawn`-Marker in der Mission vorhanden ist, wird einer im [0,0,0]-E
 
 Wenn kein Objekt mit dem Variablennamen `ttt_teleport_teleporter` existiert wird am `respawn`-Marker eine TTT-Flagge erzeugt und die Aktionen dort hinzugefügt.
 
-JIP Spieler werden automatisch zum Marker "respawn" bewegt.
+JIP Spieler werden automatisch zum Marker `respawn` bewegt.
 
 ## CBA-Einstellungen
 
 ``` cpp
-force ttt_teleport_enableTeleport = true;
+force ttt_teleport_enableTeleport = false; //aktiviert die Teleport-Logik - default: true
+force ttt_teleport_enableJIPMoveToRespawn = false; //aktiviert den Teleport für JIP Spieler - default: true
 ```
-
-`true` schaltet die Teleporter-Logik an (Default-Wert).
-`false` schaltet die Teleporter-Logik aus.
-
-``` cpp
-force ttt_teleport_enableJIPMoveToRespawn = true;
-```
-
-`true` bewegt JIP Spieler automatisch zum Marker "respawn" (Default-Wert).
-`false` schaltet die JIP Logik aus.
 
 ## Maintainer
 

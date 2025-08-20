@@ -18,7 +18,8 @@ In diesem Modul können noch Einstellungen vorgenommen werden, die sich auf das 
 - Radius verkleinern: Soll der Radius mit fortlaufendem Beschuss verkleinert werden.
 - Verzögerung: Nach wie vielen Sekunden, gestartet nach dem erstem eigenem Schuss, soll die Konterartillerie ihr Feuer beginnen.
 
-**Wichtig: Von beiden Modulen darf jeweils nur eins pro Mission verbaut werden. Alle jeweiligen Fahrzeuge sind daran zu synchronisieren.** Dementsprechend kann es nicht mehr als eine Schuss-/Beschussgruppe geben.
+!!! warning
+    Wichtig: Von beiden Modulen darf jeweils nur eins pro Mission verbaut werden. Alle jeweiligen Fahrzeuge sind daran zu synchronisieren. Dementsprechend kann es nicht mehr als eine Schuss-/Beschussgruppe geben.
 
 ``` cpp
 vehicle addEventhandler ["Fired", {

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Asset
+  - Objekte
   - TTT Original
 ---
 
@@ -27,10 +27,6 @@ Enthält Trag- und Platzierbare Flaggen für alle Truppfarben.
 ## Bekannte Fehler
 
 Beim tragen ist ein Teil der Flagge unsichtbar.
-
-## Referenzen
-
-<https://ace3.acemod.org/wiki/framework/flags-framework>
 
 ## Maintainer
 

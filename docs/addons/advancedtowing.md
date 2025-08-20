@@ -13,10 +13,6 @@ Um bestimmten fahrzeugen die Funktion zu geben, müsst ihr folgendes in die `ini
 
 `missionNamespace setVariable ["SA_TOW_SUPPORTED_VEHICLES_OVERRIDE", ["ClassName_des_Fahrzeugs"]];`
 
-## Referenzen
-
-<https://github.com/sethduda/AdvancedTowing>
-
 ## Maintainer
 
 - Andx
