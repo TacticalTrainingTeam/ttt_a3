@@ -21,7 +21,7 @@ Die Plane ist dabei nicht an den Spieler gebunden. Der abbauende Spieler muss nu
 
 ``` cpp
 force ttt_signalpanel_enable = true;                             //default: false;
-force ttt_signalpanel_supportedBackpacks = '["B_kitbag_rgr"]';   //default: '[]';
+force ttt_signalpanel_supportedBackpacks = '["B_kitbag_rgr", "B_AssaultPack_blk", "B_Carryall_khk"]';   //default: '[]';
 force ttt_signalpanel_buildTime = 6;                             //default: 6;
 ```
 
