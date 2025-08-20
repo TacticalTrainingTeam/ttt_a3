@@ -22,7 +22,7 @@ Am einfachsten passiert das in der `Loadout.sqf` des Spielers mittels:
 
 ``` cpp
 force ttt_medic_backpack_enable = true;                                        //default: false;
-force ttt_medic_backpack_supportedBackpacks = '["B_Kitbag_rgr"]'               //default: [];
+force ttt_medic_backpack_supportedBackpacks = '["B_Kitbag_rgr"]';              //default: [];
 force ttt_medic_backpack_facitlityObject = "Land_MedicalTent_01_floor_dark_F"; //default: "Land_MedicalTent_01_floor_dark_F";
 force ttt_medic_backpack_additionalItems = '["Land_FirstAidKit_01_open_F","Land_Defibrillator_F"]';  //default: [];
 force ttt_medic_backpack_buildTime = 4;                                        //default: 20;
