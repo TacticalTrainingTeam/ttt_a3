@@ -16,7 +16,7 @@ Bei platzierten Fahrzeugen findet ihr die Option um das Schild zu aktivieren in 
 
 ## Benutzung: Funktionsaufruf (nicht empfohlen)
 
-Schreibt in die `init.sqf` folgendes:
+Schreibt in die `init.sqf` z.B. folgendes:
 
 1. `[Vehicle] call ttt_w_vehicleshield_fnc_addVehicleShield;`
 

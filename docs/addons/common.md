@@ -185,7 +185,7 @@ Bei fehlender oder falscher Angabe wird "Veteran" ausgewählt. Die Werte innerha
 
 ``` cpp
 [ai_01, "Recruit"] call ttt_fnc_common_setAISkillLevel;
-[_x_, "Veteran"] call ttt_fnc_common_setAISkillLevel;
+[_x, "Veteran"] call ttt_fnc_common_setAISkillLevel;
 ```
 
 #### Referenzen
@@ -271,7 +271,7 @@ Stellt eine Komposition zur Verfügung, um immer benutzte Module beim Anfang ein
 - Leerer Marker `respawn` (TTT-Flagge mit Zuschauerkamera und techn. Teleport wird automatisch erzeugt durch [Teleport](teleport.md))
 - 2x Zivilist `zeus` + `zeus_1`
 
-Benutzung: Im 3DEN-Editor <kbd>F2</kbd> Compositions -> Props -> Other -> Tactical Training Team
+Benutzung: Im 3DEN-Editor ++f2++ Compositions -> Props -> Other -> Tactical Training Team
 
 ![Inhalt und Pfad zur Benutzung](https://i.imgur.com/kX7gUkp.jpeg)
 
