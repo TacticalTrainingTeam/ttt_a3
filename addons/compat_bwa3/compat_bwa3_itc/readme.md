@@ -2,13 +2,9 @@
 
 Fügt eine Version der PzH2000 hinzu, welche mit ITC geschossen werden kann.
 
-## Class Names
-
-- `itc_land_bwa3_pzh2000`
-- `itc_land_bwa3_pzh2000d`
-
 ## Abhängigkeiten
 
+- BWmod <https://steamcommunity.com/sharedfiles/filedetails/?id=1200127537>
 - ITC Landsystems <https://steamcommunity.com/sharedfiles/filedetails/?id=1388192893>
 
 ## Maintainer

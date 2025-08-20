@@ -1,13 +1,6 @@
-# RsR CUP
-
-## Transall 2
+# RsR RHS
 
 Fügt eine Transall in zwei Varianten hinzu.
-
-### Class Names
-
-- `rsr_c_161_viv`
-- `rsr_c_161`
 
 ## Abhängigkeiten
 
