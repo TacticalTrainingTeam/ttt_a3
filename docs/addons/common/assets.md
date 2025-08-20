@@ -1,3 +1,8 @@
+---
+tags:
+  - Feature
+---
+
 Stellt die folgeneden Nützlichen Dinge zur Verfügung:
 
 ## ACE-Fortify Presets
@@ -67,19 +72,19 @@ Stellt eine Komposition zur Verfügung, um immer benutzte Module beim Anfang ein
 - Leerer Marker `respawn` (TTT-Flagge mit Zuschauerkamera und techn. Teleport wird automatisch erzeugt durch [Teleport](teleport.md))
 - 2x Zivilist `zeus` + `zeus_1`
 
-Benutzung: Im 3DEN-Editor ++f2++ Compositions -> Props -> Other -> Tactical Training Team
+Benutzung: Im 3DEN-Editor ++f2++ "Compositions" -> "Props" -> "Other" -> "Tactical Training Team"
 
 ![Inhalt und Pfad zur Benutzung](https://i.imgur.com/kX7gUkp.jpeg)
 
 ## Bilder
 
-Stellt TTT-Bilder anderen Addons zur Verfügung.
+Stellt TTT-Bilder anderen Addons und Missionsbauern zur Verfügung.
 
 Zugriff auf die Bilder erfolgt über diesen Pfad `z\ttt\addons\common\data\bildname.paa`.
 
 ## Einheiten
 
-Fügt ein paar generische Einheiten (ohne eigenes Loadout), als Hilfe für einheiten-basierte Loadoutsystem wie z.B. Poppy oder [grad-loadout](https://github.com/gruppe-adler/grad-loadout), hinzu.
+Fügt ein paar generische Einheiten (ohne eigenes Loadout), als Hilfe für einheiten-basierte Loadoutsysteme, wie z.B. Poppy oder [grad-loadout](https://github.com/gruppe-adler/grad-loadout), hinzu.
 
 ## Maintainer
 
