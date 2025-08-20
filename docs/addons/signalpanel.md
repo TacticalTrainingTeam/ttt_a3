@@ -9,14 +9,13 @@ Eine Signalplane ist eine Möglichkeit einem Hubschrauber auch aus größerer Di
 Mit dieser Erweiterung können bestimmte Rucksäcke eine große farbige Plane transportieren, die der Spieler dann auf und abbauen kann.
 Die Plane ist dabei nicht an den Spieler gebunden. Der abbauende Spieler muss nur den richtigen Rucksack nutzen und derzeit nicht schon eine Plane transportieren.
 
-## Hinweis
+!!! info
+    Jeder zugelassene Rucksack hat standardmäßig eine Plane geladen. Sollte dies nicht gewünscht sein, muss auf dem Rucksack die Variable "ttt_signalpanel_hasTarp" auf false gesetzt werden.
+    Am einfachsten passiert das in der `Loadout.sqf` des Spielers mittels:!
 
-Jeder zugelassene Rucksack hat standardmäßig eine Plane geladen. Sollte dies nicht gewünscht sein, muss auf dem Rucksack die Variable "ttt_signalpanel_hasTarp" auf false gesetzt werden.
-Am einfachsten passiert das in der `Loadout.sqf` des Spielers mittels:!
-
-``` cpp
-(unitBackpack player) setVariable ["ttt_signalpanel_hasTarp", false];
-```
+    ``` cpp
+    (unitBackpack player) setVariable ["ttt_signalpanel_hasTarp", false];
+    ```
 
 ## CBA-Einstellungen
 

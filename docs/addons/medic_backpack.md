@@ -9,14 +9,13 @@ Fügt einem Spieler mit dem korrekten Rucksacktypen die Möglichekeit hinzu ein 
 Dies ist dann eine medizinische Einrichtung ("ace_medical_isMedicalFacility").
 Jeder Spieler dessen Rucksack einem zugelassenem Typen entspricht und derzeit keine Einrichtung transportiert, kann diese über eine ACE-Fremdinteraktion abbauen und woanders wieder aufbauen.
 
-## Hinweis
+!!! info
+    Jeder zugelassene Rucksack hat standardmäßig eine Einrichtung geladen. Sollte dies nicht gewünscht sein, muss auf dem Rucksack die Variable "ttt_medic_backpack_hasTent" auf false gesetzt werden.
+    Am einfachsten passiert das in der `Loadout.sqf` des Spielers mittels:
 
-Jeder zugelassene Rucksack hat standardmäßig eine Einrichtung geladen. Sollte dies nicht gewünscht sein, muss auf dem Rucksack die Variable "ttt_medic_backpack_hasTent" auf false gesetzt werden.
-Am einfachsten passiert das in der `Loadout.sqf` des Spielers mittels:
-
-``` cpp
-(unitBackpack player) setVariable ["ttt_medic_backpack_hasTent", false];
-```
+    ``` cpp
+    (unitBackpack player) setVariable ["ttt_medic_backpack_hasTent", false];
+    ```
 
 ## CBA-Einstellungen
 
