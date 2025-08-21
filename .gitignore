@@ -5,4 +5,4 @@ hemtt.exe
 *.biprivatekey
 .DS_Store
 /releases/*
-/.vscode/settings.json
+.cache/
