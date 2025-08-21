@@ -24,6 +24,9 @@ class CfgPatches {
             "ttt_common_uav_crate",
             "ttt_common_mark_crate",
             "ttt_common_paradrop_crate",
+            QGVAR(sana_crate),
+            QGVAR(sanb_crate),
+            QGVAR(sanc_crate)
         };
         weapons[] = {
             QGVAR(spraypaintMemes),
