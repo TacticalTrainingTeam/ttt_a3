@@ -106,7 +106,6 @@ if (isClass(configFile >> "CfgPatches" >> "lambs_danger") && !(_vehicle isKindOf
 	_infantryAtWp setWaypointType "SAD";
 };
 
-
 //Check ACEX Headless Client
 if (isClass (configFile >> "CfgPatches" >> "acex_headless") && acex_headless_enabled) then
 {
@@ -123,10 +122,10 @@ if !(_vehicle isKindOf "Air") then {_infantryGroup addVehicle _vehicle};						//
 	_x moveInCargo _vehicle;
 } forEach _infantryList;
 
-if ((_vehicle getVariable ["Achilles_var_noFastrope", false]) && (_rpBehaviour > 0) && (_vehicle isKindOf "Air")) exitWith
+if ((_rpBehaviour == 1) && !([_vehicle] call zen_compat_ace_fnc_canFastrope)) then
 {
-	["ACE3 or AR is not loaded!"] call ace_zeus_fnc_showMessage;
-	{deleteVehicle _x} forEach _infantryList;
+	["vehicle has no fastrope capabilities - switching..."] call ace_zeus_fnc_showMessage;
+	_rpBehaviour = 0;
 };
 
 //create invisible helipad if needed
@@ -142,31 +141,10 @@ if (_vehicle isKindOf "Air" && (_rpBehaviour > 0) && (isClass(configFile >> "Cfg
 	_vehicleUnloadWp setWaypointType "SCRIPTED";
 	private _script =
 	[
-		"\achilles\functions_f_achilles\scripts\fn_wpParadrop.sqf",
-		"\achilles\functions_f_achilles\scripts\fn_wpFastrope.sqf"
+		"\x\zen\addons\ai\functions\fnc_waypointParadrop.sqf",
+		"\x\zen\addons\compat_ace\functions\fnc_waypointFastrope.sqf"
 	] select (_rpBehaviour isEqualTo 1);
 	_vehicleUnloadWp setWaypointScript _script;
-	if (_rpBehaviour isEqualTo 1) then {
-		_vehicleUnloadWp setWaypointStatements ["true", "(vehicle this) setVariable ['wpDone', true, true]; hint 'ist true'"];
-		[
-			{_vehicle getVariable ["wpDone", false]},
-			{
-				params ["_infantryGroup", "_atPos", "_atSize"];
-				private _infantryAtWp = _infantryGroup addWaypoint [_atPos, _atSize];
-				if (isClass(configFile >> "CfgPatches" >> "lambs_danger") && !(_vehicle isKindOf "Air")) then	// LAMBS only if loaded and only for ground vehicles
-				{	
-					_infantryAtWp setWaypointType "SCRIPTED";
-					_infantryAtWp setWaypointScript "\z\lambs\addons\wp\scripts\fnc_wpRush.sqf";
-				} else
-				{
-					_infantryAtWp setWaypointType "SAD";
-				};
-				hint "WP gesetzt";
-			},
-			[_infantryGroup, _atPos, _atSize],
-			5
-		] call CBA_fnc_waitUntilAndExecute;
-	};
 } else
 {
 	_vehicleUnloadWp setWaypointBehaviour  "SAFE";
