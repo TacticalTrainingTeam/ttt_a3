@@ -136,7 +136,7 @@ if ((_rpBehaviour == 0) && (_vehicle isKindOf "Air") && (count nearestObjects [_
 
 // create a RP waypoint for deploying the units
 private _vehicleUnloadWp = _vehicleGroup addWaypoint [_rpPos, _rpSize];
-if (_vehicle isKindOf "Air" && (_rpBehaviour > 0) && (isClass(configFile >> "CfgPatches" >> "achilles_functions_f_ares"))) then
+if (_vehicle isKindOf "Air" && (_rpBehaviour > 0)) then
 {
 	_vehicleUnloadWp setWaypointType "SCRIPTED";
 	private _script =
