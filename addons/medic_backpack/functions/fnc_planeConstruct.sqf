@@ -34,4 +34,4 @@ private _arrayItems = nearestObjects [(getPos _plane), (parseSimpleArray GVAR(ad
 } forEach allCurators;
 
 _target switchMove "";
-diag_log format ["medical backpack item %1 was created at %2 by %3", _plane, _position, _target];
+INFO_3("Medical backpack item %1 was created at %2 by %3", _plane, _position, _target);
