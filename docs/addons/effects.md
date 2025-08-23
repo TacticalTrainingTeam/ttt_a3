@@ -10,7 +10,6 @@ Eine Sammlung immersiver VFX-Effekte, welche in Missionen dem Spieler die Sicht 
 ## Ausatemeffekt
 
 Vor den Mündern aller bestehenden Einheiten entstehet ein Effekt, welcher feuchte, ausatmende Luft immitiert.
-Der Effekt kann nicht beendet werden.
 Die Funktion muss lokal von jedem Spieler ausgeführt werden.
 Dazu bietet sich neben dem 3DEN-Editor-Modul die `initPlayerLocal.sqf` an:
 
