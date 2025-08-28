@@ -22,24 +22,24 @@ class CfgVehicles {
         displayName = CSTRING(displayName);                                                  // Name displayed in the menu
         icon = "\a3\Modules_F_Curator\Data\iconFlare_ca.paa";                                // Map icon. Delete this entry to use the default icon.
         portrait = "\a3\Modules_F_Curator\Data\portraitWeather_ca.paa";
-        category = "Zeus";//CSTRING(eden_category_TBD);
+        category = "Other";//CSTRING(eden_category_TBD);
         function = QFUNC(surrender);                                                         // Name of function triggered once conditions are met
-        functionPriority = 10;                                                               // Execution priority, modules with lower number are executed first. 0 is used when the attribute is undefined
+        functionPriority = 20;                                                               // Execution priority, modules with lower number are executed first. 0 is used when the attribute is undefined
         isGlobal = 0;                                                                        // 0 for server only execution, 1 for global execution, 2 for persistent global execution
         isTriggerActivated = 1;                                                              // 1 for module waiting until all synced triggers are activated
         isDisposable = 1;                                                                    // 1 if modules is to be disabled once it is activated (i.e. repeated trigger activation will not work)
         author = "EinStein";
-
-        canSetArea = 1;                                                                         // Allows for setting the area values in the Attributes menu in 3DEN
+/*
+        canSetArea = 1;                                                                      // Allows for setting the area values in the Attributes menu in 3DEN
         canSetAreaShape = 1;                                                                 // Allows for setting "Rectangle" or "Ellipse" in Attributes menu in 3DEN
 
         class AttributeValues
         {
             // This section allows you to set the default values for the attributes menu in 3DEN
-            size3[] = { 50, 50, -1 };                                                         // 3D size (x-axis radius, y-axis radius, z-axis radius)
+            size3[] = { 50, 50, -1 };                                                        // 3D size (x-axis radius, y-axis radius, z-axis radius)
             isRectangle = 0;                                                                 // Sets if the default shape should be a rectangle or ellipse
         };
-
+*/
         class Attributes: AttributesBase {
             class GVAR(unitCount): Edit {
             property = QGVAR(unitCount);                                                     // Unique property

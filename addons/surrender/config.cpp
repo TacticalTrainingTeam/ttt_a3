@@ -3,14 +3,14 @@
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
-        units[] = {};
+        units[] = {QGVAR(initSurrenderModule)};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"ttt_main","ace_common"};
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"EinStein"};
         url = ECSTRING(main,URL);
-        skipWhenMissingDependencies = 1;
+        //skipWhenMissingDependencies = 1;
         VERSION_CONFIG;
     };
 };
