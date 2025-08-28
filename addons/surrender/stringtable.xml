@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Surrender">
+        <Key ID="STR_ttt_Surrender_displayName">
+            <English>Surrender Module</English>
+            <German>Kapitulationsmodul</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_eden_category_TBD">
+            <English>ZZZ ED3N TEXT</English>
+            <German>ZZZ ED3N TEXT</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_unitCount_displayName">
+            <English>E Einheiten Grenze Anzahl</English>
+            <German>D Einheiten Grenze Anzahl</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_unitCount_tooltip">
+            <English>E Einheiten Grenze Anzahl Beschreibung</English>
+            <German>D Einheiten Grenze Anzahl Beschreibung</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_probability_displayName">
+            <English>E Wahrscheinlickeit</English>
+            <German>D Wahrscheinlickeit</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_probability_tooltip">
+            <English>E Wahrscheinlickeit Beschreibung</English>
+            <German>D Wahrscheinlickeit Beschreibung</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_side_displayName">
+            <English>E Seite</English>
+            <German>D Seite</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_side_tooltip">
+            <English>E Seite Beschreibung</English>
+            <German>D Seite Beschreibung</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_XY">
+            <English>TEXT</English>
+            <German>TEXT</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_module_description">
+            <English>E Beschreibung</English>
+            <German>D Beschreibung</German>
+        </Key>
+    </Package>
+</Project>
