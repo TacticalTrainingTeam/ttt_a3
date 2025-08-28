@@ -33,6 +33,14 @@
             <English>The panel was stowed into the backpack.</English>
             <German>"Die Plane wurde in den Rucksack gepackt."</German>
         </Key>
+        <Key ID="STR_ttt_Signalpanel_settingBuildTime_description">
+            <English>How many seconds does the player need to lay out the panel.</English>
+            <German>Wie viele Sekunden der Spieler braucht, um die Plane auszubreiten.</German>
+        </Key>
+        <Key ID="STR_ttt_Signalpanel_settingBuildTime_name">
+            <English>Buildtime</English>
+            <German>Bauzeit</German>
+        </Key>
         <Key ID="STR_ttt_Signalpanel_subcategory">
             <English>Signaling Panel</English>
             <German>Signalplane</German>

@@ -2,6 +2,10 @@
 
 Adds a teleporter to teleport to your squad or vehicle after a technical disconnect.
 
-## Referenzen
+## Quellen
 
-Source: <https://gitlab.gruppe-w.de/Missionsbau/Framework/-/tree/master/addons/teleporter?ref_type=heads>
+<https://gitlab.gruppe-w.de/Missionsbau/Framework/-/tree/master/addons/teleporter?ref_type=heads>
+
+## Maintainer
+
+- Andx
