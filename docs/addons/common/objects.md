@@ -26,7 +26,7 @@ Stellt eine Komposition zur Verfügung, um immer benutzte Module beim Anfang ein
 - Zeus `zeus_1`
 - Zeus `zeus_2`
 - Zeus Missionsbauer -> SteamID eintragen!
-- Leerer Marker `respawn` (TTT-Flagge mit Zuschauerkamera und techn. Teleport wird automatisch erzeugt durch [Teleport](teleport.md))
+- Leerer Marker `respawn` (TTT-Flagge mit Zuschauerkamera und techn. Teleport wird automatisch erzeugt durch [Teleport](../teleport.md))
 - 2x Zivilist `zeus` + `zeus_1`
 
 Benutzung: Im 3DEN-Editor ++f2++ "Compositions" -> "Props" -> "Other" -> "Tactical Training Team"
