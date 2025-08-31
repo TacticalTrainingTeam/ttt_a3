@@ -22,14 +22,21 @@ params [
 ];
 
 if (_activated) then {
+    private _unitCount = _logic getVariable [QGVAR(surrenderModule_unitCount), 5];
+    private _probability = _logic getVariable [QGVAR(surrenderModule_probability), 50];
+    private _side = _logic getVariable [QGVAR(surrenderModule_side), east];
 
-    /*
-    private _duration = _logic getVariable [QGVAR(stormModule_duration), 300];
-    private _effect = _logic getVariable [QGVAR(stormModule_effect), false];
-    private _stormType = _logic getVariable [QGVAR(stormModule_stormType), 0];
-    private _walk = _logic getVariable [QGVAR(stormModule_walk), true];
-    private _direction = _logic getVariable [QGVAR(stormModule_direction), 0];
-
-    [_duration, _effect, _stormType, _walk, _direction] call ttt_effects_fnc_stormInit;
-    */
+    [
+        {
+            params ["_logic", "_unitCount", "_probability", "_side"];
+            hint format ["tiggerArea: %1\ngetPosWorld: %2\n", triggerArea (_logic select 0), getPosWorld player];
+            /*if ((getPosWorld player) inArea _logic) then {
+                hint "Im Trigger"
+            } else {
+                hint "Außerhalb Trigger"
+            };*/
+        },
+        2,
+        [_logic, _unitCount, _probability, _side]
+    ] call CBA_fnc_addPerFrameHandler;
 };
