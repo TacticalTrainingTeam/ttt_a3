@@ -22,6 +22,7 @@ params [
 ];
 
 if (_activated) then {
+    private _area = _logic getVariable ["objectarea", [2.33, 3.22]];
     private _unitCount = _logic getVariable [QGVAR(surrenderModule_unitCount), 5];
     private _probability = _logic getVariable [QGVAR(surrenderModule_probability), 50];
     private _side = _logic getVariable [QGVAR(surrenderModule_side), east];
@@ -29,7 +30,7 @@ if (_activated) then {
     [
         {
             params ["_logic", "_unitCount", "_probability", "_side"];
-            hint format ["tiggerArea: %1\ngetPosWorld: %2\n", triggerArea (_logic select 0), getPosWorld player];
+            hint format ["Logic: %1\ngetPosWorld: %2\nLogicPos: %3\narea: %4, Variables: %5", _logic, getPosWorld player, getPosWorld (_logic select 0), _area, allVariables _logic];
             /*if ((getPosWorld player) inArea _logic) then {
                 hint "Im Trigger"
             } else {
