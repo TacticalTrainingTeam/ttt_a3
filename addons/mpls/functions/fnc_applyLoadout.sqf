@@ -7,7 +7,7 @@
  * 0: Player <OBJECT>
  *
  * Return Value:
- * 0: Sucess 
+ * 0: Sucess
  *
  * Example:
  * [this] call ttt_mpls_fnc_applyLoadout
@@ -17,10 +17,14 @@
 
 params ["_player"];
 
+if (!hasInterface) exitWith {};
+
 if ((GVAR(loadoutNamespace) getVariable [(getPlayerUID _player),[]]) isEqualTo []) exitWith {false};
 
-[_player, GVAR(loadoutNamespace) getVariable (getPlayerUID _player)] call CBA_fnc_setLoadout;
+private _loadout =  GVAR(loadoutNamespace) getVariable (getPlayerUID _player);
 
-INFO_1("Saved Loadout found for player %1 ,applying ...",_player);
+[_player, _loadout] call CBA_fnc_setLoadout;
+
+INFO_2("Saved Loadout found for player %1, applying %2",_player,_loadout);
 
 true
