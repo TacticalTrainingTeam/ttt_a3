@@ -21,5 +21,95 @@
             <English>Example</English>
             <German>Beispiel</German>
         </Key>
+
+        <!-- Medical entries -->
+        <Key ID="STR_ttt_Fieldmanual_medical_displayName">
+            <English>Medical Training</English>
+            <German>Sanitätsausbildung</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_medical_displayNameShort">
+            <English>Medical</English>
+            <German>Sanitäter</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_medical_description">
+            <English>Comprehensive medical training covering first aid, trauma care, and battlefield medicine procedures.</English>
+            <German>Umfassende medizinische Ausbildung mit Erster Hilfe, Traumaversorgung und Sanitätsdienst im Gefecht.</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_medical_tip">
+            <English>Always prioritize your own safety before treating casualties.</English>
+            <German>Stelle immer deine eigene Sicherheit sicher, bevor du Verwundete versorgst.</German>
+        </Key>
+
+        <!-- Logistic entries -->
+        <Key ID="STR_ttt_Fieldmanual_logistic_displayName">
+            <English>Logistics Training</English>
+            <German>Logistikausbildung</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_logistic_displayNameShort">
+            <English>Logistics</English>
+            <German>Logistik</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_logistic_description">
+            <English>Supply chain management, transportation, and resource distribution in military operations.</English>
+            <German>Versorgungsketten-Management, Transport und Ressourcenverteilung in militärischen Operationen.</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_logistic_tip">
+            <English>Efficient logistics can determine the success or failure of a mission.</English>
+            <German>Effiziente Logistik kann über Erfolg oder Misserfolg einer Mission entscheiden.</German>
+        </Key>
+
+        <!-- Engineer entries -->
+        <Key ID="STR_ttt_Fieldmanual_engineer_displayName">
+            <English>Engineer Training</English>
+            <German>Pionierausbildung</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_engineer_displayNameShort">
+            <English>Engineer</English>
+            <German>Pionier</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_engineer_description">
+            <English>Combat engineering including fortifications, demolitions, and obstacle construction/removal.</English>
+            <German>Gefechtstechnik einschließlich Befestigungen, Sprengungen und Hindernisbau/-beseitigung.</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_engineer_tip">
+            <English>Plan your engineering solutions carefully - mistakes can be costly.</English>
+            <German>Plane deine technischen Lösungen sorgfältig - Fehler können teuer werden.</German>
+        </Key>
+
+        <!-- EOD entries -->
+        <Key ID="STR_ttt_Fieldmanual_eod_displayName">
+            <English>EOD Training</English>
+            <German>EOD-Ausbildung</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_eod_displayNameShort">
+            <English>EOD</English>
+            <German>EOD</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_eod_description">
+            <English>Explosive Ordnance Disposal training for handling and neutralizing explosive devices.</English>
+            <German>Kampfmittelräumung - Ausbildung zum Umgang mit und zur Entschärfung von Sprengkörpern.</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_eod_tip">
+            <English>When in doubt, evacuate the area and call for specialist support.</English>
+            <German>Im Zweifel den Bereich räumen und Spezialisten anfordern.</German>
+        </Key>
+
+        <!-- EOD Extended entries -->
+        <Key ID="STR_ttt_Fieldmanual_eod_extened_displayName">
+            <English>Advanced EOD Training</English>
+            <German>Erweiterte EOD-Ausbildung</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_eod_extened_displayNameShort">
+            <English>Advanced EOD</English>
+            <German>Erweiterte EOD</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_eod_extened_description">
+            <English>Advanced explosive ordnance disposal techniques for complex and sophisticated devices.</English>
+            <German>Erweiterte Kampfmittelräumung für komplexe und ausgeklügelte Sprengkörper.</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_eod_extened_tip">
+            <English>Advanced EOD requires extensive experience and specialized equipment.</English>
+            <German>Erweiterte EOD erfordert umfangreiche Erfahrung und Spezialausrüstung.</German>
+        </Key>
     </Package>
 </Project>

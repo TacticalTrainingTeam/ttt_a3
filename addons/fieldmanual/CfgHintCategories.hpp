@@ -1,5 +1,5 @@
 class CfgHintCategories {
-    class ttt_fieldmanual {
+    class GVAR(category) {
         displayName = ECSTRING(main,TacticalTrainingTeam);
     };
 };
