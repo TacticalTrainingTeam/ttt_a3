@@ -1,6 +1,5 @@
 class CfgWeapons {
-    class H_Beret_blk;
-    class H_Beret_02: H_Beret_blk {};
+    class H_Beret_02;
 
     class ttt_Beret_Blue: H_Beret_02 {
         author = ECSTRING(main,TacticalTrainingTeam);
@@ -9,7 +8,7 @@ class CfgWeapons {
         picture = QPATHTOF(data\previews\berets_blau_icon_co.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\berets_blau_co.paa)};
     };
- 
+
     class ttt_Beret_Brown: ttt_Beret_Blue {
         displayName = CSTRING(brown);
         picture = QPATHTOF(data\previews\berets_braun_icon_co.paa);
@@ -92,5 +91,5 @@ class CfgWeapons {
         displayName = CSTRING(orange);
         picture = QPATHTOF(data\previews\berets_orange_icon_co.paa);
         hiddenSelectionsTextures[] = {QPATHTOF(data\berets_orange_co.paa)};
-    };   
+    };
 };

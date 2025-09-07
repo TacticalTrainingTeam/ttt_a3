@@ -3,7 +3,6 @@ class CfgVehicles {
 
     class Tank: LandVehicle {
         class NewTurret;
-        class CommanderOptics;
     };
 
     class Tank_F: Tank {

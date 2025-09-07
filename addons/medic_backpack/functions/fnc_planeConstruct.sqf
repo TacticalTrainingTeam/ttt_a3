@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /*
 * Author: EinStein
-* 
+*
 * Arguments:
 * 0: Player <OBJECT>
 * 1: Player <OBJECT>
@@ -34,4 +34,4 @@ private _arrayItems = nearestObjects [(getPos _plane), (parseSimpleArray GVAR(ad
 } forEach allCurators;
 
 _target switchMove "";
-INFO_3("Medical backpack item %1 was created at %2 by %3", _plane, _position, _target);
+INFO_3("Medical backpack item %1 was created at %2 by %3",_plane,_position,_target);
