@@ -5,8 +5,8 @@ class CfgVehicles {
         class AttributesBase {
             class Edit;                                                                      // Default edit box (i.e. text input field)
             class Combo;                                                                     // Default combo box (i.e. drop-down menu)
-            class Checkbox;                                                                  // Default checkbox (returned value is Boolean)                                                           // Default checkbox (returned value is Number)
-            class ModuleDescription;                                                         // Module description                                                                   // Selection of units on which the module is applied
+            class Checkbox;                                                                  // Default checkbox (returned value is Boolean)
+            class ModuleDescription;                                                         // Module description
         };
 
         class ModuleDescription {
@@ -17,7 +17,7 @@ class CfgVehicles {
         scope = 2;                                                                           // Editor visibility; 2 will show it in the menu, 1 will hide it.
         displayName = CSTRING(stormModule_displayName);                                      // Name displayed in the menu
         icon = "\a3\Modules_F_Curator\Data\iconFlare_ca.paa";                                // Map icon. Delete this entry to use the default icon.
-        portrait = "\a3\Modules_F_Curator\Data\portraitWeather_ca.paa";                          
+        portrait = "\a3\Modules_F_Curator\Data\portraitWeather_ca.paa";
         category = CSTRING(category_environment);
         function = QFUNC(stormInitModule);                                                   // Name of function triggered once conditions are met
         functionPriority = 10;                                                               // Execution priority, modules with lower number are executed first. 0 is used when the attribute is undefined
@@ -45,8 +45,8 @@ class CfgVehicles {
 
             class GVAR(stormModule_stormType): Combo {
                 property = QGVAR(stormModule_stormType);
-                displayName = CSTRING(stormModule_stormType_displayName); 
-                tooltip = CSTRING(stormModule_stormType_tooltip); 
+                displayName = CSTRING(stormModule_stormType_displayName);
+                tooltip = CSTRING(stormModule_stormType_tooltip);
                 typeName = "NUMBER";
                 defaultValue = "0";
 
@@ -56,7 +56,7 @@ class CfgVehicles {
                     class snow { name = CSTRING(stormModule_stormType_snowstorm); value = 1; };
                 };
             };
-            
+
             class GVAR(stormModule_walk): Checkbox {
                 property = QGVAR(stormModule_walk);
                 displayName = CSTRING(stormModule_walk_displayName);
@@ -75,7 +75,7 @@ class CfgVehicles {
 
             class ModuleDescription: ModuleDescription {};
         };
-        
+
         class ModuleDescription: ModuleDescription {
             description = CSTRING(stormModule_description);
         };
@@ -88,7 +88,7 @@ class CfgVehicles {
         category = CSTRING(category_effects);
         function = QFUNC(condensedBreathInit);
         isGlobal = 1;
-        
+
         class Attributes: AttributesBase {
             class ModuleDescription: ModuleDescription {};
         };
