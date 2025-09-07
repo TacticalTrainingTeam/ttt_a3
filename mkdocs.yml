@@ -141,6 +141,7 @@ nav:
      - Discord Rich Presence: addons/discord_richpresence.md
      - Chat Befehle: addons/chatcommands.md
      - Clear HUD: addons/clearhud.md
+     - Feldhandbuch: addons/fieldmanual.md
  - Addons - Funktional:
     - Common:
       - Funktionen: addons/common/functions.md
