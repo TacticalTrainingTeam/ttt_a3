@@ -1,10 +1,10 @@
 # Clear HUD
 
-## Chat ausblenden
+Blendet den Chat aus.
 
-Blendet den Chat aus. Fügt einen Keybind hinzu um den Chat wieder umzuschalten. Basierd auf _Soldias Clearhud_.
+## Quellen
 
-Standard-Taste: `Shift` + `,`
+Basierd auf *Soldias Clearhud*.
 
 ## Maintainer
 

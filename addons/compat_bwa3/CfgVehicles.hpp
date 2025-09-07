@@ -1,5 +1,12 @@
 class CfgVehicles {
 
+    class Helicopter_Base_F;
+    class BWA3_NH90_base: Helicopter_Base_F {
+        cargoProxyIndexes[] = {1,2,3,4,5,6,7,8,9,10,11,12};
+        getInProxyOrder[] = {1,2,3,4,5,6,7,8,9,10,11,12};
+        transportSoldier = 12;
+    };
+
     // Interactions
     // https://ace3.acemod.org/wiki/framework/interactionmenu-framework#22-vehicle-interactions-based-on-animations
     class BWA3_Eagle_hatch_base;

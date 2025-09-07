@@ -117,14 +117,15 @@ if (isClass (configFile >> "CfgPatches" >> "acex_headless") && acex_headless_ena
 };
 
 // Load the units into the vehicle.
+if !(_vehicle isKindOf "Air") then {_infantryGroup addVehicle _vehicle};						// stop units from disembarking after been telepoted in
 {
 	_x moveInCargo _vehicle;
 } forEach _infantryList;
 
-if ((_vehicle getVariable ["Achilles_var_noFastrope", false]) && (_rpBehaviour > 0) && (_vehicle isKindOf "Air")) exitWith
+if ((_rpBehaviour == 1) && !([_vehicle] call zen_compat_ace_fnc_canFastrope)) then
 {
-	["ACE3 or AR is not loaded!"] call ace_zeus_fnc_showMessage;
-	{deleteVehicle _x} forEach _infantryList;
+	["vehicle has no fastrope capabilities - switching..."] call ace_zeus_fnc_showMessage;
+	_rpBehaviour = 0;
 };
 
 //create invisible helipad if needed
@@ -135,13 +136,13 @@ if ((_rpBehaviour == 0) && (_vehicle isKindOf "Air") && (count nearestObjects [_
 
 // create a RP waypoint for deploying the units
 private _vehicleUnloadWp = _vehicleGroup addWaypoint [_rpPos, _rpSize];
-if (_vehicle isKindOf "Air" && (_rpBehaviour > 0) && (isClass(configFile >> "CfgPatches" >> "achilles_functions_f_ares"))) then
+if (_vehicle isKindOf "Air" && (_rpBehaviour > 0)) then
 {
 	_vehicleUnloadWp setWaypointType "SCRIPTED";
 	private _script =
 	[
-		"\achilles\functions_f_achilles\scripts\fn_wpParadrop.sqf",
-		"\achilles\functions_f_achilles\scripts\fn_wpFastrope.sqf"
+		"\x\zen\addons\ai\functions\fnc_waypointParadrop.sqf",
+		"\x\zen\addons\compat_ace\functions\fnc_waypointFastrope.sqf"
 	] select (_rpBehaviour isEqualTo 1);
 	_vehicleUnloadWp setWaypointScript _script;
 } else

@@ -24,10 +24,15 @@ class CfgPatches {
             "ttt_common_uav_crate",
             "ttt_common_mark_crate",
             "ttt_common_paradrop_crate",
+            QGVAR(sana_crate),
+            QGVAR(sanb_crate),
+            QGVAR(sanc_crate)
         };
-        weapons[] = {};
+        weapons[] = {
+            QGVAR(spraypaintMemes),
+        };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ttt_main"};
+        requiredAddons[] = {"ttt_main", "zen_main"};
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Andx","Reimchen","EinStein"};
         url = ECSTRING(main,URL);
@@ -40,5 +45,6 @@ class CfgPatches {
 #include "Cfg3DEN.hpp"
 #include "Dialog.hpp"
 #include "CfgVehicles.hpp"
+#include "CfgWeapons.hpp"
 #include "configs\ACE_Fortify.hpp"
-#include "configs\ACE_Tagging.hpp"
+#include "configs\ACE_Tags.hpp"

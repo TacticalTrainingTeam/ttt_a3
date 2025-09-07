@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Flags">
+        <Key ID="STR_ttt_Flags_blau">
+            <English>Flag (TTT-Blue)</English>
+            <German>Flagge (TTT-Blau)</German>
+        </Key>
+        <Key ID="STR_ttt_Flags_braun">
+            <English>Flag (TTT-Brown)</English>
+            <German>Flagge (TTT-Braun)</German>
+        </Key>
+        <Key ID="STR_ttt_Flags_bronze">
+            <English>Flag (TTT-Bronze)</English>
+            <German>Flagge (TTT-Bronze)</German>
+        </Key>
+        <Key ID="STR_ttt_Flags_gelb">
+            <English>Flag (TTT-Yellow)</English>
+            <German>Flagge (TTT-Gelb)</German>
+        </Key>
+        <Key ID="STR_ttt_Flags_gold">
+            <English>Flag (TTT-Gold)</English>
+            <German>Flagge (TTT-Gold)</German>
+        </Key>
+        <Key ID="STR_ttt_Flags_grau">
+            <English>Flag (TTT-Grey)</English>
+            <German>Flagge (TTT-Grau)</German>
+        </Key>
+        <Key ID="STR_ttt_Flags_grun">
+            <English>Flag (TTT-Green)</English>
+            <German>Flagge (TTT-Grün)</German>
+        </Key>
+        <Key ID="STR_ttt_Flags_logo">
+            <English>Flag (TTT-Logo)</English>
+            <German>Flagge (TTT-Logo)</German>
+        </Key>
+        <Key ID="STR_ttt_Flags_orange">
+            <English>Flag (TTT-Orange)</English>
+            <German>Flagge (TTT-Orange)</German>
+        </Key>
+        <Key ID="STR_ttt_Flags_platin">
+            <English>Flag (TTT-Platinum)</English>
+            <German>Flagge (TTT-Platin)</German>
+        </Key>
+        <Key ID="STR_ttt_Flags_rot">
+            <English>Flag (TTT-Red)</English>
+            <German>Flagge (TTT-Rot)</German>
+        </Key>
+        <Key ID="STR_ttt_Flags_schwarz">
+            <English>Flag (TTT-Black)</English>
+            <German>Flagge (TTT-Schwarz)</German>
+        </Key>
+        <Key ID="STR_ttt_Flags_silber">
+            <English>Flag (TTT-Silver)</English>
+            <German>Flagge (TTT-Silber)</German>
+        </Key>
+        <Key ID="STR_ttt_Flags_violett">
+            <English>Flag (TTT-Purple)</English>
+            <German>Flagge (TTT-Violett)</German>
+        </Key>
+        <Key ID="STR_ttt_Flags_weiss">
+            <English>Flag (TTT-White)</English>
+            <German>Flagge (TTT-Weiß)</German>
+        </Key>
+    </Package>
+</Project>

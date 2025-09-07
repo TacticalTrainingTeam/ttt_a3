@@ -15,6 +15,7 @@ class CfgPatches {
         requiredAddons[] = {
             "ttt_common",
             "bwa3_backpacks", 
+            "bwa3_nh90",
             "bwa3_eagle", 
             "bwa3_dingo2",
             "bwa3_puma", 
