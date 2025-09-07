@@ -50,13 +50,13 @@ class CfgHints {
             image = "";
         };
 
-        class GVAR(eod_extened): GVAR(base) {
+        class GVAR(eod_extended): GVAR(base) {
             logicalOrder = 5;
             arguments[] = {};
-            displayName = CSTRING(eod_extened_displayName);
-            displayNameShort = CSTRING(eod_extened_displayNameShort);
-            description = CSTRING(eod_extened_description);
-            tip = CSTRING(eod_extened_tip);
+            displayName = CSTRING(eod_extended_displayName);
+            displayNameShort = CSTRING(eod_extended_displayNameShort);
+            description = CSTRING(eod_extended_description);
+            tip = CSTRING(eod_extended_tip);
             image = "";
         };
     };
