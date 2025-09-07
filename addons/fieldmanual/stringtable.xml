@@ -90,19 +90,19 @@
             <German>Im Zweifel den Bereich räumen und Spezialisten anfordern.</German>
         </Key>
         <!-- EOD Extended entries -->
-        <Key ID="STR_ttt_Fieldmanual_eod_extened_displayName">
+        <Key ID="STR_ttt_Fieldmanual_eod_extended_displayName">
             <English>Advanced EOD Training</English>
             <German>Erweiterte EOD-Ausbildung</German>
         </Key>
-        <Key ID="STR_ttt_Fieldmanual_eod_extened_displayNameShort">
+        <Key ID="STR_ttt_Fieldmanual_eod_extended_displayNameShort">
             <English>Advanced EOD</English>
             <German>Erweiterte EOD</German>
         </Key>
-        <Key ID="STR_ttt_Fieldmanual_eod_extened_description">
+        <Key ID="STR_ttt_Fieldmanual_eod_extended_description">
             <English>Advanced explosive ordnance disposal techniques for complex and sophisticated devices.</English>
             <German>Erweiterte Kampfmittelräumung für komplexe und ausgeklügelte Sprengkörper.</German>
         </Key>
-        <Key ID="STR_ttt_Fieldmanual_eod_extened_tip">
+        <Key ID="STR_ttt_Fieldmanual_eod_extended_tip">
             <English>Advanced EOD requires extensive experience and specialized equipment.</English>
             <German>Erweiterte EOD erfordert umfangreiche Erfahrung und Spezialausrüstung.</German>
         </Key>
