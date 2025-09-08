@@ -5,18 +5,6 @@
             <English>Tactical Training Team</English>
             <German>Tactical Training Team</German>
         </key>
-        <Key ID="STR_ttt_Fieldmanual_5line_displayName">
-            <English>5 Line Request</English>
-            <German>5-Liner Logistikanfrage</German>
-        </Key>
-        <Key ID="STR_ttt_Fieldmanual_5line_displayNameShort">
-            <English>5 Line</English>
-            <German>5-Liner</German>
-        </Key>
-        <Key ID="STR_ttt_Fieldmanual_5line_description">
-            <English>5line</English>
-            <German>Beispiel</German>
-        </Key>
         <Key ID="STR_ttt_Fieldmanual_medical_displayName">
             <English>Medical - First Aid</English>
             <German>Sanitätsdienst - Erste Hilfe</German>
