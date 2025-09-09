@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Fieldmanual">
-        <key ID="STR_ttt_Fieldmanual_HintCategory_FieldManual_DisplayName">
-            <English>Tactical Training Team</English>
-            <German>Tactical Training Team</German>
+        <key ID="STR_ttt_Fieldmanual_handbuch_displayname">
+            <English>Field Manual</English>
+            <German>Fibel</German>
         </key>
         <Key ID="STR_ttt_Fieldmanual_medical_displayName">
             <English>Medical - First Aid</English>

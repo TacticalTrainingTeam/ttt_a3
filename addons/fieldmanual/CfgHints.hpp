@@ -16,7 +16,7 @@ class CfgHints {
 
 
     class GVAR(handbuch) {
-        displayName = ECSTRING(main,TacticalTrainingTeam);
+        displayName = CSTRING(handbuch_displayname);//??  8:01:21 String STR_ttt_fieldmanual_handbuch_displayname not found
         category = QGVAR(category);
 
         class GVAR(medical): GVAR(base) {
