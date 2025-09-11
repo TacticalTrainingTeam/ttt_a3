@@ -7,7 +7,7 @@
  * None
  *
  * Return Value:
- * True
+ * <NONE>
  *
  * Example:
  * [] call ttt_mpls_fnc_initSave
