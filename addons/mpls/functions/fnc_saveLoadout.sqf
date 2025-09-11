@@ -20,8 +20,9 @@ params [
     "_player",
     ["_uid", "", [""]]
     ];
+private _isZeus = !isNull (findDisplay 312);
 
-if (!hasInterface) exitWith {};
+if (!hasInterface || _isZeus ) exitWith {};
 
 if (_uid isEqualTo "") then {
     _uid = getPlayerUID _player;
