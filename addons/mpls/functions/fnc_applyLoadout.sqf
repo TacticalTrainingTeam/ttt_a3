@@ -18,7 +18,7 @@
 params ["_player"];
 
 private _isZeus = !isNull (findDisplay 312);
-if (!hasInterface || _isZeus ) exitWith {false};
+if (!hasInterface || _isZeus) exitWith {false};
 
 if ((GVAR(loadoutNamespace) getVariable [(getPlayerUID _player),[]]) isEqualTo []) exitWith {false};
 
