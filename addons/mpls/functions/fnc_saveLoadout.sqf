@@ -8,7 +8,7 @@
  * 1: UID <STRING> (default: "")
  *
  * Return Value:
- * True
+ * Success <BOOL>
  *
  * Example:
  * [this] call ttt_mpls_fnc_saveLoadout
@@ -22,7 +22,7 @@ params [
     ];
 private _isZeus = !isNull (findDisplay 312);
 
-if (!hasInterface || _isZeus ) exitWith {};
+if (!hasInterface || _isZeus ) exitWith {false};
 
 if (_uid isEqualTo "") then {
     _uid = getPlayerUID _player;

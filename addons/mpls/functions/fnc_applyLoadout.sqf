@@ -7,7 +7,7 @@
  * 0: Player <OBJECT>
  *
  * Return Value:
- * 0: Sucess
+ * 0: Sucess <BOOL>
  *
  * Example:
  * [this] call ttt_mpls_fnc_applyLoadout
@@ -17,7 +17,7 @@
 
 params ["_player"];
 
-if (!hasInterface) exitWith {};
+if (!hasInterface || _isZeus ) exitWith {false};
 
 if ((GVAR(loadoutNamespace) getVariable [(getPlayerUID _player),[]]) isEqualTo []) exitWith {false};
 
