@@ -28,8 +28,11 @@ if (hasInterface) then {
 
         params ["", "_caller"];
 
+        //enable all units but hide the player in spectator
+        [allUnits, [player]] call ace_spectator_fnc_updateUnits;
         //activate spectator, dont force the interface so it can be exited, hide player
         [true, false, true] call ace_spectator_fnc_setSpectator;
+
 
     	//remove all items so nothing bad can happen
         //including things like android so the spectators dont show up on the map
