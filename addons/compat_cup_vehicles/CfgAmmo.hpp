@@ -1,14 +1,14 @@
-class CfgAmmo{
+class CfgAmmo {
     class R_230mm_HE;
-    class CUP_R_GRAD_HE : R_230mm_HE {
+    class CUP_R_GRAD_HE: R_230mm_HE {
         submunitionAmmo = "";       //was "R_230mm_fly"
         simulation = "shotShell";   //was "shotSubmunitions"
         indirectHitRange = 5;       //was 20
     };
-    class CUP_R_Techical_HE : CUP_R_GRAD_HE {
+    class CUP_R_Techical_HE: CUP_R_GRAD_HE {
         indirectHitRange = 5;       //was 25
     };
-    class CUP_R_S8_techical_HE : CUP_R_GRAD_HE{
+    class CUP_R_S8_techical_H: CUP_R_GRAD_HE {
         hit = 150;                  //was 400
         indirectHit = 40;           //was 60
         indirectHitRange = 12;      //was 15
