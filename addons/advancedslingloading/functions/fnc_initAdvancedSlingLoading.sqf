@@ -4,36 +4,36 @@ ASL_Advanced_Sling_Loading_Install = {
 
 // Prevent advanced sling loading from installing twice
 if(!isNil "ASL_ROPE_INIT") exitWith {};
-ASL_ROPE_INIT = true; 
+ASL_ROPE_INIT = true;
 INFO("Advanced Sling Loading Loading...");
 
 ASL_Rope_Get_Lift_Capability = {
     params ["_vehicle"];
     private ["_slingLoadMaxCargoMass"];
-    _slingLoadMaxCargoMass = getNumber (configFile >> "CfgVehicles" >> typeOf _vehicle >> "slingLoadMaxCargoMass");
+    _slingLoadMaxCargoMass = getNumber (configOf _vehicle >> "slingLoadMaxCargoMass");
     if(_slingLoadMaxCargoMass <= 0) then {
-        _slingLoadMaxCargoMass = 4000; 
+        _slingLoadMaxCargoMass = 4000;
     };
-    _slingLoadMaxCargoMass;    
+    _slingLoadMaxCargoMass;
 };
 
-ASL_Sling_Load_Point_Class_Height_Offset = [ 
+ASL_Sling_Load_Point_Class_Height_Offset = [
     ["All", [-0.05, -0.05, -0.05]],
-    ["UK3CB_BAF_Merlin_HC3_18", [-0.05, -0.05, -0.05]],  
-    ["UK3CB_BAF_Merlin_HC3_18_GPMG", [-0.05, -0.05, -0.05]],  
-    ["UK3CB_BAF_Merlin_HC3_24", [-0.05, -0.05, -0.05]],  
-    ["UK3CB_BAF_Merlin_HC3_32", [-0.05, -0.05, -0.05]],  
-    ["UK3CB_BAF_Merlin_HC3_CSAR", [-0.05, -0.05, -0.05]],  
-    ["UK3CB_ADA_B_Mi8", [-0.05, -0.05, -0.05]],  
-    ["CUP_CH47F_base", [-0.05, -2, -0.05]],  
+    ["UK3CB_BAF_Merlin_HC3_18", [-0.05, -0.05, -0.05]],
+    ["UK3CB_BAF_Merlin_HC3_18_GPMG", [-0.05, -0.05, -0.05]],
+    ["UK3CB_BAF_Merlin_HC3_24", [-0.05, -0.05, -0.05]],
+    ["UK3CB_BAF_Merlin_HC3_32", [-0.05, -0.05, -0.05]],
+    ["UK3CB_BAF_Merlin_HC3_CSAR", [-0.05, -0.05, -0.05]],
+    ["UK3CB_ADA_B_Mi8", [-0.05, -0.05, -0.05]],
+    ["CUP_CH47F_base", [-0.05, -2, -0.05]],
     ["CUP_AW159_Unarmed_Base", [-0.05, -0.06, -0.05]],
-    ["RHS_CH_47F", [-0.75, -2.6, -0.75]], 
-    ["rhsusf_CH53E_USMC", [-0.8, -1, -1.1]], 
+    ["RHS_CH_47F", [-0.75, -2.6, -0.75]],
+    ["rhsusf_CH53E_USMC", [-0.8, -1, -1.1]],
     ["rhsusf_CH53E_USMC_D", [-0.8, -1, -1.1]],
     ["Cup_B_MV22_USMC", [-0.05, -0.05, -0.05]],
     ["CUP_B_MI6A_CDF", [-0.8, -1, -1.1]],
     ["B_Heli_Transport_03_F", [-0.35, -0.15, -0.05]],
-    ["RHS_UH60M2_d", [-0.05, -0.05, -0.05]],      
+    ["RHS_UH60M2_d", [-0.05, -0.05, -0.05]],
     ["B_T_VTOL_01_Vehicle_F", [-0.9, -0.9, -0.9]] //ToDo Hatchet Mod
 ];
 
@@ -49,29 +49,29 @@ ASL_Get_Sling_Load_Points = {
     _frontCenterPoint = ((_rearCenterPoint vectorDiff _frontCenterPoint) vectorMultiply 0.2) vectorAdd _frontCenterPoint;
     _middleCenterPoint = ((_frontCenterPoint vectorDiff _rearCenterPoint) vectorMultiply 0.5) vectorAdd _rearCenterPoint;
     _vehicleUnitVectorUp = vectorNormalized (vectorUp _vehicle);
-    
+
     _slingLoadPointHeightOffset = 0;
     {
         if(_vehicle isKindOf (_x select 0)) then {
             _slingLoadPointHeightOffset = (_x select 1);
         };
     } forEach ASL_Sling_Load_Point_Class_Height_Offset;
-    
+
     _slingLoadPoints = [];
     {
         _modelPoint = _x;
         _modelPointASL = AGLToASL (_vehicle modelToWorldVisual _modelPoint);
         _surfaceIntersectStartASL = _modelPointASL vectorAdd ( _vehicleUnitVectorUp vectorMultiply -5 );
         _surfaceIntersectEndASL = _modelPointASL vectorAdd ( _vehicleUnitVectorUp vectorMultiply 5 );
-        
+
         // Determine if the surface intersection line crosses below ground level
         // If if does, move surfaceIntersectStartASL above ground level (lineIntersectsSurfaces
         // doesn't work if starting below ground level for some reason
         // See: https://en.wikipedia.org/wiki/Line%E2%80%93plane_intersection
-        
+
         _la = ASLToAGL _surfaceIntersectStartASL;
         _lb = ASLToAGL _surfaceIntersectEndASL;
-        
+
         if(_la select 2 < 0 && _lb select 2 > 0) then {
             _n = [0,0,1];
             _p0 = [0,0,0.1];
@@ -81,7 +81,7 @@ ASL_Get_Sling_Load_Points = {
                 _surfaceIntersectStartASL = AGLToASL ((_l vectorMultiply _d) vectorAdd _la);
             };
         };
-        
+
         _surfaces = lineIntersectsSurfaces [_surfaceIntersectStartASL, _surfaceIntersectEndASL, objNull, objNull, true, 100];
         _intersectionASL = [];
         {
@@ -97,7 +97,7 @@ ASL_Get_Sling_Load_Points = {
             _slingLoadPoints pushBack [];
         };
     } forEach [_frontCenterPoint, _middleCenterPoint, _rearCenterPoint];
-    
+
     if(count (_slingLoadPoints select 1) > 0) then {
         _slingLoadPointsArray pushBack [_slingLoadPoints select 1];
         if(count (_slingLoadPoints select 0) > 0 && count (_slingLoadPoints select 2) > 0 ) then {
@@ -105,8 +105,8 @@ ASL_Get_Sling_Load_Points = {
                 _slingLoadPointsArray pushBack [_slingLoadPoints select 0,_slingLoadPoints select 2];
                 if( ((_slingLoadPoints select 0) distance (_slingLoadPoints select 1)) > 3 ) then {
                     _slingLoadPointsArray pushBack [_slingLoadPoints select 0,_slingLoadPoints select 1,_slingLoadPoints select 2];
-                };    
-            };    
+                };
+            };
         };
     };
     _slingLoadPointsArray;
@@ -144,7 +144,7 @@ ASL_Rope_Adjust_Mass = {
             sleep 0.5;
         };
         [[_obj, _originalMass],"ASL_Rope_Set_Mass",_obj,true] call ASL_RemoteExec;
-    };    
+    };
 };
 
 
@@ -249,7 +249,7 @@ ASL_Get_Cargo = {
     };
     _selectedCargo;
 };
-    
+
 ASL_Get_Ropes_And_Cargo = {
     params ["_vehicle","_ropeIndex"];
     private ["_selectedCargo","_selectedRopes"];
@@ -268,7 +268,7 @@ ASL_Show_Select_Ropes_Menu = {
     showCommandingMenu "";
     showCommandingMenu "#USER:ASL_Show_Select_Ropes_Menu_Array";
 };
-    
+
 ASL_Extend_Ropes = {
     params ["_vehicle","_player",["_ropeIndex",0]];
     if(local _vehicle) then {
@@ -396,14 +396,14 @@ ASL_Can_Shorten_Ropes = {
     if((count _activeRopes) == 0) exitWith { false };
     true;
 };
-    
+
 ASL_Release_Cargo = {
     params ["_vehicle","_player",["_ropeIndex",0]];
     if(local _vehicle) then {
         private ["_existingRopesAndCargo","_existingRopes","_existingCargo","_allCargo"];
         _existingRopesAndCargo = [_vehicle,_ropeIndex] call ASL_Get_Ropes_And_Cargo;
         _existingRopes = _existingRopesAndCargo select 0;
-        _existingCargo = _existingRopesAndCargo select 1; 
+        _existingCargo = _existingRopesAndCargo select 1;
         {
             _existingCargo ropeDetach _x;
         } forEach _existingRopes;
@@ -415,7 +415,7 @@ ASL_Release_Cargo = {
         [_this,"ASL_Release_Cargo",_vehicle,true] call ASL_RemoteExec;
     };
 };
-    
+
 ASL_Release_Cargo_Action = {
     private ["_vehicle"];
     _vehicle = vehicle player;
@@ -465,7 +465,7 @@ ASL_Retract_Ropes = {
         private ["_existingRopesAndCargo","_existingRopes","_existingCargo","_allRopes","_activeRopes"];
         _existingRopesAndCargo = [_vehicle,_ropeIndex] call ASL_Get_Ropes_And_Cargo;
         _existingRopes = _existingRopesAndCargo select 0;
-        _existingCargo = _existingRopesAndCargo select 1; 
+        _existingCargo = _existingRopesAndCargo select 1;
         if(isNull _existingCargo) then {
             call ASL_Drop_Ropes;
             {
@@ -587,10 +587,10 @@ ASL_Deploy_Ropes_Index = {
         if(count _existingRopes == 0) then {
             _slingLoadPoints = [_vehicle] call ASL_Get_Sling_Load_Points;
             _cargoRopes = [];
-            _cargoRopes pushBack ropeCreate [_vehicle, (_slingLoadPoints select (_existingRopesCount - 1)) select _ropesIndex, 0]; 
-            _cargoRopes pushBack ropeCreate [_vehicle, (_slingLoadPoints select (_existingRopesCount - 1)) select _ropesIndex, 0]; 
-            _cargoRopes pushBack ropeCreate [_vehicle, (_slingLoadPoints select (_existingRopesCount - 1)) select _ropesIndex, 0]; 
-            _cargoRopes pushBack ropeCreate [_vehicle, (_slingLoadPoints select (_existingRopesCount - 1)) select _ropesIndex, 0]; 
+            _cargoRopes pushBack ropeCreate [_vehicle, (_slingLoadPoints select (_existingRopesCount - 1)) select _ropesIndex, 0];
+            _cargoRopes pushBack ropeCreate [_vehicle, (_slingLoadPoints select (_existingRopesCount - 1)) select _ropesIndex, 0];
+            _cargoRopes pushBack ropeCreate [_vehicle, (_slingLoadPoints select (_existingRopesCount - 1)) select _ropesIndex, 0];
+            _cargoRopes pushBack ropeCreate [_vehicle, (_slingLoadPoints select (_existingRopesCount - 1)) select _ropesIndex, 0];
             {
                 ropeUnwind [_x, 5, _ropeLength];
             } forEach _cargoRopes;
@@ -611,31 +611,31 @@ ASL_Deploy_Ropes_Action = {
         _vehicle = vehicle player;
     };
     if([_vehicle] call ASL_Can_Deploy_Ropes) then {
-    
+
         _canDeployRopes = true;
-        
+
         if!(missionNamespace getVariable ["ASL_LOCKED_VEHICLES_ENABLED",false]) then {
             if( locked _vehicle > 1 ) then {
                 ["Cannot deploy cargo ropes from locked vehicle",false] call ASL_Hint;
                 _canDeployRopes = false;
             };
         };
-        
+
         if(_canDeployRopes) then {
-            
+
             _inactiveRopes = [_vehicle] call ASL_Get_Inactive_Ropes;
-            
+
             if(count _inactiveRopes > 0) then {
-                
+
                 if(count _inactiveRopes > 1) then {
-                    player setVariable ["ASL_Deploy_Ropes_Index_Vehicle", _vehicle];    
+                    player setVariable ["ASL_Deploy_Ropes_Index_Vehicle", _vehicle];
                     ["Deploy Cargo Ropes","ASL_Deploy_Ropes_Index_Action",_inactiveRopes] call ASL_Show_Select_Ropes_Menu;
                 } else {
                     [_vehicle,player,(_inactiveRopes select 0) select 0] call ASL_Deploy_Ropes_Index;
                 };
-            
+
             } else {
-            
+
                 _slingLoadPoints = [_vehicle] call ASL_Get_Sling_Load_Points;
                 if(count _slingLoadPoints > 1) then {
                     player setVariable ["ASL_Deploy_Count_Vehicle", _vehicle];
@@ -651,14 +651,14 @@ ASL_Deploy_Ropes_Action = {
                     };
                     showCommandingMenu "";
                     showCommandingMenu "#USER:ASL_Deploy_Ropes_Count_Menu";
-                } else {            
+                } else {
                     [_vehicle,player] call ASL_Deploy_Ropes;
                 };
-                
+
             };
-            
+
         };
-    
+
     };
 };
 
@@ -706,7 +706,7 @@ ASL_Get_Corner_Points = {
     params ["_vehicle"];
     private ["_centerOfMass","_bbr","_p1","_p2","_rearCorner","_rearCorner2","_frontCorner","_frontCorner2"];
     private ["_maxWidth","_widthOffset","_maxLength","_lengthOffset","_widthFactor","_lengthFactor","_maxHeight","_heightOffset"];
-    
+
     // Correct width and length factor for air
     _widthFactor = 0.5;
     _lengthFactor = 0.5;
@@ -717,7 +717,7 @@ ASL_Get_Corner_Points = {
         _widthFactor = 0.2;
         _lengthFactor = 0.45;
     };
-    
+
     _centerOfMass = getCenterOfMass _vehicle;
     _bbr = boundingBoxReal _vehicle;
     _p1 = _bbr select 0;
@@ -728,12 +728,12 @@ ASL_Get_Corner_Points = {
     _lengthOffset = ((_maxLength / 2) - abs (_centerOfMass select 1 )) * _lengthFactor;
     _maxHeight = abs ((_p2 select 2) - (_p1 select 2));
     _heightOffset = _maxHeight/6;
-    
+
     _rearCorner = [(_centerOfMass select 0) + _widthOffset, (_centerOfMass select 1) - _lengthOffset, (_centerOfMass select 2)+_heightOffset];
     _rearCorner2 = [(_centerOfMass select 0) - _widthOffset, (_centerOfMass select 1) - _lengthOffset, (_centerOfMass select 2)+_heightOffset];
     _frontCorner = [(_centerOfMass select 0) + _widthOffset, (_centerOfMass select 1) + _lengthOffset, (_centerOfMass select 2)+_heightOffset];
     _frontCorner2 = [(_centerOfMass select 0) - _widthOffset, (_centerOfMass select 1) + _lengthOffset, (_centerOfMass select 2)+_heightOffset];
-    
+
     [_rearCorner,_rearCorner2,_frontCorner,_frontCorner2];
 };
 
@@ -752,7 +752,7 @@ ASL_Attach_Ropes = {
                 _objDistance = (_cargo distance _vehicle) + 2;
                 if( _objDistance > _ropeLength ) then {
                     [["The cargo ropes are too short. Move vehicle closer.", false],"ASL_Hint",_player] call ASL_RemoteExec;
-                } else {        
+                } else {
                     [_vehicle,_player] call ASL_Drop_Ropes;
                     [_cargo, _attachmentPoints select 0, [0,0,-1]] ropeAttachTo (_ropes select 0);
                     [_cargo, _attachmentPoints select 1, [0,0,-1]] ropeAttachTo (_ropes select 1);
@@ -762,8 +762,8 @@ ASL_Attach_Ropes = {
                     _allCargo set [(_vehicleWithIndex select 1),_cargo];
                     _vehicle setVariable ["ASL_Cargo",_allCargo, true];
                     if(missionNamespace getVariable ["ASL_HEAVY_LIFTING_ENABLED",false]) then {
-                        [_cargo, _vehicle, _ropes] spawn ASL_Rope_Adjust_Mass;        
-                    };                
+                        [_cargo, _vehicle, _ropes] spawn ASL_Rope_Adjust_Mass;
+                    };
                 };
             };
         } else {
@@ -777,16 +777,16 @@ ASL_Attach_Ropes_Action = {
     _cargo = cursorTarget;
     _vehicle = (player getVariable ["ASL_Ropes_Vehicle", [objNull,0]]) select 0;
     if([_vehicle,_cargo] call ASL_Can_Attach_Ropes) then {
-        
+
         _canBeAttached = true;
-        
+
         if!(missionNamespace getVariable ["ASL_LOCKED_VEHICLES_ENABLED",false]) then {
             if( locked _cargo > 1 ) then {
                 ["Cannot attach cargo ropes to locked vehicle",false] call ASL_Hint;
                 _canBeAttached = false;
             };
         };
-        
+
         if!(missionNamespace getVariable ["ASL_EXILE_SAFEZONE_ENABLED",false]) then {
             if(!isNil "ExilePlayerInSafezone") then {
                 if( ExilePlayerInSafezone ) then {
@@ -795,11 +795,11 @@ ASL_Attach_Ropes_Action = {
                 };
             };
         };
-    
+
         if(_canBeAttached) then {
             [_cargo,player] call ASL_Attach_Ropes;
         };
-        
+
     };
 };
 
@@ -825,12 +825,12 @@ ASL_Drop_Ropes = {
         private ["_helper","_existingRopes"];
         _helper = (_player getVariable ["ASL_Ropes_Pick_Up_Helper", objNull]);
         if(!isNull _helper) then {
-            _existingRopes = [_vehicle,_ropesIndex] call ASL_Get_Ropes;        
+            _existingRopes = [_vehicle,_ropesIndex] call ASL_Get_Ropes;
             {
                 _helper ropeDetach _x;
             } forEach _existingRopes;
             detach _helper;
-            deleteVehicle _helper;        
+            deleteVehicle _helper;
         };
         _player setVariable ["ASL_Ropes_Vehicle", nil,true];
         _player setVariable ["ASL_Ropes_Pick_Up_Helper", nil,true];
@@ -841,7 +841,7 @@ ASL_Drop_Ropes = {
 
 ASL_Drop_Ropes_Action = {
     private ["_vehicleAndIndex"];
-    if([] call ASL_Can_Drop_Ropes) then {    
+    if([] call ASL_Can_Drop_Ropes) then {
         _vehicleAndIndex = player getVariable ["ASL_Ropes_Vehicle", []];
         if(count _vehicleAndIndex == 2) then {
             [_vehicleAndIndex select 0, player, _vehicleAndIndex select 1] call ASL_Drop_Ropes;
@@ -932,7 +932,7 @@ ASL_Pickup_Ropes_Action = {
             };
             if(_canPickupRopes) then {
                 [(_closestRope select 0), player, (_closestRope select 1)] call ASL_Pickup_Ropes;
-            };    
+            };
         };
     };
 };
@@ -958,7 +958,7 @@ ASL_Is_Supported_Vehicle = {
             if(_vehicle isKindOf _x) then {
                 _isSupported = true;
             };
-        } forEach (missionNamespace getVariable ["ASL_Supported_Vehicles_OVERRIDE",ASL_Supported_Vehicles]); 
+        } forEach (missionNamespace getVariable ["ASL_Supported_Vehicles_OVERRIDE",ASL_Supported_Vehicles]);
     };
     _isSupported;
 };
@@ -993,9 +993,9 @@ ASL_Hint = {
         hint _msg;
     } else {
         if(_isSuccess) then {
-            ["Success", [_msg]] call ExileClient_gui_notification_event_addNotification; 
+            ["Success", [_msg]] call ExileClient_gui_notification_event_addNotification;
         } else {
-            ["Whoops", [_msg]] call ExileClient_gui_notification_event_addNotification; 
+            ["Whoops", [_msg]] call ExileClient_gui_notification_event_addNotification;
         };
     };
 };
@@ -1039,42 +1039,42 @@ ASL_Find_Nearby_Vehicles = {
 
 ASL_Add_Player_Actions = {
 
-    player addAction ["Extend Cargo Ropes", { 
+    player addAction ["Extend Cargo Ropes", {
         [] call ASL_Extend_Ropes_Action;
     }, nil, 0, false, true, "", "call ASL_Extend_Ropes_Action_Check"];
-    
-    player addAction ["Shorten Cargo Ropes", { 
+
+    player addAction ["Shorten Cargo Ropes", {
         [] call ASL_Shorten_Ropes_Action;
     }, nil, 0, false, true, "", "call ASL_Shorten_Ropes_Action_Check"];
-        
-    player addAction ["Release Cargo", { 
+
+    player addAction ["Release Cargo", {
         [] call ASL_Release_Cargo_Action;
     }, nil, 0, false, true, "", "call ASL_Release_Cargo_Action_Check"];
-        
-    player addAction ["Retract Cargo Ropes", { 
+
+    player addAction ["Retract Cargo Ropes", {
         [] call ASL_Retract_Ropes_Action;
     }, nil, 0, false, true, "", "call ASL_Retract_Ropes_Action_Check"];
-    
-    player addAction ["Deploy Cargo Ropes", { 
+
+    player addAction ["Deploy Cargo Ropes", {
         [] call ASL_Deploy_Ropes_Action;
     }, nil, 0, false, true, "", "call ASL_Deploy_Ropes_Action_Check"];
 
-    player addAction ["Attach To Cargo Ropes", { 
+    player addAction ["Attach To Cargo Ropes", {
         [] call ASL_Attach_Ropes_Action;
     }, nil, 0, false, true, "", "call ASL_Attach_Ropes_Action_Check"];
 
-    player addAction ["Drop Cargo Ropes", { 
+    player addAction ["Drop Cargo Ropes", {
         [] call ASL_Drop_Ropes_Action;
     }, nil, 0, false, true, "", "call ASL_Drop_Ropes_Action_Check"];
 
-    player addAction ["Pickup Cargo Ropes", { 
+    player addAction ["Pickup Cargo Ropes", {
         [] call ASL_Pickup_Ropes_Action;
     }, nil, 0, false, true, "", "call ASL_Pickup_Ropes_Action_Check"];
 
     player addEventHandler ["Respawn", {
         player setVariable ["ASL_Actions_Loaded",false];
     }];
-    
+
 };
 
 if(!isDedicated) then {
@@ -1119,9 +1119,9 @@ ASL_RemoteExecServer = {
 };
 
 if(isServer) then {
-    
+
     // Adds support for exile network calls (Only used when running exile) //
-    
+
     ASL_Supported_RemoteExecServer_Functions = ["ASL_Hide_Object_Global"];
 
     ExileServer_AdvancedSlingLoading_network_AdvancedSlingLoadingRemoteExecServer = {
@@ -1135,9 +1135,9 @@ if(isServer) then {
             };
         };
     };
-    
+
     ASL_Supported_RemoteExecClient_Functions = ["ASL_Pickup_Ropes","ASL_Deploy_Ropes_Index","ASL_Rope_Set_Mass","ASL_Extend_Ropes","ASL_Shorten_Ropes","ASL_Release_Cargo","ASL_Retract_Ropes","ASL_Deploy_Ropes","ASL_Hint","ASL_Attach_Ropes","ASL_Drop_Ropes"];
-    
+
     ExileServer_AdvancedSlingLoading_network_AdvancedSlingLoadingRemoteExecClient = {
         params ["_sessionId", "_messageParameters"];
         _messageParameters params ["_params","_functionName","_target",["_isCall",false]];
@@ -1151,10 +1151,10 @@ if(isServer) then {
     };
 
     // Install Advanced Sling Loading on all clients (plus JIP) //
-    
+
     publicVariable "ASL_Advanced_Sling_Loading_Install";
     remoteExecCall ["ASL_Advanced_Sling_Loading_Install", -2,true];
-    
+
 };
 
 // Disable Old Script Version on SA Server
