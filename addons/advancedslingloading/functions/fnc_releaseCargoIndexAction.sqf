@@ -1,0 +1,25 @@
+#include "..\script_component.hpp"
+/*
+ * Authors: You
+ * Description.
+ *
+ * Arguments:
+ * 0: Argument (optional, default: value) <OBJECT>
+ *
+ * Return Value:
+ * Return description <NONE>
+ *
+ * Example:
+ * [params] call PREFIX_advancedslingloading_fnc_releaseCargoIndexAction
+ *
+ * Public: No
+ */
+
+params ["_ropesIndex"];
+
+private ["_vehicle"];
+
+_vehicle = player getVariable ["ASL_Release_Cargo_Index_Vehicle", objNull];
+if(_ropesIndex >= 0 && !isNull _vehicle && [_vehicle] call ASL_Can_Release_Cargo) then {
+    [_vehicle,player,_ropesIndex] call ASL_Release_Cargo;
+};
