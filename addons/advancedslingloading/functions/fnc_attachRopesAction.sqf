@@ -17,7 +17,7 @@
 
 private ["_vehicle","_cargo","_canBeAttached"];
 _cargo = cursorTarget;
-_vehicle = (player getVariable ["ASL_Ropes_Vehicle", [objNull,0]]) select 0;
+_vehicle = (ACE_player getVariable ["ASL_Ropes_Vehicle", [objNull,0]]) select 0;
 if([_vehicle,_cargo] call FUNC(canAttachRopes)) then {
 
     _canBeAttached = true;
@@ -39,7 +39,7 @@ if([_vehicle,_cargo] call FUNC(canAttachRopes)) then {
     };
 
     if(_canBeAttached) then {
-        [_cargo,player] call FUNC(attachRopes);
+        [_cargo,ACE_player] call FUNC(attachRopes);
     };
 
 };

@@ -15,5 +15,5 @@
  * Public: No
  */
 
-if(isNull objectParent player) exitWith {false};
-[vehicle player] call FUNC(canReleaseCargo);
+if(isNull objectParent ACE_player) exitWith {false};
+[vehicle ACE_player] call FUNC(canReleaseCargo);

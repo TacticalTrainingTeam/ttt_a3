@@ -29,7 +29,7 @@ if([] call FUNC(canPickupRopes)) then {
             };
         };
         if(_canPickupRopes) then {
-            [(_closestRope select 0), player, (_closestRope select 1)] call FUNC(pickupRopes);
+            [(_closestRope select 0), ACE_player, (_closestRope select 1)] call FUNC(pickupRopes);
         };
     };
 };

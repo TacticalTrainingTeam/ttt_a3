@@ -17,20 +17,20 @@
 
 private ["_vehicle"];
 
-if(isNull objectParent player) then {
+if(isNull objectParent ACE_player) then {
     _vehicle = cursorTarget;
 } else {
-    _vehicle = vehicle player;
+    _vehicle = vehicle ACE_player;
 };
 if([_vehicle] call FUNC(canRetractRopes)) then {
     private ["_activeRopes"];
     _activeRopes = [_vehicle] call FUNC(getActiveRopesWithoutCargo);
     if(count _activeRopes > 1) then {
-        player setVariable ["ASL_Retract_Ropes_Index_Vehicle", _vehicle];
+        ACE_player setVariable ["ASL_Retract_Ropes_Index_Vehicle", _vehicle];
         ["Retract Cargo Ropes","ASL_Retract_Ropes_Index_Action",_activeRopes] call FUNC(showSelectRopesMenu);
     } else {
         if(count _activeRopes == 1) then {
-            [_vehicle,player,(_activeRopes select 0) select 0] call FUNC(retractRopes);
+            [_vehicle,ACE_player,(_activeRopes select 0) select 0] call FUNC(retractRopes);
         };
     };
 };

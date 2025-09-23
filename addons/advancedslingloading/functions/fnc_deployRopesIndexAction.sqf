@@ -19,7 +19,7 @@ params ["_ropesIndex"];
 
 private ["_vehicle"];
 
-_vehicle = player getVariable ["ASL_Deploy_Ropes_Index_Vehicle", objNull];
+_vehicle = ACE_player getVariable ["ASL_Deploy_Ropes_Index_Vehicle", objNull];
 if(_ropesIndex >= 0 && !isNull _vehicle && [_vehicle] call FUNC(canDeployRopes)) then {
-    [_vehicle,player,_ropesIndex] call FUNC(deployRopesIndex);
+    [_vehicle,ACE_player,_ropesIndex] call FUNC(deployRopesIndex);
 };

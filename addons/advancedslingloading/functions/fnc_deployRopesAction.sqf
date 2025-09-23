@@ -18,10 +18,10 @@
 
 private ["_vehicle","_canDeployRopes"];
 
-if(isNull objectParent player) then {
+if(isNull objectParent ACE_player) then {
     _vehicle = cursorTarget;
 } else {
-    _vehicle = vehicle player;
+    _vehicle = vehicle ACE_player;
 };
 
 if([_vehicle] call FUNC(canDeployRopes)) then {
@@ -42,10 +42,10 @@ if([_vehicle] call FUNC(canDeployRopes)) then {
         if(count _inactiveRopes > 0) then {
 
             if(count _inactiveRopes > 1) then {
-                player setVariable ["ASL_Deploy_Ropes_Index_Vehicle", _vehicle];
+                ACE_player setVariable ["ASL_Deploy_Ropes_Index_Vehicle", _vehicle];
                 ["Deploy Cargo Ropes","ASL_Deploy_Ropes_Index_Action",_inactiveRopes] call FUNC(showSelectRopesMenu);
             } else {
-                [_vehicle,player,(_inactiveRopes select 0) select 0] call FUNC(deployRopesIndex);
+                [_vehicle,ACE_player,(_inactiveRopes select 0) select 0] call FUNC(deployRopesIndex);
             };
 
         } else {
@@ -53,7 +53,7 @@ if([_vehicle] call FUNC(canDeployRopes)) then {
             _slingLoadPoints = [_vehicle] call FUNC(getSlingLoadPoints);
             if(count _slingLoadPoints > 1) then {
 
-                player setVariable ["ASL_Deploy_Count_Vehicle", _vehicle];
+                ACE_player setVariable ["ASL_Deploy_Count_Vehicle", _vehicle];
 
                 ASL_Deploy_Ropes_Count_Menu = [
                         ["Deploy Ropes",false]
@@ -72,7 +72,7 @@ if([_vehicle] call FUNC(canDeployRopes)) then {
                 showCommandingMenu "";
                 showCommandingMenu "#USER:ASL_Deploy_Ropes_Count_Menu";
             } else {
-                [_vehicle,player] call FUNC(deployRopes);
+                [_vehicle,ACE_player] call FUNC(deployRopes);
             };
 
         };

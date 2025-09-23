@@ -54,10 +54,10 @@ ASL_Sling_Rules = [
 if(!isDedicated) then {
     [] spawn {
         while {true} do {
-            if(!isNull player && isPlayer player) then {
-                if!( player getVariable ["ASL_Actions_Loaded",false] ) then {
+            if(!isNull ACE_player && isPlayer ACE_player) then {
+                if!( ACE_player getVariable ["ASL_Actions_Loaded",false] ) then {
                     [] call FUNC(addPlayerActions);
-                    player setVariable ["ASL_Actions_Loaded",true];
+                    ACE_player setVariable ["ASL_Actions_Loaded",true];
                 };
             };
             missionNamespace setVariable ["ASL_Nearby_Vehicles", (call FUNC(findNearbyVehicles))];

@@ -33,7 +33,7 @@ _closestDistance = -1;
             if(count _ends == 2) then {
                 _end1 = _ends select 0;
                 _end2 = _ends select 1;
-                _minEndDistance = ((position player) distance _end1) min ((position player) distance _end2);
+                _minEndDistance = ((position ACE_player) distance _end1) min ((position ACE_player) distance _end2);
                 if(_closestDistance == -1 || _closestDistance > _minEndDistance) then {
                     _closestDistance = _minEndDistance;
                     _closestRopeIndex = (_activeRope select 0);

@@ -33,7 +33,7 @@ _heavyLiftMinLift = missionNamespace getVariable ["ASL_SET_MASS",4000];
                 _endDistance = (_ends select 0) distance (_ends select 1);
                 _ropeLength = ropeLength _x;
                 if((_ropeLength - 2) <= _endDistance && ((position _heli) select 2) > 0 ) then {
-                    [[_obj, ((_lift)*0.8)],"ASL_Rope_Set_Mass",_obj,true] call FUNC(remoteExec);
+                    [[_obj, ((_lift)*0.8)],"ASL_Rope_Set_Mass",_obj,true] call FUNC(customRemoteExec);
                     _originalMassSet = false;
                 };
             } forEach _ropes;
