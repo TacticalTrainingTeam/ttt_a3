@@ -31,7 +31,7 @@ if(not isNull _vehicle && not isNull _cargo) then {
                 };
             };
         };
-    } forEach (missionNamespace getVariable [QGVAR(Sling_Rules_OVERRIDE), QGVAR(Sling_Rules)]);
+    } forEach (missionNamespace getVariable [QGVAR(Sling_Rules_OVERRIDE), GVAR(Sling_Rules)]);
 };
 
 _canSling;

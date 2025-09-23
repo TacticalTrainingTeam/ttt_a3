@@ -34,7 +34,7 @@ if(local _vehicle) then {
         _cargoRopes = [];
         _cargo = [];
 
-        for "_i" from 0 to (_cargoCount-1) do {
+        for "_i" from 0 to (_cargoCount - 1) do {
             _cargoRopes pushBack [];
             _cargo pushBack objNull;
         };
@@ -42,7 +42,7 @@ if(local _vehicle) then {
         _vehicle setVariable [QGVAR(custom_ropes),_cargoRopes,true];
         _vehicle setVariable [QGVAR(cargo),_cargo,true];
 
-        for "_i" from 0 to (_cargoCoun - 1) do {
+        for "_i" from 0 to (_cargoCount - 1) do {
             [_vehicle, _player, _i] call FUNC(deployRopesIndex);
         };
     } else {
