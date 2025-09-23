@@ -24,7 +24,7 @@ if(call FUNC(canPickupRopes)) then {
         _canPickupRopes = true;
         if!(missionNamespace getVariable [QGVAR(LOCKED_VEHICLES_ENABLED),false]) then {
             if( locked (_closestRope select 0) > 1 ) then {
-                ["Cannot pick up cargo ropes from locked vehicle",false] call FUNC(customHint);
+                [LLSTRING(cannot_pickup_locked_vehicle),false] call FUNC(customHint);
                 _canPickupRopes = false;
             };
         };

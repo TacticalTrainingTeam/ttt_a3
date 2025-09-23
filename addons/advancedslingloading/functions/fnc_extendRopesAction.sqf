@@ -23,7 +23,7 @@ if([_vehicle] call FUNC(canExtendRopes)) then {
     _activeRopes = [_vehicle] call FUNC(getActiveRopes);
     if(count _activeRopes > 1) then {
         ACE_player setVariable [QGVAR(Extend_Index_Vehicle), _vehicle];
-        ["Extend Cargo Ropes", QFUNC(extendRopesIndexAction), _activeRopes] call FUNC(showSelectRopesMenu);
+        [LLSTRING(extend_cargo_ropes), QFUNC(extendRopesIndexAction), _activeRopes] call FUNC(showSelectRopesMenu);
     } else {
         if(count _activeRopes == 1) then {
             [_vehicle,ACE_player,(_activeRopes select 0) select 0] call FUNC(extendRopes);

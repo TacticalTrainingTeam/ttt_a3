@@ -25,10 +25,10 @@ if(local _vehicle) then {
 
     if(count _existingRopes == 0) then {
         if(count _slingLoadPoints == 0) exitWith {
-            [["Vehicle doesn't support cargo ropes", false], QFUNC(customHint), _player] call FUNC(customRemoteExec);
+            [[LLSTRING(doesnt_support), false], QFUNC(customHint), _player] call FUNC(customRemoteExec);
         };
         if(count _slingLoadPoints < _cargoCount) exitWith {
-            [["Vehicle doesn't support " + _cargoCount + " cargo ropes", false],QFUNC(customHint),_player] call FUNC(customRemoteExec);
+            [[LLSTRING(doenst_support_multi), false], QFUNC(customHint),_player] call FUNC(customRemoteExec); //"Vehicle doesn't support " + _cargoCount + " cargo ropes" ToDo
         };
 
         _cargoRopes = [];
@@ -46,7 +46,7 @@ if(local _vehicle) then {
             [_vehicle, _player, _i] call FUNC(deployRopesIndex);
         };
     } else {
-        [["Vehicle already has cargo ropes deployed", false], QFUNC(customHint), _player] call FUNC(customRemoteExec);
+        [[LLSTRING(already_deployed), false], QFUNC(customHint), _player] call FUNC(customRemoteExec);
     };
 } else {
     [_this, QFUNC(deployRopes), _vehicle, true] call FUNC(customRemoteExec);

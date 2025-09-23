@@ -1,37 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="AdvancedSlingloading">
-        <Key ID="STR_ttt_AdvancedSlingloading_attachRope">
+        <Key ID="str_ttt_advancedslingloading_attach_to_cargo_ropes">
             <English>Attach To Cargo Ropes</English>
             <German>Fracht befestigen</German>
         </Key>
-        <Key ID="STR_ttt_AdvancedSlingloading_deployRope">
+        <Key ID="str_ttt_advancedslingloading_deploy_cargo_ropes">
             <English>Deploy Cargo Ropes</English>
             <German>Frachtseile auswerfen</German>
         </Key>
-        <Key ID="STR_ttt_AdvancedSlingloading_dropRope">
+        <Key ID="str_ttt_advancedslingloading_drop_cargo_ropes">
             <English>Drop Cargo Ropes</English>
             <German>Frachtseile fallen lassen</German>
         </Key>
-        <Key ID="STR_ttt_AdvancedSlingloading_extendRope">
+        <Key ID="str_ttt_advancedslingloading_extend_cargo_ropes">
             <English>Extend Cargo Ropes</English>
             <German>Frachtseile verlängern</German>
         </Key>
-        <Key ID="STR_ttt_AdvancedSlingloading_pickupRope">
+        <Key ID="str_ttt_advancedslingloading_pickup_cargo_ropes">
             <English>Pickup Cargo Ropes</English>
             <German>Frachtseile aufnehmen</German>
         </Key>
-        <Key ID="STR_ttt_AdvancedSlingloading_releaseRope">
+        <Key ID="str_ttt_advancedslingloading_release_cargo_ropes">
             <English>Release Cargo</English>
             <German>Fracht lösen</German>
         </Key>
-        <Key ID="STR_ttt_AdvancedSlingloading_retractRope">
+        <Key ID="str_ttt_advancedslingloading_retract_cargo_ropes">
             <English>Retract Cargo Ropes</English>
             <German>Frachtseile einziehen</German>
         </Key>
-        <Key ID="STR_ttt_AdvancedSlingloading_shortenRope">
+        <Key ID="str_ttt_advancedslingloading_shorten_cargo_ropes">
             <English>Shorten Cargo Ropes</English>
             <German>Frachtseile verkürzen</German>
+        </Key>
+        <Key ID="str_ttt_advancedslingloading_too_short">
+            <English>The cargo ropes are too short. Move vehicle closer.</English>
+            <German>Die Frachtseile sind zu kurz. Bewege das Fahrzeug näher heran.</German>
+        </Key>
+        <Key ID="str_ttt_advancedslingloading_locked_vehicle">
+            <English>Cannot attach cargo ropes to locked vehicle.</English>
+            <German>Frachtseile können nicht an einem abgeschlossenem Fahrzeug angebracht werden.</German>
+        </Key>
+        <Key ID="str_ttt_advancedslingloading_doesnt_support">
+            <English>Vehicle doesn't support cargo ropes.</English>
+            <German>Das Fahrzeug unterstützt keine Frachtseile.</German>
+        </Key>
+        <Key ID="str_ttt_advancedslingloading_doenst_support_multi">
+            <English>Vehicle doesn't support %1 cargo ropes.</English>
+            <German>Das Fahrzeug unterstützt nicht soviele Frachtseile.</German>
+        </Key>
+        <Key ID="str_ttt_advancedslingloading_single_cargo">
+            <English>For single cargo.</English>
+            <German>Für einzelne Fracht.</German>
+        </Key>
+        <Key ID="str_ttt_advancedslingloading_double_cargo">
+            <English>For double cargo.</English>
+            <German>Für doppelte Fracht.</German>
+        </Key>
+        <Key ID="str_ttt_advancedslingloading_triple_cargo">
+            <English>For triple cargo.</English>
+            <German>Für dreifache Fracht.</German>
+        </Key>
+        <Key ID="str_ttt_advancedslingloading_already_deployed">
+            <English>Vehicle already has cargo ropes deployed.</English>
+            <German>Fahrzeug hat seine Frachtseile bereits eingesetzt.</German>
+        </Key>
+        <Key ID="str_ttt_advancedslingloading_cannot_pickup_locked_vehicle">
+            <English>Cannot pick up cargo ropes from locked vehicle</English>
+            <German>Von einem abgeschlossenem Fahrzeug können die Seile nicht entfernt werden.</German>
         </Key>
     </Package>
 </Project>

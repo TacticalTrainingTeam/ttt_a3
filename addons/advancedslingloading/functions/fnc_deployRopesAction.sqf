@@ -43,7 +43,7 @@ if([_vehicle] call FUNC(canDeployRopes)) then {
 
             if(count _inactiveRopes > 1) then {
                 ACE_player setVariable [QGVAR(Deploy_Ropes_Index_Vehicle), _vehicle];
-                ["Deploy Cargo Ropes", QFUNC(deployRopesIndexAction), _inactiveRopes] call FUNC(showSelectRopesMenu);
+                [LLSTRING(deploy_cargo_ropes), QFUNC(deployRopesIndexAction), _inactiveRopes] call FUNC(showSelectRopesMenu);
             } else {
                 [_vehicle, ACE_player, (_inactiveRopes select 0) select 0] call FUNC(deployRopesIndex);
             };
@@ -59,14 +59,14 @@ if([_vehicle] call FUNC(canDeployRopes)) then {
                         ["Deploy Ropes",false]
                 ];
 
-                ASL_Deploy_Ropes_Count_Menu pushBack ["For Single Cargo", [0], "", -5, [["expression", QUOTE([1] call FUNC(deployRopesCountAction))]], "1", "1"];
+                ASL_Deploy_Ropes_Count_Menu pushBack [LLSTRING(single_cargo), [0], "", -5, [["expression", QUOTE([1] call FUNC(deployRopesCountAction))]], "1", "1"];
 
                 if((count _slingLoadPoints) > 1) then {
-                    ASL_Deploy_Ropes_Count_Menu pushBack ["For Double Cargo", [0], "", -5, [["expression", QUOTE([2] call FUNC(deployRopesCountAction))]], "1", "1"];
+                    ASL_Deploy_Ropes_Count_Menu pushBack [LLSTRING(double_cargo), [0], "", -5, [["expression", QUOTE([2] call FUNC(deployRopesCountAction))]], "1", "1"];
                 };
 
                 if((count _slingLoadPoints) > 2) then {
-                    ASL_Deploy_Ropes_Count_Menu pushBack ["For Triple Cargo", [0], "", -5, [["expression", QUOTE([3] call FUNC(deployRopesCountAction))]], "1", "1"];
+                    ASL_Deploy_Ropes_Count_Menu pushBack [LLSTRING(triple_cargo), [0], "", -5, [["expression", QUOTE([3] call FUNC(deployRopesCountAction))]], "1", "1"];
                 };
 
                 showCommandingMenu "";

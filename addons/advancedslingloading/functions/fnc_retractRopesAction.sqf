@@ -27,7 +27,7 @@ if([_vehicle] call FUNC(canRetractRopes)) then {
     _activeRopes = [_vehicle] call FUNC(getActiveRopesWithoutCargo);
     if(count _activeRopes > 1) then {
         ACE_player setVariable [QGVAR(Retract_Ropes_Index_Vehicle), _vehicle];
-        ["Retract Cargo Ropes",QFUNC(retractRopesIndexAction),_activeRopes] call FUNC(showSelectRopesMenu);
+        [LLSTRING(retract_cargo_ropes),QFUNC(retractRopesIndexAction),_activeRopes] call FUNC(showSelectRopesMenu);
     } else {
         if(count _activeRopes == 1) then {
             [_vehicle,ACE_player,(_activeRopes select 0) select 0] call FUNC(retractRopes);
