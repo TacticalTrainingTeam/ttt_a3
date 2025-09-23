@@ -11,7 +11,7 @@ Mittels Advanced Sling Load (ASL) ist es möglich Kisten per Außenlast am Hubsc
 
 In der `init.sqf` eurer Mission könnt ihr folgende Werte anpassen:
 
-In das Array den Classname eines oder mehrerer Hubschrauber schreiben, damit **nur diese** Slingloaden können.
+In das Array den Classname eines oder mehrerer Hubschrauber schreiben, damit **nur diese** slingloaden können.
 
 ```c++
 ASL_Supported_Vehicles_OVERRIDE = ["UK3CB_BAF_Merlin_HC3_18_GPMG_DPMW"]; //default: ["Helicopter","VTOL_Base_F"];
