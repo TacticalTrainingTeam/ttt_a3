@@ -10,9 +10,9 @@
  * Return description <NONE>
  *
  * Example:
- * [params] call PREFIX_advancedslingloading_fnc_pickupRopesActionCheck
+ * [params] call ttt_advancedslingloading_fnc_pickupRopesActionCheck
  *
  * Public: No
  */
 
-[] call ASL_Can_Pickup_Ropes;
+[] call FUNC(canPickupRopes);

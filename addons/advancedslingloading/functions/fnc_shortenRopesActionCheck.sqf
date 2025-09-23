@@ -10,10 +10,10 @@
  * Return description <NONE>
  *
  * Example:
- * [params] call PREFIX_advancedslingloading_fnc_shortenRopesActionCheck
+ * [params] call ttt_advancedslingloading_fnc_shortenRopesActionCheck
  *
  * Public: No
  */
 
 if(isNull objectParent player) exitWith {false};
-[vehicle player] call ASL_Can_Shorten_Ropes;
+[vehicle player] call FUNC(canShortenRopes);

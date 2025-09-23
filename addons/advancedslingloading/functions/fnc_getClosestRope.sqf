@@ -10,7 +10,7 @@
  * Return description <NONE>
  *
  * Example:
- * [params] call PREFIX_advancedslingloading_fnc_getClosestRope
+ * [params] call ttt_advancedslingloading_fnc_getClosestRope
  *
  * Public: No
  */
@@ -27,7 +27,7 @@ _closestDistance = -1;
     _vehicle = _x;
     {
         _activeRope = _x;
-        _ropes = [_vehicle,(_activeRope select 0)] call ASL_Get_Ropes;
+        _ropes = [_vehicle,(_activeRope select 0)] call FUNC(getRopes);
         {
             _ends = ropeEndPosition _x;
             if(count _ends == 2) then {
@@ -41,7 +41,7 @@ _closestDistance = -1;
                 };
             };
         } forEach _ropes;
-    } forEach ([_vehicle] call ASL_Get_Active_Ropes);
+    } forEach ([_vehicle] call FUNC(getActiveRopes));
 } forEach _nearbyVehicles;
 
 [_closestVehicle,_closestRopeIndex];

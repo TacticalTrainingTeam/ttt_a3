@@ -10,7 +10,7 @@
  * Return description <NONE>
  *
  * Example:
- * [params] call PREFIX_advancedslingloading_fnc_getActiveRopes
+ * [params] call ttt_advancedslingloading_fnc_getActiveRopes
  *
  * Public: No
  */

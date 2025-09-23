@@ -10,7 +10,7 @@
  * Return description <NONE>
  *
  * Example:
- * [params] call PREFIX_advancedslingloading_fnc_canAttachRopes
+ * [params] call ttt_advancedslingloading_fnc_canAttachRopes
  *
  * Public: No
  */
@@ -18,7 +18,7 @@
 params ["_vehicle","_cargo"];
 
 if(!isNull _vehicle && !isNull _cargo) then {
-    [_vehicle,_cargo] call ASL_Is_Supported_Cargo && isNull objectParent player && player distance _cargo < 10 && _vehicle != _cargo;
+    [_vehicle,_cargo] call FUNC(isSupportedCargo) && isNull objectParent player && player distance _cargo < 10 && _vehicle != _cargo;
 } else {
     false;
 };

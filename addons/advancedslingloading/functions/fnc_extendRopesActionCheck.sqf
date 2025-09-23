@@ -10,10 +10,10 @@
  * Return description <NONE>
  *
  * Example:
- * [params] call PREFIX_advancedslingloading_fnc_extendRopesActionCheck
+ * [params] call ttt_advancedslingloading_fnc_extendRopesActionCheck
  *
  * Public: No
  */
 
 if(isNull objectParent player) exitWith {false};
-[vehicle player] call ASL_Can_Extend_Ropes;
+[vehicle player] call FUNC(canExtendRopes);

@@ -10,7 +10,7 @@
  * Return description <NONE>
  *
  * Example:
- * [params] call PREFIX_advancedslingloading_fnc_dropRopes
+ * [params] call ttt_advancedslingloading_fnc_dropRopes
  *
  * Public: No
  */
@@ -21,7 +21,7 @@ if(local _vehicle) then {
     private ["_helper","_existingRopes"];
     _helper = (_player getVariable ["ASL_Ropes_Pick_Up_Helper", objNull]);
     if(!isNull _helper) then {
-        _existingRopes = [_vehicle,_ropesIndex] call ASL_Get_Ropes;
+        _existingRopes = [_vehicle,_ropesIndex] call FUNC(getRopes);
         {
             _helper ropeDetach _x;
         } forEach _existingRopes;
@@ -31,5 +31,5 @@ if(local _vehicle) then {
     _player setVariable ["ASL_Ropes_Vehicle", nil,true];
     _player setVariable ["ASL_Ropes_Pick_Up_Helper", nil,true];
 } else {
-    [_this,"ASL_Drop_Ropes",_vehicle,true] call ASL_RemoteExec;
+    [_this,"ASL_Drop_Ropes",_vehicle,true] call FUNC(customRemoteExec);
 };

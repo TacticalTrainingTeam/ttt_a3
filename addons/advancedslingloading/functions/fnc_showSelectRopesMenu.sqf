@@ -10,7 +10,7 @@
  * Return description <NONE>
  *
  * Example:
- * [params] call PREFIX_advancedslingloading_fnc_showSelectRopesMenu
+ * [params] call ttt_advancedslingloading_fnc_showSelectRopesMenu
  *
  * Public: No
  */

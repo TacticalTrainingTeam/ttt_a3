@@ -10,13 +10,13 @@
  * Return description <NONE>
  *
  * Example:
- * [params] call PREFIX_advancedslingloading_fnc_retractRopesActionCheck
+ * [params] call ttt_advancedslingloading_fnc_retractRopesActionCheck
  *
  * Public: No
  */
 
 if(isNull objectParent player) then {
-    [cursorTarget] call ASL_Can_Retract_Ropes;
+    [cursorTarget] call FUNC(canRetractRopes);
 } else {
-    [vehicle player] call ASL_Can_Retract_Ropes;
+    [vehicle player] call FUNC(canRetractRopes);
 };

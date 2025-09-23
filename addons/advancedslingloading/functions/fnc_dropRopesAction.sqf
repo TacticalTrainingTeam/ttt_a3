@@ -10,16 +10,16 @@
  * Return description <NONE>
  *
  * Example:
- * [params] call PREFIX_advancedslingloading_fnc_dropRopesAction
+ * [params] call ttt_advancedslingloading_fnc_dropRopesAction
  *
  * Public: No
  */
 
 private ["_vehicleAndIndex"];
 
-if([] call ASL_Can_Drop_Ropes) then {
+if([] call FUNC(canDropRopes)) then {
     _vehicleAndIndex = player getVariable ["ASL_Ropes_Vehicle", []];
     if(count _vehicleAndIndex == 2) then {
-        [_vehicleAndIndex select 0, player, _vehicleAndIndex select 1] call ASL_Drop_Ropes;
+        [_vehicleAndIndex select 0, player, _vehicleAndIndex select 1] call FUNC(dropRopes);
     };
 };

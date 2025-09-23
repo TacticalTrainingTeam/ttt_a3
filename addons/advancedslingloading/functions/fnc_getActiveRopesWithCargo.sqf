@@ -10,7 +10,7 @@
  * Return description <NONE>
  *
  * Example:
- * [params] call PREFIX_advancedslingloading_fnc_getActiveRopesWithCargo
+ * [params] call ttt_advancedslingloading_fnc_getActiveRopesWithCargo
  *
  * Public: No
  */
@@ -21,7 +21,7 @@ private ["_activeRopesWithCargo","_existingCargo","_activeRopes","_cargo"];
 
 _activeRopesWithCargo = [];
 _existingCargo = _vehicle getVariable ["ASL_Cargo",[]];
-_activeRopes = call ASL_Get_Active_Ropes;
+_activeRopes = call FUNC(getActiveRopes);
 {
     _cargo = _existingCargo select (_x select 0);
     if(!isNull _cargo) then {

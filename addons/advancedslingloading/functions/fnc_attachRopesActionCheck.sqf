@@ -10,7 +10,7 @@
  * Return description <NONE>
  *
  * Example:
- * [params] call PREFIX_advancedslingloading_fnc_attachRopesActionCheck
+ * [params] call ttt_advancedslingloading_fnc_attachRopesActionCheck
  *
  * Public: No
  */
@@ -19,4 +19,4 @@ private ["_vehicleWithIndex","_cargo"];
 
 _vehicleWithIndex = player getVariable ["ASL_Ropes_Vehicle", [objNull,0]];
 _cargo = cursorTarget;
-[_vehicleWithIndex select 0,_cargo] call ASL_Can_Attach_Ropes;
+[_vehicleWithIndex select 0,_cargo] call FUNC(canAttachRopes);

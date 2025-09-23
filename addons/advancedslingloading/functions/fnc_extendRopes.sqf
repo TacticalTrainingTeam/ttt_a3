@@ -10,7 +10,7 @@
  * Return description <NONE>
  *
  * Example:
- * [params] call PREFIX_advancedslingloading_fnc_extendRopes
+ * [params] call ttt_advancedslingloading_fnc_extendRopes
  *
  * Public: No
  */
@@ -19,7 +19,7 @@ params ["_vehicle","_player",["_ropeIndex",0]];
 
 if(local _vehicle) then {
     private ["_existingRopes"];
-    _existingRopes = [_vehicle,_ropeIndex] call ASL_Get_Ropes;
+    _existingRopes = [_vehicle,_ropeIndex] call FUNC(getRopes);
     if(count _existingRopes > 0) then {
         _ropeLength = ropeLength (_existingRopes select 0);
         if(_ropeLength <= 100 ) then {
@@ -29,5 +29,5 @@ if(local _vehicle) then {
         };
     };
 } else {
-    [_this,"ASL_Extend_Ropes",_vehicle,true] call ASL_RemoteExec;
+    [_this,"ASL_Extend_Ropes",_vehicle,true] call FUNC(customRemoteExec);
 };

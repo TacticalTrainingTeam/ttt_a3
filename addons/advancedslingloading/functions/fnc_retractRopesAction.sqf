@@ -10,7 +10,7 @@
  * Return description <NONE>
  *
  * Example:
- * [params] call PREFIX_advancedslingloading_fnc_retractRopesAction
+ * [params] call ttt_advancedslingloading_fnc_retractRopesAction
  *
  * Public: No
  */
@@ -22,15 +22,15 @@ if(isNull objectParent player) then {
 } else {
     _vehicle = vehicle player;
 };
-if([_vehicle] call ASL_Can_Retract_Ropes) then {
+if([_vehicle] call FUNC(canRetractRopes)) then {
     private ["_activeRopes"];
-    _activeRopes = [_vehicle] call ASL_Get_Active_Ropes_Without_Cargo;
+    _activeRopes = [_vehicle] call FUNC(getActiveRopesWithoutCargo);
     if(count _activeRopes > 1) then {
         player setVariable ["ASL_Retract_Ropes_Index_Vehicle", _vehicle];
-        ["Retract Cargo Ropes","ASL_Retract_Ropes_Index_Action",_activeRopes] call ASL_Show_Select_Ropes_Menu;
+        ["Retract Cargo Ropes","ASL_Retract_Ropes_Index_Action",_activeRopes] call FUNC(showSelectRopesMenu);
     } else {
         if(count _activeRopes == 1) then {
-            [_vehicle,player,(_activeRopes select 0) select 0] call ASL_Retract_Ropes;
+            [_vehicle,player,(_activeRopes select 0) select 0] call FUNC(retractRopes);
         };
     };
 };

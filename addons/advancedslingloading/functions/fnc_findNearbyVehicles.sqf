@@ -10,7 +10,7 @@
  * Return description <NONE>
  *
  * Example:
- * [params] call PREFIX_advancedslingloading_fnc_findNearbyVehicles
+ * [params] call ttt_advancedslingloading_fnc_findNearbyVehicles
  *
  * Public: No
  */
@@ -43,7 +43,7 @@ _nearVehiclesWithRopes = [];
                 };
             } forEach _ropes;
         };
-    } forEach ([_vehicle] call ASL_Get_Active_Ropes);
+    } forEach ([_vehicle] call FUNC(getActiveRopes));
 } forEach _nearVehicles;
 
 _nearVehiclesWithRopes;

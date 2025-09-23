@@ -10,7 +10,7 @@
  * Return description <NONE>
  *
  * Example:
- * [params] call PREFIX_advancedslingloading_fnc_init
+ * [params] call ttt_advancedslingloading_fnc_init
  *
  * Public: No
  */
@@ -56,11 +56,11 @@ if(!isDedicated) then {
         while {true} do {
             if(!isNull player && isPlayer player) then {
                 if!( player getVariable ["ASL_Actions_Loaded",false] ) then {
-                    [] call ASL_Add_Player_Actions;
+                    [] call FUNC(addPlayerActions);
                     player setVariable ["ASL_Actions_Loaded",true];
                 };
             };
-            missionNamespace setVariable ["ASL_Nearby_Vehicles", (call ASL_Find_Nearby_Vehicles)];
+            missionNamespace setVariable ["ASL_Nearby_Vehicles", (call FUNC(findNearbyVehicles))];
             sleep 2;
         };
     };

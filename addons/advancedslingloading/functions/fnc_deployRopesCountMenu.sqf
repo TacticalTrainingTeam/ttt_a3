@@ -10,10 +10,10 @@
  * Return description <NONE>
  *
  * Example:
- * [params] call ttt_advancedslingloading_fnc_releaseCarogActionCheck
+ * [params] call ttt_advancedslingloading_fnc_deployRopesCountMenu
  *
  * Public: No
  */
 
-if(isNull objectParent player) exitWith {false};
-[vehicle player] call FUNC(canReleaseCargo);
+params [];
+TRACE_1("fnc_deployRopesCountMenu",_this);

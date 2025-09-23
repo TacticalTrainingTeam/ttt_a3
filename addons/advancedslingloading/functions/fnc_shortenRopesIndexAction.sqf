@@ -10,7 +10,7 @@
  * Return description <NONE>
  *
  * Example:
- * [params] call PREFIX_advancedslingloading_fnc_shortenRopesIndexAction
+ * [params] call ttt_advancedslingloading_fnc_shortenRopesIndexAction
  *
  * Public: No
  */
@@ -20,6 +20,6 @@ params ["_ropeIndex"];
 private ["_vehicle"];
 
 _vehicle = player getVariable ["ASL_Shorten_Index_Vehicle", objNull];
-if(_ropeIndex >= 0 && !isNull _vehicle && [_vehicle] call ASL_Can_Shorten_Ropes) then {
-    [_vehicle,player,_ropeIndex] call ASL_Shorten_Ropes;
+if(_ropeIndex >= 0 && !isNull _vehicle && [_vehicle] call FUNC(canShortenRopes)) then {
+    [_vehicle,player,_ropeIndex] call FUNC(shortenRopes);
 };

@@ -10,7 +10,7 @@
     * Return description <NONE>
     *
     * Example:
-    * [params] call PREFIX_advancedslingloading_fnc_getRopesAndCargo
+    * [params] call ttt_advancedslingloading_fnc_getRopesAndCargo
     *
     * Public: No
     */
@@ -20,6 +20,6 @@ params ["_vehicle","_ropeIndex"];
 
 private ["_selectedCargo","_selectedRopes"];
 
-_selectedCargo = (call ASL_Get_Cargo);
-_selectedRopes = (call ASL_Get_Ropes);
+_selectedCargo = (call FUNC(getCargo));
+_selectedRopes = (call FUNC(getRopes));
 [_selectedRopes, _selectedCargo];

@@ -10,13 +10,13 @@
  * Return description <NONE>
  *
  * Example:
- * [params] call PREFIX_advancedslingloading_fnc_deployRopesActionCheck
+ * [params] call ttt_advancedslingloading_fnc_deployRopesActionCheck
  *
  * Public: No
  */
 
 if(isNull objectParent player) then {
-    [cursorTarget] call ASL_Can_Deploy_Ropes;
+    [cursorTarget] call FUNC(canDeployRopes);
 } else {
-    [vehicle player] call ASL_Can_Deploy_Ropes;
+    [vehicle player] call FUNC(canDeployRopes);
 };
