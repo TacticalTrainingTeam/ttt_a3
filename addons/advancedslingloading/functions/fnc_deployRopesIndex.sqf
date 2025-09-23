@@ -40,5 +40,5 @@ if(local _vehicle) then {
         _vehicle setVariable [QGVAR(custom_ropes), _allRopes,true];
     };
 } else {
-    [_this, QFUNC(deploRopesIndex), _vehicle, true] call FUNC(customRemoteExec);
+    [_this, QFUNC(deployRopesIndex), _vehicle, true] call FUNC(customRemoteExec);
 };
