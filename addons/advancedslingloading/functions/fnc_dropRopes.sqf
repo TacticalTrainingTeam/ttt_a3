@@ -20,7 +20,7 @@ params ["_vehicle", "_player", ["_ropesIndex", 0]];
 if(local _vehicle) then {
     private ["_helper","_existingRopes"];
 
-    _helper = (_player getVariable [QGVAR(Pick_Up_Helper), objNull]);
+    _helper = (_player getVariable [QGVAR(Ropes_Pick_Up_Helper), objNull]);
     if(!isNull _helper) then {
         _existingRopes = [_vehicle,_ropesIndex] call FUNC(getRopes);
         {
@@ -30,7 +30,7 @@ if(local _vehicle) then {
         deleteVehicle _helper;
     };
     _player setVariable [QGVAR(Ropes_Vehicle), nil,true];
-    _player setVariable [QGVAR(opes_Pick_Up_Helper), nil,true];
+    _player setVariable [QGVAR(Ropes_Pick_Up_Helper), nil,true];
 } else {
     [_this, QFUNC(dropRopes), _vehicle, true] call FUNC(customRemoteExec);
 };

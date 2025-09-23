@@ -20,10 +20,13 @@ params ["_cargo","_player"];
 _vehicleWithIndex = _player getVariable [QGVAR(ropes_vehicle), [objNull, 0]];
 _vehicle = _vehicleWithIndex select 0;
 
+
+
 if(!isNull _vehicle) then {
     if(local _vehicle) then {
         private ["_ropes", "_attachmentPoints", "_objDistance", "_ropeLength", "_allCargo"];
-        _ropes = [_vehicle,(_vehicleWithIndex select 1)] call FUNC(getRopes);
+        _ropes = [_vehicle, (_vehicleWithIndex select 1)] call FUNC(getRopes);
+
         if(count _ropes == 4) then {
             _attachmentPoints = [_cargo] call FUNC(getCornerPoints);
             _ropeLength = (ropeLength (_ropes select 0));
