@@ -22,8 +22,8 @@ if([_vehicle] call FUNC(canShortenRopes)) then {
     private ["_activeRopes"];
     _activeRopes = [_vehicle] call FUNC(getActiveRopes);
     if(count _activeRopes > 1) then {
-        ACE_player setVariable ["ASL_Shorten_Index_Vehicle", _vehicle];
-        ["Shorten Cargo Ropes","ASL_Shorten_Ropes_Index_Action",_activeRopes] call FUNC(showSelectRopesMenu);
+        ACE_player setVariable [QGVAR(shorten_Index_Vehicle), _vehicle];
+        ["Shorten Cargo Ropes",QFUNC(shortenRopesIndexAction),_activeRopes] call FUNC(showSelectRopesMenu);
     } else {
         if(count _activeRopes == 1) then {
             [_vehicle,ACE_player,(_activeRopes select 0) select 0] call FUNC(shortenRopes);

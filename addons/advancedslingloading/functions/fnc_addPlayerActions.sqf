@@ -16,35 +16,35 @@
  */
 
 player addAction ["Extend Cargo Ropes", {
-    [] call ASL_Extend_Ropes_Action;
+    call FUNC(extendRopesAction);
 }, nil, 0, false, true, "", QUOTE(call FUNC(extendRopesActionCheck))];
 
 player addAction ["Shorten Cargo Ropes", {
-    [] call ASL_Shorten_Ropes_Action;
+    call FUNC(shortenRopesAction);
 }, nil, 0, false, true, "", QUOTE(call FUNC(shortenRopesActionCheck))];
 
 player addAction ["Release Cargo", {
-    [] call ASL_Release_Cargo_Action;
+    call FUNC(releaseCargoAction);
 }, nil, 0, false, true, "", QUOTE(call FUNC(releaseRopesActionCheck))];
 
 player addAction ["Retract Cargo Ropes", {
-    [] call ASL_Retract_Ropes_Action;
+    call FUNC(retractRopesAction);
 }, nil, 0, false, true, "", QUOTE(call FUNC(retractRopesActionCheck))];
 
 player addAction ["Deploy Cargo Ropes", {
-    [] call ASL_Deploy_Ropes_Action;
+    call FUNC(deployRopesAction);
 }, nil, 0, false, true, "", QUOTE(call FUNC(deployRopesActionCheck))];
 
 player addAction ["Attach To Cargo Ropes", {
-    [] call ASL_Attach_Ropes_Action;
+    call FUNC(attachRopesAction);
 }, nil, 0, false, true, "", QUOTE(call FUNC(attachRopesActionCheck))];
 
 player addAction ["Drop Cargo Ropes", {
-    [] call ASL_Drop_Ropes_Action;
+    call FUNC(dropRopesAction);
 }, nil, 0, false, true, "", QUOTE(call FUNC(dropRopesActionCheck))];
 
 player addAction ["Pickup Cargo Ropes", {
-    [] call ASL_Pickup_Ropes_Action;
+    call FUNC(pickupRopesAction);
 }, nil, 0, false, true, "", QUOTE(call FUNC(pickupRopesActionCheck))];
 
 player addEventHandler ["Respawn", {

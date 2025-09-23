@@ -37,14 +37,14 @@ if(local _vehicle) then {
                 ropeDestroy _rope;
             };
         } forEach _existingRopes;
-        _allRopes = _vehicle getVariable ["ASL_Ropes",[]];
+        _allRopes = _vehicle getVariable [QGVAR(custom_ropes),[]];
         _allRopes set [_ropeIndex,[]];
-        _vehicle setVariable ["ASL_Ropes",_allRopes,true];
+        _vehicle setVariable [QGVAR(custom_ropes),_allRopes,true];
     };
     _activeRopes = [_vehicle] call FUNC(getActiveRopes);
     if(count _activeRopes == 0) then {
-        _vehicle setVariable ["ASL_Ropes",nil,true];
+        _vehicle setVariable [QGVAR(custom_ropes),nil,true];
     };
 } else {
-    [_this,"ASL_Retract_Ropes",_vehicle,true] call FUNC(customRemoteExec);
+    [_this, QFUNC(retractRopes), _vehicle,true] call FUNC(customRemoteExec);
 };

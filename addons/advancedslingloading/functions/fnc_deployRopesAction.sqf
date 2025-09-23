@@ -28,7 +28,7 @@ if([_vehicle] call FUNC(canDeployRopes)) then {
 
     _canDeployRopes = true;
 
-    if!(missionNamespace getVariable ["ASL_LOCKED_VEHICLES_ENABLED",false]) then {
+    if!(missionNamespace getVariable [QGVAR(LOCKED_VEHICLES_ENABLED),false]) then {
         if( locked _vehicle > 1 ) then {
             ["Cannot deploy cargo ropes from locked vehicle",false] call FUNC(customHint);
             _canDeployRopes = false;
@@ -42,10 +42,10 @@ if([_vehicle] call FUNC(canDeployRopes)) then {
         if(count _inactiveRopes > 0) then {
 
             if(count _inactiveRopes > 1) then {
-                ACE_player setVariable ["ASL_Deploy_Ropes_Index_Vehicle", _vehicle];
-                ["Deploy Cargo Ropes","ASL_Deploy_Ropes_Index_Action",_inactiveRopes] call FUNC(showSelectRopesMenu);
+                ACE_player setVariable [QGVAR(Deploy_Ropes_Index_Vehicle), _vehicle];
+                ["Deploy Cargo Ropes", QFUNC(deployRopesIndexAction), _inactiveRopes] call FUNC(showSelectRopesMenu);
             } else {
-                [_vehicle,ACE_player,(_inactiveRopes select 0) select 0] call FUNC(deployRopesIndex);
+                [_vehicle, ACE_player, (_inactiveRopes select 0) select 0] call FUNC(deployRopesIndex);
             };
 
         } else {
@@ -53,20 +53,20 @@ if([_vehicle] call FUNC(canDeployRopes)) then {
             _slingLoadPoints = [_vehicle] call FUNC(getSlingLoadPoints);
             if(count _slingLoadPoints > 1) then {
 
-                ACE_player setVariable ["ASL_Deploy_Count_Vehicle", _vehicle];
+                ACE_player setVariable [QGVAR(Deploy_Count_Vehicle), _vehicle];
 
                 ASL_Deploy_Ropes_Count_Menu = [
                         ["Deploy Ropes",false]
                 ];
 
-                ASL_Deploy_Ropes_Count_Menu pushBack ["For Single Cargo", [0], "", -5, [["expression", "[1] call ASL_Deploy_Ropes_Count_Action"]], "1", "1"]; //ToDo FUNC
+                ASL_Deploy_Ropes_Count_Menu pushBack ["For Single Cargo", [0], "", -5, [["expression", QUOTE([1] call FUNC(deployRopesCountAction))]], "1", "1"];
 
                 if((count _slingLoadPoints) > 1) then {
-                    ASL_Deploy_Ropes_Count_Menu pushBack ["For Double Cargo", [0], "", -5, [["expression", "[2] call ASL_Deploy_Ropes_Count_Action"]], "1", "1"]; //ToDo FUNC
+                    ASL_Deploy_Ropes_Count_Menu pushBack ["For Double Cargo", [0], "", -5, [["expression", QUOTE([2] call FUNC(deployRopesCountAction))]], "1", "1"];
                 };
 
                 if((count _slingLoadPoints) > 2) then {
-                    ASL_Deploy_Ropes_Count_Menu pushBack ["For Triple Cargo", [0], "", -5, [["expression", "[3] call ASL_Deploy_Ropes_Count_Action"]], "1", "1"]; //ToDo FUNC
+                    ASL_Deploy_Ropes_Count_Menu pushBack ["For Triple Cargo", [0], "", -5, [["expression", QUOTE([3] call FUNC(deployRopesCountAction))]], "1", "1"];
                 };
 
                 showCommandingMenu "";

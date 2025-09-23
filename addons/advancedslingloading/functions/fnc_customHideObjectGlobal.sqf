@@ -10,7 +10,7 @@
  * Return description <NONE>
  *
  * Example:
- * [params] call ttt_advancedslingloading_fnc_hideObjectGlobal
+ * [params] call ttt_advancedslingloading_fnc_customhideObjectGlobal
  *
  * Public: No
  */

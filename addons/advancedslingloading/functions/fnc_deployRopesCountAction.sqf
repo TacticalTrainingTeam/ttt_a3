@@ -17,9 +17,9 @@
 
 params ["_count"];
 
-private ["_vehicle","_canDeployRopes"];
+private ["_vehicle", "_canDeployRopes"];
 
-_vehicle = ACE_player getVariable ["ASL_Deploy_Count_Vehicle", objNull];
+_vehicle = ACE_player getVariable [QGVAR(Deploy_Count_Vehicle), objNull];
 if(_count > 0 && !isNull _vehicle && [_vehicle] call FUNC(canDeployRopes)) then {
     [_vehicle,ACE_player,_count] call FUNC(deployRopes);
 };

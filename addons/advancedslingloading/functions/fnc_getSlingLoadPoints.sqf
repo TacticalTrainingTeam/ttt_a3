@@ -33,7 +33,7 @@ _slingLoadPointHeightOffset = 0;
     if(_vehicle isKindOf (_x select 0)) then {
         _slingLoadPointHeightOffset = (_x select 1);
     };
-} forEach ASL_Sling_Load_Point_Class_Height_Offset;
+} forEach GVAR(Sling_Load_Point_Class_Height_Offset);
 
 _slingLoadPoints = [];
 {

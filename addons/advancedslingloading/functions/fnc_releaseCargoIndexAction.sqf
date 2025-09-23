@@ -19,7 +19,7 @@ params ["_ropesIndex"];
 
 private ["_vehicle"];
 
-_vehicle = ACE_player getVariable ["ASL_Release_Cargo_Index_Vehicle", objNull];
+_vehicle = ACE_player getVariable [QGVAR(Release_Cargo_Index_Vehicle), objNull];
 if(_ropesIndex >= 0 && !isNull _vehicle && [_vehicle] call FUNC(canReleaseCargo)) then {
     [_vehicle,ACE_player,_ropesIndex] call FUNC(releaseCargo);
 };

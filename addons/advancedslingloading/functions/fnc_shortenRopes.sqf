@@ -35,5 +35,5 @@ if(local _vehicle) then {
         };
     };
 } else {
-    [_this,"ASL_Shorten_Ropes",_vehicle,true] call FUNC(customRemoteExec);
+    [_this,QFUNC(shortenRopes),_vehicle,true] call FUNC(customRemoteExec);
 };

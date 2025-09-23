@@ -18,11 +18,12 @@
 params [];
 
 // Prevent advanced sling loading from installing twice
-if(!isNil "ASL_ROPE_INIT") exitWith {};
-ASL_ROPE_INIT = true;
+if(!isNil QGVAR(ROPE_INIT)) exitWith {};
+
+GVAR(ROPE_INIT) = true;
 INFO("Advanced Sling Loading Loading...");
 
-ASL_Sling_Load_Point_Class_Height_Offset = [
+GVAR(Sling_Load_Point_Class_Height_Offset) = [
     ["All", [-0.05, -0.05, -0.05]],
     ["UK3CB_BAF_Merlin_HC3_18", [-0.05, -0.05, -0.05]],
     ["UK3CB_BAF_Merlin_HC3_18_GPMG", [-0.05, -0.05, -0.05]],
@@ -42,22 +43,24 @@ ASL_Sling_Load_Point_Class_Height_Offset = [
     ["B_T_VTOL_01_Vehicle_F", [-0.9, -0.9, -0.9]] //ToDo Hatchet Mod
 ];
 
-ASL_Supported_Vehicles = [
+GVAR(Supported_Vehicles) = [
     "Helicopter",
     "VTOL_Base_F"
 ];
 
-ASL_Sling_Rules = [
+GVAR(Sling_Rules) = [
     ["All","CAN_SLING","All"]
 ];
 
+
+//ToDo Remove spawn and sleep
 if(!isDedicated) then {
     [] spawn {
         while {true} do {
             if(!isNull ACE_player && isPlayer ACE_player) then {
                 if!( ACE_player getVariable [QGVAR(actions_loaded),false] ) then {
-                    [] call FUNC(addPlayerActions);
-                    ACE_player setVariable [GVAR(actions_loaded),true];
+                    call FUNC(addPlayerActions);
+                    ACE_player setVariable [QGVAR(actions_loaded),true];
                 };
             };
             missionNamespace setVariable [QGVAR(nearby_vehicles), (call FUNC(findNearbyVehicles))];
@@ -70,7 +73,9 @@ if(isServer) then {
 
     // Adds support for exile network calls (Only used when running exile) //
 
-    ASL_Supported_RemoteExecServer_Functions = ["ASL_Hide_Object_Global"];
+    GVAR(Supported_RemoteExecServer_Functions) = [
+        QFUNC(customHideObjectGlobal)
+    ];
 
     ExileServer_AdvancedSlingLoading_network_AdvancedSlingLoadingRemoteExecServer = {
         params ["_sessionId", "_messageParameters",["_isCall",false]];
@@ -84,12 +89,24 @@ if(isServer) then {
         };
     };
 
-    ASL_Supported_RemoteExecClient_Functions = ["ASL_Pickup_Ropes","ASL_Deploy_Ropes_Index","ASL_Rope_Set_Mass","ASL_Extend_Ropes","ASL_Shorten_Ropes","ASL_Release_Cargo","ASL_Retract_Ropes","ASL_Deploy_Ropes","ASL_Hint","ASL_Attach_Ropes","ASL_Drop_Ropes"];
+   GVAR(Supported_RemoteExecClient_Functions) = [
+        QFUNC(pickupropes),
+        QFUNC(deployRopesIndex),
+        QFUNC(ropeSetMass),
+        QFUNC(extendRopes),
+        QFUNC(shortenRopes),
+        QFUNC(releaseCargo),
+        QFUNC(retractRopes),
+        QFUNC(deployRopes),
+        QFUNC(customHint),
+        QFUNC(attachRopes),
+        QFUNC(dropRopes)
+    ];
 
     ExileServer_AdvancedSlingLoading_network_AdvancedSlingLoadingRemoteExecClient = {
         params ["_sessionId", "_messageParameters"];
         _messageParameters params ["_params","_functionName","_target",["_isCall",false]];
-        if(_functionName in ASL_Supported_RemoteExecClient_Functions) then {
+        if(_functionName in GVAR(Supported_RemoteExecClient_Functions)) then {
             if(_isCall) then {
                 _params remoteExecCall [_functionName, _target];
             } else {
@@ -101,7 +118,7 @@ if(isServer) then {
     // Install Advanced Sling Loading on all clients (plus JIP) //
 
     publicVariable "ASL_Advanced_Sling_Loading_Install";
-    remoteExecCall ["ASL_Advanced_Sling_Loading_Install", -2,true];
+    remoteExecCall ["ASL_Advanced_Sling_Loading_Install", -2, true];
 
 };
 

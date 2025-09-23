@@ -22,8 +22,8 @@ if([_vehicle] call FUNC(canReleaseCargo)) then {
     private ["_activeRopes"];
     _activeRopes = [_vehicle] call FUNC(getActiveRopesWithCargo);
     if(count _activeRopes > 1) then {
-        ACE_player setVariable ["ASL_Release_Cargo_Index_Vehicle", _vehicle];
-        ["Release Cargo","ASL_Release_Cargo_Index_Action",_activeRopes,"Cargo"] call FUNC(showSelectRopesMenu);
+        ACE_player setVariable [QGVAR(Release_Cargo_Index_Vehicle), _vehicle];
+        ["Release Cargo",QFUNC(releaseCargoIndexAction),_activeRopes,"Cargo"] call FUNC(showSelectRopesMenu);
     } else {
         if(count _activeRopes == 1) then {
             [_vehicle,ACE_player,(_activeRopes select 0) select 0] call FUNC(releaseCargo);

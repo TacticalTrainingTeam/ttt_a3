@@ -20,7 +20,7 @@ params ["_vehicle"];
 private ["_activeRopes","_existingRopes","_ropeLabelSets","_ropeIndex","_totalExistingRopes","_ropeLabels"];
 
 _activeRopes = [];
-_existingRopes = _vehicle getVariable ["ASL_Ropes",[]];
+_existingRopes = _vehicle getVariable [QGVAR(custom_ropes),[]];
 _ropeLabelSets = [["Center"],["Front","Rear"],["Front","Center","Rear"]];
 _ropeIndex = 0;
 _totalExistingRopes = count _existingRopes;

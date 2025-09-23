@@ -25,10 +25,10 @@ if(local _vehicle) then {
     {
         _existingCargo ropeDetach _x;
     } forEach _existingRopes;
-    _allCargo = _vehicle getVariable ["ASL_Cargo",[]];
+    _allCargo = _vehicle getVariable [QGVAR(Cargo),[]];
     _allCargo set [_ropeIndex,objNull];
-    _vehicle setVariable ["ASL_Cargo",_allCargo, true];
+    _vehicle setVariable [QGVAR(Cargo),_allCargo, true];
     call FUNC(retractRopes);
 } else {
-    [_this,"ASL_Release_Cargo",_vehicle,true] call FUNC(customRemoteExec);
+    [_this,QFUNC(releaseCargo),_vehicle,true] call FUNC(customRemoteExec);
 };

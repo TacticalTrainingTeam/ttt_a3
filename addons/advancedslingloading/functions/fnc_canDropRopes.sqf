@@ -15,4 +15,4 @@
  * Public: No
  */
 
-count (ACE_player getVariable ["ASL_Ropes_Vehicle", []]) > 0 && isNull objectParent ACE_player;
+count (ACE_player getVariable [QGVAR(ropes_vehicle), []]) > 0 && isNull objectParent ACE_player;

@@ -21,7 +21,7 @@ private ["_existingRopes","_activeRopes"];
 
 if(ACE_player distance _vehicle > 30) exitWith { false };
 if!([_vehicle] call FUNC(isSupportedVehicle)) exitWith { false };
-_existingRopes = _vehicle getVariable ["ASL_Ropes",[]];
+_existingRopes = _vehicle getVariable [QGVAR(custom_ropes),[]];
 if((count _existingRopes) == 0) exitWith { false };
 _activeRopes = [_vehicle] call FUNC(getActiveRopesWithoutCargo);
 if((count _activeRopes) == 0) exitWith { false };

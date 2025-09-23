@@ -19,7 +19,7 @@ private ["_nearbyVehicles","_closestVehicle","_closestRopeIndex","_closestDistan
 private ["_vehicle","_activeRope","_ropes","_ends"];
 private ["_end1","_end2","_minEndDistance"];
 
-_nearbyVehicles = missionNamespace getVariable ["ASL_Nearby_Vehicles",[]];
+_nearbyVehicles = missionNamespace getVariable [QGVAR(Nearby_Vehicles),[]];
 _closestVehicle = objNull;
 _closestRopeIndex = 0;
 _closestDistance = -1;

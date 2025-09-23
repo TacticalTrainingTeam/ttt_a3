@@ -17,12 +17,12 @@
 
 private ["_nearbyVehicles","_canPickupRopes","_closestRope"];
 
-_nearbyVehicles = missionNamespace getVariable ["ASL_Nearby_Vehicles",[]];
-if([] call FUNC(canPickupRopes)) then {
-    _closestRope = [] call FUNC(getClosestRope);
+_nearbyVehicles = missionNamespace getVariable [QGVAR(nearby_vehicles),[]];
+if(call FUNC(canPickupRopes)) then {
+    _closestRope = call FUNC(getClosestRope);
     if(!isNull (_closestRope select 0)) then {
         _canPickupRopes = true;
-        if!(missionNamespace getVariable ["ASL_LOCKED_VEHICLES_ENABLED",false]) then {
+        if!(missionNamespace getVariable [QGVAR(LOCKED_VEHICLES_ENABLED),false]) then {
             if( locked (_closestRope select 0) > 1 ) then {
                 ["Cannot pick up cargo ropes from locked vehicle",false] call FUNC(customHint);
                 _canPickupRopes = false;

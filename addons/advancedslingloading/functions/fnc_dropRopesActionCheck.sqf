@@ -15,4 +15,4 @@
  * Public: No
  */
 
-[] call FUNC(canDropRopes);
+call FUNC(canDropRopes);

@@ -21,14 +21,14 @@ _nearVehicles = [];
 
 {
     _nearVehicles append  (ACE_player nearObjects [_x, 30]);
-} forEach (missionNamespace getVariable ["ASL_Supported_Vehicles_OVERRIDE",ASL_Supported_Vehicles]);
+} forEach (missionNamespace getVariable [QGVAR(Supported_Vehicles_OVERRIDE), GVAR(Supported_Vehicles)]);
 
 _nearVehiclesWithRopes = [];
 
 {
     _vehicle = _x;
     {
-        _ropes = _vehicle getVariable ["ASL_Ropes",[]];
+        _ropes = _vehicle getVariable [QGVAR(custom_ropes),[]];
         if(count _ropes > (_x select 0)) then {
             _ropes = _ropes select (_x select 0);
             {

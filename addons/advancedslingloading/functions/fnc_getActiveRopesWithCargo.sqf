@@ -17,10 +17,10 @@
 
 params ["_vehicle"];
 
-private ["_activeRopesWithCargo","_existingCargo","_activeRopes","_cargo"];
+private ["_activeRopesWithCargo", "_existingCargo", "_activeRopes", "_cargo"];
 
 _activeRopesWithCargo = [];
-_existingCargo = _vehicle getVariable ["ASL_Cargo",[]];
+_existingCargo = _vehicle getVariable [QGVAR(Cargo),[]];
 _activeRopes = call FUNC(getActiveRopes);
 {
     _cargo = _existingCargo select (_x select 0);

@@ -17,4 +17,4 @@
 
 params ["_vehicle"];
 
-count (_vehicle getVariable ["ASL_Ropes",[]]);
+count (_vehicle getVariable [QGVAR(custom_ropes),[]]);
