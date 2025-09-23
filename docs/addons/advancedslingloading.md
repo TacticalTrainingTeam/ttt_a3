@@ -29,7 +29,7 @@ Aktiviert das überschreiben der maximalen Tragekapazität.
 ASL_HEAVY_LIFTING_ENABLED = true; //default: false
 ```
 
-Alles was schwerer als die angebenen Masse-Einheiten ist, wird auf diese begrenzt, benötigt `ASL_HEAVY_LIFTING_ENABLED = true;`.
+Alles was schwerer als die angegebenen Masse-Einheiten ist, wird auf diese begrenzt, benötigt `ASL_HEAVY_LIFTING_ENABLED = true;`.
 
 ```c++
 ASL_SET_MASS = 2000; //default: 4000
