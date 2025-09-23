@@ -55,12 +55,12 @@ if(!isDedicated) then {
     [] spawn {
         while {true} do {
             if(!isNull ACE_player && isPlayer ACE_player) then {
-                if!( ACE_player getVariable ["ASL_Actions_Loaded",false] ) then {
+                if!( ACE_player getVariable [QGVAR(actions_loaded),false] ) then {
                     [] call FUNC(addPlayerActions);
-                    ACE_player setVariable ["ASL_Actions_Loaded",true];
+                    ACE_player setVariable [GVAR(actions_loaded),true];
                 };
             };
-            missionNamespace setVariable ["ASL_Nearby_Vehicles", (call FUNC(findNearbyVehicles))];
+            missionNamespace setVariable [QGVAR(nearby_vehicles), (call FUNC(findNearbyVehicles))];
             sleep 2;
         };
     };
