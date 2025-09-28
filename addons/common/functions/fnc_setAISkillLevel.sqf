@@ -28,7 +28,7 @@
 
 params ["_unit",["_skillLevel","Veteran", [""]]];
 
-private _skill;
+private "_skill";
 
 switch (_skillLevel) do {
     case "Novice": {
@@ -49,7 +49,7 @@ switch (_skillLevel) do {
     default {
         _skill = random [0.65, 0.745,  0.84]; //same as Veteran
     };
-}; 
+};
 
 _unit setSkill ["general",          _skill];
 _unit setSkill ["courage",          _skill];
