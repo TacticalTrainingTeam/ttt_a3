@@ -1,6 +1,7 @@
 [TTT] Addi
 [TTT] Andx
 [TTT] EinStein
+[TTT] G.Wagner
 [TTT] Menom
 [TTT] Stura
 [TTT] Redd
@@ -15,6 +16,6 @@ derZade & Gruppe Adler
 Lemonberries, Mishkar, Timi007, Zumi & PzGrenBtl 402
 lambdatiger, AChesheireCat, PapstMirror & Bourbon Warfare
 Puotek & Bromium
+martin509
 ACE Team
 HEMTT
-

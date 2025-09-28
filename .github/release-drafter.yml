@@ -41,9 +41,11 @@ change-template: '* $TITLE (#$NUMBER) by $AUTHOR'
 template: |
   _Requires the latest Version of [CBA](https://github.com/CBATeam/CBA_A3) and [ACE](https://github.com/acemod/ACE3)._
 
+  Full Documentation can be found under [https://docs.tacticalteam.de](https://docs.tacticalteam.de).
+
   ## Zusammenfassung
 
-  ## Änderungsprotokoll 
+  ## Änderungsprotokoll
 
   $CHANGES
 

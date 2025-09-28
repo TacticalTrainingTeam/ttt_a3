@@ -7,7 +7,7 @@
  * 0: Player <OBJECT>
  *
  * Return Value:
- * True
+ * <NONE>
  *
  * Example:
  * [player] call ttt_mpls_fnc_handleRespawn
