@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Fieldmanual">
+<<<<<<< HEAD
         <key ID="STR_ttt_Fieldmanual_handbuch_displayname">
             <English>Field Manual</English>
             <German>Fibel</German>
@@ -16,6 +17,108 @@
         <Key ID="STR_ttt_Fieldmanual_medical_description">
             <English>%3First Aid%4 are the first steps taken to rescue a downed soldier. These are usually performed by non-medical personnel.&lt;br/&gt;&lt;br/&gt;%2If possible: %3take cover%4 and %3keep fighting%4 until the threat is eliminated&lt;br/&gt;%2%3Inform%4 your buddy and squad leader that you are wounded / that someone else is downed&lt;br/&gt;%2Drag the wounded to %3cover%4&lt;br/&gt;&lt;br/&gt;%2%3M%4assive Bleeding&lt;br/&gt;%11Use %3Tourniquets%4 on wounded arms and legs, %3Bandages%4 on torso and head to stop any bleeding&lt;br/&gt;%2%3A%4irway&lt;br/&gt;%11%3Check the Airway%4 of the patient, if it is %occluded%4 begin %3Head Turning%4 until the obstruction is cleared, if it is obstructed %3Overextend%4 the head&lt;br/&gt;%2%3R%4espriration&lt;br/&gt;%11Treat any deep chest wounds with a %3Chest Seal%4&lt;br/&gt;%2%3C%4irculation&lt;br/&gt;%11%3Check the pulse%4 of the patient, if he has none: start %3CPR%4. If he has a stable pulse put him in %3Recovery Position%4, keep bandaging wounds and try to %3reorientate%4 the patient.&lt;br/&gt;%2%3H%4andover&lt;br/&gt;%11Either bring the patient to a medic for further treatment or wait until a medic arrives at your location. Provide the following information to next level care:&lt;br/&gt;%11Who is the patient (name and function)&lt;br/&gt;%11Status of the patient(&lt;t color='#E60000'&gt;KAT Alpha&lt;/t&gt;, &lt;t color='#D9D900'&gt;KAT Bravo&lt;/t&gt;, &lt;t color='#00CC00'&gt;KAT Charlie&lt;/t&gt;)&lt;br/&gt;%11What happened?&lt;br/&gt;%11How long is the patient unconscious?&lt;br/&gt;%11What treatments have already been performed?</English>
             <German>%3Erste Hilfe%4 sind die ersten Schritte zur Rettung eines gefallenen Soldaten. Diese werden normalerweise von nicht-medizinischem Personal durchgeführt.&lt;br/&gt;&lt;br/&gt;%2Falls möglich: %3Deckung nehmen%4 und %3weiter kämpfen%4 bis die Bedrohung eliminiert ist&lt;br/&gt;%2%3Informiere%4 deinen Kameraden und Gruppenführer, dass du verwundet bist / dass jemand anderes gefallen ist&lt;br/&gt;%2Den Verwundeten in %3Deckung%4 ziehen&lt;br/&gt;&lt;br/&gt;%2%3M%4assive Blutung&lt;br/&gt;%11Verwende %3Tourniquets%4 an verwundeten Armen und Beinen, %3Bandagen%4 an Torso und Kopf um Blutungen zu stoppen&lt;br/&gt;%2%3A%4temwege&lt;br/&gt;%11%3Prüfe die Atemwege%4 des Patienten, falls sie %3verlegt%4 sind beginne mit %3Kopf drehen%4 bis die Verlegung beseitigt ist, falls sie %3blockiert%4 sind %3überstrecke%4 den Kopf&lt;br/&gt;%2%3R%4espiration / Atmung&lt;br/&gt;%11Behandle tiefe Brustwunden mit einem %3Chest Seal%4&lt;br/&gt;%2%3C%4irculation / Kreislauf&lt;br/&gt;%11%3Prüfe den Puls%4 des Patienten, falls keiner vorhanden: beginne %3CPR%4. Falls er einen stabilen Puls hat bringe ihn in die %3stabile Seitenlage%4, verbinde weiter Wunden und versuche den Patienten %3um zu orientieren%4.&lt;br/&gt;%2%3H%4andover / Übergabe&lt;br/&gt;%11Bringe den Patienten entweder zu einem Sanitäter zur weiteren Behandlung oder warte bis ein Sanitäter an deinem Standort eintrifft. Gib folgende Informationen an die nächste Behandlungsebene weiter:&lt;br/&gt;%11Wer ist der Patient (Name und Funktion)&lt;br/&gt;%11Status des Patienten(&lt;t color='#E60000'&gt;KAT Alpha&lt;/t&gt;, &lt;t color='#D9D900'&gt;KAT Bravo&lt;/t&gt;, &lt;t color='#00CC00'&gt;KAT Charlie&lt;/t&gt;)&lt;br/&gt;%11Was ist passiert?&lt;br/&gt;%11Wie lange ist der Patient bewusstlos?&lt;br/&gt;%11Welche Behandlungen wurden bereits durchgeführt?</German>
+=======
+        <Key ID="STR_ttt_Fieldmanual_engineer_description">
+            <English>Combat engineering including fortifications, demolitions, and obstacle construction/removal.</English>
+            <German>Gefechtstechnik einschließlich Befestigungen, Sprengungen und Hindernisbau/-beseitigung.</German>
+        </Key>
+        <!-- Engineer entries -->
+        <Key ID="STR_ttt_Fieldmanual_engineer_displayName">
+            <English>Engineer Training</English>
+            <German>Pionierausbildung</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_engineer_displayNameShort">
+            <English>Engineer</English>
+            <German>Pionier</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_engineer_tip">
+            <English>Plan your engineering solutions carefully - mistakes can be costly.</English>
+            <German>Plane deine technischen Lösungen sorgfältig - Fehler können teuer werden.</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_eod_description">
+            <English>Explosive Ordnance Disposal training for handling and neutralizing explosive devices.</English>
+            <German>Kampfmittelräumung - Ausbildung zum Umgang mit und zur Entschärfung von Sprengkörpern.</German>
+        </Key>
+        <!-- EOD entries -->
+        <Key ID="STR_ttt_Fieldmanual_eod_displayName">
+            <English>EOD Training</English>
+            <German>EOD-Ausbildung</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_eod_displayNameShort">
+            <English>EOD</English>
+            <German>EOD</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_eod_extended_description">
+            <English>Advanced explosive ordnance disposal techniques for complex and sophisticated devices.</English>
+            <German>Erweiterte Kampfmittelräumung für komplexe und ausgeklügelte Sprengkörper.</German>
+        </Key>
+        <!-- EOD Extended entries -->
+        <Key ID="STR_ttt_Fieldmanual_eod_extended_displayName">
+            <English>Advanced EOD Training</English>
+            <German>Erweiterte EOD-Ausbildung</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_eod_extended_displayNameShort">
+            <English>Advanced EOD</English>
+            <German>Erweiterte EOD</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_eod_extended_tip">
+            <English>Advanced EOD requires extensive experience and specialized equipment.</English>
+            <German>Erweiterte EOD erfordert umfangreiche Erfahrung und Spezialausrüstung.</German>
+>>>>>>> master
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_eod_tip">
+            <English>When in doubt, evacuate the area and call for specialist support.</English>
+            <German>Im Zweifel den Bereich räumen und Spezialisten anfordern.</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_example_description">
+            <English>Example</English>
+            <German>Beispiel</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_example_displayName">
+            <English>Example</English>
+            <German>Beispiel</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_example_displayNameShort">
+            <English>Example</English>
+            <German>Beispiel</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_example_tip">
+            <English>Example</English>
+            <German>Beispiel</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_logistic_description">
+            <English>Supply chain management, transportation, and resource distribution in military operations.</English>
+            <German>Versorgungsketten-Management, Transport und Ressourcenverteilung in militärischen Operationen.</German>
+        </Key>
+        <!-- Logistic entries -->
+        <Key ID="STR_ttt_Fieldmanual_logistic_displayName">
+            <English>Logistics Training</English>
+            <German>Logistikausbildung</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_logistic_displayNameShort">
+            <English>Logistics</English>
+            <German>Logistik</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_logistic_tip">
+            <English>Efficient logistics can determine the success or failure of a mission.</English>
+            <German>Effiziente Logistik kann über Erfolg oder Misserfolg einer Mission entscheiden.</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_medical_description">
+            <English>Comprehensive medical training covering first aid, trauma care, and battlefield medicine procedures.</English>
+            <German>Umfassende medizinische Ausbildung mit Erster Hilfe, Traumaversorgung und Sanitätsdienst im Gefecht.</German>
+        </Key>
+        <!-- Medical entries -->
+        <Key ID="STR_ttt_Fieldmanual_medical_displayName">
+            <English>Medical Training</English>
+            <German>Sanitätsausbildung</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_medical_displayNameShort">
+            <English>Medical</English>
+            <German>Sanitäter</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_medical_tip">
+            <English>Always prioritize your own safety before treating casualties.</English>
+            <German>Stelle immer deine eigene Sicherheit sicher, bevor du Verwundete versorgst.</German>
         </Key>
     </Package>
 </Project>
