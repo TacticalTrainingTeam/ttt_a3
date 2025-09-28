@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Fieldmanual">
-<<<<<<< HEAD
         <key ID="STR_ttt_Fieldmanual_handbuch_displayname">
             <English>Field Manual</English>
             <German>Fibel</German>
