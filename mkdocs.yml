@@ -146,7 +146,6 @@ nav:
     - Common:
       - Funktionen: addons/common/functions.md
       - Gemeinsame Objekte: addons/common/objects.md
-    - Advanced Slingloading: addons/advancedslingloading.md
     - Advanced Towing: addons/advancedtowing.md
     - Umgebungseffekte: addons/effects.md
     - Konterartillerie: addons/counterari.md
