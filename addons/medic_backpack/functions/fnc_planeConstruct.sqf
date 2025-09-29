@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /*
 * Author: EinStein
-* 
+*
 * Arguments:
 * 0: Player <OBJECT>
 * 1: Player <OBJECT>
@@ -16,7 +16,7 @@
 params ["_target"];
 
 private _position = (_target getPos [8, getDir _target]) findEmptyPosition [1, 2, "Tank"];
-_plane = (GVAR(facitlityObject)) createVehicle _position;
+_plane = createVehicle [(GVAR(facitlityObject)), _position, [], 0, "CAN_COLLIDE"];
 _plane setDir (getDir _target);
 
 _plane setVariable ["ace_medical_isMedicalFacility", true, true];
@@ -25,8 +25,7 @@ _plane setVariable ["ttt_medic_backpack_inUse", false, true];
 [_plane, false] remoteExec ["allowDamage", (owner _plane), false];
 
 {
-    private _posItem = (getPos _plane) findEmptyPosition [1, 3, "Tank"];
-    _x createVehicle _posItem;
+    createVehicle [_x, _position, [], 2, "NONE"];
 } forEach (parseSimpleArray GVAR(additionalItems));
 
 private _arrayItems = nearestObjects [(getPos _plane), (parseSimpleArray GVAR(additionalItems)), 10];
@@ -35,3 +34,4 @@ private _arrayItems = nearestObjects [(getPos _plane), (parseSimpleArray GVAR(ad
 } forEach allCurators;
 
 _target switchMove "";
+INFO_3("Medical backpack item %1 was created at %2 by %3",_plane,_position,_target);

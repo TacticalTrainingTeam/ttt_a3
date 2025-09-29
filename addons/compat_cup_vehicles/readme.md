@@ -2,30 +2,12 @@
 
 Eigene Erweiterungen und Anpassungen and CUP-Fahrzeugen.
 
-## Humvee
+Fixes CUP's Grad, Technical MLRS, and (especially) UB-32 launchers to be much less powerful by removing the stock 230mm MLRS submunition from their warheads. Also buffs the accuracy of technical MLRS launchers.
 
-- Behebt ein Problem mit den hinteren Fire-From-Vehicle Sitzplätzen
-- fügt ACRE-Racks beim Kommandopostenmodell hinzu
+## Quellen
 
-## M113
-
-- fügt Animationen zum Abnehmen der Ausrüstung hinzu
-
-## FV432 Mortar Carrier
-
-- repariert den Artilleriecomputer
-
-## GTK Boxer
-
-- erlaubt mehr Munitionstypen für das M2
-- übergibt Kontrolle des Nebelwerfes dem Richtschützen
-- verbessert die Fahreigenschaften
-
-## Referenzen
-
-<https://ace3.acemod.org/wiki/framework/interactionmenu-framework#22-vehicle-interactions-based-on-animations>
-
-Quelle für viele der Fixes: <https://github.com/BourbonWarfare/POTATO/blob/master/addons/miscFixes/patchCUP/config.cpp>
+- <https://github.com/BourbonWarfare/POTATO/blob/master/addons/miscFixes/patchCUP/config.cpp>
+- <https://steamcommunity.com/sharedfiles/filedetails/?id=3553546148>
 
 ## Abhängigkeiten
 
