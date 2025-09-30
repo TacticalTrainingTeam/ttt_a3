@@ -6,12 +6,13 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ttt_common","ttt_teleport","ttt_signs","mts_common"};
+        requiredAddons[] = {"ttt_common"};
         author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx","BlauBaer"};
+        authors[] = {"Andx"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };
 
-#include "CfgEventHandlers.hpp"
+#include "CfgHintCategories.hpp"
+#include "CfgHints.hpp"

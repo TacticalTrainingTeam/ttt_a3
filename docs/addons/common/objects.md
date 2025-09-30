@@ -3,7 +3,7 @@ tags:
   - Objekte
 ---
 
-Stellt die folgeneden Nützlichen Dinge zur Verfügung:
+Stellt die folgenden nützlichen Dinge zur Verfügung:
 
 ## Bilder
 
@@ -81,10 +81,6 @@ Inhalt ist im [Wiki](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten
 - Fallschirmkiste `ttt_common_paradrop_crate` (Nicht verladbar!)
 
 Inhalt ist im [Wiki](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#spezielle-kisten) definiert.
-
-## Einheiten
-
-Fügt ein paar generische Einheiten (ohne eigenes Loadout), als Hilfe für einheiten-basierte Loadoutsysteme, wie z.B. Poppy oder [grad-loadout](https://github.com/gruppe-adler/grad-loadout), hinzu.
 
 ## Maintainer
 
