@@ -9,6 +9,10 @@ repo_name: TacticalTrainingTeam/ttt_a3
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
+
 theme:
   name: material
   font:
@@ -87,7 +91,7 @@ plugins:
   - tags
 
 markdown_extensions:
-
+  - tables
   # Python Markdown
   - abbr
   - attr_list
