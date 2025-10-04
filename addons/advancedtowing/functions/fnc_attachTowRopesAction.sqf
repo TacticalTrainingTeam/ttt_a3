@@ -22,7 +22,7 @@ if([_vehicle, _cargo] call FUNC(canAttachTowRopes)) then {
 
     private _canBeTowed = true;
 
-    if!(missionNamespace getVariable [QGVAR(LOCKED_VEHICLES_ENABLED), false]) then {
+    if!(missionNamespace getVariable [QGVAR(Locked_Vehicles_Enabled), false]) then {
         if( locked _cargo > 1 ) then {
             ["Cannot attach tow ropes to locked vehicle", false] call FUNC(customHint);//ToDo Localize
             _canBeTowed = false;

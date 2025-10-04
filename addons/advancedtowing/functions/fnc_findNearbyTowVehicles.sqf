@@ -19,7 +19,7 @@ private _nearVehicles = [];
 
 {
     _nearVehicles append (position player nearObjects [_x, 30]);
-} forEach (missionNamespace getVariable [QGVAR(SUPPORTED_VEHICLES_OVERRIDE), SA_tow_supported_vehicles]);
+} forEach (missionNamespace getVariable [QGVAR(Supported_Vehicles_Override), GVAR(Supported_Vehicles)]);
 
 private _nearVehiclesWithTowRopes = [];
 {

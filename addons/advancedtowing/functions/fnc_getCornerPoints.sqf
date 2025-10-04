@@ -42,7 +42,7 @@ private _rearCorner2 = [(_centerOfMass select 0) - _widthOffset, (_centerOfMass 
 private _frontCorner = [(_centerOfMass select 0) + _widthOffset, (_centerOfMass select 1) + _lengthOffset, _centerOfMass select 2];
 private _frontCorner2 = [(_centerOfMass select 0) - _widthOffset, (_centerOfMass select 1) + _lengthOffset, _centerOfMass select 2];
 
-if(missionNamespace getVariable [QGVAR(DEBUG_ENABLED), false]) then {
+if(missionNamespace getVariable [QGVAR(Debug_Enabled), false]) then {
     if(isNil "sa_tow_debug_arrow_1") then {
         sa_tow_debug_arrow_1 = "Sign_Arrow_F" createVehicleLocal [0,0,0];
         sa_tow_debug_arrow_2 = "Sign_Arrow_F" createVehicleLocal [0,0,0];

@@ -104,7 +104,7 @@ while {!_doExit} do {
         _surfaceNormal2 = (_cargoCorner4ASL vectorFromTo _cargoCorner2ASL) vectorCrossProduct (_cargoCorner4ASL vectorFromTo _cargoCorner3ASL);
         _surfaceNormal = _surfaceNormal1 vectorAdd _surfaceNormal2;
 
-        if(missionNamespace getVariable [QGVAR(DEBUG_ENABLED), false]) then {
+        if(missionNamespace getVariable [QGVAR(Debug_Enabled), false]) then {
             if(isNil "sa_tow_debug_arrow_1") then {
                 sa_tow_debug_arrow_1 = "Sign_Arrow_F" createVehicleLocal [0,0,0];
                 sa_tow_debug_arrow_2 = "Sign_Arrow_F" createVehicleLocal [0,0,0];

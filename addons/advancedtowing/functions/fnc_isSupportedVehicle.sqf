@@ -23,6 +23,6 @@ if(!isNull _vehicle) then {
         if(_vehicle isKindOf _x) then {
             _isSupported = true;
         };
-    } forEach (missionNamespace getVariable [QGVAR(SUPPORTED_VEHICLES_OVERRIDE), SA_tow_supported_vehicles]);
+    } forEach (missionNamespace getVariable [QGVAR(Supported_Vehicles_Override), GVAR(Supported_Vehicles)]);
 };
 _isSupported;

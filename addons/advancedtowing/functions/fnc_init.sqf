@@ -15,13 +15,13 @@
  * Public: No
  */
 
- SA_TOW_LOCKED_VEHICLES_ENABLED = true;
+GVAR(Locked_Vehicles_Enabled) = true;
 
-SA_tow_supported_vehicles = [
+GVAR(Supported_Vehicles) = [
     "Tank", "Car", "Ship"
 ];
 
-GVAR(TOW_RULES) = [
+GVAR(Tow_Rules) = [
     ["Tank","CAN_TOW","Tank"],
     ["Tank","CAN_TOW","Car"],
     ["Tank","CAN_TOW","Ship"],

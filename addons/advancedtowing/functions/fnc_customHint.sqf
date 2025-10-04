@@ -17,4 +17,4 @@
 
 params ["_msg",["_isSuccess",true]];
 
-hint _msg;
+[_msg, true] call ace_common_fnc_displayText;

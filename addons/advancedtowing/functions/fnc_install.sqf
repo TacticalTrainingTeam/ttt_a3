@@ -15,9 +15,9 @@
  * Public: No
  */
 
-if(!isNil QGVAR(INIT)) exitWith {};
+if(!isNil QGVAR(Init)) exitWith {};
 
-GVAR(INIT) = true;
+GVAR(Init) = true;
 
 // Install Advanced Towing on all clients (plus JIP) //
 

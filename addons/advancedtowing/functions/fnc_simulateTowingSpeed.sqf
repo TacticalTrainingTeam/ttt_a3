@@ -21,7 +21,7 @@ params ["_vehicle"];
 
 private _maxVehicleSpeed = getNumber (configOf _vehicle >> "maxSpeed");
 private _vehicleMass = 1000 max (getMass _vehicle);
-private _maxTowedCargo = missionNamespace getVariable [QGVAR(MAX_TOWED_CARGO), 2];
+private _maxTowedCargo = missionNamespace getVariable [QGVAR(Max_Towed_Cargo), 2];
 private _runSimulation = true;
 
 while {_runSimulation} do {
