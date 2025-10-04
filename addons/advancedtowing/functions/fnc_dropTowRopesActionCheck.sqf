@@ -15,4 +15,4 @@
  * Public: No
  */
 
-[] call SA_Can_Drop_Tow_Ropes;
+[] call FUNC(canDropTowRopes);
