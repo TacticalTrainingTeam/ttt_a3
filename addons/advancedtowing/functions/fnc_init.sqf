@@ -15,6 +15,10 @@
  * Public: No
  */
 
+if(!isNil QGVAR(Init)) exitWith {};
+
+GVAR(Init) = true;
+
 GVAR(Locked_Vehicles_Enabled) = true;
 
 GVAR(Supported_Vehicles) = [
@@ -46,8 +50,4 @@ if(!isDedicated) then {
             sleep 2;
         };
     };
-};
-
-if(isServer) then {
-    call FUNC(Install);
 };

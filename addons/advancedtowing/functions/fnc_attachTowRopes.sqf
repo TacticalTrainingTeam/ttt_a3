@@ -27,7 +27,7 @@ if(!isNull _vehicle) then {
 
         if(count _towRopes == 1) then {
 
-            private ["_cargoHitchPoints","_distanceToFrontHitch","_distanceToRearHitch","_isRearCargoHitch"];
+            private ["_cargoHitchPoints", "_distanceToFrontHitch", "_distanceToRearHitch", "_isRearCargoHitch"];
 
             _cargoHitchPoints = [_cargo] call FUNC(getHitchPoints);
             _distanceToFrontHitch = player distance (_cargo modelToWorld (_cargoHitchPoints select 0));

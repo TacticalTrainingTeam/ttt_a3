@@ -15,10 +15,12 @@
  * Public: No
  */
 
-params ["_vehicle", "_cargo"];
+params ["_vehicle"];
 
-if( ropeAttachedObjects _vehicle isEqualTo [] ) then {
-    _cargo = objNull;
-} else {
+private _cargo = objNull;
+
+if( ropeAttachedObjects _vehicle isNotEqualTo [] ) then {
     _cargo = ((ropeAttachedObjects _vehicle) select 0) getVariable [QGVAR(Cargo), objNull];
 };
+
+_cargo

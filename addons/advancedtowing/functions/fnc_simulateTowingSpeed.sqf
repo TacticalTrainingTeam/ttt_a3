@@ -36,7 +36,7 @@ while {_runSimulation} do {
     while {_findNextCargo} do {
 
         _findNextCargo = false;
-        private _currentCargo = [_currentVehicle, _currentCargo] call FUNC(getCargo);
+        private _currentCargo = [_currentVehicle] call FUNC(getCargo);
 
         if(!isNull _currentCargo) then {
 
