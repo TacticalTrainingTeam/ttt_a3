@@ -27,8 +27,8 @@ if(local _vehicle) then {
         private _hitchPoint = [_vehicle] call FUNC(getHitchPoints) select 1;
         private _rope = ropeCreate [_vehicle, _hitchPoint, 10];
         _vehicle setVariable [QGVAR(Ropes), [_rope], true];
-        call FUNC(pickUpTowRopes);
+        call FUNC(pickupTowRopes);
     };
 } else {
-    [_this, QFUNC(takwTowRopes), _vehicle, true] call FUNC(CustomRemoteExec);
+    [_this, QFUNC(takeTowRopes), _vehicle, true] call FUNC(customRemoteExec);
 };
