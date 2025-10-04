@@ -17,14 +17,11 @@
 
  SA_TOW_LOCKED_VEHICLES_ENABLED = true;
 
-_isRearCargoHitch = 0;
-
-
 SA_tow_supported_vehicles = [
-    //"Tank", "Car", "Ship"
+    "Tank", "Car", "Ship"
 ];
 
-SA_TOW_RULES = [
+GVAR(TOW_RULES) = [
     ["Tank","CAN_TOW","Tank"],
     ["Tank","CAN_TOW","Car"],
     ["Tank","CAN_TOW","Ship"],
@@ -52,5 +49,5 @@ if(!isDedicated) then {
 };
 
 if(isServer) then {
-    [] call FUNC(Install);
+    call FUNC(Install);
 };

@@ -17,7 +17,8 @@
 
 params ["_cargo", "_player"];
 
-_vehicle = _player getVariable [QGVAR(Ropes_Vehicle), objNull];
+private _vehicle = _player getVariable [QGVAR(Ropes_Vehicle), objNull];
+private _isRearCargoHitch = 0;
 
 if(!isNull _vehicle) then {
     if(local _vehicle) then {

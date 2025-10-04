@@ -19,11 +19,9 @@
 
 params ["_vehicle"];
 
-private _currentCargo;
-
 private _maxVehicleSpeed = getNumber (configOf _vehicle >> "maxSpeed");
 private _vehicleMass = 1000 max (getMass _vehicle);
-private _maxTowedCargo = missionNamespace getVariable ["SA_MAX_TOWED_CARGO",2];
+private _maxTowedCargo = missionNamespace getVariable [QGVAR(MAX_TOWED_CARGO), 2];
 private _runSimulation = true;
 
 while {_runSimulation} do {
@@ -38,7 +36,7 @@ while {_runSimulation} do {
     while {_findNextCargo} do {
 
         _findNextCargo = false;
-        SA_Get_Cargo(_currentVehicle,_currentCargo);
+        private _currentCargo = [_currentVehicle, _currentCargo] call FUNC(getCargo);
 
         if(!isNull _currentCargo) then {
 

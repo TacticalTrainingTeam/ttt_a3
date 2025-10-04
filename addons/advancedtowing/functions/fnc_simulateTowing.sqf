@@ -26,8 +26,7 @@ private ["_cargoCenterASL","_surfaceHeight","_surfaceHeight2","_maxSurfaceHeight
 private _maxVehicleSpeed = getNumber (configOf _vehicle >> "maxSpeed");
 private _cargoCanFloat = [false, true] select (getNumber ((configOf _cargo) >> "canFloat") == 1);
 
-private _cargoCenterOfMassAGL;
-SA_Find_Surface_AGL_Under_Model(_cargo,getCenterOfMass _cargo,_cargoCenterOfMassAGL,_cargoCanFloat);
+private _cargoCenterOfMassAGL =  [_cargo, getCenterOfMass _cargo, _cargoCanFloat] call FUNC(findSurfaceAGLUnderModel);
 
 private _cargoModelCenterGroundPosition = _cargo worldToModelVisual _cargoCenterOfMassAGL;
 _cargoModelCenterGroundPosition set [0, 0];
@@ -93,13 +92,14 @@ while {!_doExit} do {
         _lastCargoVectorDir = _newCargoDir;
         _newCargoPosition = _newCargoHitchPosition vectorAdd (_newCargoDir vectorMultiply -(vectorMagnitude (_cargoHitchModelPos)));
 
-        SA_Find_Surface_ASL_Under_Position(_cargo,_newCargoPosition,_newCargoPosition,_cargoCanFloat);
+        _newCargoPosition = [_cargo, _newCargoPosition, _cargoCanFloat] call FUNC(findSurfaceASLUnderPosition);
 
         // Calculate surface normal (up) (more realistic than surfaceNormal function)
-        SA_Find_Surface_ASL_Under_Model(_cargo,_corner1,_cargoCorner1ASL,_cargoCanFloat);
-        SA_Find_Surface_ASL_Under_Model(_cargo,_corner2,_cargoCorner2ASL,_cargoCanFloat);
-        SA_Find_Surface_ASL_Under_Model(_cargo,_corner3,_cargoCorner3ASL,_cargoCanFloat);
-        SA_Find_Surface_ASL_Under_Model(_cargo,_corner4,_cargoCorner4ASL,_cargoCanFloat);
+        private _cargoCorner1ASL = [_cargo, _corner1, _cargoCanFloat] call FUNC(findSurfaceASLUnderModel);
+        private _cargoCorner2ASL = [_cargo, _corner1, _cargoCanFloat] call FUNC(findSurfaceASLUnderModel);
+        private _cargoCorner2ASL = [_cargo, _corner1, _cargoCanFloat] call FUNC(findSurfaceASLUnderModel);
+        private _cargoCorner3ASL = [_cargo, _corner1, _cargoCanFloat] call FUNC(findSurfaceASLUnderModel);
+
         _surfaceNormal1 = (_cargoCorner1ASL vectorFromTo _cargoCorner3ASL) vectorCrossProduct (_cargoCorner1ASL vectorFromTo _cargoCorner2ASL);
         _surfaceNormal2 = (_cargoCorner4ASL vectorFromTo _cargoCorner2ASL) vectorCrossProduct (_cargoCorner4ASL vectorFromTo _cargoCorner3ASL);
         _surfaceNormal = _surfaceNormal1 vectorAdd _surfaceNormal2;
@@ -160,7 +160,8 @@ while {!_doExit} do {
     };
 
     // If the vehicle isn't towing anything, stop the towing simulation
-    SA_Get_Cargo(_vehicle,_currentCargo);
+    [_Vehicle, _currentCargo] call FUNC(getCargo);
+
     if(isNull _currentCargo) then {
         _doExit = true;
     };

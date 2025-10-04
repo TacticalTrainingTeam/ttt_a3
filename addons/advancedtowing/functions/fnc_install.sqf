@@ -16,4 +16,10 @@
  */
 
 if(!isNil QGVAR(INIT)) exitWith {};
+
 GVAR(INIT) = true;
+
+// Install Advanced Towing on all clients (plus JIP) //
+
+publicVariable FUNC(install);
+remoteExecCall [FUNC(install), -2, true];
