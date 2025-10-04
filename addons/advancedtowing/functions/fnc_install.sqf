@@ -16,4 +16,4 @@
  */
 
 if(!isNil QGVAR(INIT)) exitWith {};
-SA_TOW_INIT = true;
+GVAR(INIT) = true;
