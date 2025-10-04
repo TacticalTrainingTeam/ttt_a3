@@ -22,7 +22,7 @@ if(local _vehicle) then {
 
     private _existingTowRopes = _vehicle getVariable [QGVAR(Ropes), []];
     if(count _existingTowRopes > 0) then {
-        call FUNC(pickUpTowRopes);
+        call FUNC(pickupTowRopes);
         call FUNC(dropTowRopes);
         {
             ropeDestroy _x;
