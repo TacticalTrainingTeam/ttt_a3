@@ -27,7 +27,7 @@ private _maxVehicleSpeed = getNumber (configOf _vehicle >> "maxSpeed");
 private _cargoCanFloat = [false, true] select (getNumber ((configOf _cargo) >> "canFloat") == 1);
 
 private _cargoCenterOfMassAGL;
-SA_Find_Surface_AGL_Under_Model(_cargo, getCenterOfMass _cargo, _cargoCenterOfMassAGL, _cargoCanFloat);
+SA_Find_Surface_AGL_Under_Model(_cargo,getCenterOfMass _cargo,_cargoCenterOfMassAGL,_cargoCanFloat);
 
 private _cargoModelCenterGroundPosition = _cargo worldToModelVisual _cargoCenterOfMassAGL;
 _cargoModelCenterGroundPosition set [0, 0];

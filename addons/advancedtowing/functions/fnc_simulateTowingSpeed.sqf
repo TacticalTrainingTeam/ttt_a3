@@ -20,10 +20,9 @@
 params ["_vehicle"];
 
 private _currentCargo;
-"_maxVehicleSpeed","_vehicleMass"];
 
-_maxVehicleSpeed = getNumber (configOf _vehicle >> "maxSpeed");
-_vehicleMass = 1000 max (getMass _vehicle);
+private _maxVehicleSpeed = getNumber (configOf _vehicle >> "maxSpeed");
+private _vehicleMass = 1000 max (getMass _vehicle);
 private _maxTowedCargo = missionNamespace getVariable ["SA_MAX_TOWED_CARGO",2];
 private _runSimulation = true;
 
