@@ -17,7 +17,7 @@
 
 player addAction ["Deploy Tow Ropes", { //ToDo Localize
     call FUNC(takeTowRopesAction);
-}, nil, 0, false, true, "", QUOTE([ARR_2(FUNC(deployTowRopesActionCheck),_this)] call CBA_fnc_directCall)];
+}, nil, 0, false, true, "", QUOTE([ARR_2(FUNC(takeTowRopesActionCheck),_this)] call CBA_fnc_directCall)];
 
 player addAction ["Put Away Tow Ropes", { //ToDo Localize
     call FUNC(putAwayTowRopesAction);
