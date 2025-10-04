@@ -17,7 +17,7 @@
 
 params ["_vehicle", "_vehicleHitchModelPos", "_cargo", "_cargoHitchModelPos", "_ropeLength"];
 
-private ["_vehicleHitchPosition","_cargoHitchPosition","_newCargoHitchPosition","_cargoVector","_movedCargoVector","_currentCargo"];
+private ["_vehicleHitchPosition","_cargoHitchPosition","_newCargoHitchPosition","_cargoVector","_movedCargoVector"];
 private ["_newCargoDir","_newCargoPosition","_cargoPosition","_vehiclePosition"];
 private ["_cargoCorner1AGL","_cargoCorner1ASL","_cargoCorner2AGL","_cargoCorner2ASL","_cargoCorner3AGL","_cargoCorner3ASL","_cargoCorner4AGL","_cargoCorner4ASL","_surfaceNormal1","_surfaceNormal2","_surfaceNormal"];
 private ["_cargoCenterASL","_surfaceHeight","_surfaceHeight2","_maxSurfaceHeight"];
@@ -159,7 +159,7 @@ while {!_doExit} do {
     };
 
     // If the vehicle isn't towing anything, stop the towing simulation
-    [_Vehicle, _currentCargo] call FUNC(getCargo);
+    private _currentCargo = [_vehicle] call FUNC(getCargo);
 
     if(isNull _currentCargo) then {
         _doExit = true;
