@@ -17,7 +17,7 @@
 
 private _nearbyTowVehicles = missionNamespace getVariable [QGVAR(Nearby_Tow_Vehicles), []];
 
-if([] call SA_Can_Pickup_Tow_Ropes) then {
+if([] call FUNC(canPickupTowRopes)) then {
 
     private _vehicle = _nearbyTowVehicles select 0;
     private _canPickupTowRopes = true;
