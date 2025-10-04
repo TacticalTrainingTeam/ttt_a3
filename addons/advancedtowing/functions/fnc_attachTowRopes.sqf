@@ -17,7 +17,7 @@
 
 params ["_cargo", "_player"];
 
-_vehicle = _player getVariable [QGVAR(ropes_vehicle), objNull];
+_vehicle = _player getVariable [QGVAR(Ropes_Vehicle), objNull];
 
 if(!isNull _vehicle) then {
     if(local _vehicle) then {
