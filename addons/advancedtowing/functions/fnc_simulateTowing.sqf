@@ -17,9 +17,8 @@
 
 params ["_vehicle", "_vehicleHitchModelPos", "_cargo", "_cargoHitchModelPos", "_ropeLength"];
 
-private ["_lastCargoHitchPosition","_lastCargoVectorDir","_lastMovedCargoPosition","_cargoHitchPoints"];
 private ["_vehicleHitchPosition","_cargoHitchPosition","_newCargoHitchPosition","_cargoVector","_movedCargoVector","_currentCargo"];
-private ["_newCargoDir","_lastCargoVectorDir","_newCargoPosition","_cargoPosition","_vehiclePosition","_vehicleMass","_cargoMass"];
+private ["_newCargoDir","_newCargoPosition","_cargoPosition","_vehiclePosition"];
 private ["_cargoCorner1AGL","_cargoCorner1ASL","_cargoCorner2AGL","_cargoCorner2ASL","_cargoCorner3AGL","_cargoCorner3ASL","_cargoCorner4AGL","_cargoCorner4ASL","_surfaceNormal1","_surfaceNormal2","_surfaceNormal"];
 private ["_cargoCenterASL","_surfaceHeight","_surfaceHeight2","_maxSurfaceHeight"];
 
@@ -49,15 +48,15 @@ if(local _vehicle && !local _cargo) then {
 _vehicleHitchModelPos set [2, 0];
 _cargoHitchModelPos set [2, 0];
 
-_lastCargoHitchPosition = _cargo modelToWorld _cargoHitchModelPos;
-_lastCargoVectorDir = vectorDir _cargo;
-_lastMovedCargoPosition = getPos _cargo;
+private _lastCargoHitchPosition = _cargo modelToWorld _cargoHitchModelPos;
+private _lastCargoVectorDir = vectorDir _cargo;
+private _lastMovedCargoPosition = getPos _cargo;
 
-_cargoHitchPoints = [_cargo] call FUNC(getHitchPoints);
+private _cargoHitchPoints = [_cargo] call FUNC(getHitchPoints);
 private _cargoLength = (_cargoHitchPoints select 0) distance (_cargoHitchPoints select 1);
 
-_vehicleMass = 1 max (getMass _vehicle);
-_cargoMass = getMass _cargo;
+private _vehicleMass = 1 max (getMass _vehicle);
+private _cargoMass = getMass _cargo;
 if(_cargoMass == 0) then {
     _cargoMass = _vehicleMass;
 };
@@ -92,7 +91,7 @@ while {!_doExit} do {
         _lastCargoVectorDir = _newCargoDir;
         _newCargoPosition = _newCargoHitchPosition vectorAdd (_newCargoDir vectorMultiply -(vectorMagnitude (_cargoHitchModelPos)));
 
-        _newCargoPosition = [_cargo, _newCargoPosition, _cargoCanFloat] call FUNC(findSurfaceASLUnderPosition);
+        [_cargo, _newCargoPosition, _cargoCanFloat] call FUNC(findSurfaceASLUnderPosition);
 
         // Calculate surface normal (up) (more realistic than surfaceNormal function)
         private _cargoCorner1ASL = [_cargo, _corner1, _cargoCanFloat] call FUNC(findSurfaceASLUnderModel);

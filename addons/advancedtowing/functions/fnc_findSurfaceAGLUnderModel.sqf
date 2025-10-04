@@ -15,8 +15,10 @@
  * Public: No
  */
 
-params ["_object", "_modelOffset", "_returnSurfaceAGL", "_canFloat"];
+params ["_object", "_modelOffset", "_canFloat"];
 
-_returnSurfaceAGL = [_object, _modelOffset, _canFloat] call FUNC(findSurfaceASLUnderModel);
+private _returnSurfaceAGL = [_object, _modelOffset, _canFloat] call FUNC(findSurfaceASLUnderModel);
 
 _returnSurfaceAGL = ASLToAGL _returnSurfaceAGL;
+
+_returnSurfaceAGL

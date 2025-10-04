@@ -23,7 +23,6 @@ PREP(getCargo);
 PREP(getCornerPoints);
 PREP(getHitchPoints);
 PREP(init);
-PREP(install);
 PREP(isSupportedCargo);
 PREP(isSupportedVehicle);
 PREP(pickupTowRopes);

@@ -17,4 +17,6 @@
 
 params ["_object", "_modelOffset", "_canFloat"];
 
-[_object, (_object modelToWorldVisual _modelOffset), _canFloat] call FUNC(findSurfaceASLUnderPosition)
+private _return = [_object, (_object modelToWorldVisual _modelOffset), _canFloat] call FUNC(findSurfaceASLUnderPosition);
+
+return
