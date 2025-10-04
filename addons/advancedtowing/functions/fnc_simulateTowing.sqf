@@ -25,7 +25,7 @@ private ["_cargoCenterASL","_surfaceHeight","_surfaceHeight2","_maxSurfaceHeight
 private _maxVehicleSpeed = getNumber (configOf _vehicle >> "maxSpeed");
 private _cargoCanFloat = [false, true] select (getNumber ((configOf _cargo) >> "canFloat") == 1);
 
-private _cargoCenterOfMassAGL =  [_cargo, getCenterOfMass _cargo, _cargoCanFloat] call FUNC(findSurfaceAGLUnderModel);
+private _cargoCenterOfMassAGL = [_cargo, getCenterOfMass _cargo, _cargoCanFloat] call FUNC(findSurfaceAGLUnderModel);
 
 private _cargoModelCenterGroundPosition = _cargo worldToModelVisual _cargoCenterOfMassAGL;
 _cargoModelCenterGroundPosition set [0, 0];
@@ -96,8 +96,8 @@ while {!_doExit} do {
         // Calculate surface normal (up) (more realistic than surfaceNormal function)
         private _cargoCorner1ASL = [_cargo, _corner1, _cargoCanFloat] call FUNC(findSurfaceASLUnderModel);
         private _cargoCorner2ASL = [_cargo, _corner1, _cargoCanFloat] call FUNC(findSurfaceASLUnderModel);
-        private _cargoCorner2ASL = [_cargo, _corner1, _cargoCanFloat] call FUNC(findSurfaceASLUnderModel);
         private _cargoCorner3ASL = [_cargo, _corner1, _cargoCanFloat] call FUNC(findSurfaceASLUnderModel);
+        private _cargoCorner4ASL = [_cargo, _corner1, _cargoCanFloat] call FUNC(findSurfaceASLUnderModel);
 
         _surfaceNormal1 = (_cargoCorner1ASL vectorFromTo _cargoCorner3ASL) vectorCrossProduct (_cargoCorner1ASL vectorFromTo _cargoCorner2ASL);
         _surfaceNormal2 = (_cargoCorner4ASL vectorFromTo _cargoCorner2ASL) vectorCrossProduct (_cargoCorner4ASL vectorFromTo _cargoCorner3ASL);
@@ -121,12 +121,12 @@ while {!_doExit} do {
         };
 
         // Calculate adjusted surface height based on surface normal (prevents vehicle from clipping into ground)
-        _cargoCenterASL = AGLToASL (_cargo modelToWorldVisual [0,0,0]);
-        _cargoCenterASL set [2,0];
-        _surfaceHeight = ((_cargoCorner1ASL vectorAdd ( _cargoCenterASL vectorMultiply -1)) vectorDotProduct _surfaceNormal1) /  ([0,0,1] vectorDotProduct _surfaceNormal1);
-        _surfaceHeight2 = ((_cargoCorner1ASL vectorAdd ( _cargoCenterASL vectorMultiply -1)) vectorDotProduct _surfaceNormal2) /  ([0,0,1] vectorDotProduct _surfaceNormal2);
+        _cargoCenterASL = AGLToASL (_cargo modelToWorldVisual [0, 0, 0]);
+        _cargoCenterASL set [2, 0];
+        _surfaceHeight = ((_cargoCorner1ASL vectorAdd ( _cargoCenterASL vectorMultiply -1)) vectorDotProduct _surfaceNormal1) / ([0, 0, 1] vectorDotProduct _surfaceNormal1);
+        _surfaceHeight2 = ((_cargoCorner1ASL vectorAdd ( _cargoCenterASL vectorMultiply -1)) vectorDotProduct _surfaceNormal2) / ([0, 0, 1] vectorDotProduct _surfaceNormal2);
         _maxSurfaceHeight = (_newCargoPosition select 2) max _surfaceHeight max _surfaceHeight2;
-        _newCargoPosition set [2, _maxSurfaceHeight ];
+        _newCargoPosition set [2, _maxSurfaceHeight];
 
         _newCargoPosition = _newCargoPosition vectorAdd ( _cargoModelCenterGroundPosition vectorMultiply -1 );
 

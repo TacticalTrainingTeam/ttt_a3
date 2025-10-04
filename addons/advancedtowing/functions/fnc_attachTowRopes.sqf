@@ -51,7 +51,7 @@ if(!isNull _vehicle) then {
                 [_vehicle,_player] call FUNC(dropTowRopes);
                 _helper = "Land_Can_V2_F" createVehicle position _cargo;
                 _helper attachTo [_cargo, _cargoHitch];
-                _helper setVariable [GVAR(Cargo), _cargo, true];
+                _helper setVariable [QGVAR(Cargo), _cargo, true];
                 hideObject _helper;
                 [[_helper], QFUNC(customHideObjectGlobal)] call FUNC(customRemoteExecServer);
                 [_helper, [0, 0, 0], [0, 0, -1]] ropeAttachTo (_towRopes select 0);
