@@ -42,7 +42,7 @@ while {_runSimulation} do {
 
         if(!isNull _currentCargo) then {
 
-            private _towRopes = _currentVehicle getVariable [QGVAR(Tow_Ropes), []];
+            private _towRopes = _currentVehicle getVariable [QGVAR(Ropes), []];
 
             if(count _towRopes > 0) then {
 
