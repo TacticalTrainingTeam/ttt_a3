@@ -31,7 +31,7 @@ _vehicle = _ArrayVehicle select 0;
     LLSTRING(hintLoaded),
     (round ((getPos _target) getDir (getPos _vehicle))),
     (round ((getPos _target) distance (getPos _vehicle)))
-    ]
+    ], 3
 ] call ace_common_fnc_displayTextStructured;
 
 _vehicle setVariable ["ttt_medic_vehicle_hasTent", true, true];
