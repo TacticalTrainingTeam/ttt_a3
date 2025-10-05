@@ -1,0 +1,1 @@
+#include "\w\framework\addons\shield\script_component.hpp"
