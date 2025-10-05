@@ -32,7 +32,7 @@ _vehicle = _ArrayVehicle select 0;
     (round ((getPos _target) getDir (getPos _vehicle))),
     (round ((getPos _target) distance (getPos _vehicle)))
     ]
-] call ace_common_fnc_displayText;
+] call ace_common_fnc_displayTextStructured;
 
 _vehicle setVariable ["ttt_medic_vehicle_hasTent", true, true];
 [_vehicle, (_vehicle getVariable ["ttt_medic_vehicle_fuel", 100])] remoteExec ["setFuel", (owner _vehicle), false];
