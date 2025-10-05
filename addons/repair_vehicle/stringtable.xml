@@ -54,7 +54,7 @@
             <German>Classname des Objekts das der Spieler aufbaut und dann eine Reparaturstation sein soll. Ein eingetragenes, (aus dem Editor) bereits vorhandenes Objekt, kann dann ebenfalls aufgeladen werden.&lt;br/&gt;Bei Änderungen während der Mission wird den aufgebauten Einrichtungen die Funktion nicht vollständig genommen; neu hinzugefügte funktionieren einwandfrei.&lt;br/&gt;Bsp: "Land_RepairDepot_01_green_F"</German>
         </Key>
         <Key ID="STR_ttt_Repair_Vehicle_settingFacilityObject_name">
-            <English>Repairfacility</English>
+            <English>Repair facility</English>
             <German>Reparaturstation</German>
         </Key>
         <Key ID="STR_ttt_Repair_Vehicle_settingSupportedVehicles_description">
