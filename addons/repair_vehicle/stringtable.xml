@@ -23,11 +23,11 @@
         </Key>
         <Key ID="STR_ttt_Repair_Vehicle_hintLoaded">
             <English>The facility was loaded into the vehicle;&lt;br/&gt;direction: %1 degrees&lt;br/&gt;distance: %2 meters</English>
-            <German>"Die Einrichtung wurde in das Fahrzeug geladen;&lt;br/&gt;Richtung: %1 Grad&lt;br/&gt;Entfernung: %2 Meter\n"</German>
+            <German>Die Einrichtung wurde in das Fahrzeug geladen;&lt;br/&gt;Richtung: %1 Grad&lt;br/&gt;Entfernung: %2 Meter</German>
         </Key>
         <Key ID="STR_ttt_Repair_Vehicle_settingBuildAnimation_description">
-            <English>The name of the animation to be played.\ni.e.: Acts_carFixingWheel</English>
-            <German>Die Bezeichnung der abzuspielenden Animation.\nBsp.: Acts_carFixingWheel</German>
+            <English>The name of the animation to be played.&lt;br/&gt;i.e.: Acts_carFixingWheel</English>
+            <German>Die Bezeichnung der abzuspielenden Animation.&lt;br/&gt;Bsp.: Acts_carFixingWheel</German>
         </Key>
         <Key ID="STR_ttt_Repair_Vehicle_settingBuildAnimation_name">
             <English>Animation</English>
@@ -50,24 +50,24 @@
             <German>Aktivieren</German>
         </Key>
         <Key ID="STR_ttt_Repair_Vehicle_settingFacitlityObject_description">
-            <English>Classname of the object that the player builds and is then to be a repair facility. A defined object, that has already been placed (from the editor), can then also be loaded.\nChanges during the mission do not completely remove the function of the facility; newly added ones work perfectly.\ni.e.: Land_RepairDepot_01_green_F</English>
-            <German>Classname des Objekts das der Spieler aufbaut und dann eine Reparaturstation sein soll. Ein eingetragenes, (aus dem Editor) bereits vorhandenes Objekt, kann dann ebenfalls aufgeladen werden.\nBei Änderungen während der Mission wird den aufgebauten Einrichtungen die Funktion nicht vollständig genommen; neu hinzugefügte funktionieren einwandfrei.\nBsp: "Land_RepairDepot_01_green_F"</German>
+            <English>Classname of the object that the player builds and is then to be a repair facility. A defined object, that has already been placed (from the editor), can then also be loaded.&lt;br/&gt;Changes during the mission do not completely remove the function of the facility; newly added ones work perfectly.&lt;br/&gt;i.e.: Land_RepairDepot_01_green_F</English>
+            <German>Classname des Objekts das der Spieler aufbaut und dann eine Reparaturstation sein soll. Ein eingetragenes, (aus dem Editor) bereits vorhandenes Objekt, kann dann ebenfalls aufgeladen werden.&lt;br/&gt;Bei Änderungen während der Mission wird den aufgebauten Einrichtungen die Funktion nicht vollständig genommen; neu hinzugefügte funktionieren einwandfrei.&lt;br/&gt;Bsp: "Land_RepairDepot_01_green_F"</German>
         </Key>
         <Key ID="STR_ttt_Repair_Vehicle_settingFacitlityObject_name">
             <English>Repairfacitlity</English>
             <German>Reparaturstation</German>
         </Key>
         <Key ID="STR_ttt_Repair_Vehicle_settingSupportedVehicles_description">
-            <English>Classnames of the vehicles that can transport the repair facilty.\n(All these vehicles have one loaded as standard. To deactivate, add the following code in the init of the vehicle: this setVariable ["ttt_Repair_Vehicle_hasWorkshop", false, true])\nChanges during the mission do not completely remove the function of the vehicles; newly added ones work perfectly.\ni.e.: ["B_Truck_01_Repair_F","rsr_wisent_repair_flecktarn"]\n(The array must be enclosed with ' in cba_settings.sqf)</English>
-            <German>Classnames der Fahrzeuge die eine Reparaturstation transportieren können.\n(Standardmäßig haben alle diese Fahrzeuge eine geladen. Zum Deaktivieren folgenden Code in die init des Fahrzeugs hinzufügen: this setVariable ["ttt_Repair_Vehicle_hasWorkshop", false, true])\nBei Änderungen während der Mission wird den Fahrzeugen die Funktion nicht vollständig genommen; neu hinzugefügte funktionieren einwandfrei.\nBsp.: ["B_Truck_01_Repair_F","rsr_wisent_repair_flecktarn"]\n(In der cba_settings.sqf muss das Array mit ' umschlossen werden)</German>
+            <English>Classnames of the vehicles that can transport the repair facilty.&lt;br/&gt;(All these vehicles have one loaded as standard. To deactivate, add the following code in the init of the vehicle: this setVariable ["ttt_Repair_Vehicle_hasWorkshop", false, true])&lt;br/&gt;Changes during the mission do not completely remove the function of the vehicles; newly added ones work perfectly.&lt;br/&gt;i.e.: ["B_Truck_01_Repair_F","rsr_wisent_repair_flecktarn"]&lt;br/&gt;(The array must be enclosed with ' in cba_settings.sqf)</English>
+            <German>Classnames der Fahrzeuge die eine Reparaturstation transportieren können.&lt;br/&gt;(Standardmäßig haben alle diese Fahrzeuge eine geladen. Zum Deaktivieren folgenden Code in die init des Fahrzeugs hinzufügen: this setVariable ["ttt_Repair_Vehicle_hasWorkshop", false, true])&lt;br/&gt;Bei Änderungen während der Mission wird den Fahrzeugen die Funktion nicht vollständig genommen; neu hinzugefügte funktionieren einwandfrei.&lt;br/&gt;Bsp.: ["B_Truck_01_Repair_F","rsr_wisent_repair_flecktarn"]&lt;br/&gt;(In der cba_settings.sqf muss das Array mit ' umschlossen werden)</German>
         </Key>
         <Key ID="STR_ttt_Repair_Vehicle_settingSupportedVehicles_name">
             <English>Supported Vehicles</English>
             <German>Unterstützte Fahrzeuge</German>
         </Key>
         <Key ID="STR_ttt_Repair_Vehicle_settingUseAnimation_description">
-            <English>Should the player play an animation during the execution.\n(the animation duration is not taken into account)</English>
-            <German>Soll der Spieler während der Durchführung eine Animation abspielen.\n(Die Animationsdauer wird nicht berücksichtigt)</German>
+            <English>Should the player play an animation during the execution.&lt;br/&gt;(the animation duration is not taken into account)</English>
+            <German>Soll der Spieler während der Durchführung eine Animation abspielen.&lt;br/&gt;(Die Animationsdauer wird nicht berücksichtigt)</German>
         </Key>
         <Key ID="STR_ttt_Repair_Vehicle_settingUseAnimation_name">
             <English>Play Animation</English>
