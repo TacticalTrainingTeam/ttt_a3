@@ -6,7 +6,7 @@ class CfgPatches {
         units[] = {QGVAR(moduleAddVHS)};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"framework_main", "framework_api"};
+        requiredAddons[] = {"ttt_common"};
         authors[] = {"Miller"};
         author = "Gruppe W Bauleitung";
         authorUrl = "https://www.gruppe-w.de/";

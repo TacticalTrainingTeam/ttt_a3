@@ -7,8 +7,8 @@ class Cfg3DEN {
 
                 class Attributes {
                     class GVAR(addVehicleShield) {
-                        displayName = "VehicleShield";
-                        tooltip = "Fügt dem Fahrzeug das VehicleShield aus dem Gruppe W Framework hinzu.";//ToDo Localize
+                        displayName = "VehicleShield"; //ToDo Localize
+                        tooltip = "Fügt dem Fahrzeug das VehicleShield aus dem Gruppe W Framework hinzu."; //ToDo Localize
                         property = QGVAR(addVehicleShield);
                         control = "Checkbox";
 
@@ -20,8 +20,8 @@ class Cfg3DEN {
                         typeName = "BOOL";
                     };
                     class GVAR(addBuildingShield) {
-                        displayName = "BuildingShield";
-                        tooltip = "Fügt dem Objekt das BuildingShield aus dem Gruppe W Framework hinzu.";//ToDo Localize
+                        displayName = "BuildingShield"; //ToDo Localize
+                        tooltip = "Fügt dem Objekt das BuildingShield aus dem Gruppe W Framework hinzu."; //ToDo Localize
                         property = QGVAR(addBuildingShield);
                         control = "Checkbox";
 
@@ -33,8 +33,8 @@ class Cfg3DEN {
                         typeName = "BOOL";
                     };
                     class GVAR(popWindows) {
-                        displayName = "Fenster entglasen";
-                        tooltip = "Zerstört alle Fenster im Gebäude.";
+                        displayName = "Fenster entglasen"; //ToDo Localize
+                        tooltip = "Zerstört alle Fenster im Gebäude."; //ToDo Localize
                         property = QGVAR(windowpop);
                         control = "Checkbox";
 
