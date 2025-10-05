@@ -90,8 +90,8 @@
             <German>TTT EOD+UGV Kiste (EOD+)</German>
         </Key>
         <Key ID="STR_ttt_Common_intelAdded">
-            <English>%1 has found the intel:\n"%2".</English>
-            <German>%1 hat den Intel:\n"%2"\ngefunden.</German>
+            <English>%1 has found the intel:&lt;br/&gt;"%2".</English>
+            <German>%1 hat den Intel:&lt;br/&gt;"%2"&lt;br/&gt;gefunden.</German>
         </Key>
         <Key ID="STR_ttt_Common_marker">
             <English>TTT Markings Crate (Mark)</English>
