@@ -54,7 +54,7 @@
             <German>Classname des Objekts das der Spieler aufbaut und dann eine medizinische Einrichtung sein soll. Ein eingetragenes, (aus dem Editor) bereits vorhandenes Objekt, kann dann ebenfalls aufgeladen werden.&lt;br/&gt;Bei Änderungen während der Mission wird den aufgebauten Einrichtungen die Funktion nicht vollständig genommen; neu hinzugefügte funktionieren einwandfrei.&lt;br/&gt;Bsp: "Land_MedicalTent_01_NATO_tropic_generic_open_F"</German>
         </Key>
         <Key ID="STR_ttt_Medic_Vehicle_settingFacilityObject_name">
-            <English>Facilityobject</English>
+            <English>Facility object</English>
             <German>Einrichtungsobjekt</German>
         </Key>
         <Key ID="STR_ttt_Medic_Vehicle_settingSupportedVehicles_description">
