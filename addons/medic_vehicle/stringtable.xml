@@ -22,8 +22,8 @@
             <German>Nicht genug Platz zum Aufbau der Einrichtung vorhanden.</German>
         </Key>
         <Key ID="STR_ttt_Medic_Vehicle_hintLoaded">
-            <English>The facility was loaded into the vehicle;\ndirection: %1 degrees\ndistance: %2 meters</English>
-            <German>"Die Einrichtung wurde in das Fahrzeug geladen;\nRichtung: %1 Grad\nEntfernung: %2 Meter\n"</German>
+            <English>The facility was loaded into the vehicle;&lt;br/&gt;direction: %1 degrees&lt;br/&gt;distance: %2 meters</English>
+            <German>"Die Einrichtung wurde in das Fahrzeug geladen;&lt;br/&gt;Richtung: %1 Grad&lt;br/&gt;Entfernung: %2 Meter\n"</German>
         </Key>
         <Key ID="STR_ttt_Medic_Vehicle_settingBuildAnimation_description">
             <English>The name of the animation to be played.\ni.e.: Acts_carFixingWheel</English>
