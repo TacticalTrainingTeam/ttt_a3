@@ -14,7 +14,7 @@
             <German>Errichte Reparaturstation</German>
         </Key>
         <Key ID="STR_ttt_Repair_Vehicle_actionDeconstruct">
-            <English>Load repair facitlity into the vehicle</English>
+            <English>Load repair facility into the vehicle</English>
             <German>Verlade Reparaturstation in Fahrzeug</German>
         </Key>
         <Key ID="STR_ttt_Repair_Vehicle_hintErrorNoSpace">
@@ -49,12 +49,12 @@
             <English>Enable</English>
             <German>Aktivieren</German>
         </Key>
-        <Key ID="STR_ttt_Repair_Vehicle_settingFacitlityObject_description">
+        <Key ID="STR_ttt_Repair_Vehicle_settingFacilityObject_description">
             <English>Classname of the object that the player builds and is then to be a repair facility. A defined object, that has already been placed (from the editor), can then also be loaded.&lt;br/&gt;Changes during the mission do not completely remove the function of the facility; newly added ones work perfectly.&lt;br/&gt;i.e.: Land_RepairDepot_01_green_F</English>
             <German>Classname des Objekts das der Spieler aufbaut und dann eine Reparaturstation sein soll. Ein eingetragenes, (aus dem Editor) bereits vorhandenes Objekt, kann dann ebenfalls aufgeladen werden.&lt;br/&gt;Bei Änderungen während der Mission wird den aufgebauten Einrichtungen die Funktion nicht vollständig genommen; neu hinzugefügte funktionieren einwandfrei.&lt;br/&gt;Bsp: "Land_RepairDepot_01_green_F"</German>
         </Key>
-        <Key ID="STR_ttt_Repair_Vehicle_settingFacitlityObject_name">
-            <English>Repairfacitlity</English>
+        <Key ID="STR_ttt_Repair_Vehicle_settingFacilityObject_name">
+            <English>Repairfacility</English>
             <German>Reparaturstation</German>
         </Key>
         <Key ID="STR_ttt_Repair_Vehicle_settingSupportedVehicles_description">

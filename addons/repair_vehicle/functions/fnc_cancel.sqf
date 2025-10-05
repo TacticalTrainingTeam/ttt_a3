@@ -19,7 +19,7 @@ params ["_target", "_caller"];
 
 _caller switchMove "";
 
-if (typeOf _target == GVAR(facitlityObject)) then {
+if (typeOf _target == GVAR(facilityObject)) then {
     _target setVariable ["ttt_repair_vehicle_inUse", false, true];
     _arrayVehicles = nearestObjects [(getPos _target), (parseSimpleArray GVAR(supportedVehicles)), 15];
     private "_vehicle";
