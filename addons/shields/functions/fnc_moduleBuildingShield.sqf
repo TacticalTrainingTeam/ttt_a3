@@ -133,7 +133,7 @@ switch _mode do
 
         //remove 'Draw3D' eh if last module is removed
         private _modules = (all3DENEntities param [3,[]]) select {typeOf _x == QGVAR(buildingShield) && {_x != _module}};
-        if (count _modules == 0) then
+        if (_modules isEqualTo []) then
         {
             private _ehDraw3D = missionNamespace getVariable [QGVAR(ModulebuildingShield_ehDraw3D),-1];
 
@@ -173,7 +173,7 @@ switch _mode do
         }
         forEach _filterFlags;
 
-        if (count _objectMapTypes == 0) exitWith {objNull};
+        if (_objectMapTypes isEqualTo []) exitWith {objNull};
 
         private _buildings = nearestTerrainObjects [_module,_objectMapTypes,DISTANCE_DETECTION,true,true];
 

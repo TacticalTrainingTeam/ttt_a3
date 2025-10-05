@@ -1,1 +1,1 @@
-#include "\w\framework\addons\shield\script_component.hpp"
+#include "..\script_component.hpp"

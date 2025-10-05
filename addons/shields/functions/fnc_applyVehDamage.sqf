@@ -29,12 +29,12 @@ private _unitCritHPs = _unit getVariable QGVAR(allCritHP);
 if (_hitPoint == "hithull") then {
     //cap hull damage at 0.8 to prevent explosions
     private _newdamage = (_currDamage + _addDamage) min 0.8;
-    _unit setHitpointDamage ["hithull", _newDamage];
+    _unit setHitPointDamage ["hithull", _newDamage];
 } else {
     //cap critical hitpoints at 0.9 - prevents hardcoded explosions but they still get disabled
-    private _maxValue = if (_hitPoint in _unitCritHPs) then { 0.9 } else { 1 };
+    private _maxValue = [1, 0.9] select (_hitPoint in _unitCritHPs);
     if (("gun" in _hitPoint) || {"turret" in _hitPoint}) then { _maxValue = 1 }; //except for guns/turrets. They need 100% damage to get disabled.
-    
+
     //check for VHS param kill preventions
     if (("fuel" in _hitPoint) && {_unit getVariable [QGVAR(preventFuelDrain), false]}) then { _maxValue = 0.8; };
     if (("hrotor" in _hitPoint) && {_unit getVariable [QGVAR(preventHRotorKill), false]}) then { _maxValue = 0.8; };
@@ -42,5 +42,5 @@ if (_hitPoint == "hithull") then {
 
     //aplly damage to the hitpoint
     private _newdamage = (_currDamage + _addDamage) min _maxValue;
-    _unit setHitpointDamage [_hitPoint, _newDamage];
+    _unit setHitPointDamage [_hitPoint, _newDamage];
 };
