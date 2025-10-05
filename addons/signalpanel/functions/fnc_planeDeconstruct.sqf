@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /*
 * Author: EinStein, Andx
-* 
+*
 * Arguments:
 * 0: Facility <OBJECT>
 * 1: Player <OBJECT>
@@ -17,7 +17,7 @@ params ["_target", "_caller"];
 
 deleteVehicle _target;
 
-hint LLSTRING(hintLoaded);
+[LLSTRING(hintLoaded)] call ace_common_fnc_displayText;
 
 _caller switchMove "";
 (unitBackpack _caller) setVariable ["ttt_signalpanel_hasTarp", true, true];
