@@ -17,4 +17,7 @@ class CfgPatches {
 
 #include "Cfg3DEN.hpp"
 #include "CfgEventHandlers.hpp"
+
+class CBA_Extended_EventHandlers_base; //For the Module in CfgVehicles.hpp
+
 #include "CfgVehicles.hpp"
