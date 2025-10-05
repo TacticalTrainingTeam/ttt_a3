@@ -22,7 +22,7 @@ Jeder Spieler dessen Rucksack einem zugelassenem Typen entspricht und derzeit ke
 ``` cpp
 force ttt_medic_backpack_enable = true;                                        //default: false;
 force ttt_medic_backpack_supportedBackpacks = '["B_Kitbag_rgr"]';              //default: [];
-force ttt_medic_backpack_facitlityObject = "Land_MedicalTent_01_floor_dark_F"; //default: "Land_MedicalTent_01_floor_dark_F";
+force ttt_medic_backpack_facilityObject = "Land_MedicalTent_01_floor_dark_F"; //default: "Land_MedicalTent_01_floor_dark_F";
 force ttt_medic_backpack_additionalItems = '["Land_FirstAidKit_01_open_F","Land_Defibrillator_F"]';  //default: [];
 force ttt_medic_backpack_buildTime = 4;                                        //default: 20;
 force ttt_medic_backpack_useAnimation = true;                                  //default: true;
