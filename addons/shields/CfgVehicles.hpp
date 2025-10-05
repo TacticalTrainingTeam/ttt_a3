@@ -77,7 +77,7 @@ class CfgVehicles {
         scopeCurator = 2;
         class EventHandlers {
             init = QUOTE(_this call FUNC(initModule));
-            //class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers_base {};
+            class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers_base {};
         };
     };
 
