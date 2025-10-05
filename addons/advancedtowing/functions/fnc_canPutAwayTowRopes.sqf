@@ -18,7 +18,7 @@
 params ["_vehicle"];
 
 if([_vehicle] call FUNC(isSupportedVehicle)) then {
-    private _existingTowRopes = _vehicle getVariable [QGVAR(Ropes),[]];
+    private _existingTowRopes = _vehicle getVariable [QGVAR(Ropes), []];
     isNull objectParent player && player distance _vehicle < 10 && (count _existingTowRopes) > 0;
 } else {
     false;

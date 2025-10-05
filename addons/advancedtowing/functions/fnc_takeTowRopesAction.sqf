@@ -22,9 +22,7 @@ if([_vehicle] call FUNC(canTakeTowRopes)) then {
 
     private _canTakeTowRopes = true;
 
-    if (missionNamespace getVariable [QGVAR(Locked_Vehicles_Enabled), false]) then {
-        // Locked vehicles are enabled, so do nothing special
-    } else {
+    if (!missionNamespace getVariable [QGVAR(Locked_Vehicles_Enabled), false]) then {
         if (locked _vehicle > 1) then {
             ["Cannot take tow ropes from locked vehicle", false] call FUNC(customHint); //ToDo Localize
             _canTakeTowRopes = false;
@@ -34,5 +32,4 @@ if([_vehicle] call FUNC(canTakeTowRopes)) then {
     if(_canTakeTowRopes) then {
         [_vehicle, player] call FUNC(takeTowRopes);
     };
-
 };

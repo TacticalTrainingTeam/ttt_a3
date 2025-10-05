@@ -15,9 +15,10 @@
  * Public: No
  */
 
-params ["_vehicle", "_isSupported"];
+params ["_vehicle"];
 
-_isSupported = false;
+private _isSupported = false;
+
 if(!isNull _vehicle) then {
     {
         if(_vehicle isKindOf _x) then {
@@ -25,4 +26,5 @@ if(!isNull _vehicle) then {
         };
     } forEach (missionNamespace getVariable [QGVAR(Supported_Vehicles_Override), GVAR(Supported_Vehicles)]);
 };
-_isSupported;
+
+_isSupported

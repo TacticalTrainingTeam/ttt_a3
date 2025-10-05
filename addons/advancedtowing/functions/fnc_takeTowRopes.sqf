@@ -18,9 +18,6 @@
 params ["_vehicle","_player"];
 
 if(local _vehicle) then {
-
-    INFO_1("Take Tow Ropes Called %1",_this);
-
     private _existingTowRopes = _vehicle getVariable [QGVAR(Ropes), []];
 
     if(count _existingTowRopes == 0) then {

@@ -55,4 +55,4 @@ if(missionNamespace getVariable [QGVAR(Debug_Enabled), false]) then {
     sa_tow_debug_arrow_4 setPosASL  AGLToASL (_vehicle modelToWorldVisual _frontCorner2);
 };
 
-[_rearCorner,_rearCorner2,_frontCorner,_frontCorner2];
+[_rearCorner, _rearCorner2, _frontCorner, _frontCorner2]

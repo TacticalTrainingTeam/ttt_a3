@@ -15,7 +15,7 @@
  * Public: No
  */
 
-private  _cargo = cursorTarget;
+private _cargo = cursorTarget;
 private _vehicle = player getVariable [QGVAR(Ropes_Vehicle), objNull];
 
 if([_vehicle, _cargo] call FUNC(canAttachTowRopes)) then {

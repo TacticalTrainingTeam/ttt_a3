@@ -22,15 +22,15 @@ private _isRearCargoHitch = false;
 
 if(!isNull _vehicle) then {
     if(local _vehicle) then {
-        private ["_cargoHitch","_objDistance","_ropeLength"];
+        private ["_cargoHitch", "_objDistance", "_ropeLength"];
         private _towRopes = _vehicle getVariable [QGVAR(Ropes), []];
 
         if(count _towRopes == 1) then {
 
-
             private _cargoHitchPoints = [_cargo] call FUNC(getHitchPoints);
             private _distanceToFrontHitch = player distance (_cargo modelToWorld (_cargoHitchPoints select 0));
             private _distanceToRearHitch = player distance (_cargo modelToWorld (_cargoHitchPoints select 1));
+
             if( _distanceToFrontHitch < _distanceToRearHitch ) then {
                 _cargoHitch = _cargoHitchPoints select 0;
                 _isRearCargoHitch = false;
@@ -39,12 +39,13 @@ if(!isNull _vehicle) then {
                 _isRearCargoHitch = true;
             };
 
-
             _cargoHitch = ([_cargo] call FUNC(getHitchPoints)) select 0;
 
             private _vehicleHitch = ([_vehicle] call FUNC(getHitchPoints)) select 1;
+
             _ropeLength = (ropeLength (_towRopes select 0));
             _objDistance = ((_vehicle modelToWorld _vehicleHitch) distance (_cargo modelToWorld _cargoHitch));
+
             if( _objDistance > _ropeLength ) then {
                 [["The tow ropes are too short. Move vehicle closer.", false], QFUNC(customHint), _player] call FUNC(customRemoteExec); //ToDo Localize
             } else {

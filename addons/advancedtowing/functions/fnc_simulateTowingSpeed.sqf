@@ -73,5 +73,4 @@ while {_runSimulation} do {
     };
 
     sleep 0.1;
-
 };

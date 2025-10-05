@@ -40,7 +40,7 @@ private _returnSurfaceASL = AGLToASL _positionAGL;
 } forEach _surfaces;
 
 if(_canFloat && (_returnSurfaceASL select 2) < 0) then {
-    _returnSurfaceASL set [2,0];
+    _returnSurfaceASL set [2, 0];
 };
 
 _returnSurfaceASL

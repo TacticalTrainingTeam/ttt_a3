@@ -40,5 +40,5 @@ if(local _vehicle) then {
     _player setVariable [QGVAR(Ropes_Vehicle), _vehicle, true];
     _player setVariable [QGVAR(Ropes_Pick_Up_Helper), _helper, true];
 } else {
-    [_this, QFUNC(pickupTowRopes), _vehicle, true] call SA_RemoteExec;
+    [_this, QFUNC(pickupTowRopes), _vehicle, true] call FUNC(customRemoteExec);
 };

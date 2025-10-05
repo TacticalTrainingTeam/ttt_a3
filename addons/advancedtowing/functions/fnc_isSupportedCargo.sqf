@@ -32,4 +32,5 @@ if(!isNull _vehicle && !isNull _cargo) then {
         };
     } forEach (missionNamespace getVariable [QGVAR(Rules_Override), GVAR(Tow_Rules)]);
 };
-_canTow;
+
+_canTow

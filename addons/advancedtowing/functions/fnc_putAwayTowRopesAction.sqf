@@ -31,5 +31,4 @@ if([_vehicle] call FUNC(canPutAwayTowRopes)) then {
     if(_canPutAwayTowRopes) then {
         [_vehicle, player] call FUNC(putAwayTowRopes);
     };
-
 };

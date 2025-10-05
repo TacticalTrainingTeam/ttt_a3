@@ -15,7 +15,7 @@
  * Public: No
  */
 
-player addAction ["Deploy Tow Ropes", { //ToDo Localize
+player addAction ["Take Tow Ropes", { //ToDo Localize
     call FUNC(takeTowRopesAction);
 }, nil, 0, false, true, "", QUOTE([ARR_2(FUNC(takeTowRopesActionCheck),_this)] call CBA_fnc_directCall)];
 

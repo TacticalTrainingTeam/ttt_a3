@@ -91,7 +91,7 @@ while {!_doExit} do {
         _lastCargoVectorDir = _newCargoDir;
         _newCargoPosition = _newCargoHitchPosition vectorAdd (_newCargoDir vectorMultiply -(vectorMagnitude (_cargoHitchModelPos)));
 
-        [_cargo, _newCargoPosition, _cargoCanFloat] call FUNC(findSurfaceASLUnderPosition);
+        _newCargoPosition = [_cargo, _newCargoPosition, _cargoCanFloat] call FUNC(findSurfaceASLUnderPosition);
 
         // Calculate surface normal (up) (more realistic than surfaceNormal function)
         private _cargoCorner1ASL = [_cargo, _corner1, _cargoCanFloat] call FUNC(findSurfaceASLUnderModel);
