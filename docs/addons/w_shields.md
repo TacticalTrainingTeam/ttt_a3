@@ -38,10 +38,10 @@ Während einer Mission könnt ihr das Zeusmodul nutzen um Fahrzeuge zu schützen
 
 ### Benutzung: Funktionsaufruf (nicht empfohlen)
 
-Schreibt in die `init.sqf` z.B. folgendes:
+Schreibt in die Init des Fahrzeugs folgendes:
 
 ```c++
-[tank_01, true, [false,false], true] call ttt_shields_fnc_addVehicleShield;
+[this, true, [false,false], true] call ttt_w_shields_fnc_addVehicleShield;
 ```
 
 Argumente:
