@@ -1,4 +1,4 @@
-#define COMPONENT wshields
+#define COMPONENT w_shields
 #define COMPONENT_BEAUTIFIED W-Shields
 #include "\z\ttt\addons\main\script_mod.hpp"
 
