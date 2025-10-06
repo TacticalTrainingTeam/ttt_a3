@@ -28,13 +28,13 @@
 params [
     [ "_target",            objNull,        [objNull]   ],
     [ "_preventFuelDrain",  false,          [true]      ],
-    [ "_rotors",            [false, false],   [[]]        ],
+    [ "_rotors",            [false, false], [[]]        ],
     [ "_killEngine",        false,          [true]      ]
 ];
 
 _rotors params [
-    [ "_preventHRotorKill",   true,           [true]      ],
-    [ "_preventVRotorKill",   true,           [true]      ]
+    [ "_preventHRotorKill",   true,          [true]      ],
+    [ "_preventVRotorKill",   true,          [true]      ]
 ];
 
 _target setVariable [QGVAR(hasVHS), true];
@@ -77,7 +77,7 @@ _target setVariable [QGVAR(allCritHP), _allCritHPs, true];
 _target setVariable [QGVAR(hitHash), createHashMap, true];
 
 //Add the HandleDamage Eventhandler
-diag_log format["Init GrpW VHS für Fahrzeug %1 | Typ %2", _target, typeOf _target];
+INFO_2("Init GrpW VHS für Fahrzeug %1 | Typ %2",_target,typeOf _target);
 [{
     params ["_target"];
 

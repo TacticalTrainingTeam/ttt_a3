@@ -25,7 +25,6 @@ private _currDamage = _unit getHitPointDamage _hitPoint;
 private _unitRegHPs = _unit getVariable QGVAR(allRegHP);
 private _unitCritHPs = _unit getVariable QGVAR(allCritHP);
 
-
 if (_hitPoint == "hithull") then {
     //cap hull damage at 0.8 to prevent explosions
     private _newdamage = (_currDamage + _addDamage) min 0.8;
