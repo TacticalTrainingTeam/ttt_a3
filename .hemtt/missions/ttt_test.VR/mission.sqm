@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=166;
+		nextID=169;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5936.7441,7.6433673,4801.0391};
-		dir[]={-0.89370924,-0.33833593,0.29490581};
-		up[]={-0.32131693,0.94100124,0.10602826};
-		aside[]={0.31338173,-1.6821286e-07,0.94969994};
+		pos[]={5920.6519,26.137703,4824.4634};
+		dir[]={0.17568986,-0.44796935,-0.87670892};
+		up[]={0.088023543,0.89402485,-0.43924835};
+		aside[]={-0.98057401,-2.1158485e-07,-0.19650301};
 	};
 };
 binarizationWanted=0;
@@ -44,13 +44,14 @@ addons[]=
 	"ace_vehicle_damage",
 	"acre_sys_intercom",
 	"A3_Structures_F_Civ_Camping",
-	"ace_dragging"
+	"ace_dragging",
+	"A3_Soft_F_Exp_LSV_01"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=17;
+		items=19;
 		class Item0
 		{
 			className="A3_Soft_F_Gamma";
@@ -177,11 +178,19 @@ class AddonsMetaData
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
+		class Item18
+		{
+			className="A3_Soft_F_Exp";
+			name="Arma 3 Apex - Unarmored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 dlcs[]=
 {
-	"Heli"
+	"Heli",
+	"Expansion"
 };
 randomSeed=2912351;
 class ScenarioData
@@ -232,7 +241,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=68;
+		items=69;
 		class Item0
 		{
 			dataType="Object";
@@ -1657,6 +1666,22 @@ class Mission
 			};
 			id=139;
 			type="EmptyDetectorAreaR50";
+		};
+		class Item68
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5926.4302,7.1761513,4784.0415};
+				angles[]={-0,1.7638763,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=167;
+			type="B_CTRG_LSV_01_light_F";
 		};
 	};
 };
