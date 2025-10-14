@@ -34,6 +34,6 @@ GVAR(loadoutNamespace) setVariable [_uid, _loadout, true];
 
 INFO_2("Loadout Saved for player %1 is %2",_player,_loadout);
 
-[QGVAR(API_loadoutSaved), ["_player", "_loadout"]] call CBA_fnc_localEvent;
+[QGVAR(API_loadoutSaved), [_player, _loadout]] call CBA_fnc_localEvent;
 
 true
