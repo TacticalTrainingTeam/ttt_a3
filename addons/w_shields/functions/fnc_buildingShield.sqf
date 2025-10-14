@@ -41,6 +41,8 @@ _target addEventHandler [
             }
         ) exitWith {};
 
+        [QGVAR(API_buildingShieldTriggered), [_target]] call CBA_fnc_localEvent;
+
         0
     }
 ];
