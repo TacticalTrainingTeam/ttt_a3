@@ -122,7 +122,7 @@ if !(_vehicle isKindOf "Air") then {_infantryGroup addVehicle _vehicle};						//
 	_x moveInCargo _vehicle;
 } forEach _infantryList;
 
-if ((_rpBehaviour == 1) && !([_vehicle] call zen_compat_ace_fnc_canFastrope)) then
+if ((_rpBehaviour == 1) && (_vehicle isKindOf "Air") && !([_vehicle] call zen_compat_ace_fnc_canFastrope)) then
 {
 	["vehicle has no fastrope capabilities - switching..."] call ace_zeus_fnc_showMessage;
 	_rpBehaviour = 0;
