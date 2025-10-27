@@ -22,7 +22,7 @@ params [
     ];
 private _isZeus = !isNull (findDisplay 312);
 
-if (!hasInterface || _isZeus || CBA_missiontime < TIME_SAVE_START) exitWith {false};
+if (!hasInterface || _isZeus) exitWith {false};
 
 if (_uid isEqualTo "") then {
     _uid = getPlayerUID _player;
