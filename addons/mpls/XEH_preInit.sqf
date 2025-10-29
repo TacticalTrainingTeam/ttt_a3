@@ -22,14 +22,15 @@ if (isServer) then {
     }];
 };
 
-// Add Eventhandler for the loadout saving event
+// Add Eventhandler to all players for the loadout saving event
 // if the event is raised, save the current loadout
-[
-    QGVAR(doBackup),
-    {
-        if (!hasInterface) exitWith {};
-        [ace_player, getPlayerUID ace_player] call FUNC(saveLoadout);
-    }
-] call CBA_fnc_addEventHandler;
+if (hasInterface) then  {
+    [
+        QGVAR(doBackup),
+        {
+            [ace_player, getPlayerUID ace_player] call FUNC(saveLoadout);
+        }
+    ] call CBA_fnc_addEventHandler;
+};
 
 INFO("Mission-Persistent Loadoutsystem initialized");
