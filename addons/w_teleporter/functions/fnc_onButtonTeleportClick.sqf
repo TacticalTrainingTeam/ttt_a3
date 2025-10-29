@@ -41,4 +41,4 @@ switch GVAR(type) do {
     };
 };
 
-[QGVAR(API_playerTeleported), [GVAR(target)]] call CBA_fnc_localEvent;
+[QGVAR(API_playerTeleported), [ACE_player]] call CBA_fnc_localEvent;
