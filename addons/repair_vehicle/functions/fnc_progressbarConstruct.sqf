@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /*
 * Author: EinStein
-* 
+*
 * Arguments:
 * 0: Vehicle <OBJECT>
 * 1: Player <OBJECT>
@@ -18,7 +18,7 @@
 private _position = (_target getPos [-10, getDir _target]) findEmptyPosition [2, 10, "Tank"];
 
 if (_position isEqualTo []) exitWith {
-    hint LLSTRING(hintErrorNoSpace);
+    [LLSTRING(hintErrorNoSpace), true] call ace_common_fnc_displayText;
 };
 
 _target setVariable ["ttt_repair_vehicle_hasWorkshop", false, true];
