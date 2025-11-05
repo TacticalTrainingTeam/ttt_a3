@@ -1,7 +1,6 @@
 class RscButton;
 class RscCombo;
 class RscFrameworkBackground;
-class RscFrameworkLabel;
 class RscListBox;
 
 class RscFrameworkTeleporter {

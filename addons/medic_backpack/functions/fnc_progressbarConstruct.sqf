@@ -2,7 +2,7 @@
 /*
 * Author: EinStein
 * Starts the progress bar for building the tent.
-* 
+*
 * Arguments:
 * 0: Player <OBJECT>
 * 1: Player <OBJECT>
@@ -18,7 +18,7 @@
 
 private _position = (_target getPos [8, getDir _target]) findEmptyPosition [1, 2, "Tank"];
 if (_position isEqualTo []) exitWith {
-    hint LLSTRING(hintErrorNoSpace);
+    [LLSTRING(hintErrorNoSpace), true] call ace_common_fnc_displayText;
 };
 
 if (GVAR(useAnimation)) then {

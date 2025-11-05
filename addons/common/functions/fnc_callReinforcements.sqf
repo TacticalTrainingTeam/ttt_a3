@@ -3,7 +3,7 @@
 * Author: EinStein
 * Original idea: by Ares Mod-Team https://github.com/ArmaAchilles/Achilles/blob/f123656459cab7766aa40c32d5ee12d29ebadaae/%40AresModAchillesExpansion/addons/modules_f_ares/Reinforcements/functions/fn_ReinforcementsCreateUnits.sqf
 * Description: spawns vehicle and infantry group, moves to RP, releases units and attacks or RTB
-* Example: 
+* Example:
 *	[l_sp_1, l_rp_1, l_at_1, EAST, "O_APC_Wheeled_02_rcws_v2_F"] call ttt_common_fnc_callReinforcements;
 *
 *	argument 0: 'array' or 'object' position to create units
@@ -22,11 +22,11 @@
 if (!isServer) exitWith {};
 
 params [
-    "_spPos", 
-    "_rpPos", 
-    "_atPos", 
-    "_side", 
-    "_vehicleType", 
+    "_spPos",
+    "_rpPos",
+    "_atPos",
+    "_side",
+    "_vehicleType",
     ["_rpBehaviour", 0, [42]],
     ["_grpCfg", configFile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad", [(configFile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad"), []]],
     ["_grpBehaviour", 2, [42]],
@@ -52,7 +52,7 @@ if (_vehicle isKindOf "Plane") then
 	// Adjust spawn and flight altitude
 	_vehicle flyInHeight _height;
 	_vehicle setPos (_spPos vectorAdd [0, 0, _height]);
-	
+
 	// Fix for CUP planes (somehow they don't have a start velocity despite using BIS_fnc_spawnVehicle)
 	private _speed = getNumber (configFile >> "CfgVehicles" >> _vehicleType >> "maxSpeed");
 	private _coefName = ["normalSpeedForwardCoef", "limitedSpeedCoef"] select (speedMode _vehicleGroup == "LIMITED");
@@ -98,7 +98,7 @@ switch (_grpBehaviour) do
 // Choose a attack position for the squad to head to once unloaded and set their waypoint.
 private _infantryAtWp = _infantryGroup addWaypoint [_atPos, _atSize];
 if (isClass(configFile >> "CfgPatches" >> "lambs_danger") && !(_vehicle isKindOf "Air")) then	// LAMBS only if loaded and only for ground vehicles
-{	
+{
 	_infantryAtWp setWaypointType "SCRIPTED";
 	_infantryAtWp setWaypointScript "\z\lambs\addons\wp\scripts\fnc_wpRush.sqf";
 } else
@@ -111,37 +111,38 @@ if (isClass (configFile >> "CfgPatches" >> "acex_headless") && acex_headless_ena
 {
     //to ensure unload, blacklist
     _infantryGroup setVariable ["acex_headless_blacklist", true, true];
-    
+
     //after rally, unblacklist _infantryGroup
     _infantryAtWp setWaypointStatements ["true", "(group this) setVariable ['acex_headless_blacklist', false, true];"];
 };
 
 // Load the units into the vehicle.
+if !(_vehicle isKindOf "Air") then {_infantryGroup addVehicle _vehicle};						// stop units from disembarking after been telepoted in
 {
 	_x moveInCargo _vehicle;
 } forEach _infantryList;
 
-if ((_vehicle getVariable ["Achilles_var_noFastrope", false]) && (_rpBehaviour > 0) && (_vehicle isKindOf "Air")) exitWith
+if ((_rpBehaviour == 1) && (_vehicle isKindOf "Air") && !([_vehicle] call zen_compat_ace_fnc_canFastrope)) then
 {
-	["ACE3 or AR is not loaded!"] call ace_zeus_fnc_showMessage;
-	{deleteVehicle _x} forEach _infantryList;
+	["vehicle has no fastrope capabilities - switching..."] call ace_zeus_fnc_showMessage;
+	_rpBehaviour = 0;
 };
 
 //create invisible helipad if needed
-if ((_rpBehaviour == 0) && (_vehicle isKindOf "Air") && (count nearestObjects [_rpPos, ["Land_HelipadEmpty_F"], 5] > 0)) then
+if ((_rpBehaviour == 0) && (_vehicle isKindOf "Air") && (nearestObjects [_rpPos, ["Land_HelipadEmpty_F"], 5] isNotEqualTo [])) then
 {
 	private _h_pad = "Land_HelipadEmpty_F" createVehicle _rpPos;
 };
 
 // create a RP waypoint for deploying the units
 private _vehicleUnloadWp = _vehicleGroup addWaypoint [_rpPos, _rpSize];
-if (_vehicle isKindOf "Air" && (_rpBehaviour > 0) && (isClass(configFile >> "CfgPatches" >> "achilles_functions_f_ares"))) then
+if (_vehicle isKindOf "Air" && (_rpBehaviour > 0)) then
 {
 	_vehicleUnloadWp setWaypointType "SCRIPTED";
 	private _script =
 	[
-		"\achilles\functions_f_achilles\scripts\fn_wpParadrop.sqf",
-		"\achilles\functions_f_achilles\scripts\fn_wpFastrope.sqf"
+		"\x\zen\addons\ai\functions\fnc_waypointParadrop.sqf",
+		"\x\zen\addons\compat_ace\functions\fnc_waypointFastrope.sqf"
 	] select (_rpBehaviour isEqualTo 1);
 	_vehicleUnloadWp setWaypointScript _script;
 } else
@@ -203,7 +204,7 @@ if (isClass (configFile >> "CfgPatches" >> "acex_headless") && acex_headless_ena
 {
     //to ensure unload, blacklist
     _vehicleGroup setVariable ["acex_headless_blacklist", true, true];
-    
+
     //after unload, unblacklist _vehicleGroup
     _vehicleUnloadWp setWaypointStatements ["true", "(group this) setVariable ['acex_headless_blacklist', false, true];"];
 };
