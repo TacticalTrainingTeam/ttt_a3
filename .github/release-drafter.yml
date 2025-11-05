@@ -9,27 +9,27 @@ sort-by: title # sort alphabetically
 sort-direction: ascending
 
 categories:
-  - title: '### NEU:'
+  - title: 'NEU:'
     labels:
       - 'pr/feature'
-  - title: '### REPARIERT:'
+  - title: 'REPARIERT:'
     labels:
       - 'pr/bug-fix'
-  - title: '### VERBESSERT:'
+  - title: ' VERBESSERT:'
     labels:
       - 'pr/enhancement'
       - 'pr/optimization'
-  - title: '### VERÄNDERT:'
+  - title: 'VERÄNDERT:'
     labels:
       - 'pr/cleanup'
       - 'pr/change'
-  - title: '### EINSTELLUNGEN:'
+  - title: 'EINSTELLUNGEN:'
     labels:
       - 'pr/setting'
-  - title: '### ÜBERSETZUNGEN:'
+  - title: 'ÜBERSETZUNGEN:'
     labels:
       - 'pr/translation'
-  - title: '### DOKUMENTATION:'
+  - title: 'DOKUMENTATION:'
     labels:
       - 'pr/documentation'
 
@@ -74,10 +74,3 @@ version-resolver:
       - "pr/documentation"
       - "pr/bug-fix"
   default: patch
-
-replacers:
-  # Category titles
-  # Der Release Drafter macht die Kategorie automatisch als ## Heading
-  # und wir wollen sie als ### Heading haben
-  - search: '/\#\# (\#\#\# (NEU|REPARIERT|VERBESSERT|VERÄNDERT|EINSTELLUNGEN|ÜBERSETZUNGEN|DOKUMENTATION):)/g'
-    replace: '$1'
