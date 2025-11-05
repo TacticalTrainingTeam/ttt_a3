@@ -7,7 +7,7 @@ if (isServer) then {
             call FUNC(initSave);
         },
         [],
-        20
+        30
     ] call CBA_fnc_waitAndExecute;
 };
 
@@ -16,14 +16,14 @@ if (!hasInterface) exitWith {};
 
 // If the _first Loadout does not exist, create it
 [
-    {            
+    {
         params ["_player"];
         if (GVAR(loadoutNamespace) getVariable [([getPlayerUID _player, "_first"] joinString ""), []] isEqualTo []) then {
             GVAR(loadoutNamespace) setVariable [[getPlayerUID _player, "_first"] joinString "", [_player] call CBA_fnc_getLoadout, true]; //saves the very first loadout to the DB
         };
     },
     [ace_player],
-    5
+    30
 ] call CBA_fnc_waitAndExecute;
 
 // If player is JIP

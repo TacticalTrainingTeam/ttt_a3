@@ -2,9 +2,9 @@
 
 Enthält diverse Verbesserungen und Fixes für Redd'n'Tank Fahrzeuge.
 
-## Referenzen
+## Quellen
 
-<https://github.com/PzGrenBtl-402/PzGrenBtl402/tree/master>
+- <https://github.com/PzGrenBtl-402/PzGrenBtl402/tree/master>
 
 ## Abhängigkeiten
 
