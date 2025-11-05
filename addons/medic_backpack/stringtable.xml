@@ -14,7 +14,7 @@
             <German>Errichte medizinische Einrichtung</German>
         </Key>
         <Key ID="STR_ttt_Medic_Backpack_actionDeconstruct">
-            <English>Stow medical facitlity into backpack</English>
+            <English>Stow medical facility into backpack</English>
             <German>Packe medizinische Einrichtung in Rucksack</German>
         </Key>
         <Key ID="STR_ttt_Medic_Backpack_hintErrorNoSpace">
@@ -57,12 +57,12 @@
             <English>Enable</English>
             <German>Aktivieren</German>
         </Key>
-        <Key ID="STR_ttt_Medic_Backpack_settingFacitlityObject_description">
+        <Key ID="STR_ttt_Medic_Backpack_settingFacilityObject_description">
             <English>Classname of the object that the player builds and is then to be a medical facility. A defined object, that has already been placed (from the editor), can then also be loaded.\nChanges during the mission do not completely remove the function of the facility; newly added ones work perfectly.\ni.e.: Land_MedicalTent_01_floor_dark_F</English>
             <German>Klassennamen des Objekts das der Spieler aufbaut und dann eine medizinische Einrichtung sein soll. Ein eingetragenes, (aus dem Editor) bereits vorhandenes Objekt, kann dann ebenfalls aufgeladen werden.\nBei Änderungen während der Mission wir den aufgebauten Einrichtungen die Funktion nicht vollständig genommen; neu hinzugefügte funktionieren einwandfrei.\nBsp: "Land_MedicalTent_01_floor_dark_F"</German>
         </Key>
-        <Key ID="STR_ttt_Medic_Backpack_settingFacitlityObject_name">
-            <English>Facitlityobject</English>
+        <Key ID="STR_ttt_Medic_Backpack_settingFacilityObject_name">
+            <English>Facility object</English>
             <German>Einrichtungsobjekt</German>
         </Key>
         <Key ID="STR_ttt_Medic_Backpack_settingSupportedBackpacks_description">
