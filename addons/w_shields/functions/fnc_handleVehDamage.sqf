@@ -126,6 +126,8 @@ if (_currHash isEqualTo []) then {
     ] call CBA_fnc_execNextFrame;
 };
 
+[QGVAR(API_vehicleShieldTriggered), [_unit]] call CBA_fnc_localEvent;
+
 // add all relevant hits to the hash and safe it
 _currHash pushBack _this;
 _hitHash set [diag_frameNo, _currHash];
