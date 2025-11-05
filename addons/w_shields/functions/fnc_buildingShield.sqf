@@ -15,7 +15,7 @@
  * None
  *
  * Example:
- * [BUILDING] call ttt_w_buildingshield_fnc_buildingShield;
+ * [BUILDING] call Framework_fnc_buildingShield;
  *
  * Public: No
  */
@@ -23,9 +23,7 @@ params [
     [ "_target", objNull, [objNull] ]
 ];
 
-if (isNull _target) exitWith { ["Kein Objekt übergeben."] call BIS_fnc_error };
-
-INFO_1("Adding Buildingshield to %1",_target);
+if (isNull _target) exitWith { ["Kein Objekt übergeben."] call BIS_fnc_error };//ToDo Localize
 
 //Add the HandleDamage Eventhandler
 _target addEventHandler [
@@ -42,6 +40,8 @@ _target addEventHandler [
                 }
             }
         ) exitWith {};
+
+        [QGVAR(API_buildingShieldTriggered), [_target]] call CBA_fnc_localEvent;
 
         0
     }

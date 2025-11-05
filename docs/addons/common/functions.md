@@ -169,8 +169,8 @@ Bei fehlender oder falscher Angabe wird "Veteran" ausgewählt. Die Werte innerha
 #### Beispiele
 
 ``` cpp
-[ai_01, "Recruit"] call ttt_fnc_common_setAISkillLevel;
-[_x, "Veteran"] call ttt_fnc_common_setAISkillLevel;
+[ai_01, "Recruit"] call ttt_common_fnc_setAISkillLevel;
+[_x, "Veteran"] call ttt_common_fnc_setAISkillLevel;
 ```
 
 ## Maintainer

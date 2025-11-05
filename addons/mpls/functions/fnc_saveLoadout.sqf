@@ -32,6 +32,6 @@ private _loadout = [_player] call CBA_fnc_getLoadout;
 
 GVAR(loadoutNamespace) setVariable [_uid, _loadout, true];
 
-INFO_2("Loadout Saved for player %1 is %2",_player,_loaodout);
+INFO_2("Loadout Saved for player %1 is %2",_player,_loadout);
 
 true
