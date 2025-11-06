@@ -18,7 +18,7 @@
 
 if !(GVAR(enableDRP)) exitWith {INFO("Rich Presence is disabled by client");};
 
-INFO("Updating Rich Presence");
+INFO("Updating Discord Rich Presence");
 
 [
     ["UpdateDetails", missionNameSource],
