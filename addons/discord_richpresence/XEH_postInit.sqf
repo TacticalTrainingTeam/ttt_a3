@@ -7,6 +7,6 @@ if (hasInterface) then {
             call FUNC(updateRichPresence);
         },
         [],
-        30
+        1
     ] call CBA_fnc_waitAndExecute;
 };
