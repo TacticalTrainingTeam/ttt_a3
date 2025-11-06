@@ -26,3 +26,12 @@ INFO("Updating Rich Presence");
     ["UpdatePartySize", count playableUnits],
     ["UpdatePartyMax", getNumber(missionConfigFile >> "Header" >> "maxPlayers")]
 ] call (missionNamespace getVariable ["discordrichpresence_fnc_update", {}]);
+
+// Call this function again after 10 Minutes
+[
+    {
+        call FUNC(updateRichPresence);
+    },
+    [],
+    600
+] call CBA_fnc_waitAndExecute;
