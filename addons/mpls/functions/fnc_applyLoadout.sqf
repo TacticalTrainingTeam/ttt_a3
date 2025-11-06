@@ -22,7 +22,7 @@ if (!hasInterface || _isZeus) exitWith {false};
 
 if ((GVAR(loadoutNamespace) getVariable [(getPlayerUID _player),[]]) isEqualTo []) exitWith {false};
 
-private _oldLoadut = [_player] call CBA_fnc_getLoadout;
+private _oldLoadout = [_player] call CBA_fnc_getLoadout;
 
 private _newLoadout =  GVAR(loadoutNamespace) getVariable (getPlayerUID _player);
 
