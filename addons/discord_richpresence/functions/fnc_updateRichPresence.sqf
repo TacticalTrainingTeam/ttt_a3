@@ -33,5 +33,5 @@ INFO("Updating Discord Rich Presence");
         call FUNC(updateRichPresence);
     },
     [],
-    600
+    DRP_UPDATE_INTERVAL
 ] call CBA_fnc_waitAndExecute;
