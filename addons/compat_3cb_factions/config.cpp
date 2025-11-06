@@ -15,3 +15,5 @@ class CfgPatches {
         skipWhenMissingDependencies = 1;
     };
 };
+
+#include "CfgVehicles.hpp"
