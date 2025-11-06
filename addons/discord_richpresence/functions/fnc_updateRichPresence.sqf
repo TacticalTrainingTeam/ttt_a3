@@ -21,10 +21,10 @@ if !(GVAR(enableDRP)) exitWith {INFO("Rich Presence is disabled by client");};
 INFO("Updating Discord Rich Presence");
 
 [
-    ["UpdateDetails", missionNameSource],
+    ["UpdateDetails", [getText (missionConfigFile >> "onLoadName"), "on", getText (configFile >> "CfgWorlds" >> worldName >> "description")] joinString " "],
     ["UpdateState", serverName],
     ["UpdatePartySize", count playableUnits],
-    ["UpdatePartyMax", getNumber(missionConfigFile >> "Header" >> "maxPlayers")]
+    ["UpdatePartyMax", getNumber (missionConfigFile >> "Header" >> "maxPlayers")]
 ] call (missionNamespace getVariable ["discordrichpresence_fnc_update", {}]);
 
 // Call this function again after 10 Minutes
