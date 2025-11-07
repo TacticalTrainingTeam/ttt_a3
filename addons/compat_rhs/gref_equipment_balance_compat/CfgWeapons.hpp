@@ -9,7 +9,7 @@ class cfgWeapons {
     class H_Cap_red;
     class rhs_fieldcap_digi2;
     class rhsgref_un_beret: ItemCore {
-        class ItemInfo: HeadgearItem {
+        class ItemInfo: HeadGearItem {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 5;
@@ -28,7 +28,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_Booniehat_alpen: ItemCore {
-        class ItemInfo: HeadgearItem {
+        class ItemInfo: HeadGearItem {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 5;
@@ -47,7 +47,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_patrolcap_specter: rhs_fieldcap_digi2 {
-        class ItemInfo: HeadgearItem {
+        class ItemInfo: HeadGearItem {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 5;
@@ -66,7 +66,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_fieldcap: H_HelmetB {
-        class ItemInfo: HeadgearItem {
+        class ItemInfo: HeadGearItem {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 5;
