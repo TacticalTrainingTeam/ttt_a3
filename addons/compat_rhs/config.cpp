@@ -16,9 +16,6 @@ class CfgPatches {
             "ttt_common",
             "rhsusf_main_loadorder",
             "rhs_main_loadorder",
-            "rhsusf_main",
-			"rhsusf_c_weapons",
-			"rhsusf_c_troops"
         };
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {};
@@ -33,5 +30,3 @@ class CfgPatches {
 
 #include "CfgEventhandlers.hpp"
 #include "CfgAmmo.hpp"
-#include "CfgWeapons.hpp"
-#include "CfgVehicles.hpp"

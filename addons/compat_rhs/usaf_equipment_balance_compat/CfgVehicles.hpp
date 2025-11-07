@@ -28,7 +28,7 @@ class cfgVehicles {
         maximumLoad = 440;
         mass = 25;
     };
-    class rhsusf_assault_eagleaiii_ocp_demo : rhsusf_assault_eagleaiii_ocp {
+    class rhsusf_assault_eagleaiii_ocp_demo: rhsusf_assault_eagleaiii_ocp {
         maximumLoad = 440;
         mass = 25;
     };
