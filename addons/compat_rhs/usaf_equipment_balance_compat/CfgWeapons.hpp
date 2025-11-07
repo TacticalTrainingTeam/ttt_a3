@@ -191,14 +191,14 @@ class CfgWeapons {
             mass = 5;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitHead";
+                    armor = 0;
+                    passThrough = 1;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -210,14 +210,14 @@ class CfgWeapons {
             mass = 25;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    Armor=8;
+                    hitpointName ="HitHead";
+                    Armor = 8;
                     passThrough = 0.5;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=8;
-                    passThrough=0.5;
+                    hitpointName ="HitFace";
+                    armor = 8;
+                    passThrough = 0.5;
                 };
             };
         };
@@ -229,14 +229,14 @@ class CfgWeapons {
             mass = 5;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitHead";
+                    armor = 0;
+                    passThrough = 1;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -248,14 +248,14 @@ class CfgWeapons {
             mass = 5;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitHead";
+                    armor = 0;
+                    passThrough = 1;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -267,14 +267,14 @@ class CfgWeapons {
             mass = 5;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitHead";
+                    armor = 0;
+                    passThrough = 1;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -286,14 +286,14 @@ class CfgWeapons {
             mass = 15;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    Armor=4;
+                    hitpointName ="HitHead";
+                    Armor = 4;
                     passThrough = 0.5;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -305,14 +305,14 @@ class CfgWeapons {
             mass = 20;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    Armor=6;
+                    hitpointName ="HitHead";
+                    Armor = 6;
                     passThrough = 0.5;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -324,14 +324,14 @@ class CfgWeapons {
             mass = 20;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    Armor=6;
+                    hitpointName ="HitHead";
+                    Armor = 6;
                     passThrough = 0.5;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -343,14 +343,14 @@ class CfgWeapons {
             mass = 20;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    Armor=6;
+                    hitpointName ="HitHead";
+                    Armor = 6;
                     passThrough = 0.5;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -362,14 +362,14 @@ class CfgWeapons {
             mass = 20;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    Armor=6;
+                    hitpointName ="HitHead";
+                    Armor = 6;
                     passThrough = 0.5;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -381,14 +381,14 @@ class CfgWeapons {
             mass = 25;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    Armor=8;
+                    hitpointName ="HitHead";
+                    Armor = 8;
                     passThrough = 0.5;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=8;
-                    passThrough=0.5;
+                    hitpointName ="HitFace";
+                    armor = 8;
+                    passThrough = 0.5;
                 };
             };
         };
@@ -400,14 +400,14 @@ class CfgWeapons {
             mass = 20;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    Armor=6;
+                    hitpointName ="HitHead";
+                    Armor = 6;
                     passThrough = 0.5;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -428,14 +428,14 @@ class CfgWeapons {
             mass = 20;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    Armor=6;
+                    hitpointName ="HitHead";
+                    Armor = 6;
                     passThrough = 0.5;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -453,14 +453,14 @@ class CfgWeapons {
             mass = 20;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    Armor=6;
+                    hitpointName ="HitHead";
+                    Armor = 6;
                     passThrough = 0.5;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -472,14 +472,14 @@ class CfgWeapons {
             mass = 20;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    Armor=6;
+                    hitpointName ="HitHead";
+                    Armor = 6;
                     passThrough = 0.5;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -497,14 +497,14 @@ class CfgWeapons {
             mass = 20;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    Armor=6;
+                    hitpointName ="HitHead";
+                    Armor = 6;
                     passThrough = 0.5;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -516,14 +516,14 @@ class CfgWeapons {
             mass = 20;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    Armor=6;
+                    hitpointName ="HitHead";
+                    Armor = 6;
                     passThrough = 0.5;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -535,14 +535,14 @@ class CfgWeapons {
             mass = 20;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    Armor=6;
+                    hitpointName ="HitHead";
+                    Armor = 6;
                     passThrough = 0.5;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -554,14 +554,14 @@ class CfgWeapons {
             mass = 20;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    Armor=6;
+                    hitpointName ="HitHead";
+                    Armor = 6;
                     passThrough = 0.5;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -573,14 +573,14 @@ class CfgWeapons {
             mass = 20;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    Armor=6;
+                    hitpointName ="HitHead";
+                    Armor = 6;
                     passThrough = 0.5;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -592,14 +592,14 @@ class CfgWeapons {
             mass = 20;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    Armor=6;
+                    hitpointName ="HitHead";
+                    Armor = 6;
                     passThrough = 0.5;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -614,14 +614,14 @@ class CfgWeapons {
             mass = 20;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    Armor=6;
+                    hitpointName ="HitHead";
+                    Armor = 6;
                     passThrough = 0.5;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -633,14 +633,14 @@ class CfgWeapons {
             mass = 20;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    Armor=6;
+                    hitpointName ="HitHead";
+                    Armor = 6;
                     passThrough = 0.5;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -652,14 +652,14 @@ class CfgWeapons {
             mass = 20;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    Armor=6;
+                    hitpointName ="HitHead";
+                    Armor = 6;
                     passThrough = 0.5;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -671,14 +671,14 @@ class CfgWeapons {
             mass = 5;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitHead";
+                    armor = 0;
+                    passThrough = 1;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -690,14 +690,14 @@ class CfgWeapons {
             mass = 5;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitHead";
+                    armor = 0;
+                    passThrough = 1;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };
@@ -709,14 +709,14 @@ class CfgWeapons {
             mass = 25;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    Armor=8;
+                    hitpointName ="HitHead";
+                    Armor = 8;
                     passThrough = 0.5;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=8;
-                    passThrough=0.5;
+                    hitpointName ="HitFace";
+                    armor = 8;
+                    passThrough = 0.5;
                 };
             };
         };
@@ -728,14 +728,14 @@ class CfgWeapons {
             mass = 25;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    Armor=8;
+                    hitpointName ="HitHead";
+                    Armor = 8;
                     passThrough = 0.5;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=8;
-                    passThrough=0.5;
+                    hitpointName ="HitFace";
+                    armor = 8;
+                    passThrough = 0.5;
                 };
             };
         };
@@ -747,14 +747,14 @@ class CfgWeapons {
             mass = 15;
             class HitpointsProtectionInfo {
                 class Head {
-                    hitpointName="HitHead";
-                    Armor=4;
+                    hitpointName ="HitHead";
+                    Armor = 4;
                     passThrough = 0.5;
                 };
                 class Face {
-                    hitpointName="HitFace";
-                    armor=0;
-                    passThrough=1;
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
                 };
             };
         };

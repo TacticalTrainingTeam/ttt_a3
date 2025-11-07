@@ -1,4 +1,4 @@
-#define SUBCOMPONENT usaf
-#define SUBCOMPONENT_BEAUTIFIED USAF
+#define SUBCOMPONENT gref
+#define SUBCOMPONENT_BEAUTIFIED GREF
 
 #include "..\script_component.hpp"
