@@ -1,4 +1,4 @@
-class cfgVehicles {
+class CfgVehicles {
     class B_AssaultPack_Base;
     class B_AssaultPack_rgr;
     class B_Carryall_cbr;
