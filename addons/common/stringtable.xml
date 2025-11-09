@@ -9,46 +9,6 @@
             <English>OCS</English>
             <German>BV</German>
         </Key>
-        <Key ID="STR_ttt_Common_CM">
-            <English>Combat Medic</English>
-            <German>Combat Medic</German>
-        </Key>
-        <Key ID="STR_ttt_Common_CO">
-            <English>Commanding Officer</English>
-            <German>Kompaniechef</German>
-        </Key>
-        <Key ID="STR_ttt_Common_CrewTL">
-            <English>Crew Commander</English>
-            <German>Fahrzeugkommandant</German>
-        </Key>
-        <Key ID="STR_ttt_Common_Doc">
-            <English>Doctor</English>
-            <German>Arzt</German>
-        </Key>
-        <Key ID="STR_ttt_Common_EODTL">
-            <English>EOD Team Leader</English>
-            <German>EOD Truppführer</German>
-        </Key>
-        <Key ID="STR_ttt_Common_EODunit">
-            <English>EOD Technician</English>
-            <German>EOD Spezialist</German>
-        </Key>
-        <Key ID="STR_ttt_Common_EngTL">
-            <English>Engineer Team Leader</English>
-            <German>Pionier Truppführer</German>
-        </Key>
-        <Key ID="STR_ttt_Common_FO">
-            <English>Forward Observer</English>
-            <German>Vorgeschobener Beobachter</German>
-        </Key>
-        <Key ID="STR_ttt_Common_JTAC">
-            <English>Joint-Terminal-Attack-Controller</English>
-            <German>Fliegerleitoffizier</German>
-        </Key>
-        <Key ID="STR_ttt_Common_LogTL">
-            <English>Logistics Team Leader</English>
-            <German>Logistik Truppführer</German>
-        </Key>
         <Key ID="STR_ttt_Common_RackA">
             <English>Radio Circuit A</English>
             <German>Funkkreis A</German>
@@ -72,14 +32,6 @@
         <Key ID="STR_ttt_Common_RackCShort">
             <English>Circuit C</English>
             <German>Krs C</German>
-        </Key>
-        <Key ID="STR_ttt_Common_RadioOperator">
-            <English>Radio Operator</English>
-            <German>Funker</German>
-        </Key>
-        <Key ID="STR_ttt_Common_XO">
-            <English>Executive Officer</English>
-            <German>Kompanieeinsatzoffizier</German>
         </Key>
         <Key ID="STR_ttt_Common_eod">
             <English>TTT EOD Crate (EOD)</English>

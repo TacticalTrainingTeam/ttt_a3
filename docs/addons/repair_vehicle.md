@@ -22,7 +22,7 @@ Jedes zugelassene Fahrzeug welches derzeit keine Einrichtung transportiert, kann
 ``` cpp
 force ttt_repair_vehicle_enable = true;                                   //default: false;
 force ttt_repair_vehicle_supportedvehicles ='["B_Truck_01_Repair_F"]';    //default: [];
-force ttt_repair_vehicle_facitlityObject = "Land_RepairDepot_01_green_F"; //default: "Land_RepairDepot_01_green_F";
+force ttt_repair_vehicle_facilityObject = "Land_RepairDepot_01_green_F"; //default: "Land_RepairDepot_01_green_F";
 force ttt_repair_vehicle_buildTime = 4;                                   //default: 30;
 force ttt_repair_vehicle_useAnimation = true;                             //default: true;
 force ttt_repair_vehicle_buildAnimation = "Acts_carFixingWheel";          //default: "Acts_carFixingWheel";

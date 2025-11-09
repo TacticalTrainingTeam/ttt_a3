@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /*
 * Author: EinStein
-* 
+*
 * Arguments:
 * 0: Player <OBJECT>
 * 1: Player <OBJECT>
@@ -16,7 +16,7 @@
 params ["_target"];
 
 private _position = (_target getPos [8, getDir _target]) findEmptyPosition [1, 2, "Tank"];
-_plane = createVehicle [(GVAR(facitlityObject)), _position, [], 0, "CAN_COLLIDE"];
+_plane = createVehicle [(GVAR(facilityObject)), _position, [], 0, "CAN_COLLIDE"];
 _plane setDir (getDir _target);
 
 _plane setVariable ["ace_medical_isMedicalFacility", true, true];
@@ -34,4 +34,4 @@ private _arrayItems = nearestObjects [(getPos _plane), (parseSimpleArray GVAR(ad
 } forEach allCurators;
 
 _target switchMove "";
-INFO_3("Medical backpack item %1 was created at %2 by %3", _plane, _position, _target);
+INFO_3("Medical backpack item %1 was created at %2 by %3",_plane,_position,_target);

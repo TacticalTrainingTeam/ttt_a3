@@ -148,14 +148,11 @@ class CfgVehicles {
         };
     };
 
-    class CUP_Boxer_Base: Wheeled_APC_F {
-        class AnimationSources;
-    };
+    class CUP_Boxer_Base: Wheeled_APC_F {};
 
     class CUP_Boxer_Base_Empty;
 
     class CUP_Boxer_Base_HMG: CUP_Boxer_Base {
-        class CargoTurret;
         class Turrets {
             class MainTurret: NewTurret {
                 weapons[] = {"CUP_Vhmg_M2_veh","SmokeLauncher"};
@@ -196,8 +193,6 @@ class CfgVehicles {
     };
 
     class CUP_Boxer_Base_GMG: CUP_Boxer_Base_HMG {
-    
-        class CargoTurret;
         class Turrets {
             class MainTurret: NewTurret {
                 weapons[] = {"CUP_Vgmg_HKGMG_veh","SmokeLauncher"}; // added smoke launcher
@@ -664,4 +659,3 @@ class CfgVehicles {
         };
     };
 };
-

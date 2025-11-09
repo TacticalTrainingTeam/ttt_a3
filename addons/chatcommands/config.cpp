@@ -11,6 +11,7 @@ class CfgPatches {
         authors[] = {"Andx","BlauBaer"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
+        skipWhenMissingDependencies = 1;
     };
 };
 
