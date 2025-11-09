@@ -24,7 +24,7 @@ INFO("Updating Discord Rich Presence");
     ["UpdateDetails", [getText (missionConfigFile >> "onLoadName"), "on", getText (configFile >> "CfgWorlds" >> worldName >> "description")] joinString " "],
     ["UpdateState", serverName],
     ["UpdatePartySize", count playableUnits],
-    ["UpdatePartyMax", getNumber (missionConfigFile >> "Header" >> "maxPlayers")]
+    ["UpdatePartyMax", getNumber (missionConfigFile >> "Header" >> "maxPlayers") - 1] //minus 1 for HC
 ] call (missionNamespace getVariable ["discordrichpresence_fnc_update", {}]);
 
 // Call this function again after 10 Minutes
