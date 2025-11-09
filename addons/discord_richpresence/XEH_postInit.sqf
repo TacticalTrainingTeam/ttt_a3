@@ -4,7 +4,7 @@ if (hasInterface) then {
     [
         {
             // start the update Loop
-            call FUNC(updateRichPresence);
+            call FUNC(initLoop);
         },
         [],
         1
