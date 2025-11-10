@@ -89,7 +89,6 @@ extra:
 plugins:
 - privacy
 - search
-- tags
 
 markdown_extensions:
 - tables
@@ -136,7 +135,6 @@ nav:
 - Startseite:
   - index.md
   - Beitragen: contribute.md
-  - Tags: tags.md
 - Addons - Allgemein:
   - Main: addons/main.md
   - Spotlight CUP: addons/spotlight_cup.md
