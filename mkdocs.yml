@@ -60,6 +60,7 @@ theme:
   - navigation.top
   - navigation.path
   - navigation.indexes
+  - navigation.sections
 
   - search.suggest
   - search.highlight
@@ -110,8 +111,8 @@ markdown_extensions:
 - pymdownx.caret
 - pymdownx.details
 - pymdownx.emoji:
-    emoji_index: !!python/name:material.extensions.emoji.twemoji
-    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    emoji_index: !!python/name:material.extensions.emoji.twemoji ""
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg ""
 - pymdownx.highlight:
     use_pygments: true
     linenums: true
@@ -178,7 +179,6 @@ nav:
   - Compat 3CB Factions: addons/compat_3cb_factions.md
   - Compat 3CB Vehicles: addons/compat_3cb_vehicles.md
   - Compat BWA3: addons/compat_bwa3.md
-  - Compat CUP Units: addons/compat_cup_units.md
   - Compat CUP Vehicles: addons/compat_cup_vehicles.md
   - Compat RHS: addons/compat_rhs.md
   - Compat RNT: addons/compat_rnt.md

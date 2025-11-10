@@ -1,9 +1,3 @@
----
-tags:
-  - Feature
-  - Gruppe W
----
-
 # W-Shields
 
 ## Buildingsshield

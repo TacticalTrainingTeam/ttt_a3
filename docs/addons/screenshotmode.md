@@ -1,9 +1,3 @@
----
-tags:
-  - Feature
-  - User
----
-
 # Screenshotmodus
 
 Mit ++ctrl+f12++ könnt ihr das Ingame-UI ausblenden.

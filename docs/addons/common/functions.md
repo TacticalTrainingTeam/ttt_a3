@@ -1,8 +1,3 @@
----
-tags:
-  - Funktionen
----
-
 Stellt die folgenden Funktionen zur Verfügung:
 
 ### `ttt_common_fnc_crateFiller`

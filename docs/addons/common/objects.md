@@ -1,8 +1,3 @@
----
-tags:
-  - Objekte
----
-
 Stellt die folgenden nützlichen Dinge zur Verfügung:
 
 ## Bilder

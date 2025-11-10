@@ -1,8 +1,3 @@
----
-tags:
-  - Feature
----
-
 # Konterartillerie
 
 Lässt feindliche Artillerie auf das Feuer der eigenen Artillerie reagieren.
