@@ -13,5 +13,13 @@
             <English>Discord Rich Presence</English>
             <German>Discord Rich Presence</German>
         </Key>
+        <Key ID="STR_ttt_Discord_Richpresence_on">
+            <English>on</English>
+            <German>auf</German>
+        </Key>
+        <Key ID="STR_ttt_Discord_Richpresence_as">
+            <English>as</English>
+            <German>als</German>
+        </Key>
     </Package>
 </Project>
