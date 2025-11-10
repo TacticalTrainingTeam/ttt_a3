@@ -1,9 +1,3 @@
----
-tags:
-  - Kompatibilität
-  - RHS
----
-
 # Compat RHS
 
 Enthält Configfixes und einige Funktionen für RHS.
