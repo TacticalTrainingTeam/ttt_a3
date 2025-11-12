@@ -42,7 +42,7 @@ class CfgVehicles {
                 author = "V1irus";
                 factions[] = {"BLU_F"};
                 textures[] = {
-                    QPATHTOF(retex_bwa3\data\eagle\bwa3_eagle_co.paa),
+                    QPATHTOF(rsr_retex_bwa3\data\eagle\bwa3_eagle_fleck_co.paa),
                     "\bwa3_eagle\data\bwa3_eagle_fahrwerk_co.paa",
                     "\bwa3_eagle\data\bwa3_eagle_int_co.paa",
                     "\bwa3_eagle\data\bwa3_eagle_alpha_co.paa",
