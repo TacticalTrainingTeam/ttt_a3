@@ -48,7 +48,7 @@ SA_Find_Surface_ASL_Under_Model(_object,_modelOffset,_returnSurfaceAGL,_canFloat
 _returnSurfaceAGL = ASLtoAGL _returnSurfaceAGL;
 
 #define SA_Get_Cargo(_vehicle,_cargo) \
-if(ropeAttachedObjects _currentVehicle isEqualTo []) then { \
+if(ropeAttachedObjects _vehicle isEqualTo []) then { \
     _cargo = objNull; \
 } else { \
     _cargo = ((ropeAttachedObjects _vehicle) select 0) getVariable ["SA_Cargo", objNull]; \
