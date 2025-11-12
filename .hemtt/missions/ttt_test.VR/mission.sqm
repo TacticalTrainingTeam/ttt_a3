@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1;
+	toggles=1025;
 	class ItemIDProvider
 	{
-		nextID=166;
+		nextID=167;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5936.7441,7.6433673,4801.0391};
-		dir[]={-0.89370924,-0.33833593,0.29490581};
-		up[]={-0.32131693,0.94100124,0.10602826};
-		aside[]={0.31338173,-1.6821286e-07,0.94969994};
+		pos[]={5882.7285,48.897839,4783.3267};
+		dir[]={0.59374666,-0.8020888,0.064567067};
+		up[]={0.79740709,0.59717423,0.086714402};
+		aside[]={0.10811035,-2.5290319e-07,-0.99416447};
 	};
 };
 binarizationWanted=0;
@@ -44,13 +44,14 @@ addons[]=
 	"ace_vehicle_damage",
 	"acre_sys_intercom",
 	"A3_Structures_F_Civ_Camping",
-	"ace_dragging"
+	"ace_dragging",
+	"ttt_surrender"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=17;
+		items=19;
 		class Item0
 		{
 			className="A3_Soft_F_Gamma";
@@ -177,6 +178,13 @@ class AddonsMetaData
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
+		class Item18
+		{
+			className="ttt_surrender";
+			name="TTT - Kapitulationsmodul";
+			author="Tactical Training Team";
+			url="https://tacticalteam.de";
+		};
 	};
 };
 dlcs[]=
@@ -232,7 +240,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=68;
+		items=69;
 		class Item0
 		{
 			dataType="Object";
@@ -1657,6 +1665,62 @@ class Mission
 			};
 			id=139;
 			type="EmptyDetectorAreaR50";
+		};
+		class Item68
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={5920,5,4785};
+			};
+			areaSize[]={25,0,5};
+			areaIsRectangle=1;
+			flags=1;
+			id=166;
+			type="ttt_surrender_initSurrenderModule";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ttt_surrender_surrenderModule_probability";
+					expression="_this setVariable ['ttt_surrender_surrenderModule_probability',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=50;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ttt_surrender_surrenderModule_unitCount";
+					expression="_this setVariable ['ttt_surrender_surrenderModule_unitCount',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=5;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ttt_surrender_surrenderModule_side";
+					expression="_this setVariable ['ttt_surrender_surrenderModule_side',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=1;
+						};
+					};
+				};
+				nAttributes=3;
+			};
 		};
 	};
 };
