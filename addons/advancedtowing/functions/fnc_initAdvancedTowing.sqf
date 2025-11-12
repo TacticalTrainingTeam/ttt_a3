@@ -48,10 +48,10 @@ SA_Find_Surface_ASL_Under_Model(_object,_modelOffset,_returnSurfaceAGL,_canFloat
 _returnSurfaceAGL = ASLtoAGL _returnSurfaceAGL;
 
 #define SA_Get_Cargo(_vehicle,_cargo) \
-if( count (ropeAttachedObjects _vehicle) == 0 ) then { \
+if(ropeAttachedObjects _currentVehicle isEqualTo []) then { \
     _cargo = objNull; \
 } else { \
-    _cargo = ((ropeAttachedObjects _vehicle) select 0) getVariable ["SA_Cargo",objNull]; \
+    _cargo = ((ropeAttachedObjects _vehicle) select 0) getVariable ["SA_Cargo", objNull]; \
 };
 
 SA_Advanced_Towing_Install = {
