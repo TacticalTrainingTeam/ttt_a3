@@ -1,0 +1,26 @@
+#include "..\script_component.hpp"
+/*
+ * Authors: You
+ * Description.
+ *
+ * Arguments:
+ * 0: Argument (optional, default: value) <OBJECT>
+ *
+ * Return Value:
+ * Return description <NONE>
+ *
+ * Example:
+ * [params] call PREFIX_advancedtowing_fnc_getCargo
+ *
+ * Public: No
+ */
+
+params ["_vehicle"];
+
+private _cargo = objNull;
+
+if( ropeAttachedObjects _vehicle isNotEqualTo [] ) then {
+    _cargo = ((ropeAttachedObjects _vehicle) select 0) getVariable [QGVAR(Cargo), objNull];
+};
+
+_cargo
