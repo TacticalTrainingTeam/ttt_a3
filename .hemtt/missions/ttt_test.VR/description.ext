@@ -1,12 +1,11 @@
 OnLoadName = "TTT Testmission";
 OnLoadMission = "Test Hard, Play Smart";
-author="Tactical Training Team";
+author = "Tactical Training Team";
 
-class Header
-{
+class Header {
     gameType = "coop";
     minPlayers = "1";
-    maxPlayers = "5";
+    maxPlayers = "4";
 };
 
 respawn = 3;
