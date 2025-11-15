@@ -26,5 +26,5 @@ params [];
         call FUNC(initSave);
     },
     [],
-    600
+    TIME_SAVE_INTERVAL
 ] call CBA_fnc_waitAndExecute;
