@@ -1,9 +1,3 @@
----
-tags:
-  - Kompatibilität
-  - 3CB
----
-
 # Compat 3CB
 
 ## Land Rover

@@ -1,9 +1,3 @@
----
-tags:
-  - Objekte
-  - TTT Original
----
-
 # Schilder
 
 Enthält Flaggen und Schilder in TTT Farben.
