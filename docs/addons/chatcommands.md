@@ -4,10 +4,6 @@ Stellt Chat Befehle zur Verfügung um im Notfall die Mission zu beenden oder ein
 
 Andere Spieler sehen die Eingabe des Befehls nicht.
 
-## Zeus
-
-`#zeus` macht einen Selber zum Zeus
-
 ## Mission beenden
 
 `#endmission` / `#failmission` Beendet die Mission als Erfolg bzw. Fehlschlag.

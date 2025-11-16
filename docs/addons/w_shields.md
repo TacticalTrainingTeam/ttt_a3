@@ -45,11 +45,15 @@ Argumente:
 | 0        | Ziel auf das das Schild angwandt werden soll                  | OBJECT  | Nein                         |
 | 1        | Vehindere Treibstoffverlust durch Schaden?                    | BOOLEAN | Ja (default: `false`)        |
 | 2        | Vehindere das Haupt- bzw. Heckrotor zerstört wird?            | BOOLEAN | Ja (default: `[true, true]`) |
-| 3        | Zerstöre den Motor wenn der Hüllenschaden ausgeschöpft ist?   | BOOLEAN | Ja (default: `false`) |
+| 3        | Zerstöre den Motor wenn der Hüllenschaden ausgeschöpft ist?   | BOOLEAN | Ja (default: `false`)        |
+
+Rückgabe-Wert:
+
+Keiner
 
 ## Events
 
-| Eventname                                   | Beschreibung                                                      | Paramter                                  | Lokalität |
+| Eventname                                   | Beschreibung                                                      | Parameter                                 | Lokalität |
 | ------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------- | --------- |
 | `ttt_w_shields_API_buildingShieldTriggered` | Gebäude hat Schaden genommen, aber das Shield hat ihn verhindert  | `_unit, _source, _instigator, _directHit` | lokal     |
 | `ttt_w_shields_API_vehicleShieldTriggered`  | Fahrzeug hat Schaden genommen, aber das Shield hat ihn verhindert | `_unit, _source, _instigator`             | lokal     |

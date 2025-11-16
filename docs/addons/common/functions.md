@@ -20,7 +20,7 @@ Stellt die folgenden Funktionen zur Verfügung:
 - **count:**  INTEGER - Anzahl der hinzuzufügenden Inventargegenstände
 - **clear:** BOOLEAN (Optional, default: true) - Vorherigen Inventarinhalt des Objektes leeren
 
-Kann in der `initServer.sqf` oder während der Mission auf dem Server aufgerufen werden.
+Kann in der `initServer.cpp` oder während der Mission auf dem Server aufgerufen werden.
 
 #### Beispiel
 
@@ -48,7 +48,7 @@ Kann in der `initServer.sqf` oder während der Mission auf dem Server aufgerufen
 - **titel:** STRING - Intelüberschrift auf der Kartenansicht
 - **text:** STRING - Intelinhalt der unter der Überschrift steht (Der Text unterstüzt HTML-Syntax für z.B. Bilder)
 
-In der `initPlayerLocal.sqf` ausführen.
+In der `initPlayerLocal.cpp` ausführen.
 
 #### Beispiel
 

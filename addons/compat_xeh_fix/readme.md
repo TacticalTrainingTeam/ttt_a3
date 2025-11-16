@@ -4,7 +4,7 @@ Behebt `18:07:28 [CBA] (xeh) WARNING: FIR_Aegis_Radar_Base does not support Exte
 
 ## Quellen
 
-<https://github.com/BourbonWarfare/POTATO/blob/master/addons/miscFixes/dev_xehFix.sqf>
+<https://github.com/BourbonWarfare/POTATO/blob/master/addons/miscFixes/dev_xehFix.cpp>
 
 ## Maintainer
 

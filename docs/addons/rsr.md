@@ -4,11 +4,21 @@ Stellt Basisfunktionen bereit für alle RsR Mods.
 
 ## `ttt_rsr_fnc_removeTurretWeapon`
 
-Entfernt den Turm und sperrt den Schützenplatz. Gedacht für den Bergepanzer.
+Entfernt den Turm und sperrt den Schützenplatz. Gedacht für den Bergepanzer. Muss in der Init des Fahrzeuges ausgeführt werden.
 
-`[fhz] call ttt_rsr_fnc_removeTurretWeapon;`
+```c++
+[fhz] call ttt_rsr_fnc_removeTurretWeapon;
+```
 
-Muss in der Init des Fahrzeuges ausgeführt werden.
+Argumente:
+
+| Position | Argument                                  | Typ     | Optional? |
+| -------- | ----------------------------------------- | ------- | --------- |
+| 0        | Fahrzeug dessen Turm gesperrt werden soll | OBJECT  | Nein      |
+
+Rückgabe-Wert:
+
+Keiner
 
 ## Fahrzeuge
 

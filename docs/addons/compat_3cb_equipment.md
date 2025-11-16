@@ -1,5 +1,7 @@
 # Compat 3CB Equipment
 
+Fügt einigen Rucksäcken eine Klappspaten `ACE_EntrenchingTool` bzw. Drahtschneiderfunktion `ACE_Wirecutter` hinzu.
+
 ## ALICE Pack Olive
 
 Behebt einen Configfehler in 3CB Equipment in dem die Objekte versteckt werden und das fehlende Anzeigebild ausgeblendet wird:

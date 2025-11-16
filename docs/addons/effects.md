@@ -8,7 +8,7 @@ Vor den Mündern aller bestehenden Einheiten entstehet ein Effekt, welcher feuch
 Die Funktion muss lokal von jedem Spieler ausgeführt werden.
 Dazu bietet sich neben dem 3DEN-Editor-Modul die `initPlayerLocal.sqf` an:
 
-``` cpp
+```c++
 _breathParticle = [] call ttt_effects_fnc_condensedBreathInit;
 ```
 
@@ -23,9 +23,9 @@ Return Value:
 Dem Spieler wird die Sicht eingeschränkt, Sturmgeräusche abgespielt und gelegentlich die Kamera verwackelt. Um ihn herum werden Partikel erstellt, die ihn zusätzlich stark an der Sicht hindern.
 Standardmäßig ist es einem Infanteristen nur noch möglich zu gehen, nicht schneller. Es ist einstellbar, ob gelegentlich Objekte wie Fahrzeuge oder Spieler vom Wind leicht bewegt werden sollen.
 Im Gegenzug wird die bereits existierende KI vorübergehend um 75 % in den Fähigkeiten "aimingAccuracy", "aimingShake", "aimingSpeed" und "spotDistance" verschlechtert.
-Die Funktion muss serverseitig, wie z.B. durch einen eingestellten Trigger, durch die `initServer.sqf` oder das 3DEN-Editor-Modul (Triggersynchronisation möglich) aufgerufen werden. Es kann nur ein Sturm gleichzeitig aktiv sein.
+Die Funktion muss serverseitig, wie z.B. durch einen eingestellten Trigger, durch die `initServer.cpp` oder das 3DEN-Editor-Modul (Triggersynchronisation möglich) aufgerufen werden. Es kann nur ein Sturm gleichzeitig aktiv sein.
 
-``` cpp
+```c++
 _return = [duration, effect, stormType, walk, direction] call ttt_effects_fnc_stormInit;
 ```
 

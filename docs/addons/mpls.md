@@ -4,11 +4,29 @@ Das MPLS speichert alle 10 Minuten, beim Respawn und beim Disconnect das aktuell
 
 ## `ttt_mpls_fnc_saveLoadout`
 
-``` cpp
+Ermöglicht ein manuelles speichern des aktuellen Loadouts.
+
+```c++
 [player, getPlayerUID player] call ttt_mpls_fnc_saveLoadout;
 ```
 
-Ermöglicht ein manuelles speichern des aktuellen Loadouts.
+Argumente:
+
+| Position | Argument                                       | Typ    | Optional? |
+| -------- | ---------------------------------------------- | ------ | --------- |
+| 0        | Spieler dessen loadout gespeichert werden soll | OBJECT | Nein      |
+| 1        | UID des Spielers                               | STRING | ja        |
+
+Rückgabe-Wert:
+
+Erfolg - BOOLEAN
+
+## Events
+
+| Eventname                       | Beschreibung                             | Parameter                           | Lokalität |
+| --------------------------------| -----------------------------------------| ----------------------------------- | --------- |
+| `ttt_mpls_API_loadoutApplied`   | Loadout wurde einem Spieler zugewiesen   | `_player, _newLoadout, _oldLoadout` | lokal     |
+| `ttt_mpls_API_API_loadoutSaved` | Loadout eines Spielers wurde gespeichert | `_player, _loadout`                 | lokal     |
 
 ## Maintainer
 
