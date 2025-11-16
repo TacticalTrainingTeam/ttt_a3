@@ -4,7 +4,7 @@ Stellt die folgenden Funktionen zur Verfügung:
 
 (ehem. r_crate)
 
-``` cpp
+```c++
 [
     [container],
     [
@@ -20,11 +20,11 @@ Stellt die folgenden Funktionen zur Verfügung:
 - **count:**  INTEGER - Anzahl der hinzuzufügenden Inventargegenstände
 - **clear:** BOOLEAN (Optional, default: true) - Vorherigen Inventarinhalt des Objektes leeren
 
-Kann in der `initServer.cpp` oder während der Mission auf dem Server aufgerufen werden.
+Kann in der `initServer.sqf` oder während der Mission auf dem Server aufgerufen werden.
 
 #### Beispiel
 
-``` cpp
+```c++
 [
     [fahrzeug_01, fahrzeug_03],
     [
@@ -38,7 +38,7 @@ Kann in der `initServer.cpp` oder während der Mission auf dem Server aufgerufen
 
 ### `ttt_common_fnc_addIntel`
 
-``` cpp
+```c++
 [intel, action, hide, [titel, text]] call ttt_common_fnc_addIntel;
 ```
 
@@ -48,11 +48,11 @@ Kann in der `initServer.cpp` oder während der Mission auf dem Server aufgerufen
 - **titel:** STRING - Intelüberschrift auf der Kartenansicht
 - **text:** STRING - Intelinhalt der unter der Überschrift steht (Der Text unterstüzt HTML-Syntax für z.B. Bilder)
 
-In der `initPlayerLocal.cpp` ausführen.
+In der `initPlayerLocal.sqf` ausführen.
 
 #### Beispiel
 
-``` cpp
+```c++
 [intel_01, "Lagekarte des Gegners untersuchen", false, ["gefundene Karte", "<img image='pictures\Karte_v3.paa' width=370 height=370/>"]] call ttt_common_fnc_addIntel;
 [intel_02, "Dokumente nehmen", true, ["eingesammeltes Dokument", "Hier stehen wichtige Informationen"]] call ttt_common_fnc_addIntel;
 ```
@@ -63,7 +63,7 @@ Diese Funktion erstellt Verstärkungstruppen mit einem Fahrzeug und sendet diese
 Sollte die Mod [LAMBS DANGER](https://steamcommunity.com/workshop/filedetails/?id=1858075458) aktiv sein, werden alle möglichen Wegpunkte durch das LAMBS-Äquivalent ersetzt.
 Sollte die Mod [ZEN Add](https://steamcommunity.com/sharedfiles/filedetails/?id=2319721149) nicht aktiv sein, werden Helikopter keine Fastrope oder Fallschirmsprünge durchführen, sondern immer landen.
 
-``` cpp
+```c++
 [spawnPos, releasePos, attackPos, side, vehicle, rpBehaviour, infantry, groupBehaviour, flyHeight] call ttt_common_fnc_callReinforcements;
 ```
 
@@ -87,7 +87,7 @@ Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 
 #### Beispiele
 
-``` cpp
+```c++
 [l_sp_1, l_rp_1, l_at_1, EAST, "O_APC_Wheeled_02_rcws_v2_F"] call ttt_common_fnc_callReinforcements;
 [[300.51, 5151.98, 806.54], releasepunkt_2, oplSpieler, WEST, "rsr_bergepanzer_flecktarn", 2] call ttt_common_fnc_callReinforcements;
 [l_sp_1, l_rp_1, l_at_1, EAST, "O_Heli_Light_02_dynamicLoadout_F", 2, ["O_Soldier_SL_F","O_Soldier_TL_F","O_Soldier_F","O_Soldier_F"]] call ttt_common_fnc_callReinforcements;
@@ -97,7 +97,7 @@ Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 
 ### `ttt_common_fnc_doFlakFire`
 
-``` cpp
+```c++
 handle = [object] call ttt_common_fnc_doFlakFire;
 ```
 
@@ -108,25 +108,25 @@ Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 
 `handle_01` ist ein Identifikator mit dem die Funktion wieder beendet werden kann, indem der Per-Frame-Handler entfernt wird. Um das Flakfeuer wieder zu beenden, in einen weiteren Trigger folgendes in die Aktivierung schreiben:
 
-``` cpp
+```c++
 [handle_01] call CBA_fnc_removePerFrameHandler;
 ```
 
 #### Beispiel
 
-``` cpp
+```c++
 handle_01 = [flak_01] call ttt_common_fnc_doFlakFire;
 ```
 
 ### `ttt_common_fnc_setAISkill`
 
-``` cpp
+```c++
 [unit, general, courage, aimingAccuracy, aimingShake, aimingSpeed, commanding, spotDistance, spotTime, reloadSpeed] call ttt_common_fnc_setAISkill;
 ```
 
 Wenn nur die `unit` angegeben wird, werden die Default Werte genutzt:
 
-``` cpp
+```c++
 ["_general",        0.75, [0.0]],
 ["_courage",        0.75, [0.0]],
 ["_aimingAccuracy", 0.65, [0.0]],
@@ -140,14 +140,14 @@ Wenn nur die `unit` angegeben wird, werden die Default Werte genutzt:
 
 #### Beispiel
 
-``` cpp
+```c++
 //Make a rookie
 [ai_01, 0.45, 0.45, 0.25, 0.25, 0.25, 0.45, 0.45, 0.45, 0.45] call ttt_common_fnc_setAISkill;
 ```
 
 ### `ttt_common_fnc_setAISkillLevel`
 
-``` cpp
+```c++
 [unit, "Skill-Level"] call ttt_fnc_common_setAISkillLevel;
 ```
 
@@ -163,7 +163,7 @@ Bei fehlender oder falscher Angabe wird "Veteran" ausgewählt. Die Werte innerha
 
 #### Beispiele
 
-``` cpp
+```c++
 [ai_01, "Recruit"] call ttt_common_fnc_setAISkillLevel;
 [_x, "Veteran"] call ttt_common_fnc_setAISkillLevel;
 ```
