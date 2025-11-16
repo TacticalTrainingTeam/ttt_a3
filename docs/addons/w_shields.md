@@ -55,8 +55,8 @@ Keiner
 
 | Eventname                                   | Beschreibung                                                      | Parameter                                 | Lokalität |
 | ------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------- | --------- |
-| `ttt_w_shields_API_buildingShieldTriggered` | Gebäude hat Schaden genommen, aber das Shield hat ihn verhindert  | `_unit, _source, _instigator, _directHit` | lokal     |
-| `ttt_w_shields_API_vehicleShieldTriggered`  | Fahrzeug hat Schaden genommen, aber das Shield hat ihn verhindert | `_unit, _source, _instigator`             | lokal     |
+| `ttt_w_shields_API_buildingShieldTriggered` | Gebäude hat Schaden genommen, aber das Schild hat ihn verhindert  | `_unit, _source, _instigator, _directHit` | lokal     |
+| `ttt_w_shields_API_vehicleShieldTriggered`  | Fahrzeug hat Schaden genommen, aber das Schild hat ihn verhindert | `_unit, _source, _instigator`             | lokal     |
 
 ## Maintainer
 
