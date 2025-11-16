@@ -26,7 +26,7 @@ Erfolg - BOOLEAN
 | Eventname                       | Beschreibung                             | Parameter                           | Lokalität |
 | --------------------------------| -----------------------------------------| ----------------------------------- | --------- |
 | `ttt_mpls_API_loadoutApplied`   | Loadout wurde einem Spieler zugewiesen   | `_player, _newLoadout, _oldLoadout` | lokal     |
-| `ttt_mpls_API_API_loadoutSaved` | Loadout eines Spielers wurde gespeichert | `_player, _loadout`                 | lokal     |
+| `ttt_mpls_API_loadoutSaved`     | Loadout eines Spielers wurde gespeichert | `_player, _loadout`                 | lokal     |
 
 ## Maintainer
 
