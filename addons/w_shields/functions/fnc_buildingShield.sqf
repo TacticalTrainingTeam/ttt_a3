@@ -29,8 +29,7 @@ if (isNull _target) exitWith { ["Kein Objekt übergeben."] call BIS_fnc_error };
 _target addEventHandler [
     "HandleDamage",
     {
-        private _selection = param [1];
-        private _hitPoint = param [7];
+        params ["_unit", "_selection", "_damage", "_source", "_projectile", "_hitPartIndex", "_instigator", "_hitPoint", "_directHit", "_context"];
 
         if (
             ("glass" in _selection) || {
@@ -41,7 +40,7 @@ _target addEventHandler [
             }
         ) exitWith {};
 
-        [QGVAR(API_buildingShieldTriggered), [_target]] call CBA_fnc_localEvent;
+        [QGVAR(API_buildingShieldTriggered), [_unit, _source, _instigator, _directHit]] call CBA_fnc_localEvent;
 
         0
     }
