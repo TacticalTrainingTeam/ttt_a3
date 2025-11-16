@@ -4,6 +4,8 @@ Stellt die folgenden Funktionen zur Verfügung:
 
 (ehem. r_crate)
 
+In der `initServer.sqf` oder während der Mission auf dem Server ausführen.
+
 ```c++
 [
     [container],
@@ -15,12 +17,18 @@ Stellt die folgenden Funktionen zur Verfügung:
 ] call ttt_common_fnc_crateFiller;
 ```
 
-- **container:** OBJECT - Objekte denen der Cargoinhalt hinzugefügt werden soll
-- **item:** STRING - Inventargegenstand welcher hinzugefügt werden soll
-- **count:**  INTEGER - Anzahl der hinzuzufügenden Inventargegenstände
-- **clear:** BOOLEAN (Optional, default: true) - Vorherigen Inventarinhalt des Objektes leeren
+Argumente:
 
-Kann in der `initServer.sqf` oder während der Mission auf dem Server aufgerufen werden.
+| Parameter | Typ | Beschreibung | Optional | Default |
+| - | - | - | - | - |
+| container | OBJECT | Objekte denen der Cargoinhalt hinzugefügt werden soll | Nein | - |
+| item | STRING | Inventargegenstand welcher hinzugefügt werden soll | Nein | - |
+| count | INTEGER | Anzahl der hinzuzufügenden Inventargegenstände | Nein | - |
+| clear | BOOLEAN | Vorherigen Inventarinhalt des Objektes leeren | Ja | true |
+
+Rückgabewert:
+
+Keiner
 
 #### Beispiel
 
@@ -38,17 +46,25 @@ Kann in der `initServer.sqf` oder während der Mission auf dem Server aufgerufen
 
 ### `ttt_common_fnc_addIntel`
 
+In der `initPlayerLocal.sqf` ausführen.
+
 ```c++
 [intel, action, hide, [titel, text]] call ttt_common_fnc_addIntel;
 ```
 
-- **intel:** OBJECT - Das interagierbare Objekt
-- **action:** STRING - Actiontitel der als Interaktion gezeigt wird
-- **hide:** BOOLEAN - Objekt nach Interaktion ausblenden
-- **titel:** STRING - Intelüberschrift auf der Kartenansicht
-- **text:** STRING - Intelinhalt der unter der Überschrift steht (Der Text unterstüzt HTML-Syntax für z.B. Bilder)
+Argumente:
 
-In der `initPlayerLocal.sqf` ausführen.
+| Parameter | Typ | Beschreibung | Optional | Default |
+| - | - | - | - | - |
+| intel | OBJECT | Das interagierbare Objekt | Nein | - |
+| action | STRING | Actiontitel der als Interaktion gezeigt wird | Nein | - |
+| hide | BOOLEAN | Objekt nach Interaktion ausblenden | Nein | - |
+| titel | STRING | Intelüberschrift auf der Kartenansicht | Nein | - |
+| text | STRING | Intelinhalt der unter der Überschrift steht (Der Text unterstützt HTML-Syntax für z.B. Bilder) | Nein | - |
+
+Rückgabewert:
+
+Keiner
 
 #### Beispiel
 
@@ -63,27 +79,35 @@ Diese Funktion erstellt Verstärkungstruppen mit einem Fahrzeug und sendet diese
 Sollte die Mod [LAMBS DANGER](https://steamcommunity.com/workshop/filedetails/?id=1858075458) aktiv sein, werden alle möglichen Wegpunkte durch das LAMBS-Äquivalent ersetzt.
 Sollte die Mod [ZEN Add](https://steamcommunity.com/sharedfiles/filedetails/?id=2319721149) nicht aktiv sein, werden Helikopter keine Fastrope oder Fallschirmsprünge durchführen, sondern immer landen.
 
+Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
+
 ```c++
 [spawnPos, releasePos, attackPos, side, vehicle, rpBehaviour, infantry, groupBehaviour, flyHeight] call ttt_common_fnc_callReinforcements;
 ```
-
-- **spawnPos**:  OBJECT or ARRAY format Position - Wo wird die Verstärkung mit Fahrzeug erstellt, wovon sie sich dann in Bewegung setzt
-- **releasePos**: OBJECT or ARRAY format Position - Wo wird die Infanterie absitzen, um zu Fuß anzugreifen
-- **attackPos**: OBJECT or ARRAY format Position - Welchen Bereich soll die Infanterie und ggf. das Fahrzeug angreifen
-- **side**: SIDE - Welcher Seite sollen die neuen Einheiten angehören
-- **vehicle**: STRING - Welches Fahrzeug soll die Infanterie transportieren
-- **rpBehaviour**: INTEGER (optional, default: 0) - Welches Verhalten nimmt das Fahrzeug am Releasepunkt an; abhängig davon ob es ein Luft- oder Landfahrzeug ist (Siehe dazu die Tabelle unten)
-- **infantry**: ARRAY format characterTypes or CONFIG format CfgGroups entry (optional, default: configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad") - Welche Infanterieeinheiten sollen erstellt werden (Sollte das Array oder die Konfig zu groß für den Frachtraum des Fahrzeugs sein, werden übrige Einheiten gelöscht)
-- **groupBehaviour**: INTEGER (optional, default: 2) - Welches Verhalten haben die Einheiten ab ihrem Releasepunkt (0: relaxed, 1: cautious, 2: combat)
-- **flyHeight**: INTEGER (optional, default: 80) - Auf welcher Höhe soll das Luftfahrzeug fliegen
-
-Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 
 | rpBehaviour  | Luftfahrzeug | Landfahrzeug |
 | - | - | - |
 | 0 | Fahrzeug landet und Infanterie sitzt ab; Fahrzeug kehrt zum Spawnpunkt zurück und wird gelöscht | Infanterie sitzt ab; Fahrzeug kehrt zum Spawnpunkt zurück und wird gelöscht |
 | 1 | Infanterie wird per Fast-Rope abgesetzt; Helikopter kehrt zum Spawnpunkt zurück und wird gelöscht | Infanterie sitzt ab; Fahrzeug greift den Angriffspunkt mit an  |
 | 2 | Infanterie wird per Fallschirm abgeworfen; Helikopter kehrt zum Spawnpunkt zurück und wird gelöscht | Infanterie sitzt ab; Fahrzeug verteidigt den Releasepunkt  |
+
+Argumente:
+
+| Parameter | Typ | Beschreibung | Optional | Default |
+| - | - | - | - | - |
+| spawnPos | OBJECT or ARRAY format Position | Wo wird die Verstärkung mit Fahrzeug erstellt, wovon sie sich dann in Bewegung setzt | Nein | - |
+| releasePos | OBJECT or ARRAY format Position | Wo wird die Infanterie absitzen, um zu Fuß anzugreifen | Nein | - |
+| attackPos | OBJECT or ARRAY format Position | Welchen Bereich soll die Infanterie und ggf. das Fahrzeug angreifen | Nein | - |
+| side | SIDE | Welcher Seite sollen die neuen Einheiten angehören | Nein | - |
+| vehicle | STRING | Welches Fahrzeug soll die Infanterie transportieren | Nein | - |
+| rpBehaviour | INTEGER | Welches Verhalten nimmt das Fahrzeug am Releasepunkt an; abhängig davon ob es ein Luft- oder Landfahrzeug ist (Siehe dazu die Tabelle unten) | Ja | 0 |
+| infantry | ARRAY format characterTypes or CONFIG format CfgGroups entry | Welche Infanterieeinheiten sollen erstellt werden (Sollte das Array oder die Konfig zu groß für den Frachtraum des Fahrzeugs sein, werden übrige Einheiten gelöscht) | Ja | configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad" |
+| groupBehaviour | INTEGER | Welches Verhalten haben die Einheiten ab ihrem Releasepunkt (0: relaxed, 1: cautious, 2: combat) | Ja | 2 |
+| flyHeight | INTEGER | Auf welcher Höhe soll das Luftfahrzeug fliegen | Ja | 80 |
+
+Rückgabewert:
+
+Keiner
 
 #### Beispiele
 
@@ -97,14 +121,21 @@ Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 
 ### `ttt_common_fnc_doFlakFire`
 
+Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
+
 ```c++
 handle = [object] call ttt_common_fnc_doFlakFire;
 ```
 
-- **handle**: NUMBER - Rückgabewert mit dem das Feuer später beendet werden kann
-- **object**: OBJECT - Flak die schießen soll
+Argumente:
 
-Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
+| Parameter | Typ | Beschreibung | Optional | Default |
+| - | - | - | - | - |
+| object | OBJECT | Flak die schießen soll | Nein | - |
+
+Rückgabewert:
+
+handle NUMBER - Per-Frame-Handler mit dem das Feuer später beendet werden kann
 
 `handle_01` ist ein Identifikator mit dem die Funktion wieder beendet werden kann, indem der Per-Frame-Handler entfernt wird. Um das Flakfeuer wieder zu beenden, in einen weiteren Trigger folgendes in die Aktivierung schreiben:
 
@@ -124,19 +155,24 @@ handle_01 = [flak_01] call ttt_common_fnc_doFlakFire;
 [unit, general, courage, aimingAccuracy, aimingShake, aimingSpeed, commanding, spotDistance, spotTime, reloadSpeed] call ttt_common_fnc_setAISkill;
 ```
 
-Wenn nur die `unit` angegeben wird, werden die Default Werte genutzt:
+Argumente:
 
-```c++
-["_general",        0.75, [0.0]],
-["_courage",        0.75, [0.0]],
-["_aimingAccuracy", 0.65, [0.0]],
-["_aimingShake",    0.65, [0.0]],
-["_aimingSpeed",    0.65, [0.0]],
-["_commanding",     0.75, [0.0]],
-["_spotDistance",   0.85, [0.0]],
-["_spotTime",       0.85, [0.0]],
-["_reloadSpeed",    0.75, [0.0]]
-```
+| Parameter | Typ | Beschreibung | Optional | Default |
+| - | - | - | - | - |
+| unit | OBJECT | Einheit deren Fähigkeiten gesetzt werden sollen | Nein | - |
+| general | NUMBER | Allgemeine Fähigkeit | Ja | 0.75 |
+| courage | NUMBER | Mut | Ja | 0.75 |
+| aimingAccuracy | NUMBER | Zielgenauigkeit | Ja | 0.65 |
+| aimingShake | NUMBER | Zittern beim Zielen | Ja | 0.65 |
+| aimingSpeed | NUMBER | Zielgeschwindigkeit | Ja | 0.65 |
+| commanding | NUMBER | Führungsqualität | Ja | 0.75 |
+| spotDistance | NUMBER | Entdeckungsreichweite | Ja | 0.85 |
+| spotTime | NUMBER | Entdeckungsgeschwindigkeit | Ja | 0.85 |
+| reloadSpeed | NUMBER | Nachladegeschwindigkeit | Ja | 0.75 |
+
+Rückgabewert:
+
+Keiner
 
 #### Beispiel
 
@@ -147,10 +183,6 @@ Wenn nur die `unit` angegeben wird, werden die Default Werte genutzt:
 
 ### `ttt_common_fnc_setAISkillLevel`
 
-```c++
-[unit, "Skill-Level"] call ttt_fnc_common_setAISkillLevel;
-```
-
 Mögliche Skill-Level sind:
 
 - "Novice"
@@ -159,7 +191,22 @@ Mögliche Skill-Level sind:
 - "Veteran"
 - "Expert"
 
-Bei fehlender oder falscher Angabe wird "Veteran" ausgewählt. Die Werte innerhalb der Level sind alle gleich, aber zufällig aus der Spanne ausgewählt. `aiming`-Werte sind immer 0,2 Schlechter als alle anderen.
+Bei fehlender oder falscher Angabe wird "Veteran" ausgewählt. Die Werte innerhalb der Level sind alle gleich, aber zufällig aus der Spanne ausgewählt. `aiming`-Werte sind immer 0,2 schlechter als alle anderen.
+
+```c++
+[unit, "Skill-Level"] call ttt_fnc_common_setAISkillLevel;
+```
+
+Argumente:
+
+| Parameter | Typ | Beschreibung | Optional | Default |
+| - | - | - | - | - |
+| unit | OBJECT | Einheit deren Fähigkeitslevel gesetzt werden soll | Nein | - |
+| Skill-Level | STRING | Fähigkeitslevel ("Novice", "Rookie", "Recruit", "Veteran", "Expert") | Nein | - |
+
+Rückgabewert:
+
+Keiner
 
 #### Beispiele
 
