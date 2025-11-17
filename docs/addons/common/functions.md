@@ -1,5 +1,3 @@
-Stellt die folgenden Funktionen zur Verfügung:
-
 ### `crateFiller`
 
 (ehem. r_crate)
