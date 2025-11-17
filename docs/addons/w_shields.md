@@ -36,7 +36,7 @@ Schreibt in die Init des Fahrzeugs folgendes:
 
 ``` c++
 [this, true, [false,false], true] call ttt_w_shields_fnc_addVehicleShield;
-``` 
+```
 
 Argumente:
 

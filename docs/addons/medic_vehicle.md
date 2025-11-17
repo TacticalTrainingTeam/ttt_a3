@@ -21,7 +21,7 @@ force ttt_medic_vehicle_facilityObject = "Land_MedicalTent_01_NATO_tropic_generi
 force ttt_medic_vehicle_buildTime = 4;                                                     //default: 30;
 force ttt_medic_vehicle_useAnimation = true;                                               //default: true;
 force ttt_medic_vehicle_buildAnimation = "Acts_carFixingWheel";                            //default: "Acts_carFixingWheel";
-``` 
+```
 
 ## Maintainer
 

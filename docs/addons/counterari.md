@@ -29,7 +29,7 @@ vehicle addEventhandler ["Fired", {
         delay
     ] remoteExec ["ttt_counterari_fnc_counterFire",2]
 }];
-``` 
+```
 
 ## Alternative Nutzung
 
@@ -37,7 +37,7 @@ Diese Funktion ermöglicht es auch auf einen beliebeigen Punkt schießen zu lass
 
 ``` c++
 [target, radius, shots, decrementing, vehicles] call ttt_counterari_fnc_positionFire;
-``` 
+```
 
 ## Maintainer
 

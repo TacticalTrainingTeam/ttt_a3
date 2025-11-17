@@ -8,7 +8,7 @@ Entfernt den Turm und sperrt den Schützenplatz. Gedacht für den Bergepanzer. M
 
 ``` c++
 [fhz] call ttt_rsr_fnc_removeTurretWeapon;
-``` 
+```
 
 Argumente:
 

@@ -21,7 +21,7 @@ force ttt_repair_vehicle_facilityObject = "Land_RepairDepot_01_green_F"; //defau
 force ttt_repair_vehicle_buildTime = 4;                                  //default: 30;
 force ttt_repair_vehicle_useAnimation = true;                            //default: true;
 force ttt_repair_vehicle_buildAnimation = "Acts_carFixingWheel";         //default: "Acts_carFixingWheel";
-``` 
+```
 
 ## Maintainer
 

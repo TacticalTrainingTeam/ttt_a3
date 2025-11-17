@@ -8,7 +8,7 @@ Ermöglicht ein manuelles speichern des aktuellen Loadouts.
 
 ``` c++
 [player, getPlayerUID player] call ttt_mpls_fnc_saveLoadout;
-``` 
+```
 
 Argumente:
 

@@ -32,7 +32,7 @@ parameters = [
     "-mod=C:\\Pfad\\zu\\deinen\\TTT\\mods\\@CUP_Weapons",
     "-mod=C:\\Pfad\\zu\\deinen\\TTT\\mods\\@Community_Factions_Project_CFP"
 ]
-``` 
+```
 
 ## Zum Projekt beitragen
 

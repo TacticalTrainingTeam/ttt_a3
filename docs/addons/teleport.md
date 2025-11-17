@@ -13,7 +13,7 @@ JIP Spieler werden automatisch zum Marker `respawn` bewegt.
 ``` c++
 force ttt_teleport_enableTeleport = false;         //default: true - aktiviert die Teleport-Logik
 force ttt_teleport_enableJIPMoveToRespawn = false; //default: true - aktiviert den Teleport für JIP Spieler
-``` 
+```
 
 ## Funktionen
 
@@ -23,7 +23,7 @@ Fügt einem Objekt die Mausrad-Aktionen für Teleportieren und Zuschauerkamera h
 
 ``` c++
 [_meinObjekt] call ttt_teleport_fnc_addActions;
-``` 
+```
 
 Argumente:
 

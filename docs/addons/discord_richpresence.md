@@ -13,7 +13,7 @@ Wenn deaktviert werden folgende Informationen nicht mehr angezeigt:
 
 ``` c++
 force ttt_discord_richpresence_enableDRP = false; //default: true
-``` 
+```
 
 ## Maintainer
 
