@@ -12,9 +12,9 @@ Entfernt den Turm und sperrt den Schützenplatz. Gedacht für den Bergepanzer. M
 
 Argumente:
 
-| # | Argument                                  | Typ     | Optional? |
-| - | ----------------------------------------- | ------- | --------- |
-| 0 | Fahrzeug dessen Turm gesperrt werden soll | OBJECT  | Nein      |
+| # | Argument                                  | Typ     | Optional | Default |
+| - | ----------------------------------------- | ------- | -------- | ------- |
+| 0 | Fahrzeug dessen Turm gesperrt werden soll | OBJECT  | Nein     | -       |
 
 Rückgabe-Wert:
 

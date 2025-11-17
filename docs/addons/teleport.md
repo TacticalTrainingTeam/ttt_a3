@@ -27,9 +27,9 @@ Fügt einem Objekt die Mausrad-Aktionen für Teleportieren und Zuschauerkamera h
 
 Argumente:
 
-| # | Argument                               | Typ     | Optional?  |
-| - | -------------------------------------- | ------- | ---------- |
-| 0 | Objekt welches die Aktionen haben soll | OBJECT  | Nein       |
+| # | Argument                               | Typ     | Optional | Default |
+| - | -------------------------------------- | ------- | -------- | ------- |
+| 0 | Objekt welches die Aktionen haben soll | OBJECT  | Nein     | -       |
 
 Rückgabe-Wert:
 

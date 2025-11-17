@@ -12,10 +12,10 @@ Ermöglicht ein manuelles speichern des aktuellen Loadouts.
 
 Argumente:
 
-| # | Argument                                       | Typ    | Optional? |
-| - | ---------------------------------------------- | ------ | --------- |
-| 0 | Spieler dessen loadout gespeichert werden soll | OBJECT | Nein      |
-| 1 | UID des Spielers                               | STRING | ja        |
+| # | Argument                                       | Typ    | Optional | Default |
+| - | ---------------------------------------------- | ------ | -------- | ------- |
+| 0 | Spieler dessen loadout gespeichert werden soll | OBJECT | Nein     | -       |
+| 1 | UID des Spielers                               | STRING | Ja       | -       |
 
 Rückgabe-Wert:
 
