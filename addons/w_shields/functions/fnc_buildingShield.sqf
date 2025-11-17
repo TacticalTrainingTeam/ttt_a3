@@ -20,7 +20,7 @@
  * Public: No
  */
 params [
-    [ "_target", objNull, [objNull] ]
+    ["_target", objNull, [objNull]]
 ];
 
 if (isNull _target) exitWith { ["Kein Objekt übergeben."] call BIS_fnc_error };//ToDo Localize
@@ -29,6 +29,7 @@ if (isNull _target) exitWith { ["Kein Objekt übergeben."] call BIS_fnc_error };
 _target addEventHandler [
     "HandleDamage",
     {
+        private _unit = param [0];
         private _selection = param [1];
         private _hitPoint = param [7];
 
@@ -41,7 +42,7 @@ _target addEventHandler [
             }
         ) exitWith {};
 
-        [QGVAR(API_buildingShieldTriggered), [_target]] call CBA_fnc_localEvent;
+        [QGVAR(API_buildingShieldTriggered), [_unit]] call CBA_fnc_localEvent;
 
         0
     }
