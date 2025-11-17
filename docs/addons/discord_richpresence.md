@@ -11,9 +11,9 @@ Wenn deaktviert werden folgende Informationen nicht mehr angezeigt:
 
 ## CBA-Einstellungen
 
-```c++
+``` c++
 force ttt_discord_richpresence_enableDRP = false; //default: true
-```
+``` 
 
 ## Maintainer
 

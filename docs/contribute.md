@@ -23,7 +23,7 @@ Für CUP, RHS, BWmod etc. sind zum Testen weitere Mods erforderlich, diese sind 
 
 Falls es nicht möglich ist, die Steam-Workshop-Mods herunterzuladen (zum Beispiel aus Platzgründen), kannst du folgendes in die `launch.toml` eintragen, den Pfad entsprechend anpassen und so deine lokalen Mods aus dem TTT-Repo verwenden. Diese Änderung der Datei darf **nicht** committet werden.
 
-```toml
+``` toml
 [cup_local]
 extends = "default"
 parameters = [
@@ -32,7 +32,7 @@ parameters = [
     "-mod=C:\\Pfad\\zu\\deinen\\TTT\\mods\\@CUP_Weapons",
     "-mod=C:\\Pfad\\zu\\deinen\\TTT\\mods\\@Community_Factions_Project_CFP"
 ]
-```
+``` 
 
 ## Zum Projekt beitragen
 
@@ -59,4 +59,4 @@ Bitte beachte, dass alle Mitwirkenden an diesem Projekt Freiwillige sind und die
 
 Im Code wird Tactical Training Team immer klein geschrieben, also `ttt`, im Interface immer groß `TTT`.
 
-Als `author` wird in der `config.cpp` aus Konsistenzgründen immer `ECSTRING(main,TacticalTrainingTeam)` angegeben. In `authors[]`-Array können sich alle, die an der jeweiligen Component mitgearbeitet haben selbst eintragen.
+Als `author` wird in der `config.c++` aus Konsistenzgründen immer `ECSTRING(main,TacticalTrainingTeam)` angegeben. In `authors[]`-Array können sich alle, die an der jeweiligen Component mitgearbeitet haben selbst eintragen.

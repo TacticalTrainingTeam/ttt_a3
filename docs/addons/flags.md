@@ -2,6 +2,8 @@
 
 Enthält Trag- und Platzierbare Flaggen für alle Truppfarben.
 
+## Class Names
+
 - `ttt_flags_blau`
 - `ttt_flags_braun`
 - `ttt_flags_bronze`

@@ -10,10 +10,10 @@ JIP Spieler werden automatisch zum Marker `respawn` bewegt.
 
 ## CBA-Einstellungen
 
-```c++
+``` c++
 force ttt_teleport_enableTeleport = false;         //default: true - aktiviert die Teleport-Logik
 force ttt_teleport_enableJIPMoveToRespawn = false; //default: true - aktiviert den Teleport für JIP Spieler
-```
+``` 
 
 ## Funktionen
 
@@ -21,15 +21,15 @@ force ttt_teleport_enableJIPMoveToRespawn = false; //default: true - aktiviert d
 
 Fügt einem Objekt die Mausrad-Aktionen für Teleportieren und Zuschauerkamera hinzu.
 
-```c++
+``` c++
 [_meinObjekt] call ttt_teleport_fnc_addActions;
-```
+``` 
 
 Argumente:
 
-| Position | Argument                               | Typ     | Optional?  |
-| -------- | -------------------------------------- | ------- | ---------- |
-| 0        | Objekt welches die Aktionen haben soll | OBJECT  | Nein       |
+| # | Argument                               | Typ     | Optional?  |
+| - | -------------------------------------- | ------- | ---------- |
+| 0 | Objekt welches die Aktionen haben soll | OBJECT  | Nein       |
 
 Rückgabe-Wert:
 
