@@ -1,8 +1,3 @@
----
-tags:
-  - Feature
----
-
 # TTT Signalplane
 
 Eine Signalplane ist eine Möglichkeit einem Hubschrauber auch aus größerer Distanz optisch eine Landezone zu markieren.

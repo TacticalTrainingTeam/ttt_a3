@@ -1,9 +1,3 @@
----
-tags:
-  - Objekte
-  - TTT Original
----
-
 # Uniformen
 
 Enthält Uniformen in allen TTT Farben. Es gibt drei Tarnvarianten: _BW Flecktarn_, _BW Tropentarn_ und _Wüstentarn_.

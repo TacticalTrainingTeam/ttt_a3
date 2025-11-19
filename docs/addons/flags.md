@@ -1,9 +1,3 @@
----
-tags:
-  - Objekte
-  - TTT Original
----
-
 # Flaggen
 
 Enthält Trag- und Platzierbare Flaggen für alle Truppfarben.

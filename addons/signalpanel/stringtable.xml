@@ -6,12 +6,12 @@
             <German>Abgebrochen</German>
         </Key>
         <Key ID="STR_ttt_Signalpanel_actionConstruct">
-            <English>Laying out signaling panel -</English>
-            <German>Signalplane auslegen -</German>
+            <English>Laying out signaling panel.</English>
+            <German>Signalplane auslegen.</German>
         </Key>
         <Key ID="STR_ttt_Signalpanel_actionDeconstruct">
-            <English>Stow signaling panel into backpack -</English>
-            <German>Packe Signal Plane in Rucksack -</German>
+            <English>Stow signaling panel into backpack.</English>
+            <German>Packe Signal Plane in Rucksack.</German>
         </Key>
         <Key ID="STR_ttt_Signalpanel_allowedBackpacks_description">
             <English>Backpacks that are allowed to lay out the plane</English>

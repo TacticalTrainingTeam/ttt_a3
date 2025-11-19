@@ -1,9 +1,3 @@
----
-tags:
-  - Objekte
-  - TTT Original
----
-
 # Westen
 
 Enthält Westen in allen TTT Farben. Es gibt eine leichte, eine schwere und eine Weste für Hubschrauber- oder Fahrzeugbesatzungen.
