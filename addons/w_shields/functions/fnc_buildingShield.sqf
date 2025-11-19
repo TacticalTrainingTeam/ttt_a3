@@ -20,7 +20,7 @@
  * Public: No
  */
 params [
-    [ "_target", objNull, [objNull] ]
+    ["_target", objNull, [objNull]]
 ];
 
 if (isNull _target) exitWith { ["Kein Objekt übergeben."] call BIS_fnc_error };//ToDo Localize
