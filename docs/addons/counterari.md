@@ -33,7 +33,7 @@ vehicle addEventhandler ["Fired", {
 
 ## Alternative Nutzung
 
-Diese Funktion ermöglicht es auch auf einen beliebeigen Punkt schießen zu lassen.
+Diese Funktion ermöglicht es auch auf einen beliebigen Punkt schießen zu lassen.
 
 ``` c++
 [target, radius, shots, decrementing, vehicles] call ttt_counterari_fnc_positionFire;
