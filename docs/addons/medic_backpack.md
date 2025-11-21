@@ -1,6 +1,6 @@
 # TTT Medizinischer Rucksack
 
-Fügt einem Spieler mit dem korrekten Rucksacktypen die Möglichekeit hinzu ein Objekt, wie z.B. eine Plane über eine ACE-Eigeninteraktion aufzubauen.
+Fügt einem Spieler mit dem korrekten Rucksacktypen die Möglichekeit hinzu ein Objekt, wie z.B. eine Plane, über eine ACE-Eigeninteraktion aufzubauen.
 Dies ist dann eine medizinische Einrichtung (`ace_medical_isMedicalFacility`).
 Jeder Spieler dessen Rucksack einem zugelassenem Typen entspricht und derzeit keine Einrichtung transportiert, kann diese über eine ACE-Fremdinteraktion abbauen und woanders wieder aufbauen.
 
