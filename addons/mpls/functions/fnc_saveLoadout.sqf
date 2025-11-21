@@ -22,7 +22,9 @@ params [
     ];
 private _isZeus = !isNull (findDisplay 312);
 
-if (!hasInterface || _isZeus) exitWith {false};
+private _playerInSpectator = [] call ace_spectator_fnc_players;
+
+if (!hasInterface || _isZeus || _player in _playerInSpectator) exitWith {false};
 
 if (_uid isEqualTo "") then {
     _uid = getPlayerUID _player;
