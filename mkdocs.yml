@@ -84,8 +84,8 @@ extra:
     name: Das TTT auf Instagram
 
   - icon: fontawesome/brands/discord
-    link: https://discord.gg/tacticaltrainingteam
-    name: TTT Discord Server
+    link: https://discord.tacticalteam.de
+    name: TTT-Discord-Server
 
 plugins:
 - privacy
