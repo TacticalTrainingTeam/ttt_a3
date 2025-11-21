@@ -4,7 +4,7 @@ Das MPLS speichert alle 10 Minuten, beim Respawn und beim Disconnect das aktuell
 
 ## `ttt_mpls_fnc_saveLoadout`
 
-Ermöglicht ein manuelles speichern des aktuellen Loadouts.
+Ermöglicht ein manuelles Speichern des aktuellen Loadouts.
 
 ``` c++
 [player, getPlayerUID player] call ttt_mpls_fnc_saveLoadout;
