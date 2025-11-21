@@ -1,6 +1,8 @@
 # Flaggen
 
-Enthält Trag- und Platzierbare Flaggen für alle Truppfarben.
+Enthält trag- und platzierbare Flaggen für alle Truppfarben.
+
+## Class Names
 
 - `ttt_flags_blau`
 - `ttt_flags_braun`
@@ -20,7 +22,7 @@ Enthält Trag- und Platzierbare Flaggen für alle Truppfarben.
 
 ## Bekannte Fehler
 
-Beim tragen ist ein Teil der Flagge unsichtbar.
+Beim Tragen ist ein Teil der Flagge unsichtbar.
 
 ## Maintainer
 

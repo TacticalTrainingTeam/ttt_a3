@@ -10,7 +10,7 @@ Um bereits auf der Karte befindliche Gebäude unzerstörbar zu machen, platziert
 
 In den Attributen des Moduls kann das Schild eingeschalten werden und alle Fenster des Gebäudes kaputt gemacht werden. Außerdem kann, wie im `EditTerrainObject` Modul von Bohemia, ein Variablenname für das Gebäude vergeben werden.
 
-### Benutzung: 3DEN-Attribute
+### Benutzung: 3DEN-Attribut
 
 Bei selbst platzierten Gebäuden findet ihr die Option um das Schild zu aktivieren in den Attributen des Gebäudes im Abschnitt `W-Framework`. Dort können ebenso die Fenster zerstört werden.
 
@@ -20,7 +20,7 @@ Bei selbst platzierten Gebäuden findet ihr die Option um das Schild zu aktivier
 
 Macht Fahrzeuge unzerstörbar. Einzelne Module sind aber weiterhin zerstörbar.
 
-### Benutzung: 3DEN-Attribute
+### Benutzung: 3DEN-Attribut
 
 Bei platzierten Fahrzeugen findet ihr die Option um das Schild zu aktivieren in den Attributen des Fahrzeugs im Abschnitt `W-Framework`.
 
@@ -34,18 +34,29 @@ Während einer Mission könnt ihr das Zeusmodul nutzen um Fahrzeuge zu schützen
 
 Schreibt in die Init des Fahrzeugs folgendes:
 
-```c++
+``` c++
 [this, true, [false,false], true] call ttt_w_shields_fnc_addVehicleShield;
 ```
 
 Argumente:
 
-| Position | Argument                                                      | Typ     | Optional?                    |
-| -------- | ------------------------------------------------------------- | ------- | ---------------------------- |
-| 0        | Ziel auf das das Schild angwandt werden soll                  | OBJECT  | Nein                         |
-| 1        | Vehindere Treibstoffverlust durch Schaden?                    | BOOLEAN | Ja (default: `false`)        |
-| 2        | Vehindere das Haupt- bzw. Heckrotor zerstört wird?            | BOOLEAN | Ja (default: `[true, true]`) |
-| 3        | Zerstöre den Motor wenn der Hüllenschaden ausgeschöpft ist?   | BOOLEAN | Ja (default: `false`) |
+| # | Argument                                                      | Typ     | Optional | Default         |
+| - | ------------------------------------------------------------- | ------- | -------- | --------------- |
+| 0 | Ziel auf das das Schild angwandt werden soll                  | OBJECT  | Nein     | -               |
+| 1 | Verhindere Treibstoffverlust durch Schaden?                    | BOOLEAN | Ja       | `false`         |
+| 2 | Verhindere das Haupt- bzw. Heckrotor zerstört wird?            | BOOLEAN | Ja       | `[true, true]`  |
+| 3 | Zerstöre den Motor wenn der Hüllenschaden ausgeschöpft ist?   | BOOLEAN | Ja       | `false`         |
+
+Rückgabe-Wert:
+
+Keiner
+
+## Events
+
+| Eventname                                   | Beschreibung                                                      | Parameter                                 | Lokalität |
+| ------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------- | --------- |
+| `ttt_w_shields_API_buildingShieldTriggered` | Gebäude hat Schaden genommen, aber das Schild hat ihn verhindert  | `_unit, _source, _instigator, _directHit` | lokal     |
+| `ttt_w_shields_API_vehicleShieldTriggered`  | Fahrzeug hat Schaden genommen, aber das Schild hat ihn verhindert | `_unit, _source, _instigator`             | lokal     |
 
 ## Maintainer
 
