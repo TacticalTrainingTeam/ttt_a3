@@ -19,7 +19,7 @@
 
 params ["_unit", "_killer", "_instigator", ""];
 
-private _playersInSpectator = [] call ace_spectator_fnc_players;
+private _playersInSpectator = call ace_spectator_fnc_players;
 
 if (_unit in _playersInSpectator) exitWith {};
 
