@@ -1,14 +1,14 @@
-# Compat RHS
+## Compat RHS
 
-Enthält Configfixes und einige Funktionen für RHS.
+Enthält Config-fixes und einige Funktionen für RHS.
 
 ## No 40mm Smoke Bounce
 
-Verhindert das RHS 40mm Rauchgranaten über den Boden springen.
+Verhindert das 40mm-Rauchgranaten von RHS über den Boden springen.
 
 ## Rebalance
 
-Re-Balancing aller Uniformen, Vesten, Rucksäcke in RHS.
+Rebalancing aller Uniformen, Westen und Rucksäcke in RHS.
 
 ## Maintainer
 
