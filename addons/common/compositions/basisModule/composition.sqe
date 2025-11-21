@@ -574,7 +574,7 @@ class items
 				class Attributes
 				{
 					name="zeus_1";
-					description="Zeus@Zeus";
+					description="Zeus";
 					isPlayable=1;
 				};
 				id=21;
