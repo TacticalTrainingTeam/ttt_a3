@@ -30,6 +30,6 @@ private _newLoadout =  GVAR(loadoutNamespace) getVariable (getPlayerUID _player)
 
 INFO_2("Saved Loadout found for player %1, applying %2",_player,_newLoadout);
 
-//[QGVAR(API_loadoutApplied), [_player, _newLoadout, _oldLoadout]] call CBA_fnc_localEvent;
+[QGVAR(API_loadoutApplied), [_player, _newLoadout, _oldLoadout]] call CBA_fnc_localEvent;
 
 true
