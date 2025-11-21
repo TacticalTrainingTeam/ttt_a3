@@ -23,5 +23,5 @@ params ["_unit", ""];
         _unit call FUNC(applyLoadout);
     },
     [ _unit],
-    5
+    TIME_AFTER_RESPAWN
 ] call CBA_fnc_waitAndExecute;

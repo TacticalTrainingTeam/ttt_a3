@@ -21,6 +21,13 @@ Rückgabe-Wert:
 
 Erfolg - BOOLEAN
 
+## Events
+
+| Eventname                         | Beschreibung                                    | Parameter                              | Lokalität |
+| --------------------------------- | ----------------------------------------------- | -------------------------------------- | --------- |
+| `ttt_teleport_API_loadoutApplied` | Wenn das Loadout dem Spieler zugewiesen wurde   | `_player, _oldLoaodout`, `_newLoadout` | lokal     |
+| `ttt_teleport_API_loadoutSaved`   | Wenn das Loadout des Spielers gespeichert wurde | `_player`, `_Loadout`                  | lokal     |
+
 ## Maintainer
 
 - Andx
