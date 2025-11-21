@@ -132,9 +132,7 @@ markdown_extensions:
 - pymdownx.tilde
 
 nav:
-- Startseite:
-  - index.md
-  - Beitragen: contribute.md
+- Home: index.md
 - Addons - Allgemein:
   - Chat Befehle: addons/chatcommands.md
   - Clear HUD: addons/clearhud.md
