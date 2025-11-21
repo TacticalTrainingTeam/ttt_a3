@@ -7,7 +7,7 @@ if (isServer) then {
             call FUNC(initSave);
         },
         [],
-        30
+        TIME_SAVE_START
     ] call CBA_fnc_waitAndExecute;
 };
 
@@ -23,7 +23,7 @@ if (!hasInterface) exitWith {};
         };
     },
     [ace_player],
-    30
+    TIME_SAVE_FIRST
 ] call CBA_fnc_waitAndExecute;
 
 // If player is JIP
@@ -49,6 +49,6 @@ if (didJIP) then {
             _player call FUNC(applyLoadout);
         },
         [ace_player],
-        10
+        TIME_AFTER_RESPAWN
     ] call CBA_fnc_waitAndExecute;
 };
