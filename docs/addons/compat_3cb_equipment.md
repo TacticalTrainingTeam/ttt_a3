@@ -4,7 +4,7 @@ Fügt einigen Rucksäcken eine Klappspaten `ACE_EntrenchingTool` bzw. Drahtschne
 
 ## ALICE Pack Olive
 
-Behebt einen Configfehler in 3CB Equipment in dem die Objekte versteckt werden und das fehlende Anzeigebild ausgeblendet wird:
+Behebt einen Konfigurationsfehler in 3CB-Equipment, durch den Objekte versteckt und das fehlende Anzeigebild ausgeblendet wurden:
 
 Behobene Fehlermeldung:
 
