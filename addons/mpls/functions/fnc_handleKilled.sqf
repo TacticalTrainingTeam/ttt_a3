@@ -19,6 +19,10 @@
 
 params ["_unit", "_killer", "_instigator", ""];
 
+private _playersInSpectator = [] call ace_spectator_fnc_players;
+
+if (_unit in _playersInSpectator) exitWith {};
+
 if (_unit == _killer || _unit == _instigator) then {
     [_unit, getPlayerUID _unit] call FUNC(saveLoadout);
 };
