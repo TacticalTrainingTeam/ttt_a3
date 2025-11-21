@@ -1,6 +1,6 @@
 # TTT Medizinisches Fahrzeug
 
-Fügt bestimmten Fahrzeugen die Möglichekeit hinzu ein Objekt, wie z.B. ein Zelt über eine ACE-Fremdinteraktion aufzubauen.
+Fügt bestimmten Fahrzeugen die Möglichkeit hinzu ein Objekt, wie z.B. ein Zelt, über eine ACE-Fremdinteraktion aufzubauen.
 Dies ist dann eine medizinische Einrichtung (`ace_medical_isMedicalFacility`).
 Jedes zugelassene Fahrzeug welches derzeit keine Einrichtung transportiert, kann diese dann aufnehmen indem an der Einrichtung die ACE-Fremdinteraktion zum aufladen verwendet wird.
 
