@@ -4,4 +4,4 @@ Arma 3 Modifikation für das Tactical Training Team. Benötigt die aktuellste ve
 
 Die TTT-Mod besteht aus verschiedenen Addons die jeweils eigene Funktionen und Objekte hinzufügen. Diese sind auf der linken Seite aufgelistet.
 
-Du willst mitmachen - schau [hier](contribute.md) vorbei.
+Du willst mitmachen - schau im [Github](https://github.com/TacticalTrainingTeam/ttt_a3?tab=contributing-ov-file) vorbei.
