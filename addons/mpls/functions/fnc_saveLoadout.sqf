@@ -22,7 +22,9 @@ params [
     ];
 private _isZeus = !isNull (findDisplay 312);
 
-if (!hasInterface || _isZeus) exitWith {false};
+private _playersInSpectator = call ace_spectator_fnc_players;
+
+if (!hasInterface || _isZeus || _player in _playersInSpectator) exitWith {false};
 
 if (_uid isEqualTo "") then {
     _uid = getPlayerUID _player;
@@ -32,6 +34,8 @@ private _loadout = [_player] call CBA_fnc_getLoadout;
 
 GVAR(loadoutNamespace) setVariable [_uid, _loadout, true];
 
-INFO_2("Loadout Saved for player %1 is %2",_player,_loaodout);
+INFO_2("Loadout Saved for player %1 is %2",_player,_loadout);
+
+[QGVAR(API_loadoutSaved), [_player, _loadout]] call CBA_fnc_localEvent;
 
 true

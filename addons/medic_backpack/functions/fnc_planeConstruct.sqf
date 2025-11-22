@@ -16,7 +16,7 @@
 params ["_target"];
 
 private _position = (_target getPos [8, getDir _target]) findEmptyPosition [1, 2, "Tank"];
-_plane = createVehicle [(GVAR(facitlityObject)), _position, [], 0, "CAN_COLLIDE"];
+_plane = createVehicle [(GVAR(facilityObject)), _position, [], 0, "CAN_COLLIDE"];
 _plane setDir (getDir _target);
 
 _plane setVariable ["ace_medical_isMedicalFacility", true, true];

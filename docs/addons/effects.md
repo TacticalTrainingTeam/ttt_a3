@@ -1,8 +1,3 @@
----
-tags:
-  - Feature
----
-
 # Umgebungseffekte
 
 Eine Sammlung immersiver VFX-Effekte, welche in Missionen dem Spieler die Sicht erschweren können. Alle Effekte sind sowohl über Code, 3DEN-Modul, als auch Zeus-Modul verfügbar.
@@ -13,9 +8,9 @@ Vor den Mündern aller bestehenden Einheiten entstehet ein Effekt, welcher feuch
 Die Funktion muss lokal von jedem Spieler ausgeführt werden.
 Dazu bietet sich neben dem 3DEN-Editor-Modul die `initPlayerLocal.sqf` an:
 
-``` cpp
+``` c++
 _breathParticle = [] call ttt_effects_fnc_condensedBreathInit;
-```
+``` 
 
 Arguments:
 None
@@ -30,9 +25,9 @@ Standardmäßig ist es einem Infanteristen nur noch möglich zu gehen, nicht sch
 Im Gegenzug wird die bereits existierende KI vorübergehend um 75 % in den Fähigkeiten "aimingAccuracy", "aimingShake", "aimingSpeed" und "spotDistance" verschlechtert.
 Die Funktion muss serverseitig, wie z.B. durch einen eingestellten Trigger, durch die `initServer.sqf` oder das 3DEN-Editor-Modul (Triggersynchronisation möglich) aufgerufen werden. Es kann nur ein Sturm gleichzeitig aktiv sein.
 
-``` cpp
+``` c++
 _return = [duration, effect, stormType, walk, direction] call ttt_effects_fnc_stormInit;
-```
+``` 
 
 Arguments:
 

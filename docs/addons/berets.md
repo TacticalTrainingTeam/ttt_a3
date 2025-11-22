@@ -1,9 +1,3 @@
----
-tags:
-  - Objekte
-  - TTT Original
----
-
 # Barette
 
 Enthält Barette in allen TTT Farben.

@@ -13,9 +13,5 @@
             <English>Snowcamo Cover</English>
             <German>Wintertarn Überzug</German>
         </Key>
-        <Key ID="STR_ttt_rsr_Retex_Cup_snowHelmetDisplayName">
-            <English>Helmet Snowcover</English>
-            <German>Wintertarn Überzug Helm</German>
-        </Key>
     </Package>
 </Project>

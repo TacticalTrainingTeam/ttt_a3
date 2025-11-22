@@ -1,10 +1,3 @@
----
-tags:
-  - Objekte
----
-
-Stellt die folgenden nützlichen Dinge zur Verfügung:
-
 ## Bilder
 
 Stellt TTT-Bilder anderen Addons und Missionsbauern zur Verfügung.

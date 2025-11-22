@@ -40,3 +40,5 @@ switch GVAR(type) do {
         ACE_player moveInCommander vehicle GVAR(target);
     };
 };
+
+[QGVAR(API_playerTeleported), [ACE_player, GVAR(target)]] call CBA_fnc_localEvent;

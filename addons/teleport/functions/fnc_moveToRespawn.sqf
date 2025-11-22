@@ -25,10 +25,10 @@ if !(hasInterface) exitWith {};
 if (!GVAR(enableJIPMoveToRespawn)) exitWith {};
 
 //platziert den Spieler auf dem Respawn Marker, bzw. bis zu 5m darum
-_target setVehiclePosition [getMarkerPos "respawn", [], 5]; 
+_target setVehiclePosition [getMarkerPos "respawn", [], 5];
 
 if !(isNil QGVAR(teleporter)) then {
     _target setDir (_target getDir GVAR(teleporter));
 };
 
-
+[QGVAR(API_JIPmovedToRespawn), [_target, getPosASL _target]] call CBA_fnc_localEvent;

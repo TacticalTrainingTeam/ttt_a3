@@ -1,9 +1,3 @@
----
-tags:
-  - Objekte
-  - TTT Original
----
-
 # Rucksäcke
 
 Enthält verschiedene Funkrucksäcke in TTT Farben. Diese sind in der Größe angepasst, damit zwei `ACRE_PRC117F` darin Platz finden.

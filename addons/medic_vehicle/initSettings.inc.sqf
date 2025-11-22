@@ -1,5 +1,5 @@
 [
-    QGVAR(enable), 
+    QGVAR(enable),
     "CHECKBOX",
     [LSTRING(settingEnable_name), LSTRING(settingEnable_description)],
     [ELSTRING(main,TacticalTrainingTeam), LSTRING(SubCategory)],
@@ -9,7 +9,7 @@
 ] call CBA_fnc_addSetting;
 
 [
-    QGVAR(supportedVehicles), 
+    QGVAR(supportedVehicles),
     "EDITBOX",
     [LSTRING(settingSupportedVehicles_name), LSTRING(settingSupportedVehicles_description)],
     [ELSTRING(main,TacticalTrainingTeam), LSTRING(SubCategory)],
@@ -20,9 +20,9 @@
 ] call CBA_fnc_addSetting;
 
 [
-    QGVAR(facitlityObject), 
+    QGVAR(facilityObject),
     "EDITBOX",
-    [LSTRING(settingFacitlityObject_name), LSTRING(settingFacitlityObject_description)],
+    [LSTRING(settingFacilityObject_name), LSTRING(settingFacilityObject_description)],
     [ELSTRING(main,TacticalTrainingTeam), LSTRING(SubCategory)],
     "Land_MedicalTent_01_NATO_generic_open_F",
     true,
@@ -40,7 +40,7 @@
 ] call CBA_fnc_addSetting;
 
 [
-    QGVAR(useAnimation), 
+    QGVAR(useAnimation),
     "CHECKBOX",
     [LSTRING(settingUseAnimation_name), LSTRING(settingUseAnimation_description)],
     [ELSTRING(main,TacticalTrainingTeam), LSTRING(SubCategory)],
@@ -49,7 +49,7 @@
 ] call CBA_fnc_addSetting;
 
 [
-    QGVAR(buildAnimation), 
+    QGVAR(buildAnimation),
     "EDITBOX",
     [LSTRING(settingBuildAnimation_name), LSTRING(settingBuildAnimation_description)],
     [ELSTRING(main,TacticalTrainingTeam), LSTRING(SubCategory)],
