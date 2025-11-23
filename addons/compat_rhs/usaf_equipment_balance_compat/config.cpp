@@ -18,7 +18,7 @@ class CfgPatches {
             "rhsusf_c_troops",
         };
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
-        vehicles[] = {
+        units[] = {
             //PACKS
             "rhsusf_assault_eagleaiii_ocp",
             "rhsusf_assault_eagleaiii_ocp_engineer",
