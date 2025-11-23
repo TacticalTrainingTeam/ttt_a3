@@ -18,9 +18,12 @@ if (!hasInterface) exitWith {};
 [
     {
         params ["_player"];
+
         if (GVAR(loadoutNamespace) getVariable [([getPlayerUID _player, "_first"] joinString ""), []] isEqualTo []) then {
             GVAR(loadoutNamespace) setVariable [[getPlayerUID _player, "_first"] joinString "", [_player] call CBA_fnc_getLoadout, true]; //saves the very first loadout to the DB
         };
+
+        _player setVariable ["slot", typeOf _player];
     },
     [ace_player],
     TIME_SAVE_FIRST
@@ -46,7 +49,13 @@ if (didJIP) then {
     [
         {
             params ["_player"];
-            _player call FUNC(applyLoadout);
+
+            private _currentSlot = typeOf _player;
+            private _oldSlot = _player getVariable ["slot", ""];
+
+            if (_currentSlot isEqualTo _oldSlot) then {
+                _player call FUNC(applyLoadout);
+            };
         },
         [ace_player],
         TIME_AFTER_RESPAWN
