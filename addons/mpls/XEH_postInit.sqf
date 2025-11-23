@@ -24,7 +24,7 @@ if (!hasInterface) exitWith {};
         };
 
         if (GVAR(loadoutNamespace) getVariable [([getPlayerUID _player, "_slot"] joinString ""), ""] isEqualTo "") then {
-            GVAR(loadoutNamespace) setVariable [[getPlayerUID _player, "_slot"] joinString "", typeOf _player];
+            GVAR(loadoutNamespace) setVariable [[getPlayerUID _player, "_slot"] joinString "", roleDescription _player]; //roleDescription is unique, alternative would be typeOf _player
         };
     },
     [ace_player],
@@ -52,7 +52,7 @@ if (didJIP) then {
         {
             params ["_player"];
 
-            private _currentSlot = typeOf _player;
+            private _currentSlot = roleDescription _player; //roleDescription is unique, alternative would be typeOf _player
             private _oldSlot = GVAR(loadoutNamespace) getVariable [([getPlayerUID _player, "_slot"] joinString ""), ""];
 
             if (_currentSlot isEqualTo _oldSlot) then {
