@@ -107,7 +107,6 @@ extra:
   analytics:
     #Matomo
     provider: custom
-    property: https://analytics.tacticalteam.de/
 
 plugins:
 - privacy

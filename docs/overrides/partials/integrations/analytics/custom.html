@@ -1,7 +1,4 @@
 <script>
-  /* Add custom analytics integration here, e.g. */
-  var property = "{{ config.extra.analytics.property }}"
-
   /* Wait for page to load and application to mount */
   document.addEventListener("DOMContentLoaded", function() {
     location$.subscribe(function() {
@@ -10,7 +7,7 @@
         _paq.push(['trackPageView']);
         _paq.push(['enableLinkTracking']);
         (function() {
-            var u = property;
+            var u="https://analytics.tacticalteam.de/";
             _paq.push(['setTrackerUrl', u+'matomo.php']);
             _paq.push(['setSiteId', '3']);
             var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
