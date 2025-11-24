@@ -80,10 +80,6 @@ extra:
     link: https://x.com/TTT_ArmA
     name: Das TTT auf X/Twitter
 
-  - icon: fontawesome/brands/facebook
-    link: https://www.facebook.com/tacticaltrainingteam/
-    name: Das TTT auf Facebook
-
   - icon: fontawesome/brands/instagram
     link: https://www.instagram.com/tacticaltrainingteam/
     name: Das TTT auf Instagram
@@ -97,7 +93,7 @@ extra:
     name: TTT-Steam-Gruppe
 
   - icon: fontawesome/brands/youtube
-    link: https://www.youtube.com/channel/UCUywnzXGth9-iSqR2f6hP7g
+    link: https://www.youtube.com/@tacticalteamde
     name: TTT-YouTube-Kanal
 
   - icon: fontawesome/solid/gavel
