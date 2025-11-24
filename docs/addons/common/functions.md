@@ -229,6 +229,10 @@ Argumente:
 | 1 | Position | OBJECT, MARKER, POSITION | Zielwegpunkt der angegriffen werden soll | Nein | - |
 | 2 | Spacing | NUMBER | Abstand zwischen den Einheiten in m | ja | 30 |
 
+Rückgabewert:
+
+Keiner
+
 ## Maintainer
 
 - Andx
