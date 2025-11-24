@@ -15,6 +15,7 @@ extra_javascript:
 
 theme:
   name: material
+  custom_dir: docs/overrides
   font:
     text: Ubuntu
     code: Ubuntu Mono
@@ -79,6 +80,10 @@ extra:
     link: https://x.com/TTT_ArmA
     name: Das TTT auf X/Twitter
 
+  - icon: fontawesome/brands/facebook
+    link: https://www.facebook.com/tacticaltrainingteam/
+    name: Das TTT auf Facebook
+
   - icon: fontawesome/brands/instagram
     link: https://www.instagram.com/tacticaltrainingteam/
     name: Das TTT auf Instagram
@@ -86,6 +91,23 @@ extra:
   - icon: fontawesome/brands/discord
     link: https://discord.tacticalteam.de
     name: TTT-Discord-Server
+
+  - icon: fontawesome/brands/steam
+    link: https://steamcommunity.com/groups/tacticaltrainingteam
+    name: TTT-Steam-Gruppe
+
+  - icon: fontawesome/brands/youtube
+    link: https://www.youtube.com/channel/UCUywnzXGth9-iSqR2f6hP7g
+    name: TTT-YouTube-Kanal
+
+  - icon: fontawesome/solid/gavel
+    link: https://tacticalteam.de/datenschutz
+    name: Datenschutzerklärung
+
+  analytics:
+    #Matomo
+    provider: custom
+    property: https://analytics.tacticalteam.de/
 
 plugins:
 - privacy
