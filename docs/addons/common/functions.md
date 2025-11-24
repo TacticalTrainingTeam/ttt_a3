@@ -218,7 +218,7 @@ Keiner
 Variante des Lambs Assault, aber die Einheiten haben mehr Abstand zueinander. In einer Unit-Init oder Wegpunkt-Init ausführen.
 
 ``` c++
-[_group, _target, _spacing] call ttt_common_fnc_wideAssault;
+[_group, _target, _spacing] spawn ttt_common_fnc_wideAssault;
 ```
 
 Argumente:
@@ -231,7 +231,7 @@ Argumente:
 
 Rückgabewert:
 
-Keiner
+True
 
 ## Maintainer
 
