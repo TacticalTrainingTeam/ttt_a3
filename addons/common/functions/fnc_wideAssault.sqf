@@ -8,7 +8,7 @@
 // Run on unit init or waypoint init.
 //
 // example:
-// [this, destination1] execVM "fn_wideAssault.sqf";
+// [this, destination1] spawn "fn_wideAssault.sqf";
 //
 // by nkenny
 
@@ -101,7 +101,7 @@ waitUntil {
 } forEach (units _group);
 
 // debug
-systemChat "DONE";
+//systemChat "DONE";
 
 // end
 true
