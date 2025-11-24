@@ -4,7 +4,7 @@ Mit ++ctrl+f12++ könnt ihr das Ingame-UI ausblenden.
 
 ## Funktion
 
-Der Screenshotmodus nutzt das [ACE User Interface Framework](https://ace3.acemod.org/wiki/framework/ui-framework) um per Tastendruck das Interace von Arma auszublenden. Auf Tastendruck wird dabei von ACE ein Event ausgelöst, auf das die TTT-Mod reagiert und weitere Interfaceelemente ausblendet.
+Der Screenshotmodus nutzt das [ACE User Interface Framework](https://ace3.acemod.org/wiki/framework/ui-framework) um per Tastendruck das Interface von Arma auszublenden. Auf Tastendruck wird dabei von ACE ein Event ausgelöst, auf das die TTT-Mod reagiert und weitere Interfaceelemente ausblendet.
 
 Standard-Tastenkombination: ++ctrl+f12++ - kann über das Konfigurationsmenü geändert werden.
 
