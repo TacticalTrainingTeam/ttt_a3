@@ -19,7 +19,7 @@ class CfgPatches {
             "rhsgref_c_troops",
         };
         // List of weapons (CfgWeapons classes) contained in the addon.
-        vehicles[] = {
+        units[] = {
             //PACKS
             "rhsgref_cdf_backpack_mg",
             "rhsgref_cdf_backpack_mg2",
