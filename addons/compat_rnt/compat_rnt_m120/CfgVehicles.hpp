@@ -29,7 +29,7 @@ class CfgVehicles {
             desiredAmmo = 1;  // When the weapon is reloaded it will try and reload to this ammo capacity
             // Optional callback function for when the CSW gets disassembled, called with [tripod, staticWeapon]
             disassembleFunc = "prefix_fnc_handleDisassembly";
-            allowFireOnLoad = 1; //ace actions dont exist... this is just for completeness sake
+            allowFireOnLoad = 1; // ACE actions don't exist... this is just for completeness sake
             /*
             * Available Options:
             *   0 - Disabled
