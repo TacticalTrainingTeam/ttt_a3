@@ -13,7 +13,7 @@ In der `initServer.sqf` oder während der Mission auf dem Server ausführen.
     ],
     clear
 ] call ttt_common_fnc_crateFiller;
-``` 
+```
 
 Argumente:
 
@@ -40,7 +40,7 @@ Keiner
     ],
     false
 ] call ttt_common_fnc_crateFiller;
-``` 
+```
 
 ### `addIntel`
 
@@ -48,7 +48,7 @@ In der `initPlayerLocal.sqf` ausführen.
 
 ``` c++
 [intel, action, hide, [titel, text]] call ttt_common_fnc_addIntel;
-``` 
+```
 
 Argumente:
 
@@ -69,7 +69,7 @@ Keiner
 ``` c++
 [intel_01, "Lagekarte des Gegners untersuchen", false, ["gefundene Karte", "<img image='pictures\Karte_v3.paa' width=370 height=370/>"]] call ttt_common_fnc_addIntel;
 [intel_02, "Dokumente nehmen", true, ["eingesammeltes Dokument", "Hier stehen wichtige Informationen"]] call ttt_common_fnc_addIntel;
-``` 
+```
 
 ### `callReinforcements`
 
@@ -81,7 +81,7 @@ Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 
 ``` c++
 [spawnPos, releasePos, attackPos, side, vehicle, rpBehaviour, infantry, groupBehaviour, flyHeight] call ttt_common_fnc_callReinforcements;
-``` 
+```
 
 | rpBehaviour  | Luftfahrzeug | Landfahrzeug |
 | - | - | - |
@@ -115,7 +115,7 @@ Keiner
 [l_sp_1, l_rp_1, l_at_1, EAST, "O_Heli_Light_02_dynamicLoadout_F", 2, ["O_Soldier_SL_F","O_Soldier_TL_F","O_Soldier_F","O_Soldier_F"]] call ttt_common_fnc_callReinforcements;
 [l_sp_1, l_rp_1, l_at_1, EAST, "O_APC_Wheeled_02_rcws_v2_F", 2, configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad"] call ttt_common_fnc_callReinforcements;
 [l_sp_1, l_rp_1, l_at_1, EAST, "O_Heli_Light_02_dynamicLoadout_F", 2, ["O_Soldier_SL_F","O_Soldier_TL_F","O_Soldier_F"], 1, 50] call ttt_common_fnc_callReinforcements;
-``` 
+```
 
 ### `doFlakFire`
 
@@ -123,7 +123,7 @@ Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 
 ``` c++
 handle = [object] call ttt_common_fnc_doFlakFire;
-``` 
+```
 
 Argumente:
 
@@ -139,19 +139,19 @@ handle NUMBER - Per-Frame-Handler mit dem das Feuer später beendet werden kann
 
 ``` c++
 [handle_01] call CBA_fnc_removePerFrameHandler;
-``` 
+```
 
 #### Beispiel
 
 ``` c++
 handle_01 = [flak_01] call ttt_common_fnc_doFlakFire;
-``` 
+```
 
 ### `setAISkill`
 
 ``` c++
 [unit, general, courage, aimingAccuracy, aimingShake, aimingSpeed, commanding, spotDistance, spotTime, reloadSpeed] call ttt_common_fnc_setAISkill;
-``` 
+```
 
 Argumente:
 
@@ -177,7 +177,7 @@ Keiner
 ``` c++
 //Make a rookie
 [ai_01, 0.45, 0.45, 0.25, 0.25, 0.25, 0.45, 0.45, 0.45, 0.45] call ttt_common_fnc_setAISkill;
-``` 
+```
 
 ### `setAISkillLevel`
 
@@ -193,7 +193,7 @@ Bei fehlender oder falscher Angabe wird "Veteran" ausgewählt. Die Werte innerha
 
 ``` c++
 [unit, "Skill-Level"] call ttt_fnc_common_setAISkillLevel;
-``` 
+```
 
 Argumente:
 
@@ -211,7 +211,23 @@ Keiner
 ``` c++
 [ai_01, "Recruit"] call ttt_common_fnc_setAISkillLevel;
 [_x, "Veteran"] call ttt_common_fnc_setAISkillLevel;
-``` 
+```
+
+## `wideAssault`
+
+Variante des Lambs Assault, aber die Einheiten haben mehr Abstand zueinander. In einer Unit-Init oder Wegpunkt-Init ausführen.
+
+``` c++
+[_group, _target, _spacing] call ttt_common_fnc_wideAssault;
+```
+
+Argumente:
+
+| # | Parameter | Typ | Beschreibung | Optional | Default |
+| - | - | - | - | - | - |
+| 0 | Gruppe | GROUP | Gruppe die den Angriff ausführen soll | Nein | - |
+| 1 | Position | OBJECT, MARKER, POSITION | Zielwegpunkt der angegriffen werden soll | Nein | - |
+| 2 | Spacing | NUMBER | Abstand zwischen den Einheiten in m | ja | 30 |
 
 ## Maintainer
 
