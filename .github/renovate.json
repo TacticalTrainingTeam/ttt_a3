@@ -8,3 +8,72 @@
     "Andx667"
   ]
 }
+
+// {
+//   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+//   "extends": [
+//     "config:recommended",
+//     ":dependencyDashboard",
+//     ":semanticCommits",
+//     ":separateMajorReleases",
+//     "group:allNonMajor"
+//   ],
+//   "labels": ["tools", "dependencies"],
+//   "timezone": "Europe/Berlin",
+//   "schedule": ["before 5am on Monday"],
+//   "prConcurrentLimit": 3,
+//   "prCreation": "not-pending",
+//   "rebaseWhen": "conflicted",
+//   "assignees": ["@andyb"],
+//   "reviewers": ["team:ttt-team"],
+//   "packageRules": [
+//     {
+//       "description": "Group all patch and minor updates together",
+//       "matchUpdateTypes": ["minor", "patch"],
+//       "groupName": "all non-major dependencies",
+//       "groupSlug": "all-minor-patch"
+//     },
+//     {
+//       "description": "Automerge patch updates",
+//       "matchUpdateTypes": ["patch"],
+//       "automerge": true,
+//       "automergeType": "pr"
+//     },
+//     {
+//       "description": "Require approval for major updates",
+//       "matchUpdateTypes": ["major"],
+//       "labels": ["major-update", "requires-review"],
+//       "assignees": ["@andyb"]
+//     },
+//     {
+//       "description": "Pin GitHub Actions to commit SHA",
+//       "matchManagers": ["github-actions"],
+//       "pinDigests": true
+//     },
+//     {
+//       "description": "Separate PR for GitHub Actions",
+//       "matchManagers": ["github-actions"],
+//       "groupName": "GitHub Actions",
+//       "semanticCommitType": "ci"
+//     },
+//     {
+//       "description": "Update Python dependencies weekly",
+//       "matchManagers": ["pip_requirements", "poetry"],
+//       "schedule": ["before 5am on Monday"]
+//     }
+//   ],
+//   "vulnerabilityAlerts": {
+//     "labels": ["security"],
+//     "assignees": ["@andyb"]
+//   },
+//   "lockFileMaintenance": {
+//     "enabled": true,
+//     "schedule": ["before 5am on the first day of the month"]
+//   },
+//   "commitMessagePrefix": "chore(deps):",
+//   "commitMessageAction": "update",
+//   "commitMessageTopic": "{{depName}}",
+//   "prTitle": "{{commitMessagePrefix}} {{commitMessageAction}} {{commitMessageTopic}} to {{#if isMajor}}v{{newMajor}}{{else}}{{#if isSingleVersion}}v{{newVersion}}{{else}}{{newValue}}{{/if}}{{/if}}",
+//   "ignoreDeps": [],
+//   "ignorePresets": []
+// }
