@@ -3,5 +3,8 @@
   "extends": [
     "config:recommended"
   ],
-  "labels": ["tools"]
+  "labels": ["tools"],
+  "reviewers": [
+    "Andx667"
+  ]
 }
