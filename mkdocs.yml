@@ -168,6 +168,7 @@ nav:
     - Objekte: addons/common/objects.md
   - Konterartillerie: addons/counterari.md
   - Loadout-System (MPLS): addons/mpls.md
+  - No Chain: addons/no_chain.md
   - Mobile San-Einrichtung (Fahrzeug): addons/medic_vehicle.md
   - Mobile San-Einrichtung (Rucksack): addons/medic_backpack.md
   - Mobile Werkstatt: addons/repair_vehicle.md
