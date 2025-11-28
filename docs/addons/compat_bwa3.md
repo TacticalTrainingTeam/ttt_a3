@@ -8,6 +8,10 @@ Fügt dem Eagle IV zwei abnehmbare Rucksäcke `BWA3_PatrolPack_Fleck`/`BWA3_Patr
 
 Sperrt die Plätze 13 und 14 des NH-90, da diese unter dem Hubschrauber sitzen.
 
+## M120 Mörser
+
+Ergänzt die `allowFireOnLoad = 1;` Eigenschaft. Siehe <https://ace3.acemod.org/wiki/framework/crew-served-weapons-framework#3-additional-configuration-parameters>
+
 ## ACRE
 
 Konfiguriert alle Fahrzeuge mit den gleichen Rack Einstellungen:
