@@ -99,6 +99,12 @@ workshop = [
     "1638341685" # DUI Squad Radar
 ]
 
+[usp]
+extends = "default"
+workshop = [
+    "1795825073" # USP AiO
+]
+
 [server]
 extends = "default"
 parameters = [
