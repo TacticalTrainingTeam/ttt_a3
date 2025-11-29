@@ -62,52 +62,68 @@ class CfgVehicles {
     };
 
     class USP_TACTICAL_PACK: Bag_Base {
-        maximumLoad = 240;
+        maximumLoad = 240; //340?
+        mass = 80;
     };
     class USP_TACTICAL_PACK_CCT: Bag_Base {
         maximumLoad = 240;
+        mass = 80;
     };
     class USP_TACTICAL_PACK_CCT2: Bag_Base {
         maximumLoad = 240;
+        mass = 80;
     };
     class USP_TACTICAL_PACK_CCT3: Bag_Base {
         maximumLoad = 240;
+        mass = 80;
     };
     class USP_TACTICAL_PACK_CCT4: Bag_Base {
         maximumLoad = 240;
+        mass = 80;
     };
     class USP_TACTICAL_PACK_CCT5: Bag_Base {
         maximumLoad = 240;
+        mass = 80;
     };
     class USP_TACTICAL_PACK_CCT6: Bag_Base {
         maximumLoad = 240;
+        mass = 80;
     };
     class USP_TACTICAL_PACK_CCT7: Bag_Base {
         maximumLoad = 240;
+        mass = 80;
     };
     class USP_TACTICAL_PACK_CCT8: Bag_Base {
         maximumLoad = 240;
+        mass = 80;
     };
     class USP_TACTICAL_PACK_PO1: Bag_Base {
         maximumLoad = 240;
+        mass = 80;
     };
     class USP_TACTICAL_PACK_PO2: Bag_Base {
         maximumLoad = 240;
+        mass = 80;
     };
     class USP_TACTICAL_PACK_PO3: Bag_Base {
         maximumLoad = 240;
+        mass = 80;
     };
     class USP_TACTICAL_PACK_PO4: Bag_Base {
         maximumLoad = 240;
+        mass = 80;
     };
     class USP_TACTICAL_PACK_PO5: Bag_Base {
         maximumLoad = 240;
+        mass = 80;
     };
     class USP_TACTICAL_PACK_PO6: Bag_Base {
         maximumLoad = 240;
+        mass = 80;
     };
     class USP_TACTICAL_PACK_PO7: Bag_Base {
         maximumLoad = 240;
+        mass = 80;
     };
 
     class USP_PATROL_PACK: Bag_Base {
