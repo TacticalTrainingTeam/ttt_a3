@@ -197,5 +197,6 @@ nav:
   - Compat RHS: addons/compat_rhs.md
   - Compat RNT: addons/compat_rnt.md
   - Compat TSP: addons/compat_tsp.md
+  - Compat USP: addons/compat_usp.md
   - Compat Vanilla: addons/compat_vanilla.md
   - Compat XEH Fix: addons/compat_xeh_fix.md
