@@ -62,7 +62,7 @@ class CfgVehicles {
     };
 
     class USP_TACTICAL_PACK: Bag_Base {
-        maximumLoad = 240; //340?
+        maximumLoad = 240; //Same a vanilla bag with the same model
         mass = 80;
     };
     class USP_TACTICAL_PACK_CCT: Bag_Base {
@@ -127,7 +127,7 @@ class CfgVehicles {
     };
 
     class USP_PATROL_PACK: Bag_Base {
-        maximumLoad = 280;
+        maximumLoad = 280; //Same a cup bag with the same model
     };
     class USP_PATROL_PACK_CB: Bag_Base {
         maximumLoad = 280;
