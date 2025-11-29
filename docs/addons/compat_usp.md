@@ -2,18 +2,18 @@
 
 ## Brillen
 
-Blendet einige Fehlerhafte Gegenstände aus.
+Blendet einige fehlerhafte Gegenstände aus.
 
 ## Helme
 
-Fügt Helmen Gehörschutz und realisitischen Ballistischen Schutz hinzu.
+Fügt Helmen Gehörschutz und realistischen ballistischen Schutz hinzu.
 
 ## Rucksäcke
 
 Passt einige Rucksäcke an.
 
 - Erhöht die Kapazität der "Reebow 3DAP" Rucksäcke auf `280`
-- Erhöht die Kapazität der "Tactical" Rucksäcke auf `240` und erhöht das Gewicht auf `80`
+- Erhöht die Kapazität der "Tactical" Rucksäcke auf `240` und das Gewicht auf `80`
 - Erhöht die Kapazität der "Patrol" Rucksäcke auf `280`
 - Fügt einigen Rucksäcken die `ACE_Wirecutter` Funktion hinzu.
 
