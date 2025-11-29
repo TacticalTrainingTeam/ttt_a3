@@ -7,6 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"ttt_common", "USP_Gear_Pack"};
+        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Andx"};
         url = ECSTRING(main,URL);
