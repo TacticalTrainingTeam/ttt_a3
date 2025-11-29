@@ -1,0 +1,14899 @@
+class InventoryItem_Base_F;
+    class ItemCore;
+    class HeadgearItem: InventoryItem_Base_F {};
+    class H_HelmetB: ItemCore {
+        class ItemInfo: HeadgearItem {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GU: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_IB: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_IR: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_LP: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_NS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PH: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_SF: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_GB: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_GC: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_GG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_GU: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_IB: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_IR: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_LP: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_MC: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_NS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_PC: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_PH: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_PS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_SF: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB_IR: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB_IR_PH: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB_IR_PH_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB_IR_PS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB_IR_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB_IR_RM_PS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB_IR_RM_SF: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB_IR_SF: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB_PH: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB_PH_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB_PH_RM_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB_PH_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB_PS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB_PS_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB_RM_PS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB_RM_PS_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB_RM_SF: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB_RM_SF_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB_RM_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB_SF: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GB_SF_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_IB: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_IB_PH: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_IB_PH_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_IB_PS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_IB_PS_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_IB_SF: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_IB_SF_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_IB_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_IR: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_IR_NS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_IR_NS_PH: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_IR_PH: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_IR_PS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_IR_SF: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_NS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_NS_PH: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_NS_PS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_NS_SF: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_PH: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_PH_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_PS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_PS_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_SF: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_SF_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_GC_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GB: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GB_IR: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GB_IR_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GB_NS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GB_NS_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GB_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GB_RM_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GB_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GC: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GC_IB: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GC_IB_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GC_IR: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GC_NS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GC_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GG_GB: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GG_GB_IB: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GG_GB_IB_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GG_GB_IB_RM_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GG_GB_IB_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GG_GB_IR: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GG_GB_IR_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GG_GB_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GG_GB_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GG_IB: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GG_IB_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GG_IB_RM_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GG_IB_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GG_IR: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GG_IR_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GG_NS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GG_NS_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GG_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GG_RM_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GG_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GU: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_IB: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_IR: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_LP: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_NS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_RM_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_NS_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_IR_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_IR_NS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_IR_NS_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_IB_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_IB_RM_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_IB_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_LP_IB: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_LP_IB_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_LP_IB_RM_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_LP_IB_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_LP_IR: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_LP_IR_NS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_LP_IR_NS_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_LP_IR_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_LP_NS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_LP_NS_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_LP_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_LP_RM_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GU_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GU_RM_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GU_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GU_NS_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GU_NS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GU_IR_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GU_IR_NS_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GU_IR_NS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GU_IR: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GU_IB_RM_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GU_IB_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GU_IB_RM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_GU_IB: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_LP_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CT_CM_PC_VL: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_GRN: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_TAN: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_CM: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_GB: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_GC: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_GG: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_GU: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_IB: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_IR: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_LP: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_MC: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_HEAD_MICH_TC2002_TAN: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_NS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_PC: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_PH: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_PS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_RM: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_S2: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_S3: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_SF: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_MICH_TC2000_VL: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_HEAD_RBH_ATTACK_TAN: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_BLK: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_MCD: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_MC: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_OD: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CM: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMWGU: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMWGUI: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMWGUIS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMWGUISV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMWGUIT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMWGUITV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMWGUIV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMWGUS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMWGUSV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMWGUT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMWGUTV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMWGUV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMWI: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMWIS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMWISV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMWIT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMWITV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMWIV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMWS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMWSV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMWT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMWTV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMWV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMGU: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMGUI: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMGUIS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMGUISV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMGUIT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMGUITV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMGUIV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMGUS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMGUSV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMGUT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMGUTV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMGUV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMI: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMIS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMISV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMIT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMITV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMIV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMSV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMTV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CMV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CP: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CPC3: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CT3: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CWGU: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CWGUI: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CWGUIS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CWGUISV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CWGUIT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CWGUITV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CWGUIV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CWGUS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CWGUSV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CWGUT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CWGUTV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CWI: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CWIS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CWISV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CWIT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CWITV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CWIV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CWS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CWSV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CWT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CWTV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_CWV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_GU: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_GUI: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_GUIS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_GUISV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_GUIT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_GUITV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_GUIV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_GUS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_GUSV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_GUT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_GUTV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_GUV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_IR: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_IRS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_IRSV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_IRT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_IRTV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_IRV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_SF: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_SFV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_TL: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_TLV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_CRYE_AIRFRAME_VL: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPS_FASTXP: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPS_FASTXP_CT: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPS_FASTXP_CU: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPS_FASTXP_CO: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPS_FASTXP_BLK_MC: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPS_FASTXP_BLK_MC_01: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPS_FASTXP_BLK_MC_02: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPS_FASTXP_BLK_MC_03: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPS_FASTXP_BLK_MC_04: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPS_FASTXP_BLK_MC_05: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPS_FASTXP_BLK_MC_06: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPS_FASTXP_BLK_MC_07: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPS_FASTXP_BLK_MC_08: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_M: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_MW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_MG: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_MGW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_MGS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_MGSW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_MGT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_MGTW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_MS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_MSW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_MT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_MTW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_M: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_MW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_MG: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_MGW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_MGS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_MGSW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_MGT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_MGTW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_MS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_MSW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_MT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_MTW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_CM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_CMW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_CMG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_CMGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_CMGSW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_CMGT: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_CMGTW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_CMS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_CMSW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_CMT: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_CMTW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_CW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_CGW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_CGSW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_CGT: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_CGTW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_CSW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_CT: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_CTW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_W: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_G: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_GW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_GS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_GSW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_GT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_GTW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_S: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_SW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_T: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMTC_TW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_CM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_CMW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_CMG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_CMGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_CMGSW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_CMGT: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_CMGTW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_CMS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_CMSW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_CMT: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_CMTW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_CW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_CGW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_CGSW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_CGT: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_CGTW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_CSW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_CT: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_CTW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_W: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_M: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_MW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_MG: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_MGW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_MGS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_MGSW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_MGT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_MGTW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_MS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_MSW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_MT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_MTW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_CM: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_CMW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_CMG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_CMGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_CMGSW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_CMGT: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_CMGTW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_CMS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_CMSW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_CMT: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_CMTW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_CW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_CGW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_CGSW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_CGT: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_CGTW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_CSW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_CT: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_CTW: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_W: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_FULL_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_FULL: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_G: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_GW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_GS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_GSW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_GT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_GTW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_S: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_SW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_T: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_FCV_TW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_G: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_GW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_GS: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_GSW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_GT: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_GTW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_S: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_SW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_T: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_OPSCORE_FASTMT_TW: H_HelmetB {
+        class ItemInfo: ItemInfo {
+            mass = 30;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.5;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ABU_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_AOR1_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_AOR2_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSAU_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSFG_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSIX_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_BLK_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_CBR_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_DCU_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KHK_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTBANSHEE_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTHIGHLANDER_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTNEPTUNE_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTNOMAD_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTPONTUS_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTTYPHON_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTYETI_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_M81_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCA_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCB_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCD_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCT_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MPW_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MTP_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_OD_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RGR_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT2_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT3_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT4_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT5_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT6_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT7_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_TGR_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_TGRD_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_UCP_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_UCPD_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_US4CES_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ABU_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_AOR1_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSAU_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSFG_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_AOR2_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSIX_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_BLK_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_CBR_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_DCU_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KHK_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTBANSHEE_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTHIGHLANDER_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTNEPTUNE_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTNOMAD_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTPONTUS_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTTYPHON_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTYETI_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_M81_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCA_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCB_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCD_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCT_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MPW_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MTP_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_OD_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RGR_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT2_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT3_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT4_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT5_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT6_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT7_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_TGR_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_TGRD_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_UCP_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_UCPD_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_US4CES_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ABU_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_AOR1_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_AOR2_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSAU_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSFG_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSIX_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_BLK_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_CBR_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_DCU_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KHK_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTBANSHEE_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTHIGHLANDER_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTNEPTUNE_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTNOMAD_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTPONTUS_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTTYPHON_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTYETI_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_M81_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCA_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCB_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCD_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCT_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MPW_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MTP_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_OD_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RGR_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT2_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT3_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT4_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT5_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT6_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT7_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_TGR_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_TGRD_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_UCP_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_UCPD_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_US4CES_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ABU_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_AOR1_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_AOR2_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSAU_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSFG_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSIX_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_BLK_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_CBR_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_DCU_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KHK_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTBANSHEE_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTHIGHLANDER_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTNEPTUNE_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTNOMAD_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTPONTUS_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTTYPHON_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTYETI_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_M81_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCA_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCB_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCD_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCT_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MPW_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MTP_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_OD_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RGR_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT2_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT3_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT4_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT5_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT6_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT7_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_TGR_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_TGRD_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_UCP_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_UCPD_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_US4CES_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ABU_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_AOR1_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_AOR2_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSAU_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSFG_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSIX_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_BLK_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_CBR_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_DCU_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KHK_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTBANSHEE_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTHIGHLANDER_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTNEPTUNE_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTNOMAD_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTPONTUS_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTTYPHON_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTYETI_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_M81_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCA_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCB_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCD_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCT_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MPW_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MTP_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_OD_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RGR_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT2_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT3_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT4_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT5_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT6_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT7_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_TGR_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_TGRD_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_UCP_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_UCPD_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_US4CES_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ABU_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_AOR1_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_AOR2_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSAU_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSFG_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSIX_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_BLK_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_CBR_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_DCU_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KHK_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTBANSHEE_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTHIGHLANDER_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTNEPTUNE_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTNOMAD_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTPONTUS_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTTYPHON_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTYETI_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_M81_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCA_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCB_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCD_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCT_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MPW_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MTP_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_OD_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RGR_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT2_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT3_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT4_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT5_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT6_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT7_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_TGR_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_TGRD_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_UCP_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_UCPD_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_US4CES_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ABU_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_AOR1_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_AOR2_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSAU_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSFG_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSIX_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_BLK_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_CBR_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_DCU_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KHK_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTBANSHEE_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTHIGHLANDER_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTNEPTUNE_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTNOMAD_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTPONTUS_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTTYPHON_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTYETI_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_M81_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCA_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCB_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCD_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCT_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MPW_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MTP_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_OD_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RGR_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT2_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT3_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT4_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT5_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT6_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT7_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_TGR_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_TGRD_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_UCP_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_UCPD_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_US4CES_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_AOR1_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_AOR2_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSAU_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSFG_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ATACSIX_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_BLK_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_CBR_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_DCU_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KHK_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTBANSHEE_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTHIGHLANDER_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTNEPTUNE_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTNOMAD_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTPONTUS_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTTYPHON_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_KTYETI_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_M81_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCA_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCB_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCD_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MCT_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MPW_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_MTP_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_OD_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RGR_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT2_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT3_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT4_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT5_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT6_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_RT7_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_TGR_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_TGRD_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_UCP_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_UCPD_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_US4CES_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ABU_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_AOR1_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_AOR2_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSAU_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSFG_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSIX_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_BLK_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_CBR_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_DCU_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KHK_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTBANSHEE_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTHIGHLANDER_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTNEPTUNE_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTNOMAD_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTPONTUS_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTTYPHON_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTYETI_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_M81_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCA_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCB_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCD_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCT_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MPW_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MTP_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_OD_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RGR_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT2_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT3_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT4_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT5_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT6_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT7_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_TGR_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_TGRD_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_UCP_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_UCPD_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_US4CES_C: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ABU_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_AOR1_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_AOR2_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSAU_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSFG_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSIX_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_BLK_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_CBR_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_DCU_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KHK_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTBANSHEE_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTHIGHLANDER_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTNEPTUNE_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTNOMAD_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTPONTUS_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTTYPHON_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTYETI_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_M81_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCA_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCB_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCD_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCT_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MPW_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MTP_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_OD_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RGR_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT2_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT3_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT4_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT5_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT6_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT7_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_TGR_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_TGRD_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_UCP_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_UCPD_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_US4CES_CD: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ABU_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_AOR1_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_AOR2_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSAU_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSFG_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSIX_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_BLK_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_CBR_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_DCU_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KHK_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTBANSHEE_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTHIGHLANDER_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTNEPTUNE_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTNOMAD_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTPONTUS_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTTYPHON_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTYETI_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_M81_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCA_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCB_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCD_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCT_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MPW_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MTP_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_OD_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RGR_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT2_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT3_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT4_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT5_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT6_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT7_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_TGR_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_TGRD_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_UCP_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_UCPD_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_US4CES_CDS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ABU_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_AOR1_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_AOR2_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSAU_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSFG_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSIX_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_BLK_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_CBR_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_DCU_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KHK_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTBANSHEE_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTHIGHLANDER_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTNEPTUNE_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTNOMAD_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTPONTUS_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTTYPHON_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTYETI_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_M81_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCA_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCB_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCD_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCT_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MPW_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MTP_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_OD_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RGR_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT2_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT3_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT4_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT5_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT6_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT7_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_TGR_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_TGRD_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_UCP_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_UCPD_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_US4CES_CG: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ABU_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_AOR1_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_AOR2_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSAU_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSFG_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSIX_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_BLK_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_CBR_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_DCU_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KHK_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTBANSHEE_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTHIGHLANDER_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTNEPTUNE_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTNOMAD_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTPONTUS_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTTYPHON_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTYETI_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_M81_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCA_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCB_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCD_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCT_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MPW_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MTP_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_OD_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RGR_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT2_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT3_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT4_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT5_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT6_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT7_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_TGR_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_TGRD_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_UCP_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_UCPD_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_US4CES_CGS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ABU_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_AOR1_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_AOR2_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSAU_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSFG_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSIX_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_BLK_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_CBR_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_DCU_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KHK_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTBANSHEE_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTHIGHLANDER_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTNEPTUNE_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTNOMAD_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTPONTUS_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTTYPHON_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTYETI_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_M81_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCA_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCB_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCD_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCT_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MPW_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MTP_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_OD_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RGR_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT2_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT3_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT4_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT5_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT6_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT7_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_TGR_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_TGRD_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_UCP_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_UCPD_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_US4CES_CS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_DCU_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KHK_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTBANSHEE_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTHIGHLANDER_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTNEPTUNE_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTNOMAD_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTPONTUS_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTTYPHON_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTYETI_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_M81_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCA_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCB_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCD_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCT_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MPW_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MTP_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_OD_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RGR_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT2_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT3_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT4_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT5_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT6_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT7_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_TGR_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_TGRD_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_UCP_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_UCPD_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_US4CES_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ABU_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_AOR1_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_AOR2_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSAU_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSFG_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSIX_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_BLK_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_CBR_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_DCU_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KHK_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTBANSHEE_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTHIGHLANDER_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTNEPTUNE_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTNOMAD_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTPONTUS_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTTYPHON_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_KTYETI_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_M81_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCA_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCB_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCD_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MCT_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MPW_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_MTP_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_OD_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RGR_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT2_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT3_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT4_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT5_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT6_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_RT7_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_TGR_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_TGRD_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_UCP_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_UCPD_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_US4CES_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_CT3_PANTHERS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_CT3O_PANTHERS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_CT3_PANTHERS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_CT3O_PANTHERS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_CBR_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_BLK_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSIX_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSFG_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ATACSAU_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_AOR2_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_AOR1_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_ABU_CJ: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_ABU_CJS: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_CT3: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAP_CT3O: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_CT3: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_BASEBALL_CAPB_CT3O: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_PELTOR_COMTAC3: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USP_PELTOR_COMTAC3_OFF: H_HelmetB {
+        ace_hearing_protection = 0.8;
+        ace_hearing_lowerVolume = 0.2;
+        ace_hearing_hasEHP = 1;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName = "HitHead";
+                    armor = 0;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class USPF_OPS_FASTXP_CT_AOR1: USP_OPS_FASTXP_CT {
+        displayName = "[USPF] Ops-Core Fast CT (AOR1)";
+        picture = "\usp_gear_head\data\ui\ops_fastxp_aor1_ca.paa";
+        hiddenSelectionsTextures[] = {"\usp_gear_head\data\tex\ops_fastxp_aor1_co.paa", "\usp_gear_head\data\tex\peltor_comtac2_co.paa"};
+    };
+    class USPF_OPS_FASTXP_CT_AOR2: USP_OPS_FASTXP_CT {
+        displayName = "[USPF] Ops-Core Fast CT (AOR2)";
+        picture = "\usp_gear_head\data\ui\ops_fastxp_aor2_ca.paa";
+        hiddenSelectionsTextures[] = {"\usp_gear_head\data\tex\ops_fastxp_aor2_co.paa", "\usp_gear_head\data\tex\peltor_comtac2_co.paa"};
+    };
+    class USPF_OPS_FASTXP_CT_MC: USP_OPS_FASTXP_CT {
+        displayName = "[USPF] Ops-Core Fast CT (MC)";
+        picture = "\usp_gear_head\data\ui\ops_fastxp_mc_ca.paa";
+        hiddenSelectionsTextures[] = {"\usp_gear_head\data\tex\ops_fastxp_mc_co.paa", "\usp_gear_head\data\tex\peltor_comtac2_co.paa"};
+    };
+    class USPF_OPS_FASTXP_CT_TNP2: USP_OPS_FASTXP_CT {
+        displayName = "[USPF] Ops-Core Fast CT (TNP)";
+        picture = "\usp_gear_head\data\ui\ops_fastxp_tan_paint_ca.paa";
+        hiddenSelectionsTextures[] = {"\usp_gear_head\data\tex\ops_fastxp_tan_paint_co.paa", "\usp_gear_head\data\tex\peltor_comtac2_co.paa"};
+    };
+    class USPF_OPS_FASTXP_CU_AOR1: USP_OPS_FASTXP_CU {
+        displayName = "[USPF] Ops-Core Fast CU (AOR1)";
+        picture = "\usp_gear_head\data\ui\ops_fastxp_aor1_ca.paa";
+        hiddenSelectionsTextures[] = {"\usp_gear_head\data\tex\ops_fastxp_aor1_co.paa", "\usp_gear_head\data\tex\peltor_comtac2_co.paa"};
+    };
+    class USPF_OPS_FASTXP_CU_AOR2: USP_OPS_FASTXP_CU {
+        displayName = "[USPF] Ops-Core Fast CU (AOR2)";
+        picture = "\usp_gear_head\data\ui\ops_fastxp_aor2_ca.paa";
+        hiddenSelectionsTextures[] = {"\usp_gear_head\data\tex\ops_fastxp_aor2_co.paa", "\usp_gear_head\data\tex\peltor_comtac2_co.paa"};
+    };
+    class USPF_OPS_FASTXP_CU_MC: USP_OPS_FASTXP_CU {
+        displayName = "[USPF] Ops-Core Fast CU (MC)";
+        picture = "\usp_gear_head\data\ui\ops_fastxp_mc_ca.paa";
+        hiddenSelectionsTextures[] = {"\usp_gear_head\data\tex\ops_fastxp_mc_co.paa", "\usp_gear_head\data\tex\peltor_comtac2_co.paa"};
+    };
+    class USPF_OPS_FASTXP_CU_TNP2: USP_OPS_FASTXP_CU {
+        displayName = "[USPF] Ops-Core Fast CU (TNP)";
+        picture = "\usp_gear_head\data\ui\ops_fastxp_tan_paint_ca.paa";
+        hiddenSelectionsTextures[] = {"\usp_gear_head\data\tex\ops_fastxp_tan_paint_co.paa", "\usp_gear_head\data\tex\peltor_comtac2_co.paa"};
+    };
+    class USPF_OPS_FASTXP_CO_AOR1: USP_OPS_FASTXP_CO {
+        displayName = "[USPF] Ops-Core Fast CO (AOR1)";
+        picture = "\usp_gear_head\data\ui\ops_fastxp_aor1_ca.paa";
+        hiddenSelectionsTextures[] = {"\usp_gear_head\data\tex\ops_fastxp_aor1_co.paa", "\usp_gear_head\data\tex\peltor_comtac2_co.paa"};
+    };
+    class USPF_OPS_FASTXP_CO_AOR2: USP_OPS_FASTXP_CO {
+        displayName = "[USPF] Ops-Core Fast CO (AOR2)";
+        picture = "\usp_gear_head\data\ui\ops_fastxp_aor2_ca.paa";
+        hiddenSelectionsTextures[] = {"\usp_gear_head\data\tex\ops_fastxp_aor2_co.paa", "\usp_gear_head\data\tex\peltor_comtac2_co.paa"};
+    };
+    class USPF_OPS_FASTXP_CO_MC: USP_OPS_FASTXP_CO {
+        displayName = "[USPF] Ops-Core Fast CO (MC)";
+        picture = "\usp_gear_head\data\ui\ops_fastxp_mc_ca.paa";
+        hiddenSelectionsTextures[] = {"\usp_gear_head\data\tex\ops_fastxp_mc_co.paa", "\usp_gear_head\data\tex\peltor_comtac2_co.paa"};
+    };
+    class USPF_OPS_FASTXP_CO_TNP2: USP_OPS_FASTXP_CO {
+        displayName = "[USPF] Ops-Core Fast CO (TNP)";
+        picture = "\usp_gear_head\data\ui\ops_fastxp_tan_paint_ca.paa";
+        hiddenSelectionsTextures[] = {"\usp_gear_head\data\tex\ops_fastxp_tan_paint_co.paa", "\usp_gear_head\data\tex\peltor_comtac2_co.paa"};
+    };
