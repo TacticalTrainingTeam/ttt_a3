@@ -1,9 +1,7 @@
 class CfgWeapons {
     //UNIFORMS
     class UniformItem;
-    class Uniform_Base {
-        class ItemInfo;
-    };
+    class Uniform_Base;
     //Balance Changes by Bluefield
     class rhs_uniform_g3_mc: Uniform_Base {
         class ItemInfo: UniformItem {
@@ -177,15 +175,9 @@ class CfgWeapons {
     class ItemCore;
     class ItemInfo;
     class HeadgearItem;
-    class H_HelmetB: ItemCore {
-        class ItemInfo;
-    };
-    class InventoryItem_Base_F;
-    class InventoryMuzzleItem_Base_F;
-    class InventoryOpticsItem_Base_F;
-    class NVGoggles;
+    class H_HelmetB: ItemCore {};
     class rhsusf_patrolcap_ocp: H_HelmetB {
-    class ItemInfo: HeadgearItem {
+        class ItemInfo: HeadgearItem {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 5;
@@ -204,7 +196,7 @@ class CfgWeapons {
         };
     };
     class rhs_xmas_antlers: ItemCore {
-    class ItemInfo: HeadgearItem {
+        class ItemInfo: HeadgearItem {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 25;
@@ -223,7 +215,7 @@ class CfgWeapons {
         };
     };
     class rhs_Booniehat_ocp: ItemCore {
-    class ItemInfo: HeadgearItem {
+        class ItemInfo: HeadgearItem {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 5;
@@ -280,7 +272,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_ach_helmet_ocp: H_HelmetB {
-    class ItemInfo: ItemInfo {
+        class ItemInfo: ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 15;
@@ -318,7 +310,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_opscore_cover: rhsusf_opscore_01 {
-    class ItemInfo: ItemInfo {
+        class ItemInfo: ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -337,7 +329,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_opscore_mar_01: rhsusf_ach_helmet_ocp {
-    class ItemInfo: ItemInfo {
+        class ItemInfo: ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -356,7 +348,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_cvc_helmet: rhsusf_opscore_01 {
-    class ItemInfo: ItemInfo {
+        class ItemInfo: ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -375,7 +367,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_hgu56p: rhsusf_opscore_01 {
-    class ItemInfo: ItemInfo {
+        class ItemInfo: ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 25;
@@ -394,7 +386,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_mich_helmet_marpatwd: H_HelmetB {
-    class ItemInfo: ItemInfo {
+        class ItemInfo: ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -422,7 +414,7 @@ class CfgWeapons {
         class ItemInfo: ItemInfo {};
     };
     class rhsusf_mich_bare_alt: rhsusf_mich_bare {
-    class ItemInfo: ItemInfo {
+        class ItemInfo: ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
