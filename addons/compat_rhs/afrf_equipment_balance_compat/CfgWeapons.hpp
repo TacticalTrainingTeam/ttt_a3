@@ -1,10 +1,9 @@
 class cfgWeapons {
     //HEADWEAR
-    class ItemCore;
     class ItemInfo;
 
     //VESTS
-    class Vest_Camo_Base: ItemCore {};
+    class Vest_Camo_Base;
     class rhs_6b23: Vest_Camo_Base {
         class ItemInfo: ItemInfo {
             containerClass = "Supply220";

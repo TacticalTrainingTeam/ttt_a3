@@ -404,15 +404,8 @@ class CfgWeapons {
             };
         };
     };
-    class rhsusf_mich_helmet_marpatwd_norotos_arc: rhsusf_mich_helmet_marpatwd {
-        class ItemInfo: ItemInfo {};
-    };
-    class rhsusf_mich_bare: rhsusf_mich_helmet_marpatwd {
-        class ItemInfo: ItemInfo {};
-    };
-    class rhsusf_mich_bare_headset: rhsusf_mich_bare {
-        class ItemInfo: ItemInfo {};
-    };
+    class rhsusf_mich_bare;
+    class rhsusf_mich_bare_headset;
     class rhsusf_mich_bare_alt: rhsusf_mich_bare {
         class ItemInfo: ItemInfo {
             ace_hearing_protection = 1;
@@ -432,12 +425,8 @@ class CfgWeapons {
             };
         };
     };
-    class rhsusf_mich_bare_norotos: rhsusf_mich_bare {
-        class ItemInfo: ItemInfo {};
-    };
-    class rhsusf_mich_bare_norotos_headset: rhsusf_mich_bare_headset {
-        class ItemInfo: ItemInfo {};
-    };
+    class rhsusf_mich_bare_norotos;
+    class rhsusf_mich_bare_norotos_headset;
     class rhsusf_mich_bare_norotos_alt: rhsusf_mich_bare_norotos {
         class ItemInfo: ItemInfo {
             ace_hearing_protection = 1;
@@ -476,12 +465,8 @@ class CfgWeapons {
             };
         };
     };
-    class rhsusf_mich_bare_norotos_arc: rhsusf_mich_bare {
-        class ItemInfo: ItemInfo {};
-    };
-    class rhsusf_mich_bare_norotos_arc_headset: rhsusf_mich_bare_headset {
-        class ItemInfo: ItemInfo {};
-    };
+    class rhsusf_mich_bare_norotos_arc;
+    class rhsusf_mich_bare_norotos_arc_headset;
     class rhsusf_mich_bare_norotos_arc_alt: rhsusf_mich_bare_norotos_arc {
         class ItemInfo: ItemInfo {
             ace_hearing_protection = 1;
@@ -596,9 +581,7 @@ class CfgWeapons {
             };
         };
     };
-    class rhsusf_mich_bare_norotos_semi: rhsusf_mich_bare_semi {
-        class ItemInfo: ItemInfo {};
-    };
+    class rhsusf_mich_bare_norotos_semi;
     class rhsusf_mich_bare_norotos_semi_headset: rhsusf_mich_bare_semi_headset {
         class ItemInfo: ItemInfo {
             ace_hearing_protection = 1;
