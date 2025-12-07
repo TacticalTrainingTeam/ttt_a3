@@ -17,7 +17,8 @@ class CfgPatches {
             "rhsgref_main",
             "rhsgref_c_weapons",
             "rhs_c_troops",
-            "rhsgref_c_troops"
+            "rhsgref_c_troops",
+            "DISABLED_TEMPORARY_FIX"//this prevents the addon from loading (until we know a real fix)
         };
         // List of weapons (CfgWeapons classes) contained in the addon.
         units[] = {
@@ -141,7 +142,7 @@ class CfgPatches {
         VERSION_CONFIG;
 
         // this prevents any patched class from requiring this addon
-        //addonRootClass = "A3_Characters_F";
+        addonRootClass = "A3_Characters_F";
     };
 };
 

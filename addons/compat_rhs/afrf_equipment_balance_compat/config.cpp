@@ -360,7 +360,7 @@ class CfgPatches {
         VERSION_CONFIG;
 
         // this prevents any patched class from requiring this addon
-        //addonRootClass = "A3_Characters_F";
+        addonRootClass = "A3_Characters_F";
     };
 };
 
