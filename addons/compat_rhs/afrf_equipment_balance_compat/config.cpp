@@ -17,7 +17,8 @@ class CfgPatches {
             "rhs_main",
             "rhs_c_weapons",
             "rhs_c_radio",
-            "rhs_c_troops"
+            "rhs_c_troops",
+            ""//this prevents the addon from loading (until we know a real fix)
         };
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {

@@ -17,7 +17,7 @@ class CfgPatches {
             "rhsgref_main",
             "rhsgref_c_weapons",
             "rhs_c_troops",
-            "rhsgref_c_troops",
+            "rhsgref_c_troops"
         };
         // List of weapons (CfgWeapons classes) contained in the addon.
         units[] = {

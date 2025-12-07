@@ -13,11 +13,10 @@ class CfgPatches {
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
         requiredAddons[] = {
-
             "ttt_compat_rhs",
             "rhsusf_main",
             "rhsusf_c_weapons",
-            "rhsusf_c_troops",
+            "rhsusf_c_troops"
         };
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {
