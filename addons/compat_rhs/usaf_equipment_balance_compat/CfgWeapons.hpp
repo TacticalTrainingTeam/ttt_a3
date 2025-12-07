@@ -174,9 +174,7 @@ class CfgWeapons {
     //HEADGEAR
     class ItemCore;
     class HeadgearItem;
-    class H_HelmetB: ItemCore {
-        class ItemInfo;
-    };
+    class H_HelmetB: ItemCore {};
     class rhsusf_patrolcap_ocp: H_HelmetB {
     class ItemInfo: HeadgearItem {
             ace_hearing_protection = 1;
@@ -273,7 +271,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_ach_helmet_ocp: H_HelmetB {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 15;
@@ -292,7 +290,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_opscore_01: rhsusf_ach_helmet_ocp {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -311,7 +309,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_opscore_cover: rhsusf_opscore_01 {
-    class ItemInfo: ItemInfo {
+    class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -330,7 +328,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_opscore_mar_01: rhsusf_ach_helmet_ocp {
-    class ItemInfo: ItemInfo {
+    class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -349,7 +347,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_cvc_helmet: rhsusf_opscore_01 {
-    class ItemInfo: ItemInfo {
+    class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -368,7 +366,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_hgu56p: rhsusf_opscore_01 {
-    class ItemInfo: ItemInfo {
+    class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 25;
@@ -387,7 +385,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_mich_helmet_marpatwd: H_HelmetB {
-    class ItemInfo: ItemInfo {
+    class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -406,16 +404,16 @@ class CfgWeapons {
         };
     };
     class rhsusf_mich_helmet_marpatwd_norotos_arc: rhsusf_mich_helmet_marpatwd {
-        class ItemInfo: ItemInfo {};
+        class ItemInfo {};
     };
     class rhsusf_mich_bare: rhsusf_mich_helmet_marpatwd {
-        class ItemInfo: ItemInfo {};
+        class ItemInfo {};
     };
     class rhsusf_mich_bare_headset: rhsusf_mich_bare {
-        class ItemInfo: ItemInfo {};
+        class ItemInfo {};
     };
     class rhsusf_mich_bare_alt: rhsusf_mich_bare {
-    class ItemInfo: ItemInfo {
+    class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -434,13 +432,13 @@ class CfgWeapons {
         };
     };
     class rhsusf_mich_bare_norotos: rhsusf_mich_bare {
-        class ItemInfo: ItemInfo {};
+        class ItemInfo {};
     };
     class rhsusf_mich_bare_norotos_headset: rhsusf_mich_bare_headset {
-        class ItemInfo: ItemInfo {};
+        class ItemInfo {};
     };
     class rhsusf_mich_bare_norotos_alt: rhsusf_mich_bare_norotos {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -459,7 +457,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_mich_bare_norotos_alt_headset: rhsusf_mich_bare_norotos_headset {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -478,13 +476,13 @@ class CfgWeapons {
         };
     };
     class rhsusf_mich_bare_norotos_arc: rhsusf_mich_bare {
-        class ItemInfo: ItemInfo {};
+        class ItemInfo {};
     };
     class rhsusf_mich_bare_norotos_arc_headset: rhsusf_mich_bare_headset {
-        class ItemInfo: ItemInfo {};
+        class ItemInfo {};
     };
     class rhsusf_mich_bare_norotos_arc_alt: rhsusf_mich_bare_norotos_arc {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -503,7 +501,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_mich_bare_norotos_arc_alt_headset: rhsusf_mich_bare_norotos_arc_headset {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -522,7 +520,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_mich_bare_tan: rhsusf_mich_bare {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -541,7 +539,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_mich_bare_tan_headset: rhsusf_mich_bare_headset {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -560,7 +558,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_mich_bare_semi: rhsusf_mich_bare {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -579,7 +577,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_mich_bare_semi_headset: rhsusf_mich_bare_headset {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -598,10 +596,10 @@ class CfgWeapons {
         };
     };
     class rhsusf_mich_bare_norotos_semi: rhsusf_mich_bare_semi {
-        class ItemInfo: ItemInfo {};
+        class ItemInfo {};
     };
     class rhsusf_mich_bare_norotos_semi_headset: rhsusf_mich_bare_semi_headset {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -620,7 +618,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_mich_bare_norotos_alt_semi: rhsusf_mich_bare_norotos_semi {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -639,7 +637,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_lwh_helmet_marpatd: H_HelmetB {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -677,7 +675,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_bowman_cap: rhsusf_Bowman {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 5;
@@ -696,7 +694,7 @@ class CfgWeapons {
         };
     };
     class RHS_jetpilot_usaf: H_HelmetB {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 25;
@@ -715,7 +713,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_ihadss: rhsusf_opscore_01 {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 25;
@@ -734,7 +732,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_protech_helmet: H_HelmetB {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 15;
@@ -753,11 +751,9 @@ class CfgWeapons {
         };
     };
     //VESTS
-    class Vest_Camo_Base: ItemCore {
-        class ItemInfo;
-    };
+    class Vest_Camo_Base: ItemCore {};
     class rhsusf_iotv_ocp_base: Vest_Camo_Base {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -806,7 +802,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_iotv_ocp: rhsusf_iotv_ocp_base {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -855,7 +851,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_iotv_ocp_Grenadier: rhsusf_iotv_ocp_base {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -904,7 +900,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_iotv_ocp_Medic: rhsusf_iotv_ocp_base {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -953,7 +949,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_iotv_ocp_Repair: rhsusf_iotv_ocp_base {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1002,7 +998,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_iotv_ocp_Rifleman: rhsusf_iotv_ocp_base {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1051,7 +1047,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_iotv_ocp_SAW: rhsusf_iotv_ocp_base {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1100,7 +1096,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_iotv_ocp_Squadleader: rhsusf_iotv_ocp_base {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1149,7 +1145,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_iotv_ocp_Teamleader: rhsusf_iotv_ocp_base {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1198,7 +1194,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_iotv_ucp_base: rhsusf_iotv_ocp_base {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1247,7 +1243,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_iotv_ucp: rhsusf_iotv_ocp {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1296,7 +1292,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_iotv_ucp_Grenadier: rhsusf_iotv_ucp_base {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1345,7 +1341,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_iotv_ucp_Medic: rhsusf_iotv_ucp_base {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1394,7 +1390,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_iotv_ucp_Repair: rhsusf_iotv_ucp_base {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1443,7 +1439,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_iotv_ucp_Rifleman: rhsusf_iotv_ucp_base {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1492,7 +1488,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_iotv_ucp_SAW: rhsusf_iotv_ucp_base {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1541,7 +1537,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spc: rhsusf_iotv_ocp_base {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1590,7 +1586,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spc_rifleman: rhsusf_spc {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1639,7 +1635,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_iotv_ucp_Squadleader: rhsusf_iotv_ucp_base {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1688,7 +1684,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spc_iar: rhsusf_spc_rifleman {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1737,7 +1733,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_iotv_ucp_Teamleader: rhsusf_iotv_ucp_base {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1786,7 +1782,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spc_corpsman: rhsusf_spc_rifleman {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1835,7 +1831,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spc_crewman: rhsusf_spc_rifleman {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1884,7 +1880,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spc_light: rhsusf_spc_rifleman {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1933,7 +1929,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spc_marksman: rhsusf_spc_rifleman {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1982,7 +1978,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spc_mg: rhsusf_spc_rifleman {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -2031,7 +2027,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spc_sniper: rhsusf_spc_rifleman {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -2080,7 +2076,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spc_squadleader: rhsusf_spc_rifleman {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -2129,7 +2125,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spc_teamleader: rhsusf_spc_rifleman {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -2178,7 +2174,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spc_patchless: rhsusf_spc_light {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -2227,7 +2223,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spc_patchless_radio: rhsusf_spc_squadleader {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -2276,7 +2272,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ocp: rhsusf_iotv_ocp_base {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -2325,7 +2321,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ocp_squadleader: rhsusf_spcs_ocp {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -2374,7 +2370,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ocp_teamleader: rhsusf_spcs_ocp {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -2423,7 +2419,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ocp_teamleader_alt: rhsusf_spcs_ocp {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -2472,7 +2468,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ocp_saw: rhsusf_spcs_ocp {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -2521,7 +2517,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ocp_grenadier: rhsusf_spcs_ocp {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -2570,7 +2566,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ocp_rifleman: rhsusf_spcs_ocp {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -2619,7 +2615,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ocp_rifleman_alt: rhsusf_spcs_ocp {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -2668,7 +2664,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ocp_medic: rhsusf_spcs_ocp {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -2717,7 +2713,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ocp_crewman: rhsusf_spcs_ocp {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -2766,7 +2762,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ocp_machinegunner: rhsusf_spcs_ocp {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -2815,7 +2811,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ocp_sniper: rhsusf_spcs_ocp {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -2864,7 +2860,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ucp: rhsusf_spcs_ocp {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -2913,7 +2909,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ucp_squadleader: rhsusf_spcs_ocp_squadleader {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -2962,7 +2958,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ucp_teamleader: rhsusf_spcs_ocp_teamleader {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -3011,7 +3007,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ucp_teamleader_alt: rhsusf_spcs_ocp_teamleader_alt {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -3060,7 +3056,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ucp_saw: rhsusf_spcs_ocp_saw {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -3109,7 +3105,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ucp_grenadier: rhsusf_spcs_ocp_grenadier {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -3158,7 +3154,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ucp_rifleman: rhsusf_spcs_ocp_rifleman {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -3207,7 +3203,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ucp_rifleman_alt: rhsusf_spcs_ocp_rifleman_alt {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -3256,7 +3252,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ucp_medic: rhsusf_spcs_ocp_medic {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -3305,7 +3301,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ucp_crewman: rhsusf_spcs_ocp_crewman {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -3354,7 +3350,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ucp_machinegunner: rhsusf_spcs_ocp_machinegunner {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -3403,7 +3399,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_spcs_ucp_sniper: rhsusf_spcs_ocp_sniper {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -3452,7 +3448,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_mbav: rhsusf_iotv_ocp_base {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -3501,7 +3497,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_mbav_light: rhsusf_mbav {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -3550,7 +3546,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_mbav_rifleman: rhsusf_mbav_light {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -3599,7 +3595,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_mbav_mg: rhsusf_mbav_light {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -3648,7 +3644,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_mbav_grenadier: rhsusf_mbav_light {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -3697,7 +3693,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_mbav_medic: rhsusf_mbav_light {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -3746,7 +3742,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_plateframe_sapi: rhsusf_iotv_ocp_base {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -3795,7 +3791,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_plateframe_light: rhsusf_plateframe_sapi {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -3844,7 +3840,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_plateframe_rifleman: rhsusf_plateframe_sapi {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -3893,7 +3889,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_plateframe_teamleader: rhsusf_plateframe_rifleman {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -3942,7 +3938,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_plateframe_grenadier: rhsusf_plateframe_rifleman {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -3991,7 +3987,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_plateframe_machinegunner: rhsusf_plateframe_rifleman {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -4040,7 +4036,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_plateframe_marksman: rhsusf_plateframe_rifleman {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -4089,7 +4085,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_plateframe_medic: rhsusf_plateframe_rifleman {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {

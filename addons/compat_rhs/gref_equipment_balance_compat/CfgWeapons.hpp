@@ -2,9 +2,7 @@ class cfgWeapons {
     //HEADWEAR
     class ItemCore;
     class HeadGearItem;
-    class H_HelmetB: ItemCore {
-        class ItemInfo;
-    };
+    class H_HelmetB: ItemCore {};
     class rhs_fieldcap_digi2;
     class rhsgref_un_beret: ItemCore {
         class ItemInfo: HeadGearItem {
@@ -83,7 +81,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_ssh68: H_HelmetB {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -102,7 +100,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_M56: H_HelmetB {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -121,7 +119,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_6b27m: H_HelmetB {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -140,7 +138,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_helmet_M1_bare: H_HelmetB {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 15;
@@ -159,7 +157,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_helmet_M1_liner: H_HelmetB {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 15;
@@ -178,7 +176,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_helmet_M1_mit: H_HelmetB {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 15;
@@ -197,7 +195,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_helmet_M1_erdl: rhsgref_helmet_M1_mit {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 15;
@@ -216,7 +214,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_helmet_M1_des: rhsgref_helmet_M1_mit {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 15;
@@ -235,7 +233,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_hat_M1951: H_HelmetB {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 5;
@@ -254,10 +252,10 @@ class cfgWeapons {
         };
     };
     class rhsgref_hat_m1941cap: rhsgref_hat_M1951 {
-        class ItemInfo: ItemInfo {};
+        class ItemInfo {};
     };
     class rhsgref_helmet_pasgt_erdl: H_HelmetB {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -276,7 +274,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_helmet_pasgt_erdl_rhino: H_HelmetB {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -295,7 +293,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_helmet_pasgt_woodland_rhino: rhsgref_helmet_pasgt_erdl_rhino {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -314,7 +312,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_helmet_pasgt_3color_desert_rhino: rhsgref_helmet_pasgt_erdl_rhino {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -332,31 +330,19 @@ class cfgWeapons {
             };
         };
     };
-    class rhsgref_helmet_m1940: rhsgref_helmet_M1_bare {
-        class ItemInfo: ItemInfo {};
-    };
-    class rhsgref_helmet_m1940_winter: rhsgref_helmet_m1940 {
-        class ItemInfo: ItemInfo {};
-    };
-    class rhsgref_helmet_m1942: rhsgref_helmet_m1940 {
-        class ItemInfo: ItemInfo {};
-    };
-    class rhsgref_helmet_m1942_camo01: rhsgref_helmet_m1942 {
-        class ItemInfo: ItemInfo {};
-    };
-    class rhsgref_helmet_m1942_winter: rhsgref_helmet_m1942 {
-        class ItemInfo: ItemInfo {};
-    };
-    class rhsgref_helmet_m1942_heermarshcover: rhsgref_helmet_m1942 {
-        class ItemInfo: ItemInfo {};
-    };
+    class rhsgref_helmet_m1940: rhsgref_helmet_M1_bare {};
+    class rhsgref_helmet_m1940_winter: rhsgref_helmet_m1940 {};
+    class rhsgref_helmet_m1942: rhsgref_helmet_m1940 {};
+    class rhsgref_helmet_m1942_camo01: rhsgref_helmet_m1942 {};
+    class rhsgref_helmet_m1942_winter: rhsgref_helmet_m1942 {};
+    class rhsgref_helmet_m1942_heermarshcover: rhsgref_helmet_m1942 {};
+
     //VESTS
     class Vest_Camo_Base;
     class rhs_6b23: Vest_Camo_Base {
-        class ItemInfo;
     };
     class rhsgref_6b23_khaki: rhs_6b23 {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -405,7 +391,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_6b23_khaki_rifleman: rhsgref_6b23_khaki {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -454,7 +440,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_6b23_khaki_sniper: rhsgref_6b23_khaki {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -503,7 +489,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_6b23_khaki_officer: rhsgref_6b23_khaki {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -552,7 +538,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_6b23_khaki_nco: rhsgref_6b23_khaki {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -601,7 +587,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_6b23_khaki_medic: rhsgref_6b23_khaki {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -650,7 +636,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_6b23_ttsko_forest: rhsgref_6b23_khaki {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -699,7 +685,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_6b23_ttsko_forest_rifleman: rhsgref_6b23_khaki_rifleman {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -748,7 +734,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_6b23_ttsko_mountain: rhsgref_6b23_khaki {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -797,7 +783,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_6b23_ttsko_mountain_rifleman: rhsgref_6b23_khaki_rifleman {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -846,7 +832,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_6b23_ttsko_mountain_sniper: rhsgref_6b23_khaki_sniper {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -895,7 +881,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_6b23_ttsko_mountain_officer: rhsgref_6b23_khaki_officer {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -944,7 +930,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_6b23_ttsko_mountain_nco: rhsgref_6b23_khaki_nco {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -993,7 +979,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_6b23_ttsko_mountain_medic: rhsgref_6b23_khaki_medic {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1042,7 +1028,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_6b23_ttsko_digi: rhsgref_6b23_khaki {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1091,7 +1077,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_6b23_ttsko_digi_rifleman: rhsgref_6b23_khaki_rifleman {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1140,7 +1126,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_6b23_ttsko_digi_sniper: rhsgref_6b23_khaki_sniper {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1189,7 +1175,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_6b23_ttsko_digi_officer: rhsgref_6b23_khaki_officer {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1238,7 +1224,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_6b23_ttsko_digi_nco: rhsgref_6b23_khaki_nco {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1287,7 +1273,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_6b23_ttsko_digi_medic: rhsgref_6b23_khaki_medic {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1336,7 +1322,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_otv_khaki: rhsgref_6b23_khaki_rifleman {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1385,7 +1371,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_otv_digi: rhsgref_otv_khaki {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 50;
             class HitpointsProtectionInfo {
@@ -1434,7 +1420,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_TacVest_ERDL: rhsgref_6b23_khaki_rifleman {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 25;
             class HitpointsProtectionInfo {
@@ -1483,7 +1469,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_alice_webbing: rhs_6b23 {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 10;
             class HitpointsProtectionInfo {
@@ -1532,7 +1518,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_chestrig: rhs_6b23 {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 10;
             class HitpointsProtectionInfo {
@@ -1581,7 +1567,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_chicom: rhsgref_chestrig {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 10;
             class HitpointsProtectionInfo {
@@ -1630,7 +1616,7 @@ class cfgWeapons {
         };
     };
     class rhsgref_chicom_m88: rhsgref_chicom {
-        class ItemInfo: ItemInfo {
+        class ItemInfo {
             containerClass = "Supply220";
             mass = 10;
             class HitpointsProtectionInfo {

@@ -83,28 +83,28 @@ class CfgVehicles {
         BACKPACK_BALANCE(440,25);
     };
     class rhsusf_falconii: B_AssaultPack_rgr {
-        BACKPACK_BALANCE(440,25);
+        BACKPACK_BALANCE(160,25);
     };
     class rhsusf_falconii_coy: B_AssaultPack_rgr {
-        BACKPACK_BALANCE(440,25);
+        BACKPACK_BALANCE(160,25);
     };
     class rhsusf_falconii_mc: B_AssaultPack_rgr {
-        BACKPACK_BALANCE(440,25);
+        BACKPACK_BALANCE(160,25);
     };
     class rhsusf_falconii_gr: rhsusf_falconii {
-        BACKPACK_BALANCE(440,25);
+        BACKPACK_BALANCE(160,25);
     };
     class rhsusf_falconii_coy_gr: rhsusf_falconii_coy {
-        BACKPACK_BALANCE(440,25);
+        BACKPACK_BALANCE(160,25);
     };
     class rhsusf_falconii_gr_m32: rhsusf_falconii_coy {
-        BACKPACK_BALANCE(440,25);
+        BACKPACK_BALANCE(160,25);
     };
     class rhsusf_falconii_breach: rhsusf_falconii {
-        BACKPACK_BALANCE(440,25);
+        BACKPACK_BALANCE(160,25);
     };
     class rhsusf_falconii_recon: rhsusf_falconii_coy {
-        BACKPACK_BALANCE(440,25);
+        BACKPACK_BALANCE(160,25);
     };
     class rhsusf_pack_slackman_m240: B_Carryall_cbr {
         BACKPACK_BALANCE(440,25);
