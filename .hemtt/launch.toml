@@ -45,10 +45,10 @@ workshop = [
 [rhs]
 extends = "default"
 workshop = [
-    #"843425103", # RHS AFRF
+    "843425103", # RHS AFRF
     "843577117", # RHS USAF
-    #"843593391", # RHS GREF
-    #"843632231", # RHS SAF
+    "843593391", # RHS GREF
+    "843632231", # RHS SAF
     #"1673456286" # 3CB Factions
 ]
 
