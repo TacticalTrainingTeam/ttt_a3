@@ -1,9 +1,7 @@
 class CfgWeapons {
     //UNIFORMS
     class UniformItem;
-    class Uniform_Base {
-        class ItemInfo;
-    };
+    class Uniform_Base;
     //Balance Changes by Bluefield
     class rhs_uniform_g3_mc: Uniform_Base {
         class ItemInfo: UniformItem {
@@ -175,15 +173,10 @@ class CfgWeapons {
     };
     //HEADGEAR
     class ItemCore;
-    class ItemInfo;
     class HeadgearItem;
     class H_HelmetB: ItemCore {
         class ItemInfo;
     };
-    class InventoryItem_Base_F;
-    class InventoryMuzzleItem_Base_F;
-    class InventoryOpticsItem_Base_F;
-    class NVGoggles;
     class rhsusf_patrolcap_ocp: H_HelmetB {
     class ItemInfo: HeadgearItem {
             ace_hearing_protection = 1;
@@ -1302,251 +1295,251 @@ class CfgWeapons {
             };
         };
     };
-    // class rhsusf_iotv_ucp_Grenadier: rhsusf_iotv_ucp_base {
-    //     class ItemInfo: ItemInfo {
-    //         containerClass = "Supply220";
-    //         mass = 50;
-    //         class HitpointsProtectionInfo {
-    //             class Neck {
-    //                 hitpointName = "HitNeck";
-    //                 armor = 0;
-    //                 passThrough = 1;
-    //                 simulation = "";
-    //             };
-    //             class Chest {
-    //                 hitpointName = "HitChest";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Arms {
-    //                 hitpointName = "HitArms";
-    //                 armor = 0;
-    //                 passThrough = 1;
-    //                 simulation = "";
-    //             };
-    //             class Diaphragm {
-    //                 hitpointName = "HitDiaphragm";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Abdomen {
-    //                 hitpointName = "HitAbdomen";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Pelvis {
-    //                 hitpointName = "HitPelvis";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Body {
-    //                 hitpointName = "HitBody";
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //         };
-    //     };
-    // };
-    // class rhsusf_iotv_ucp_Medic: rhsusf_iotv_ucp_base {
-    //     class ItemInfo: ItemInfo {
-    //         containerClass = "Supply220";
-    //         mass = 50;
-    //         class HitpointsProtectionInfo {
-    //             class Neck {
-    //                 hitpointName = "HitNeck";
-    //                 armor = 0;
-    //                 passThrough = 1;
-    //                 simulation = "";
-    //             };
-    //             class Chest {
-    //                 hitpointName = "HitChest";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Arms {
-    //                 hitpointName = "HitArms";
-    //                 armor = 0;
-    //                 passThrough = 1;
-    //                 simulation = "";
-    //             };
-    //             class Diaphragm {
-    //                 hitpointName = "HitDiaphragm";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Abdomen {
-    //                 hitpointName = "HitAbdomen";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Pelvis {
-    //                 hitpointName = "HitPelvis";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Body {
-    //                 hitpointName = "HitBody";
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //         };
-    //     };
-    // };
-    // class rhsusf_iotv_ucp_Repair: rhsusf_iotv_ucp_base {
-    //     class ItemInfo: ItemInfo {
-    //         containerClass = "Supply220";
-    //         mass = 50;
-    //         class HitpointsProtectionInfo {
-    //             class Neck {
-    //                 hitpointName = "HitNeck";
-    //                 armor = 0;
-    //                 passThrough = 1;
-    //                 simulation = "";
-    //             };
-    //             class Chest {
-    //                 hitpointName = "HitChest";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Arms {
-    //                 hitpointName = "HitArms";
-    //                 armor = 0;
-    //                 passThrough = 1;
-    //                 simulation = "";
-    //             };
-    //             class Diaphragm {
-    //                 hitpointName = "HitDiaphragm";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Abdomen {
-    //                 hitpointName = "HitAbdomen";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Pelvis {
-    //                 hitpointName = "HitPelvis";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Body {
-    //                 hitpointName = "HitBody";
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //         };
-    //     };
-    // };
-    // class rhsusf_iotv_ucp_Rifleman: rhsusf_iotv_ucp_base {
-    //     class ItemInfo: ItemInfo {
-    //         containerClass = "Supply220";
-    //         mass = 50;
-    //         class HitpointsProtectionInfo {
-    //             class Neck {
-    //                 hitpointName = "HitNeck";
-    //                 armor = 0;
-    //                 passThrough = 1;
-    //                 simulation = "";
-    //             };
-    //             class Chest {
-    //                 hitpointName = "HitChest";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Arms {
-    //                 hitpointName = "HitArms";
-    //                 armor = 0;
-    //                 passThrough = 1;
-    //                 simulation = "";
-    //             };
-    //             class Diaphragm {
-    //                 hitpointName = "HitDiaphragm";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Abdomen {
-    //                 hitpointName = "HitAbdomen";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Pelvis {
-    //                 hitpointName = "HitPelvis";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Body {
-    //                 hitpointName = "HitBody";
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //         };
-    //     };
-    // };
-    // class rhsusf_iotv_ucp_SAW: rhsusf_iotv_ucp_base {
-    //     class ItemInfo: ItemInfo {
-    //         containerClass = "Supply220";
-    //         mass = 50;
-    //         class HitpointsProtectionInfo {
-    //             class Neck {
-    //                 hitpointName = "HitNeck";
-    //                 armor = 0;
-    //                 passThrough = 1;
-    //                 simulation = "";
-    //             };
-    //             class Chest {
-    //                 hitpointName = "HitChest";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Arms {
-    //                 hitpointName = "HitArms";
-    //                 armor = 0;
-    //                 passThrough = 1;
-    //                 simulation = "";
-    //             };
-    //             class Diaphragm {
-    //                 hitpointName = "HitDiaphragm";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Abdomen {
-    //                 hitpointName = "HitAbdomen";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Pelvis {
-    //                 hitpointName = "HitPelvis";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Body {
-    //                 hitpointName = "HitBody";
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //         };
-    //     };
-    // };
+    class rhsusf_iotv_ucp_Grenadier: rhsusf_iotv_ucp_base {
+        class ItemInfo: ItemInfo {
+            containerClass = "Supply220";
+            mass = 50;
+            class HitpointsProtectionInfo {
+                class Neck {
+                    hitpointName = "HitNeck";
+                    armor = 0;
+                    passThrough = 1;
+                    simulation = "";
+                };
+                class Chest {
+                    hitpointName = "HitChest";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Arms {
+                    hitpointName = "HitArms";
+                    armor = 0;
+                    passThrough = 1;
+                    simulation = "";
+                };
+                class Diaphragm {
+                    hitpointName = "HitDiaphragm";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Pelvis {
+                    hitpointName = "HitPelvis";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Body {
+                    hitpointName = "HitBody";
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+            };
+        };
+    };
+    class rhsusf_iotv_ucp_Medic: rhsusf_iotv_ucp_base {
+        class ItemInfo: ItemInfo {
+            containerClass = "Supply220";
+            mass = 50;
+            class HitpointsProtectionInfo {
+                class Neck {
+                    hitpointName = "HitNeck";
+                    armor = 0;
+                    passThrough = 1;
+                    simulation = "";
+                };
+                class Chest {
+                    hitpointName = "HitChest";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Arms {
+                    hitpointName = "HitArms";
+                    armor = 0;
+                    passThrough = 1;
+                    simulation = "";
+                };
+                class Diaphragm {
+                    hitpointName = "HitDiaphragm";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Pelvis {
+                    hitpointName = "HitPelvis";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Body {
+                    hitpointName = "HitBody";
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+            };
+        };
+    };
+    class rhsusf_iotv_ucp_Repair: rhsusf_iotv_ucp_base {
+        class ItemInfo: ItemInfo {
+            containerClass = "Supply220";
+            mass = 50;
+            class HitpointsProtectionInfo {
+                class Neck {
+                    hitpointName = "HitNeck";
+                    armor = 0;
+                    passThrough = 1;
+                    simulation = "";
+                };
+                class Chest {
+                    hitpointName = "HitChest";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Arms {
+                    hitpointName = "HitArms";
+                    armor = 0;
+                    passThrough = 1;
+                    simulation = "";
+                };
+                class Diaphragm {
+                    hitpointName = "HitDiaphragm";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Pelvis {
+                    hitpointName = "HitPelvis";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Body {
+                    hitpointName = "HitBody";
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+            };
+        };
+    };
+    class rhsusf_iotv_ucp_Rifleman: rhsusf_iotv_ucp_base {
+        class ItemInfo: ItemInfo {
+            containerClass = "Supply220";
+            mass = 50;
+            class HitpointsProtectionInfo {
+                class Neck {
+                    hitpointName = "HitNeck";
+                    armor = 0;
+                    passThrough = 1;
+                    simulation = "";
+                };
+                class Chest {
+                    hitpointName = "HitChest";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Arms {
+                    hitpointName = "HitArms";
+                    armor = 0;
+                    passThrough = 1;
+                    simulation = "";
+                };
+                class Diaphragm {
+                    hitpointName = "HitDiaphragm";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Pelvis {
+                    hitpointName = "HitPelvis";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Body {
+                    hitpointName = "HitBody";
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+            };
+        };
+    };
+    class rhsusf_iotv_ucp_SAW: rhsusf_iotv_ucp_base {
+        class ItemInfo: ItemInfo {
+            containerClass = "Supply220";
+            mass = 50;
+            class HitpointsProtectionInfo {
+                class Neck {
+                    hitpointName = "HitNeck";
+                    armor = 0;
+                    passThrough = 1;
+                    simulation = "";
+                };
+                class Chest {
+                    hitpointName = "HitChest";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Arms {
+                    hitpointName = "HitArms";
+                    armor = 0;
+                    passThrough = 1;
+                    simulation = "";
+                };
+                class Diaphragm {
+                    hitpointName = "HitDiaphragm";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Pelvis {
+                    hitpointName = "HitPelvis";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Body {
+                    hitpointName = "HitBody";
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+            };
+        };
+    };
     class rhsusf_spc: rhsusf_iotv_ocp_base {
         class ItemInfo: ItemInfo {
             containerClass = "Supply220";
@@ -1645,55 +1638,55 @@ class CfgWeapons {
             };
         };
     };
-    // class rhsusf_iotv_ucp_Squadleader: rhsusf_iotv_ucp_base {
-    //     class ItemInfo: ItemInfo {
-    //         containerClass = "Supply220";
-    //         mass = 50;
-    //         class HitpointsProtectionInfo {
-    //             class Neck {
-    //                 hitpointName = "HitNeck";
-    //                 armor = 0;
-    //                 passThrough = 1;
-    //                 simulation = "";
-    //             };
-    //             class Chest {
-    //                 hitpointName = "HitChest";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Arms {
-    //                 hitpointName = "HitArms";
-    //                 armor = 0;
-    //                 passThrough = 1;
-    //                 simulation = "";
-    //             };
-    //             class Diaphragm {
-    //                 hitpointName = "HitDiaphragm";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Abdomen {
-    //                 hitpointName = "HitAbdomen";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Pelvis {
-    //                 hitpointName = "HitPelvis";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Body {
-    //                 hitpointName = "HitBody";
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //         };
-    //     };
-    // };
+    class rhsusf_iotv_ucp_Squadleader: rhsusf_iotv_ucp_base {
+        class ItemInfo: ItemInfo {
+            containerClass = "Supply220";
+            mass = 50;
+            class HitpointsProtectionInfo {
+                class Neck {
+                    hitpointName = "HitNeck";
+                    armor = 0;
+                    passThrough = 1;
+                    simulation = "";
+                };
+                class Chest {
+                    hitpointName = "HitChest";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Arms {
+                    hitpointName = "HitArms";
+                    armor = 0;
+                    passThrough = 1;
+                    simulation = "";
+                };
+                class Diaphragm {
+                    hitpointName = "HitDiaphragm";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Pelvis {
+                    hitpointName = "HitPelvis";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Body {
+                    hitpointName = "HitBody";
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+            };
+        };
+    };
     class rhsusf_spc_iar: rhsusf_spc_rifleman {
         class ItemInfo: ItemInfo {
             containerClass = "Supply220";
@@ -1743,55 +1736,55 @@ class CfgWeapons {
             };
         };
     };
-    // class rhsusf_iotv_ucp_Teamleader: rhsusf_iotv_ucp_base {
-    //     class ItemInfo: ItemInfo {
-    //         containerClass = "Supply220";
-    //         mass = 50;
-    //         class HitpointsProtectionInfo {
-    //             class Neck {
-    //                 hitpointName = "HitNeck";
-    //                 armor = 0;
-    //                 passThrough = 1;
-    //                 simulation = "";
-    //             };
-    //             class Chest {
-    //                 hitpointName = "HitChest";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Arms {
-    //                 hitpointName = "HitArms";
-    //                 armor = 0;
-    //                 passThrough = 1;
-    //                 simulation = "";
-    //             };
-    //             class Diaphragm {
-    //                 hitpointName = "HitDiaphragm";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Abdomen {
-    //                 hitpointName = "HitAbdomen";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Pelvis {
-    //                 hitpointName = "HitPelvis";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Body {
-    //                 hitpointName = "HitBody";
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //         };
-    //     };
-    // };
+    class rhsusf_iotv_ucp_Teamleader: rhsusf_iotv_ucp_base {
+        class ItemInfo: ItemInfo {
+            containerClass = "Supply220";
+            mass = 50;
+            class HitpointsProtectionInfo {
+                class Neck {
+                    hitpointName = "HitNeck";
+                    armor = 0;
+                    passThrough = 1;
+                    simulation = "";
+                };
+                class Chest {
+                    hitpointName = "HitChest";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Arms {
+                    hitpointName = "HitArms";
+                    armor = 0;
+                    passThrough = 1;
+                    simulation = "";
+                };
+                class Diaphragm {
+                    hitpointName = "HitDiaphragm";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Pelvis {
+                    hitpointName = "HitPelvis";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Body {
+                    hitpointName = "HitBody";
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+            };
+        };
+    };
     class rhsusf_spc_corpsman: rhsusf_spc_rifleman {
         class ItemInfo: ItemInfo {
             containerClass = "Supply220";
@@ -3654,55 +3647,55 @@ class CfgWeapons {
             };
         };
     };
-    // class rhsusf_mbav_grenadier: rhsusf_mbav_light {
-    //     class ItemInfo: ItemInfo {
-    //         containerClass = "Supply220";
-    //         mass = 50;
-    //         class HitpointsProtectionInfo {
-    //             class Neck {
-    //                 hitpointName = "HitNeck";
-    //                 armor = 0;
-    //                 passThrough = 1;
-    //                 simulation = "";
-    //             };
-    //             class Chest {
-    //                 hitpointName = "HitChest";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Arms {
-    //                 hitpointName = "HitArms";
-    //                 armor = 0;
-    //                 passThrough = 1;
-    //                 simulation = "";
-    //             };
-    //             class Diaphragm {
-    //                 hitpointName = "HitDiaphragm";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Abdomen {
-    //                 hitpointName = "HitAbdomen";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Pelvis {
-    //                 hitpointName = "HitPelvis";
-    //                 armor = 12;
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //             class Body {
-    //                 hitpointName = "HitBody";
-    //                 passThrough = 0.4;
-    //                 simulation = "";
-    //             };
-    //         };
-    //     };
-    // };
+    class rhsusf_mbav_grenadier: rhsusf_mbav_light {
+        class ItemInfo: ItemInfo {
+            containerClass = "Supply220";
+            mass = 50;
+            class HitpointsProtectionInfo {
+                class Neck {
+                    hitpointName = "HitNeck";
+                    armor = 0;
+                    passThrough = 1;
+                    simulation = "";
+                };
+                class Chest {
+                    hitpointName = "HitChest";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Arms {
+                    hitpointName = "HitArms";
+                    armor = 0;
+                    passThrough = 1;
+                    simulation = "";
+                };
+                class Diaphragm {
+                    hitpointName = "HitDiaphragm";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Pelvis {
+                    hitpointName = "HitPelvis";
+                    armor = 12;
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+                class Body {
+                    hitpointName = "HitBody";
+                    passThrough = 0.4;
+                    simulation = "";
+                };
+            };
+        };
+    };
     class rhsusf_mbav_medic: rhsusf_mbav_light {
         class ItemInfo: ItemInfo {
             containerClass = "Supply220";

@@ -5,8 +5,6 @@ class cfgWeapons {
     class H_HelmetB: ItemCore {
         class ItemInfo;
     };
-    class rhs_6b27m;
-    class H_Cap_red;
     class rhs_fieldcap_digi2;
     class rhsgref_un_beret: ItemCore {
         class ItemInfo: HeadGearItem {
@@ -1682,9 +1680,7 @@ class cfgWeapons {
     };
     //UNIFORMS
     class UniformItem;
-    class Uniform_Base {
-        class ItemInfo;
-    };
+    class Uniform_Base;
     class rhsgref_uniform_ttsko_forest: Uniform_Base {
         class ItemInfo: UniformItem {
             containerClass = "Supply70";
