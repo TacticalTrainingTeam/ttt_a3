@@ -495,12 +495,7 @@ class CfgWeapons {
             };
         };
     };
-    class rhsusf_mich_bare_norotos_tan_headset: rhsusf_mich_bare_tan_headset {
-        //class ItemInfo;
-    };
-    class rhsusf_mich_bare_norotos_arc_tan_headset: rhsusf_mich_bare_norotos_tan_headset {
-        //class ItemInfo;
-    };
+    class rhsusf_mich_bare_norotos_arc_tan_headset;
     class rhsusf_mich_bare_norotos_arc: rhsusf_mich_bare_norotos_arc_tan_headset {
         class ItemInfo;
     };
