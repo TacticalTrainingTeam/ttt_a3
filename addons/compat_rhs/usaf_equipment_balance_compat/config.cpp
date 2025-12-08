@@ -16,8 +16,7 @@ class CfgPatches {
             "ttt_compat_rhs",
             "rhsusf_main",
             "rhsusf_c_weapons",
-            "rhsusf_c_troops",
-            "DISABLED_TEMPORARY_FIX"//this prevents the addon from loading (until we know a real fix)
+            "rhsusf_c_troops"
         };
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {
