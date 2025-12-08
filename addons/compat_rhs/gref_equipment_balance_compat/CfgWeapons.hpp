@@ -5,8 +5,6 @@ class cfgWeapons {
     class H_HelmetB: ItemCore {
         class ItemInfo;
     };
-    class rhs_6b27m;
-    class H_Cap_red;
     class rhs_fieldcap_digi2;
     class rhsgref_un_beret: ItemCore {
         class ItemInfo: HeadGearItem {
@@ -255,9 +253,6 @@ class cfgWeapons {
             };
         };
     };
-    class rhsgref_hat_m1941cap: rhsgref_hat_M1951 {
-        class ItemInfo: ItemInfo {};
-    };
     class rhsgref_helmet_pasgt_erdl: H_HelmetB {
         class ItemInfo: ItemInfo {
             ace_hearing_protection = 1;
@@ -333,24 +328,6 @@ class cfgWeapons {
                 };
             };
         };
-    };
-    class rhsgref_helmet_m1940: rhsgref_helmet_M1_bare {
-        class ItemInfo: ItemInfo {};
-    };
-    class rhsgref_helmet_m1940_winter: rhsgref_helmet_m1940 {
-        class ItemInfo: ItemInfo {};
-    };
-    class rhsgref_helmet_m1942: rhsgref_helmet_m1940 {
-        class ItemInfo: ItemInfo {};
-    };
-    class rhsgref_helmet_m1942_camo01: rhsgref_helmet_m1942 {
-        class ItemInfo: ItemInfo {};
-    };
-    class rhsgref_helmet_m1942_winter: rhsgref_helmet_m1942 {
-        class ItemInfo: ItemInfo {};
-    };
-    class rhsgref_helmet_m1942_heermarshcover: rhsgref_helmet_m1942 {
-        class ItemInfo: ItemInfo {};
     };
     //VESTS
     class Vest_Camo_Base;
@@ -1682,9 +1659,7 @@ class cfgWeapons {
     };
     //UNIFORMS
     class UniformItem;
-    class Uniform_Base {
-        class ItemInfo;
-    };
+    class Uniform_Base;
     class rhsgref_uniform_ttsko_forest: Uniform_Base {
         class ItemInfo: UniformItem {
             containerClass = "Supply70";

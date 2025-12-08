@@ -1,9 +1,7 @@
 class CfgWeapons {
     //UNIFORMS
     class UniformItem;
-    class Uniform_Base {
-        class ItemInfo;
-    };
+    class Uniform_Base;
     //Balance Changes by Bluefield
     class rhs_uniform_g3_mc: Uniform_Base {
         class ItemInfo: UniformItem {
@@ -175,17 +173,13 @@ class CfgWeapons {
     };
     //HEADGEAR
     class ItemCore;
-    class ItemInfo;
+
     class HeadgearItem;
     class H_HelmetB: ItemCore {
         class ItemInfo;
     };
-    class InventoryItem_Base_F;
-    class InventoryMuzzleItem_Base_F;
-    class InventoryOpticsItem_Base_F;
-    class NVGoggles;
     class rhsusf_patrolcap_ocp: H_HelmetB {
-    class ItemInfo: HeadgearItem {
+        class ItemInfo: HeadgearItem {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 5;
@@ -204,7 +198,7 @@ class CfgWeapons {
         };
     };
     class rhs_xmas_antlers: ItemCore {
-    class ItemInfo: HeadgearItem {
+        class ItemInfo: HeadgearItem {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 25;
@@ -223,7 +217,7 @@ class CfgWeapons {
         };
     };
     class rhs_Booniehat_ocp: ItemCore {
-    class ItemInfo: HeadgearItem {
+        class ItemInfo: HeadgearItem {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 5;
@@ -280,7 +274,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_ach_helmet_ocp: H_HelmetB {
-    class ItemInfo: ItemInfo {
+        class ItemInfo: ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 15;
@@ -318,7 +312,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_opscore_cover: rhsusf_opscore_01 {
-    class ItemInfo: ItemInfo {
+        class ItemInfo: ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -337,7 +331,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_opscore_mar_01: rhsusf_ach_helmet_ocp {
-    class ItemInfo: ItemInfo {
+        class ItemInfo: ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -356,7 +350,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_cvc_helmet: rhsusf_opscore_01 {
-    class ItemInfo: ItemInfo {
+        class ItemInfo: ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -375,7 +369,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_hgu56p: rhsusf_opscore_01 {
-    class ItemInfo: ItemInfo {
+        class ItemInfo: ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 25;
@@ -394,7 +388,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_mich_helmet_marpatwd: H_HelmetB {
-    class ItemInfo: ItemInfo {
+        class ItemInfo: ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -411,18 +405,15 @@ class CfgWeapons {
                 };
             };
         };
-    };
-    class rhsusf_mich_helmet_marpatwd_norotos_arc: rhsusf_mich_helmet_marpatwd {
-        class ItemInfo: ItemInfo {};
     };
     class rhsusf_mich_bare: rhsusf_mich_helmet_marpatwd {
-        class ItemInfo: ItemInfo {};
+        class ItemInfo;
     };
     class rhsusf_mich_bare_headset: rhsusf_mich_bare {
-        class ItemInfo: ItemInfo {};
+        class ItemInfo;
     };
     class rhsusf_mich_bare_alt: rhsusf_mich_bare {
-    class ItemInfo: ItemInfo {
+        class ItemInfo: ItemInfo {
             ace_hearing_protection = 1;
             ace_hearing_lowerVolume = 0.0;
             mass = 20;
@@ -440,11 +431,11 @@ class CfgWeapons {
             };
         };
     };
-    class rhsusf_mich_bare_norotos: rhsusf_mich_bare {
-        class ItemInfo: ItemInfo {};
+    class rhsusf_mich_bare_norotos: rhsusf_mich_bare_headset {
+        class ItemInfo;
     };
     class rhsusf_mich_bare_norotos_headset: rhsusf_mich_bare_headset {
-        class ItemInfo: ItemInfo {};
+        class ItemInfo;
     };
     class rhsusf_mich_bare_norotos_alt: rhsusf_mich_bare_norotos {
         class ItemInfo: ItemInfo {
@@ -484,11 +475,32 @@ class CfgWeapons {
             };
         };
     };
-    class rhsusf_mich_bare_norotos_arc: rhsusf_mich_bare {
-        class ItemInfo: ItemInfo {};
+
+    class rhsusf_mich_bare_tan_headset: rhsusf_mich_bare_headset {
+        class ItemInfo: ItemInfo {
+            ace_hearing_protection = 1;
+            ace_hearing_lowerVolume = 0.0;
+            mass = 20;
+            class HitpointsProtectionInfo {
+                class Head {
+                    hitpointName ="HitHead";
+                    Armor = 6;
+                    passThrough = 0.5;
+                };
+                class Face {
+                    hitpointName ="HitFace";
+                    armor = 0;
+                    passThrough = 1;
+                };
+            };
+        };
+    };
+    class rhsusf_mich_bare_norotos_arc_tan_headset;
+    class rhsusf_mich_bare_norotos_arc: rhsusf_mich_bare_norotos_arc_tan_headset {
+        class ItemInfo;
     };
     class rhsusf_mich_bare_norotos_arc_headset: rhsusf_mich_bare_headset {
-        class ItemInfo: ItemInfo {};
+        class ItemInfo;
     };
     class rhsusf_mich_bare_norotos_arc_alt: rhsusf_mich_bare_norotos_arc {
         class ItemInfo: ItemInfo {
@@ -547,25 +559,9 @@ class CfgWeapons {
             };
         };
     };
-    class rhsusf_mich_bare_tan_headset: rhsusf_mich_bare_headset {
-        class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 20;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 6;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
-        };
-    };
+
+
+
     class rhsusf_mich_bare_semi: rhsusf_mich_bare {
         class ItemInfo: ItemInfo {
             ace_hearing_protection = 1;
@@ -605,7 +601,7 @@ class CfgWeapons {
         };
     };
     class rhsusf_mich_bare_norotos_semi: rhsusf_mich_bare_semi {
-        class ItemInfo: ItemInfo {};
+        class ItemInfo;
     };
     class rhsusf_mich_bare_norotos_semi_headset: rhsusf_mich_bare_semi_headset {
         class ItemInfo: ItemInfo {

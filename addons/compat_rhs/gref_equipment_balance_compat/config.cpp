@@ -13,10 +13,11 @@ class CfgPatches {
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
         requiredAddons[] = {
+            "ttt_compat_rhs",
             "rhsgref_main",
             "rhsgref_c_weapons",
             "rhs_c_troops",
-            "rhsgref_c_troops",
+            "rhsgref_c_troops"
         };
         // List of weapons (CfgWeapons classes) contained in the addon.
         units[] = {

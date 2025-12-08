@@ -15,7 +15,7 @@ class CfgPatches {
         requiredAddons[] = {
             "ttt_common",
             "rhsusf_main_loadorder",
-            "rhs_main_loadorder",
+            "rhs_main_loadorder"
         };
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {};

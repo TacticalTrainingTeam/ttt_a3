@@ -1,7 +1,7 @@
 class cfgWeapons {
-    //HEADWEAR
     class ItemCore;
-    class ItemInfo;
+    //HEADWEAR
+    //class ItemInfo;
 
     //VESTS
     class Vest_Camo_Base: ItemCore {
@@ -7996,9 +7996,7 @@ class cfgWeapons {
     };
     //UNIFORMS
     class UniformItem;
-    class Uniform_Base {
-        class ItemInfo;
-    };
+    class Uniform_Base;
     class rhs_uniform_flora: Uniform_Base {
         class ItemInfo: UniformItem {
             containerClass = "Supply70";
