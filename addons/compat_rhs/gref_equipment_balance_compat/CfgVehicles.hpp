@@ -1,20 +1,12 @@
-class cfgVehicles {
-    class B_AssaultPack_Base;
+class CfgVehicles {
     class B_Carryall_Base;
-    class B_Parachute;
-    class Steerable_Parachute_F;
-    class B_Carryall_cbr;
-    class B_AssaultPack_rgr;
     class B_FieldPack_khk;
     class B_FieldPack_cbr;
     class B_TacticalPack_blk;
-    class rhs_assault_umbts_engineer_empty;
     class Bag_Base;
-    class B_Kitbag_rgr;
     class B_TacticalPack_oli;
     class B_AssaultPack_blk;
     class rhsusf_falconii;
-    class B_FieldPack_oli;
     class B_Carryall_oli;
     //PACKS
     class rhsgref_cdf_backpack_mg: B_Carryall_oli {
