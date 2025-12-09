@@ -237,7 +237,7 @@ if (!hasInterface) exitWith {};
             [
                 [
                     "Grid ",
-                    "Koordianten",
+                    "Koordinaten",
                     5
                 ],
                 [
