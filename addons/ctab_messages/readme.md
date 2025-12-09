@@ -6,9 +6,9 @@ Benötigt cTab Advanced BETA
 
 Standard NATO MedEVac 9-Liner - muss vorhanden sein.
 
-## TTT 5-Line
+## TTT 5-Liner
 
-Umsetzung von unserem 5-Line Konzept
+Umsetzung von unserem 5-Liner Konzept.
 
 ## Quellen und Abhängigkeiten
 
