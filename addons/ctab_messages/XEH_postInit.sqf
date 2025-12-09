@@ -216,8 +216,8 @@ if (!hasInterface) exitWith {};
 [
     "maps.plan-ops.fr#161",
     0,
-    "Supply",
-    "Supply",
+    "5-Liner",
+    "5-Liner",
     "https://maps.plan-ops.fr/MessageTemplates/Details/161?t=x6YlHy5TK60Yw5VlLTTznqeG2jrCmk_8LocmZosgqnE",
     [
         [
