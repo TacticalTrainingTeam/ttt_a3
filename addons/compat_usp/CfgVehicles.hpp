@@ -113,7 +113,7 @@ class CfgVehicles {
         BACKPACK_BALANCE(240,40);
     };
 
-    //Gleiche Werte wie Rucksack aus CUP mit dem identischem Modell
+    //Gleiche Werte wie Rucksack aus CUP mit dem identischen Modell
     class USP_PATROL_PACK: Bag_Base {
         BACKPACK_BALANCE(280,40);
     };
