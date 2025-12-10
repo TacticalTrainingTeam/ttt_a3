@@ -166,6 +166,7 @@ nav:
   - Common:
     - Funktionen: addons/common/functions.md
     - Objekte: addons/common/objects.md
+  - cTab Vorlagen: addons/ctab_templates.md
   - Konterartillerie: addons/counterari.md
   - Loadout-System (MPLS): addons/mpls.md
   - No Chain: addons/no_chain.md

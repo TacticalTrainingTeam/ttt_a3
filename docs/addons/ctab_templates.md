@@ -89,7 +89,7 @@ Der TTT 5-Liner ist das vereinfachte Koordinationsformat des Tactical Training T
 
 Die FDCB-Vorlage wird für die Anforderung von Artillerie- oder Mörserfeuerunterstützung mit präzisen Zielinformationen verwendet.
 
-**Reference:** [FDCB](https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%C3%BCtzungskr%C3%A4fte/Artillerie/FDCB)
+**Referenz:** [FDCB](https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%C3%BCtzungskr%C3%A4fte/Artillerie/FDCB)
 
 **Lines:**
 
