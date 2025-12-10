@@ -63,7 +63,7 @@ class CfgVehicles {
         ace_logistics_wirecutter_hasWirecutter = 1;
     };
 
-    //Gleiche Werte wie Vanilla Rucksack mit dem identischem Modell
+    //Gleiche Werte wie Vanilla Rucksack mit dem identischen Modell
     class USP_TACTICAL_PACK: Bag_Base {
         BACKPACK_BALANCE(240,40);
     };
