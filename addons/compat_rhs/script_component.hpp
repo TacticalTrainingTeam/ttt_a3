@@ -14,6 +14,54 @@
     containerClass = container; \
     mass = massValue
 
+// Vest macro
+#define VEST_PROTECTION(container,massValue) \
+    containerClass = container; \
+    mass = massValue; \
+    class HitpointsProtectionInfo { \
+        class Neck { \
+            hitpointName = "HitNeck"; \
+            armor = 0; \
+            passThrough = 1; \
+            simulation = ""; \
+        }; \
+        class Chest { \
+            hitpointName = "HitChest"; \
+            armor = 12; \
+            passThrough = 0.4; \
+            simulation = ""; \
+        }; \
+        class Arms { \
+            hitpointName = "HitArms"; \
+            armor = 0; \
+            passThrough = 1; \
+            simulation = ""; \
+        }; \
+        class Diaphragm { \
+            hitpointName = "HitDiaphragm"; \
+            armor = 12; \
+            passThrough = 0.4; \
+            simulation = ""; \
+        }; \
+        class Abdomen { \
+            hitpointName = "HitAbdomen"; \
+            armor = 12; \
+            passThrough = 0.4; \
+            simulation = ""; \
+        }; \
+        class Pelvis { \
+            hitpointName = "HitPelvis"; \
+            armor = 12; \
+            passThrough = 0.4; \
+            simulation = ""; \
+        }; \
+        class Body { \
+            hitpointName = "HitBody"; \
+            passThrough = 0.4; \
+            simulation = ""; \
+        }; \
+    }
+
 // ACE Hearing protection macro
 #define ACE_HEARING\
     ace_hearing_protection = 1; \
