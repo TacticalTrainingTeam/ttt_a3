@@ -74,149 +74,17 @@ class cfgWeapons {
     };
     class rhs_6sh46: Vest_Camo_Base {
         class ItemInfo: ItemInfo {
-            containerClass = "Supply220";
-            mass = 50;
-            class HitpointsProtectionInfo {
-                class Neck {
-                    hitpointName = "HitNeck";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Chest {
-                    hitpointName = "HitChest";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Arms {
-                    hitpointName = "HitArms";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Diaphragm {
-                    hitpointName = "HitDiaphragm";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Abdomen {
-                    hitpointName = "HitAbdomen";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Pelvis {
-                    hitpointName = "HitPelvis";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Body {
-                    hitpointName = "HitBody";
-                    passThrough = 0.4;
-                    simulation = "";
-                };
-            };
+            VEST_NO_PROTECTION("Supply220",50);
         };
     };
     class rhs_vest_commander: Vest_Camo_Base {
         class ItemInfo: ItemInfo {
-            containerClass = "Supply220";
-            mass = 50;
-            class HitpointsProtectionInfo {
-                class Neck {
-                    hitpointName = "HitNeck";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Chest {
-                    hitpointName = "HitChest";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Arms {
-                    hitpointName = "HitArms";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Diaphragm {
-                    hitpointName = "HitDiaphragm";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Abdomen {
-                    hitpointName = "HitAbdomen";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Pelvis {
-                    hitpointName = "HitPelvis";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Body {
-                    hitpointName = "HitBody";
-                    passThrough = 0.4;
-                    simulation = "";
-                };
-            };
+            VEST_NO_PROTECTION("Supply220",50);
         };
     };
      class rhs_vest_pistol_holster: rhs_vest_commander {
         class ItemInfo: ItemInfo {
-            containerClass = "Supply220";
-            mass = 50;
-            class HitpointsProtectionInfo {
-                class Neck {
-                    hitpointName = "HitNeck";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Chest {
-                    hitpointName = "HitChest";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Arms {
-                    hitpointName = "HitArms";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Diaphragm {
-                    hitpointName = "HitDiaphragm";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Abdomen {
-                    hitpointName = "HitAbdomen";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Pelvis {
-                    hitpointName = "HitPelvis";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Body {
-                    hitpointName = "HitBody";
-                    passThrough = 0.4;
-                    simulation = "";
-                };
-            };
+            VEST_NO_PROTECTION("Supply220",50);
         };
     };
     class rhs_6b23_digi: rhs_6b23 {
@@ -376,51 +244,7 @@ class cfgWeapons {
     };
     class rhs_vydra_3m: Vest_Camo_Base {
         class ItemInfo: ItemInfo {
-            containerClass = "Supply220";
-            mass = 50;
-            class HitpointsProtectionInfo {
-                class Neck {
-                    hitpointName = "HitNeck";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Chest {
-                    hitpointName = "HitChest";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Arms {
-                    hitpointName = "HitArms";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Diaphragm {
-                    hitpointName = "HitDiaphragm";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Abdomen {
-                    hitpointName = "HitAbdomen";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Pelvis {
-                    hitpointName = "HitPelvis";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Body {
-                    hitpointName = "HitBody";
-                    passThrough = 0.4;
-                    simulation = "";
-                };
-            };
+            VEST_NO_PROTECTION("Supply220",50);
         };
     };
     class rhs_6b23_vydra_3m: rhs_6b23_6sh92 {
@@ -570,737 +394,77 @@ class cfgWeapons {
     };
     class rhs_6sh92: Vest_Camo_Base {
         class ItemInfo: ItemInfo {
-            containerClass = "Supply220";
-            mass = 50;
-            class HitpointsProtectionInfo {
-                class Neck {
-                    hitpointName = "HitNeck";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Chest {
-                    hitpointName = "HitChest";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Arms {
-                    hitpointName = "HitArms";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Diaphragm {
-                    hitpointName = "HitDiaphragm";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Abdomen {
-                    hitpointName = "HitAbdomen";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Pelvis {
-                    hitpointName = "HitPelvis";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Body {
-                    hitpointName = "HitBody";
-                    passThrough = 0.4;
-                    simulation = "";
-                };
-            };
+            VEST_NO_PROTECTION("Supply220",50);
         };
     };
     class rhs_6sh92_vog: rhs_6sh92 {
         class ItemInfo: ItemInfo {
-            containerClass = "Supply220";
-            mass = 50;
-            class HitpointsProtectionInfo {
-                class Neck {
-                    hitpointName = "HitNeck";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Chest {
-                    hitpointName = "HitChest";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Arms {
-                    hitpointName = "HitArms";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Diaphragm {
-                    hitpointName = "HitDiaphragm";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Abdomen {
-                    hitpointName = "HitAbdomen";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Pelvis {
-                    hitpointName = "HitPelvis";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Body {
-                    hitpointName = "HitBody";
-                    passThrough = 0.4;
-                    simulation = "";
-                };
-            };
+            VEST_NO_PROTECTION("Supply220",50);
         };
     };
     class rhs_6sh92_vog_headset: rhs_6sh92_vog {
         class ItemInfo: ItemInfo {
-            containerClass = "Supply220";
-            mass = 50;
-            class HitpointsProtectionInfo {
-                class Neck {
-                    hitpointName = "HitNeck";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Chest {
-                    hitpointName = "HitChest";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Arms {
-                    hitpointName = "HitArms";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Diaphragm {
-                    hitpointName = "HitDiaphragm";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Abdomen {
-                    hitpointName = "HitAbdomen";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Pelvis {
-                    hitpointName = "HitPelvis";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Body {
-                    hitpointName = "HitBody";
-                    passThrough = 0.4;
-                    simulation = "";
-                };
-            };
+            VEST_NO_PROTECTION("Supply220",50);
         };
     };
     class rhs_6sh92_headset: rhs_6sh92 {
         class ItemInfo: ItemInfo {
-            containerClass = "Supply220";
-            mass = 50;
-            class HitpointsProtectionInfo {
-                class Neck {
-                    hitpointName = "HitNeck";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Chest {
-                    hitpointName = "HitChest";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Arms {
-                    hitpointName = "HitArms";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Diaphragm {
-                    hitpointName = "HitDiaphragm";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Abdomen {
-                    hitpointName = "HitAbdomen";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Pelvis {
-                    hitpointName = "HitPelvis";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Body {
-                    hitpointName = "HitBody";
-                    passThrough = 0.4;
-                    simulation = "";
-                };
-            };
+            VEST_NO_PROTECTION("Supply220",50);
         };
     };
     class rhs_6sh92_radio: rhs_6sh92 {
         class ItemInfo: ItemInfo {
-            containerClass = "Supply220";
-            mass = 50;
-            class HitpointsProtectionInfo {
-                class Neck {
-                    hitpointName = "HitNeck";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Chest {
-                    hitpointName = "HitChest";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Arms {
-                    hitpointName = "HitArms";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Diaphragm {
-                    hitpointName = "HitDiaphragm";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Abdomen {
-                    hitpointName = "HitAbdomen";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Pelvis {
-                    hitpointName = "HitPelvis";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Body {
-                    hitpointName = "HitBody";
-                    passThrough = 0.4;
-                    simulation = "";
-                };
-            };
+            VEST_NO_PROTECTION("Supply220",50);
         };
     };
     class rhs_6sh92_digi: rhs_6sh92 {
         class ItemInfo: ItemInfo {
-            containerClass = "Supply220";
-            mass = 50;
-            class HitpointsProtectionInfo {
-                class Neck {
-                    hitpointName = "HitNeck";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Chest {
-                    hitpointName = "HitChest";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Arms {
-                    hitpointName = "HitArms";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Diaphragm {
-                    hitpointName = "HitDiaphragm";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Abdomen {
-                    hitpointName = "HitAbdomen";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Pelvis {
-                    hitpointName = "HitPelvis";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Body {
-                    hitpointName = "HitBody";
-                    passThrough = 0.4;
-                    simulation = "";
-                };
-            };
+            VEST_NO_PROTECTION("Supply220",50);
         };
     };
     class rhs_6sh92_digi_vog: rhs_6sh92_vog {
         class ItemInfo: ItemInfo {
-            containerClass = "Supply220";
-            mass = 50;
-            class HitpointsProtectionInfo {
-                class Neck {
-                    hitpointName = "HitNeck";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Chest {
-                    hitpointName = "HitChest";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Arms {
-                    hitpointName = "HitArms";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Diaphragm {
-                    hitpointName = "HitDiaphragm";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Abdomen {
-                    hitpointName = "HitAbdomen";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Pelvis {
-                    hitpointName = "HitPelvis";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Body {
-                    hitpointName = "HitBody";
-                    passThrough = 0.4;
-                    simulation = "";
-                };
-            };
+            VEST_NO_PROTECTION("Supply220",50);
         };
     };
     class rhs_6sh92_digi_vog_headset: rhs_6sh92_vog_headset {
         class ItemInfo: ItemInfo {
-            containerClass = "Supply220";
-            mass = 50;
-            class HitpointsProtectionInfo {
-                class Neck {
-                    hitpointName = "HitNeck";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Chest {
-                    hitpointName = "HitChest";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Arms {
-                    hitpointName = "HitArms";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Diaphragm {
-                    hitpointName = "HitDiaphragm";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Abdomen {
-                    hitpointName = "HitAbdomen";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Pelvis {
-                    hitpointName = "HitPelvis";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Body {
-                    hitpointName = "HitBody";
-                    passThrough = 0.4;
-                    simulation = "";
-                };
-            };
+            VEST_NO_PROTECTION("Supply220",50);
         };
     };
     class rhs_6sh92_digi_headset: rhs_6sh92_headset {
         class ItemInfo: ItemInfo {
-            containerClass = "Supply220";
-            mass = 50;
-            class HitpointsProtectionInfo {
-                class Neck {
-                    hitpointName = "HitNeck";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Chest {
-                    hitpointName = "HitChest";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Arms {
-                    hitpointName = "HitArms";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Diaphragm {
-                    hitpointName = "HitDiaphragm";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Abdomen {
-                    hitpointName = "HitAbdomen";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Pelvis {
-                    hitpointName = "HitPelvis";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Body {
-                    hitpointName = "HitBody";
-                    passThrough = 0.4;
-                    simulation = "";
-                };
-            };
+            VEST_NO_PROTECTION("Supply220",50);
         };
     };
     class rhs_6sh92_digi_radio: rhs_6sh92_radio {
         class ItemInfo: ItemInfo {
-            containerClass = "Supply220";
-            mass = 50;
-            class HitpointsProtectionInfo {
-                class Neck {
-                    hitpointName = "HitNeck";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Chest {
-                    hitpointName = "HitChest";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Arms {
-                    hitpointName = "HitArms";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Diaphragm {
-                    hitpointName = "HitDiaphragm";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Abdomen {
-                    hitpointName = "HitAbdomen";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Pelvis {
-                    hitpointName = "HitPelvis";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Body {
-                    hitpointName = "HitBody";
-                    passThrough = 0.4;
-                    simulation = "";
-                };
-            };
+            VEST_NO_PROTECTION("Supply220",50);
         };
     };
     class rhs_6sh92_vsr: rhs_6sh92 {
         class ItemInfo: ItemInfo {
-            containerClass = "Supply220";
-            mass = 50;
-            class HitpointsProtectionInfo {
-                class Neck {
-                    hitpointName = "HitNeck";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Chest {
-                    hitpointName = "HitChest";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Arms {
-                    hitpointName = "HitArms";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Diaphragm {
-                    hitpointName = "HitDiaphragm";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Abdomen {
-                    hitpointName = "HitAbdomen";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Pelvis {
-                    hitpointName = "HitPelvis";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Body {
-                    hitpointName = "HitBody";
-                    passThrough = 0.4;
-                    simulation = "";
-                };
-            };
+            VEST_NO_PROTECTION("Supply220",50);
         };
     };
     class rhs_6sh92_vsr_vog: rhs_6sh92_vog {
         class ItemInfo: ItemInfo {
-            containerClass = "Supply220";
-            mass = 50;
-            class HitpointsProtectionInfo {
-                class Neck {
-                    hitpointName = "HitNeck";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Chest {
-                    hitpointName = "HitChest";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Arms {
-                    hitpointName = "HitArms";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Diaphragm {
-                    hitpointName = "HitDiaphragm";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Abdomen {
-                    hitpointName = "HitAbdomen";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Pelvis {
-                    hitpointName = "HitPelvis";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Body {
-                    hitpointName = "HitBody";
-                    passThrough = 0.4;
-                    simulation = "";
-                };
-            };
+            VEST_NO_PROTECTION("Supply220",50);
         };
     };
     class rhs_6sh92_vsr_vog_headset: rhs_6sh92_vog_headset {
         class ItemInfo: ItemInfo {
-            containerClass = "Supply220";
-            mass = 50;
-            class HitpointsProtectionInfo {
-                class Neck {
-                    hitpointName = "HitNeck";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Chest {
-                    hitpointName = "HitChest";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Arms {
-                    hitpointName = "HitArms";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Diaphragm {
-                    hitpointName = "HitDiaphragm";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Abdomen {
-                    hitpointName = "HitAbdomen";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Pelvis {
-                    hitpointName = "HitPelvis";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Body {
-                    hitpointName = "HitBody";
-                    passThrough = 0.4;
-                    simulation = "";
-                };
-            };
+            VEST_NO_PROTECTION("Supply220",50);
         };
     };
     class rhs_6sh92_vsr_headset: rhs_6sh92_headset {
         class ItemInfo: ItemInfo {
-            containerClass = "Supply220";
-            mass = 50;
-            class HitpointsProtectionInfo {
-                class Neck {
-                    hitpointName = "HitNeck";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Chest {
-                    hitpointName = "HitChest";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Arms {
-                    hitpointName = "HitArms";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Diaphragm {
-                    hitpointName = "HitDiaphragm";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Abdomen {
-                    hitpointName = "HitAbdomen";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Pelvis {
-                    hitpointName = "HitPelvis";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Body {
-                    hitpointName = "HitBody";
-                    passThrough = 0.4;
-                    simulation = "";
-                };
-            };
+            VEST_NO_PROTECTION("Supply220",50);
         };
     };
     class rhs_6sh92_vsr_radio: rhs_6sh92_radio {
         class ItemInfo: ItemInfo {
-            containerClass = "Supply220";
-            mass = 50;
-            class HitpointsProtectionInfo {
-                class Neck {
-                    hitpointName = "HitNeck";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Chest {
-                    hitpointName = "HitChest";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Arms {
-                    hitpointName = "HitArms";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Diaphragm {
-                    hitpointName = "HitDiaphragm";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Abdomen {
-                    hitpointName = "HitAbdomen";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Pelvis {
-                    hitpointName = "HitPelvis";
-                    armor = 0;
-                    passThrough = 1;
-                    simulation = "";
-                };
-                class Body {
-                    hitpointName = "HitBody";
-                    passThrough = 0.4;
-                    simulation = "";
-                };
-            };
+            VEST_NO_PROTECTION("Supply220",50);
         };
     };
     class rhs_6b2: Vest_Camo_Base {
