@@ -2,175 +2,147 @@ class CfgWeapons {
     //UNIFORMS
     class UniformItem;
     class Uniform_Base;
-    //Balance Changes by Bluefield
     class rhs_uniform_g3_mc: Uniform_Base {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_g3_m81: Uniform_Base {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_g3_aor2: Uniform_Base {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_g3_tan: Uniform_Base {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_g3_rgr: Uniform_Base {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_g3_blk: Uniform_Base {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_cu_ocp: Uniform_Base {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_cu_ucp: rhs_uniform_cu_ocp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_cu_ocp_1stcav: rhs_uniform_cu_ocp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_cu_ucp_1stcav: rhs_uniform_cu_ucp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_cu_ocp_82nd: rhs_uniform_cu_ocp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_cu_ucp_82nd: rhs_uniform_cu_ucp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_cu_ocp_101st: rhs_uniform_cu_ocp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_cu_ucp_101st: rhs_uniform_cu_ucp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_cu_ocp_10th: rhs_uniform_cu_ocp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_cu_ucp_10th: rhs_uniform_cu_ucp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_cu_ucp_patchless: rhs_uniform_cu_ocp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_cu_ocp_patchless: rhs_uniform_cu_ucp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_FROG01_d: rhs_uniform_cu_ocp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_FROG01_wd: rhs_uniform_FROG01_d {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_FROG01_m81: rhs_uniform_g3_m81 {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_acu_ucp: Uniform_Base {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_acu_ucp2: rhs_uniform_acu_ucp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_acu_ucpd: rhs_uniform_acu_ucp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_acu_oefcp: rhs_uniform_acu_ucp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_acu_ocp: rhs_uniform_acu_ucp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_abu: Uniform_Base {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_bdu_erdl: Uniform_Base {
         class ItemInfo: UniformItem {
-            containerClass = "Supply40";
-            mass = 40;
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
+
     //HEADGEAR
     class ItemCore;
 
@@ -293,9 +265,6 @@ class CfgWeapons {
             HEADGEAR_ARMOR_FACE_EXPOSED(20,6);
         };
     };
-
-
-
     class rhsusf_mich_bare_semi: rhsusf_mich_bare {
         class ItemInfo: ItemInfo {
             HEADGEAR_ARMOR_FACE_EXPOSED(20,6);
@@ -349,6 +318,7 @@ class CfgWeapons {
             HEADGEAR_ARMOR_FACE_EXPOSED(15,4);
         };
     };
+
     //VESTS
     class Vest_Camo_Base: ItemCore {
         class ItemInfo;

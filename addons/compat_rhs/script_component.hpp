@@ -9,6 +9,11 @@
     maximumLoad = maxLoad; \
     mass = massValue
 
+// Uniform macro
+#define UNIFORM_ITEMINFO(container,massValue) \
+    containerClass = container; \
+    mass = massValue
+
 // ACE Hearing protection macro
 #define ACE_HEARING\
     ace_hearing_protection = 1; \
