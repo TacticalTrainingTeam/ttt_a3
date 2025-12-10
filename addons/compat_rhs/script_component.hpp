@@ -128,21 +128,21 @@
         }; \
     }
 
-// Headgear with armor protection
-#define HEADGEAR_ARMOR(massValue,armorValue) \
+// Headgear with armor protection (3 parameters: mass, head armor, face armor)
+#define HEADGEAR_ARMOR(massValue,headArmor,faceArmor) \
     ace_hearing_protection = 1; \
     ace_hearing_lowerVolume = 0.0; \
     mass = massValue; \
     class HitpointsProtectionInfo { \
         class Head { \
-            hitpointName ="HitHead"; \
-            Armor = armorValue; \
+            hitpointName = "HitHead"; \
+            Armor = headArmor; \
             passThrough = 0.5; \
         }; \
         class Face { \
-            hitpointName ="HitFace"; \
-            armor = 0; \
-            passThrough = 1; \
+            hitpointName = "HitFace"; \
+            armor = faceArmor; \
+            passThrough = 0.5; \
         }; \
     }
 

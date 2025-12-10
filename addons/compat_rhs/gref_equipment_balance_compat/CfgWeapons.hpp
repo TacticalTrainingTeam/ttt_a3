@@ -28,42 +28,42 @@ class cfgWeapons {
     };
     class rhsgref_ssh68: H_HelmetB {
         class ItemInfo: ItemInfo {
-            HEADGEAR_ARMOR(20,6);
+            HEADGEAR_ARMOR(20,6,0);
         };
     };
     class rhsgref_M56: H_HelmetB {
         class ItemInfo: ItemInfo {
-            HEADGEAR_ARMOR(20,6);
+            HEADGEAR_ARMOR(20,6,0);
         };
     };
     class rhsgref_6b27m: H_HelmetB {
         class ItemInfo: ItemInfo {
-            HEADGEAR_ARMOR(20,6);
+            HEADGEAR_ARMOR(20,6,0);
         };
     };
     class rhsgref_helmet_M1_bare: H_HelmetB {
         class ItemInfo: ItemInfo {
-            HEADGEAR_ARMOR(15,4);
+            HEADGEAR_ARMOR(15,4,0);
         };
     };
     class rhsgref_helmet_M1_liner: H_HelmetB {
         class ItemInfo: ItemInfo {
-            HEADGEAR_ARMOR(15,4);
+            HEADGEAR_ARMOR(15,4,0);
         };
     };
     class rhsgref_helmet_M1_mit: H_HelmetB {
         class ItemInfo: ItemInfo {
-            HEADGEAR_ARMOR(15,4);
+            HEADGEAR_ARMOR(15,4,0);
         };
     };
     class rhsgref_helmet_M1_erdl: rhsgref_helmet_M1_mit {
         class ItemInfo: ItemInfo {
-            HEADGEAR_ARMOR(15,4);
+            HEADGEAR_ARMOR(15,4,0);
         };
     };
     class rhsgref_helmet_M1_des: rhsgref_helmet_M1_mit {
         class ItemInfo: ItemInfo {
-            HEADGEAR_ARMOR(15,4);
+            HEADGEAR_ARMOR(15,4,0);
         };
     };
     class rhsgref_hat_M1951: H_HelmetB {
@@ -87,22 +87,22 @@ class cfgWeapons {
     };
     class rhsgref_helmet_pasgt_erdl: H_HelmetB {
         class ItemInfo: ItemInfo {
-            HEADGEAR_ARMOR(20,6);
+            HEADGEAR_ARMOR(20,6,0);
         };
     };
     class rhsgref_helmet_pasgt_erdl_rhino: H_HelmetB {
         class ItemInfo: ItemInfo {
-            HEADGEAR_ARMOR(20,6);
+            HEADGEAR_ARMOR(20,6,0);
         };
     };
     class rhsgref_helmet_pasgt_woodland_rhino: rhsgref_helmet_pasgt_erdl_rhino {
         class ItemInfo: ItemInfo {
-            HEADGEAR_ARMOR(20,6);
+            HEADGEAR_ARMOR(20,6,0);
         };
     };
     class rhsgref_helmet_pasgt_3color_desert_rhino: rhsgref_helmet_pasgt_erdl_rhino {
         class ItemInfo: ItemInfo {
-            HEADGEAR_ARMOR(20,6);
+            HEADGEAR_ARMOR(20,6,0);
         };
     };
     //VESTS
