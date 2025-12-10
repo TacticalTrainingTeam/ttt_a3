@@ -94,21 +94,21 @@ Die FDCB-Vorlage wird für die Anforderung von Artillerie- oder Mörserfeuerunte
 **Lines:**
 
 - **Line 0** - ID: Unique identifier for the fire mission
-- **Line 2** - Typ (Type):
+- **Line 1** - Typ (Type):
   - Typ 1: Fire when ready
   - Typ II: Fire on command
   - Typ 3: Time on target (specific time)
-- **Line 1** - Art (Type):
+- **Line 2** - Art (Type):
   - P: Point target
   - L: Linear target
   - F: Area target
-- **Line 2** - Koordinaten (Coordinates):
+- **Line 3** - Koordinaten (Coordinates):
   - Start: Starting coordinate
   - Ende: Ending coordinate (for linear/area)
   - Radius: Radius in meters (for area)
-- **Line 3** - Höhe (Elevation): Altitude above sea level in meters
-- **Line 4** - Anzahl Geschosse (Munitions): Type and quantity of munitions
-- **Line 2** - Hinweise (Notes): Any additional information
+- **Line 4** - Höhe (Elevation): Altitude above sea level in meters
+- **Line 5** - Anzahl Geschosse (Munitions): Type and quantity of munitions
+- **Line 6** - Hinweise (Notes): Any additional information
 
 ## Technische Implementierung
 
