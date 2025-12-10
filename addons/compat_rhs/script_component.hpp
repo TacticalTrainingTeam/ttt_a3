@@ -160,6 +160,6 @@
         class Face { \
             hitpointName ="HitFace"; \
             armor = 0; \
-            passThrough = 0.1; \
+            passThrough = 1; \
         }; \
     }
