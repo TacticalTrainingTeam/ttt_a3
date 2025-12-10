@@ -21,7 +21,7 @@ Alle Vorlagen werden automatisch registriert, wenn das Addon geladen wird und cT
 ### NATO MedEvac (9-Liner)
 
 !!! warning
-    Wird im TTT nicht benutzt muss aber vorhanden sein.
+    Wird im TTT nicht benutzt, muss aber vorhanden sein.
 
 Die NATO MedEvac-Vorlage implementiert das standardmäßige 9-Zeilen-Format für medizinische Evakuierungsanfragen, das von NATO-Streitkräften verwendet wird.
 
