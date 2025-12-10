@@ -21,7 +21,7 @@ Passt einige Rucksäcke an.
 
 Passt Nachtsichtgeräte an BetterIR an.
 
-## Nachtischtgeräte
+## Nachtsichtgeräte
 
 Versteckt ein fehlerhaftes NVG.
 
