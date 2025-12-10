@@ -136,7 +136,7 @@
     class HitpointsProtectionInfo { \
         class Head { \
             hitpointName = "HitHead"; \
-            Armor = headArmor; \
+            armor = headArmor; \
             passThrough = 0.5; \
         }; \
         class Face { \
