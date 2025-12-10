@@ -9,7 +9,7 @@
     maximumLoad = maxLoad; \
     mass = massValue
 
-
+// ACE Hearing protection macro
 #define ACE_HEARING\
     ace_hearing_protection = 1; \
     ace_hearing_lowerVolume = 0.0
@@ -30,8 +30,6 @@
             passThrough = 1; \
         }; \
     }
-
-
 
 #define HEADGEAR_ARMOR(massValue,headArmor,faceArmor) \
     ACE_HEARING;\
