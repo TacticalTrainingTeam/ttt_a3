@@ -5,170 +5,170 @@ class CfgWeapons {
     //Balance Changes by Bluefield
     class rhs_uniform_g3_mc: Uniform_Base {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_g3_m81: Uniform_Base {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_g3_aor2: Uniform_Base {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_g3_tan: Uniform_Base {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_g3_rgr: Uniform_Base {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_g3_blk: Uniform_Base {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_cu_ocp: Uniform_Base {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_cu_ucp: rhs_uniform_cu_ocp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_cu_ocp_1stcav: rhs_uniform_cu_ocp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_cu_ucp_1stcav: rhs_uniform_cu_ucp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_cu_ocp_82nd: rhs_uniform_cu_ocp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_cu_ucp_82nd: rhs_uniform_cu_ucp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_cu_ocp_101st: rhs_uniform_cu_ocp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_cu_ucp_101st: rhs_uniform_cu_ucp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_cu_ocp_10th: rhs_uniform_cu_ocp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_cu_ucp_10th: rhs_uniform_cu_ucp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_cu_ucp_patchless: rhs_uniform_cu_ocp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_cu_ocp_patchless: rhs_uniform_cu_ucp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_FROG01_d: rhs_uniform_cu_ocp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_FROG01_wd: rhs_uniform_FROG01_d {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_FROG01_m81: rhs_uniform_g3_m81 {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_acu_ucp: Uniform_Base {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_acu_ucp2: rhs_uniform_acu_ucp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_acu_ucpd: rhs_uniform_acu_ucp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_acu_oefcp: rhs_uniform_acu_ucp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_acu_ocp: rhs_uniform_acu_ucp {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_abu: Uniform_Base {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     class rhs_uniform_bdu_erdl: Uniform_Base {
         class ItemInfo: UniformItem {
-            containerClass = "Supply70";
-            mass = 25;
+            containerClass = "Supply40";
+            mass = 40;
         };
     };
     //HEADGEAR
@@ -180,230 +180,62 @@ class CfgWeapons {
     };
     class rhsusf_patrolcap_ocp: H_HelmetB {
         class ItemInfo: HeadgearItem {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 5;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    armor = 0;
-                    passThrough = 1;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_NO_PROTECTION(5);
         };
     };
     class rhs_xmas_antlers: ItemCore {
         class ItemInfo: HeadgearItem {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 25;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 8;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 8;
-                    passThrough = 0.5;
-                };
-            };
+            HEADGEAR_ARMOR(40,8,8);
         };
     };
     class rhs_Booniehat_ocp: ItemCore {
         class ItemInfo: HeadgearItem {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 5;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    armor = 0;
-                    passThrough = 1;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_NO_PROTECTION(5);
         };
     };
     class rhs_booniehat2_marpatd: ItemCore {
         class ItemInfo: HeadgearItem {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 5;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    armor = 0;
-                    passThrough = 1;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_NO_PROTECTION(5);
         };
     };
     class rhs_8point_marpatd: ItemCore {
         class ItemInfo: HeadgearItem {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 5;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    armor = 0;
-                    passThrough = 1;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_NO_PROTECTION(5);
         };
     };
     class rhsusf_ach_helmet_ocp: H_HelmetB {
         class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 15;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 4;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_ARMOR_FACE_EXPOSED(15,4);
         };
     };
     class rhsusf_opscore_01: rhsusf_ach_helmet_ocp {
         class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 20;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 6;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_ARMOR_FACE_EXPOSED(20,6);
         };
     };
     class rhsusf_opscore_cover: rhsusf_opscore_01 {
         class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 20;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 6;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_ARMOR_FACE_EXPOSED(20,6);
         };
     };
     class rhsusf_opscore_mar_01: rhsusf_ach_helmet_ocp {
         class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 20;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 6;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_ARMOR_FACE_EXPOSED(20,6);
         };
     };
     class rhsusf_cvc_helmet: rhsusf_opscore_01 {
         class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 20;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 6;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_ARMOR_FACE_EXPOSED(20,6);
         };
     };
     class rhsusf_hgu56p: rhsusf_opscore_01 {
         class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 25;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 8;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 8;
-                    passThrough = 0.5;
-                };
-            };
+            HEADGEAR_ARMOR(40,8,8);
         };
     };
     class rhsusf_mich_helmet_marpatwd: H_HelmetB {
         class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 20;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 6;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_ARMOR_FACE_EXPOSED(20,6);
         };
     };
     class rhsusf_mich_bare: rhsusf_mich_helmet_marpatwd {
@@ -414,21 +246,7 @@ class CfgWeapons {
     };
     class rhsusf_mich_bare_alt: rhsusf_mich_bare {
         class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 20;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 6;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_ARMOR_FACE_EXPOSED(20,6);
         };
     };
     class rhsusf_mich_bare_norotos: rhsusf_mich_bare_headset {
@@ -439,60 +257,18 @@ class CfgWeapons {
     };
     class rhsusf_mich_bare_norotos_alt: rhsusf_mich_bare_norotos {
         class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 20;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 6;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_ARMOR_FACE_EXPOSED(20,6);
         };
     };
     class rhsusf_mich_bare_norotos_alt_headset: rhsusf_mich_bare_norotos_headset {
         class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 20;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 6;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_ARMOR_FACE_EXPOSED(20,6);
         };
     };
 
     class rhsusf_mich_bare_tan_headset: rhsusf_mich_bare_headset {
         class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 20;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 6;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_ARMOR_FACE_EXPOSED(20,6);
         };
     };
     class rhsusf_mich_bare_norotos_arc_tan_headset;
@@ -504,59 +280,17 @@ class CfgWeapons {
     };
     class rhsusf_mich_bare_norotos_arc_alt: rhsusf_mich_bare_norotos_arc {
         class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 20;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 6;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_ARMOR_FACE_EXPOSED(20,6);
         };
     };
     class rhsusf_mich_bare_norotos_arc_alt_headset: rhsusf_mich_bare_norotos_arc_headset {
         class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 20;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 6;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_ARMOR_FACE_EXPOSED(20,6);
         };
     };
     class rhsusf_mich_bare_tan: rhsusf_mich_bare {
         class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 20;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 6;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_ARMOR_FACE_EXPOSED(20,6);
         };
     };
 
@@ -564,40 +298,12 @@ class CfgWeapons {
 
     class rhsusf_mich_bare_semi: rhsusf_mich_bare {
         class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 20;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 6;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_ARMOR_FACE_EXPOSED(20,6);
         };
     };
     class rhsusf_mich_bare_semi_headset: rhsusf_mich_bare_headset {
         class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 20;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 6;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_ARMOR_FACE_EXPOSED(20,6);
         };
     };
     class rhsusf_mich_bare_norotos_semi: rhsusf_mich_bare_semi {
@@ -605,154 +311,42 @@ class CfgWeapons {
     };
     class rhsusf_mich_bare_norotos_semi_headset: rhsusf_mich_bare_semi_headset {
         class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 20;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 6;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_ARMOR_FACE_EXPOSED(20,6);
         };
     };
     class rhsusf_mich_bare_norotos_alt_semi: rhsusf_mich_bare_norotos_semi {
         class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 20;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 6;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_ARMOR_FACE_EXPOSED(20,6);
         };
     };
     class rhsusf_lwh_helmet_marpatd: H_HelmetB {
         class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 20;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 6;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_ARMOR_FACE_EXPOSED(20,6);
         };
     };
     class rhsusf_Bowman: ItemCore {
         class ItemInfo: HeadgearItem {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 5;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    armor = 0;
-                    passThrough = 1;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_NO_PROTECTION(5);
         };
     };
     class rhsusf_bowman_cap: rhsusf_Bowman {
         class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 5;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    armor = 0;
-                    passThrough = 1;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_NO_PROTECTION(5);
         };
     };
     class RHS_jetpilot_usaf: H_HelmetB {
         class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 25;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 8;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 8;
-                    passThrough = 0.5;
-                };
-            };
+            HEADGEAR_ARMOR(40,8,8);
         };
     };
     class rhsusf_ihadss: rhsusf_opscore_01 {
         class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 25;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 8;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 8;
-                    passThrough = 0.5;
-                };
-            };
+            HEADGEAR_ARMOR(40,8,8);
         };
     };
     class rhsusf_protech_helmet: H_HelmetB {
         class ItemInfo: ItemInfo {
-            ace_hearing_protection = 1;
-            ace_hearing_lowerVolume = 0.0;
-            mass = 15;
-            class HitpointsProtectionInfo {
-                class Head {
-                    hitpointName ="HitHead";
-                    Armor = 4;
-                    passThrough = 0.5;
-                };
-                class Face {
-                    hitpointName ="HitFace";
-                    armor = 0;
-                    passThrough = 1;
-                };
-            };
+            HEADGEAR_ARMOR_FACE_EXPOSED(15,4);
         };
     };
     //VESTS
