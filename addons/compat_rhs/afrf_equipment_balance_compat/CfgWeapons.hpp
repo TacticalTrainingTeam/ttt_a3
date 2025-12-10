@@ -3247,422 +3247,422 @@ class cfgWeapons {
     class Uniform_Base;
     class rhs_uniform_flora: Uniform_Base {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_df15: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_df15_tan: rhs_uniform_df15 {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_msv_emr: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_msv_emr_alt: rhs_uniform_msv_emr {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_mvd_izlom: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_vdv_emr: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_vdv_emr_des: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_vdv_flora: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_vmf_flora: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_vmf_flora_subdued: rhs_uniform_vmf_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_rva_flora: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_vdv_mflora: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_mflora_patchless: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_emr_des_patchless: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_flora_patchless: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_flora_patchless_alt: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_emr_patchless: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_m88_patchless: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_gorka_r_y: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_gorka_r_g: rhs_uniform_gorka_r_y {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_gorka_r_y_gloves: rhs_uniform_gorka_r_y {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_gorka_r_g_gloves: rhs_uniform_gorka_r_g {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_gorka_1_a: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_gorka_1_b: rhs_uniform_gorka_1_a {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_invisible: rhs_uniform_gorka_r_y {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_boots: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_ttsko: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_boots_ttsko: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_ttsko_2: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_boots_ttsko_2: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_klmk: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_boots_klmk: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_spetsodezhda: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_boots_spetsodezhda: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_grey: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_boots_grey: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_wdl: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_boots_wdl: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_moldovan_ttsko_cold: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_boots_moldovan_ttsko_cold: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_moldovan_ttsko_hot: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_boots_moldovan_ttsko_hot: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_moldovan_ttsko_desat: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_boots_moldovan_ttsko_desat: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_moldovan_ttsko_blue: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_boots_moldovan_ttsko_blue: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_vsr_1: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_boots_vsr_1: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_vsr_2: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_boots_vsr_2: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_vsr_3: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_boots_vsr_3: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_winter: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_winter_boots: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_winter_ttsko: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_winter_boots_ttsko: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_winter_vsr: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_winter_boots_vsr: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_winter_vsr_2: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_winter_boots_vsr_2: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_winter_vsr_3: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_winter_boots_vsr_3: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_winter_moldovan_ttsko: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_winter_boots_moldovan_ttsko: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_winter_spetsodezhda: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_winter_boots_spetsodezhda: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_para: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_para_ttsko: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_para_ttsko_2: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_para_vsr: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_afghanka_para_vsr_2: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_omon: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_cossack: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_klmk_oversuit: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_vkpo: rhs_uniform_flora {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_vkpo_alt: rhs_uniform_vkpo {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_vkpo_gloves: rhs_uniform_vkpo {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_vkpo_gloves_alt: rhs_uniform_vkpo_alt {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_6sh122_v1: rhs_uniform_vkpo {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_6sh122_v2: rhs_uniform_6sh122_v1 {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_6sh122_gloves_v1: rhs_uniform_6sh122_v1 {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
     class rhs_uniform_6sh122_gloves_v2: rhs_uniform_6sh122_v2 {
         class ItemInfo: UniformItem {
-            UNIFORM_ITEMINFO("Supply70",25);
+            UNIFORM_ITEMINFO("Supply40",40);
         };
     };
 };

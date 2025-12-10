@@ -1,6 +1,8 @@
 class CfgVehicles {
     class B_AssaultPack_Base;
     class B_Carryall_Base;
+
+    //ToDo Find the real Values
     class rhs_assault_umbts: B_AssaultPack_Base {
         BACKPACK_BALANCE(440,25);
     };
