@@ -190,10 +190,22 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Scenario";
 		class Attribute0
+		{
+			property="mts_zeus_comments_3DENComments";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					singleType="ARRAY";
+				};
+			};
+		};
+		class Attribute1
 		{
 			property="cba_settings_hasSettingsFile";
 			expression="false";
@@ -206,7 +218,7 @@ class CustomAttributes
 				};
 			};
 		};
-		nAttributes=1;
+		nAttributes=2;
 	};
 };
 class Mission

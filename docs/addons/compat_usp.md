@@ -23,7 +23,7 @@ Passt Nachtsichtgeräte an BetterIR an.
 
 ## Nachtischtgeräte
 
-Versteckt ein fehlerhafter NVG.
+Versteckt ein fehlerhaftes NVG.
 
 ## Maintainer
 
