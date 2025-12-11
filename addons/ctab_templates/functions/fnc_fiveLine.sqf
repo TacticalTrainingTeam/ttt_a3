@@ -40,7 +40,7 @@
             [
                 [
                     "",
-                    "Heading",
+                    "Richtung",
                     1
                 ]
             ]
@@ -51,7 +51,7 @@
             [
                 [
                     "",
-                    "Call Sign",
+                    "Rufzeichen",
                     3
                 ],
                 [
@@ -77,7 +77,7 @@
             "Markierung",
             [
                 [
-                    "Smoke",
+                    "Rauch",
                     "A",
                     6
                 ],
@@ -87,12 +87,12 @@
                     6
                 ],
                 [
-                    "Light",
+                    "Lichtzeiten",
                     "C",
                     6
                 ],
                 [
-                    "Other",
+                    "Andere",
                     "D",
                     6
                 ]
