@@ -58,3 +58,5 @@ _text ctrlSetPosition [
 
 _text ctrlCommit 0;
 _text ctrlSetText "";
+
+true
