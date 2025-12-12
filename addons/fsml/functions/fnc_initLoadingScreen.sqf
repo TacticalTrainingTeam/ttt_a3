@@ -4,7 +4,7 @@
  * Initializes a full screen loading screen with mission image and text.
  *
  * Arguments:
- * 0: Displyay - The loading screen display (RscDisplayLoading)
+ * 0: Display - The loading screen display (RscDisplayLoading)
  *
  * Return Value:
  * Return description <NONE>
