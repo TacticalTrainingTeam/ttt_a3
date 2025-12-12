@@ -7,10 +7,10 @@
  * 0: Displyay - The loading screen display (RscDisplayLoading)
  *
  * Return Value:
- * Return description <NONE>
+ * Success <BOOLEAN>
  *
  * Example:
- * [params] call PREFIX_fsml_fnc_initLoadingScreen
+ * [display] call ttt_fsml_fnc_initLoadingScreen
  *
  * Public: No
  */
@@ -40,8 +40,8 @@ private _height = 0.57 * safeZoneH * (getResolution#4);
 private _picture = _display ctrlCreate ["RscPicture", -1];
 
 _picture ctrlSetPosition [
-    0.5-_width/2,
-    0.5-_height/2,
+    _size-_width/2,
+    _size-_height/2,
     _width, _height
 ];
 
@@ -51,7 +51,7 @@ _picture ctrlSetText _imgPath;
 private _text = _display ctrlCreate ["RscLoadingText", -1];
 
 _text ctrlSetPosition [
-    0.5-_width/2,
+    _size-_width/2,
     0.2,
     _width, _height
 ];
