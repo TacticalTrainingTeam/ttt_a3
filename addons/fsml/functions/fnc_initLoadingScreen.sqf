@@ -19,6 +19,9 @@ params ["_display"];
 TRACE_1("fnc_initLoadingScreen",_this);
 
 private _imgPath = getMissionConfigValue ["loadScreen", ""];
+private _author = getMissionConfigValue ["author", "Tactical Training Team"];
+private _name = getMissionConfigValue ["OnLoadName", ""];
+private _slogan = getMissionConfigValue ["OnLoadMission", ""];
 
 if (_imgPath isEqualTo "") exitWith {false;};
 
@@ -32,7 +35,7 @@ _background ctrlSetPosition [
 ];
 
 _background ctrlCommit 0;
-_background ctrlSetText "#(rgb,8,8,3)color(0.2,0.2,0.2,1)";
+_background ctrlSetText "#(rgb,8,8,3)color(0,0,0,1)";
 
 private _size = 0.5;
 private _width = 1 * safeZoneW;
@@ -52,11 +55,25 @@ private _text = _display ctrlCreate ["RscLoadingText", -1];
 
 _text ctrlSetPosition [
     _size-_width/2,
-    0.2,
-    _width, _height
+    safeZoneY + 0.05,
+    _width,
+    0.1
 ];
 
 _text ctrlCommit 0;
-_text ctrlSetText "";
+private _string = [_name, "by", _author] joinString " ";
+_text ctrlSetText _string;
+
+private _text2 = _display ctrlCreate ["RscLoadingText", -1];
+
+_text2 ctrlSetPosition [
+    _size-_width/2,
+    safeZoneY + safeZoneH - 0.15,
+    _width,
+    0.1
+];
+
+_text2 ctrlCommit 0;
+_text2 ctrlSetText _slogan;
 
 true
