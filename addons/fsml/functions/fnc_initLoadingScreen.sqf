@@ -4,7 +4,7 @@
  * Initializes a full screen loading screen with mission image and text.
  *
  * Arguments:
- * 0: Displyay - The loading screen display (RscDisplayLoading)
+ * 0: Display - The loading screen display (RscDisplayLoading)
  *
  * Return Value:
  * Success <BOOLEAN>
@@ -58,3 +58,5 @@ _text ctrlSetPosition [
 
 _text ctrlCommit 0;
 _text ctrlSetText "";
+
+true
