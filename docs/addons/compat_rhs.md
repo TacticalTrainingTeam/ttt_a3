@@ -1,4 +1,4 @@
-## Compat RHS
+# Compat RHS
 
 Enthält Config-fixes und einige Funktionen für RHS.
 
