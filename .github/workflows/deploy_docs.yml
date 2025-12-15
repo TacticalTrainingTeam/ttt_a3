@@ -10,7 +10,7 @@ jobs:
   build:
     name: Deploy docs
     runs-on: ubuntu-latest
-    if: github.event_name != 'pull_request' || contains(github.event.pull_request.labels.*.name, 'pr/docs')
+    if: github.event_name != 'pull_request' || contains(github.event.pull_request.labels.*.name, 'pr/documentation')
     steps:
       - name: Checkout main
         uses: actions/checkout@v6
