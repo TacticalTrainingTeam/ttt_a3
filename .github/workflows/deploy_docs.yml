@@ -1,14 +1,16 @@
 # from https://github.com/marketplace/actions/deploy-mkdocs
 name: Publish docs via GitHub Pages
 on:
-  push:
-    branches:
-      - master
+  release:
+    types: [published]
+  pull_request:
+    types: [labeled]
 
 jobs:
   build:
     name: Deploy docs
     runs-on: ubuntu-latest
+    if: github.event_name != 'pull_request' || contains(github.event.pull_request.labels.*.name, 'pr/docs')
     steps:
       - name: Checkout main
         uses: actions/checkout@v6

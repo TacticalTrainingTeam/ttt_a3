@@ -1,8 +1,5 @@
 # No Chain
 
-!!! info "Version"
-    Hinzugefügt in **Version 4.9.0**
-
 Entfernt die visuellen Verbindungsqualitäts-Indikatoren (rote/gelbe Kette) in Arma 3, die bei schlechter Netzwerkverbindung oder Desynchronisation angezeigt werden. Basiert auf der gleichnamigen Mod von [LuzifR](https://steamcommunity.com/sharedfiles/filedetails/?id=325909645).
 
 !!! note "Hinweis"
