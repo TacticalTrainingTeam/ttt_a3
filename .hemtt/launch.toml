@@ -102,7 +102,8 @@ workshop = [
 [usp]
 extends = "default"
 workshop = [
-    "1795825073" # USP AiO
+    "1795825073", # USP AiO
+    "2056229605" # USP Gear Ace
 ]
 
 [server]
