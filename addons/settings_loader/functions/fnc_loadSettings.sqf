@@ -16,17 +16,17 @@
  */
 
 // Get the mission parameter value (default to 0 if not set)
-private _settingsProfile = ["ttt_main_settingsProfile", 0] call BIS_fnc_getParamValue;
+private _medicalSettings = ["ttt_main_medicalSettings", 0] call BIS_fnc_getParamValue;
 
 // Determine which settings file to load
-private _settingsFile = switch (_settingsProfile) do {
+private _settingsFile = switch (_medicalSettings) do {
     case 0: {"\z\ttt\addons\settings_loader\cba_settings_a.sqf"};
     case 1: {"\z\ttt\addons\settings_loader\cba_settings_b.sqf"};
     default {"\z\ttt\addons\settings_loader\cba_settings_a.sqf"};
 };
 
 // Log which profile is being loaded
-INFO_2("Loading CBA settings profile %1 from %2", _settingsProfile, _settingsFile);
+INFO_2("Loading CBA settings profile %1 from %2", _medicalSettings, _settingsFile);
 
 // Load the settings file if it exists
 if (fileExists _settingsFile) then {

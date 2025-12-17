@@ -46,7 +46,7 @@ Der Parameter wird in `CfgParams.hpp` definiert:
 
 ```cpp
 class CfgParams {
-    class GVARMAIN(settingsProfile) {
+    class GVARMAIN(medicalSettings) {
         title = "TTT Settings Profile";
         values[] = {0, 1};
         texts[] = {"Profile A", "Profile B"};
