@@ -26,14 +26,14 @@ private _settingsFile = switch (_medicalSettings) do {
     default {QPATHTOF(settings\cba_settings_a.sqf)};
 };
 
-private _settingsFile2 = preprocessFile _settingsFile;
+private _settingsFile = preprocessFile _settingsFile;
 
 //[_settingsFile2, "server"] call CBA_settings_fnc_import;
 
 {
     _x params ["_setting", "_value", "_prio"];
     [_setting, _value, _prio, "server"] call CBA_settings_fnc_set;
-} forEach ([_settingsFile2, false] call CBA_settings_fnc_parse);
+} forEach ([_settingsFile, false] call CBA_settings_fnc_parse);
 
 // Log which profile is being loaded
-INFO_2("Loading CBA settings profile %1 from %2", _medicalSettings, _settingsFile1);
+INFO_2("Loading CBA settings profile %1 from %2",_medicalSettings,_settingsFile);
