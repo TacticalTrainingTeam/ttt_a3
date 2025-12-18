@@ -1,1 +1,2 @@
 PREP(loadSettings);
+PREP(loadDefaultSettings);
