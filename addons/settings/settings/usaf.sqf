@@ -1,0 +1,19 @@
+// USAF
+force usaf_afterburner_setting_allow_ai = true;
+force USAF_allowNuke = true;
+force usaf_debug_setting_enabled_clients = false;
+force usaf_debug_setting_enabled_server = false;
+force usaf_f35a_allow_das_coverage = true;
+force usaf_f35a_allow_sar_imagery = true;
+force usaf_serviceMenu_setting_allowHangarRearm = true;
+force usaf_serviceMenu_setting_allowHangarRefuel = true;
+force usaf_serviceMenu_setting_allowHangarRepair = true;
+force usaf_serviceMenu_setting_allowLoadoutModification = true;
+force usaf_serviceMenu_setting_enabled = true;
+force usaf_serviceMenu_setting_refuelTime = "100";
+force usaf_serviceMenu_setting_reloadTime = "2";
+force usaf_serviceMenu_setting_repairTime = "100";
+force usaf_serviceMenu_setting_replaceSources = false;
+force usaf_serviceMenu_setting_selectorSearchRadius = "15";
+force usaf_setting_allow_aiFormlights = true;
+force force usaf_utility_core_allow_move_in_cargo = false;

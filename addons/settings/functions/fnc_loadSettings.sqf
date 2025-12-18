@@ -1,6 +1,6 @@
 #include "..\script_component.hpp"
 /*
- * Author: TTT
+ * Author: Andx
  * Loads the appropriate CBA settings file based on the mission parameter.
  *
  * Arguments:

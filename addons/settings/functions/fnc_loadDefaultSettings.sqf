@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /*
- * Author: TTT
- * Loads the appropriate CBA settings file based on the mission parameter.
+ * Author: Andx
+ * Loads the CBA settings files.
  *
  * Arguments:
  * None
@@ -10,14 +10,11 @@
  * None
  *
  * Example:
- * call ttt_settings_loader_fnc_loadSettings;
+ * call ttt_settings_loader_fnc_loadDefaultSettings;
  *
  * Public: No
  */
 
-
-
-// Determine which settings file to load
 private _settingsFiles = [
     QPATHTOF(settings\a3ti.sqf), //A3 Thermal Improvement
     // ACE Settings
@@ -77,16 +74,40 @@ private _settingsFiles = [
     QPATHTOF(settings\ace_weather.sqf),
     QPATHTOF(settings\ace_winddeflection.sqf),
     QPATHTOF(settings\ace_zeus.sqf),
-    QPATHTOF(settings\achilles.sqf), // Achilles Settings
+    QPATHTOF(settings\achilles.sqf), // Achilles
     QPATHTOF(settings\acre_core.sqf), // ACRE
+    QPATHTOF(settings\rcobms.sqf), // RCO Basic Map Sharing
+    QPATHTOF(settings\bwa3.sqf), // BWMod
+    QPATHTOF(settings\cba.sqf), //CBA
+    QPATHTOF(settings\crowsew.sqf), //Crows Electronic Warfare
+    QPATHTOF(settings\ctab.sqf), // cTab Advanced
+    QPATHTOF(settings\dui.sqf), // DUI Squad Radar
+    QPATHTOF(settings\emr.sqf), // Ehnanced Movement Rework
+    QPATHTOF(settings\grad_treches.sqf), // Grad Trenches
+    QPATHTOF(settings\vfx.sqf), // Hatchet Vehicle Framework + UH60M Mod
+    QPATHTOF(settings\iedd.sqf), // IEDD Notebook
+    QPATHTOF(settings\itc.sqf), // ITC Landsystems
+    QPATHTOF(settings\lambs.sqf), // Lambs Danger
+    QPATHTOF(settings\laxeman.sqf), // Immerse and Suppress
+    QPATHTOF(settings\mts.sqf), // Metis Enhanced
+    QPATHTOF(settings\ocap.sqf), // OCAP
+    QPATHTOF(settings\ttt.sqf), // Tactical Training Team
+    QPATHTOF(settings\tsp.sqf), // Breach and Core
+    QPATHTOF(settings\turret_enhanced.sqf), // Turret Enhanced
+    QPATHTOF(settings\usaf.sqf), // USAF
+    QPATHTOF(settings\zen_add.sqf), // V1 Zeus Additions
+    QPATHTOF(settings\kjw.sqf), // KJWs Two Primary Weapons
+    QPATHTOF(settings\dzn.sqf), // DZN MG Tripod
+    QPATHTOF(settings\zen.sqf) // Zeus Enhanced
+];
 
-]
-private _settingsFile = preprocessFile _settingsFile;
 
 {
-    _x params ["_setting", "_value", "_prio"];
-    [_setting, _value, _prio, "server"] call CBA_settings_fnc_set;
-} forEach ([_settingsFile, false] call CBA_settings_fnc_parse);
+    {
+        _x params ["_setting", "_value", "_prio"];
+        [_setting, _value, _prio, "server"] call CBA_settings_fnc_set;
+    } forEach ([_x, false] call CBA_settings_fnc_parse);
+} forEach _settingsFiles;
 
 // Log which profile is being loaded
-INFO_2("Loading CBA settings profile %1 from %2",_medicalSettings,_settingsFile);
+INFO("Loaded CBA settings");
