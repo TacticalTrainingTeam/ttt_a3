@@ -12,8 +12,6 @@ Die CBA-Einstellungen sind in einzelne `.inc`-Dateien aufgeteilt, gruppiert nach
 - **Mod-spezifische Settings**: Einzelne Dateien für ACRE, CTab, DUI, Lambs, RHS, CUP, etc.
 - **Default Settings**: Werden beim Missionsstart automatisch über `fnc_loadDefaultSettings` geladen
 
-Vorteil: Übersichtlichkeit, einfachere Wartung und gezielte Anpassung einzelner Bereiche.
-
 ### Missionsprofile
 
 - Missionsparameter "TTT Settings Profile" mit drei Optionen: Profile A (Standard), Profile B oder Profile C
@@ -21,8 +19,6 @@ Vorteil: Übersichtlichkeit, einfachere Wartung und gezielte Anpassung einzelner
 - Profile A → lädt `cba_settings_a.inc`
 - Profile B → lädt `cba_settings_b.inc`
 - Profile C → lädt `cba_settings_c.inc`
-
-Diese Profile überschreiben die Default-Settings und ermöglichen missionsangepasste Einstellungen (z.B. unterschiedliche medizinische Settings oder Schwierigkeitsgrade).
 
 ### Konfiguration der Einstellungen
 
@@ -56,7 +52,7 @@ Das Addon lädt Einstellungen in zwei Schritten:
 
 **Dateistruktur:**
 
-```
+```php
 addons/settings/
 ├── settings/
 │   ├── a3ti.inc                      # A3 Thermal Improvement
@@ -94,35 +90,29 @@ addons/settings/
 - Werte: 0 = Profile A, 1 = Profile B, 2 = Profile C
 - Parameter-Name: `ttt_main_medicalSettings`
 
-### Beispiel für Einstellungsdateien
+Damit der Parameter genutzt werden kann muss er in de description.ext der Mission definiert werden:
 
-Die CBA-Einstellungen werden im typischen CBA-Format gespeichert:
-
-**Modulare Settings (`ace_medical.inc`):**
-```sqf
-force ace_medical_ai_enabledFor = 2;
-force ace_medical_bleedingCoefficient = 0.3;
-force ace_medical_playerDamageThreshold = 2;
-// ... weitere ACE Medical Einstellungen
-```
-
-**Missionsprofile (`cba_settings_a.inc`):**
-```sqf
-// KAM Standard Settings
-// TTT Standard
-force ace_medical_bleedingCoefficient = 0.3;
-force ace_medical_playerDamageThreshold = 2;
-// ... Vollständige exportierte CBA-Einstellungen
+```c++
+class Params {
+    class ttt_main_medicalSettings {
+        title = "TTT Medic Settings";
+        values[] = {0, 1, 2};
+        texts[] = {"KAM Standard", "KAM Einfach", "KAM Training"};
+        default = 0;
+    };
+};
 ```
 
 ## Dateien
 
 **Hauptdateien:**
+
 - `functions/fnc_loadDefaultSettings.sqf` - Lädt alle modularen Default-Settings
 - `functions/fnc_loadSettings.sqf` - Lädt das Missionsprofil
 - `XEH_postInit.sqf` - Initialisierung beim Missionsstart
 
 **Settings:**
+
 - `settings/*.inc` - Modulare Settings-Dateien für verschiedene Mods (80+ Dateien)
 - `settings/cba_settings_a.inc` - Missionsprofil A (Standard)
 - `settings/cba_settings_b.inc` - Missionsprofil B
