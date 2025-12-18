@@ -20,10 +20,10 @@ private _medicalSettings = ["ttt_main_medicalSettings", 0] call BIS_fnc_getParam
 
 // Determine which settings file to load
 private _settingsFile = switch (_medicalSettings) do {
-    case 0: {QPATHTOF(settings\cba_settings_a.sqf)};
-    case 1: {QPATHTOF(settings\cba_settings_b.sqf)};
-    case 2: {QPATHTOF(settings\cba_settings_c.sqf)};
-    default {QPATHTOF(settings\cba_settings_a.sqf)};
+    case 0: {QPATHTOF(settings\cba_settings_a.inc)};
+    case 1: {QPATHTOF(settings\cba_settings_b.inc)};
+    case 2: {QPATHTOF(settings\cba_settings_c.inc)};
+    default {QPATHTOF(settings\cba_settings_a.inc)};
 };
 
 private _settingsFileContent = preprocessFile _settingsFile;
