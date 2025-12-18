@@ -1,74 +1,129 @@
 # Settings Loader
 
-Lädt unterschiedliche CBA-Einstellungsdateien basierend auf einem Missionsparameter.
+Lädt CBA-Einstellungen für verschiedene Mods und ermöglicht das Laden unterschiedlicher Missionsprofile basierend auf einem Missionsparameter.
 
-## Funktionsweise
+## Architektur
 
-- Missionsparameter "TTT Settings Profile" mit zwei Optionen: Profile A (Standard) oder Profile B
+### Modulares Einstellungssystem
+
+Die CBA-Einstellungen sind in einzelne `.inc`-Dateien aufgeteilt, gruppiert nach Mod oder Funktionsbereich:
+
+- **ACE Settings**: ~50 Dateien für verschiedene ACE-Module (z.B. `ace_medical.inc`, `ace_arsenal.inc`)
+- **Mod-spezifische Settings**: Einzelne Dateien für ACRE, CTab, DUI, Lambs, RHS, CUP, etc.
+- **Default Settings**: Werden beim Missionsstart automatisch über `fnc_loadDefaultSettings` geladen
+
+Vorteil: Übersichtlichkeit, einfachere Wartung und gezielte Anpassung einzelner Bereiche.
+
+### Missionsprofile
+
+- Missionsparameter "TTT Settings Profile" mit drei Optionen: Profile A (Standard), Profile B oder Profile C
 - `XEH_postInit.sqf` ruft `fnc_loadSettings` auf, welche den Parameter ausliest und die entsprechende Datei lädt
-- Profile A → lädt `cba_settings_a.sqf`
-- Profile B → lädt `cba_settings_b.sqf`
+- Profile A → lädt `cba_settings_a.inc`
+- Profile B → lädt `cba_settings_b.inc`
+- Profile C → lädt `cba_settings_c.inc`
+
+Diese Profile überschreiben die Default-Settings und ermöglichen missionsangepasste Einstellungen (z.B. unterschiedliche medizinische Settings oder Schwierigkeitsgrade).
 
 ### Konfiguration der Einstellungen
+
+**Für einzelne Mod-Settings (Default):**
+
+1. Navigiere zu `addons/settings/settings/` und öffne die entsprechende `.inc`-Datei (z.B. `ace_medical.inc`)
+2. Passe die Einstellungen direkt in der Datei an
+3. Die Änderungen werden beim nächsten Missionsstart automatisch geladen
+
+**Für Missionsprofile:**
 
 1. Öffne das CBA-Einstellungsmenü (ESC → OPTIONEN → SPIEL → ADDONS KONFIGURIEREN)
 2. Konfiguriere die gewünschten Einstellungen
 3. Exportiere die Einstellungen über den Export-Button
-4. Füge die exportierten Einstellungen in `cba_settings_a.sqf` oder `cba_settings_b.sqf` ein
-5. Wiederhole den Vorgang für das andere Profil, falls gewünscht
+4. Füge die exportierten Einstellungen in `cba_settings_a.inc`, `cba_settings_b.inc` oder `cba_settings_c.inc` ein
+5. Wiederhole den Vorgang für die anderen Profile, falls gewünscht
 
 ### Funktionsweise
 
-Das Addon liest beim Missionsstart den Missionsparameter und lädt die entsprechende Einstellungsdatei:
+Das Addon lädt Einstellungen in zwei Schritten:
 
-1. Der Missionsparameter wird via `BIS_fnc_getParamValue` ausgelesen
-2. Basierend auf dem Wert (0 oder 1) wird die entsprechende Datei ausgewählt
-3. Die Datei wird während `postInit` geladen, nachdem CBA vollständig initialisiert wurde
-4. Die Einstellungen überschreiben die Standard-CBA-Einstellungen
+1. **Default Settings** (`fnc_loadDefaultSettings`): Lädt alle modularen `.inc`-Dateien aus dem `settings/`-Ordner, sortiert nach Mods
+2. **Missionsprofil** (`fnc_loadSettings`): Liest den Missionsparameter aus und lädt das entsprechende Profil (A, B oder C), welches die Default-Settings überschreibt
 
 ### Technische Details
 
-**Dateien:**
+**Funktionen:**
 
-- `cba_settings_a.sqf` - Einstellungen für Profil A
-- `cba_settings_b.sqf` - Einstellungen für Profil B
-- `functions/fnc_loadSettings.sqf` - Hauptfunktion zum Laden der Einstellungen
+- `fnc_loadDefaultSettings.sqf` - Lädt alle modularen Default-Settings aus dem `settings/`-Ordner
+- `fnc_loadSettings.sqf` - Lädt das profilbasierte Settings-File basierend auf Missionsparameter
+
+**Dateistruktur:**
+
+```
+addons/settings/
+├── settings/
+│   ├── a3ti.inc                      # A3 Thermal Improvement
+│   ├── ace_*.inc                     # ACE Mod Settings (50+ Dateien)
+│   ├── acre_core.inc                 # ACRE
+│   ├── achilles.inc                  # Achilles
+│   ├── bwa3.inc                      # BWMod
+│   ├── cba.inc                       # CBA
+│   ├── cba_settings_a.inc            # Missionsprofil A
+│   ├── cba_settings_b.inc            # Missionsprofil B
+│   ├── cba_settings_c.inc            # Missionsprofil C
+│   ├── ctab.inc                      # cTab
+│   ├── dui.inc                       # DUI Squad Radar
+│   ├── lambs.inc                     # Lambs Danger
+│   ├── rhs.inc                       # RHS (conditional)
+│   ├── cup.inc                       # CUP (conditional)
+│   └── ... weitere Mod-Settings
+├── functions/
+│   ├── fnc_loadDefaultSettings.sqf
+│   └── fnc_loadSettings.sqf
+└── XEH_postInit.sqf
+```
 
 **Ablauf:**
 
-- Die Einstellungen werden während `XEH_postInit` geladen
-- Falls eine Einstellungsdatei fehlt, wird eine Warnung geloggt, die Mission läuft aber weiter
-- Der Missionsparameter hat standardmäßig den Wert 0 (Profil A)
+1. `XEH_postInit.sqf` wird beim Missionsstart ausgeführt
+2. `fnc_loadDefaultSettings` lädt alle modularen `.inc`-Dateien (außer cba_settings_*.inc)
+3. `fnc_loadSettings` liest den Missionsparameter aus (Standard: 0)
+4. Das entsprechende Profil wird geladen und überschreibt die Default-Settings
+5. Conditional Mods (RHS, CUP) werden nur geladen, wenn sie aktiv sind
 
-**Missionsparameter-Definition:**
+**Missionsparameter:**
 
-Der Parameter wird in `CfgParams.hpp` definiert:
-
-```cpp
-class CfgParams {
-    class GVARMAIN(medicalSettings) {
-        title = "TTT Settings Profile";
-        values[] = {0, 1};
-        texts[] = {"Profile A", "Profile B"};
-        default = 0;
-    };
-};
-```
+- Standardwert: 0 (Profil A)
+- Werte: 0 = Profile A, 1 = Profile B, 2 = Profile C
+- Parameter-Name: `ttt_main_medicalSettings`
 
 ### Beispiel für Einstellungsdateien
 
 Die CBA-Einstellungen werden im typischen CBA-Format gespeichert:
 
+**Modulare Settings (`ace_medical.inc`):**
 ```sqf
-// cba_settings_a.sqf
-force force acex_headless_enabled = true;
-force force acex_headless_delay = 15;
-force force acex_viewrestriction_mode = 0;
-// ... weitere Einstellungen
+force ace_medical_ai_enabledFor = 2;
+force ace_medical_bleedingCoefficient = 0.3;
+force ace_medical_playerDamageThreshold = 2;
+// ... weitere ACE Medical Einstellungen
+```
+
+**Missionsprofile (`cba_settings_a.inc`):**
+```sqf
+// KAM Standard Settings
+// TTT Standard
+force ace_medical_bleedingCoefficient = 0.3;
+force ace_medical_playerDamageThreshold = 2;
+// ... Vollständige exportierte CBA-Einstellungen
 ```
 
 ## Dateien
 
-- `cba_settings_a.sqf` - CBA-Einstellungen für Profil A (mit exportierten Einstellungen befüllen)
-- `cba_settings_b.sqf` - CBA-Einstellungen für Profil B (mit exportierten Einstellungen befüllen)
-- `functions/fnc_loadSettings.sqf` - Hauptfunktion zum Laden der Einstellungen
+**Hauptdateien:**
+- `functions/fnc_loadDefaultSettings.sqf` - Lädt alle modularen Default-Settings
+- `functions/fnc_loadSettings.sqf` - Lädt das Missionsprofil
+- `XEH_postInit.sqf` - Initialisierung beim Missionsstart
+
+**Settings:**
+- `settings/*.inc` - Modulare Settings-Dateien für verschiedene Mods (80+ Dateien)
+- `settings/cba_settings_a.inc` - Missionsprofil A (Standard)
+- `settings/cba_settings_b.inc` - Missionsprofil B
+- `settings/cba_settings_c.inc` - Missionsprofil C
