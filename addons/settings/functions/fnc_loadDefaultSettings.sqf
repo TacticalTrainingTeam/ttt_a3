@@ -101,6 +101,13 @@ private _settingsFiles = [
     QPATHTOF(settings\zen.sqf) // Zeus Enhanced
 ];
 
+if ("" call ace_common_fnc_isModLoaded) then {
+    _settingsFiles pushBack QPATHTOF(settings\cup.sqf); // CUP
+};
+
+if ("" call CBA_fnc_isModLoaded) then {
+    _settingsFiles pushBack QPATHTOF(settings\rhs.sqf); // RHS
+};
 
 {
     {
