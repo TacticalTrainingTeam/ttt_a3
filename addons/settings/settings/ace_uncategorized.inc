@@ -1,0 +1,22 @@
+// ACE Uncategorized
+force ace_fastroping_autoAddFRIES = true;
+force ace_fastroping_requireRopeItems = false;
+force force ace_flags_enableCarrying = true;
+force force ace_flags_enablePlacing = true;
+force ace_gunbag_swapGunbagEnabled = true;
+force force ace_hitreactions_minDamageToTrigger = -1;
+force force ace_hitreactions_weaponDropChanceArmHitAI = 0;
+force force ace_hitreactions_weaponDropChanceArmHitPlayer = 0;
+ace_inventory_inventoryDisplaySize = 0;
+force force ace_laser_dispersionCount = 2;
+force force ace_laser_showLaserOnMap = 0;
+force force ace_marker_flags_placeAnywhere = true;
+force force ace_microdagr_mapDataAvailable = 2;
+force force ace_microdagr_waypointPrecision = 3;
+force ace_noradio_enabled = true;
+ace_optionsmenu_showNewsOnMainMenu = true;
+force force ace_overpressure_backblastDistanceCoefficient = 1;
+force force ace_overpressure_overpressureDistanceCoefficient = 1;
+force ace_parachute_failureChance = 0.025;
+force force ace_parachute_hideAltimeter = true;
+ace_tagging_quickTag = 1;
