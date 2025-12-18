@@ -28,8 +28,6 @@ private _settingsFile = switch (_medicalSettings) do {
 
 private _settingsFile = preprocessFile _settingsFile;
 
-//[_settingsFile2, "server"] call CBA_settings_fnc_import;
-
 {
     _x params ["_setting", "_value", "_prio"];
     [_setting, _value, _prio, "server"] call CBA_settings_fnc_set;
