@@ -157,6 +157,7 @@ nav:
   - Feldhandbuch: addons/fieldmanual.md
   - Full Screen Mission Loading: addons/fsml.md
   - Main: addons/main.md
+  - No Chain: addons/nochain.md
   - Screenshot Modus: addons/screenshotmode.md
   - Spotlight CUP: addons/spotlight_cup.md
   - Spotlight Event: addons/spotlight_event.md
@@ -170,7 +171,6 @@ nav:
   - cTab Vorlagen: addons/ctab_templates.md
   - Konterartillerie: addons/counterari.md
   - Loadout-System (MPLS): addons/mpls.md
-  - No Chain: addons/no_chain.md
   - Mobile San-Einrichtung (Fahrzeug): addons/medic_vehicle.md
   - Mobile San-Einrichtung (Rucksack): addons/medic_backpack.md
   - Mobile Werkstatt: addons/repair_vehicle.md
