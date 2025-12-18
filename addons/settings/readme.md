@@ -45,7 +45,7 @@ Diese Profile überschreiben die Default-Settings und ermöglichen missionsangep
 Das Addon lädt Einstellungen in zwei Schritten:
 
 1. **Default Settings** (`fnc_loadDefaultSettings`): Lädt alle modularen `.inc`-Dateien aus dem `settings/`-Ordner, sortiert nach Mods
-2. **Missionsprofil** (`fnc_loadSettings`): Liest den Missionsparameter aus und lädt das entsprechende Profil (A, B oder C), welches die Default-Settings überschreibt
+2. **Missionsprofil** (`fnc_loadSettings`): Liest den Missionsparameter aus und lädt das entsprechende Profil (A, B oder C)
 
 ### Technische Details
 
