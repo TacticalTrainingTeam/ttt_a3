@@ -1,17 +1,31 @@
-//https://ace3.acemod.org/wiki/framework/interactionmenu-framework#22-vehicle-interactions-based-on-animations
+class DefaultVehicleSystemsDisplayManagerRight {};
 
 class CfgVehicles {
-
-    class UK3CB_BAF_LandRover_Base;
+    class Land;
+    class LandVehicle: Land {
+        class Components {};
+    };
+    class Car: LandVehicle {
+        class Components: Components {};
+    };
+    class Car_F: Car {
+        class Components: Components {};
+    };
+    class UK3CB_BAF_LandRover_Base: Car_F {};
     class UK3CB_BAF_LandRover_Panama_Base: UK3CB_BAF_LandRover_Base {
-        mineDetectorRange = 25; //Vanilla ED-1D hat 50m Reichweite
-        class components {
-            class MineDetectorDisplay {
-                range = 25;
+        mineDetectorRange = 25;
+        class Components: Components {
+            class VehicleSystemsDisplayManagerComponentRight: DefaultVehicleSystemsDisplayManagerRight {
+                class Components {
+                    class MineDetectorDisplay {
+                        range = 25;
+                    };
+                };
             };
         };
     };
 
+    //https://ace3.acemod.org/wiki/framework/interactionmenu-framework#22-vehicle-interactions-based-on-animations
     class UK3CB_BAF_LandRover_WMIK_Base;
     class UK3CB_BAF_LandRover_WMIK_Milan_Base: UK3CB_BAF_LandRover_WMIK_Base {
         class ace_interaction_anims {
