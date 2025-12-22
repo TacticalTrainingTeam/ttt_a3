@@ -1817,13 +1817,13 @@ class cfgWeapons {
         };
     };
     class rhsgref_uniform_TLA_1: U_IG_leader {
-        class ItemInfo: ItemInfo {
+        class ItemInfo: UniformItem {
             containerClass = "Supply70";
             mass = 25;
         };
     };
     class rhsgref_uniform_TLA_2: U_IG_leader {
-        class ItemInfo: ItemInfo {
+        class ItemInfo: UniformItem {
             containerClass = "Supply70";
             mass = 25;
         };

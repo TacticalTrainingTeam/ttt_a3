@@ -431,7 +431,7 @@ class CfgWeapons {
             };
         };
     };
-    class rhsusf_mich_bare_norotos: rhsusf_mich_bare {
+    class rhsusf_mich_bare_norotos: rhsusf_mich_bare_headset {
         class ItemInfo;
     };
     class rhsusf_mich_bare_norotos_headset: rhsusf_mich_bare_headset {
@@ -495,8 +495,8 @@ class CfgWeapons {
             };
         };
     };
-
-    class rhsusf_mich_bare_norotos_arc: rhsusf_mich_bare {
+    class rhsusf_mich_bare_norotos_arc_tan_headset;
+    class rhsusf_mich_bare_norotos_arc: rhsusf_mich_bare_norotos_arc_tan_headset {
         class ItemInfo;
     };
     class rhsusf_mich_bare_norotos_arc_headset: rhsusf_mich_bare_headset {
