@@ -1,4 +1,4 @@
-class XEH_CLASS_BASE;
+class CBA_Extended_EventHandlers_base;
 
 class CfgVehicles {
     class Bag_Base;
@@ -14,19 +14,37 @@ class CfgVehicles {
         };
     };
 
-
-    class LandVehicle;
+    class All {};
+    class AllVehicles: All {
+        class NewTurret {};
+    };
+    class Land: AllVehicles {};
+    class LandVehicle: Land {};
     class StaticWeapon: LandVehicle {
-        class Turrets;
-        class MainTurret;
-        class ACE_Actions {
+        class Turrets {
+            class MainTurret: NewTurret {};
+        };
+    };
+    class StaticMGWeapon: StaticWeapon {
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {};
+        };
+    };
+    class HMG_01_base_F: StaticMGWeapon {
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {};
+        };
+        class ACE_Actions;
+    };
+    class HMG_01_high_base_F: HMG_01_base_F {
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {};
+        };
+        class ACE_Actions: ACE_Actions {
             class ACE_MainActions;
         };
         class ACE_SelfActions;
     };
-    class StaticMGWeapon: StaticWeapon {};
-    class HMG_01_base_F: StaticMGWeapon {};
-    class HMG_01_high_base_F: HMG_01_base_F {};
 
     class rnt_mg3_static: HMG_01_high_base_F {
         armor = 500000; // Make invincible
@@ -64,7 +82,7 @@ class CfgVehicles {
                     condition = "(crew _target) isEqualTo []";
                     statement = QUOTE(call EFUNC(compat_rnt,disassembleMG));
                 };
-                
+
                 class MG_hoehe_justieren {
                     condition = "true";
 
@@ -131,7 +149,7 @@ class CfgVehicles {
 
         class EventHandlers {
             // Readd CBA XEH EventHandlers. (Redd didn't inherit from base event handles overwriting all event handles including XEH)
-            class XEH_CLASS: XEH_CLASS_BASE {};
+           class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers_base {};
         };
     };
 

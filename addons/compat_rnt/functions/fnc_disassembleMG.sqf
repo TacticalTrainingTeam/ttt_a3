@@ -51,7 +51,7 @@ playSound "ACE_BarrelSwap";
             (_weaponHolders select 0) addBackpackCargoGlobal ["rnt_mg3_static_tripod", 1];
         };
 
-        private _previousMG = _mg3Static getVariable [QGVAR(mgType), "hlc_lmg_MG3"];
+        private _previousMG = _mg3Static getVariable [QGVAR(mgType), "BWA3_MG3"];
 
         [_player, _previousMG, true] call CBA_fnc_addWeapon;
         [_player, primaryWeapon _player] call ace_weaponselect_fnc_selectWeaponMode;
