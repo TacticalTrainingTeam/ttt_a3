@@ -1,4 +1,4 @@
-class CBA_Extended_EventHandlers_base;
+class XEH_CLASS_BASE;
 
 class CfgVehicles {
     class Bag_Base;
@@ -133,7 +133,7 @@ class CfgVehicles {
 
         class EventHandlers {
             // Readd CBA XEH EventHandlers. (Redd didn't inherit from base event handles overwriting all event handles including XEH)
-           class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers_base {};
+            class XEH_CLASS: XEH_CLASS_BASE {};
         };
     };
 
