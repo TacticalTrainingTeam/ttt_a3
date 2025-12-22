@@ -14,31 +14,15 @@ class CfgVehicles {
         };
     };
 
-    class All {};
-    class AllVehicles: All {
-        class NewTurret {};
-    };
-    class Land: AllVehicles {};
-    class LandVehicle: Land {};
-    class StaticWeapon: LandVehicle {
-        class Turrets {
-            class MainTurret: NewTurret {};
-        };
-    };
-    class StaticMGWeapon: StaticWeapon {
-        class Turrets: Turrets {
-            class MainTurret: MainTurret {};
-        };
-    };
+
+    class StaticMGWeapon;
     class HMG_01_base_F: StaticMGWeapon {
-        class Turrets: Turrets {
-            class MainTurret: MainTurret {};
-        };
+        class Turrets;
         class ACE_Actions;
     };
     class HMG_01_high_base_F: HMG_01_base_F {
         class Turrets: Turrets {
-            class MainTurret: MainTurret {};
+            class MainTurret;
         };
         class ACE_Actions: ACE_Actions {
             class ACE_MainActions;
