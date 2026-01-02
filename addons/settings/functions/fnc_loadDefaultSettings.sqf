@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * call ttt_settings_loader_fnc_loadDefaultSettings;
+ * call ttt_settings_fnc_loadDefaultSettings;
  *
  * Public: No
  */
