@@ -16,9 +16,9 @@ Die CBA-Einstellungen sind in einzelne `.inc`-Dateien aufgeteilt, gruppiert nach
 
 - Missionsparameter "TTT Settings Profile" mit drei Optionen: Profile A (Standard), Profile B oder Profile C
 - `XEH_postInit.sqf` ruft `fnc_loadSettings` auf, welche den Parameter ausliest und die entsprechende Datei lädt
-- Profile A → lädt `cba_settings_a.inc`
-- Profile B → lädt `cba_settings_b.inc`
-- Profile C → lädt `cba_settings_c.inc`
+- Profile A → lädt `medic_preset_default.inc`
+- Profile B → lädt `medic_preset_easy.inc`
+- Profile C → lädt `medic_preset_training.inc`
 
 ### Konfiguration der Einstellungen
 

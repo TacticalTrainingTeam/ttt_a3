@@ -49,10 +49,6 @@ private _settingsFiles = [
     QPATHTOF(settings\ace_map.inc), // ACE Map
     QPATHTOF(settings\ace_map_gestures.inc), // ACE Map Gestures
     QPATHTOF(settings\ace_map_tools.inc), // ACE Map Tools
-    //handled via preset
-    //QPATHTOF(settings\ace_medical.inc),
-    //QPATHTOF(settings\ace_medical_interface.inc),
-    //QPATHTOF(settings\ace_medical_treatment.inc),
     QPATHTOF(settings\ace_nametags.inc), // ACE Nametags
     QPATHTOF(settings\ace_nightvision.inc), // ACE Night Vision
     QPATHTOF(settings\ace_overheating.inc), // ACE Overheating
@@ -115,11 +111,13 @@ private _settingsFiles = [
 ];
 
 if ("CUP_Vehicles_LoadOrder" call ace_common_fnc_isModLoaded) then {
-    _settingsFiles pushBack QPATHTOF(settings\cup.inc); // CUP
+    _settingsFiles pushBack QPATHTOF(settings\cup.inc);
+    TRACE_1("Added CUP settings",QPATHTOF(settings\cup.inc));
 };
 
 if ("rhsusf_main_loadorder" call CBA_fnc_isModLoaded) then {
-    _settingsFiles pushBack QPATHTOF(settings\rhs.inc); // RHS
+    _settingsFiles pushBack QPATHTOF(settings\rhs.inc);
+    TRACE_1("Added RHS settings",QPATHTOF(settings\rhs.inc));
 };
 
 {
@@ -130,4 +128,4 @@ if ("rhsusf_main_loadorder" call CBA_fnc_isModLoaded) then {
 } forEach _settingsFiles;
 
 // Log which profile is being loaded
-INFO("Loaded CBA settings");
+INFO_1("Loaded %1 default CBA settings files",count _settingsFiles);
