@@ -1,14 +1,14 @@
 // LAMBS Danger
 force lambs_danger_cqbRange = 150;
 force lambs_danger_disableAIAutonomousManoeuvres = false;
-force force lambs_danger_disableAIDeployStaticWeapons = false;
-force force lambs_danger_disableAIFindStaticWeapons = false;
+force lambs_danger_disableAIDeployStaticWeapons = false;
+force lambs_danger_disableAIFindStaticWeapons = false;
 force lambs_danger_disableAIHideFromTanksAndAircraft = false;
 force force lambs_danger_disableAIPlayerGroup = true;
 force force lambs_danger_disableAIPlayerGroupReaction = true;
-force force lambs_danger_disableAutonomousFlares = false;
+force lambs_danger_disableAutonomousFlares = false;
 force lambs_danger_disableAutonomousSmokeGrenades = false;
-force lambs_danger_panicChance = 0.201231;
+force lambs_danger_panicChance = 0.20;
 
 // LAMBS Danger Eventhandlers
 force lambs_eventhandlers_ExplosionEventHandlerEnabled = true;

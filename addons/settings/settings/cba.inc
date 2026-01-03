@@ -1,7 +1,7 @@
 // Community Base Addons
 cba_diagnostic_ConsoleIndentType = -1;
 force cba_diagnostic_watchInfoRefreshRate = 0.2;
-cba_disposable_dropUsedLauncher = 2;
+force force cba_disposable_dropUsedLauncher = 2;
 force force cba_disposable_replaceDisposableLauncher = true;
 cba_events_repetitionMode = 1;
 force force cba_network_loadoutValidation = 2;

@@ -1,0 +1,10 @@
+// V1 mods
+zeus_additions_main_blacklistSettings = "[]";
+zeus_additions_main_enableACECargoHint = true;
+zeus_additions_main_enableACEDragHint = true;
+zeus_additions_main_enableACEMedicalHint = true;
+zeus_additions_main_enableExitUnconsciousUnit = false;
+zeus_additions_main_enableMissionCounter = false;
+zeus_additions_main_enableJIP = false;
+zeus_additions_main_enableSnowScriptHint = true;
+zeus_additions_main_enableTFARHint = true;

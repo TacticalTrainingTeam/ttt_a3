@@ -1,4 +1,5 @@
 // ACE Field Rations
+force force ace_field_rations_zeusUpdates = false;
 force acex_field_rations_affectAdvancedFatigue = true;
 force acex_field_rations_enabled = false;
 force acex_field_rations_hudShowLevel = 0;

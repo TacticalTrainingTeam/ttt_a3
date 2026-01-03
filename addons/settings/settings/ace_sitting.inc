@@ -1,2 +1,2 @@
 // ACE Sitting
-force acex_sitting_enable = true;
+force force acex_sitting_enable = true;

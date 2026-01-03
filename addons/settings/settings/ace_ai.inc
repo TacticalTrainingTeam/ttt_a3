@@ -1,2 +1,2 @@
 // ACE AI
-force ace_ai_assignNVG = true;
+force force ace_ai_assignNVG = true;

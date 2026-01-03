@@ -1,4 +1,4 @@
-// A3 Thermal Improvement
+// A3TI
 force force A3TI_ACE_JAVELIN = true;
 force force A3TI_ALLOW_TANK_DRIVER = true;
 force force A3TI_ALLOW_VANILLA_TI = true;

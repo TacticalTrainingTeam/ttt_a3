@@ -18,8 +18,9 @@ force acre_sys_radio_defaultRadio = "ACRE_PRC343";
 force force acre_sys_signal_signalModel = 3;
 
 // ACRE2 Gestures
-force acre_sys_gestures_enabled = true;
-force acre_sys_gestures_stopADS = false;
+force force acre_sys_gestures_enabled = true;
+force force acre_sys_gestures_showConnectorRopes = true;
+force force acre_sys_gestures_stopADS = false;
 
 // ACRE2 UI
 acre_sys_godmode_rxNotification = true;
@@ -35,6 +36,7 @@ acre_sys_list_DefaultPTTColor = [1,0.8,0,1];
 acre_sys_list_HintBackgroundColor = [0,0,0,0.8];
 acre_sys_list_HintTextFont = "RobotoCondensed";
 acre_sys_list_LanguageColor = [1,0.29,0.16,1];
+acre_sys_list_LanguageHintPersist = true;
 acre_sys_list_PTT1Color = [1,0.8,0,1];
 acre_sys_list_PTT2Color = [1,0.8,0,1];
 acre_sys_list_PTT3Color = [1,0.8,0,1];
