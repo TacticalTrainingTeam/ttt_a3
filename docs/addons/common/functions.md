@@ -194,7 +194,7 @@ Mögliche Skill-Level sind:
 Bei fehlender oder falscher Angabe wird "Veteran" ausgewählt. Die Werte innerhalb der Level sind alle gleich, aber zufällig aus der Spanne ausgewählt. `aiming`-Werte sind immer 0,2 schlechter als alle anderen.
 
 ``` c++
-[unit, "Skill-Level"] call ttt_fnc_common_setAISkillLevel;
+[unit, "Skill-Level"] call ttt_common_fnc_setAISkillLevel;
 ```
 
 Argumente:
