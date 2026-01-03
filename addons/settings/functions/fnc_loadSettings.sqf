@@ -22,7 +22,7 @@ private _medicalSettings = ["ttt_main_medicalSettings", 0] call BIS_fnc_getParam
 private _settingsFile = switch (_medicalSettings) do {
     case 0: {QPATHTOF(settings\medic_preset_default.inc)};
     case 1: {QPATHTOF(settings\medic_preset_easy.inc)};
-    case 2: {QPATHTOF(settings\medic_preset_hard.inc)};
+    case 2: {QPATHTOF(settings\medic_preset_training.inc)};
     default {QPATHTOF(settings\medic_preset_default.inc)};
 };
 
