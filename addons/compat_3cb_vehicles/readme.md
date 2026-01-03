@@ -9,7 +9,7 @@
 
 ### Land Rover Panama
 
-Fügt Minendetektorfunktionalität zum Land Rover Panama hinzu.
+Ändert den Minendetektor von 8m auf 25m.
 
 ### Land Rover WMIK
 

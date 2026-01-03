@@ -1,12 +1,9 @@
 class DefaultVehicleSystemsDisplayManagerRight {};
 
 class CfgVehicles {
-    class Land;
-    class LandVehicle: Land {
-        class Components {};
-    };
+    class LandVehicle;
     class Car: LandVehicle {
-        class Components: Components {};
+        class Components;
     };
     class Car_F: Car {
         class Components: Components {};
