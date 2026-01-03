@@ -221,7 +221,7 @@ class CfgWeapons {
             HEADGEAR_ARMOR_FACE_EXPOSED(20,6);
         };
     };
-    class rhsusf_mich_bare_norotos: rhsusf_mich_bare_headset {
+    class rhsusf_mich_bare_norotos: rhsusf_mich_bare {
         class ItemInfo;
     };
     class rhsusf_mich_bare_norotos_headset: rhsusf_mich_bare_headset {
@@ -243,8 +243,8 @@ class CfgWeapons {
             HEADGEAR_ARMOR_FACE_EXPOSED(20,6);
         };
     };
-    class rhsusf_mich_bare_norotos_arc_tan_headset;
-    class rhsusf_mich_bare_norotos_arc: rhsusf_mich_bare_norotos_arc_tan_headset {
+
+    class rhsusf_mich_bare_norotos_arc: rhsusf_mich_bare {
         class ItemInfo;
     };
     class rhsusf_mich_bare_norotos_arc_headset: rhsusf_mich_bare_headset {
