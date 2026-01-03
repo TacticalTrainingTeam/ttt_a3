@@ -169,8 +169,7 @@ class CfgVehicles {
      };
 
      //Multi
-     class Truck_F;
-     class BWA3_Multi_base: Truck_F {
+     class BWA3_Multi_base: Car_F {
         class AcreRacks {
             class Rack_1 {
                 displayName = ECSTRING(common,RackA);
