@@ -15,6 +15,7 @@ extra_javascript:
 
 theme:
   name: material
+  custom_dir: docs/overrides
   font:
     text: Ubuntu
     code: Ubuntu Mono
@@ -87,6 +88,22 @@ extra:
     link: https://discord.tacticalteam.de
     name: TTT-Discord-Server
 
+  - icon: fontawesome/brands/steam
+    link: https://steamcommunity.com/groups/tacticaltrainingteam
+    name: TTT-Steam-Gruppe
+
+  - icon: fontawesome/brands/youtube
+    link: https://www.youtube.com/@tacticalteamde
+    name: TTT-YouTube-Kanal
+
+  - icon: fontawesome/solid/gavel
+    link: https://tacticalteam.de/datenschutz
+    name: Datenschutzerklärung
+
+  analytics:
+    #Matomo
+    provider: custom
+
 plugins:
 - privacy
 - search
@@ -138,7 +155,9 @@ nav:
   - Clear HUD: addons/clearhud.md
   - Discord Rich Presence: addons/discord_richpresence.md
   - Feldhandbuch: addons/fieldmanual.md
+  - Full Screen Mission Loading: addons/fsml.md
   - Main: addons/main.md
+  - No Chain: addons/nochain.md
   - Screenshot Modus: addons/screenshotmode.md
   - Spotlight CUP: addons/spotlight_cup.md
   - Spotlight Event: addons/spotlight_event.md
@@ -149,6 +168,7 @@ nav:
   - Common:
     - Funktionen: addons/common/functions.md
     - Objekte: addons/common/objects.md
+  - cTab Vorlagen: addons/ctab_templates.md
   - Konterartillerie: addons/counterari.md
   - Loadout-System (MPLS): addons/mpls.md
   - Mobile San-Einrichtung (Fahrzeug): addons/medic_vehicle.md
@@ -179,5 +199,6 @@ nav:
   - Compat RHS: addons/compat_rhs.md
   - Compat RNT: addons/compat_rnt.md
   - Compat TSP: addons/compat_tsp.md
+  - Compat USP: addons/compat_usp.md
   - Compat Vanilla: addons/compat_vanilla.md
   - Compat XEH Fix: addons/compat_xeh_fix.md

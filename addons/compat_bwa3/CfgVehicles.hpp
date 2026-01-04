@@ -1,5 +1,18 @@
 class CfgVehicles {
 
+    class Mortar_01_base_F;
+    class BWA3_MRS120_base: Mortar_01_base_F {
+        class ace_csw {
+            allowFireOnLoad = 1;
+            /*
+            * Available Options:
+            *   0 - Disabled
+            *   1 - Enabled, togglable on the gun via ACE interact
+            *   2 - Enabled, and forced on.
+            */
+        };
+    };
+
     class Helicopter_Base_F;
     class BWA3_NH90_base: Helicopter_Base_F {
         cargoProxyIndexes[] = {1,2,3,4,5,6,7,8,9,10,11,12};
@@ -11,15 +24,15 @@ class CfgVehicles {
     // https://ace3.acemod.org/wiki/framework/interactionmenu-framework#22-vehicle-interactions-based-on-animations
     class BWA3_Eagle_hatch_base;
     class BWA3_Eagle_flw100_base;
-    
+
     class BWA3_Eagle_Fleck: BWA3_Eagle_hatch_base {
-            class ace_interaction_anims { 
+            class ace_interaction_anims {
                 class backpack_back {
                     positions[] = {{-0.3, -3.3, 1.5}};
                     items[] = {"BWA3_PatrolPack_Fleck"};
                     text = CSTRING(takebackpack);
                 };
-                class backpack_top { 
+                class backpack_top {
                     positions[] = {{0.8, -1.9, 2.3}};
                     items[] = {"BWA3_PatrolPack_Fleck"};
                     text = CSTRING(takebackpack);
@@ -28,13 +41,13 @@ class CfgVehicles {
         };
 
     class BWA3_Eagle_Tropen: BWA3_Eagle_hatch_base {
-        class ace_interaction_anims { 
+        class ace_interaction_anims {
             class backpack_back {
                 positions[] = {{-0.3, -3.3, 1.5}};
                 items[] = {"BWA3_PatrolPack_Tropen"};
                 text = CSTRING(takebackpack);
             };
-            class backpack_top { 
+            class backpack_top {
                 positions[] = {{0.8, -1.9, 2.3}};
                 items[] = {"BWA3_PatrolPack_Tropen"};
                 text = CSTRING(takebackpack);
@@ -43,13 +56,13 @@ class CfgVehicles {
         };
 
     class BWA3_Eagle_FLW100_Fleck: BWA3_Eagle_flw100_base {
-            class ace_interaction_anims { 
+            class ace_interaction_anims {
                 class backpack_back {
                     positions[] = {{-0.3, -3.3, 1.5}};
                     items[] = {"BWA3_PatrolPack_Fleck"};
                     text = CSTRING(takebackpack);
                 };
-                class backpack_top { 
+                class backpack_top {
                     positions[] = {{0.8, -1.9, 2.3}};
                     items[] = {"BWA3_PatrolPack_Fleck"};
                     text = CSTRING(takebackpack);
@@ -58,13 +71,13 @@ class CfgVehicles {
         };
 
     class BWA3_Eagle_FLW100_Tropen: BWA3_Eagle_flw100_base {
-        class ace_interaction_anims { 
+        class ace_interaction_anims {
             class backpack_back {
                 positions[] = {{-0.3, -3.3, 1.5}};
                 items[] = {"BWA3_PatrolPack_Tropen"};
                 text = CSTRING(takebackpack);
             };
-            class backpack_top { 
+            class backpack_top {
                 positions[] = {{0.8, -1.9, 2.3}};
                 items[] = {"BWA3_PatrolPack_Tropen"};
                 text = CSTRING(takebackpack);
@@ -156,8 +169,7 @@ class CfgVehicles {
      };
 
      //Multi
-     class Truck_F;
-     class BWA3_Multi_base: Truck_F {
+     class BWA3_Multi_base: Car_F {
         class AcreRacks {
             class Rack_1 {
                 displayName = ECSTRING(common,RackA);
@@ -314,7 +326,7 @@ class CfgVehicles {
             };
         };
     };
-    //Leopard 2 
+    //Leopard 2
     class BWA3_Leopard_base: Tank_F {
 
         acre_hasInfantryPhone = 0;
@@ -377,7 +389,7 @@ class CfgVehicles {
 
     //Pzh2000
     class BWA3_Panzerhaubitze2000_base: Tank_F {
-    
+
         acre_hasInfantryPhone = 0;
         acre_infantryPhoneDisableRinging = 1;
         acre_infantryPhoneCustomRinging[] = {};

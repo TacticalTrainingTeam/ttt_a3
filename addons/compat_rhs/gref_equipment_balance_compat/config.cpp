@@ -13,13 +13,14 @@ class CfgPatches {
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
         requiredAddons[] = {
+            "ttt_compat_rhs",
             "rhsgref_main",
             "rhsgref_c_weapons",
             "rhs_c_troops",
-            "rhsgref_c_troops",
+            "rhsgref_c_troops"
         };
         // List of weapons (CfgWeapons classes) contained in the addon.
-        vehicles[] = {
+        units[] = {
             //PACKS
             "rhsgref_cdf_backpack_mg",
             "rhsgref_cdf_backpack_mg2",
@@ -138,6 +139,9 @@ class CfgPatches {
         // Optional. If this is 1, if any of requiredAddons[] entry is missing in your game the entire config will be ignored and return no error (but in rpt) so useful to make a compat Mod (Since Arma 3 2.14)
         skipWhenMissingDependencies = 1;
         VERSION_CONFIG;
+
+        // this prevents any patched class from requiring this addon
+        addonRootClass = "A3_Characters_F";
     };
 };
 

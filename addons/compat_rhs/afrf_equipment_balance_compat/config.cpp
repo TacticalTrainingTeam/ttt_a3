@@ -13,13 +13,14 @@ class CfgPatches {
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
         requiredAddons[] = {
+            "ttt_compat_rhs",
             "rhs_main",
             "rhs_c_weapons",
-            "rhs_c_radio",
+            "RHS_c_radio",
             "rhs_c_troops"
         };
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
-        vehicles[] = {
+        units[] = {
             //PACKS
             "rhs_assault_umbts",
             "rhs_assault_umbts_engineer",
@@ -356,6 +357,9 @@ class CfgPatches {
         // Optional. If this is 1, if any of requiredAddons[] entry is missing in your game the entire config will be ignored and return no error (but in rpt) so useful to make a compat Mod (Since Arma 3 2.14)
         skipWhenMissingDependencies = 1;
         VERSION_CONFIG;
+
+        // this prevents any patched class from requiring this addon
+        addonRootClass = "A3_Characters_F";
     };
 };
 

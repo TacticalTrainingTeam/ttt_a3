@@ -1,4 +1,6 @@
-### `crateFiller`
+# Funktionen
+
+## `crateFiller`
 
 (ehem. r_crate)
 
@@ -13,7 +15,7 @@ In der `initServer.sqf` oder während der Mission auf dem Server ausführen.
     ],
     clear
 ] call ttt_common_fnc_crateFiller;
-``` 
+```
 
 Argumente:
 
@@ -28,7 +30,7 @@ Rückgabewert:
 
 Keiner
 
-#### Beispiel
+### Beispiel
 
 ``` c++
 [
@@ -40,15 +42,15 @@ Keiner
     ],
     false
 ] call ttt_common_fnc_crateFiller;
-``` 
+```
 
-### `addIntel`
+## `addIntel`
 
 In der `initPlayerLocal.sqf` ausführen.
 
 ``` c++
 [intel, action, hide, [titel, text]] call ttt_common_fnc_addIntel;
-``` 
+```
 
 Argumente:
 
@@ -64,14 +66,14 @@ Rückgabewert:
 
 Keiner
 
-#### Beispiel
+### Beispiel
 
 ``` c++
 [intel_01, "Lagekarte des Gegners untersuchen", false, ["gefundene Karte", "<img image='pictures\Karte_v3.paa' width=370 height=370/>"]] call ttt_common_fnc_addIntel;
 [intel_02, "Dokumente nehmen", true, ["eingesammeltes Dokument", "Hier stehen wichtige Informationen"]] call ttt_common_fnc_addIntel;
-``` 
+```
 
-### `callReinforcements`
+## `callReinforcements`
 
 Diese Funktion erstellt Verstärkungstruppen mit einem Fahrzeug und sendet diese zu einem Releasepunkt, von woaus sie angreifen. Dabei kann das Fahrzeug wie bei mechanisierten Kräften, u.a. zum Angriff, genutzt werden. Es stehen für Luft- sowie Bodenfahrzeuge jeweils drei Einstellungen zur Verfügung.
 Sollte die Mod [LAMBS DANGER](https://steamcommunity.com/workshop/filedetails/?id=1858075458) aktiv sein, werden alle möglichen Wegpunkte durch das LAMBS-Äquivalent ersetzt.
@@ -81,7 +83,7 @@ Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 
 ``` c++
 [spawnPos, releasePos, attackPos, side, vehicle, rpBehaviour, infantry, groupBehaviour, flyHeight] call ttt_common_fnc_callReinforcements;
-``` 
+```
 
 | rpBehaviour  | Luftfahrzeug | Landfahrzeug |
 | - | - | - |
@@ -107,7 +109,7 @@ Rückgabewert:
 
 Keiner
 
-#### Beispiele
+### Beispiele
 
 ``` c++
 [l_sp_1, l_rp_1, l_at_1, EAST, "O_APC_Wheeled_02_rcws_v2_F"] call ttt_common_fnc_callReinforcements;
@@ -115,15 +117,15 @@ Keiner
 [l_sp_1, l_rp_1, l_at_1, EAST, "O_Heli_Light_02_dynamicLoadout_F", 2, ["O_Soldier_SL_F","O_Soldier_TL_F","O_Soldier_F","O_Soldier_F"]] call ttt_common_fnc_callReinforcements;
 [l_sp_1, l_rp_1, l_at_1, EAST, "O_APC_Wheeled_02_rcws_v2_F", 2, configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad"] call ttt_common_fnc_callReinforcements;
 [l_sp_1, l_rp_1, l_at_1, EAST, "O_Heli_Light_02_dynamicLoadout_F", 2, ["O_Soldier_SL_F","O_Soldier_TL_F","O_Soldier_F"], 1, 50] call ttt_common_fnc_callReinforcements;
-``` 
+```
 
-### `doFlakFire`
+## `doFlakFire`
 
 Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
 
 ``` c++
 handle = [object] call ttt_common_fnc_doFlakFire;
-``` 
+```
 
 Argumente:
 
@@ -139,19 +141,19 @@ handle NUMBER - Per-Frame-Handler mit dem das Feuer später beendet werden kann
 
 ``` c++
 [handle_01] call CBA_fnc_removePerFrameHandler;
-``` 
+```
 
-#### Beispiel
+### Beispiel
 
 ``` c++
 handle_01 = [flak_01] call ttt_common_fnc_doFlakFire;
-``` 
+```
 
-### `setAISkill`
+## `setAISkill`
 
 ``` c++
 [unit, general, courage, aimingAccuracy, aimingShake, aimingSpeed, commanding, spotDistance, spotTime, reloadSpeed] call ttt_common_fnc_setAISkill;
-``` 
+```
 
 Argumente:
 
@@ -172,14 +174,14 @@ Rückgabewert:
 
 Keiner
 
-#### Beispiel
+### Beispiel
 
 ``` c++
 //Make a rookie
 [ai_01, 0.45, 0.45, 0.25, 0.25, 0.25, 0.45, 0.45, 0.45, 0.45] call ttt_common_fnc_setAISkill;
-``` 
+```
 
-### `setAISkillLevel`
+## `setAISkillLevel`
 
 Mögliche Skill-Level sind:
 
@@ -192,8 +194,8 @@ Mögliche Skill-Level sind:
 Bei fehlender oder falscher Angabe wird "Veteran" ausgewählt. Die Werte innerhalb der Level sind alle gleich, aber zufällig aus der Spanne ausgewählt. `aiming`-Werte sind immer 0,2 schlechter als alle anderen.
 
 ``` c++
-[unit, "Skill-Level"] call ttt_fnc_common_setAISkillLevel;
-``` 
+[unit, "Skill-Level"] call ttt_common_fnc_setAISkillLevel;
+```
 
 Argumente:
 
@@ -206,12 +208,12 @@ Rückgabewert:
 
 Keiner
 
-#### Beispiele
+### Beispiele
 
 ``` c++
 [ai_01, "Recruit"] call ttt_common_fnc_setAISkillLevel;
 [_x, "Veteran"] call ttt_common_fnc_setAISkillLevel;
-``` 
+```
 
 ## Maintainer
 
