@@ -10,13 +10,19 @@
  * None
  *
  * Example:
- * call ttt_settings_fnc_loadSettings;
+ * call ttt_settings_fnc_loadMedicalSettings;
  *
  * Public: No
  */
 
 // Get the mission parameter value (default to 0 if not set)
 private _medicalSettings = ["ttt_main_medicalSettings", 0] call BIS_fnc_getParamValue;
+
+// Validate parameter
+if !(_medicalSettings in [0, 1, 2]) then {
+    WARNING_1("Invalid medical settings parameter: %1, defaulting to 0",_medicalSettings);
+    _medicalSettings = 0;
+};
 
 // Determine which settings file to load
 private _settingsFile = switch (_medicalSettings) do {
@@ -27,6 +33,12 @@ private _settingsFile = switch (_medicalSettings) do {
 };
 
 private _settingsFileContent = preprocessFile _settingsFile;
+
+if (_settingsFileContent == "") then {
+    ERROR_2("Failed to load settings file: %1 for parameter: %2",_settingsFile,_medicalSettings);
+    // Fallback to default
+    _settingsFileContent = preprocessFile QPATHTOF(settings\medic_preset_default.inc);
+};
 
 {
     _x params ["_setting", "_value", "_prio"];

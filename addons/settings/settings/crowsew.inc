@@ -14,4 +14,4 @@ force force crowsEW_spectrum_spectrumAutolineLength = 6000;
 force force crowsEW_spectrum_spectrumAutolineNoise = 0;
 force force crowsEW_spectrum_spectrumEnable = true;
 force force crowsEW_spectrum_tfarSideTrack = false;
-force force crowsEW_spectrum_UAVterminalUserVisibleInSpectrum = false;
+force crowsEW_spectrum_UAVterminalUserVisibleInSpectrum = true;

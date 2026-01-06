@@ -6,4 +6,4 @@ if (!isServer) exitWith {};
 //Load default settings
 call FUNC(loadDefaultSettings);
 // Load the appropriate settings file based on the mission parameter
-call FUNC(loadSettings);
+call FUNC(loadMedicalSettings);

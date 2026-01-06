@@ -1,7 +1,7 @@
 // ACE Interaction Menu
 ace_gestures_showOnInteractionMenu = 2;
 ace_interact_menu_actionOnKeyRelease = true;
-ace_interact_menu_addBuildingActions = false;
+force force  ace_interact_menu_addBuildingActions = false;
 ace_interact_menu_alwaysUseCursorInteraction = true;
 ace_interact_menu_alwaysUseCursorSelfInteraction = true;
 ace_interact_menu_colorShadowMax = [0,0,0,1];
@@ -18,4 +18,4 @@ ace_interact_menu_selectorColor = [1,0,0];
 ace_interact_menu_shadowSetting = 2;
 ace_interact_menu_textSize = 2;
 ace_interact_menu_useListMenu = true;
-ace_interact_menu_useListMenuSelf = false;
+ace_interact_menu_useListMenuSelf = true;
