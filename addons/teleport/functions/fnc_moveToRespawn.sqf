@@ -31,4 +31,4 @@ if !(isNil QGVAR(teleporter)) then {
     _target setDir (_target getDir GVAR(teleporter));
 };
 
-[QGVAR(API_JIPmovedToRespawn), [_target]] call CBA_fnc_localEvent;
+[QGVAR(API_JIPmovedToRespawn), [_target, getPosASL _target]] call CBA_fnc_localEvent;

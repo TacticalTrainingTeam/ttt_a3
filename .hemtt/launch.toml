@@ -99,47 +99,11 @@ workshop = [
     "1638341685" # DUI Squad Radar
 ]
 
-# cDLCs
-[spe]
+[usp]
 extends = "default"
-dlc = [
-    "Spearhead 1944"
-]
-
-[vn]
-extends = "default"
-dlc = [
-    "S.O.G. Prairie Fire"
-]
-
-[ws]
-extends = "default"
-dlc = [
-    "Western Sahara"
-]
-
-[rf]
-extends = "default"
-dlc = [
-    "Reaction Forces"
-]
-
-[ef]
-extends = "default"
-dlc = [
-    "Expeditionary Forces"
-]
-
-[gm]
-extends = "default"
-dlc = [
-    "Global Mobilization - Cold War Germany"
-]
-
-[csla]
-extends = "default"
-dlc = [
-    "CSLA Iron Curtain"
+workshop = [
+    "1795825073", # USP AiO
+    "2056229605" # USP Gear Ace
 ]
 
 [server]

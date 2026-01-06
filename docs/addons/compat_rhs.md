@@ -1,24 +1,24 @@
----
-tags:
-  - Kompatibilität
-  - RHS
----
-
 # Compat RHS
 
-Enthält Configfixes und einige Funktionen für RHS.
+Enthält Config-fixes und einige Funktionen für RHS.
 
 ## No 40mm Smoke Bounce
 
-Verhindert das RHS 40mm Rauchgranaten über den Boden springen.
+Verhindert das 40mm-Rauchgranaten von RHS über den Boden springen.
 
-## Visor öffnen / schließen
+## Rebalance
 
-Fügt ACE-Interaktionen hinzu um den Visor einiger Helme auf- und zuzuklappen.
+Rebalancing aller Uniformen, Westen und Rucksäcke in RHS.
 
-## Staubschutzbrille aufsetzen / abnehmen
+### Ausrüstungsbalance
 
-Fügt ACE-Interaktionen hinzu um, um eine Staubschutzbrille auf einem Helm zu befestigen / abzunehmen.
+Die RHS-Kompatibilität umfasst drei Subkomponenten für die Ausrüstungsbalancierung:
+
+- **USAF Equipment Balance** - US-Streitkräfte Ausrüstung
+- **AFRF Equipment Balance** - Russische Streitkräfte Ausrüstung
+- **GREF Equipment Balance** - Guerilla/Regionale Streitkräfte Ausrüstung
+
+Alle Ausrüstung wurde angepasst an Vanilla Arma 3 Werte.
 
 ## Maintainer
 

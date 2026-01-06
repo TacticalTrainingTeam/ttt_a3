@@ -1,8 +1,3 @@
----
-tags:
-  - Feature
----
-
 # Konterartillerie
 
 Lässt feindliche Artillerie auf das Feuer der eigenen Artillerie reagieren.
@@ -21,7 +16,7 @@ In diesem Modul können noch Einstellungen vorgenommen werden, die sich auf das 
 !!! warning
     Wichtig: Von beiden Modulen darf jeweils nur eins pro Mission verbaut werden. Alle jeweiligen Fahrzeuge sind daran zu synchronisieren. Dementsprechend kann es nicht mehr als eine Schuss-/Beschussgruppe geben.
 
-``` cpp
+``` c++
 vehicle addEventhandler ["Fired", {
     [
         _this select 0,
@@ -38,9 +33,9 @@ vehicle addEventhandler ["Fired", {
 
 ## Alternative Nutzung
 
-Diese Funktion ermöglicht es auch auf einen beliebeigen Punkt schießen zu lassen.
+Diese Funktion ermöglicht es auch auf einen beliebigen Punkt schießen zu lassen.
 
-``` cpp
+``` c++
 [target, radius, shots, decrementing, vehicles] call ttt_counterari_fnc_positionFire;
 ```
 

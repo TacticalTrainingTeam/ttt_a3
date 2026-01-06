@@ -15,6 +15,7 @@ extra_javascript:
 
 theme:
   name: material
+  custom_dir: docs/overrides
   font:
     text: Ubuntu
     code: Ubuntu Mono
@@ -51,22 +52,20 @@ theme:
   - navigation.instant
   - navigation.instant.prefetch
   - navigation.instant.progress
-
   - navigation.tracking
-  - navigation.tabs
-  - navigation.tabs.sticky
-  - toc.follow
-  - toc.integrate
   - navigation.top
   - navigation.path
   - navigation.indexes
+  - navigation.expand
+
+  - toc.follow
 
   - search.suggest
   - search.highlight
   - search.share
 
   - content.code.copy
-  - content.tooltips
+  - content.code.annotate
 
   icon:
     repo: fontawesome/brands/github
@@ -85,10 +84,29 @@ extra:
     link: https://www.instagram.com/tacticaltrainingteam/
     name: Das TTT auf Instagram
 
+  - icon: fontawesome/brands/discord
+    link: https://discord.tacticalteam.de
+    name: TTT-Discord-Server
+
+  - icon: fontawesome/brands/steam
+    link: https://steamcommunity.com/groups/tacticaltrainingteam
+    name: TTT-Steam-Gruppe
+
+  - icon: fontawesome/brands/youtube
+    link: https://www.youtube.com/@tacticalteamde
+    name: TTT-YouTube-Kanal
+
+  - icon: fontawesome/solid/gavel
+    link: https://tacticalteam.de/datenschutz
+    name: Datenschutzerklärung
+
+  analytics:
+    #Matomo
+    provider: custom
+
 plugins:
 - privacy
 - search
-- tags
 
 markdown_extensions:
 - tables
@@ -97,7 +115,6 @@ markdown_extensions:
 - attr_list
 - admonition
 - def_list
-- footnotes
 
 - toc:
     permalink: true
@@ -110,8 +127,8 @@ markdown_extensions:
 - pymdownx.caret
 - pymdownx.details
 - pymdownx.emoji:
-    emoji_index: !!python/name:material.extensions.emoji.twemoji
-    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    emoji_index: !!python/name:material.extensions.emoji.twemoji ""
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg ""
 - pymdownx.highlight:
     use_pygments: true
     linenums: true
@@ -132,56 +149,56 @@ markdown_extensions:
 - pymdownx.tilde
 
 nav:
-- Startseite:
-  - index.md
-  - Beitragen: contribute.md
-  - Tags: tags.md
+- Startseite: index.md
 - Addons - Allgemein:
+  - Chat Befehle: addons/chatcommands.md
+  - Clear HUD: addons/clearhud.md
+  - Discord Rich Presence: addons/discord_richpresence.md
+  - Feldhandbuch: addons/fieldmanual.md
+  - Full Screen Mission Loading: addons/fsml.md
   - Main: addons/main.md
+  - No Chain: addons/nochain.md
+  - Screenshot Modus: addons/screenshotmode.md
   - Spotlight CUP: addons/spotlight_cup.md
   - Spotlight Event: addons/spotlight_event.md
   - Spotlight RHS: addons/spotlight_rhs.md
-  - Screenshot Modus: addons/screenshotmode.md
-  - Discord Rich Presence: addons/discord_richpresence.md
-  - Chat Befehle: addons/chatcommands.md
-  - Clear HUD: addons/clearhud.md
-  - Feldhandbuch: addons/fieldmanual.md
 - Addons - Funktional:
-  - Common:
-    - Funktionen: addons/common/functions.md
-    - Gemeinsame Objekte: addons/common/objects.md
   - Advanced Slingloading: addons/advancedslingloading.md
   - Advanced Towing: addons/advancedtowing.md
-  - Umgebungseffekte: addons/effects.md
+  - Common:
+    - Funktionen: addons/common/functions.md
+    - Objekte: addons/common/objects.md
+  - cTab Vorlagen: addons/ctab_templates.md
   - Konterartillerie: addons/counterari.md
-  - Objekte Abbauen: addons/dismantle.md
-  - Mobile San-Einrichtung (Rucksack): addons/medic_backpack.md
+  - Loadout-System (MPLS): addons/mpls.md
   - Mobile San-Einrichtung (Fahrzeug): addons/medic_vehicle.md
-  - Loaodut-System (MPLS): addons/mpls.md
+  - Mobile San-Einrichtung (Rucksack): addons/medic_backpack.md
   - Mobile Werkstatt: addons/repair_vehicle.md
+  - Objekte Abbauen: addons/dismantle.md
   - Signal Plane: addons/signalpanel.md
   - Teleporter: addons/teleport.md
+  - Umgebungseffekte: addons/effects.md
   - W Shields: addons/w_shields.md
   - W Teleporter: addons/w_teleporter.md
-- Addons - Ausrüstung:
-  - Helme: addons/helmets.md
-  - Insignien: addons/insignias.md
-  - Rucksäcke: addons/backpacks.md
+- Addons - Assets:
   - Barette: addons/berets.md
   - Flaggen: addons/flags.md
+  - Helme: addons/helmets.md
+  - Insignien: addons/insignias.md
+  - RSR-Fahrzeuge: addons/rsr.md
+  - Rucksäcke: addons/backpacks.md
   - Schilder: addons/signs.md
   - Uniformen: addons/uniforms.md
-  - Vesten: addons/vests.md
-  - RSR-Fahrzeuge: addons/rsr.md
+  - Westen: addons/vests.md
 - Addons - Kompatibilität:
   - Compat 3CB Equipment: addons/compat_3cb_equipment.md
   - Compat 3CB Factions: addons/compat_3cb_factions.md
   - Compat 3CB Vehicles: addons/compat_3cb_vehicles.md
   - Compat BWA3: addons/compat_bwa3.md
-  - Compat CUP Units: addons/compat_cup_units.md
   - Compat CUP Vehicles: addons/compat_cup_vehicles.md
   - Compat RHS: addons/compat_rhs.md
   - Compat RNT: addons/compat_rnt.md
   - Compat TSP: addons/compat_tsp.md
+  - Compat USP: addons/compat_usp.md
   - Compat Vanilla: addons/compat_vanilla.md
   - Compat XEH Fix: addons/compat_xeh_fix.md
