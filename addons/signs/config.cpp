@@ -4,7 +4,7 @@ class CfgPatches {
     class ADDON {
         // Meta information for editor
         name = COMPONENT_NAME;
-        author = ECSTRING(main,TacticalTrainingTeam); 
+        author = ECSTRING(main,TacticalTrainingTeam);
         url = ECSTRING(main,URL);
 
         // Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
@@ -13,7 +13,7 @@ class CfgPatches {
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
         requiredAddons[] = {"ttt_common", "A3_Data_F"};
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
-        units[] = {            
+        units[] = {
             "ttt_Flag_Logo",
             "ttt_Flag_Blue",
             "ttt_Flag_Brown",
@@ -21,6 +21,7 @@ class CfgPatches {
             "ttt_Flag_Yellow",
             "ttt_Flag_Gold",
             "ttt_Flag_Green",
+            "ttt_Flag_Grey",
             "ttt_Flag_Red",
             "ttt_Flag_Black",
             "ttt_Flag_Silver",
