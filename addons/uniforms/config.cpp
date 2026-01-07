@@ -44,7 +44,7 @@ class CfgPatches {
             "ttt_Item_Violet_BW_Flecktarn",
             "ttt_Item_White_BW_Flecktarn",
             "ttt_Item_Silver_BW_Flecktarn",
-            "ttt_Item_Silver_US_desert",
+            "ttt_Item_Silver_US_Desert",
             "ttt_Item_Yellow_US_Desert",
             "ttt_Item_Grey_US_Desert",
             "ttt_Item_Gold_US_Desert",
