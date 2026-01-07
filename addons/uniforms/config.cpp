@@ -15,7 +15,7 @@ class CfgPatches {
         requiredAddons[] = {"ttt_common",  "A3_Characters_F"};
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {
-            "ttt_Item_black_BW_Tropentarn",
+            "ttt_Item_Black_BW_Tropentarn",
             "ttt_Item_Green_alt_BW_Tropentarn",
             "ttt_Item_Yellow_BW_Tropentarn",
             "ttt_Item_Grey_BW_Tropentarn",
