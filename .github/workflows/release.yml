@@ -16,6 +16,7 @@ env:
     mpls
     no_chain
     screenshotmode
+    signs
     spotlight_event
     teleport
     w_teleporter
