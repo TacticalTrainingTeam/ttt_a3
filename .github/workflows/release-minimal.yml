@@ -5,7 +5,8 @@ on:
     types: [ "published" ]
 
 env:
-  # Define minimal addons list - easily editable for future PRs
+  # Define minimal addons list
+  # must have at least main and common
   MINIMAL_ADDONS: >-
     main
     common
