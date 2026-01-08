@@ -4,24 +4,6 @@ on:
   release:
     types: [ "published" ]
 
-env:
-  # Define minimal addons list
-  # must have at least main and common
-  MINIMAL_ADDONS: >-
-    main
-    common
-    clearhud
-    chatcommands
-    discord_richpresence
-    fsml
-    mpls
-    no_chain
-    screenshotmode
-    signs
-    spotlight_event
-    teleport
-    w_teleporter
-
 jobs:
   release-minimal:
     runs-on: ubuntu-latest
@@ -34,7 +16,8 @@ jobs:
 
     - name: Remove non-minimal addons
       run: |
-        KEEP_ADDONS="${{ env.MINIMAL_ADDONS }}"
+        # Read minimal addons list from file (must have at least main and common)
+        KEEP_ADDONS=$(cat .github/minimal-addons.txt | tr '\n' ' ')
 
         cd addons
         for dir in */; do
