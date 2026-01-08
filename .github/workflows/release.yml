@@ -39,7 +39,7 @@ jobs:
       run: mv releases/ttt-latest.zip releases/ttt-full-latest.zip
 
     # Build minimal version
-    - name: Checkout the source code again for minimal build
+    - name: Checkout source code to separate directory for minimal build
       uses: actions/checkout@v6
       with:
         path: minimal-build
