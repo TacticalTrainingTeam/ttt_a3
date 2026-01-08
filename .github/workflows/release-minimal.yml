@@ -33,25 +33,14 @@ jobs:
 
     - name: Remove non-minimal addons
       run: |
-        # Convert space-separated addon list to array
         KEEP_ADDONS="${{ env.MINIMAL_ADDONS }}"
 
-        # Find all addon directories
         cd addons
         for dir in */; do
           addon_name="${dir%/}"
-          should_keep=false
 
-          # Check if this addon should be kept
-          for keep in $KEEP_ADDONS; do
-            if [ "$addon_name" = "$keep" ]; then
-              should_keep=true
-              break
-            fi
-          done
-
-          # Remove if not in the keep list
-          if [ "$should_keep" = "false" ]; then
+          # Check if addon is in keep list, delete if not
+          if ! echo "$KEEP_ADDONS" | grep -wq "$addon_name"; then
             echo "Removing addon: $addon_name"
             rm -rf "$addon_name"
           else
