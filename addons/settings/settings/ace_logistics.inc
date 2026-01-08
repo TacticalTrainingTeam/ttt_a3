@@ -1,0 +1,20 @@
+// ACE Logistics
+ace_cargo_carryAfterUnload = true;
+force force ace_cargo_checkSizeInteraction = true;
+force force ace_cargo_enable = true;
+force force ace_cargo_enableDeploy = true;
+force force ace_cargo_enableRename = true;
+force force ace_cargo_loadTimeCoefficient = 5;
+ace_cargo_openAfterUnload = 0;
+force force ace_cargo_paradropTimeCoefficent = 2.5;
+force force ace_cargo_unloadOnKilled = 1;
+force force ace_rearm_distance = 20;
+force force ace_rearm_enabled = true;
+force ace_rearm_level = 1;
+force ace_rearm_supply = 0;
+force ace_refuel_cargoRate = 8;
+force force ace_refuel_enabled = true;
+force ace_refuel_hoseLength = 25;
+force force ace_refuel_progressDuration = 2;
+force ace_refuel_rate = 8;
+force force ace_towing_addRopeToVehicleInventory = true;

@@ -31,3 +31,5 @@ force ttt_dismantle_neededItem = "Toolkit";
 force ttt_dismantle_neededSkill = 2;
 
 //force ttt_teleport_enableTeleport = false;
+
+force force ace_advanced_ballistics_enabled = false; //zum Testen der Settings mod
