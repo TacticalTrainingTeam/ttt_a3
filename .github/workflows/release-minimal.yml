@@ -41,7 +41,7 @@ jobs:
           addon_name="${dir%/}"
 
           # Check if addon is in keep list, delete if not
-          if ! echo "$KEEP_ADDONS" | grep -wq "$addon_name"; then
+          if ! echo "$KEEP_ADDONS" | tr '\n' ' ' | grep -wq "$addon_name"; then
             echo "Removing addon: $addon_name"
             rm -rf "$addon_name"
           else
