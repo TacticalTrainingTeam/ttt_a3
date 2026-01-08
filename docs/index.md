@@ -11,6 +11,19 @@ Du willst mitmachen - schau im [Github](https://github.com/TacticalTrainingTeam/
 Die TTT-Mod ist in zwei Versionen verfügbar:
 
 - **Full Version** - Enthält alle Addons und Funktionen
-- **Minimal Version** - Enthält nur die Kern-Addons für reduzierte Größe und schnellere Downloads
+- **Minimal Version** - Enthält nur die Kern-Addons für reduzierte Größe und schnellere Downloads, enthält nur:
+  - main
+  - common
+  - clearhud
+  - chatcommands
+  - discord_richpresence
+  - fsml
+  - mpls
+  - no_chain
+  - screenshotmode
+  - signs
+  - spotlight_event
+  - teleport
+  - w_teleporter
 
 Beide Versionen werden bei jedem Release automatisch erstellt und können von der [Releases-Seite](https://github.com/TacticalTrainingTeam/ttt_a3/releases) heruntergeladen werden.
