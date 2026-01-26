@@ -104,7 +104,7 @@ class GVAR(sanc_crate): GVAR(san_crate_base) {
         MACRO_ADDITEM(kat_fentanyl,10);
         MACRO_ADDITEM(kat_naloxone,10);
         MACRO_ADDITEM(kat_lidocaine,10);
-        MACRO_ADDITEM(kat_nitroglycerin, 10);
+        MACRO_ADDITEM(kat_nitroglycerin,10);
         MACRO_ADDITEM(kat_norepinephrine,10);
         MACRO_ADDITEM(kat_phenylephrine,10);
         MACRO_ADDITEM(kat_amiodarone,10);
