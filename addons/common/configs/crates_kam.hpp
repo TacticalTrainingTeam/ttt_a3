@@ -126,7 +126,7 @@ class GVAR(sanc_crate): GVAR(san_crate_base) {
         MACRO_ADDITEM(kat_accuvac,1);
 
         MACRO_ADDITEM(ACE_bloodIV,20);
-        MACRO_ADDITEM(ACE_bloodIV_250,20);
+        MACRO_ADDITEM(ACE_bloodIV_500,20);
         MACRO_ADDITEM(ACE_bloodIV_250,5);
         MACRO_ADDITEM(ACE_salineIV_250,2);
 
