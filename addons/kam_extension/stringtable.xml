@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="kam_extension">
+        <Key ID="STR_ttt_kam_extension_sana_displayName">
+            <English>TTT Medical Crate KAM (San-Alpha)</English>
+            <German>TTT Sanitätskiste KAM (San-Alpha)</German>
+        </Key>
+        <Key ID="STR_ttt_kam_extension_sanb_displayName">
+            <English>TTT Medical Crate KAM (San-Bravo)</English>
+            <German>TTT Sanitätskiste KAM (San-Bravo)</German>
+        </Key>
+        <Key ID="STR_ttt_kam_extension_sanc_displayName">
+            <English>TTT Medical Crate KAM (San-Charlie)</English>
+            <German>TTT Sanitätskiste KAM (San-Charlie)</German>
+        </Key>
+    </Package>
+</Project>
