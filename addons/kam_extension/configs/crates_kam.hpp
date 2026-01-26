@@ -16,7 +16,7 @@ class GVAR(sana_crate): GVAR(san_crate_base) {
     scope = 2;
     displayName = CSTRING(sana_displayName);
     hiddenSelectionsTextures[] = {
-        QPATHTOF(data\AmmoBox_signsA_CA.paa),
+        QPATHTOEF(common,data\AmmoBox_signsA_CA.paa),
         "A3\Weapons_F\Ammoboxes\data\AmmoBox_CO.paa"
     };
 
@@ -36,7 +36,7 @@ class GVAR(sanb_crate): GVAR(san_crate_base) {
     scope = 2;
     displayName = CSTRING(sanb_displayName);
     hiddenSelectionsTextures[] = {
-        QPATHTOF(data\AmmoBox_signsB_CA.paa),
+        QPATHTOEF(common,data\AmmoBox_signsB_CA.paa),
         "A3\Weapons_F\Ammoboxes\data\AmmoBox_CO.paa"
     };
 
@@ -82,7 +82,7 @@ class GVAR(sanc_crate): GVAR(san_crate_base) {
     scope = 2;
     displayName = CSTRING(sanc_displayName);
     hiddenSelectionsTextures[] = {
-        QPATHTOF(data\AmmoBox_signsC_CA.paa),
+        QPATHTOEF(common,data\AmmoBox_signsC_CA.paa),
         "A3\Weapons_F\Ammoboxes\data\AmmoBox_CO.paa"
     };
 

@@ -3,12 +3,16 @@
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
-        units[] = {};
+        units[] = {
+            QGVAR(sana_crate),
+            QGVAR(sanb_crate),
+            QGVAR(sanc_crate)
+        };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ace_common"};
+        requiredAddons[] = {"ttt_common", "kat_main"};
         author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {""};
+        authors[] = {"Andx"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
