@@ -45,8 +45,8 @@ class GVAR(sanb_crate): GVAR(san_crate_base) {
         MACRO_ADDMAGAZINE(kat_Penthrox,5);
     };
     class TransportItems {
-        MACRO_ADDITEM(ACE_elasticBandage,100);
-        MACRO_ADDITEM(ACE_packingBandage,100);
+        MACRO_ADDITEM(ACE_elasticBandage,80);
+        MACRO_ADDITEM(ACE_packingBandage,80);
         MACRO_ADDITEM(ACE_tourniquet,25);
 
         MACRO_ADDITEM(kat_chestSeal,25);
@@ -59,10 +59,10 @@ class GVAR(sanb_crate): GVAR(san_crate_base) {
         MACRO_ADDITEM(ACE_surgicalKit,1);
         MACRO_ADDITEM(ACE_suture,100);
         MACRO_ADDITEM(kat_ncdKit,10);
-        MACRO_ADDITEM(kat_pocketBVM,6);
+        MACRO_ADDITEM(kat_pocketBVM,3);
         MACRO_ADDITEM(kat_larynx,20);
         MACRO_ADDITEM(kat_IV_16,30);
-        MACRO_ADDITEM(kat_Pulseoximeter,6);
+        MACRO_ADDITEM(kat_Pulseoximeter,3);
         MACRO_ADDITEM(kat_AED,1);
 
         MACRO_ADDITEM(ACE_salineIV,20);
@@ -89,17 +89,17 @@ class GVAR(sanc_crate): GVAR(san_crate_base) {
     class TransportMagazines {
         MACRO_ADDMAGAZINE(kat_Painkiller,5);
         MACRO_ADDMAGAZINE(kat_Penthrox,5);
-        MACRO_ADDMAGAZINE(kat_oxygenTank_150,2);
+        MACRO_ADDMAGAZINE(kat_oxygenTank_150,1);
     };
     class TransportItems {
-        MACRO_ADDITEM(ACE_elasticBandage,100);
-        MACRO_ADDITEM(ACE_packingBandage,100);
-        MACRO_ADDITEM(ACE_tourniquet,25);
+        MACRO_ADDITEM(ACE_elasticBandage,75);
+        MACRO_ADDITEM(ACE_packingBandage,70);
+        MACRO_ADDITEM(ACE_tourniquet,15);
 
-        MACRO_ADDITEM(kat_chestSeal,25);
+        MACRO_ADDITEM(kat_chestSeal,15);
 
-        MACRO_ADDITEM(ACE_epinephrine,25);
-        MACRO_ADDITEM(kat_epinephrineIV,25);
+        MACRO_ADDITEM(ACE_epinephrine,15);
+        MACRO_ADDITEM(kat_epinephrineIV,15);
         MACRO_ADDITEM(kat_ketamine,10);
         MACRO_ADDITEM(kat_fentanyl,10);
         MACRO_ADDITEM(kat_naloxone,10);
@@ -111,29 +111,29 @@ class GVAR(sanc_crate): GVAR(san_crate_base) {
         MACRO_ADDITEM(kat_atropine,10);
 
         MACRO_ADDITEM(kat_TXA,10);
-        MACRO_ADDITEM(kat_EACA,20);
+        MACRO_ADDITEM(kat_EACA,15);
 
         MACRO_ADDITEM(ACE_surgicalKit,1);
-        MACRO_ADDITEM(ACE_suture,100);
-        MACRO_ADDITEM(kat_aatKit,20);
-        MACRO_ADDITEM(kat_BVM,2);
+        MACRO_ADDITEM(ACE_suture,80);
+        MACRO_ADDITEM(kat_aatKit,15);
+        MACRO_ADDITEM(kat_BVM,1);
         MACRO_ADDITEM(kat_pocketBVM,3);
-        MACRO_ADDITEM(kat_larynx,20);
-        MACRO_ADDITEM(kat_IV_16,30);
+        MACRO_ADDITEM(kat_larynx,15);
+        MACRO_ADDITEM(kat_IV_16,20);
         MACRO_ADDITEM(kat_IO_FAST,15);
-        MACRO_ADDITEM(kat_Pulseoximeter,6);
+        MACRO_ADDITEM(kat_Pulseoximeter,3);
         MACRO_ADDITEM(kat_X_AED,1);
         MACRO_ADDITEM(kat_accuvac,1);
 
-        MACRO_ADDITEM(ACE_bloodIV,20);
-        MACRO_ADDITEM(ACE_bloodIV_500,20);
+        MACRO_ADDITEM(ACE_bloodIV,15);
+        MACRO_ADDITEM(ACE_bloodIV_500,15);
         MACRO_ADDITEM(ACE_bloodIV_250,5);
         MACRO_ADDITEM(ACE_salineIV_250,2);
 
         MACRO_ADDITEM(kat_basicDiagnostic,1);
         MACRO_ADDITEM(ace_flags_blue,1);
         MACRO_ADDITEM(ACE_SpraypaintBlue,1);
-        MACRO_ADDITEM(ACE_bodyBag,3);
+        MACRO_ADDITEM(ACE_bodyBag,1);
         MACRO_ADDITEM(SmokeShellBlue,5);
         MACRO_ADDITEM(Chemlight_blue,5);
     };
