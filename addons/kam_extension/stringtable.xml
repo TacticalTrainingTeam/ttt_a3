@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Kam_Extension">
-        <Key ID="STR_ttt_Kam_extension_sana_displayName">
+        <Key ID="STR_ttt_Kam_Extension_sana_displayName">
             <English>TTT Medical Crate KAM (San-Alpha)</English>
             <German>TTT Sanitätskiste KAM (San-Alpha)</German>
         </Key>
