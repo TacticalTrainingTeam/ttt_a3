@@ -11,7 +11,7 @@ Du willst mitmachen - schau im [Github](https://github.com/TacticalTrainingTeam/
 Die TTT-Mod ist in zwei Versionen verfügbar:
 
 - **Full Version** - Enthält alle Addons und Funktionen
-- **Minimal Version** - Enthält nur die Kern-Addons für reduzierte Größe und schnellere Downloads, enthält nur:
+- **Minimal Version** - Enthält nur die Kern-Addons für reduzierte Größe und spezielle Events, enthält nur:
   - main
   - common
   - clearhud
