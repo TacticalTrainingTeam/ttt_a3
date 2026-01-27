@@ -101,6 +101,10 @@
             <English>TTT Medical Crate (VBT)</English>
             <German>TTT Sanitätskiste (VBT)</German>
         </Key>
+        <Key ID="STR_ttt_Common_personalAidKit_displayName">
+            <English>TTT Personal Aid Kit</English>
+            <German>TTT Persönliche Erste-Hilfe-Ausrüstung</German>
+        </Key>
         <Key ID="STR_ttt_Common_PersonalAidKit_DisplayName">
             <English>Use TTT PAK</English>
             <German>TTT PAK Nutzen</German>

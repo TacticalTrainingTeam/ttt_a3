@@ -8,7 +8,7 @@ class CfgVehicles {
     class TTT_personalAidKitItem: ACE_personalAidKitItem {
         scope = 2;
         scopeCurator = 2;
-        displayName = "TTT Personal Aid Kit";
+        displayName = CSTRING(personalAidKit_displayName);
         author = ECSTRING(main,TacticalTrainingTeam);
         vehicleClass = "Items";
         class TransportItems {
