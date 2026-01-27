@@ -1,8 +1,12 @@
 # KAM Extension
 
-## Inhalt des Features
+## KAM Kisten
 
-Blank.
+Enthält Nachschubkisten für KAM im TTT.
+
+- San Alpha
+- San Bravo
+- San Charlie
 
 ## Maintainer
 
