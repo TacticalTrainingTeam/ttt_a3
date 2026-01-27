@@ -15,13 +15,15 @@ class CfgPatches {
             "ttt_common_paradrop_crate",
             QGVAR(sana_crate),
             QGVAR(sanb_crate),
-            QGVAR(sanc_crate)
+            QGVAR(sanc_crate),
+            "TTT_personalAidKitItem"
         };
         weapons[] = {
             QGVAR(spraypaintMemes),
+            "TTT_personalAidKit"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ttt_main", "zen_main"};
+        requiredAddons[] = {"ttt_main", "zen_main", "ace_medical_treatment"};
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Andx","Reimchen","EinStein"};
         url = ECSTRING(main,URL);
@@ -37,3 +39,4 @@ class CfgPatches {
 #include "CfgWeapons.hpp"
 #include "configs\ACE_Fortify.hpp"
 #include "configs\ACE_Tags.hpp"
+#include "configs\ACE_Medical_Treatment_Actions.hpp"
