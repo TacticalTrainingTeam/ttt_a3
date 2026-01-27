@@ -8,6 +8,6 @@ class CfgWeapons {
     class ACE_personalAidKit;
     class TTT_personalAidKit: ACE_personalAidKit {
         author = ECSTRING(main,TacticalTrainingTeam);
-        displayName = "TTT Personal Aid Kit";
+        displayName = CSTRING(personalAidKit_displayName);
     };
 };
