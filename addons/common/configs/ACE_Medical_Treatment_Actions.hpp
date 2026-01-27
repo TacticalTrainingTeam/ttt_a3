@@ -1,4 +1,4 @@
-class ACE_medical_treatment_actions {
+class ACE_Medical_Treatment_Actions {
     class PersonalAidKit;
     class TTT_PersonalAidKit: PersonalAidKit {
         displayName = CSTRING(PersonalAidKit_Action_DisplayName);
