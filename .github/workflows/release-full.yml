@@ -1,11 +1,11 @@
-name: Upload Release 
+name: Upload Full Release
 
 on:
   release:
     types: [ "published" ]
-    
+
 jobs:
-  release:
+  release-full:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout the source code
@@ -14,10 +14,10 @@ jobs:
     - name: Setup HEMTT
       uses: arma-actions/hemtt@v1
 
-    - name: Build TTT Mod Release
+    - name: Build TTT Mod Full Release
       run: hemtt release
 
-    - name: Upload to release
+    - name: Upload full version to release
       uses: svenstaro/upload-release-action@v2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
