@@ -1,0 +1,45 @@
+name: Upload Minimal Release
+
+on:
+  release:
+    types: [ "published" ]
+
+jobs:
+  release-minimal:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout the source code
+      uses: actions/checkout@v6
+
+    - name: Setup HEMTT
+      uses: arma-actions/hemtt@v1
+
+    - name: Remove non-minimal addons
+      run: |
+        # Read minimal addons list from file (must have at least main and common)
+        KEEP_ADDONS=$(cat .github/minimal-addons.txt | tr '\n' ' ')
+
+        cd addons
+        for dir in */; do
+          addon_name="${dir%/}"
+
+          # Check if addon is in keep list, delete if not
+          if ! echo "$KEEP_ADDONS" | tr '\n' ' ' | grep -wq "$addon_name"; then
+            echo "Removing addon: $addon_name"
+            rm -rf "$addon_name"
+          else
+            echo "Keeping addon: $addon_name"
+          fi
+        done
+
+    - name: Build TTT Mod Minimal Release
+      run: hemtt release
+
+    - name: Upload minimal version to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: releases/ttt-latest.zip
+        asset_name: ttt-minimal-$tag.zip
+        tag: ${{ github.ref }}
+        overwrite: true

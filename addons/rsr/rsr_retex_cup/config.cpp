@@ -13,9 +13,7 @@ class CfgPatches {
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {
             "rsr_c_161",
-            "rsr_c_161_viv",
-            "rnt_bw_wintertarn_uniform_item",
-            "rnt_bw_wintertarn_helm_item"
+            "rsr_c_161_viv"
         };
         // List of weapons (CfgWeapons classes) contained in the addon.
         weapons[] = {};
