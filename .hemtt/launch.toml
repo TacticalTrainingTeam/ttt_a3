@@ -125,3 +125,8 @@ parameters = [
     "-port=2302",
     "-window"
 ]
+[fpv]
+extends = "default"
+workshop = [
+    "3475006113" # FPV Drohnen
+]
