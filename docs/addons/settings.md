@@ -2,28 +2,7 @@
 
 Lädt CBA-Einstellungen für verschiedene Mods und ermöglicht das Laden unterschiedlicher Missionsprofile basierend auf einem Missionsparameter.
 
-## Funktion
-
-Dieses Addon bietet ein modulares System zum Laden von CBA-Einstellungen:
-
-1. **Default Settings**: Automatisches Laden von über 80 modularen Einstellungsdateien für verschiedene Mods beim Missionsstart
-2. **Missionsprofile**: Missionsangepasste Einstellungsprofile, die die Default-Settings überschreiben können
-
-### Modulare Settings-Architektur
-
-Alle CBA-Einstellungen sind in einzelne `.inc`-Dateien aufgeteilt, gruppiert nach Mod oder Funktionsbereich:
-
-- **ACE Mod**: ~50 separate Dateien für verschiedene ACE-Module (Medical, Arsenal, Zeus, etc.)
-- **Weitere Mods**: Einzelne Dateien für ACRE, CTab, DUI Squad Radar, Lambs Danger, etc.
-- **Conditional Loading**: RHS und CUP Settings werden nur geladen, wenn die Mods aktiv sind
-
-**Vorteile:**
-
-- Übersichtliche Struktur und einfache Wartung
-- Gezielte Anpassung einzelner Mod-Bereiche ohne große Dateien zu durchsuchen
-- Wiederverwendbarkeit einzelner Settings-Konfigurationen
-
-### Mission Parameter
+## Mission Parameter
 
 Beim Start einer Mission steht der Parameter **TTT Settings Profile** im Missionsparameter-Menü zur Verfügung. Dieser Parameter hat drei Optionen:
 
@@ -32,6 +11,19 @@ Beim Start einer Mission steht der Parameter **TTT Settings Profile** im Mission
 - **Profile C**: Lädt Einstellungen aus `cba_settings_c.inc` - Benutzerdefiniert
 
 Die Missionsprofile überschreiben die Default-Settings und ermöglichen es Missionsbauern, angepasste Einstellungen für verschiedene Szenarien zu nutzen.
+
+Damit der Parameter genutzt werden kann muss er in de description.ext der Mission definiert werden:
+
+```c++
+class Params {
+    class ttt_main_medicalSettings {
+        title = "TTT Medic Settings";
+        values[] = {0, 1, 2};
+        texts[] = {"KAM Standard", "KAM Einfach", "KAM Training"};
+        default = 0;
+    };
+};
+```
 
 ## Maintainer
 
