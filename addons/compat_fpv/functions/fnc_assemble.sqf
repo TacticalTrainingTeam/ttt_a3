@@ -19,7 +19,7 @@ private _drone = configName _droneCfg;
             private _drone = _drone createVehicle _pos;
             (side group _unit) createVehicleCrew _drone;
             _drone setPos _pos;
-            _drone setFuel 0;
+            //_drone setFuel 0;
         };
         [_unit, 'PutDown'] call ace_common_fnc_doGesture;
     },
