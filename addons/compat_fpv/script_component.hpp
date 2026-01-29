@@ -1,5 +1,5 @@
 #define COMPONENT compat_fpv
-#define COMPONENT_BEAUTIFIED FPV Drohnen Compat
+#define COMPONENT_BEAUTIFIED Compat FPV Drohnen
 
 #include "\z\ttt\addons\main\script_mod.hpp"
 #include "\z\ttt\addons\main\script_macros.hpp"

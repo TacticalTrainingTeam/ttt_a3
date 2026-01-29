@@ -9,6 +9,18 @@
             <English>OCS</English>
             <German>BV</German>
         </Key>
+        <Key ID="STR_ttt_Common_PersonalAidKit_Action_DisplayName">
+            <English>Use TTT PAK</English>
+            <German>TTT PAK Nutzen</German>
+        </Key>
+        <Key ID="STR_ttt_Common_PersonalAidKit_Action_Progress">
+            <English>Using TTT PAK</English>
+            <German>TTT PAK wird benutzt</German>
+        </Key>
+        <Key ID="STR_ttt_Common_PersonalAidKit_DisplayName">
+            <English>TTT Personal Aid Kit</English>
+            <German>TTT persönliches Erste-Hilfe-Sett</German>
+        </Key>
         <Key ID="STR_ttt_Common_RackA">
             <English>Radio Circuit A</English>
             <German>Funkkreis A</German>
