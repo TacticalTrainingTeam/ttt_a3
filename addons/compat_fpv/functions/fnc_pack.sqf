@@ -14,9 +14,10 @@ if (_case isEqualTo "") exitWith {};
         if (local _drone) then {
             // private _fuel = fuel _drone;
             // private _damage = getAllHitPointsDamage _drone;
+            private _dronePos = getPos _drone;
             deleteVehicle _drone;
 
-            private _gwh = [getPos _drone, 0, 'GroundWeaponHolder', side _unit] call BIS_fnc_spawnVehicle;
+            private _gwh = [_dronePos, 0, 'GroundWeaponHolder', side _unit] call BIS_fnc_spawnVehicle;
             (_gwh select 0) addMagazineCargoGlobal [_case, 1];
         };
     },

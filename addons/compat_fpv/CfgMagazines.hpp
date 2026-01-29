@@ -16,7 +16,7 @@ class CfgMagazines {
     class GVAR(base): CA_Magazine {
         author = "Synixe Contractors";
         count = 1;
-        mass = 70; // An assault pack holds one + a battery
+        mass = 70; // An assault pack holds 2
         ACE_isUnique = 1;
 
         model = "\A3\Structures_F_Heli\Items\Luggage\PlasticCase_01_small_F.p3d";

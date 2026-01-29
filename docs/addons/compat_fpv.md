@@ -20,7 +20,7 @@ Die folgenden FPV-Kamikaze-Drohnen können in Koffern transportiert und im Feld 
 #### Drohne Zusammenbauen
 
 1. Lege den Drohnenkoffer in dein Inventar
-2. Öffne das ACE-Selbstinteraktionsmenü (Standardmäßig ++ctrl+left++)
+2. Öffne das ACE-Selbstinteraktionsmenü (Standardmäßig ++ctrl+left-windows++)
 3. Wähle **Ausrüstung** > **Assemble**
 4. Wähle die gewünschte Drohne aus der Liste
 5. Die Drohne wird vor dir platziert
@@ -30,7 +30,7 @@ Die folgenden FPV-Kamikaze-Drohnen können in Koffern transportiert und im Feld 
 1. Nähere dich einer FPV-Drohne
 2. Öffne das ACE-Interaktionsmenü auf der Drohne (Standardmäßig ++left++ auf der Drohne halten)
 3. Wähle **Pack**
-4. Die Drohne wird wieder in einen Koffer verpackt und zu deinem Inventar hinzugefügt
+4. Die Drohne wird wieder in einen Koffer verpackt und vor dir auf den Boden gelegt
 
 ## Technische Details
 
