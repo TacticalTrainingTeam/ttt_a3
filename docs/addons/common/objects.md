@@ -75,6 +75,20 @@ Inhalt ist im [Wiki](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten
 
 Inhalt ist im [Wiki](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#spezielle-kisten) definiert.
 
+## TTT PAK
+
+Mit diesem Update wird das neue TTT PAK (Personal Aid Kit) eingeführt. Das TTT PAK kann unabhängig vom Zustand des Patienten verwendet werden – es ist also nicht mehr erforderlich, dass der Patient stabil ist. Dadurch wird die medizinische Versorgung flexibler und schneller, da das PAK in jeder Situation eingesetzt werden kann.
+
+Angedachter Anwendungsfall für das TTT PAK ist ein MedEvac unter KAM, bei dem schwerst verwundete ausgeflogen werden, durch die behandelten Ärzte bis zur Basis am leben erhalten werden und dort mittels des TTT PAK versorgt werden.
+
+Classname: `TTT_personalAidKit`
+
+**Wichtige Merkmale:**
+
+- Das TTT PAK kann bei jedem Patienten angewendet werden, egal ob bewusstlos oder bei vollem Bewusstsein.
+- Die Anwendung des PAKs stellt den Patienten vollständig wieder her (wie bisher).
+- Die Nutzung ist weiterhin von den ACE Einstellungen abhängig.
+
 ## Maintainer
 
 - Andx
