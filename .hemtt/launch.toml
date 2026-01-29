@@ -125,6 +125,13 @@ parameters = [
     "-port=2302",
     "-window"
 ]
+
+[kam]
+extends = "default"
+workshop = [
+    "2020940806" # KAM
+]
+
 [fpv]
 extends = "default"
 workshop = [
