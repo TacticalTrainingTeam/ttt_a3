@@ -110,8 +110,8 @@ class GVAR(sanc_crate): GVAR(san_crate_base) {
         MACRO_ADDITEM(kat_amiodarone,10);
         MACRO_ADDITEM(kat_atropine,10);
 
-        MACRO_ADDITEM(kat_TXA,10);
-        MACRO_ADDITEM(kat_EACA,15);
+        MACRO_ADDITEM(kat_TXA,15);
+        MACRO_ADDITEM(kat_EACA,10);
 
         MACRO_ADDITEM(ACE_surgicalKit,1);
         MACRO_ADDITEM(ACE_suture,80);
