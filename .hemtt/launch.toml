@@ -131,3 +131,9 @@ extends = "default"
 workshop = [
     "2020940806" # KAM
 ]
+
+[fpv]
+extends = "default"
+workshop = [
+    "3475006113" # FPV Drohnen
+]
