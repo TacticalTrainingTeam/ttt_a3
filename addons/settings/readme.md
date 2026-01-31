@@ -15,7 +15,7 @@ Die CBA-Einstellungen sind in einzelne `.inc`-Dateien aufgeteilt, gruppiert nach
 ### Missionsprofile
 
 - Missionsparameter "TTT Settings Profile" mit drei Optionen: Profile A (Standard), Profile B oder Profile C
-- `XEH_postInit.sqf` ruft `fnc_loadSettings` auf, welche den Parameter ausliest und die entsprechende Datei lädt
+- `XEH_preInit.sqf` ruft `fnc_loadSettings` auf, welche den Parameter ausliest und die entsprechende Datei lädt
 - Profile A → lädt `medic_preset_default.inc`
 - Profile B → lädt `medic_preset_easy.inc`
 - Profile C → lädt `medic_preset_training.inc`
@@ -73,12 +73,11 @@ addons/settings/
 ├── functions/
 │   ├── fnc_loadDefaultSettings.sqf
 │   └── fnc_loadSettings.sqf
-└── XEH_postInit.sqf
 ```
 
 **Ablauf:**
 
-1. `XEH_postInit.sqf` wird beim Missionsstart ausgeführt
+1. `XEH_preInit.sqf` wird beim Missionsstart ausgeführt
 2. `fnc_loadDefaultSettings` lädt alle modularen `.inc`-Dateien (außer cba_settings_*.inc)
 3. `fnc_loadSettings` liest den Missionsparameter aus (Standard: 0)
 4. Das entsprechende Profil wird geladen und überschreibt die Default-Settings
@@ -109,7 +108,7 @@ class Params {
 
 - `functions/fnc_loadDefaultSettings.sqf` - Lädt alle modularen Default-Settings
 - `functions/fnc_loadSettings.sqf` - Lädt das Missionsprofil
-- `XEH_postInit.sqf` - Initialisierung beim Missionsstart
+- `XEH_preInit.sqf` - Initialisierung beim Missionsstart
 
 **Settings:**
 
