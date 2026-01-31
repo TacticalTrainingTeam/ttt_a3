@@ -12,6 +12,7 @@ class CfgPatches {
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Andx"};
         url = ECSTRING(main,URL);
+        VERSION_CONFIG;
     };
 };
 
