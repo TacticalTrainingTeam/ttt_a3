@@ -10,12 +10,7 @@ Enthält Nachschubkisten für KAM im TTT.
 
 ### San Alpha
 
-**Magazine**
-
 - kat_Painkiller x25
-
-**Items**
-
 - ACE_elasticBandage x80
 - ACE_packingBandage x80
 - ACE_quikclot x80
@@ -24,13 +19,8 @@ Enthält Nachschubkisten für KAM im TTT.
 
 ### San Bravo
 
-**Magazine**
-
 - kat_Painkiller x5
 - kat_Penthrox x5
-
-**Items**
-
 - ACE_elasticBandage x80
 - ACE_packingBandage x80
 - ACE_tourniquet x25
@@ -59,14 +49,9 @@ Enthält Nachschubkisten für KAM im TTT.
 
 ### San Charlie
 
-**Magazine**
-
 - kat_Painkiller x5
 - kat_Penthrox x5
 - kat_oxygenTank_150 x1
-
-**Items**
-
 - ACE_elasticBandage x75
 - ACE_packingBandage x70
 - ACE_tourniquet x15

@@ -7,10 +7,10 @@ Die Plane ist dabei nicht an den Spieler gebunden. Der abbauende Spieler muss nu
 !!! info
     Jeder zugelassene Rucksack hat standardmäßig eine Plane geladen. Sollte dies nicht gewünscht sein, muss auf dem Rucksack die Variable `ttt_signalpanel_hasTarp` auf `false` gesetzt werden.
     Am einfachsten passiert das in der `loadout.sqf` des Spielers mittels:
-    
+
     ``` c++
     (unitBackpack player) setVariable ["ttt_signalpanel_hasTarp", false];
-    ``` 
+    ```
 
 ## CBA-Einstellungen
 
@@ -18,7 +18,7 @@ Die Plane ist dabei nicht an den Spieler gebunden. Der abbauende Spieler muss nu
 force ttt_signalpanel_enable = true;                                                                    //default: false;
 force ttt_signalpanel_supportedBackpacks = '["B_kitbag_rgr", "B_AssaultPack_blk", "B_Carryall_khk"]';   //default: '[]';
 force ttt_signalpanel_buildTime = 6;                                                                    //default: 6;
-``` 
+```
 
 ## Beispielbild
 
