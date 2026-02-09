@@ -9,13 +9,25 @@
             <English>TTT Helicopter Helmet Buzzard</English>
             <German>TTT Helikopter Helm Bussard</German>
         </Key>
+        <Key ID="STR_ttt_Helmets_buzzard_nvg_displayName">
+            <English>TTT Helicopter Helmet Buzzard (NVG)</English>
+            <German>TTT Helikopter Helm Bussard (NVG)</German>
+        </Key>
         <Key ID="STR_ttt_Helmets_eagle_displayName">
             <English>TTT Helicopter Helmet Eagle</English>
             <German>TTT Helikopter Helm Adler</German>
         </Key>
+        <Key ID="STR_ttt_Helmets_eagle_nvg_displayName">
+            <English>TTT Helicopter Helmet Eagle (NVG)</English>
+            <German>TTT Helikopter Helm Adler (NVG)</German>
+        </Key>
         <Key ID="STR_ttt_Helmets_falcon_displayName">
             <English>TTT Helicopter Helmet Falcon</English>
             <German>TTT Helikopter Helm Falke</German>
+        </Key>
+        <Key ID="STR_ttt_Helmets_falcon_nvg_displayName">
+            <English>TTT Helicopter Helmet Falcon (NVG)</English>
+            <German>TTT Helikopter Helm Falke (NVG)</German>
         </Key>
         <Key ID="STR_ttt_Helmets_grey_vehiclecrew_displayName">
             <English>TTT Vehicle Crew Helmet (Grey)</English>
@@ -24,6 +36,10 @@
         <Key ID="STR_ttt_Helmets_hawk_displayName">
             <English>TTT Helicopter Helmet Hawk</English>
             <German>TTT Helikopter Helm Habicht</German>
+        </Key>
+        <Key ID="STR_ttt_Helmets_hawk_nvg_displayName">
+            <English>TTT Helicopter Helmet Hawk (NVG)</English>
+            <German>TTT Helikopter Helm Habicht (NVG)</German>
         </Key>
         <Key ID="STR_ttt_Helmets_helmet_10_bw_flecktarn_displayName">
             <English>TTT Helmet X (BW Flecktarn)</English>
