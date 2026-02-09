@@ -8,7 +8,7 @@ class CfgVehicles {
         authors[] = {"Andx"};
         displayName = CSTRING(buzzard_displayName);
         scope = 2;
-        
+
         class TransportItems {
             class ttt_Helmet_Buzzard {
                 name = "ttt_Helmet_Buzzard";
@@ -17,9 +17,20 @@ class CfgVehicles {
         };
     };
 
+    class ttt_Helmet_item_Buzzard_NVG: ttt_Helmet_item_Buzzard {
+        displayName = CSTRING(buzzard_nvg_displayName);
+
+        class TransportItems {
+            class ttt_Helmet_Buzzard_NVG {
+                name = "ttt_Helmet_Buzzard_NVG";
+                count = 1;
+            };
+        };
+    };
+
     class ttt_Helmet_item_hawk: ttt_Helmet_item_Buzzard {
         displayName = CSTRING(hawk_displayName);
-        
+
         class TransportItems {
             class ttt_Helmet_Hawk {
                 name = "ttt_Helmet_Hawk";
@@ -28,9 +39,20 @@ class CfgVehicles {
         };
     };
 
+    class ttt_Helmet_item_Hawk_NVG: ttt_Helmet_item_hawk {
+        displayName = CSTRING(hawk_nvg_displayName);
+
+        class TransportItems {
+            class ttt_Helmet_Hawk_NVG {
+                name = "ttt_Helmet_Hawk_NVG";
+                count = 1;
+            };
+        };
+    };
+
     class ttt_Helmet_item_Falcon: ttt_Helmet_item_Buzzard {
         displayName = CSTRING(falcon_displayName);
-        
+
         class TransportItems {
             class ttt_Helmet_Falcon {
                 name = "ttt_Helmet_Falcon";
@@ -39,12 +61,34 @@ class CfgVehicles {
         };
     };
 
+    class ttt_Helmet_item_Falcon_NVG: ttt_Helmet_item_Falcon {
+        displayName = CSTRING(falcon_nvg_displayName);
+
+        class TransportItems {
+            class ttt_Helmet_Falcon_NVG {
+                name = "ttt_Helmet_Falcon_NVG";
+                count = 1;
+            };
+        };
+    };
+
     class ttt_Helmet_item_Eagle: ttt_Helmet_item_Buzzard {
         displayName = CSTRING(eagle_displayName);
-        
+
         class TransportItems {
             class ttt_Helmet_Eagle {
                 name = "ttt_Helmet_Eagle";
+                count = 1;
+            };
+        };
+    };
+
+    class ttt_Helmet_item_Eagle_NVG: ttt_Helmet_item_Eagle {
+        displayName = CSTRING(eagle_nvg_displayName);
+
+        class TransportItems {
+            class ttt_Helmet_Eagle_NVG {
+                name = "ttt_Helmet_Eagle_NVG";
                 count = 1;
             };
         };
@@ -57,7 +101,7 @@ class CfgVehicles {
         authors[] = {"Andx"};
         displayname = CSTRING(bronze_vehiclecrew_displayName);
         scope = 2;
-        
+
         class TransportItems {
             class ttt_Helmet_Bronze_Vehiclecrew {
                 name = "ttt_Helmet_Bronze_Vehiclecrew";
@@ -68,7 +112,7 @@ class CfgVehicles {
 
     class ttt_Helmet_item_crew_grey: ttt_Helmet_item_crew_bronze {
         displayname = CSTRING(grey_vehiclecrew_displayName);
-        
+
         class TransportItems {
             class ttt_Helmet_Grey_Vehiclecrew {
                 name = "ttt_Helmet_Grey_Vehiclecrew";
@@ -79,7 +123,7 @@ class CfgVehicles {
 
     class ttt_Helmet_item_crew_silver: ttt_Helmet_item_crew_bronze {
         displayname = CSTRING(silver_vehiclecrew_displayName);
-        
+
         class TransportItems {
             class ttt_Helmet_Silver_Vehiclecrew {
                 name = "ttt_Helmet_Silver_Vehiclecrew";
@@ -90,7 +134,7 @@ class CfgVehicles {
 
     class ttt_Helmet_item_crew_yellow: ttt_Helmet_item_crew_bronze {
         displayname = CSTRING(yellow_vehiclecrew_displayName);
-        
+
         class TransportItems {
             class ttt_Helmet_Yellow_Vehiclecrew {
                 name = "ttt_Helmet_Yellow_Vehiclecrew";
@@ -107,7 +151,7 @@ class CfgVehicles {
         authors[] = {"Andx"};
         displayName = CSTRING(helmet_1_bw_flecktarn_displayName);
         scope = 2;
-        
+
         class TransportItems {
             class ttt_Helmet_1_BW_Flecktarn {
                 name = "ttt_Helmet_1_BW_Flecktarn";
@@ -173,7 +217,7 @@ class CfgVehicles {
 
     class ttt_Helmet_Item_bw_fleck_7: ttt_Helmet_Item_bw_fleck_1 {
         displayName = CSTRING(helmet_7_bw_flecktarn_displayName);
-       
+
         class TransportItems {
             class ttt_Helmet_7_BW_Flecktarn {
                 name = "ttt_Helmet_7_BW_Flecktarn";
@@ -234,7 +278,7 @@ class CfgVehicles {
         authors[] = {"Andx"};
         displayName = CSTRING(helmet_1_bw_tropentarn_displayName);
         scope = 2;
-        
+
         class TransportItems {
             class ttt_Helmet_1_BW_tropentarn {
                 name = "ttt_Helmet_1_BW_tropentarn";
@@ -300,7 +344,7 @@ class CfgVehicles {
 
     class ttt_Helmet_Item_bw_tropen_7: ttt_Helmet_Item_bw_tropen_1 {
         displayName = CSTRING(helmet_7_bw_tropentarn_displayName);
-        
+
         class TransportItems {
             class ttt_Helmet_7_BW_tropentarn {
                 name = "ttt_Helmet_7_BW_tropentarn";
@@ -359,7 +403,7 @@ class CfgVehicles {
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Andx"};
         scope = 2;
-        
+
         class TransportItems {
             class ttt_Helmet_1_us_desert {
                 name = "ttt_Helmet_1_us_desert";
@@ -427,7 +471,7 @@ class CfgVehicles {
 
     class ttt_Helmet_Item_us_desert_7: ttt_Helmet_Item_us_desert_1 {
         displayName = CSTRING(helmet_7_us_desert_displayName);
-        
+
         class TransportItems {
             class ttt_Helmet_7_us_desert {
                 name = "ttt_Helmet_7_us_desert";
