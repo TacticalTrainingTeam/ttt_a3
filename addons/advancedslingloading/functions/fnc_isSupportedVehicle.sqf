@@ -15,13 +15,13 @@
  * Public: No
  */
 
-params ["_vehicle","_isSupported"];
+params ["_vehicle", "_isSupported"];
 _isSupported = false;
-if(not isNull _vehicle) then {
+if (not isNull _vehicle) then {
     {
-        if(_vehicle isKindOf _x) then {
+        if (_vehicle isKindOf _x) then {
             _isSupported = true;
         };
-    } forEach (missionNamespace getVariable ["ASL_Supported_Vehicles_OVERRIDE",missionNamespace getVariable ["ASL_Supported_Vehicles",[]]]);
+    } forEach (missionNamespace getVariable ["ASL_Supported_Vehicles_OVERRIDE", missionNamespace getVariable ["ASL_Supported_Vehicles", []]]);
 };
 _isSupported;

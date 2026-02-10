@@ -17,18 +17,17 @@
  * Public: No
  */
 
-params ["_vehicle","_player",["_ropeIndex",0]];
-if(local _vehicle) then {
-    private ["_existingRopes"];
-    _existingRopes = [_vehicle,_ropeIndex] call FUNC(getRopes);
-    if(count _existingRopes > 0) then {
+params ["_vehicle", "_player", ["_ropeIndex", 0]];
+if (local _vehicle) then {
+    private _existingRopes = [_vehicle, _ropeIndex] call FUNC(getRopes);
+    if (count _existingRopes > 0) then {
         _ropeLength = ropeLength (_existingRopes select 0);
-        if(_ropeLength <= 100 ) then {
+        if (_ropeLength <= 100) then {
             {
-                ropeUnwind [_x, 3, 5, true];
+                ropeUnwind [_x, 3, ASL_ROPE_UNWIND_SPEED, true];
             } forEach _existingRopes;
         };
     };
 } else {
-    [_this,"ASL_Extend_Ropes",_vehicle,true] call FUNC(remoteExec);
+    [_this, "ASL_Extend_Ropes", _vehicle, true] call FUNC(remoteExec);
 };

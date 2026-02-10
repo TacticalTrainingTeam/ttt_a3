@@ -15,4 +15,4 @@
  * Public: No
  */
 
-count (player getVariable ["ASL_Ropes_Vehicle", []]) == 0 && count (missionNamespace getVariable ["ASL_Nearby_Vehicles",[]]) > 0 && isNull objectParent player;
+count (player getVariable ["ASL_Ropes_Vehicle", []]) == 0 && count (missionNamespace getVariable ["ASL_Nearby_Vehicles", []]) > 0 && isNull objectParent player;

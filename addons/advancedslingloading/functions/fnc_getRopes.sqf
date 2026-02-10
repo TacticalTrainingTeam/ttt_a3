@@ -16,11 +16,10 @@
  * Public: No
  */
 
-params ["_vehicle","_ropeIndex"];
-private ["_allRopes","_selectedRopes"];
-_selectedRopes = [];
-_allRopes = _vehicle getVariable ["ASL_Ropes",[]];
-if(count _allRopes > _ropeIndex) then {
+params ["_vehicle", "_ropeIndex"];
+private _selectedRopes = [];
+private _allRopes = _vehicle getVariable ["ASL_Ropes", []];
+if (count _allRopes > _ropeIndex) then {
     _selectedRopes = _allRopes select _ropeIndex;
 };
 _selectedRopes;

@@ -48,5 +48,5 @@ player addAction ["Pickup Cargo Ropes", {
 }, nil, 0, false, true, "", "call FUNC(pickupRopesActionCheck)"];
 
 player addEventHandler ["Respawn", {
-    player setVariable ["ASL_Actions_Loaded",false];
+    player setVariable ["ASL_Actions_Loaded", false];
 }];

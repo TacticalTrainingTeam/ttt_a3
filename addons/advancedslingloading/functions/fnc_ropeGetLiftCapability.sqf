@@ -18,7 +18,7 @@
 params ["_vehicle"];
 private ["_slingLoadMaxCargoMass"];
 _slingLoadMaxCargoMass = getNumber (configOf _vehicle >> "slingLoadMaxCargoMass");
-if(_slingLoadMaxCargoMass <= 0) then {
+if (_slingLoadMaxCargoMass <= 0) then {
     _slingLoadMaxCargoMass = 4000;
 };
 _slingLoadMaxCargoMass;

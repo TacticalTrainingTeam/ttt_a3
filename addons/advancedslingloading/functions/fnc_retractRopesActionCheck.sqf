@@ -15,7 +15,7 @@
  * Public: No
  */
 
-if(isNull objectParent player) then {
+if (isNull objectParent player) then {
     [cursorTarget] call FUNC(canRetractRopes);
 } else {
     [vehicle player] call FUNC(canRetractRopes);

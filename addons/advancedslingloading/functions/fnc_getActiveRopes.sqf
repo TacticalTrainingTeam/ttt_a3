@@ -16,16 +16,15 @@
  */
 
 params ["_vehicle"];
-private ["_activeRopes","_existingRopes","_ropeLabelSets","_ropeIndex","_totalExistingRopes","_ropeLabels"];
-_activeRopes = [];
-_existingRopes = _vehicle getVariable ["ASL_Ropes",[]];
-_ropeLabelSets = [["Center"],["Front","Rear"],["Front","Center","Rear"]];
-_ropeIndex = 0;
-_totalExistingRopes = count _existingRopes;
+private _activeRopes = [];
+private _existingRopes = _vehicle getVariable ["ASL_Ropes", []];
+private _ropeLabelSets = [["Center"], ["Front", "Rear"], ["Front", "Center", "Rear"]];
+private _ropeIndex = 0;
+private _totalExistingRopes = count _existingRopes;
 {
-    if(count _x > 0) then {
-        _ropeLabels = _ropeLabelSets select (_totalExistingRopes - 1);
-        _activeRopes pushBack [_ropeIndex,_ropeLabels select _ropeIndex];
+    if (count _x > 0) then {
+        private _ropeLabels = _ropeLabelSets select (_totalExistingRopes - 1);
+        _activeRopes pushBack [_ropeIndex, _ropeLabels select _ropeIndex];
     };
     _ropeIndex = _ropeIndex + 1;
 } forEach _existingRopes;

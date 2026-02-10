@@ -16,7 +16,7 @@
  */
 
 // Prevent advanced sling loading from installing twice
-if(!isNil "ASL_ROPE_INIT") exitWith {};
+if (!isNil "ASL_ROPE_INIT") exitWith {};
 ASL_ROPE_INIT = true;
 INFO("Advanced Sling Loading Loading...");
 
@@ -47,27 +47,27 @@ ASL_Supported_Vehicles = [
 ];
 
 ASL_Sling_Rules = [
-    ["All","CAN_SLING","All"]
+    ["All", "CAN_SLING", "All"]
 ];
 
 // Client side initialization
-if(!isDedicated) then {
+if (!isDedicated) then {
     [] spawn {
         while {true} do {
-            if(!isNull player && isPlayer player) then {
-                if!( player getVariable ["ASL_Actions_Loaded",false] ) then {
+            if (!isNull player && isPlayer player) then {
+                if !( player getVariable ["ASL_Actions_Loaded", false] ) then {
                     [] call FUNC(addPlayerActions);
-                    player setVariable ["ASL_Actions_Loaded",true];
+                    player setVariable ["ASL_Actions_Loaded", true];
                 };
             };
             missionNamespace setVariable ["ASL_Nearby_Vehicles", (call FUNC(findNearbyVehicles))];
-            sleep 2;
+            sleep ASL_NEARBY_CHECK_INTERVAL;
         };
     };
 };
 
 // Server side initialization
-if(isServer) then {
+if (isServer) then {
     // Install Advanced Sling Loading on all clients (plus JIP) //
 
     ASL_Advanced_Sling_Loading_Install = {
@@ -75,7 +75,7 @@ if(isServer) then {
     };
 
     publicVariable "ASL_Advanced_Sling_Loading_Install";
-    remoteExecCall ["ASL_Advanced_Sling_Loading_Install", -2,true];
+    remoteExecCall ["ASL_Advanced_Sling_Loading_Install", -2, true];
 
 };
 

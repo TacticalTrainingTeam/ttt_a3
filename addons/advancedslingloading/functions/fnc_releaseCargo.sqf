@@ -17,19 +17,18 @@
  * Public: No
  */
 
-params ["_vehicle","_player",["_ropeIndex",0]];
-if(local _vehicle) then {
-    private ["_existingRopesAndCargo","_existingRopes","_existingCargo","_allCargo"];
-    _existingRopesAndCargo = [_vehicle,_ropeIndex] call FUNC(getRopesAndCargo);
-    _existingRopes = _existingRopesAndCargo select 0;
-    _existingCargo = _existingRopesAndCargo select 1;
+params ["_vehicle", "_player", ["_ropeIndex", 0]];
+if (local _vehicle) then {
+    private _existingRopesAndCargo = [_vehicle, _ropeIndex] call FUNC(getRopesAndCargo);
+    private _existingRopes = _existingRopesAndCargo select 0;
+    private _existingCargo = _existingRopesAndCargo select 1;
     {
         _existingCargo ropeDetach _x;
     } forEach _existingRopes;
-    _allCargo = _vehicle getVariable ["ASL_Cargo",[]];
-    _allCargo set [_ropeIndex,objNull];
-    _vehicle setVariable ["ASL_Cargo",_allCargo, true];
-    [_vehicle,_player,_ropeIndex] call FUNC(retractRopes);
+    private _allCargo = _vehicle getVariable ["ASL_Cargo", []];
+    _allCargo set [_ropeIndex, objNull];
+    _vehicle setVariable ["ASL_Cargo", _allCargo, true];
+    [_vehicle, _player, _ropeIndex] call FUNC(retractRopes);
 } else {
-    [_this,"ASL_Release_Cargo",_vehicle,true] call FUNC(remoteExec);
+    [_this, "ASL_Release_Cargo", _vehicle, true] call FUNC(remoteExec);
 };
