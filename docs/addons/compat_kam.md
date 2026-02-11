@@ -97,7 +97,7 @@ Professionelle Level-II/III Versorgung mit umfangreicher Ausstattung für kritis
 - Atropin: 10
 - Epsilon-Aminokapronsäure (EACA): 10
 - Chirurgisches Set: 1
-- Nahtmaterial: 80
+- Nähte: 80
 - AAT-Set: 15
 - Pulsmesser: 3
 - AED (X-Version): 1
