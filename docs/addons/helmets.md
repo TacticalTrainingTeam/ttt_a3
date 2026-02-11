@@ -1,6 +1,6 @@
 # Helme
 
-Enthält alle Helme in TTT Farben. Es gibt drei Tarnvarianten: _Flecktarn_, _Tropentarn_ und _Wüstentarn_. Darüber hinaus sind alle Infan-Helme mit Nummern von 1 bis 11 versehen.
+Enthält alle Helme in TTT Farben. Es gibt drei Tarnvarianten: _Flecktarn_, _Tropentarn_ und _Wüstentarn_. Darüber hinaus sind alle Infanterie-Helme mit Nummern von 1 bis 11 versehen.
 
 ## Class Names
 
