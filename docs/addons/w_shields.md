@@ -42,7 +42,7 @@ Argumente:
 
 | # | Argument                                                      | Typ     | Optional | Default         |
 | - | ------------------------------------------------------------- | ------- | -------- | --------------- |
-| 0 | Ziel auf das das Schild angwandt werden soll                  | OBJECT  | Nein     | -               |
+| 0 | Ziel auf das das Schild angewandt werden soll                  | OBJECT  | Nein     | -               |
 | 1 | Verhindere Treibstoffverlust durch Schaden?                    | BOOLEAN | Ja       | `false`         |
 | 2 | Verhindere das Haupt- bzw. Heckrotor zerstört wird?            | BOOLEAN | Ja       | `[true, true]`  |
 | 3 | Zerstöre den Motor wenn der Hüllenschaden ausgeschöpft ist?   | BOOLEAN | Ja       | `false`         |
