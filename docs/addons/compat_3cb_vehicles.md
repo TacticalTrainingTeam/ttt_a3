@@ -1,8 +1,8 @@
-## Compat 3CB Fahrzeuge
+# Compat 3CB Fahrzeuge
 
 Erhöht die Minendetektor-Reichweite des Land Rover Panama (`UK3CB_BAF_LandRover_Panama_Base`) von 8m auf 25m.
 
-### Technische Details
+## Technische Details
 
 - **Minendetektorreichweite**: 25 Meter
 - **Anzeige**: Mine Detector Display im Vehicle Systems Display Manager (rechts)

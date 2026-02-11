@@ -11,7 +11,7 @@ Grundlegende Notfallversorgung mit essentiellen Verbandmaterialien für die Erst
 
 **Klasse:** `ttt_compat_kam_sana_crate`
 
-#### Inhalt (nach MARCH-Algorithmus sortiert)
+#### Inhalt
 
 - Tourniquet: 25
 - Elastische Bandage: 80
@@ -64,7 +64,7 @@ Professionelle Level-II/III Versorgung mit umfangreicher Ausstattung für kritis
 
 **Klasse:** `ttt_compat_kam_sanc_crate`
 
-#### Inhalt (nach MARCH-Algorithmus sortiert)
+#### Inhalt
 
 - Tourniquet: 15
 - Elastische Bandage: 75
