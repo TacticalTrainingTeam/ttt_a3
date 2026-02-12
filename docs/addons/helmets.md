@@ -1,6 +1,6 @@
 # Helme
 
-Enthält alle Helme in TTT Farben. Es gibt drei Tarnvarianten: _Flecktarn_, _Tropentarn_ und _Wüstentarn_. Außerdem gibt es jedem Helm nummeriert von 1 bis 11.
+Enthält alle Helme in TTT Farben. Es gibt drei Tarnvarianten: _Flecktarn_, _Tropentarn_ und _Wüstentarn_. Darüber hinaus sind alle Infanterie-Helme mit Nummern von 1 bis 11 versehen.
 
 ## Class Names
 
@@ -10,6 +10,13 @@ Enthält alle Helme in TTT Farben. Es gibt drei Tarnvarianten: _Flecktarn_, _Tro
 - `ttt_Helmet_Hawk`
 - `ttt_Helmet_Falcon`
 - `ttt_Helmet_Eagle`
+
+Für jeden Pilotenhelm gibt es eine Variante mit integrierter Vollbild-Nachtsicht Funktion.
+
+- `ttt_Helmet_Buzzard_NVG`
+- `ttt_Helmet_Hawk_NVG`
+- `ttt_Helmet_Falcon_NVG`
+- `ttt_Helmet_Eagle_NVG`
 
 ### Fahrzeugbesatzungs-Helme
 

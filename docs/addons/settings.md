@@ -8,11 +8,11 @@ Beim Start einer Mission steht der Parameter **TTT Settings Profile** im Mission
 
 - **Profile A** (Standard): Lädt Einstellungen aus `cba_settings_a.inc` - KAM Standard Settings
 - **Profile B**: Lädt Einstellungen aus `cba_settings_b.inc` - KAM Einfach (schnellere Behandlungszeiten, längere Lifetime)
-- **Profile C**: Lädt Einstellungen aus `cba_settings_c.inc` - Benutzerdefiniert
+- **Profile C**: Lädt Einstellungen aus `cba_settings_c.inc` - Training (KI Bewusstlosigkeit aktiviert)
 
 Die Missionsprofile überschreiben die Default-Settings und ermöglichen es Missionsbauern, angepasste Einstellungen für verschiedene Szenarien zu nutzen.
 
-Damit der Parameter genutzt werden kann muss er in de description.ext der Mission definiert werden:
+Damit der Parameter genutzt werden kann muss er in der description.ext der Mission definiert werden:
 
 ```c++
 class Params {

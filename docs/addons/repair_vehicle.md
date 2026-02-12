@@ -1,6 +1,6 @@
 # TTT Reparaturstation Fahrzeug
 
-Fügt bestimmten Fahrzeugen die Möglichekeit hinzu ein Objekt, wie z.B. einen Cargokran, über eine ACE-Fremdinteraktion aufzubauen.
+Fügt bestimmten Fahrzeugen die Möglichkeit hinzu ein Objekt, wie z.B. eine Werkstatt, über eine ACE-Fremdinteraktion aufzubauen.
 Dies ist dann eine Reparatur-Einrichtung ("ACE_isRepairFacility").
 Jedes zugelassene Fahrzeug, welches derzeit keine Einrichtung transportiert, kann diese dann aufnehmen indem an der Einrichtung die ACE-Fremdinteraktion zum aufladen verwendet wird.
 
@@ -10,7 +10,7 @@ Jedes zugelassene Fahrzeug, welches derzeit keine Einrichtung transportiert, kan
 
     ``` c++
     this setVariable ["ttt_repair_vehicle_hasWorkshop", false, true];
-    ``` 
+    ```
 
 ## CBA-Einstellungen
 

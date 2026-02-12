@@ -1,6 +1,6 @@
 # Compat CUP Fahrzeuge
 
-Eigene Erweiterungen und Anpassungen and CUP-Fahrzeugen.
+Eigene Erweiterungen und Anpassungen an CUP-Fahrzeugen.
 
 ## Humvee
 

@@ -2,7 +2,7 @@
 
 ## NVG
 
-Fügt ausgewählten Vanilla Zielfernrohren ein intergriertes Nachtsichtgerät hinzu:
+Fügt ausgewählten Vanilla Zielfernrohren ein integriertes Nachtsichtgerät hinzu:
 
 - Nightforce NXS (`optic_LRPS`)
 - MOS (`optic_sos`)
