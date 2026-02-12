@@ -45,9 +45,9 @@ jobs:
 
           # Check if addon is in keep list, delete if not
           if ! echo "$KEEP_ADDONS" | grep -q "^${addon_name}$"; then
-            echo "Removing: $pbo_file and ${pbo_file}.${addon_name}.bisign"
+            echo "Removing: $pbo_file and ${pbo_file}.*.bisign"
             rm -f "$pbo_file"
-            rm -f "${pbo_file}.${addon_name}.bisign"
+            rm -f "${pbo_file}".*.bisign
           else
             echo "Keeping: $pbo_file"
           fi
