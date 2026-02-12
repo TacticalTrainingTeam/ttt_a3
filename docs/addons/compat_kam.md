@@ -24,7 +24,7 @@ Grundlegende Notfallversorgung mit essentiellen Verbandmaterialien für die Erst
 
 ### San Bravo Kiste
 
-Umfassende Notfallversorgung mit diversen Medikamenten und fortgeschrittenen Behandlungsmaterialien.
+Umfassende Notfallversorgung mit diversen Medikamenten und fortgeschrittenen Behandlungsmaterialien durch Sanitäter.
 
 **Klasse:** `ttt_compat_kam_sanb_crate`
 
@@ -60,7 +60,7 @@ Umfassende Notfallversorgung mit diversen Medikamenten und fortgeschrittenen Beh
 
 ### San Charlie Kiste
 
-Professionelle Level-II/III Versorgung mit umfangreicher Ausstattung für kritische medizinische Maßnahmen.
+Ärztliche Versorgung mit umfangreicher Ausstattung für kritische medizinische Maßnahmen.
 
 **Klasse:** `ttt_compat_kam_sanc_crate`
 
