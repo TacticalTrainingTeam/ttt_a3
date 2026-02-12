@@ -46,7 +46,7 @@ Umfassende Notfallversorgung mit diversen Medikamenten und fortgeschrittenen Beh
 - Morphin: 10
 - Lidocain: 10
 - Naloxon: 5
-- Chirurgisches Set: 1
+- Näh-Set: 1
 - Nähte: 100
 - NCD-Set: 10
 - Pulsmesser: 3
@@ -55,8 +55,8 @@ Umfassende Notfallversorgung mit diversen Medikamenten und fortgeschrittenen Beh
 - Blaue Markierungsflagge: 1
 - Blaue Sprühfarbe: 1
 - Leichensack: 3
-- Blauer Rauchtopf: 5
-- Blaues Chemlight: 5
+- Rauchgrante (Blau): 5
+- Chemlight (Blau): 5
 
 ### San Charlie Kiste
 
@@ -95,8 +95,8 @@ Umfassende Notfallversorgung mit diversen Medikamenten und fortgeschrittenen Beh
 - Lidocain: 10
 - Nitroglyzerin: 10
 - Atropin: 10
-- Epsilon-Aminokapronsäure (EACA): 10
-- Chirurgisches Set: 1
+- EACA: 10
+- Näh-Set: 1
 - Nähte: 80
 - AAT-Set: 15
 - Pulsmesser: 3
@@ -105,12 +105,12 @@ Umfassende Notfallversorgung mit diversen Medikamenten und fortgeschrittenen Beh
 - Blaue Markierungsflagge: 1
 - Blaue Sprühfarbe: 1
 - Leichensack: 1
-- Blauer Rauchtopf: 5
-- Blaues Chemlight: 5
+- Rauchgrante (Blau): 5
+- Chemlight (Blau): 5
 
 ## Verwendung
 
-Die Kisten können wie gewöhnliche Arma 3-Behälter platziert und in Missionen verwendet werden. Sie sind optimiert für die Level der medizinischen Versorgung:
+Die Kisten können wie gewöhnliche Arma 3-Behälter platziert und in Missionen verwendet werden. Sie sind optimiert für die drei Level der medizinischen Versorgung:
 
 - **San Alpha**: Erste Hilfe
 - **San Bravo**: Medizinische Versorgung durch Medics
