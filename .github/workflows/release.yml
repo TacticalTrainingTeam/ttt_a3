@@ -1,0 +1,70 @@
+name: Upload Release
+
+on:
+  release:
+    types: [ "published" ]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout the source code
+      uses: actions/checkout@v6
+
+    - name: Setup HEMTT
+      uses: arma-actions/hemtt@v1
+
+    - name: Build TTT Mod
+      run: hemtt release
+
+    - name: Upload full version to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: releases/ttt-latest.zip
+        asset_name: ttt-$tag.zip
+        tag: ${{ github.ref }}
+        overwrite: true
+
+    - name: Create minimal version
+      run: |
+        # Read minimal addons list from file
+        KEEP_ADDONS=$(cat .github/minimal-addons.txt | sed '/^$/d')
+
+        # Extract the full build
+        unzip -q releases/ttt-latest.zip -d releases/ttt-temp
+
+        # Navigate to addons directory
+        cd releases/ttt-temp/addons
+
+        # Remove all PBOs and keys that are NOT in the minimal list
+        for pbo_file in *.pbo; do
+          # Extract addon name from PBO filename (e.g., ttt_main.pbo -> main)
+          addon_name="${pbo_file#ttt_}"
+          addon_name="${addon_name%.pbo}"
+
+          # Check if addon is in keep list, delete if not
+          if ! echo "$KEEP_ADDONS" | grep -q "^${addon_name}$"; then
+            echo "Removing: $pbo_file and ${pbo_file}.${addon_name}.bisign"
+            rm -f "$pbo_file"
+            rm -f "${pbo_file}.${addon_name}.bisign"
+          else
+            echo "Keeping: $pbo_file"
+          fi
+        done
+
+        # Go back to releases directory and create new zip
+        cd ../..
+        cd ttt-temp
+        zip -r -q ../ttt-minimal.zip .
+        cd ..
+        rm -rf ttt-temp
+
+    - name: Upload minimal version to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: releases/ttt-minimal.zip
+        asset_name: ttt-minimal-$tag.zip
+        tag: ${{ github.ref }}
+        overwrite: true
