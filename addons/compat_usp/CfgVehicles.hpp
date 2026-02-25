@@ -10,16 +10,12 @@ class CfgVehicles {
         BACKPACK_BALANCE(280,50);
     };
     class USP_REEBOW_3DAP_ACC2_BLK: USP_REEBOW_3DAP_BLK {
-        BACKPACK_BALANCE(280,50);
     };
     class USP_REEBOW_3DAP_ACC3_BLK: USP_REEBOW_3DAP_BLK {
-        BACKPACK_BALANCE(280,50);
     };
     class USP_REEBOW_3DAP_ACC4_BLK: USP_REEBOW_3DAP_BLK {
-        BACKPACK_BALANCE(280,50);
     };
     class USP_REEBOW_3DAP_ACC5_BLK: USP_REEBOW_3DAP_BLK {
-        BACKPACK_BALANCE(280,50);
     };
     class USP_REEBOW_3DAP_ACC6_BLK: USP_REEBOW_3DAP_BLK {
         ace_logistics_wirecutter_hasWirecutter = 1;
@@ -30,10 +26,8 @@ class CfgVehicles {
         BACKPACK_BALANCE(280,50);
     };
     class USP_REEBOW_3DAP_ACC8_BLK: USP_REEBOW_3DAP_BLK {
-        BACKPACK_BALANCE(280,50);
     };
     class USP_REEBOW_3DAP_ACC9_BLK: USP_REEBOW_3DAP_BLK {
-        BACKPACK_BALANCE(280,50);
     };
     class USP_REEBOW_3DAP_ACC10_BLK: USP_REEBOW_3DAP_BLK {
         ace_logistics_wirecutter_hasWirecutter = 1;
