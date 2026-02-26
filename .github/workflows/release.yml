@@ -34,8 +34,8 @@ jobs:
           # Extract the full build
           unzip -q releases/ttt-latest.zip -d releases/ttt-temp
 
-          # Navigate to addons directory
-          cd releases/ttt-temp/addons
+          # Navigate to addons directory (HEMTT packages with @modname structure)
+          cd releases/ttt-temp/@*/addons
 
           # Remove all PBOs and keys that are NOT in the minimal list
           for pbo_file in *.pbo; do
