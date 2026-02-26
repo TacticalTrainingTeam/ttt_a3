@@ -27,8 +27,8 @@ class CfgVehicles {
             QPATHTOF(rsr_retex_vanilla\data\fennek\fennek_tropentarn_ext_co.paa),
             QPATHTOF(rsr_retex_vanilla\data\fennek\fennek_tropentarn_turret_co.paa)
         };
-    };    
-    
+    };
+
     class I_MRAP_03_hmg_F;
 
     class rsr_fennek_hmg_flecktarn: I_MRAP_03_hmg_F {
@@ -51,7 +51,6 @@ class CfgVehicles {
         class TransportMagazines { };
     };
     class rsr_fennek_hmg_tropentarn: rsr_fennek_hmg_flecktarn {
-        author = ECSTRING(rsr,rsr);
         displayName = SUBCSTRING(fennek_hmg_tropentarn);
         editorPreview = QPATHTOF(rsr_retex_vanilla\data\fennek\previews\rsr_fennek_hmg_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
@@ -82,7 +81,6 @@ class CfgVehicles {
         class TransportMagazines { };
     };
     class rsr_fennek_gmg_tropentarn: rsr_fennek_gmg_flecktarn {
-        author = ECSTRING(rsr,rsr);
         displayName = SUBCSTRING(fennek_gmg_tropentarn);
         editorPreview = QPATHTOF(rsr_retex_vanilla\data\fennek\previews\rsr_fennek_gmg_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
@@ -133,7 +131,7 @@ class CfgVehicles {
             QPATHTOF(rsr_retex_vanilla\data\bergepanzer\bergepanzer_tropentarn_crv_co.paa)
         };
     };
-    
+
     class O_Truck_03_transport_F;
 
     class rsr_wisent_transport_flecktarn: O_Truck_03_transport_F {
@@ -180,7 +178,7 @@ class CfgVehicles {
                 isRadioRemovable = 0;                 // Radio can be removed (default: 0)
                 intercom[] = {};                      // Radio not wired to any intercom. All units in intercom can receive/send transmittions (ACE3 interaction menu) but they cannot manipulate the radio (GUI interface) (default: {})
             };
-        }; 
+        };
     };
 
     class rsr_wisent_transport_tropentarn: rsr_wisent_transport_flecktarn {
@@ -250,7 +248,7 @@ class CfgVehicles {
                 isRadioRemovable = 0;                 // Radio can be removed (default: 0)
                 intercom[] = {};                      // Radio not wired to any intercom. All units in intercom can receive/send transmittions (ACE3 interaction menu) but they cannot manipulate the radio (GUI interface) (default: {})
             };
-        }; 
+        };
     };
 
     class rsr_wisent_covered_tropentarn: rsr_wisent_covered_flecktarn {
@@ -327,11 +325,10 @@ class CfgVehicles {
                 isRadioRemovable = 0;                 // Radio can be removed (default: 0)
                 intercom[] = {};                      // Radio not wired to any intercom. All units in intercom can receive/send transmittions (ACE3 interaction menu) but they cannot manipulate the radio (GUI interface) (default: {})
             };
-        }; 
+        };
     };
 
     class rsr_wisent_repair_tropentarn: rsr_wisent_repair_flecktarn    {
-        author = ECSTRING(rsr,rsr);
         displayName = SUBCSTRING(wisent_reparatur_tropentarn);
         editorPreview = QPATHTOF(rsr_retex_vanilla\data\wisent\previews\rsr_wisent_repair_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
@@ -402,11 +399,10 @@ class CfgVehicles {
                 isRadioRemovable = 0;                 // Radio can be removed (default: 0)
                 intercom[] = {};                      // Radio not wired to any intercom. All units in intercom can receive/send transmittions (ACE3 interaction menu) but they cannot manipulate the radio (GUI interface) (default: {})
             };
-        }; 
+        };
     };
 
     class rsr_wisent_ammo_tropentarn: rsr_wisent_ammo_flecktarn {
-        author = ECSTRING(rsr,rsr);
         displayName = SUBCSTRING(wisent_munition_tropentarn);
         editorPreview = QPATHTOF(rsr_retex_vanilla\data\wisent\previews\rsr_wisent_ammo_tropentarn_preview.jpg);
         hiddenSelectionsTextures[] = {
@@ -472,7 +468,7 @@ class CfgVehicles {
                 isRadioRemovable = 0;                 // Radio can be removed (default: 0)
                 intercom[] = {};                      // Radio not wired to any intercom. All units in intercom can receive/send transmittions (ACE3 interaction menu) but they cannot manipulate the radio (GUI interface) (default: {})
             };
-        }; 
+        };
         class TransportItems {
             MACRO_ADDITEM(Toolkit,1);
         };
@@ -544,7 +540,7 @@ class CfgVehicles {
                 isRadioRemovable = 0;                 // Radio can be removed (default: 0)
                 intercom[] = {};                      // Radio not wired to any intercom. All units in intercom can receive/send transmittions (ACE3 interaction menu) but they cannot manipulate the radio (GUI interface) (default: {})
             };
-        }; 
+        };
         class TransportItems {
             MACRO_ADDITEM(Toolkit,1);
         };
