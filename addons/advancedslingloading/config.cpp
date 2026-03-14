@@ -24,5 +24,5 @@ class CfgPatches {
     };
 };
 
-#include "CfgFunctions.hpp"
+#include "CfgEventhandlers.hpp"
 #include "CfgNetworkMessages.hpp"
