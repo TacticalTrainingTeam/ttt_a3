@@ -1,2 +1,0 @@
-PREP(loadDefaultSettings);
-PREP(loadMedicalSettings);
