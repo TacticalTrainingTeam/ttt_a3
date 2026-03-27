@@ -17,7 +17,7 @@
 * Public: Yes
 */
 
-if (isDedicated || !hasInterface) exitWith {};
+if (isDedicated || !hasInterface) exitWith {[], ttt_effects_fnc_condensedBreathInit] remoteExec ["call", ([0, -2] select isDedicated), true]};
 
 {
 	private _unit = _x;
