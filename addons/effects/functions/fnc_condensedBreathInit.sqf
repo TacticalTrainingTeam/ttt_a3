@@ -17,7 +17,7 @@
 * Public: Yes
 */
 
-if (isDedicated) exitWith {[], ttt_effects_fnc_condensedBreathInit] remoteExec ["call", -2, true]};
+if (isDedicated) exitWith {[[], ttt_effects_fnc_condensedBreathInit] remoteExec ["call", -2, true]};
 
 {
 	private _unit = _x;
