@@ -55,7 +55,6 @@ jobs:
 
           # Go back to releases directory and create new zip
           cd ../..
-          cd ttt-temp
           zip -r -q ../ttt-minimal.zip .
           cd ..
           rm -rf ttt-temp
