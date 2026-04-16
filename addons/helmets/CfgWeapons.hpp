@@ -9,7 +9,7 @@ class CfgWeapons {
 
         class ItemInfo: ItemInfo {
             //allowedSlots[] is an array of slot numbers where you may put the weapon. 701 stands for vest, 801 stands for uniform, 901 stands for backpack
-            allowedSlots[] = {605,701,901}; 
+            allowedSlots[] = {605,701,901};
         };
     };
 
@@ -20,10 +20,20 @@ class CfgWeapons {
         picture = QPATHTOF(data\pictures\ttt_helmet_buzzard_ca.pac);
     };
 
+    class ttt_Helmet_Buzzard_NVG: ttt_Helmet_Buzzard {
+        displayName = CSTRING(buzzard_nvg_displayName);
+        subItems[] = {"Integrated_NVG_F"};
+    };
+
     class ttt_Helmet_Hawk: ttt_Helmet_Buzzard {
         displayName = CSTRING(hawk_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_buzzard_co.paa)};
         picture = QPATHTOF(data\pictures\ttt_helmet_hawk_ca.pac);
+    };
+
+    class ttt_Helmet_Hawk_NVG: ttt_Helmet_Hawk {
+        displayName = CSTRING(hawk_nvg_displayName);
+        subItems[] = {"Integrated_NVG_F"};
     };
 
     class ttt_Helmet_Falcon: ttt_Helmet_Buzzard {
@@ -32,10 +42,20 @@ class CfgWeapons {
         picture = QPATHTOF(data\pictures\ttt_helmet_falcon_ca.pac);
     };
 
+    class ttt_Helmet_Falcon_NVG: ttt_Helmet_Falcon {
+        displayName = CSTRING(falcon_nvg_displayName);
+        subItems[] = {"Integrated_NVG_F"};
+    };
+
     class ttt_Helmet_Eagle: ttt_Helmet_Buzzard {
         displayName = CSTRING(eagle_displayName);
         hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_eagle_co.paa)};
         picture = QPATHTOF(data\pictures\ttt_helmet_eagle_ca.pac);
+    };
+
+    class ttt_Helmet_Eagle_NVG: ttt_Helmet_Eagle {
+        displayName = CSTRING(eagle_nvg_displayName);
+        subItems[] = {"Integrated_NVG_F"};
     };
 
     //Crew

@@ -28,7 +28,7 @@ Die folgenden FPV-Kamikaze-Drohnen können in Koffern transportiert und im Feld 
 #### Drohne Verpacken
 
 1. Nähere dich einer FPV-Drohne
-2. Öffne das ACE-Interaktionsmenü auf der Drohne (Standardmäßig ++left++ auf der Drohne halten)
+2. Öffne das ACE-Interaktionsmenü auf der Drohne (Standardmäßig ++left-windows++ halten)
 3. Wähle **Pack**
 4. Die Drohne wird wieder in einen Koffer verpackt und vor dir auf den Boden gelegt
 

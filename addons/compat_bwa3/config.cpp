@@ -14,13 +14,13 @@ class CfgPatches {
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
         requiredAddons[] = {
             "ttt_common",
-            "bwa3_backpacks", 
+            "bwa3_backpacks",
             "bwa3_nh90",
-            "bwa3_eagle", 
+            "bwa3_eagle",
             "bwa3_dingo2",
-            "bwa3_puma", 
-            "bwa3_pzh2000", 
-            "bwa3_leopard2", 
+            "bwa3_puma",
+            "bwa3_pzh2000",
+            "bwa3_leopard2",
             "bwa3_multi",
             "acre_sys_intercom",
             "acre_sys_rack"

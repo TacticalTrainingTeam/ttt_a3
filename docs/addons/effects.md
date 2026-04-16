@@ -4,13 +4,13 @@ Eine Sammlung immersiver VFX-Effekte, welche in Missionen dem Spieler die Sicht 
 
 ## Ausatemeffekt
 
-Vor den Mündern aller bestehenden Einheiten entstehet ein Effekt, welcher feuchte, ausatmende Luft immitiert.
+Vor den Mündern aller bestehenden Einheiten entsteht ein Effekt, welcher feuchte, ausatmende Luft imitiert.
 Die Funktion muss lokal von jedem Spieler ausgeführt werden.
 Dazu bietet sich neben dem 3DEN-Editor-Modul die `initPlayerLocal.sqf` an:
 
 ``` c++
 _breathParticle = [] call ttt_effects_fnc_condensedBreathInit;
-``` 
+```
 
 Arguments:
 None
@@ -27,7 +27,7 @@ Die Funktion muss serverseitig, wie z.B. durch einen eingestellten Trigger, durc
 
 ``` c++
 _return = [duration, effect, stormType, walk, direction] call ttt_effects_fnc_stormInit;
-``` 
+```
 
 Arguments:
 

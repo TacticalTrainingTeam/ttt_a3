@@ -4,11 +4,13 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-
+            QGVAR(sana_crate),
+            QGVAR(sanb_crate),
+            QGVAR(sanc_crate)
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ttt_common", "FPV_UA"};
+        requiredAddons[] = {"ttt_common", "kat_main"};
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Andx"};
         url = ECSTRING(main,URL);
@@ -19,6 +21,4 @@ class CfgPatches {
     };
 };
 
-#include "CfgEventHandlers.hpp"
 #include "CfgVehicles.hpp"
-#include "CfgMagazines.hpp"

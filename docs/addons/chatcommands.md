@@ -8,7 +8,7 @@ Andere Spieler sehen die Eingabe des Befehls nicht.
 
 `#endmission` / `#failmission` Beendet die Mission als Erfolg bzw. Fehlschlag.
 
-## Technicher Teleport
+## Technischer Teleport
 
 `#techsupport` erzeugt an der eigenen Position einen Teleporter (TTT-Flagge), mit Aktionen für die Zuschauerkamera und den Tech.-Teleport.
 
