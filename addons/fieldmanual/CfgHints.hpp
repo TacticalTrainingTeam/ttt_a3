@@ -14,9 +14,8 @@ class CfgHints {
         image = QPATHTOEF(common,data\ttt_logo_co.paa);
     };
 
-
     class GVAR(handbuch) {
-        displayName = CSTRING(handbuch_displayname);//??  8:01:21 String STR_ttt_fieldmanual_handbuch_displayname not found
+        displayName = CSTRING(handbuch_displayname);
         category = QGVAR(category);
 
         class GVAR(medical): GVAR(base) {
