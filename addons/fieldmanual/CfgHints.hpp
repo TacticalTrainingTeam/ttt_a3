@@ -33,5 +33,13 @@ class CfgHints {
             description = CSTRING(cas_jtac_description);
             tip = "<a href='https://wiki.tacticalteam.de/de/Handbuch/Luftstreitkr%C3%A4fte/Close-Air-Support'>Wiki</a>";
         };
+
+        class GVAR(fo_fdcb): GVAR(base) {
+            logicalOrder = 101;
+            displayName = CSTRING(fo_displayName);
+            displayNameShort = CSTRING(fo_displayNameShort);
+            description = CSTRING(fo_description);
+            tip = "<a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%C3%BCtzungskr%C3%A4fte/FO'>FO</a> | <a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%C3%BCtzungskr%C3%A4fte/Artillerie/FDCB'>FDCB</a>";
+        };
     };
 };
