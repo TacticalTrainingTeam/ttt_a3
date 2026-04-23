@@ -25,5 +25,13 @@ class CfgHints {
             description = CSTRING(medical_description);
             tip = "<a href='https://wiki.tacticalteam.de/de/Handbuch/Infanterie/Gefechtstechniken-Einzel/ErsteHilfe'>Wiki</a>";
         };
+
+        class GVAR(cas_jtac): GVAR(base) {
+            logicalOrder = 100;
+            displayName = CSTRING(cas_jtac_displayName);
+            displayNameShort = CSTRING(cas_jtac_displayNameShort);
+            description = CSTRING(cas_jtac_description);
+            tip = "<a href='https://wiki.tacticalteam.de/de/Handbuch/Luftstreitkr%C3%A4fte/Close-Air-Support'>Wiki</a>";
+        };
     };
 };
