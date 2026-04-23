@@ -49,5 +49,13 @@ class CfgHints {
             description = CSTRING(sniper_description);
             tip = "<a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%C3%BCtzungskr%C3%A4fte/Scharfsch%C3%BCtzen'>Wiki</a>";
         };
+
+        class GVAR(pioniere_demin): GVAR(base) {
+            logicalOrder = 103;
+            displayName = CSTRING(pioniere_demin_displayName);
+            displayNameShort = CSTRING(pioniere_demin_displayNameShort);
+            description = CSTRING(pioniere_demin_description);
+            tip = "<a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%C3%BCtzungskr%C3%A4fte/Pioniere'>Pioniere</a> | <a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%C3%BCtzungskr%C3%A4fte/Pioniere/Kampfmittelbeseitigung'>EOD</a> | <a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%C3%BCtzungskr%C3%A4fte/Pioniere/Minensperre-%C3%B6ffnen'>Minensperre</a>";
+        };
     };
 };
