@@ -41,5 +41,13 @@ class CfgHints {
             description = CSTRING(fo_description);
             tip = "<a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%C3%BCtzungskr%C3%A4fte/FO'>FO</a> | <a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%C3%BCtzungskr%C3%A4fte/Artillerie/FDCB'>FDCB</a>";
         };
+
+        class GVAR(scharfschuetzen): GVAR(base) {
+            logicalOrder = 102;
+            displayName = CSTRING(sniper_displayName);
+            displayNameShort = CSTRING(sniper_displayNameShort);
+            description = CSTRING(sniper_description);
+            tip = "<a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%C3%BCtzungskr%C3%A4fte/Scharfsch%C3%BCtzen'>Wiki</a>";
+        };
     };
 };
