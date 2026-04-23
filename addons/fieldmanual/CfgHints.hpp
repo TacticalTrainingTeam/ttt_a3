@@ -65,5 +65,21 @@ class CfgHints {
             description = CSTRING(logistik_description);
             tip = "<a href='https://wiki.tacticalteam.de/de/Handbuch/Nachschubkr%C3%A4fte/Logistik'>Wiki</a>";
         };
+
+        class GVAR(luftbeweglich): GVAR(base) {
+            logicalOrder = 105;
+            displayName = CSTRING(luftbeweglich_displayName);
+            displayNameShort = CSTRING(luftbeweglich_displayNameShort);
+            description = CSTRING(luftbeweglich_description);
+            tip = "<a href='https://wiki.tacticalteam.de/de/Handbuch/Infanterie/Luftbewegliche-Infanterie'>Wiki</a>";
+        };
+
+        class GVAR(hubschrauber_inf): GVAR(base) {
+            logicalOrder = 106;
+            displayName = CSTRING(hubschrauber_inf_displayName);
+            displayNameShort = CSTRING(hubschrauber_inf_displayNameShort);
+            description = CSTRING(hubschrauber_inf_description);
+            tip = "<a href='https://wiki.tacticalteam.de/de/Handbuch/Infanterie/Luftbewegliche-Infanterie/Hubschrauber_Fuer_Infanteristen'>Wiki</a>";
+        };
     };
 };
