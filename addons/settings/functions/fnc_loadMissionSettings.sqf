@@ -26,7 +26,7 @@ private _medSys_index = if (_chat_origin) then {
 private _medicalSystem = "standard";
 
 if (_medSys_index in [0, 1, 2]) then {
-    _medicalSystem = ["Standard", "Einfach", "Training"] select _medSys_index;
+    _medicalSystem = ["sStandard", "einfach", "training"] select _medSys_index;
 } else {
     if ( _medSys_index == 99 ) then {
         _medicalSystem = getText (missionConfigFile >> "medical_system") // backwards compatibility
