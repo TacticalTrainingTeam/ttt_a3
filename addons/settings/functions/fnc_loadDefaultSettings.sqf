@@ -1,7 +1,7 @@
-#include "script_component.hpp"
+#include "../script_component.hpp"
 /*
- * Author: BlauBär
- * Loads the default framework settings.
+ * Author: BlauBär edit by Andx
+ * Loads the default settings.
  *
  * Arguments:
  * None
