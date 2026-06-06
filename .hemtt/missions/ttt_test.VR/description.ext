@@ -28,7 +28,7 @@ class Params {
     class ttt_main_medicalSettings {
         title = "TTT Medic Settings";
         values[] = {0, 1, 2};
-        texts[] = {"KAM Standard", "KAM Einfach", "KAM Training"};
+        texts[] = {"Standard", "Einfach", "Training"};
         default = 0;
     };
 };

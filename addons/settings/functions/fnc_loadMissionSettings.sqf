@@ -9,9 +9,6 @@
  * Return Value:
  * None
  */
-#ifndef DEBUG_MODE_FULL
-if ((isNull (missionConfigFile >> "template_version")) || is3DEN ) exitWith {};
-#endif
 
 params [
     [ "_chat_origin", false, [true] ],
@@ -26,7 +23,7 @@ private _medSys_index = if (_chat_origin) then {
 private _medicalSystem = "standard";
 
 if (_medSys_index in [0, 1, 2]) then {
-    _medicalSystem = ["sStandard", "einfach", "training"] select _medSys_index;
+    _medicalSystem = ["standard", "einfach", "training"] select _medSys_index;
 } else {
     if ( _medSys_index == 99 ) then {
         _medicalSystem = getText (missionConfigFile >> "medical_system") // backwards compatibility

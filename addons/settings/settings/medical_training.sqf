@@ -26,7 +26,7 @@ force force ace_medical_painUnconsciousThreshold = 0.5;
 force force ace_medical_playerDamageThreshold = 2;
 force force ace_medical_spontaneousWakeUpChance = 0.5;
 force force ace_medical_spontaneousWakeUpEpinephrineBoost = 1.5;
-force force ace_medical_statemachine_AIUnconsciousness = false;
+force force ace_medical_statemachine_AIUnconsciousness = true;
 force force ace_medical_statemachine_cardiacArrestBleedoutEnabled = false;
 force ace_medical_statemachine_cardiacArrestTime = 720;
 force force ace_medical_statemachine_fatalInjuriesAI = 0;
@@ -491,4 +491,3 @@ force force kat_watch_pressureUnit = 0;
 force force kat_watch_temperatureUnit = 0;
 force force kat_watch_watchInaccuracy = false;
 // --- END KAM_Watches.sqf ---
-
