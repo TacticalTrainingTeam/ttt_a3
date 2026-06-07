@@ -8,7 +8,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"ttt_main","ace_common"};
         author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {""};
+        authors[] = {"BlauBär", "Andx"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

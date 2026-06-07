@@ -11,7 +11,7 @@
  */
 
 {
-    private _settingsFile = preprocessFile format [QPATHTOF(settings\%1.sqf), _x];
+    private _settingsFile = preprocessFile format [QPATHTOF(settings\%1.inc.sqf), _x];
     {
         _x params ["_setting", "_value", "_priority"];
         [_setting, _value, _priority, "server"] call CBA_settings_fnc_set;
@@ -69,8 +69,6 @@
     "ACE_Vehicles",
     "ACE_ViewDistanceLimiter",
     "ACE_ViewRestriction",
-    "ACE_Volume",
-    "ACE_Wardrobe",
     "ACE_Weapons",
     "ACE_Weather",
     "ACE_WindDeflection",
@@ -101,7 +99,7 @@
     "TSP_Breach",
     "TSP_Core",
     "TTT",
-    "Turret _Enhanced",
+    "Turret_Enhanced",
     "UH_60M",
     "USAF",
     "ZEN"

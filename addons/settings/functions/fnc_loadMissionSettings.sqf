@@ -32,7 +32,7 @@ if (_medSys_index in [0, 1, 2]) then {
     };
 };
 
-private _settingsFile = preprocessFile format [QPATHTOF(settings\medical_%1.sqf), _medicalSystem];
+private _settingsFile = preprocessFile format [QPATHTOF(settings\medical_%1.inc.sqf), _medicalSystem];
 {
     _x params ["_setting", "_value"];
     [_setting, _value, 2, "server"] call CBA_settings_fnc_set;
