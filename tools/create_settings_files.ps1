@@ -1,4 +1,4 @@
-$d = "f:\Arma3 Modding\ttt_a3\addons\settings\settings"
+$d = Join-Path $PSScriptRoot "..\addons\settings\settings"
 
 Set-Content "$d\A3TI.sqf" -Encoding UTF8 -Value @'
 // A3TI
