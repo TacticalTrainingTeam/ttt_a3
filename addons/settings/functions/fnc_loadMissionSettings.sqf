@@ -28,7 +28,7 @@ if (_medSys_index in [0, 1, 2]) then {
     if ( _medSys_index == 99 ) then {
         _medicalSystem = getText (missionConfigFile >> "medical_system") // backwards compatibility
     } else {
-        LOG_1("Unbekanntes ACE Medical Preset mit Index ""%1"" gefunden.",_medSys_index);
+        INFO_1("Unbekanntes ACE Medical Preset mit Index ""%1"" gefunden.",_medSys_index);
     };
 };
 
@@ -38,4 +38,4 @@ private _settingsFile = preprocessFile format [QPATHTOF(settings\medical_%1.inc.
     [_setting, _value, 2, "server"] call CBA_settings_fnc_set;
 } forEach ([_settingsFile, false] call CBA_settings_fnc_parse);
 
-LOG_1("ACE Medical Preset %1 geladen.",toUpper _medicalSystem);
+INFO_1("ACE Medical Preset %1 geladen.",toUpper _medicalSystem);
