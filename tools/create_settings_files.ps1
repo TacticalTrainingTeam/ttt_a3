@@ -2288,4 +2288,4 @@ zen_attributes_enableWaypointTimeout = true;
 zen_attributes_enableWaypointType = true;
 '@
 
-Write-Host "Done. Created $(Get-ChildItem $d -Filter '*.sqf' | Measure-Object).Count settings files."
+Write-Host "Done. Created $((Get-ChildItem $d -Filter '*.sqf' | Measure-Object).Count) settings files."
