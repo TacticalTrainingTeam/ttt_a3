@@ -27,7 +27,6 @@ class CfgWeapons {
 
     class ttt_Helmet_Hawk: ttt_Helmet_Buzzard {
         displayName = CSTRING(hawk_displayName);
-        hiddenSelectionsTextures[] = {QPATHTOF(data\ttt_helmet_buzzard_co.paa)};
         picture = QPATHTOF(data\pictures\ttt_helmet_hawk_ca.pac);
     };
 
