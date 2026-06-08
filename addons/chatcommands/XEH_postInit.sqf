@@ -41,3 +41,13 @@
 ["techsupport", {
     [QGVAR(techSupport), [player]] call CBA_fnc_serverEvent;
 }, "admin"] call CBA_fnc_registerChatCommand;
+
+["medsys", {
+    params [
+        ["_index", "0"]
+    ];
+    _index = parseNumber _index;
+    if ( !(_index in [0, 1, 2]) ) exitWith { hint "Dieser Index ist nicht definiert."; };
+    INFO_2("%1 hat das Medicsystem auf Index %2 geändert.",name player,_index);
+    [true, _index] remoteExecCall [QEFUNC(settings,loadMissionSettings), 2];
+}, "admin"] call CBA_fnc_registerChatCommand;

@@ -6,12 +6,11 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ttt_common","ttt_teleport","ttt_signs","ttt_settings"};
+        requiredAddons[] = {"ttt_main","ace_common"};
         author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx","BlauBaer"};
+        authors[] = {"BlauBär", "Andx"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
-        skipWhenMissingDependencies = 1;
     };
 };
 

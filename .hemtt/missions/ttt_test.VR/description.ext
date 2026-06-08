@@ -25,10 +25,10 @@ cba_settings_hasSettingsFile = 1;
 
 //Must be in the description.ext to work with CBA Settings
 class Params {
-    class ttt_main_medicalSettings {
-        title = "TTT Medic Settings";
+    class medical_system {
+        title = "Sanitäts System";
         values[] = {0, 1, 2};
-        texts[] = {"KAM Standard", "KAM Einfach", "KAM Training"};
+        texts[] = {"Standard", "Einfach", "Training"};
         default = 0;
     };
 };
