@@ -1,6 +1,6 @@
 # Settings
 
-Das Settings-Addon lädt beim Missionsstart automatisch die richtigen CBA-Einstellungen und erlaubt im Lobby-Bildschim die Auswahl eines von drei Medic-Systemen: Standart, Einfach, Training.
+Das Settings-Addon lädt beim Missionsstart automatisch die richtigen CBA-Einstellungen und erlaubt im Lobby-Bildschim die Auswahl eines von drei Medic-Systemen: Standard, Einfach, Training.
 
 Alle Einstellungen welche nicht über das Addon gesetzt werden können von jedem Spieler indivuell eingestellt werden.
 
