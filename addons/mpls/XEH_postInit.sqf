@@ -7,7 +7,7 @@ if (isServer) then {
             call FUNC(initSave);
         },
         [],
-        30
+        TIME_SAVE_START
     ] call CBA_fnc_waitAndExecute;
 };
 
@@ -18,12 +18,17 @@ if (!hasInterface) exitWith {};
 [
     {
         params ["_player"];
+
         if (GVAR(loadoutNamespace) getVariable [([getPlayerUID _player, "_first"] joinString ""), []] isEqualTo []) then {
             GVAR(loadoutNamespace) setVariable [[getPlayerUID _player, "_first"] joinString "", [_player] call CBA_fnc_getLoadout, true]; //saves the very first loadout to the DB
         };
+
+        if (GVAR(loadoutNamespace) getVariable [([getPlayerUID _player, "_slot"] joinString ""), ""] isEqualTo "") then {
+            GVAR(loadoutNamespace) setVariable [[getPlayerUID _player, "_slot"] joinString "", roleDescription _player]; //roleDescription is unique, alternative would be typeOf _player
+        };
     },
     [ace_player],
-    30
+    TIME_SAVE_FIRST
 ] call CBA_fnc_waitAndExecute;
 
 // If player is JIP
@@ -41,14 +46,20 @@ if (didJIP) then {
         }, [], 0, false, true];
     };
 
-    // apply the last saved loadout to the player
-    // wait 10 seconds to account for any delay with loadouts assigned through onPlayerRespawn.sqf
+    // apply the last saved loadout to the player if he is in the same slot
+    // wait TIME_AFTER_RESPAWN seconds to account for any delay with loadouts assigned through onPlayerRespawn.sqf
     [
         {
             params ["_player"];
-            _player call FUNC(applyLoadout);
+
+            private _currentSlot = roleDescription _player; //roleDescription is unique, alternative would be typeOf _player
+            private _oldSlot = GVAR(loadoutNamespace) getVariable [([getPlayerUID _player, "_slot"] joinString ""), ""];
+
+            if (_currentSlot isEqualTo _oldSlot) then {
+                _player call FUNC(applyLoadout);
+            };
         },
         [ace_player],
-        10
+        TIME_AFTER_RESPAWN
     ] call CBA_fnc_waitAndExecute;
 };

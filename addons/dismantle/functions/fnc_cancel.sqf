@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /*
 * Author: EinStein, Andx
-* 
+*
 * Arguments:
 * 0: Facility or Player <OBJECT>
 * 1: Player <OBJECT>
@@ -15,5 +15,5 @@
 
 params ["_caller"];
 
-hint LLSTRING(abort);
+[LLSTRING(abort), true] call ace_common_fnc_displayText;
 _caller switchMove "";

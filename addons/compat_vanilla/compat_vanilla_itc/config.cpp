@@ -3,8 +3,9 @@
 class CfgPatches {
     class SUBADDON {
         addonRootClass = QUOTE(ADDON);
-        units[] = {    
-            "itc_land_ldf_mlrs_zamak"
+        units[] = {
+            "itc_land_ldf_mlrs_zamak_pgm",
+            "itc_land_ldf_mlrs_zamak_he"
          };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;

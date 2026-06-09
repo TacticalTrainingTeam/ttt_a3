@@ -7,7 +7,7 @@
  * None
  *
  * Return Value:
- * True
+ * <NONE>
  *
  * Example:
  * [] call ttt_mpls_fnc_initSave
@@ -26,5 +26,5 @@ params [];
         call FUNC(initSave);
     },
     [],
-    600
+    TIME_SAVE_INTERVAL
 ] call CBA_fnc_waitAndExecute;

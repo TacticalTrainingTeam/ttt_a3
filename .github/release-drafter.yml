@@ -9,27 +9,27 @@ sort-by: title # sort alphabetically
 sort-direction: ascending
 
 categories:
-  - title: '### NEU:'
+  - title: 'NEU:'
     labels:
       - 'pr/feature'
-  - title: '### REPARIERT:'
+  - title: 'REPARIERT:'
     labels:
       - 'pr/bug-fix'
-  - title: '### VERBESSERT:'
+  - title: ' VERBESSERT:'
     labels:
       - 'pr/enhancement'
       - 'pr/optimization'
-  - title: '### VERÄNDERT:'
+  - title: 'VERÄNDERT:'
     labels:
       - 'pr/cleanup'
       - 'pr/change'
-  - title: '### EINSTELLUNGEN:'
+  - title: 'EINSTELLUNGEN:'
     labels:
       - 'pr/setting'
-  - title: '### ÜBERSETZUNGEN:'
+  - title: 'ÜBERSETZUNGEN:'
     labels:
       - 'pr/translation'
-  - title: '### DOKUMENTATION:'
+  - title: 'DOKUMENTATION:'
     labels:
       - 'pr/documentation'
 
@@ -41,9 +41,11 @@ change-template: '* $TITLE (#$NUMBER) by $AUTHOR'
 template: |
   _Requires the latest Version of [CBA](https://github.com/CBATeam/CBA_A3) and [ACE](https://github.com/acemod/ACE3)._
 
+  Full Documentation can be found under [https://docs.tacticalteam.de](https://docs.tacticalteam.de).
+
   ## Zusammenfassung
 
-  ## Änderungsprotokoll 
+  ## Änderungsprotokoll
 
   $CHANGES
 
@@ -72,10 +74,3 @@ version-resolver:
       - "pr/documentation"
       - "pr/bug-fix"
   default: patch
-
-replacers:
-  # Category titles
-  # Der Release Drafter macht die Kategorie automatisch als ## Heading
-  # und wir wollen sie als ### Heading haben
-  - search: '/\#\# (\#\#\# (NEU|REPARIERT|VERBESSERT|VERÄNDERT|EINSTELLUNGEN|ÜBERSETZUNGEN|DOKUMENTATION):)/g'
-    replace: '$1'

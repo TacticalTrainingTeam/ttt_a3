@@ -1,1 +1,2 @@
+PREP(initLoop);
 PREP(updateRichPresence);

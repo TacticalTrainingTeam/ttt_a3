@@ -7,6 +7,7 @@
  * - DUI is handled by ACE
  * - Hides ACRE Vehicle Elements
  * - Hides all Vanilla UI Elements (including Chat if accidently shown)
+ * - Hides current cTab Interface
  *
  * Arguments:
  * None
@@ -25,7 +26,7 @@ TRACE_1("fnc_addEventHandler",_this);
 
 _id = [
     "ace_ui_hideHud",
-    { 
+    {
         params ["_set"];
 
         // Vanilla
@@ -36,6 +37,9 @@ _id = [
             showHUD [false,false,false,false,false,false,false,false];
         };
         showChat false; //ist durch clearhud sowie immer aus und wird deswegen auch nicht wieder angeschalten
+
+        //cTab
+        [] call cTab_fnc_close;
 
         // ACRE
         // from https://github.com/fparma/fparma-mods/blob/master/addons/common/functions/fnc_toggleScreenshotMode.sqf

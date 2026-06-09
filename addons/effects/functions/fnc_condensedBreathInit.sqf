@@ -17,15 +17,15 @@
 * Public: Yes
 */
 
-if (isDedicated || !hasInterface) exitWith {};
+if (isDedicated) exitWith {[[], ttt_effects_fnc_condensedBreathInit] remoteExec ["call", -2, true]};
 
 {
 	private _unit = _x;
-	[_unit] call ttt_effects_fnc_condensedBreathEffects;
 	
 	// add EHs if not already existing
 	if (_unit getVariable ["ttt_effects_breathParticleEventsNeeded", true]) then {
 		_unit setVariable ["ttt_effects_breathParticleEventsNeeded", false, false];
+		[_unit] call ttt_effects_fnc_condensedBreathEffects;															// add effect (once locally on every machine)
 
 		_unit addEventHandler ["Deleted", {
 			params ["_entity"];

@@ -8,6 +8,7 @@ workshop = [
     "3023395342", # 3DEN Attributes Fast Load
     "1779063631", # ZEN
     "2319721149", # ZEN add
+    "2799167087", # Metis Enhanced
 ]
 
 parameters = [
@@ -98,47 +99,11 @@ workshop = [
     "1638341685" # DUI Squad Radar
 ]
 
-# cDLCs
-[spe]
+[usp]
 extends = "default"
-dlc = [
-    "Spearhead 1944"
-]
-
-[vn]
-extends = "default"
-dlc = [
-    "S.O.G. Prairie Fire"
-]
-
-[ws]
-extends = "default"
-dlc = [
-    "Western Sahara"
-]
-
-[rf]
-extends = "default"
-dlc = [
-    "Reaction Forces"
-]
-
-[ef]
-extends = "default"
-dlc = [
-    "Expeditionary Forces"
-]
-
-[gm]
-extends = "default"
-dlc = [
-    "Global Mobilization - Cold War Germany"
-]
-
-[csla]
-extends = "default"
-dlc = [
-    "CSLA Iron Curtain"
+workshop = [
+    "1795825073", # USP AiO
+    "2056229605" # USP Gear Ace
 ]
 
 [server]
@@ -159,4 +124,16 @@ parameters = [
     "-connect=127.0.0.1",
     "-port=2302",
     "-window"
+]
+
+[kam]
+extends = "default"
+workshop = [
+    "2020940806" # KAM
+]
+
+[fpv]
+extends = "default"
+workshop = [
+    "3475006113" # FPV Drohnen
 ]

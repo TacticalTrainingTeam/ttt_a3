@@ -1,41 +1,23 @@
-# TTT Mod
+# TTT-Mod
 
 [![CI](https://github.com/TacticalTrainingTeam/ttt_a3/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/TacticalTrainingTeam/ttt_a3/actions/workflows/main.yml)
 
-Arma 3 Modifikation für das Tactical Training Team. Benötigt die aktuellste version von [CBA A3](https://github.com/CBATeam/CBA_A3/releases) und [ACE](https://github.com/acemod/ACE3/releases).
+Arma 3 Modifikation für das Tactical Training Team. Benötigt die aktuellste Version von [CBA A3](https://github.com/CBATeam/CBA_A3/releases) und [ACE](https://github.com/acemod/ACE3/releases).
 
-Du willst mitmachen? <http://www.tacticalteam.de/mitmachen>
+Du willst im TTT mitmachen? <http://www.tacticalteam.de/mitmachen>. Um an der Mod mitzuarbeiten, sieh dir unsere [Contributing Guidelines](CONTRIBUTING.md) an.
 
-## Die Mod bauen
+## Features
 
-1. Visual Studio Code installieren - <https://code.visualstudio.com> & git installieren <https://git-scm.com/downloads>
-2. das Repo klonen - `git clone https://github.com/TacticalTrainingTeam/ttt_a3.git` in der Kommandozeile ausführen
-3. vorgeschlagene Extensions in Visual Studio Code installieren
-4. Arma 3 Tools über Steam installieren und einmal starten
-5. `hemtt` installieren - dazu `winget install hemtt` in der Kommandozeile ausführen
-   - Dokumentation: <https://hemtt.dev>
-6. Folgende Mods im Steam-Workshop abonnieren:
-    - CBA_A3 <https://steamcommunity.com/workshop/filedetails/?id=450814997>
-    - ACE <https://steamcommunity.com/sharedfiles/filedetails/?id=463939057>
-    - ACRE2 <https://steamcommunity.com/sharedfiles/filedetails/?id=751965892>
-    - Advanced Developer Tools <https://steamcommunity.com/sharedfiles/filedetails/?id=3499977893>
-    - 3DEN Attributes Fast Load <https://steamcommunity.com/sharedfiles/filedetails/?id=3023395342>
-    - Zeus Enhanced <https://steamcommunity.com/sharedfiles/filedetails/?id=1779063631>
-7. In der Kommandozeile `hemtt launch` ausführen, um Arma 3 mit dem Basismods zu starten
+- Screenshot-Modus
+- Chat ausblenden
+- Spotlight-Kacheln zum schnellen Serverbeitritt
+- Discord-Activity / Rich Presence
+- Chatbefehle für Missionsbauer
+- Verschiedene *functions*, Module und Verbesserungen für Missionsbauer
+- System zum Speichern des Loadouts der Spieler während der Mission
+- Objekte, Uniformen, Westen, Helme und Fahrzeuge für das TTT
+- Verbesserungen und Fehlerbehebungen für 3CB, RHS, CUP, BWmod und Redd'n'Tank
+- Schilde für Fahrzeuge und Gebäude
+- ...
 
-Für CUP, RHS, BWmod etc. sind zum Testen weitere Mods erforderlich, diese sind in der [.hemtt/launch.toml](.hemtt/launch.toml) angeben.
-
-### Entwickeln mit lokalen Mods
-
-Falls es nicht möglich ist, die Steam-Workshop-Mods herunterzuladen (zum Beispiel aus Platzgründen), kannst du folgendes in die `launch.toml` eintragen, den Pfad entsprechend anpassen und so deine lokalen Mods aus dem TTT-Repo verwenden. Diese Änderung der Datei darf **nicht** committet werden.
-
-```toml
-[cup_local]
-extends = "default"
-parameters = [
-    "-mod=C:\\Pfad\\zu\\deinen\\TTT\\mods\\@CUP_Units",
-    "-mod=C:\\Pfad\\zu\\deinen\\TTT\\mods\\@CUP_Vehicles",
-    "-mod=C:\\Pfad\\zu\\deinen\\TTT\\mods\\@CUP_Weapons",
-    "-mod=C:\\Pfad\\zu\\deinen\\TTT\\mods\\@Community_Factions_Project_CFP"
-]
-```
+Die komplette Beschreibung der Funktionen steht in der [Dokumentation](https://docs.tacticalteam.de).

@@ -1,9 +1,9 @@
 class CfgDiscordRichPresence {
     applicationID = "919991023218868235";             // Provided by discord
     defaultDetails = "";            // Upper text
-    defaultState = "";              // Lower text  
+    defaultState = "";              // Lower text
     defaultLargeImageKey = "ttt_logo";      // Large image
-    defaultLargeImageText = "";     // Large image hover text
+    defaultLargeImageText = "www.tacticalteam.de";     // Large image hover text
     defaultSmallImageKey = "";      // Small image
     defaultSmallImageText = "";     // Small image hover text
     defaultButtons[] = {"Mitmachen", "https://www.tacticalteam.de/mitmachen", "Discord", "https://discord.com/invite/tYX9TMc"};          // Button texts and urls

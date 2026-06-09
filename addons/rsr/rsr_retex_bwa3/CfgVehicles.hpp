@@ -42,7 +42,7 @@ class CfgVehicles {
                 author = "V1irus";
                 factions[] = {"BLU_F"};
                 textures[] = {
-                    QPATHTOF(retex_bwa3\data\eagle\bwa3_eagle_co.paa),
+                    QPATHTOF(rsr_retex_bwa3\data\eagle\bwa3_eagle_fleck_co.paa),
                     "\bwa3_eagle\data\bwa3_eagle_fahrwerk_co.paa",
                     "\bwa3_eagle\data\bwa3_eagle_int_co.paa",
                     "\bwa3_eagle\data\bwa3_eagle_alpha_co.paa",
@@ -98,9 +98,6 @@ class CfgVehicles {
         author = ECSTRING(rsr,rsr);
         displayName = SUBCSTRING(Eagle_IV_Sanität_lowvis_Flecktarn);
         editorPreview = QPATHTOF(rsr_retex_bwa3\data\eagle\previews\bwa3_eagle_fleck_lowvis_co_preview.jpg);
-        scope = 2;
-        scopeCurator = 2;
-        scopeArsenal = 2;
         hiddenSelectionsTextures[] = {
             QPATHTOF(rsr_retex_bwa3\data\eagle\bwa3_eagle_fleck_vis_co.paa),
             "\bwa3_eagle\data\bwa3_eagle_fahrwerk_co.paa",
@@ -128,9 +125,6 @@ class CfgVehicles {
         author = ECSTRING(rsr,rsr);
         displayName = SUBCSTRING(Eagle_IV_Sanität_Diamant_Flecktarn);
         editorPreview = QPATHTOF(rsr_retex_bwa3\data\eagle\previews\bwa3_eagle_fleck_dia_co_preview.jpg);
-        scope = 2;
-        scopeCurator = 2;
-        scopeArsenal = 2;
         hiddenSelectionsTextures[] = {
             QPATHTOF(rsr_retex_bwa3\data\eagle\bwa3_eagle_fleck_dia_co.paa),
             "\bwa3_eagle\data\bwa3_eagle_fahrwerk_co.paa",
@@ -228,7 +222,6 @@ class CfgVehicles {
         class TransportMagazines { };
     };
     class rsr_eagle_tropen_lowvis: rsr_eagle_tropen {
-        author = ECSTRING(rsr,RSR);
         displayName = SUBCSTRING(Eagle_IV_Sanität_lowvis_Tropentarn);
         editorPreview = QPATHTOF(rsr_retex_bwa3\data\eagle\previews\bwa3_eagle_tropen_lowvis_co_preview.jpg);
         hiddenSelectionsTextures[] = {
@@ -256,7 +249,6 @@ class CfgVehicles {
     };
 
     class rsr_eagle_tropen_dia: rsr_eagle_tropen {
-        author = ECSTRING(rsr,rsr);
         displayName = SUBCSTRING(Eagle_IV_Sanität_Diamant_Tropentarn);
         editorPreview = QPATHTOF(rsr_retex_bwa3\data\eagle\previews\bwa3_eagle_tropen_dia_co_preview.jpg);
         hiddenSelectionsTextures[] = {

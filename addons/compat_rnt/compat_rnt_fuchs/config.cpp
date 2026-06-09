@@ -7,7 +7,7 @@ class CfgPatches {
         addonRootClass = QUOTE(ADDON);
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "redd_tank_fuchs_1a4"
+            "Redd_Tank_Fuchs_1A4"
         };
         units[] = {};
         weapons[] = {};

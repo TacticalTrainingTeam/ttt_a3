@@ -1,10 +1,3 @@
----
-tags:
-  - Objekte
----
-
-Stellt die folgeneden Nützlichen Dinge zur Verfügung:
-
 ## Bilder
 
 Stellt TTT-Bilder anderen Addons und Missionsbauern zur Verfügung.
@@ -26,7 +19,7 @@ Stellt eine Komposition zur Verfügung, um immer benutzte Module beim Anfang ein
 - Zeus `zeus_1`
 - Zeus `zeus_2`
 - Zeus Missionsbauer -> SteamID eintragen!
-- Leerer Marker `respawn` (TTT-Flagge mit Zuschauerkamera und techn. Teleport wird automatisch erzeugt durch [Teleport](teleport.md))
+- Leerer Marker `respawn` (TTT-Flagge mit Zuschauerkamera und techn. Teleport wird automatisch erzeugt durch [Teleport](../teleport.md))
 - 2x Zivilist `zeus` + `zeus_1`
 
 Benutzung: Im 3DEN-Editor ++f2++ "Compositions" -> "Props" -> "Other" -> "Tactical Training Team"
@@ -82,9 +75,19 @@ Inhalt ist im [Wiki](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten
 
 Inhalt ist im [Wiki](https://wiki.tacticalteam.de/de/Missionsbau/Nachschubkisten#spezielle-kisten) definiert.
 
-## Einheiten
+## TTT PAK
 
-Fügt ein paar generische Einheiten (ohne eigenes Loadout), als Hilfe für einheiten-basierte Loadoutsysteme, wie z.B. Poppy oder [grad-loadout](https://github.com/gruppe-adler/grad-loadout), hinzu.
+Mit diesem Update wird das neue TTT PAK (Personal Aid Kit) eingeführt. Das TTT PAK kann unabhängig vom Zustand des Patienten verwendet werden – es ist also nicht mehr erforderlich, dass der Patient stabil ist. Dadurch wird die medizinische Versorgung flexibler und schneller, da das PAK in jeder Situation eingesetzt werden kann.
+
+Angedachter Anwendungsfall für das TTT PAK ist ein MedEvac unter KAM, bei dem schwerst verwundete ausgeflogen werden, durch die behandelten Ärzte bis zur Basis am leben erhalten werden und dort mittels des TTT PAK versorgt werden.
+
+Classname: `TTT_personalAidKit`
+
+**Wichtige Merkmale:**
+
+- Das TTT PAK kann bei jedem Patienten angewendet werden, egal ob bewusstlos oder bei vollem Bewusstsein.
+- Die Anwendung des PAKs stellt den Patienten vollständig wieder her (wie bisher).
+- Die Nutzung ist weiterhin von den ACE Einstellungen abhängig.
 
 ## Maintainer
 

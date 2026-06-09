@@ -1,12 +1,12 @@
 OnLoadName = "TTT Testmission";
 OnLoadMission = "Test Hard, Play Smart";
-author="Tactical Training Team";
+author = "Tactical Training Team";
+loadscreen = "OP_Desert Thorn_klein.paa";
 
-class Header
-{
+class Header {
     gameType = "coop";
     minPlayers = "1";
-    maxPlayers = "5";
+    maxPlayers = "4";
 };
 
 respawn = 3;
@@ -22,3 +22,13 @@ disabledAI = 1;
 enableDebugConsole[] = {"76561197977373243"};
 
 cba_settings_hasSettingsFile = 1;
+
+//Must be in the description.ext to work with CBA Settings
+class Params {
+    class medical_system {
+        title = "Sanitäts System";
+        values[] = {0, 1, 2};
+        texts[] = {"Standard", "Einfach", "Training"};
+        default = 0;
+    };
+};

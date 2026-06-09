@@ -1,6 +1,6 @@
 class CfgVehicles {
 
-    //Infanterie Vesten
+    //Infanterie Westen
     class Vest_V_PlateCarrier1_rgr;
     class Vest_V_PlateCarrier2_rgr;
 
@@ -228,7 +228,7 @@ class CfgVehicles {
         };
     };
 
-    //Crew Vesten
+    //Crew Westen
     class Vest_V_TacVest_brn;
     class ttt_Vest_Item_Crew_Bronze: Vest_V_TacVest_brn {
         author = ECSTRING(main,TacticalTrainingTeam);

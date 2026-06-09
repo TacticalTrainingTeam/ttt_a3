@@ -1,9 +1,3 @@
----
-tags:
-  - Objekte
-  - TTT Original
----
-
 # Insignien
 
 Fügt die TTT Farben als Schulterinsignien (linke Schulter) hinzu.
@@ -48,7 +42,7 @@ Abzeichen:
 
 ## Benutzung
 
-`[this, "TTT_Blue"] call BIS_fnc_setUnitInsignia;` in der Init-Zeile einer Einheit für die große Variante.
+`[this, "TTT_Blue"] call BIS_fnc_setUnitInsignia;` in der Init-Zeile einer Einheit für die große Variante. Siehe [`BIS_fnc_setUnitInsignia`](https://community.bistudio.com/wiki/BIS_fnc_setUnitInsignia)
 
 ## Maintainer
 

@@ -7,7 +7,7 @@
  * 0: Player <OBJECT>
  *
  * Return Value:
- * True
+ * <NONE>
  *
  * Example:
  * [player] call ttt_mpls_fnc_handleRespawn
@@ -23,5 +23,5 @@ params ["_unit", ""];
         _unit call FUNC(applyLoadout);
     },
     [ _unit],
-    5
+    TIME_AFTER_RESPAWN
 ] call CBA_fnc_waitAndExecute;

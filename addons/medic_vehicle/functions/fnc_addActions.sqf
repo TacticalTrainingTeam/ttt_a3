@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /*
 * Author: EinStein
-* 
+*
 * Arguments:
 * None
 *
@@ -18,11 +18,11 @@
     [_x, 0, ["ACE_MainActions", "ttt_medic_vehicle_constuct"]] call ace_interact_menu_fnc_removeActionFromClass;
 } forEach (parseSimpleArray GVAR(supportedVehicles));
 
-[GVAR(facitlityObject), 0, ["ACE_MainActions", "ttt_medic_vehicle_deconstuct"]] call ace_interact_menu_fnc_removeActionFromClass;
+[GVAR(facilityObject), 0, ["ACE_MainActions", "ttt_medic_vehicle_deconstuct"]] call ace_interact_menu_fnc_removeActionFromClass;
 
 if (!GVAR(enable)) exitWith {};
 
-_constructTent = 
+_constructTent =
 [
     "ttt_medic_vehicle_constuct",
     LLSTRING(actionConstruct),
@@ -44,4 +44,4 @@ _deconstructTent =
     [_x, 0, ["ACE_MainActions"], _constructTent] call ace_interact_menu_fnc_AddActionToClass;
 } forEach (parseSimpleArray GVAR(supportedVehicles));
 
-[GVAR(facitlityObject), 0, ["ACE_MainActions"], _deconstructTent] call ace_interact_menu_fnc_AddActionToClass;
+[GVAR(facilityObject), 0, ["ACE_MainActions"], _deconstructTent] call ace_interact_menu_fnc_AddActionToClass;

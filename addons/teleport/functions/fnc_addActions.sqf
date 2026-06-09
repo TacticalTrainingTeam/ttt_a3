@@ -28,8 +28,11 @@ if (hasInterface) then {
 
         params ["", "_caller"];
 
-        ["Initialize", [_caller, [], true]] call BIS_fnc_EGSpectator;
-        [_caller, true] remoteExecCall ["hideObjectGlobal", 2];
+        //enable all units but hide the player in spectator
+        [allUnits, [player]] call ace_spectator_fnc_updateUnits;
+        //activate spectator, dont force the interface so it can be exited, hide player
+        [true, false, true] call ace_spectator_fnc_setSpectator;
+
 
     	//remove all items so nothing bad can happen
         //including things like android so the spectators dont show up on the map
@@ -46,9 +49,4 @@ if (hasInterface) then {
 
     // add teleporter Menü
     [_object] call EFUNC(w_teleporter,addAction);
-
-    // close spectator on respawn
-    player addMPEventHandler ["MPRespawn", {
-        ["Terminate"] call BIS_fnc_EGSpectator;
-    }];
 };

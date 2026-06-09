@@ -4,17 +4,6 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            "TTT_B_Commanding_Officer_F",
-            "TTT_B_Executive_Officer_F",
-            "TTT_B_JTAC_F",
-            "TTT_B_FO_F",
-            "TTT_B_RadioOperator_F",
-            "TTT_B_Soldier_Repair_TL_F",
-            "TTT_B_Crew_TL_F",
-            "TTT_B_Medic_CM_F",
-            "TTT_B_Medic_Doctor_F",
-            "TTT_B_EOD_F",
-            "TTT_B_EOD_TL_F",
             "ttt_common_vba_crate",
             "ttt_common_vbt_crate",
             "ttt_common_explosives_crate",
@@ -26,13 +15,15 @@ class CfgPatches {
             "ttt_common_paradrop_crate",
             QGVAR(sana_crate),
             QGVAR(sanb_crate),
-            QGVAR(sanc_crate)
+            QGVAR(sanc_crate),
+            "TTT_personalAidKitItem"
         };
         weapons[] = {
             QGVAR(spraypaintMemes),
+            "TTT_personalAidKit"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ttt_main", "zen_main"};
+        requiredAddons[] = {"ttt_main", "zen_main", "ace_medical_treatment"};
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Andx","Reimchen","EinStein"};
         url = ECSTRING(main,URL);
@@ -48,3 +39,4 @@ class CfgPatches {
 #include "CfgWeapons.hpp"
 #include "configs\ACE_Fortify.hpp"
 #include "configs\ACE_Tags.hpp"
+#include "configs\ACE_Medical_Treatment_Actions.hpp"

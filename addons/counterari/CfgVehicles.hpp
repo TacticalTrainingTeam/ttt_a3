@@ -3,17 +3,12 @@ class CfgVehicles {
     class Logic;
     class Module_F: Logic {
         class AttributesBase {
-            class Default;
             class Edit;                                                                      // Default edit box (i.e. text input field)
-            class Combo;                                                                     // Default combo box (i.e. drop-down menu)
             class Checkbox;                                                                  // Default checkbox (returned value is Boolean)
-            class CheckboxNumber;                                                            // Default checkbox (returned value is Number)
             class ModuleDescription;                                                         // Module description
-            class Units;                                                                     // Selection of units on which the module is applied
         };
 
         class ModuleDescription {
-            class AnyBrain;
         };
     };
 
@@ -22,7 +17,7 @@ class CfgVehicles {
         displayName = CSTRING(registerEnemyAriModule_displayName);
         icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
         category = "Supports";
-        function = QFUNC(initEnemyAri); 
+        function = QFUNC(initEnemyAri);
         isGlobal = 1;
 
         class Attributes: AttributesBase {
@@ -41,7 +36,7 @@ class CfgVehicles {
         category = "Supports";
         function = QFUNC(initFriendlyAri);
         isGlobal = 1;
-        
+
         class Attributes: AttributesBase {
             class GVAR(registerFriendlyAriModule_radius): Edit {
                 property = QGVAR(registerFriendlyAriModule_radius);
@@ -74,7 +69,7 @@ class CfgVehicles {
                 typeName = "NUMBER";
                 defaultValue = "5";
             };
-            
+
             class ModuleDescription: ModuleDescription {};
         };
 

@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /*
 * Author: EinStein
-* 
+*
 * Arguments:
 * 0: Facility <OBJECT>
 * 1: Player <OBJECT>
@@ -26,14 +26,15 @@ private _ArrayVehicle = [];
 
 _vehicle = _ArrayVehicle select 0;
 
-hint format [
+[
+    [
     LLSTRING(hintLoaded),
     (round ((getPos _target) getDir (getPos _vehicle))),
     (round ((getPos _target) distance (getPos _vehicle)))
-];
+    ], 3
+] call ace_common_fnc_displayTextStructured;
 
 _vehicle setVariable ["ttt_medic_vehicle_hasTent", true, true];
 [_vehicle, (_vehicle getVariable ["ttt_medic_vehicle_fuel", 100])] remoteExec ["setFuel", (owner _vehicle), false];
 deleteVehicle _target;
 _caller switchMove "";
- 

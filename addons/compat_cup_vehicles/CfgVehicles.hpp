@@ -11,11 +11,7 @@ class CfgVehicles {
         };
     };
 
-    class Car_F;
-    class CUP_nHMMWV_Base: Car_F {
-        class CargoTurret;
-    };
-
+    class CUP_nHMMWV_Base;
     class CUP_nM1037sc_Base: CUP_nHMMWV_Base {
         class AcreRacks {
             class Rack_1 {
@@ -129,16 +125,8 @@ class CfgVehicles {
         class UserActions {}; // clear all user actions (not a big deal)
     };
 
-    // Fix the M1038 back seat
-    class CUP_nM1038_Base: CUP_nHMMWV_Base {
-        class Turrets {
-            class CargoTurret_01: CargoTurret {
-                gunnerAction = "CUP_HMMWV_bench_gunner_1";
-            };
-        };
-    };
-
     // Tweaks to the GTK Boxer's handling (accel/braking) + countermeasures move to gunner
+    class Car_F;
     class Wheeled_APC_F: Car_F {
         class NewTurret;
         class Turrets {
@@ -148,14 +136,11 @@ class CfgVehicles {
         };
     };
 
-    class CUP_Boxer_Base: Wheeled_APC_F {
-        class AnimationSources;
-    };
+    class CUP_Boxer_Base: Wheeled_APC_F {};
 
     class CUP_Boxer_Base_Empty;
 
     class CUP_Boxer_Base_HMG: CUP_Boxer_Base {
-        class CargoTurret;
         class Turrets {
             class MainTurret: NewTurret {
                 weapons[] = {"CUP_Vhmg_M2_veh","SmokeLauncher"};
@@ -196,8 +181,6 @@ class CfgVehicles {
     };
 
     class CUP_Boxer_Base_GMG: CUP_Boxer_Base_HMG {
-    
-        class CargoTurret;
         class Turrets {
             class MainTurret: NewTurret {
                 weapons[] = {"CUP_Vgmg_HKGMG_veh","SmokeLauncher"}; // added smoke launcher
@@ -664,4 +647,3 @@ class CfgVehicles {
         };
     };
 };
-

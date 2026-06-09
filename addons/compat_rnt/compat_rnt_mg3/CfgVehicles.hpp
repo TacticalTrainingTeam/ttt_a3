@@ -15,18 +15,20 @@ class CfgVehicles {
     };
 
 
-    class LandVehicle;
-    class StaticWeapon: LandVehicle {
+    class StaticMGWeapon;
+    class HMG_01_base_F: StaticMGWeapon {
         class Turrets;
-        class MainTurret;
-        class ACE_Actions {
+        class ACE_Actions;
+    };
+    class HMG_01_high_base_F: HMG_01_base_F {
+        class Turrets: Turrets {
+            class MainTurret;
+        };
+        class ACE_Actions: ACE_Actions {
             class ACE_MainActions;
         };
         class ACE_SelfActions;
     };
-    class StaticMGWeapon: StaticWeapon {};
-    class HMG_01_base_F: StaticMGWeapon {};
-    class HMG_01_high_base_F: HMG_01_base_F {};
 
     class rnt_mg3_static: HMG_01_high_base_F {
         armor = 500000; // Make invincible
@@ -64,7 +66,7 @@ class CfgVehicles {
                     condition = "(crew _target) isEqualTo []";
                     statement = QUOTE(call EFUNC(compat_rnt,disassembleMG));
                 };
-                
+
                 class MG_hoehe_justieren {
                     condition = "true";
 

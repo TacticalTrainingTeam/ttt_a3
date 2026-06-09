@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /*
 * Author: EinStein
-* 
+*
 * Arguments:
 * None
 *
@@ -15,11 +15,11 @@
 */
 
 [player, 1, ["ACE_SelfActions", "ACE_Equipment", "ttt_medic_backpack_construct"]] call ace_interact_menu_fnc_removeActionFromObject;
-[GVAR(facitlityObject), 0, ["ACE_MainActions", "ttt_medic_backpack_deconstruct"]] call ace_interact_menu_fnc_removeActionFromClass;
+[GVAR(facilityObject), 0, ["ACE_MainActions", "ttt_medic_backpack_deconstruct"]] call ace_interact_menu_fnc_removeActionFromClass;
 
 if (!GVAR(enable)) exitWith {};
 
-_constructPlane = 
+_constructPlane =
 [
     QGVAR(construct),
     LLSTRING(actionConstruct),
@@ -38,4 +38,4 @@ _deconstructPlane =
 ] call ace_interact_menu_fnc_createAction;
 
 [player, 1, ["ACE_SelfActions", "ACE_Equipment"], _constructPlane] call ace_interact_menu_fnc_AddActionToObject;
-[GVAR(facitlityObject), 0, ["ACE_MainActions"], _deconstructPlane] call ace_interact_menu_fnc_AddActionToClass;
+[GVAR(facilityObject), 0, ["ACE_MainActions"], _deconstructPlane] call ace_interact_menu_fnc_AddActionToClass;

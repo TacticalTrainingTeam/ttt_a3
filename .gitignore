@@ -6,3 +6,4 @@ hemtt.exe
 .DS_Store
 /releases/*
 .cache/
+.hemttprivatekey

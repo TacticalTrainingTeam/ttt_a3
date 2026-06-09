@@ -14,7 +14,7 @@ params [""];
 if (isNull GVAR(target)) exitWith {};
 closeDialog 0;
 
-//LOG_S_2("%1 teleportierte sich zu %2.",name ACE_player,name GVAR(target));
+INFO_2("%1 teleportierte sich zu %2.",name ACE_player,name GVAR(target));
 
 switch GVAR(type) do {
     case "nearby": {
@@ -40,3 +40,5 @@ switch GVAR(type) do {
         ACE_player moveInCommander vehicle GVAR(target);
     };
 };
+
+[QGVAR(API_playerTeleported), [ACE_player, GVAR(target)]] call CBA_fnc_localEvent;

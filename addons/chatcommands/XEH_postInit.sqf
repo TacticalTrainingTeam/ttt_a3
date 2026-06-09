@@ -1,25 +1,10 @@
 #include "script_component.hpp"
 
 // Chat Commands
-// Basierend auf der Arbeit von Gruppe W 
+// Basierend auf der Arbeit von Gruppe W
 // https://gitlab.gruppe-w.de/Missionsbau/Framework/-/blob/master/addons/api/XEH_postInit.sqf?ref_type=heads
 
-// Zeus chat command
-[QGVAR(giveZeus), {
-    params ["_unit"];
-    private _curator = (createGroup sideLogic) createUnit ["ModuleCurator_F", [0, 0, 0], [], 0, "CAN_COLLIDE"];
-    _curator setVariable ["Addons", 3, true];
-    _curator addCuratorEditableObjects [allMissionObjects "", true];
-    _unit assignCurator _curator;
-    INFO_1("Zeus assigned to %1",_unit);
-}] call CBA_fnc_addEventHandler;
-
-["zeus", {
-    systemChat "Zeus wird angefordert...";
-    [QGVAR(giveZeus), [player]] call CBA_fnc_serverEvent;
-}, "admin"] call CBA_fnc_registerChatCommand;
-
-// End mission chat command 
+// End Mission chat command
 [QGVAR(endMission), BIS_fnc_endMission] call CBA_fnc_addEventHandler;
 
 ["endmission", {
@@ -55,4 +40,14 @@
 
 ["techsupport", {
     [QGVAR(techSupport), [player]] call CBA_fnc_serverEvent;
+}, "admin"] call CBA_fnc_registerChatCommand;
+
+["medsys", {
+    params [
+        ["_index", "0"]
+    ];
+    _index = parseNumber _index;
+    if ( !(_index in [0, 1, 2]) ) exitWith { hint "Dieser Index ist nicht definiert."; };
+    INFO_2("%1 hat das Medicsystem auf Index %2 geändert.",name player,_index);
+    [true, _index] remoteExecCall [QEFUNC(settings,loadMissionSettings), 2];
 }, "admin"] call CBA_fnc_registerChatCommand;
