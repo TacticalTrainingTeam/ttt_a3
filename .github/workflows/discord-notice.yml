@@ -16,8 +16,8 @@ jobs:
         with:
           webhook_url: ${{ secrets.DISCORD_WEBHOOK_URL }}
           username: "TTT-Mod Release Changelog"
-          avatar_url: "https://avatars.githubusercontent.com/u/12996414"
+          avatar_url: "https://wiki.tacticalteam.de/bilder/ttt_logo_heagon_512x512.png"
           content: ""
           footer_title: "TTT-Mod"
-          footer_icon_url: "https://avatars.githubusercontent.com/u/12996414"
+          footer_icon_url: "https://wiki.tacticalteam.de/bilder/ttt_logo_heagon_512x512.png"
           footer_timestamp: true
