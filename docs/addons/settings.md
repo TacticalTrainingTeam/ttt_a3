@@ -1,14 +1,14 @@
 # Settings
 
-Das Settings-Addon lädt beim Missionsstart automatisch die richtigen CBA-Einstellungen und erlaubt im Lobby-Bildschim die Auswahl eines von drei Medic-Systemen: Standard, Einfach, Training.
+Das Settings-Addon lädt beim Missionsstart automatisch die richtigen CBA-Einstellungen und erlaubt im Lobby-Bildschirm die Auswahl eines von drei Medic-Systemen: Standard, Einfach, Training.
 
-Alle Einstellungen welche nicht über das Addon gesetzt werden können von jedem Spieler indivuell eingestellt werden.
+Alle Einstellungen, welche nicht über das Addon gesetzt werden, können von jedem Spieler individuell eingestellt werden.
 
 ## Medic-Systeme
 
-- **Standard** die regulären Einstellungen, werden automatisch geladen wenn nichts anderen spezifiziert wurde oder wenn ein Fehler aufgetreten ist.
-- **Einfach** Längere Überlebenszeit und schnellere Behandlungen für spezielle Events.
-- **Training** mit KI welche Bewusstlos werden kann um daran zu üben.
+- **Standard** die regulären Einstellungen, werden automatisch geladen wenn nichts anderes spezifiziert wurde oder wenn ein Fehler aufgetreten ist.
+- **Einfach** längere Überlebenszeit und schnellere Behandlungen für spezielle Events.
+- **Training** mit KI welche bewusstlos werden kann, um daran zu üben.
 
 ### Für Missionsbauer
 
@@ -29,7 +29,7 @@ Danach habt ihr im Lobbybildschirm oben rechs einen Button um das System zu änd
 
 ### Für Zeuse
 
-Wenn ihr `adminVoted` oder `adminLogged` seid, könnt ihr per Chat-Befel das Medic-System ändern. Dies kann z.B. genutzt werden wenn die Einstellung in der Lobby vergessen wurde. Dazu müsst ihr folgendes in den Chat eingeben:
+Wenn ihr `adminVoted` oder `adminLogged` seid, könnt ihr per Chat-Befehl das Medic-System ändern. Dies kann z.B. genutzt werden wenn die Einstellung in der Lobby vergessen wurde. Dazu müsst ihr folgendes in den Chat eingeben:
 
 - `#med-sys 0` für das Standard-System
 - `#med-sys 1` für das einfache System
