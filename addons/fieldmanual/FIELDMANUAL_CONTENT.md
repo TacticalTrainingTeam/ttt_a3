@@ -1,4 +1,4 @@
-# Field Manual (Plain Markdown)
+# Field Manual
 
 This file mirrors the field manual hint content in plain Markdown format.
 
@@ -7,9 +7,9 @@ This file mirrors the field manual hint content in plain Markdown format.
 ### JTAC CAS Quick Guide
 
 - **Before tasking aircraft**
-  - Open channel and request **Check-In**: aircraft type, current position, weapons, **TOS**
+  - Establish comms and conduct aircraft **Check-In**: aircraft type, current position, weapons, **TOS**
   - Define **IP/BP** and expected **holding area**
-  - Know own positions and no-fire constraints before any attack run
+  - Know your own troop positions and no-fire constraints before any attack run
 - **Build and send 9-Liner**
   - (1) IP/BP
   - (2) Heading
@@ -20,7 +20,7 @@ This file mirrors the field manual hint content in plain Markdown format.
   - (7) Type Mark
   - (8) Friendlies
   - (9) Egress
-  - State weapon restrictions in **Remarks** when required
+  - Include weapon restrictions in **Remarks** as applicable
 - **Marking and friendlies**
   - Use clear marks (**Laser** / **Smoke** / None) and tell the pilot exactly what to expect
   - For **Danger Close**, own troops must be clearly marked and reported
@@ -46,14 +46,14 @@ This file mirrors the field manual hint content in plain Markdown format.
   - Select firing position(s), resupply status and comms with gun line
   - Confirm map/grid system and elevation source used by both sides
 - **Send FDCB (7 lines)**
-  - (1) Type: **I** = fire on readiness, **II** = fire on command, **III** = timed impact
+  - (1) Type: **I** = fire at will, **II** = fire on command, **III** = timed impact
   - (2) Attack: point / line / area
   - (3) Coordinate: minimum 8-digit
   - (4) Elevation (ASL)
   - (5) Round count
   - (6) Ammunition type
   - (7) Remarks
-  - Number fire missions so repeats and sequencing are clear
+  - Number fire missions to track repeats and sequencing
 - **Adjustments and control**
   - Observe impact and correct quickly (direction / range / add-drop)
   - Use Type II when you need controlled release timing
@@ -66,7 +66,7 @@ This file mirrors the field manual hint content in plain Markdown format.
 - **Safety and follow-up**
   - Never fire without confirmed friendlies/no-fire awareness around target area
   - After each volley: report effect, request **Re-Attack** if needed, send updated situation
-  - Stop or shift fire immediately when friendly movement changes
+  - Stop or shift fire immediately if friendly positions shift
 
 **Golden rule:** **Precision first, volume second.**
 
@@ -84,8 +84,8 @@ This file mirrors the field manual hint content in plain Markdown format.
   - Prepare immediate relocation route before first shot
 - **Recon and target preparation**
   - Name positions/targets consistently and set target priority with command intent
-  - Collect stable reference data (range, azimuth, holds, behavior) per target
-  - Prefer measuring static reference objects near moving targets
+  - Collect stable reference data (range, azimuth, holds, behavior) for each target
+  - Use static reference points near moving targets to confirm range
 - **Engagement workflow (spotter-led)**
   - (1) Spotter confirms target and readiness call
   - (2) Shooter confirms visual and hold data
@@ -109,13 +109,13 @@ This file mirrors the field manual hint content in plain Markdown format.
   - (4) **Cordon** and keep people/vehicles out
   - (5) **Control** until EOD reports area safe
 - **Manual mine lane (opening a minefield)**
-  - Leader defines lane start/end and security; minefields are treated as monitored
+  - Leader defines lane start/end and security; assume all minefields are covered/observed
   - Engineers move as chain with spacing; detector scans front and side sectors
-  - On contact: report, all others stop/go prone, finder disarms or clears mine
+  - On contact: report, all others stop/go prone, the finder disarms or safely clears the mine
   - Mark lane edges continuously and keep route discipline
 - **Tool usage essentials**
   - **Mine detector** in pistol slot; activate after equipping (deactivates on weapon/vehicle change)
-  - Detector range is short; advance slowly and read delayed audio cue carefully
+  - Detector range is short; advance slowly and listen carefully for the delayed audio cue
   - **Disarm kit** required for ACE disarm: approach prone, empty hands, disarm via ACE interaction
   - Some mines must **not** be disarmed (e.g. SLAM, bouncing mine): clear by shot or controlled charge
   - **Spray cans** for lane marks via ACE self interaction; use standard color discipline
@@ -134,7 +134,7 @@ This file mirrors the field manual hint content in plain Markdown format.
 
 - **Core priorities**
   - **Self-protection first**, then **people before material**
-  - Logistics avoids combat and aborts when transport risk is too high
+  - Logistics elements avoid direct contact and abort missions when transport risk becomes unacceptable
   - Keep material tracked and protected against loss or misuse
 - **5-Liner for every order**
   - (0) Number
@@ -144,7 +144,7 @@ This file mirrors the field manual hint content in plain Markdown format.
   - (4) Task
   - (5) Remarks/Marking
   - Transmit with pauses, require readback, fix gaps immediately
-  - Use stable place names for whole mission; new location means new name
+  - Use consistent place names throughout the mission; new location means new name
 - **Execution modes**
   - Ground: delivery with handover, with remain, or forward staging point
   - Air: primarily handover only, minimum time on ground, abort if LZ not ready
@@ -170,9 +170,9 @@ This file mirrors the field manual hint content in plain Markdown format.
   - (3) Set jump order, jump type and jump frequency before boarding
   - (4) Jumpmaster coordinates sequence; nobody exits without call
 - **Jump execution**
-  - Vehicle reference values matter: do not jump too low, too slow or too fast
+  - Aircraft parameters matter: do not exit if altitude, airspeed, or groundspeed are outside limits
   - Systemsprung: open immediately
-  - HALO: open no later than 500m / 250m absolute last brake margin
+  - HALO: deploy no later than 500m AGL — 250m is the absolute minimum
   - HAHO: open a few seconds after exit and navigate from height
   - Keep spacing to avoid collisions with the man in front
 - **Flight, landing, rally**
@@ -197,11 +197,11 @@ This file mirrors the field manual hint content in plain Markdown format.
 - **Inside the aircraft**
   - Keep internal chatter low; if radio is unavoidable, use whisper level
   - Infantry scans for threats, muzzle flashes, obstacles and informs pilot immediately
-  - Nr. 2 can join the crew net when needed and reports when all elements are offloaded
+  - No. 2 can join the crew net when needed and reports when all elements are offloaded
 - **LZ and information flow**
   - Clarify **where**, **what**, **how** and **who** before launch
   - FAC marks primary and alternate LZ and passes 5-Liner / updates to crew
-  - Good LZ: early visible, enough space, as level as possible, with cover and few obstacles
+  - Good LZ: early visible, enough space, as flat as possible, with available cover and minimal obstacles
   - Pilot may abort at any time if the LZ or approach is unsafe
 - **Touchdown, fast-rope, lift-off**
   - After **Touchdown**, control of infantry returns to troop leader for dismount orders
