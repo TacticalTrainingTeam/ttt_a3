@@ -5,7 +5,7 @@ class CfgDigVehicles {
         animation = "moveplow";
         selection = "plow";
         plowRaised = 0;
-        plowLowered = 0.9;
+        plowLowered = 0.9;w
         distanceToTrench = 3;
     };
 
