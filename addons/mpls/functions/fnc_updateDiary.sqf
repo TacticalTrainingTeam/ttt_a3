@@ -50,6 +50,5 @@ private _content = format [
 ];
 
 if (ACE_Player diarySubjectExists QGVAR(loadout)) then {
-   ACE_Player removeDiaryRecord [QGVAR(loadout), GVAR(recordID)];
-   GVAR(recordID) = ACE_Player createDiaryRecord [QGVAR(loadout), [LLSTRING(loadout), _loadout], taskNull, ""];
+   ACE_Player setDiaryRecordText [[QGVAR(loadout), GVAR(recordID)], [LLSTRING(loadout), _loadout]];
 };

@@ -14,8 +14,8 @@ if (isServer) then {
 // Below this line only for player machines
 if (!hasInterface) exitWith {};
 
-private _subjectID = ACE_Player createDiarySubject [(QGVAR(loadout)), LLSTRING(loadout)];
-GVAR(recordID) = ACE_Player createDiaryRecord [(QGVAR(loadout)),  [LLSTRING(loadout), LLSTRING(noLoadoutSaved)], taskNull, ""];
+GVAR(subjectID) = ACE_Player createDiarySubject [(QGVAR(loadoutS)), LLSTRING(loadout)];
+GVAR(recordID) = ACE_Player createDiaryRecord [(QGVAR(loadoutR)),  [LLSTRING(loadout), LLSTRING(noLoadoutSaved)], taskNull, ""];
 
 // If the _first Loadout does not exist, create it
 [
