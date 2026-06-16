@@ -40,15 +40,26 @@ private _vestClass      = _vest select 0;
 private _backpackClass  = _backpack select 0;
 
 private _content = format [
-    "%1: %2\n%3: %4\n%5: %6\n%7: %8\n%9: %10\n%11: %12",
+    "%1: %2 <img image='%13'/>\n
+    %3: %4 <img image='%14'/>\n
+    %5: %6 <img image='%15'/>\n
+    %7: %8 <img image='%16'/>\n
+    %9: %10 <img image='%17'/>\n
+    %11: %12 <img image='%18'/>",
     LLSTRING(primary), ["CfgWeapons", _primaryClass] call FUNC(getDisplayName),
     LLSTRING(secondary), ["CfgWeapons", _secondaryClass] call FUNC(getDisplayName),
     LLSTRING(handgun), ["CfgWeapons", _handgunClass] call FUNC(getDisplayName),
-    LLSTRING(uniform), ["CfgVehicles", _uniformClass] call FUNC(getDisplayName),
-    LLSTRING(vest), ["CfgVehicles", _vestClass] call FUNC(getDisplayName),
-    LLSTRING(backpack), ["CfgVehicles", _backpackClass] call FUNC(getDisplayName)
+    LLSTRING(uniform), ["CfgWeapons", _uniformClass] call FUNC(getDisplayName),
+    LLSTRING(vest), ["CfgWeapons", _vestClass] call FUNC(getDisplayName),
+    LLSTRING(backpack), ["CfgVehicles", _backpackClass] call FUNC(getDisplayName),
+    ["CfgWeapons", _primaryClass] call FUNC(getDisplayImage),
+    ["CfgWeapons", _secondaryClass] call FUNC(getDisplayImage),
+    ["CfgWeapons", _handgunClass] call FUNC(getDisplayImage),
+    ["CfgWeapons", _uniformClass] call FUNC(getDisplayImage),
+    ["CfgWeapons", _vestClass] call FUNC(getDisplayImage),
+    ["CfgVehicles", _backpackClass] call FUNC(getDisplayImage)
 ];
 
 if (ACE_Player diarySubjectExists QGVAR(loadout)) then {
-   ACE_Player setDiaryRecordText [[QGVAR(loadout), GVAR(recordID)], [LLSTRING(loadout), _loadout]];
+   ACE_Player setDiaryRecordText [[QGVAR(loadout), GVAR(recordID)], [LLSTRING(loadout), _content]];
 };
