@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Mpls">
-        <Key ID="STR_ttt_Mpls_startLoadout">
-            <English>Equip starting Loadout</English>
-            <German>Start-Loadout ausrüsten</German>
+        <Key ID="STR_ttt_Mpls_loadout">
+            <English>Loadout</English>
+            <German>Ausrüstung</German>
         </Key>
         <Key ID="STR_ttt_Mpls_noLoadoutSaved">
             <English>No Loadout Saved</English>
             <German>Kein Loadout gespeichert</German>
         </Key>
-        <Key ID="STR_ttt_Mpls_loadout">
-            <English>Loadout</English>
-            <German>Ausrüstung</German>
+        <Key ID="STR_ttt_Mpls_startLoadout">
+            <English>Equip starting Loadout</English>
+            <German>Start-Loadout ausrüsten</German>
         </Key>
     </Package>
 </Project>
