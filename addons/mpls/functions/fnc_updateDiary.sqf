@@ -40,24 +40,19 @@ private _vestClass      = _vest select 0;
 private _backpackClass  = _backpack select 0;
 
 private _content = format [
-    "%1: %2 <img image='%13'/>\n
-    %3: %4 <img image='%14'/>\n
-    %5: %6 <img image='%15'/>\n
-    %7: %8 <img image='%16'/>\n
-    %9: %10 <img image='%17'/>\n
-    %11: %12 <img image='%18'/>",
-    LLSTRING(primary), ["CfgWeapons", _primaryClass] call EFUNC(common,getDisplayName),
-    LLSTRING(secondary), ["CfgWeapons", _secondaryClass] call EFUNC(common,getDisplayName),
-    LLSTRING(handgun), ["CfgWeapons", _handgunClass] call EFUNC(common,getDisplayName),
-    LLSTRING(uniform), ["CfgWeapons", _uniformClass] call EFUNC(common,getDisplayName),
-    LLSTRING(vest), ["CfgWeapons", _vestClass] call EFUNC(common,getDisplayName),
-    LLSTRING(backpack), ["CfgVehicles", _backpackClass] call EFUNC(common,getDisplayName),
-    ["CfgWeapons", _primaryClass] call EFUNC(common,getDisplayImage),
-    ["CfgWeapons", _secondaryClass] call EFUNC(common,getDisplayImage),
-    ["CfgWeapons", _handgunClass] call EFUNC(common,getDisplayImage),
-    ["CfgWeapons", _uniformClass] call EFUNC(common,getDisplayImage),
-    ["CfgWeapons", _vestClass] call EFUNC(common,getDisplayImage),
-    ["CfgVehicles", _backpackClass] call EFUNC(common,getDisplayImage)
+    "%1: %2 <img image='%3'/>\n
+    %4: %5 <img image='%6'/>\n
+    %7: %8 <img image='%9'/>\n
+    %10: %11 <img image='%12'/>\n
+    %13: %14 <img image='%15'/>\n
+    %16: %17 <img image='%18'/>",
+
+    LLSTRING(primary), ["CfgWeapons", _primaryClass] call EFUNC(common,getDisplayName), ["CfgWeapons", _primaryClass] call EFUNC(common,getDisplayImage),
+    LLSTRING(secondary), ["CfgWeapons", _secondaryClass] call EFUNC(common,getDisplayName), ["CfgWeapons", _secondaryClass] call EFUNC(common,getDisplayImage),
+    LLSTRING(handgun), ["CfgWeapons", _handgunClass] call EFUNC(common,getDisplayName), ["CfgWeapons", _handgunClass] call EFUNC(common,getDisplayImage),
+    LLSTRING(uniform), ["CfgWeapons", _uniformClass] call EFUNC(common,getDisplayName), ["CfgWeapons", _uniformClass] call EFUNC(common,getDisplayImage),
+    LLSTRING(vest), ["CfgWeapons", _vestClass] call EFUNC(common,getDisplayName), ["CfgWeapons", _vestClass] call EFUNC(common,getDisplayImage),
+    LLSTRING(backpack), ["CfgVehicles", _backpackClass] call EFUNC(common,getDisplayName), ["CfgVehicles", _backpackClass] call EFUNC(common,getDisplayImage)
 ];
 
 if (ACE_Player diarySubjectExists QGVAR(loadout)) then {
