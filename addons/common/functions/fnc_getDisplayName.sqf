@@ -1,16 +1,17 @@
 #include "..\script_component.hpp"
 /*
- * Authors: You
- * Description.
+ * Authors: Andx
+ * Gets the display name for a given class.
  *
  * Arguments:
- * 0: Argument (optional, default: value) <OBJECT>
+ * 0: Root <OBJECT>
+ * 1: Class <OBJECT>
  *
  * Return Value:
- * Return description <NONE>
+ * Display name <STRING>
  *
  * Example:
- * [params] call PREFIX_mpls_fnc_getDisplayName
+ * [params] call ttt_mpls_fnc_getDisplayName
  *
  * Public: No
  */

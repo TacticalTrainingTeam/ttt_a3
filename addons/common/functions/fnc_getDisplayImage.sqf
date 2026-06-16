@@ -1,16 +1,17 @@
 #include "..\script_component.hpp"
 /*
- * Authors: 
- * Description.
+ * Authors: Andx
+ * Gets a usable display image for a given class.
  *
  * Arguments:
- * 0: Argument (optional, default: value) <OBJECT>
+ * 0: Class <OBJECT>
+ * 1: Root <OBJECT>
  *
  * Return Value:
- * Return description <NONE>
+ * Display image path <STRING>
  *
  * Example:
- * [params] call PREFIX_mpls_fnc_getDisplayImage
+ * [params] call ttt_mpls_fnc_getDisplayImage
  *
  * Public: No
  */
@@ -22,8 +23,9 @@ private _cfg = configFile >> _root >> _class;
 if (!isClass _cfg) exitWith {""};
 
 private _fields = ["picture", "icon", "pictureSmall"];
+private _p = "";
 {
-    private _p = getText (_cfg >> _x);
+    _p = getText (_cfg >> _x);
     if (_p != "") exitWith {_p};
 } forEach _fields;
 

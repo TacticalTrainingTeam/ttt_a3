@@ -13,5 +13,29 @@
             <English>Equip starting Loadout</English>
             <German>Start-Loadout ausrüsten</German>
         </Key>
+        <Key ID="STR_ttt_Mpls_primary">
+            <English>Primary Weapon</English>
+            <German>Primärwaffe</German>
+        </Key>
+        <Key ID="STR_ttt_Mpls_secondary">
+            <English>Secondary Weapon</English>
+            <German>Sekundärwaffe</German>
+        </Key>
+        <Key ID="STR_ttt_Mpls_handgun">
+            <English>Handgun</English>
+            <German>Handwaffe</German>
+        </Key>
+        <Key ID="STR_ttt_Mpls_uniform">
+            <English>Uniform</English>
+            <German>Uniform</German>
+        </Key>
+        <Key ID="STR_ttt_Mpls_vest">
+            <English>Vest</English>
+            <German>Weste</German>
+        </Key>
+        <Key ID="STR_ttt_Mpls_backpack">
+            <English>Backpack</English>
+            <German>Rucksack</German>
+        </Key>
     </Package>
 </Project>
