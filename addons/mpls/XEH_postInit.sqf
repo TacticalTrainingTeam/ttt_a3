@@ -14,8 +14,8 @@ if (isServer) then {
 // Below this line only for player machines
 if (!hasInterface) exitWith {};
 
-GVAR(subjectID) = ACE_Player createDiarySubject [(QGVAR(loadoutS)), LLSTRING(loadout)];
-GVAR(recordID) = ACE_Player createDiaryRecord [(QGVAR(loadoutR)),  [LLSTRING(loadout), LLSTRING(noLoadoutSaved)], taskNull, ""];
+GVAR(subjectID) = ACE_Player createDiarySubject [QGVAR(loadoutS), LLSTRING(loadout)];
+GVAR(recordID) = ACE_Player createDiaryRecord [QGVAR(loadoutS),  [LLSTRING(loadout), LLSTRING(noLoadoutSaved)], taskNull, ""];
 
 // If the _first Loadout does not exist, create it
 [
@@ -29,6 +29,7 @@ GVAR(recordID) = ACE_Player createDiaryRecord [(QGVAR(loadoutR)),  [LLSTRING(loa
         if (GVAR(loadoutNamespace) getVariable [([getPlayerUID _player, "_slot"] joinString ""), ""] isEqualTo "") then {
             GVAR(loadoutNamespace) setVariable [[getPlayerUID _player, "_slot"] joinString "", roleDescription _player]; //roleDescription is unique, alternative would be typeOf _player
         };
+        [_player] call FUNC(saveLoadout);
     },
     [ace_player],
     TIME_SAVE_FIRST
