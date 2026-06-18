@@ -3,8 +3,6 @@ PREP(callGlobalFnc);
 PREP(callReinforcements);
 PREP(crateFiller);
 PREP(doFlakFire);
-PREP(getDisplayImage);
-PREP(getDisplayName);
 PREP(join);
 PREP(noApiFunction);
 PREP(setAISkill);
