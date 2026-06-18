@@ -41,7 +41,7 @@ private _uniformClass   = _uniform select 0;
 private _vestClass      = _vest select 0;
 private _backpackClass  = _backpack select 0;
 
-private _content = format ["Saved Equipment<br />
+private _content = format ["
 %1: %2 <br />
 <img image='%3' width='128' height='64'/> <br />
 %4: %5 <br />
@@ -53,17 +53,17 @@ private _content = format ["Saved Equipment<br />
 %13: %14 <br />
 <img image='%15' width='128' height='128'/> <br />
 %16: %17 <br />
-<img image='%18' width='128' height='128'/>",
+<img image='%18' width='128' height='128'/>
+",
 
 LLSTRING(primary), getText (configFile >> "CfgWeapons" >> _primaryClass >> "displayName"), getText (configFile >> "CfgWeapons" >> _primaryClass >> "picture"),
 LLSTRING(secondary), getText (configFile >> "CfgWeapons" >> _secondaryClass >> "displayName"), getText (configFile >> "CfgWeapons" >> _secondaryClass >> "picture"),
 LLSTRING(handgun), getText (configFile >> "CfgWeapons" >> _handgunClass >> "displayName"), getText (configFile >> "CfgWeapons" >> _handgunClass >> "picture"),
-
 LLSTRING(uniform), getText (configFile >> "CfgWeapons" >> _uniformClass >> "displayName"), getText (configFile >> "CfgWeapons" >> _uniformClass >> "picture"),
 LLSTRING(vest), getText (configFile >> "CfgWeapons" >> _vestClass >> "displayName"), getText (configFile >> "CfgWeapons" >> _vestClass >> "picture"),
 LLSTRING(backpack), getText (configFile >> "CfgVehicles" >> _backpackClass >> "displayName"), getText (configFile >> "CfgVehicles" >> _backpackClass >> "picture")
 ];
 
-//if (ACE_Player diarySubjectExists QGVAR(loadoutS)) then {
-   ACE_Player setDiaryRecordText [[QGVAR(loadoutS), _diaryID], [LLSTRING(loadout), _content]];
-//};
+if (ACE_Player diarySubjectExists QGVAR(loadoutS)) then {
+   ACE_Player setDiaryRecordText [[QGVAR(loadoutS), _diaryID], [LLSTRING(savedLoadout), _content, "a3\ui_f\data\igui\cfg\actions\gear_ca.paa"]];
+};

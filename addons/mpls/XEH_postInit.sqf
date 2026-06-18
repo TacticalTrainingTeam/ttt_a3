@@ -15,7 +15,7 @@ if (isServer) then {
 if (!hasInterface) exitWith {};
 
 GVAR(subjectID) = ACE_Player createDiarySubject [QGVAR(loadoutS), LLSTRING(loadout)];
-GVAR(recordID) = ACE_Player createDiaryRecord [QGVAR(loadoutS),  [LLSTRING(loadout), LLSTRING(noLoadoutSaved)], taskNull, ""];
+GVAR(recordID) = ACE_Player createDiaryRecord [QGVAR(loadoutS),  [LLSTRING(savedloadout), LLSTRING(noLoadoutSaved), "a3\ui_f\data\igui\cfg\actions\gear_ca.paa"], taskNull, "NONE"];
 
 // If the _first Loadout does not exist, create it
 [

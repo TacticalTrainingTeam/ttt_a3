@@ -5,13 +5,17 @@
             <English>Loadout</English>
             <German>Ausrüstung</German>
         </Key>
+        <Key ID="STR_ttt_Mpls_savedLoadout">
+            <English>Saved Loadout</English>
+            <German>Gespeicherte Ausrüstung</German>
+        </Key>
         <Key ID="STR_ttt_Mpls_noLoadoutSaved">
             <English>No Loadout Saved</English>
-            <German>Kein Loadout gespeichert</German>
+            <German>Keine Ausrüstung gespeichert</German>
         </Key>
         <Key ID="STR_ttt_Mpls_startLoadout">
             <English>Equip starting Loadout</English>
-            <German>Start-Loadout ausrüsten</German>
+            <German>Start-Ausrüstung ausrüsten</German>
         </Key>
         <Key ID="STR_ttt_Mpls_primary">
             <English>Primary Weapon</English>
