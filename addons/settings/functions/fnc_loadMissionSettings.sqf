@@ -26,9 +26,7 @@ if (_medSys_index in [0, 1, 2]) then {
     _medicalSystem = ["standard", "einfach", "training"] select _medSys_index;
 } else {
     if ( _medSys_index == 99 ) then {
-        _medicalSystem = getText (missionConfigFile >> "medical_system") // backwards compatibility
-    } else {
-        INFO_1("Unbekanntes ACE Medical Preset mit Index ""%1"" gefunden.",_medSys_index);
+        INFO_1("Unbekanntes ACE Medical Preset mit Index ""%1"" gefunden. Falle auf Standard zurück",_medSys_index);
     };
 };
 
