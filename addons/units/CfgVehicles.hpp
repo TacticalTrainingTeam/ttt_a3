@@ -44,7 +44,7 @@ class CfgVehicles {
         scopeCurator = 0;
         displayName = "Basis";
         faction = QGVAR(faction_flecktarn);
-        editorSubcategory = "EdSubcat_Personnel";
+        editorSubcategory = QGVAR(EdSubcat_Infantry_plain);
     };
 
     class GVAR(base_flecktarn) : GVAR(base) {
@@ -174,6 +174,7 @@ class CfgVehicles {
 
         uniformClass = "ttt_Uniform_green_BW_Flecktarn";
         vehicleClass = QGVAR(class_green);
+        editorSubcategory = QGVAR(EdSubcat_Infantry_green);
 
         weapons[] = { "arifle_SPAR_01_blk_ERCO_Pointer_F", "hgun_P07_khk_F", "Throw", "Put" };
         respawnWeapons[] = { "arifle_SPAR_01_blk_ERCO_Pointer_F", "hgun_P07_khk_F", "Throw", "Put" };
