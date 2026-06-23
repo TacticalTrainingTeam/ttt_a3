@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5923.999,14.160242,4821.6763};
-		dir[]={-0.49633461,-0.46795693,-0.73121321};
-		up[]={-0.26281473,0.88375044,-0.38718587};
-		aside[]={-0.82739556,-2.339948e-08,0.56162256};
+		pos[]={5929.1533,8.3468857,4802.0615};
+		dir[]={-0.89660501,-0.41591227,0.15250318};
+		up[]={-0.41005099,0.90938383,0.06974759};
+		aside[]={0.16769201,4.2218016e-07,0.98590976};
 	};
 };
 binarizationWanted=0;
@@ -282,12 +282,13 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5920.1948,5.0014391,4808.6826};
-						angles[]={0,3.2006252,0};
+						angles[]={0,3.2006197,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
+						init="[this] call ttt_loadouts_fnc_nato_marksman;";
 						name="zeus_01";
 						isPlayer=1;
 						isPlayable=1;
@@ -339,7 +340,20 @@ class Mission
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute2
+						{
+							property="acre_sys_radio_edenSetup";
+							expression="_this setVariable [""acre_sys_radio_setup"", _value, true]";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="[[""ACRE_PRC343"",[1,1]],[""ACRE_PRC152"",1],[""ACRE_PRC117F"",1]]";
+								};
+							};
+						};
+						nAttributes=3;
 					};
 				};
 			};
