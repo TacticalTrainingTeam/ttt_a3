@@ -1,5 +1,3 @@
-#include "script_component.hpp"
-
 class CfgVehicles {
 
     //Reference to the base class, which is defined in the A3\Characters_F\BLUFOR\B_Soldier_F.p3d model.
@@ -37,4 +35,177 @@ class CfgVehicles {
 	// 	linkedItems[] = { "V_PlateCarrier1_rgr", "H_HelmetB", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "NVGoggles" };		// Which items the character has.
 	// 	respawnLinkedItems[] = { "V_PlateCarrier1_rgr", "H_HelmetB", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "NVGoggles" };	// Which items the character respawns with.
 	// };
+
+    class B_Soldier_F; // base class
+
+    class GVAR(base) : B_Soldier_F {
+        author = "Andx";
+        scope = 0;
+        scopeCurator = 0;
+        displayName = "Basis";
+        faction = QGVAR(faction_flecktarn);
+        editorSubcategory = "EdSubcat_Personnel";
+    };
+
+    class GVAR(base_flecktarn) : GVAR(base) {
+        author = "Andx";
+        scope = 0;
+        scopeCurator = 0;
+        displayName = "Basis Flecktarn";
+        faction = QGVAR(faction_flecktarn);
+        uniformClass = "ttt_Uniform_plain_BW_Flecktarn";
+    };
+
+    // class GVAR(base_desert) : GVAR(base) {
+    //     author = "Andx";
+    //     scope = 0;
+    //     scopeCurator = 0;
+    //     displayName = "Basis Tropentarn";
+    //     faction = QGVAR(faction_desert);
+    //     uniformClass = "ttt_Uniform_plain_US_Desert";
+    // };
+
+    class GVAR(flecktarn_survivor): GVAR(base_flecktarn) {
+        author = "Andx";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Überlebender";
+        faction = QGVAR(faction_flecktarn);
+        vehicleClass = QGVAR(class_plain);
+
+        items[] = {};
+        respawnItems[] = {};
+
+        weapons[] = {};
+        respawnWeapons[] = {};
+
+        magazines[] = {};
+        respawnMagazines[] = {};
+
+        linkedItems[] = {};
+        respawnLinkedItems[] = {};
+    };
+
+    class GVAR(flecktarn_rifleman): GVAR(flecktarn_survivor) {
+        author = "Andx";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Schütze";
+
+        weapons[] = { "arifle_SPAR_01_blk_ERCO_Pointer_F", "hgun_P07_khk_F", "Throw", "Put" };
+        respawnWeapons[] = { "arifle_SPAR_01_blk_ERCO_Pointer_F", "hgun_P07_khk_F", "Throw", "Put" };
+
+        magazines[] = {
+            MAG_9("30Rnd_556x45_Stanag_red"),
+            MAG_2("16Rnd_9x21_Mag"),
+            MAG_2("SmokeShell"),
+            "SmokeShellGreen",
+            MAG_2("HandGrenade")
+        };
+        respawnMagazines[] = {
+            MAG_9("30Rnd_556x45_Stanag_red"),
+            MAG_2("16Rnd_9x21_Mag"),
+            MAG_2("SmokeShell"),
+            "SmokeShellGreen",
+            MAG_2("HandGrenade")
+        };
+
+        linkedItems[] = {
+            "ttt_Vest_Heavy_Green_US_Desert",
+            "ttt_Beret_Green",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch"
+        };
+        respawnLinkedItems[] = {
+            "ttt_Vest_Heavy_Green_US_Desert",
+            "ttt_Beret_Green",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch"
+        };
+    };
+
+    class GVAR(flecktarn_grenadier): GVAR(flecktarn_survivor) {
+        author = "Andx";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Grenadier";
+
+        weapons[] = { "arifle_SPAR_01_GL_blk_ERCO_Pointer_F", "hgun_P07_khk_F", "Throw", "Put" };
+        respawnWeapons[] = { "arifle_SPAR_01_GL_blk_ERCO_Pointer_F", "hgun_P07_khk_F", "Throw", "Put" };
+
+        magazines[] = {
+            MAG_9("30Rnd_556x45_Stanag_red"),
+            MAG_2("16Rnd_9x21_Mag"),
+            MAG_2("SmokeShell"),
+            "SmokeShellGreen",
+            MAG_2("HandGrenade")
+        };
+        respawnMagazines[] = {
+            MAG_9("30Rnd_556x45_Stanag_red"),
+            MAG_2("16Rnd_9x21_Mag"),
+            MAG_2("SmokeShell"),
+            "SmokeShellGreen",
+            MAG_2("HandGrenade")
+        };
+
+        linkedItems[] = {
+            "ttt_Vest_Heavy_Green_US_Desert",
+            "ttt_Beret_Green",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch"
+        };
+        respawnLinkedItems[] = {
+            "ttt_Vest_Heavy_Green_US_Desert",
+            "ttt_Beret_Green",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch"
+        };
+    };
+
+    class GVAR(flecktarn_rifleman_green): GVAR(flecktarn_rifleman) {
+        author = "Andx";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Schütze (Grün)";
+
+        uniformClass = "ttt_Uniform_green_BW_Flecktarn";
+        vehicleClass = QGVAR(class_green);
+
+        weapons[] = { "arifle_SPAR_01_blk_ERCO_Pointer_F", "hgun_P07_khk_F", "Throw", "Put" };
+        respawnWeapons[] = { "arifle_SPAR_01_blk_ERCO_Pointer_F", "hgun_P07_khk_F", "Throw", "Put" };
+
+        magazines[] = {
+            MAG_9("30Rnd_556x45_Stanag_red"),
+            MAG_2("16Rnd_9x21_Mag"),
+            MAG_2("SmokeShell"),
+            "SmokeShellGreen",
+            MAG_2("HandGrenade")
+        };
+        respawnMagazines[] = {
+            MAG_9("30Rnd_556x45_Stanag_red"),
+            MAG_2("16Rnd_9x21_Mag"),
+            MAG_2("SmokeShell"),
+            "SmokeShellGreen",
+            MAG_2("HandGrenade")
+        };
+
+        linkedItems[] = {
+            "ttt_Vest_Heavy_Green_US_Desert",
+            "ttt_Beret_Green",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch"
+        };
+        respawnLinkedItems[] = {
+            "ttt_Vest_Heavy_Green_US_Desert",
+            "ttt_Beret_Green",
+            "ItemMap",
+            "ItemCompass",
+            "ItemWatch"
+        };
+    };
 };
