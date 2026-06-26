@@ -14,5 +14,6 @@ class CfgPatches {
     };
 };
 
+#include "CfgCommands.hpp"
 #include "CfgHintCategories.hpp"
 #include "CfgHints.hpp"
