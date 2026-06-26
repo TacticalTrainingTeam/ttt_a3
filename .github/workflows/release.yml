@@ -7,9 +7,15 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout the source code
-        uses: actions/checkout@v7
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
 
       - name: Setup HEMTT
         uses: arma-actions/hemtt@v1
@@ -17,25 +23,26 @@ jobs:
       - name: Build TTT Mod
         run: hemtt release
 
+      - name: Install Python dependencies (none required)
+        run: pip install --upgrade pip
+
+      - name: Create minimal version (Python)
+        run: python tools/create_minimal.py
+
       - name: Upload full version to release
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: releases/ttt-latest.zip
-          asset_name: ttt-$tag.zip
+          asset_name: ttt-${{ github.ref_name }}.zip
           tag: ${{ github.ref }}
           overwrite: true
-
-      - name: Create minimal version
-        run: |
-          chmod +x tools/create_minimal.sh
-          tools/create_minimal.sh
 
       - name: Upload minimal version to release
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: releases/ttt-minimal.zip
-          asset_name: ttt-minimal-$tag.zip
+          asset_name: ttt-minimal-${{ github.ref_name }}.zip
           tag: ${{ github.ref }}
           overwrite: true
