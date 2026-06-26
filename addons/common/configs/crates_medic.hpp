@@ -39,8 +39,6 @@ class GVAR(sanb_crate): GVAR(san_crate_base) {
         QPATHTOF(data\AmmoBox_signsB_CA.paa),
         "A3\Weapons_F\Ammoboxes\data\AmmoBox_CO.paa"
     };
-
-    class TransportItems {};
 };
 
 class GVAR(sanc_crate): GVAR(san_crate_base) {

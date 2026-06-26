@@ -6,9 +6,9 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"cba_settings"};
+        requiredAddons[] = {"ttt_main","ace_common"};
         author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+        authors[] = {"BlauBär", "Andx"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };

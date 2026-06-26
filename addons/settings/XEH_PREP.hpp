@@ -1,2 +1,2 @@
 PREP(loadDefaultSettings);
-PREP(loadMedicalSettings);
+PREP(loadMissionSettings);

@@ -1,29 +1,39 @@
 # Settings
 
-Lädt CBA-Einstellungen für verschiedene Mods und ermöglicht das Laden unterschiedlicher Missionsprofile basierend auf einem Missionsparameter.
+Das Settings-Addon lädt beim Missionsstart automatisch die richtigen CBA-Einstellungen und erlaubt im Lobby-Bildschirm die Auswahl eines von drei Medic-Systemen: Standard, Einfach, Training.
 
-## Mission Parameter
+Alle Einstellungen, welche nicht über das Addon gesetzt werden, können von jedem Spieler individuell eingestellt werden.
 
-Beim Start einer Mission steht der Parameter **TTT Settings Profile** im Missionsparameter-Menü zur Verfügung. Dieser Parameter hat drei Optionen:
+## Medic-Systeme
 
-- **Profile A** (Standard): Lädt Einstellungen aus `cba_settings_a.inc` - KAM Standard Settings
-- **Profile B**: Lädt Einstellungen aus `cba_settings_b.inc` - KAM Einfach (schnellere Behandlungszeiten, längere Lifetime)
-- **Profile C**: Lädt Einstellungen aus `cba_settings_c.inc` - Training (KI Bewusstlosigkeit aktiviert)
+- **Standard** die regulären Einstellungen, werden automatisch geladen wenn nichts anderes spezifiziert wurde oder wenn ein Fehler aufgetreten ist.
+- **Einfach** längere Überlebenszeit und schnellere Behandlungen für spezielle Events.
+- **Training** mit KI welche bewusstlos werden kann, um daran zu üben.
 
-Die Missionsprofile überschreiben die Default-Settings und ermöglichen es Missionsbauern, angepasste Einstellungen für verschiedene Szenarien zu nutzen.
+### Für Missionsbauer
 
-Damit der Parameter genutzt werden kann muss er in der description.ext der Mission definiert werden:
+Wenn ihr die Auswahl der Medic-System in eurer Mission aktivieren wollt, müsst ihr folgendes in der `description.ext` ergänzen:
 
 ```c++
 class Params {
-    class ttt_main_medicalSettings {
-        title = "TTT Medic Settings";
+    class medical_system {
+        title = "Sanitäts System";
         values[] = {0, 1, 2};
-        texts[] = {"KAM Standard", "KAM Einfach", "KAM Training"};
+        texts[] = {"Standard", "Einfach", "Training"};
         default = 0;
     };
 };
 ```
+
+Danach habt ihr im Lobbybildschirm oben rechs einen Button um das System zu ändern.
+
+### Für Zeuse
+
+Wenn ihr `adminVoted` oder `adminLogged` seid, könnt ihr per Chat-Befehl das Medic-System ändern. Dies kann z.B. genutzt werden wenn die Einstellung in der Lobby vergessen wurde. Dazu müsst ihr folgendes in den Chat eingeben:
+
+- `#med-sys 0` für das Standard-System
+- `#med-sys 1` für das einfache System
+- `#med-sys 2` für das Trainings-System
 
 ## Maintainer
 

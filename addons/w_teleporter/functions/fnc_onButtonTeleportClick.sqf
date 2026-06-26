@@ -14,7 +14,7 @@ params [""];
 if (isNull GVAR(target)) exitWith {};
 closeDialog 0;
 
-//LOG_S_2("%1 teleportierte sich zu %2.",name ACE_player,name GVAR(target));
+INFO_2("%1 teleportierte sich zu %2.",name ACE_player,name GVAR(target));
 
 switch GVAR(type) do {
     case "nearby": {
