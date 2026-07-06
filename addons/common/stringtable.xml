@@ -113,11 +113,11 @@
             <English>TTT Medical Crate (VBT)</English>
             <German>TTT Sanitätskiste (VBT)</German>
         </Key>
-        <Key ID="STR_ttt_common_uav_link_lost">
+        <Key ID="STR_ttt_Common_uav_link_lost">
             <English>UAV link lost</English>
             <German>UAV Verbindung verloren</German>
         </Key>
-        <Key ID="STR_ttt_common_uav_link_established">
+        <Key ID="STR_ttt_Common_uav_link_established">
             <English>UAV link established</English>
             <German>UAV Verbindung hergestellt</German>
         </Key>
