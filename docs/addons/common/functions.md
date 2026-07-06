@@ -215,16 +215,16 @@ Keiner
 [_x, "Veteran"] call ttt_common_fnc_setAISkillLevel;
 ```
 
-### `fnc_uavControl.sqf`
+## `fnc_uavControl.sqf`
 
-### Overview
+### Überblick
 
 Diese Funktion erzwingt einen maximalen Kontrollradius für UAV‑Operatoren und simuliert signalabhängige Qualitätsverschlechterung durch Post‑Processing‑Effekte.
 Die Logik läuft effizient über CBA Per‑Frame Handler (PFH).
 
 ### Beschreibung
 
-Startet einen CBA‑Per‑Frame‑Handler, der:
+Der Funktionsaufruf startet einen CBA‑Per‑Frame‑Handler, der:
 
 - die Entfernung zwischen UAV und Operator überwacht
 - die UAV‑Steuerung trennt, wenn der Operator zu weit entfernt ist
@@ -255,7 +255,7 @@ private _controller = player;
 private _radius = 800;
 
 // Start the system
-private _pfhId = [_uav, _controller, _radius] call compile preprocessFileLineNumbers "fn_uavControlWithNoise.sqf";
+private _pfhId = [_uav, _controller, _radius] call ttt_common_fnc_addUAVControlPFh;
 ```
 
 ## Beispiel: Manuelles entfernen des PFH
@@ -268,17 +268,16 @@ private _pfhId = [_uav, _controller, _radius] call compile preprocessFileLineNum
 
 Die Funktion entfernt sich selbst, wenn:
 
-das UAV zerstört wird
-
-der Operator stirbt
+- das UAV zerstört wird, oder
+- der Operator stirbt
 
 Es ist keine zusätzliche Logik nötig.
 
 ## PFH über CBA Class Event Handler hinzufügen
 
-Wenn du möchtest, dass der PFH automatisch gestartet wird, sobald ein UAV einer bestimmten Klasse gespawnt wird, kannst du CBA_fnc_addClassEventHandler verwenden.
+Wenn du möchtest, dass der PFH automatisch gestartet wird, sobald ein UAV einer bestimmten Klasse gespawnt wird, kannst du `CBA_fnc_addClassEventHandler` verwenden.
 
-### Example: Add PFH to all Darter UAVs
+### Beispiel: PFH an allen Darter ausführen
 
 ```sqf
 [
