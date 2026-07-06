@@ -53,7 +53,7 @@ private _pfhId = [
                 _controller connectTerminalToUAV objNull;
                 //hintSilent format ["UAV link lost! (%1m)", round _dist];
                 [
-                    ["UAV link lost! (%1m)", round _dist]
+                    [LLSTRING(uav_link_lost), round _dist]
                 ] call ace_common_fnc_displayTextStructured;
             };
         } else {
@@ -61,7 +61,7 @@ private _pfhId = [
                 _controller connectTerminalToUAV _uav;
                 //hintSilent format ["UAV link established (%1m)", round _dist];
                 [
-                    ["UAV link established (%1m)", round _dist]
+                    [LLSTRING(uav_link_established)]
                 ] call ace_common_fnc_displayTextStructured;
             };
         };
