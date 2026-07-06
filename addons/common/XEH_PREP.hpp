@@ -1,4 +1,5 @@
 PREP(addIntel);
+PREP(addUAVControlPfh);
 PREP(callGlobalFnc);
 PREP(callReinforcements);
 PREP(crateFiller);

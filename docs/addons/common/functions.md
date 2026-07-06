@@ -215,6 +215,107 @@ Keiner
 [_x, "Veteran"] call ttt_common_fnc_setAISkillLevel;
 ```
 
+### `fnc_uavControl.sqf`
+
+### Overview
+
+Diese Funktion erzwingt einen maximalen Kontrollradius für UAV‑Operatoren und simuliert signalabhängige Qualitätsverschlechterung durch Post‑Processing‑Effekte.
+Die Logik läuft effizient über CBA Per‑Frame Handler (PFH).
+
+### Beschreibung
+
+Startet einen CBA‑Per‑Frame‑Handler, der:
+
+- die Entfernung zwischen UAV und Operator überwacht
+- die UAV‑Steuerung trennt, wenn der Operator zu weit entfernt ist
+- die Verbindung wiederherstellt, wenn der Operator zurück im Radius ist
+- die Bildqualität abhängig von der Entfernung verschlechtert
+- sich automatisch entfernt, wenn UAV oder Operator sterben
+- die PFH‑ID zurückgibt, um manuelle Entfernung zu ermöglichen
+
+## Parameter
+
+| Name        | Type    | Description |
+|-------------|---------|-------------|
+| `_uav`      | OBJECT  | Das UAV‑Fahrzeug |
+| `_controller` | OBJECT | Der UAV‑Operator |
+| `_radius`   | NUMBER  | Maximaler Kontrollradius in Metern |
+
+## Return Value
+
+**PFH ID (NUMBER)**  
+Die ID des Per‑Frame‑Handlers, erzeugt durch CBA_fnc_addPerFrameHandler.
+Kann genutzt werden, um den PFH manuell zu entfernen.
+
+## Beispiel: Funktionsaufruf
+
+```sqf
+private _uav = UAV_1;
+private _controller = player;
+private _radius = 800;
+
+// Start the system
+private _pfhId = [_uav, _controller, _radius] call compile preprocessFileLineNumbers "fn_uavControlWithNoise.sqf";
+```
+
+## Beispiel: Manuelles entfernen des PFH
+
+```sqf
+[_pfhId] call CBA_fnc_removePerFrameHandler;
+```
+
+## Automatische Bereinigung
+
+Die Funktion entfernt sich selbst, wenn:
+
+das UAV zerstört wird
+
+der Operator stirbt
+
+Es ist keine zusätzliche Logik nötig.
+
+## PFH über CBA Class Event Handler hinzufügen
+
+Wenn du möchtest, dass der PFH automatisch gestartet wird, sobald ein UAV einer bestimmten Klasse gespawnt wird, kannst du CBA_fnc_addClassEventHandler verwenden.
+
+### Example: Add PFH to all Darter UAVs
+
+```sqf
+[
+    "B_UAV_01_F",                   // UAV class
+    "init",                         // Event type
+    {
+        params ["_uav"];
+
+        private _controller = player;   // Or detect dynamically
+        private _radius = 800;
+
+        // Start PFH for this UAV
+        private _pfhId = [_uav, _controller, _radius] call compile preprocessFileLineNumbers "fn_uavControlWithNoise.sqf";
+
+        // Store PFH ID on the UAV for later cleanup
+        _uav setVariable ["ttt_uav_pfhId", _pfhId];
+    }
+] call CBA_fnc_addClassEventHandler;
+```
+
+## Optional: PFH entfernen, wenn UAV gelöscht wird
+
+```sqf
+[
+    "B_UAV_01_F",
+    "Deleted",
+    {
+        params ["_uav"];
+
+        private _pfhId = _uav getVariable ["ttt_uav_pfhId", -1];
+        if (_pfhId >= 0) then {
+            [_pfhId] call CBA_fnc_removePerFrameHandler;
+        };
+    }
+] call CBA_fnc_addClassEventHandler;
+```
+
 ## Maintainer
 
 - Andx
