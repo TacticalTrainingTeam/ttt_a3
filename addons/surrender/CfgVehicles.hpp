@@ -6,9 +6,7 @@ class CfgVehicles {
             class Slider;
         };
 
-        class ModuleDescription {
-            class AnyBrain;
-        };
+        class ModuleDescription {};
     };
 
     class GVAR(module): Module_F {

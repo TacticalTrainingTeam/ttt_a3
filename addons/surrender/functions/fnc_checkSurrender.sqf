@@ -37,8 +37,8 @@ private _pfhID = [
         params ["_args", "_pfhId"];
         _args params ["_enemySide", "_friendlySide", "_chance", "_ratio", "_logic"];
 
-        private _enemies = Units [_enemySide];
-        private _friendlies = Units [_friendlySide];
+        private _enemies = units [_enemySide];
+        private _friendlies = units [_friendlySide];
 
         private _enemiesInArea = [];
         private _friendliesInArea = [];
