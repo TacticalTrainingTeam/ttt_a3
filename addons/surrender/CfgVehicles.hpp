@@ -11,23 +11,38 @@ class CfgVehicles {
         };
     };
 
-    class AND_Module_Surrender : Module_F {
+    class GVAR(module) : Module_F {
         scope = 2;
         displayName = "AI Surrender When Outnumbered";
-        category = "AND_Modules";
-        function = "FUNC(checkSurrender)";
+        category = QGVAR(Modules);
+        function = QFUNC(checkSurrender);
         functionPriority = 1;
         isGlobal = 1;
-        isTriggerActivated = 0;
+        isTriggerActivated = 1;
 
         class Attributes {
             class EnemySides {
                 displayName = "Enemy Sides";
                 tooltip = "Which sides should be considered enemy units.";
                 control = "Combo";
-                property = "AND_EnemySides";
+                property = QGVAR(EnemySides);
                 typeName = "STRING";
                 defaultValue = "OPF_F";
+
+                class Values {
+                    class BLUFOR {name = "BLUFOR"; value = "BLU_F";};
+                    class OPFOR {name = "OPFOR"; value = "OPF_F";};
+                    class INDEP  {name = "INDEP"; value = "IND_F";};
+                };
+            };
+
+            class FriendlySides {
+                displayName = "Friendly Sides";
+                tooltip = "Which sides should be considered friendly units.";
+                control = "Combo";
+                property = QGVAR(FriendlySides);
+                typeName = "STRING";
+                defaultValue = "BLU_F";
 
                 class Values {
                     class BLUFOR {name = "BLUFOR"; value = "BLU_F";};
@@ -39,8 +54,8 @@ class CfgVehicles {
             class SurrenderChance {
                 displayName = "Chance to Surrender";
                 tooltip = "Probability (0-1) that an outnumbered unit will surrender.";
-                control = "Edit";
-                property = "AND_SurrenderChance";
+                control = "Slider";
+                property = QGVAR(SurrenderChance);
                 typeName = "NUMBER";
                 defaultValue = "0.5";
             };
@@ -48,8 +63,8 @@ class CfgVehicles {
             class OutnumberRatio {
                 displayName = "Outnumbered Ratio";
                 tooltip = "If enemies ≥ ratio x friendlies, unit may surrender.";
-                control = "Edit";
-                property = "AND_OutnumberRatio";
+                control = "Slider";
+                property = QGVAR(OutnumberRatio);
                 typeName = "NUMBER";
                 defaultValue = "2.0";
             };

@@ -1,15 +1,17 @@
+#include "..\script_component.hpp"
 /*
-    AND_fnc_surrenderCheck
-    Called by module on mission start.
+    ttt_surrender_fnc_surrenderCheck
+    Called by module on mission start AND when placed by Zeus.
 */
 
-params ["_logic"];
+params ["_logic", "_activated"];
 
 private _enemySideClass = _logic getVariable [QGVAR(EnemySides), "OPF_F"];
+private _friendlySideClass = _logic getVariable [QGVAR(FriendlySides), "BLU_F"];
 private _chance = _logic getVariable [QGVAR(SurrenderChance), 0.5];
 private _ratio = _logic getVariable [QGVAR(OutnumberRatio), 2.0];
 
-// Convert side class to actual side
+//Convert side class to actual side
 private _sideMap = [
     ["BLU_F", west],
     ["OPF_F", east],
@@ -23,53 +25,57 @@ private _enemySide = east;
     };
 } forEach _sideMap;
 
-// Register CBA PFH
-[
+private _friendlySide = west;
+{
+    if (_x select 0 == _friendlySideClass) exitWith {
+        _friendlySide = _x select 1;
+    };
+} forEach _sideMap;
+
+private _pfhID = [
     {
         params ["_args", "_pfhId"];
-        _args params ["_enemySide", "_chance", "_ratio"];
+        _args params ["_enemySide", "_friendlySide", "_chance", "_ratio", "_logic"];
 
-        private _units = allUnits select {
-            side _x == _enemySide &&
-            alive _x &&
-            !(_x getVariable ["AND_Surrendered", false])
-        };
+        private _enemies = Units [_enemySide];
+        private _friendlies = Units [_friendlySide];
+
+        private _enemiesInArea = [];
+        private _friendliesInArea = [];
+
+        private _area = _logic getVariable ["size", [50,50,0,true]];
+
+        {
+            if (_x inArea _area) then {
+                _enemiesInArea = _enemiesInArea + [_x];
+            };
+        } forEach _enemies;
+
+        {
+            if (_x inArea _area) then {
+                _friendliesInArea = _friendliesInArea + [_x];
+            };
+        } forEach _friendlies;
+
+        private _friendlyCount = count _friendliesInArea;
+        private _enemyCount = count _enemiesInArea;
 
         {
             private _unit = _x;
-            private _pos = getPosATL _unit;
-
-            private _friendlies = allUnits select {
-                side _x != _enemySide &&
-                alive _x &&
-                _x distance _pos < 50
-            };
-
-            private _enemies = allUnits select {
-                side _x == _enemySide &&
-                alive _x &&
-                _x distance _pos < 50
-            };
-
-            private _friendlyCount = count _friendlies;
-            private _enemyCount = count _enemies;
 
             if (_friendlyCount > 0 && (_friendlyCount * _ratio <= _enemyCount)) then {
 
-                if (random 1 < _chance) then {
+                if (random 1 < _chance && !_unit getVariable [QGVAR(Surrendered), false]) then {
 
-                    // Mark as surrendered
-                    _unit setVariable ["AND_Surrendered", true, true];
-
-                    // ACE surrender
+                    _unit setVariable [QGVAR(Surrendered), true, true];
                     [_unit, true] call ace_captives_fnc_setSurrendered;
-
                 };
             };
-
-        } forEach _units;
+        } forEach _enemies;
 
     },
-    5,                                 // PFH interval (seconds)
-    [_enemySide, _chance, _ratio]      // arguments passed into PFH
+    5,
+    [_enemySide, _friendlySide, _chance, _ratio, _logic]
 ] call CBA_fnc_addPerFrameHandler;
+
+_pfhID
