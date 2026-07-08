@@ -43,8 +43,8 @@ private _pfhID = [
         private _enemiesInArea = [];
         private _friendliesInArea = [];
 
-        private _area = _logic get3DENAttribute "Area";
-        systemChat str _area;
+        private _area = _logic getVariable ["objectarea", [50, 50]];
+
         {
             if (_x inArea _area) then {
                 _enemiesInArea = _enemiesInArea + [_x];
