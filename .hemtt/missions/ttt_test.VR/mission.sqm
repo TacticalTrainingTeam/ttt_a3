@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5887.5874,77.731926,4798.7974};
-		dir[]={0.7486676,-0.64211279,0.16491143};
-		up[]={0.62708449,0.76660585,0.13812985};
-		aside[]={0.21511704,4.9316441e-08,-0.97659022};
+		pos[]={5868.0039,77.731926,4794.4863};
+		dir[]={0.74866468,-0.64211029,0.16491103};
+		up[]={0.6270774,0.76661223,0.13812858};
+		aside[]={0.21511659,7.4505806e-09,-0.97658837};
 	};
 };
 binarizationWanted=0;
@@ -1636,7 +1636,7 @@ class Mission
 				class Attribute2
 				{
 					property="ttt_surrender_OutnumberRatio";
-					expression="false";
+					expression="_this setVariable ['ttt_surrender_OutnumberRatio',_value,true];";
 					class Value
 					{
 						class data

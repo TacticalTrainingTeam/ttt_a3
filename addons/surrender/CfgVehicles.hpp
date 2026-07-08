@@ -11,14 +11,13 @@ class CfgVehicles {
 
     class GVAR(module): Module_F {
         scope = 2;
-        displayName = "AI Surrender When Outnumbered";
-        category = ECSTRING(effects,category_environment);
+        displayName = CSTRING(module_displayName);
+        //category = "";
         function = QFUNC(checkSurrender);
         functionPriority = 1;
         isGlobal = 1;
         isTriggerActivated = 1;
         canSetArea = 1;
-        canSetAreaShape = 1;
 
         class AttributeValues {
             // This section allows you to set the default values for the attributes menu in 3DEN
@@ -28,25 +27,25 @@ class CfgVehicles {
 
         class Attributes: AttributesBase {
             class GVAR(EnemySides): Combo {
-                displayName = "Enemy Sides";
-                tooltip = "Which sides should be considered enemy units.";
+                displayName = CSTRING(EnemySides_displayName);
+                tooltip = CSTRING(EnemySides_tooltip);
                 control = "Combo";
-                property = QGVAR(EnemySides);
+                property = QGVAR(Module_EnemySides);
                 typeName = "STRING";
                 defaultValue = "OPF_F";
 
                 class Values {
                     class BLUFOR {name = "BLUFOR"; value = "BLU_F";};
                     class OPFOR {name = "OPFOR"; value = "OPF_F";};
-                    class INDEP  {name = "INDEP"; value = "IND_F";};
+                    class INDEP {name = "INDEP"; value = "IND_F";};
                 };
             };
 
             class GVAR(FriendlySides): Combo {
-                displayName = "Friendly Sides";
-                tooltip = "Which sides should be considered friendly units.";
+                displayName = CSTRING(FriendlySides_displayName);
+                tooltip = CSTRING(FriendlySides_tooltip);
                 control = "Combo";
-                property = QGVAR(FriendlySides);
+                property = QGVAR(Module_FriendlySides);
                 typeName = "STRING";
                 defaultValue = "BLU_F";
 
@@ -58,25 +57,30 @@ class CfgVehicles {
             };
 
             class GVAR(SurrenderChance): Slider {
-                displayName = "Chance to Surrender";
-                tooltip = "Probability (0-1) that an outnumbered unit will surrender.";
+                displayName = CSTRING(SurrenderChance_displayName);
+                tooltip = CSTRING(SurrenderChance_tooltip);
                 control = "Slider";
-                property = QGVAR(SurrenderChance);
+                property = QGVAR(Module_SurrenderChance);
                 typeName = "NUMBER";
-                defaultValue = "0.5";
+                defaultValue = "0.01";
             };
 
-            class GVAR(OutnumberRatio): Slider {
-                displayName = "Outnumbered Ratio";
-                tooltip = "If enemies ≥ ratio x friendlies, unit may surrender.";
-                control = "Slider";
-                property = QGVAR(OutnumberRatio);
+            class GVAR(OutnumberRatio): Combo {
+                displayName = CSTRING(OutnumberRatio_displayName);
+                tooltip = CSTRING(OutnumberRatio_tooltip);
+                property = QGVAR(Module_OutumberRatio);
                 typeName = "NUMBER";
-                defaultValue = "2.0";
+                defaultValue = "2";
+
+                class Values {
+                    class _1x {name = "1x"; value = 1;};
+                    class _2x {name = "2x"; value = 2;};
+                    class _3x {name = "3x"; value = 3;};
+                };
             };
 
             class ModuleDescription: ModuleDescription {
-                description = "This module will cause AI units to surrender when outnumbered.";
+                description = CSTRING(module_description);
             };
         };
     };

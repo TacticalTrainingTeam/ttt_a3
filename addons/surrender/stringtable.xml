@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Surrender">
+        <Key ID="STR_ttt_Surrender_module_displayName">
+            <English>AI Surrender</English>
+            <German>KI-Kapitulation</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_module_description">
+            <English>This module causes enemy AI units to surrender when they are outnumbered by friendly forces.</English>
+            <German>Dieses Modul veranlasst feindliche KI-Einheiten zur Kapitulation, wenn sie von freundlichen Kräften in der Unterzahl sind.</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_EnemySides_displayName">
+            <English>Enemy Side</English>
+            <German>Feindliche Seite</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_EnemySides_tooltip">
+            <English>Which sides should be considered enemy units.</English>
+            <German>Welche Seiten als feindliche Einheiten behandelt werden sollen.</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_FriendlySides_displayName">
+            <English>Friendly Side</English>
+            <German>Freundliche Seite</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_FriendlySides_tooltip">
+            <English>Which sides should be considered friendly units.</English>
+            <German>Welche Seiten sollen als freundliche Einheiten behandelt werden?</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_SurrenderChance_displayName">
+            <English>Chance to Surrender</English>
+            <German>Kapitulationschance</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_SurrenderChance_tooltip">
+            <English>Probability (0-1) that an outnumbered enemy unit will surrender.</English>
+            <German>Wahrscheinlichkeit (0-1), dass eine unterlegene feindliche Einheit kapituliert.</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_OutnumberRatio_displayName">
+            <English>Outnumbered Ratio</English>
+            <German>Unterlegenheitsverhaeltnis</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_OutnumberRatio_tooltip">
+            <English>If amount of friendlies is bigger than ratio times enemies, the enemy unit may surrender.</English>
+            <German>Wenn Anzahl Freundlicher größer ist als Verhältnis mal Feinde ist, kann die feindliche Einheit kapitulieren.</German>
+        </Key>
+    </Package>
+</Project>
