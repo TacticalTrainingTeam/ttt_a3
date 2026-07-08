@@ -37,14 +37,14 @@ private _pfhID = [
         params ["_args", "_pfhId"];
         _args params ["_enemySide", "_friendlySide", "_chance", "_ratio", "_logic"];
 
-        private _enemies = units [_enemySide];
-        private _friendlies = units [_friendlySide];
+        private _enemies = units _enemySide;
+        private _friendlies = units _friendlySide;
 
         private _enemiesInArea = [];
         private _friendliesInArea = [];
 
-        private _area = _logic getVariable ["size3", [50,50,0,true]];
-
+        private _area = _logic get3DENAttribute "Area";
+        systemChat str _area;
         {
             if (_x inArea _area) then {
                 _enemiesInArea = _enemiesInArea + [_x];

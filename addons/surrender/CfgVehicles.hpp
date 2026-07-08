@@ -12,7 +12,7 @@ class CfgVehicles {
     class GVAR(module): Module_F {
         scope = 2;
         displayName = "AI Surrender When Outnumbered";
-        category = QGVAR(Modules);
+        category = ECSTRING(effects,category_environment);
         function = QFUNC(checkSurrender);
         functionPriority = 1;
         isGlobal = 1;
