@@ -1,81 +1,118 @@
 #include "..\script_component.hpp"
 /*
  * Authors: Andx, Copilot
- * Breaks the connection between a UAV and its controller if the distance exceeds a certain radius. Also applies a post-processing effect to simulate signal degradation.
+ * Breaks the connection between a UAV and its controller if the distance exceeds a certain radius.
+ * Also applies a post-processing effect to simulate signal degradation.
  *
  * Arguments:
  * 0: UAV object
- * 1: Controller object
- * 2: Radius (in meters) for connection loss
+ * 1: Radius (in meters) for connection loss
  *
  * Return Value:
  * Per-frame handler ID (can be used to remove the handler later)
  *
  * Example:
- * [uav_01, controller_01, 100] call PREFIX_common_fnc_uavControl
+ * [uav_01, 100] remoteExec ["PREFIX_common_fnc_uavControl", 0];
  *
  * Public: Yes
  */
 
-params ["_uav", "_controller", "_radius"];
+params ["_uav", "_radius", "_controller"];
 TRACE_1("fnc_uavControl",_this);
 
-// Create PP effect once
-private _pp = ppEffectCreate ["dynamicBlur", 200];
-_pp ppEffectEnable true;
+// --- PP-Effekt einmalig erstellen (lokal) ---
+private _pp = ppEffectCreate ["FilmGrain", 2005];
+_pp ppEffectEnable false;
 _pp ppEffectAdjust [0];
 _pp ppEffectCommit 0;
 
-// Register CBA per-frame handler
+// --- Per-Frame-Handler registrieren ---
 private _pfhId = [
     {
         params ["_args", "_pfhId"];
-        _args params ["_uav", "_controller", "_radius", "_pp"];
+        _args params ["_uav", "_radius", "_pp", "_controller"];
 
-        // PFH-ID am UAV speichern
-        _uav setVariable ["ttt_uav_pfhId", _pfhId];
+        systemChat format ["PFH started - %1", _controller];
 
-        // Stop if either entity is gone
+        // Wenn niemand das UAV steuert → Effekt aus, keine weitere Logik
+        if (isNull _controller) exitWith {
+            _pp ppEffectEnable false;
+            _pp ppEffectAdjust [0];
+            _pp ppEffectCommit 0.1;
+        };
+
+        // Nur auf der Maschine weiterarbeiten, auf der der Controller lokal ist
+        //if (!local _controller) exitWith {};
+
+        systemChat format ["PFH - %1", _controller];
+
+        // Auto-Cleanup bei Tod
         if (!alive _uav || !alive _controller) exitWith {
             _pp ppEffectEnable false;
+            _pp ppEffectAdjust [0];
+            _pp ppEffectCommit 0;
             [_pfhId] call CBA_fnc_removePerFrameHandler;
         };
 
         private _dist = _controller distance _uav;
-        private _factor = _dist / _radius;
-        _factor = _factor min 1;   // clamp to 1
+        private _connectedUav = getConnectedUAV _controller;
+        private _isConnected = (_connectedUav isEqualTo _uav);
 
-        // --- CONTROL LOGIC ---
-        private _connected = isUAVConnected _controller;
+        // Letzten Zustand holen (nur für Hint-Debounce)
+        private _lastState = _controller getVariable ["uav_link_state", "unknown"];
 
+        // --- Verbindung trennen, wenn zu weit weg ---
         if (_dist > _radius) then {
-            if (_connected) then {
+
+            if (_isConnected) then {
                 _controller connectTerminalToUAV objNull;
-                //hintSilent format ["UAV link lost! (%1m)", round _dist];
-                [
-                    [LLSTRING(uav_link_lost), round _dist]
-                ] call ace_common_fnc_displayTextStructured;
+
+                if (_lastState != "lost") then {
+                    hintSilent format ["UAV-Link verloren! (%1m)", round _dist];
+                    _controller setVariable ["uav_link_state", "lost"];
+                };
             };
+
         } else {
-            if (!_connected) then {
+
+            // --- Verbindung wiederherstellen, wenn im Radius ---
+            if (!_isConnected) then {
                 _controller connectTerminalToUAV _uav;
-                //hintSilent format ["UAV link established (%1m)", round _dist];
-                [
-                    [LLSTRING(uav_link_established)]
-                ] call ace_common_fnc_displayTextStructured;
+
+                if (_lastState != "connected") then {
+                    hintSilent format ["UAV-Link hergestellt (%1m)", round _dist];
+                    _controller setVariable ["uav_link_state", "connected"];
+                };
             };
         };
 
-        // --- SIGNAL DEGRADATION ---
-        private _blur = _factor * 2;   // 0 → clear, 2 → heavy blur
-        _pp ppEffectAdjust [_blur];
-        _pp ppEffectCommit 0.2;
+        // --- SIGNAL-DEGRADATION / FILMGRAIN ---
+        private _shouldBlur = (cameraOn isEqualTo _uav);
+
+        if (_shouldBlur) then {
+            private _factor = (_dist / _radius) min 1;
+            private _blur = _factor * _factor;
+
+            _pp ppEffectEnable true;
+            _pp ppEffectAdjust [
+                _blur min 1,
+                1.25,
+                2.01,
+                0.75,
+                1.0,
+                _blur min 1
+            ];
+            _pp ppEffectCommit 0.2;
+
+        } else {
+            _pp ppEffectAdjust [0];
+            _pp ppEffectCommit 0.1;
+            _pp ppEffectEnable false;
+        };
 
     },
-    1,   // run every 1 second
-    [_uav, _controller, _radius, _pp]
+    0.5,
+    [_uav, _radius, _pp, _controller]
 ] call CBA_fnc_addPerFrameHandler;
 
-
-//Return the per-frame handler ID so it can be removed later if needed
-_pfhId
+_pfhId;

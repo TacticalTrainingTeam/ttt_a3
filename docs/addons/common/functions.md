@@ -243,7 +243,7 @@ Der Funktionsaufruf startet einen CBA‑Per‑Frame‑Handler, der:
 
 ## Return Value
 
-**PFH ID (NUMBER)**  
+**PFH ID (NUMBER)**
 Die ID des Per‑Frame‑Handlers, erzeugt durch CBA_fnc_addPerFrameHandler.
 Kann genutzt werden, um den PFH manuell zu entfernen.
 
@@ -290,7 +290,7 @@ Wenn du möchtest, dass der PFH automatisch gestartet wird, sobald ein UAV einer
         private _radius = 800;
 
         // Start PFH for this UAV
-        private _pfhId = [_uav, _controller, _radius] call compile preprocessFileLineNumbers "fn_uavControlWithNoise.sqf";
+        private _pfhId = [_uav, _controller, _radius] call ttt_common_fnc_addUAVControlPfh;
 
         // Store PFH ID on the UAV for later cleanup
         _uav setVariable ["ttt_uav_pfhId", _pfhId];
