@@ -43,7 +43,7 @@ private _pfhID = [
         private _enemiesInArea = [];
         private _friendliesInArea = [];
 
-        private _area = _logic getVariable ["size3", [50,50,0,true]];
+        private _area = _logic getVariable ["objectarea", [50, 50]];
 
         {
             if (_x inArea _area) then {
