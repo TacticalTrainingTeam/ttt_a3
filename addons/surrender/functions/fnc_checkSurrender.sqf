@@ -6,8 +6,8 @@
 
 params ["_logic", "_activated"];
 
-private _enemySideClass = _logic getVariable [QGVAR(Module_EnemySides), "OPF_F"];
-private _friendlySideClass = _logic getVariable [QGVAR(Module_FriendlySides), "BLU_F"];
+private _enemySideClass = _logic getVariable [QGVAR(Module_EnemySide), "OPF_F"];
+private _friendlySideClass = _logic getVariable [QGVAR(Module_FriendlySide), "BLU_F"];
 private _chance = _logic getVariable [QGVAR(Module_SurrenderChance), 0.1];
 private _ratio = _logic getVariable [QGVAR(Module_OutnumberRatio), 2];
 
@@ -60,15 +60,10 @@ private _pfhID = [
         private _friendlyCount = count _friendliesInArea;
         private _enemyCount = count _enemiesInArea;
 
-        systemChat str _chance;
-
         {
             if (_enemyCount > 0 && (_enemyCount * _ratio <= _friendlyCount)) then {
 
-                if (
-                    random 1 < _chance &&
-                    !(_x getVariable [QGVAR(Surrendered), false])
-                    ) then {
+                if (random 1 < _chance && !(_x getVariable [QGVAR(Surrendered), false])) then {
                         _x setVariable [QGVAR(Surrendered), true, true];
                         [_x, true] call ace_captives_fnc_setSurrendered;
                 };

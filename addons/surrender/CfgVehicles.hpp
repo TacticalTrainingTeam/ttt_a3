@@ -30,7 +30,7 @@ class CfgVehicles {
                 displayName = CSTRING(EnemySides_displayName);
                 tooltip = CSTRING(EnemySides_tooltip);
                 control = "Combo";
-                property = QGVAR(Module_EnemySides);
+                property = QGVAR(Module_EnemySide);
                 typeName = "STRING";
                 defaultValue = "OPF_F";
 
@@ -45,7 +45,7 @@ class CfgVehicles {
                 displayName = CSTRING(FriendlySides_displayName);
                 tooltip = CSTRING(FriendlySides_tooltip);
                 control = "Combo";
-                property = QGVAR(Module_FriendlySides);
+                property = QGVAR(Module_FriendlySide);
                 typeName = "STRING";
                 defaultValue = "BLU_F";
 

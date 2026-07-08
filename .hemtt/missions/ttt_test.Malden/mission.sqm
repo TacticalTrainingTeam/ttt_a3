@@ -8,11 +8,11 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=62;
+		nextID=63;
 	};
 	class LayerIndexProvider
 	{
-		nextID=44;
+		nextID=46;
 	};
 	class Camera
 	{
@@ -2951,45 +2951,18 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={6541.9648,83.045769,3688.4729};
-				angles[]={6.2807941,0,0.010402163};
+				position[]={6544.2119,82.970177,3654.1709};
+				angles[]={6.2824173,0,0.0039968039};
 			};
-			areaSize[]={50,0,52.852001};
+			areaSize[]={50,-1,50};
 			flags=1;
-			id=61;
+			id=62;
 			type="ttt_surrender_module";
-			atlOffset=0.0070037842;
 			class CustomAttributes
 			{
 				class Attribute0
 				{
-					property="ttt_surrender_SurrenderChance";
-					expression="false";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.050000001;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ttt_surrender_EnemySides";
-					expression="_this setVariable ['ttt_surrender_EnemySides',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="OPF_F";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ttt_surrender_OutnumberRatio";
+					property="ttt_surrender_Module_OutumberRatio";
 					expression="_this setVariable ['ttt_surrender_OutnumberRatio',_value,true];";
 					class Value
 					{
@@ -3000,16 +2973,42 @@ class Mission
 						};
 					};
 				};
-				class Attribute3
+				class Attribute1
 				{
-					property="ttt_surrender_FriendlySides";
-					expression="_this setVariable ['ttt_surrender_FriendlySides',_value,true];";
+					property="ttt_surrender_Module_SurrenderChance";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0.0099999998;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ttt_surrender_Module_EnemySides";
+					expression="_this setVariable ['ttt_surrender_EnemySides',_value,true];";
 					class Value
 					{
 						class data
 						{
 							singleType="STRING";
 							value="BLU_F";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ttt_surrender_Module_FriendlySides";
+					expression="_this setVariable ['ttt_surrender_FriendlySides',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="OPF_F";
 						};
 					};
 				};
