@@ -19,7 +19,7 @@
         </Key>
         <Key ID="STR_ttt_Surrender_OutnumberRatio_displayName">
             <English>Outnumbered Ratio</English>
-            <German>Unterlegenheitsverhaeltnis</German>
+            <German>Unterlegenheitsverhältnis</German>
         </Key>
         <Key ID="STR_ttt_Surrender_OutnumberRatio_tooltip">
             <English>If amount of friendlies is bigger than ratio times enemies, the enemy unit may surrender.</English>
