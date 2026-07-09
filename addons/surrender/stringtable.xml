@@ -35,7 +35,7 @@
         </Key>
         <Key ID="STR_ttt_Surrender_module_description">
             <English>This module causes enemy AI units to surrender when they are outnumbered by friendly forces.</English>
-            <German>Dieses Modul veranlasst feindliche KI-Einheiten zur Kapitulation, wenn sie von freundlichen Kräften in der Unterzahl sind.</German>
+            <German>Dieses Modul implementiert eine Wahrscheinlichkeitsmechanik, durch die feindliche KI-Einheiten zur Kapitulation veranlasst werden können, wenn sie gegenüber den freundlichen Kräften zahlenmäßig unterlegen sind.</German>
         </Key>
         <Key ID="STR_ttt_Surrender_module_displayName">
             <English>AI Surrender</English>
