@@ -6,7 +6,7 @@
             <German>Feindliche Seite</German>
         </Key>
         <Key ID="STR_ttt_Surrender_EnemySides_tooltip">
-            <English>Which sides should be considered enemy units.</English>
+            <English>Which sides should be considered hostile.</English>
             <German>Welche Seiten als feindliche Einheiten behandelt werden sollen.</German>
         </Key>
         <Key ID="STR_ttt_Surrender_FriendlySides_displayName">
