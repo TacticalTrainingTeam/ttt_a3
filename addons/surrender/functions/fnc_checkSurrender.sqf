@@ -20,7 +20,7 @@ params [];
 TRACE_1("fnc_checkSurrender",_this);
 
 
-params ["_logic", "_activated"];
+params ["_logic", "", "_activated"];
 
 if (!_activated) exitWith {};
 

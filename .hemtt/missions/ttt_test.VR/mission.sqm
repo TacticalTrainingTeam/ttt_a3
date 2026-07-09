@@ -8,7 +8,7 @@ class EditorData
 	toggles=1025;
 	class ItemIDProvider
 	{
-		nextID=180;
+		nextID=181;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5868.0039,77.731926,4794.4863};
-		dir[]={0.74866468,-0.64211029,0.16491103};
-		up[]={0.6270774,0.76661223,0.13812858};
-		aside[]={0.21511659,7.4505806e-09,-0.97658837};
+		pos[]={5910.1323,34.735401,4794.2036};
+		dir[]={0.68870413,-0.6176039,0.3799001};
+		up[]={0.5407964,0.7864784,0.298311};
+		aside[]={0.48302308,-5.052425e-07,-0.8756482};
 	};
 };
 binarizationWanted=0;
@@ -1518,7 +1518,7 @@ class Mission
 		class Item61
 		{
 			dataType="Trigger";
-			position[]={5939.3101,5.3070002,4816.7178};
+			position[]={5934.2031,5.3070002,4854.1953};
 			class Attributes
 			{
 				onActivation="[r_s_1, r_r_1, r_a_1, EAST, ""O_APC_Wheeled_02_rcws_v2_F""] call ttt_common_fnc_callReinforcements;";
@@ -1570,7 +1570,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5939.0762,5.4091678,4816.7153};
+				position[]={5933.9692,5.4091678,4854.1929};
 			};
 			side="Empty";
 			flags=4;
@@ -1595,74 +1595,6 @@ class Mission
 			type="EmptyDetectorAreaR50";
 		};
 		class Item67
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={5993.1172,5,4837.9512};
-			};
-			areaSize[]={50,-1,50};
-			flags=1;
-			id=168;
-			type="ttt_surrender_module";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ttt_surrender_SurrenderChance";
-					expression="false";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ttt_surrender_EnemySides";
-					expression="_this setVariable ['ttt_surrender_EnemySides',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="OPF_F";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ttt_surrender_OutnumberRatio";
-					expression="_this setVariable ['ttt_surrender_OutnumberRatio',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ttt_surrender_FriendlySides";
-					expression="_this setVariable ['ttt_surrender_FriendlySides',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="BLU_F";
-						};
-					};
-				};
-				nAttributes=4;
-			};
-		};
-		class Item68
 		{
 			dataType="Group";
 			side="West";
@@ -1942,7 +1874,7 @@ class Mission
 			};
 			id=169;
 		};
-		class Item69
+		class Item68
 		{
 			dataType="Group";
 			side="East";
@@ -2013,6 +1945,74 @@ class Mission
 				combatMode="BLUE";
 			};
 			id=178;
+		};
+		class Item69
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={5996.4268,5,4841.7832};
+			};
+			areaSize[]={50,-1,50};
+			flags=1;
+			id=180;
+			type="ttt_surrender_module";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ttt_surrender_Module_EnemySide";
+					expression="_this setVariable ['ttt_surrender_EnemySides',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="OPF_F";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ttt_surrender_Module_FriendlySide";
+					expression="_this setVariable ['ttt_surrender_FriendlySides',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="BLU_F";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ttt_surrender_Module_SurrenderChance";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0.0099999998;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ttt_surrender_Module_OutumberRatio";
+					expression="_this setVariable ['ttt_surrender_OutnumberRatio',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=2;
+						};
+					};
+				};
+				nAttributes=4;
+			};
 		};
 	};
 };
