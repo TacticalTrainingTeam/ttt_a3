@@ -23,7 +23,7 @@
         </Key>
         <Key ID="STR_ttt_Surrender_OutnumberRatio_tooltip">
             <English>If amount of friendlies is bigger than ratio times enemies, the enemy unit may surrender.</English>
-            <German>Wenn Anzahl Freundlicher größer ist als Verhältnis mal Feinde ist, kann die feindliche Einheit kapitulieren.</German>
+            <German>Wenn die Anzahl der Verbündeten größer ist als das Verhältnis zu den Gegnern, kann sich die gegnerische Einheit ergeben.</German>
         </Key>
         <Key ID="STR_ttt_Surrender_SurrenderChance_displayName">
             <English>Chance to Surrender</English>
