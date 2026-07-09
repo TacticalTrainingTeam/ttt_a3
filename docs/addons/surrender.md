@@ -24,3 +24,4 @@ Die Kapitulation wird über ACE Captives umgesetzt. Kapitulierte KI hebt die Hä
 ## Maintainer
 
 - Andx
+- EinStein
