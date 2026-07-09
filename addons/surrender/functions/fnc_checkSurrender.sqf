@@ -1,10 +1,28 @@
 #include "..\script_component.hpp"
 /*
-    ttt_surrender_fnc_surrenderCheck
-    Called by module on mission start AND when placed by Zeus.
-*/
+ * Authors: Andx
+ * Starts the surrender check loop for a placed module and applies ACE surrender to enemy units that become sufficiently outnumbered inside the configured area.
+ *
+ * Arguments:
+ * 0: Surrender module logic <OBJECT>
+ * 1: Module activation state <BOOL>
+ *
+ * Return Value:
+ * Per-frame handler ID <NUMBER>
+ *
+ * Example:
+ * [_logic, true] call ttt_surrender_fnc_checkSurrender
+ *
+ * Public: No
+ */
+
+params [];
+TRACE_1("fnc_checkSurrender",_this);
+
 
 params ["_logic", "_activated"];
+
+if (!_activated) exitWith {};
 
 private _enemySideClass = _logic getVariable [QGVAR(Module_EnemySide), "OPF_F"];
 private _friendlySideClass = _logic getVariable [QGVAR(Module_FriendlySide), "BLU_F"];
@@ -43,7 +61,7 @@ private _pfhID = [
         private _enemiesInArea = [];
         private _friendliesInArea = [];
 
-        private _area = _logic getVariable ["objectarea", [50, 50, 0, false]];
+        private _area = _logic getVariable ["objectarea", [50, 50, 0, false, -1]];
 
         {
             if (getPosASL _x inArea [getPosASL _logic, _area select 0, _area select 1, _area select 2, _area select 3, _area select 4]) then {
@@ -74,5 +92,7 @@ private _pfhID = [
     10,
     [_enemySide, _friendlySide, _chance, _ratio, _logic]
 ] call CBA_fnc_addPerFrameHandler;
+
+_logic setVariable [QGVAR(pfhID), _pfhID, true];
 
 _pfhID
