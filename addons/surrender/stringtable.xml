@@ -14,7 +14,7 @@
             <German>Freundliche Seite</German>
         </Key>
         <Key ID="STR_ttt_Surrender_FriendlySides_tooltip">
-            <English>Which sides should be considered friendly units.</English>
+            <English>Which sides should be considered friendly.</English>
             <German>Welche Seiten sollen als freundliche Einheiten behandelt werden?</German>
         </Key>
         <Key ID="STR_ttt_Surrender_OutnumberRatio_displayName">
