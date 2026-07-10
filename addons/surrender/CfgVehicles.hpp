@@ -35,9 +35,9 @@ class CfgVehicles {
                 defaultValue = "OPF_F";
 
                 class Values {
-                    class BLUFOR {name = "BLUFOR"; value = "BLU_F";};
-                    class OPFOR {name = "OPFOR"; value = "OPF_F";};
-                    class INDEP {name = "INDEP"; value = "IND_F";};
+                    class BLUFOR {name = "BLUFOR"; value = "west";};
+                    class OPFOR {name = "OPFOR"; value = "east";};
+                    class INDEP {name = "INDEP"; value = "independent";};
                 };
             };
 

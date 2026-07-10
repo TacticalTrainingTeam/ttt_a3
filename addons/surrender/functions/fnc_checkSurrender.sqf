@@ -24,31 +24,10 @@ params ["_logic", "", "_activated"];
 
 if (!_activated) exitWith {};
 
-private _enemySideClass = _logic getVariable [QGVAR(Module_EnemySide), "OPF_F"];
-private _friendlySideClass = _logic getVariable [QGVAR(Module_FriendlySide), "BLU_F"];
+private _enemySide = _logic getVariable [QGVAR(Module_EnemySide), "east"];
+private _friendlySide = _logic getVariable [QGVAR(Module_FriendlySide), "west"];
 private _chance = _logic getVariable [QGVAR(Module_SurrenderChance), 0.1];
 private _ratio = _logic getVariable [QGVAR(Module_OutnumberRatio), 2];
-
-//Convert side class to actual side
-private _sideMap = [
-    ["BLU_F", west],
-    ["OPF_F", east],
-    ["IND_F", independent]
-];
-
-private _enemySide = east;
-{
-    if (_x select 0 == _enemySideClass) exitWith {
-        _enemySide = _x select 1;
-    };
-} forEach _sideMap;
-
-private _friendlySide = west;
-{
-    if (_x select 0 == _friendlySideClass) exitWith {
-        _friendlySide = _x select 1;
-    };
-} forEach _sideMap;
 
 private _pfhID = [
     {
