@@ -12,27 +12,49 @@
  * Per-frame handler ID <NUMBER>
  *
  * Example:
- * [_logic, [], true] call ttt_surrender_fnc_checkSurrender
+ * [logic, [], true] call ttt_surrender_fnc_checkSurrender
  *
  * Public: No
  */
 
-params ["_logic", "", "_activated"];
+params [
+    ["_logic", objNull, [objNull]],
+    ["_units", [], [[]]],
+    ["_activated", true, [true]]
+    ];
+
 TRACE_1("fnc_checkSurrender",_this);
 
 if (!_activated) exitWith {};
 
-private _enemySide = _logic getVariable [QGVAR(Module_EnemySide), "EAST"];
-private _friendlySide = _logic getVariable [QGVAR(Module_FriendlySide), "WEST"];
-private _chance = _logic getVariable [QGVAR(Module_SurrenderChance), 0.1];
-private _ratio = _logic getVariable [QGVAR(Module_OutnumberRatio), 2];
+private _enemySideClass = _logic getVariable ["EnemySide", 2];
+private _friendlySideClass = _logic getVariable ["FriendlySide", 1];
+private _chance = _logic getVariable ["SurrenderChance", 0.5];
+private _ratio = _logic getVariable ["OutnumberRatio", 2];
 private _area = _logic getVariable ["objectarea", [50, 50, 0, false, -1]];
 private _logicPos = getPosASL _logic;
+private _dropWeapon = _logic getVariable ["DropWeapon", false];
+
+private _enemySide = switch (_enemySideClass) do {
+    case (1): {west};
+    case (2): {east};
+    case (3): {resistance};
+    default {sideUnknown};
+};
+
+private _friendlySide = switch (_friendlySideClass) do {
+    case (1): {west};
+    case (2): {east};
+    case (3): {resistance};
+    default {sideUnknown};
+};
 
 private _pfhID = [
     {
         params ["_args", "_pfhId"];
-        _args params ["_enemySide", "_friendlySide", "_chance", "_ratio", "_logic", "_area", "_logicPos"];
+        _args params ["_enemySide", "_friendlySide", "_chance", "_ratio", "_logic", "_area", "_logicPos", "_dropWeapon"];
+
+        hint str _args;
 
         private _enemies = units _enemySide;
         private _friendlies = units _friendlySide;
@@ -45,7 +67,7 @@ private _pfhID = [
                 if (side _x == _enemySide) then {
                     _enemiesInArea append [_x];
                 };
-                if (side _x == _friendlySide) then {                     
+                if (side _x == _friendlySide) then {
                     _friendliesInArea append [_x];
                 };
             };
@@ -57,18 +79,31 @@ private _pfhID = [
         {
             if (_enemyCount > 0 && (_enemyCount * _ratio <= _friendlyCount)) then {
 
-                if (random 1 < _chance && !(_x getVariable [QGVAR(Surrendered), false])) then {
-                        _x setVariable [QGVAR(Surrendered), true, true];
-                        [_x, true] call ace_captives_fnc_setSurrendered;
+                if (random 1 <= _chance && !(_x getVariable [QUOTE(Surrendered), false])) then {
+                        _x setVariable [QUOTE(Surrendered), true, true];
+
+                        systemChat str _dropWeapon;
+                        if(
+                            _dropWeapon &&
+                            {isNull objectParent _x} &&
+                            {(currentWeapon _x) != ""}
+                        ) then {
+                            _x call ace_common_fnc_throwWeapon;
+                        };
+
+                        [{
+                            params ["_unit"];
+                            [_unit, true] call ace_captives_fnc_setSurrendered;
+                        },
+                        [_x], 3] call CBA_fnc_waitAndExecute;
                 };
             };
         } forEach _enemiesInArea;
-
     },
     10,
-    [_enemySide, _friendlySide, _chance, _ratio, _logic, _area, _logicPos]
+    [_enemySide, _friendlySide, _chance, _ratio, _logic, _area, _logicPos, _dropWeapon]
 ] call CBA_fnc_addPerFrameHandler;
 
 _logic setVariable [QGVAR(pfhID), _pfhID, true];
 
-_pfhID
+_pfhID;

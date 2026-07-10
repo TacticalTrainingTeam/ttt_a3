@@ -4,73 +4,76 @@ class CfgVehicles {
         class AttributesBase {
             class Combo;
             class Slider;
+            class Checkbox;
+            class ModuleDescription;
         };
 
-        class ModuleDescription {};
+        class ModuleDescription;
     };
 
-    class GVAR(module): Module_F {
+    class ttt_surrender_module: Module_F {
         scope = 2;
+        //scopeCurator = 2;
         displayName = CSTRING(module_displayName);
-        //category = "";
         function = QFUNC(checkSurrender);
         functionPriority = 1;
-        isGlobal = 1;
-        isTriggerActivated = 1;
+        isGlobal = 2;
         canSetArea = 1;
+        is3DEN = 0;
 
         class AttributeValues {
-            // This section allows you to set the default values for the attributes menu in 3DEN
-            size3[] = { 50, 50, -1 };                                                        // 3D size (x-axis radius, y-axis radius, z-axis radius)
-            isRectangle = 0;                                                                 // Sets if the default shape should be a rectangle or ellipse
+			// This section allows you to set the default values for the attributes menu in 3DEN
+			size3[] = { 100, 100, -1 };		// 3D size (x-axis radius, y-axis radius, z-axis radius)
+			isRectangle = 0;				// Sets if the default shape should be a rectangle or ellipse
         };
 
         class Attributes: AttributesBase {
-            class GVAR(EnemySides): Combo {
+            class EnemySide: Combo {
                 displayName = CSTRING(EnemySides_displayName);
                 tooltip = CSTRING(EnemySides_tooltip);
+                property = "ttt_surrender_module_EnemySide";
+                typeName = "NUMBER";
+                defaultValue = 2;
                 control = "Combo";
-                property = QGVAR(Module_EnemySide);
-                typeName = "STRING";
-                defaultValue = "OPF_F";
 
                 class Values {
-                    class BLUFOR {name = "BLUFOR"; value = "WEST";};
-                    class OPFOR {name = "OPFOR"; value = "EAST";};
-                    class INDEP {name = "Independent"; value = "GUER";};
+                  class BLUFOR {name = "$STR_WEST"; value = 1;};
+                    class OPFOR {name = "$STR_east"; value = 2;};
+                    class INDEP  {name = "$STR_guerrila"; value = 3;};
                 };
             };
 
-            class GVAR(FriendlySides): Combo {
+            class FriendlySide: Combo {
                 displayName = CSTRING(FriendlySides_displayName);
                 tooltip = CSTRING(FriendlySides_tooltip);
+                property = "ttt_surrender_module_FriendlySide";
+                typeName = "NUMBER";
+                defaultValue = 1;
                 control = "Combo";
-                property = QGVAR(Module_FriendlySide);
-                typeName = "STRING";
-                defaultValue = "BLU_F";
 
                 class Values {
-                    class BLUFOR {name = "BLUFOR"; value = "BLU_F";};
-                    class OPFOR {name = "OPFOR"; value = "OPF_F";};
-                    class INDEP  {name = "INDEP"; value = "IND_F";};
+                    class BLUFOR {name = "$STR_WEST"; value = 1;};
+                    class OPFOR {name = "$STR_east"; value = 2;};
+                    class INDEP  {name = "$STR_guerrila"; value = 3;};
                 };
             };
 
-            class GVAR(SurrenderChance): Slider {
+            class SurrenderChance: Slider {
                 displayName = CSTRING(SurrenderChance_displayName);
                 tooltip = CSTRING(SurrenderChance_tooltip);
-                control = "Slider";
-                property = QGVAR(Module_SurrenderChance);
+                property = "ttt_surrender_module_SurrenderChance";
                 typeName = "NUMBER";
-                defaultValue = "0.01";
+                defaultValue = "0.5";
+                control = "Slider";
             };
 
-            class GVAR(OutnumberRatio): Combo {
+            class OutnumberRatio: Combo {
                 displayName = CSTRING(OutnumberRatio_displayName);
                 tooltip = CSTRING(OutnumberRatio_tooltip);
-                property = QGVAR(Module_OutumberRatio);
+                property = "ttt_surrender_module_OutnumberRatio";
                 typeName = "NUMBER";
                 defaultValue = "2";
+                control = "Combo";
 
                 class Values {
                     class _1x {name = "1x"; value = 1;};
@@ -79,9 +82,17 @@ class CfgVehicles {
                 };
             };
 
-            class ModuleDescription: ModuleDescription {
-                description = CSTRING(module_description);
+            class DropWeapon: Checkbox {
+                displayName = CSTRING(dropWeapon_displayName);
+                tooltip = CSTRING(dropWeapon_tooltip);
+                property = "ttt_surrender_module_dropWeapon";
+                typeName = "BOOL";
+                defaultValue = 0;
+                control = "Checkbox";
             };
+        };
+        class ModuleDescription: ModuleDescription {
+            description = CSTRING(module_description);
         };
     };
 };

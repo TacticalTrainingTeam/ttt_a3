@@ -4,7 +4,7 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            QGVAR(module)
+            "ttt_surrender_module"
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
