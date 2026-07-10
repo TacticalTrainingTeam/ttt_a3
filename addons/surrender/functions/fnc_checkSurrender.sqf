@@ -5,22 +5,20 @@
  *
  * Arguments:
  * 0: Surrender module logic <OBJECT>
- * 1: Module activation state <BOOL>
+ * 1: Units (not used) <ARRAY>
+ * 2: Module activation state <BOOL>
  *
  * Return Value:
  * Per-frame handler ID <NUMBER>
  *
  * Example:
- * [_logic, true] call ttt_surrender_fnc_checkSurrender
+ * [_logic, "", true] call ttt_surrender_fnc_checkSurrender
  *
  * Public: No
  */
 
-params [];
-TRACE_1("fnc_checkSurrender",_this);
-
-
 params ["_logic", "", "_activated"];
+TRACE_1("fnc_checkSurrender",_this);
 
 if (!_activated) exitWith {};
 
@@ -52,7 +50,7 @@ private _pfhID = [
                 };
             };
         } forEach _enemies + _friendlies;
-        
+
         private _friendlyCount = count _friendliesInArea;
         private _enemyCount = count _enemiesInArea;
 
