@@ -27,13 +27,13 @@ TRACE_1("fnc_checkSurrender",_this);
 
 if (!_activated) exitWith {};
 
-private _enemySideClass = _logic getVariable ["EnemySide", 2];
-private _friendlySideClass = _logic getVariable ["FriendlySide", 1];
-private _chance = _logic getVariable ["SurrenderChance", 0.5];
-private _ratio = _logic getVariable ["OutnumberRatio", 2];
+private _enemySideClass = _logic getVariable [QGVAR(EnemySide), 2];
+private _friendlySideClass = _logic getVariable [QGVAR(FriendlySide), 1];
+private _chance = _logic getVariable [QGVAR(SurrenderChance), 0.5];
+private _ratio = _logic getVariable [QGVAR(OutnumberRatio), 2];
 private _area = _logic getVariable ["objectarea", [50, 50, 0, false, -1]];
 private _logicPos = getPosASL _logic;
-private _dropWeapon = _logic getVariable ["DropWeapon", false];
+private _dropWeapon = _logic getVariable [QGVAR(DropWeapon), false];
 
 private _enemySide = switch (_enemySideClass) do {
     case (1): {west};
@@ -82,7 +82,6 @@ private _pfhID = [
                 if (random 1 <= _chance && !(_x getVariable [QUOTE(Surrendered), false])) then {
                         _x setVariable [QUOTE(Surrendered), true, true];
 
-                        systemChat str _dropWeapon;
                         if(
                             _dropWeapon &&
                             {isNull objectParent _x} &&
@@ -95,7 +94,7 @@ private _pfhID = [
                             params ["_unit"];
                             [_unit, true] call ace_captives_fnc_setSurrendered;
                         },
-                        [_x], 3] call CBA_fnc_waitAndExecute;
+                        [_x]] call CBA_fnc_execNextFrame;
                 };
             };
         } forEach _enemiesInArea;

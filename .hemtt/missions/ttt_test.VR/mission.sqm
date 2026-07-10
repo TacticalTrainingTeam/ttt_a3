@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5820.0703,91.066086,4755.085};
-		dir[]={0.73683989,-0.6101011,0.29127935};
-		up[]={0.56737781,0.79232353,0.22428948};
-		aside[]={0.36762673,0,-0.92997336};
+		pos[]={5836.3076,82.648163,4782.4419};
+		dir[]={0.81573218,-0.50302082,0.28557163};
+		up[]={0.47476852,0.86427426,0.16620703};
+		aside[]={0.33041781,0,-0.94383478};
 	};
 };
 binarizationWanted=0;
@@ -1951,9 +1951,9 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={6052.5322,5,4853.5132};
+				position[]={6040.2051,5,4842.0962};
 			};
-			areaSize[]={100,-1,100};
+			areaSize[]={100,0,43.230999};
 			flags=1;
 			id=189;
 			type="ttt_surrender_module";
@@ -1961,8 +1961,8 @@ class Mission
 			{
 				class Attribute0
 				{
-					property="ttt_surrender_module_EnemySide";
-					expression="_this setVariable ['EnemySide',_value,true];";
+					property="ttt_surrender_OutnumberRatio";
+					expression="_this setVariable ['ttt_surrender_OutnumberRatio',_value,true];";
 					class Value
 					{
 						class data
@@ -1974,34 +1974,21 @@ class Mission
 				};
 				class Attribute1
 				{
-					property="ttt_surrender_module_FriendlySide";
-					expression="_this setVariable ['FriendlySide',_value,true];";
+					property="ttt_surrender_DropWeapon";
+					expression="_this setVariable ['ttt_surrender_DropWeapon',_value,true];";
 					class Value
 					{
 						class data
 						{
-							singleType="SCALAR";
+							singleType="BOOL";
 							value=1;
 						};
 					};
 				};
 				class Attribute2
 				{
-					property="ttt_surrender_module_SurrenderChance";
-					expression="false";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ttt_surrender_module_OutnumberRatio";
-					expression="_this setVariable ['OutnumberRatio',_value,true];";
+					property="ttt_surrender_EnemySide";
+					expression="_this setVariable ['ttt_surrender_EnemySide',_value,true];";
 					class Value
 					{
 						class data
@@ -2011,16 +1998,29 @@ class Mission
 						};
 					};
 				};
-				class Attribute4
+				class Attribute3
 				{
-					property="ttt_surrender_module_dropWeapon";
-					expression="_this setVariable ['DropWeapon',_value,true];";
+					property="ttt_surrender_FriendlySide";
+					expression="_this setVariable ['ttt_surrender_FriendlySide',_value,true];";
 					class Value
 					{
 						class data
 						{
-							singleType="BOOL";
+							singleType="SCALAR";
 							value=1;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ttt_surrender_SurrenderChance";
+					expression="_this setVariable ['ttt_surrender_SurrenderChance',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0.1;
 						};
 					};
 				};

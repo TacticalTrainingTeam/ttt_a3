@@ -5,13 +5,12 @@ class CfgVehicles {
             class Combo;
             class Slider;
             class Checkbox;
-            class ModuleDescription;
         };
 
         class ModuleDescription;
     };
 
-    class ttt_surrender_module: Module_F {
+    class GVAR(module): Module_F {
         scope = 2;
         //scopeCurator = 2;
         displayName = CSTRING(module_displayName);
@@ -28,10 +27,10 @@ class CfgVehicles {
         };
 
         class Attributes: AttributesBase {
-            class EnemySide: Combo {
+            class GVAR(EnemySide): Combo {
                 displayName = CSTRING(EnemySides_displayName);
                 tooltip = CSTRING(EnemySides_tooltip);
-                property = "ttt_surrender_module_EnemySide";
+                property = QGVAR(EnemySide);
                 typeName = "NUMBER";
                 defaultValue = 2;
                 control = "Combo";
@@ -43,10 +42,10 @@ class CfgVehicles {
                 };
             };
 
-            class FriendlySide: Combo {
+            class GVAR(FriendlySide): Combo {
                 displayName = CSTRING(FriendlySides_displayName);
                 tooltip = CSTRING(FriendlySides_tooltip);
-                property = "ttt_surrender_module_FriendlySide";
+                property = QGVAR(FriendlySide);
                 typeName = "NUMBER";
                 defaultValue = 1;
                 control = "Combo";
@@ -58,19 +57,28 @@ class CfgVehicles {
                 };
             };
 
-            class SurrenderChance: Slider {
+            class GVAR(SurrenderChance): Combo {
                 displayName = CSTRING(SurrenderChance_displayName);
                 tooltip = CSTRING(SurrenderChance_tooltip);
-                property = "ttt_surrender_module_SurrenderChance";
+                property = QGVAR(SurrenderChance);
                 typeName = "NUMBER";
                 defaultValue = "0.5";
-                control = "Slider";
+                control = "Combo";
+
+                class Values {
+                    class _01 {name = "0.1"; value = 0.1;};
+                    class _03 {name = "0.3"; value = 0.3;};
+                    class _05 {name = "0.5"; value = 0.5;};
+                    class _07 {name = "0.7"; value = 0.7;};
+                    class _09 {name = "0.9"; value = 0.9;};
+                    class _10 {name = "1.0"; value = 1.0;};
+                };
             };
 
-            class OutnumberRatio: Combo {
+            class GVAR(OutnumberRatio): Combo {
                 displayName = CSTRING(OutnumberRatio_displayName);
                 tooltip = CSTRING(OutnumberRatio_tooltip);
-                property = "ttt_surrender_module_OutnumberRatio";
+                property = QGVAR(OutnumberRatio);
                 typeName = "NUMBER";
                 defaultValue = "2";
                 control = "Combo";
@@ -82,10 +90,10 @@ class CfgVehicles {
                 };
             };
 
-            class DropWeapon: Checkbox {
+            class GVAR(DropWeapon): Checkbox {
                 displayName = CSTRING(dropWeapon_displayName);
                 tooltip = CSTRING(dropWeapon_tooltip);
-                property = "ttt_surrender_module_dropWeapon";
+                property = QGVAR(DropWeapon);
                 typeName = "BOOL";
                 defaultValue = 0;
                 control = "Checkbox";
