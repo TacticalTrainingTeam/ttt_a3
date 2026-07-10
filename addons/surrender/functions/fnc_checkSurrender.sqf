@@ -28,19 +28,18 @@ private _enemySide = _logic getVariable [QGVAR(Module_EnemySide), "east"];
 private _friendlySide = _logic getVariable [QGVAR(Module_FriendlySide), "west"];
 private _chance = _logic getVariable [QGVAR(Module_SurrenderChance), 0.1];
 private _ratio = _logic getVariable [QGVAR(Module_OutnumberRatio), 2];
+private _area = _logic getVariable ["objectarea", [50, 50, 0, false, -1]];
 
 private _pfhID = [
     {
         params ["_args", "_pfhId"];
-        _args params ["_enemySide", "_friendlySide", "_chance", "_ratio", "_logic"];
+        _args params ["_enemySide", "_friendlySide", "_chance", "_ratio", "_logic", "_area"];
 
         private _enemies = units _enemySide;
         private _friendlies = units _friendlySide;
 
         private _enemiesInArea = [];
         private _friendliesInArea = [];
-
-        private _area = _logic getVariable ["objectarea", [50, 50, 0, false, -1]];
 
         {
             if (getPosASL _x inArea [getPosASL _logic, _area select 0, _area select 1, _area select 2, _area select 3, _area select 4]) then {
@@ -69,7 +68,7 @@ private _pfhID = [
 
     },
     10,
-    [_enemySide, _friendlySide, _chance, _ratio, _logic]
+    [_enemySide, _friendlySide, _chance, _ratio, _logic, _area]
 ] call CBA_fnc_addPerFrameHandler;
 
 _logic setVariable [QGVAR(pfhID), _pfhID, true];
