@@ -12,7 +12,7 @@
  * Per-frame handler ID <NUMBER>
  *
  * Example:
- * [_logic, "", true] call ttt_surrender_fnc_checkSurrender
+ * [_logic, [], true] call ttt_surrender_fnc_checkSurrender
  *
  * Public: No
  */
@@ -22,8 +22,8 @@ TRACE_1("fnc_checkSurrender",_this);
 
 if (!_activated) exitWith {};
 
-private _enemySide = _logic getVariable [QGVAR(Module_EnemySide), "east"];
-private _friendlySide = _logic getVariable [QGVAR(Module_FriendlySide), "west"];
+private _enemySide = _logic getVariable [QGVAR(Module_EnemySide), "EAST"];
+private _friendlySide = _logic getVariable [QGVAR(Module_FriendlySide), "WEST"];
 private _chance = _logic getVariable [QGVAR(Module_SurrenderChance), 0.1];
 private _ratio = _logic getVariable [QGVAR(Module_OutnumberRatio), 2];
 private _area = _logic getVariable ["objectarea", [50, 50, 0, false, -1]];
