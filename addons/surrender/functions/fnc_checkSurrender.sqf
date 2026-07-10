@@ -29,11 +29,12 @@ private _friendlySide = _logic getVariable [QGVAR(Module_FriendlySide), "west"];
 private _chance = _logic getVariable [QGVAR(Module_SurrenderChance), 0.1];
 private _ratio = _logic getVariable [QGVAR(Module_OutnumberRatio), 2];
 private _area = _logic getVariable ["objectarea", [50, 50, 0, false, -1]];
+private _logicPos = getPosASL _logic;
 
 private _pfhID = [
     {
         params ["_args", "_pfhId"];
-        _args params ["_enemySide", "_friendlySide", "_chance", "_ratio", "_logic", "_area"];
+        _args params ["_enemySide", "_friendlySide", "_chance", "_ratio", "_logic", "_area", "_logicPos"];
 
         private _enemies = units _enemySide;
         private _friendlies = units _friendlySide;
@@ -42,17 +43,16 @@ private _pfhID = [
         private _friendliesInArea = [];
 
         {
-            if (getPosASL _x inArea [getPosASL _logic, _area select 0, _area select 1, _area select 2, _area select 3, _area select 4]) then {
-                _enemiesInArea append [_x];
+            if (getPosASL _x inArea [_logicPos, _area select 0, _area select 1, _area select 2, _area select 3, _area select 4]) then {
+                if (side _x == _enemySide) then {
+                    _enemiesInArea append [_x];
+                };
+                if (side _x == _friendlySide) then {                     
+                    _friendliesInArea append [_x];
+                };
             };
-        } forEach _enemies;
-
-        {
-            if (getPosASL _x inArea [getPosASL _logic, _area select 0, _area select 1, _area select 2, _area select 3, _area select 4]) then {
-                _friendliesInArea append [_x];
-            };
-        } forEach _friendlies;
-
+        } forEach _enemies + _friendlies;
+        
         private _friendlyCount = count _friendliesInArea;
         private _enemyCount = count _enemiesInArea;
 
@@ -68,7 +68,7 @@ private _pfhID = [
 
     },
     10,
-    [_enemySide, _friendlySide, _chance, _ratio, _logic, _area]
+    [_enemySide, _friendlySide, _chance, _ratio, _logic, _area, _logicPos]
 ] call CBA_fnc_addPerFrameHandler;
 
 _logic setVariable [QGVAR(pfhID), _pfhID, true];
