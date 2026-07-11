@@ -21,9 +21,9 @@ class CfgVehicles {
         is3DEN = 0;
 
         class AttributeValues {
-			// This section allows you to set the default values for the attributes menu in 3DEN
-			size3[] = { 100, 100, -1 };		// 3D size (x-axis radius, y-axis radius, z-axis radius)
-			isRectangle = 0;				// Sets if the default shape should be a rectangle or ellipse
+            // This section allows you to set the default values for the attributes menu in 3DEN
+            size3[] = { 100, 100, -1 };        // 3D size (x-axis radius, y-axis radius, z-axis radius)
+            isRectangle = 0;                // Sets if the default shape should be a rectangle or ellipse
         };
 
         class Attributes: AttributesBase {
