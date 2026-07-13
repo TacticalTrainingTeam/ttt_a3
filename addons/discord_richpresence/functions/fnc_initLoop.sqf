@@ -20,7 +20,7 @@ TRACE_1("fnc_initLoop",_this);
 
 if !(GVAR(enableDRP)) exitWith {INFO("Discord Rich Presence is disabled by client");};
 
-INFO("Enaled Discord Rich Presence");
+INFO("Enabled Discord Rich Presence");
 
 call FUNC(updateRichPresence);
 
