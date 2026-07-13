@@ -15,7 +15,7 @@
 
 (_this select 0) params ["_target", "_caller"];
 
-target setVariable ["ttt_dronepanel_inUse", true, true];
+_target setVariable ["ttt_dronepanel_inUse", true, true];
 
 _caller playMove "Acts_carFixingWheel";
 
