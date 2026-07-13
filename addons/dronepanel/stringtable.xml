@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
-    <Package name="Signalpanel">
+    <Package name="Dronepanel">
         <Key ID="STR_ttt_Dronepanel_abort">
             <English>Aborted</English>
             <German>Abgebrochen</German>
