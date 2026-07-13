@@ -3,17 +3,18 @@
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
-        units[] = {};
+        units[] = {
+            QGVAR(module)
+        };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ttt_common"};
+        requiredAddons[] = {"ttt_main", "cba_main", "ace_captives"};
         author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"Andx"};
+        authors[] = {""};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };
 
-#include "CfgCommands.hpp"
-#include "CfgHintCategories.hpp"
-#include "CfgHints.hpp"
+#include "CfgEventHandlers.hpp"
+#include "CfgVehicles.hpp"
