@@ -15,7 +15,7 @@
 */
 
 [player, 1, ["ACE_SelfActions", "ACE_Equipment", "ttt_dronepanel_constuct"]] call ace_interact_menu_fnc_removeActionFromObject;
-["Tarp_01_Large_Red_F", 0, ["ACE_MainActions", "ttt_dronepanel_deconstuct"]] call ace_interact_menu_fnc_removeActionFromClass;
+["Tarp_01_small_Red_F", 0, ["ACE_MainActions", "ttt_dronepanel_deconstuct"]] call ace_interact_menu_fnc_removeActionFromClass;
 
 if (!GVAR(enable)) exitWith {};
 
@@ -38,4 +38,4 @@ _deconstructPlane =
 ] call ace_interact_menu_fnc_createAction;
 
 [player, 1, ["ACE_SelfActions", "ACE_Equipment"], _constructPlane] call ace_interact_menu_fnc_AddActionToObject;
-["Tarp_01_Large_Red_F", 0, ["ACE_MainActions"], _deconstructPlane] call ace_interact_menu_fnc_AddActionToClass;
+["Tarp_01_small_Red_F", 0, ["ACE_MainActions"], _deconstructPlane] call ace_interact_menu_fnc_AddActionToClass;

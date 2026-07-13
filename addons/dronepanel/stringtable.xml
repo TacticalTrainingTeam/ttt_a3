@@ -18,12 +18,12 @@
             <German>Rucksäcke die eine Dronenplane aufbauen dürfen</German>
         </Key>
         <Key ID="STR_ttt_Dronepanel_enable_description">
-            <English>Enable Signaling Panel</English>
-            <German>Signalplane aktivieren</German>
+            <English>Enable Drone Panel</English>
+            <German>Dronenplane aktivieren</German>
         </Key>
         <Key ID="STR_ttt_Dronepanel_enable_displayName">
-            <English>Enable Signaling Panel</English>
-            <German>Signalplane aktivieren</German>
+            <English>Enable Drone Panel</English>
+            <German>Dronenplane aktivieren</German>
         </Key>
         <Key ID="STR_ttt_Dronepanel_hintErrorNoSpace">
             <English>No space to lay out the panel</English>

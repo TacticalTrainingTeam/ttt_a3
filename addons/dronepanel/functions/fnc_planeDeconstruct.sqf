@@ -14,8 +14,9 @@
 
 params ["_target", "_caller"];
 
-deleteVehicle nearestObject [_target, ["Land_HelipadEmpty_F"]];
+private _pad = _target getVariable [QGVAR(helipad), objNull];
 
+if (!isNull _pad) then { deleteVehicle _pad; };
 deleteVehicle _target;
 
 [LLSTRING(hintLoaded)] call ace_common_fnc_displayText;
