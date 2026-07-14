@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /*
 * Author: EinStein, Andx
-* 
+*
 * Arguments:
 * 0: Facility <OBJECT>
 * 1: Player <OBJECT>
@@ -20,7 +20,7 @@ _target setVariable ["ttt_dronepanel_inUse", true, true];
 _caller playMove "Acts_carFixingWheel";
 
 [
-    19,
+    GVAR(buildTime)*2,
     [_target,_caller],
     {
         (_this select 0) params ["_target", "_caller"];

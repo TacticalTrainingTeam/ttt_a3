@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /*
 * Author: EinStein, Andx
-* 
+*
 * Arguments:
 * None
 *
@@ -14,12 +14,20 @@
 * Public: No
 */
 
+private _planeColor = switch (GVAR(tarpColor)) do {
+    case 0: {"Tarp_01_Small_Black_F"};
+    case 1: {"Tarp_01_Small_Green_F"};
+    case 2: {"Tarp_01_Small_Red_F"};
+    case 3: {"Tarp_01_Small_Yellow_F"};
+    default {"Tarp_01_Small_Red_F"};
+};
+
 [player, 1, ["ACE_SelfActions", "ACE_Equipment", "ttt_dronepanel_constuct"]] call ace_interact_menu_fnc_removeActionFromObject;
-["Tarp_01_small_Red_F", 0, ["ACE_MainActions", "ttt_dronepanel_deconstuct"]] call ace_interact_menu_fnc_removeActionFromClass;
+[_planeColor, 0, ["ACE_MainActions", "ttt_dronepanel_deconstuct"]] call ace_interact_menu_fnc_removeActionFromClass;
 
 if (!GVAR(enable)) exitWith {};
 
-_constructPlane = 
+_constructPlane =
 [
     "ttt_dronepanel_constuct",
     LLSTRING(actionConstruct),
@@ -38,4 +46,4 @@ _deconstructPlane =
 ] call ace_interact_menu_fnc_createAction;
 
 [player, 1, ["ACE_SelfActions", "ACE_Equipment"], _constructPlane] call ace_interact_menu_fnc_AddActionToObject;
-["Tarp_01_small_Red_F", 0, ["ACE_MainActions"], _deconstructPlane] call ace_interact_menu_fnc_AddActionToClass;
+[_planeColor, 0, ["ACE_MainActions"], _deconstructPlane] call ace_interact_menu_fnc_AddActionToClass;
