@@ -29,7 +29,7 @@ Zusätzlich wird beim Platzieren einer **orangenen ACE-Markierungsfahne** (z.B. 
 ## CBA-Einstellungen
 
 ``` c++
-force ttt_tagging2map_enabled = true; //default: false - ACE-Tagging-Markierungen aktivieren
+force ttt_tagging2map_enabled = false; //default: true - ACE-Tagging-Markierungen aktivieren
 ```
 
 ## Maintainer
