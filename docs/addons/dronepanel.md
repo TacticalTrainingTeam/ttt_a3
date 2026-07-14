@@ -17,6 +17,7 @@ Die Plane ist dabei nicht an den Spieler gebunden. Der abbauende Spieler muss nu
 ``` c++
 force ttt_dronepanel_enable = true;                                                                    //default: false;
 force ttt_dronepanel_supportedBackpacks = '["B_kitbag_rgr"]';                                          //default: '[]';
+force ttt_dronepanel_tarpColor = 2;                                                                    //default: 2; (0 = Black, 1 = Green, 2 = Red, 3 = Yellow)
 force ttt_dronepanel_buildTime = 6;                                                                    //default: 6;
 ```
 
