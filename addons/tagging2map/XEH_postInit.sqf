@@ -15,6 +15,8 @@ if (hasInterface) then {
         if (_colorIndex == -1) exitWith {
             WARNING_1("Unsupported tag color %1",_texture);
         };
+        //Blue is reserved for medical use and should not create a marker to avoid spam
+        if (_colorIndex == 2) exitWith {};
 
         private _marker = [_object, "side", _unit] call EFUNC(common,createPlayerMarker);
         _marker setMarkerShapeLocal "ICON";
@@ -24,10 +26,13 @@ if (hasInterface) then {
     }] call CBA_fnc_addEventHandler;
 
     ["ace_marker_flags_placed", {
-        params ["_player", "_flag", "_item"];
+        params ["_unit", "_flag", "_item"];
+        if (!GVAR(enabled)) exitWith {};
+
+        if (_unit isNotEqualTo player) exitWith {};
 
         if (_item isEqualTo "ace_marker_flags_orange") then {
-            private _marker = [_flag, "side", _player] call EFUNC(common,createPlayerMarker);
+            private _marker = [_flag, "side", _unit] call EFUNC(common,createPlayerMarker);
             _marker setMarkerShapeLocal "ICON";
             _marker setMarkerTypeLocal "hd_dot";
             _marker setMarkerColor ("colorOrange");

@@ -7,6 +7,5 @@
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
 
-//removed ColorBlue / blue because it is used to mark VSS and might overcrowd the map
-#define MARKER_COLORS   ["ColorRed", "ColorGreen", "ColorBlack", "ColorYellow", "ColorWhite"]
-#define TEXTURE_COLORS  ["red", "green", "black", "yellow", "white"]
+#define MARKER_COLORS   ["ColorRed", "ColorGreen", "ColorBlue", "ColorBlack", "ColorYellow", "ColorWhite"]
+#define TEXTURE_COLORS  ["red", "green", "blue", "black", "yellow", "white"]
