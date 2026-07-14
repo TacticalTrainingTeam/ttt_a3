@@ -8,7 +8,7 @@ class EditorData
 	toggles=1025;
 	class ItemIDProvider
 	{
-		nextID=181;
+		nextID=190;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5910.1323,34.735401,4794.2036};
-		dir[]={0.68870413,-0.6176039,0.3799001};
-		up[]={0.5407964,0.7864784,0.298311};
-		aside[]={0.48302308,-5.052425e-07,-0.8756482};
+		pos[]={5836.3076,82.648163,4782.4419};
+		dir[]={0.81573218,-0.50302082,0.28557163};
+		up[]={0.47476852,0.86427426,0.16620703};
+		aside[]={0.33041781,0,-0.94383478};
 	};
 };
 binarizationWanted=0;
@@ -1951,56 +1951,17 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={5996.4268,5,4841.7832};
+				position[]={6040.2051,5,4842.0962};
 			};
-			areaSize[]={50,-1,50};
+			areaSize[]={100,0,43.230999};
 			flags=1;
-			id=180;
+			id=189;
 			type="ttt_surrender_module";
 			class CustomAttributes
 			{
 				class Attribute0
 				{
-					property="ttt_surrender_Module_EnemySide";
-					expression="_this setVariable ['ttt_surrender_EnemySides',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="OPF_F";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ttt_surrender_Module_FriendlySide";
-					expression="_this setVariable ['ttt_surrender_FriendlySides',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="BLU_F";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ttt_surrender_Module_SurrenderChance";
-					expression="false";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=0.0099999998;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ttt_surrender_Module_OutumberRatio";
+					property="ttt_surrender_OutnumberRatio";
 					expression="_this setVariable ['ttt_surrender_OutnumberRatio',_value,true];";
 					class Value
 					{
@@ -2011,7 +1972,59 @@ class Mission
 						};
 					};
 				};
-				nAttributes=4;
+				class Attribute1
+				{
+					property="ttt_surrender_DropWeapon";
+					expression="_this setVariable ['ttt_surrender_DropWeapon',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=1;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ttt_surrender_EnemySide";
+					expression="_this setVariable ['ttt_surrender_EnemySide',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=2;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ttt_surrender_FriendlySide";
+					expression="_this setVariable ['ttt_surrender_FriendlySide',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=1;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ttt_surrender_SurrenderChance";
+					expression="_this setVariable ['ttt_surrender_SurrenderChance',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0.1;
+						};
+					};
+				};
+				nAttributes=5;
 			};
 		};
 	};
