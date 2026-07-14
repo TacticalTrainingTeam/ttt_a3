@@ -2,6 +2,7 @@ PREP(addIntel);
 PREP(callGlobalFnc);
 PREP(callReinforcements);
 PREP(crateFiller);
+PREP(createPlayerMarker);
 PREP(doFlakFire);
 PREP(join);
 PREP(noApiFunction);

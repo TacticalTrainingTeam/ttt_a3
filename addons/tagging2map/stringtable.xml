@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Tagging2Map">
+        <Key ID="STR_ttt_Tagging2Map_DisplayName">
+            <English>Tagging2Map</English>
+            <German>Tagging2Map</German>
+        </Key>
+        <Key ID="STR_ttt_Tagging2Map_Enabled">
+            <English>Enable ACE Tagging markers</English>
+            <German>ACE-Tagging-Markierungen aktivieren</German>
+            <Polish>Włącz markery ACE Tagging</Polish>
+        </Key>
+        <Key ID="STR_ttt_Tagging2Map_Enabled_Description">
+            <English>Automatically create markers on buildings sprayed with ACE Spray.</English>
+            <German>Erstellt automatisch Markierungen auf Gebäuden, die mit ACE Spray besprüht wurden.</German>
+            <Polish>Automatycznie tworzy markery na budynkach oznaczonych sprejem z ACE.</Polish>
+        </Key>
+    </Package>
+</Project>
