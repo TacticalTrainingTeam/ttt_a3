@@ -198,7 +198,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -314,6 +314,11 @@ class Mission
 										count=1;
 									};
 								};
+							};
+							class backpack
+							{
+								typeName="B_Carryall_blk";
+								isBackpack=1;
 							};
 						};
 					};
