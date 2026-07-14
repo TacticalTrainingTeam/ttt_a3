@@ -2,10 +2,12 @@
 
 Erstellt automatisch einen Marker auf der Karte, wenn ein Gebäude mit einer ACE-Sprühflasche oder Kreide markiert wurde. Die Farbe der Markierung auf der Karte entspricht dabei der verwendeten Sprühfarbe.
 
+Zusätzlich wird beim Platzieren einer **orangenen ACE-Markierungsfahne** (z.B. zur IED-Markierung) automatisch ein orangener Kartenmarker erstellt.
+
 !!! info "Hinweis"
     Blaue Farbe erzeugt **keinen** Kartenmarker, da blau für die VSS-Markierung reserviert ist.
 
-## Unterstützte Farben
+## Unterstützte Sprühfarben
 
 | Sprühfarbe | Kartenmarker-Farbe |
 | ---------- | ------------------ |
@@ -14,6 +16,12 @@ Erstellt automatisch einen Marker auf der Karte, wenn ein Gebäude mit einer ACE
 | Schwarz    | Schwarz            |
 | Gelb       | Gelb               |
 | Weiß       | Weiß               |
+
+## Markierungsfahnen
+
+| Fahne         | Kartenmarker-Farbe | Verwendungszweck |
+| ------------- | ------------------ | ---------------- |
+| Orange (ACE)  | Orange             | IED-Markierung   |
 
 ## CBA-Einstellungen
 

@@ -22,4 +22,17 @@ if (hasInterface) then {
         _marker setMarkerColor (MARKER_COLORS select _colorIndex);
 
     }] call CBA_fnc_addEventHandler;
+
+    ["ace_marker_flags_placed", {
+        params ["_player", "_flag", "_item"];
+
+        if (_item isEqualTo "ace_marker_flags_orange") then {
+            private _marker = [_flag, "side", _player] call EFUNC(common,createPlayerMarker);
+            _marker setMarkerShapeLocal "ICON";
+            _marker setMarkerTypeLocal "hd_dot";
+            _marker setMarkerColor ("colorOrange");
+        };
+
+
+    }] call CBA_fnc_addEventHandler;
 };
