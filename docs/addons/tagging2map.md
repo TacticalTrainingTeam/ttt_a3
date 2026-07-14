@@ -7,6 +7,9 @@ Zusätzlich wird beim Platzieren einer **orangenen ACE-Markierungsfahne** (z.B. 
 !!! info "Hinweis"
     Blaue Farbe erzeugt **keinen** Kartenmarker, da blau für die VSS-Markierung reserviert ist.
 
+!!! info "Hinweis"
+    Eine neuere Markierung überschreibt den Kartern-Marker einer älteren Markierung am selben gebäude.
+
 ## Unterstützte Sprühfarben
 
 | Sprühfarbe | Kartenmarker-Farbe |

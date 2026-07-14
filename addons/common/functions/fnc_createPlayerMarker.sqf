@@ -1,4 +1,4 @@
-#include "../script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: veteran29
  * Create player owned marker locally.
@@ -12,7 +12,7 @@
  * Marker ID, empty string if could not create <STRING>
  *
  * Example:
- * [player ,"global"] call afm_common_fnc_createPlayerMarker
+ * [player ,"global"] call ttt_common_fnc_createPlayerMarker
  *
  * Public: No
  */
