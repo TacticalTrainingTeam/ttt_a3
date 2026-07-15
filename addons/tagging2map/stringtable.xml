@@ -12,7 +12,7 @@
         </Key>
         <Key ID="STR_ttt_Tagging2Map_Enabled_Description">
             <English>Automatically create markers on buildings sprayed with ACE Spray.</English>
-            <German>Erstellt automatisch Markierungen auf Gebäuden, die mit ACE Spray besprüht wurden.</German>
+            <German>Erstellt automatisch eine Kartenmarkierung auf Gebäuden, die mit ACE Sprühfarbe markiert wurden.</German>
             <Polish>Automatycznie tworzy markery na budynkach oznaczonych sprejem z ACE.</Polish>
         </Key>
     </Package>
