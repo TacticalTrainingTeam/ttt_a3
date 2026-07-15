@@ -1,21 +1,19 @@
 # Tagging2Map
 
-Erstellt automatisch einen Marker auf der Karte, wenn ein Gebäude mit einer ACE-Sprühflasche oder Kreide markiert wurde. Die Farbe der Markierung auf der Karte entspricht dabei der verwendeten Sprühfarbe.
+Erstellt automatisch einen Marker auf der Karte, wenn ein Gebäude mit einem **X** per ACE-Sprühflasche oder Kreide markiert wurde. Alle Farben werden unterstützt. Andere Formen (Pfeile, Kreis, Kreuz, Diamant, Quadrat, Dreieck) erzeugen keinen Kartenmarker.
 
 Zusätzlich wird beim Platzieren einer **orangenen ACE-Markierungsfahne** (z.B. zur IED-Markierung) automatisch ein orangener Kartenmarker erstellt.
 
 !!! info "Hinweis"
-    Blaue Farbe erzeugt **keinen** Kartenmarker, da blau für die VSS-Markierung reserviert ist.
+    Eine neuere Markierung überschreibt den Kartenmarker einer älteren Markierung am selben Gebäude.
 
-!!! info "Hinweis"
-    Eine neuere Markierung überschreibt den Kartern-Marker einer älteren Markierung am selben gebäude.
-
-## Unterstützte Sprühfarben
+## Unterstützte Sprühfarben (nur X-Form)
 
 | Sprühfarbe | Kartenmarker-Farbe |
 | ---------- | ------------------ |
 | Rot        | Rot                |
 | Grün       | Grün               |
+| Blau       | Blau               |
 | Schwarz    | Schwarz            |
 | Gelb       | Gelb               |
 | Weiß       | Weiß               |
