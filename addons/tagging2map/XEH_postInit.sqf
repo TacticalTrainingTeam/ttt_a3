@@ -15,7 +15,7 @@ if (hasInterface) then {
             "diamond" in _texture ||
             "square" in _texture || //includes filled
             "triangle" in _texture || //includes inverted
-            "ttt" in _texture //takes care of the ttt_parntermod https://github.com/TacticalTrainingTeam/TTT_PartnerMod/blob/main/addons/tagging/ACE_Tags.hpp
+            "ttt" in _texture //takes care of the ttt_partnermod https://github.com/TacticalTrainingTeam/TTT_PartnerMod/blob/main/addons/tagging/ACE_Tags.hpp
         ) exitWith {};
 
         private _colorIndex = TEXTURE_COLORS findIf {toLower _texture find _x != -1};
