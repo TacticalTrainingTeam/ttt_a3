@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Resupply">
+        <Key ID="STR_ttt_Resupply_action_resupply_menu">
+            <English>Resupply</English>
+            <German>Nachschub</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_actionVariable_description">
+            <English>Objects with this variable set to true (via init field) will show the resupply action. Example: this setVariable ["ttt_resupply_enabled", true]</English>
+            <German>Objekte mit dieser Variable (true, im Init-Feld gesetzt) zeigen die Nachschub-Aktion. Beispiel: this setVariable ["ttt_resupply_enabled", true]</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_actionVariable_displayName">
+            <English>Depot Object Variable</English>
+            <German>Variable des Depotobjekts</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_databaseEmpty">
+            <English>Resupply: Database not ready yet. Wait a moment and try again.</English>
+            <German>Nachschub: Datenbank noch nicht bereit. Kurz warten und erneut versuchen.</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_enable_description">
+            <English>Scans player loadouts at mission start and enables on-demand resupply crate spawning.</English>
+            <German>Scannt die Ausruestung der Spieler beim Missionsstart und ermoeglicht bedarfsgerechtes Spawnen von Nachschubkisten.</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_enable_displayName">
+            <English>Enable Resupply</English>
+            <German>Nachschub aktivieren</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_faction_description">
+            <English>Side whose ammo box classes are used for spawned crates (does not affect medical crates).</English>
+            <German>Fraktion, deren Munitionskisten-Klassen fuer gespawnte Kisten verwendet werden (betrifft keine Sanitaetskisten).</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_faction_displayName">
+            <English>Crate Faction</English>
+            <German>Kistenfraktion</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_faction_indep">
+            <English>INDEP</English>
+            <German>INDEP</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_faction_nato">
+            <English>NATO</English>
+            <German>NATO</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_faction_opfor">
+            <English>OPFOR</English>
+            <German>OPFOR</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_quantityMultiplier_description">
+            <English>Multiplier applied to the per-player average quantity of each item in the crate. 1.0 = one player worth.</English>
+            <German>Multiplikator fuer die durchschnittliche Menge pro Spieler jedes Gegenstands in der Kiste. 1.0 = Ausruestung eines Spielers.</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_quantityMultiplier_displayName">
+            <English>Quantity Multiplier</English>
+            <German>Mengenmultiplikator</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_subCategory">
+            <English>Resupply</English>
+            <German>Nachschub</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_type_ammo">
+            <English>Ammo Box</English>
+            <German>Munitionskiste</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_type_at">
+            <English>AT Ammunition Box</English>
+            <German>Panzerfaustkiste</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_type_explosives">
+            <English>Explosives Box</English>
+            <German>Sprengstoffkiste</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_type_grenades">
+            <English>Grenades Box</English>
+            <German>Granatenkiste</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_type_medical_alpha">
+            <English>Medical Alpha Box</English>
+            <German>Sanitaetskiste Alpha</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_type_medical_bravo">
+            <English>Medical Bravo Box</English>
+            <German>Sanitaetskiste Bravo</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_type_medical_charlie">
+            <English>Medical Charlie Box</English>
+            <German>Sanitaetskiste Charlie</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_type_support">
+            <English>Support Box</English>
+            <German>Ausruestungskiste</German>
+        </Key>
+    </Package>
+</Project>
