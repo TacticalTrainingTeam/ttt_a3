@@ -30,8 +30,16 @@
             <German>Kapitulationschance</German>
         </Key>
         <Key ID="STR_ttt_Surrender_SurrenderChance_tooltip">
-            <English>Probability (0-1) that an outnumbered enemy unit will surrender.</English>
-            <German>Wahrscheinlichkeit (0-1), dass eine unterlegene feindliche Einheit kapituliert.</German>
+            <English>Probability that an outnumbered enemy unit will surrender.</English>
+            <German>Wahrscheinlichkeit, dass eine unterlegene feindliche Einheit kapituliert.</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_dropWeapon_displayName">
+            <English>Drop Weapon</English>
+            <German>Waffe fallen lassen</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_dropWeapon_tooltip">
+            <English>Whether surrendering AI units should drop their weapon.</English>
+            <German>Ob kapitulierende KI-Einheiten ihr Waffe fallen lassen sollen.</German>
         </Key>
         <Key ID="STR_ttt_Surrender_module_description">
             <English>This module implements a probabilistic mechanism whereby enemy AI units can be induced to surrender if they are outnumbered by friendly forces.</English>

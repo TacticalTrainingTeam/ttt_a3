@@ -16,6 +16,8 @@ PREP_RECOMPILE_END;
 
 ADDON = true;
 
+GVAR(playerMarkerIdx) = 0; //used in tagging2map
+
 // disable the collision when unconscious
 // originally by Puotek & Bromium https://steamcommunity.com/sharedfiles/filedetails/?id=3450571478
 if (hasInterface) then {
