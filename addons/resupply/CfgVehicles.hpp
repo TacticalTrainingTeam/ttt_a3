@@ -2,8 +2,6 @@ class CfgVehicles {
     class Logic;
     class Module_F: Logic {
         class AttributesBase {
-            class Edit;
-            class Checkbox;
             class ModuleDescription;
         };
         class ModuleDescription {};

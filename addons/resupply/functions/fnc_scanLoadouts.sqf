@@ -115,4 +115,4 @@ GVAR(db_explosives) = _db_explosives;
 GVAR(db_support)    = _db_support;
 
 LOG_5("resupply: Scan complete. ammo=%1 grenades=%2 at=%3 explosives=%4 support=%5",
-    count _db_ammo, count _db_grenades, count _db_at, count _db_explosives, count _db_support);
+    count _db_ammo,count _db_grenades,count _db_at,count _db_explosives,count _db_support);

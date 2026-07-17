@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Resupply">
-        <Key ID="STR_ttt_Resupply_action_resupply_menu">
-            <English>Resupply</English>
-            <German>Nachschub</German>
-        </Key>
         <Key ID="STR_ttt_Resupply_actionVariable_description">
             <English>Objects with this variable set to true (via init field) will show the resupply action. Example: this setVariable ["ttt_resupply_enabled", true]</English>
             <German>Objekte mit dieser Variable (true, im Init-Feld gesetzt) zeigen die Nachschub-Aktion. Beispiel: this setVariable ["ttt_resupply_enabled", true]</German>
@@ -12,6 +8,10 @@
         <Key ID="STR_ttt_Resupply_actionVariable_displayName">
             <English>Depot Object Variable</English>
             <German>Variable des Depotobjekts</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_action_resupply_menu">
+            <English>Resupply</English>
+            <German>Nachschub</German>
         </Key>
         <Key ID="STR_ttt_Resupply_databaseEmpty">
             <English>Resupply: Database not ready yet. Wait a moment and try again.</English>
