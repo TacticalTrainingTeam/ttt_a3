@@ -55,7 +55,7 @@ class CfgVehicles {
     class GVAR(zeusExplosives): Module_F {
         scope = 2;
         displayName = CSTRING(type_explosives);
-        icon = "\A3\ui_f\data\map\markers\nato\b_eng.paa";
+        //icon = "\A3\ui_f\data\map\markers\nato\b_eng.paa";
         category = "Supports";
         function = QFUNC(zeusModule);
         functionPriority = 1;

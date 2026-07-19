@@ -21,29 +21,27 @@
  * Public: Yes
  */
 
-if (!isServer) exitWith { objNull };
-
 params [["_target", objNull, [objNull, []]], ["_type", "ammo", [""]]];
+
+if (!isServer) exitWith { objNull };
 
 // Resolve spawn position — 3 m to the right of a depot object to avoid overlap
 private _pos = if (_target isEqualType objNull) then {
-    if (isNull _target) exitWith {
-        LOG("resupply: spawnCrate called with null object");
-        []
+        if (isNull _target) exitWith {
+            WARNING("spawnCrate called with null object");
+        };
+        _target getRelPos [3, 90]
+    } else {
+        _target
     };
-    _target getRelPos [3, 90]
-} else {
-    _target
-};
 if (_pos isEqualTo []) exitWith { objNull };
 
 // Medical crates are pre-filled by their class definition; no db needed
 private _isMedical = _type in ["medical_alpha", "medical_bravo", "medical_charlie"];
 
 // Guard: scan must have completed before spawning dynamic crates
-if (!_isMedical && { isNil QGVAR(db_ammo) }) exitWith {
-    LOG("resupply: Crate spawn requested but database has not been built yet");
-    [LLSTRING(databaseEmpty)] remoteExec ["systemChat", 0];
+if (!_isMedical && GVAR(db_init)) exitWith {
+    WARNING("Crate spawn requested but database has not been built yet");
     objNull
 };
 
@@ -53,7 +51,7 @@ private _prefix = ["Box_NATO", "Box_East", "Box_IND"] param [GVAR(faction), "Box
 private _crateClass = switch (_type) do {
     case "ammo":             { _prefix + "_Ammo_F" };
     case "grenades":         { _prefix + "_Grenades_F" };
-    case "at";
+    case "at":               { _prefix + "_WpsLaunch_F" };
     case "explosives":       { _prefix + "_AmmoOrd_F" };
     case "support":          { _prefix + "_Support_F" };
     case "medical_alpha":    { "ttt_common_sana_crate" };
@@ -75,7 +73,7 @@ if (!_isMedical) then {
         default            { [] };
     };
     if (_db isNotEqualTo []) then {
-        [[_crate], _db] call ttt_common_fnc_crateFiller;
+        [[_crate], _db] call EFUNC(common,crateFiller);
     };
 };
 

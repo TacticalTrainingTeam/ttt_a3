@@ -4,8 +4,7 @@
     [LSTRING(enable_displayName), LSTRING(enable_description)],
     [ELSTRING(main,TacticalTrainingTeam), LSTRING(subCategory)],
     false,
-    true,
-    {[] call FUNC(addActions)}
+    true
 ] call CBA_fnc_addSetting;
 
 [
