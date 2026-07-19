@@ -10,14 +10,6 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"ttt_common", "ace_interact_menu"};
         units[] = {
-            QGVAR(zeusAmmo),
-            QGVAR(zeusGrenades),
-            QGVAR(zeusAt),
-            QGVAR(zeusExplosives),
-            QGVAR(zeusSupport),
-            QGVAR(zeusMedAlpha),
-            QGVAR(zeusMedBravo),
-            QGVAR(zeusMedCharlie)
         };
         weapons[] = {};
 
@@ -26,4 +18,3 @@ class CfgPatches {
 };
 
 #include "CfgEventHandlers.hpp"
-#include "CfgVehicles.hpp"
