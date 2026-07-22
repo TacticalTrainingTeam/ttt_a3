@@ -1,0 +1,2 @@
+PREP(addArsenalTab);
+PREP(getAllItems);
