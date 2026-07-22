@@ -21,9 +21,10 @@ params [
 ];
 
 if (_value) then {
+    private _exists = missionNamespace getVariable [QGVAR(arsenalTabEstablished), nil];
     
-    if ( isNil QPVAR(arsenalTabEstablished) ) then {
-        missionNamespace setVariable [QPVAR(arsenalTabEstablished), true];
+    if ( isNil _exists ) then {
+        missionNamespace setVariable [QGVAR(arsenalTabEstablished), true];
 
         [
             [] call FUNC(getAllItems),
