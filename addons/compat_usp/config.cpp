@@ -6,7 +6,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"USP_Gear_Pack", "USP_Gear_Acc", "USP_Gear_Body", "USP_Gear_Face", "USP_Gear_Head", "USP_Gear_NVG", "USP_Gear_Pack", "USP_Gear_Vest"};
+        requiredAddons[] = {"ttt_common", "ace_arsenal", "USP_Gear_Pack", "USP_Gear_Acc", "USP_Gear_Body", "USP_Gear_Face", "USP_Gear_Head", "USP_Gear_NVG", "USP_Gear_Pack", "USP_Gear_Vest"};
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Andx", "superjes1"};
         url = ECSTRING(main,URL);

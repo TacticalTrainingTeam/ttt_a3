@@ -1,11 +1,11 @@
 #include "script_component.hpp"
 
-ADDON = false;
+private _all = [];
+private _nvgs = ["USP_Gear_NVG"] call EFUNC(common,getAllItems);
+private _misc = ["USP_Gear_Acc"] call EFUNC(common,getAllItems);
+_all = _all + _nvgs + _misc - ["USP_BOLTCUTTER"];
 
-PREP_RECOMPILE_START;
-#include "XEH_PREP.hpp"
-PREP_RECOMPILE_END;
-
-ADDON = true;
-
-call FUNC(addArsenalTab);
+[
+    _all,
+    "USP Gear"
+] call ace_arsenal_fnc_addRightPanelButton;

@@ -1,2 +1,0 @@
-PREP(addArsenalTab);
-PREP(getAllItems);
