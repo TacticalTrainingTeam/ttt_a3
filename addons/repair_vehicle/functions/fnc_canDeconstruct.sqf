@@ -27,4 +27,4 @@ private _return = false;
     };
 } forEach _arrayVehicles;
 
-_return;
+  _return

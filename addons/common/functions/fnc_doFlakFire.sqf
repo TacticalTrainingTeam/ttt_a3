@@ -41,10 +41,10 @@ private _handle = [
     ] call CBA_fnc_addPerFrameHandler;
 
 //Set Ammo to full on reload
-private _reloaded = _unit addEventHandler ["Reloaded", {
+_unit addEventHandler ["Reloaded", {
     params ["_unit"];
     _unit setVehicleAmmo 1;
 }];
 
 //return
-_handle;
+  _handle
