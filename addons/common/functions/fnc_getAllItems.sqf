@@ -10,7 +10,7 @@
  * Array of Items
  *
  * Example:
- * ["ttt_common"] call ttt_compat_usp_fnc_getAllItems
+ * ["ttt_common"] call ttt_common_fnc_getAllItems
  *
  * Public: No
  */
