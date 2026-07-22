@@ -18,7 +18,7 @@
 
  params ["_crates", "_content", ["_clearCrate", true]];
 {
-    _crateObject = _x;
+    private _crateObject = _x;
     
     if (_clearCrate) then {
         clearWeaponCargoGlobal _crateObject;

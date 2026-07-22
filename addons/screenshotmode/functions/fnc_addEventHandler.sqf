@@ -24,7 +24,7 @@
 params [];
 TRACE_1("fnc_addEventHandler",_this);
 
-_id = [
+private _id = [
     "ace_ui_hideHud",
     {
         params ["_set"];
@@ -60,3 +60,5 @@ _id = [
         };
     }
 ] call CBA_fnc_addEventHandler;
+
+_id

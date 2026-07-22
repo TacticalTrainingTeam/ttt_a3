@@ -15,7 +15,7 @@
 
 (_this select 0) params ["_target"];
 
-_arrayVehicles = nearestObjects [(getPos _target), (parseSimpleArray GVAR(supportedVehicles)), 15];
+private _arrayVehicles = nearestObjects [(getPos _target), (parseSimpleArray GVAR(supportedVehicles)), 15];
 
 private _return = false;
 {

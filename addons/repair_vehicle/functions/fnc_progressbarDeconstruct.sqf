@@ -17,7 +17,7 @@
 
 _target setVariable ["ttt_repair_vehicle_inUse", true, true];
 
-_arrayVehicles = nearestObjects [(getPos _target), (parseSimpleArray GVAR(supportedVehicles)), 15];
+private _arrayVehicles = nearestObjects [(getPos _target), (parseSimpleArray GVAR(supportedVehicles)), 15];
 private "_vehicle";
 private _ArrayVehicle = [];
 {

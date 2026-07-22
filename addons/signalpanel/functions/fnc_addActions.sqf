@@ -19,7 +19,7 @@
 
 if (!GVAR(enable)) exitWith {};
 
-_constructPlane = 
+private _constructPlane = 
 [
     "ttt_signalpanel_constuct",
     LLSTRING(actionConstruct),
@@ -28,7 +28,7 @@ _constructPlane =
     {[_this] call FUNC(canConstruct)}
 ] call ace_interact_menu_fnc_createAction;
 
-_deconstructPlane =
+private _deconstructPlane =
 [
     "ttt_signalpanel_deconstuct",
     LLSTRING(actionDeconstruct),

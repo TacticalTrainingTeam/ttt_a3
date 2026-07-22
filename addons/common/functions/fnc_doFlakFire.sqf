@@ -27,7 +27,7 @@ private _target = _group createUnit ["Logic", [0,0,0], [], 0, "NONE"];
 //hint format ["Ziel: %1, Gruppe: %2", _target, _group];
 
 //Fire
-_handle = [
+private _handle = [
         {
             (_this select 0) params ["_unit","_target"];
 

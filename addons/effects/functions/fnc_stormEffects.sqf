@@ -73,7 +73,7 @@ private _particleThree = "#particlesource" createVehicleLocal (player modelToWor
 	{
 		(_this select 0) params ["_end"];
 		if (time >= (_end - 15)) exitWith {};
-		_wind = playSound (selectRandom ["wind_1","wind_2","wind_3","wind_4","wind_5"]);
+		private _wind = playSound (selectRandom ["wind_1","wind_2","wind_3","wind_4","wind_5"]);
 		if (selectRandomWeighted [true, 40, false, 60]) then {addCamShake [0.35, 20, 25];};		// random camshake
 	}, 
 	11.2,																						//duration of all files is 11.1198 seconds

@@ -36,7 +36,7 @@ params ["_artiTarget","_radius","_rounds","_decrementRadius","_enemyArtyArray"];
 //Exit if there are no guns anymore
 if (_enemyArtyArray isEqualTo []) exitWith {};
 
-_ammo = 0; //init
+private _ammo = 0; //init
 //Get enemy ari ammo
 {
 
@@ -58,10 +58,10 @@ if ((getPos _artiTarget) inRangeOfArtillery [_enemyArtyArray, _ammo]) then
 	missionNamespace setVariable ["Redd_positionFire", true];
 
 	//Get trigger position
-	_centerPos = getPos _artiTarget;
+	private _centerPos = getPos _artiTarget;
 
 	//Get all rounds to fire
-	_allShots = _rounds * (count _enemyArtyArray);
+	private _allShots = _rounds * (count _enemyArtyArray);
 
 	//Start the counter with zero shots fired, do it Global, otherwise the eventhandler doesnt know the variable
 	Redd_arti_shots = 0;
