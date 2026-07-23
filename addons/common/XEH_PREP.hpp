@@ -4,6 +4,7 @@ PREP(callReinforcements);
 PREP(crateFiller);
 PREP(createPlayerMarker);
 PREP(doFlakFire);
+PREP(getAllItems);
 PREP(join);
 PREP(noApiFunction);
 PREP(setAISkill);
