@@ -5,6 +5,10 @@
 - Blendet fehlerhafte Gegenstände aus.
 - Enthält Fehlerbehebungen aus <https://steamcommunity.com/sharedfiles/filedetails/?id=3429002871>.
 
+## Arsenal Tab
+
+Ergänzt außerdem ein Tab im ACE Arsenal in dem alle USP Items aufgelistet sind.
+
 ## Maintainer
 
 - Andx
