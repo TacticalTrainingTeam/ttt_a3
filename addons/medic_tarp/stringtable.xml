@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Medic_Tarp">
-        <Key ID="STR_ttt_medic_tarp_SubCategory">
+        <Key ID="STR_ttt_Medic_Tarp_SubCategory">
             <English>Medical Tarp</English>
             <German>Medizinischer Tarp</German>
         </Key>
-        <Key ID="STR_ttt_medic_tarp_abort">
+        <Key ID="STR_ttt_Medic_Tarp_abort">
             <English>Action aborted</English>
             <German>Vorgang abgebrochen</German>
         </Key>
-        <Key ID="STR_ttt_medic_tarp_actionConstruct">
+        <Key ID="STR_ttt_Medic_Tarp_actionConstruct">
             <English>Lay out medical tarp</English>
             <German>Medizinischen Tarp auslegen</German>
         </Key>
-        <Key ID="STR_ttt_medic_tarp_actionDeconstruct">
+        <Key ID="STR_ttt_Medic_Tarp_actionDeconstruct">
             <English>Stow medical tarp into backpack</English>
             <German>Packe medizinischen Tarp in Rucksack</German>
         </Key>
-        <Key ID="STR_ttt_medic_tarp_hintErrorNoSpace">
+        <Key ID="STR_ttt_Medic_Tarp_hintErrorNoSpace">
             <English>No space to lay out the tarp</English>
             <German>Nicht genug Platz zum Auslegen des Tarps vorhanden.</German>
         </Key>
-        <Key ID="STR_ttt_medic_tarp_hintLoaded">
+        <Key ID="STR_ttt_Medic_Tarp_hintLoaded">
             <English>The tarp was stowed into the backpack.</English>
             <German>"Das Tarp wurde in den Rucksack gepackt."</German>
         </Key>
-        <Key ID="STR_ttt_medic_tarp_settingAdditionalItems_description">
+        <Key ID="STR_ttt_Medic_Tarp_settingAdditionalItems_description">
             <English>Classnames of additional items to be placed on/near the facility.\ni.e.: ["Land_Camping_Light_F","Land_FirstAidKit_01_open_F","Land_Defibrillator_F"]\n(The array must be enclosed with ' in cba_settings.sqf)</English>
             <German>Klassennamen zusätzlicher Objekte die auf/bei der Einrichtung platziert werden sollen.\nBsp: ["Land_Camping_Light_F","Land_FirstAidKit_01_open_F","Land_Defibrillator_F"]\n(In der cba_settings.sqf muss das Array mit ' umschlossen werden)</German>
         </Key>
-        <Key ID="STR_ttt_medic_tarp_settingAdditionalItems_name">
+        <Key ID="STR_ttt_Medic_Tarp_settingAdditionalItems_name">
             <English>Additional Objects</English>
             <German>Zusätzliche Objekte</German>
         </Key>
-        <Key ID="STR_ttt_medic_tarp_settingBuildAnimation_description">
+        <Key ID="STR_ttt_Medic_Tarp_settingBuildAnimation_description">
             <English>The name of the animation to be played.\ni.e.: Acts_carFixingWheel</English>
             <German>Die Bezeichnung der abzuspielenden Animation.\nBsp.: Acts_carFixingWheel</German>
         </Key>
-        <Key ID="STR_ttt_medic_tarp_settingBuildAnimation_name">
+        <Key ID="STR_ttt_Medic_Tarp_settingBuildAnimation_name">
             <English>Animation</English>
             <German>Animation</German>
         </Key>
-        <Key ID="STR_ttt_medic_tarp_settingBuildTime_description">
+        <Key ID="STR_ttt_Medic_Tarp_settingBuildTime_description">
             <English>How many seconds does the player need to lay out the tarp.</English>
             <German>Wie viele Sekunden der Spieler braucht, um den Tarp auszulegen.</German>
         </Key>
-        <Key ID="STR_ttt_medic_tarp_settingBuildTime_name">
+        <Key ID="STR_ttt_Medic_Tarp_settingBuildTime_name">
             <English>Buildtime</English>
             <German>Bauzeit</German>
         </Key>
-        <Key ID="STR_ttt_medic_tarp_settingUseAnimation_description">
+        <Key ID="STR_ttt_Medic_Tarp_settingUseAnimation_description">
             <English>Should the player play an animation during the execution.\n(the animation duration is not taken into account)</English>
             <German>Soll der Spieler während der Durchführung eine Animation abspielen.\n(Die Animationsdauer wird nicht berücksichtigt)</German>
         </Key>
-        <Key ID="STR_ttt_medic_tarp_settingUseAnimation_name">
+        <Key ID="STR_ttt_Medic_Tarp_settingUseAnimation_name">
             <English>Play Animation</English>
             <German>Animation abspielen</German>
         </Key>
-        <Key ID="STR_ttt_medic_tarp_tarp_black_displayName">
+        <Key ID="STR_ttt_Medic_Tarp_tarp_black_displayName">
             <English>Medical Tarp (Black)</English>
             <German>Medizinischer Tarp (Schwarz)</German>
         </Key>
-        <Key ID="STR_ttt_medic_tarp_tarp_description">
+        <Key ID="STR_ttt_Medic_Tarp_tarp_description">
             <English>A tarp that sets up a medical facility when deployed.</English>
             <German>Ein Tarp, das beim Auslegen eine medizinische Einrichtung aufbaut.</German>
         </Key>
-        <Key ID="STR_ttt_medic_tarp_tarp_green_displayName">
+        <Key ID="STR_ttt_Medic_Tarp_tarp_green_displayName">
             <English>Medical Tarp (Green)</English>
             <German>Medizinischer Tarp (Grün)</German>
         </Key>
-        <Key ID="STR_ttt_medic_tarp_tarp_red_displayName">
+        <Key ID="STR_ttt_Medic_Tarp_tarp_red_displayName">
             <English>Medical Tarp (Red)</English>
             <German>Medizinischer Tarp (Rot)</German>
         </Key>
-        <Key ID="STR_ttt_medic_tarp_tarp_yellow_displayName">
+        <Key ID="STR_ttt_Medic_Tarp_tarp_yellow_displayName">
             <English>Medical Tarp (Yellow)</English>
             <German>Medizinischer Tarp (Gelb)</German>
         </Key>
