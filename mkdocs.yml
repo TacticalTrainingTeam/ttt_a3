@@ -168,16 +168,15 @@ nav:
     - Funktionen: addons/common/functions.md
     - Objekte: addons/common/objects.md
   - cTab Vorlagen: addons/ctab_templates.md
+  - Drohnen Tarp: addons/drone_tarp.md
+  - KI-Kapitulation: addons/surrender.md
   - Konterartillerie: addons/counterari.md
   - Loadout-System (MPLS): addons/mpls.md
-  - Mobile San-Einrichtung (Fahrzeug): addons/medic_vehicle.md
-  - Tarps (Framework): addons/tarps.md
   - Medizinisches Tarp: addons/medic_tarp.md
+  - Mobile San-Einrichtung (Fahrzeug): addons/medic_vehicle.md
   - Mobile Werkstatt: addons/repair_vehicle.md
-  - Drohnen Tarp: addons/drone_tarp.md
   - Objekte Abbauen: addons/dismantle.md
   - Signal Tarp: addons/signal_tarp.md
-  - KI-Kapitulation: addons/surrender.md
   - Tagging2Map: addons/tagging2map.md
   - Teleporter: addons/teleport.md
   - Umgebungseffekte: addons/effects.md
@@ -207,3 +206,5 @@ nav:
   - Compat USP: addons/compat_usp.md
   - Compat Vanilla: addons/compat_vanilla.md
   - Compat XEH Fix: addons/compat_xeh_fix.md
+- Addons - Frameworks:
+  - Tarps: addons/tarps.md
