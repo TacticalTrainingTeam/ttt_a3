@@ -2,6 +2,9 @@
 /*
 * Author: EinStein
 *
+* Builds the config for, and registers with, the shared TTT "deployable
+* panel/tent" framework (see ttt_common's deployable* functions).
+*
 * Arguments:
 * None
 *
@@ -14,28 +17,58 @@
 * Public: No
 */
 
-[player, 1, ["ACE_SelfActions", "ACE_Equipment", "ttt_medic_backpack_construct"]] call ace_interact_menu_fnc_removeActionFromObject;
-[GVAR(facilityObject), 0, ["ACE_MainActions", "ttt_medic_backpack_deconstruct"]] call ace_interact_menu_fnc_removeActionFromClass;
+private _classname = {
+    switch (GVAR(tarpColor)) do {
+        case 0: {"Land_MedicalTent_01_floor_dark_F"};
+        case 1: {"Land_MedicalTent_01_floor_light_F"};
+        default {"Land_MedicalTent_01_floor_dark_F"};
+    };
+};
 
-if (!GVAR(enable)) exitWith {};
+private _onConstruct = {
+    params ["_object", "_caller"];
 
-_constructPlane =
-[
-    QGVAR(construct),
-    LLSTRING(actionConstruct),
-    "\a3\ui_f\data\IGUI\Cfg\simpleTasks\types\use_ca.paa",
-    {[_this] call FUNC(progressbarConstruct)},
-    {[_this] call FUNC(canConstruct)}
-] call ace_interact_menu_fnc_createAction;
+    _object setVariable ["ace_medical_isMedicalFacility", true, true];
+    [_object, false] remoteExec ["allowDamage", (owner _object), false];
 
-_deconstructPlane =
-[
-    QGVAR(deconstruct),
-    LLSTRING(actionDeconstruct),
-    "\a3\Ui_f\data\IGUI\Cfg\Actions\take_ca.paa",
-    {[_this] call FUNC(progressbarDeconstruct)},
-    {[_this] call FUNC(canDeconstruct)}
-] call ace_interact_menu_fnc_createAction;
+    private _position = getPos _object;
+    {
+        createVehicle [_x, _position, [], 2, "NONE"];
+    } forEach (parseSimpleArray GVAR(additionalItems));
 
-[player, 1, ["ACE_SelfActions", "ACE_Equipment"], _constructPlane] call ace_interact_menu_fnc_AddActionToObject;
-[GVAR(facilityObject), 0, ["ACE_MainActions"], _deconstructPlane] call ace_interact_menu_fnc_AddActionToClass;
+    private _arrayItems = nearestObjects [_position, (parseSimpleArray GVAR(additionalItems)), 10];
+    {
+        _x addCuratorEditableObjects [([_object] + _arrayItems), false];
+    } forEach allCurators;
+
+    INFO_3("Medical backpack item %1 was created at %2 by %3",_object,_position,_caller);
+};
+
+private _onDeconstruct = {
+    params ["_target"];
+    private _arrayItems = nearestObjects [(getPos _target), (parseSimpleArray GVAR(additionalItems)), 10];
+    deleteVehicle _arrayItems;
+};
+
+private _config = createHashMapFromArray [
+    ["constructId", QGVAR(construct)],
+    ["deconstructId", QGVAR(deconstruct)],
+    ["classname", _classname],
+    ["deconstructClass", call _classname],
+    ["enable", GVAR(enable)],
+    ["supportedBackpacks", parseSimpleArray GVAR(supportedBackpacks)],
+    ["hasItemVar", "ttt_medic_backpack_hasTent"],
+    ["inUseVar", "ttt_medic_backpack_inUse"],
+    ["buildTime", GVAR(buildTime)],
+    ["useAnimation", GVAR(useAnimation)],
+    ["animation", GVAR(buildAnimation)],
+    ["constructText", LLSTRING(actionConstruct)],
+    ["deconstructText", LLSTRING(actionDeconstruct)],
+    ["abortText", LLSTRING(abort)],
+    ["hintErrorNoSpace", LLSTRING(hintErrorNoSpace)],
+    ["hintLoaded", LLSTRING(hintLoaded)],
+    ["onConstruct", _onConstruct],
+    ["onDeconstruct", _onDeconstruct]
+];
+
+[_config] call EFUNC(common,deployableAddActions);

@@ -1,7 +1,10 @@
 #include "..\script_component.hpp"
 /*
 * Author: EinStein, Andx
-* 
+*
+* Builds the config for, and registers with, the shared TTT "deployable
+* panel/tent" framework (see ttt_common's deployable* functions).
+*
 * Arguments:
 * None
 *
@@ -14,28 +17,32 @@
 * Public: No
 */
 
-[player, 1, ["ACE_SelfActions", "ACE_Equipment", "ttt_signalpanel_constuct"]] call ace_interact_menu_fnc_removeActionFromObject;
-["Tarp_01_Large_Red_F", 0, ["ACE_MainActions", "ttt_signalpanel_deconstuct"]] call ace_interact_menu_fnc_removeActionFromClass;
+private _classname = {
+    switch (GVAR(tarpColor)) do {
+        case 0: {"Tarp_01_Large_Black_F"};
+        case 1: {"Tarp_01_Large_Green_F"};
+        case 2: {"Tarp_01_Large_Red_F"};
+        case 3: {"Tarp_01_Large_Yellow_F"};
+        default {"Tarp_01_Large_Red_F"};
+    };
+};
 
-if (!GVAR(enable)) exitWith {};
+private _config = createHashMapFromArray [
+    ["constructId", "ttt_signalpanel_constuct"],
+    ["deconstructId", "ttt_signalpanel_deconstuct"],
+    ["classname", _classname],
+    ["deconstructClass", call _classname],
+    ["enable", GVAR(enable)],
+    ["supportedBackpacks", parseSimpleArray GVAR(supportedBackpacks)],
+    ["hasItemVar", "ttt_signalpanel_hasTarp"],
+    ["inUseVar", "ttt_signalpanel_inUse"],
+    ["buildTime", GVAR(buildTime)],
+    ["deconstructTimeMultiplier", 2],
+    ["constructText", LLSTRING(actionConstruct)],
+    ["deconstructText", LLSTRING(actionDeconstruct)],
+    ["abortText", LLSTRING(abort)],
+    ["hintErrorNoSpace", LLSTRING(hintErrorNoSpace)],
+    ["hintLoaded", LLSTRING(hintLoaded)]
+];
 
-_constructPlane = 
-[
-    "ttt_signalpanel_constuct",
-    LLSTRING(actionConstruct),
-    "\a3\ui_f\data\IGUI\Cfg\simpleTasks\types\use_ca.paa",
-    {[_this] call FUNC(progressbarConstruct)},
-    {[_this] call FUNC(canConstruct)}
-] call ace_interact_menu_fnc_createAction;
-
-_deconstructPlane =
-[
-    "ttt_signalpanel_deconstuct",
-    LLSTRING(actionDeconstruct),
-    "\a3\Ui_f\data\IGUI\Cfg\Actions\take_ca.paa",
-    {[_this] call FUNC(progressbarDeconstruct)},
-    {[_this] call FUNC(canDeconstruct)}
-] call ace_interact_menu_fnc_createAction;
-
-[player, 1, ["ACE_SelfActions", "ACE_Equipment"], _constructPlane] call ace_interact_menu_fnc_AddActionToObject;
-["Tarp_01_Large_Red_F", 0, ["ACE_MainActions"], _deconstructPlane] call ace_interact_menu_fnc_AddActionToClass;
+[_config] call EFUNC(common,deployableAddActions);

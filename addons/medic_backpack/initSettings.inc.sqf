@@ -20,14 +20,13 @@
 ] call CBA_fnc_addSetting;
 
 [
-    QGVAR(facilityObject),
-    "EDITBOX",
-    [LSTRING(settingFacilityObject_name), LSTRING(settingFacilityObject_description)],
+    QGVAR(tarpColor),
+    "LIST",
+    ["Tarp Color", "Color of the Facility"],
     [ELSTRING(main,TacticalTrainingTeam), LSTRING(SubCategory)],
-    "Land_MedicalTent_01_floor_dark_F",
+    [[0, 1], ["Dark", "Light"], 0],
     true,
-    {[] call FUNC(addActions);},
-    true
+    {[] call FUNC(addActions);}
 ] call CBA_fnc_addSetting;
 
 [

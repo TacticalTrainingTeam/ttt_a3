@@ -25,7 +25,8 @@
     ["Tarp Color", "Color of the Panel"],
     [ELSTRING(main,TacticalTrainingTeam), LSTRING(SubCategory)],
     [[0, 1, 2, 3], ["Black", "Green", "Red", "Yellow"], 2],
-    1
+    1,
+    {[] call FUNC(addActions);}
 ] call CBA_fnc_addSetting;
 
 [

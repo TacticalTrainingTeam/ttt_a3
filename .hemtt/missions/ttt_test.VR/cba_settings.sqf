@@ -2,7 +2,7 @@ force ttt_teleporter_cam_enableTeleport = true;
 
 force ttt_medic_backpack_enable = true;
 force ttt_medic_backpack_supportedBackpacks = '["B_Kitbag_rgr"]';
-force ttt_medic_backpack_facilityObject = "Land_MedicalTent_01_floor_dark_F";
+force ttt_medic_backpack_tarpColor = 0;
 force ttt_medic_backpack_additionalItems = '["Land_Camping_Light_F","Land_FirstAidKit_01_open_F","Land_Defibrillator_F"]';
 force ttt_medic_backpack_buildTime = 4;
 force ttt_medic_backpack_useAnimation = true;

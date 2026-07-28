@@ -9,6 +9,16 @@
 ] call CBA_fnc_addSetting;
 
 [
+    QGVAR(tarpColor),
+    "LIST",
+    ["Tarp Color", "Color of the Panel"],
+    [ELSTRING(main,TacticalTrainingTeam), LSTRING(SubCategory)],
+    [[0, 1, 2, 3], ["Black", "Green", "Red", "Yellow"], 2],
+    true,
+    {[] call FUNC(addActions);}
+] call CBA_fnc_addSetting;
+
+[
     QGVAR(buildTime),
     "SLIDER",
     [LSTRING(settingBuildTime_name), LSTRING(settingBuildTime_description)],
