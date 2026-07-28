@@ -12,14 +12,14 @@
  * purely by whether the caller carries one of the configured tarp items.
  *
  * Arguments:
- * 0: Config <HASHMAP> - see EFUNC(common,deployableConstruct) header for the
+ * 0: Config <HASHMAP> - see EFUNC(tarps,deployableConstruct) header for the
  *    full list of supported keys.
  *
  * Return Value:
  * None
  *
  * Example:
- * [_config] call ttt_common_fnc_deployableAddActions;
+ * [_config] call ttt_tarps_fnc_deployableAddActions;
  *
  * Public: Yes
  */

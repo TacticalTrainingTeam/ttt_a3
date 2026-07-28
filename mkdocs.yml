@@ -172,7 +172,8 @@ nav:
   - Konterartillerie: addons/counterari.md
   - Loadout-System (MPLS): addons/mpls.md
   - Mobile San-Einrichtung (Fahrzeug): addons/medic_vehicle.md
-  - Mobile San-Einrichtung (Rucksack): addons/medic_tarp.md
+  - Tarps (Framework): addons/tarps.md
+  - Medizinisches Tarp: addons/medic_tarp.md
   - Mobile Werkstatt: addons/repair_vehicle.md
   - Drohnen Tarp: addons/drone_tarp.md
   - Objekte Abbauen: addons/dismantle.md
