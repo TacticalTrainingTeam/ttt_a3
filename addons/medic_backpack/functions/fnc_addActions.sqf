@@ -18,8 +18,10 @@
 */
 
 private _tarpItems = [
-    [QGVAR(tarp_Dark), "Land_MedicalTent_01_floor_dark_F"],
-    [QGVAR(tarp_Light), "Land_MedicalTent_01_floor_light_F"]
+    [QGVAR(tarp_Black), "Tarp_01_Large_Black_F"],
+    [QGVAR(tarp_Green), "Tarp_01_Large_Green_F"],
+    [QGVAR(tarp_Red), "Tarp_01_Large_Red_F"],
+    [QGVAR(tarp_Yellow), "Tarp_01_Large_Yellow_F"]
 ];
 
 private _onConstruct = {

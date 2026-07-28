@@ -57,17 +57,25 @@
             <English>Play Animation</English>
             <German>Animation abspielen</German>
         </Key>
-        <Key ID="STR_ttt_Medic_Backpack_tarp_dark_displayName">
-            <English>Medical Tarp (Dark)</English>
-            <German>Medizinischer Tarp (Dunkel)</German>
+        <Key ID="STR_ttt_Medic_Backpack_tarp_black_displayName">
+            <English>Medical Tarp (Black)</English>
+            <German>Medizinischer Tarp (Schwarz)</German>
         </Key>
         <Key ID="STR_ttt_Medic_Backpack_tarp_description">
             <English>A medical facility tarp. Requires the corresponding action to build it.</English>
             <German>Ein medizinischer Einrichtungs-Tarp. Benötigt die entsprechende Aktion zum Aufbau.</German>
         </Key>
-        <Key ID="STR_ttt_Medic_Backpack_tarp_light_displayName">
-            <English>Medical Tarp (Light)</English>
-            <German>Medizinischer Tarp (Hell)</German>
+        <Key ID="STR_ttt_Medic_Backpack_tarp_green_displayName">
+            <English>Medical Tarp (Green)</English>
+            <German>Medizinischer Tarp (Grün)</German>
+        </Key>
+        <Key ID="STR_ttt_Medic_Backpack_tarp_red_displayName">
+            <English>Medical Tarp (Red)</English>
+            <German>Medizinischer Tarp (Rot)</German>
+        </Key>
+        <Key ID="STR_ttt_Medic_Backpack_tarp_yellow_displayName">
+            <English>Medical Tarp (Yellow)</English>
+            <German>Medizinischer Tarp (Gelb)</German>
         </Key>
     </Package>
 </Project>
