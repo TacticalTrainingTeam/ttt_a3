@@ -19,7 +19,7 @@
         </Key>
         <Key ID="STR_ttt_signal_tarp_hintLoaded">
             <English>The tarp was stowed into the backpack.</English>
-            <German>"Der Tarp wurde in den Rucksack gepackt."</German>
+            <German>"Das Tarp wurde in den Rucksack gepackt."</German>
         </Key>
         <Key ID="STR_ttt_signal_tarp_settingBuildAnimation_description">
             <English>The name of the animation to be played.\ni.e.: Acts_carFixingWheel</English>
@@ -31,7 +31,7 @@
         </Key>
         <Key ID="STR_ttt_signal_tarp_settingBuildTime_description">
             <English>How many seconds does the player need to lay out the tarp.</English>
-            <German>Wie viele Sekunden der Spieler braucht, um den Tarp auszubreiten.</German>
+            <German>Wie viele Sekunden der Spieler braucht, um das Tarp auszubreiten.</German>
         </Key>
         <Key ID="STR_ttt_signal_tarp_settingBuildTime_name">
             <English>Buildtime</English>
@@ -55,7 +55,7 @@
         </Key>
         <Key ID="STR_ttt_signal_tarp_tarp_description">
             <English>A large colored tarp used to visually mark a landing zone for a helicopter.</English>
-            <German>Ein großer farbiger Tarp zur optischen Markierung einer Landezone für einen Hubschrauber.</German>
+            <German>Ein großes farbiges Tarp zur optischen Markierung einer Landezone für einen Hubschrauber.</German>
         </Key>
         <Key ID="STR_ttt_signal_tarp_tarp_green_displayName">
             <English>Signal Tarp (Green)</English>

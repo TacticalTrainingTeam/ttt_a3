@@ -30,8 +30,6 @@ private _onConstruct = {
     private _pad =  createVehicle ["Land_HelipadEmpty_F", getPos _object, [], 0, "CAN_COLLIDE"];
     [_object, false] remoteExec ["allowDamage", (owner _object), false];
     _object setVariable [QGVAR(helipad), _pad, true];
-
-
 };
 
 private _onDeconstruct = {
@@ -57,4 +55,4 @@ private _config = createHashMapFromArray [
     ["onDeconstruct", _onDeconstruct]
 ];
 
-[_config] call EFUNC(common,deployableAddActions);
+[_config] call EFUNC(tarps,deployableAddActions);

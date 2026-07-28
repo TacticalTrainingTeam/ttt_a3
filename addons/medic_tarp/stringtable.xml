@@ -23,7 +23,7 @@
         </Key>
         <Key ID="STR_ttt_medic_tarp_hintLoaded">
             <English>The tarp was stowed into the backpack.</English>
-            <German>"Der Tarp wurde in den Rucksack gepackt."</German>
+            <German>"Das Tarp wurde in den Rucksack gepackt."</German>
         </Key>
         <Key ID="STR_ttt_medic_tarp_settingAdditionalItems_description">
             <English>Classnames of additional items to be placed on/near the facility.\ni.e.: ["Land_Camping_Light_F","Land_FirstAidKit_01_open_F","Land_Defibrillator_F"]\n(The array must be enclosed with ' in cba_settings.sqf)</English>
@@ -63,7 +63,7 @@
         </Key>
         <Key ID="STR_ttt_medic_tarp_tarp_description">
             <English>A tarp that sets up a medical facility when deployed.</English>
-            <German>Ein Tarp, der beim Auslegen eine medizinische Einrichtung aufbaut.</German>
+            <German>Ein Tarp, das beim Auslegen eine medizinische Einrichtung aufbaut.</German>
         </Key>
         <Key ID="STR_ttt_medic_tarp_tarp_green_displayName">
             <English>Medical Tarp (Green)</English>

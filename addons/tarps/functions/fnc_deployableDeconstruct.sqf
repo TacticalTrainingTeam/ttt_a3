@@ -30,6 +30,6 @@ deleteVehicle _target;
 [(_config get "hintLoaded")] call ace_common_fnc_displayText;
 
 _caller switchMove "";
-_caller addItem _itemClassname;
+_caller addItemToBackpack _itemClassname;
 
-[QGVAR(tarpDeconstructed), [_target, _caller, _config], _caller] call CBA_fnc_localEvent;
+[QGVAR(tarpDeconstructed), [_target, _caller, _itemClassname, _config], _caller] call CBA_fnc_localEvent;

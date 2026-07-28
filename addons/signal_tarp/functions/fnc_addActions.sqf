@@ -46,4 +46,4 @@ private _config = createHashMapFromArray [
     ["onConstruct", _onConstruct]
 ];
 
-[_config] call EFUNC(common,deployableAddActions);
+[_config] call EFUNC(tarps,deployableAddActions);
