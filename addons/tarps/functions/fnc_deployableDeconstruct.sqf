@@ -25,11 +25,11 @@ private _onDeconstruct = _config getOrDefault ["onDeconstruct", {}];
 
 private _itemClassname = _target getVariable [QGVAR(sourceItem), ""];
 
+[QGVAR(tarpDeconstructed), [_target, _caller, _itemClassname, _config], _caller] call CBA_fnc_localEvent;
+
 deleteVehicle _target;
 
 [(_config get "hintLoaded")] call ace_common_fnc_displayText;
 
 _caller switchMove "";
 _caller addItemToBackpack _itemClassname;
-
-[QGVAR(tarpDeconstructed), [_target, _caller, _itemClassname, _config], _caller] call CBA_fnc_localEvent;

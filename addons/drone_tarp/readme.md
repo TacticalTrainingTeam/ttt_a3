@@ -1,6 +1,6 @@
-# TTT Dronen Tarp
+# TTT Drohnen Tarp
 
-Ermöglicht das Auslegen eines Tarps, der als Landeplatz für eine Drohne genutzt werden kann. Der Spieler benötigt dazu einen Dronen-Tarp-Gegenstand im Inventar.
+ Ermöglicht das Auslegen eines Tarps, das als Landeplatz für eine Drohne genutzt werden kann. Der Spieler benötigt dazu einen Drohnen-Tarp-Gegenstand im Inventar.
 
 ## Maintainer
 

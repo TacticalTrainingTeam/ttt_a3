@@ -54,7 +54,9 @@ private _parentConstructAction = [
     _x params ["_itemClassname", "_objectClassname"];
     private _displayName = getText (configFile >> "CfgWeapons" >> _itemClassname >> "displayName");
 
-    private _itemConfig = +_config;
+     private _itemConfig = createHashMap;
+     _itemConfig merge _config;
+
     _itemConfig set ["tarpItems", [[_itemClassname, _objectClassname]]];
 
     private _childAction = [

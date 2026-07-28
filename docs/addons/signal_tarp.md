@@ -14,7 +14,7 @@ force ttt_signal_tarp_buildAnimation = "Acts_carFixingWheel";                   
 
 ## Beispielbild
 
-![Eine ttt_signalplane in Aktion.](https://i.imgur.com/HzgONyi.jpeg)
+![Eine ttt_signal_tarp_ in Aktion.](https://i.imgur.com/HzgONyi.jpeg)
 
 ## Maintainer
 

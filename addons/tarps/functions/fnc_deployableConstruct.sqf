@@ -21,7 +21,7 @@
  * Public: No
  */
 
-params ["_target", "_caller", "_config"];
+params ["_target", "_caller", "_config", "_position"];
 
 private _carriedItems = items _target;
 private _tarpItems = _config get "tarpItems";
@@ -29,7 +29,6 @@ private _tarpItems = _config get "tarpItems";
 
 _target removeItem _itemClassname;
 
-private _position = (_target getPos [8, getDir _target]) findEmptyPosition [1, 2, "Tank"];
 private _object = createVehicle [_classname, _position, [], 0, "CAN_COLLIDE"];
 _object setDir (getDir _target);
 

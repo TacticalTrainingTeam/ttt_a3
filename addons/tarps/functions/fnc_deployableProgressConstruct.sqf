@@ -16,21 +16,21 @@
 
 (_this select 0) params ["_target", "_caller", "_config"];
 
-private _position = (_target getPos [8, getDir _target]) findEmptyPosition [1, 2, "Tank"];
+private _position = (_caller getPos [4, getDir _caller]) findEmptyPosition [1, 2];
 if (_position isEqualTo []) exitWith {
     [(_config get "hintErrorNoSpace"), true] call ace_common_fnc_displayText;
 };
 
 if (_config getOrDefault ["useAnimation", true]) then {
-    _target playMove (_config getOrDefault ["animation", "Acts_carFixingWheel"]);
+    _caller playMove (_config getOrDefault ["animation", "Acts_carFixingWheel"]);
 };
 
 [
     _config get "buildTime",
-    [_target, _caller, _config],
+    [_target, _caller, _config, _position],
     {
-        (_this select 0) params ["_target", "_caller", "_config"];
-        [_target, _caller, _config] call FUNC(deployableConstruct);
+        (_this select 0) params ["_target", "_caller", "_config", "_position"];
+        [_target, _caller, _config, _position] call FUNC(deployableConstruct);
     },
     {
         (_this select 0) params ["_target", "_caller", "_config"];

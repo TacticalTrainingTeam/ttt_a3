@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5836.3076,82.648163,4782.4419};
-		dir[]={0.81573218,-0.50302082,0.28557163};
-		up[]={0.47476852,0.86427426,0.16620703};
-		aside[]={0.33041781,0,-0.94383478};
+		pos[]={5885.8096,25.72998,4801.603};
+		dir[]={0.89209497,-0.44665572,0.068385005};
+		up[]={0.44535133,0.89470458,0.034139007};
+		aside[]={0.07643301,9.244286e-08,-0.99707741};
 	};
 };
 binarizationWanted=0;
@@ -33,6 +33,8 @@ addons[]=
 	"A3_Characters_F",
 	"ttt_uniforms",
 	"ace_fortify",
+	"ttt_medic_tarp",
+	"ttt_drone_tarp",
 	"ace_goggles",
 	"A3_Modules_F_Curator_Curator",
 	"A3_Supplies_F_Heli_CargoNets",
@@ -51,7 +53,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=19;
+		items=21;
 		class Item0
 		{
 			className="A3_Soft_F_Gamma";
@@ -96,89 +98,103 @@ class AddonsMetaData
 		};
 		class Item6
 		{
+			className="ttt_medic_tarp";
+			name="TTT - Medical Tarp";
+			author="Tactical Training Team";
+			url="https://tacticalteam.de";
+		};
+		class Item7
+		{
+			className="ttt_drone_tarp";
+			name="TTT - Drone Tarp";
+			author="Tactical Training Team";
+			url="https://tacticalteam.de";
+		};
+		class Item8
+		{
 			className="ace_goggles";
 			name="ACE3 - Goggles";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item7
+		class Item9
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item8
+		class Item10
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item9
+		class Item11
 		{
 			className="A3_Air_F_Heli";
 			name="Arma 3 Helicopters - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item10
+		class Item12
 		{
 			className="ttt_signs";
 			name="TTT - Signs";
 			author="Tactical Training Team";
 			url="https://tacticalteam.de";
 		};
-		class Item11
+		class Item13
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item12
+		class Item14
 		{
 			className="A3_Armor_F_Beta";
 			name="Arma 3 Beta - Armored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item13
+		class Item15
 		{
 			className="ace_repair";
 			name="ACE3 - Repair";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item14
+		class Item16
 		{
 			className="ace_vehicle_damage";
 			name="ACE3 - Vehicle Damage";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item15
+		class Item17
 		{
 			className="acre_sys_intercom";
 			name="ACRE2 - Vehicle Intercom";
 			author="ACRE2Team";
 			url="https://github.com/IDI-Systems/acre2";
 		};
-		class Item16
+		class Item18
 		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item17
+		class Item19
 		{
 			className="ace_dragging";
 			name="ACE3 - Dragging";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item18
+		class Item20
 		{
 			className="ttt_surrender";
 			name="TTT - Surrender";
@@ -198,7 +214,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Scenario";
 		class Attribute0
@@ -319,6 +335,30 @@ class Mission
 							{
 								typeName="B_Carryall_blk";
 								isBackpack=1;
+								class ItemCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="ttt_medic_tarp_tarp_Green";
+										count=1;
+									};
+									class Item1
+									{
+										name="ttt_medic_tarp_tarp_Red";
+										count=1;
+									};
+									class Item2
+									{
+										name="ttt_medic_tarp_tarp_Yellow";
+										count=1;
+									};
+									class Item3
+									{
+										name="ttt_drone_tarp_tarp_Yellow";
+										count=1;
+									};
+								};
 							};
 						};
 					};
