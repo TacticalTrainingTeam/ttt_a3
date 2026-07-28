@@ -5,8 +5,8 @@
  * Generic add-actions handler for the TTT "deployable tarp" framework.
  * Registers the ACE self-interaction "construct" action on the player and the
  * "deconstruct" action on every possible deployed tarp class, driven entirely
- * by the supplied config HashMap. Used by ttt_dronepanel, ttt_signalpanel and
- * ttt_medic_backpack. Always registered - availability is gated purely by
+ * by the supplied config HashMap. Used by ttt_drone_tarp, ttt_signal_tarp and
+ * ttt_medic_tarp. Always registered - availability is gated purely by
  * whether the caller carries one of the configured tarp items.
  *
  * Arguments:

@@ -12,7 +12,7 @@
 * None
 *
 * Example:
-* [] call ttt_dronepanel_fnc_addActions;
+* [] call ttt_drone_tarp_fnc_addActions;
 *
 * Public: No
 */
@@ -27,8 +27,8 @@ private _tarpItems = [
 // The drone tarp also needs a helipad prop so drones can land on it
 private _onConstruct = {
     params ["_object"];
-    private _pad = "Land_HelipadEmpty_F" createVehicle (getPos _object);
-    _pad setDir (getDir _object);
+    private _pad =  createVehicle ["Land_HelipadEmpty_F", getPos _object, [], 0, "CAN_COLLIDE"];
+    [_object, false] remoteExec ["allowDamage", (owner _object), false];
     _object setVariable [QGVAR(helipad), _pad, true];
 };
 
@@ -39,13 +39,14 @@ private _onDeconstruct = {
 };
 
 private _config = createHashMapFromArray [
-    ["constructId", "ttt_dronepanel_constuct"],
-    ["deconstructId", "ttt_dronepanel_deconstuct"],
+    ["constructId", QGVAR(construct)],
+    ["deconstructId", QGVAR(deconstruct)],
     ["tarpItems", _tarpItems],
-    ["inUseVar", "ttt_dronepanel_inUse"],
+    ["inUseVar", QGVAR(inUse)],
     ["buildTime", GVAR(buildTime)],
     ["deconstructTimeMultiplier", 2],
     ["useAnimation", GVAR(useAnimation)],
+    ["animation", GVAR(buildAnimation)],
     ["constructText", LLSTRING(actionConstruct)],
     ["deconstructText", LLSTRING(actionDeconstruct)],
     ["abortText", LLSTRING(abort)],

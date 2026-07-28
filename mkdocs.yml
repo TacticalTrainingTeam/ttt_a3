@@ -172,11 +172,11 @@ nav:
   - Konterartillerie: addons/counterari.md
   - Loadout-System (MPLS): addons/mpls.md
   - Mobile San-Einrichtung (Fahrzeug): addons/medic_vehicle.md
-  - Mobile San-Einrichtung (Rucksack): addons/medic_backpack.md
+  - Mobile San-Einrichtung (Rucksack): addons/medic_tarp.md
   - Mobile Werkstatt: addons/repair_vehicle.md
-  - Drohnen Tarp: addons/dronepanel.md
+  - Drohnen Tarp: addons/drone_tarp.md
   - Objekte Abbauen: addons/dismantle.md
-  - Signal Tarp: addons/signalpanel.md
+  - Signal Tarp: addons/signal_tarp.md
   - KI-Kapitulation: addons/surrender.md
   - Tagging2Map: addons/tagging2map.md
   - Teleporter: addons/teleport.md

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Drone_Tarp">
+        <Key ID="STR_ttt_drone_tarp_abort">
+            <English>Aborted</English>
+            <German>Abgebrochen</German>
+        </Key>
+        <Key ID="STR_ttt_drone_tarp_actionConstruct">
+            <English>Laying out drone tarp.</English>
+            <German>Drohnentarp auslegen.</German>
+        </Key>
+        <Key ID="STR_ttt_drone_tarp_actionDeconstruct">
+            <English>Stow drone tarp into backpack.</English>
+            <German>Packe Drohnentarp in Rucksack.</German>
+        </Key>
+        <Key ID="STR_ttt_drone_tarp_hintErrorNoSpace">
+            <English>No space to lay out the tarp</English>
+            <German>Nicht genügend Platz um den Tarp auszulegen</German>
+        </Key>
+        <Key ID="STR_ttt_drone_tarp_hintLoaded">
+            <English>The tarp was stowed into the backpack.</English>
+            <German>"Der Tarp wurde in den Rucksack gepackt."</German>
+        </Key>
+        <Key ID="STR_ttt_drone_tarp_settingBuildAnimation_description">
+            <English>The name of the animation to be played.\ni.e.: Acts_carFixingWheel</English>
+            <German>Die Bezeichnung der abzuspielenden Animation.\nBsp.: Acts_carFixingWheel</German>
+        </Key>
+        <Key ID="STR_ttt_drone_tarp_settingBuildAnimation_name">
+            <English>Animation</English>
+            <German>Animation</German>
+        </Key>
+        <Key ID="STR_ttt_drone_tarp_settingBuildTime_description">
+            <English>How many seconds does the player need to lay out the tarp.</English>
+            <German>Wie viele Sekunden der Spieler braucht, um den Tarp auszubreiten.</German>
+        </Key>
+        <Key ID="STR_ttt_drone_tarp_settingBuildTime_name">
+            <English>Buildtime</English>
+            <German>Bauzeit</German>
+        </Key>
+        <Key ID="STR_ttt_drone_tarp_settingUseAnimation_description">
+            <English>Should the player play an animation during the execution.\n(the animation duration is not taken into account)</English>
+            <German>Soll der Spieler während der Durchführung eine Animation abspielen.\n(Die Animationsdauer wird nicht berücksichtigt)</German>
+        </Key>
+        <Key ID="STR_ttt_drone_tarp_settingUseAnimation_name">
+            <English>Play Animation</English>
+            <German>Animation abspielen</German>
+        </Key>
+        <Key ID="STR_ttt_drone_tarp_SubCategory">
+            <English>Drone Tarp</English>
+            <German>Drohnentarp</German>
+        </Key>
+        <Key ID="STR_ttt_drone_tarp_tarp_black_displayName">
+            <English>Drone Tarp (Black)</English>
+            <German>Drohnentarp (Schwarz)</German>
+        </Key>
+        <Key ID="STR_ttt_drone_tarp_tarp_description">
+            <English>A tarp that can be laid out as a landing zone for a drone.</English>
+            <German>Ein Tarp, der als Landeplatz für eine Drohne ausgelegt werden kann.</German>
+        </Key>
+        <Key ID="STR_ttt_drone_tarp_tarp_green_displayName">
+            <English>Drone Tarp (Green)</English>
+            <German>Drohnentarp (Grün)</German>
+        </Key>
+        <Key ID="STR_ttt_drone_tarp_tarp_red_displayName">
+            <English>Drone Tarp (Red)</English>
+            <German>Drohnentarp (Rot)</German>
+        </Key>
+        <Key ID="STR_ttt_drone_tarp_tarp_yellow_displayName">
+            <English>Drone Tarp (Yellow)</English>
+            <German>Drohnentarp (Gelb)</German>
+        </Key>
+    </Package>
+</Project>

@@ -7,8 +7,9 @@ Jeder Spieler, der einen der Drohnen-Tarp-Gegenstände (schwarz/grün/rot/gelb) 
 ## CBA-Einstellungen
 
 ``` c++
-force ttt_dronepanel_buildTime = 6;                                                                    //default: 6;
-force ttt_dronepanel_useAnimation = true;                                                              //default: true;
+force ttt_drone_tarp_buildTime = 6;                                                                    //default: 6;
+force ttt_drone_tarp_useAnimation = true;                                                              //default: true;
+force ttt_drone_tarp_buildAnimation = "Acts_carFixingWheel";                                           //default: "Acts_carFixingWheel";
 ```
 
 ## Maintainer

@@ -1,7 +1,7 @@
 class CfgWeapons {
-    class ItemCore;
+    class ACE_ItemCore;
 
-    class GVAR(tarp_Black): ItemCore {
+    class GVAR(tarp_Black): ACE_ItemCore {
         author = ECSTRING(main,TacticalTrainingTeam);
         scope = 2;
         displayName = CSTRING(tarp_black_displayName);

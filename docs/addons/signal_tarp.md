@@ -7,8 +7,9 @@ Jeder Spieler, der einen der Signal-Tarp-Gegenstände (schwarz/grün/rot/gelb) i
 ## CBA-Einstellungen
 
 ``` c++
-force ttt_signalpanel_buildTime = 6;                                                                    //default: 6;
-force ttt_signalpanel_useAnimation = true;                                                              //default: true;
+force ttt_signal_tarp_buildTime = 6;                                                                    //default: 6;
+force ttt_signal_tarp_useAnimation = true;                                                              //default: true;
+force ttt_signal_tarp_buildAnimation = "Acts_carFixingWheel";                                           //default: "Acts_carFixingWheel";
 ```
 
 ## Beispielbild

@@ -13,7 +13,7 @@
     "SLIDER",
     [LSTRING(settingBuildTime_name), LSTRING(settingBuildTime_description)],
     [ELSTRING(main,TacticalTrainingTeam), LSTRING(SubCategory)],
-    [2, 60, 20, 0],
+    [2, 60, 6, 0],
     true
 ] call CBA_fnc_addSetting;
 
