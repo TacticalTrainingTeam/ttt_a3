@@ -8,6 +8,7 @@ Jeder Spieler, der einen der Drohnen-Tarp-Gegenstände (schwarz/grün/rot/gelb) 
 
 ``` c++
 force ttt_dronepanel_buildTime = 6;                                                                    //default: 6;
+force ttt_dronepanel_useAnimation = true;                                                              //default: true;
 ```
 
 ## Maintainer

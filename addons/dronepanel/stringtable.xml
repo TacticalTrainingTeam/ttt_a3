@@ -29,6 +29,14 @@
             <English>Buildtime</English>
             <German>Bauzeit</German>
         </Key>
+        <Key ID="STR_ttt_Dronepanel_settingUseAnimation_description">
+            <English>Should the player play an animation during the execution.\n(the animation duration is not taken into account)</English>
+            <German>Soll der Spieler während der Durchführung eine Animation abspielen.\n(Die Animationsdauer wird nicht berücksichtigt)</German>
+        </Key>
+        <Key ID="STR_ttt_Dronepanel_settingUseAnimation_name">
+            <English>Play Animation</English>
+            <German>Animation abspielen</German>
+        </Key>
         <Key ID="STR_ttt_Dronepanel_subcategory">
             <English>Drone Tarp</English>
             <German>Dronentarp</German>

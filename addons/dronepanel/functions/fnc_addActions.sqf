@@ -45,6 +45,7 @@ private _config = createHashMapFromArray [
     ["inUseVar", "ttt_dronepanel_inUse"],
     ["buildTime", GVAR(buildTime)],
     ["deconstructTimeMultiplier", 2],
+    ["useAnimation", GVAR(useAnimation)],
     ["constructText", LLSTRING(actionConstruct)],
     ["deconstructText", LLSTRING(actionDeconstruct)],
     ["abortText", LLSTRING(abort)],

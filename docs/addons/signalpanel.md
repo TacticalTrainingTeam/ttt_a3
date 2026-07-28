@@ -8,6 +8,7 @@ Jeder Spieler, der einen der Signal-Tarp-Gegenstände (schwarz/grün/rot/gelb) i
 
 ``` c++
 force ttt_signalpanel_buildTime = 6;                                                                    //default: 6;
+force ttt_signalpanel_useAnimation = true;                                                              //default: true;
 ```
 
 ## Beispielbild

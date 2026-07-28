@@ -27,6 +27,3 @@ force ttt_dismantle_neededSkill = 2;
 //force ttt_teleport_enableTeleport = false;
 
 force force ace_advanced_ballistics_enabled = false; //zum Testen der Settings mod
-
-ttt_dronepanel_enable = true;
-ttt_dronepanel_supportedBackpacks = '["B_Carryall_blk"]';
