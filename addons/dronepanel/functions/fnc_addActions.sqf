@@ -3,7 +3,7 @@
 * Author: EinStein, Andx
 *
 * Builds the config for, and registers with, the shared TTT "deployable
-* panel/tent" framework (see ttt_common's deployable* functions).
+* tarp" framework (see ttt_common's deployable* functions).
 *
 * Arguments:
 * None
@@ -17,17 +17,14 @@
 * Public: No
 */
 
-private _classname = {
-    switch (GVAR(tarpColor)) do {
-        case 0: {"Tarp_01_Small_Black_F"};
-        case 1: {"Tarp_01_Small_Green_F"};
-        case 2: {"Tarp_01_Small_Red_F"};
-        case 3: {"Tarp_01_Small_Yellow_F"};
-        default {"Tarp_01_Small_Red_F"};
-    };
-};
+private _tarpItems = [
+    [QGVAR(tarp_Black), "Tarp_01_Small_Black_F"],
+    [QGVAR(tarp_Green), "Tarp_01_Small_Green_F"],
+    [QGVAR(tarp_Red), "Tarp_01_Small_Red_F"],
+    [QGVAR(tarp_Yellow), "Tarp_01_Small_Yellow_F"]
+];
 
-// The drone panel also needs a helipad prop so drones can land on it
+// The drone tarp also needs a helipad prop so drones can land on it
 private _onConstruct = {
     params ["_object"];
     private _pad = "Land_HelipadEmpty_F" createVehicle (getPos _object);
@@ -44,11 +41,7 @@ private _onDeconstruct = {
 private _config = createHashMapFromArray [
     ["constructId", "ttt_dronepanel_constuct"],
     ["deconstructId", "ttt_dronepanel_deconstuct"],
-    ["classname", _classname],
-    ["deconstructClass", call _classname],
-    ["enable", GVAR(enable)],
-    ["supportedBackpacks", parseSimpleArray GVAR(supportedBackpacks)],
-    ["hasItemVar", "ttt_dronepanel_hasTarp"],
+    ["tarpItems", _tarpItems],
     ["inUseVar", "ttt_dronepanel_inUse"],
     ["buildTime", GVAR(buildTime)],
     ["deconstructTimeMultiplier", 2],

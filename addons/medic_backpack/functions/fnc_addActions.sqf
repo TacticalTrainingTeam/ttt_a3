@@ -3,7 +3,7 @@
 * Author: EinStein
 *
 * Builds the config for, and registers with, the shared TTT "deployable
-* panel/tent" framework (see ttt_common's deployable* functions).
+* tarp" framework (see ttt_common's deployable* functions).
 *
 * Arguments:
 * None
@@ -17,13 +17,10 @@
 * Public: No
 */
 
-private _classname = {
-    switch (GVAR(tarpColor)) do {
-        case 0: {"Land_MedicalTent_01_floor_dark_F"};
-        case 1: {"Land_MedicalTent_01_floor_light_F"};
-        default {"Land_MedicalTent_01_floor_dark_F"};
-    };
-};
+private _tarpItems = [
+    [QGVAR(tarp_Dark), "Land_MedicalTent_01_floor_dark_F"],
+    [QGVAR(tarp_Light), "Land_MedicalTent_01_floor_light_F"]
+];
 
 private _onConstruct = {
     params ["_object", "_caller"];
@@ -53,11 +50,7 @@ private _onDeconstruct = {
 private _config = createHashMapFromArray [
     ["constructId", QGVAR(construct)],
     ["deconstructId", QGVAR(deconstruct)],
-    ["classname", _classname],
-    ["deconstructClass", call _classname],
-    ["enable", GVAR(enable)],
-    ["supportedBackpacks", parseSimpleArray GVAR(supportedBackpacks)],
-    ["hasItemVar", "ttt_medic_backpack_hasTent"],
+    ["tarpItems", _tarpItems],
     ["inUseVar", "ttt_medic_backpack_inUse"],
     ["buildTime", GVAR(buildTime)],
     ["useAnimation", GVAR(useAnimation)],

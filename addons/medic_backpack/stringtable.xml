@@ -49,22 +49,6 @@
             <English>Buildtime</English>
             <German>Bauzeit</German>
         </Key>
-        <Key ID="STR_ttt_Medic_Backpack_settingEnable_description">
-            <English>Activates the medic backapck functionality.</English>
-            <German>Aktiviert die Funktion des medizinischen Rucksacks.</German>
-        </Key>
-        <Key ID="STR_ttt_Medic_Backpack_settingEnable_name">
-            <English>Enable</English>
-            <German>Aktivieren</German>
-        </Key>
-        <Key ID="STR_ttt_Medic_Backpack_settingSupportedBackpacks_description">
-            <English>Classnames of the backpacks that can carry a medical device.\n(By default, each of these backpacks has one loaded, including those of the AI. To deactivate, add the following code to the loadout of the unit: (unitBackpack player) setVariable ["hasTent", false])\ni.e.: ["B_Kitbag_rgr","B_Kitbag_blk"]\n(The array must be enclosed with ' in cba_settings.sqf)</English>
-            <German>Classnames der Rucksäcke die eine medizinische Einrichtung transportieren können.\n(Standardmäßig hat jeder dieser Rucksäcke eine geladen; auch die der KI. Zum Deaktivieren folgenden Code zum Loadout der Einheit hinzufügen: (unitBackpack player) setVariable ["hasTent", false]\nBsp.: ["B_Kitbag_rgr","B_Kitbag_cbr"])\n(In der cba_settings.sqf muss das Array mit ' umschlossen werden)</German>
-        </Key>
-        <Key ID="STR_ttt_Medic_Backpack_settingSupportedBackpacks_name">
-            <English>Supported Backpacks</English>
-            <German>Unterstützte Rucksäcke</German>
-        </Key>
         <Key ID="STR_ttt_Medic_Backpack_settingUseAnimation_description">
             <English>Should the player play an animation during the execution.\n(the animation duration is not taken into account)</English>
             <German>Soll der Spieler während der Durchführung eine Animation abspielen.\n(Die Animationsdauer wird nicht berücksichtigt)</German>
@@ -72,6 +56,18 @@
         <Key ID="STR_ttt_Medic_Backpack_settingUseAnimation_name">
             <English>Play Animation</English>
             <German>Animation abspielen</German>
+        </Key>
+        <Key ID="STR_ttt_Medic_Backpack_tarp_dark_displayName">
+            <English>Medical Tarp (Dark)</English>
+            <German>Medizinischer Tarp (Dunkel)</German>
+        </Key>
+        <Key ID="STR_ttt_Medic_Backpack_tarp_description">
+            <English>A medical facility tarp. Requires the corresponding action to build it.</English>
+            <German>Ein medizinischer Einrichtungs-Tarp. Benötigt die entsprechende Aktion zum Aufbau.</German>
+        </Key>
+        <Key ID="STR_ttt_Medic_Backpack_tarp_light_displayName">
+            <English>Medical Tarp (Light)</English>
+            <German>Medizinischer Tarp (Hell)</German>
         </Key>
     </Package>
 </Project>

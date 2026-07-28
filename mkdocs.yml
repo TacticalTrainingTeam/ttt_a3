@@ -174,9 +174,9 @@ nav:
   - Mobile San-Einrichtung (Fahrzeug): addons/medic_vehicle.md
   - Mobile San-Einrichtung (Rucksack): addons/medic_backpack.md
   - Mobile Werkstatt: addons/repair_vehicle.md
-  - Drohnen Plane: addons/dronepanel.md
+  - Drohnen Tarp: addons/dronepanel.md
   - Objekte Abbauen: addons/dismantle.md
-  - Signal Plane: addons/signalpanel.md
+  - Signal Tarp: addons/signalpanel.md
   - KI-Kapitulation: addons/surrender.md
   - Tagging2Map: addons/tagging2map.md
   - Teleporter: addons/teleport.md

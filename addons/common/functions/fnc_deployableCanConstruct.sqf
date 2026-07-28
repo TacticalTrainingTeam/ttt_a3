@@ -3,7 +3,7 @@
  * Author: Andx
  *
  * Generic ACE interaction condition: can the caller construct their deployable
- * item. Part of the TTT "deployable panel/tent" framework.
+ * item. Part of the TTT "deployable tarp" framework.
  *
  * Arguments:
  * 0: Args passed in by ACE's interaction menu <ARRAY> - [target, caller, config]
@@ -16,5 +16,6 @@
 
 (_this select 0) params ["_target", "", "_config"];
 
-((_config get "supportedBackpacks") find (backpack _target) != -1) &&
-{(unitBackpack _target) getVariable [(_config get "hasItemVar"), true]}
+private _carriedItems = items _target;
+
+(_config get "tarpItems") findIf {(_x select 0) in _carriedItems} != -1

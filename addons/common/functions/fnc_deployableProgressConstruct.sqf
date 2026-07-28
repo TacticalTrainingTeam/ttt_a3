@@ -3,7 +3,7 @@
  * Author: Andx
  *
  * Starts the progress bar for constructing a deployable item. Part of the
- * TTT "deployable panel/tent" framework.
+ * TTT "deployable tarp" framework.
  *
  * Arguments:
  * 0: Args passed in by ACE's interaction menu <ARRAY> - [target, caller, config]

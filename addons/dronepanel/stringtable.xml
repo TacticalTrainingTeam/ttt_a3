@@ -6,48 +6,52 @@
             <German>Abgebrochen</German>
         </Key>
         <Key ID="STR_ttt_Dronepanel_actionConstruct">
-            <English>Laying out drone panel.</English>
-            <German>Dronenplane auslegen.</German>
+            <English>Laying out drone tarp.</English>
+            <German>Dronentarp auslegen.</German>
         </Key>
         <Key ID="STR_ttt_Dronepanel_actionDeconstruct">
-            <English>Stow drone panel into backpack.</English>
-            <German>Packe Dronen Plane in Rucksack.</German>
-        </Key>
-        <Key ID="STR_ttt_Dronepanel_allowedBackpacks_description">
-            <English>Backpacks that are allowed to lay out the plane</English>
-            <German>Rucksäcke die eine Dronenplane aufbauen dürfen</German>
-        </Key>
-        <Key ID="STR_ttt_Dronepanel_enable_description">
-            <English>Enable Drone Panel</English>
-            <German>Dronenplane aktivieren</German>
-        </Key>
-        <Key ID="STR_ttt_Dronepanel_enable_displayName">
-            <English>Enable Drone Panel</English>
-            <German>Dronenplane aktivieren</German>
+            <English>Stow drone tarp into backpack.</English>
+            <German>Packe Dronentarp in Rucksack.</German>
         </Key>
         <Key ID="STR_ttt_Dronepanel_hintErrorNoSpace">
-            <English>No space to lay out the panel</English>
-            <German>Nicht genügend Platz um die Plane auszulegen</German>
+            <English>No space to lay out the tarp</English>
+            <German>Nicht genügend Platz um den Tarp auszulegen</German>
         </Key>
         <Key ID="STR_ttt_Dronepanel_hintLoaded">
-            <English>The panel was stowed into the backpack.</English>
-            <German>"Die Plane wurde in den Rucksack gepackt."</German>
+            <English>The tarp was stowed into the backpack.</English>
+            <German>"Der Tarp wurde in den Rucksack gepackt."</German>
         </Key>
         <Key ID="STR_ttt_Dronepanel_settingBuildTime_description">
-            <English>How many seconds does the player need to lay out the panel.</English>
-            <German>Wie viele Sekunden der Spieler braucht, um die Plane auszubreiten.</German>
+            <English>How many seconds does the player need to lay out the tarp.</English>
+            <German>Wie viele Sekunden der Spieler braucht, um den Tarp auszubreiten.</German>
         </Key>
         <Key ID="STR_ttt_Dronepanel_settingBuildTime_name">
             <English>Buildtime</English>
             <German>Bauzeit</German>
         </Key>
         <Key ID="STR_ttt_Dronepanel_subcategory">
-            <English>Drone Panel</English>
-            <German>Dronenplane</German>
+            <English>Drone Tarp</English>
+            <German>Dronentarp</German>
         </Key>
-        <Key ID="STR_ttt_Dronepanel_supportedBackpacks_displayName">
-            <English>Allowed Backpacks</English>
-            <German>Erlaubte Rucksäcke</German>
+        <Key ID="STR_ttt_Dronepanel_tarp_black_displayName">
+            <English>Drone Tarp (Black)</English>
+            <German>Dronentarp (Schwarz)</German>
+        </Key>
+        <Key ID="STR_ttt_Dronepanel_tarp_description">
+            <English>A tarp that can be laid out as a landing zone for a drone. Requires the corresponding action to build it.</English>
+            <German>Ein Tarp, der als Landeplatz für eine Drohne ausgelegt werden kann. Benötigt die entsprechende Aktion zum Aufbau.</German>
+        </Key>
+        <Key ID="STR_ttt_Dronepanel_tarp_green_displayName">
+            <English>Drone Tarp (Green)</English>
+            <German>Dronentarp (Grün)</German>
+        </Key>
+        <Key ID="STR_ttt_Dronepanel_tarp_red_displayName">
+            <English>Drone Tarp (Red)</English>
+            <German>Dronentarp (Rot)</German>
+        </Key>
+        <Key ID="STR_ttt_Dronepanel_tarp_yellow_displayName">
+            <English>Drone Tarp (Yellow)</English>
+            <German>Dronentarp (Gelb)</German>
         </Key>
     </Package>
 </Project>

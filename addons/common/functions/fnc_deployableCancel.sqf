@@ -2,7 +2,7 @@
 /*
  * Author: Andx
  *
- * Generic cancel-handler for the TTT "deployable panel/tent" framework.
+ * Generic cancel-handler for the TTT "deployable tarp" framework.
  * Restores the caller's animation and, if a deconstruct was cancelled, clears
  * the "in use" lock on the facility object.
  *

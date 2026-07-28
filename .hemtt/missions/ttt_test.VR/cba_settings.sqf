@@ -1,8 +1,5 @@
 force ttt_teleporter_cam_enableTeleport = true;
 
-force ttt_medic_backpack_enable = true;
-force ttt_medic_backpack_supportedBackpacks = '["B_Kitbag_rgr"]';
-force ttt_medic_backpack_tarpColor = 0;
 force ttt_medic_backpack_additionalItems = '["Land_Camping_Light_F","Land_FirstAidKit_01_open_F","Land_Defibrillator_F"]';
 force ttt_medic_backpack_buildTime = 4;
 force ttt_medic_backpack_useAnimation = true;
@@ -21,9 +18,6 @@ force ttt_repair_vehicle_facilityObject = "Land_RepairDepot_01_green_F";
 force ttt_repair_vehicle_buildTime = 4;
 force ttt_repair_vehicle_useAnimation = true;
 force ttt_repair_vehicle_buildAnimation = "Acts_carFixingWheel";
-
-force ttt_signalpanel_enable = false;
-force ttt_signalpanel_supportedBackpacks = '["B_kitbag_rgr", "B_AssaultPack_rgr"]';
 
 force ttt_dismantle_enable = true;
 force ttt_dismantle_supportedObjects = '["Land_CzechHedgehog_01_new_F", "Land_CzechHedgehog_01_old_F"]';

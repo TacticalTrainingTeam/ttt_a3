@@ -3,7 +3,7 @@
 * Author: EinStein, Andx
 *
 * Builds the config for, and registers with, the shared TTT "deployable
-* panel/tent" framework (see ttt_common's deployable* functions).
+* tarp" framework (see ttt_common's deployable* functions).
 *
 * Arguments:
 * None
@@ -17,24 +17,17 @@
 * Public: No
 */
 
-private _classname = {
-    switch (GVAR(tarpColor)) do {
-        case 0: {"Tarp_01_Large_Black_F"};
-        case 1: {"Tarp_01_Large_Green_F"};
-        case 2: {"Tarp_01_Large_Red_F"};
-        case 3: {"Tarp_01_Large_Yellow_F"};
-        default {"Tarp_01_Large_Red_F"};
-    };
-};
+private _tarpItems = [
+    [QGVAR(tarp_Black), "Tarp_01_Large_Black_F"],
+    [QGVAR(tarp_Green), "Tarp_01_Large_Green_F"],
+    [QGVAR(tarp_Red), "Tarp_01_Large_Red_F"],
+    [QGVAR(tarp_Yellow), "Tarp_01_Large_Yellow_F"]
+];
 
 private _config = createHashMapFromArray [
     ["constructId", "ttt_signalpanel_constuct"],
     ["deconstructId", "ttt_signalpanel_deconstuct"],
-    ["classname", _classname],
-    ["deconstructClass", call _classname],
-    ["enable", GVAR(enable)],
-    ["supportedBackpacks", parseSimpleArray GVAR(supportedBackpacks)],
-    ["hasItemVar", "ttt_signalpanel_hasTarp"],
+    ["tarpItems", _tarpItems],
     ["inUseVar", "ttt_signalpanel_inUse"],
     ["buildTime", GVAR(buildTime)],
     ["deconstructTimeMultiplier", 2],

@@ -1,6 +1,6 @@
 # TTT Medizinischer Rucksack
 
-Fügt einem Spieler mit dem korrekten Rucksacktypen die Möglichekeit hinzu ein Objekt, wie z.B. eine Plane über eine ACE-Eigeninteraktion aufzubauen.
+Fügt einem Spieler, der einen medizinischen Tarp-Gegenstand im Inventar trägt, die Möglichkeit hinzu ein Objekt über eine ACE-Eigeninteraktion aufzubauen.
 
 ## Maintainer
 

@@ -1,23 +1,12 @@
 # TTT Medizinischer Rucksack
 
-Fügt einem Spieler mit dem korrekten Rucksacktypen die Möglichkeit hinzu ein Objekt, wie z.B. eine Plane, über eine ACE-Eigeninteraktion aufzubauen.
+Fügt jedem Spieler, der einen der medizinischen Tarp-Gegenstände (dunkel/hell) in seinem Inventar trägt, die Möglichkeit hinzu, ein medizinisches Einrichtungsobjekt über eine ACE-Eigeninteraktion aufzubauen; der Gegenstand wird dabei verbraucht.
 Dies ist dann eine medizinische Einrichtung (`ace_medical_isMedicalFacility`).
-Jeder Spieler dessen Rucksack einem zugelassenem Typen entspricht und derzeit keine Einrichtung transportiert, kann diese über eine ACE-Fremdinteraktion abbauen und woanders wieder aufbauen.
-
-!!! info
-    Jeder zugelassene Rucksack hat standardmäßig eine Einrichtung geladen. Sollte dies nicht gewünscht sein, muss auf dem Rucksack die Variable `ttt_medic_backpack_hasTent` auf `false` gesetzt werden.
-    Am einfachsten passiert das in der `loadout.sqf` des Spielers mittels:
-
-    ``` c++
-    (unitBackpack player) setVariable ["ttt_medic_backpack_hasTent", false];
-    ```
+Über eine ACE-Fremdinteraktion kann die aufgebaute Einrichtung wieder eingepackt werden, sofern im Inventar Platz für den Gegenstand vorhanden ist - der Gegenstand wird dann zurückgegeben.
 
 ## CBA-Einstellungen
 
 ``` c++
-force ttt_medic_backpack_enable = true;                                                             //default: false;
-force ttt_medic_backpack_supportedBackpacks = '["B_Kitbag_rgr"]';                                   //default: [];
-force ttt_medic_backpack_tarpColor = 0;                                                             //default: 0; (0 = Dark, 1 = Light)
 force ttt_medic_backpack_additionalItems = '["Land_FirstAidKit_01_open_F","Land_Defibrillator_F"]'; //default: [];
 force ttt_medic_backpack_buildTime = 4;                                                             //default: 20;
 force ttt_medic_backpack_useAnimation = true;                                                       //default: true;
