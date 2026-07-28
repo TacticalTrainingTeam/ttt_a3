@@ -36,7 +36,6 @@ private _config = createHashMapFromArray [
     ["tarpItems", _tarpItems],
     ["inUseVar", QGVAR(inUse)],
     ["buildTime", GVAR(buildTime)],
-    ["deconstructTimeMultiplier", 2],
     ["useAnimation", GVAR(useAnimation)],
     ["animation", GVAR(buildAnimation)],
     ["constructText", LLSTRING(actionConstruct)],

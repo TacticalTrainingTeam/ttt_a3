@@ -31,3 +31,5 @@ deleteVehicle _target;
 
 _caller switchMove "";
 _caller addItem _itemClassname;
+
+[QGVAR(tarpDeconstructed), [_target, _caller, _config], _caller] call CBA_fnc_localEvent;

@@ -40,3 +40,5 @@ private _onConstruct = _config getOrDefault ["onConstruct", {}];
 [_object, _target, _config] call _onConstruct;
 
 _target switchMove "";
+
+[QGVAR(tarpConstructed), [_target, _caller, _config], _caller] call CBA_fnc_localEvent;

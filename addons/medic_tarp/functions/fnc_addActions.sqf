@@ -39,8 +39,6 @@ private _onConstruct = {
     {
         _x addCuratorEditableObjects [([_object] + _arrayItems), false];
     } forEach allCurators;
-
-    INFO_3("Medical backpack item %1 was created at %2 by %3",_object,_position,_caller);
 };
 
 private _onDeconstruct = {

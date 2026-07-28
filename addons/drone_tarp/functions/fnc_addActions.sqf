@@ -30,6 +30,8 @@ private _onConstruct = {
     private _pad =  createVehicle ["Land_HelipadEmpty_F", getPos _object, [], 0, "CAN_COLLIDE"];
     [_object, false] remoteExec ["allowDamage", (owner _object), false];
     _object setVariable [QGVAR(helipad), _pad, true];
+
+
 };
 
 private _onDeconstruct = {
@@ -44,7 +46,6 @@ private _config = createHashMapFromArray [
     ["tarpItems", _tarpItems],
     ["inUseVar", QGVAR(inUse)],
     ["buildTime", GVAR(buildTime)],
-    ["deconstructTimeMultiplier", 2],
     ["useAnimation", GVAR(useAnimation)],
     ["animation", GVAR(buildAnimation)],
     ["constructText", LLSTRING(actionConstruct)],

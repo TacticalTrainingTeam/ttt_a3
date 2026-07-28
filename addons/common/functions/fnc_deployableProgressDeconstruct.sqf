@@ -23,7 +23,7 @@ if (_config getOrDefault ["useAnimation", true]) then {
 };
 
 [
-    (_config get "buildTime") * (_config getOrDefault ["deconstructTimeMultiplier", 1]),
+    (_config get "buildTime"),
     [_target, _caller, _config],
     {
         (_this select 0) params ["_target", "_caller", "_config"];
