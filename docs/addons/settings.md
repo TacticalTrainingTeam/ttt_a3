@@ -31,9 +31,9 @@ Danach habt ihr im Lobbybildschirm oben rechs einen Button um das System zu änd
 
 Wenn ihr `adminVoted` oder `adminLogged` seid, könnt ihr per Chat-Befehl das Medic-System ändern. Dies kann z.B. genutzt werden wenn die Einstellung in der Lobby vergessen wurde. Dazu müsst ihr folgendes in den Chat eingeben:
 
-- `#med-sys 0` für das Standard-System
-- `#med-sys 1` für das einfache System
-- `#med-sys 2` für das Trainings-System
+- `#medsys 0` für das Standard-System
+- `#medsys 1` für das einfache System
+- `#medsys 2` für das Trainings-System
 
 ## Maintainer
 
