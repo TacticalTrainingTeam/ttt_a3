@@ -1,6 +1,5 @@
 class CfgWeapons {
     class ACE_ItemCore;
-    class CBA_MiscItem_ItemInfo;
 
     class GVAR(tarp_Black): ACE_ItemCore {
         author = ECSTRING(main,TacticalTrainingTeam);
@@ -9,9 +8,7 @@ class CfgWeapons {
         descriptionShort = CSTRING(tarp_description);
         picture = QPATHTOEF(tarps,data\ttt_tarp_black.paa);
 
-        class ItemInfo: CBA_MiscItem_ItemInfo  {
-            groundWeapon = QGVAR(tarp_black_item);
-        };
+        model = "\A3\Structures_F\Civ\Camping\Sleeping_bag_folded_F.p3d";
     };
 
     class GVAR(tarp_Green): GVAR(tarp_Black) {

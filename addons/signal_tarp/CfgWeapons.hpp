@@ -7,6 +7,8 @@ class CfgWeapons {
         displayName = CSTRING(tarp_black_displayName);
         descriptionShort = CSTRING(tarp_description);
         picture = QPATHTOEF(tarps,data\ttt_tarp_black.paa);
+
+        model = "\A3\Structures_F\Civ\Camping\Sleeping_bag_folded_F.p3d";
     };
 
     class GVAR(tarp_Green): GVAR(tarp_Black) {
