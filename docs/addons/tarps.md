@@ -86,7 +86,7 @@ private _config = createHashMapFromArray [
 | `onConstruct` | CODE | – | `[_object, _caller, _config]` – wird lokal nach dem Spawnen aufgerufen |
 | `onDeconstruct` | CODE | – | `[_target, _caller, _config]` – wird lokal vor dem Löschen aufgerufen |
 
-## Ereignisse
+## Events
 
 Beide Ereignisse werden als **lokales CBA-Event** auf der Maschine des auslösenden Spielers gefeuert.
 
@@ -96,9 +96,10 @@ Wird ausgelöst, nachdem der Tarp erfolgreich aufgebaut wurde.
 
 ``` sqf
 ["ttt_tarps_tarpConstructed", {
-    params ["_object", "_caller", "_config"];
+    params ["_object", "_caller", "_itemClassname", "_config"];
     // _object  - das aufgebaute Tarp-Objekt
     // _caller  - der Spieler
+    // _itemClassname - Klassenname des benutzten Inventar-Items
     // _config  - die Konfigurations-HashMap
 }] call CBA_fnc_addEventHandler;
 ```
