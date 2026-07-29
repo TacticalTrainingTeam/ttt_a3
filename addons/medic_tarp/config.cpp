@@ -14,7 +14,9 @@ class CfgPatches {
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
         requiredAddons[] = {"ttt_tarps", "ace_interaction", "A3_Props_F_Enoch_Military_Decontamination"};
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
-        units[] = {};
+        units[] = {
+            QGVAR(tarp_black_item)      
+        };
         // List of weapons (CfgWeapons classes) contained in the addon.
         weapons[] = {
             QGVAR(tarp_Black),
@@ -30,4 +32,5 @@ class CfgPatches {
 };
 
 #include "CfgEventHandlers.hpp"
+#include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
