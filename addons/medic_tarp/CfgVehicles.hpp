@@ -1,6 +1,7 @@
 class CfgVehicles {
     class Land_Sleeping_bag_folded_F;
     //Alt: Land_TentSolar_01_folded_olive_F
+    //alt2: Land_PlasticCase_01_small_F
 
     class GVAR(tarp_black_item) : Land_Sleeping_bag_folded_F{
         scope = 2;
