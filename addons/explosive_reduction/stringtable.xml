@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Explosive_Reduction">
+        <Key ID="STR_ttt_Explosive_Reduction_abort">
+            <English>Aborted</English>
+            <German>Abgebrochen</German>
+        </Key>
+        <Key ID="STR_ttt_Explosive_Reduction_action">
+            <English>Place Explosive Charge</English>
+            <German>Sprengladung platzieren</German>
+        </Key>
+        <Key ID="STR_ttt_Explosive_Reduction_hintArmed">
+            <English>Charge armed. Detonation in %1 seconds.</English>
+            <German>Ladung scharf. Detonation in %1 Sekunden.</German>
+        </Key>
+        <Key ID="STR_ttt_Explosive_Reduction_hintPlacing">
+            <English>Placing charge -</English>
+            <German>Platziere Ladung -</German>
+        </Key>
+        <Key ID="STR_ttt_Explosive_Reduction_settingEnable_description">
+            <English>Enable the explosive charge destruction action</English>
+            <German>Aktiviert die Sprengladungs-Aktion</German>
+        </Key>
+        <Key ID="STR_ttt_Explosive_Reduction_settingEnable_name">
+            <English>Enable Explosive Reduction</English>
+            <German>Sprengen aktivieren</German>
+        </Key>
+        <Key ID="STR_ttt_Explosive_Reduction_settingNeededItem_description">
+            <English>Classname of the item/magazine the player must carry to place the charge</English>
+            <German>Klassenname des Items/Magazins, welches der Spieler zum Platzieren der Ladung benötigt</German>
+        </Key>
+        <Key ID="STR_ttt_Explosive_Reduction_settingNeededItem_name">
+            <English>Needed Item</English>
+            <German>Benötigter Gegenstand</German>
+        </Key>
+        <Key ID="STR_ttt_Explosive_Reduction_settingPlaceAnimation_description">
+            <English>The name of the animation to be played while placing the charge&lt;br/&gt;i.e.: Acts_carFixingWheel</English>
+            <German>Die Bezeichnung der beim Platzieren abzuspielenden Animation&lt;br/&gt;Bsp.: Acts_carFixingWheel</German>
+        </Key>
+        <Key ID="STR_ttt_Explosive_Reduction_settingPlaceAnimation_name">
+            <English>Animation</English>
+            <German>Animation</German>
+        </Key>
+        <Key ID="STR_ttt_Explosive_Reduction_settingPlaceTime_description">
+            <English>How many seconds the player needs to place the charge before it is armed</English>
+            <German>Wie viele Sekunden der Spieler zum Platzieren der Ladung benötigt, bevor sie scharf ist</German>
+        </Key>
+        <Key ID="STR_ttt_Explosive_Reduction_settingPlaceTime_name">
+            <English>Placement Duration (seconds)</English>
+            <German>Platzierungsdauer (Sekunden)</German>
+        </Key>
+        <Key ID="STR_ttt_Explosive_Reduction_settingTimerDuration_description">
+            <English>How many seconds pass between arming the charge and the detonation</English>
+            <German>Wie viele Sekunden zwischen dem Scharfmachen der Ladung und der Detonation vergehen</German>
+        </Key>
+        <Key ID="STR_ttt_Explosive_Reduction_settingTimerDuration_name">
+            <English>Timer Duration (seconds)</English>
+            <German>Timerdauer (Sekunden)</German>
+        </Key>
+        <Key ID="STR_ttt_Explosive_Reduction_settingUseAnimation_description">
+            <English>Play an animation while the charge is being placed</English>
+            <German>Spielt während des Platzierens der Ladung eine Animation ab</German>
+        </Key>
+        <Key ID="STR_ttt_Explosive_Reduction_settingUseAnimation_name">
+            <English>Use Animation</English>
+            <German>Animation verwenden</German>
+        </Key>
+        <Key ID="STR_ttt_Explosive_Reduction_subCategory">
+            <English>Explosive Reduction</English>
+            <German>Objekte Sprengen</German>
+        </Key>
+    </Package>
+</Project>
