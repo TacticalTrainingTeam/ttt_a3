@@ -48,21 +48,9 @@ class HelmetClass: BaseClass { \
     }; \
 }
 
-class InventoryItem_Base_F;
+class H_HelmetB;
+class HeadgearItem;
 class ItemCore;
-class HeadgearItem: InventoryItem_Base_F {};
-class H_HelmetB: ItemCore {
-    class ItemInfo: HeadgearItem {
-        mass = 30;
-
-        class HitpointsProtectionInfo {
-            class Head {
-                armor = 6;
-                passThrough = 0.5;
-            };
-        };
-    };
-};
 
 USP_HELMET(USP_MICH_TC2000,H_HelmetB);
 USP_HELMET_ACE(USP_MICH_TC2000_CT,USP_MICH_TC2000);
