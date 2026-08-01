@@ -18,7 +18,9 @@
 * Public: No
 */
 
-["All", 0, ["ACE_MainActions", QGVAR(place)]] call ace_interact_menu_fnc_removeActionFromClass;
+params ["_class"];
+
+[_class, 0, ["ACE_MainActions", QGVAR(place)]] call ace_interact_menu_fnc_removeActionFromClass;
 
 if (!GVAR(enable)) exitWith {};
 
@@ -30,4 +32,4 @@ private _action = [
     {[_this] call FUNC(canPlace)}
 ] call ace_interact_menu_fnc_createAction;
 
-["All", 0, ["ACE_MainActions"], _action, true] call ace_interact_menu_fnc_AddActionToClass;
+[_class, 0, ["ACE_MainActions"], _action, true] call ace_interact_menu_fnc_AddActionToClass;

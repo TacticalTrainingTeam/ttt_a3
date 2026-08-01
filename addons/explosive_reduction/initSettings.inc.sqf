@@ -18,6 +18,16 @@
 ] call CBA_fnc_addSetting;
 
 [
+    QGVAR(classes),
+    "EDITBOX",
+    [LSTRING(settingNeededItem_name), LSTRING(settingNeededItem_description)],
+    [ELSTRING(main,TacticalTrainingTeam), LSTRING(subCategory)],
+    "[]",
+    true
+] call CBA_fnc_addSetting;
+
+
+[
     QGVAR(timerDuration),
     "SLIDER",
     [LSTRING(settingTimerDuration_name), LSTRING(settingTimerDuration_description)],

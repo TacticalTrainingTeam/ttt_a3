@@ -2,4 +2,6 @@
 
 if (!hasInterface) exitWith {};
 
-//[] call FUNC(addActions);
+{
+    [_x] call FUNC(addActions);
+} foreach GVAR(classes);
