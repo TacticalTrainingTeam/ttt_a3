@@ -20,7 +20,7 @@
 
 if (!GVAR(enable)) exitWith {};
 
-_dismantle =
+private _dismantle =
 [
     "dismantleAction",
     LLSTRING(action),

@@ -15,7 +15,7 @@
 
 params ["_target", "_caller"];
 
-_arrayVehicles = nearestObjects [(getPos _target), (parseSimpleArray GVAR(supportedVehicles)), 15];
+private _arrayVehicles = nearestObjects [(getPos _target), (parseSimpleArray GVAR(supportedVehicles)), 15];
 private "_vehicle";
 private _ArrayVehicle = [];
 {

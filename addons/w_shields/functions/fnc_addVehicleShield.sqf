@@ -45,8 +45,8 @@ _target setVariable [QGVAR(killEngine), _killEngine];
 
 private _allHitPoints = (getAllHitPointsDamage _target) select 0;
 _allHitPoints = _allHitPoints - ["hithull"];
-_allCritHPs = [];
-_allRegHPs = [];
+private _allCritHPs = [];
+private _allRegHPs = [];
 {
     _X = toLower _X;
     if (

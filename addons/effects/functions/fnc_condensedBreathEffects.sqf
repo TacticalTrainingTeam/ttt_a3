@@ -40,4 +40,4 @@ _breathParticle attachTo [_unit, [0,0.14,0.01], "neck", true];												// get
 
 _unit setVariable ["ttt_effects_breathParticle", _breathParticle, false];
 
-_breathParticle;
+  _breathParticle
