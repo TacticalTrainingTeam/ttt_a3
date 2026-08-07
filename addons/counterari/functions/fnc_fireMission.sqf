@@ -30,8 +30,8 @@
 params ["_unit","_centerPos","_radius","_ammo","_rounds","_decrementRadius"];
 
 //Get weapon classname
-_weaponsArray = _unit weaponsTurret [0];
-_weapon = _weaponsArray select 0;
+private _weaponsArray = _unit weaponsTurret [0];
+private _weapon = _weaponsArray select 0;
 
 //Let artillery shot the ammount of rounds
 for "_i" from 1 to _rounds do
@@ -51,8 +51,6 @@ for "_i" from 1 to _rounds do
 		{
 			params ["_unit","_centerPos","_radius","_ammo","_decrementRadius","_rounds","_fireIndex"];
 
-			private _startRad = _radius;
-
 			//check if you want to decrement the radius and decrement it per shot depending on radius and current count
 			if (_decrementRadius) then
 			{
@@ -60,7 +58,7 @@ for "_i" from 1 to _rounds do
 			};
 
 			//Calculate where to shot to simulate deviation
-			_randomPos = _centerPos getPos [_radius * sqrt random 1, random 360];
+			private _randomPos = _centerPos getPos [_radius * sqrt random 1, random 360];
 			_randomPos = [round (_randomPos select 0), round (_randomPos select 1), 0];
 
 			if (alive _unit) then {_unit doArtilleryFire [_randomPos, _ammo, 1];};

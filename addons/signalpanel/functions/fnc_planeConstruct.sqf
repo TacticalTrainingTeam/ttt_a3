@@ -16,7 +16,7 @@
 params ["_target"];
 
 private _position = (_target getPos [8, getDir _target]) findEmptyPosition [1, 2, "Tank"];
-_plane = ("Tarp_01_Large_Red_F") createVehicle _position;
+private _plane = ("Tarp_01_Large_Red_F") createVehicle _position;
 _plane setDir (getDir _target);
 
 _plane setVariable ["ttt_signalpanel_inUse", false, true];

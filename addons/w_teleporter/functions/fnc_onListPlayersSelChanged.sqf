@@ -12,9 +12,8 @@
  */
 params ["_ctrl", "_selection"];
 
-_display = ctrlParent _ctrl;
-_listOptions    = _display displayCtrl 20;
-_buttonTeleport = _display displayCtrl 30;
+private _display = ctrlParent _ctrl;
+private _listOptions    = _display displayCtrl 20;
 
 GVAR(target) = (allPlayers select {name _x == (_ctrl lbText _selection)}) param [0, objNull];
 if (isNull GVAR(target)) exitWith {

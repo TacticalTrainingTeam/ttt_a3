@@ -22,7 +22,7 @@
 
 if (!GVAR(enable)) exitWith {};
 
-_constructWorkshop =
+private _constructWorkshop =
 [
     "ttt_repair_vehicle_constuct",
     LLSTRING(actionConstruct),
@@ -31,7 +31,7 @@ _constructWorkshop =
     {[_this] call FUNC(canConstruct)}
 ] call ace_interact_menu_fnc_createAction;
 
-_deconstructWorkshop =
+private _deconstructWorkshop =
 [
     "ttt_repair_vehicle_deconstuct",
     LLSTRING(actionDeconstruct),

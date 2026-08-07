@@ -15,7 +15,7 @@
 
 (_this select 0) params ["_target", "_caller"];
 
-_return = false;
+private _return = false;
 if (
     !(_target getVariable ["ttt_signalpanel_inUse", false]) && 
     !((unitBackpack _caller) getVariable ["ttt_signalpanel_hasTarp", true]) && 
@@ -24,4 +24,4 @@ if (
     _return = true;
 };
 
-_return;
+  _return

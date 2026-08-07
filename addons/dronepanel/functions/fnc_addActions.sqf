@@ -27,7 +27,7 @@ private _planeColor = switch (GVAR(tarpColor)) do {
 
 if (!GVAR(enable)) exitWith {};
 
-_constructPlane =
+private _constructPlane =
 [
     "ttt_dronepanel_constuct",
     LLSTRING(actionConstruct),
@@ -36,7 +36,7 @@ _constructPlane =
     {[_this] call FUNC(canConstruct)}
 ] call ace_interact_menu_fnc_createAction;
 
-_deconstructPlane =
+private _deconstructPlane =
 [
     "ttt_dronepanel_deconstuct",
     LLSTRING(actionDeconstruct),
