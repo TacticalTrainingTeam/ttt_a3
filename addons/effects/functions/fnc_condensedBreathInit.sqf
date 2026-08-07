@@ -43,7 +43,7 @@ if (isDedicated) exitWith {[[], ttt_effects_fnc_condensedBreathInit] remoteExec 
 			[[_unit], ttt_effects_fnc_condensedBreathEffects] remoteExec ["call", ([0, -2] select isDedicated), true];	// re-add effect for every player
 		}];
 
-		_XEHid = ["featureCamera", {
+		private _XEHid = ["featureCamera", {
 			params ["_entity", "_cameraMode"];																			// Playing: "", Zeus: "curator", Spectator: "nexus"
 			if ((_cameraMode == "") && !(isObjectHidden _entity)) then {
 				[_entity] call ttt_effects_fnc_condensedBreathEffects;													// re-add effect for self if not hidden
