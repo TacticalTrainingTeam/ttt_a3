@@ -103,4 +103,4 @@ private _pfhID = [
 
 _logic setVariable [QGVAR(pfhID), _pfhID, true];
 
-_pfhID;
+  _pfhID

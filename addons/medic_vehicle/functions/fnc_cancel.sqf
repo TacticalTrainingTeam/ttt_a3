@@ -20,7 +20,7 @@ _caller switchMove "";
 
 if (typeOf _target == GVAR(facilityObject)) then {
     _target setVariable ["ttt_medic_vehicle_inUse", false, true];
-    _arrayVehicles = nearestObjects [(getPos _target), (parseSimpleArray GVAR(supportedVehicles)), 15];
+    private _arrayVehicles = nearestObjects [(getPos _target), (parseSimpleArray GVAR(supportedVehicles)), 15];
     private "_vehicle";
     private _ArrayVehicle = [];
     {

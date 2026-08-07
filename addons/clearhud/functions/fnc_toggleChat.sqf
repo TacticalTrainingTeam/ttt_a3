@@ -31,8 +31,8 @@ PARAMS_5(_display,_dikCode,_shift,_ctrl,_alt);
 _status = GVAR(activated);
 
 //local copy of the DIK Code to String Table and transform it to a hash
-_diktable = uiNamespace getVariable QUOTE(CBA_keybinding_dikDecToStringTable);
-_hash = [_diktable,0] call CBA_fnc_hashCreate;
+private _diktable = uiNamespace getVariable QUOTE(CBA_keybinding_dikDecToStringTable);
+private _hash = [_diktable,0] call CBA_fnc_hashCreate;
 _key = [_hash, format ["%1", _dikCode]] call CBA_fnc_hashGet;//seems to return wrong key: 0 instead of ,
 
 //create several strings for the current variables

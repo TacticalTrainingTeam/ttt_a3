@@ -53,7 +53,7 @@ if !(missionNamespace isNil QGVAR(registerFriendlyAriModule_rounds)) then {_roun
 if !(missionNamespace isNil QGVAR(registerFriendlyAriModule_decrementing)) then {_decrementRadius = missionNamespace getVariable QGVAR(registerFriendlyAriModule_decrementing)};
 if !(missionNamespace isNil QGVAR(registerFriendlyAriModule_delay)) then {_counterTime = missionNamespace getVariable QGVAR(registerFriendlyAriModule_delay)};
 
-_ammo = 0;//init
+private _ammo = 0;//init
 //Get enemy ari ammo
 {
 	if (alive _x) exitWith 
@@ -86,10 +86,10 @@ if ((getPos _ownArty) inRangeOfArtillery [_enemyArtyArray, _ammo]) then
 			{
 				params ["_ownArty","_radius","_rounds","_decrementRadius","_enemyArtyArray"];
 				//Get trigger position
-				_centerPos = getPos _ownArty;
+				private _centerPos = getPos _ownArty;
 
 				//Get all rounds to fire
-				_allShots = _rounds * (count _enemyArtyArray);
+				private _allShots = _rounds * (count _enemyArtyArray);
 
 				//Start the counter with zero shots fired, do it Global, otherwise Redd_fnc_AriFireMission doesnt knows the variable
 				Redd_arti_shots = 0;
@@ -104,7 +104,7 @@ if ((getPos _ownArty) inRangeOfArtillery [_enemyArtyArray, _ammo]) then
 					
 						//Get the right ammo, ever artillery should have HE at first magazine
 						//Doesent work for mortar with ACE
-						_ammo = getArtilleryAmmo [_x] select 0;
+						private _ammo = getArtilleryAmmo [_x] select 0;
 
 						//Call the firemission function random delayed for each Arty via CBA
 						[
