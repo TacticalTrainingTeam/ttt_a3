@@ -145,9 +145,10 @@ force force kat_breathing_arrestPneumothorax_interval = 30;
 force force kat_breathing_availOxyMask = "'kat_mask_solr'";
 force force kat_breathing_BVMOxygen_Multiplier = 1;
 force force kat_breathing_clearChestSealAfterTreatment = true;
+
 force force kat_breathing_deepPenetratingInjuryChance = 30;
 force force kat_breathing_deterioratingPneumothorax_chance = 50;
-force force kat_breathing_deterioratingPneumothorax_interval = 60;
+force force kat_breathing_deterioratingPneumothorax_interval = 30;
 force force kat_breathing_enable = true;
 force force kat_breathing_enable_selfChestseal = 1;
 force force kat_breathing_enableCheckBreathing = true;
@@ -182,30 +183,53 @@ force force kat_breathing_showPneumothorax_dupe = false;
 force force kat_breathing_slightValue = 90;
 force force kat_breathing_SpO2_cardiacActive = true;
 force force kat_breathing_SpO2_cardiacValue = 75;
+force force kat_breathing_SpO2_CPR_Rise = false;
+force force kat_breathing_SpO2_CPR_RiseMultiplier = 1;
 force force kat_breathing_SpO2_dieActive = true;
 force force kat_breathing_SpO2_dieValue = 65;
 force force kat_breathing_SpO2_MultiplyNegative = 1;
 force force kat_breathing_SpO2_MultiplyPositive = 1;
 force force kat_breathing_SpO2_perfusion = true;
 force force kat_breathing_SpO2_PerfusionMultiplier = 1;
+force force kat_breathing_SpO2_CPR_Rise = false;
+force force kat_breathing_SpO2_CPR_RiseMultiplier = 1;
 force force kat_breathing_SpO2_unconscious = 75;
 force force kat_breathing_Stable_spo2 = 85;
 force force kat_breathing_staminaLossAtLowSPO2 = true;
 force force kat_breathing_stethoscopeListeningTime = 15;
-force force kat_breathing_stethoscopeSoundVolume = 2;
 force force kat_breathing_TensionHemothoraxAlwaysVisible = true;
 // --- END KAT_ADVMedicalBreathing.sqf ---
 
 
 // --- BEGIN KAT_ADVMedicalChemical.sqf ---
 // KAT - ADV Medical: Chemical
-force force kat_chemical_availGasmask = "'G_AirPurifyingRespirator_01_F', 'kat_mask_M50', 'kat_mask_M04'";
+force kat_chemical_availGasmask = "'G_AirPurifyingRespirator_01_F','kat_mask_M50','kat_mask_M04','G_AirPurifyingRespirator_02_black_F','G_AirPurifyingRespirator_02_olive_F','G_AirPurifyingRespirator_02_sand_F','G_RegulatorMask_F',,'USP_FM12_BLK','USP_FM12_BLK2','USP_FM12_BLK3','USP_FM12_FC_BLK','USP_FM12_FC_BLK2','USP_FM12_FC_BLK3','USP_FM12_FC2_BLK','USP_FM12_FC2_BLK2','USP_FM12_FC2_BLK3','USP_FM12_SH_BLK','USP_FM12_SH_BLK2','USP_FM12_SH_BLK3','USP_FM12_SH2_BLK','USP_FM12_SH2_BLK2','USP_FM12_SH2_BLK3','USP_FM12_SH3_BLK','USP_FM12_SH3_BLK2','USP_FM12_SH3_BLK3','USP_FM12_SH4_BLK','USP_FM12_SH4_BLK2','USP_FM12_SH4_BLK3','USP_M50_BLK','USP_M50_BLK2','USP_M50_BLK3','USP_M50_FC_BLK','USP_M50_FC_BLK2','USP_M50_FC_BLK3','USP_M50_FC2_BLK','USP_M50_FC2_BLK2','USP_M50_FC2_BLK3','USP_GP21_BLK','USP_GP21_BLK2','USP_GP21_BLK3','USP_GP21_FC_BLK','USP_GP21_FC_BLK2','USP_GP21_FC_BLK3','USP_GP21_FC2_BLK','USP_GP21_FC2_BLK2','USP_GP21_FC2_BLK3','USP_GP21_SH_BLK','USP_GP21_SH_BLK2','USP_GP21_SH_BLK3','USP_GP21_SH2_BLK','USP_GP21_SH2_BLK2','USP_GP21_SH2_BLK3','USP_GP21_SH3_BLK','USP_GP21_SH3_BLK2','USP_GP21_SH3_BLK3','USP_GP21_SH4_BLK','USP_GP21_SH4_BLK2','USP_GP21_SH4_BLK3'";
+force kat_chemical_availCBRNUniform = "'U_C_CBRN_Suit_01_Blue_F','U_B_CBRN_Suit_01_MTP_F','U_B_CBRN_Suit_01_Tropic_F','U_C_CBRN_Suit_01_White_F','U_B_CBRN_Suit_01_Wdl_F','U_I_CBRN_Suit_01_AAF_F','U_I_E_CBRN_Suit_01_EAF_F'";
 force force kat_chemical_gasmask_durability = 900;
-force force kat_chemical_gasMaskSoundVolume = 1;
-force force kat_chemical_infectionTime = 60;
+force force kat_chemical_chlorine_onsetTime = 30;
+force force kat_chemical_cloudIdMemoryTime = 30;
+force force kat_chemical_contaminationTickInterval = 40;
+force force kat_chemical_deconActionTime = 8;
+force kat_chemical_enableParticleEffects = true;
+force kat_chemical_enableSmellHint = true;
+force force kat_chemical_m8PaperActionTime = 3;
+force force kat_chemical_m8PaperDisplayTime = 8;
 force force kat_chemical_maskStaminaLoss = false;
+force force kat_chemical_mustard_burnOnsetMax = 240;
+force force kat_chemical_mustard_burnOnsetMin = 100;
+force force kat_chemical_mustard_eyeOnsetMax = 100;
+force force kat_chemical_mustard_eyeOnsetMin = 40;
+force force kat_chemical_phosgene_onsetMax = 360;
+force force kat_chemical_phosgene_onsetMin = 120;
+force force kat_chemical_sarin_cardiacArrestTime = 120;
+force force kat_chemical_sarin_unconsciousTime = 60;
+force force kat_chemical_sarin_vomitTime = 30;
 force force kat_chemical_showPoisoning = true;
 force force kat_chemical_tearGasDropChance = 0;
+force force kat_chemical_vx_cardiacArrestTime = 240;
+force force kat_chemical_vx_cloudLifetime = 600;
+force force kat_chemical_vx_unconsciousTime = 120;
+force force kat_chemical_vx_vomitTime = 60;
 // --- END KAT_ADVMedicalChemical.sqf ---
 
 
@@ -296,14 +320,14 @@ force force kat_misc_AFAKSecondSlotItem = "[]";
 force force kat_misc_AFAKSixthSlotItem = "[]";
 force force kat_misc_AFAKThirdSlotItem = "[]";
 force force kat_misc_allowSharedVehicleEquipment = 4;
-force force kat_misc_armbandSlingLeftArm = "[0.2, -0.39, -0.2]";
-force force kat_misc_armbandSlingLeftArmRotation = "[240, 33, 26]";
-force force kat_misc_armbandSlingLeftLeg = "[0.435, -0.075, -0.38]";
-force force kat_misc_armbandSlingLeftLegRotation = "[-160, -5, 45]";
-force force kat_misc_armbandSlingRightArm = "[-0.228, -0.1, -0.43]";
-force force kat_misc_armbandSlingRightArmRotation = "[5, -5, -5]";
-force force kat_misc_armbandSlingRightLeg = "[-0.32, -0.29, -0.42]";
-force force kat_misc_armbandSlingRightLegRotation = "[-30, -5, 38]";
+force force kat_misc_armbandSlingLeftArm = "[0.2,-0.39,-0.2]";
+force force kat_misc_armbandSlingLeftArmRotation = "[240,33,26]";
+force force kat_misc_armbandSlingLeftLeg = "[0.435,-0.075,-0.38]";
+force force kat_misc_armbandSlingLeftLegRotation = "[-160,-5,45]";
+force force kat_misc_armbandSlingRightArm = "[-0.228,-0.1,-0.43]";
+force force kat_misc_armbandSlingRightArmRotation = "[5,-5,-5]";
+force force kat_misc_armbandSlingRightLeg = "[-0.32,-0.29,-0.42]";
+force force kat_misc_armbandSlingRightLegRotation = "[-30,-5,38]";
 force force kat_misc_enable = true;
 force force kat_misc_enableStitchFullBody = false;
 force force kat_misc_IFAK_Container = 0;
@@ -460,7 +484,7 @@ force force kat_surgery_npwtLocation = 3;
 force force kat_surgery_npwtTime = 5;
 force force kat_surgery_openTime = 15;
 force force kat_surgery_pericardialtap_MedLevel = 2;
-force force kat_surgery_pericardialtapLocation = 4;
+force force kat_surgery_pericardialtapLocation = 3;
 force force kat_surgery_pericardialtapTime = 8;
 force force kat_surgery_reboa_MedLevel = 2;
 force force kat_surgery_reboaLocation = 3;
@@ -468,9 +492,9 @@ force force kat_surgery_reboaTime = 8;
 force force kat_surgery_simpleChance = 0;
 force force kat_surgery_Surgery_ConsciousnessRequirement = 0;
 force force kat_surgery_surgicalAction_MedLevel = 2;
-force force kat_surgery_surgicalLocation = 4;
+force force kat_surgery_surgicalLocation = 3
 force force kat_surgery_ultrasound_MedLevel = 2;
-force force kat_surgery_ultrasoundLocation = 4;
+force force kat_surgery_ultrasoundLocation = 3;
 force force kat_surgery_ultrasoundTime = 8;
 // --- END KAM_Surgery.sqf ---
 
