@@ -15,7 +15,7 @@
     {
         _x params ["_setting", "_value", "_priority"];
         [_setting, _value, _priority, "server"] call CBA_settings_fnc_set;
-    } forEach ([_settingsFile, VALIDATE_SETTINGS] call CBA_settings_fnc_parse);
+    } forEach ([_settingsFile, false] call CBA_settings_fnc_parse);
 } forEach [
     "A3TI",
     "ACE_AdvancedBallistics",
