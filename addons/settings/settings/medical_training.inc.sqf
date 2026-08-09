@@ -182,8 +182,6 @@ force force kat_breathing_showPneumothorax_dupe = false;
 force force kat_breathing_slightValue = 90;
 force force kat_breathing_SpO2_cardiacActive = true;
 force force kat_breathing_SpO2_cardiacValue = 75;
-force force kat_breathing_SpO2_CPR_Rise = false;
-force force kat_breathing_SpO2_CPR_RiseMultiplier = 1;
 force force kat_breathing_SpO2_dieActive = true;
 force force kat_breathing_SpO2_dieValue = 65;
 force force kat_breathing_SpO2_MultiplyNegative = 1;
@@ -202,7 +200,7 @@ force force kat_breathing_TensionHemothoraxAlwaysVisible = true;
 
 // --- BEGIN KAT_ADVMedicalChemical.sqf ---
 // KAT - ADV Medical: Chemical
-force kat_chemical_availGasmask = "'G_AirPurifyingRespirator_01_F','kat_mask_M50','kat_mask_M04','G_AirPurifyingRespirator_02_black_F','G_AirPurifyingRespirator_02_olive_F','G_AirPurifyingRespirator_02_sand_F','G_RegulatorMask_F',,'USP_FM12_BLK','USP_FM12_BLK2','USP_FM12_BLK3','USP_FM12_FC_BLK','USP_FM12_FC_BLK2','USP_FM12_FC_BLK3','USP_FM12_FC2_BLK','USP_FM12_FC2_BLK2','USP_FM12_FC2_BLK3','USP_FM12_SH_BLK','USP_FM12_SH_BLK2','USP_FM12_SH_BLK3','USP_FM12_SH2_BLK','USP_FM12_SH2_BLK2','USP_FM12_SH2_BLK3','USP_FM12_SH3_BLK','USP_FM12_SH3_BLK2','USP_FM12_SH3_BLK3','USP_FM12_SH4_BLK','USP_FM12_SH4_BLK2','USP_FM12_SH4_BLK3','USP_M50_BLK','USP_M50_BLK2','USP_M50_BLK3','USP_M50_FC_BLK','USP_M50_FC_BLK2','USP_M50_FC_BLK3','USP_M50_FC2_BLK','USP_M50_FC2_BLK2','USP_M50_FC2_BLK3','USP_GP21_BLK','USP_GP21_BLK2','USP_GP21_BLK3','USP_GP21_FC_BLK','USP_GP21_FC_BLK2','USP_GP21_FC_BLK3','USP_GP21_FC2_BLK','USP_GP21_FC2_BLK2','USP_GP21_FC2_BLK3','USP_GP21_SH_BLK','USP_GP21_SH_BLK2','USP_GP21_SH_BLK3','USP_GP21_SH2_BLK','USP_GP21_SH2_BLK2','USP_GP21_SH2_BLK3','USP_GP21_SH3_BLK','USP_GP21_SH3_BLK2','USP_GP21_SH3_BLK3','USP_GP21_SH4_BLK','USP_GP21_SH4_BLK2','USP_GP21_SH4_BLK3'";
+force kat_chemical_availGasmask = "'G_AirPurifyingRespirator_01_F','kat_mask_M50','kat_mask_M04','G_AirPurifyingRespirator_02_black_F','G_AirPurifyingRespirator_02_olive_F','G_AirPurifyingRespirator_02_sand_F','G_RegulatorMask_F','USP_FM12_BLK','USP_FM12_BLK2','USP_FM12_BLK3','USP_FM12_FC_BLK','USP_FM12_FC_BLK2','USP_FM12_FC_BLK3','USP_FM12_FC2_BLK','USP_FM12_FC2_BLK2','USP_FM12_FC2_BLK3','USP_FM12_SH_BLK','USP_FM12_SH_BLK2','USP_FM12_SH_BLK3','USP_FM12_SH2_BLK','USP_FM12_SH2_BLK2','USP_FM12_SH2_BLK3','USP_FM12_SH3_BLK','USP_FM12_SH3_BLK2','USP_FM12_SH3_BLK3','USP_FM12_SH4_BLK','USP_FM12_SH4_BLK2','USP_FM12_SH4_BLK3','USP_M50_BLK','USP_M50_BLK2','USP_M50_BLK3','USP_M50_FC_BLK','USP_M50_FC_BLK2','USP_M50_FC_BLK3','USP_M50_FC2_BLK','USP_M50_FC2_BLK2','USP_M50_FC2_BLK3','USP_GP21_BLK','USP_GP21_BLK2','USP_GP21_BLK3','USP_GP21_FC_BLK','USP_GP21_FC_BLK2','USP_GP21_FC_BLK3','USP_GP21_FC2_BLK','USP_GP21_FC2_BLK2','USP_GP21_FC2_BLK3','USP_GP21_SH_BLK','USP_GP21_SH_BLK2','USP_GP21_SH_BLK3','USP_GP21_SH2_BLK','USP_GP21_SH2_BLK2','USP_GP21_SH2_BLK3','USP_GP21_SH3_BLK','USP_GP21_SH3_BLK2','USP_GP21_SH3_BLK3','USP_GP21_SH4_BLK','USP_GP21_SH4_BLK2','USP_GP21_SH4_BLK3'";
 force kat_chemical_availCBRNUniform = "'U_C_CBRN_Suit_01_Blue_F','U_B_CBRN_Suit_01_MTP_F','U_B_CBRN_Suit_01_Tropic_F','U_C_CBRN_Suit_01_White_F','U_B_CBRN_Suit_01_Wdl_F','U_I_CBRN_Suit_01_AAF_F','U_I_E_CBRN_Suit_01_EAF_F'";
 force force kat_chemical_gasmask_durability = 900;
 force force kat_chemical_chlorine_onsetTime = 30;
@@ -491,7 +489,7 @@ force force kat_surgery_reboaTime = 8;
 force force kat_surgery_simpleChance = 0;
 force force kat_surgery_Surgery_ConsciousnessRequirement = 0;
 force force kat_surgery_surgicalAction_MedLevel = 2;
-force force kat_surgery_surgicalLocation = 3
+force force kat_surgery_surgicalLocation = 3;
 force force kat_surgery_ultrasound_MedLevel = 2;
 force force kat_surgery_ultrasoundLocation = 3;
 force force kat_surgery_ultrasoundTime = 8;
