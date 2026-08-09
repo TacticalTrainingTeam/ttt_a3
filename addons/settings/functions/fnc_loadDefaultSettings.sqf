@@ -75,6 +75,8 @@
     "ACE_Zeus",
     "Achilles",
     "ACRE2",
+    "Advanced_Slingloading",
+    "Advanced_Towing",
     "AutoWeaponLower",
     "BOCR",
     "BWA3",
