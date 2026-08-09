@@ -142,10 +142,9 @@ force force kat_airway_Suction_time = 12;
 force force kat_breathing_advPtxChance = 5;
 force force kat_breathing_advPtxEnable = true;
 force force kat_breathing_arrestPneumothorax_interval = 30;
-force force kat_breathing_availOxyMask = "'kat_mask_solr'";
+force force kat_breathing_availOxyMask = "'kat_mask_solr','USP_SOLR_AF','USP_SOLR_AF_CBR','USP_SOLR_AF_MC','USP_SOLR_AF_RGR','USP_SOLR_AF_NP','USP_SOLR_AF_NT','USP_SOLR_AF_OAK','USP_SOLR_AF_CBR_OAK','USP_SOLR_AF_MC_OAK','USP_SOLR_AF_RGR_OAK','USP_SOLR_AF_OAK_NP','USP_SOLR_AF_OAK_NT','USP_SOLR_AF2','USP_SOLR_AF2_CBR','USP_SOLR_AF2_MC','USP_SOLR_AF2_RGR','USP_SOLR_AF2_NP','USP_SOLR_AF2_NT','USP_SOLR','USP_SOLR_CBR','USP_SOLR_CBR_OAK','USP_SOLR_MC','USP_SOLR_MC_OAK','USP_SOLR_RGR','USP_SOLR_RGR_OAK','USP_SOLR_NP','USP_SOLR_OAK_NP','USP_SOLR_NT','USP_SOLR_OAK_NT','USP_SOLR_OAK','USP_SOLR2','USP_SOLR2_CBR','USP_SOLR2_MC','USP_SOLR2_RGR','USP_SOLR2_NP','USP_SOLR2_NT','USP_SOLR_TW','USP_SOLR_TW_CBR','USP_SOLR_TW_MC','USP_SOLR_TW_RGR','USP_SOLR_TW_NP','USP_SOLR_TW_NT','USP_SOLR_TW_OAK','USP_SOLR_TW_CBR_OAK','USP_SOLR_TW_MC_OAK','USP_SOLR_TW_RGR_OAK','USP_SOLR_TW_OAK_NP','USP_SOLR_TW_OAK_NT','USP_SOLR_TW2','USP_SOLR_TW2_CBR','USP_SOLR_TW2_MC','USP_SOLR_TW2_RGR','USP_SOLR_TW2_NP','USP_SOLR_TW2_NT','USP_SOLR_XP','USP_SOLR_XP_CBR','USP_SOLR_XP_MC','USP_SOLR_XP_RGR','USP_SOLR_XP_NP','USP_SOLR_XP_NT','USP_SOLR_XP_OAK','USP_SOLR_XP_CBR_OAK','USP_SOLR_XP_MC_OAK','USP_SOLR_XP_RGR_OAK','USP_SOLR_XP_OAK_NP','USP_SOLR_XP_OAK_NT','USP_SOLR_XP2','USP_SOLR_XP2_CBR','USP_SOLR_XP2_MC','USP_SOLR_XP2_RGR','USP_SOLR_XP2_NP','USP_SOLR_XP2_NT'";
 force force kat_breathing_BVMOxygen_Multiplier = 1;
 force force kat_breathing_clearChestSealAfterTreatment = true;
-
 force force kat_breathing_deepPenetratingInjuryChance = 30;
 force force kat_breathing_deterioratingPneumothorax_chance = 50;
 force force kat_breathing_deterioratingPneumothorax_interval = 30;
