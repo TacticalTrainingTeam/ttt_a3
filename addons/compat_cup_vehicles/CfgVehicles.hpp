@@ -150,6 +150,15 @@ class CfgVehicles {
             class CommanderTurret: NewTurret {
                 weapons[] = {}; // was "SmokeLauncher"
                 magazines[] = {}; // was "SmokeLauncherMag"
+
+                class CommanderOptics {
+                    canUseBinocular = 1;
+                    usePip = 0;
+                    stabilizedInAxes = 0;
+                    outGunnerMayFire = 1;
+                    turnOutAction = "ManActBinocular";     // forces binocular‑compatible anim
+                    turnOutActionExt = "ManActBinocular";  // external version
+                };
             };
         };
 
