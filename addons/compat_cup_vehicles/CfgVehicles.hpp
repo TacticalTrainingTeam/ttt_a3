@@ -129,6 +129,7 @@ class CfgVehicles {
     class Car_F;
     class Wheeled_APC_F: Car_F {
         class NewTurret;
+        class CommanderOptics;
         class Turrets {
             class MainTurret: NewTurret {
                 class Turrets {};
@@ -151,7 +152,7 @@ class CfgVehicles {
                 weapons[] = {}; // was "SmokeLauncher"
                 magazines[] = {}; // was "SmokeLauncherMag"
 
-                class CommanderOptics {
+                class CommanderOptics: CommanderOptics {
                     canUseBinocular = 1;
                     usePip = 0;
                     stabilizedInAxes = 0;
