@@ -23,7 +23,7 @@
 
 TRACE_1("fnc_suppressChat",_this);
 
-PARAMS_5(_display,_dikCode,_shift,_ctrl,_alt);
+params ["_display","_dikCode","_shift","_ctrl","_alt"];
 
 //read the current status of chat deactivation (true = deactivated)
 private _status = GVAR(activated);
