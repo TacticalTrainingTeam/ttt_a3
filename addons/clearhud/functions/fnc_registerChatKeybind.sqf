@@ -24,7 +24,7 @@ private _keybind = [
     ELSTRING(main,TacticalTrainingTeam),
     "SwitchChat",
     [LSTRING(chatKeybindName),LSTRING(chatKeybindTooltip)],
-    { call FUNC(toggleChat)},
+    { _this call FUNC(toggleChat) },
     "",
     [DIK_COMMA, [true, false, false]]
 ] call CBA_fnc_addKeybind;
