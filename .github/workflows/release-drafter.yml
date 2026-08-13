@@ -6,6 +6,10 @@ on:
     - master
     - release-drafter  # for testing edits to this configuration
 
+permissions:
+  contents: write
+  pull-requests: read
+
 jobs:
   draft:
     runs-on: ubuntu-latest
