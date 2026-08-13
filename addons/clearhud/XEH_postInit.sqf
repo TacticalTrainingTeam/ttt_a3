@@ -1,7 +1,7 @@
 #include "script_component.hpp"
 #include "\a3\ui_f\hpp\defineDIKCodes.inc"
 
-if (isDedicated) exitWith {};
+if (!hasInterface) exitWith {};
 
 //Register Keybind
 private _keybind = [

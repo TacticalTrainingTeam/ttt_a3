@@ -32,7 +32,9 @@ private _status = GVAR(activated);
 private _activated = "";
 if (_status) then {
     _activated = parseText format ["<t color='#00ff00'>%1</t>", LLSTRING(chatEnabled)];
-    [GVAR(handle)] call CBA_fnc_removePerFrameHandler;
+    if (!isNil GVAR(handle)) then {
+        [GVAR(handle)] call CBA_fnc_removePerFrameHandler;
+    };
     _status = false;
 } else {
     _activated = parseText format ["<t color='#ff0000'>%1</t>", LLSTRING(chatDisabled)];
