@@ -13,13 +13,15 @@
  * 4: Alt pressed <BOOLEAN>
  *
  * Return Value:
- * True <BOOLEAN>
+ * Status <BOOLEAN>
  *
  * Example:
  * [] call ttt_clearhud_fnc_toggleChat
  *
  * Public: No
  */
+
+ //https://community.bistudio.com/wiki/showChat ?
 
 TRACE_1("fnc_toggleChat",_this);
 
@@ -52,4 +54,4 @@ private _keybind = parseText format ["<t color='#FFA54F'>%1</t>", _keyName];
 
 GVAR(activated) = _status;
 
-true
+_status
