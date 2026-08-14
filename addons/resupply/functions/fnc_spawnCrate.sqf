@@ -40,7 +40,7 @@ if (_pos isEqualTo []) exitWith { objNull };
 private _isMedical = _type in ["medical_alpha", "medical_bravo", "medical_charlie"];
 
 // Guard: scan must have completed before spawning dynamic crates
-if (!_isMedical && GVAR(db_init)) exitWith {
+if (!_isMedical && !GVAR(db_init)) exitWith {
     WARNING("Crate spawn requested but database has not been built yet");
     objNull
 };

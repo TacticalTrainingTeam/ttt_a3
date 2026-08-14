@@ -4,3 +4,8 @@
 if (isServer) then {
     call FUNC(scanLoadouts);
 };
+
+// Clients: register the ACE interaction menu action
+if (hasInterface) then {
+    call FUNC(addActions);
+};

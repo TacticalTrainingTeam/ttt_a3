@@ -4,7 +4,8 @@
     [LSTRING(enable_displayName), LSTRING(enable_description)],
     [ELSTRING(main,TacticalTrainingTeam), LSTRING(subCategory)],
     false,
-    true
+    true,
+    {[] call FUNC(addActions);}
 ] call CBA_fnc_addSetting;
 
 [
@@ -31,5 +32,7 @@
     [LSTRING(actionVariable_displayName), LSTRING(actionVariable_description)],
     [ELSTRING(main,TacticalTrainingTeam), LSTRING(subCategory)],
     ["ttt_resupply_enabled"],
+    true,
+    {[] call FUNC(addActions);},
     true
 ] call CBA_fnc_addSetting;

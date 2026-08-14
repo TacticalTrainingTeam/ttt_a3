@@ -10,7 +10,7 @@ crates on demand via an ACE action on pre-placed depot objects or via Zeus modul
 |---|---|---|
 | **Ammo** | `Box_NATO_Ammo_F` | Rifle / pistol magazines |
 | **Grenades** | `Box_NATO_Grenades_F` | Hand grenades, smoke, flares |
-| **AT Ammunition** | `Box_NATO_AmmoOrd_F` | Rocket / missile launcher ammo |
+| **AT Ammunition** | `Box_NATO_WpsLaunch_F` | Rocket / missile launcher ammo |
 | **Explosives** | `Box_NATO_AmmoOrd_F` | Mines, demo charges, satchels |
 | **Support** | `Box_NATO_Support_F` | Misc inventory items (batteries, cable ties, etc.) |
 | **Medical Alpha** | `ttt_common_sana_crate` | Basic medical (pre-defined by /common) |
@@ -31,7 +31,7 @@ Items are classified from player loadouts at mission start:
   - everything else → Ammo
 - `items _unit` — all go to Support
 
-> **Note**: The scan runs 3 seconds after mission start. JIP players are not included.
+> **Note**: The scan runs 5 seconds after mission start. JIP players are not included.
 
 ## Settings (CBA)
 

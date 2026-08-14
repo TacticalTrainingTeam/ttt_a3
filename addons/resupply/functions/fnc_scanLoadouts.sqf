@@ -66,8 +66,7 @@ GVAR(db_init)       = false;
 
     // Classify and average magazines into their categories
     {
-        //private _avg = round ((_magAcc get _x) / _playerCount * _multiplier);
-        private _avg = (_magAcc get _x) * _multiplier;
+        private _avg = round ((_magAcc get _x) / _playerCount * _multiplier);
         if (_avg > 0) then {
             switch ([_x] call FUNC(classifyMag)) do {
                 case "ammo":       { _db_ammo       pushBack [_x, _avg] };

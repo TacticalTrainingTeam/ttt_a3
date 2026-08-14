@@ -89,5 +89,9 @@
             <English>Support Box</English>
             <German>Ausruestungskiste</German>
         </Key>
+        <Key ID="STR_ttt_Resupply_zeusModule_description">
+            <English>Spawns a resupply crate of this type at the module's position.</English>
+            <German>Erstellt an der Position des Moduls eine Nachschubkiste dieses Typs.</German>
+        </Key>
     </Package>
 </Project>
