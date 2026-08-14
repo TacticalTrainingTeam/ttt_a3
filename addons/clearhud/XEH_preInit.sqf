@@ -8,8 +8,7 @@ PREP_RECOMPILE_END;
 
 ADDON = true;
 
-//Dedicated Servers shall not pass!
-NO_DEDICATED;
+if(!hasInterface) exitWith {};
 
 //Define a global variable, chat deactivated by default
 if(isNil QGVAR(activated)) then {
