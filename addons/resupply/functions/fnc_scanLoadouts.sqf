@@ -41,6 +41,7 @@ GVAR(db_init)       = false;
 
     if (_playerCount == 0) exitWith {
         INFO("No players found during loadout scan");
+        GVAR(db_init) = true;
     };
 
     // Accumulators: classname -> total count across all players

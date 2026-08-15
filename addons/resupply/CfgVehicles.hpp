@@ -2,8 +2,6 @@ class CfgVehicles {
     class Logic;
     class Module_F: Logic {
         class AttributesBase {
-            class Edit;
-            class Checkbox;
             class ModuleDescription;
         };
 
@@ -13,11 +11,13 @@ class CfgVehicles {
 
     class GVAR(module_base): Module_F {
         scope = 0;
+        scopeCurator = 2;
         category = "Supports";
         function = QFUNC(zeusPlaceCrate);
         isGlobal = 1;
         isTriggerActivated = 0;
-        icon = "\a3\ui_f\data\igui\cfg\actions\ammobox_ca.paa";
+        is3DEN = 0;
+        icon = QUOTE(a3\ui_f\data\map\vehicleicons\iconcrateammo_ca.paa);
 
         class Attributes: AttributesBase {
             class ModuleDescription: ModuleDescription {};

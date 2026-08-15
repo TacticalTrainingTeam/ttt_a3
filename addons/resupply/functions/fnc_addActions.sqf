@@ -21,7 +21,7 @@
 
 if (!GVAR(enable)) exitWith {};
 
-private _icon = "\a3\ui_f\data\igui\cfg\actions\ammobox_ca.paa";
+private _icon = "\a3\ui_f\data\igui\cfg\actions\take_ca.paa";
 
 // Parent submenu, only shown on objects tagged via GVAR(actionVariable)
 private _resupplyMenu = [

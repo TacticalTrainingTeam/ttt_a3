@@ -19,8 +19,21 @@ params [["_logic", objNull, [objNull]], ["_units", [], [[]]], ["_activated", tru
 
 if (_activated) then {
     private _type = getText (configOf _logic >> QGVAR(crateType));
-    [getPos _logic, _type] call FUNC(spawnCrate);
+    private _pos = getPos _logic;
     deleteVehicle _logic;
+
+    // Modules with isTriggerActivated = 0 fire almost immediately at mission
+    // start, well before scanLoadouts' database finishes building. spawn a
+    // scheduled thread (the module function's own environment isn't
+    // guaranteed suspendable) and wait there so dynamic crate types don't
+    // silently spawn empty.
+    [_pos, _type] spawn {
+        params ["_pos", "_type"];
+        if (!(_type in ["medical_alpha", "medical_bravo", "medical_charlie"])) then {
+            waitUntil { sleep 0.1; GVAR(db_init) };
+        };
+        [_pos, _type] call FUNC(spawnCrate);
+    };
 };
 
 true
