@@ -51,10 +51,10 @@ Die Items werden bei Missionsstart aus der Ausrüstung der Spieler klassifiziert
 
 ## CBA-Einstellungen
 
-| Einstellung | Typ | Default | Beschreibung |
-| --- | --- | --- | --- |
-| Kisten-Fraktion | Liste | `NATO` | Präfix der Kistenklasse: NATO / OPFOR / INDEP |
-| Mengen-Multiplikator | Slider (0.5-5.0) | `1.0` | Skalierungsfaktor auf den Durchschnitt pro Gruppe |
+``` c++
+force ttt_resupply_faction = 0;              //default: 0; (0 = NATO, 1 = OPFOR, 2 = INDEP)
+force ttt_resupply_quantityMultiplier = 1.0; //default: 1.0; (0.5-5.0)
+```
 
 Es gibt keinen zentralen Ein-/Ausschalter. Das ACE-Menü erscheint nur an
 Objekten, die mit `ttt_resupply_container` markiert wurden (bewusste
