@@ -9,6 +9,10 @@ class CfgVehicles {
         };
     };
 
+    // scope = 0 at the base + is3DEN = 0 keeps these out of the classic 2D
+    // editor and 3DEN entirely. Each leaf overrides scope back to 2, which is
+    // required (together with scopeCurator = 2) for Zeus to list it in the
+    // curator interface - these modules are Zeus-only by design.
     class GVAR(module_base): Module_F {
         scope = 0;
         scopeCurator = 2;

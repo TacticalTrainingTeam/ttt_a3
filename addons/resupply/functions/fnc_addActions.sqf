@@ -3,7 +3,7 @@
 /*
  * Author: Andx
  * Adds the "Resupply" ACE interaction submenu (one child action per crate
- * type) to any object tagged with the configured resupply variable.
+ * type) to any object tagged with the QGVAR(container) variable.
  *
  * Arguments:
  * None
@@ -17,25 +17,29 @@
  * Public: No
  */
 
-["All", 0, ["ACE_MainActions", "ttt_resupply_menu"]] call ace_interact_menu_fnc_removeActionFromClass;
+// _useInheritance = true is required so this actually applies to every
+// object (isKindOf "All" via GVAR(inheritedClassesAll)) instead of only
+// objects whose exact typeOf is the literal (never-instantiated) "All" root.
+["All", 0, ["ACE_MainActions", "ttt_resupply_menu"], true] call ace_interact_menu_fnc_removeActionFromClass;
 
-if (!GVAR(enable)) exitWith {};
+private _icon = "a3\ui_f\data\map\vehicleicons\iconcrateammo_ca.paa";
 
-private _icon = "\a3\ui_f\data\igui\cfg\actions\take_ca.paa";
-
-// Parent submenu, only shown on objects tagged via GVAR(actionVariable)
+// Parent submenu, only shown on objects tagged via QGVAR(container). ACE
+// calls statement/condition code with _this = [_target, _player, _params]
+// directly - no extra "select 0" unwrap needed here, since this code isn't
+// delegating through a "{[_this] call someFunc}" wrapper.
 private _resupplyMenu = [
     "ttt_resupply_menu",
     LLSTRING(action_resupply_menu),
     _icon,
     {},
     {
-        (_this select 0) params ["_target"];
-        _target getVariable [GVAR(actionVariable), false]
+        params ["_target"];
+        _target getVariable [QGVAR(container), false]
     }
 ] call ace_interact_menu_fnc_createAction;
 
-["All", 0, ["ACE_MainActions"], _resupplyMenu] call ace_interact_menu_fnc_AddActionToClass;
+["All", 0, ["ACE_MainActions"], _resupplyMenu, true] call ace_interact_menu_fnc_AddActionToClass;
 
 private _types = [
     ["ammo",            LLSTRING(type_ammo)],
@@ -50,18 +54,17 @@ private _types = [
 
 {
     _x params ["_type", "_displayName"];
-    private _thisType = _type;
 
     private _action = [
         format [QGVAR(type_%1), _type],
         _displayName,
         _icon,
-        {
-            (_this select 0) params ["_target"];
-            [_target, _thisType] remoteExec ["ttt_resupply_fnc_spawnCrate", 2];
-        },
-        {true}
+        compile format [
+            'params ["_target", "_caller"]; [QGVAR(spawnCrateRequest), [_caller, "%1", clientOwner]] call CBA_fnc_serverEvent;',
+            _type
+        ],
+        compile format ['["%1"] call FUNC(isCrateAvailable)', _type]
     ] call ace_interact_menu_fnc_createAction;
 
-    ["All", 0, ["ACE_MainActions", "ttt_resupply_menu"], _action] call ace_interact_menu_fnc_AddActionToClass;
+    ["All", 0, ["ACE_MainActions", "ttt_resupply_menu"], _action, true] call ace_interact_menu_fnc_AddActionToClass;
 } forEach _types;

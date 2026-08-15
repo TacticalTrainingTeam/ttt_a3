@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Resupply">
-        <Key ID="STR_ttt_Resupply_actionVariable_description">
-            <English>Objects with this variable set to true (via init field) will show the resupply action. Example: this setVariable ["ttt_resupply_enabled", true]</English>
-            <German>Objekte mit dieser Variable (true, im Init-Feld gesetzt) zeigen die Nachschub-Aktion. Beispiel: this setVariable ["ttt_resupply_enabled", true]</German>
-        </Key>
-        <Key ID="STR_ttt_Resupply_actionVariable_displayName">
-            <English>Depot Object Variable</English>
-            <German>Variable des Depotobjekts</German>
-        </Key>
         <Key ID="STR_ttt_Resupply_action_resupply_menu">
             <English>Resupply</English>
             <German>Nachschub</German>
@@ -16,14 +8,6 @@
         <Key ID="STR_ttt_Resupply_databaseEmpty">
             <English>Resupply: Database not ready yet. Wait a moment and try again.</English>
             <German>Nachschub: Datenbank noch nicht bereit. Kurz warten und erneut versuchen.</German>
-        </Key>
-        <Key ID="STR_ttt_Resupply_enable_description">
-            <English>Scans player loadouts at mission start and enables on-demand resupply crate spawning.</English>
-            <German>Scannt die Ausruestung der Spieler beim Missionsstart und ermoeglicht bedarfsgerechtes Spawnen von Nachschubkisten.</German>
-        </Key>
-        <Key ID="STR_ttt_Resupply_enable_displayName">
-            <English>Enable Resupply</English>
-            <German>Nachschub aktivieren</German>
         </Key>
         <Key ID="STR_ttt_Resupply_faction_description">
             <English>Side whose ammo box classes are used for spawned crates (does not affect medical crates).</English>
@@ -53,9 +37,21 @@
             <English>Quantity Multiplier</English>
             <German>Mengenmultiplikator</German>
         </Key>
+        <Key ID="STR_ttt_Resupply_spawnFailed">
+            <English>Resupply: Failed to spawn %1 crate. Please report this to server admins.</English>
+            <German>Nachschub: Kiste %1 konnte nicht erstellt werden. Bitte den Server-Admins melden.</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_spawnSuccess">
+            <English>%1 spawned</English>
+            <German>%1 erstellt</German>
+        </Key>
         <Key ID="STR_ttt_Resupply_subCategory">
             <English>Resupply</English>
             <German>Nachschub</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_typeEmpty">
+            <English>Resupply: No %1 found among players. Crate was not spawned.</English>
+            <German>Nachschub: Keine %1 bei Spielern gefunden. Kiste wurde nicht erstellt.</German>
         </Key>
         <Key ID="STR_ttt_Resupply_type_ammo">
             <English>Ammo Box</English>

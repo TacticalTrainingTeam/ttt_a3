@@ -8,7 +8,7 @@ class CfgPatches {
         authors[] = {"Andx"};
 
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ttt_common", "ace_interact_menu"};
+        requiredAddons[] = {"ttt_common", "ace_common", "ace_interact_menu", "ace_zeus"};
         units[] = {
             QGVAR(module_ammo),
             QGVAR(module_grenades),

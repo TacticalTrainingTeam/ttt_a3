@@ -20,19 +20,22 @@ params [["_logic", objNull, [objNull]], ["_units", [], [[]]], ["_activated", tru
 if (_activated) then {
     private _type = getText (configOf _logic >> QGVAR(crateType));
     private _pos = getPos _logic;
+    // Capture the placing Zeus's machine before deleting the logic, so a
+    // missing/empty database can notify them instead of failing silently.
+    private _notifyOwner = owner _logic;
     deleteVehicle _logic;
 
     // Modules with isTriggerActivated = 0 fire almost immediately at mission
-    // start, well before scanLoadouts' database finishes building. spawn a
-    // scheduled thread (the module function's own environment isn't
-    // guaranteed suspendable) and wait there so dynamic crate types don't
-    // silently spawn empty.
-    [_pos, _type] spawn {
-        params ["_pos", "_type"];
-        if (!(_type in ["medical_alpha", "medical_bravo", "medical_charlie"])) then {
-            waitUntil { sleep 0.1; GVAR(db_init) };
-        };
-        [_pos, _type] call FUNC(spawnCrate);
+    // start, well before scanLoadouts' database finishes building, so dynamic
+    // crate types wait on GVAR(db_init) via CBA rather than spawning a thread
+    // to poll with waitUntil/sleep.
+    if (_type in ["medical_alpha", "medical_bravo", "medical_charlie"]) then {
+        [_pos, _type, _notifyOwner, true] call FUNC(spawnCrate);
+    } else {
+        [{ GVAR(db_init) }, {
+            params ["_pos", "_type", "_notifyOwner"];
+            [_pos, _type, _notifyOwner, true] call FUNC(spawnCrate);
+        }, [_pos, _type, _notifyOwner]] call CBA_fnc_waitUntilAndExecute;
     };
 };
 

@@ -3,14 +3,17 @@
 /*
  * Author: Andx
  * Scans all connected players loadouts at mission start and builds per-category
- * item databases (averaged across all players) used for crate filling.
+ * item databases (averaged across all players) used for crate filling. Runs
+ * server-only; the result is broadcast to clients via QGVAR(dbUpdated) so
+ * fnc_isCrateAvailable can be used from the (client-side) ACE action condition.
  *
  * Populated globals:
- *   GVAR(db_ammo)       - rifle / pistol magazines
- *   GVAR(db_grenades)   - hand grenades, smoke, flares
- *   GVAR(db_at)         - launcher ammunition (rockets / missiles)
- *   GVAR(db_explosives) - mines, demo charges, satchels
- *   GVAR(db_support)    - misc inventory items
+ *   GVAR(db) - HashMap, crate type -> [classname, count] array:
+ *     "ammo"       - rifle / pistol magazines
+ *     "grenades"   - hand grenades, smoke, flares
+ *     "at"         - launcher ammunition (rockets / missiles)
+ *     "explosives" - mines, demo charges, satchels
+ *     "support"    - misc inventory items
  *
  * Arguments:
  * None
@@ -26,13 +29,9 @@
 
 if (!isServer) exitWith {};
 
-// Initialise all databases so spawnCrate can detect "scan done" even with 0 players
-GVAR(db_ammo)       = [];
-GVAR(db_grenades)   = [];
-GVAR(db_at)         = [];
-GVAR(db_explosives) = [];
-GVAR(db_support)    = [];
-GVAR(db_init)       = false;
+// Initialise the database so spawnCrate can detect "scan done" even with 0 players
+GVAR(db)      = createHashMap;
+GVAR(db_init) = false;
 
 // Wait for initial player wave to finish loading
 [{
@@ -42,6 +41,7 @@ GVAR(db_init)       = false;
     if (_playerCount == 0) exitWith {
         INFO("No players found during loadout scan");
         GVAR(db_init) = true;
+        [QGVAR(dbUpdated), [[]]] call CBA_fnc_globalEvent;
     };
 
     // Accumulators: classname -> total count across all players
@@ -86,14 +86,23 @@ GVAR(db_init)       = false;
         };
     } forEach (keys _itemAcc);
 
-    GVAR(db_ammo)       = _db_ammo;
-    GVAR(db_grenades)   = _db_grenades;
-    GVAR(db_at)         = _db_at;
-    GVAR(db_explosives) = _db_explosives;
-    GVAR(db_support)    = _db_support;
+    GVAR(db) = createHashMapFromArray [
+        ["ammo", _db_ammo],
+        ["grenades", _db_grenades],
+        ["at", _db_at],
+        ["explosives", _db_explosives],
+        ["support", _db_support]
+    ];
 
     LOG_5("Scan complete. ammo=%1 grenades=%2 at=%3 explosives=%4 support=%5",
         count _db_ammo,count _db_grenades,count _db_at,count _db_explosives,count _db_support);
 
     GVAR(db_init) = true;
+
+    // The database only exists on the server otherwise - clients need their
+    // own copy so the ACE action's condition can hide crate types with
+    // nothing to fill them without a round trip to the server. HashMaps
+    // aren't natively network-transparent, so it's flattened to an array of
+    // [key, value] pairs and rebuilt with createHashMapFromArray on the client.
+    [QGVAR(dbUpdated), [GVAR(db) toArray false]] call CBA_fnc_globalEvent;
   }, [], 5] call CBA_fnc_waitAndExecute;
