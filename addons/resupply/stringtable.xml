@@ -29,6 +29,10 @@
             <English>OPFOR</English>
             <German>OPFOR</German>
         </Key>
+        <Key ID="STR_ttt_Resupply_limitExhausted">
+            <English>Resupply: No more %1 left at this depot.</English>
+            <German>Nachschub: Keine %1 mehr an diesem Depot verfuegbar.</German>
+        </Key>
         <Key ID="STR_ttt_Resupply_quantityMultiplier_description">
             <English>Multiplier applied to the per-player average quantity of each item in the crate. 1.0 = one player worth.</English>
             <German>Multiplikator fuer die durchschnittliche Menge pro Spieler jedes Gegenstands in der Kiste. 1.0 = Ausruestung eines Spielers.</German>
@@ -42,8 +46,8 @@
             <German>Nachschub: Kiste %1 konnte nicht erstellt werden. Bitte den Server-Admins melden.</German>
         </Key>
         <Key ID="STR_ttt_Resupply_spawnSuccess">
-            <English>%1 spawned</English>
-            <German>%1 erstellt</German>
+            <English>%1 spawned (%2 left)</English>
+            <German>%1 erstellt (%2 uebrig)</German>
         </Key>
         <Key ID="STR_ttt_Resupply_subCategory">
             <English>Resupply</English>
@@ -84,6 +88,10 @@
         <Key ID="STR_ttt_Resupply_type_support">
             <English>Support Box</English>
             <German>Ausruestungskiste</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_unlimited">
+            <English>unlimited</English>
+            <German>unbegrenzt</German>
         </Key>
         <Key ID="STR_ttt_Resupply_zeusModule_description">
             <English>Spawns a resupply crate of this type at the module's position.</English>

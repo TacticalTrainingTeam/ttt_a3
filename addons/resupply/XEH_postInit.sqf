@@ -6,8 +6,8 @@ if (isServer) then {
     call FUNC(scanLoadouts);
 
     [QGVAR(spawnCrateRequest), {
-        params ["_target", "_type", "_notifyOwner"];
-        [_target, _type, _notifyOwner] call FUNC(spawnCrate);
+        params ["_target", "_type", "_notifyOwner", "_container"];
+        [_target, _type, _notifyOwner, false, _container] call FUNC(spawnCrate);
     }] call CBA_fnc_addEventHandler;
 };
 

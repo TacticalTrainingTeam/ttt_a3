@@ -18,6 +18,9 @@
  * 2: Network owner ID to notify if the crate can't be spawned, if any <NUMBER> (default: -1)
  * 3: Notify via ace_zeus_fnc_showMessage instead of a screen hint - use for
  *    Zeus-triggered spawns, since the owner is a curator <BOOLEAN> (default: false)
+ * 4: Depot object whose per-type stock (if limited via QGVAR(limits)) should
+ *    be checked and consumed - distinct from argument 0, which is only the
+ *    proximity reference to spawn near. objNull means unlimited <OBJECT> (default: objNull)
  *
  * Return Value:
  * Spawned crate object, or objNull on failure <OBJECT>
@@ -33,7 +36,8 @@ params [
     ["_target", objNull, [objNull, []]],
     ["_type", "ammo", [""]],
     ["_notifyOwner", -1, [0]],
-    ["_notifyZeus", false, [false]]
+    ["_notifyZeus", false, [false]],
+    ["_container", objNull, [objNull]]
 ];
 
 if (!isServer) exitWith { objNull };
@@ -93,12 +97,23 @@ if (!_isMedical && {_db isEqualTo []}) exitWith {
     objNull
 };
 
+// Guard: depot's configured per-type stock (if any) is exhausted. Re-checked
+// here authoritatively rather than trusting the ACE action's condition,
+// since that only hides the action client-side.
+if ([_container, _type] call FUNC(getCrateLimit) == 0) exitWith {
+    WARNING_1("Crate limit exhausted for type %1 at this depot",_type);
+    if (_notifyOwner != -1) then {
+        [QGVAR(hint), [format [localize LSTRING(limitExhausted), _typeDisplayName], _notifyZeus], _notifyOwner] call CBA_fnc_ownerEvent;
+    };
+    objNull
+};
+
 // Determine box class from faction setting and crate type
 private _prefix = ["Box_NATO", "Box_East", "Box_IND"] param [GVAR(faction), "Box_NATO"];
 
 // KAT Advanced Medical replaces the plain ACE medical crates with its own
 // loadouts when loaded
-private _katLoaded = isClass (configFile >> "CfgPatches" >> "kat_main");
+private _katLoaded = "kat_main" call CBA_fnc_isModLoaded;
 
 private _crateClass = switch (_type) do {
     case "ammo":             { _prefix + "_Ammo_F" };
@@ -131,7 +146,10 @@ if (_pos isEqualTo []) then {
     _pos = _refPos;
 };
 
-private _crate = createVehicle [_crateClass, _pos, [], 0, "NONE"];
+// Create at [0,0,0] first (always empty) rather than directly at _pos, then
+// move it into place - avoids the engine's own collision-avoidance placement
+// logic kicking in on top of the empty-position search already done above.
+private _crate = createVehicle [_crateClass, [0, 0, 0], [], 0, "NONE"];
 
 if (isNull _crate) exitWith {
     WARNING_1("createVehicle failed for crate class %1",_crateClass);
@@ -141,13 +159,22 @@ if (isNull _crate) exitWith {
     objNull
 };
 
+_crate setPosATL _pos;
+
+// Consume one unit of the depot's stock for this type, if it has a limit
+[_container, _type] call FUNC(decrementCrateLimit);
+
 // Fill dynamic crates from the per-category database resolved above
 if (!_isMedical) then {
     [[_crate], _db] call EFUNC(common,crateFiller);
 };
 
 if (_notifyOwner != -1) then {
-    [QGVAR(hint), [format [localize LSTRING(spawnSuccess), _typeDisplayName], _notifyZeus], _notifyOwner] call CBA_fnc_ownerEvent;
+    // Report the depot's remaining stock for this type alongside the
+    // confirmation, or that it's unlimited if the depot has no configured limit
+    private _remaining = [_container, _type] call FUNC(getCrateLimit);
+    private _remainingText = if (_remaining == -1) then { localize LSTRING(unlimited) } else { _remaining };
+    [QGVAR(hint), [format [localize LSTRING(spawnSuccess), _typeDisplayName, _remainingText], _notifyZeus], _notifyOwner] call CBA_fnc_ownerEvent;
 };
 
 _crate
