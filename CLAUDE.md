@@ -34,6 +34,16 @@ Prefer CBA alternatives over hand-rolled polling:
 
 When reviewing or writing code, prefer converting existing polling loops to events/CBA helpers where a clean trigger point exists, rather than adding new polling.
 
+## Documentation
+
+Three separate layers, each for a different audience — don't blend them, and when a behavior change touches one, check whether the others have gone stale too.
+
+- **`addons/<component>/readme.md`** — developer-facing. Explains how the code works and *why* non-obvious decisions were made (algorithms, config class names, cross-addon interactions, dependencies), for whoever maintains or extends the addon next. Free to be as technical as needed. Section headers follow existing convention across the repo: `## Abhängigkeiten` for dependencies, `## Maintainer` left in English even in an otherwise-German readme — check a few sibling `readme.md` files before introducing a new heading style.
+- **Function headers and inline comments** — code-level, for whoever is reading that specific file. Every `fnc_*.sqf` gets the ACE-style header block (`Author:`, description, `Arguments:`, `Return Value:`, `Public:`) per the coding guidelines above. Inline comments explain the *why*, not the *what* (see the root-level "Default to writing no comments" guidance) — a comment earns its place only when it captures a non-obvious constraint, invariant, or workaround, e.g. this codebase's recurring `exitWith`-scoping gotcha (nested inside `if/then` it only exits that block, not the function/loop) gets called out inline wherever it applies, not just documented once centrally.
+- **`docs/addons/<component>.md`** — user/mission-maker-facing, published to <https://docs.tacticalteam.de> via `mkdocs.yml`. Explains what the addon does and how to use it (settings, crate/item types, init-line variables, script API) without leaking implementation detail — no config class internals, no naming a specific underlying framework (CBA, ACE, …) unless the mission maker has to type its name themselves. Written in accessible, non-technical German: this is the audience with the least SQF/config background. **New pages must also be added under `nav:` in `mkdocs.yml`, or they won't appear on the site.**
+
+A behavior change without a matching update to the readme and/or user docs (whichever are affected) counts as an incomplete change, not just a code change.
+
 ## HEMTT
 
 This project is built and linted with [HEMTT](https://hemtt.dev/). Configuration lives in `.hemtt/project.toml` (SQF lint: `command_case`; config lint: `math_could_be_unquoted` pedantic).

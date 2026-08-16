@@ -18,7 +18,8 @@
  *     "at"         - launcher ammunition (rockets / missiles), plus the
  *                    launcher weapons themselves (see below)
  *     "explosives" - mines, demo charges, satchels
- *     "support"    - misc inventory items
+ *     "support"    - misc inventory items, excluding ACE medical items
+ *                    (those belong in the dedicated medical crates instead)
  *
  * Some AT launchers (e.g. mods implementing CBA's disposable-launcher
  * framework) are truly single-use: the whole weapon is spent and lost on
@@ -76,8 +77,13 @@ GVAR(db_init) = false;
             _magAcc set [_x, (_magAcc getOrDefault [_x, 0]) + 1];
         } forEach (magazines _x);
 
+        // Medical items are excluded here - they already have their own
+        // dedicated crates (medical_alpha/bravo/charlie), so counting them
+        // into support too would just duplicate them across two crate types
         {
-            _itemAcc set [_x, (_itemAcc getOrDefault [_x, 0]) + 1];
+            if (getNumber (configFile >> "CfgWeapons" >> _x >> "ACE_isMedicalItem") != 1) then {
+                _itemAcc set [_x, (_itemAcc getOrDefault [_x, 0]) + 1];
+            };
         } forEach (items _x);
 
         // Truly single-use launchers are carried/lost as a whole weapon

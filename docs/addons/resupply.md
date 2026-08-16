@@ -9,11 +9,11 @@ aufbauend können Missionsbauer typisierte Nachschubkisten anfordern lassen -
 
 | Typ | Kistenklasse (NATO-Standard) | Inhalt |
 | --- | --- | --- |
-| **Munition** | `Box_NATO_Ammo_F` | Gewehr-/Pistolenmagazine, Handgranaten |
-| **Granaten** | `Box_NATO_Grenades_F` | Rauchgranten, Leuchtsignale, Unterlaufgranten |
-| **Panzerabwehr** | `Box_NATO_WpsLaunch_F` | Raketen-/Lenkflugkörpermunition, sowie neue Abschussrohre für echte Einwegwaffen (registriert über CBAs Disposable-Launcher-Framework, z. B. das Panzerfaust-3-Rohr aus BWA3) |
+| **Munition** | `Box_NATO_Ammo_F` | Gewehr-/Pistolenmagazine |
+| **Granaten** | `Box_NATO_Grenades_F` | Handgranaten, Rauchgranaten, Leuchtsignale, Unterlaufgranaten |
+| **Panzerabwehr** | `Box_NATO_WpsLaunch_F` | Raketen-/Lenkflugkörpermunition, sowie bei Bedarf neue Abschussrohre für echte Einwegwaffen (z. B. die Panzerfaust 3 aus BWA3) |
 | **Sprengstoff** | `Box_NATO_AmmoOrd_F` | Minen, Sprengladungen, Haftladungen |
-| **Support** | `Box_NATO_Support_F` | Sonstige Ausrüstung (Batterien, Kabelbinder, etc.) |
+| **Support** | `Box_NATO_Support_F` | Sonstige Ausrüstung (Batterien, Kabelbinder, etc.), ohne Sanitätsmaterial - dafür gibt es die Sanitätskisten |
 | **Medic Alpha** | `ttt_common_sana_crate` | Basis-Sanitätsausrüstung (fest vorgegeben durch /common) |
 | **Medic Bravo** | `ttt_common_sanb_crate` | Erweiterte Sanitätsausrüstung (fest vorgegeben durch /common) |
 | **Medic Charlie** | `ttt_common_sanc_crate` | Vollständige Sanitätsausrüstung (fest vorgegeben durch /common) |
@@ -23,6 +23,12 @@ Datenbank befüllt. Hatte kein Spieler etwas aus einer Kategorie dabei (z. B.
 keine Panzerabwehrmunition), wird diese Kiste gar nicht erst gespawnt, und wer
 sie angefordert hat (Spieler oder Zeus) bekommt einen Hinweis, warum nicht.
 Sanitätskisten spawnen dagegen immer mit den fest vorgegebenen TTT-Common-Klassen.
+
+Bei der Panzerabwehr-Kiste bekommen nur echte Einwegwaffen (bei denen die
+ganze Waffe beim Abfeuern verloren geht, z. B. aus manchen Waffen-Mods) ein
+neues Abschussrohr dazu. Waffen wie die NLAW, die zwar meist nur mit einer
+Rakete ausgegeben werden, sich aber technisch nachladen lassen, bekommen wie
+gewohnt nur neue Munition.
 
 Im ACE-Menü werden dynamische Kistentypen komplett ausgeblendet (statt sie
 anzuzeigen und dann fehlschlagen zu lassen), solange der Ausrüstungs-Scan noch
@@ -37,6 +43,36 @@ müssen beim Wechsel des Sanitätsmods also nichts anpassen.
 
 !!! info
     Der Scan läuft 5 Sekunden nach Missionsstart. JIP-Spieler werden dabei nicht erfasst.
+
+## Spawnposition der Kiste
+
+Gilt gleichermaßen für die ACE-Aktion an Depot-Objekten und für Zeus-Module,
+da beide intern dieselbe Funktion zum Erstellen der Kiste nutzen.
+
+Standardmäßig sucht sich die Kiste einen freien Platz im Umkreis von 10 m um
+das Depot bzw. den Zeus-Modul-Standort - je nach Umgebung kann das an
+wechselnden, manchmal ungünstigen Stellen landen (z. B. hinter einer Wand
+oder in einer Ecke).
+
+Für eine vorhersagbare, immer gleichbleibende Position ein
+`VR_Area_01_square_2x2_yellow_F`-Objekt (gelbe 2x2-Fläche) im Umkreis von
+10 m um das Depot bzw. das Zeus-Modul platzieren:
+
+- Ist die Fläche frei, spawnt die Kiste immer exakt dort.
+- Steht dort bereits eine andere Kiste, wird **keine neue Kiste gespawnt** -
+  auch nicht ersatzweise an einer zufälligen Stelle. Wer sie angefordert
+  hat, bekommt stattdessen einen Hinweis, dass der Platz belegt ist. So
+  bleibt die Position wirklich vorhersagbar, statt bei Belegung unbemerkt
+  wieder zufällig auszuweichen.
+- Ist keine solche Fläche in der Nähe, gilt weiterhin die zufällige
+  Platzsuche wie oben beschrieben.
+
+!!! warning
+    Das ACE-Menü blendet den Kistentyp nicht aus, nur weil der Platz auf der
+    Fläche gerade belegt ist - es prüft nur, ob überhaupt etwas zum Befüllen
+    da ist bzw. ob das Depot-Limit erreicht ist. Ist die Fläche belegt,
+    erscheint die Aktion also weiterhin, schlägt beim Auslösen aber mit
+    obigem Hinweis fehl.
 
 ## CBA-Einstellungen
 
@@ -62,9 +98,8 @@ this setVariable ["ttt_resupply_container", true];
 
 Spieler sehen am Objekt ein **Resupply**-Untermenü mit allen acht Kistentypen.
 
-Die Kiste spawnt an einer freien Stelle in der Nähe des Spielers, der die
-Aktion ausgelöst hat (Suche im Umkreis von 10 m) - nicht an einem festen
-Versatz zum Depot.
+Wo die Kiste dabei genau spawnt, siehe
+[Spawnposition der Kiste](#spawnposition-der-kiste) weiter oben.
 
 #### Kistenlimit pro Depot (optional)
 
@@ -93,8 +128,9 @@ den Typ kein Limit gesetzt wurde.
 
 Im Zeus-Interface unter **Unterstützung**. Es stehen acht Module zur
 Verfügung, eins pro Kistentyp. Das Platzieren eines Moduls spawnt die
-entsprechende Kiste an einer freien Stelle in der Nähe (Suche im Umkreis von
-10 m) und entfernt anschließend die Modul-Logik.
+entsprechende Kiste in der Nähe (siehe
+[Spawnposition der Kiste](#spawnposition-der-kiste) weiter oben) und entfernt
+anschließend die Modul-Logik.
 
 Diese Module sind reine Zeus-Module: Sie sind bewusst im klassischen
 2D-Missionseditor und in 3DEN ausgeblendet (eine Nachschubkiste im Voraus zu
