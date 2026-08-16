@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5903.7568,35.040871,4809.2041};
-		dir[]={0.80568397,-0.56597859,-0.17476214};
-		up[]={0.55311596,0.82441986,-0.11997723};
-		aside[]={-0.21198192,7.4505806e-09,-0.9772737};
+		pos[]={5906.25,36.89547,4796.1255};
+		dir[]={0.66594428,-0.73916328,0.10090733};
+		up[]={0.73082584,0.67351693,0.11073815};
+		aside[]={0.14981449,4.2832926e-07,-0.98872435};
 	};
 };
 binarizationWanted=0;
@@ -2070,7 +2070,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="this setVariable [""ttt_resupply_container"", true];";
+				init="this setVariable [""ttt_resupply_container"", true];" \n "this setVariable [""ttt_resupply_limits"", [[""ammo"", 3], [""at"", 1]]];";
 			};
 			id=193;
 			type="B_Slingload_01_Ammo_F";

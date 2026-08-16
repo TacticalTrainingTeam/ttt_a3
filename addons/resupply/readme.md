@@ -8,6 +8,17 @@ Zeus modules.
 See the [user documentation](https://docs.tacticalteam.de/addons/resupply/)
 for crate types, settings, and mission maker usage.
 
+## Item-Klassifizierung
+
+Die Items werden bei Missionsstart aus der Ausrüstung der Spieler klassifiziert:
+
+- `magazines _unit` - Einordnung anhand der CfgAmmo-Hierarchie der Munition:
+  - `RocketBase` / `MissileBase` → Panzerabwehr
+  - `MineBase` / `BombCore` → Sprengstoff
+  - `GrenadeBase` / `SmokeShell` / `FlareBase` → Granaten
+  - alles andere → Munition
+- `items _unit` - alles davon geht in Support
+
 ## Dependencies
 
 - `ttt_common` (medical crate classes + `fnc_crateFiller`)

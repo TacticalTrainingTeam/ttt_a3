@@ -15,9 +15,18 @@
  *   GVAR(db) - HashMap, crate type -> [classname, count] array:
  *     "ammo"       - rifle / pistol magazines
  *     "grenades"   - hand grenades, smoke, flares
- *     "at"         - launcher ammunition (rockets / missiles)
+ *     "at"         - launcher ammunition (rockets / missiles), plus the
+ *                    launcher weapons themselves (see below)
  *     "explosives" - mines, demo charges, satchels
  *     "support"    - misc inventory items
+ *
+ * Some AT launchers (e.g. NLAW) are single-use: the whole weapon is spent
+ * and lost on firing rather than reloaded from a separate magazine. Stocking
+ * a crate with only the magazine classname would be useless for those, since
+ * there's no launcher left to load it into - so "weapons" carried by players
+ * are scanned in addition to magazines/items, and any Launcher-kind weapon
+ * classname is added to the "at" category alongside its ammo, letting
+ * fnc_crateFiller hand back a fresh tube via addWeaponCargoGlobal.
  *
  * Arguments:
  * None
@@ -52,6 +61,7 @@ GVAR(db_init) = false;
     // Accumulators: classname -> total count across all players
     private _magAcc  = createHashMap;
     private _itemAcc = createHashMap;
+    private _wpnAcc  = createHashMap;
     private _groups  = [];
 
     {
@@ -65,6 +75,15 @@ GVAR(db_init) = false;
         {
             _itemAcc set [_x, (_itemAcc getOrDefault [_x, 0]) + 1];
         } forEach (items _x);
+
+        // Single-use launchers (e.g. NLAW) are carried/lost as a whole
+        // weapon rather than a reloadable magazine - track those separately
+        // from the magazine scan above so they can be resupplied as a weapon
+        {
+            if (_x isKindOf ["Launcher", configFile >> "CfgWeapons"]) then {
+                _wpnAcc set [_x, (_wpnAcc getOrDefault [_x, 0]) + 1];
+            };
+        } forEach (weapons _x);
     } forEach _players;
 
     private _groupCount  = count _groups;
@@ -95,6 +114,14 @@ GVAR(db_init) = false;
             _db_support pushBack [_x, _avg];
         };
     } forEach (keys _itemAcc);
+
+    // Launcher weapons (single-use or not) go alongside their ammo in "at"
+    {
+        private _avg = round ((_wpnAcc get _x) / _groupCount * _multiplier);
+        if (_avg > 0) then {
+            _db_at pushBack [_x, _avg];
+        };
+    } forEach (keys _wpnAcc);
 
     GVAR(db) = createHashMapFromArray [
         ["ammo", _db_ammo],

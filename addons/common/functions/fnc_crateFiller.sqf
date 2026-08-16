@@ -42,7 +42,21 @@
             };
 
             if (isClass(configFile >> "CfgWeapons" >> (_x select 0))) exitWith {
-                _crateObject addWeaponCargoGlobal _x;
+                private _weaponClass = _x select 0;
+
+                // Plain addWeaponCargoGlobal drops the weapon into cargo with
+                // no ammo loaded - a separate magazine cargo entry does not
+                // get auto-paired with it on pickup, so launchers (esp.
+                // single-use ones like NLAW) would come out empty. Load the
+                // weapon's default magazine via addWeaponWithAttachmentsCargoGlobal
+                // instead so it's usable as soon as it's taken.
+                private _magClass = getArray (configFile >> "CfgWeapons" >> _weaponClass >> "magazines") param [0, ""];
+                if (_weaponClass isKindOf ["Launcher", configFile >> "CfgWeapons"] && {isClass (configFile >> "CfgMagazines" >> _magClass)}) then {
+                    private _magCount = getNumber (configFile >> "CfgMagazines" >> _magClass >> "count");
+                    _crateObject addWeaponWithAttachmentsCargoGlobal [[_weaponClass, "", "", "", [_magClass, _magCount], [], ""], _x select 1];
+                } else {
+                    _crateObject addWeaponCargoGlobal _x;
+                };
             };
         };
         nil

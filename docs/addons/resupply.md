@@ -35,17 +35,6 @@ automatisch die entsprechenden `/compat_kam`-Varianten
 (`ttt_compat_kam_sana_crate`, `_sanb_crate`, `_sanc_crate`) - Missionsbauer
 müssen beim Wechsel des Sanitätsmods also nichts anpassen.
 
-## Item-Klassifizierung
-
-Die Items werden bei Missionsstart aus der Ausrüstung der Spieler klassifiziert:
-
-- `magazines _unit` - Einordnung anhand der CfgAmmo-Hierarchie der Munition:
-  - `RocketBase` / `MissileBase` → Panzerabwehr
-  - `MineBase` / `BombCore` → Sprengstoff
-  - `GrenadeBase` / `SmokeShell` / `FlareBase` → Granaten
-  - alles andere → Munition
-- `items _unit` - alles davon geht in Support
-
 !!! info
     Der Scan läuft 5 Sekunden nach Missionsstart. JIP-Spieler werden dabei nicht erfasst.
 
