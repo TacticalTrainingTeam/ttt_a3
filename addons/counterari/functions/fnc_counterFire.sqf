@@ -1,16 +1,19 @@
-	#include "..\script_component.hpp"
+#include "..\script_component.hpp"
 /*
-* Author: Redd (code updated by Andx & EinStein)
+* Author: Redd (reworked for multiple counter-battery groups by Andx & EinStein)
 *
 * Description:
 * Let enemy artillery shot on position of own artillery when they are shooting, with given radius and given amount of shells
 * To simulate deviation, the targetpoint will be random within the radius
 * You can choose to decrement the radius for every shot so shells will come closer to the center
 * Time for counterfire depends on artillery radar, if artillery radar is destroyed it takes more time to shoot back
-* 
-* Blacklist units when useing headless client: 
+* The responding group (identified by its own member vehicles) ignores a new fire mission while it is still
+* resolving a previous one, so several independent friendly/enemy pairs can run their own counter-battery
+* duels at the same time without interfering with each other.
+*
+* Blacklist units when useing headless client:
 * Yes (Blacklist enemy arti crew)
-* 
+*
 * Arguments:
 * 0: <OBJECT> 												own artillery
 * 1: <Config>												magazine
@@ -25,13 +28,13 @@
 * <BOOL> true if executed
 *
 * Example:
-* this addEventhandler ["fired", {[_this select 0,_this select 5,100,selectRandom [3,4,5],true,[enemyAri_1,enemyAri_2,enemyAri_3,enemyAri_4],[],0] remoteExec ["ttt_counterari_fnc_counterFire",2]}];
+* this addEventhandler ["fired", {["ttt_counterari_counterFire", [_this select 0,_this select 5,[enemyAri_1,enemyAri_2,enemyAri_3,enemyAri_4],100,selectRandom [3,4,5],true,0,[]]] call CBA_fnc_serverEvent}];
 * Add eventhandler to own artillery in units initline
 *
 * Public: Yes
 */
 
-if (!isServer || missionNamespace getVariable ["Redd_counterFire", false]) exitWith {};
+if (!isServer) exitWith {false};
 
 params [
 	"_ownArty",
@@ -45,99 +48,93 @@ params [
 ];
 
 //Exit if there are no guns anymore
-if (_enemyArtyArray isEqualTo []) exitWith {};
+if (_enemyArtyArray isEqualTo []) exitWith {false};
 
-//if module is used, entered values should be used
-if !(missionNamespace isNil QGVAR(registerFriendlyAriModule_radius)) then {_radius = missionNamespace getVariable QGVAR(registerFriendlyAriModule_radius)};
-if !(missionNamespace isNil QGVAR(registerFriendlyAriModule_rounds)) then {_rounds = missionNamespace getVariable QGVAR(registerFriendlyAriModule_rounds)};
-if !(missionNamespace isNil QGVAR(registerFriendlyAriModule_decrementing)) then {_decrementRadius = missionNamespace getVariable QGVAR(registerFriendlyAriModule_decrementing)};
-if !(missionNamespace isNil QGVAR(registerFriendlyAriModule_delay)) then {_counterTime = missionNamespace getVariable QGVAR(registerFriendlyAriModule_delay)};
+//Only ammo capable of counter-battery fire should trigger a response
+if !((_magazine isKindOf ["32Rnd_155mm_Mo_shells", configFile >> "CfgMagazines"]) || (_magazine isKindOf ["14Rnd_80mm_rockets", configFile >> "CfgMagazines"])) exitWith {false};
 
-private _ammo = 0;//init
+//This specific enemy group is already resolving an earlier fire mission
+if ({_x getVariable [QGVAR(busy), false]} count _enemyArtyArray > 0) exitWith {false};
+
+private _ammo = "";
 //Get enemy ari ammo
 {
-	if (alive _x) exitWith 
+	if (alive _x) exitWith
 	{
 		_ammo = getArtilleryAmmo [_x] select 0;
 	};
 } forEach _enemyArtyArray;
 
 //Check for range
-if ((getPos _ownArty) inRangeOfArtillery [_enemyArtyArray, _ammo]) then
+if !((getPos _ownArty) inRangeOfArtillery [_enemyArtyArray, _ammo]) exitWith {false};
+
+{_x setVariable [QGVAR(busy), true];} forEach _enemyArtyArray;
+
+//Calculate time for counterfire depending on number of Enemy artillery radars
 {
-	
-	//check which ammo was fired, if own Artillery doesnt shoot with maingun
-	if ((_magazine isKindOf ["32Rnd_155mm_Mo_shells", configFile >> "CfgMagazines"]) or (_magazine isKindOf ["14Rnd_80mm_rockets", configFile >> "CfgMagazines"])) then
+	if (!alive _x) then
 	{
-	
-		//Set global variable true so no other trigger can call this function
-		missionNamespace setVariable ["Redd_counterFire", true];
+		_counterTime = _counterTime + 10;
+	};
+} forEach _enemyArtyRadarArray;
 
-		//Calculate time for counterfire depending on number of Enemy artillery radars
+//Now wait to "calculate" the own artillery position for the enemy to shoot back via CBA
+[
+	{
+		params ["_ownArty","_radius","_rounds","_decrementRadius","_enemyArtyArray"];
+		//Get trigger position
+		private _centerPos = getPos _ownArty;
+
+		//Shared shot counter for this mission, mutated in place instead of a global variable so
+		//concurrent missions for other pairs never see each other's shots
+		private _shotsFired = [0];
+		private _allShots = 0;
+
 		{
-			if (!alive _x) then
+			//Only run if artillery is alive and has crew
+			if ((alive _x) and ({alive _x} count crew _x > 0)) then
 			{
-				_counterTime = _counterTime + 10;
-			};
-		} forEach _enemyArtyRadarArray;
+				_allShots = _allShots + _rounds;
 
-		//Now wait to "calculate" the own artillery position for the enemy to shoot back via CBA
-		[
-			{
-				params ["_ownArty","_radius","_rounds","_decrementRadius","_enemyArtyArray"];
-				//Get trigger position
-				private _centerPos = getPos _ownArty;
+				//Get the right ammo, ever artillery should have HE at first magazine
+				//Doesent work for mortar with ACE
+				private _ammo = getArtilleryAmmo [_x] select 0;
 
-				//Get all rounds to fire
-				private _allShots = _rounds * (count _enemyArtyArray);
-
-				//Start the counter with zero shots fired, do it Global, otherwise Redd_fnc_AriFireMission doesnt knows the variable
-				Redd_arti_shots = 0;
-				
-				{
-					//Check if artillery is alive, otherwise subtract the rounds this artillery has shot
-					if ((!alive _x) or ({alive _x} count crew _x == 0)) then {_allShots = _allShots - _rounds};
-
-					//Only run if artillery is alive and has crew
-					if ((alive _x) and ({alive _x} count crew _x > 0)) then 
-					{
-					
-						//Get the right ammo, ever artillery should have HE at first magazine
-						//Doesent work for mortar with ACE
-						private _ammo = getArtilleryAmmo [_x] select 0;
-
-						//Call the firemission function random delayed for each Arty via CBA
-						[
-							{
-								params ["_arty","_centerPos","_radius","_ammo","_rounds","_decrementRadius"];
-								[_arty,_centerPos,_radius,_ammo,_rounds,_decrementRadius] call FUNC(fireMission);
-							},
-							[_x,_centerPos,_radius,_ammo,_rounds,_decrementRadius],
-							random 2
-						] call CBA_fnc_waitAndExecute;
-					};
-				} forEach _enemyArtyArray;
-				
-				//Wait for all rounds to be shot, than remove eventhandler for each artillery and set ammo 1
+				//Call the firemission function random delayed for each Arty via CBA
 				[
 					{
-						params ["_allShots"];
-						Redd_arti_shots == _allShots
+						params ["_arty","_centerPos","_radius","_ammo","_rounds","_decrementRadius","_shotsFired"];
+						[_arty,_centerPos,_radius,_ammo,_rounds,_decrementRadius,_shotsFired] call FUNC(fireMission);
 					},
-					{
-						params ["","_enemyArtyArray"];
-						//reset ammo
-						{_x setVehicleAmmo 1;} forEach _enemyArtyArray;
+					[_x,_centerPos,_radius,_ammo,_rounds,_decrementRadius,_shotsFired],
+					random 2
+				] call CBA_fnc_waitAndExecute;
+			};
+		} forEach _enemyArtyArray;
 
-						//Set global variable to false so artillery can get another firemission
-						missionNamespace setVariable ["Redd_counterFire", false];
-					},
-					[_allShots,_enemyArtyArray]
-				] call CBA_fnc_waitUntilAndExecute;
+		if (_allShots == 0) exitWith
+		{
+			{_x setVariable [QGVAR(busy), false];} forEach _enemyArtyArray;
+		};
+
+		//Wait for all rounds to be shot, than reset ammo and release the group for its next mission
+		[
+			{
+				params ["_shotsFired","_allShots"];
+				(_shotsFired select 0) >= _allShots
 			},
-			[_ownArty,_radius,_rounds,_decrementRadius,_enemyArtyArray],
-			_counterTime
-		] call CBA_fnc_waitAndExecute;
-	};
-};
+			{
+				params ["","","_enemyArtyArray"];
+				//reset ammo
+				{_x setVehicleAmmo 1;} forEach _enemyArtyArray;
+
+				{_x setVariable [QGVAR(busy), false];} forEach _enemyArtyArray;
+			},
+			[_shotsFired,_allShots,_enemyArtyArray]
+		] call CBA_fnc_waitUntilAndExecute;
+	},
+	[_ownArty,_radius,_rounds,_decrementRadius,_enemyArtyArray],
+	_counterTime
+] call CBA_fnc_waitAndExecute;
+
 true

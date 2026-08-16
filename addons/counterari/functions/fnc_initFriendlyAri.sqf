@@ -3,56 +3,83 @@
 * Authors: Andx & EinStein
 *
 * Description:
-* n.a.
+* Registers a group of friendly artillery pieces so the enemy artillery module(s) synced to
+* this module fire back on their position (after a delay) whenever they fire. Each friendly
+* module resolves its own paired enemy artillery independently, so several friendly/enemy
+* module pairs can run side by side without interfering with each other.
+*
+* Note: the per-unit counter-battery settings are stored as unit variables rather than kept as
+* private locals captured by the "Fired" event handler, because a deferred/async callback like
+* an event handler cannot reliably read private variables from the script scope that added it.
 *
 * Arguments:
 * Arma 3 Module Function Parameters
 * https://community.bistudio.com/wiki/Modules#Configuring_the_Module_Function
 *
 * Return Value:
-* n.a.
-*
-* Example:
-* n.a.
+* True <BOOL>
 *
 * Public: No
 */
 
 params [
-	["_logic", objNull, [objNull]],		// Argument 0 is module logic
-	["_units", [], [[]]],				// Argument 1 is a list of affected units (affected by value selected in the 'class Units' argument))
-	["_activated", true, [true]]		// True when the module was activated, false when it is deactivated (i.e., synced triggers are no longer active)
+    ["_logic", objNull, [objNull]],
+    ["_units", [], [[]]],
+    ["_activated", true, [true]]
 ];
 
-// Module specific behavior. Function can extract arguments from logic and use them.
-if (_activated) then
+private _artyUnits = _units select {!(_x isKindOf "Logic")};
+
+// Always clear a previously added EH first, so re-activation/re-sync never stacks duplicate EHs
 {
-    missionNamespace setVariable [QGVAR(registerFriendlyAriModule_radius),_logic getVariable [QGVAR(registerFriendlyAriModule_radius), 100]];
-    missionNamespace setVariable [QGVAR(registerFriendlyAriModule_rounds),_logic getVariable [QGVAR(registerFriendlyAriModule_rounds), 5]];
-    missionNamespace setVariable [QGVAR(registerFriendlyAriModule_decrementing),_logic getVariable [QGVAR(registerFriendlyAriModule_decrementing), true]];
-    missionNamespace setVariable [QGVAR(registerFriendlyAriModule_delay),_logic getVariable [QGVAR(registerFriendlyAriModule_delay), 5]];
-     {
-        _x addEventHandler ["Fired", 
-            {
-                [
-                    (_this select 0),
-                    (_this select 5),
-                    (GVAR(enemyAri)),
-                    100,
-                    selectRandom [3,4,5],
-                    true,
-                    0,
-                    []
-                ] remoteExec ["ttt_counterAri_fnc_counterFire",2]
-            }
-        ];
-        if (isClass(configFile >> "CfgPatches" >> "lambs_danger")) then	// LAMBS only if loaded and only for ground vehicles
-        {	
+    private _ehId = _x getVariable [QGVAR(firedEHId), -1];
+    if (_ehId != -1) then {
+        _x removeEventHandler ["Fired", _ehId];
+        _x setVariable [QGVAR(firedEHId), nil];
+        _x setVariable [QGVAR(config), nil];
+    };
+} forEach _artyUnits;
+
+if (_activated) then {
+    private _enemyModules = _units select {typeOf _x == QGVAR(registerEnemyAriModule)};
+
+    private _enemyArtyArray = [];
+    {
+        private _enemySynced = synchronizedObjects _x;
+        _enemyArtyArray append (_enemySynced select {!(_x isKindOf "Logic")});
+    } forEach _enemyModules;
+
+    if (_enemyArtyArray isEqualTo []) then {
+        WARNING_1("Friendly artillery module %1 is not synced to an enemy artillery module with artillery pieces",_logic);
+    };
+
+    private _radius = _logic getVariable [QGVAR(registerFriendlyAriModule_radius), 100];
+    private _rounds = _logic getVariable [QGVAR(registerFriendlyAriModule_rounds), 5];
+    private _decrementing = _logic getVariable [QGVAR(registerFriendlyAriModule_decrementing), true];
+    private _delay = _logic getVariable [QGVAR(registerFriendlyAriModule_delay), 5];
+
+    {
+        _x setVariable [QGVAR(config), [_enemyArtyArray, _radius, _rounds, _decrementing, _delay]];
+
+        private _ehId = _x addEventHandler ["Fired", {
+            params ["_unit", "_weapon", "_muzzle", "_mode", "_ammo", "_magazine"];
+
+            private _config = _unit getVariable [QGVAR(config), []];
+            if (_config isEqualTo []) exitWith {};
+
+            _config params ["_enemyArtyArray", "_radius", "_rounds", "_decrementing", "_delay"];
+
+            [QGVAR(counterFire), [_unit, _magazine, _enemyArtyArray, _radius, _rounds, _decrementing, _delay, []]] call CBA_fnc_serverEvent;
+        }];
+
+        _x setVariable [QGVAR(firedEHId), _ehId];
+
+        if (isClass (configFile >> "CfgPatches" >> "lambs_danger")) then {   // LAMBS only if loaded and only for ground vehicles
             _x call lambs_wp_fnc_taskReset;
         };
 
-        INFO_1("Adding EH to  friendly Ari %1: ",_x);
-     } forEach _units;
+        INFO_1("Adding counter-battery EH to friendly artillery %1",_x);
+    } forEach _artyUnits;
 };
-// Module function is executed by spawn command, so returned value is not necessary, but it is good practice.
+
 true;
