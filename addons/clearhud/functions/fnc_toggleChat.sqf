@@ -3,71 +3,55 @@
 
 /*
  * Authors: Soldia, Andx
- * Hides Chat
+ * Toggles chat visibility
  *
  * Arguments:
- * 0: display <STRING>
- * 1: dikcode <STRING>
- * 2: shift <STRING>
- * 3: ctrl <STRING>
- * 4: alt <STRING>
+ * 0: Display <DISPLAY> (unused)
+ * 1: DIK code <NUMBER>
+ * 2: Shift pressed <BOOLEAN>
+ * 3: Ctrl pressed <BOOLEAN>
+ * 4: Alt pressed <BOOLEAN>
  *
  * Return Value:
- * True <BOOLEAN>
+ * Status <BOOLEAN>
  *
  * Example:
- * [] call ttt_clearhud_fnc_suppressChat
+ * [] call ttt_clearhud_fnc_toggleChat
  *
  * Public: No
  */
 
-TRACE_1("fnc_suppressChat",_this);
+ //https://community.bistudio.com/wiki/showChat ?
 
-private ["_status", "_key", "_keybind", "_activated"];
+TRACE_1("fnc_toggleChat",_this);
 
-PARAMS_5(_display,_dikCode,_shift,_ctrl,_alt);
+params ["", "_dikCode", "_shift", "_ctrl", "_alt"];
 
 //read the current status of chat deactivation (true = deactivated)
-_status = GVAR(activated);
-
-//local copy of the DIK Code to String Table and transform it to a hash
-_diktable = uiNamespace getVariable QUOTE(CBA_keybinding_dikDecToStringTable);
-_hash = [_diktable,0] call CBA_fnc_hashCreate;
-_key = [_hash, format ["%1", _dikCode]] call CBA_fnc_hashGet;//seems to return wrong key: 0 instead of ,
+private _status = GVAR(activated);
 
 //create several strings for the current variables
+private _activated = "";
 if (_status) then {
-	_activated = parseText "<t color='#00ff00'>enabled</t>";
-	[GVAR(handle)] call CBA_fnc_removePerFrameHandler;
-	_status = false;
+    _activated = parseText format ["<t color='#00ff00'>%1</t>", LLSTRING(chatEnabled)];
+    if (!isNil GVAR(handle)) then {
+        [GVAR(handle)] call CBA_fnc_removePerFrameHandler;
+    };
+    _status = false;
 } else {
-	_activated = parseText "<t color='#ff0000'>disabled</t>";
-	GVAR(handle) = [{clearRadio;}, 0, []] call CBA_fnc_addPerFrameHandler;
-	_status = true;
+    _activated = parseText format ["<t color='#ff0000'>%1</t>", LLSTRING(chatDisabled)];
+    GVAR(handle) = [{clearRadio;}, 0, []] call CBA_fnc_addPerFrameHandler;
+    _status = true;
 };
 
-if (_shift) then {
-	_shift = "SHIFT + ";
-} else {
-	_shift = "";
-};
+//translate the DIK code and modifiers into the readable keybind name
+private _keyName = [_dikCode, [_shift, _ctrl, _alt]] call CBA_fnc_localizeKey;
+private _keybind = parseText format ["<t color='#FFA54F'>%1</t>", _keyName];
 
-if (_ctrl) then {
-	_ctrl = "CTRL + ";
-} else {
-	_ctrl = "";
-};
-
-if (_alt) then {
-	_alt = "ALT + ";
-} else {
-	_alt = "";
-};
-
-_keybind = parseText format ["<t color='#FFA54F'>%1%2%3%4</t>",_shift,_ctrl,_alt,_key];
-
-hint formatText ["The Chat is now %1.%2This can be changed by pressing %3", _activated, parseText "<br/>", _keybind]; //toDo stringtable
+[
+    formatText [LLSTRING(hintToggle), _activated, lineBreak, _keybind]
+] call ace_common_fnc_displayTextStructured;
 
 GVAR(activated) = _status;
 
-true
+_status

@@ -14,6 +14,6 @@ params ["_ctrl", "_selection"];
 
 GVAR(type) = _ctrl lbData _selection;
 
-_display = ctrlParent _ctrl;
-_buttonTeleport = _display displayCtrl 30;
+private _display = ctrlParent _ctrl;
+private _buttonTeleport = _display displayCtrl 30;
 _buttonTeleport ctrlEnable true;

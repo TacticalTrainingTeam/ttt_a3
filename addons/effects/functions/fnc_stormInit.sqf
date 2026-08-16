@@ -83,7 +83,7 @@ private _allEntities = 8 allObjects 1;
 		(_this select 0) params ["_end", "_direction", "_duration", "_effect", "_entities"];
 		if (time >= _end) exitWith {};
 
-		_clock = _duration - (_end - time) + 1;
+		private _clock = _duration - (_end - time) + 1;
 		setWind [
 			(sin _direction * ((80 * _clock * (_duration - _clock)) / (_duration ^ 2))),
 			(cos _direction * ((80 * _clock * (_duration - _clock)) / (_duration ^ 2))),

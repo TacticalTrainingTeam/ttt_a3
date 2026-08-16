@@ -6,12 +6,13 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ttt_common", "A3_Ui_F"};
+        requiredAddons[] = {"ttt_common", "ace_arsenal", "acre_sys_radio"};
         author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {"LuzifR", "Andx"};
+        authors[] = {"Andx"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
+        skipWhenMissingDependencies = 1;
     };
 };
 
-#include "CfgRsc.hpp"
+#include "CfgEventHandlers.hpp"
