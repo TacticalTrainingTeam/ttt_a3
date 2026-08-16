@@ -11,8 +11,12 @@
  * a confirmation via the same hint/Zeus-message channel used for failures.
  *
  * Arguments:
- * 0: Reference position or object to spawn the crate near - an empty spot is
- *    searched for around it rather than using a fixed offset <ARRAY|OBJECT>
+ * 0: Reference position or object to spawn the crate near. If a
+ *    "VR_Area_01_square_2x2_yellow_F" pad is placed within 10 m, the crate
+ *    always spawns exactly there for predictable placement - or not at all
+ *    if that spot is already occupied by another crate (no random fallback
+ *    in that case). Only when no such pad exists nearby is an empty spot
+ *    searched for nearby instead of using a fixed offset <ARRAY|OBJECT>
  * 1: Crate type - "ammo", "grenades", "at", "explosives", "support",
  *    "medical_alpha", "medical_bravo", "medical_charlie" <STRING>
  * 2: Network owner ID to notify if the crate can't be spawned, if any <NUMBER> (default: -1)
@@ -138,9 +142,40 @@ if (!(isClass (configFile >> "CfgVehicles" >> _crateClass))) exitWith {
     objNull
 };
 
+// If a mission maker placed a "VR_Area_01_square_2x2_yellow_F" pad near the
+// reference point, spawn exactly there - gives a predictable,
+// always-in-the-same-spot placement instead of wherever the free-space
+// search below happens to land. No state is kept for this: it's a plain
+// proximity search by classname done fresh on every call, same as
+// everything else in this function. Trust the mission maker's placement
+// outright instead of re-validating it with findEmptyPosition - a tight
+// enough search radius to actually confirm "this exact spot" would be too
+// small for most crates' footprint and never find anything, while a wide
+// enough one to succeed would defeat the point of spawning at a fixed spot.
+// Occupied is instead checked directly: is there already a crate (any type
+// spawned by this function - all inherit ReammoBox_F) sitting on the pad.
+private _markerClass = "VR_Area_01_square_2x2_yellow_F";
+private _markers = _refPos nearObjects [_markerClass, 10];
+private _markerPos = if (_markers isNotEqualTo []) then { getPosATL (_markers select 0) } else { [] };
+
+// Guard: a marker exists but is already occupied - stop here instead of
+// falling back to a random nearby spot, since that would silently turn a
+// deliberately predictable spawn point unpredictable again whenever busy.
+// The old random-nearby-spot fallback below is reserved for the case where
+// there's no marker at all.
+if (_markerPos isNotEqualTo [] && {(_markerPos nearObjects ["ReammoBox_F", 3]) isNotEqualTo []}) exitWith {
+    WARNING_1("Spawn marker near %1 is occupied, skipping spawn",_refPos);
+    if (_notifyOwner != -1) then {
+        [QGVAR(hint), [localize LSTRING(spawnSpotOccupied), _notifyZeus], _notifyOwner] call CBA_fnc_ownerEvent;
+    };
+    objNull
+};
+
 // Look for actual free space near the reference point instead of a fixed
 // offset, which could clip into terrain, walls or the depot/caller itself
-private _pos = _refPos findEmptyPosition [0, 10, _crateClass];
+private _pos = if (_markerPos isNotEqualTo []) then { _markerPos } else {
+    _refPos findEmptyPosition [0, 10, _crateClass]
+};
 if (_pos isEqualTo []) then {
     WARNING_1("No empty position found near %1, spawning at the reference position instead",_refPos);
     _pos = _refPos;

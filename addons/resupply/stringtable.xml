@@ -45,6 +45,10 @@
             <English>Resupply: Failed to spawn %1 crate. Please report this to server admins.</English>
             <German>Nachschub: Kiste %1 konnte nicht erstellt werden. Bitte den Server-Admins melden.</German>
         </Key>
+        <Key ID="STR_ttt_Resupply_spawnSpotOccupied">
+            <English>Resupply: Spawn point is already occupied by another crate.</English>
+            <German>Nachschub: Spawnpunkt ist bereits von einer anderen Kiste belegt.</German>
+        </Key>
         <Key ID="STR_ttt_Resupply_spawnSuccess">
             <English>%1 spawned (%2 left)</English>
             <German>%1 erstellt (%2 übrig)</German>
