@@ -45,6 +45,14 @@
             <English>Resupply: Failed to spawn %1 crate. Please report this to server admins.</English>
             <German>Nachschub: Kiste %1 konnte nicht erstellt werden. Bitte den Server-Admins melden.</German>
         </Key>
+        <Key ID="STR_ttt_Resupply_spawnPointClass_description">
+            <English>Classname of the object mission makers can place near a depot or Zeus module for a predictable, always-in-the-same-spot crate placement (see documentation).</English>
+            <German>Klassenname des Objekts, das Missionsbauer in der Nähe eines Depots oder Zeus-Moduls platzieren können, um eine vorhersagbare, immer gleichbleibende Kistenposition zu erhalten (siehe Dokumentation).</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_spawnPointClass_displayName">
+            <English>Spawn Point Object Class</English>
+            <German>Spawnpunkt-Objektklasse</German>
+        </Key>
         <Key ID="STR_ttt_Resupply_spawnSpotOccupied">
             <English>Resupply: Spawn point is already occupied by another crate.</English>
             <German>Nachschub: Spawnpunkt ist bereits von einer anderen Kiste belegt.</German>

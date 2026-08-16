@@ -3,7 +3,8 @@
 Scannt bei Missionsstart die Ausrüstung aller Spieler und baut daraus pro
 Kategorie eine Item-Datenbank auf (gemittelt pro Gruppe mit Spielern). Darauf
 aufbauend können Missionsbauer typisierte Nachschubkisten anfordern lassen -
-über eine ACE-Aktion an vorplatzierten Depot-Objekten oder über Zeus-Module.
+über eine ACE-Aktion an vorplatzierten Depot-Objekten, über Zeus-Module oder
+(mit Zeus Enhanced) direkt über das Zeus-Kontextmenü.
 
 ## Kistentypen
 
@@ -46,17 +47,19 @@ müssen beim Wechsel des Sanitätsmods also nichts anpassen.
 
 ## Spawnposition der Kiste
 
-Gilt gleichermaßen für die ACE-Aktion an Depot-Objekten und für Zeus-Module,
-da beide intern dieselbe Funktion zum Erstellen der Kiste nutzen.
+Gilt gleichermaßen für die ACE-Aktion an Depot-Objekten, für Zeus-Module und
+für das ZEN-Kontextmenü, da alle drei intern dieselbe Funktion zum Erstellen
+der Kiste nutzen.
 
 Standardmäßig sucht sich die Kiste einen freien Platz im Umkreis von 10 m um
 das Depot bzw. den Zeus-Modul-Standort - je nach Umgebung kann das an
 wechselnden, manchmal ungünstigen Stellen landen (z. B. hinter einer Wand
 oder in einer Ecke).
 
-Für eine vorhersagbare, immer gleichbleibende Position ein
-`VR_Area_01_square_2x2_yellow_F`-Objekt (gelbe 2x2-Fläche) im Umkreis von
-10 m um das Depot bzw. das Zeus-Modul platzieren:
+Für eine vorhersagbare, immer gleichbleibende Position ein Objekt der unter
+[CBA-Einstellungen](#cba-einstellungen) konfigurierten Klasse (standardmäßig
+`VR_Area_01_square_2x2_yellow_F`, eine gelbe 2x2-Fläche) im Umkreis von 10 m
+um das Depot platzieren:
 
 - Ist die Fläche frei, spawnt die Kiste immer exakt dort.
 - Steht dort bereits eine andere Kiste, wird **keine neue Kiste gespawnt** -
@@ -74,11 +77,21 @@ Für eine vorhersagbare, immer gleichbleibende Position ein
     erscheint die Aktion also weiterhin, schlägt beim Auslösen aber mit
     obigem Hinweis fehl.
 
+!!! info
+    Für Zeus-Module und das ZEN-Kontextmenü gilt die Belegungssperre nicht:
+    Steht zufällig eine solche Fläche in der Nähe der gewählten Position
+    (Modul-Position bzw. Klickposition) und ist sie belegt, weicht die Kiste
+    stattdessen auf einen zufälligen freien Platz in der Nähe aus, statt gar
+    nicht zu spawnen. Beide markieren schließlich selbst schon die gewünschte
+    Position - eine zufällig in der Nähe stehende Fläche eines anderen
+    Depots ist in dem Fall Zufall, nicht Absicht.
+
 ## CBA-Einstellungen
 
 ``` c++
 force ttt_resupply_faction = 0;              //default: 0; (0 = NATO, 1 = OPFOR, 2 = INDEP)
 force ttt_resupply_quantityMultiplier = 1.0; //default: 1.0; (0.5-5.0)
+force ttt_resupply_spawnPointClass = "VR_Area_01_square_2x2_yellow_F"; //default: "VR_Area_01_square_2x2_yellow_F"
 ```
 
 Es gibt keinen zentralen Ein-/Ausschalter. Das ACE-Menü erscheint nur an
@@ -136,6 +149,20 @@ Diese Module sind reine Zeus-Module: Sie sind bewusst im klassischen
 2D-Missionseditor und in 3DEN ausgeblendet (eine Nachschubkiste im Voraus zu
 platzieren ergibt keinen Sinn - Missionsbauer sollten stattdessen ein
 Depot-Objekt mit der ACE-Aktion oder die Script-API nutzen).
+
+### ZEN-Kontextmenü
+
+Ist [Zeus Enhanced](https://zen-mod.github.io/ZEN/) geladen, steht im
+Rechtsklick-Kontextmenü im Zeus-Interface zusätzlich ein
+**Nachschub**-Untermenü mit allen acht Kistentypen zur Verfügung - schneller
+als eines der Module aus dem Support-Menü zu suchen und zu platzieren. Die
+Kiste spawnt dabei in der Nähe der angeklickten Position, mit demselben
+Verhalten wie oben bei den Zeus-Modulen beschrieben (inkl. Ausweichen bei
+belegter fester Spawnposition). Nicht verfügbare Kistentypen (leere
+Kategorie oder Datenbank noch nicht bereit) werden im Menü ausgeblendet.
+
+Diese Option benötigt kein Setup durch den Missionsbauer - sie erscheint
+automatisch, sobald Zeus Enhanced als Mod geladen ist.
 
 ### Script-API
 

@@ -5,6 +5,7 @@ PREP(crateFiller);
 PREP(createPlayerMarker);
 PREP(doFlakFire);
 PREP(getAllItems);
+PREP(iconViewer);
 PREP(join);
 PREP(noApiFunction);
 PREP(setAISkill);

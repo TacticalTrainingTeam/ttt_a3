@@ -25,18 +25,7 @@ if (_activated) then {
     private _notifyOwner = owner _logic;
     deleteVehicle _logic;
 
-    // Modules with isTriggerActivated = 0 fire almost immediately at mission
-    // start, well before scanLoadouts' database finishes building, so dynamic
-    // crate types wait on GVAR(db_init) via CBA rather than spawning a thread
-    // to poll with waitUntil/sleep.
-    if (_type in ["medical_alpha", "medical_bravo", "medical_charlie"]) then {
-        [_pos, _type, _notifyOwner, true] call FUNC(spawnCrate);
-    } else {
-        [{ GVAR(db_init) }, {
-            params ["_pos", "_type", "_notifyOwner"];
-            [_pos, _type, _notifyOwner, true] call FUNC(spawnCrate);
-        }, [_pos, _type, _notifyOwner]] call CBA_fnc_waitUntilAndExecute;
-    };
+    [_pos, _type, _notifyOwner] call FUNC(zeusSpawnCrate);
 };
 
 true

@@ -9,6 +9,13 @@ if (isServer) then {
         params ["_target", "_type", "_notifyOwner", "_container"];
         [_target, _type, _notifyOwner, false, _container] call FUNC(spawnCrate);
     }] call CBA_fnc_addEventHandler;
+
+    // Sent by the ZEN context menu action (resupply_zen) - only fires if that
+    // optional sub-addon is loaded, but harmless to always register
+    [QGVAR(zenSpawnCrateRequest), {
+        params ["_pos", "_type", "_notifyOwner"];
+        [_pos, _type, _notifyOwner] call FUNC(zeusSpawnCrate);
+    }] call CBA_fnc_addEventHandler;
 };
 
 // Clients: register the ACE interaction menu action and the hint event used

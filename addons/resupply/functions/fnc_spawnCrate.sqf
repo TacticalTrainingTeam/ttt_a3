@@ -25,6 +25,12 @@
  * 4: Depot object whose per-type stock (if limited via QGVAR(limits)) should
  *    be checked and consumed - distinct from argument 0, which is only the
  *    proximity reference to spawn near. objNull means unlimited <OBJECT> (default: objNull)
+ * 5: If the fixed spawn point marker (see below) is occupied, fall back to a
+ *    random nearby spot instead of failing outright. Used by the Zeus module,
+ *    which - unlike a depot - has no need for a stable, repeatable position:
+ *    the module's own placement already tells Zeus where the crate goes, so
+ *    an occupied marker nearby should never be a reason to spawn nothing
+ *    <BOOLEAN> (default: false)
  *
  * Return Value:
  * Spawned crate object, or objNull on failure <OBJECT>
@@ -41,7 +47,8 @@ params [
     ["_type", "ammo", [""]],
     ["_notifyOwner", -1, [0]],
     ["_notifyZeus", false, [false]],
-    ["_container", objNull, [objNull]]
+    ["_container", objNull, [objNull]],
+    ["_fallbackOnOccupied", false, [false]]
 ];
 
 if (!isServer) exitWith { objNull };
@@ -142,8 +149,9 @@ if (!(isClass (configFile >> "CfgVehicles" >> _crateClass))) exitWith {
     objNull
 };
 
-// If a mission maker placed a "VR_Area_01_square_2x2_yellow_F" pad near the
-// reference point, spawn exactly there - gives a predictable,
+// If a mission maker placed a marker object (classname configurable via
+// GVAR(spawnPointClass), defaults to "VR_Area_01_square_2x2_yellow_F") near
+// the reference point, spawn exactly there - gives a predictable,
 // always-in-the-same-spot placement instead of wherever the free-space
 // search below happens to land. No state is kept for this: it's a plain
 // proximity search by classname done fresh on every call, same as
@@ -154,22 +162,29 @@ if (!(isClass (configFile >> "CfgVehicles" >> _crateClass))) exitWith {
 // enough one to succeed would defeat the point of spawning at a fixed spot.
 // Occupied is instead checked directly: is there already a crate (any type
 // spawned by this function - all inherit ReammoBox_F) sitting on the pad.
-private _markerClass = "VR_Area_01_square_2x2_yellow_F";
+private _markerClass = GVAR(spawnPointClass);
 private _markers = _refPos nearObjects [_markerClass, 10];
 private _markerPos = if (_markers isNotEqualTo []) then { getPosATL (_markers select 0) } else { [] };
+private _markerOccupied = _markerPos isNotEqualTo [] && {(_markerPos nearObjects ["ReammoBox_F", 3]) isNotEqualTo []};
 
 // Guard: a marker exists but is already occupied - stop here instead of
 // falling back to a random nearby spot, since that would silently turn a
 // deliberately predictable spawn point unpredictable again whenever busy.
-// The old random-nearby-spot fallback below is reserved for the case where
-// there's no marker at all.
-if (_markerPos isNotEqualTo [] && {(_markerPos nearObjects ["ReammoBox_F", 3]) isNotEqualTo []}) exitWith {
+// _fallbackOnOccupied opts out of this for the Zeus module (see its header
+// arg 5 above): a marker sitting within 10 m of a Zeus-placed module is
+// mere coincidence, not the mission maker's designated spot, so it should
+// never be a reason to refuse the spawn outright.
+if (_markerOccupied && !_fallbackOnOccupied) exitWith {
     WARNING_1("Spawn marker near %1 is occupied, skipping spawn",_refPos);
     if (_notifyOwner != -1) then {
         [QGVAR(hint), [localize LSTRING(spawnSpotOccupied), _notifyZeus], _notifyOwner] call CBA_fnc_ownerEvent;
     };
     objNull
 };
+
+// Occupied but falling back (Zeus): treat it as if there were no marker at
+// all, so the free-space search below runs near the reference position.
+if (_markerOccupied) then { _markerPos = []; };
 
 // Look for actual free space near the reference point instead of a fixed
 // offset, which could clip into terrain, walls or the depot/caller itself

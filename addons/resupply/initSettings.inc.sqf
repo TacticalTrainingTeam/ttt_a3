@@ -15,3 +15,12 @@
     [0.5, 5.0, 1.0, 1],
     true
 ] call CBA_fnc_addSetting;
+
+[
+    QGVAR(spawnPointClass),
+    "EDITBOX",
+    [LSTRING(spawnPointClass_displayName), LSTRING(spawnPointClass_description)],
+    [ELSTRING(main,TacticalTrainingTeam), LSTRING(subCategory)],
+    "VR_Area_01_square_2x2_yellow_F",
+    true
+] call CBA_fnc_addSetting;
