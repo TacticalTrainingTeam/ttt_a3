@@ -4,10 +4,10 @@
  * Author: Reimchen, Andx
  * Fills one or more crates/containers with a list of classname/count pairs,
  * routing each entry to the matching cargo type (item, magazine, backpack or
- * weapon) based on its config class. Launcher-kind weapons are added
- * pre-loaded with their default magazine via addWeaponWithAttachmentsCargoGlobal
- * instead of the plain (unloaded) addWeaponCargoGlobal, since a separate
- * magazine cargo entry does not get auto-paired with a weapon on pickup.
+ * weapon) based on its config class. Single-use launcher weapons rely on
+ * CBA's disposable-launcher framework (see ttt_resupply_fnc_resolveDisposableLauncher)
+ * to auto-load themselves with their real magazine once taken from cargo, so
+ * a plain addWeaponCargoGlobal is enough here - no manual pre-loading needed.
  *
  * Arguments:
  * 0: Crates/containers to fill <ARRAY of OBJECT>
@@ -49,21 +49,7 @@
             };
 
             if (isClass(configFile >> "CfgWeapons" >> (_x select 0))) exitWith {
-                private _weaponClass = _x select 0;
-
-                // Plain addWeaponCargoGlobal drops the weapon into cargo with
-                // no ammo loaded - a separate magazine cargo entry does not
-                // get auto-paired with it on pickup, so launchers (esp.
-                // single-use ones like NLAW) would come out empty. Load the
-                // weapon's default magazine via addWeaponWithAttachmentsCargoGlobal
-                // instead so it's usable as soon as it's taken.
-                private _magClass = getArray (configFile >> "CfgWeapons" >> _weaponClass >> "magazines") param [0, ""];
-                if (_weaponClass isKindOf ["Launcher", configFile >> "CfgWeapons"] && {isClass (configFile >> "CfgMagazines" >> _magClass)}) then {
-                    private _magCount = getNumber (configFile >> "CfgMagazines" >> _magClass >> "count");
-                    _crateObject addWeaponWithAttachmentsCargoGlobal [[_weaponClass, "", "", "", [_magClass, _magCount], [], ""], _x select 1];
-                } else {
-                    _crateObject addWeaponCargoGlobal _x;
-                };
+                _crateObject addWeaponCargoGlobal _x;
             };
         };
         nil

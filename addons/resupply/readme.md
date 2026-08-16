@@ -1,12 +1,12 @@
-# TTT Resupply
+# TTT Nachschub
 
-Scans all player loadouts at mission start, builds per-category item databases
-(averaged per group with players in it), and lets mission makers spawn typed
-supply crates on demand via an ACE action on pre-placed depot objects or via
-Zeus modules.
+Scannt bei Missionsstart die Ausrüstung aller Spieler und baut daraus pro
+Kategorie eine Item-Datenbank auf (gemittelt pro Gruppe mit Spielern). Darauf
+aufbauend können Missionsbauer typisierte Nachschubkisten anfordern lassen -
+über eine ACE-Aktion an vorplatzierten Depot-Objekten oder über Zeus-Module.
 
-See the [user documentation](https://docs.tacticalteam.de/addons/resupply/)
-for crate types, settings, and mission maker usage.
+Siehe die [Nutzerdokumentation](https://docs.tacticalteam.de/addons/resupply/)
+für Kistentypen, Einstellungen und die Nutzung durch Missionsbauer.
 
 ## Item-Klassifizierung
 
@@ -18,20 +18,22 @@ Die Items werden bei Missionsstart aus der Ausrüstung der Spieler klassifiziert
   - `GrenadeBase` / `SmokeShell` / `FlareBase` → Granaten
   - alles andere → Munition
 - `items _unit` - alles davon geht in Support
-- `weapons _unit` - Waffen mit CfgWeapons-Basisklasse `Launcher` gehen
-  zusätzlich zu ihrer Munition in Panzerabwehr. Nötig für Einwegwaffen wie die
-  NLAW: dort wird beim Abfeuern die ganze Waffe verbraucht statt nur
-  nachgeladen, eine reine Magazin-Kiste wäre also nutzlos ohne ein neues Rohr.
-  `fnc_crateFiller` befüllt diese Waffen vorgeladen über
-  `addWeaponWithAttachmentsCargoGlobal`, damit sie sofort einsatzbereit sind.
+- `weapons _unit` - Waffen, die in CBAs Disposable-Launcher-Framework
+  (`CBA_DisposableLaunchers`, siehe `fnc_resolveDisposableLauncher`)
+  registriert sind, gehen zusätzlich zu ihrer Munition in Panzerabwehr. Nötig
+  für echte Einwegwaffen (z. B. die Panzerfaust-3 aus BWA3): dort wird
+  beim Abfeuern die ganze Waffe verbraucht statt nur nachgeladen, eine reine
+  Magazin-Kiste wäre also nutzlos ohne ein neues Rohr. Launcher, die nur per
+  Missionskonvention mit einem Magazin ausgegeben werden, bleiben auf Engine-Ebene nachladbar und werden bewusst nicht mit
+  aufgenommen - dort reicht die Munition allein.
 
-## Dependencies
+## Abhängigkeiten
 
-- `ttt_common` (medical crate classes + `fnc_crateFiller`)
-- `ace_common` (structured on-screen confirmation/failure text for the ACE action)
+- `ttt_common` (Sanitätskisten-Klassen + `fnc_crateFiller`)
+- `ace_common` (strukturierter Bestätigungs-/Fehler-Text auf dem Bildschirm für die ACE-Aktion)
 - `ace_interact_menu`
-- `ace_zeus` (Zeus curator message feed used to report Zeus-triggered spawn results)
-- `ttt_compat_kam` (optional; used automatically for medical crates when `kat_main` is loaded)
+- `ace_zeus` (Zeus-Curator-Meldungsfeed zur Rückmeldung von Zeus-ausgelösten Spawns)
+- `ttt_compat_kam` (optional; wird automatisch für Sanitätskisten verwendet, wenn `kat_main` geladen ist)
 
 ## Maintainer
 

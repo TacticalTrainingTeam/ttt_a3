@@ -20,14 +20,17 @@
  *     "explosives" - mines, demo charges, satchels
  *     "support"    - misc inventory items
  *
- * Some AT launchers (e.g. NLAW) are single-use: the whole weapon is spent
- * and lost on firing rather than reloaded from a separate magazine. Stocking
- * a crate with only the magazine classname would be useless for those, since
- * there's no launcher left to load it into - so "weapons" carried by players
- * are scanned in addition to magazines/items, and any Launcher-kind weapon
- * classname is added to the "at" category alongside its ammo, letting
- * fnc_crateFiller hand back a fresh, pre-loaded tube via
- * addWeaponWithAttachmentsCargoGlobal.
+ * Some AT launchers (e.g. mods implementing CBA's disposable-launcher
+ * framework) are truly single-use: the whole weapon is spent and lost on
+ * firing rather than reloaded from a separate magazine. Stocking a crate
+ * with only the magazine classname would be useless for those, since
+ * there's no launcher left to load it into - so "weapons" carried by
+ * players are scanned in addition to magazines/items, and any weapon
+ * registered as a disposable launcher (see fnc_resolveDisposableLauncher)
+ * is added to the "at" category alongside its ammo. Launchers that are just
+ * carried with one magazine by convention (e.g. vanilla NLAW) but remain
+ * reloadable at the engine level are deliberately excluded here - only
+ * their ammo needs resupplying, not the launcher itself.
  *
  * Arguments:
  * None
@@ -77,12 +80,15 @@ GVAR(db_init) = false;
             _itemAcc set [_x, (_itemAcc getOrDefault [_x, 0]) + 1];
         } forEach (items _x);
 
-        // Single-use launchers (e.g. NLAW) are carried/lost as a whole
-        // weapon rather than a reloadable magazine - track those separately
-        // from the magazine scan above so they can be resupplied as a weapon
+        // Truly single-use launchers are carried/lost as a whole weapon
+        // rather than a reloadable magazine - track those separately from
+        // the magazine scan above so they can be resupplied as a weapon.
+        // Accumulate under the resolved crate-safe classname, since the one
+        // actually carried can be any of the launcher's 3 registered states
         {
-            if (_x isKindOf ["Launcher", configFile >> "CfgWeapons"]) then {
-                _wpnAcc set [_x, (_wpnAcc getOrDefault [_x, 0]) + 1];
+            private _crateClass = [_x] call FUNC(resolveDisposableLauncher);
+            if (_crateClass != "") then {
+                _wpnAcc set [_crateClass, (_wpnAcc getOrDefault [_crateClass, 0]) + 1];
             };
         } forEach (weapons _x);
     } forEach _players;
@@ -116,7 +122,7 @@ GVAR(db_init) = false;
         };
     } forEach (keys _itemAcc);
 
-    // Launcher weapons (single-use or not) go alongside their ammo in "at"
+    // Registered single-use launcher weapons go alongside their ammo in "at"
     {
         private _avg = round ((_wpnAcc get _x) / _groupCount * _multiplier);
         if (_avg > 0) then {

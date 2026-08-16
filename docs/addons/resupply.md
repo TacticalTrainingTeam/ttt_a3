@@ -11,7 +11,7 @@ aufbauend können Missionsbauer typisierte Nachschubkisten anfordern lassen -
 | --- | --- | --- |
 | **Munition** | `Box_NATO_Ammo_F` | Gewehr-/Pistolenmagazine, Handgranaten |
 | **Granaten** | `Box_NATO_Grenades_F` | Rauchgranten, Leuchtsignale, Unterlaufgranten |
-| **Panzerabwehr** | `Box_NATO_WpsLaunch_F` | Raketen-/Lenkflugkörpermunition, sowie einsatzbereite (vorgeladene) Abschussrohre für Einwegwaffen wie die NLAW |
+| **Panzerabwehr** | `Box_NATO_WpsLaunch_F` | Raketen-/Lenkflugkörpermunition, sowie neue Abschussrohre für echte Einwegwaffen (registriert über CBAs Disposable-Launcher-Framework, z. B. das Panzerfaust-3-Rohr aus BWA3) |
 | **Sprengstoff** | `Box_NATO_AmmoOrd_F` | Minen, Sprengladungen, Haftladungen |
 | **Support** | `Box_NATO_Support_F` | Sonstige Ausrüstung (Batterien, Kabelbinder, etc.) |
 | **Medic Alpha** | `ttt_common_sana_crate` | Basis-Sanitätsausrüstung (fest vorgegeben durch /common) |
