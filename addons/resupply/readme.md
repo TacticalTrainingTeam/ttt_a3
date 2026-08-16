@@ -18,6 +18,12 @@ Die Items werden bei Missionsstart aus der Ausrüstung der Spieler klassifiziert
   - `GrenadeBase` / `SmokeShell` / `FlareBase` → Granaten
   - alles andere → Munition
 - `items _unit` - alles davon geht in Support
+- `weapons _unit` - Waffen mit CfgWeapons-Basisklasse `Launcher` gehen
+  zusätzlich zu ihrer Munition in Panzerabwehr. Nötig für Einwegwaffen wie die
+  NLAW: dort wird beim Abfeuern die ganze Waffe verbraucht statt nur
+  nachgeladen, eine reine Magazin-Kiste wäre also nutzlos ohne ein neues Rohr.
+  `fnc_crateFiller` befüllt diese Waffen vorgeladen über
+  `addWeaponWithAttachmentsCargoGlobal`, damit sie sofort einsatzbereit sind.
 
 ## Dependencies
 

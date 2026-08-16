@@ -2,16 +2,23 @@
 
 /*
  * Author: Reimchen, Andx
- * 
+ * Fills one or more crates/containers with a list of classname/count pairs,
+ * routing each entry to the matching cargo type (item, magazine, backpack or
+ * weapon) based on its config class. Launcher-kind weapons are added
+ * pre-loaded with their default magazine via addWeaponWithAttachmentsCargoGlobal
+ * instead of the plain (unloaded) addWeaponCargoGlobal, since a separate
+ * magazine cargo entry does not get auto-paired with a weapon on pickup.
  *
  * Arguments:
- * 
+ * 0: Crates/containers to fill <ARRAY of OBJECT>
+ * 1: Content to add - [classname, count] pairs <ARRAY>
+ * 2: Clear existing cargo (weapons/magazines/items/backpacks) before filling <BOOLEAN> (default: true)
  *
  * Return Value:
  * None
  *
  * Example:
- * [[fahrzeug_01], [["Toolkit", 1],["ACE_Entrenchingtool", 1], false] call ttt_common_fnc_crateFiller;
+ * [[fahrzeug_01], [["Toolkit", 1],["ACE_Entrenchingtool", 1]], false] call ttt_common_fnc_crateFiller;
  *
  * Public: Yes
  */

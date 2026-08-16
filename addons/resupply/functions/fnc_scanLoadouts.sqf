@@ -26,7 +26,8 @@
  * there's no launcher left to load it into - so "weapons" carried by players
  * are scanned in addition to magazines/items, and any Launcher-kind weapon
  * classname is added to the "at" category alongside its ammo, letting
- * fnc_crateFiller hand back a fresh tube via addWeaponCargoGlobal.
+ * fnc_crateFiller hand back a fresh, pre-loaded tube via
+ * addWeaponWithAttachmentsCargoGlobal.
  *
  * Arguments:
  * None
