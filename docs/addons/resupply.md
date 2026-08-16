@@ -26,7 +26,7 @@ Sanitätskisten spawnen dagegen immer mit den fest vorgegebenen TTT-Common-Klass
 
 Bei der Panzerabwehr-Kiste bekommen nur echte Einwegwaffen (bei denen die
 ganze Waffe beim Abfeuern verloren geht, z. B. aus manchen Waffen-Mods) ein
-neues Abschussrohr dazu. Waffen wie die NLAW, die zwar meist nur mit einer
+neues Abschussrohr dazu. Waffen wie die Carl Gustaf, die zwar meist nur mit einer
 Rakete ausgegeben werden, sich aber technisch nachladen lassen, bekommen wie
 gewohnt nur neue Munition.
 

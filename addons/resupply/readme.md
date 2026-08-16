@@ -15,7 +15,9 @@ Die Items werden bei Missionsstart aus der Ausrüstung der Spieler klassifiziert
 - `magazines _unit` - Einordnung anhand der CfgAmmo-Hierarchie der Munition:
   - `RocketBase` / `MissileBase` → Panzerabwehr
   - `MineBase` / `BombCore` → Sprengstoff
-  - `GrenadeBase` / `SmokeShell` / `FlareBase` → Granaten
+  - `Grenade` (Wurfgranaten, z. B. `GrenadeHand`) / `GrenadeBase` (Unterlaufgranaten,
+    z. B. `G_40mm_HE` - eigene, separate Ammo-Familie trotz ähnlichen Namens)
+    / `SmokeShell` / `FlareBase` → Granaten
   - alles andere → Munition
 - `items _unit` - geht in Support, außer ACE-Sanitätsitems
   (`ACE_isMedicalItem = 1` in `CfgWeapons`, deckt Verbandsmaterial, Medikamente,

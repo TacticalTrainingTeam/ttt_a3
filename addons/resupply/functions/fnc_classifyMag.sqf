@@ -31,8 +31,14 @@ if (_ammoClass isKindOf ["RocketBase", configFile >> "CfgAmmo"] ||
 if (_ammoClass isKindOf ["MineBase", configFile >> "CfgAmmo"] ||
     _ammoClass isKindOf ["BombCore", configFile >> "CfgAmmo"]) exitWith { "explosives" };
 
-// Grenades: thrown grenades, smoke, flares
-if (_ammoClass isKindOf ["GrenadeBase", configFile >> "CfgAmmo"] ||
+// Grenades: thrown grenades, smoke, flares. Hand-thrown frag grenades
+// (e.g. GrenadeHand and its subclasses) inherit from "Grenade", not
+// "GrenadeBase" - that's a separate, sibling ammo family used by underslung
+// 40mm grenade launcher shells (e.g. G_40mm_HE). Without also checking
+// "Grenade" here, hand grenades would silently fall through to the
+// default "ammo" case below instead of being classified as grenades.
+if (_ammoClass isKindOf ["Grenade", configFile >> "CfgAmmo"] ||
+    _ammoClass isKindOf ["GrenadeBase", configFile >> "CfgAmmo"] ||
     _ammoClass isKindOf ["SmokeShell", configFile >> "CfgAmmo"] ||
     _ammoClass isKindOf ["FlareBase", configFile >> "CfgAmmo"]) exitWith { "grenades" };
 
