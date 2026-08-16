@@ -11,7 +11,7 @@
         </Key>
         <Key ID="STR_ttt_Resupply_faction_description">
             <English>Side whose ammo box classes are used for spawned crates (does not affect medical crates).</English>
-            <German>Fraktion, deren Munitionskisten-Klassen fuer gespawnte Kisten verwendet werden (betrifft keine Sanitaetskisten).</German>
+            <German>Fraktion, deren Munitionskisten-Klassen für gespawnte Kisten verwendet werden (betrifft keine Sanitätskisten).</German>
         </Key>
         <Key ID="STR_ttt_Resupply_faction_displayName">
             <English>Crate Faction</English>
@@ -31,11 +31,11 @@
         </Key>
         <Key ID="STR_ttt_Resupply_limitExhausted">
             <English>Resupply: No more %1 left at this depot.</English>
-            <German>Nachschub: Keine %1 mehr an diesem Depot verfuegbar.</German>
+            <German>Nachschub: Keine %1 mehr an diesem Depot verfügbar.</German>
         </Key>
         <Key ID="STR_ttt_Resupply_quantityMultiplier_description">
             <English>Multiplier applied to the per-player average quantity of each item in the crate. 1.0 = one player worth.</English>
-            <German>Multiplikator fuer die durchschnittliche Menge pro Spieler jedes Gegenstands in der Kiste. 1.0 = Ausruestung eines Spielers.</German>
+            <German>Multiplikator für die durchschnittliche Menge pro Spieler jedes Gegenstands in der Kiste. 1.0 = Ausrüstung eines Spielers.</German>
         </Key>
         <Key ID="STR_ttt_Resupply_quantityMultiplier_displayName">
             <English>Quantity Multiplier</English>
@@ -47,7 +47,7 @@
         </Key>
         <Key ID="STR_ttt_Resupply_spawnSuccess">
             <English>%1 spawned (%2 left)</English>
-            <German>%1 erstellt (%2 uebrig)</German>
+            <German>%1 erstellt (%2 übrig)</German>
         </Key>
         <Key ID="STR_ttt_Resupply_subCategory">
             <English>Resupply</English>
@@ -63,7 +63,7 @@
         </Key>
         <Key ID="STR_ttt_Resupply_type_at">
             <English>AT Ammunition Box</English>
-            <German>Panzerfaustkiste</German>
+            <German>Panzerabwehrkiste</German>
         </Key>
         <Key ID="STR_ttt_Resupply_type_explosives">
             <English>Explosives Box</English>
@@ -75,19 +75,19 @@
         </Key>
         <Key ID="STR_ttt_Resupply_type_medical_alpha">
             <English>Medical Alpha Box</English>
-            <German>Sanitaetskiste Alpha</German>
+            <German>Sanitätskiste Alpha</German>
         </Key>
         <Key ID="STR_ttt_Resupply_type_medical_bravo">
             <English>Medical Bravo Box</English>
-            <German>Sanitaetskiste Bravo</German>
+            <German>Sanitätskiste Bravo</German>
         </Key>
         <Key ID="STR_ttt_Resupply_type_medical_charlie">
             <English>Medical Charlie Box</English>
-            <German>Sanitaetskiste Charlie</German>
+            <German>Sanitätskiste Charlie</German>
         </Key>
         <Key ID="STR_ttt_Resupply_type_support">
             <English>Support Box</English>
-            <German>Ausruestungskiste</German>
+            <German>Ausrüstungskiste</German>
         </Key>
         <Key ID="STR_ttt_Resupply_unlimited">
             <English>unlimited</English>
