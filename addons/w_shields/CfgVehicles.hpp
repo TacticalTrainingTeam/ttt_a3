@@ -13,7 +13,7 @@ class CfgVehicles {
     class ModuleEditTerrainObject_F: Module_F {};
 
     class GVAR(buildingShield): ModuleEditTerrainObject_F {
-        displayName = "Building Shield"; //ToDo Localize
+        displayName = CSTRING(buildingShieldModule_displayName);
         icon = "\a3\Missions_F_Beta\data\img\iconMPTypeDefense_ca.paa";
         portrait = "\a3\Missions_F_Beta\data\img\portraitMPTypeDefense_ca.paa";
         category = "Framework";
@@ -27,35 +27,35 @@ class CfgVehicles {
         class Attributes: AttributesBase {
             class GVAR(varname): Edit {
                 property = "#name";
-                displayName = "Varname";
-                tooltip = "Globaler Variablenname für das Gebäude."; //ToDo Localize
+                displayName = CSTRING(buildingShieldModule_varname_displayName);
+                tooltip = CSTRING(buildingShieldModule_varname_tooltip);
                 expression = "_this setVariable ['#name',_value]";
                 defaultValue = "''";
             };
             class GVAR(shield): Checkbox {
                 property = "#shield";
-                displayName = "Building Shield";
-                tooltip = "Verhindert ein Zerstören der Gebäudestruktur, ausgenommen Fenster."; //ToDo Localize
+                displayName = CSTRING(buildingShieldModule_shield_displayName);
+                tooltip = CSTRING(buildingShieldModule_shield_tooltip);
                 expression = "_this setVariable ['#shield',_value]";
                 defaultValue = "true";
             };
             class GVAR(windowpop): Checkbox {
                 property = "#windowpop";
-                displayName = "Fenster entglasen";
-                tooltip = "Zerstört alle Fenster im Gebäude."; //ToDo Localize
+                displayName = CSTRING(buildingShieldModule_windowpop_displayName);
+                tooltip = CSTRING(buildingShieldModule_windowpop_tooltip);
                 expression = "_this setVariable ['#windowpop',_value]";
                 defaultValue = "false";
             };
         };
 
         class ModuleDescription: ModuleDescription {
-            description = "Das markierte Gebäude erhält ein Building-Shield, welches ein Zerstören der Gebäudestruktur verhindert."; //ToDo Localize
+            description = CSTRING(buildingShieldModule_description);
             sync[] = { QGVAR(shield) };
 
             class GVAR(shield)  {
                 description[] = {
-                    "Gebäude selbst wird unzerstörbar.", //ToDo Localize
-                    "Fenster, etc. bleiben zerstörbar."
+                    CSTRING(buildingShieldModule_sync_description1),
+                    CSTRING(buildingShieldModule_sync_description2)
                 };
                 position = 1;
                 direction = 0;
@@ -83,7 +83,7 @@ class CfgVehicles {
 
     class GVAR(moduleAddVHS): GVAR(moduleBase) {
         curatorCanAttach = 1;
-        displayName = "Vehicleshield hinzufügen"; //ToDo Localize
+        displayName = CSTRING(vehicleShieldAction_displayName);
         function = QFUNC(module_addVHS);
         icon = "\a3\Missions_F_Beta\data\img\iconMPTypeDefense_ca.paa";
     };

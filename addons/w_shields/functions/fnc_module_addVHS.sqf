@@ -21,6 +21,6 @@ params ["_logic"];
 private _target = attachedTo _logic;
 deleteVehicle _logic;
 
-if (_target getVariable [QGVAR(hasVHS), false]) exitWith { hintSilent "Dieses Fahrzeug hat bereits ein VehicleShield"}; //ToDo Localize
+if (_target getVariable [QGVAR(hasVHS), false]) exitWith { hintSilent LLSTRING(hintAlreadyShielded) };
 
 [QGVAR(addVehicleShield), [_target]] call CBA_fnc_globalEventJIP;

@@ -8,17 +8,18 @@
 
     //Only hint once - the handler above runs on every machine, but only one server exists
     if (isServer) then {
-        ["Vehicleshield hinzugefügt."] call ace_zeus_fnc_showMessage; //ToDo Localize
+        [LLSTRING(hintVehicleShieldAdded)] call ace_zeus_fnc_showMessage;
     };
 }] call CBA_fnc_addEventHandler;
 
 [QGVAR(removeVehicleShield), {
     params ["_target"];
-    if (isNull _target || {!(_target getVariable [QGVAR(hasVHS), false])}) exitWith {};
-    [_target] call FUNC(removeVehicleShield);
+    if (isNull _target) exitWith {};
+    private _removed = [_target] call FUNC(removeVehicleShield);
 
-    if (isServer) then {
-        ["Vehicleshield entfernt."] call ace_zeus_fnc_showMessage; //ToDo Localize
+    //Only hint once and only if this machine actually had a handler to remove
+    if (isServer && {_removed}) then {
+        [LLSTRING(hintVehicleShieldRemoved)] call ace_zeus_fnc_showMessage;
     };
 }] call CBA_fnc_addEventHandler;
 
@@ -27,13 +28,13 @@ if (isServer) then {
         params ["_target"];
         if (isNull _target || {_target getVariable [QGVAR(hasBuildingShield), false]}) exitWith {};
         [_target] call FUNC(buildingShield);
-        ["Buildingshield hinzugefügt."] call ace_zeus_fnc_showMessage; //ToDo Localize
+        [LLSTRING(hintBuildingShieldAdded)] call ace_zeus_fnc_showMessage;
     }] call CBA_fnc_addEventHandler;
 
     [QGVAR(removeBuildingShield), {
         params ["_target"];
         if (isNull _target || {!(_target getVariable [QGVAR(hasBuildingShield), false])}) exitWith {};
         [_target] call FUNC(removeBuildingShield);
-        ["Buildingshield entfernt."] call ace_zeus_fnc_showMessage; //ToDo Localize
+        [LLSTRING(hintBuildingShieldRemoved)] call ace_zeus_fnc_showMessage;
     }] call CBA_fnc_addEventHandler;
 };

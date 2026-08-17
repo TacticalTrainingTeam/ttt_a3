@@ -23,7 +23,7 @@ params [
     ["_target", objNull, [objNull]]
 ];
 
-if (isNull _target) exitWith { ["Kein Objekt übergeben."] call BIS_fnc_error };//ToDo Localize
+if (isNull _target) exitWith { [LLSTRING(errorNoObjectGiven)] call BIS_fnc_error };
 
 _target setVariable [QGVAR(hasBuildingShield), true, true];
 

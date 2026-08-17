@@ -17,7 +17,7 @@
 
 private _category = [
     QGVAR(category),
-    "W-Shields",
+    LLSTRING(zenCategory_displayName),
     "\a3\Missions_F_Beta\data\img\iconMPTypeDefense_ca.paa",
     {}
 ] call zen_context_menu_fnc_createAction;
@@ -26,7 +26,7 @@ private _categoryPath = [_category] call zen_context_menu_fnc_addAction;
 
 private _vehicleShield = [
     QGVAR(vehicleShieldAction),
-    "Vehicleshield hinzufügen",
+    LLSTRING(vehicleShieldAction_displayName),
     "\a3\Missions_F_Beta\data\img\iconMPTypeDefense_ca.paa",
     {
         params ["", "", "", "", "", "_hoveredEntity"];
@@ -46,7 +46,7 @@ private _vehicleShield = [
 
 private _buildingShield = [
     QGVAR(buildingShieldAction),
-    "Buildingshield hinzufügen",
+    LLSTRING(buildingShieldAction_displayName),
     "\a3\Missions_F_Beta\data\img\iconMPTypeDefense_ca.paa",
     {
         params ["", "", "", "", "", "_hoveredEntity"];

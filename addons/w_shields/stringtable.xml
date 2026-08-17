@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="W_Shields">
+        <Key ID="STR_ttt_W_Shields_buildingShieldAction_displayName">
+            <English>Add Buildingshield</English>
+            <German>Buildingshield hinzufügen</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_buildingShieldAttribute_displayName">
+            <English>BuildingShield</English>
+            <German>BuildingShield</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_buildingShieldAttribute_tooltip">
+            <English>Adds the BuildingShield from the Gruppe W Framework to the object.</English>
+            <German>Fügt dem Objekt das BuildingShield aus dem Gruppe W Framework hinzu.</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_buildingShieldModule_description">
+            <English>The marked building receives a Building Shield, which prevents its structure from being destroyed.</English>
+            <German>Das markierte Gebäude erhält ein Building-Shield, welches ein Zerstören der Gebäudestruktur verhindert.</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_buildingShieldModule_displayName">
+            <English>Building Shield</English>
+            <German>Building Shield</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_buildingShieldModule_shield_displayName">
+            <English>Building Shield</English>
+            <German>Building Shield</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_buildingShieldModule_shield_tooltip">
+            <English>Prevents the building's structure from being destroyed, except for windows.</English>
+            <German>Verhindert ein Zerstören der Gebäudestruktur, ausgenommen Fenster.</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_buildingShieldModule_sync_description1">
+            <English>The building itself becomes indestructible.</English>
+            <German>Gebäude selbst wird unzerstörbar.</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_buildingShieldModule_sync_description2">
+            <English>Windows etc. remain destructible.</English>
+            <German>Fenster, etc. bleiben zerstörbar.</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_buildingShieldModule_varname_displayName">
+            <English>Variable Name</English>
+            <German>Variablenname</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_buildingShieldModule_varname_tooltip">
+            <English>Global variable name for the building.</English>
+            <German>Globaler Variablenname für das Gebäude.</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_buildingShieldModule_windowpop_displayName">
+            <English>Break windows</English>
+            <German>Fenster entglasen</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_buildingShieldModule_windowpop_tooltip">
+            <English>Destroys all windows in the building.</English>
+            <German>Zerstört alle Fenster im Gebäude.</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_errorNoObjectGiven">
+            <English>No object given.</English>
+            <German>Kein Objekt übergeben.</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_hintAlreadyShielded">
+            <English>This vehicle already has a Vehicleshield.</English>
+            <German>Dieses Fahrzeug hat bereits ein VehicleShield.</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_hintBuildingShieldAdded">
+            <English>Buildingshield added.</English>
+            <German>Buildingshield hinzugefügt.</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_hintBuildingShieldRemoved">
+            <English>Buildingshield removed.</English>
+            <German>Buildingshield entfernt.</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_hintVehicleShieldAdded">
+            <English>Vehicleshield added.</English>
+            <German>Vehicleshield hinzugefügt.</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_hintVehicleShieldRemoved">
+            <English>Vehicleshield removed.</English>
+            <German>Vehicleshield entfernt.</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_popWindowsAttribute_displayName">
+            <English>Break windows</English>
+            <German>Fenster entglasen</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_popWindowsAttribute_tooltip">
+            <English>Destroys all windows in the building.</English>
+            <German>Zerstört alle Fenster im Gebäude.</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_vehicleShieldAction_displayName">
+            <English>Add Vehicleshield</English>
+            <German>Vehicleshield hinzufügen</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_vehicleShieldAttribute_displayName">
+            <English>VehicleShield</English>
+            <German>VehicleShield</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_vehicleShieldAttribute_tooltip">
+            <English>Adds the VehicleShield from the Gruppe W Framework to the vehicle.</English>
+            <German>Fügt dem Fahrzeug das VehicleShield aus dem Gruppe W Framework hinzu.</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_zenCategory_displayName">
+            <English>W-Shields</English>
+            <German>W-Shields</German>
+        </Key>
+    </Package>
+</Project>
