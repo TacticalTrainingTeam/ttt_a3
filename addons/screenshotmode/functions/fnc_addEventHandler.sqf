@@ -30,17 +30,24 @@ private _id = [
         params ["_set"];
 
         // Vanilla
+        // _set=true means things should be hidden - https://ace3.acemod.org/wiki/framework/ui-framework#22-hide-ui-keybind
         if (_set) then {
-            showHUD GVAR(vanillaHUD);
-        } else {
             GVAR(vanillaHUD) = shownHUD;
             showHUD [false,false,false,false,false,false,false,false];
+        } else {
+            showHUD GVAR(vanillaHUD);
         };
         showChat false; //ist durch clearhud sowie immer aus und wird deswegen auch nicht wieder angeschalten
 
         //cTab
         // https://github.com/jetelain/ctab @cTab/addons/core/functions/fnc_open.sqf + fnc_toggleInterface.sqf
         if (_set) then {
+            if !(isNil "cTabIfOpen") then {
+                // cTabIfOpen: [_interfaceType,_displayName,_player,_killedEhId,_vehicle,...] - see cTab_fnc_open
+                GVAR(ctabState) = [cTabIfOpen select 0, cTabIfOpen select 1, cTabIfOpen select 2, cTabIfOpen select 4];
+            };
+            [] call cTab_fnc_close;
+        } else {
             private _ctabState = GVAR(ctabState);
             if !(isNil "_ctabState") then {
                 GVAR(ctabState) = nil;
@@ -53,12 +60,6 @@ private _id = [
                     };
                 }, 0, _ctabState] call CBA_fnc_addPerFrameHandler;
             };
-        } else {
-            if !(isNil "cTabIfOpen") then {
-                // cTabIfOpen: [_interfaceType,_displayName,_player,_killedEhId,_vehicle,...] - see cTab_fnc_open
-                GVAR(ctabState) = [cTabIfOpen select 0, cTabIfOpen select 1, cTabIfOpen select 2, cTabIfOpen select 4];
-            };
-            [] call cTab_fnc_close;
         };
 
         // ACRE
