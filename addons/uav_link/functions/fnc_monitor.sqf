@@ -55,9 +55,15 @@ if (!_tracking && {!(isNull _currentUav)}) then {
 
     private _ppGrain = ppEffectCreate ["FilmGrain", 851];
     _ppGrain ppEffectEnable true;
-    _ppGrain ppEffectAdjust [0, 1, 1, 0, 0, false];
+    _ppGrain ppEffectAdjust [0, 1, 1.5, 0, 0, 0];
     _ppGrain ppEffectCommit 0;
     missionNamespace setVariable [QGVAR(ppGrain), _ppGrain];
+
+    private _ppChroma = ppEffectCreate ["ChromAberration", 852];
+    _ppChroma ppEffectEnable true;
+    _ppChroma ppEffectAdjust [0, 0, true];
+    _ppChroma ppEffectCommit 0;
+    missionNamespace setVariable [QGVAR(ppChroma), _ppChroma];
 };
 
 if (!_tracking) exitWith {};
@@ -84,19 +90,32 @@ if (_dist >= _lostDistance) then {
 
 private _ppBlur = missionNamespace getVariable [QGVAR(ppBlur), objNull];
 private _ppGrain = missionNamespace getVariable [QGVAR(ppGrain), objNull];
+private _ppChroma = missionNamespace getVariable [QGVAR(ppChroma), objNull];
 
 if (_connected && {cameraOn isEqualTo _trackedUav}) then {
     private _factor = (((_dist - _degradeDistance) / (_lostDistance - _degradeDistance)) max 0) min 1;
 
-    _ppBlur ppEffectAdjust [_factor * 1.5];
+    // Kept light - a "bad connection" reads mostly through noise/color fringing, not through
+    // blurring the whole picture out of focus.
+    _ppBlur ppEffectAdjust [_factor * 0.5];
     _ppBlur ppEffectCommit 0.3;
 
-    _ppGrain ppEffectAdjust [_factor * 0.8, 1.25, 2.01, _factor * 0.5, 1, false];
+    // Monochrome static-style grain (0 = monochrome), scaled entirely by _factor so it stays
+    // proportional to distance instead of being capped at a fixed max regardless of _factor.
+    _ppGrain ppEffectAdjust [_factor * 0.6, 1, 1.5, _factor * 0.2, _factor * 0.6, 0];
     _ppGrain ppEffectCommit 0.3;
+
+    // Chromatic aberration (color fringing at the edges) is what actually sells "degraded signal"
+    // rather than "out of focus camera".
+    _ppChroma ppEffectAdjust [_factor * 0.04, _factor * 0.04, true];
+    _ppChroma ppEffectCommit 0.3;
 } else {
     _ppBlur ppEffectAdjust [0];
     _ppBlur ppEffectCommit 0.3;
 
-    _ppGrain ppEffectAdjust [0, 1, 1, 0, 0, false];
+    _ppGrain ppEffectAdjust [0, 1, 1.5, 0, 0, 0];
     _ppGrain ppEffectCommit 0.3;
+
+    _ppChroma ppEffectAdjust [0, 0, true];
+    _ppChroma ppEffectCommit 0.3;
 };

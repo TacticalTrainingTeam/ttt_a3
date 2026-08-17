@@ -21,9 +21,10 @@
     };
 } forEach [
     missionNamespace getVariable [QGVAR(ppBlur), objNull],
-    missionNamespace getVariable [QGVAR(ppGrain), objNull]
+    missionNamespace getVariable [QGVAR(ppGrain), objNull],
+    missionNamespace getVariable [QGVAR(ppChroma), objNull]
 ];
 
 {
     missionNamespace setVariable [_x, nil];
-} forEach [QGVAR(trackedUav), QGVAR(connected), QGVAR(ppBlur), QGVAR(ppGrain)];
+} forEach [QGVAR(trackedUav), QGVAR(connected), QGVAR(ppBlur), QGVAR(ppGrain), QGVAR(ppChroma)];
