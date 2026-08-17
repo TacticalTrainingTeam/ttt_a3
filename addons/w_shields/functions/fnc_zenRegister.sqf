@@ -1,0 +1,64 @@
+#include "..\script_component.hpp"
+/*
+* Author: Andx
+*
+* Description:
+* Adds ZEN context menu actions to shield the hovered vehicle or building.
+* https://zen-mod.github.io/ZEN/#/frameworks/context_menu
+*
+* Arguments:
+* None
+*
+* Return Value:
+* None
+*
+* Public: No
+*/
+
+private _category = [
+    QGVAR(category),
+    "W-Shields",
+    "\a3\Missions_F_Beta\data\img\iconMPTypeDefense_ca.paa",
+    {}
+] call zen_context_menu_fnc_createAction;
+
+private _categoryPath = [_category] call zen_context_menu_fnc_addAction;
+
+private _vehicleShield = [
+    QGVAR(vehicleShieldAction),
+    "Vehicleshield hinzufügen",
+    "\a3\Missions_F_Beta\data\img\iconMPTypeDefense_ca.paa",
+    {
+        params ["", "", "", "", "", "_hoveredEntity"];
+        [QGVAR(addVehicleShield), [_hoveredEntity]] call CBA_fnc_globalEventJIP;
+    },
+    {
+        params ["", "", "", "", "", "_hoveredEntity"];
+        _hoveredEntity isEqualType objNull
+        && {!isNull _hoveredEntity}
+        && {_hoveredEntity isKindOf "AllVehicles"}
+        && {!(_hoveredEntity isKindOf "Man")}
+        && {!(_hoveredEntity getVariable [QGVAR(hasVHS), false])}
+    }
+] call zen_context_menu_fnc_createAction;
+
+[_vehicleShield, _categoryPath] call zen_context_menu_fnc_addAction;
+
+private _buildingShield = [
+    QGVAR(buildingShieldAction),
+    "Buildingshield hinzufügen",
+    "\a3\Missions_F_Beta\data\img\iconMPTypeDefense_ca.paa",
+    {
+        params ["", "", "", "", "", "_hoveredEntity"];
+        [QGVAR(addBuildingShield), [_hoveredEntity]] call CBA_fnc_serverEvent;
+    },
+    {
+        params ["", "", "", "", "", "_hoveredEntity"];
+        _hoveredEntity isEqualType objNull
+        && {!isNull _hoveredEntity}
+        && {_hoveredEntity isKindOf "House"}
+        && {!(_hoveredEntity getVariable [QGVAR(hasBuildingShield), false])}
+    }
+] call zen_context_menu_fnc_createAction;
+
+[_buildingShield, _categoryPath] call zen_context_menu_fnc_addAction;

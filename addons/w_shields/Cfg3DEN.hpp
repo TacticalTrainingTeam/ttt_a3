@@ -12,7 +12,13 @@ class Cfg3DEN {
                         property = QGVAR(addVehicleShield);
                         control = "Checkbox";
 
-                        expression = QUOTE([ARR_2([ARR_4(_this,false,[ARR_2(true,true)],true)],FUNC(addVehicleShield))] call EFUNC(common,callGlobalFnc));
+                        expression = QUOTE(
+                            if (_value) then {
+                                [ARR_2([ARR_4(_this,false,[ARR_2(true,true)],true)],FUNC(addVehicleShield))] call EFUNC(common,callGlobalFnc);
+                            } else {
+                                [ARR_2([_this],FUNC(removeVehicleShield))] call EFUNC(common,callGlobalFnc);
+                            };
+                        );
                         defaultValue = 0;
 
                         unique = 0;
@@ -25,7 +31,13 @@ class Cfg3DEN {
                         property = QGVAR(addBuildingShield);
                         control = "Checkbox";
 
-                        expression = QUOTE([_this] call FUNCMAIN(buildingShield););
+                        expression = QUOTE(
+                            if (_value) then {
+                                [_this] call FUNCMAIN(buildingShield);
+                            } else {
+                                [_this] call FUNCMAIN(removeBuildingShield);
+                            };
+                        );
                         defaultValue = 0;
 
                         unique = 0;

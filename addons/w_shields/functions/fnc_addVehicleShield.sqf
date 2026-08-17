@@ -15,7 +15,7 @@
  *      Default: [true, true]
  * 3 (Optional):
  *      BOOLEAN - If the hull damage is capped, kill the engine?
- *      Default: false
+ *      Default: true
  *
  * Return Value:
  * None
@@ -28,8 +28,8 @@
 params [
     [ "_target",            objNull,        [objNull]   ],
     [ "_preventFuelDrain",  false,          [true]      ],
-    [ "_rotors",            [false, false], [[]]        ],
-    [ "_killEngine",        false,          [true]      ]
+    [ "_rotors",            [true, true],   [[]]        ],
+    [ "_killEngine",        true,           [true]      ]
 ];
 
 _rotors params [
@@ -37,7 +37,10 @@ _rotors params [
     [ "_preventVRotorKill",   true,          [true]      ]
 ];
 
-_target setVariable [QGVAR(hasVHS), true];
+//Guard against being called more than once for the same target (editor checkbox, Zeus module and ZEN context menu all funnel here) - a second HandleDamage EH would double-count every hit
+if (isNull _target || {_target getVariable [QGVAR(hasVHS), false]}) exitWith {};
+
+_target setVariable [QGVAR(hasVHS), true, true];
 _target setVariable [QGVAR(preventFuelDrain), _preventFuelDrain];
 _target setVariable [QGVAR(preventHRotorKill), _preventHRotorKill];
 _target setVariable [QGVAR(preventVRotorKill), _preventVRotorKill];
@@ -81,8 +84,10 @@ INFO_2("Init GrpW VHS für Fahrzeug %1 | Typ %2",_target,typeOf _target);
 [{
     params ["_target"];
 
-    _target addEventHandler [
+    private _ehIndex = _target addEventHandler [
         "HandleDamage",
         {_this call FUNC(handleVehDamage);}
     ];
+    //Local only - removeVehicleShield needs the index of the handler THIS machine added, not whatever another machine's index happened to be
+    _target setVariable [QGVAR(vhsEHIndex), _ehIndex];
 }, _target] call CBA_fnc_execNextFrame;
