@@ -7,7 +7,7 @@
  * - DUI is handled by ACE
  * - Hides ACRE Vehicle Elements
  * - Hides all Vanilla UI Elements (including Chat if accidently shown)
- * - Hides current cTab Interface
+ * - Hides current cTab Interface, reopens it once the UI is shown again
  *
  * Arguments:
  * None
@@ -39,7 +39,27 @@ private _id = [
         showChat false; //ist durch clearhud sowie immer aus und wird deswegen auch nicht wieder angeschalten
 
         //cTab
-        [] call cTab_fnc_close;
+        // https://github.com/jetelain/ctab @cTab/addons/core/functions/fnc_open.sqf + fnc_toggleInterface.sqf
+        if (_set) then {
+            private _ctabState = GVAR(ctabState);
+            if !(isNil "_ctabState") then {
+                GVAR(ctabState) = nil;
+                // cTabIfOpen only turns nil once the previous interface has actually
+                // finished closing down - same wait cTab's own fnc_toggleInterface.sqf does
+                [{
+                    if (isNil "cTabIfOpen") then {
+                        [_this select 1] call CBA_fnc_removePerFrameHandler;
+                        (_this select 0) call cTab_fnc_open;
+                    };
+                }, 0, _ctabState] call CBA_fnc_addPerFrameHandler;
+            };
+        } else {
+            if !(isNil "cTabIfOpen") then {
+                // cTabIfOpen: [_interfaceType,_displayName,_player,_killedEhId,_vehicle,...] - see cTab_fnc_open
+                GVAR(ctabState) = [cTabIfOpen select 0, cTabIfOpen select 1, cTabIfOpen select 2, cTabIfOpen select 4];
+            };
+            [] call cTab_fnc_close;
+        };
 
         // ACRE
         // from https://github.com/fparma/fparma-mods/blob/master/addons/common/functions/fnc_toggleScreenshotMode.sqf
