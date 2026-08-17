@@ -19,6 +19,22 @@
 
 if (isNull player) exitWith {};
 
+private _degradeDistance = GVAR(degradeDistance);
+private _rawLostDistance = GVAR(lostDistance);
+private _lostDistance = _rawLostDistance max (_degradeDistance + 1);
+
+// Warn once (and re-arm if it gets fixed, so a later regression warns again) instead of spamming
+// the RPT every tick - the clamp above keeps this from breaking anything, it just means the feed
+// jumps from clear to lost almost instantly instead of degrading gradually.
+if (_rawLostDistance <= _degradeDistance) then {
+    if !(missionNamespace getVariable [QGVAR(misconfigWarned), false]) then {
+        missionNamespace setVariable [QGVAR(misconfigWarned), true];
+        WARNING_2("ttt_uav_link_lostDistance (%1) is not greater than ttt_uav_link_degradeDistance (%2) - clamping, feed will jump straight to lost instead of degrading gradually until this is fixed",_rawLostDistance,_degradeDistance);
+    };
+} else {
+    missionNamespace setVariable [QGVAR(misconfigWarned), false];
+};
+
 private _currentUav = getConnectedUAV player;
 private _trackedUav = missionNamespace getVariable [QGVAR(trackedUav), objNull];
 private _tracking = !(isNull _trackedUav);
@@ -68,8 +84,6 @@ if (!_tracking && {!(isNull _currentUav)}) then {
 
 if (!_tracking) exitWith {};
 
-private _degradeDistance = GVAR(degradeDistance);
-private _lostDistance = GVAR(lostDistance) max (_degradeDistance + 1);
 private _dist = player distance _trackedUav;
 
 if (_dist >= _lostDistance) then {

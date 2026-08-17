@@ -10,13 +10,21 @@ Solange der Operator innerhalb der Verschlechterungsdistanz bleibt, ist das Bild
 
 Trennt sich der Operator manuell vom UAV (z.B. über das Terminal), obwohl er sich noch in Reichweite befindet, greift die Funktion nicht ein.
 
-## Einstellungen
+## CBA-Einstellungen
 
-In den CBA-Einstellungen unter "UAV Link" (Kategorie "Tactical Training Team"):
+Zu finden unter "UAV Link" (Kategorie "Tactical Training Team"), oder wie folgt per `cba_settings.sqf` setzbar:
 
-- **UAV-Verbindungsverschlechterung aktivieren**: Schaltet die gesamte Funktion ein/aus. Standardmäßig deaktiviert.
-- **Verschlechterungsdistanz**: Entfernung (in Metern) zum UAV, ab welcher das Bild zu verwackeln beginnt. Standard: 800 m.
-- **Verbindungsabbruch-Distanz**: Entfernung (in Metern) zum UAV, ab welcher die Verbindung vollständig abbricht. Muss größer als die Verschlechterungsdistanz sein. Standard: 1200 m.
+- `ttt_uav_link_enable`: Schaltet die gesamte Funktion ein/aus.
+- `ttt_uav_link_degradeDistance`: Entfernung (in Metern) zum UAV, ab welcher das Bild zu verwackeln beginnt.
+- `ttt_uav_link_lostDistance`: Entfernung (in Metern) zum UAV, ab welcher die Verbindung vollständig abbricht. Muss größer als `ttt_uav_link_degradeDistance` sein.
+
+``` c++
+force ttt_uav_link_enable = true; //default: false
+force ttt_uav_link_degradeDistance = 500; //default: 800
+force ttt_uav_link_lostDistance = 900; //default: 1200
+```
+
+
 
 ## Maintainer
 
