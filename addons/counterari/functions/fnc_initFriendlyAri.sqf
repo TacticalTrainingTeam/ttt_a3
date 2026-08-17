@@ -24,11 +24,15 @@
 
 params [
     ["_logic", objNull, [objNull]],
-    ["_units", [], [[]]],
+    "", // "_units": unused, see note below - synchronizedObjects is used directly instead
     ["_activated", true, [true]]
 ];
 
-private _artyUnits = _units select {!(_x isKindOf "Logic")};
+// Resolved from synchronizedObjects directly instead of the module framework's "_units" argument:
+// that argument only ever contains real units/vehicles, not other synced modules (Logic class),
+// which is what we need below to find the paired enemy artillery module.
+private _syncedObjects = synchronizedObjects _logic;
+private _artyUnits = _syncedObjects select {!(_x isKindOf "Logic")};
 
 // Always clear a previously added EH first, so re-activation/re-sync never stacks duplicate EHs
 {
@@ -41,7 +45,7 @@ private _artyUnits = _units select {!(_x isKindOf "Logic")};
 } forEach _artyUnits;
 
 if (_activated) then {
-    private _enemyModules = _units select {typeOf _x == QGVAR(registerEnemyAriModule)};
+    private _enemyModules = _syncedObjects select {typeOf _x == QGVAR(registerEnemyAriModule)};
 
     private _enemyArtyArray = [];
     {
@@ -69,7 +73,7 @@ if (_activated) then {
 
             _config params ["_enemyArtyArray", "_radius", "_rounds", "_decrementing", "_delay"];
 
-            [QGVAR(counterFire), [_unit, _magazine, _enemyArtyArray, _radius, _rounds, _decrementing, _delay, []]] call CBA_fnc_serverEvent;
+            [QGVAR(counterFire), [_unit, _magazine, _enemyArtyArray, _radius, _rounds, _decrementing, _delay]] call CBA_fnc_serverEvent;
         }];
 
         _x setVariable [QGVAR(firedEHId), _ehId];

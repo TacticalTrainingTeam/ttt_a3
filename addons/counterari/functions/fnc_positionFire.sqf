@@ -11,11 +11,11 @@
 * Yes (Blacklist enemy arti crew)
 *
 * Arguments:
-* 0: <OBJECT>	trigger
-* 1: <INTEGER>	radius
-* 2: <INTEGER>	rounds for counterfire
-* 3: <BOOL>		true if you want a decrementing radius, otherwise false
-* 4: <ARRAY>	enemy artillery variable names
+* 0: <OBJECT>    trigger
+* 1: <INTEGER>    radius
+* 2: <INTEGER>    rounds for counterfire
+* 3: <BOOL>        true if you want a decrementing radius, otherwise false
+* 4: <ARRAY>    enemy artillery variable names
 *
 * Return Value:
 * <BOOL> true if executed
@@ -34,75 +34,23 @@ if (!isServer) exitWith {false};
 params ["_artiTarget","_radius","_rounds","_decrementRadius","_enemyArtyArray"];
 
 //Exit if there are no guns anymore
-if (_enemyArtyArray isEqualTo []) exitWith {false};
+if (_enemyArtyArray isEqualTo []) exitWith {WARNING_1("No artillery left to fire at %1",_artiTarget); false};
 
 //Skip if this specific group of guns is still resolving an earlier fire mission
-if ({_x getVariable [QGVAR(busy), false]} count _enemyArtyArray > 0) exitWith {false};
+if ({_x getVariable [QGVAR(busy), false]} count _enemyArtyArray > 0) exitWith {WARNING_1("Artillery synced to fire at %1 is still busy with a previous fire mission",_artiTarget); false};
 
 private _ammo = "";
 //Get enemy ari ammo
 {
-	if (alive _x) exitWith
-	{
-		_ammo = getArtilleryAmmo [_x] select 0;
-	};
+    if (alive _x) exitWith
+    {
+        _ammo = getArtilleryAmmo [_x] select 0;
+    };
 } forEach _enemyArtyArray;
 
 //Check for range
-if !((getPos _artiTarget) inRangeOfArtillery [_enemyArtyArray, _ammo]) exitWith {false};
+if !((getPos _artiTarget) inRangeOfArtillery [_enemyArtyArray, _ammo]) exitWith {WARNING_1("%1 is out of the synced artillery's firing range",_artiTarget); false};
 
 {_x setVariable [QGVAR(busy), true];} forEach _enemyArtyArray;
 
-//Get trigger position
-private _centerPos = getPos _artiTarget;
-
-//Shared shot counter for this mission, mutated in place instead of a global variable so
-//concurrent missions for other pairs never see each other's shots
-private _shotsFired = [0];
-private _allShots = 0;
-
-{
-	//Only run if artillery is alive and has crew
-	if ((alive _x) and ({alive _x} count crew _x > 0)) then
-	{
-		_allShots = _allShots + _rounds;
-
-		//Get the right ammo, ever artillery should have HE at first magazine
-		//Doesent work for mortar with ACE
-		private _ammoClass = getArtilleryAmmo [_x] select 0;
-
-		//Call the firemission function random delayed for each Arty via CBA
-		[
-			{
-				params ["_arty","_centerPos","_radius","_ammo","_rounds","_decrementRadius","_shotsFired"];
-				[_arty,_centerPos,_radius,_ammo,_rounds,_decrementRadius,_shotsFired] call FUNC(fireMission);
-			},
-			[_x,_centerPos,_radius,_ammoClass,_rounds,_decrementRadius,_shotsFired],
-			random 2
-		] call CBA_fnc_waitAndExecute;
-	};
-} forEach _enemyArtyArray;
-
-if (_allShots == 0) exitWith
-{
-	{_x setVariable [QGVAR(busy), false];} forEach _enemyArtyArray;
-	false
-};
-
-//Wait for all rounds to be shot, than reset ammo and release the group for its next mission
-[
-	{
-		params ["_shotsFired","_allShots"];
-		(_shotsFired select 0) >= _allShots
-	},
-	{
-		params ["","","_enemyArtyArray"];
-		//reset ammo
-		{_x setVehicleAmmo 1;} forEach _enemyArtyArray;
-
-		{_x setVariable [QGVAR(busy), false];} forEach _enemyArtyArray;
-	},
-	[_shotsFired,_allShots,_enemyArtyArray]
-] call CBA_fnc_waitUntilAndExecute;
-
-true
+[getPos _artiTarget, _radius, _rounds, _decrementRadius, _enemyArtyArray] call FUNC(executeFireMission)

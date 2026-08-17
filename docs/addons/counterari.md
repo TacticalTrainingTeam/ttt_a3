@@ -33,8 +33,7 @@ vehicle addEventhandler ["Fired", {
             radius,
             shots,
             decrementing,
-            delay,
-            enemyRadars
+            delay
         ]
     ] call CBA_fnc_serverEvent
 }];

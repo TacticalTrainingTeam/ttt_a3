@@ -21,12 +21,12 @@
 
 params [
     ["_logic", objNull, [objNull]],
-    ["_units", [], [[]]],
+    "", // "_units": unused, synchronizedObjects is used directly instead (see fnc_initFriendlyAri.sqf)
     ["_activated", true, [true]]
 ];
 
 if (_activated) then {
-    private _artyCount = {!(_x isKindOf "Logic")} count _units;
+    private _artyCount = {!(_x isKindOf "Logic")} count (synchronizedObjects _logic);
 
     if (_artyCount == 0) then {
         WARNING_1("Enemy artillery module %1 has no artillery pieces synced to it",_logic);
