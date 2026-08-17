@@ -17,7 +17,7 @@
 * Public: No
 */
 
-if (isDedicated || !hasInterface || !((_this select 0) isNil "ttt_effects_breathParticle")) exitWith {};
+if (isDedicated || !hasInterface || !((_this select 0) isNil QGVAR(breathParticle))) exitWith {};
 
 params ["_unit"];
 
@@ -38,6 +38,6 @@ _breathParticle setParticleRandom [0.5, [0, 0, 0], [0, 0.1, 0.1], 0, 0.25, [0, 0
 _breathParticle setDropInterval (3 + random 1.5);
 _breathParticle attachTo [_unit, [0,0.14,0.01], "neck", true];												// get fog to come out of player mouth
 
-_unit setVariable ["ttt_effects_breathParticle", _breathParticle, false];
+_unit setVariable [QGVAR(breathParticle), _breathParticle, false];
 
   _breathParticle
