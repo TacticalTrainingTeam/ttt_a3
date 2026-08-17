@@ -26,7 +26,7 @@ INFO("Checking for Respawn");
 if (getMarkerColor "respawn" == "") then {
     INFO("No Respawn found, creating");
     ttt_respawn_pos = [0, 0, 0];
-    _markerrespawn = createMarkerLocal ["respawn", ttt_respawn_pos];
+    private _markerrespawn = createMarkerLocal ["respawn", ttt_respawn_pos];
     _markerrespawn setMarkerShapeLocal "RECTANGLE";
     _markerrespawn setMarkerSize [10, 10];
 };

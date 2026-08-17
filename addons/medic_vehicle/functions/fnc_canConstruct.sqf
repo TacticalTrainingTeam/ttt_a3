@@ -22,4 +22,4 @@ if (
     _return = true;
 };
 
-_return;
+  _return
