@@ -1,6 +1,6 @@
 #include "..\script_component.hpp"
 /*
-* Author: EinStein
+* Author: EinStein, Andx
 *
 * Arguments:
 * None
@@ -14,34 +14,25 @@
 * Public: No
 */
 
-{
-    [_x, 0, ["ACE_MainActions", "ttt_repair_vehicle_constuct"]] call ace_interact_menu_fnc_removeActionFromClass;
-} forEach (parseSimpleArray GVAR(supportedVehicles));
+private _context = createHashMapFromArray [
+    ["varPrefix", "ttt_repair_vehicle"],
+    ["enable", GVAR(enable)],
+    ["supportedVehicles", parseSimpleArray GVAR(supportedVehicles)],
+    ["facilityObject", GVAR(facilityObject)],
+    ["buildTime", GVAR(buildTime)],
+    ["useAnimation", GVAR(useAnimation)],
+    ["buildAnimation", GVAR(buildAnimation)],
+    ["facilityMarkerVar", "ACE_isRepairFacility"],
+    ["actionIdConstruct", QGVAR(construct)],
+    ["actionIdDeconstruct", QGVAR(deconstruct)],
+    ["strings", createHashMapFromArray [
+        ["actionConstruct", LLSTRING(actionConstruct)],
+        ["actionDeconstruct", LLSTRING(actionDeconstruct)],
+        ["abort", LLSTRING(abort)],
+        ["hintErrorNoSpace", LLSTRING(hintErrorNoSpace)],
+        ["hintLoaded", LLSTRING(hintLoaded)]
+    ]]
+    // No extraConstructFx: the repair workshop doesn't need any extra animation/setup on construction.
+];
 
-[GVAR(facilityObject), 0, ["ACE_MainActions", "ttt_repair_vehicle_deconstuct"]] call ace_interact_menu_fnc_removeActionFromClass;
-
-if (!GVAR(enable)) exitWith {};
-
-private _constructWorkshop =
-[
-    "ttt_repair_vehicle_constuct",
-    LLSTRING(actionConstruct),
-    "\a3\ui_f\data\IGUI\Cfg\simpleTasks\types\use_ca.paa",
-    {[_this] call FUNC(progressbarConstruct)},
-    {[_this] call FUNC(canConstruct)}
-] call ace_interact_menu_fnc_createAction;
-
-private _deconstructWorkshop =
-[
-    "ttt_repair_vehicle_deconstuct",
-    LLSTRING(actionDeconstruct),
-    "\a3\ui_f\data\IGUI\Cfg\simpleTasks\types\truck_ca.paa",
-    {[_this] call FUNC(progressbarDeconstruct)},
-    {[_this] call FUNC(canDeconstruct)}
-] call ace_interact_menu_fnc_createAction;
-
-{
-    [_x, 0, ["ACE_MainActions"], _constructWorkshop] call ace_interact_menu_fnc_AddActionToClass;
-} forEach (parseSimpleArray GVAR(supportedVehicles));
-
-[GVAR(facilityObject), 0, ["ACE_MainActions"], _deconstructWorkshop] call ace_interact_menu_fnc_AddActionToClass;
+[_context] call EFUNC(facility_construction,addActions);
