@@ -16,6 +16,8 @@
 
 private _context = createHashMapFromArray [
     ["varPrefix", "ttt_repair_vehicle"],
+    // Pre-refactor variable name, still honored on a vehicle's first check (see fnc_canConstruct.sqf).
+    ["legacyHasFacilityVar", "ttt_repair_vehicle_hasWorkshop"],
     ["enable", GVAR(enable)],
     ["supportedVehicles", parseSimpleArray GVAR(supportedVehicles)],
     ["facilityObject", GVAR(facilityObject)],
