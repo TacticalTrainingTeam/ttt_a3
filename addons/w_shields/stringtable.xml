@@ -65,17 +65,9 @@
             <English>Buildingshield added.</English>
             <German>Buildingshield hinzugefügt.</German>
         </Key>
-        <Key ID="STR_ttt_W_Shields_hintBuildingShieldRemoved">
-            <English>Buildingshield removed.</English>
-            <German>Buildingshield entfernt.</German>
-        </Key>
         <Key ID="STR_ttt_W_Shields_hintVehicleShieldAdded">
             <English>Vehicleshield added.</English>
             <German>Vehicleshield hinzugefügt.</German>
-        </Key>
-        <Key ID="STR_ttt_W_Shields_hintVehicleShieldRemoved">
-            <English>Vehicleshield removed.</English>
-            <German>Vehicleshield entfernt.</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_popWindowsAttribute_displayName">
             <English>Break windows</English>
