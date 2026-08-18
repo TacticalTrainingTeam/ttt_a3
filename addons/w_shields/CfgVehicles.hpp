@@ -4,6 +4,7 @@ class CfgVehicles {
     class Module_F: Logic {
         class AttributesBase {
             class Edit;
+            class Combo;
             class Checkbox;
         };
 
@@ -45,6 +46,53 @@ class CfgVehicles {
                 tooltip = CSTRING(buildingShieldModule_windowpop_tooltip);
                 expression = "_this setVariable ['#windowpop',_value]";
                 defaultValue = "false";
+            };
+            class GVAR(door1): Combo {
+                property = "#door1";
+                displayName = "Door 1";
+                tooltip = CSTRING(buildingShieldModule_doorState_tooltip);
+                expression = "_this setVariable ['#door1',_value]";
+                defaultValue = "0";
+                class Values {
+                    class Closed { name = CSTRING(buildingShieldModule_doorState_closed); value = 0; };
+                    class Locked { name = CSTRING(buildingShieldModule_doorState_locked); value = 1; };
+                    class Open   { name = CSTRING(buildingShieldModule_doorState_open);   value = 2; };
+                };
+            };
+            class GVAR(door2): GVAR(door1) {
+                property = "#door2";
+                displayName = "Door 2";
+                expression = "_this setVariable ['#door2',_value]";
+            };
+            class GVAR(door3): GVAR(door1) {
+                property = "#door3";
+                displayName = "Door 3";
+                expression = "_this setVariable ['#door3',_value]";
+            };
+            class GVAR(door4): GVAR(door1) {
+                property = "#door4";
+                displayName = "Door 4";
+                expression = "_this setVariable ['#door4',_value]";
+            };
+            class GVAR(door5): GVAR(door1) {
+                property = "#door5";
+                displayName = "Door 5";
+                expression = "_this setVariable ['#door5',_value]";
+            };
+            class GVAR(door6): GVAR(door1) {
+                property = "#door6";
+                displayName = "Door 6";
+                expression = "_this setVariable ['#door6',_value]";
+            };
+            class GVAR(door7): GVAR(door1) {
+                property = "#door7";
+                displayName = "Door 7";
+                expression = "_this setVariable ['#door7',_value]";
+            };
+            class GVAR(door8): GVAR(door1) {
+                property = "#door8";
+                displayName = "Door 8";
+                expression = "_this setVariable ['#door8',_value]";
             };
         };
 

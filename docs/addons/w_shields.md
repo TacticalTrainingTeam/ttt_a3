@@ -6,13 +6,15 @@ Macht ein Gebäude unzerstörbar, aber die Fenster-Scheiben können weiterhin ze
 
 ### Benutzung: 3DEN-Modul
 
-Um bereits auf der Karte befindliche Gebäude unzerstörbar zu machen, platziert im Editor unter `Module` - `W-Framework` - `Building Shield` ein Modul auf das Gebäude. Das Modul schnappt automatisch zum nächsten Gebäude. Die Fenster des Gebäudes sind dabei aber weiterhin zerstörbar.
+Das Modul ist ausschließlich für Gebäude gedacht, die bereits Teil der Karte selbst sind (also keine im Editor platzierten Objekte) - diese lassen sich nicht direkt auswählen, weshalb es das Modul zum "Anzapfen" braucht. Platziert dazu im Editor unter `Module` - `W-Framework` - `Building Shield` ein Modul auf das gewünschte Gebäude; es schnappt automatisch zum nächstgelegenen Gebäude. Das Modul wirkt nur im 3DEN-Editor zur Design-Zeit, hat mit Zeus nichts zu tun und löscht sich selbst, sobald seine Einstellungen beim Missionsstart einmalig auf das Gebäude angewendet wurden.
 
 In den Attributen des Moduls kann das Schild eingeschalten werden und alle Fenster des Gebäudes kaputt gemacht werden. Außerdem kann, wie im `EditTerrainObject` Modul von Bohemia, ein Variablenname für das Gebäude vergeben werden.
 
+Zusätzlich stehen bis zu 8 Dropdown-Attribute (`Door 1` bis `Door 8`) zur Verfügung, mit denen sich der Zustand der einzelnen Türen des Gebäudes einzeln auf `Geschlossen`, `Verriegelt` oder `Offen` setzen lässt (Standard: `Geschlossen`). Hat das Gebäude weniger Türen, bleiben die überzähligen Dropdowns wirkungslos. Wird das Schild über das 3DEN-Attribut des Gebäudes wieder entfernt, werden alle so gesetzten Türen wieder auf `Geschlossen` zurückgesetzt.
+
 ### Benutzung: 3DEN-Attribut
 
-Bei selbst platzierten Gebäuden findet ihr die Option um das Schild zu aktivieren in den Attributen des Gebäudes im Abschnitt `W-Framework`. Dort können ebenso die Fenster zerstört werden. Wird das Häkchen wieder entfernt, wird das Schild ebenfalls wieder entfernt (bereits zerstörte Fenster bleiben zerstört).
+Für Gebäude, die ihr selbst im Editor platziert habt (also eigene Objekte, keine Teile der Karte), findet ihr die Option um das Schild zu aktivieren direkt in den Attributen des Gebäudes im Abschnitt `W-Framework` - ein separates Modul ist hier nicht nötig. Dort können ebenso die Fenster zerstört werden. Auch dieser Weg wirkt nur im 3DEN-Editor und hat mit Zeus nichts zu tun. Wird das Häkchen wieder entfernt, wird das Schild ebenfalls wieder entfernt (bereits zerstörte Fenster bleiben zerstört).
 
 !["3DEN-Editor-Attribute mit den Optionen für das Building-Shield"](https://i.imgur.com/Iw1i6Ou.jpeg)
 

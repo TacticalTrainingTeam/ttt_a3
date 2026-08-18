@@ -21,6 +21,22 @@
             <English>Building Shield</English>
             <German>Building Shield</German>
         </Key>
+        <Key ID="STR_ttt_W_Shields_buildingShieldModule_doorState_closed">
+            <English>Closed</English>
+            <German>Geschlossen</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_buildingShieldModule_doorState_locked">
+            <English>Locked</English>
+            <German>Verriegelt</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_buildingShieldModule_doorState_open">
+            <English>Open</English>
+            <German>Offen</German>
+        </Key>
+        <Key ID="STR_ttt_W_Shields_buildingShieldModule_doorState_tooltip">
+            <English>State of this door, if the building has one.</English>
+            <German>Zustand dieser Tür, falls das Gebäude eine besitzt.</German>
+        </Key>
         <Key ID="STR_ttt_W_Shields_buildingShieldModule_shield_displayName">
             <English>Building Shield</English>
             <German>Building Shield</German>
