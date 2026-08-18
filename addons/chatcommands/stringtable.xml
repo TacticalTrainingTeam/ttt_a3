@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Chatcommands">
+        <Key ID="STR_ttt_Chatcommands_zenGiveZeus">
+            <English>Promote to Zeus</English>
+            <German>Zu Zeus befördern</German>
+        </Key>
+        <Key ID="STR_ttt_Chatcommands_zenGiveZeusNoTarget">
+            <English>[Zeus] No player under cursor.</English>
+            <German>[Zeus] Kein Spieler unter dem Cursor.</German>
+        </Key>
+        <Key ID="STR_ttt_Chatcommands_zenGiveZeusRequested">
+            <English>[Zeus] Promoting %1...</English>
+            <German>[Zeus] %1 wird befördert...</German>
+        </Key>
+    </Package>
+</Project>

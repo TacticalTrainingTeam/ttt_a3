@@ -5,6 +5,7 @@ PREP(crateFiller);
 PREP(createPlayerMarker);
 PREP(doFlakFire);
 PREP(getAllItems);
+PREP(giveZeus);
 PREP(join);
 PREP(noApiFunction);
 PREP(setAISkill);
