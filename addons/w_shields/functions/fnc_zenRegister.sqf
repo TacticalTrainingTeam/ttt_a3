@@ -31,6 +31,8 @@ private _vehicleShield = [
     {
         params ["", "", "", "", "", "_hoveredEntity"];
         [QGVAR(addVehicleShield), [_hoveredEntity]] call CBA_fnc_globalEventJIP;
+        //Shown locally, not from the broadcasted event - ace_zeus_fnc_showMessage only renders on the machine with the curator display open
+        [LLSTRING(hintVehicleShieldAdded)] call ace_zeus_fnc_showMessage;
     },
     {
         params ["", "", "", "", "", "_hoveredEntity"];
@@ -51,6 +53,8 @@ private _buildingShield = [
     {
         params ["", "", "", "", "", "_hoveredEntity"];
         [QGVAR(addBuildingShield), [_hoveredEntity]] call CBA_fnc_serverEvent;
+        //Shown locally, not from the broadcasted event - ace_zeus_fnc_showMessage only renders on the machine with the curator display open
+        [LLSTRING(hintBuildingShieldAdded)] call ace_zeus_fnc_showMessage;
     },
     {
         params ["", "", "", "", "", "_hoveredEntity"];

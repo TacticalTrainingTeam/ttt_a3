@@ -67,8 +67,6 @@ class CfgVehicles {
     };
 
     //Vehicleshield
-    //class CBA_Extended_EventHandlers_base;
-
     class GVAR(moduleBase): Module_F {
         author = "Gruppe W";
         category = "Framework";

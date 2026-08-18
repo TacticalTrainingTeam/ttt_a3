@@ -16,6 +16,12 @@
  * 3 (Optional):
  *      BOOLEAN - If the hull damage is capped, kill the engine?
  *      Default: true
+ * 4 (Optional):
+ *      BOOLEAN - Remove any pre-existing HandleDamage handlers on the target first?
+ *      Mods like ACE's Advanced Vehicle Damage (ace_vehicle_damage) attach their own HandleDamage handler
+ *      to Tanks/APCs and, left in place, destroy the vehicle via their own damage model regardless of our
+ *      hithull cap. Pruning first guarantees ours is the only (and therefore last) handler.
+ *      Default: true
  *
  * Return Value:
  * None
@@ -29,16 +35,14 @@ params [
     [ "_target",            objNull,        [objNull]   ],
     [ "_preventFuelDrain",  false,          [true]      ],
     [ "_rotors",            [true, true],   [[]]        ],
-    [ "_killEngine",        true,           [true]      ]
+    [ "_killEngine",        true,           [true]      ],
+    [ "_prune",             true,           [true]      ]
 ];
 
 _rotors params [
     [ "_preventHRotorKill",   true,          [true]      ],
     [ "_preventVRotorKill",   true,          [true]      ]
 ];
-
-//Guard against being called more than once for the same target (editor checkbox, Zeus module and ZEN context menu all funnel here) - a second HandleDamage EH would double-count every hit
-if (isNull _target || {_target getVariable [QGVAR(hasVHS), false]}) exitWith {};
 
 _target setVariable [QGVAR(hasVHS), true, true];
 _target setVariable [QGVAR(preventFuelDrain), _preventFuelDrain];
@@ -78,6 +82,9 @@ private _allRegHPs = [];
 _target setVariable [QGVAR(allRegHP), _allRegHPs, true];
 _target setVariable [QGVAR(allCritHP), _allCritHPs, true];
 _target setVariable [QGVAR(hitHash), createHashMap, true];
+
+//Strip competing HandleDamage handlers (eg. ace_vehicle_damage) so ours ends up as the sole/last one - see param 4 above
+if (_prune) then {_target removeAllEventHandlers "HandleDamage";};
 
 //Add the HandleDamage Eventhandler
 INFO_2("Init GrpW VHS für Fahrzeug %1 | Typ %2",_target,typeOf _target);

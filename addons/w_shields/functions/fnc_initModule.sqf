@@ -1,4 +1,4 @@
-#include "..\script_component.hpp"
+#include "../script_component.hpp"
 /*
  * Author: mharis001
  * Initializes modules created by Zeus. Simplified to only execute function where local.
@@ -11,7 +11,7 @@
  * None
  *
  * Example:
- * [LOGIC] call ttt_shields_fnc_initModule
+ * [LOGIC] call ttt_w_shields_fnc_initModule
  *
  * Public: No
  */

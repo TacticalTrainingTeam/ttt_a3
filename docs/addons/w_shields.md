@@ -56,6 +56,7 @@ Argumente:
 | 1 | Verhindere Treibstoffverlust durch Schaden?                   | BOOLEAN | Ja       | `false`         |
 | 2 | Verhindere das Haupt- bzw. Heckrotor zerstört wird?           | BOOLEAN | Ja       | `[true, true]`  |
 | 3 | Zerstöre den Motor wenn der Hüllenschaden ausgeschöpft ist?   | BOOLEAN | Ja       | `true`          |
+| 4 | HandleDamage-Handler anderer Mods zuerst entfernen? (z.B. ACE)| BOOLEAN | Ja       | `true`          |
 
 Rückgabe-Wert:
 
