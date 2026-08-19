@@ -7,12 +7,17 @@ class Cfg3DEN {
 
                 class Attributes {
                     class GVAR(addVehicleShield) {
-                        displayName = "VehicleShield"; //ToDo Localize
-                        tooltip = "Fügt dem Fahrzeug das VehicleShield aus dem Gruppe W Framework hinzu."; //ToDo Localize
+                        displayName = CSTRING(vehicleShieldAttribute_displayName);
+                        tooltip = CSTRING(vehicleShieldAttribute_tooltip);
                         property = QGVAR(addVehicleShield);
                         control = "Checkbox";
 
-                        expression = QUOTE([ARR_2([ARR_4(_this,false,[ARR_2(true,true)],true)],FUNC(addVehicleShield))] call EFUNC(common,callGlobalFnc));
+                        expression = QUOTE(
+                            if (_value) then {
+                                [ARR_2([ARR_4(_this,false,[ARR_2(true,true)],true)],FUNC(addVehicleShield))] call EFUNC(common,callGlobalFnc);
+                            } else {
+                                [ARR_2([_this],FUNC(removeVehicleShield))] call EFUNC(common,callGlobalFnc);
+                            });
                         defaultValue = 0;
 
                         unique = 0;
@@ -20,12 +25,17 @@ class Cfg3DEN {
                         typeName = "BOOL";
                     };
                     class GVAR(addBuildingShield) {
-                        displayName = "BuildingShield"; //ToDo Localize
-                        tooltip = "Fügt dem Objekt das BuildingShield aus dem Gruppe W Framework hinzu."; //ToDo Localize
+                        displayName = CSTRING(buildingShieldAttribute_displayName);
+                        tooltip = CSTRING(buildingShieldAttribute_tooltip);
                         property = QGVAR(addBuildingShield);
                         control = "Checkbox";
 
-                        expression = QUOTE([_this] call FUNCMAIN(buildingShield););
+                        expression = QUOTE(
+                            if (_value) then {
+                                [_this] call FUNC(buildingShield);
+                            } else {
+                                [_this] call FUNC(removeBuildingShield);
+                            });
                         defaultValue = 0;
 
                         unique = 0;
@@ -33,12 +43,12 @@ class Cfg3DEN {
                         typeName = "BOOL";
                     };
                     class GVAR(popWindows) {
-                        displayName = "Fenster entglasen"; //ToDo Localize
-                        tooltip = "Zerstört alle Fenster im Gebäude."; //ToDo Localize
+                        displayName = CSTRING(popWindowsAttribute_displayName);
+                        tooltip = CSTRING(popWindowsAttribute_tooltip);
                         property = QGVAR(windowpop);
                         control = "Checkbox";
 
-                        expression = QUOTE([_this] call FUNCMAIN(removeWindowGlass););
+                        expression = QUOTE([_this] call FUNC(removeWindowGlass););
                         defaultValue = 0;
 
                         unique = 0;

@@ -1,8 +1,12 @@
 PREP(addVehicleShield);
 PREP(applyVehDamage);
-PREP(handleVehDamage);
-PREP(module_addVHS);
-
 PREP(buildingShield);
-PREP(removeWindowGlass);
+PREP(handleVehDamage);
+PREP(initModule);
 PREP(moduleBuildingShield);
+PREP(module_addVHS);
+PREP(removeBuildingShield);
+PREP(removeVehicleShield);
+PREP(removeWindowGlass);
+PREP(setBuildingDoorStates);
+PREP(zenRegister);
