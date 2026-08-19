@@ -2,8 +2,8 @@
 <Project name="ttt">
     <Package name="Counterari">
         <Key ID="STR_ttt_Counterari_registerEnemyAriModule_description">
-            <English>Synchronized Objects are added to the pool of enemy artillery that will fire on friendly artillery. There can only be one module.</English>
-            <German>Synchronisierte Objekte werden der Gruppe feindlicher Artillery hinzugefügt, welche auf freundliches Artilleriefreuer feuert. Es kann nur ein Modul geben.</German>
+            <English>Synchronized Objects form one enemy artillery group. Sync this module to a "Counterbattery - Friendly Artillery" module to let this group fire back at it. Multiple pairs of modules can be placed to create several independent counter-battery groups.</English>
+            <German>Synchronisierte Objekte bilden eine feindliche Artilleriegruppe. Synchronisiere dieses Modul mit einem Modul "Konterartillerie - Freundl. Artillerie", damit diese Gruppe darauf zurückfeuert. Es können mehrere Modulpaare platziert werden, um mehrere unabhängige Konterartillerie-Gruppen zu erstellen.</German>
         </Key>
         <Key ID="STR_ttt_Counterari_registerEnemyAriModule_displayName">
             <English>Counterbattery - Enemy Artillery</English>
@@ -26,8 +26,8 @@
             <German>Nach wie vielen Sekunden, gestartet nach dem erstem eigenem Schuss, soll die Konterartillerie ihr Feuer beginnen.</German>
         </Key>
         <Key ID="STR_ttt_Counterari_registerFriendlyAriModule_description">
-            <English>Synchronized Objects will receive counter fire. There can only be one module.</English>
-            <German>Synchronisierte Objekte werden Konter-Feuer bekommen. Es kann nur ein Modul geben.</German>
+            <English>Synchronized Objects form one friendly artillery group that will receive counter fire. Also sync this module to a "Counterbattery - Enemy Artillery" module to define which enemy group fires back. Multiple pairs of modules can be placed to create several independent counter-battery groups.</English>
+            <German>Synchronisierte Objekte bilden eine freundliche Artilleriegruppe, die Konter-Feuer bekommt. Synchronisiere dieses Modul zusätzlich mit einem Modul "Konterartillerie - Feindl. Artillerie", um festzulegen, welche feindliche Gruppe zurückfeuert. Es können mehrere Modulpaare platziert werden, um mehrere unabhängige Konterartillerie-Gruppen zu erstellen.</German>
         </Key>
         <Key ID="STR_ttt_Counterari_registerFriendlyAriModule_displayName">
             <English>Counterbattery - Friendly Artillery</English>
