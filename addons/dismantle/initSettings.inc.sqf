@@ -16,7 +16,7 @@
     ["[]"],
     true,
     {[] call FUNC(addActions);},
-    true
+    false
 ] call CBA_fnc_addSetting;
 
 [
@@ -27,7 +27,7 @@
     [''],
     true,
     {[] call FUNC(addActions);},
-    true
+    false
 ] call CBA_fnc_addSetting;
 
 [
@@ -38,5 +38,5 @@
     [[0, 1, 2], ["STR_ACE_Repair_AssignEngineerRole_role_none", "STR_ACE_Repair_AssignEngineerRole_role_engineer", "STR_ACE_Repair_AssignEngineerRole_role_advanced"], 1],
     true,
     {[] call FUNC(addActions);},
-    true
+    false
 ] call CBA_fnc_addSetting;
