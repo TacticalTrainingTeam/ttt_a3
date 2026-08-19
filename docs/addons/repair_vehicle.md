@@ -5,12 +5,14 @@ Dies ist dann eine Reparatur-Einrichtung ("ACE_isRepairFacility").
 Jedes zugelassene Fahrzeug, welches derzeit keine Einrichtung transportiert, kann diese dann aufnehmen indem an der Einrichtung die ACE-Fremdinteraktion zum aufladen verwendet wird.
 
 !!! info
-    Jedes zugelassene Fahrzeug hat standardmäßig eine Einrichtung geladen. Sollte dies nicht gewünscht sein, muss auf dem Fahrzeug die Variable `ttt_repair_vehicle_hasWorkshop` auf `false` gesetzt werden.
+    Jedes zugelassene Fahrzeug hat standardmäßig eine Einrichtung geladen. Sollte dies nicht gewünscht sein, muss auf dem Fahrzeug die Variable `ttt_repair_vehicle_hasFacility` auf `false` gesetzt werden.
     Am einfachsten passiert das in der Init des Objekts mittels:
 
     ``` c++
-    this setVariable ["ttt_repair_vehicle_hasWorkshop", false, true];
+    this setVariable ["ttt_repair_vehicle_hasFacility", false, true];
     ```
+
+    Der alte Variablenname `ttt_repair_vehicle_hasWorkshop` funktioniert zur Abwärtskompatibilität weiterhin, sollte in neuen Missionen aber nicht mehr verwendet werden.
 
 ## CBA-Einstellungen
 
