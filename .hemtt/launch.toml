@@ -143,3 +143,9 @@ extends = "default"
 workshop = [
     "3507091121" # TTT Partnermod
 ]
+
+[ctab]
+extends = "default"
+workshop = [
+    "3438246217" # cTab
+]
