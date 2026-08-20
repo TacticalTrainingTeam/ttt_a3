@@ -7,3 +7,4 @@ hemtt.exe
 /releases/*
 .cache/
 .hemttprivatekey
+.claude
