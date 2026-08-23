@@ -16,7 +16,7 @@
 params ["_target", "_caller"];
 
 private _arrayVehicles = nearestObjects [(getPos _target), (parseSimpleArray GVAR(supportedVehicles)), 15];
-private "_vehicle";
+
 private _ArrayVehicle = [];
 {
     if (!(_x getVariable ["ttt_medic_vehicle_hasTent", true])) then {
@@ -24,7 +24,7 @@ private _ArrayVehicle = [];
     };
 } forEach _arrayVehicles;
 
-_vehicle = _ArrayVehicle select 0;
+private _vehicle = _ArrayVehicle select 0;
 
 [
     [
