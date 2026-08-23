@@ -39,7 +39,7 @@ INFO("Checking for ttt_teleport_teleporter");
 
 if (isNil QGVAR(teleporter)) then {
     INFO("No ttt_teleport_teleporter found, creating");
-    GVAR(teleporter) = "ttt_Flag_Logo" createVehicleLocal [0,0,0]; //its faster to create it far away from anyone
+    GVAR(teleporter) = "ttt_signs_Flag_Logo" createVehicleLocal [0,0,0]; //its faster to create it far away from anyone
     GVAR(teleporter) setPosATL ttt_respawn_pos; //and then move it to its intended position
     GVAR(teleporter) allowDamage false;
 };
