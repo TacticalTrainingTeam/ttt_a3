@@ -3,9 +3,7 @@
 * Author: EinStein, Andx
 *
 * Arguments:
-* 0: Facility or Player <OBJECT>
-* 1: Player <OBJECT>
-* 2: Arguments <ARRAY>
+* 0: Player <OBJECT>
 *
 * Return Value:
 * None

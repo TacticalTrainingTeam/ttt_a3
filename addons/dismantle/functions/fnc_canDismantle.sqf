@@ -1,4 +1,17 @@
 #include "..\script_component.hpp"
+/*
+* Author: EinStein, Andx
+*
+* Arguments:
+* 0: Target Object <OBJECT>
+* 1: Player <OBJECT>
+* 2: Arguments <ARRAY>
+*
+* Return Value:
+* Can dismantle <BOOL>
+*
+* Public: No
+*/
 
 (_this select 0) params ["","_caller"];
 
