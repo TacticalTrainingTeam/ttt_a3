@@ -46,8 +46,8 @@
             <German>Ein Admin hat deine Ausrüstung auf die Start-Ausrüstung zurückgesetzt.</German>
         </Key>
         <Key ID="STR_ttt_Mpls_zenRevertLoadout">
-            <English>Revert to Initial Loadout</English>
-            <German>Start-Ausrüstung wiederherstellen</German>
+            <English>TTT - Revert to Initial Loadout</English>
+            <German>TTT - Start-Ausrüstung wiederherstellen</German>
         </Key>
         <Key ID="STR_ttt_Mpls_zenRevertNoTarget">
             <English>[MPLS] No player under cursor.</English>
