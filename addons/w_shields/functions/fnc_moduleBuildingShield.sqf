@@ -81,7 +81,7 @@ switch _mode do
 
             private _pop = _module getVariable ["#windowpop",false];
             if (_pop) then {
-                [_building] call FUNC(removeWindowGlass);
+                [_building] call FUNC(setWindowGlass);
             };
 
             //apply per-door states (closed/locked/open) for however many doors the building actually has, capped at the 8 exposed slots

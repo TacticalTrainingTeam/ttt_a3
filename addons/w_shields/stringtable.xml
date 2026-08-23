@@ -90,8 +90,8 @@
             <German>Fenster entglasen</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_popWindowsAttribute_tooltip">
-            <English>Destroys all windows in the building.</English>
-            <German>Zerstört alle Fenster im Gebäude.</German>
+            <English>Destroys all windows in the building. Unchecking repairs them again.</English>
+            <German>Zerstört alle Fenster im Gebäude. Wird das Häkchen entfernt, werden sie wieder repariert.</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_vehicleShieldAction_displayName">
             <English>Add Vehicleshield</English>

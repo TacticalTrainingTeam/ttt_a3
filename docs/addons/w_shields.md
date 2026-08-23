@@ -14,7 +14,7 @@ Zusätzlich stehen bis zu 8 Dropdown-Attribute (`Door 1` bis `Door 8`) zur Verf�
 
 ### Benutzung: 3DEN-Attribut
 
-Für Gebäude, die ihr selbst im Editor platziert habt (also eigene Objekte, keine Teile der Karte), findet ihr die Option um das Schild zu aktivieren direkt in den Attributen des Gebäudes im Abschnitt `W-Framework` - ein separates Modul ist hier nicht nötig. Dort können ebenso die Fenster zerstört werden. Auch dieser Weg wirkt nur im 3DEN-Editor und hat mit Zeus nichts zu tun. Wird das Häkchen wieder entfernt, wird das Schild ebenfalls wieder entfernt (bereits zerstörte Fenster bleiben zerstört).
+Für Gebäude, die ihr selbst im Editor platziert habt (also eigene Objekte, keine Teile der Karte), findet ihr die Option um das Schild zu aktivieren direkt in den Attributen des Gebäudes im Abschnitt `W-Framework` - ein separates Modul ist hier nicht nötig. Dort lassen sich über eine eigene Checkbox (`Fenster entglasen`) ebenso die Fenster zerstören - im Gegensatz zum Schild selbst ist das ein echter Umschalter: wird die Checkbox wieder entfernt, werden die Fenster repariert. Auch dieser Weg wirkt nur im 3DEN-Editor und hat mit Zeus nichts zu tun. Wird das Häkchen des Schilds wieder entfernt, wird das Schild ebenfalls wieder entfernt (bereits zerstörte Fenster bleiben davon unberührt).
 
 !["3DEN-Editor-Attribute mit den Optionen für das Building-Shield"](https://i.imgur.com/Iw1i6Ou.jpeg)
 

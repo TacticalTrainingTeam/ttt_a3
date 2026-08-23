@@ -48,7 +48,7 @@ class Cfg3DEN {
                         property = QGVAR(windowpop);
                         control = "Checkbox";
 
-                        expression = QUOTE([_this] call FUNC(removeWindowGlass););
+                        expression = QUOTE(ARR_2(_this,_value) call FUNC(setWindowGlass););
                         defaultValue = 0;
 
                         unique = 0;

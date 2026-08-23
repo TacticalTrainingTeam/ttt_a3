@@ -7,6 +7,6 @@ PREP(moduleBuildingShield);
 PREP(module_addVHS);
 PREP(removeBuildingShield);
 PREP(removeVehicleShield);
-PREP(removeWindowGlass);
 PREP(setBuildingDoorStates);
+PREP(setWindowGlass);
 PREP(zenRegister);
