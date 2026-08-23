@@ -106,8 +106,8 @@
             <German>Fügt dem Fahrzeug das VehicleShield aus dem Gruppe W Framework hinzu.</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_zenCategory_displayName">
-            <English>W-Shields</English>
-            <German>W-Shields</German>
+            <English>TTT - W-Shields</English>
+            <German>TTT - W-Shields</German>
         </Key>
     </Package>
 </Project>
