@@ -1,8 +1,9 @@
 #include "..\script_component.hpp"
 /*
  * Authors: Andx
- * Adds a Zeus Enhanced context menu action to revert a player's loadout to their
- * initially saved one.
+ * Adds a "TTT - MPLS" Zeus Enhanced context menu category with actions to revert a player's
+ * loadout to their initially saved one, and to manually save/restore a separate loadout snapshot
+ * (see fnc_saveLoadoutSnapshot.sqf).
  * https://zen-mod.github.io/ZEN/#/
  *
  * Arguments:
@@ -14,10 +15,26 @@
  * Public: No
  */
 
-private _action = [
+private _icon = "a3\ui_f\data\igui\cfg\actions\gear_ca.paa";
+
+// Prefixed with "TTT - " since this is a top-level entry in ZEN's shared context menu, where
+// every mod's root categories are listed together.
+private _category = [
+    QGVAR(zenCategory),
+    LLSTRING(zenCategory_displayName),
+    _icon,
+    {}
+] call zen_context_menu_fnc_createAction;
+
+private _categoryPath = [_category] call zen_context_menu_fnc_addAction;
+
+// Shared by all three actions below - all target the player under the cursor.
+private _condition = { !isNull _hoveredEntity && {_hoveredEntity isKindOf "CAManBase"} && {getPlayerUID _hoveredEntity != ""} };
+
+private _revertLoadout = [
     QGVAR(zenRevertLoadout),
     LLSTRING(zenRevertLoadout),
-    "a3\ui_f\data\igui\cfg\actions\gear_ca.paa",
+    _icon,
     {
         INFO_1("ZEN revert-loadout action triggered on %1",_hoveredEntity);
         if (getPlayerUID _hoveredEntity != "") then {
@@ -27,7 +44,35 @@ private _action = [
             systemChat LLSTRING(zenRevertNoTarget);
         };
     },
-    { !isNull _hoveredEntity && {_hoveredEntity isKindOf "CAManBase"} && {getPlayerUID _hoveredEntity != ""} }
+    _condition
 ] call zen_context_menu_fnc_createAction;
 
-[_action] call zen_context_menu_fnc_addAction;
+[_revertLoadout, _categoryPath] call zen_context_menu_fnc_addAction;
+
+private _saveSnapshot = [
+    QGVAR(zenSaveSnapshot),
+    LLSTRING(zenSaveSnapshot),
+    _icon,
+    {
+        INFO_1("ZEN save-snapshot action triggered on %1",_hoveredEntity);
+        systemChat format [LLSTRING(zenSnapshotSaveRequested), name _hoveredEntity];
+        [QGVAR(doSaveSnapshot), [_hoveredEntity], _hoveredEntity] call CBA_fnc_targetEvent;
+    },
+    _condition
+] call zen_context_menu_fnc_createAction;
+
+[_saveSnapshot, _categoryPath] call zen_context_menu_fnc_addAction;
+
+private _restoreSnapshot = [
+    QGVAR(zenRestoreSnapshot),
+    LLSTRING(zenRestoreSnapshot),
+    _icon,
+    {
+        INFO_1("ZEN restore-snapshot action triggered on %1",_hoveredEntity);
+        systemChat format [LLSTRING(zenSnapshotRestoreRequested), name _hoveredEntity];
+        [QGVAR(doApplyLoadoutSnapshot), [_hoveredEntity], _hoveredEntity] call CBA_fnc_targetEvent;
+    },
+    _condition
+] call zen_context_menu_fnc_createAction;
+
+[_restoreSnapshot, _categoryPath] call zen_context_menu_fnc_addAction;

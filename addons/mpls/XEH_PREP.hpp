@@ -1,8 +1,10 @@
 PREP(applyFirstLoadout);
 PREP(applyLoadout);
+PREP(applyLoadoutSnapshot);
 PREP(handleKilled);
 PREP(handleRespawn);
 PREP(initSave);
 PREP(saveLoadout);
+PREP(saveLoadoutSnapshot);
 PREP(updateDiary);
 PREP(zenRegister);

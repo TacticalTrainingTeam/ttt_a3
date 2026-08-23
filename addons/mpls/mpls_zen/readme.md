@@ -1,6 +1,6 @@
 # MPLS ZEN Modul
 
-Fügt eine ZEN Kontextmenü-Aktion hinzu, mit der Zeus die Ausrüstung eines Spielers auf dessen zuerst gespeichertes Loadout zurücksetzen kann.
+Fügt die ZEN-Kontextmenü-Kategorie **TTT - MPLS** hinzu, mit Aktionen um die Ausrüstung eines Spielers auf dessen zuerst gespeichertes Loadout zurückzusetzen, sowie um die aktuelle Ausrüstung manuell in einem eigenen Snapshot-Slot zu speichern und wiederherzustellen.
 
 ## Maintainer
 
