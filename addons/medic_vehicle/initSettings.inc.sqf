@@ -16,7 +16,7 @@
     "[]",
     true,
     {[] call FUNC(addActions);},
-    true
+    false
 ] call CBA_fnc_addSetting;
 
 [
@@ -27,7 +27,7 @@
     "Land_MedicalTent_01_NATO_generic_open_F",
     true,
     {[] call FUNC(addActions);},
-    true
+    false
 ] call CBA_fnc_addSetting;
 
 [
