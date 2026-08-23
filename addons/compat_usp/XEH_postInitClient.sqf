@@ -1,5 +1,7 @@
 #include "script_component.hpp"
 
+if (!hasInterface) exitWith {};
+
 private _all = [];
 private _nvgs = ["USP_Gear_NVG"] call EFUNC(common,getAllItems);
 private _misc = ["USP_Gear_Acc"] call EFUNC(common,getAllItems);
