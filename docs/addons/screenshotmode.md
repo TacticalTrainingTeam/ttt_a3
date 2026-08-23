@@ -10,7 +10,7 @@ Standard-Tastenkombination: ++ctrl+f12++ - kann über das Konfigurationsmenü ge
 
 - *ACE* und *DUI Squad Radar* wird bereits von ACE verarbeitet. *ACRE* und die Vanillaelemente werden durch die TTT-Mod ausgeblendet.
 - Der Chat wird ja bereits durch [Clear HUD](clearhud.md) ausgeblendet und nicht nochmal extra verarbeitet.
-- *cTab* wird automatisch dabei ausgeblendet.
+- *cTab* wird automatisch dabei ausgeblendet und beim erneuten Einblenden des UI wieder in seinem vorherigen Zustand geöffnet, falls es vorher offen war.
 
 ## Maintainer
 

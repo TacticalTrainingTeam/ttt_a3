@@ -4,6 +4,8 @@ Das Settings-Addon lädt beim Missionsstart automatisch die richtigen CBA-Einste
 
 Alle Einstellungen, welche nicht über das Addon gesetzt werden, können von jedem Spieler individuell eingestellt werden.
 
+Erzwungene Einstellungen werden zuverlässig übernommen, unabhängig davon, in welcher Reihenfolge die Mods laden. Falls eine Einstellung dennoch nicht wie erwartet aktiv ist (z.B. weil der Name in der Konfiguration einen Tippfehler enthält oder der zugehörige Mod fehlt), steht im RPT-Log unter `(settings) WARNING` eine entsprechende Meldung.
+
 ## Medic-Systeme
 
 - **Standard** die regulären Einstellungen, werden automatisch geladen wenn nichts anderes spezifiziert wurde oder wenn ein Fehler aufgetreten ist.
