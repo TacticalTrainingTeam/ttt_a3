@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Resupply">
+        <Key ID="STR_ttt_Resupply_action_markDepot">
+            <English>Mark as Resupply Depot</English>
+            <German>Als Nachschub-Depot markieren</German>
+        </Key>
         <Key ID="STR_ttt_Resupply_action_resupply_menu">
             <English>Resupply</English>
             <German>Nachschub</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_action_unmarkDepot">
+            <English>Unmark as Resupply Depot</English>
+            <German>Nachschub-Depot-Markierung entfernen</German>
         </Key>
         <Key ID="STR_ttt_Resupply_databaseEmpty">
             <English>Resupply: Database not ready yet. Wait a moment and try again.</English>
@@ -28,6 +36,14 @@
         <Key ID="STR_ttt_Resupply_faction_opfor">
             <English>OPFOR</English>
             <German>OPFOR</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_hintDepotMarked">
+            <English>Object marked as resupply depot.</English>
+            <German>Objekt als Nachschub-Depot markiert.</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_hintDepotUnmarked">
+            <English>Resupply depot marking removed.</English>
+            <German>Nachschub-Depot-Markierung entfernt.</German>
         </Key>
         <Key ID="STR_ttt_Resupply_limitExhausted">
             <English>Resupply: No more %1 left at this depot.</English>
@@ -104,6 +120,10 @@
         <Key ID="STR_ttt_Resupply_unlimited">
             <English>unlimited</English>
             <German>unbegrenzt</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_zenCategory_displayName">
+            <English>TTT - Resupply</English>
+            <German>TTT - Nachschub</German>
         </Key>
         <Key ID="STR_ttt_Resupply_zeusModule_description">
             <English>Spawns a resupply crate of this type at the module's position.</English>

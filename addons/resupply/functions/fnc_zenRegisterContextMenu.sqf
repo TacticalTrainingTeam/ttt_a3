@@ -23,9 +23,59 @@
 
 private _icon = "a3\ui_f\data\map\vehicleicons\iconcrate_ca.paa";
 
+// Prefixed with "TTT - " (unlike the ACE interaction menu's plain "Resupply" label above) since
+// this is a top-level entry in ZEN's shared context menu, where every mod's root categories are
+// listed together - the prefix is what makes this addon's entries recognizable among the rest.
 private _parentPath = [
-    ["ttt_resupply", LLSTRING(action_resupply_menu), _icon] call zen_context_menu_fnc_createAction
+    ["ttt_resupply", LLSTRING(zenCategory_displayName), _icon] call zen_context_menu_fnc_createAction
 ] call zen_context_menu_fnc_addAction;
+
+// Marks the hovered object as a resupply depot (QGVAR(container)) - the same effect as putting
+// this setVariable [QGVAR(container), true]; in the object's Init field (see fnc_addActions.sqf),
+// just usable live during a running mission instead of only at mission-build time. Broadcasting
+// the setVariable directly (rather than via CBA_fnc_serverEvent) is safe here since it's a plain
+// flag, not object creation, and is JIP-safe the same way every other QGVAR(...) flag in this
+// addon already relies on.
+private _markDepot = [
+    QGVAR(zenMarkDepot),
+    LLSTRING(action_markDepot),
+    _icon,
+    {
+        params ["", "", "", "", "", "_hoveredEntity"];
+        _hoveredEntity setVariable [QGVAR(container), true, true];
+        [LLSTRING(hintDepotMarked)] call ace_zeus_fnc_showMessage;
+    },
+    {
+        params ["", "", "", "", "", "_hoveredEntity"];
+        _hoveredEntity isEqualType objNull
+        && {!isNull _hoveredEntity}
+        && {!(_hoveredEntity isKindOf "Man")}
+        && {!(_hoveredEntity getVariable [QGVAR(container), false])}
+    }
+] call zen_context_menu_fnc_createAction;
+
+[_markDepot, _parentPath] call zen_context_menu_fnc_addAction;
+
+// Reverse of _markDepot above - only shown once the object actually is a depot, so the two
+// actions never appear together for the same object.
+private _unmarkDepot = [
+    QGVAR(zenUnmarkDepot),
+    LLSTRING(action_unmarkDepot),
+    _icon,
+    {
+        params ["", "", "", "", "", "_hoveredEntity"];
+        _hoveredEntity setVariable [QGVAR(container), false, true];
+        [LLSTRING(hintDepotUnmarked)] call ace_zeus_fnc_showMessage;
+    },
+    {
+        params ["", "", "", "", "", "_hoveredEntity"];
+        _hoveredEntity isEqualType objNull
+        && {!isNull _hoveredEntity}
+        && {_hoveredEntity getVariable [QGVAR(container), false]}
+    }
+] call zen_context_menu_fnc_createAction;
+
+[_unmarkDepot, _parentPath] call zen_context_menu_fnc_addAction;
 
 // Shared by every type below. Statement/condition code receives ZEN's
 // ACTION_PARAMS as _this: [_position, _objects, _groups, _waypoints,
@@ -37,9 +87,11 @@ private _statement = {
     params ["_position", "", "", "", "", "", "_type"];
     [QGVAR(zenSpawnCrateRequest), [_position, _type, clientOwner]] call CBA_fnc_serverEvent;
 };
+// Only offered on empty ground, not when hovering an object - right-clicking an object is for
+// _markDepot/_unmarkDepot above instead, so the two don't clutter the same menu.
 private _condition = {
-    params ["", "", "", "", "", "", "_type"];
-    [_type] call FUNC(isCrateAvailable)
+    params ["", "", "", "", "", "_hoveredEntity", "_type"];
+    isNull _hoveredEntity && {[_type] call FUNC(isCrateAvailable)}
 };
 
 private _types = [

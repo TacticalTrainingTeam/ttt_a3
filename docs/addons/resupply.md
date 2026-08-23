@@ -154,14 +154,30 @@ Depot-Objekt mit der ACE-Aktion oder die Script-API nutzen).
 
 Ist [Zeus Enhanced](https://zen-mod.github.io/ZEN/) geladen, steht im
 Rechtsklick-Kontextmenü im Zeus-Interface zusätzlich ein
-**Nachschub**-Untermenü mit allen acht Kistentypen zur Verfügung - schneller
-als eines der Module aus dem Support-Menü zu suchen und zu platzieren. Die
-Kiste spawnt dabei in der Nähe der angeklickten Position, mit demselben
-Verhalten wie oben bei den Zeus-Modulen beschrieben (inkl. Ausweichen bei
-belegter fester Spawnposition). Nicht verfügbare Kistentypen (leere
-Kategorie oder Datenbank noch nicht bereit) werden im Menü ausgeblendet.
+**Nachschub**-Untermenü zur Verfügung. Was darin angezeigt wird, hängt davon
+ab, ob dabei gerade ein Objekt anvisiert ist:
 
-Diese Option benötigt kein Setup durch den Missionsbauer - sie erscheint
+- **Leerer Boden anvisiert**: alle acht Kistentypen - schneller als eines
+  der Module aus dem Support-Menü zu suchen und zu platzieren. Die Kiste
+  spawnt dabei in der Nähe der angeklickten Position, mit demselben
+  Verhalten wie oben bei den Zeus-Modulen beschrieben (inkl. Ausweichen bei
+  belegter fester Spawnposition). Nicht verfügbare Kistentypen (leere
+  Kategorie oder Datenbank noch nicht bereit) werden im Menü ausgeblendet.
+- **Objekt anvisiert**: **Als Nachschub-Depot markieren** bzw.
+  **Nachschub-Depot-Markierung entfernen** - je nachdem, ob das Objekt
+  bereits ein Depot ist, wird nur die jeweils zutreffende Option angezeigt.
+  Das markiert bzw. entmarkiert das Objekt live während der laufenden
+  Mission (identisch zum `ttt_resupply_container`-Init-Eintrag oben), ohne
+  die Mission dafür neu zu bauen, sodass Spieler dort sofort das
+  ACE-Resupply-Menü sehen bzw. nicht mehr sehen. Ein per Init-Feld gesetztes
+  `ttt_resupply_limits` bleibt beim Entmarkieren unangetastet und greift
+  wieder, falls das Objekt später erneut markiert wird.
+
+Die Kistentypen und die Depot-Markierung erscheinen also nie im selben Menü -
+je nachdem, worauf gerade gezeigt wird, ist immer nur die eine oder die
+andere Gruppe sichtbar.
+
+Diese Optionen benötigen kein Setup durch den Missionsbauer - sie erscheinen
 automatisch, sobald Zeus Enhanced als Mod geladen ist.
 
 ### Script-API
