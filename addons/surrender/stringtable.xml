@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Surrender">
+        <Key ID="STR_ttt_Surrender_EnemySides_displayName">
+            <English>Enemy Side</English>
+            <German>Feindliche Seite</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_EnemySides_tooltip">
+            <English>Which sides should be considered hostile.</English>
+            <German>Welche Seiten als feindliche Einheiten behandelt werden sollen.</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_FriendlySides_displayName">
+            <English>Friendly Side</English>
+            <German>Freundliche Seite</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_FriendlySides_tooltip">
+            <English>Which sides should be considered friendly.</English>
+            <German>Welche Seiten sollen als freundliche Einheiten behandelt werden?</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_OutnumberRatio_displayName">
+            <English>Outnumbered Ratio</English>
+            <German>Unterlegenheitsverhältnis</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_OutnumberRatio_tooltip">
+            <English>If the number of allies is greater than the ratio to the enemies, the enemy unit may surrender.</English>
+            <German>Wenn die Anzahl der Verbündeten größer ist als das Verhältnis zu den Gegnern, kann sich die gegnerische Einheit ergeben.</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_SurrenderChance_displayName">
+            <English>Chance to Surrender</English>
+            <German>Kapitulationschance</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_SurrenderChance_tooltip">
+            <English>Probability that an outnumbered enemy unit will surrender.</English>
+            <German>Wahrscheinlichkeit, dass eine unterlegene feindliche Einheit kapituliert.</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_dropWeapon_displayName">
+            <English>Drop Weapon</English>
+            <German>Waffe fallen lassen</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_dropWeapon_tooltip">
+            <English>Whether surrendering AI units should drop their weapon.</English>
+            <German>Ob kapitulierende KI-Einheiten ihr Waffe fallen lassen sollen.</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_module_description">
+            <English>This module implements a probabilistic mechanism whereby enemy AI units can be induced to surrender if they are outnumbered by friendly forces.</English>
+            <German>Dieses Modul implementiert eine Wahrscheinlichkeitsmechanik, durch die feindliche KI-Einheiten zur Kapitulation veranlasst werden können, wenn sie gegenüber den freundlichen Kräften zahlenmäßig unterlegen sind.</German>
+        </Key>
+        <Key ID="STR_ttt_Surrender_module_displayName">
+            <English>AI Surrender</English>
+            <German>KI-Kapitulation</German>
+        </Key>
+    </Package>
+</Project>

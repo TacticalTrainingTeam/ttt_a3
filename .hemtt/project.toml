@@ -5,7 +5,7 @@ mainprefix = "z"
 
 [version]
 path = "addons/main/script_version.hpp"
-git_hash = 4
+git_hash = 0
 
 [files]
 exclude = [

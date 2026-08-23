@@ -20,15 +20,15 @@ _caller switchMove "";
 
 if (typeOf _target == GVAR(facilityObject)) then {
     _target setVariable ["ttt_medic_vehicle_inUse", false, true];
-    _arrayVehicles = nearestObjects [(getPos _target), (parseSimpleArray GVAR(supportedVehicles)), 15];
-    private "_vehicle";
+    private _arrayVehicles = nearestObjects [(getPos _target), (parseSimpleArray GVAR(supportedVehicles)), 15];
+
     private _ArrayVehicle = [];
     {
         if (!(_x getVariable ["ttt_medic_vehicle_hasTent", true])) then {
             _ArrayVehicle pushBack _x
         };
     } forEach _arrayVehicles;
-    _vehicle = _ArrayVehicle select 0;
+    private _vehicle = _ArrayVehicle select 0;
     [_vehicle, (_vehicle getVariable ["ttt_medic_vehicle_fuel", 100])] remoteExec ["setFuel", (owner _vehicle), false];
 } else {
     _target setVariable ["ttt_medic_vehicle_hasTent", true, true];

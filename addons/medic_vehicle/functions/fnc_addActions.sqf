@@ -22,7 +22,7 @@
 
 if (!GVAR(enable)) exitWith {};
 
-_constructTent =
+private _constructTent =
 [
     "ttt_medic_vehicle_constuct",
     LLSTRING(actionConstruct),
@@ -31,7 +31,7 @@ _constructTent =
     {[_this] call FUNC(canConstruct)}
 ] call ace_interact_menu_fnc_createAction;
 
-_deconstructTent =
+private _deconstructTent =
 [
     "ttt_medic_vehicle_deconstuct",
     LLSTRING(actionDeconstruct),

@@ -32,8 +32,8 @@ if (_medSys_index in [0, 1, 2]) then {
 
 private _settingsFile = preprocessFile format [QPATHTOF(settings\medical_%1.inc.sqf), _medicalSystem];
 {
-    _x params ["_setting", "_value"];
-    [_setting, _value, 2, "server"] call CBA_settings_fnc_set;
+    _x params ["_setting", "_value", "_priority"];
+    [_setting, _value, _priority, "server"] call CBA_settings_fnc_set;
 } forEach ([_settingsFile, false] call CBA_settings_fnc_parse);
 
 INFO_1("ACE Medical Preset %1 geladen.",toUpper _medicalSystem);

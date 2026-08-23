@@ -1,7 +1,13 @@
 #include "../script_component.hpp"
 /*
  * Author: BlauBär edit by Andx
- * Loads the default settings.
+ * Parses all default setting override files, then applies each one -
+ * either immediately if the target setting is already registered, or as
+ * soon as it becomes registered (see fnc_onSettingRegistered.sqf). Runs
+ * from preInit so overrides land before any addon's postInit can read a
+ * stale default: CBA_settingsInitialized only fires after every addon's
+ * postInit has already completed, which is too late for settings an addon
+ * reads once and caches (typically the ones CBA itself flags needRestart).
  *
  * Arguments:
  * None
@@ -10,12 +16,17 @@
  * None
  */
 
+GVAR(overriddenSettings) = [];
+GVAR(overrideValues) = createHashMap;
+
 {
     private _settingsFile = preprocessFile format [QPATHTOF(settings\%1.inc.sqf), _x];
     {
         _x params ["_setting", "_value", "_priority"];
-        [_setting, _value, _priority, "server"] call CBA_settings_fnc_set;
-    } forEach ([_settingsFile, VALIDATE_SETTINGS] call CBA_settings_fnc_parse);
+        private _settingLower = toLower _setting;
+        GVAR(overriddenSettings) pushBackUnique _settingLower;
+        GVAR(overrideValues) set [_settingLower, [_setting, _value, _priority]];
+    } forEach ([_settingsFile, false] call CBA_settings_fnc_parse);
 } forEach [
     "A3TI",
     "ACE_AdvancedBallistics",
@@ -75,6 +86,8 @@
     "ACE_Zeus",
     "Achilles",
     "ACRE2",
+    "Advanced_Slingloading",
+    "Advanced_Towing",
     "AutoWeaponLower",
     "BOCR",
     "BWA3",
@@ -104,3 +117,7 @@
     "USAF",
     "ZEN"
 ];
+
+{
+    [_x] call FUNC(applyOverride);
+} forEach (keys GVAR(overrideValues));

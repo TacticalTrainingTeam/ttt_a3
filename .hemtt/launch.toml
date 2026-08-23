@@ -137,3 +137,15 @@ extends = "default"
 workshop = [
     "3475006113" # FPV Drohnen
 ]
+
+[partner]
+extends = "default"
+workshop = [
+    "3507091121" # TTT Partnermod
+]
+
+[ctab]
+extends = "default"
+workshop = [
+    "3438246217" # cTab
+]
