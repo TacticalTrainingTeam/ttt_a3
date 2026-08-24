@@ -1,6 +1,6 @@
 #include "..\script_component.hpp"
 /*
-* Author: EinStein, Andx
+* Author: Andx, originally by EinStein
 *
 * ACE self-interaction condition for the construct action.
 *

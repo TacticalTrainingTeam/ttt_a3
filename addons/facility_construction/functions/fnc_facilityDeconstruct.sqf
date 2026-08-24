@@ -1,6 +1,6 @@
 #include "..\script_component.hpp"
 /*
-* Author: EinStein, Andx
+* Author: Andx, originally by EinStein
 *
 * Arguments:
 * 0: Facility <OBJECT>

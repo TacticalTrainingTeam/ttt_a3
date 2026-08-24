@@ -1,6 +1,6 @@
 #include "..\script_component.hpp"
 /*
-* Author: EinStein, Andx
+* Author: Andx, originally by EinStein
 *
 * Registers/unregisters the construct and deconstruct ACE self-interactions for one
 * facility_construction consumer (e.g. medic_vehicle, repair_vehicle). Called by the
