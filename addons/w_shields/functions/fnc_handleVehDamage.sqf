@@ -18,8 +18,6 @@ private _unitRegHPs = _unit getVariable QGVAR(allRegHP);
 private _unitCritHPs = _unit getVariable QGVAR(allCritHP);
 private _hitHash = _unit getVariable QGVAR(hitHash);
 private _unitRegHPsC = count _unitRegHPs;
-private _unitCritHPsC = count _unitCritHPs;
-private _excessDmg = 0;
 
 // get current hitpoint damage to return at the end of the script
 private _currDamage = if (_context == 0) then {
@@ -86,7 +84,6 @@ if (_currHash isEqualTo []) then {
                 //excess damage can only generate from hits to the hull, never from components
                 if (_excessDmg > 0) then {
                     private _unitCritHPs = _unit getVariable QGVAR(allCritHP);
-                    private _unitCritHPsC = count _unitCritHPs;
 
                     {
                         private _currDamage = _unit getHitPointDamage _X;
