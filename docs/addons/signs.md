@@ -6,56 +6,58 @@ Enthält Flaggen und Schilder in TTT Farben.
 
 Flaggen
 
-- `ttt_Flag_Logo`
-- `ttt_Flag_Blue`
-- `ttt_Flag_Brown`
-- `ttt_Flag_Bronze`
-- `ttt_Flag_Yellow`
-- `ttt_Flag_Gold`
-- `ttt_Flag_Green`
-- `ttt_Flag_Red`
-- `ttt_Flag_Black`
-- `ttt_Flag_Silver`
-- `ttt_Flag_Platinum`
-- `ttt_Flag_Violet`
-- `ttt_Flag_White`
-- `ttt_Flag_Orange`
+- `ttt_signs_Flag_Logo`
+- `ttt_signs_Flag_Blue`
+- `ttt_signs_Flag_Brown`
+- `ttt_signs_Flag_Bronze`
+- `ttt_signs_Flag_Yellow`
+- `ttt_signs_Flag_Gold`
+- `ttt_signs_Flag_Green`
+- `ttt_signs_Flag_Red`
+- `ttt_signs_Flag_Black`
+- `ttt_signs_Flag_Silver`
+- `ttt_signs_Flag_Platinum`
+- `ttt_signs_Flag_Violet`
+- `ttt_signs_Flag_White`
+- `ttt_signs_Flag_Orange`
 
 Schilder (klein)
 
-- `ttt_Sign_Small_Blue`
-- `ttt_Sign_Small_Bronze`
-- `ttt_Sign_Small_Brown`
-- `ttt_Sign_Small_Yellow`
-- `ttt_Sign_Small_Gold`
-- `ttt_Sign_Small_Grey`
-- `ttt_Sign_Small_Green`
-- `ttt_Sign_Small_Red`
-- `ttt_Sign_Small_Black`
-- `ttt_Sign_Small_Silver`
-- `ttt_Sign_Small_Platinum`
-- `ttt_Sign_Small_Violet`
-- `ttt_Sign_Small_White`
-- `ttt_Sign_Small_Logo`
-- `ttt_Sign_Small_Orange`
+- `ttt_signs_Small_Blue`
+- `ttt_signs_Small_Bronze`
+- `ttt_signs_Small_Brown`
+- `ttt_signs_Small_Yellow`
+- `ttt_signs_Small_Gold`
+- `ttt_signs_Small_Grey`
+- `ttt_signs_Small_Green`
+- `ttt_signs_Small_Red`
+- `ttt_signs_Small_Black`
+- `ttt_signs_Small_Silver`
+- `ttt_signs_Small_Platinum`
+- `ttt_signs_Small_Violet`
+- `ttt_signs_Small_White`
+- `ttt_signs_Small_Logo`
+- `ttt_signs_Small_Orange`
 
 Schilder (Groß)
 
-- `ttt_Sign_Large_Blue`
-- `ttt_Sign_Large_Bronze`
-- `ttt_Sign_Large_Brown`
-- `ttt_Sign_Large_Yellow`
-- `ttt_Sign_Large_Gold`
-- `ttt_Sign_Large_Grey`
-- `ttt_Sign_Large_Green`
-- `ttt_Sign_Large_Red`
-- `ttt_Sign_Large_Black`
-- `ttt_Sign_Large_Silver`
-- `ttt_Sign_Large_Platinum`
-- `ttt_Sign_Large_Violet`
-- `ttt_Sign_Large_White`
-- `ttt_Sign_Large_Logo`
-- `ttt_Sign_Large_Orange`
+- `ttt_signs_Large_Blue`
+- `ttt_signs_Large_Bronze`
+- `ttt_signs_Large_Brown`
+- `ttt_signs_Large_Yellow`
+- `ttt_signs_Large_Gold`
+- `ttt_signs_Large_Grey`
+- `ttt_signs_Large_Green`
+- `ttt_signs_Large_Red`
+- `ttt_signs_Large_Black`
+- `ttt_signs_Large_Silver`
+- `ttt_signs_Large_Platinum`
+- `ttt_signs_Large_Violet`
+- `ttt_signs_Large_White`
+- `ttt_signs_Large_Logo`
+- `ttt_signs_Large_Orange`
+
+Die alten `ttt_Flag_*`/`ttt_Sign_*`-Klassennamen existieren weiterhin als `scope = 1`-Aliase für bestehende Missionen/Loadouts, sollten aber in neuen Missionen nicht mehr verwendet werden.
 
 ## Maintainer
 

@@ -3,92 +3,92 @@ class CfgVehicles {
     class Headgear_H_CrewHelmetHeli_B;
 
     //Piloten
-    class ttt_Helmet_item_Buzzard: Headgear_H_CrewHelmetHeli_B {
+    class GVAR(item_Buzzard): Headgear_H_CrewHelmetHeli_B {
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Andx"};
         displayName = CSTRING(buzzard_displayName);
         scope = 2;
 
         class TransportItems {
-            class ttt_Helmet_Buzzard {
-                name = "ttt_Helmet_Buzzard";
+            class GVAR(Buzzard) {
+                name = QGVAR(Buzzard);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_item_Buzzard_NVG: ttt_Helmet_item_Buzzard {
+    class GVAR(item_Buzzard_NVG): GVAR(item_Buzzard) {
         displayName = CSTRING(buzzard_nvg_displayName);
 
         class TransportItems {
-            class ttt_Helmet_Buzzard_NVG {
-                name = "ttt_Helmet_Buzzard_NVG";
+            class GVAR(Buzzard_NVG) {
+                name = QGVAR(Buzzard_NVG);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_item_hawk: ttt_Helmet_item_Buzzard {
+    class GVAR(item_hawk): GVAR(item_Buzzard) {
         displayName = CSTRING(hawk_displayName);
 
         class TransportItems {
-            class ttt_Helmet_Hawk {
-                name = "ttt_Helmet_Hawk";
+            class GVAR(Hawk) {
+                name = QGVAR(Hawk);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_item_Hawk_NVG: ttt_Helmet_item_hawk {
+    class GVAR(item_Hawk_NVG): GVAR(item_hawk) {
         displayName = CSTRING(hawk_nvg_displayName);
 
         class TransportItems {
-            class ttt_Helmet_Hawk_NVG {
-                name = "ttt_Helmet_Hawk_NVG";
+            class GVAR(Hawk_NVG) {
+                name = QGVAR(Hawk_NVG);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_item_Falcon: ttt_Helmet_item_Buzzard {
+    class GVAR(item_Falcon): GVAR(item_Buzzard) {
         displayName = CSTRING(falcon_displayName);
 
         class TransportItems {
-            class ttt_Helmet_Falcon {
-                name = "ttt_Helmet_Falcon";
+            class GVAR(Falcon) {
+                name = QGVAR(Falcon);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_item_Falcon_NVG: ttt_Helmet_item_Falcon {
+    class GVAR(item_Falcon_NVG): GVAR(item_Falcon) {
         displayName = CSTRING(falcon_nvg_displayName);
 
         class TransportItems {
-            class ttt_Helmet_Falcon_NVG {
-                name = "ttt_Helmet_Falcon_NVG";
+            class GVAR(Falcon_NVG) {
+                name = QGVAR(Falcon_NVG);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_item_Eagle: ttt_Helmet_item_Buzzard {
+    class GVAR(item_Eagle): GVAR(item_Buzzard) {
         displayName = CSTRING(eagle_displayName);
 
         class TransportItems {
-            class ttt_Helmet_Eagle {
-                name = "ttt_Helmet_Eagle";
+            class GVAR(Eagle) {
+                name = QGVAR(Eagle);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_item_Eagle_NVG: ttt_Helmet_item_Eagle {
+    class GVAR(item_Eagle_NVG): GVAR(item_Eagle) {
         displayName = CSTRING(eagle_nvg_displayName);
 
         class TransportItems {
-            class ttt_Helmet_Eagle_NVG {
-                name = "ttt_Helmet_Eagle_NVG";
+            class GVAR(Eagle_NVG) {
+                name = QGVAR(Eagle_NVG);
                 count = 1;
             };
         };
@@ -96,48 +96,48 @@ class CfgVehicles {
 
     //Crew
     class Headgear_H_HelmetCrew_I;
-    class ttt_Helmet_item_crew_bronze: Headgear_H_HelmetCrew_I {
+    class GVAR(item_crew_bronze): Headgear_H_HelmetCrew_I {
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Andx"};
         displayname = CSTRING(bronze_vehiclecrew_displayName);
         scope = 2;
 
         class TransportItems {
-            class ttt_Helmet_Bronze_Vehiclecrew {
-                name = "ttt_Helmet_Bronze_Vehiclecrew";
+            class GVAR(Bronze_Vehiclecrew) {
+                name = QGVAR(Bronze_Vehiclecrew);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_item_crew_grey: ttt_Helmet_item_crew_bronze {
+    class GVAR(item_crew_grey): GVAR(item_crew_bronze) {
         displayname = CSTRING(grey_vehiclecrew_displayName);
 
         class TransportItems {
-            class ttt_Helmet_Grey_Vehiclecrew {
-                name = "ttt_Helmet_Grey_Vehiclecrew";
+            class GVAR(Grey_Vehiclecrew) {
+                name = QGVAR(Grey_Vehiclecrew);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_item_crew_silver: ttt_Helmet_item_crew_bronze {
+    class GVAR(item_crew_silver): GVAR(item_crew_bronze) {
         displayname = CSTRING(silver_vehiclecrew_displayName);
 
         class TransportItems {
-            class ttt_Helmet_Silver_Vehiclecrew {
-                name = "ttt_Helmet_Silver_Vehiclecrew";
+            class GVAR(Silver_Vehiclecrew) {
+                name = QGVAR(Silver_Vehiclecrew);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_item_crew_yellow: ttt_Helmet_item_crew_bronze {
+    class GVAR(item_crew_yellow): GVAR(item_crew_bronze) {
         displayname = CSTRING(yellow_vehiclecrew_displayName);
 
         class TransportItems {
-            class ttt_Helmet_Yellow_Vehiclecrew {
-                name = "ttt_Helmet_Yellow_Vehiclecrew";
+            class GVAR(Yellow_Vehiclecrew) {
+                name = QGVAR(Yellow_Vehiclecrew);
                 count = 1;
             };
         };
@@ -146,382 +146,433 @@ class CfgVehicles {
     class Headgear_H_HelmetB;
 
     //Fleck Tarn
-    class ttt_Helmet_Item_bw_fleck_1: Headgear_H_HelmetB {
+    class GVAR(Item_bw_fleck_1): Headgear_H_HelmetB {
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Andx"};
         displayName = CSTRING(helmet_1_bw_flecktarn_displayName);
         scope = 2;
 
         class TransportItems {
-            class ttt_Helmet_1_BW_Flecktarn {
-                name = "ttt_Helmet_1_BW_Flecktarn";
+            class GVAR(1_BW_Flecktarn) {
+                name = QGVAR(1_BW_Flecktarn);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_bw_fleck_2: ttt_Helmet_Item_bw_fleck_1 {
+    class GVAR(Item_bw_fleck_2): GVAR(Item_bw_fleck_1) {
         displayName = CSTRING(helmet_2_bw_flecktarn_displayName);
 
         class TransportItems {
-            class ttt_Helmet_2_BW_Flecktarn {
-                name = "ttt_Helmet_2_BW_Flecktarn";
+            class GVAR(2_BW_Flecktarn) {
+                name = QGVAR(2_BW_Flecktarn);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_bw_fleck_3: ttt_Helmet_Item_bw_fleck_1 {
+    class GVAR(Item_bw_fleck_3): GVAR(Item_bw_fleck_1) {
         displayName = CSTRING(helmet_3_bw_flecktarn_displayName);
 
         class TransportItems {
-            class ttt_Helmet_3_BW_Flecktarn {
-                name = "ttt_Helmet_3_BW_Flecktarn";
+            class GVAR(3_BW_Flecktarn) {
+                name = QGVAR(3_BW_Flecktarn);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_bw_fleck_4: ttt_Helmet_Item_bw_fleck_1 {
+    class GVAR(Item_bw_fleck_4): GVAR(Item_bw_fleck_1) {
         displayName = CSTRING(helmet_4_bw_flecktarn_displayName);
 
         class TransportItems {
-            class ttt_Helmet_4_BW_Flecktarn {
-                name = "ttt_Helmet_4_BW_Flecktarn";
+            class GVAR(4_BW_Flecktarn) {
+                name = QGVAR(4_BW_Flecktarn);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_bw_fleck_5: ttt_Helmet_Item_bw_fleck_1 {
+    class GVAR(Item_bw_fleck_5): GVAR(Item_bw_fleck_1) {
         displayName = CSTRING(helmet_5_bw_flecktarn_displayName);
 
         class TransportItems {
-            class ttt_Helmet_5_BW_Flecktarn {
-                name = "ttt_Helmet_5_BW_Flecktarn";
+            class GVAR(5_BW_Flecktarn) {
+                name = QGVAR(5_BW_Flecktarn);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_bw_fleck_6: ttt_Helmet_Item_bw_fleck_1 {
+    class GVAR(Item_bw_fleck_6): GVAR(Item_bw_fleck_1) {
         displayName = CSTRING(helmet_6_bw_flecktarn_displayName);
 
         class TransportItems {
-            class ttt_Helmet_6_BW_Flecktarn {
-                name = "ttt_Helmet_6_BW_Flecktarn";
+            class GVAR(6_BW_Flecktarn) {
+                name = QGVAR(6_BW_Flecktarn);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_bw_fleck_7: ttt_Helmet_Item_bw_fleck_1 {
+    class GVAR(Item_bw_fleck_7): GVAR(Item_bw_fleck_1) {
         displayName = CSTRING(helmet_7_bw_flecktarn_displayName);
 
         class TransportItems {
-            class ttt_Helmet_7_BW_Flecktarn {
-                name = "ttt_Helmet_7_BW_Flecktarn";
+            class GVAR(7_BW_Flecktarn) {
+                name = QGVAR(7_BW_Flecktarn);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_bw_fleck_8: ttt_Helmet_Item_bw_fleck_1 {
+    class GVAR(Item_bw_fleck_8): GVAR(Item_bw_fleck_1) {
         displayName = CSTRING(helmet_8_bw_flecktarn_displayName);
 
         class TransportItems {
-            class ttt_Helmet_8_BW_Flecktarn {
-                name = "ttt_Helmet_8_BW_Flecktarn";
+            class GVAR(8_BW_Flecktarn) {
+                name = QGVAR(8_BW_Flecktarn);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_bw_fleck_9: ttt_Helmet_Item_bw_fleck_1 {
+    class GVAR(Item_bw_fleck_9): GVAR(Item_bw_fleck_1) {
         displayName = CSTRING(helmet_9_bw_flecktarn_displayName);
 
         class TransportItems {
-            class ttt_Helmet_9_BW_Flecktarn {
-                name = "ttt_Helmet_9_BW_Flecktarn";
+            class GVAR(9_BW_Flecktarn) {
+                name = QGVAR(9_BW_Flecktarn);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_bw_fleck_10: ttt_Helmet_Item_bw_fleck_1 {
+    class GVAR(Item_bw_fleck_10): GVAR(Item_bw_fleck_1) {
         displayName = CSTRING(helmet_10_bw_flecktarn_displayName);
 
         class TransportItems {
-            class ttt_Helmet_10_BW_Flecktarn {
-                name = "ttt_Helmet_10_BW_Flecktarn";
+            class GVAR(10_BW_Flecktarn) {
+                name = QGVAR(10_BW_Flecktarn);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_bw_fleck_11: ttt_Helmet_Item_bw_fleck_1 {
+    class GVAR(Item_bw_fleck_11): GVAR(Item_bw_fleck_1) {
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Andx"};
         displayName = CSTRING(helmet_11_bw_flecktarn_displayName);
 
         class TransportItems {
-            class ttt_Helmet_11_BW_Flecktarn {
-                name = "ttt_Helmet_11_BW_Flecktarn";
+            class GVAR(11_BW_Flecktarn) {
+                name = QGVAR(11_BW_Flecktarn);
                 count = 1;
             };
         };
     };
 
     //Tropentarn
-    class ttt_Helmet_Item_bw_tropen_1: Headgear_H_HelmetB {
+    class GVAR(Item_bw_tropen_1): Headgear_H_HelmetB {
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Andx"};
         displayName = CSTRING(helmet_1_bw_tropentarn_displayName);
         scope = 2;
 
         class TransportItems {
-            class ttt_Helmet_1_BW_tropentarn {
-                name = "ttt_Helmet_1_BW_tropentarn";
+            class GVAR(1_BW_Tropentarn) {
+                name = QGVAR(1_BW_Tropentarn);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_bw_tropen_2: ttt_Helmet_Item_bw_tropen_1 {
+    class GVAR(Item_bw_tropen_2): GVAR(Item_bw_tropen_1) {
         displayName = CSTRING(helmet_2_bw_tropentarn_displayName);
 
         class TransportItems {
-            class ttt_Helmet_2_BW_tropentarn {
-                name = "ttt_Helmet_2_BW_tropentarn";
+            class GVAR(2_BW_Tropentarn) {
+                name = QGVAR(2_BW_Tropentarn);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_bw_tropen_3: ttt_Helmet_Item_bw_tropen_1 {
+    class GVAR(Item_bw_tropen_3): GVAR(Item_bw_tropen_1) {
         displayName = CSTRING(helmet_3_bw_tropentarn_displayName);
 
         class TransportItems {
-            class ttt_Helmet_3_BW_tropentarn {
-                name = "ttt_Helmet_3_BW_tropentarn";
+            class GVAR(3_BW_Tropentarn) {
+                name = QGVAR(3_BW_Tropentarn);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_bw_tropen_4: ttt_Helmet_Item_bw_tropen_1 {
+    class GVAR(Item_bw_tropen_4): GVAR(Item_bw_tropen_1) {
         displayName = CSTRING(helmet_4_bw_tropentarn_displayName);
 
         class TransportItems {
-            class ttt_Helmet_4_BW_tropentarn {
-                name = "ttt_Helmet_4_BW_tropentarn";
+            class GVAR(4_BW_Tropentarn) {
+                name = QGVAR(4_BW_Tropentarn);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_bw_tropen_5: ttt_Helmet_Item_bw_tropen_1 {
+    class GVAR(Item_bw_tropen_5): GVAR(Item_bw_tropen_1) {
         displayName = CSTRING(helmet_5_bw_tropentarn_displayName);
 
         class TransportItems {
-            class ttt_Helmet_5_BW_tropentarn {
-                name = "ttt_Helmet_5_BW_tropentarn";
+            class GVAR(5_BW_Tropentarn) {
+                name = QGVAR(5_BW_Tropentarn);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_bw_tropen_6: ttt_Helmet_Item_bw_tropen_1 {
+    class GVAR(Item_bw_tropen_6): GVAR(Item_bw_tropen_1) {
         displayName = CSTRING(helmet_6_bw_tropentarn_displayName);
 
         class TransportItems {
-            class ttt_Helmet_6_BW_tropentarn {
-                name = "ttt_Helmet_6_BW_tropentarn";
+            class GVAR(6_BW_Tropentarn) {
+                name = QGVAR(6_BW_Tropentarn);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_bw_tropen_7: ttt_Helmet_Item_bw_tropen_1 {
+    class GVAR(Item_bw_tropen_7): GVAR(Item_bw_tropen_1) {
         displayName = CSTRING(helmet_7_bw_tropentarn_displayName);
 
         class TransportItems {
-            class ttt_Helmet_7_BW_tropentarn {
-                name = "ttt_Helmet_7_BW_tropentarn";
+            class GVAR(7_BW_Tropentarn) {
+                name = QGVAR(7_BW_Tropentarn);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_bw_tropen_8: ttt_Helmet_Item_bw_tropen_1 {
+    class GVAR(Item_bw_tropen_8): GVAR(Item_bw_tropen_1) {
         displayName = CSTRING(helmet_8_bw_tropentarn_displayName);
 
         class TransportItems {
-            class ttt_Helmet_8_BW_tropentarn {
-                name = "ttt_Helmet_8_BW_tropentarn";
+            class GVAR(8_BW_Tropentarn) {
+                name = QGVAR(8_BW_Tropentarn);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_bw_tropen_9: ttt_Helmet_Item_bw_tropen_1 {
+    class GVAR(Item_bw_tropen_9): GVAR(Item_bw_tropen_1) {
         displayName = CSTRING(helmet_9_bw_tropentarn_displayName);
 
         class TransportItems {
-            class ttt_Helmet_9_BW_tropentarn {
-                name = "ttt_Helmet_9_BW_tropentarn";
+            class GVAR(9_BW_Tropentarn) {
+                name = QGVAR(9_BW_Tropentarn);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_bw_tropen_10: ttt_Helmet_Item_bw_tropen_1 {
+    class GVAR(Item_bw_tropen_10): GVAR(Item_bw_tropen_1) {
         displayName = CSTRING(helmet_10_bw_tropentarn_displayName);
 
         class TransportItems {
-            class ttt_Helmet_10_BW_tropentarn {
-                name = "ttt_Helmet_10_BW_tropentarn";
+            class GVAR(10_BW_Tropentarn) {
+                name = QGVAR(10_BW_Tropentarn);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_bw_tropen_11: ttt_Helmet_Item_bw_tropen_1 {
+    class GVAR(Item_bw_tropen_11): GVAR(Item_bw_tropen_1) {
         displayName = CSTRING(helmet_11_bw_tropentarn_displayName);
 
         class TransportItems {
-            class ttt_Helmet_11_BW_tropentarn {
-                name = "ttt_Helmet_11_BW_tropentarn";
+            class GVAR(11_BW_Tropentarn) {
+                name = QGVAR(11_BW_Tropentarn);
                 count = 1;
             };
         };
     };
 
     //US Desert
-    class ttt_Helmet_Item_us_desert_1: Headgear_H_HelmetB {
+    class GVAR(Item_us_desert_1): Headgear_H_HelmetB {
         displayName = CSTRING(helmet_1_us_desert_displayName);
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Andx"};
         scope = 2;
 
         class TransportItems {
-            class ttt_Helmet_1_us_desert {
-                name = "ttt_Helmet_1_us_desert";
+            class GVAR(1_us_desert) {
+                name = QGVAR(1_US_Desert);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_us_desert_2: ttt_Helmet_Item_us_desert_1 {
+    class GVAR(Item_us_desert_2): GVAR(Item_us_desert_1) {
         displayName = CSTRING(helmet_2_us_desert_displayName);
 
         class TransportItems {
-            class ttt_Helmet_2_us_desert {
-                name = "ttt_Helmet_2_us_desert";
+            class GVAR(2_us_desert) {
+                name = QGVAR(2_US_Desert);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_us_desert_3: ttt_Helmet_Item_us_desert_1 {
+    class GVAR(Item_us_desert_3): GVAR(Item_us_desert_1) {
         displayName = CSTRING(helmet_3_us_desert_displayName);
 
         class TransportItems {
-            class ttt_Helmet_3_us_desert {
-                name = "ttt_Helmet_3_us_desert";
+            class GVAR(3_us_desert) {
+                name = QGVAR(3_US_Desert);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_us_desert_4: ttt_Helmet_Item_us_desert_1 {
+    class GVAR(Item_us_desert_4): GVAR(Item_us_desert_1) {
         displayName = CSTRING(helmet_4_us_desert_displayName);
 
         class TransportItems {
-            class ttt_Helmet_4_us_desert {
-                name = "ttt_Helmet_4_us_desert";
+            class GVAR(4_us_desert) {
+                name = QGVAR(4_US_Desert);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_us_desert_5: ttt_Helmet_Item_us_desert_1 {
+    class GVAR(Item_us_desert_5): GVAR(Item_us_desert_1) {
         author = ECSTRING(main,TacticalTrainingTeam);
         authors[] = {"Andx"};
         displayName = CSTRING(helmet_5_us_desert_displayName);
 
         class TransportItems {
-            class ttt_Helmet_5_us_desert {
-                name = "ttt_Helmet_5_us_desert";
+            class GVAR(5_us_desert) {
+                name = QGVAR(5_US_Desert);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_us_desert_6: ttt_Helmet_Item_us_desert_1 {
+    class GVAR(Item_us_desert_6): GVAR(Item_us_desert_1) {
         displayName = CSTRING(helmet_6_us_desert_displayName);
 
         class TransportItems {
-            class ttt_Helmet_6_us_desert {
-                name = "ttt_Helmet_6_us_desert";
+            class GVAR(6_us_desert) {
+                name = QGVAR(6_US_Desert);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_us_desert_7: ttt_Helmet_Item_us_desert_1 {
+    class GVAR(Item_us_desert_7): GVAR(Item_us_desert_1) {
         displayName = CSTRING(helmet_7_us_desert_displayName);
 
         class TransportItems {
-            class ttt_Helmet_7_us_desert {
-                name = "ttt_Helmet_7_us_desert";
+            class GVAR(7_us_desert) {
+                name = QGVAR(7_US_Desert);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_us_desert_8: ttt_Helmet_Item_us_desert_1 {
+    class GVAR(Item_us_desert_8): GVAR(Item_us_desert_1) {
         displayName = CSTRING(helmet_8_us_desert_displayName);
 
         class TransportItems {
-            class ttt_Helmet_8_us_desert {
-                name = "ttt_Helmet_8_us_desert";
+            class GVAR(8_us_desert) {
+                name = QGVAR(8_US_Desert);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_us_desert_9: ttt_Helmet_Item_us_desert_1 {
+    class GVAR(Item_us_desert_9): GVAR(Item_us_desert_1) {
         displayName = CSTRING(helmet_9_us_desert_displayName);
 
         class TransportItems {
-            class ttt_Helmet_9_us_desert {
-                name = "ttt_Helmet_9_us_desert";
+            class GVAR(9_us_desert) {
+                name = QGVAR(9_US_Desert);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_us_desert_10: ttt_Helmet_Item_us_desert_1 {
+    class GVAR(Item_us_desert_10): GVAR(Item_us_desert_1) {
         displayName = CSTRING(helmet_10_us_desert_displayName);
 
         class TransportItems {
-            class ttt_Helmet_10_us_desert {
-                name = "ttt_Helmet_10_us_desert";
+            class GVAR(10_us_desert) {
+                name = QGVAR(10_US_Desert);
                 count = 1;
             };
         };
     };
 
-    class ttt_Helmet_Item_us_desert_11: ttt_Helmet_Item_us_desert_1 {
+    class GVAR(Item_us_desert_11): GVAR(Item_us_desert_1) {
         displayName = CSTRING(helmet_11_us_desert_displayName);
 
         class TransportItems {
-            class ttt_Helmet_11_us_desert {
-                name = "ttt_Helmet_11_us_desert";
+            class GVAR(11_us_desert) {
+                name = QGVAR(11_US_Desert);
                 count = 1;
             };
         };
     };
 
+    //Legacy classnames - kept as scope=1 aliases so old missions/Eden placements
+    //referencing them by the pre-GVAR name still resolve, without offering them for new use.
+    class ttt_Helmet_item_Buzzard: GVAR(item_Buzzard) { scope = 1; };
+    class ttt_Helmet_item_Buzzard_NVG: GVAR(item_Buzzard_NVG) { scope = 1; };
+    class ttt_Helmet_item_hawk: GVAR(item_hawk) { scope = 1; };
+    class ttt_Helmet_item_Hawk_NVG: GVAR(item_Hawk_NVG) { scope = 1; };
+    class ttt_Helmet_item_Falcon: GVAR(item_Falcon) { scope = 1; };
+    class ttt_Helmet_item_Falcon_NVG: GVAR(item_Falcon_NVG) { scope = 1; };
+    class ttt_Helmet_item_Eagle: GVAR(item_Eagle) { scope = 1; };
+    class ttt_Helmet_item_Eagle_NVG: GVAR(item_Eagle_NVG) { scope = 1; };
+
+    class ttt_Helmet_item_crew_bronze: GVAR(item_crew_bronze) { scope = 1; };
+    class ttt_Helmet_item_crew_grey: GVAR(item_crew_grey) { scope = 1; };
+    class ttt_Helmet_item_crew_silver: GVAR(item_crew_silver) { scope = 1; };
+    class ttt_Helmet_item_crew_yellow: GVAR(item_crew_yellow) { scope = 1; };
+
+    class ttt_Helmet_Item_bw_fleck_1: GVAR(Item_bw_fleck_1) { scope = 1; };
+    class ttt_Helmet_Item_bw_fleck_2: GVAR(Item_bw_fleck_2) { scope = 1; };
+    class ttt_Helmet_Item_bw_fleck_3: GVAR(Item_bw_fleck_3) { scope = 1; };
+    class ttt_Helmet_Item_bw_fleck_4: GVAR(Item_bw_fleck_4) { scope = 1; };
+    class ttt_Helmet_Item_bw_fleck_5: GVAR(Item_bw_fleck_5) { scope = 1; };
+    class ttt_Helmet_Item_bw_fleck_6: GVAR(Item_bw_fleck_6) { scope = 1; };
+    class ttt_Helmet_Item_bw_fleck_7: GVAR(Item_bw_fleck_7) { scope = 1; };
+    class ttt_Helmet_Item_bw_fleck_8: GVAR(Item_bw_fleck_8) { scope = 1; };
+    class ttt_Helmet_Item_bw_fleck_9: GVAR(Item_bw_fleck_9) { scope = 1; };
+    class ttt_Helmet_Item_bw_fleck_10: GVAR(Item_bw_fleck_10) { scope = 1; };
+    class ttt_Helmet_Item_bw_fleck_11: GVAR(Item_bw_fleck_11) { scope = 1; };
+
+    class ttt_Helmet_Item_bw_tropen_1: GVAR(Item_bw_tropen_1) { scope = 1; };
+    class ttt_Helmet_Item_bw_tropen_2: GVAR(Item_bw_tropen_2) { scope = 1; };
+    class ttt_Helmet_Item_bw_tropen_3: GVAR(Item_bw_tropen_3) { scope = 1; };
+    class ttt_Helmet_Item_bw_tropen_4: GVAR(Item_bw_tropen_4) { scope = 1; };
+    class ttt_Helmet_Item_bw_tropen_5: GVAR(Item_bw_tropen_5) { scope = 1; };
+    class ttt_Helmet_Item_bw_tropen_6: GVAR(Item_bw_tropen_6) { scope = 1; };
+    class ttt_Helmet_Item_bw_tropen_7: GVAR(Item_bw_tropen_7) { scope = 1; };
+    class ttt_Helmet_Item_bw_tropen_8: GVAR(Item_bw_tropen_8) { scope = 1; };
+    class ttt_Helmet_Item_bw_tropen_9: GVAR(Item_bw_tropen_9) { scope = 1; };
+    class ttt_Helmet_Item_bw_tropen_10: GVAR(Item_bw_tropen_10) { scope = 1; };
+    class ttt_Helmet_Item_bw_tropen_11: GVAR(Item_bw_tropen_11) { scope = 1; };
+
+    class ttt_Helmet_Item_us_desert_1: GVAR(Item_us_desert_1) { scope = 1; };
+    class ttt_Helmet_Item_us_desert_2: GVAR(Item_us_desert_2) { scope = 1; };
+    class ttt_Helmet_Item_us_desert_3: GVAR(Item_us_desert_3) { scope = 1; };
+    class ttt_Helmet_Item_us_desert_4: GVAR(Item_us_desert_4) { scope = 1; };
+    class ttt_Helmet_Item_us_desert_5: GVAR(Item_us_desert_5) { scope = 1; };
+    class ttt_Helmet_Item_us_desert_6: GVAR(Item_us_desert_6) { scope = 1; };
+    class ttt_Helmet_Item_us_desert_7: GVAR(Item_us_desert_7) { scope = 1; };
+    class ttt_Helmet_Item_us_desert_8: GVAR(Item_us_desert_8) { scope = 1; };
+    class ttt_Helmet_Item_us_desert_9: GVAR(Item_us_desert_9) { scope = 1; };
+    class ttt_Helmet_Item_us_desert_10: GVAR(Item_us_desert_10) { scope = 1; };
+    class ttt_Helmet_Item_us_desert_11: GVAR(Item_us_desert_11) { scope = 1; };
 };
