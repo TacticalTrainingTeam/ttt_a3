@@ -19,7 +19,7 @@
         </Key>
         <Key ID="STR_ttt_Common_PersonalAidKit_DisplayName">
             <English>TTT Personal Aid Kit</English>
-            <German>TTT persönliches Erste-Hilfe-Sett</German>
+            <German>TTT persönliches Erste-Hilfe-Set</German>
         </Key>
         <Key ID="STR_ttt_Common_RackA">
             <English>Radio Circuit A</English>
@@ -103,7 +103,7 @@
         </Key>
         <Key ID="STR_ttt_Common_uav">
             <English>TTT UAV Crate (UAV)</English>
-            <German>TTT Drohenkiste (UAV)</German>
+            <German>TTT Drohnenkiste (UAV)</German>
         </Key>
         <Key ID="STR_ttt_Common_vba">
             <English>TTT Medical Crate (VBA)</English>

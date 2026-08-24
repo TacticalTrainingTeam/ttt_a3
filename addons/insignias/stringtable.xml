@@ -67,7 +67,7 @@
         </Key>
         <Key ID="STR_ttt_Insignias_orange_emblem_displayName">
             <English>TTT Orange Emblem</English>
-            <German>TTT Orange Abezeichen</German>
+            <German>TTT Orange Abzeichen</German>
         </Key>
         <Key ID="STR_ttt_Insignias_orange_large_displayName">
             <English>TTT Orange</English>
@@ -82,7 +82,7 @@
             <German>TTT Platin</German>
         </Key>
         <Key ID="STR_ttt_Insignias_red_crystal_displayName">
-            <English>Red Cystal</English>
+            <English>Red Crystal</English>
             <German>Roter Kristall</German>
         </Key>
         <Key ID="STR_ttt_Insignias_red_emblem_displayName">

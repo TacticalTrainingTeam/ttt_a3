@@ -11,7 +11,7 @@
         </Key>
         <Key ID="STR_ttt_Effects_condensedBreathModule_description">
             <English>An effect is created in front of the players' mouths (not the AI) which imitates moist, exhaled air. However, the effect can't be terminated.</English>
-            <German>Vor den Mündern der Spieler (nicht der KI) entstehet ein Effekt, welcher feuchte, ausatmende Luft immitiert. Der Effekt kann jedoch nicht beendet werden.</German>
+            <German>Vor den Mündern der Spieler (nicht der KI) entsteht ein Effekt, welcher feuchte, ausatmende Luft imitiert. Der Effekt kann jedoch nicht beendet werden.</German>
         </Key>
         <Key ID="STR_ttt_Effects_condensedBreathModule_displayName">
             <English>Create Exhale Effect</English>
@@ -38,8 +38,8 @@
             <German>Dauer</German>
         </Key>
         <Key ID="STR_ttt_Effects_stormModule_duration_tooltip">
-            <English>How long should the storm last (in seconds). (Minumum 60 seconds)</English>
-            <German>Wie lange soll der Sturm andauern (in Sekunden). (Minumum 60 Sekunden)</German>
+            <English>How long should the storm last (in seconds). (Minimum 60 seconds)</English>
+            <German>Wie lange soll der Sturm andauern (in Sekunden). (Minimum 60 Sekunden)</German>
         </Key>
         <Key ID="STR_ttt_Effects_stormModule_effect_displayName">
             <English>Effect on Objects</English>

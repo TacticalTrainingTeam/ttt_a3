@@ -3,7 +3,7 @@
     <Package name="Counterari">
         <Key ID="STR_ttt_Counterari_registerEnemyAriModule_description">
             <English>Synchronized Objects are added to the pool of enemy artillery that will fire on friendly artillery. There can only be one module.</English>
-            <German>Synchronisierte Objekte werden der Gruppe feindlicher Artillery hinzugefügt, welche auf freundliches Artilleriefreuer feuert. Es kann nur ein Modul geben.</German>
+            <German>Synchronisierte Objekte werden der Gruppe feindlicher Artillerie hinzugefügt, welche auf freundliches Artilleriefeuer feuert. Es kann nur ein Modul geben.</German>
         </Key>
         <Key ID="STR_ttt_Counterari_registerEnemyAriModule_displayName">
             <English>Counterbattery - Enemy Artillery</English>
