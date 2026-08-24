@@ -3,15 +3,15 @@
     <Package name="W_Shields">
         <Key ID="STR_ttt_W_Shields_buildingShieldAction_displayName">
             <English>Add Buildingshield</English>
-            <German>Buildingshield hinzufügen</German>
+            <German>Gebäudeschild hinzufügen</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_buildingShieldAttribute_displayName">
             <English>BuildingShield</English>
-            <German>BuildingShield</German>
+            <German>Gebäudeschild</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_buildingShieldAttribute_tooltip">
             <English>Adds the BuildingShield from the Gruppe W Framework to the object.</English>
-            <German>Fügt dem Objekt das BuildingShield aus dem Gruppe W Framework hinzu.</German>
+            <German>Fügt dem Objekt das Gebäudeschild aus dem Gruppe W Framework hinzu.</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_buildingShieldModule_description">
             <English>The marked building receives a Building Shield, which prevents its structure from being destroyed.</English>
@@ -79,11 +79,11 @@
         </Key>
         <Key ID="STR_ttt_W_Shields_hintBuildingShieldAdded">
             <English>Buildingshield added.</English>
-            <German>Buildingshield hinzugefügt.</German>
+            <German>Gebäudeschild hinzugefügt.</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_hintVehicleShieldAdded">
             <English>Vehicleshield added.</English>
-            <German>Vehicleshield hinzugefügt.</German>
+            <German>Fahrzeugschild hinzugefügt.</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_popWindowsAttribute_displayName">
             <English>Break windows</English>
@@ -95,15 +95,15 @@
         </Key>
         <Key ID="STR_ttt_W_Shields_vehicleShieldAction_displayName">
             <English>Add Vehicleshield</English>
-            <German>Vehicleshield hinzufügen</German>
+            <German>Fahrzeugschild hinzufügen</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_vehicleShieldAttribute_displayName">
             <English>VehicleShield</English>
-            <German>VehicleShield</German>
+            <German>Fahrzeugschild</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_vehicleShieldAttribute_tooltip">
             <English>Adds the VehicleShield from the Gruppe W Framework to the vehicle.</English>
-            <German>Fügt dem Fahrzeug das VehicleShield aus dem Gruppe W Framework hinzu.</German>
+            <German>Fügt dem Fahrzeug das Fahrzeugschild aus dem Gruppe W Framework hinzu.</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_zenCategory_displayName">
             <English>TTT - W-Shields</English>
