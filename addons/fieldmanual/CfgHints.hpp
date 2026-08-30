@@ -31,7 +31,7 @@ class CfgHints {
             displayName = CSTRING(cas_jtac_displayName);
             displayNameShort = CSTRING(cas_jtac_displayNameShort);
             description = CSTRING(cas_jtac_description);
-            tip = "<a href='https://wiki.tacticalteam.de/de/Handbuch/Luftstreitkr%C3%A4fte/Close-Air-Support'>Wiki</a>";
+            tip = "<a href='https://wiki.tacticalteam.de/de/Handbuch/Luftstreitkr%%C3%%A4fte/Close-Air-Support'>Wiki</a>";
         };
 
         class GVAR(fo_fdcb): GVAR(base) {
@@ -39,7 +39,7 @@ class CfgHints {
             displayName = CSTRING(fo_displayName);
             displayNameShort = CSTRING(fo_displayNameShort);
             description = CSTRING(fo_description);
-            tip = "<a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%C3%BCtzungskr%C3%A4fte/FO'>FO</a> | <a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%C3%BCtzungskr%C3%A4fte/Artillerie/FDCB'>FDCB</a>";
+            tip = "<a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%%C3%%BCtzungskr%%C3%%A4fte/FO'>FO</a> | <a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%%C3%%BCtzungskr%%C3%%A4fte/Artillerie/FDCB'>FDCB</a> | <a href='https://artillerie.addi995.de/'>Artillerie-Rechner</a>";
         };
 
         class GVAR(scharfschuetzen): GVAR(base) {
@@ -47,7 +47,7 @@ class CfgHints {
             displayName = CSTRING(sniper_displayName);
             displayNameShort = CSTRING(sniper_displayNameShort);
             description = CSTRING(sniper_description);
-            tip = "<a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%C3%BCtzungskr%C3%A4fte/Scharfsch%C3%BCtzen'>Wiki</a>";
+            tip = "<a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%%C3%%BCtzungskr%%C3%%A4fte/Scharfsch%%C3%%BCtzen'>Wiki</a>";
         };
 
         class GVAR(pioniere_demin): GVAR(base) {
@@ -55,7 +55,7 @@ class CfgHints {
             displayName = CSTRING(pioniere_demin_displayName);
             displayNameShort = CSTRING(pioniere_demin_displayNameShort);
             description = CSTRING(pioniere_demin_description);
-            tip = "<a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%C3%BCtzungskr%C3%A4fte/Pioniere'>Pioniere</a> | <a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%C3%BCtzungskr%C3%A4fte/Pioniere/Kampfmittelbeseitigung'>EOD</a> | <a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%C3%BCtzungskr%C3%A4fte/Pioniere/Minensperre-%C3%B6ffnen'>Minensperre</a>";
+            tip = "<a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%%C3%%BCtzungskr%%C3%%A4fte/Pioniere'>Pioniere</a> | <a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%%C3%%BCtzungskr%%C3%%A4fte/Pioniere/Kampfmittelbeseitigung'>EOD</a> | <a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%%C3%%BCtzungskr%%C3%%A4fte/Pioniere/Minensperre-%%C3%%B6ffnen'>Minensperre</a>";
         };
 
         class GVAR(logistik): GVAR(base) {
@@ -63,7 +63,7 @@ class CfgHints {
             displayName = CSTRING(logistik_displayName);
             displayNameShort = CSTRING(logistik_displayNameShort);
             description = CSTRING(logistik_description);
-            tip = "<a href='https://wiki.tacticalteam.de/de/Handbuch/Nachschubkr%C3%A4fte/Logistik'>Wiki</a>";
+            tip = "<a href='https://wiki.tacticalteam.de/de/Handbuch/Nachschubkr%%C3%%A4fte/Logistik'>Wiki</a>";
         };
 
         class GVAR(luftbeweglich): GVAR(base) {
