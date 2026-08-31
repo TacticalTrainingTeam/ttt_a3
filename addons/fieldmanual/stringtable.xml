@@ -1,25 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Fieldmanual">
-        <Key ID="STR_ttt_Fieldmanual_category_displayName">
-            <English>TTT Field Manual</English>
-            <German>TTT Feldhandbuch</German>
-        </Key>
-        <Key ID="STR_ttt_Fieldmanual_infantry_displayName">
-            <English>Infantry</English>
-            <German>Infanterie</German>
-        </Key>
         <Key ID="STR_ttt_Fieldmanual_armoured_warfare_displayName">
             <English>Armoured Warfare</English>
             <German>Panzertruppe</German>
-        </Key>
-        <Key ID="STR_ttt_Fieldmanual_combat_support_displayName">
-            <English>Combat Support</English>
-            <German>Kampfunterstützung</German>
-        </Key>
-        <Key ID="STR_ttt_Fieldmanual_logistics_displayName">
-            <English>Logistics</English>
-            <German>Logistik</German>
         </Key>
         <Key ID="STR_ttt_Fieldmanual_cas_jtac_description">
             <English>%3JTAC CAS Quick Guide%4 for practical execution in mission.&lt;br/&gt;&lt;br/&gt;%2%3Before tasking aircraft%4&lt;br/&gt;%11Open channel and request %3Check-In%4: aircraft type, current position, weapons, %3TOS%4&lt;br/&gt;%11Define %3IP/BP%4 and expected %3holding area%4&lt;br/&gt;%11Know own positions and no-fire constraints before any attack run&lt;br/&gt;&lt;br/&gt;%2%3Build and send 9-Liner%4&lt;br/&gt;%11(1) IP/BP&lt;br/&gt;%11(2) Heading&lt;br/&gt;%11(3) Distance&lt;br/&gt;%11(4) Elevation&lt;br/&gt;%11(5) Description&lt;br/&gt;%11(6) Location&lt;br/&gt;%11(7) Type Mark&lt;br/&gt;%11(8) Friendlies&lt;br/&gt;%11(9) Egress&lt;br/&gt;%11State weapon restrictions in %3Remarks%4 when required&lt;br/&gt;&lt;br/&gt;%2%3Marking and friendlies%4&lt;br/&gt;%11Use clear marks (%3Laser%4 / %3Smoke%4 / None) and tell the pilot exactly what to expect&lt;br/&gt;%11For %3Danger Close%4, own troops must be clearly marked and reported&lt;br/&gt;%11If no own troops are relevant: report %3No Factor%4&lt;br/&gt;&lt;br/&gt;%2%3Attack control calls%4&lt;br/&gt;%11Pilot at IP/BP: %3Inbound%4 - respond with %3Continue%4 or %3Abort%4&lt;br/&gt;%11Pilot sees mark: %3Spot%4, cannot identify: %3No Spot%4&lt;br/&gt;%11Pilot ready to fire: %3Tally%4, then JTAC gives %3Cleared Hot%4&lt;br/&gt;%11If no clearance is given, attack is aborted via egress&lt;br/&gt;&lt;br/&gt;%2%3After effects / next run%4&lt;br/&gt;%11Give quick %3BDA%4 (Hit / Miss, remaining threats)&lt;br/&gt;%11Decide %3Reattack%4 or hold at IP/BP&lt;br/&gt;%11Update 9-Liner whenever target, friendlies, mark or weapon plan changes&lt;br/&gt;&lt;br/&gt;%2Golden rule: %3No visual identification, no release%4.</English>
@@ -32,6 +16,14 @@
         <Key ID="STR_ttt_Fieldmanual_cas_jtac_displayNameShort">
             <English>First There.</English>
             <German>First There.</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_category_displayName">
+            <English>TTT Field Manual</English>
+            <German>TTT Feldhandbuch</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_combat_support_displayName">
+            <English>Combat Support</English>
+            <German>Kampfunterstützung</German>
         </Key>
         <Key ID="STR_ttt_Fieldmanual_fo_description">
             <English>%3FO Quick Guide%4 for practical indirect fire support.&lt;br/&gt;&lt;br/&gt;%2%3Before calling fire%4&lt;br/&gt;%11Clarify mission intent with leadership and define desired effect&lt;br/&gt;%11Select firing position(s), resupply status and comms with gun line&lt;br/&gt;%11Confirm map/grid system and elevation source used by both sides&lt;br/&gt;&lt;br/&gt;%2%3Send FDCB (7 lines)%4&lt;br/&gt;%11(1) Type: %3I%4 = fire on readiness, %3II%4 = fire on command, %3III%4 = timed impact&lt;br/&gt;%11(2) Attack: point / line / area&lt;br/&gt;%11(3) Coordinate: minimum 8-digit&lt;br/&gt;%11(4) Elevation (ASL)&lt;br/&gt;%11(5) Round count&lt;br/&gt;%11(6) Ammunition type&lt;br/&gt;%11(7) Remarks&lt;br/&gt;%11Number fire missions so repeats and sequencing are clear&lt;br/&gt;&lt;br/&gt;%2%3Adjustments and control%4&lt;br/&gt;%11Observe impact and correct quickly (direction / range / add-drop)&lt;br/&gt;%11Use Type II when you need controlled release timing&lt;br/&gt;%11Use remarks for timing and sequencing (e.g. simultaneous or delayed execution)&lt;br/&gt;&lt;br/&gt;%2%3Ammo and effect choice%4&lt;br/&gt;%11%3HE%4 for general effects and hard suppression&lt;br/&gt;%11%3Proximity/airburst%4 for infantry in open terrain&lt;br/&gt;%11%3Smoke%4 for screening or marking&lt;br/&gt;%11%3Illumination%4 for night visibility&lt;br/&gt;&lt;br/&gt;%2%3Safety and follow-up%4&lt;br/&gt;%11Never fire without confirmed friendlies/no-fire awareness around target area&lt;br/&gt;%11After each volley: report effect, request %3Re-Attack%4 if needed, send updated situation&lt;br/&gt;%11Stop or shift fire immediately when friendly movement changes&lt;br/&gt;&lt;br/&gt;%2Golden rule: %3Precision first, volume second%4.</English>
@@ -56,6 +48,14 @@
         <Key ID="STR_ttt_Fieldmanual_hubschrauber_inf_displayNameShort">
             <English>Night Stalkers Don't Quit!</English>
             <German>Night Stalkers Don't Quit!</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_infantry_displayName">
+            <English>Infantry</English>
+            <German>Infanterie</German>
+        </Key>
+        <Key ID="STR_ttt_Fieldmanual_logistics_displayName">
+            <English>Logistics</English>
+            <German>Logistik</German>
         </Key>
         <Key ID="STR_ttt_Fieldmanual_logistik_description">
             <English>%3Logistics Quick Guide%4 for practical mission support.&lt;br/&gt;&lt;br/&gt;%2%3Core priorities%4&lt;br/&gt;%11%3Self-protection first%4, then %3people before material%4&lt;br/&gt;%11Logistics avoids combat and aborts when transport risk is too high&lt;br/&gt;%11Keep material tracked and protected against loss or misuse&lt;br/&gt;&lt;br/&gt;%2%3Send 5-Liner for every order%4&lt;br/&gt;%11(0) Number&lt;br/&gt;%11(1) Location&lt;br/&gt;%11(2) Heading&lt;br/&gt;%11(3) Receiver&lt;br/&gt;%11(4) Task&lt;br/&gt;%11(5) Remarks/Marking&lt;br/&gt;%11Transmit with pauses, require readback, fix gaps immediately&lt;br/&gt;%11Use stable place names for whole mission; new location means new name&lt;br/&gt;&lt;br/&gt;%2%3Execution modes%4&lt;br/&gt;%11Ground: delivery with handover, with remain, or forward staging point&lt;br/&gt;%11Air: primarily handover only, minimum time on ground, abort if LZ not ready&lt;br/&gt;%11Mixed: air to LZ, then ground from LZ to VP near own troops&lt;br/&gt;&lt;br/&gt;%2%3Radio and handover discipline%4&lt;br/&gt;%11Open supply net at mission start and confirm readiness/material status&lt;br/&gt;%11On approach, announce in time so receiver secures VP/LZ and marks properly&lt;br/&gt;%11After handover, report order completion and updated stock/location status&lt;br/&gt;&lt;br/&gt;%2%3Practical load management%4&lt;br/&gt;%11Use standardized crate names/abbreviations (e.g. VBT, VBA, Inf Mun, Fhz Mun)&lt;br/&gt;%11If available, use crate renaming and cargo-pack tools to reduce loading errors&lt;br/&gt;%11Keep map/list overview so backup leader can continue without full recount&lt;br/&gt;&lt;br/&gt;%2Golden rule: %3Reliable process beats fast improvisation%4.</English>
