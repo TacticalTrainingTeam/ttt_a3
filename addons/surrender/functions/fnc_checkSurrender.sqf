@@ -9,7 +9,7 @@
  * 2: Module activation state <BOOL>
  *
  * Return Value:
- * Per-frame handler ID on activation, nil on deactivation <NUMBER>
+ * Per-frame handler ID on activation, nil on deactivation <NUMBER | NIL>
  *
  * Example:
  * [logic, [], true] call ttt_surrender_fnc_checkSurrender
@@ -37,7 +37,7 @@ private _friendlySideClass = _logic getVariable [QGVAR(FriendlySide), 1];
 private _chance = _logic getVariable [QGVAR(SurrenderChance), 0.5];
 private _ratio = _logic getVariable [QGVAR(OutnumberRatio), 2];
 private _rawArea = triggerArea _logic;
-private _area = if (_rawArea isEqualTo []) then {[50, 50, 0, false, -1]} else {_rawArea + [-1]};
+private _area = if (_rawArea isEqualTo []) then {[100, 100, 0, false, -1]} else {_rawArea + [-1]};
 private _logicPos = getPosASL _logic;
 private _dropWeapon = _logic getVariable [QGVAR(DropWeapon), false];
 
