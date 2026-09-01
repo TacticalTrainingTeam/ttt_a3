@@ -59,7 +59,7 @@ private _types = [
         format [QGVAR(type_%1), _type],
         _displayName,
         _typeIcon,
-        compile format [
+        compile format [ //we use_caller instead of _target in the call, because the caller is always near the target and this provides a spawn closes to the player
             'params ["_target", "_caller"]; [QGVAR(spawnCrateRequest), [_caller, "%1", clientOwner, _target]] call CBA_fnc_serverEvent;',
             _type
         ],
