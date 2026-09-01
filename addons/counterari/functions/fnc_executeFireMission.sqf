@@ -37,6 +37,7 @@ private _allShots = 0;
         //Get the right ammo, ever artillery should have HE at first magazine
         //Doesent work for mortar with ACE
         private _ammo = getArtilleryAmmo [_x] select 0;
+        if (_ammo == [""]) then {continue;}; //Ari has no ammo left, lets skip
 
         //Call the firemission function random delayed for each Arty via CBA
         [
