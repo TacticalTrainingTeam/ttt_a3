@@ -54,7 +54,7 @@ if (isNil QGVAR(breathHandlersInit)) then {
 
         _unit addMPEventHandler ["MPKilled", {                                                                            // EH will trigger globally only once per client
             params ["_unit"];
-            deleteVehicle (_unit getVariable QGVAR(breathParticle));                                                // delete effect for every player
+            deleteVehicle (_unit getVariable [QGVAR(breathParticle), objNull]);                                        // delete effect for every player
             _unit setVariable [QGVAR(breathParticle), nil, false];
         }];
     }
