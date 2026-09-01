@@ -17,7 +17,7 @@
 * Public: Yes
 */
 
-if (isDedicated) exitWith {[[], FUNC(condensedBreathInit)] remoteExec ["call", -2, true]};
+if (isDedicated) exitWith {};
 
 // add player-scoped EHs once per machine, regardless of how many times this function is re-run
 if (isNil QGVAR(breathHandlersInit)) then {
@@ -25,7 +25,7 @@ if (isNil QGVAR(breathHandlersInit)) then {
 
     player addMPEventHandler ["MPRespawn", {                                                                        // Only triggered where the unit is local
         params ["_unit"];
-        [[_unit], FUNC(condensedBreathEffects)] remoteExec ["call", ([0, -2] select isDedicated), true];    // re-add effect for every player
+        [QGVAR(condensedBreathEffects), [_unit]] call CBA_fnc_globalEvent;    // re-add effect for every player
     }];
 
     ["featureCamera", {
@@ -33,7 +33,7 @@ if (isNil QGVAR(breathHandlersInit)) then {
         if ((_cameraMode == "") && !(isObjectHidden _entity)) then {
             [_entity] call FUNC(condensedBreathEffects);                                                    // re-add effect for self if not hidden
         } else {
-            deleteVehicle (_entity getVariable QGVAR(breathParticle));                                        // delete effect when in Zeus (can't detect visibility triggered)
+            deleteVehicle (_entity getVariable [QGVAR(breathParticle), objNull]);                                // delete effect when in Zeus (can't detect visibility triggered)
             _entity setVariable [QGVAR(breathParticle), nil, false];
         };
     }] call CBA_fnc_addPlayerEventHandler;
@@ -49,7 +49,7 @@ if (isNil QGVAR(breathHandlersInit)) then {
 
         _unit addEventHandler ["Deleted", {
             params ["_entity"];
-            deleteVehicle (_entity getVariable QGVAR(breathParticle));
+            deleteVehicle (_entity getVariable [QGVAR(breathParticle), objNull]);
         }];
 
         _unit addMPEventHandler ["MPKilled", {                                                                            // EH will trigger globally only once per client

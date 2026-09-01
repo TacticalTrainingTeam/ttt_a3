@@ -51,7 +51,7 @@ private _allEntities = allUnits + vehicles;
 	_x setVariable [QGVAR(stormSkillRebalance), true, false];
 	private _aiUnit = _x;
 	{
-		[_aiUnit, [_x, ((_aiUnit skill _x) * 0.25)]] remoteExec ["setSkill", (owner _aiUnit), false];
+		[QGVAR(setSkill), [_aiUnit, _x, ((_aiUnit skill _x) * 0.25)], _aiUnit] call CBA_fnc_targetEvent;
 	} forEach ["aimingAccuracy", "aimingShake", "aimingSpeed", "spotDistance"];
 } forEach (allUnits - allPlayers);
 
@@ -67,7 +67,7 @@ private _allEntities = allUnits + vehicles;
 			if (_x getVariable [QGVAR(stormSkillRebalance), false]) then {
 				private _aiUnit = _x;
 				{
-					[_aiUnit, [_x, ((_aiUnit skill _x) / 0.25)]] remoteExec ["setSkill", (owner _aiUnit), false];
+					[QGVAR(setSkill), [_aiUnit, _x, ((_aiUnit skill _x) / 0.25)], _aiUnit] call CBA_fnc_targetEvent;
 				} forEach ["aimingAccuracy", "aimingShake", "aimingSpeed", "spotDistance"];
 			};
 		} forEach (allUnits - allPlayers);
@@ -95,13 +95,17 @@ private _allEntities = allUnits + vehicles;
 			private _effectedObject = selectRandom _entities;
 			if ((_effectedObject isKindOf "LandVehicle") || (_effectedObject isKindOf "Man") || (_effectedObject isKindOf "Air") || (_effectedObject isKindOf "Wreck")) then {
 				[
-					_effectedObject, 
+					QGVAR(setVelocity),
 					[
-						((velocity _effectedObject) select 0) + (0.15 * (2500 / ((getMass _effectedObject) + 2000)) * (wind select 0)),
-						((velocity _effectedObject) select 1) + (0.15 * (2500 / ((getMass _effectedObject) + 2000)) * (wind select 1)),
-						((velocity _effectedObject) select 2)
-					]
-				] remoteExec ["setVelocity", (owner _effectedObject), false];
+						_effectedObject,
+						[
+							((velocity _effectedObject) select 0) + (0.15 * (2500 / ((getMass _effectedObject) + 2000)) * (wind select 0)),
+							((velocity _effectedObject) select 1) + (0.15 * (2500 / ((getMass _effectedObject) + 2000)) * (wind select 1)),
+							((velocity _effectedObject) select 2)
+						]
+					],
+					_effectedObject
+				] call CBA_fnc_targetEvent;
 			};
 		};
 	},
@@ -109,5 +113,5 @@ private _allEntities = allUnits + vehicles;
 	[_endTime, _directionDuststorm, _durationDuststorm, _effectOnObjects, _allEntities]
 ] call CBA_fnc_addPerFrameHandler;
 
-[[_endTime, _stormType, _walk], FUNC(stormEffects)] remoteExec ["call", ([0, -2] select isDedicated), true];
+[QGVAR(stormEffects), [_endTime, _stormType, _walk]] call CBA_fnc_globalEventJIP;
 [_endTime, _directionDuststorm];
