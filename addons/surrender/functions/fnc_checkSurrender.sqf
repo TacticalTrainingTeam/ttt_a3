@@ -29,6 +29,7 @@ if (!_activated) exitWith {
     private _existingPfhID = _logic getVariable [QGVAR(pfhID), -1];
     if (_existingPfhID != -1) then {
         _existingPfhID call CBA_fnc_removePerFrameHandler;
+        _logic setVariable[QGVAR(pfhID), -1];
     };
 };
 
@@ -107,6 +108,6 @@ private _pfhID = [
     [_enemySide, _friendlySide, _chance, _ratio, _logic, _area, _logicPos, _dropWeapon]
 ] call CBA_fnc_addPerFrameHandler;
 
-_logic setVariable [QGVAR(pfhID), _pfhID, true];
+_logic setVariable [QGVAR(pfhID), _pfhID];
 
 _pfhID
