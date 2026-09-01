@@ -4,7 +4,7 @@ ADDON = false;
 
 // Initialise early so a Zeus/3DEN-placed module firing before postInit's
 // scanLoadouts runs doesn't hit an undefined variable. Keyed by crate type
-// ("ammo", "grenades", "at", "explosives", "support") -> [classname, count] array.
+// ("ammo", "grenades", "at", "explosives", "support") -> array of [classname, count] pairs.
 GVAR(db)      = createHashMap;
 GVAR(db_init) = false;
 

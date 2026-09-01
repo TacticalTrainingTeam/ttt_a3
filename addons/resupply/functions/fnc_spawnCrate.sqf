@@ -59,6 +59,7 @@ if (!isServer) exitWith { objNull };
 // of aborting it.
 if (_target isEqualType objNull && { isNull _target }) exitWith {
     WARNING("spawnCrate called with null object");
+    objNull
 };
 
 // Resolve the reference position to search for empty space around
