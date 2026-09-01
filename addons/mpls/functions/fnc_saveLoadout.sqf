@@ -6,6 +6,8 @@
  * Arguments:
  * 0: PLAYER <OBJECT>
  * 1: UID <STRING> (default: "")
+ * 2: Update Diary <BOOL> (default: true; set false for saves that shouldn't overwrite the
+ *    player-visible "saved loadout" diary entry, e.g. a curator-triggered snapshot save)
  *
  * Return Value:
  * Success <BOOL>
@@ -18,7 +20,8 @@
 
 params [
     "_player",
-    ["_uid", "", [""]]
+    ["_uid", "", [""]],
+    ["_updateDiary", true, [true]]
     ];
 private _isZeus = !isNull (findDisplay 312);
 
@@ -34,7 +37,9 @@ private _loadout = [_player] call CBA_fnc_getLoadout;
 
 GVAR(loadoutNamespace) setVariable [_uid, _loadout, true];
 
-[_loadout] call FUNC(updateDiary);
+if (_updateDiary) then {
+    [_loadout] call FUNC(updateDiary);
+};
 
 INFO_2("Loadout Saved for player %1 is %2",_player,_loadout);
 

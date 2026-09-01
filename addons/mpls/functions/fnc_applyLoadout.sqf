@@ -8,7 +8,7 @@
  * 1: UID <STRING> (default: "", falls back to getPlayerUID _player)
  *
  * Return Value:
- * 0: Sucess <BOOL>
+ * 0: Success <BOOL>
  *
  * Example:
  * [this] call ttt_mpls_fnc_applyLoadout

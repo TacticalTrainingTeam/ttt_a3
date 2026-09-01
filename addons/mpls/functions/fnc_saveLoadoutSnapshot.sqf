@@ -22,4 +22,6 @@ params ["_player"];
 
 private _uid = [getPlayerUID _player, "_snapshot"] joinString "";
 
-[_player, _uid] call FUNC(saveLoadout)
+// _updateDiary = false: a snapshot save must not overwrite the player-visible "saved loadout"
+// diary entry, since it doesn't touch their regular persisted/auto-saved slot.
+[_player, _uid, false] call FUNC(saveLoadout)

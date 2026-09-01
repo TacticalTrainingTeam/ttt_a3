@@ -29,20 +29,22 @@ private _category = [
 private _categoryPath = [_category] call zen_context_menu_fnc_addAction;
 
 // Shared by all three actions below - all target the player under the cursor.
-private _condition = { !isNull _hoveredEntity && {_hoveredEntity isKindOf "CAManBase"} && {getPlayerUID _hoveredEntity != ""} };
+// ZEN calls condition/statement code with ACTION_PARAMS = [_position, _objects, _groups,
+// _waypoints, _markers, _hoveredEntity, _args], so _hoveredEntity must be extracted from index 5.
+private _condition = {
+    params ["", "", "", "", "", "_hoveredEntity"];
+    !isNull _hoveredEntity && {_hoveredEntity isKindOf "CAManBase"} && {getPlayerUID _hoveredEntity != ""}
+};
 
 private _revertLoadout = [
     QGVAR(zenRevertLoadout),
     LLSTRING(zenRevertLoadout),
     _icon,
     {
+        params ["", "", "", "", "", "_hoveredEntity"];
         INFO_1("ZEN revert-loadout action triggered on %1",_hoveredEntity);
-        if (getPlayerUID _hoveredEntity != "") then {
-            systemChat format [LLSTRING(zenRevertRequested), name _hoveredEntity];
-            [QGVAR(doApplyFirstLoadout), [_hoveredEntity], _hoveredEntity] call CBA_fnc_targetEvent;
-        } else {
-            systemChat LLSTRING(zenRevertNoTarget);
-        };
+        systemChat format [LLSTRING(zenRevertRequested), name _hoveredEntity];
+        [QGVAR(doApplyFirstLoadout), [_hoveredEntity], _hoveredEntity] call CBA_fnc_targetEvent;
     },
     _condition
 ] call zen_context_menu_fnc_createAction;
@@ -54,6 +56,7 @@ private _saveSnapshot = [
     LLSTRING(zenSaveSnapshot),
     _icon,
     {
+        params ["", "", "", "", "", "_hoveredEntity"];
         INFO_1("ZEN save-snapshot action triggered on %1",_hoveredEntity);
         systemChat format [LLSTRING(zenSnapshotSaveRequested), name _hoveredEntity];
         [QGVAR(doSaveSnapshot), [_hoveredEntity], _hoveredEntity] call CBA_fnc_targetEvent;
@@ -68,6 +71,7 @@ private _restoreSnapshot = [
     LLSTRING(zenRestoreSnapshot),
     _icon,
     {
+        params ["", "", "", "", "", "_hoveredEntity"];
         INFO_1("ZEN restore-snapshot action triggered on %1",_hoveredEntity);
         systemChat format [LLSTRING(zenSnapshotRestoreRequested), name _hoveredEntity];
         [QGVAR(doApplyLoadoutSnapshot), [_hoveredEntity], _hoveredEntity] call CBA_fnc_targetEvent;
