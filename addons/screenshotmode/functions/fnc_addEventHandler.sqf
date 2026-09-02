@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 
 /*
- * Authors: You
+ * Authors: derZade, Andx
  * Toggles the Display of various Displayelements.
  * - ACE UI Elements are handled by ACE
  * - DUI is handled by ACE

@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 
 /*
- * Author: Nobody ©, Andx
+ * Author: Nobody, Andx
  * Creates an object to add the teleporter and camera action to
  *
  * Arguments:
@@ -21,7 +21,7 @@ if (!GVAR(enableTeleport)) exitWith { (INFO("Teleporter disabled"));};
 
 INFO("Checking for Respawn");
 
-// check if "respawn" marker exists 
+// check if "respawn" marker exists
 // if not, create on at the corner of the map
 if (getMarkerColor "respawn" == "") then {
     INFO("No Respawn found, creating");
@@ -46,4 +46,3 @@ if (isNil QGVAR(teleporter)) then {
 
 //add Actions
 [GVAR(teleporter)] call FUNC(addActions);
-
