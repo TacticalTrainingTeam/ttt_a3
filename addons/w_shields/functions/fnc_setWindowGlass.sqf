@@ -28,7 +28,7 @@ params [
 if (isNull _target) exitWith {};
 
 private _allHP = (getAllHitPointsDamage _target) select 0;
-private _damage = if (_broken) then {1} else {0};
+private _damage = parseNumber _broken;
 
 {
     if (("glass" in _X) || {"window" in _X}) then { _target setHitPointDamage [_X, _damage, false] };
