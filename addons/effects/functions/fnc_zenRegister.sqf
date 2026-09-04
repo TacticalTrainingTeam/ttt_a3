@@ -16,7 +16,7 @@
 */
 
 [CSTRING(category_effects), CSTRING(condensedBreathModule_displayName), {
-    [[], ttt_effects_fnc_condensedBreathInit] remoteExec ["call", ([0, -2] select isDedicated), true];
+    [QGVAR(condensedBreathInit), []] call CBA_fnc_globalEventJIP;
 }, "\a3\Modules_F_Curator\Data\portraitSmoke_ca.paa"] call zen_custom_modules_fnc_register;
 
 [CSTRING(category_environment), CSTRING(stormModule_displayName), {
@@ -52,7 +52,7 @@
         {
             params ["_returnValues"];
             _returnValues params ["_duration", "_effect", "_stormType", "_walk", "_direction"];
-            [[_duration, _effect, _stormType, _walk, _direction], ttt_effects_fnc_stormInit] remoteExec ["call", 0, true];
+            [QGVAR(stormInit), [_duration, _effect, _stormType, _walk, _direction]] call CBA_fnc_serverEvent;
         }
     ] call zen_dialog_fnc_create;
 }, "\a3\Modules_F_Curator\Data\portraitWeather_ca.paa"] call zen_custom_modules_fnc_register;
