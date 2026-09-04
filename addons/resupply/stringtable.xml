@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Resupply">
+        <Key ID="STR_ttt_Resupply_action_markDepot">
+            <English>Mark as Resupply Depot</English>
+            <German>Als Nachschub-Depot markieren</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_action_resupply_menu">
+            <English>Resupply</English>
+            <German>Nachschub</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_action_unmarkDepot">
+            <English>Unmark as Resupply Depot</English>
+            <German>Nachschub-Depot-Markierung entfernen</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_databaseEmpty">
+            <English>Resupply: Database not ready yet. Wait a moment and try again.</English>
+            <German>Nachschub: Datenbank noch nicht bereit. Kurz warten und erneut versuchen.</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_faction_description">
+            <English>Side whose ammo box classes are used for spawned crates (does not affect medical crates).</English>
+            <German>Fraktion, deren Munitionskisten-Klassen für gespawnte Kisten verwendet werden (betrifft keine Sanitätskisten).</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_faction_displayName">
+            <English>Crate Faction</English>
+            <German>Kistenfraktion</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_faction_indep">
+            <English>INDEP</English>
+            <German>INDEP</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_faction_nato">
+            <English>NATO</English>
+            <German>NATO</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_faction_opfor">
+            <English>OPFOR</English>
+            <German>OPFOR</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_hintDepotMarked">
+            <English>Object marked as resupply depot.</English>
+            <German>Objekt als Nachschub-Depot markiert.</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_hintDepotUnmarked">
+            <English>Resupply depot marking removed.</English>
+            <German>Nachschub-Depot-Markierung entfernt.</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_limitExhausted">
+            <English>Resupply: No more %1 left at this depot.</English>
+            <German>Nachschub: Keine %1 mehr an diesem Depot verfügbar.</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_quantityMultiplier_description">
+            <English>Multiplier applied to the per-player average quantity of each item in the crate. 1.0 = one player worth.</English>
+            <German>Multiplikator für die durchschnittliche Menge pro Spieler jedes Gegenstands in der Kiste. 1.0 = Ausrüstung eines Spielers.</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_quantityMultiplier_displayName">
+            <English>Quantity Multiplier</English>
+            <German>Mengenmultiplikator</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_spawnFailed">
+            <English>Resupply: Failed to spawn %1 crate. Please report this to server admins.</English>
+            <German>Nachschub: Kiste %1 konnte nicht erstellt werden. Bitte den Server-Admins melden.</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_spawnPointClass_description">
+            <English>Classname of the object mission makers can place near a depot or Zeus module for a predictable, always-in-the-same-spot crate placement (see documentation).</English>
+            <German>Klassenname des Objekts, das Missionsbauer in der Nähe eines Depots oder Zeus-Moduls platzieren können, um eine vorhersagbare, immer gleichbleibende Kistenposition zu erhalten (siehe Dokumentation).</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_spawnPointClass_displayName">
+            <English>Spawn Point Object Class</English>
+            <German>Spawnpunkt-Objektklasse</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_spawnSpotOccupied">
+            <English>Resupply: Spawn point is already occupied by another crate.</English>
+            <German>Nachschub: Spawnpunkt ist bereits von einer anderen Kiste belegt.</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_spawnSuccess">
+            <English>%1 spawned (%2 left)</English>
+            <German>%1 erstellt (%2 übrig)</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_subCategory">
+            <English>Resupply</English>
+            <German>Nachschub</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_typeEmpty">
+            <English>Resupply: No %1 found among players. Crate was not spawned.</English>
+            <German>Nachschub: Keine %1 bei Spielern gefunden. Kiste wurde nicht erstellt.</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_type_ammo">
+            <English>Ammo Box</English>
+            <German>Munitionskiste</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_type_at">
+            <English>AT Ammunition Box</English>
+            <German>Panzerabwehrkiste</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_type_explosives">
+            <English>Explosives Box</English>
+            <German>Sprengstoffkiste</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_type_grenades">
+            <English>Grenades Box</English>
+            <German>Granatenkiste</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_type_medical_alpha">
+            <English>Medical Alpha Box</English>
+            <German>Sanitätskiste Alpha</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_type_medical_bravo">
+            <English>Medical Bravo Box</English>
+            <German>Sanitätskiste Bravo</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_type_medical_charlie">
+            <English>Medical Charlie Box</English>
+            <German>Sanitätskiste Charlie</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_type_support">
+            <English>Support Box</English>
+            <German>Ausrüstungskiste</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_unlimited">
+            <English>unlimited</English>
+            <German>unbegrenzt</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_zenCategory_displayName">
+            <English>TTT - Resupply</English>
+            <German>TTT - Nachschub</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_zeusModule_description">
+            <English>Spawns a resupply crate of this type at the module's position.</English>
+            <German>Erstellt an der Position des Moduls eine Nachschubkiste dieses Typs.</German>
+        </Key>
+    </Package>
+</Project>

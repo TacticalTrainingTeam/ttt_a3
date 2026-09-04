@@ -1,0 +1,11 @@
+PREP(addActions);
+PREP(classifyMag);
+PREP(decrementCrateLimit);
+PREP(getCrateLimit);
+PREP(isCrateAvailable);
+PREP(resolveDisposableLauncher);
+PREP(scanLoadouts);
+PREP(spawnCrate);
+PREP(zenRegisterContextMenu);
+PREP(zeusPlaceCrate);
+PREP(zeusSpawnCrate);
