@@ -3,7 +3,7 @@
     <Package name="Helmets">
         <Key ID="STR_ttt_Helmets_bronze_vehiclecrew_displayName">
             <English>TTT Vehicle Crew Helmet (Bronze)</English>
-            <German>TTT Fahrzeugcrew (Bronze)</German>
+            <German>TTT Fahrzeugcrew Helm (Bronze)</German>
         </Key>
         <Key ID="STR_ttt_Helmets_buzzard_displayName">
             <English>TTT Helicopter Helmet Buzzard</English>
@@ -31,7 +31,7 @@
         </Key>
         <Key ID="STR_ttt_Helmets_grey_vehiclecrew_displayName">
             <English>TTT Vehicle Crew Helmet (Grey)</English>
-            <German>TTT Fahrzeugcrew (Grau)</German>
+            <German>TTT Fahrzeugcrew Helm (Grau)</German>
         </Key>
         <Key ID="STR_ttt_Helmets_hawk_displayName">
             <English>TTT Helicopter Helmet Hawk</English>
@@ -175,11 +175,11 @@
         </Key>
         <Key ID="STR_ttt_Helmets_silver_vehiclecrew_displayName">
             <English>TTT Vehicle Crew Helmet (Silver)</English>
-            <German>TTT Fahrzeugcrew (Silber)</German>
+            <German>TTT Fahrzeugcrew Helm (Silber)</German>
         </Key>
         <Key ID="STR_ttt_Helmets_yellow_vehiclecrew_displayName">
             <English>TTT Vehicle Crew Helmet (Yellow)</English>
-            <German>TTT Fahrzeugcrew (Gelb)</German>
+            <German>TTT Fahrzeugcrew Helm (Gelb)</German>
         </Key>
     </Package>
 </Project>

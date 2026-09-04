@@ -2,7 +2,7 @@
 <Project name="ttt">
     <Package name="Compat_Vanilla">
         <Key ID="STR_ttt_Compat_Vanilla_burrisDescriptionShort">
-            <English>Burris XTR II&lt;br /&gt;magnification: 2x-4x&lt;br /&gt;NightVision</English>
+            <English>Burris XTR II&lt;br /&gt;Magnification: 2x-4x&lt;br /&gt;NightVision</English>
             <German>Burris XTR II&lt;br /&gt;Vergrößerung: 2x-4x&lt;br /&gt;Nachtsicht</German>
         </Key>
         <Key ID="STR_ttt_Compat_Vanilla_kahlesDescriptionShort">
@@ -18,8 +18,8 @@
             <German>Nightforce NXS&lt;br /&gt;Vergrößerung: 5,6x-22,7x</German>
         </Key>
         <Key ID="STR_ttt_Compat_Vanilla_usOpticsDescriptionShort">
-            <English>US Optics MR 10&lt;br /&gt;Magnification:2,9x-8,8x&lt;br /&gt;NightVision</English>
-            <German>US Optics MR 10&lt;br /&gt;Vergrößerung:2,9x-8,8x&lt;br /&gt;Nachtsicht</German>
+            <English>US Optics MR 10&lt;br /&gt;Magnification: 2,9x-8,8x&lt;br /&gt;NightVision</English>
+            <German>US Optics MR 10&lt;br /&gt;Vergrößerung: 2,9x-8,8x&lt;br /&gt;Nachtsicht</German>
         </Key>
     </Package>
 </Project>
