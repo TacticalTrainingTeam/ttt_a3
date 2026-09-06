@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Coin_Check">
+        <Key ID="STR_ttt_Coin_Check_actionName">
+            <English>Coin Check</English>
+            <German>Münzcheck</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_alreadyTossed">
+            <English>You've already tossed your coin here.</English>
+            <German>Du hast deine Münze hier bereits abgelegt.</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_coin_description">
+            <English>A personal challenge coin. Present it during a coin check, or lose the bet.</English>
+            <German>Ein persönlicher Challenge Coin. Bei einem Coin Check vorzeigen, oder die Wette verlieren.</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_coin_displayName">
+            <English>Challenge Coin</English>
+            <German>Challenge Coin</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_enabled_description">
+            <English>Whether you personally take part in coin checks. Requires you to be carrying your coin.</English>
+            <German>Ob du persönlich an Coin Checks teilnimmst. Setzt voraus, dass du deine Münze bei dir trägst.</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_enabled_displayName">
+            <English>Enable Coin Check</English>
+            <German>Coin Check aktivieren</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_prompt">
+            <English>Coin check! Present your coin within %1 seconds.</English>
+            <German>Coin Check! Zeige deine Münze innerhalb von %1 Sekunden vor.</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_radius_description">
+            <English>Distance within which other players are challenged to respond to a coin check.</English>
+            <German>Entfernung, innerhalb der andere Spieler zu einem Coin Check aufgefordert werden.</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_radius_displayName">
+            <English>Response Radius (m)</English>
+            <German>Antwortradius (m)</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_responseTime_description">
+            <English>Time other players have to respond to a coin check with their own coin.</English>
+            <German>Zeit, die anderen Spielern bleibt, um bei einem Coin Check mit ihrer eigenen Münze zu reagieren.</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_responseTime_displayName">
+            <English>Response Time (s)</English>
+            <German>Antwortzeit (s)</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_started">
+            <English>Coin check! Everyone within %1m has %2 seconds to present their coin.</English>
+            <German>Coin Check! Jeder innerhalb von %1m hat %2 Sekunden, um seine Münze vorzuzeigen.</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_subCategory">
+            <English>Coin Check</English>
+            <German>Münzcheck</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_tossed">
+            <English>You toss your coin into the pile.</English>
+            <German>Du wirfst deine Münze auf den Haufen.</German>
+        </Key>
+    </Package>
+</Project>

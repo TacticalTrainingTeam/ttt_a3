@@ -1,0 +1,11 @@
+PREP(activate);
+PREP(buildDatabase);
+PREP(canUseAction);
+PREP(distributeCoin);
+PREP(handleCheckStarted);
+PREP(hasCoin);
+PREP(myCoinClass);
+PREP(pruneChecks);
+PREP(respond);
+PREP(scanChecks);
+PREP(start);
