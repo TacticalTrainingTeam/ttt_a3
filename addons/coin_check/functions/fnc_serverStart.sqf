@@ -21,10 +21,16 @@ if (!isNil QGVAR(activeCheck) && {(GVAR(activeCheck) select 2) > CBA_missionTime
 if (isNull (objectFromNetId _unitNetId)) exitWith {};
 
 private _holder = createVehicle ["GroundWeaponHolder", [0,0,0], [], 0, "CAN_COLLIDE"];
-_holder setPosATL _pos + [0,1,0];
+_holder setPosATL _pos;
 
 private _endTime = CBA_missionTime + RESPONSE_TIME;
 
 GVAR(activeCheck) = [netId _holder, _pos, _endTime, _unitNetId];
 
 [QGVAR(checkStarted), [netId _holder, _pos, _endTime, _unitNetId]] call CBA_fnc_globalEvent;
+
+[
+    {_this call FUNC(evaluateCheck)},
+    [netId _holder, _pos],
+    RESPONSE_TIME
+] call CBA_fnc_waitAndExecute;

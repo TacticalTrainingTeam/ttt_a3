@@ -7,6 +7,7 @@ if (isServer) then {
 if (!hasInterface) exitWith {};
 
 [QGVAR(checkStarted), {_this call FUNC(handleCheckStarted)}] call CBA_fnc_addEventHandler;
+[QGVAR(punish), {call FUNC(playPunishment)}] call CBA_fnc_addEventHandler;
 
 [
     {!isNull ACE_player && {GVAR(enabled)}},

@@ -19,3 +19,18 @@
     true,
     true
 ] call CBA_fnc_addSetting;
+
+// isGlobal = false: personal per-client setting, so each player picks what they themselves have
+// to do when they lose a coin check.
+[
+    QGVAR(punishment),
+    "LIST",
+    [LSTRING(punishment_displayName), LSTRING(punishment_description)],
+    [ELSTRING(main,TacticalTrainingTeam), LSTRING(subCategory)],
+    [
+        [0, 1, 2],
+        [LSTRING(punishment_random), LSTRING(punishment_kneeBends), LSTRING(punishment_pushups)],
+        0
+    ],
+    false
+] call CBA_fnc_addSetting;

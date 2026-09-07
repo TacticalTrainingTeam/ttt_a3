@@ -41,6 +41,26 @@
             <English>Coin check! Present your coin within %1 seconds.</English>
             <German>Coin Check! Zeige deine Münze innerhalb von %1 Sekunden vor.</German>
         </Key>
+        <Key ID="STR_ttt_Coin_Check_punishment_description">
+            <English>What you have to do when you lose a coin check.</English>
+            <German>Was du tun musst, wenn du einen Coin Check verlierst.</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_punishment_displayName">
+            <English>Punishment</English>
+            <German>Strafe</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_punishment_kneeBends">
+            <English>Knee Bends</English>
+            <German>Kniebeugen</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_punishment_pushups">
+            <English>Push-Ups</English>
+            <German>Liegestütze</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_punishment_random">
+            <English>Random</English>
+            <German>Zufällig</German>
+        </Key>
         <Key ID="STR_ttt_Coin_Check_received">
             <English>You received your challenge coin.</English>
             <German>Du hast deine Challenge Coin erhalten.</German>
