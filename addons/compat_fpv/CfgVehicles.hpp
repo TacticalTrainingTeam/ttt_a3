@@ -19,7 +19,7 @@ class CfgVehicles {
         class ACE_Actions;
     };
     class ARMAFPV_Crocus_AT_Base: drone_base_F {
-        class ACE_Actions {
+        class ACE_Actions: ACE_Actions {
             class ACE_MainActions;
         };
     };
