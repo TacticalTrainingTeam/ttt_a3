@@ -135,7 +135,7 @@ workshop = [
 [fpv]
 extends = "default"
 workshop = [
-    "3475006113" # FPV Drohnen
+    "3045129955" # FPV Drohnen
 ]
 
 [partner]

@@ -1,6 +1,6 @@
 # Compat FPV
 
-Kompatibilitätserweiterung für [FPV UA](https://steamcommunity.com/sharedfiles/filedetails/?id=3337197366) - fügt tragbare Varianten der FPV-Drohnen hinzu.
+Kompatibilitätserweiterung für [FPV Drone Crocus](https://steamcommunity.com/sharedfiles/filedetails/?id=3045129955) - fügt tragbare Varianten der FPV-Drohnen hinzu.
 
 ## Tragbare Drohnen
 
@@ -10,10 +10,10 @@ Basierend auf [skua-armory portable_drones](https://github.com/LinkIsGrim/skua-a
 
 Die folgenden FPV-Kamikaze-Drohnen können in Koffern transportiert und im Feld zusammengebaut werden:
 
-- **FPV Kamikaze Drone (IED) Case** - `ttt_B_UAFPV_IED_AP_CASE`
-- **FPV Kamikaze Drone (OG-7V) Case** - `ttt_B_UAFPV_OG7V_AP_CASE`
-- **FPV Kamikaze Drone (PG-7VL) Case** - `ttt_B_UAFPV_PG7VL_AT_CASE`
-- **FPV Kamikaze Drone (RKG-3) Case** - `ttt_B_UAFPV_RKG_AP_CASE`
+- **FPV Kamikaze Drone (Crocus AT) Case** - `ttt_B_Crocus_AT_CASE`
+- **FPV Kamikaze Drone (Crocus AT, Thermal) Case** - `ttt_B_Crocus_AT_TI_CASE`
+- **FPV Kamikaze Drone (Crocus AP) Case** - `ttt_B_Crocus_AP_CASE`
+- **FPV Kamikaze Drone (Crocus AP, Thermal) Case** - `ttt_B_Crocus_AP_TI_CASE`
 
 ### Verwendung
 
