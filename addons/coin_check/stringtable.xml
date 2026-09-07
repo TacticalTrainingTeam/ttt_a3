@@ -25,25 +25,13 @@
             <English>Enable Coin Check</English>
             <German>Coin Check aktivieren</German>
         </Key>
+        <Key ID="STR_ttt_Coin_Check_inProgress">
+            <English>A coin check is already in progress.</English>
+            <German>Es läuft bereits ein Coin Check.</German>
+        </Key>
         <Key ID="STR_ttt_Coin_Check_prompt">
             <English>Coin check! Present your coin within %1 seconds.</English>
             <German>Coin Check! Zeige deine Münze innerhalb von %1 Sekunden vor.</German>
-        </Key>
-        <Key ID="STR_ttt_Coin_Check_radius_description">
-            <English>Distance within which other players are challenged to respond to a coin check.</English>
-            <German>Entfernung, innerhalb der andere Spieler zu einem Coin Check aufgefordert werden.</German>
-        </Key>
-        <Key ID="STR_ttt_Coin_Check_radius_displayName">
-            <English>Response Radius (m)</English>
-            <German>Antwortradius (m)</German>
-        </Key>
-        <Key ID="STR_ttt_Coin_Check_responseTime_description">
-            <English>Time other players have to respond to a coin check with their own coin.</English>
-            <German>Zeit, die anderen Spielern bleibt, um bei einem Coin Check mit ihrer eigenen Münze zu reagieren.</German>
-        </Key>
-        <Key ID="STR_ttt_Coin_Check_responseTime_displayName">
-            <English>Response Time (s)</English>
-            <German>Antwortzeit (s)</German>
         </Key>
         <Key ID="STR_ttt_Coin_Check_started">
             <English>Coin check! Everyone within %1m has %2 seconds to present their coin.</English>

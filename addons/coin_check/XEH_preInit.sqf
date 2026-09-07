@@ -7,8 +7,8 @@ PREP_RECOMPILE_START;
 PREP_RECOMPILE_END;
 
 GVAR(database) = call FUNC(buildDatabase);
-GVAR(activeChecks) = createHashMap;
-GVAR(respondedTo) = [];
+GVAR(activeCheck) = nil;
+GVAR(respondedHolderId) = "";
 
 ADDON = true;
 

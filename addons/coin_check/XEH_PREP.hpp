@@ -5,7 +5,7 @@ PREP(distributeCoin);
 PREP(handleCheckStarted);
 PREP(hasCoin);
 PREP(myCoinClass);
-PREP(pruneChecks);
 PREP(respond);
 PREP(scanChecks);
+PREP(serverStart);
 PREP(start);

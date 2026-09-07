@@ -22,4 +22,4 @@ private _class = [_unit] call FUNC(myCoinClass);
 
 if (_class == "") exitWith {[false, ""]};
 
-[[_unit, _class] call call ace_common_fnc_hasItem, _class]
+[[_unit, _class] call ace_common_fnc_hasItem, _class]
