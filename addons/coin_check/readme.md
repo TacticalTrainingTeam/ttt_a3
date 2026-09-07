@@ -1,6 +1,6 @@
 # Coin Check
 
-Bildet den militärischen Brauch des "Coin Check" ab: Ein Spieler mit eigener Münze kann per ACE-Selbstinteraktion einen Coin Check starten. Alle anderen Spieler mit Münze und aktivierter Einstellung haben danach eine feste Zeit (`RESPONSE_TIME`, 30s) und Reichweite (`RESPONSE_RADIUS`, 10m, siehe `script_component.hpp`), um ebenfalls ihre Münze per Selbstinteraktion vorzuzeigen. Beim Vorzeigen wird eine Ablege-Animation gespielt und die Münze aus dem Inventar in einen gemeinsamen Bodenwaffenhalter am Ort des Checks gelegt.
+Bildet den militärischen Brauch des "Coin Check" ab: Ein Spieler mit eigener Münze kann per ACE-Selbstinteraktion einen Coin Check starten. Alle anderen Spieler mit Münze und aktivierter Einstellung haben danach eine feste Zeit (`RESPONSE_TIME`) und Reichweite (`RESPONSE_RADIUS`), beide in `script_component.hpp`, um ebenfalls ihre Münze per Selbstinteraktion vorzuzeigen. Beim Vorzeigen wird eine Ablege-Animation gespielt und die Münze aus dem Inventar in einen gemeinsamen Bodenwaffenhalter am Ort des Checks gelegt.
 
 Der Bodenwaffenhalter wird ausschließlich vom Server erzeugt: Ein Client sendet per CBA-Event lediglich eine Startanfrage, der Server legt das Objekt an und verteilt dessen NetID an alle Clients. Das vermeidet Races durch client-seitig erzeugte Objekte und macht den Server zur alleinigen Quelle für den aktiven Check.
 

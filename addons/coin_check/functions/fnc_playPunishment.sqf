@@ -19,10 +19,6 @@ private _anim = switch (GVAR(punishment)) do {
     default {selectRandom [PUNISHMENT_ANIM_KNEE_BENDS, PUNISHMENT_ANIM_PUSHUPS]};
 };
 
-// TEMP DEBUG - remove once punishment is confirmed working
-diag_log text format ["[ttt_coin_check] playPunishment received, playing %1", _anim];
-hint format ["[ttt_coin_check] playPunishment received, playing %1", _anim];
-
 // These are CutSceneAnimationBase/CivilExerciseActions moves, not part of the normal combat
 // transition graph - switchMove finds no valid path onto them and silently does nothing, so they
 // have to be forced directly.
