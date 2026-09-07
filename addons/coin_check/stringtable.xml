@@ -33,6 +33,10 @@
             <English>Coin check! Present your coin within %1 seconds.</English>
             <German>Coin Check! Zeige deine Münze innerhalb von %1 Sekunden vor.</German>
         </Key>
+        <Key ID="STR_ttt_Coin_Check_received">
+            <English>You received your challenge coin.</English>
+            <German>Du hast deine Challenge Coin erhalten.</German>
+        </Key>
         <Key ID="STR_ttt_Coin_Check_started">
             <English>Coin check! Everyone within %1m has %2 seconds to present their coin.</English>
             <German>Coin Check! Jeder innerhalb von %1m hat %2 Sekunden, um seine Münze vorzuzeigen.</German>

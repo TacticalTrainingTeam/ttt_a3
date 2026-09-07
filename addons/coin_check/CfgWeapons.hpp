@@ -7,7 +7,8 @@ class CfgWeapons {
         scope = 0;
         displayName = CSTRING(coin_displayName);
         descriptionShort = CSTRING(coin_description);
-        picture = "\A3\ui_f\data\igui\Cfg\Simpleitems\mag_universal_ca.paa";
+        picture = QPATHTOF(ui\ttt_coin.paa);
+        model = QPATHTOF(data\ttt_coin.p3d);
         uid = "";
         class ItemInfo: CBA_MiscItem_ItemInfo {
             mass = 0;

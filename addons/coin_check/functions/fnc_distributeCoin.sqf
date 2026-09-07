@@ -20,3 +20,5 @@ if (_class == "") exitWith {};
 if ([ACE_player, _class] call BIS_fnc_hasItem) exitWith {};
 
 ACE_player addItem _class;
+
+[LLSTRING(received), true] call ace_common_fnc_displayText;
