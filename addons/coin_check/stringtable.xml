@@ -17,6 +17,14 @@
             <English>Challenge Coin</English>
             <German>Challenge Coin</German>
         </Key>
+        <Key ID="STR_ttt_Coin_Check_distributionEnabled_description">
+            <English>Whether coins are handed out at all. Disable this to turn the whole feature off for the mission - nobody will ever carry a coin, so a check can never be presented for.</English>
+            <German>Ob überhaupt Münzen ausgeteilt werden. Deaktiviere dies, um das gesamte Feature für die Mission auszuschalten - niemand trägt dann jemals eine Münze, wodurch ein Check nie vorgezeigt werden kann.</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_distributionEnabled_displayName">
+            <English>Enable Coin Distribution</English>
+            <German>Münzverteilung aktivieren</German>
+        </Key>
         <Key ID="STR_ttt_Coin_Check_enabled_description">
             <English>Whether you personally take part in coin checks. Requires you to be carrying your coin.</English>
             <German>Ob du persönlich an Coin Checks teilnimmst. Setzt voraus, dass du deine Münze bei dir trägst.</German>

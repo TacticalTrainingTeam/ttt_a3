@@ -14,6 +14,8 @@
  * Public: No
  */
 
+if (!GVAR(distributionEnabled)) exitWith {};
+
 private _class = [ACE_player] call FUNC(myCoinClass);
 if (_class == "") exitWith {};
 
