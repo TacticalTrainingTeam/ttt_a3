@@ -20,8 +20,8 @@ params ["_unitNetId", "_pos"];
 if (!isNil QGVAR(activeCheck) && {(GVAR(activeCheck) select 2) > CBA_missionTime}) exitWith {};
 if (isNull (objectFromNetId _unitNetId)) exitWith {};
 
-private _holder = createVehicle ["GroundWeaponHolder", _pos, [], 0, "CAN_COLLIDE"];
-_holder setPosATL _pos;
+private _holder = createVehicle ["GroundWeaponHolder", [0,0,0], [], 0, "CAN_COLLIDE"];
+_holder setPosATL _pos + [0,1,0];
 
 private _endTime = CBA_missionTime + RESPONSE_TIME;
 
