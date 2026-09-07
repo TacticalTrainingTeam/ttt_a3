@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Compat_Fpv">
+        <Key ID="STR_ttt_Compat_Fpv_ap_case_description">
+            <English>Contains a Crocus FPV Kamikaze Drone (AP).</English>
+            <German>Enthält eine Crocus FPV Kamikaze Drohne (AP).</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Fpv_ap_case_displayName">
+            <English>FPV Drone (Crocus AP) Case</English>
+            <German>FPV Drohne (Crocus AP) Koffer</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Fpv_ap_ti_case_description">
+            <English>Contains a Crocus FPV Kamikaze Drone (AP, Thermal).</English>
+            <German>Enthält eine Crocus FPV Kamikaze Drohne (AP, Wärmebild).</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Fpv_ap_ti_case_displayName">
+            <English>FPV Drone (Crocus AP, Thermal) Case</English>
+            <German>FPV Drohne (Crocus AP, Wärmebild) Koffer</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Fpv_assemble">
+            <English>Assemble</English>
+            <German>Zusammenbauen</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Fpv_at_case_description">
+            <English>Contains a Crocus FPV Kamikaze Drone (AT).</English>
+            <German>Enthält eine Crocus FPV Kamikaze Drohne (AT).</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Fpv_at_case_displayName">
+            <English>FPV Drone (Crocus AT) Case</English>
+            <German>FPV Drohne (Crocus AT) Koffer</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Fpv_at_ti_case_description">
+            <English>Contains a Crocus FPV Kamikaze Drone (AT, Thermal).</English>
+            <German>Enthält eine Crocus FPV Kamikaze Drohne (AT, Wärmebild).</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Fpv_at_ti_case_displayName">
+            <English>FPV Drone (Crocus AT, Thermal) Case</English>
+            <German>FPV Drohne (Crocus AT, Wärmebild) Koffer</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Fpv_pack">
+            <English>Pack</English>
+            <German>Verpacken</German>
+        </Key>
+    </Package>
+</Project>
