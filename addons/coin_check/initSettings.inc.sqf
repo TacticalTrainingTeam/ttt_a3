@@ -32,5 +32,5 @@
         [LSTRING(punishment_random), LSTRING(punishment_kneeBends), LSTRING(punishment_pushups)],
         0
     ],
-    02
+    2
 ] call CBA_fnc_addSetting;
