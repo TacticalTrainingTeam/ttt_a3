@@ -4,8 +4,8 @@
     "CHECKBOX",
     [LSTRING(enabled_displayName), LSTRING(enabled_description)],
     [ELSTRING(main,TacticalTrainingTeam), LSTRING(subCategory)],
-    true,
-    false
+    false,
+    2
 ] call CBA_fnc_addSetting;
 
 // isGlobal = true: mission-wide setting for mission makers, not overridable per client. Disabling
@@ -17,7 +17,7 @@
     [LSTRING(distributionEnabled_displayName), LSTRING(distributionEnabled_description)],
     [ELSTRING(main,TacticalTrainingTeam), LSTRING(subCategory)],
     true,
-    true
+    1
 ] call CBA_fnc_addSetting;
 
 // isGlobal = false: personal per-client setting, so each player picks what they themselves have
@@ -32,5 +32,5 @@
         [LSTRING(punishment_random), LSTRING(punishment_kneeBends), LSTRING(punishment_pushups)],
         0
     ],
-    false
+    02
 ] call CBA_fnc_addSetting;
