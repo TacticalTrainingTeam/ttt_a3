@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Coin_Check">
+        <Key ID="STR_ttt_Coin_Check_actionName">
+            <English>Coin Check</English>
+            <German>Münzcheck</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_alreadyTossed">
+            <English>You've already tossed your coin here.</English>
+            <German>Du hast deine Münze hier bereits abgelegt.</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_coin_description">
+            <English>A personal challenge coin. Present it during a coin check, or lose the bet.</English>
+            <German>Ein persönlicher Challenge Coin. Bei einem Coin Check vorzeigen, oder die Wette verlieren.</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_coin_displayName">
+            <English>Challenge Coin</English>
+            <German>Challenge Coin</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_distributionEnabled_description">
+            <English>Whether coins are handed out at all. Disable this to turn the whole feature off for the mission - nobody will ever carry a coin, so a check can never be presented for.</English>
+            <German>Ob überhaupt Münzen ausgeteilt werden. Deaktiviere dies, um das gesamte Feature für die Mission auszuschalten - niemand trägt dann jemals eine Münze, wodurch ein Check nie vorgezeigt werden kann.</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_distributionEnabled_displayName">
+            <English>Enable Coin Distribution</English>
+            <German>Münzverteilung aktivieren</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_enabled_description">
+            <English>Whether you personally take part in coin checks. Requires you to be carrying your coin.</English>
+            <German>Ob du persönlich an Coin Checks teilnimmst. Setzt voraus, dass du deine Münze bei dir trägst.</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_enabled_displayName">
+            <English>Enable Coin Check</English>
+            <German>Coin Check aktivieren</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_inProgress">
+            <English>A coin check is already in progress.</English>
+            <German>Es läuft bereits ein Coin Check.</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_prompt">
+            <English>Coin check! Present your coin within %1 seconds.</English>
+            <German>Coin Check! Zeige deine Münze innerhalb von %1 Sekunden vor.</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_punishment_description">
+            <English>What you have to do when you lose a coin check.</English>
+            <German>Was du tun musst, wenn du einen Coin Check verlierst.</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_punishment_displayName">
+            <English>Punishment</English>
+            <German>Strafe</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_punishment_kneeBends">
+            <English>Knee Bends</English>
+            <German>Kniebeugen</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_punishment_pushups">
+            <English>Push-Ups</English>
+            <German>Liegestütze</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_punishment_random">
+            <English>Random</English>
+            <German>Zufällig</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_received">
+            <English>You received your challenge coin.</English>
+            <German>Du hast deine Challenge Coin erhalten.</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_started">
+            <English>Coin check! Everyone within %1m has %2 seconds to present their coin.</English>
+            <German>Coin Check! Jeder innerhalb von %1m hat %2 Sekunden, um seine Münze vorzuzeigen.</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_subCategory">
+            <English>Coin Check</English>
+            <German>Münzcheck</German>
+        </Key>
+        <Key ID="STR_ttt_Coin_Check_tossed">
+            <English>You toss your coin into the pile.</English>
+            <German>Du wirfst deine Münze auf den Haufen.</German>
+        </Key>
+    </Package>
+</Project>

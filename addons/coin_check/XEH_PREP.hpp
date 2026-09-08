@@ -1,0 +1,13 @@
+PREP(activate);
+PREP(buildDatabase);
+PREP(canUseAction);
+PREP(distributeCoin);
+PREP(evaluateCheck);
+PREP(handleCheckStarted);
+PREP(hasCoin);
+PREP(myCoinClass);
+PREP(playPunishment);
+PREP(respond);
+PREP(scanChecks);
+PREP(serverStart);
+PREP(start);
