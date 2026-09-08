@@ -2,7 +2,7 @@
 <Project name="ttt">
     <Package name="Repair_Vehicle">
         <Key ID="STR_ttt_Repair_Vehicle_SubCategory">
-            <English>Repairfacility Vehicle</English>
+            <English>Repair Workshop Vehicle</English>
             <German>Reparaturstation Fahrzeug</German>
         </Key>
         <Key ID="STR_ttt_Repair_Vehicle_abort">
@@ -23,7 +23,7 @@
         </Key>
         <Key ID="STR_ttt_Repair_Vehicle_hintLoaded">
             <English>The workshop was loaded into the vehicle;&lt;br/&gt;direction: %1 degrees&lt;br/&gt;distance: %2 meters</English>
-            <German>Die Einrichtung wurde in das Fahrzeug geladen;&lt;br/&gt;Richtung: %1 Grad&lt;br/&gt;Entfernung: %2 Meter</German>
+            <German>Die Reparaturstation wurde in das Fahrzeug geladen;&lt;br/&gt;Richtung: %1 Grad&lt;br/&gt;Entfernung: %2 Meter</German>
         </Key>
         <Key ID="STR_ttt_Repair_Vehicle_settingBuildAnimation_description">
             <English>The name of the animation to be played.&lt;br/&gt;i.e.: Acts_carFixingWheel</English>
@@ -42,7 +42,7 @@
             <German>Bauzeit</German>
         </Key>
         <Key ID="STR_ttt_Repair_Vehicle_settingEnable_description">
-            <English>Activates the repairfacility in vehicles functionality.</English>
+            <English>Activates the repair workshop in vehicles functionality.</English>
             <German>Aktiviert die Funktion der Reparaturstation in Fahrzeugen.</German>
         </Key>
         <Key ID="STR_ttt_Repair_Vehicle_settingEnable_name">
@@ -58,7 +58,7 @@
             <German>Reparaturstation</German>
         </Key>
         <Key ID="STR_ttt_Repair_Vehicle_settingSupportedVehicles_description">
-            <English>Classnames of the vehicles that can transport the repair facilty.&lt;br/&gt;(All these vehicles have one loaded as standard. To deactivate, add the following code in the init of the vehicle: this setVariable ["ttt_repair_vehicle_hasFacility", false, true])&lt;br/&gt;Changes during the mission do not completely remove the function of the vehicles; newly added ones work perfectly.&lt;br/&gt;i.e.: ["B_Truck_01_Repair_F","rsr_wisent_repair_flecktarn"]&lt;br/&gt;(The array must be enclosed with ' in cba_settings.sqf)</English>
+            <English>Classnames of the vehicles that can transport the repair facility.&lt;br/&gt;(All these vehicles have one loaded as standard. To deactivate, add the following code in the init of the vehicle: this setVariable ["ttt_repair_vehicle_hasFacility", false, true])&lt;br/&gt;Changes during the mission do not completely remove the function of the vehicles; newly added ones work perfectly.&lt;br/&gt;i.e.: ["B_Truck_01_Repair_F","rsr_wisent_repair_flecktarn"]&lt;br/&gt;(The array must be enclosed with ' in cba_settings.sqf)</English>
             <German>Classnames der Fahrzeuge die eine Reparaturstation transportieren können.&lt;br/&gt;(Standardmäßig haben alle diese Fahrzeuge eine geladen. Zum Deaktivieren folgenden Code in die init des Fahrzeugs hinzufügen: this setVariable ["ttt_repair_vehicle_hasFacility", false, true])&lt;br/&gt;Bei Änderungen während der Mission wird den Fahrzeugen die Funktion nicht vollständig genommen; neu hinzugefügte funktionieren einwandfrei.&lt;br/&gt;Bsp.: ["B_Truck_01_Repair_F","rsr_wisent_repair_flecktarn"]&lt;br/&gt;(In der cba_settings.sqf muss das Array mit ' umschlossen werden)</German>
         </Key>
         <Key ID="STR_ttt_Repair_Vehicle_settingSupportedVehicles_name">

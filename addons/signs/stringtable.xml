@@ -59,7 +59,7 @@
         </Key>
         <Key ID="STR_ttt_Signs_flag_white_displayName">
             <English>TTT Flag White</English>
-            <German>TTT Flagge Weiss</German>
+            <German>TTT Flagge Weiß</German>
         </Key>
         <Key ID="STR_ttt_Signs_flag_yellow_displayName">
             <English>TTT Flag Yellow</English>
@@ -123,7 +123,7 @@
         </Key>
         <Key ID="STR_ttt_Signs_sign_large_white_displayName">
             <English>TTT Sign White (large)</English>
-            <German>TTT Schild Weiss (groß)</German>
+            <German>TTT Schild Weiß (groß)</German>
         </Key>
         <Key ID="STR_ttt_Signs_sign_large_yellow_displayName">
             <English>TTT Sign Yellow (large)</English>
@@ -187,7 +187,7 @@
         </Key>
         <Key ID="STR_ttt_Signs_sign_small_white_displayName">
             <English>TTT Sign White (small)</English>
-            <German>TTT Schild Weiss (klein)</German>
+            <German>TTT Schild Weiß (klein)</German>
         </Key>
         <Key ID="STR_ttt_Signs_sign_small_yellow_displayName">
             <English>TTT Sign Yellow (small)</English>

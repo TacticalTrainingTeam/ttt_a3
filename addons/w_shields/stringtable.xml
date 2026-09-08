@@ -6,20 +6,20 @@
             <German>Gebäudeschild hinzufügen</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_buildingShieldAttribute_displayName">
-            <English>BuildingShield</English>
+            <English>Buildingshield</English>
             <German>Gebäudeschild</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_buildingShieldAttribute_tooltip">
-            <English>Adds the BuildingShield from the Gruppe W Framework to the object.</English>
+            <English>Adds the Buildingshield from the Gruppe W Framework to the object.</English>
             <German>Fügt dem Objekt das Gebäudeschild aus dem Gruppe W Framework hinzu.</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_buildingShieldModule_description">
-            <English>The marked building receives a Building Shield, which prevents its structure from being destroyed.</English>
-            <German>Das markierte Gebäude erhält ein Building-Shield, welches ein Zerstören der Gebäudestruktur verhindert.</German>
+            <English>The marked building receives a Buildingshield, which prevents its structure from being destroyed.</English>
+            <German>Das markierte Gebäude erhält ein Buildingshield, welches ein Zerstören der Gebäudestruktur verhindert.</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_buildingShieldModule_displayName">
-            <English>Building Shield</English>
-            <German>Building Shield</German>
+            <English>Buildingshield</English>
+            <German>Buildingshield</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_buildingShieldModule_doorState_closed">
             <English>Closed</English>
@@ -38,8 +38,8 @@
             <German>Zustand dieser Tür, falls das Gebäude eine besitzt.</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_buildingShieldModule_shield_displayName">
-            <English>Building Shield</English>
-            <German>Building Shield</German>
+            <English>Buildingshield</English>
+            <German>Buildingshield</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_buildingShieldModule_shield_tooltip">
             <English>Prevents the building's structure from being destroyed, except for windows.</English>
@@ -75,7 +75,7 @@
         </Key>
         <Key ID="STR_ttt_W_Shields_hintAlreadyShielded">
             <English>This vehicle already has a Vehicleshield.</English>
-            <German>Dieses Fahrzeug hat bereits ein VehicleShield.</German>
+            <German>Dieses Fahrzeug hat bereits ein Vehicleshield.</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_hintBuildingShieldAdded">
             <English>Buildingshield added.</English>
@@ -98,11 +98,11 @@
             <German>Fahrzeugschild hinzufügen</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_vehicleShieldAttribute_displayName">
-            <English>VehicleShield</English>
+            <English>Vehicleshield</English>
             <German>Fahrzeugschild</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_vehicleShieldAttribute_tooltip">
-            <English>Adds the VehicleShield from the Gruppe W Framework to the vehicle.</English>
+            <English>Adds the Vehicleshield from the Gruppe W Framework to the vehicle.</English>
             <German>Fügt dem Fahrzeug das Fahrzeugschild aus dem Gruppe W Framework hinzu.</German>
         </Key>
         <Key ID="STR_ttt_W_Shields_zenCategory_displayName">
