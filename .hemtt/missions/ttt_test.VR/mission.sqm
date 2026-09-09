@@ -8,7 +8,7 @@ class EditorData
 	toggles=1025;
 	class ItemIDProvider
 	{
-		nextID=190;
+		nextID=196;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5836.3076,82.648163,4782.4419};
-		dir[]={0.81573218,-0.50302082,0.28557163};
-		up[]={0.47476852,0.86427426,0.16620703};
-		aside[]={0.33041781,0,-0.94383478};
+		pos[]={5892.2646,63.2052,4793.6011};
+		dir[]={0.73823774,-0.66279781,0.12531617};
+		up[]={0.65345007,0.74879849,0.11092342};
+		aside[]={0.16735637,-7.4505806e-09,-0.98589659};
 	};
 };
 binarizationWanted=0;
@@ -45,13 +45,15 @@ addons[]=
 	"acre_sys_intercom",
 	"A3_Structures_F_Civ_Camping",
 	"ace_dragging",
-	"ttt_surrender"
+	"ttt_surrender",
+	"A3_Supplies_F_Heli_Slingload",
+	"ace_rearm"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=19;
+		items=20;
 		class Item0
 		{
 			className="A3_Soft_F_Gamma";
@@ -185,6 +187,13 @@ class AddonsMetaData
 			author="Tactical Training Team";
 			url="https://tacticalteam.de";
 		};
+		class Item19
+		{
+			className="ace_rearm";
+			name="ACE3 - Rearm";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
 	};
 };
 dlcs[]=
@@ -198,7 +207,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Scenario";
 		class Attribute0
@@ -252,22 +261,40 @@ class Mission
 	};
 	class Entities
 	{
-		items=70;
+		items=71;
 		class Item0
 		{
 			dataType="Object";
 			class PositionInfo
 			{
 				position[]={5936.0972,7.2125969,4785.0029};
-				angles[]={0,1.599901,0};
+				angles[]={0,1.5999084,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this setVariable [""ttt_resupply_container"", true];";
 			};
 			id=1;
 			type="B_Truck_01_medical_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ttt_w_shields_addVehicleShield";
+					expression="[[_this, false, [true, true], true], ttt_w_shields_fnc_addVehicleShield] call ttt_common_fnc_callGlobalFnc";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 		class Item1
 		{
@@ -1811,7 +1838,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5963.7603,5.0014391,4828.9272};
+						position[]={5936.2354,5.0014391,4792.3438};
 					};
 					side="West";
 					flags=5;
@@ -2031,6 +2058,22 @@ class Mission
 				};
 				nAttributes=5;
 			};
+		};
+		class Item70
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5934.5259,6.3620372,4806.936};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="this setVariable [""ttt_resupply_container"", true];" \n "this setVariable [""ttt_resupply_limits"", [[""ammo"", 3], [""at"", 1]]];";
+			};
+			id=193;
+			type="B_Slingload_01_Ammo_F";
 		};
 	};
 };
