@@ -5,6 +5,7 @@ PREP(getCrateLimit);
 PREP(isCrateAvailable);
 PREP(resolveDisposableLauncher);
 PREP(scanLoadouts);
+PREP(setContainer);
 PREP(spawnCrate);
 PREP(zenRegisterContextMenu);
 PREP(zeusPlaceCrate);

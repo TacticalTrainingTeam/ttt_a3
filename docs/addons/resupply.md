@@ -114,6 +114,19 @@ Spieler sehen am Objekt ein **Resupply**-Untermenü mit allen acht Kistentypen.
 Wo die Kiste dabei genau spawnt, siehe
 [Spawnposition der Kiste](#spawnposition-der-kiste) weiter oben.
 
+### 3DEN-Attribut
+
+Alternativ zum Init-Feld findet ihr im 3DEN-Editor in den Attributen des Objekts im Abschnitt
+`TTT - Resupply` eine Checkbox `Resupply Depot`. Ist sie aktiviert, ist das Objekt beim
+Missionsstart ein Nachschub-Depot - identisch zum obigen Init-Eintrag, nur ohne selbst Code
+schreiben zu müssen. Wird das Häkchen wieder entfernt, ist das Objekt beim nächsten Missionsstart
+kein Depot mehr.
+
+!!! info
+    Das Attribut setzt beim Missionsstart nur `ttt_resupply_container`, nicht
+    `ttt_resupply_limits` - ein Kistenlimit pro Depot lässt sich weiterhin nur über das Init-Feld
+    wie unten beschrieben konfigurieren.
+
 #### Kistenlimit pro Depot (optional)
 
 Standardmäßig kann ein Depot jeden Kistentyp beliebig oft ausgeben. Um das zu

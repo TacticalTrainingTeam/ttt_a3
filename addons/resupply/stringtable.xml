@@ -13,6 +13,14 @@
             <English>Unmark as Resupply Depot</English>
             <German>Nachschub-Depot-Markierung entfernen</German>
         </Key>
+        <Key ID="STR_ttt_Resupply_containerAttribute_displayName">
+            <English>Resupply Depot</English>
+            <German>Nachschub-Depot</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_containerAttribute_tooltip">
+            <English>Marks this object as a resupply depot, giving players the ACE Resupply menu on it. Unchecking removes the marking again.</English>
+            <German>Markiert dieses Objekt als Nachschub-Depot, wodurch Spieler daran das ACE-Nachschubmenü erhalten. Durch Entfernen des Häkchens wird die Markierung wieder aufgehoben.</German>
+        </Key>
         <Key ID="STR_ttt_Resupply_databaseEmpty">
             <English>Resupply: Database not ready yet. Wait a moment and try again.</English>
             <German>Nachschub: Datenbank noch nicht bereit. Kurz warten und erneut versuchen.</German>
