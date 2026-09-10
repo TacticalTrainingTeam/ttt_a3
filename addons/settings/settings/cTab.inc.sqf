@@ -1,9 +1,11 @@
 // cTab
 force force ctab_compass_enable = false;
-// atSync (2) instead of realTime (1): periodic position reports instead of always-live
-// tracking, which is both more realistic and required for ttt_bft_jamming's drift effect to
-// have any visual impact (cTab_fnc_drawBftMarkers ignores the reported position in realTime mode)
-force force ctab_core_bft_mode = 2;
+// realTime (1): always-live BFT tracking. ttt_bft_jamming's Drift/Mixed effect only has a
+// visual impact in atSync (2) mode (cTab_fnc_drawBftMarkers ignores the reported position in
+// realTime mode) - missions that want Drift/Mixed jamming must override this to 2 themselves;
+// see addons/bft_jamming/readme.md. Not forced to 2 repo-wide since that would regress BFT
+// tracking (stale positions for up to ctab_core_sync_time) for every mission, jammer or not.
+force force ctab_core_bft_mode = 1;
 force force ctab_core_drawMainMap = false;
 force force ctab_core_gridPrecision = 0;
 force force ctab_core_helmetcam_mode = 1;

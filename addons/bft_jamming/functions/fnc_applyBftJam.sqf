@@ -9,6 +9,11 @@
  * A Mixed jammer blacks out inside its effective radius and drifts (tapering to 0) in its
  * falloff band, reusing the exact same two radii a Blackout/Drift jammer already has.
  *
+ * Note: mutating index 5 only has a visible effect for cTabBFTgroups/cTabBFTvehicles entries -
+ * cTab_fnc_drawBftMarkers always draws cTabBFTmembers (dismounted group members) from a live
+ * getPosASL, so Drift/Mixed offsets computed here are inert for that list (known cTab
+ * limitation, see readme.md). Left in place rather than special-cased since it's harmless.
+ *
  * Arguments:
  * 0: ARRAY - cTab BFT list entry [unit, iconA, iconB, text, groupID, pos(ASL), dir] - mutated
  *    in place (index 5) when Drift applies

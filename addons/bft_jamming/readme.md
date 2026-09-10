@@ -22,7 +22,10 @@ Drei Störungsarten stehen als Dropdown zur Wahl (nicht kombinierbar, ein Gerät
   innerhalb des effektiven Radius maximal ist und zum äußeren Rand des Abklingradius auf null
   abfällt (gleiche Falloff-Logik wie Crow's EWs `fnc_calcSignalStrength.sqf`). Der Versatz wird
   pro Einheit/Störsender geglättet (Ziel-Offset wird nur alle paar Pulse neu gewürfelt, dazwischen
-  wird interpoliert), damit das Symbol sichtbar wandert statt zu springen.
+  wird interpoliert), damit das Symbol sichtbar wandert statt zu springen. Wirkt sich nur auf
+  `cTabBFTgroups`/`cTabBFTvehicles` aus - `cTab_fnc_drawBftMarkers` zeichnet `cTabBFTmembers`
+  (abgesessene Gruppenmitglieder) immer von einer live `getPosASL` aus, unabhängig vom
+  cTab-Modus, sodass Drift dort keine sichtbare Wirkung hat (cTab-seitige Einschränkung).
 - **Mixed**: kombiniert beide über die vorhandenen zwei Radien - innerhalb des effektiven Radius
   Blackout (kein Fix mehr, wie ein Empfänger direkt am Störsender), im Abklingradius darum herum
   Drift mit der gleichen abklingenden Stärke wie oben. Kein zusätzliches Attribut nötig, nur eine
@@ -30,7 +33,7 @@ Drei Störungsarten stehen als Dropdown zur Wahl (nicht kombinierbar, ein Gerät
 
 Die eigentliche Manipulation passiert clientseitig: cTab baut `cTabBFTmembers`/`cTabBFTgroups`/
 `cTabBFTvehicles` lokal auf jedem Client neu auf und feuert danach das lokale Event
-`ctab_main_listsUpdated`. Wir hängen uns dort ein und mutieren dieselben globalen Arrays, bevor
+`ctab_listsUpdated`. Wir hängen uns dort ein und mutieren dieselben globalen Arrays, bevor
 cTab sie das nächste Mal zeichnet - auch hier keine cTab-Datei verändert.
 
 Auf dem Spektrumgerät ist ein aktiver BFT-Störsender unter dem Signaltyp `sweep_bft` auf der am
@@ -42,9 +45,13 @@ Spektrumgerät abgedeckten Bereichs liegt.
 
 Drift wirkt sich nur aus, wenn `ctab_core_bft_mode = 2` ("atSync") gesetzt ist - im Modus 1
 ("realTime") liest `cTab_fnc_drawBftMarkers` die Position live neu ein und ignoriert den
-gespeicherten Wert, den wir manipulieren. `addons/settings/settings/cTab.inc.sqf` erzwingt daher
-Modus 2 repo-weit. Blackout funktioniert unabhängig vom Modus, da ein entferntes Listenelement in
-keinem Modus gezeichnet wird.
+gespeicherten Wert, den wir manipulieren. `addons/settings/settings/cTab.inc.sqf` setzt
+repo-weit `ctab_core_bft_mode = 1` ("realTime"), da eine repo-weite Umstellung auf Modus 2 die
+BFT-Verfolgung für jede Mission verzögern würde (Positionen bleiben bis zu
+`ctab_core_sync_time` Sekunden stehen), auch für Missionen ganz ohne Störsender. **Missionen, die
+Drift/Mixed nutzen wollen, müssen `ctab_core_bft_mode = 2` selbst setzen** (z.B. per
+Missions-CBA-Settings-Override). Blackout funktioniert unabhängig vom Modus, da ein entferntes
+Listenelement in keinem Modus gezeichnet wird.
 
 Es gibt bewusst keine CBA-Einstellungen: ohne platziertes Modul passiert ohnehin nichts (ein
 globaler Ein/Aus-Schalter wäre wirkungslos), die Frequenz ist Modul-Attribut statt globaler Wert
@@ -59,7 +66,7 @@ Events/globale Variablen, nicht über eine offiziell dokumentierte Plugin-API:
 
 - `crowsEW_main_addJammer`, `crowsEW_main_updateJammers`, `crowsEW_main_jamMap`
 - `crowsEW_spectrum_addBeacon`, `crowsEW_spectrum_removeBeacon`
-- `ctab_main_listsUpdated`, `cTabBFTmembers`/`cTabBFTgroups`/`cTabBFTvehicles`
+- `ctab_listsUpdated`, `cTabBFTmembers`/`cTabBFTgroups`/`cTabBFTvehicles`
 
 Ein zukünftiges Update von Crow's EW oder cTab könnte diese Namen oder Array-Formate ändern und
 das Addon stillschweigend brechen. Bei Versionssprüngen dieser beiden Mods entsprechend testen.

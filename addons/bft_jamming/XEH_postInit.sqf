@@ -15,4 +15,4 @@ if (!hasInterface) exitWith {};
 
 GVAR(driftState) = createHashMap;
 
-[CTAB_LISTS_UPDATED_EVENT, FUNC(onBftListsUpdated)] call CBA_fnc_addLocalEventHandler;
+[CTAB_LISTS_UPDATED_EVENT, FUNC(onBftListsUpdated)] call CBA_fnc_addEventHandler;

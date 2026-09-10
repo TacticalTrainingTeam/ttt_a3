@@ -8,9 +8,12 @@
  * pos(ASL), dir]. cTab_fnc_drawBftMarkers reads those globals fresh on every map draw, so
  * mutating them here (before the next draw) is enough to apply jamming - no cTab code touched.
  *
- * Note: this only visibly affects position when ctab_core_bft_mode = 2 ("atSync"), since in
- * mode 1 ("realTime") cTab_fnc_drawBftMarkers re-samples getPosASL live and ignores index 5.
- * Removal (Blackout) works in either mode, since a removed entry is simply never drawn.
+ * Note: Drift/Mixed's position offset only visibly affects cTabBFTgroups/cTabBFTvehicles, and
+ * only when ctab_core_bft_mode = 2 ("atSync") - in mode 1 ("realTime") cTab_fnc_drawBftMarkers
+ * re-samples getPosASL live and ignores index 5. cTabBFTmembers (dismounted group members) is
+ * always drawn from a live getPosASL regardless of mode, so Drift/Mixed has no visible effect
+ * there - known cTab limitation, see readme.md. Removal (Blackout) works in either mode/list,
+ * since a removed entry is simply never drawn.
  *
  * Arguments:
  * None
@@ -31,7 +34,11 @@ private _jammers = (values CROWSEW_JAM_MAP) select {
     }
 };
 
-if (_jammers isEqualTo []) exitWith {};
+if (_jammers isEqualTo []) exitWith {
+    // no active BFT jammer left at all - drop any drift smoothing state so it doesn't leak
+    // across jammer lifecycles (disable/remove) instead of only pruning per touched key below
+    GVAR(driftState) = createHashMap;
+};
 
 private _touchedDriftKeys = [];
 

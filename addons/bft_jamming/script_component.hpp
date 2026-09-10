@@ -29,9 +29,10 @@
 #define BFT_JAM_SPECTRUM_TYPE "sweep_bft"
 
 // Literal name of cTab's local event fired after cTab_fnc_updateLists rebuilds the BFT arrays
-// (cTabBFTmembers/cTabBFTgroups/cTabBFTvehicles). Expands from CBA's GVARMAIN macro under
-// cTab's own PREFIX "ctab" - verify this string in-game (e.g. via diag_log) if cTab is updated.
-#define CTAB_LISTS_UPDATED_EVENT "ctab_main_listsUpdated"
+// (cTabBFTmembers/cTabBFTgroups/cTabBFTvehicles): [QGVARMAIN(listsUpdated)] call CBA_fnc_localEvent
+// in cTab_core's fnc_updateLists.sqf. GVARMAIN(var) expands to PREFIX_var (CBA's GVARMAINS macro),
+// and cTab's PREFIX is "ctab" - so this is "ctab_listsUpdated", not "ctab_<component>_listsUpdated".
+#define CTAB_LISTS_UPDATED_EVENT "ctab_listsUpdated"
 
 // CrowsEW's own public CBA event/global names we integrate with (see readme.md for details).
 #define CROWSEW_ADD_JAMMER_EVENT "crowsEW_main_addJammer"
