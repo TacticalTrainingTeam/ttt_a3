@@ -9,9 +9,9 @@ Modul `Set as BFT Jammer` platzieren und optional mit einem Objekt synchronisier
 Einstellungen am Modul:
 
 - **Jamming Type**: `Blackout`, `Drift` oder `Mixed` (Dropdown, nicht kombinierbar — ein Gerät hat genau eine Störungsart).
-    - **Blackout**: Einheiten innerhalb des Gesamtradius (Effektiv + Abklingen) verschwinden komplett vom BFT.
-    - **Drift**: Einheiten bleiben sichtbar, ihre angezeigte Position bekommt einen Versatz. Der Versatz ist im effektiven Radius am größten und nimmt zum äußeren Rand des Abklingradius auf null ab — je näher eine Einheit also am Zentrum des Störsenders ist, desto ungenauer wird ihre Position angezeigt. Der Versatz wandert dabei sichtbar statt zu springen.
-    - **Mixed**: Blackout innerhalb des effektiven Radius, Drift im Abklingradius darum herum — nutzt dieselben zwei Radien, kein Kompromiss zwischen den beiden anderen Arten, sondern beide gleichzeitig je nach Distanzzone.
+  - **Blackout**: Einheiten innerhalb des Gesamtradius (Effektiv + Abklingen) verschwinden komplett vom BFT.
+  - **Drift**: Einheiten bleiben sichtbar, ihre angezeigte Position bekommt einen Versatz. Der Versatz ist im effektiven Radius am größten und nimmt zum äußeren Rand des Abklingradius auf null ab — je näher eine Einheit also am Zentrum des Störsenders ist, desto ungenauer wird ihre Position angezeigt. Der Versatz wandert dabei sichtbar statt zu springen.
+  - **Mixed**: Blackout innerhalb des effektiven Radius, Drift im Abklingradius darum herum — nutzt dieselben zwei Radien, kein Kompromiss zwischen den beiden anderen Arten, sondern beide gleichzeitig je nach Distanzzone.
 - **Effective Radius** / **Falloff Radius**: gleiche zwei-Radien-Logik wie bei Crow's EWs eigenem Störsender-Modul.
 - **Frequency**: Frequenz (MHz), auf der das Signal dieses Störsenders im Spektrumgerät erscheint, solange er aktiv ist. Der konkrete Wert ist beliebig, solange er innerhalb des vom Spektrumgerät abgedeckten Bereichs liegt — unterschiedliche Störsender können unterschiedliche Frequenzen bekommen.
 - **Active at Mission Start**: Störsender startet aktiv oder muss erst (z.B. per Zeus) eingeschaltet werden.
