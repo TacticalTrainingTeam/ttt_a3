@@ -1,6 +1,9 @@
 // cTab
 force force ctab_compass_enable = false;
-force force ctab_core_bft_mode = 1;
+// atSync (2) instead of realTime (1): periodic position reports instead of always-live
+// tracking, which is both more realistic and required for ttt_bft_jamming's drift effect to
+// have any visual impact (cTab_fnc_drawBftMarkers ignores the reported position in realTime mode)
+force force ctab_core_bft_mode = 2;
 force force ctab_core_drawMainMap = false;
 force force ctab_core_gridPrecision = 0;
 force force ctab_core_helmetcam_mode = 1;
