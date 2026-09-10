@@ -13,6 +13,8 @@ class CfgPatches {
         authors[] = {"Andy"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
+
+        skipWhenMissingDependencies = 1;
     };
 };
 
