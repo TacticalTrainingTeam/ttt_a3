@@ -41,5 +41,45 @@
             <English>Vest</English>
             <German>Weste</German>
         </Key>
+        <Key ID="STR_ttt_Mpls_zenCategory_displayName">
+            <English>TTT - MPLS</English>
+            <German>TTT - MPLS</German>
+        </Key>
+        <Key ID="STR_ttt_Mpls_zenLoadoutReverted">
+            <English>An admin reset your loadout to your starting loadout.</English>
+            <German>Ein Admin hat deine Ausrüstung auf die Start-Ausrüstung zurückgesetzt.</German>
+        </Key>
+        <Key ID="STR_ttt_Mpls_zenRestoreSnapshot">
+            <English>Restore Snapshot</English>
+            <German>Snapshot wiederherstellen</German>
+        </Key>
+        <Key ID="STR_ttt_Mpls_zenRevertLoadout">
+            <English>Revert to Initial Loadout</English>
+            <German>Start-Ausrüstung wiederherstellen</German>
+        </Key>
+        <Key ID="STR_ttt_Mpls_zenRevertNoTarget">
+            <English>[MPLS] No player under cursor.</English>
+            <German>[MPLS] Kein Spieler unter dem Cursor.</German>
+        </Key>
+        <Key ID="STR_ttt_Mpls_zenRevertRequested">
+            <English>[MPLS] Reverting loadout for %1...</English>
+            <German>[MPLS] Ausrüstung von %1 wird zurückgesetzt...</German>
+        </Key>
+        <Key ID="STR_ttt_Mpls_zenSaveSnapshot">
+            <English>Make Loadout Snapshot</English>
+            <German>Ausrüstungs-Snapshot erstellen</German>
+        </Key>
+        <Key ID="STR_ttt_Mpls_zenSnapshotRestored">
+            <English>An admin restored your loadout to a saved snapshot.</English>
+            <German>Ein Admin hat deine Ausrüstung auf einen gespeicherten Snapshot zurückgesetzt.</German>
+        </Key>
+        <Key ID="STR_ttt_Mpls_zenSnapshotRestoreRequested">
+            <English>[MPLS] Restoring loadout snapshot for %1...</English>
+            <German>[MPLS] Ausrüstungs-Snapshot von %1 wird wiederhergestellt...</German>
+        </Key>
+        <Key ID="STR_ttt_Mpls_zenSnapshotSaveRequested">
+            <English>[MPLS] Saving loadout snapshot for %1...</English>
+            <German>[MPLS] Ausrüstungs-Snapshot von %1 wird gespeichert...</German>
+        </Key>
     </Package>
 </Project>
