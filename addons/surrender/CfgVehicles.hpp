@@ -15,7 +15,7 @@ class CfgVehicles {
         displayName = CSTRING(module_displayName);
         function = QFUNC(checkSurrender);
         functionPriority = 1;
-        isGlobal = 2;
+        isGlobal = 0;                                                                        // 0 for server only execution, 1 for global execution, 2 for persistent global execution
         canSetArea = 1;
         is3DEN = 0;
 
