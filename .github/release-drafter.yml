@@ -11,34 +11,34 @@ tag-template: 'unreleased'
 sort-by: title # sort alphabetically
 sort-direction: ascending
 
+# Labels match the changelog/* scheme used by the other TTT mods, so
+# labeling a PR works the same way in every repo. Category titles stay
+# German; they map onto Keep a Changelog's Added/Changed/Deprecated/
+# Removed/Fixed/Security concepts (https://keepachangelog.com/en/1.1.0/).
 categories:
   - title: 'NEU:'
     labels:
-      - 'pr/feature'
-  - title: 'REPARIERT:'
-    labels:
-      - 'pr/bug-fix'
-  - title: ' VERBESSERT:'
-    labels:
-      - 'pr/enhancement'
-      - 'pr/optimization'
+      - 'changelog/added'
   - title: 'VERÄNDERT:'
     labels:
-      - 'pr/cleanup'
-      - 'pr/change'
-  - title: 'EINSTELLUNGEN:'
+      - 'changelog/changed'
+  - title: 'VERALTET:'
     labels:
-      - 'pr/setting'
-  - title: 'ÜBERSETZUNGEN:'
+      - 'changelog/deprecated'
+  - title: 'ENTFERNT:'
     labels:
-      - 'pr/translation'
-  - title: 'DOKUMENTATION:'
+      - 'changelog/removed'
+  - title: 'REPARIERT:'
     labels:
-      - 'pr/documentation'
+      - 'changelog/fixed'
+  - title: 'SICHERHEIT:'
+    labels:
+      - 'changelog/security'
 
 exclude-labels:
   - 'ignore-changelog'
   - 'tools'
+  - 'documentation'
 
 change-template: '* $TITLE (#$NUMBER) by $AUTHOR'
 template: |
