@@ -2,8 +2,11 @@ branches:
   - master
   - release-drafter  # for testing edits to this configuration
 
-name-template: 'Version $RESOLVED_VERSION'
-tag-template: 'v$RESOLVED_VERSION'
+# The version isn't resolved from PR labels — script_version.hpp and the
+# git tag created at release time are the source of truth. Retitle/retag
+# this draft to match before publishing.
+name-template: 'Unreleased'
+tag-template: 'unreleased'
 
 sort-by: title # sort alphabetically
 sort-direction: ascending
@@ -52,25 +55,3 @@ template: |
   ## Mitwirkende
 
   $CONTRIBUTORS
-
-# PR mit dem Label target/next-arma tirggern einen bump der Major version
-# die meisten anderen triggern einen bump der Minor version
-# PR mit dem Label pr/bug-fix triggern einen bump der Patch version
-version-resolver:
-  major:
-    labels:
-      - "target/next-arma"
-  minor:
-    labels:
-      - "pr/feature"
-      - "pr/cleanup"
-      - "pr/change"
-      - "pr/enhancement"
-      - "pr/optimization"
-      - "pr/setting"
-      - 'pr/translation'
-  patch:
-    labels:
-      - "pr/documentation"
-      - "pr/bug-fix"
-  default: patch
