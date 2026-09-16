@@ -173,6 +173,7 @@ nav:
   - Loadout-System (MPLS): addons/mpls.md
   - Mobile San-Einrichtung (Fahrzeug): addons/medic_vehicle.md
   - Mobile Werkstatt: addons/repair_vehicle.md
+  - Nachschub: addons/resupply.md
   - Objekte Abbauen: addons/dismantle.md
   - KI-Kapitulation: addons/surrender.md
   - Tagging2Map: addons/tagging2map.md
