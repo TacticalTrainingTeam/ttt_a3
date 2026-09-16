@@ -53,6 +53,13 @@ Wenn Du zu diesem Projekt beitragen möchtest, bespreche bitte zuerst die Änder
 - Jeder Pull Request muss das [CI](https://github.com/TacticalTrainingTeam/ttt_a3/actions) ohne Fehler durchlaufen bevor er gemergt werden kann.
 - Jeder Pull Request muss von mindestens einem Reviewer freigegeben werden bevor er gemergt wird.
 
+## Dokumentation aktuell halten
+
+Eine Code-Änderung ist erst fertig, wenn die zugehörigen Dateien im selben PR mit aktualisiert wurden. Bitte vor dem Review (egal ob Mensch oder LLM) prüfen:
+
+- **[docs/](docs)** — die betroffene Seite anpassen, falls sich Verhalten, Einstellungen oder Nutzung ändern.
+- **PR-Beschreibung** — die Änderung klar beschreiben, da die Release Notes daraus erstellt werden.
+
 ## Anmerkungen
 
 Bitte beachte, dass alle Mitwirkenden an diesem Projekt Freiwillige sind und dies in ihrer eigenen Zeit tun. Das bedeutet, dass Probleme und/oder PRs lange Zeit offen sein können, bevor sie aufgegriffen und überprüft werden. Wir versuchen, diese Zeit so kurz wie möglich zu halten, aber manchmal kann es vorkommen, dass dies nicht gelingt. Wenn du der Meinung bist, dass ein Problem oder eine PR nicht beachtet wurde, teile dies bitte im Discord mit.
