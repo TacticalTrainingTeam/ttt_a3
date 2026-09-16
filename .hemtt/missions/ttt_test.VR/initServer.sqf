@@ -1,4 +1,4 @@
-/*/Fhz befüllen
+/*Fhz befüllen
 [
     [fhz_01, fhz_02],
     [
@@ -15,3 +15,4 @@
     ],
     false
 ] call ttt_common_fnc_crateFiller;
+*/
