@@ -8,7 +8,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"ttt_common", "UK3CB_Factions_Weapons"};//the mod is much bigger, but it should always be loaded as one unit, so we only check for the weapons mod
         author = ECSTRING(main,TacticalTrainingTeam);
-        authors[] = {""};
+        authors[] = {"Andx"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
 
