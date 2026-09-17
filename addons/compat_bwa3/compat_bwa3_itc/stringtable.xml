@@ -3,7 +3,7 @@
     <Package name="Compat_Bwa3_Itc">
         <Key ID="STR_ttt_Compat_Bwa3_Itc_AmmoHandling">
             <English>Open Ammo Handling Interface</English>
-            <German>Munitions Interface</German>
+            <German>Munitionsverwaltung</German>
         </Key>
         <Key ID="STR_ttt_Compat_Bwa3_Itc_DM106_Name">
             <English>DM106 Illum-Shell</English>
@@ -58,8 +58,8 @@
             <German>Feuerleitrechner</German>
         </Key>
         <Key ID="STR_ttt_Compat_Bwa3_Itc_Panzerhaubitze2000">
-            <English>PzH2000 - 155mmm Howitzer</English>
-            <German>PzH2000 - 155mmm Haubitze</German>
+            <English>PzH2000 - 155mm Howitzer</English>
+            <German>PzH2000 - 155mm Haubitze</German>
         </Key>
         <Key ID="STR_ttt_Compat_Bwa3_Itc_Panzerhaubitze2000Name1">
             <English>ITC Panzerhaubitze 2000 (Fleck)</English>
