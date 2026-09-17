@@ -2,12 +2,12 @@
 
 **TTT-Mod** ist die Arma 3 Modifikation für das [Tactical Training Team](https://www.tacticalteam.de).
 
-# Voraussetzungen
+## Voraussetzungen
 
 - [CBA_A3](https://github.com/CBATeam/CBA_A3)
 - [ACE3](https://github.com/acemod/ACE3)
 
-# Features
+## Features
 
 - Screenshot-Modus
 - Chat ausblenden
@@ -22,7 +22,7 @@
 
 Die komplette Beschreibung der Funktionen steht in der [Dokumentation](https://docs.tacticalteam.de).
 
-# Source & Issues
+## Source & Issues
 
 Vollständig quelloffen. Fehlerberichte, Feature-Wünsche und Beiträge sind willkommen.
 
