@@ -1,6 +1,6 @@
 # TTT-Mod
 
-Arma 3 Modifikation für das [Tactical Training Team](https://www.tacticalteam.de).
+**TTT-Mod** ist die Arma 3 Modifikation für das [Tactical Training Team](https://www.tacticalteam.de).
 
 # Voraussetzungen
 
@@ -24,7 +24,14 @@ Die komplette Beschreibung der Funktionen steht in der [Dokumentation](https://d
 
 # Source & Issues
 
+Vollständig quelloffen. Fehlerberichte, Feature-Wünsche und Beiträge sind willkommen.
+
 [GitHub Repository](https://github.com/TacticalTrainingTeam/ttt_a3)
 [Report an Issue](https://github.com/TacticalTrainingTeam/ttt_a3/issues)
+[Discord](https://discord.tacticalteam.de/)
+
+Lizensiert unter [APL-SA](https://github.com/TacticalTrainingTeam/ttt_a3/blob/master/LICENSE).
+
+---
 
 Du willst im TTT mitmachen? -> https://www.tacticalteam.de/mitmachen
