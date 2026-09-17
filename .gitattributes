@@ -10,3 +10,7 @@
 *.toml text eol=crlf
 *.txt text eol=crlf
 *.xml text eol=crlf
+
+# Exclude vendored/generated code from GitHub's language stats
+include/* linguist-vendored
+extras/* linguist-vendored
