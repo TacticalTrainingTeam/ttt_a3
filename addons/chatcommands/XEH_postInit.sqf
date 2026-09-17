@@ -30,7 +30,7 @@
 // Tech Support chat command
 [QGVAR(techSupport), {
     params ["_unit"];
-    GVAR(teleporter) = "ttt_Flag_Logo" createVehicleLocal [0,0,0]; //it's faster to create it far away from anyone at the corner of the map
+    GVAR(teleporter) = "ttt_signs_Flag_Logo" createVehicleLocal [0,0,0]; //it's faster to create it far away from anyone at the corner of the map
     GVAR(teleporter) setPosATL (getPosATL _unit); //and then move it to its intended position
     GVAR(teleporter) allowDamage false;
     [GVAR(teleporter)] call EFUNC(teleport,addActions);

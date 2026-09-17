@@ -8,26 +8,28 @@ Ergänzend wurden zwei zusätzliche Rucksackmodelle integriert, jeweils ausgesta
 
 ### Funkrucksäcke
 
-- `ttt_backpack_radio_coyote`
-- `ttt_backpack_radio_olive`
-- `ttt_backpack_radio_brown_us_desert`
-- `ttt_backpack_radio_bronze_us_desert`
-- `ttt_backpack_radio_green_us_desert`
-- `ttt_backpack_radio_grey_us_desert`
-- `ttt_backpack_radio_gold_us_desert`
-- `ttt_backpack_radio_platinum_us_desert`
-- `ttt_backpack_radio_silver_us_desert`
-- `ttt_backpack_radio_white_us_desert`
-- `ttt_backpack_radio_yellow_us_desert`
+- `ttt_backpacks_radio_coyote`
+- `ttt_backpacks_radio_olive`
+- `ttt_backpacks_radio_brown_us_desert`
+- `ttt_backpacks_radio_bronze_us_desert`
+- `ttt_backpacks_radio_green_us_desert`
+- `ttt_backpacks_radio_grey_us_desert`
+- `ttt_backpacks_radio_gold_us_desert`
+- `ttt_backpacks_radio_platinum_us_desert`
+- `ttt_backpacks_radio_silver_us_desert`
+- `ttt_backpacks_radio_white_us_desert`
+- `ttt_backpacks_radio_yellow_us_desert`
 
 ### Sanitätsrucksäcke
 
-- `ttt_backpack_medic_tan_01`
-- `ttt_backpack_medic_tan_02`
-- `ttt_backpack_medic_tan_03`
-- `ttt_backpack_medic_rgr_01`
-- `ttt_backpack_medic_rgr_02`
-- `ttt_backpack_medic_rgr_03`
+- `ttt_backpacks_medic_tan_01`
+- `ttt_backpacks_medic_tan_02`
+- `ttt_backpacks_medic_tan_03`
+- `ttt_backpacks_medic_rgr_01`
+- `ttt_backpacks_medic_rgr_02`
+- `ttt_backpacks_medic_rgr_03`
+
+Die alten `ttt_backpack_*`-Klassennamen (ohne "s") existieren weiterhin als `scope = 1`-Aliase für bestehende Missionen/Loadouts, sollten aber in neuen Missionen nicht mehr verwendet werden.
 
 ## Maintainer
 
