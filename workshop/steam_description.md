@@ -26,8 +26,8 @@ Die komplette Beschreibung der Funktionen steht in der [Dokumentation](https://d
 
 Vollständig quelloffen. Fehlerberichte, Feature-Wünsche und Beiträge sind willkommen.
 
-[GitHub Repository](https://github.com/TacticalTrainingTeam/ttt_a3)
-[Report an Issue](https://github.com/TacticalTrainingTeam/ttt_a3/issues)
+[GitHub Repository](https://github.com/TacticalTrainingTeam/ttt_a3)  
+[Report an Issue](https://github.com/TacticalTrainingTeam/ttt_a3/issues)  
 [Discord](https://discord.tacticalteam.de/)
 
 Lizensiert unter [APL-SA](https://github.com/TacticalTrainingTeam/ttt_a3/blob/master/LICENSE).

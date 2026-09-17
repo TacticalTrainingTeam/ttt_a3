@@ -10,3 +10,7 @@ trim_trailing_whitespace = true
 
 [*.yml]
 indent_size = 2
+
+[*.md]
+# Two trailing spaces are a Markdown hard line break, not stray whitespace
+trim_trailing_whitespace = false

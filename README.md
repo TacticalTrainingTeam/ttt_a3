@@ -26,7 +26,7 @@ Arma 3 Modifikation für das Tactical Training Team. **Benötigt** die aktuellst
 
 Das Projekt ist vollständig **quelloffen** und jeder Beitrag ist willkommen.
 
-Steam Workshop: <https://steamcommunity.com/sharedfiles/filedetails/?id=2673457154>
+Steam Workshop: <https://steamcommunity.com/sharedfiles/filedetails/?id=2673457154>  
 Discord: <https://discord.tacticalteam.de/>
 
 Du willst im TTT mitmachen? <http://www.tacticalteam.de/mitmachen>.
