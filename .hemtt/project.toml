@@ -22,12 +22,6 @@ include = [
     "*.jpg"
 ]
 
-[lints.sqf]
-command_case = true
-
-[lints.config.math_could_be_unquoted]
-enabled = "pedantic"
-
 [properties]
 url = "https://github.com/TacticalTrainingTeam/ttt_a3"
 
