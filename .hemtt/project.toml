@@ -7,6 +7,10 @@ mainprefix = "z"
 path = "addons/main/script_version.hpp"
 git_hash = 0
 
+[hemtt.publish]
+description = "workshop/steam_description.md"
+changelog = "CHANGELOG.md"
+
 [files]
 exclude = [
     "*.psd",
