@@ -71,7 +71,7 @@ GVAR(db_init) = false;
 
     {
         private _grp = group _x;
-        if !(_grp in _groups) then { _groups pushBack _grp };
+        _groups pushBackUnique _grp;
 
         {
             _magAcc set [_x, (_magAcc getOrDefault [_x, 0]) + 1];
