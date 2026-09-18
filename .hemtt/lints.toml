@@ -1,0 +1,12 @@
+[sqf]
+command_case = true
+
+[sqf.banned_commands]
+options.banned = [
+    "execVM", # Script files should never be run directly, they should be functions
+    # "spawn", # Scheduled should be avoided whenever possible — 11 existing call sites still use it, re-enable once migrated
+    # "remoteExec", # CBA events should be used for networking — 7 existing call sites still use it, re-enable once migrated
+]
+
+[config.math_could_be_unquoted]
+enabled = "pedantic"
