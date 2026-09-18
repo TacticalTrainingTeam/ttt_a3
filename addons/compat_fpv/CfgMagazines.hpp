@@ -36,39 +36,39 @@ class CfgMagazines {
     //     GVAR(drone) = "B_UAV_01_F";
     // };
 
-    class CLASS(B_UAFPV_IED_AP_CASE): GVAR(base) {
+    class CLASS(B_Crocus_AT_CASE): GVAR(base) {
         scope = 2;
         scopeCurator = 2;
-        displayName = "FPV Kamikaze Drone (IED) Case";
-        descriptionShort = "Contains an FPV Kamikaze Drone (IED).";
+        displayName = CSTRING(at_case_displayName);
+        descriptionShort = CSTRING(at_case_description);
 
-        GVAR(drone) = "B_UAFPV_IED_AP";
+        GVAR(drone) = "B_Crocus_AT";
     };
 
-    class CLASS(B_UAFPV_OG7V_AP_CASE): GVAR(base) {
+    class CLASS(B_Crocus_AT_TI_CASE): GVAR(base) {
         scope = 2;
         scopeCurator = 2;
-        displayName = "FPV Kamikaze Drone (OG-7V) Case";
-        descriptionShort = "Contains an FPV Kamikaze Drone (OG-7V).";
+        displayName = CSTRING(at_ti_case_displayName);
+        descriptionShort = CSTRING(at_ti_case_description);
 
-        GVAR(drone) = "B_UAFPV_OG7V_AP";
+        GVAR(drone) = "B_Crocus_AT_TI";
     };
 
-    class CLASS(B_UAFPV_PG7VL_AT_CASE): GVAR(base) {
+    class CLASS(B_Crocus_AP_CASE): GVAR(base) {
         scope = 2;
         scopeCurator = 2;
-        displayName = "FPV Kamikaze Drone (PG-7VL) Case";
-        descriptionShort = "Contains an FPV Kamikaze Drone (PG-7VL).";
+        displayName = CSTRING(ap_case_displayName);
+        descriptionShort = CSTRING(ap_case_description);
 
-        GVAR(drone) = "B_UAFPV_PG7VL_AT";
+        GVAR(drone) = "B_Crocus_AP";
     };
 
-    class CLASS(B_UAFPV_RKG_AP_CASE): GVAR(base) {
+    class CLASS(B_Crocus_AP_TI_CASE): GVAR(base) {
         scope = 2;
         scopeCurator = 2;
-        displayName = "FPV Kamikaze Drone (RKG-3) Case";
-        descriptionShort = "Contains an FPV Kamikaze Drone (RKG-3).";
+        displayName = CSTRING(ap_ti_case_displayName);
+        descriptionShort = CSTRING(ap_ti_case_description);
 
-        GVAR(drone) = "B_UAFPV_RKG_AP";
+        GVAR(drone) = "B_Crocus_AP_TI";
     };
 };
