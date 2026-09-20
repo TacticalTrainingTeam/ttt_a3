@@ -1,4 +1,4 @@
-class cfgWeapons {
+class CfgWeapons {
     class ItemCore;
     //HEADWEAR
     //class ItemInfo;
