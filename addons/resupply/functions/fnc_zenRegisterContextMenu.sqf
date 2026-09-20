@@ -99,11 +99,9 @@ private _types = [
     ["grenades",        LLSTRING(type_grenades),        "a3\ui_f\data\map\vehicleicons\iconcrategrenades_ca.paa"],
     ["at",              LLSTRING(type_at),              "a3\ui_f\data\map\vehicleicons\iconcratelarge_ca.paa"],
     ["explosives",      LLSTRING(type_explosives),      "a3\ui_f\data\map\vehicleicons\iconcrateord_ca.paa"],
-    ["support",         LLSTRING(type_support),         "a3\ui_f\data\map\vehicleicons\iconcratesupp_ca.paa"],
-    ["medical_alpha",   LLSTRING(type_medical_alpha),   "a3\characters_f\data\ui\icon_medic_ca.paa"],
-    ["medical_bravo",   LLSTRING(type_medical_bravo),   "a3\characters_f\data\ui\icon_medic_ca.paa"],
-    ["medical_charlie", LLSTRING(type_medical_charlie), "a3\characters_f\data\ui\icon_medic_ca.paa"]
+    ["support",         LLSTRING(type_support),         "a3\ui_f\data\map\vehicleicons\iconcratesupp_ca.paa"]
 ];
+_types append (GVAR(prefilledTypes) apply { [_x select 0, localize (_x select 1), _x select 2] });
 
 {
     _x params ["_type", "_displayName", "_typeIcon"];

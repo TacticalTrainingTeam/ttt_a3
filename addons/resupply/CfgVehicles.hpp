@@ -79,4 +79,46 @@ class CfgVehicles {
         displayName = CSTRING(type_medical_charlie);
         GVAR(crateType) = "medical_charlie";
     };
+
+    class GVAR(module_spreng): GVAR(module_base) {
+        scope = 2;
+        displayName = ECSTRING(common,spreng);
+        GVAR(crateType) = "spreng";
+    };
+
+    class GVAR(module_pio): GVAR(module_base) {
+        scope = 2;
+        displayName = ECSTRING(common,pio);
+        GVAR(crateType) = "pio";
+    };
+
+    class GVAR(module_eod): GVAR(module_base) {
+        scope = 2;
+        displayName = ECSTRING(common,eod);
+        GVAR(crateType) = "eod";
+    };
+
+    class GVAR(module_eod_ugv): GVAR(module_base) {
+        scope = 2;
+        displayName = ECSTRING(common,eod_ugv);
+        GVAR(crateType) = "eod_ugv";
+    };
+
+    class GVAR(module_uav): GVAR(module_base) {
+        scope = 2;
+        displayName = ECSTRING(common,uav);
+        GVAR(crateType) = "uav";
+    };
+
+    class GVAR(module_mark): GVAR(module_base) {
+        scope = 2;
+        displayName = ECSTRING(common,marker);
+        GVAR(crateType) = "mark";
+    };
+
+    class GVAR(module_paradrop): GVAR(module_base) {
+        scope = 2;
+        displayName = ECSTRING(common,paradrop);
+        GVAR(crateType) = "paradrop";
+    };
 };

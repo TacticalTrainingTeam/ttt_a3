@@ -13,7 +13,8 @@
  * Arguments:
  * 0: Position to spawn the crate near <ARRAY>
  * 1: Crate type - "ammo", "grenades", "at", "explosives", "support",
- *    "medical_alpha", "medical_bravo", "medical_charlie" <STRING>
+ *    "medical_alpha", "medical_bravo", "medical_charlie", "spreng", "pio",
+ *    "eod", "eod_ugv", "uav", "mark", "paradrop" <STRING>
  * 2: Network owner ID of the requesting curator, if any <NUMBER> (default: -1)
  *
  * Return Value:
@@ -31,7 +32,7 @@ if (!isServer) exitWith {};
 // crate types wait on GVAR(db_init) via CBA rather than spawning a thread
 // to poll with waitUntil/sleep. The ZEN context menu action can be
 // triggered just as early by a curator connecting right at mission start.
-if (_type in ["medical_alpha", "medical_bravo", "medical_charlie"]) then {
+if (_type in GVAR(prefilled)) then {
     [_pos, _type, _notifyOwner, true, objNull, true] call FUNC(spawnCrate);
 } else {
     [{ GVAR(db_init) }, {

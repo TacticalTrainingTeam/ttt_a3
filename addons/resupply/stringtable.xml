@@ -26,8 +26,8 @@
             <German>Nachschub: Datenbank noch nicht bereit. Kurz warten und erneut versuchen.</German>
         </Key>
         <Key ID="STR_ttt_Resupply_faction_description">
-            <English>Side whose ammo box classes are used for spawned crates (does not affect medical crates).</English>
-            <German>Fraktion, deren Munitionskisten-Klassen für gespawnte Kisten verwendet werden (betrifft keine Sanitätskisten).</German>
+            <English>Side whose ammo box classes are used for spawned crates (does not affect the pre-packed TTT crates such as medical).</English>
+            <German>Fraktion, deren Munitionskisten-Klassen für gespawnte Kisten verwendet werden (betrifft keine fest vorgegebenen TTT-Kisten wie die Sanitätskisten).</German>
         </Key>
         <Key ID="STR_ttt_Resupply_faction_displayName">
             <English>Crate Faction</English>

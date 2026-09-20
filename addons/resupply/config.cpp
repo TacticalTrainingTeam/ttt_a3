@@ -17,7 +17,14 @@ class CfgPatches {
             QGVAR(module_support),
             QGVAR(module_medical_alpha),
             QGVAR(module_medical_bravo),
-            QGVAR(module_medical_charlie)
+            QGVAR(module_medical_charlie),
+            QGVAR(module_spreng),
+            QGVAR(module_pio),
+            QGVAR(module_eod),
+            QGVAR(module_eod_ugv),
+            QGVAR(module_uav),
+            QGVAR(module_mark),
+            QGVAR(module_paradrop)
         };
         weapons[] = {};
 

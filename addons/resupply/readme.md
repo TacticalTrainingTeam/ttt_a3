@@ -36,6 +36,27 @@ Die Items werden bei Missionsstart aus der Ausrüstung der Spieler klassifiziert
   bleiben auf Engine-Ebene nachladbar und werden hier bewusst nicht
   berücksichtigt - dort reicht die Munition allein.
 
+## Fest vorgegebene Kisten (`GVAR(prefilledTypes)`)
+
+Neben den dynamischen Typen gibt es Typen, die ohne Datenbank direkt eine
+fertig befüllte `ttt_common`-Kistenklasse spawnen: die drei Sanitätskisten
+sowie Spreng-, Pionier-, EOD-, EOD+UGV-, Drohnen-, Markierungs- und
+Fallschirm-Kiste. `XEH_preInit.sqf` definiert sie an einer einzigen Stelle
+(`GVAR(prefilledTypes)`, Reihenfolge = Menü-Reihenfolge; `GVAR(prefilled)` ist
+die daraus abgeleitete Lookup-HashMap): Typ-ID, Stringtable-Key des
+Anzeigenamens, Icon, Kistenklasse und optional die KAT-Ersatzklasse. ACE-Menü,
+ZEN-Menü, `fnc_spawnCrate`, `fnc_isCrateAvailable` und `fnc_zeusSpawnCrate`
+lesen alle daraus - eine neue fest vorgegebene Kiste braucht dort also nur
+einen Eintrag, dazu je ein Zeus-Modul in `CfgVehicles.hpp` (Config kann keine
+Laufzeit-Liste auswerten) samt Eintrag in `units[]` der `config.cpp`.
+
+Die Typ-IDs der Common-Kisten (`spreng`, `pio`, `eod`, ...) heißen bewusst
+nicht `explosives`, da das bereits der dynamische Sprengstoff-Typ ist. Nur die
+Sanitätskisten haben eine `compat_kam`-Variante; bei allen anderen bleibt die
+KAT-Klasse leer und es wird immer die Common-Klasse gespawnt. Die
+Anzeigenamen der Common-Kisten kommen aus der Stringtable von `ttt_common`,
+nicht aus der von `resupply`.
+
 ## Kisten-Platzierung (`fnc_spawnCrate`)
 
 Standardmäßig sucht `findEmptyPosition` einen freien Platz im Umkreis von
@@ -80,7 +101,7 @@ Anfrage per `QGVAR(zenSpawnCrateRequest)`-CBA-Event an den Server, wo
 
 ## Abhängigkeiten
 
-- `ttt_common` (Sanitätskisten-Klassen + `fnc_crateFiller`)
+- `ttt_common` (Klassen der fest vorgegebenen Kisten + `fnc_crateFiller`)
 - `ace_common` (strukturierter Bestätigungs-/Fehler-Text auf dem Bildschirm für die ACE-Aktion)
 - `ace_interact_menu`
 - `ace_zeus` (Zeus-Curator-Meldungsfeed zur Rückmeldung von Zeus-ausgelösten Spawns)
