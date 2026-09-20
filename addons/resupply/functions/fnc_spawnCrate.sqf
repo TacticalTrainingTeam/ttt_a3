@@ -20,7 +20,7 @@
  *    searched for nearby instead of using a fixed offset <ARRAY|OBJECT>
  * 1: Crate type - "ammo", "grenades", "at", "explosives", "support",
  *    "medical_alpha", "medical_bravo", "medical_charlie", "spreng", "pio",
- *    "eod", "eod_ugv", "uav", "mark", "paradrop" <STRING>
+ *    "eod", "eod_ugv", "uav", "mark" <STRING>
  * 2: Network owner ID to notify if the crate can't be spawned, if any <NUMBER> (default: -1)
  * 3: Notify via ace_zeus_fnc_showMessage instead of a screen hint - use for
  *    Zeus-triggered spawns, since the owner is a curator <BOOLEAN> (default: false)

@@ -23,8 +23,7 @@ class CfgPatches {
             QGVAR(module_eod),
             QGVAR(module_eod_ugv),
             QGVAR(module_uav),
-            QGVAR(module_mark),
-            QGVAR(module_paradrop)
+            QGVAR(module_mark)
         };
         weapons[] = {};
 

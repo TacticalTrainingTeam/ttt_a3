@@ -40,8 +40,9 @@ Die Items werden bei Missionsstart aus der Ausrüstung der Spieler klassifiziert
 
 Neben den dynamischen Typen gibt es Typen, die ohne Datenbank direkt eine
 fertig befüllte `ttt_common`-Kistenklasse spawnen: die drei Sanitätskisten
-sowie Spreng-, Pionier-, EOD-, EOD+UGV-, Drohnen-, Markierungs- und
-Fallschirm-Kiste. `XEH_preInit.sqf` definiert sie an einer einzigen Stelle
+sowie Spreng-, Pionier-, EOD-, EOD+UGV-, Drohnen- und Markierungskiste.
+Die Fallschirm-Frachtnetz-Kiste aus `ttt_common` ist bewusst nicht dabei - sie
+ist nicht dafür gedacht, über Nachschub gespawnt zu werden. `XEH_preInit.sqf` definiert sie an einer einzigen Stelle
 (`GVAR(prefilledTypes)`, Reihenfolge = Menü-Reihenfolge; `GVAR(prefilled)` ist
 die daraus abgeleitete Lookup-HashMap): Typ-ID, Stringtable-Key des
 Anzeigenamens, Icon, Kistenklasse und optional die KAT-Ersatzklasse. ACE-Menü,

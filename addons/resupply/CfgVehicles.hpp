@@ -115,10 +115,4 @@ class CfgVehicles {
         displayName = ECSTRING(common,marker);
         GVAR(crateType) = "mark";
     };
-
-    class GVAR(module_paradrop): GVAR(module_base) {
-        scope = 2;
-        displayName = ECSTRING(common,paradrop);
-        GVAR(crateType) = "paradrop";
-    };
 };

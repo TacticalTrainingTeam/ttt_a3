@@ -24,13 +24,12 @@ aufbauend können Missionsbauer typisierte Nachschubkisten anfordern lassen -
 | **EOD+UGV-Kiste** (`eod_ugv`) | `ttt_common_eod_ugv_crate` | Wie die EOD-Kiste, zusätzlich mit Entminungsdrohne samt Terminal und Akkus (fest vorgegeben durch /common) |
 | **Drohnenkiste** (`uav`) | `ttt_common_uav_crate` | Drohne, UAV-Terminal und Akkus (fest vorgegeben durch /common) |
 | **Markierungskiste** (`mark`) | `ttt_common_mark_crate` | Flaggen und Sprühdosen zur Markierung (fest vorgegeben durch /common) |
-| **Fallschirm-Frachtnetz** (`paradrop`) | `ttt_common_paradrop_crate` | Fallschirme und Höhenmesser (fest vorgegeben durch /common) |
 
 Die dynamischen Kisten (Munition bis Support) werden aus der gescannten
 Datenbank befüllt. Hatte kein Spieler etwas aus einer Kategorie dabei (z. B.
 keine Panzerabwehrmunition), wird diese Kiste gar nicht erst gespawnt, und wer
 sie angefordert hat (Spieler oder Zeus) bekommt einen Hinweis, warum nicht.
-Die fest vorgegebenen Kisten (Sanität bis Fallschirm-Frachtnetz) spawnen
+Die fest vorgegebenen Kisten (Sanität bis Markierungskiste) spawnen
 dagegen immer mit den TTT-Common-Klassen, unabhängig vom Ausrüstungs-Scan.
 
 Bei der Panzerabwehr-Kiste bekommen nur echte Einwegwaffen (bei denen die
@@ -148,7 +147,7 @@ this setVariable ["ttt_resupply_limits", [["ammo", 3], ["at", 1]]];
 `ttt_resupply_limits` ist eine Liste aus `[Typ, Maximalanzahl]`-Paaren. Gültige
 Typen sind `"ammo"`, `"grenades"`, `"at"`, `"explosives"`, `"support"`,
 `"medical_alpha"`, `"medical_bravo"`, `"medical_charlie"`, `"spreng"`, `"pio"`,
-`"eod"`, `"eod_ugv"`, `"uav"`, `"mark"` und `"paradrop"` - dieselben, die auch
+`"eod"`, `"eod_ugv"`, `"uav"` und `"mark"` - dieselben, die auch
 die Script-API weiter unten verwendet. Nicht aufgeführte Typen bleiben
 unbegrenzt. Ist ein Typ an diesem Depot aufgebraucht, wird die zugehörige
 Aktion dort ausgeblendet - genau wie bei einer leeren Kategorie. Das Limit
@@ -217,7 +216,6 @@ automatisch, sobald Zeus Enhanced als Mod geladen ist.
 [getPos myMarker, "eod_ugv"] call ttt_resupply_fnc_spawnCrate;
 [getPos myMarker, "uav"] call ttt_resupply_fnc_spawnCrate;
 [getPos myMarker, "mark"] call ttt_resupply_fnc_spawnCrate;
-[getPos myMarker, "paradrop"] call ttt_resupply_fnc_spawnCrate;
 
 // Alle anderen Typen brauchen die aus den Spieler-Loadouts gebaute Datenbank.
 // Statt eine feste Wartezeit zu raten, auf das "ttt_resupply_dbReady"-Event warten,

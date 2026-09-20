@@ -14,7 +14,7 @@
  * 0: Position to spawn the crate near <ARRAY>
  * 1: Crate type - "ammo", "grenades", "at", "explosives", "support",
  *    "medical_alpha", "medical_bravo", "medical_charlie", "spreng", "pio",
- *    "eod", "eod_ugv", "uav", "mark", "paradrop" <STRING>
+ *    "eod", "eod_ugv", "uav", "mark" <STRING>
  * 2: Network owner ID of the requesting curator, if any <NUMBER> (default: -1)
  *
  * Return Value:

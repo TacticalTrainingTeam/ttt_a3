@@ -13,7 +13,7 @@
  * Arguments:
  * 0: Crate type - "ammo", "grenades", "at", "explosives", "support",
  *    "medical_alpha", "medical_bravo", "medical_charlie", "spreng", "pio",
- *    "eod", "eod_ugv", "uav", "mark", "paradrop" <STRING>
+ *    "eod", "eod_ugv", "uav", "mark" <STRING>
  * 1: Depot object the action is attached to, or objNull for no stock limit <OBJECT>
  *
  * Return Value:

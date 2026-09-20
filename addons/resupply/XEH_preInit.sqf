@@ -15,7 +15,6 @@ GVAR(db_init) = false;
 private _iconMedic = "a3\characters_f\data\ui\icon_medic_ca.paa";
 private _iconOrd = "a3\ui_f\data\map\vehicleicons\iconcrateord_ca.paa";
 private _iconSupp = "a3\ui_f\data\map\vehicleicons\iconcratesupp_ca.paa";
-private _iconLarge = "a3\ui_f\data\map\vehicleicons\iconcratelarge_ca.paa";
 
 GVAR(prefilledTypes) = [
     ["medical_alpha",   LSTRING(type_medical_alpha),   _iconMedic, QEGVAR(common,sana_crate),       QEGVAR(compat_kam,sana_crate)],
@@ -26,8 +25,7 @@ GVAR(prefilledTypes) = [
     ["eod",             ELSTRING(common,eod),          _iconOrd,   QEGVAR(common,eod_crate),        ""],
     ["eod_ugv",         ELSTRING(common,eod_ugv),      _iconOrd,   QEGVAR(common,eod_ugv_crate),    ""],
     ["uav",             ELSTRING(common,uav),          _iconSupp,  QEGVAR(common,uav_crate),        ""],
-    ["mark",            ELSTRING(common,marker),       _iconSupp,  QEGVAR(common,mark_crate),       ""],
-    ["paradrop",        ELSTRING(common,paradrop),     _iconLarge, QEGVAR(common,paradrop_crate),   ""]
+    ["mark",            ELSTRING(common,marker),       _iconSupp,  QEGVAR(common,mark_crate),       ""]
 ];
 GVAR(prefilled) = createHashMapFromArray (GVAR(prefilledTypes) apply { [_x select 0, _x] });
 
