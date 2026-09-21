@@ -30,26 +30,14 @@ if (_object getVariable ["ttt_infoShared", false]) exitWith {
     player createDiaryRecord ["ttt_intel", _textInfo];
 };
 
-_object addAction [
+private _intelActionId = _object addAction [
     format ["<t size='1.2', color='#00FF00'>%1</t>",_title],
     {
         params ["_target", "_caller", "_actionId", "_arguments"];
         _arguments params ["_delete", "_textInfo"];
 
-        if !(_caller diarySubjectExists "ttt_intel") then {
-            {
-                [_x, ["ttt_intel", "Intel"]] remoteExec ["createDiarySubject", _x, false];
-            } forEach allPlayers;
-        };
-
-        {
-            [_x, ["ttt_intel", _textInfo]] remoteExec ["createDiaryRecord", _x, true]
-        } forEach allPlayers;
-        [_target,_actionId] remoteExec ["removeAction", 0, true];
-
-        if (_delete) then {
-            [_target] remoteExec ["hideObjectGlobal", 0, false];
-        };
+        // late joiners are covered by ttt_infoShared, so no JIP event
+        [QGVAR(intelFound), [_target, _delete, _textInfo, name _caller]] call CBA_fnc_globalEvent;
 
         switch (((currentWeapon _caller) call BIS_fnc_itemType) select 1) do {
             case "": {
@@ -83,7 +71,6 @@ _object addAction [
         };
 
         _target setVariable ["ttt_infoShared", true, true];
-        [format [LLSTRING(intelAdded), (name _caller), (_textInfo select 0)]] remoteExec ["hint", 0, false];
     },
     [
         _delete,
@@ -96,3 +83,5 @@ _object addAction [
     "true",
     2
 ];
+
+_object setVariable [QGVAR(intelActionId), _intelActionId];
