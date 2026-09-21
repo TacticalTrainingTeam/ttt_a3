@@ -5,7 +5,8 @@ Kategorie eine Item-Datenbank auf (gemittelt pro Gruppe mit Spielern). Darauf
 aufbauend können Missionsbauer typisierte Nachschubkisten anfordern lassen -
 über eine ACE-Aktion an vorplatzierten Depot-Objekten, über Zeus-Module oder
 (falls Zeus Enhanced geladen ist) über das ZEN-Kontextmenü, siehe
-`resupply_zen/readme.md`.
+`resupply_zen/readme.md`. Zeus-Module und ZEN-Menü gibt es nur für die
+dynamischen Kisten, nicht für die fest vorgegebenen.
 
 Siehe die [Nutzerdokumentation](https://docs.tacticalteam.de/addons/resupply/)
 für Kistentypen, Einstellungen und die Nutzung durch Missionsbauer.
@@ -46,10 +47,18 @@ ist nicht dafür gedacht, über Nachschub gespawnt zu werden. `XEH_preInit.sqf` 
 (`GVAR(prefilledTypes)`, Reihenfolge = Menü-Reihenfolge; `GVAR(prefilled)` ist
 die daraus abgeleitete Lookup-HashMap): Typ-ID, Stringtable-Key des
 Anzeigenamens, Icon, Kistenklasse und optional die KAT-Ersatzklasse. ACE-Menü,
-ZEN-Menü, `fnc_spawnCrate`, `fnc_isCrateAvailable` und `fnc_zeusSpawnCrate`
-lesen alle daraus - eine neue fest vorgegebene Kiste braucht dort also nur
-einen Eintrag, dazu je ein Zeus-Modul in `CfgVehicles.hpp` (Config kann keine
-Laufzeit-Liste auswerten) samt Eintrag in `units[]` der `config.cpp`.
+`fnc_spawnCrate` und `fnc_isCrateAvailable` lesen daraus - eine neue fest
+vorgegebene Kiste braucht dort also nur einen Eintrag.
+
+Zeus-Module und ZEN-Kontextmenü bieten die fest vorgegebenen Kisten bewusst
+**nicht** an: Sie sind bereits fertig befüllt, Zeus kann sie also direkt aus
+der Objektliste platzieren - ein Modul dafür wäre reiner Umweg. Beide decken
+nur die dynamischen, aus der Datenbank gebauten Typen ab (`ammo`, `grenades`,
+`at`, `explosives`, `support`), daher wartet `fnc_zeusSpawnCrate` immer auf
+`GVAR(db_init)`. Ein neuer dynamischer Typ braucht dort dagegen je ein
+Zeus-Modul in `CfgVehicles.hpp` (Config kann keine Laufzeit-Liste auswerten)
+samt Eintrag in `units[]` der `config.cpp` sowie einen Eintrag in
+`_types` von `fnc_zenRegisterContextMenu`.
 
 Die Typ-IDs der Common-Kisten (`spreng`, `pio`, `eod`, ...) heißen bewusst
 nicht `explosives`, da das bereits der dynamische Sprengstoff-Typ ist. Nur die
@@ -90,8 +99,8 @@ fehlzuschlagen.
 Optionale Sub-Addon-Komponente (`skipWhenMissingDependencies`, gebaut/geladen
 nur wenn `zen_context_menu` aus Zeus Enhanced vorhanden ist), analog zu
 `effects/effects_zen`. `fnc_zenRegisterContextMenu` registriert bei
-`hasInterface` ein "Nachschub"-Untermenü mit einem Eintrag pro Kistentyp im
-ZEN-Kontextmenü (`zen_context_menu_fnc_createAction`/`_fnc_addAction`).
+`hasInterface` ein "Nachschub"-Untermenü mit einem Eintrag pro dynamischem
+Kistentyp im ZEN-Kontextmenü (`zen_context_menu_fnc_createAction`/`_fnc_addAction`).
 Statement/Condition-Code erhält ZENs `ACTION_PARAMS` als `_this`
 (`[_position, _objects, _groups, _waypoints, _markers, _hoveredEntity,
 _args]`) - `_args` trägt hier den Kistentyp, `_position` die Klickposition.

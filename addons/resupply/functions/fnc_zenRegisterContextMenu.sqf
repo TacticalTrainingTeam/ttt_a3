@@ -94,14 +94,16 @@ private _condition = {
     isNull _hoveredEntity && {[_type] call FUNC(isCrateAvailable)}
 };
 
+// Only the dynamic types built from the loadout database - the pre-filled crates
+// (GVAR(prefilledTypes)) are deliberately left out, Zeus can already place those
+// directly from the curator object list.
 private _types = [
-    ["ammo",            LLSTRING(type_ammo),            "a3\ui_f\data\map\vehicleicons\iconcrateammo_ca.paa"],
+    ["ammo",           LLSTRING(type_ammo),            "a3\ui_f\data\map\vehicleicons\iconcrateammo_ca.paa"],
     ["grenades",        LLSTRING(type_grenades),        "a3\ui_f\data\map\vehicleicons\iconcrategrenades_ca.paa"],
     ["at",              LLSTRING(type_at),              "a3\ui_f\data\map\vehicleicons\iconcratelarge_ca.paa"],
     ["explosives",      LLSTRING(type_explosives),      "a3\ui_f\data\map\vehicleicons\iconcrateord_ca.paa"],
     ["support",         LLSTRING(type_support),         "a3\ui_f\data\map\vehicleicons\iconcratesupp_ca.paa"]
 ];
-_types append (GVAR(prefilledTypes) apply { [_x select 0, localize (_x select 1), _x select 2] });
 
 {
     _x params ["_type", "_displayName", "_typeIcon"];

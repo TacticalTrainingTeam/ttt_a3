@@ -160,11 +160,16 @@ den Typ kein Limit gesetzt wurde.
 
 ### Zeus-Module
 
-Im Zeus-Interface unter **Unterstützung**. Es stehen acht Module zur
-Verfügung, eins pro Kistentyp (Zeus zeigt jeweils den Namen der Kiste an). Das Platzieren eines Moduls spawnt die
-entsprechende Kiste in der Nähe (siehe
+Im Zeus-Interface unter **Unterstützung**. Es stehen fünf Module zur
+Verfügung, eins pro dynamischem Kistentyp (Munition, Granaten, Panzerabwehr,
+Sprengstoff, Support). Das Platzieren eines Moduls spawnt die
+entsprechende, aus dem Ausrüstungs-Scan befüllte Kiste in der Nähe (siehe
 [Spawnposition der Kiste](#spawnposition-der-kiste) weiter oben) und entfernt
 anschließend die Modul-Logik.
+
+Die fest vorgegebenen Kisten (Sanität bis Markierungskiste) gibt es bewusst
+nicht als Modul: Sie sind ohnehin schon fertig befüllt und lassen sich direkt
+aus der normalen Objektliste im Zeus-Interface platzieren.
 
 Diese Module sind reine Zeus-Module: Sie sind bewusst im klassischen
 2D-Missionseditor und in 3DEN ausgeblendet (eine Nachschubkiste im Voraus zu
@@ -178,7 +183,7 @@ Rechtsklick-Kontextmenü im Zeus-Interface zusätzlich ein
 **Nachschub**-Untermenü zur Verfügung. Was darin angezeigt wird, hängt davon
 ab, ob dabei gerade ein Objekt anvisiert ist:
 
-- **Leerer Boden anvisiert**: alle Kistentypen - schneller als eines
+- **Leerer Boden anvisiert**: alle dynamischen Kistentypen - schneller als eines
   der Module aus dem Support-Menü zu suchen und zu platzieren. Die Kiste
   spawnt dabei in der Nähe der angeklickten Position, mit demselben
   Verhalten wie oben bei den Zeus-Modulen beschrieben (inkl. Ausweichen bei
