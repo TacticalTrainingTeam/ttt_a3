@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Bft_Jamming">
+        <Key ID="STR_ttt_Bft_Jamming_moduleAddBftJammer_description">
+            <English>Registers the synced object (or a spawned data terminal, if none is synced) as a Crow's EW jammer that jams cTab's Blue Force Tracker instead of radio or drones. Detectable with the Spectrum Device like any other jammer.</English>
+            <German>Registriert das synchronisierte Objekt (oder ein erzeugtes Datenterminal, falls keines synchronisiert ist) als Crow's-EW-Störsender, der cTabs Blue Force Tracker anstelle von Funk oder Drohnen stört. Wie jeder andere Störsender mit dem Spektrumgerät erkennbar.</German>
+        </Key>
+        <Key ID="STR_ttt_Bft_Jamming_moduleAddBftJammer_displayName">
+            <English>Set as BFT Jammer</English>
+            <German>Als BFT-Störsender festlegen</German>
+        </Key>
+        <Key ID="STR_ttt_Bft_Jamming_moduleAddBftJammer_effectiveRadius_displayName">
+            <English>Effective Radius</English>
+            <German>Effektiver Radius</German>
+        </Key>
+        <Key ID="STR_ttt_Bft_Jamming_moduleAddBftJammer_effectiveRadius_tooltip">
+            <English>Inner radius (meters) with full jamming strength. Blackout jams fully out to Effective + Falloff radius; Drift reaches maximum position error inside this radius.</English>
+            <German>Innerer Radius (Meter) mit voller Störwirkung. Blackout stört vollständig bis zum Radius Effektiv + Abklingen; Abweichung erreicht innerhalb dieses Radius den maximalen Positionsfehler.</German>
+        </Key>
+        <Key ID="STR_ttt_Bft_Jamming_moduleAddBftJammer_falloffRadius_displayName">
+            <English>Falloff Radius</English>
+            <German>Abklingradius</German>
+        </Key>
+        <Key ID="STR_ttt_Bft_Jamming_moduleAddBftJammer_falloffRadius_tooltip">
+            <English>Extra radius (meters) beyond the effective radius. Drift strength ramps linearly from full at the effective radius down to zero at the outer edge of this band. Blackout treats this whole band as fully jammed too.</English>
+            <German>Zusätzlicher Radius (Meter) über den effektiven Radius hinaus. Die Stärke der Abweichung nimmt linear von voll am effektiven Radius bis auf null am äußeren Rand dieses Bereichs ab. Blackout behandelt auch diesen gesamten Bereich als vollständig gestört.</German>
+        </Key>
+        <Key ID="STR_ttt_Bft_Jamming_moduleAddBftJammer_frequency_displayName">
+            <English>Spectrum Frequency</English>
+            <German>Spektrum-Frequenz</German>
+        </Key>
+        <Key ID="STR_ttt_Bft_Jamming_moduleAddBftJammer_frequency_tooltip">
+            <English>Frequency (MHz) at which this jammer's signal appears on the Crow's EW Spectrum Device, whenever it is active. Any value within the Spectrum Device's range works.</English>
+            <German>Frequenz (MHz), auf der das Signal dieses Störsenders auf dem Crow's-EW-Spektrumgerät erscheint, solange er aktiv ist. Jeder Wert innerhalb des Bereichs des Spektrumgeräts funktioniert.</German>
+        </Key>
+        <Key ID="STR_ttt_Bft_Jamming_moduleAddBftJammer_jamType_blackout">
+            <English>Blackout (hide unit)</English>
+            <German>Blackout (Einheit ausblenden)</German>
+        </Key>
+        <Key ID="STR_ttt_Bft_Jamming_moduleAddBftJammer_jamType_displayName">
+            <English>Jamming Type</English>
+            <German>Störungsart</German>
+        </Key>
+        <Key ID="STR_ttt_Bft_Jamming_moduleAddBftJammer_jamType_drift">
+            <English>Drift (corrupt position)</English>
+            <German>Abweichung (Position verfälschen)</German>
+        </Key>
+        <Key ID="STR_ttt_Bft_Jamming_moduleAddBftJammer_jamType_mixed">
+            <English>Mixed (blackout core, drift outer)</English>
+            <German>Gemischt (Blackout innen, Abweichung außen)</German>
+        </Key>
+        <Key ID="STR_ttt_Bft_Jamming_moduleAddBftJammer_jamType_tooltip">
+            <English>Blackout: units inside the jammer's range disappear from BFT entirely. Drift: units stay visible but their displayed position gets progressively less accurate the closer they are to the jammer's center. Mixed: Blackout inside the Effective Radius, Drift (tapering off) in the Falloff Radius band around it.</English>
+            <German>Blackout: Einheiten innerhalb der Reichweite des Störsenders verschwinden vollständig vom BFT. Abweichung: Einheiten bleiben sichtbar, aber ihre angezeigte Position wird zunehmend ungenauer, je näher sie sich am Zentrum des Störsenders befinden. Gemischt: Blackout innerhalb des effektiven Radius, Abweichung (abnehmend) im Abklingradius darum herum.</German>
+        </Key>
+        <Key ID="STR_ttt_Bft_Jamming_moduleAddBftJammer_missionStart_displayName">
+            <English>Active at Mission Start</English>
+            <German>Aktiv bei Missionsbeginn</German>
+        </Key>
+        <Key ID="STR_ttt_Bft_Jamming_moduleAddBftJammer_missionStart_tooltip">
+            <English>If disabled, the jammer starts turned off and can be activated later (e.g. via Zeus).</English>
+            <German>Wenn deaktiviert, startet der Störsender ausgeschaltet und kann später aktiviert werden (z. B. über Zeus).</German>
+        </Key>
+    </Package>
+</Project>
