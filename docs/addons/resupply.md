@@ -32,6 +32,12 @@ sie angefordert hat (Spieler oder Zeus) bekommt einen Hinweis, warum nicht.
 Die fest vorgegebenen Kisten (Sanität bis Markierungskiste) spawnen
 dagegen immer mit den TTT-Common-Klassen, unabhängig vom Ausrüstungs-Scan.
 
+Die Sanitätskisten sind an jedem Depot verfügbar. Die übrigen fest
+vorgegebenen Kisten (Sprengkiste bis Markierungskiste) sind dagegen
+**standardmäßig gesperrt** und müssen vom Missionsbauer pro Depot
+ausdrücklich freigeschaltet werden, siehe
+[Weitere Kisten am Depot freischalten](#weitere-kisten-am-depot-freischalten).
+
 Bei der Panzerabwehr-Kiste bekommen nur echte Einwegwaffen (bei denen die
 ganze Waffe beim Abfeuern verloren geht, z. B. aus manchen Waffen-Mods) ein
 neues Abschussrohr dazu. Waffen wie die Carl Gustaf, die zwar meist nur mit einer
@@ -41,7 +47,8 @@ gewohnt nur neue Munition.
 Im ACE-Menü werden dynamische Kistentypen komplett ausgeblendet (statt sie
 anzuzeigen und dann fehlschlagen zu lassen), solange der Ausrüstungs-Scan noch
 läuft, bzw. sobald er fertig ist, wenn die jeweilige Kategorie leer geblieben
-ist. Die fest vorgegebenen Kisten werden immer angezeigt. Ein erfolgreicher Spawn wird dem
+ist. Die Sanitätskisten werden immer angezeigt, die übrigen fest vorgegebenen
+Kisten nur an Depots, an denen sie freigeschaltet wurden. Ein erfolgreicher Spawn wird dem
 Anfordernden ebenso bestätigt wie ein Fehlschlag gemeldet wird.
 
 Ist **KAT Advanced Medical** (`kat_main`) geladen, spawnen die Sanitätskisten
@@ -116,7 +123,9 @@ Im **Init**-Feld des Objekts:
 this setVariable ["ttt_resupply_container", true];
 ```
 
-Spieler sehen am Objekt ein **Resupply**-Untermenü mit allen Kistentypen.
+Spieler sehen am Objekt ein **Resupply**-Untermenü mit allen Kistentypen, die
+an diesem Depot verfügbar sind (Sprengkiste bis Markierungskiste erst nach
+[Freischaltung](#weitere-kisten-am-depot-freischalten)).
 
 Wo die Kiste dabei genau spawnt, siehe
 [Spawnposition der Kiste](#spawnposition-der-kiste) weiter oben.
@@ -131,8 +140,37 @@ kein Depot mehr.
 
 !!! info
     Das Attribut setzt beim Missionsstart nur `ttt_resupply_container`, nicht
-    `ttt_resupply_limits` - ein Kistenlimit pro Depot lässt sich weiterhin nur über das Init-Feld
-    wie unten beschrieben konfigurieren.
+    `ttt_resupply_limits` und `ttt_resupply_enabledTypes` - ein Kistenlimit pro Depot und die
+    Freischaltung zusätzlicher Kisten lassen sich weiterhin nur über das Init-Feld wie unten
+    beschrieben konfigurieren.
+
+#### Weitere Kisten am Depot freischalten
+
+Sprengkiste (`spreng`), Pionierkiste (`pio`), EOD-Kiste (`eod`),
+EOD+UGV-Kiste (`eod_ugv`), Drohnenkiste (`uav`) und Markierungskiste (`mark`)
+werden an einem Depot nur angeboten, wenn ihr sie dort ausdrücklich
+freischaltet. So landet nicht versehentlich Spezialausrüstung an jedem Depot.
+Die Freischaltung gilt pro Depot - ein Depot kann z. B. nur die EOD-Kiste
+anbieten, ein anderes nur die Drohnenkiste.
+
+Im **Init**-Feld des Objekts, zusätzlich zur Depot-Markierung:
+
+``` c++
+this setVariable ["ttt_resupply_container", true];
+this setVariable ["ttt_resupply_enabledTypes", ["eod", "uav"]];
+```
+
+`ttt_resupply_enabledTypes` ist eine Liste der freizuschaltenden Typ-IDs
+(`"spreng"`, `"pio"`, `"eod"`, `"eod_ugv"`, `"uav"`, `"mark"`). Nicht
+aufgeführte Kisten bleiben an diesem Depot gesperrt: Die Aktion wird dort
+ausgeblendet, und selbst ein Spawn-Versuch wird mit einem Hinweis abgelehnt.
+
+!!! info
+    Sanitätskisten und die dynamischen Kisten (Munition bis Support) sind
+    nicht betroffen und immer verfügbar. Die Sperre gilt nur für die
+    ACE-Aktion am Depot: Aufrufe der [Script-API](#script-api) (auch mit einem
+    Depot-Objekt als Ziel) sowie Zeus-Kisten aus der Objektliste sind davon
+    nicht betroffen.
 
 #### Kistenlimit pro Depot (optional)
 
@@ -153,6 +191,12 @@ unbegrenzt. Ist ein Typ an diesem Depot aufgebraucht, wird die zugehörige
 Aktion dort ausgeblendet - genau wie bei einer leeren Kategorie. Das Limit
 gilt nur für die ACE-Aktion an Depot-Objekten, nicht für per Zeus-Modul
 platzierte Kisten.
+
+Die [Freischaltung](#weitere-kisten-am-depot-freischalten) hat Vorrang vor dem
+Limit: Ein Limit für eine Kiste (z. B. `"uav"`), die an diesem Depot nicht
+freigeschaltet ist, bleibt wirkungslos - die Kiste ist trotzdem gesperrt und es
+wird nichts vom Limit verbraucht. Sobald ihr den Typ freischaltet, gilt das
+eingestellte Limit.
 
 Die Erfolgsmeldung beim Spawnen nennt zusätzlich die verbleibende Anzahl an
 diesem Depot (z. B. "Ammo Box spawned (2 left)"), oder "unlimited", wenn für

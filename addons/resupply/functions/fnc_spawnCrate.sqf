@@ -26,7 +26,9 @@
  *    Zeus-triggered spawns, since the owner is a curator <BOOLEAN> (default: false)
  * 4: Depot object whose per-type stock (if limited via QGVAR(limits)) should
  *    be checked and consumed - distinct from argument 0, which is only the
- *    proximity reference to spawn near. objNull means unlimited <OBJECT> (default: objNull)
+ *    proximity reference to spawn near. Gated types (spreng, pio, eod, eod_ugv,
+ *    uav, mark) are refused unless enabled at this depot via QGVAR(enabledTypes).
+ *    objNull means unlimited and ungated <OBJECT> (default: objNull)
  * 5: If the fixed spawn point marker (see below) is occupied, fall back to a
  *    random nearby spot instead of failing outright. Used by the Zeus module,
  *    which - unlike a depot - has no need for a stable, repeatable position:
@@ -105,6 +107,17 @@ if (!_isPrefilled && {_db isEqualTo []}) exitWith {
     WARNING_1("No items found for crate type %1, skipping spawn",_type);
     if (_notifyOwner != -1) then {
         [QGVAR(hint), [format [localize LSTRING(typeEmpty), _typeDisplayName], _notifyZeus], _notifyOwner] call CBA_fnc_ownerEvent;
+    };
+    objNull
+};
+
+// Guard: gated crate type isn't enabled at this depot. Re-checked here
+// authoritatively rather than trusting the ACE action's condition, since that
+// only hides the action client-side.
+if !([_container, _type] call FUNC(isTypeEnabled)) exitWith {
+    WARNING_1("Crate type %1 is not enabled at this depot",_type);
+    if (_notifyOwner != -1) then {
+        [QGVAR(hint), [format [localize LSTRING(typeNotEnabled), _typeDisplayName], _notifyZeus], _notifyOwner] call CBA_fnc_ownerEvent;
     };
     objNull
 };

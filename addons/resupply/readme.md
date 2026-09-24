@@ -46,9 +46,34 @@ Die Fallschirm-Frachtnetz-Kiste aus `ttt_common` ist bewusst nicht dabei - sie
 ist nicht dafür gedacht, über Nachschub gespawnt zu werden. `XEH_preInit.sqf` definiert sie an einer einzigen Stelle
 (`GVAR(prefilledTypes)`, Reihenfolge = Menü-Reihenfolge; `GVAR(prefilled)` ist
 die daraus abgeleitete Lookup-HashMap): Typ-ID, Stringtable-Key des
-Anzeigenamens, Icon, Kistenklasse und optional die KAT-Ersatzklasse. ACE-Menü,
-`fnc_spawnCrate` und `fnc_isCrateAvailable` lesen daraus - eine neue fest
-vorgegebene Kiste braucht dort also nur einen Eintrag.
+Anzeigenamens, Icon, Kistenklasse, optional die KAT-Ersatzklasse und das
+Gate-Flag (siehe unten). ACE-Menü, `fnc_spawnCrate` und `fnc_isCrateAvailable`
+lesen daraus - eine neue fest vorgegebene Kiste braucht dort also nur einen
+Eintrag.
+
+### Freischaltung pro Depot (Gate)
+
+Alle fest vorgegebenen Kisten außer den Sanitätskisten haben im sechsten
+Eintrag von `GVAR(prefilledTypes)` das Flag `gated = true`: Sie sind an einem
+Depot nur verfügbar, wenn ihre Typ-ID in der Objekt-Variable
+`GVAR(enabledTypes)` (Array von Typ-IDs) steht. `fnc_isTypeEnabled` wertet das
+aus und wird an zwei Stellen geprüft: in `fnc_isCrateAvailable` (blendet die
+ACE-Aktion aus) und - autoritativ, da die Aktion nur clientseitig versteckt -
+in `fnc_spawnCrate` (Hinweis `typeNotEnabled`, kein Spawn). Die Prüfung läuft
+vor dem Limit-Check.
+
+Ohne Depot (`_container = objNull`) wird bewusst nicht gegated. Das trifft auf
+alle Script-API-Aufrufe zu - auch `[depotObjekt, "uav"] call fnc_spawnCrate`, da
+das Objekt dort nur die Spawn-Referenz (Argument 0) ist, nicht der
+`_container` (Argument 4) - sowie auf Zeus/ZEN: Dort ist der Aufruf selbst bereits die
+ausdrückliche Entscheidung des Missionsbauers, und die Freischaltung ist eine
+reine Depot-Eigenschaft.
+
+Die Variable wird - wie `GVAR(container)` und `GVAR(limits)` - nicht
+öffentlich gesetzt und muss auf allen Maschinen gleich sein (das Init-Feld läuft
+ohnehin überall). Es gibt bewusst kein 3DEN-Attribut dafür, nur die
+Init-Variable. Das ZEN-Depot-Markieren fasst die Variable nicht an (analog zu
+`GVAR(limits)`).
 
 Zeus-Module und ZEN-Kontextmenü bieten die fest vorgegebenen Kisten bewusst
 **nicht** an: Sie sind bereits fertig befüllt, Zeus kann sie also direkt aus

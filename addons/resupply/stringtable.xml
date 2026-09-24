@@ -14,8 +14,8 @@
             <German>Nachschub-Depot-Markierung entfernen</German>
         </Key>
         <Key ID="STR_ttt_Resupply_containerAttribute_displayName">
-            <English>Resupply Depot</English>
-            <German>Nachschub-Depot</German>
+            <English>Mark as Resupply Depot</English>
+            <German>Als Nachschub-Depot markieren</German>
         </Key>
         <Key ID="STR_ttt_Resupply_containerAttribute_tooltip">
             <English>Marks this object as a resupply depot, giving players the ACE Resupply menu on it. Unchecking removes the marking again.</English>
@@ -92,6 +92,10 @@
         <Key ID="STR_ttt_Resupply_typeEmpty">
             <English>Resupply: No %1 found among players. Crate was not spawned.</English>
             <German>Nachschub: Keine %1 bei Spielern gefunden. Kiste wurde nicht erstellt.</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_typeNotEnabled">
+            <English>Resupply: %1 is not enabled at this depot.</English>
+            <German>Nachschub: %1 ist an diesem Depot nicht freigeschaltet.</German>
         </Key>
         <Key ID="STR_ttt_Resupply_type_ammo">
             <English>Ammo Box</English>

@@ -2,10 +2,10 @@
 
 /*
  * Author: Andx
- * Checks whether a crate of the given type could currently be spawned - the
- * depot's per-type stock (if limited) must not be exhausted, the loadout
- * scan must have completed, and for dynamic types, its category must not be
- * empty. Pre-filled crates (medical and the other common crates) skip the
+ * Checks whether a crate of the given type could currently be spawned - gated
+ * types must be enabled at the depot, the depot's per-type stock (if limited)
+ * must not be exhausted, the loadout scan must have completed, and for
+ * dynamic types, its category must not be empty. Pre-filled crates (medical and the other common crates) skip the
  * scan check since they are filled independent of the scan database, but are
  * still subject to the depot's stock limit. Used by the ACE action condition to hide crate types that
  * would just fail with a hint if picked.
@@ -26,6 +26,8 @@
  */
 
 params [["_type", "", [""]], ["_container", objNull, [objNull]]];
+
+if !([_container, _type] call FUNC(isTypeEnabled)) exitWith { false };
 
 if ([_container, _type] call FUNC(getCrateLimit) == 0) exitWith { false };
 
