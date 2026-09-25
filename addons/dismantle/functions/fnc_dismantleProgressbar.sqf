@@ -1,4 +1,19 @@
 #include "..\script_component.hpp"
+/*
+* Author: Andx
+* ACE interact menu statement for the dismantle action. Plays the dismantle
+* animation and progress bar; on completion plays the dismantle sound and
+* deletes the target.
+*
+* Arguments:
+* 0: Target Object <OBJECT>
+* 1: Caller <OBJECT>
+*
+* Return Value:
+* None
+*
+* Public: No
+*/
 
 (_this select 0) params ["_target", "_caller"];
 
