@@ -24,6 +24,10 @@ _caller playMove "Acts_carFixingWheel";
     [_target,_caller], 
     {
         (_this select 0) params ["_target"];
+
+        // Another player may have finished dismantling the same object first
+        if (isNull _target) exitWith {};
+
         playSound3D [DISMANTLE_SOUND_FILE, objNull, false, getPosASL _target, 1, 1, DISMANTLE_SOUND_DISTANCE];
         deleteVehicle _target;
     },
