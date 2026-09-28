@@ -17,7 +17,7 @@
 * Public: Yes
 */
 
-if (isDedicated) exitWith {};
+if (isDedicated || !hasInterface) exitWith {};
 
 // add player-scoped EHs once per machine, regardless of how many times this function is re-run
 if (isNil QGVAR(breathHandlersInit)) then {
