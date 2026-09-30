@@ -23,10 +23,12 @@ params [
     ["_target", objNull, [objNull]]
 ];
 
-if (isNull _target) exitWith { ["Kein Objekt übergeben."] call BIS_fnc_error };//ToDo Localize
+if (isNull _target) exitWith { [LLSTRING(errorNoObjectGiven)] call BIS_fnc_error };
+
+_target setVariable [QGVAR(hasBuildingShield), true, true];
 
 //Add the HandleDamage Eventhandler
-_target addEventHandler [
+private _ehIndex = _target addEventHandler [
     "HandleDamage",
     {
         params ["_unit", "_selection", "_damage", "_source", "_projectile", "_hitPartIndex", "_instigator", "_hitPoint", "_directHit", "_context"];
@@ -45,3 +47,4 @@ _target addEventHandler [
         0
     }
 ];
+_target setVariable [QGVAR(buildingEHIndex), _ehIndex];

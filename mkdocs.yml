@@ -173,11 +173,13 @@ nav:
   - Loadout-System (MPLS): addons/mpls.md
   - Mobile San-Einrichtung (Fahrzeug): addons/medic_vehicle.md
   - Mobile Werkstatt: addons/repair_vehicle.md
+  - Nachschub: addons/resupply.md
   - Objekte Abbauen: addons/dismantle.md
   - KI-Kapitulation: addons/surrender.md
   - Tagging2Map: addons/tagging2map.md
   - Teleporter: addons/teleport.md
   - Umgebungseffekte: addons/effects.md
+  - UAV-Verbindung: addons/uav_link.md
   - W Shields: addons/w_shields.md
   - W Teleporter: addons/w_teleporter.md
 - Addons - Assets:
@@ -196,7 +198,6 @@ nav:
   - Compat 3CB Vehicles: addons/compat_3cb_vehicles.md
   - Compat BWA3: addons/compat_bwa3.md
   - Compat CUP Vehicles: addons/compat_cup_vehicles.md
-  - Compat FPV: addons/compat_fpv.md
   - Compat KAM: addons/compat_kam.md
   - Compat RHS: addons/compat_rhs.md
   - Compat RNT: addons/compat_rnt.md

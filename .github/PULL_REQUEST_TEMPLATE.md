@@ -1,13 +1,15 @@
+## When merged this pull request will:
 
-# PULL REQUEST
+- Describe what this pull request will do
+- Each change in a separate line
 
-**When merged this pull request will:**
+## Important
 
-- _Describe what this pull request will do_
-- _Each change in a separate line_
+- [ ] If the contribution affects [the documentation](../docs), please include your changes in this pull request.
+- [ ] [Development Guidelines](https://github.com/TacticalTrainingTeam/ttt_a3/blob/master/.github/CONTRIBUTING.md) are read, understood and applied.
+- [ ] Title of this PR uses our standard template `Component - Add|Fix|Improve|Change|Remove {changes}`.
 
-## IMPORTANT
+<!-- Known issues that need to be addressed -->
+## Known Issues
 
-- [Development Guidelines](https://ace3.acemod.org/wiki/development/) are read, understood and applied.
-- Title of this PR uses our standard template `Component - Add|Fix|Improve|Change|Remove {changes}`.
-- Component folder has a README.md explaining the component.
+- [ ] Issue

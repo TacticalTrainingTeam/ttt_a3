@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Uav_Link">
+        <Key ID="STR_ttt_Uav_Link_degradeDistance_description">
+            <English>Distance (in meters) from the UAV at which the video feed starts to degrade.</English>
+            <German>Entfernung (in Metern) zum UAV, ab welcher sich das Videobild zu verschlechtern beginnt.</German>
+        </Key>
+        <Key ID="STR_ttt_Uav_Link_degradeDistance_displayName">
+            <English>Degrade Distance</English>
+            <German>Verschlechterungsdistanz</German>
+        </Key>
+        <Key ID="STR_ttt_Uav_Link_enable_description">
+            <English>If enabled, a UAV's video feed degrades and eventually disconnects when the operator is too far from it.</English>
+            <German>Wenn aktiviert, verschlechtert sich das Videobild eines UAV und die Verbindung bricht irgendwann ab, wenn der Operator zu weit entfernt ist.</German>
+        </Key>
+        <Key ID="STR_ttt_Uav_Link_enable_displayName">
+            <English>Enable UAV Link Degradation</English>
+            <German>UAV-Verbindungsverschlechterung aktivieren</German>
+        </Key>
+        <Key ID="STR_ttt_Uav_Link_linkEstablished">
+            <English>UAV link established (%1m)</English>
+            <German>UAV-Verbindung hergestellt (%1m)</German>
+        </Key>
+        <Key ID="STR_ttt_Uav_Link_linkLost">
+            <English>UAV link lost (%1m)</English>
+            <German>UAV-Verbindung verloren (%1m)</German>
+        </Key>
+        <Key ID="STR_ttt_Uav_Link_lostDistance_description">
+            <English>Distance (in meters) from the UAV at which the connection is lost entirely. Must be greater than the degrade distance.</English>
+            <German>Entfernung (in Metern) zum UAV, ab welcher die Verbindung vollständig abbricht. Muss größer als die Verschlechterungsdistanz sein.</German>
+        </Key>
+        <Key ID="STR_ttt_Uav_Link_lostDistance_displayName">
+            <English>Connection Lost Distance</English>
+            <German>Verbindungsabbruch-Distanz</German>
+        </Key>
+        <Key ID="STR_ttt_Uav_Link_subCategory">
+            <English>UAV Link</English>
+            <German>UAV-Verbindung</German>
+        </Key>
+    </Package>
+</Project>

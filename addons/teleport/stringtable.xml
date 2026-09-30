@@ -6,7 +6,7 @@
             <German>Wenn aktiviert, wird ein Spieler welcher während der Mission beitritt automatisch zum Respawn teleportiert.</German>
         </Key>
         <Key ID="STR_ttt_Teleport_enableJipMove_displayName">
-            <English>Activate JIP Move to Respawm Logic</English>
+            <English>Activate JIP Move to Respawn Logic</English>
             <German>JIP spawnt am respawn Logik aktivieren</German>
         </Key>
         <Key ID="STR_ttt_Teleport_enable_description">

@@ -15,7 +15,13 @@
  *      Default: [true, true]
  * 3 (Optional):
  *      BOOLEAN - If the hull damage is capped, kill the engine?
- *      Default: false
+ *      Default: true
+ * 4 (Optional):
+ *      BOOLEAN - Remove any pre-existing HandleDamage handlers on the target first?
+ *      Mods like ACE's Advanced Vehicle Damage (ace_vehicle_damage) attach their own HandleDamage handler
+ *      to Tanks/APCs and, left in place, destroy the vehicle via their own damage model regardless of our
+ *      hithull cap. Pruning first guarantees ours is the only (and therefore last) handler.
+ *      Default: true
  *
  * Return Value:
  * None
@@ -28,8 +34,9 @@
 params [
     [ "_target",            objNull,        [objNull]   ],
     [ "_preventFuelDrain",  false,          [true]      ],
-    [ "_rotors",            [false, false], [[]]        ],
-    [ "_killEngine",        false,          [true]      ]
+    [ "_rotors",            [true, true],   [[]]        ],
+    [ "_killEngine",        true,           [true]      ],
+    [ "_prune",             true,           [true]      ]
 ];
 
 _rotors params [
@@ -37,7 +44,7 @@ _rotors params [
     [ "_preventVRotorKill",   true,          [true]      ]
 ];
 
-_target setVariable [QGVAR(hasVHS), true];
+_target setVariable [QGVAR(hasVHS), true, true];
 _target setVariable [QGVAR(preventFuelDrain), _preventFuelDrain];
 _target setVariable [QGVAR(preventHRotorKill), _preventHRotorKill];
 _target setVariable [QGVAR(preventVRotorKill), _preventVRotorKill];
@@ -76,13 +83,18 @@ _target setVariable [QGVAR(allRegHP), _allRegHPs, true];
 _target setVariable [QGVAR(allCritHP), _allCritHPs, true];
 _target setVariable [QGVAR(hitHash), createHashMap, true];
 
+//Strip competing HandleDamage handlers (eg. ace_vehicle_damage) so ours ends up as the sole/last one - see param 4 above
+if (_prune) then {_target removeAllEventHandlers "HandleDamage";};
+
 //Add the HandleDamage Eventhandler
 INFO_2("Init GrpW VHS für Fahrzeug %1 | Typ %2",_target,typeOf _target);
 [{
     params ["_target"];
 
-    _target addEventHandler [
+    private _ehIndex = _target addEventHandler [
         "HandleDamage",
         {_this call FUNC(handleVehDamage);}
     ];
+    //Local only - removeVehicleShield needs the index of the handler THIS machine added, not whatever another machine's index happened to be
+    _target setVariable [QGVAR(vhsEHIndex), _ehIndex];
 }, _target] call CBA_fnc_execNextFrame;

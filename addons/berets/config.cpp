@@ -15,39 +15,39 @@ class CfgPatches {
         requiredAddons[] = {"ttt_common",  "A3_Characters_F", "A3_Weapons_F"};
         // List of objects (CfgVehicles classes) contained in the addon. Important also for Zeus content (units and groups) unlocking.
         units[] = {
-            "ttt_Beret_Item_Blue",
-            "ttt_Beret_Item_Brown",
-            "ttt_Beret_Item_Bronze",
-            "ttt_Beret_Item_Yellow",
-            "ttt_Beret_Item_Gold",
-            "ttt_Beret_Item_Grey",
-            "ttt_Beret_Item_Green",
-            "ttt_Beret_Item_Logo",
-            "ttt_Beret_Item_Platinum",
-            "ttt_Beret_Item_Red",
-            "ttt_Beret_Item_Black",
-            "ttt_Beret_Item_Silver",
-            "ttt_Beret_Item_Violet",
-            "ttt_Beret_Item_White",
-            "ttt_Beret_Item_Orange"
+            QGVAR(Item_Blue),
+            QGVAR(Item_Brown),
+            QGVAR(Item_Bronze),
+            QGVAR(Item_Yellow),
+            QGVAR(Item_Gold),
+            QGVAR(Item_Grey),
+            QGVAR(Item_Green),
+            QGVAR(Item_Logo),
+            QGVAR(Item_Platinum),
+            QGVAR(Item_Red),
+            QGVAR(Item_Black),
+            QGVAR(Item_Silver),
+            QGVAR(Item_Violet),
+            QGVAR(Item_White),
+            QGVAR(Item_Orange)
         };
         // List of weapons (CfgWeapons classes) contained in the addon.
         weapons[] = {
-            "ttt_Beret_Blue",
-            "ttt_Beret_Brown",
-            "ttt_Beret_Bronze",
-            "ttt_Beret_Yellow",
-            "ttt_Beret_Gold",
-            "ttt_Beret_Grey",
-            "ttt_Beret_Green",
-            "ttt_Beret_Logo",
-            "ttt_Beret_Platinum",
-            "ttt_Beret_Red",
-            "ttt_Beret_Black",
-            "ttt_Beret_Silver",
-            "ttt_Beret_Violet",
-            "ttt_Beret_White",
-            "ttt_Beret_Orange"
+            QGVAR(Blue),
+            QGVAR(Brown),
+            QGVAR(Bronze),
+            QGVAR(Yellow),
+            QGVAR(Gold),
+            QGVAR(Grey),
+            QGVAR(Green),
+            QGVAR(Logo),
+            QGVAR(Platinum),
+            QGVAR(Red),
+            QGVAR(Black),
+            QGVAR(Silver),
+            QGVAR(Violet),
+            QGVAR(White),
+            QGVAR(Orange)
         };
 
         // Optional. If this is 1, if any of requiredAddons[] entry is missing in your game the entire config will be ignored and return no error (but in rpt) so useful to make a compat Mod (Since Arma 3 2.14)

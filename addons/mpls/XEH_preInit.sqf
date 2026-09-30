@@ -31,6 +31,30 @@ if (hasInterface) then  {
             [ace_player, getPlayerUID ace_player] call FUNC(saveLoadout);
         }
     ] call CBA_fnc_addEventHandler;
+
+    [
+        QGVAR(doApplyFirstLoadout),
+        {
+            params ["_player"];
+            _player call FUNC(applyFirstLoadout);
+        }
+    ] call CBA_fnc_addEventHandler;
+
+    [
+        QGVAR(doSaveSnapshot),
+        {
+            params ["_player"];
+            _player call FUNC(saveLoadoutSnapshot);
+        }
+    ] call CBA_fnc_addEventHandler;
+
+    [
+        QGVAR(doApplyLoadoutSnapshot),
+        {
+            params ["_player"];
+            _player call FUNC(applyLoadoutSnapshot);
+        }
+    ] call CBA_fnc_addEventHandler;
 };
 
 INFO("Mission-Persistent Loadoutsystem initialized");
