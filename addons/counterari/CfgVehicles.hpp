@@ -18,7 +18,7 @@ class CfgVehicles {
         icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
         category = "Supports";
         function = QFUNC(initEnemyAri);
-        isGlobal = 1;
+        isGlobal = 0;                                                                        // 0 for server only execution, 1 for global execution, 2 for persistent global execution
 
         class Attributes: AttributesBase {
             class ModuleDescription: ModuleDescription {};
