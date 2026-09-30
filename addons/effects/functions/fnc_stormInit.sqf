@@ -4,20 +4,20 @@
 *
 * Description:
 * Creates storm VFX and environmental changes for sand or snow.
-* 
+*
 * Arguments:
-* 0: <INTEGER>	(optional, default: 300) 			storm duration in seconds
-* 1: <BOOL>		(optional, default: false) 			effect on objects
-* 2: <INTEGER>	(optional, default: 0) 				type (sand (0) or snow (1))
-* 3: <BOOL>		(optional, default: true) 			force walking on infantry
-* 4: <INTEGER>	(optional, default: random 360) 	wind direction
+* 0: <INTEGER>    (optional, default: 300)             storm duration in seconds
+* 1: <BOOL>        (optional, default: false)             effect on objects
+* 2: <INTEGER>    (optional, default: 0)                 type (sand (0) or snow (1))
+* 3: <BOOL>        (optional, default: true)             force walking on infantry
+* 4: <INTEGER>    (optional, default: random 360)     wind direction
 *
 * Return Value:
 * 1: <INTEGER> missionEndTimeForStorm
 * 2: <INTEGER> directionStorm
 *
 * Example (called on Server i.e.: initServer.sqf or serverside trigger):
-*	[duration, effect, stormType, walk, direction] call ttt_effects_fnc_stormInit;
+*    [duration, effect, stormType, walk, direction] call ttt_effects_fnc_stormInit;
 *
 * Public: Yes
 */
@@ -25,11 +25,11 @@
 if (!isServer || missionNamespace getVariable [QGVAR(stormActive), false]) exitWith {};
 
 params [
-	["_durationDuststorm", 300, [42]],
-	["_effectOnObjects", false, [true]],
-	["_stormType", 0, [42]],
-	["_walk", true, [true]],
-	["_directionDuststorm", (random 360), [42]]
+    ["_durationDuststorm", 300, [42]],
+    ["_effectOnObjects", false, [true]],
+    ["_stormType", 0, [42]],
+    ["_walk", true, [true]],
+    ["_directionDuststorm", (random 360), [42]]
 ];
 
 _durationDuststorm = _durationDuststorm max 60;
@@ -84,12 +84,12 @@ private _allEntities = allUnits + vehicles;
 		_args params ["_end", "_direction", "_duration", "_effect", "_entities"];
 		if (time >= _end) exitWith {[_pfhId] call CBA_fnc_removePerFrameHandler;};
 
-		private _clock = _duration - (_end - time) + 1;
-		setWind [
-			(sin _direction * ((80 * _clock * (_duration - _clock)) / (_duration ^ 2))),
-			(cos _direction * ((80 * _clock * (_duration - _clock)) / (_duration ^ 2))),
-			true
-		];
+        private _clock = _duration - (_end - time) + 1;
+        setWind [
+            (sin _direction * ((80 * _clock * (_duration - _clock)) / (_duration ^ 2))),
+            (cos _direction * ((80 * _clock * (_duration - _clock)) / (_duration ^ 2))),
+            true
+        ];
 
 		if (_effect) then {
 			private _effectedObject = selectRandom _entities;
