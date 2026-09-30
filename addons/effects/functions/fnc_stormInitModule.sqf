@@ -28,5 +28,5 @@ if (_activated) then {
     private _walk = _logic getVariable [QGVAR(stormModule_walk), true];
     private _direction = _logic getVariable [QGVAR(stormModule_direction), 0];
 
-    [_duration, _effect, _stormType, _walk, _direction] call ttt_effects_fnc_stormInit;
+    [_duration, _effect, _stormType, _walk, _direction] call FUNC(stormInit);
 };

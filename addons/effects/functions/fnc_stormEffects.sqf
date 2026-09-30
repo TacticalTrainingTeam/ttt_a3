@@ -71,11 +71,12 @@ private _particleThree = "#particlesource" createVehicleLocal (player modelToWor
 // ambient sound and camshake
 [
 	{
-		(_this select 0) params ["_end"];
-		if (time >= (_end - 15)) exitWith {};
+		params ["_args", "_pfhId"];
+		_args params ["_end"];
+		if (time >= (_end - 15)) exitWith {[_pfhId] call CBA_fnc_removePerFrameHandler;};
 		private _wind = playSound (selectRandom ["wind_1","wind_2","wind_3","wind_4","wind_5"]);
 		if (selectRandomWeighted [true, 40, false, 60]) then {addCamShake [0.35, 20, 25];};		// random camshake
-	}, 
+	},
 	11.2,																						//duration of all files is 11.1198 seconds
 	[_endTime]
 ] call CBA_fnc_addPerFrameHandler;
@@ -99,17 +100,13 @@ private _particleThree = "#particlesource" createVehicleLocal (player modelToWor
 		"colorCorrections" ppEffectAdjust [1,1,0,[0, 0, 0, 0],[1, 1, 1, 1],[0.299, 0.587, 0.114, 0]];
 		"colorCorrections" ppEffectCommit 10;
 		"colorCorrections" ppEffectEnable true;
-		screenEffectOne = ppEffectCreate ["DynamicBlur", 500];
-		screenEffectOne ppEffectAdjust [0];
-		screenEffectOne ppEffectCommit 8;
-		screenEffectOne ppEffectEnable true;
-		screenEffectTwo = ppEffectCreate ["FilmGrain", 2000];
-		screenEffectTwo ppEffectAdjust [0.005, 1.25, 2.01, 0.75, 1, true];
-		screenEffectTwo ppEffectCommit 5;
-		screenEffectTwo ppEffectEnable true;
+		_effectOne ppEffectAdjust [0];
+		_effectOne ppEffectCommit 8;
+		_effectTwo ppEffectAdjust [0.005, 1.25, 2.01, 0.75, 1, true];
+		_effectTwo ppEffectCommit 5;
 		player forceWalk false;
-	}, 
-	[screenEffectOne, screenEffectTwo], 
+	},
+	[screenEffectOne, screenEffectTwo],
 	(_durationDuststorm - 10)
 ] call CBA_fnc_waitAndExecute;
 
