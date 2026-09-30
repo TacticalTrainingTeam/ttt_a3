@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [6.0.0] - 2026-09-30
+
 ### Added
 
 * Facilty Framework - Add new Component (#599) by Andx667
@@ -17,13 +19,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 * Assets - Refactor class names to use GVAR macros for consistency and maintainability (#598) by Andx667
+* Counter Ari - Refactor counter-battery modules for improved functionality and clarity (#593) by Andx667
 * Field Manual - Fix and Improve multiple Aspects (#607) by Andx667
 
 ### Fixed
 
 * ClearHud - Fix Hotkey (#612) by Andx667
+* Effects - Fix and Improve Code (#595) by Andx667
+* General - Fix class name casing and group handling in loadout scan (#623) by Andx667
 * Surrender - Fix Area and function logic (#594) by Andx667
 * W Shields - Fix and improve shields (#600) by Andx667
+
+### Removed
+
+* Compat FPV - Remove component (#624) by Andx667
 
 ## [5.4.2] - 2026-08-20
 
