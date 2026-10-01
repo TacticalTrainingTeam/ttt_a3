@@ -34,26 +34,3 @@ if (!hasInterface) exitWith {};
 
     [_phase] call FUNC(deletePhase);
 }, "all"] call CBA_fnc_registerChatCommand;
-
-// Im reinen Einzelspieler gibt es keinen Chat, deshalb zum Speichern zusätzlich Tastenbelegungen (ohne Standardtaste)
-[
-    ELSTRING(main,TacticalTrainingTeam),
-    "SaveNewMarkers",
-    [LSTRING(saveNewKeybindName), LSTRING(saveNewKeybindTooltip)],
-    {
-        ["", true] call FUNC(savePhase);
-        false
-    },
-    ""
-] call CBA_fnc_addKeybind;
-
-[
-    ELSTRING(main,TacticalTrainingTeam),
-    "SaveAllMarkers",
-    [LSTRING(saveAllKeybindName), LSTRING(saveAllKeybindTooltip)],
-    {
-        ["", false] call FUNC(savePhase);
-        false
-    },
-    ""
-] call CBA_fnc_addKeybind;

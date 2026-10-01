@@ -61,25 +61,9 @@
             <English>No phase is loaded.</English>
             <German>Es ist keine Phase geladen.</German>
         </Key>
-        <Key ID="STR_ttt_Markersave_saveAllKeybindName">
-            <English>Save marker phase (all markers)</English>
-            <German>Marker-Phase speichern (alle Marker)</German>
-        </Key>
-        <Key ID="STR_ttt_Markersave_saveAllKeybindTooltip">
-            <English>Saves all placed markers as a new phase. Singleplayer and Eden multiplayer preview only.</English>
-            <German>Speichert alle gesetzten Marker als neue Phase. Nur im Einzelspieler und in der Eden-Multiplayer-Vorschau.</German>
-        </Key>
-        <Key ID="STR_ttt_Markersave_saveNewKeybindName">
-            <English>Save marker phase (new markers only)</English>
-            <German>Marker-Phase speichern (nur neue Marker)</German>
-        </Key>
-        <Key ID="STR_ttt_Markersave_saveNewKeybindTooltip">
-            <English>Saves the markers not yet saved this session as a new phase. Singleplayer and Eden multiplayer preview only.</English>
-            <German>Speichert die in dieser Sitzung noch nicht gespeicherten Marker als neue Phase. Nur im Einzelspieler und in der Eden-Multiplayer-Vorschau.</German>
-        </Key>
         <Key ID="STR_ttt_Markersave_saveNotAllowed">
-            <English>Saving is only possible in singleplayer and the Eden multiplayer preview.</English>
-            <German>Speichern ist nur im Einzelspieler und in der Eden-Multiplayer-Vorschau möglich.</German>
+            <English>Saving is only possible in multiplayer, not in singleplayer.</English>
+            <German>Speichern ist nur im Multiplayer möglich, nicht im Einzelspieler.</German>
         </Key>
         <Key ID="STR_ttt_Markersave_saved">
             <English>Saved phase "%1" (%2 markers).</English>

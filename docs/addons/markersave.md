@@ -1,6 +1,6 @@
 # Marker-Phasen
 
-Mit den Marker-Phasen könnt ihr Kartenmarker im Einzelspieler vorbereiten und später im Multiplayer wieder auf die Karte bringen - Phase für Phase. Die Marker werden in eurem eigenen Arma-Profil gespeichert und gelten für die jeweilige Karte.
+Mit den Marker-Phasen könnt ihr Kartenmarker in der lokalen Multiplayer-Vorschau vorbereiten und später im echten Multiplayer wieder auf die Karte bringen - Phase für Phase. Die Marker werden in eurem eigenen Arma-Profil gespeichert und gelten für die jeweilige Karte.
 
 Die Befehle beginnen immer mit einem ++"#"++ und werden im Chat eingegeben. Um den Chat zu öffnen, drückt die ++minus++-Taste. Sie funktionieren auch bei geöffneter Karte und stehen jedem Spieler zur Verfügung. Andere Spieler sehen die Eingabe nicht.
 
@@ -8,9 +8,7 @@ Die Befehle beginnen immer mit einem ++"#"++ und werden im Chat eingegeben. Um d
 
 `#savemarkers [Name]` speichert alle von euch gesetzten Marker (auch gezeichnete Linien) als neue Phase. Ohne Namen heißt die Phase "Phase 1", "Phase 2" usw. Gibt es den Namen schon, wird die Phase überschrieben.
 
-Speichern geht nur im **Einzelspieler** und in der **Eden-Multiplayer-Vorschau**.
-
-Im reinen Einzelspieler gibt es keinen Chat. Dort speichert ihr stattdessen per Tastenbelegung: Unter *Optionen → Steuerung → Addons konfigurieren → Tactical Training Team* gibt es **Marker-Phase speichern (nur neue Marker)** und **Marker-Phase speichern (alle Marker)**. Die Tasten sind nicht vorbelegt, ihr müsst sie zuerst selbst festlegen. Die Phase bekommt dann automatisch den Namen "Phase 1", "Phase 2" usw..
+Speichern und Laden funktionieren in jedem **Multiplayer**, also auch in der lokalen Multiplayer-Vorschau aus dem Editor. Im Einzelspieler geht es nicht, dort gibt es keinen Chat. Es werden nur eure eigenen Marker gespeichert.
 
 Standardmäßig werden nur Marker gespeichert, die noch in keiner Phase sind. So könnt ihr Phase 1 einzeichnen, speichern, direkt weiter Phase 2 einzeichnen und speichern, ohne dass die Marker von Phase 1 doppelt landen. Mit `#savemarkers --all [Name]` werden alle Marker gespeichert.
 

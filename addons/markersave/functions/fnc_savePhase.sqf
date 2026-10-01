@@ -2,7 +2,7 @@
 /*
  * Author: Andx
  * Saves the user placed map markers as a phase of the current map to the player's profile.
- * Only possible in singleplayer and the Eden multiplayer preview.
+ * Only possible in multiplayer (Eden preview or server), not in singleplayer.
  *
  * Arguments:
  * 0: Phase name, defaults to "Phase N". An existing phase with the same name is overwritten. <STRING> (default: "")
@@ -22,13 +22,15 @@ params [
     ["_onlyNew", true, [true]]
 ];
 
-if (isMultiplayer && {!is3DENMultiplayer}) exitWith {
+if (!isMultiplayer) exitWith {
     [LLSTRING(saveNotAllowed)] call ace_common_fnc_displayTextStructured;
 
     false
 };
 
-private _markers = allMapMarkers select {(_x select [0, count USER_MARKER_PREFIX]) isEqualTo USER_MARKER_PREFIX};
+// Auf einem Server sind auch die Marker anderer Spieler sichtbar, deshalb nur die eigene Spieler-ID
+private _prefix = format ["%1%2/", USER_MARKER_PREFIX, getPlayerID player];
+private _markers = allMapMarkers select {(_x select [0, count _prefix]) isEqualTo _prefix};
 
 if (_onlyNew) then {
     _markers = _markers select {!(_x in GVAR(savedMarkers))};

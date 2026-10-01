@@ -1,6 +1,6 @@
 # Marker-Phasen
 
-Speichert die vom Spieler gesetzten Kartenmarker als benannte "Phasen" im eigenen Profil (`profileNamespace`) und lädt sie später auf derselben Karte wieder. Gedacht, um im Einzelspieler oder in der Eden-Multiplayer-Vorschau eine Planung vorzubereiten und sie im Multiplayer Phase für Phase auf die Karte zu bringen. Die Bedienung erfolgt über Chat-Befehle (`#savemarkers`, `#loadmarkers`, `#unloadmarkers`, `#listmarkers`, `#deletemarkers`). Zum Speichern gibt es zusätzlich zwei CBA-Tastenbelegungen, siehe die [Nutzerdokumentation](https://docs.tacticalteam.de/addons/markersave/).
+Speichert die vom Spieler gesetzten Kartenmarker als benannte "Phasen" im eigenen Profil (`profileNamespace`) und lädt sie später auf derselben Karte wieder. Gedacht, um in der lokalen Multiplayer-Vorschau (Eden) eine Planung vorzubereiten und sie im echten Multiplayer Phase für Phase auf die Karte zu bringen. Gespeichert werden kann in jedem Multiplayer, also auch auf einem Server. Die Bedienung erfolgt über Chat-Befehle (`#savemarkers`, `#loadmarkers`, `#unloadmarkers`, `#listmarkers`, `#deletemarkers`). Siehe auch die [Nutzerdokumentation](https://docs.tacticalteam.de/addons/markersave/).
 
 ## Abhängigkeiten
 
@@ -10,13 +10,13 @@ Speichert die vom Spieler gesetzten Kartenmarker als benannte "Phasen" im eigene
 
 Pro Karte eine Profilvariable `ttt_markersave_phases_<toLower worldName>` mit dem Inhalt `[PHASE_FORMAT_VERSION, phasen]`. Jede Phase ist `[name, systemTime, records]`, jeder Record `[shape, type, color, size, brush, dir, text, alpha, pos, polyline]`. Es sind bewusst verschachtelte Arrays statt einer HashMap, damit das Profil-Format keine Fragen offen lässt. Bei einer inkompatiblen Änderung muss `PHASE_FORMAT_VERSION` erhöht werden - `fnc_getPhases` liefert für unbekannte Versionen eine leere Liste.
 
-Gespeichert werden nur Marker, deren Name mit `_USER_DEFINED #` beginnt (also vom Spieler gesetzt, inklusive gezeichneter Linien als `POLYLINE`). Missions- und Editormarker bleiben außen vor. `saveProfileNamespace` wird nach jeder Änderung aufgerufen, damit nichts bei einem Absturz verloren geht.
+Gespeichert werden nur Marker, deren Name mit `_USER_DEFINED #<Spieler-ID>/` beginnt (also vom Spieler gesetzt, inklusive gezeichneter Linien als `POLYLINE`). Missions- und Editormarker bleiben außen vor. `saveProfileNamespace` wird nach jeder Änderung aufgerufen, damit nichts bei einem Absturz verloren geht.
 
 ## Speichern
 
-`fnc_savePhase` ist nur im Einzelspieler und in der Eden-Multiplayer-Vorschau erlaubt (`!isMultiplayer || is3DENMultiplayer`). Letzteres ist nur für den Ersteller der Vorschau wahr, ein normaler gehosteter oder dedizierter Server kann also nicht speichern.
+`fnc_savePhase` ist nur im Multiplayer erlaubt (`isMultiplayer`), die Eden-Vorschau zählt dazu. Der reine Einzelspieler fällt bewusst weg: Dort gibt es keinen Chat für die Befehle. Weil auf einem Server auch die Marker anderer Spieler in `allMapMarkers` stehen, wird nur nach dem Präfix `_USER_DEFINED #<getPlayerID player>/` gefiltert (Format aus `fnc_createPlayerMarker`).
 
-Im reinen Einzelspieler ist der Chat nicht verfügbar, der Befehl ist also nicht der einzige Weg zu `fnc_savePhase`: Zwei CBA-Tastenbelegungen (`SaveNewMarkers` und `SaveAllMarkers`, ohne Standardtaste, damit sie nichts überschreiben) speichern mit automatischem Namen ("Phase N"). Benannte Phasen gibt es dort nicht, im Eden-MP geht das weiterhin über den Chat-Befehl. Die Rückmeldungen erscheinen als ACE-Hint (`ace_common_fnc_displayTextStructured`), weil der Chat im Einzelspieler nicht verfügbar und mit Clear HUD ohnehin ausgeblendet ist. Mehrzeilige Ausgaben (`#listmarkers`, Ladeergebnis) gehen als ein einziger Hint raus, da jeder neue Hint den vorherigen ersetzt.
+Die Rückmeldungen erscheinen als ACE-Hint (`ace_common_fnc_displayTextStructured`), weil der Chat mit Clear HUD ausgeblendet ist. Mehrzeilige Ausgaben (`#listmarkers`, Ladeergebnis) gehen als ein einziger Hint raus, da jeder neue Hint den vorherigen ersetzt.
 
 Nach jedem erfolgreichen Speichern legt `fnc_addDiaryRecord` einen Tagebucheintrag im Thema "Marker-Phasen" an (Phasenname, Markeranzahl, Uhrzeit). Das Thema gehört zur Einheit des Spielers und wird bei Bedarf neu erzeugt (`diarySubjectExists`), auch nach einem Respawn. Der Eintrag ist nur ein Protokoll der laufenden Sitzung, die Daten selbst liegen im Profil.
 
