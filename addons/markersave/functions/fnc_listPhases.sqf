@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /*
  * Author: Andx
- * Prints the saved phases of the current map to the system chat.
+ * Prints the saved phases of the current map as a hint.
  *
  * Arguments:
  * None
@@ -33,6 +33,6 @@ private _lines = [];
     _lines pushBack format [LLSTRING(listEntry), _forEachIndex + 1, _name, count _records, _state];
 } forEach _phases;
 
-[_lines] call ace_common_fnc_displayTextStructured;
+[_lines joinString "<br/>"] call ace_common_fnc_displayTextStructured;
 
 true // return

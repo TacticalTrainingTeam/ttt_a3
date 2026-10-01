@@ -68,11 +68,18 @@ private _phases = call FUNC(getPhases);
 _name = trim _name;
 
 if (_name isEqualTo "") then {
-    _name = format [LLSTRING(defaultName), count _phases + 1];
+    // Nach Löschungen kann "Phase N" schon vergeben sein, deshalb bis zum ersten freien Namen weiterzählen
+    private _number = count _phases + 1;
+    _name = format [LLSTRING(defaultName), _number];
+
+    while {_phases findIf {toLower (_x select 0) isEqualTo toLower _name} != -1} do {
+        _number = _number + 1;
+        _name = format [LLSTRING(defaultName), _number];
+    };
 };
 
 private _phase = [_name, systemTime, _records];
-private _index = _phases findIf {(_x select 0) == _name};
+private _index = _phases findIf {toLower (_x select 0) isEqualTo toLower _name};
 
 if (_index == -1) then {
     _phases pushBack _phase;

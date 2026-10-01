@@ -22,11 +22,18 @@ private _loadedIndex = -1;
 if (_phase isEqualTo -1) then {
     _loadedIndex = count GVAR(loadedPhases) - 1;
 } else {
-    private _phases = call FUNC(getPhases);
-    private _index = [_phase, _phases] call FUNC(resolvePhase);
+    // Name hat Vorrang, auch wenn die Phase inzwischen gelöscht wurde (Marker bleiben dann geladen)
+    if (_phase isEqualType "") then {
+        _loadedIndex = [_phase] call FUNC(getLoadedIndex);
+    };
 
-    if (_index != -1) then {
-        _loadedIndex = [(_phases select _index) select 0] call FUNC(getLoadedIndex);
+    if (_loadedIndex == -1) then {
+        private _phases = call FUNC(getPhases);
+        private _index = [_phase, _phases] call FUNC(resolvePhase);
+
+        if (_index != -1) then {
+            _loadedIndex = [(_phases select _index) select 0] call FUNC(getLoadedIndex);
+        };
     };
 };
 

@@ -125,7 +125,7 @@ GVAR(loadedPhases) pushBack [toLower _name, _names, _name];
             _lines pushBack format [LLSTRING(skippedDrawings), _skipped];
         };
 
-        [_lines] call ace_common_fnc_displayTextStructured;
+        [_lines joinString "<br/>"] call ace_common_fnc_displayTextStructured;
     };
 }, 0, [_records, _names, _name, _target, _local, _skipped, 0]] call CBA_fnc_addPerFrameHandler;
 

@@ -2,7 +2,7 @@
 
 Mit den Marker-Phasen könnt ihr Kartenmarker im Einzelspieler vorbereiten und später im Multiplayer wieder auf die Karte bringen - Phase für Phase. Die Marker werden in eurem eigenen Arma-Profil gespeichert und gelten für die jeweilige Karte.
 
-Die Befehle beginnen immer mit einem ++"#"++ und werden im Chat eingegeben. Um den Chat zu öffnen, drücke die ++minus++-Taste. Sie funktionieren auch bei geöffneter Karte und stehen jedem Spieler zur Verfügung. Andere Spieler sehen die Eingabe nicht.
+Die Befehle beginnen immer mit einem ++"#"++ und werden im Chat eingegeben. Um den Chat zu öffnen, drückt die ++minus++-Taste. Sie funktionieren auch bei geöffneter Karte und stehen jedem Spieler zur Verfügung. Andere Spieler sehen die Eingabe nicht.
 
 ## Speichern
 

@@ -25,7 +25,7 @@ private _index = -1;
 
 if (_phase isEqualType "") then {
     // Name hat Vorrang, damit eine Phase "2" nicht von der Position verdeckt wird
-    _index = _phases findIf {(_x select 0) == _phase};
+    _index = _phases findIf {toLower (_x select 0) isEqualTo toLower _phase};
 
     if (_index == -1 && {_phase isEqualTo str parseNumber _phase}) then {
         _phase = parseNumber _phase;
