@@ -12,6 +12,10 @@ Andere Spieler sehen die Eingabe des Befehls nicht.
 
 `#techsupport` erzeugt an der eigenen Position einen Teleporter (TTT-Flagge), mit Aktionen für die Zuschauerkamera und den Tech.-Teleport.
 
+## Marker-Phasen
+
+Die Befehle zum Speichern und Laden von Kartenmarkern (`#savemarkers`, `#loadmarkers` usw.) stehen jedem Spieler zur Verfügung und sind unter [Marker-Phasen](markersave.md) beschrieben.
+
 ## Maintainer
 
 - Andx

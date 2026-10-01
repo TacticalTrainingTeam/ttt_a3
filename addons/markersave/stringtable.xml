@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Markersave">
+        <Key ID="STR_ttt_Markersave_allLoaded">
+            <English>All phases are already loaded.</English>
+            <German>Alle Phasen sind bereits geladen.</German>
+        </Key>
+        <Key ID="STR_ttt_Markersave_alreadyLoaded">
+            <English>Phase "%1" is already loaded.</English>
+            <German>Phase "%1" ist bereits geladen.</German>
+        </Key>
+        <Key ID="STR_ttt_Markersave_channelDisabled">
+            <English>No channel available for placing markers.</English>
+            <German>Es ist kein Kanal zum Platzieren von Markern verfügbar.</German>
+        </Key>
+        <Key ID="STR_ttt_Markersave_defaultName">
+            <English>Phase %1</English>
+            <German>Phase %1</German>
+        </Key>
+        <Key ID="STR_ttt_Markersave_deleted">
+            <English>Deleted phase "%1".</English>
+            <German>Phase "%1" gelöscht.</German>
+        </Key>
+        <Key ID="STR_ttt_Markersave_diarySubject">
+            <English>Marker phases</English>
+            <German>Marker-Phasen</German>
+        </Key>
+        <Key ID="STR_ttt_Markersave_diaryText">
+            <English>%1 markers saved at %2</English>
+            <German>%1 Marker gespeichert um %2</German>
+        </Key>
+        <Key ID="STR_ttt_Markersave_listEntry">
+            <English>%1: %2 (%3 markers)%4</English>
+            <German>%1: %2 (%3 Marker)%4</German>
+        </Key>
+        <Key ID="STR_ttt_Markersave_loaded">
+            <English>Loaded phase "%1" (%2 markers).</English>
+            <German>Phase "%1" geladen (%2 Marker).</German>
+        </Key>
+        <Key ID="STR_ttt_Markersave_loadedTag">
+            <English>loaded</English>
+            <German>geladen</German>
+        </Key>
+        <Key ID="STR_ttt_Markersave_noMarkers">
+            <English>No (new) markers to save.</English>
+            <German>Keine (neuen) Marker zum Speichern.</German>
+        </Key>
+        <Key ID="STR_ttt_Markersave_noPhases">
+            <English>No saved phases for this map.</English>
+            <German>Keine gespeicherten Phasen für diese Karte.</German>
+        </Key>
+        <Key ID="STR_ttt_Markersave_notFound">
+            <English>Phase not found: %1</English>
+            <German>Phase nicht gefunden: %1</German>
+        </Key>
+        <Key ID="STR_ttt_Markersave_notLoaded">
+            <English>Phase is not loaded: %1</English>
+            <German>Phase ist nicht geladen: %1</German>
+        </Key>
+        <Key ID="STR_ttt_Markersave_nothingLoaded">
+            <English>No phase is loaded.</English>
+            <German>Es ist keine Phase geladen.</German>
+        </Key>
+        <Key ID="STR_ttt_Markersave_saveAllKeybindName">
+            <English>Save marker phase (all markers)</English>
+            <German>Marker-Phase speichern (alle Marker)</German>
+        </Key>
+        <Key ID="STR_ttt_Markersave_saveAllKeybindTooltip">
+            <English>Saves all placed markers as a new phase. Singleplayer and Eden multiplayer preview only.</English>
+            <German>Speichert alle gesetzten Marker als neue Phase. Nur im Einzelspieler und in der Eden-Multiplayer-Vorschau.</German>
+        </Key>
+        <Key ID="STR_ttt_Markersave_saveNewKeybindName">
+            <English>Save marker phase (new markers only)</English>
+            <German>Marker-Phase speichern (nur neue Marker)</German>
+        </Key>
+        <Key ID="STR_ttt_Markersave_saveNewKeybindTooltip">
+            <English>Saves the markers not yet saved this session as a new phase. Singleplayer and Eden multiplayer preview only.</English>
+            <German>Speichert die in dieser Sitzung noch nicht gespeicherten Marker als neue Phase. Nur im Einzelspieler und in der Eden-Multiplayer-Vorschau.</German>
+        </Key>
+        <Key ID="STR_ttt_Markersave_saveNotAllowed">
+            <English>Saving is only possible in singleplayer and the Eden multiplayer preview.</English>
+            <German>Speichern ist nur im Einzelspieler und in der Eden-Multiplayer-Vorschau möglich.</German>
+        </Key>
+        <Key ID="STR_ttt_Markersave_saved">
+            <English>Saved phase "%1" (%2 markers).</English>
+            <German>Phase "%1" gespeichert (%2 Marker).</German>
+        </Key>
+        <Key ID="STR_ttt_Markersave_skippedDrawings">
+            <English>%1 drawn lines skipped, drawing is disabled on this channel.</English>
+            <German>%1 gezeichnete Linien übersprungen, Zeichnen ist auf diesem Kanal deaktiviert.</German>
+        </Key>
+        <Key ID="STR_ttt_Markersave_tooManyMarkers">
+            <English>Too many markers to save (%1, maximum %2).</English>
+            <German>Zu viele Marker zum Speichern (%1, maximal %2).</German>
+        </Key>
+        <Key ID="STR_ttt_Markersave_unloaded">
+            <English>Removed phase "%1" (%2 markers).</English>
+            <German>Phase "%1" entfernt (%2 Marker).</German>
+        </Key>
+    </Package>
+</Project>
