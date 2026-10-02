@@ -2,17 +2,18 @@
 
 /*
  * Author: Andx
- * Checks whether a crate of the given type could currently be spawned - the
- * depot's per-type stock (if limited) must not be exhausted, the loadout
- * scan must have completed, and for dynamic types, its category must not be
- * empty. Medical crates skip the scan check since they are pre-filled
- * independent of the scan database, but are still subject to the depot's
- * stock limit. Used by the ACE action condition to hide crate types that
+ * Checks whether a crate of the given type could currently be spawned - gated
+ * types must be enabled at the depot, the depot's per-type stock (if limited)
+ * must not be exhausted, the loadout scan must have completed, and for
+ * dynamic types, its category must not be empty. Pre-filled crates (medical and the other common crates) skip the
+ * scan check since they are filled independent of the scan database, but are
+ * still subject to the depot's stock limit. Used by the ACE action condition to hide crate types that
  * would just fail with a hint if picked.
  *
  * Arguments:
  * 0: Crate type - "ammo", "grenades", "at", "explosives", "support",
- *    "medical_alpha", "medical_bravo", "medical_charlie" <STRING>
+ *    "medical_alpha", "medical_bravo", "medical_charlie", "spreng", "pio",
+ *    "eod", "eod_ugv", "uav", "mark" <STRING>
  * 1: Depot object the action is attached to, or objNull for no stock limit <OBJECT>
  *
  * Return Value:
@@ -26,9 +27,11 @@
 
 params [["_type", "", [""]], ["_container", objNull, [objNull]]];
 
+if !([_container, _type] call FUNC(isTypeEnabled)) exitWith { false };
+
 if ([_container, _type] call FUNC(getCrateLimit) == 0) exitWith { false };
 
-if (_type in ["medical_alpha", "medical_bravo", "medical_charlie"]) exitWith { true };
+if (_type in GVAR(prefilled)) exitWith { true };
 
 if (!GVAR(db_init)) exitWith { false };
 
