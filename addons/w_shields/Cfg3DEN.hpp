@@ -48,7 +48,12 @@ class Cfg3DEN {
                         property = QGVAR(windowpop);
                         control = "Checkbox";
 
-                        expression = QUOTE(ARR_2(_this,_value) call FUNC(setWindowGlass););
+                        // Runs for every matching object at scenario start, even with the default value -
+                        // only repair (false) inside 3DEN, where unchecking has to undo a previous break.
+                        expression = QUOTE(
+                            if (_value || {is3DEN}) then {
+                                [ARR_2(_this,_value)] call FUNC(setWindowGlass);
+                            });
                         defaultValue = 0;
 
                         unique = 0;
