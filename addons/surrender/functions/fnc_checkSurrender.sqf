@@ -40,7 +40,8 @@ private _ratio = _logic getVariable [QGVAR(OutnumberRatio), 2];
 private _rawArea = triggerArea _logic;
 private _area = if (_rawArea isEqualTo []) then {[100, 100, 0, false, -1]} else {_rawArea + [-1]};
 private _logicPos = getPosASL _logic;
-private _dropWeapon = _logic getVariable [QGVAR(DropWeapon), false];
+// Module checkbox may arrive as Number (0/1) instead of Bool, which breaks the lazy && below
+private _dropWeapon = (_logic getVariable [QGVAR(DropWeapon), false]) in [true, 1];
 
 private _enemySide = switch (_enemySideClass) do {
     case (1): {west};
