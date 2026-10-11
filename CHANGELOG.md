@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+* Surrender - Fix DropWeapon module value causing Number/Bool type error (#632) by Andx667
+
 ## [6.0.1] - 2026-10-06
 
 ### Fixed
