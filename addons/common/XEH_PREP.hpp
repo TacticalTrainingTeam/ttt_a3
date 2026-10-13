@@ -5,6 +5,7 @@ PREP(crateFiller);
 PREP(createPlayerMarker);
 PREP(doFlakFire);
 PREP(getAllItems);
+PREP(initMapActions);
 PREP(join);
 PREP(lockSeat);
 PREP(noApiFunction);

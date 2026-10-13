@@ -25,13 +25,13 @@ class Extended_InitPost_EventHandlers {
 
     class Redd_Tank_Fuchs_1A4_Base {
         class GVAR(map) {
-            init = QUOTE(call FUNC(initMapActions));
+            init = QUOTE(call EFUNC(common,initMapActions));
         };
     };
 
     class Redd_Tank_LKW_leicht_gl_Wolf_Base {
         class GVAR(map) {
-            init = QUOTE(call FUNC(initMapActions));
+            init = QUOTE(call EFUNC(common,initMapActions));
         };
     };
 
@@ -43,7 +43,7 @@ class Extended_InitPost_EventHandlers {
             init = QUOTE(call FUNC(initLadderActions));
         };
         class GVAR(map) {
-            init = QUOTE(call FUNC(initMapActions));
+            init = QUOTE(call EFUNC(common,initMapActions));
         };
         class GVAR(camonet) {
             serverInit = QUOTE([ARR_2(FUNC(setCamonet),_this)] call CBA_fnc_execNextFrame);

@@ -1,10 +1,10 @@
 #include "..\script_component.hpp"
 /**
  *  Author: Timi007
- *  Source: PzGrenBtl402 addons/Redd_Marder/functions/fnc_initMapActions.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), generalized for Marder, Fuchs and Wolf (see also Redd_Fuchs and Redd_Wolf), position comes from the vehicle config
+ *  Source: PzGrenBtl402 addons/Redd_Marder/functions/fnc_initMapActions.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), generalized for all vehicles (see also Redd_Fuchs, Redd_Wolf and BwMod_Puma), position comes from the vehicle config
  *
  *  Description:
- *      Adds the Metis Enhanced "place map on vehicle" interaction. Position and orientation are read from the vehicle config (ttt_compat_rnt_mapActionPosition and ttt_compat_rnt_mapActionOrientation), the action is only available while the animation source ttt_compat_rnt_mapActionAnimation has the phase ttt_compat_rnt_mapActionAnimationPhase (if set).
+ *      Adds the Metis Enhanced "place map on vehicle" interaction. Position and orientation are read from the vehicle config (ttt_common_mapActionPosition and ttt_common_mapActionOrientation), the action is only available while the animation source ttt_common_mapActionAnimation has the phase ttt_common_mapActionAnimationPhase (if set).
  *
  *  Parameter(s):
  *      0: OBJECT - Vehicle
@@ -13,7 +13,7 @@
  *      Nothing.
  *
  *  Example:
- *      [this] call ttt_compat_rnt_fnc_initMapActions
+ *      [this] call ttt_common_fnc_initMapActions
  *
  * Public: NO
  */

@@ -40,10 +40,10 @@ class CfgVehicles {
         EGVAR(compat_rnt,commanderResetVariables)[] = {"Redd_Marder_Commander_Up", "Redd_Marder_Commander_Winkelspiegel"};
 
         // Map on the rear ramp (requires Metis Enhanced)
-        EGVAR(compat_rnt,mapActionPosition)[] = {0.0012, -3.5815, -1.83};
-        EGVAR(compat_rnt,mapActionOrientation)[] = {{1, 0, 0}, {0, -0.193627, 0.981075}};
-        EGVAR(compat_rnt,mapActionAnimation) = "heck_luke_rotation";
-        EGVAR(compat_rnt,mapActionAnimationPhase) = 1;
+        EGVAR(common,mapActionPosition)[] = {0.0012, -3.5815, -1.83};
+        EGVAR(common,mapActionOrientation)[] = {{1, 0, 0}, {0, -0.193627, 0.981075}};
+        EGVAR(common,mapActionAnimation) = "heck_luke_rotation";
+        EGVAR(common,mapActionAnimationPhase) = 1;
 
         disableSoundAttenuation = 0;
         attenuationEffectType = "TankAttenuation";

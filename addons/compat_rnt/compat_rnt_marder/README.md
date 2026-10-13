@@ -18,7 +18,7 @@
 - Entfernt den Standard-Rucksack und das Toolkit aus dem Laderaum.
 - An den seitlichen Lukenplätzen kann ausgestiegen eine Leiter aufgestellt und angepasst werden (`fnc_initLadderActions`, Logik im Addon `vehicle_ladder`). Ein `ACE_TacticalLadder_Pack` muss im Fahrzeug liegen.
 - Richtschütze und Kommandant können die Nebelmittelwurfanlage abfeuern (Waffe `ttt_compat_rnt_SmokeLauncher`, Logik im Addon `smoke_launcher`). Die Anlage wandert dafür vom Kommandanten zum Richtschützen; `fnc_handleMarderFired` löst den Effekt von Redd und Tank aus.
-- Karten-Interaktion auf der Heckklappe über Metis Enhanced (siehe `fnc_initMapActions`; wird übersprungen, wenn Metis Enhanced fehlt). Position und Ausrichtung kommen aus den Config-Attributen `ttt_compat_rnt_mapAction*`.
+- Karten-Interaktion auf der Heckklappe über Metis Enhanced (siehe `ttt_common_fnc_initMapActions`; wird übersprungen, wenn Metis Enhanced fehlt). Position und Ausrichtung kommen aus den Config-Attributen `ttt_common_mapAction*`.
 
 ## Quellen
 

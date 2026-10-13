@@ -14,10 +14,10 @@ class CfgVehicles {
 
     class Redd_Tank_Fuchs_1A4_Base: Wheeled_APC_F {
         // Map on the doors at the back (requires Metis Enhanced)
-        EGVAR(compat_rnt,mapActionPosition)[] = {-0.318359, -3.41504, -0.402802};
-        EGVAR(compat_rnt,mapActionOrientation)[] = {{1, 0, -0.0131426}, {0, -1, 0.00305415}};
-        EGVAR(compat_rnt,mapActionAnimation) = "door3_Source";
-        EGVAR(compat_rnt,mapActionAnimationPhase) = 0;
+        EGVAR(common,mapActionPosition)[] = {-0.318359, -3.41504, -0.402802};
+        EGVAR(common,mapActionOrientation)[] = {{1, 0, -0.0131426}, {0, -1, 0.00305415}};
+        EGVAR(common,mapActionAnimation) = "door3_Source";
+        EGVAR(common,mapActionAnimationPhase) = 0;
 
         //maximumLoad = 10000;
         disableSoundAttenuation = 0;

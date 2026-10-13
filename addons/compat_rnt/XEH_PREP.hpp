@@ -28,7 +28,6 @@ PREP(handleGetOut);
 PREP(handleMarderFired);
 PREP(handleTOWFired);
 PREP(initLadderActions);
-PREP(initMapActions);
 PREP(initRampActions);
 PREP(loadTOW);
 PREP(m120handleFired);

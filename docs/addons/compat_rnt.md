@@ -21,10 +21,10 @@ Kommandant und Ladeschütze können mit den Tasten für Aus- und Einsteigen (Tur
 - Rucksack und Toolkit sind nicht mehr im Laderaum (gilt auch für den Fuchs).
 - An den seitlichen Lukenplätzen kann eine Leiter aufgestellt werden, wenn ein Leiter-Rucksack im Fahrzeug liegt (siehe [Fahrzeugleiter](vehicle_ladder.md)).
 - Richtschütze und Kommandant können die Nebelmittelwurfanlage abfeuern (siehe [Nebelmittelwurfanlage](smoke_launcher.md)).
-- Mit Metis Enhanced kann eine Karte auf der Heckklappe abgelegt werden. Das gilt auch für Fuchs und Wolf (auf den hinteren Türen bzw. der Motorhaube). Mit der Variable `ttt_compat_rnt_showMapAction` (`false`) lässt sich die Aktion pro Fahrzeug ausblenden:
+- Mit Metis Enhanced kann eine Karte auf der Heckklappe abgelegt werden. Das gilt auch für Fuchs und Wolf (auf den hinteren Türen bzw. der Motorhaube). Mit der Variable `ttt_common_showMapAction` (`false`) lässt sich die Aktion pro Fahrzeug ausblenden:
 
 ```sqf
-this setVariable ["ttt_compat_rnt_showMapAction", false, true];
+this setVariable ["ttt_common_showMapAction", false, true];
 ```
 
 ## Wiesel MK20

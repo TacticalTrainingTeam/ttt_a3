@@ -15,7 +15,7 @@ Nicht übernommen wurden u.a. die Nachlade-Mechanik (Rearm), das Milan-System un
 
 ## Config-Attribute der Fahrzeuge
 
-Die Sitz-, Tarnnetz- und Karten-Funktionen sind generisch und werden pro Fahrzeug über Config-Attribute in `CfgVehicles` gesteuert (siehe `compat_rnt_wiesel_mk20`, `compat_rnt_wiesel_tow`, `compat_rnt_marder`):
+Die Sitz- und Tarnnetz-Funktionen sind generisch und werden pro Fahrzeug über Config-Attribute in `CfgVehicles` gesteuert (siehe `compat_rnt_wiesel_mk20`, `compat_rnt_wiesel_tow`, `compat_rnt_marder`):
 
 | Attribut | Bedeutung |
 | --- | --- |
@@ -24,7 +24,6 @@ Die Sitz-, Tarnnetz- und Karten-Funktionen sind generisch und werden pro Fahrzeu
 | `ttt_compat_rnt_<seat>Turrets[]` | alle Turmpfade, die zum Sitz gehören (für "Sitz frei?" und das Entsperren beim Aussteigen) |
 | `ttt_compat_rnt_<seat>BinoVariable` | Fahrzeug-Variable von Redd'n'Tank, die anzeigt, dass der Sitz höher steht |
 | `ttt_compat_rnt_<seat>ResetVariables[]` | weitere Fahrzeug-Variablen, die beim Ein- und Aussteigen zurückgesetzt werden |
-| `ttt_compat_rnt_mapAction*` | Position, Ausrichtung und Animation der Karten-Aktion (`Position`, `Orientation`, `Animation`, `AnimationPhase`) |
 
 Die Sitzdaten werden beim ersten Zugriff pro Fahrzeugklasse gelesen und zwischengespeichert (`fnc_getSeatData`). Änderungen an der Config werden daher erst nach einem Neustart des Spiels wirksam.
 
