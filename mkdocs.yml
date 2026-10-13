@@ -164,11 +164,11 @@ nav:
   - Spotlight Event: addons/spotlight_event.md
   - Spotlight RHS: addons/spotlight_rhs.md
 - Addons - Funktional:
-  - Advanced Slingloading: addons/advancedslingloading.md
   - Common:
     - Funktionen: addons/common/functions.md
     - Objekte: addons/common/objects.md
   - cTab Vorlagen: addons/ctab_templates.md
+  - Facility Construction: addons/facility_construction.md
   - Konterartillerie: addons/counterari.md
   - Loadout-System (MPLS): addons/mpls.md
   - Mobile San-Einrichtung (Fahrzeug): addons/medic_vehicle.md
@@ -196,6 +196,7 @@ nav:
   - Compat 3CB Equipment: addons/compat_3cb_equipment.md
   - Compat 3CB Factions: addons/compat_3cb_factions.md
   - Compat 3CB Vehicles: addons/compat_3cb_vehicles.md
+  - Compat ACRE: addons/compat_acre.md
   - Compat BWA3: addons/compat_bwa3.md
   - Compat CUP Vehicles: addons/compat_cup_vehicles.md
   - Compat KAM: addons/compat_kam.md
