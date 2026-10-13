@@ -14,6 +14,7 @@
 - Richtschütze und Passagier können die Plätze tauschen (`MoveGunnerToPassengerRearm`/`MovePassengerToGunnerRearm`), z.B. um von außen nachzuladen.
 - Der Kommandant kann höher steigen, die Logik ist generisch (siehe Wiesel MK20); die Config-Attribute stehen in `CfgVehicles.hpp`. Zusätzlich werden `Redd_Marder_Commander_Up` und `Redd_Marder_Commander_Winkelspiegel` beim Ein- und Aussteigen zurückgesetzt (`ttt_compat_rnt_commanderResetVariables`).
 - Das Tarnnetz wird automatisch angebracht.
+- Richtschütze und Kommandant können die Nebelmittelwurfanlage abfeuern (Waffe `ttt_compat_rnt_SmokeLauncher`, Logik im Addon `smoke_launcher`). Die Anlage wandert dafür vom Kommandanten zum Richtschützen; `fnc_handleMarderFired` löst den Effekt von Redd und Tank aus.
 - Karten-Interaktion auf der Heckklappe über Metis Enhanced (siehe `fnc_initMapActions`; wird übersprungen, wenn Metis Enhanced fehlt). Position und Ausrichtung kommen aus den Config-Attributen `ttt_compat_rnt_mapAction*`.
 
 ## Quellen

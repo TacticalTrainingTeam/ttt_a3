@@ -17,6 +17,7 @@ Ergänzt die `allowFireOnLoad = 1;` Eigenschaft. Siehe <https://ace3.acemod.org/
 - Die Optik des Kommandanten bietet ein größeres Sichtfeld, hat aber keine Nachtsicht mehr.
 - Schalter und Lampen in der Kommandantenoptik werden ausgeblendet.
 - Der Fahrer erhält einen horizontalen Kompass.
+- Richtschütze und Kommandant können die Nebelmittelwurfanlage abfeuern (siehe [Nebelmittelwurfanlage](smoke_launcher.md)).
 
 ## ACRE
 

@@ -15,6 +15,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Compat RNT - Add commander/loader higher seats, TOW/MG3 seats, Milan tube TOW reloading, automatic camonet and reduced HUD to Wiesel TOW (#634) by Andx667
 * Compat RNT - Add rear ramp locking, hatch exits, gunner/passenger swap, commander higher seat and automatic camonet to Marder (#634) by Andx667
 * Compat RNT - Add Metis Enhanced map action to Marder, Fuchs and Wolf (#634) by Andx667
+* Smoke Launcher - Add new Component to fire vehicle smoke launchers as gunner and commander (#634) by Andx667
+* Compat BWA3 - Add smoke launcher for gunner and commander to Leopard (#634) by Andx667
+* Compat RNT - Add smoke launcher for gunner and commander to Marder (#634) by Andx667
 * Common - Add seat lock events (#634) by Andx667
 
 ## [6.0.1] - 2026-10-06

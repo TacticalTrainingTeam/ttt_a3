@@ -7,7 +7,7 @@ class CfgPatches {
         url = ECSTRING(main,url);
         name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ttt_common", "Redd_Vehicles_Main"};
+        requiredAddons[] = {"ttt_common", "ttt_smoke_launcher", "Redd_Vehicles_Main"};
         units[] = {};
         weapons[] = {};
         VERSION_CONFIG;

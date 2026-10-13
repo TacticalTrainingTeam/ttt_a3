@@ -23,6 +23,7 @@ PREP(getOutMG3);
 PREP(getOutTOW);
 PREP(handleGetIn);
 PREP(handleGetOut);
+PREP(handleMarderFired);
 PREP(handleTOWFired);
 PREP(initMapActions);
 PREP(initRampActions);
