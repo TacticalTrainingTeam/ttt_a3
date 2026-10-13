@@ -17,7 +17,7 @@ Kommandant und Ladeschütze können mit den Tasten für Aus- und Einsteigen (Tur
 - Wer an einer Luke ausgestiegen ist, kann direkt neben der Luke aus dem Fahrzeug steigen.
 - Der Kommandant kann mit den Tasten für Aus- und Einsteigen (Turn Out / Turn In) höher bzw. tiefer steigen.
 - Das Tarnnetz wird automatisch angebracht.
-- Die Kanone ist ab Spawn auf 800 m eingestellt. Turm, Kommandantenoptik und Milan sind nicht stabilisiert, die Optiken haben keine Nachtsicht.
+- Die Kanone ist ab Spawn auf 800 m eingestellt. Turm, Kommandantenoptik und Milan sind nicht stabilisiert.
 - Rucksack und Toolkit sind nicht mehr im Laderaum (gilt auch für den Fuchs).
 - An den seitlichen Lukenplätzen kann eine Leiter aufgestellt werden, wenn ein Leiter-Rucksack im Fahrzeug liegt (siehe [Fahrzeugleiter](vehicle_ladder.md)).
 - Richtschütze und Kommandant können die Nebelmittelwurfanlage abfeuern (siehe [Nebelmittelwurfanlage](smoke_launcher.md)).

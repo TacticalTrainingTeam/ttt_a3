@@ -2,7 +2,7 @@
 
 Verbessert die Optiken und Bewaffnung des Puma (nur Config, ohne Skripte).
 
-- Richtschützen- und Kommandantenoptik nutzen die Warrior-Optik für ein größeres Sichtfeld, ohne Nachtsicht.
+- Richtschützen- und Kommandantenoptik nutzen die Warrior-Optik für ein größeres Sichtfeld.
 - Richtschütze und Kommandant können die Nebelmittelwurfanlage abfeuern (Waffe aus `compat_bwa3_weapons`, Logik im Addon `smoke_launcher`). Die Anlage wandert dafür vom Kommandanten zum Richtschützen.
 - Die Waffen und Magazine des Richtschützen: MK30 mit AP/HE-Mündungen, MG5 mit 1000-Schuss-Gurtkasten, Spike LR und Nebelmittelwurfanlage. Die Munitionsmengen stehen in `compat_bwa3_weapons`.
 - Im Eden-Editor ist HE statt ABM als Standardmunition der MK30 vorausgewählt.

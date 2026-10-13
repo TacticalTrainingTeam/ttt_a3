@@ -21,7 +21,7 @@ Ergänzt die `allowFireOnLoad = 1;` Eigenschaft. Siehe <https://ace3.acemod.org/
 
 ## Puma
 
-- Die Optiken von Richtschütze und Kommandant bieten ein größeres Sichtfeld, haben aber keine Nachtsicht mehr.
+- Die Optiken von Richtschütze und Kommandant bieten ein größeres Sichtfeld.
 - Richtschütze und Kommandant können die Nebelmittelwurfanlage abfeuern (siehe [Nebelmittelwurfanlage](smoke_launcher.md)).
 - Die Maschinenkanone hat getrennte Munitionsarten AP und HE, die über die Waffenauswahl gewechselt werden (kein Mausrad mehr). HE richtet mehr Schaden an. Die Magazine fassen 240 Schuss HE/ABM bzw. 160 Schuss APFSDS.
 - Das MG hat einen 1000-Schuss-Gurtkasten und lädt ohne Verzögerung nach.

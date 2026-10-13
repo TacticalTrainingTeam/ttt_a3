@@ -12,7 +12,6 @@ class CfgVehicles {
         class EventHandlers;
         class Turrets {
             class MainTurret: NewTurret {
-                class ViewOptics;
                 class Turrets {
                     class CommanderOptics;
                 };
@@ -129,22 +128,6 @@ class CfgVehicles {
                 weapons[] += {QEGVAR(compat_rnt,SmokeLauncher)};
                 magazines[] += {"Redd_SmokeLauncherMag"};
 
-                // No NVG
-                class ViewOptics: ViewOptics {
-                    visionMode[] = {"Normal", "TI"};
-                };
-
-                // No NVG
-                class OpticsIn {
-                    class Day1 {
-                        visionMode[] = {"Normal"};
-                    };
-
-                    class Day2 {
-                        visionMode[] = {"Normal"};
-                    };
-                };
-
                 class Turrets: Turrets {
                     class CommanderOptics: CommanderOptics {
                         stabilizedInAxes = 0;
@@ -154,21 +137,6 @@ class CfgVehicles {
 
                         weapons[] = {};
                         magazines[] = {};
-
-                        // No NVG
-                        class ViewOptics: ViewOptics {
-                            visionMode[] = {"Normal", "TI"};
-                        };
-
-                        class OpticsIn {
-                            class Day1 {
-                                visionMode[] = {"Normal"};
-                            };
-
-                            class Day2 {
-                                visionMode[] = {"Normal"};
-                            };
-                        };
                     };
                 };
 
@@ -186,17 +154,6 @@ class CfgVehicles {
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
                 gunnerCompartments= "Compartment4";
-
-                // No NVG
-                class OpticsIn {
-                    class Day1 {
-                        visionMode[] = {"Normal"};
-                    };
-
-                    class Day2 {
-                        visionMode[] = {"Normal"};
-                    };
-                };
             };
 
             class Luchs_Bino_Turret_Com: NewTurret {

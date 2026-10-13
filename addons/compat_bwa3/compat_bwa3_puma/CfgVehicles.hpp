@@ -1,6 +1,6 @@
 // Source: PzGrenBtl402 addons/BwMod_Puma/CfgVehicles.hpp (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted: only the config part (optics, weapons, 3DEN default), without ACRE racks, HUD, cameras, radar and numbers
-// Warrior optics for a wider field of view, without NVG
-#define WARRIOR_OPTICS(SIZE) gunnerOpticsModel = QUOTE(\A3\Weapons_F\Reticle\Optics_Gunner_APC_02_##SIZE##_F.p3d); visionMode[] = {"Normal", "TI"}
+// Warrior optics for a wider field of view
+#define WARRIOR_OPTICS(SIZE) gunnerOpticsModel = QUOTE(\A3\Weapons_F\Reticle\Optics_Gunner_APC_02_##SIZE##_F.p3d)
 
 class Optics_Armored;
 class BWA3_Optics_Gunner_Puma: Optics_Armored {
@@ -23,9 +23,7 @@ class CfgVehicles {
             };
         };
     };
-    class Tank_F: Tank {
-        class ViewOptics;
-    };
+    class Tank_F: Tank {};
 
     class BWA3_Puma_base: Tank_F {
         ace_vehicles_engineStartDelay = 5;
@@ -42,10 +40,6 @@ class CfgVehicles {
                         // Smoke launcher moves from the commander to the gunner
                         weapons[] = {};
                         magazines[] = {};
-
-                        class ViewOptics: ViewOptics {
-                            visionMode[] = {"Normal", "TI"}; // No NVG
-                        };
                     };
                 };
 
