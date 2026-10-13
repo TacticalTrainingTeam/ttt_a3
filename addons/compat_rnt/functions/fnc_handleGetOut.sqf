@@ -30,6 +30,10 @@ if (local _vehicle) then {
             [QEGVAR(common,unlockSeat), [_unit]] call CBA_fnc_localEvent;
 
             _vehicle setVariable [getText (_config >> format [QGVAR(%1BinoVariable), _x]), false, true];
+
+            {
+                _vehicle setVariable [_x, false, true];
+            } forEach getArray (_config >> format [QGVAR(%1ResetVariables), _x]);
         };
     } forEach ["commander", "loader"];
 };

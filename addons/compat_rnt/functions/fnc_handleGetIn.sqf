@@ -29,6 +29,10 @@ private _config = configOf _vehicle;
 {
     if (_turret isEqualTo getArray (_config >> format [QGVAR(%1Turret), _x])) then {
         _vehicle setVariable [getText (_config >> format [QGVAR(%1BinoVariable), _x]), false, true];
+
+        {
+            _vehicle setVariable [_x, false, true];
+        } forEach getArray (_config >> format [QGVAR(%1ResetVariables), _x]);
     };
 } forEach ["commander", "loader"];
 

@@ -10,6 +10,20 @@ Ergänzt die `allowFireOnLoad = 1;` Eigenschaft. Siehe <https://ace3.acemod.org/
 
 Kommandant und Ladeschütze können mit den Tasten für Aus- und Einsteigen (Turn Out / Turn In) höher bzw. tiefer steigen.
 
+## Marder
+
+- Das Fahrzeug ist gesperrt, solange die Heckklappe geschlossen ist. Fahrer und Kommandant steigen weiterhin normal ein, alle anderen müssen die Klappe öffnen (Fahrer, Richtschütze oder der mittlere Lukenplatz öffnen/schließen sie per Aktion).
+- In den Eden-Attributen des Marders kann "Heckklappe öffnen" gesetzt werden, damit die Klappe beim Spawnen offen ist.
+- Wer an einer Luke ausgestiegen ist, kann direkt neben der Luke aus dem Fahrzeug steigen.
+- Richtschütze und Passagier können die Plätze tauschen.
+- Der Kommandant kann mit den Tasten für Aus- und Einsteigen (Turn Out / Turn In) höher bzw. tiefer steigen.
+- Das Tarnnetz wird automatisch angebracht.
+- Mit Metis Enhanced kann eine Karte auf der Heckklappe abgelegt werden. Das gilt auch für Fuchs und Wolf (auf den hinteren Türen bzw. der Motorhaube). Mit der Variable `ttt_compat_rnt_showMapAction` (`false`) lässt sich die Aktion pro Fahrzeug ausblenden:
+
+```sqf
+this setVariable ["ttt_compat_rnt_showMapAction", false, true];
+```
+
 ## Wiesel MK20
 
 - Der Kommandant kann mit den Tasten für Aus- und Einsteigen (Turn Out / Turn In) höher bzw. tiefer steigen. Hängt der Sitz fest, hilft die Aktion "Sitz freigeben".

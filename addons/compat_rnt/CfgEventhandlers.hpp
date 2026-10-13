@@ -10,8 +10,38 @@ class Extended_PreInit_EventHandlers {
     };
 };
 
+class Extended_PostInit_EventHandlers {
+    class ADDON {
+        init = QUOTE(call COMPILE_SCRIPT(XEH_postInit));
+    };
+};
+
 class Extended_InitPost_EventHandlers {
     class Redd_Tank_Wiesel_1A4_MK20_base {
+        class GVAR(camonet) {
+            serverInit = QUOTE([ARR_2(FUNC(setCamonet),_this)] call CBA_fnc_execNextFrame);
+        };
+    };
+
+    class Redd_Tank_Fuchs_1A4_Base {
+        class GVAR(map) {
+            init = QUOTE(call FUNC(initMapActions));
+        };
+    };
+
+    class Redd_Tank_LKW_leicht_gl_Wolf_Base {
+        class GVAR(map) {
+            init = QUOTE(call FUNC(initMapActions));
+        };
+    };
+
+    class Redd_Marder_1A5_base {
+        class GVAR(ramp) {
+            init = QUOTE(call FUNC(initRampActions));
+        };
+        class GVAR(map) {
+            init = QUOTE(call FUNC(initMapActions));
+        };
         class GVAR(camonet) {
             serverInit = QUOTE([ARR_2(FUNC(setCamonet),_this)] call CBA_fnc_execNextFrame);
         };
