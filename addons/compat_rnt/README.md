@@ -13,6 +13,21 @@ Teile dieses Addons stammen aus dem Mod PzGrenBtl402 (<https://github.com/PzGren
 
 Nicht übernommen wurden u.a. die Nachlade-Mechanik (Rearm), das Milan-System und die NiArms-Anpassungen.
 
+## Config-Attribute der Fahrzeuge
+
+Die Sitz-, Tarnnetz- und Karten-Funktionen sind generisch und werden pro Fahrzeug über Config-Attribute in `CfgVehicles` gesteuert (siehe `compat_rnt_wiesel_mk20`, `compat_rnt_wiesel_tow`, `compat_rnt_marder`):
+
+| Attribut | Bedeutung |
+| --- | --- |
+| `ttt_compat_rnt_<seat>Turret[]` | Turmpfad des normalen Sitzes (`<seat>` ist `commander` oder `loader`) |
+| `ttt_compat_rnt_<seat>HigherTurret[]` | Turmpfad des höheren Sitzes |
+| `ttt_compat_rnt_<seat>Turrets[]` | alle Turmpfade, die zum Sitz gehören (für "Sitz frei?" und das Entsperren beim Aussteigen) |
+| `ttt_compat_rnt_<seat>BinoVariable` | Fahrzeug-Variable von Redd'n'Tank, die anzeigt, dass der Sitz höher steht |
+| `ttt_compat_rnt_<seat>ResetVariables[]` | weitere Fahrzeug-Variablen, die beim Ein- und Aussteigen zurückgesetzt werden |
+| `ttt_compat_rnt_mapAction*` | Position, Ausrichtung und Animation der Karten-Aktion (`Position`, `Orientation`, `Animation`, `AnimationPhase`) |
+
+Die Sitzdaten werden beim ersten Zugriff pro Fahrzeugklasse gelesen und zwischengespeichert (`fnc_getSeatData`). Änderungen an der Config werden daher erst nach einem Neustart des Spiels wirksam.
+
 ## Abhängigkeiten
 
 - Redd'n'Tank Vehicles <https://steamcommunity.com/sharedfiles/filedetails/?id=1128145626>

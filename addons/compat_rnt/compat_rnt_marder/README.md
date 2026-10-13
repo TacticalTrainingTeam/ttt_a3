@@ -8,7 +8,7 @@
 
 ## Heckklappe, Luken und Sitze
 
-- Das Fahrzeug ist gesperrt, solange die Heckklappe geschlossen ist (`lock 2`). Fahrer und Kommandant steigen über eigene Aktionen ein (`XEH_postInit.sqf`, `getInParams`), die den normalen Einsteigen-Aktionen nachempfunden sind. Die Klappe öffnet sich über die Aktionen `heckluke_auf`/`heckluke_zu` (Fahrer, Richtschütze und der mittlere Lukenplatz); beim Öffnen wird das Fahrzeug entsperrt (`fnc_openRamp`).
+- Das Fahrzeug ist gesperrt, solange die Heckklappe geschlossen ist (`lock 2`). Fahrer und Kommandant steigen über eigene Aktionen ein (`XEH_postInit.sqf`, `getInParams`), die den normalen Einsteigen-Aktionen nachempfunden sind. Die Klappe öffnet sich über die Aktionen `heckluke_auf`/`heckluke_zu` (Fahrer, Richtschütze und der mittlere Lukenplatz, Bedingung `fnc_canToggleRamp`); beim Öffnen wird das Fahrzeug entsperrt (`fnc_openRamp`).
 - 3DEN-Attribut "Heckklappe öffnen": Die Klappe ist beim Spawnen offen (`ttt_compat_rnt_RampAttribute`, ausgewertet in `fnc_initRampActions`).
 - Über die Lukenplätze kann man ausgestiegen (`isTurnedOut`) per Aktion neben der Luke aus dem Fahrzeug steigen (`fnc_getOutHatch`).
 - Der Kommandant kann höher steigen, die Logik ist generisch (siehe Wiesel MK20); die Config-Attribute stehen in `CfgVehicles.hpp`. Zusätzlich werden `Redd_Marder_Commander_Up` und `Redd_Marder_Commander_Winkelspiegel` beim Ein- und Aussteigen zurückgesetzt (`ttt_compat_rnt_commanderResetVariables`).

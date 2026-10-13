@@ -31,4 +31,4 @@ if (_ammoCount <= 0 || {!_ignoreReloadTimes && {_vehicle getVariable [QGVAR(relo
 
 // Cannot smoke without gunner or when the gunner is unconscious
 private _gunner = gunner _vehicle;
-!isNull _gunner && {alive _gunner} && {!(_gunner getVariable ["ace_isunconscious", false])}
+!isNull _gunner && {alive _gunner} && {[_gunner] call ace_common_fnc_isAwake}

@@ -4,4 +4,4 @@
 params ["_display"];
 
 _display displayAddEventHandler ["MouseZChanged", {(_this select 1) call FUNC(handleScrollWheel)}];
-_display displayAddEventHandler ["MouseButtonDown", {[ACE_player] call FUNC(confirmLadderAdjust)}];
+_display displayAddEventHandler ["MouseButtonDown", {[] call FUNC(confirmLadderAdjust)}];

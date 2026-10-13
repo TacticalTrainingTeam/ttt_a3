@@ -1,4 +1,8 @@
 // Source: PzGrenBtl402 addons/BwMod_Leopard/CfgVehicles.hpp (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted, without ACRE racks and smoke launcher specifics of the original
+// Vanilla Warrior optics for a wider field of view, without NVG
+#define WARRIOR_OPTICS_MODEL QUOTE(\A3\Weapons_F\Reticle\Optics_Gunner_APC_02_w_F.p3d)
+#define WARRIOR_OPTICS gunnerOpticsModel = WARRIOR_OPTICS_MODEL; visionMode[] = {"Normal", "TI"}; thermalMode[] = {2, 3}
+
 class Optics_Armored;
 class BWA3_Optics_Commander_Leopard: Optics_Armored {
     class Wide;
@@ -26,7 +30,6 @@ class CfgVehicles {
         driverWeaponsInfoType = QGVAR(RscOptics_Driver);
 
         // Gunner and commander can fire the smoke launcher (the gunner needs it as weapon)
-        EGVAR(smoke_launcher,gunnerAndCommanderCanSmoke) = 1;
         EGVAR(smoke_launcher,muzzle) = QEGVAR(compat_bwa3_weapons,SmokeLauncher);
 
         class Turrets: Turrets {
@@ -37,7 +40,7 @@ class CfgVehicles {
                 class Turrets: Turrets {
                     class CommanderOptics: CommanderOptics {
                         // Vanilla Warrior optics for a wider field of view
-                        gunnerOpticsModel = QUOTE(\A3\Weapons_F\Reticle\Optics_Gunner_APC_02_w_F.p3d);
+                        gunnerOpticsModel = WARRIOR_OPTICS_MODEL;
                         turretInfoType = QGVAR(RscOpticsCommander);
 
                         // Smoke launcher moves from the commander to the gunner
@@ -46,19 +49,13 @@ class CfgVehicles {
 
                         class OpticsIn: BWA3_Optics_Commander_Leopard {
                             class Wide: Wide {
-                                gunnerOpticsModel = QUOTE(\A3\Weapons_F\Reticle\Optics_Gunner_APC_02_w_F.p3d);
-                                visionMode[] = {"Normal", "TI"}; // No NVG
-                                thermalMode[] = {2, 3};
+                                WARRIOR_OPTICS;
                             };
                             class Medium: Medium {
-                                gunnerOpticsModel = QUOTE(\A3\Weapons_F\Reticle\Optics_Gunner_APC_02_w_F.p3d);
-                                visionMode[] = {"Normal", "TI"}; // No NVG
-                                thermalMode[] = {2, 3};
+                                WARRIOR_OPTICS;
                             };
                             class Narrow: Narrow {
-                                gunnerOpticsModel = QUOTE(\A3\Weapons_F\Reticle\Optics_Gunner_APC_02_w_F.p3d);
-                                visionMode[] = {"Normal", "TI"}; // No NVG
-                                thermalMode[] = {2, 3};
+                                WARRIOR_OPTICS;
                             };
                         };
                     };

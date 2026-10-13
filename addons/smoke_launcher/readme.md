@@ -4,14 +4,11 @@ Erlaubt es Richtschütze und Kommandant eines Fahrzeugs, die Nebelmittelwurfanla
 
 ## Funktionsweise
 
-Fahrzeuge werden über zwei Config-Attribute in ihrer `CfgVehicles`-Klasse angemeldet:
+Fahrzeuge werden über ein Config-Attribut in ihrer `CfgVehicles`-Klasse angemeldet: `ttt_smoke_launcher_muzzle = "<Waffenklasse>";` ist die Waffe der Nebelmittelwurfanlage. Der Richtschütze muss diese Waffe als Turret-Waffe haben (`weapons[]`/`magazines[]`), sie wird dort mit `showToPlayer = 0` ausgeblendet, damit sie nicht im Waffenmenü auftaucht. Fahrzeuge ohne dieses Attribut bleiben unverändert.
 
-- `ttt_smoke_launcher_gunnerAndCommanderCanSmoke = 1;` aktiviert die Funktion für das Fahrzeug.
-- `ttt_smoke_launcher_muzzle = "<Waffenklasse>";` ist die Waffe der Nebelmittelwurfanlage. Der Richtschütze muss diese Waffe als Turret-Waffe haben (`weapons[]`/`magazines[]`), sie wird dort mit `showToPlayer = 0` ausgeblendet, damit sie nicht im Waffenmenü auftaucht.
+Der Spieler-Event `turret` (CBA) reagiert auf Sitzwechsel: Für Richtschütze und Kommandant (auch in der obersten Kommandantenposition `[2]`) werden `KeyDown`-, `KeyUp`-, `MouseButtonDown`- und `MouseButtonUp`-Handler auf dem Hauptdisplay registriert. Sie lösen nur aus, wenn `launchCM` von losgelassen auf gedrückt wechselt (Tastenwiederholung und andere Tasten werden ignoriert). Geschossen wird per `BIS_fnc_fire` über das CBA-Turm-Event `ttt_smoke_launcher_fire`, also auf dem Rechner, auf dem der Richtschützen-Turm lokal ist. Danach ist die Anlage für die `reloadTime` der Waffe gesperrt (Variable `ttt_smoke_launcher_reloading`, global gesetzt). Schießen kann nur, wer einen lebenden und nicht bewusstlosen Richtschützen im Fahrzeug hat.
 
-Der Spieler-Event `turret` (CBA) reagiert auf Sitzwechsel: Für Richtschütze und Kommandant (auch in der obersten Kommandantenposition `[2]`) wird ein Tasten- und Maus-Handler auf dem Hauptdisplay registriert, der bei `launchCM` die Waffe per `BIS_fnc_fire` abfeuert, sowie ein Fired-Handler für die Munitionsanzeige. Nach dem Schuss ist die Anlage für die `reloadTime` der Waffe gesperrt (Variable `ttt_smoke_launcher_reloading`, global gesetzt).
-
-Die Munitionsanzeige (`NbMWAnl: x`, rot wenn nicht schussbereit) wird über ein Intervall von 0,25 s aktualisiert, da sich Ausstieg, Pause-Menü, Zeus und ausgeblendetes HUD nicht per Event erkennen lassen. Sie wird nur angezeigt, solange der Spieler nicht ausgestiegen ist.
+Die Munitionsanzeige (`NbMWAnl: x`, rot wenn nicht schussbereit) wird über ein Intervall von 0,25 s aktualisiert, da sich Munition, Nachladezeit, Ausstieg, Pause-Menü, Zeus und ausgeblendetes HUD nicht per Event erkennen lassen. Das Intervall läuft nur, solange der Spieler auf einem unterstützten Sitz sitzt. Sie wird nur angezeigt, solange der Spieler nicht ausgestiegen ist.
 
 ## Verwendet von
 

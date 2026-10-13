@@ -14,6 +14,14 @@ ADDON = true;
 [QGVAR(addMagazineTurret), {(_this select 0) addMagazineTurret (_this select 1)}] call CBA_fnc_addEventHandler;
 [QGVAR(removeMagazinesTurret), {(_this select 0) removeMagazinesTurret (_this select 1)}] call CBA_fnc_addEventHandler;
 
+// Marder ladder sides: [hatch turret, variable the ladder is stored in, offset, direction]
+GVAR(ladderSides) = createHashMapFromArray [
+    ["left", [MARDER_HATCH_LEFT_TURRET_PATH, QGVAR(ladderLeft), [-1, -1.7, -0.3], 270]],
+    ["right", [MARDER_HATCH_RIGHT_TURRET_PATH, QGVAR(ladderRight), [1, -1.7, -0.3], 90]]
+];
+
+GVAR(seatDataCache) = createHashMap;
+
 // Vehicle classname -> camonet animation sources
 // Source: PzGrenBtl402 addons/Redd_Wiesel_MK20, Redd_Wiesel_TOW and Redd_Marder functions/fnc_setCamonet.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), merged into one table
 GVAR(camonetSources) = createHashMapFromArray [

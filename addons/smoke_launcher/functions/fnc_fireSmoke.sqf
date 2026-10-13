@@ -25,13 +25,7 @@ private _smokeLauncher = [typeOf _vehicle] call FUNC(getSmokeLauncher);
 TRACE_2("Fire smoke",_vehicle,_smokeLauncher);
 
 // The launcher is a weapon of the gunner turret, which can be local to another player than the commander
-private _success = true;
-if (_vehicle turretLocal [0]) then {
-    _success = [_vehicle, _smokeLauncher] call BIS_fnc_fire;
-} else {
-    [QGVAR(fire), [_vehicle, _smokeLauncher], _vehicle, [0]] call CBA_fnc_turretEvent;
-};
-if (!_success) exitWith {false};
+[QGVAR(fire), [_vehicle, _smokeLauncher], _vehicle, [0]] call CBA_fnc_turretEvent;
 
 _vehicle setVariable [QGVAR(reloading), true, true];
 

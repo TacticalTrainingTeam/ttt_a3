@@ -24,7 +24,6 @@ class CfgVehicles {
         ace_vehicles_engineStartDelay = 5;
 
         // Gunner and commander can fire the smoke launcher (the gunner needs it as weapon)
-        EGVAR(smoke_launcher,gunnerAndCommanderCanSmoke) = 1;
         EGVAR(smoke_launcher,muzzle) = QEGVAR(compat_rnt,SmokeLauncher);
 
         EGVAR(compat_rnt,commanderTurrets)[] = {{0, 0}, {1}, {2}};
@@ -207,7 +206,7 @@ class CfgVehicles {
                 radius = 10;
                 onlyforplayer = 1;
                 showWindow = 0;
-                condition = QUOTE([ARR_2(this,ACE_player)] call EFUNC(compat_rnt,canOpenRamp));
+                condition = QUOTE([ARR_3(this,ACE_player,true)] call EFUNC(compat_rnt,canToggleRamp));
                 statement = QUOTE(this call EFUNC(compat_rnt,openRamp));
             };
 
@@ -218,7 +217,7 @@ class CfgVehicles {
                 radius = 10;
                 onlyforplayer = 1;
                 showWindow = 0;
-                condition = QUOTE([ARR_2(this,ACE_player)] call EFUNC(compat_rnt,canCloseRamp));
+                condition = QUOTE([ARR_3(this,ACE_player,false)] call EFUNC(compat_rnt,canToggleRamp));
                 statement = QUOTE(this call EFUNC(compat_rnt,closeRamp));
             };
 

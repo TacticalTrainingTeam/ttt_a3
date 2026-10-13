@@ -4,7 +4,7 @@
  *  Source: PzGrenBtl402 addons/Redd_Wiesel_TOW/functions/fnc_handleGetOut.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), generalized for all supported vehicles, camouflage restore reworked
  *
  *  Description:
- *      GetOut event handler for vehicles with commander/loader higher seats and camonet. Unlocks the seats and restores the camouflage of the unit.
+ *      GetOut event handler for vehicles with commander/loader higher seats and camonet. Resets the seat state and restores the camouflage of the unit. The seat itself is unlocked by ttt_common.
  *
  *  Parameter(s):
  *      0: OBJECT - Vehicle
@@ -23,18 +23,11 @@
 
 params ["_vehicle", "_role", "_unit", "_turret"];
 
-private _config = configOf _vehicle;
-
+// The seat itself is unlocked by the GetOutMan handler of ttt_common
 if (local _vehicle) then {
     {
-        if (_turret in getArray (_config >> format [QGVAR(%1Turrets), _x])) then {
-            [QEGVAR(common,unlockSeat), [_unit]] call CBA_fnc_localEvent;
-
-            _vehicle setVariable [getText (_config >> format [QGVAR(%1BinoVariable), _x]), false, true];
-
-            {
-                _vehicle setVariable [_x, false, true];
-            } forEach getArray (_config >> format [QGVAR(%1ResetVariables), _x]);
+        if (_turret in (([_vehicle, _x] call FUNC(getSeatData)) select 2)) then {
+            [_vehicle, _x] call FUNC(resetSeatState);
         };
     } forEach ["commander", "loader"];
 };

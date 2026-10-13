@@ -22,7 +22,7 @@
 
 params ["_vehicle", "_seat"];
 
-private _turrets = getArray (configOf _vehicle >> format [QGVAR(%1Turrets), _seat]);
+([_vehicle, _seat] call FUNC(getSeatData)) params ["", "", "_turrets"];
 
 alive _vehicle &&
 {_turrets findIf {!isNull (_vehicle turretUnit _x)} == -1}

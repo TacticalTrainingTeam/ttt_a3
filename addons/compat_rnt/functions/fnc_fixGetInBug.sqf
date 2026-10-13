@@ -20,17 +20,12 @@
 
 params ["_vehicle"];
 
-private _config = configOf _vehicle;
-
 {
-    private _turret = getArray (_config >> format [QGVAR(%1Turret), _x]);
+    private _turret = ([_vehicle, _x] call FUNC(getSeatData)) select 0;
+
     if (_turret isNotEqualTo [] && {_vehicle lockedTurret _turret} && {[_vehicle, _x] call FUNC(canGetInSeat)}) then {
         [_vehicle, [_turret, false]] remoteExecCall ["lockTurret"];
 
-        _vehicle setVariable [getText (_config >> format [QGVAR(%1BinoVariable), _x]), false, true];
-
-        {
-            _vehicle setVariable [_x, false, true];
-        } forEach getArray (_config >> format [QGVAR(%1ResetVariables), _x]);
+        [_vehicle, _x] call FUNC(resetSeatState);
     };
 } forEach ["commander", "loader"];

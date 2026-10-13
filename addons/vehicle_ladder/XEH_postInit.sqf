@@ -3,7 +3,7 @@
 // Source: PzGrenBtl402 addons/Ladder/XEH_postInit.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted, added cleanup of attached ladders
 if (isServer) then {
     // Attached objects are not deleted with their vehicle
-    ["AllVehicles", "Deleted", {
+    ["LandVehicle", "Deleted", {
         params ["_vehicle"];
 
         {
@@ -22,20 +22,14 @@ GVAR(currentAngle) = 0;
 
 // Stop adjusting when the interact menu opens
 ["ace_interactMenuOpened", {
-    params ["_unit"];
-
-    if (!isNull GVAR(ladder)) then {
-        [_unit] call FUNC(confirmLadderAdjust);
-    };
+    [] call FUNC(confirmLadderAdjust);
 }] call CBA_fnc_addEventHandler;
 
 // Stop adjusting when falling unconscious
 ["ace_unconscious", {
     params ["_unit"];
 
-    if (!local _unit) exitWith {};
-
-    if (!isNull GVAR(ladder)) then {
-        [_unit] call FUNC(confirmLadderAdjust);
+    if (!isNull GVAR(ladder) && {local _unit}) then {
+        [] call FUNC(confirmLadderAdjust);
     };
 }] call CBA_fnc_addEventHandler;

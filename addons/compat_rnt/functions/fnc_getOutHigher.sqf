@@ -22,8 +22,8 @@
 
 params ["_vehicle", "_player", ["_seat", "commander"]];
 
-private _config = configOf _vehicle;
+([_vehicle, _seat] call FUNC(getSeatData)) params ["_turret", "", "", "_binoVariable"];
 
-_player action ["moveToTurret", _vehicle, getArray (_config >> format [QGVAR(%1Turret), _seat])];
+_player action ["moveToTurret", _vehicle, _turret];
 [QEGVAR(common,unlockSeat), [_player]] call CBA_fnc_localEvent;
-_vehicle setVariable [getText (_config >> format [QGVAR(%1BinoVariable), _seat]), false, true];
+_vehicle setVariable [_binoVariable, false, true];

@@ -5,21 +5,19 @@
 * Stops adjusting the ladder (any mouse button). Does not block the input.
 *
 * Arguments:
-* 0: OBJECT - Player
+* None
 *
 * Return Value:
 * BOOLEAN - false
 *
 * Example:
-* [player] call ttt_vehicle_ladder_fnc_confirmLadderAdjust
+* [] call ttt_vehicle_ladder_fnc_confirmLadderAdjust
 *
 * Public: No
 */
 
 
-params ["_player"];
-
-if (isNull GVAR(ladder) || {isNull _player}) exitWith {false};
+if (isNull GVAR(ladder)) exitWith {false};
 
 call ace_interaction_fnc_hideMouseHint;
 

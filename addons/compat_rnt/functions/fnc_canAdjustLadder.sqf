@@ -22,18 +22,8 @@
 
 params ["_vehicle", "_player", "_side"];
 
-private _turret = [];
-private _ladder = objNull;
-switch (_side) do {
-    case "left": {
-        _turret = MARDER_HATCH_LEFT_TURRET_PATH;
-        _ladder = [_vehicle, QGVAR(ladderLeft)] call FUNC(getAttachedLadder);
-    };
-    case "right": {
-        _turret = MARDER_HATCH_RIGHT_TURRET_PATH;
-        _ladder = [_vehicle, QGVAR(ladderRight)] call FUNC(getAttachedLadder);
-    };
-};
+(GVAR(ladderSides) get _side) params ["_turret", "_ladderVariable"];
+private _ladder = [_vehicle, _ladderVariable] call FUNC(getAttachedLadder);
 
 !isNull _ladder &&
 {isNull EGVAR(vehicle_ladder,ladder)} && // Not already adjusting a ladder

@@ -27,7 +27,8 @@ if (!hasInterface) exitWith {};
 private _ladderIcon = QPATHTOEF(vehicle_ladder,data\ui\holdaction_ladder.paa);
 
 {
-    _x params ["_side", "_ladderVariable", "_offset", "_direction"];
+    private _side = _x;
+    _y params ["", "_ladderVariable", "_offset", "_direction"];
 
     // Set up the ladder
     [
@@ -75,7 +76,4 @@ private _ladderIcon = QPATHTOEF(vehicle_ladder,data\ui\holdaction_ladder.paa);
         "",
         format ["[_target, _this, '%1'] call %2", _side, QFUNC(canAdjustLadder)]
     ];
-} forEach [
-    ["left", QGVAR(ladderLeft), [-1, -1.7, -0.3], 270],
-    ["right", QGVAR(ladderRight), [1, -1.7, -0.3], 90]
-];
+} forEach GVAR(ladderSides);

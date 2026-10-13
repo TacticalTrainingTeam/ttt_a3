@@ -2,7 +2,6 @@
 
 // Source: PzGrenBtl402 addons/SmokeLauncher/XEH_postInit.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted
 GVAR(reloadTimeCache) = createHashMap;
-GVAR(canSmokeCache) = createHashMap;
 GVAR(muzzleCache) = createHashMap;
 
 // Fires the smoke launcher on the machine the turret is local to
@@ -18,8 +17,6 @@ if (hasInterface) then {
     GVAR(lastFireSuccess) = true;
     GVAR(inputHeld) = false;
     GVAR(inputEHs) = [];
-    GVAR(firedEH) = -1;
-    GVAR(vehicle) = objNull;
     GVAR(turret) = [];
 
     ["turret", LINKFUNC(turretChanged), true] call CBA_fnc_addPlayerEventHandler;

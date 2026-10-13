@@ -23,6 +23,6 @@ params ["_vehicle", "_player"];
 
 _player action ["moveToTurret", _vehicle, WIESEL_TOW_LOADER_TURRET_PATH];
 [QEGVAR(common,unlockSeat), [_player]] call CBA_fnc_localEvent;
-_vehicle setVariable [getText (configOf _vehicle >> QGVAR(loaderBinoVariable)), false, true];
+[_vehicle, "loader"] call FUNC(resetSeatState);
 
 _vehicle animate ["Seat_R_Trans", 0];

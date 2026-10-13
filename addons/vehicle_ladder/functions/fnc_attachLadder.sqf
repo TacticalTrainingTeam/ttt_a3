@@ -25,11 +25,9 @@ if (isNull _vehicle) exitWith {objNull};
 
 private _ladder = "ACE_TacticalLadder" createVehicle [0, 0, 0];
 
-for "_i" from MIN_STEP to MIN_ALLOWED_STEP do {
-    _ladder animate [format ["extract_%1", _i], 1, true];
-};
-for "_i" from (MIN_ALLOWED_STEP + 1) to MAX_STEP do {
-    _ladder animate [format ["extract_%1", _i], 0, true];
+// Extended up to the smallest allowed step
+for "_i" from MIN_STEP to MAX_STEP do {
+    _ladder animate [format ["extract_%1", _i], parseNumber (_i <= MIN_ALLOWED_STEP), true];
 };
 
 _ladder animate ["rotate", 0];
