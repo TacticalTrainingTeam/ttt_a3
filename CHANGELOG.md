@@ -21,6 +21,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Vehicle Ladder - Add new Component to set up and adjust ACE tactical ladders on vehicles (#635) by Andx667
 * Compat RNT - Add ladder to Marder (#635) by Andx667
 * Common - Add seat lock events (#635) by Andx667
+* Compat BWA3 - Add Puma config: Warrior optics without NVG, smoke launcher for gunner and commander, default HE ammo (#PR) by Andx667
+* Compat BWA3 - Add MK30 AP/HE muzzles, more HE damage, adjusted magazine sizes, 1000 round MG5 belt and better visible P2A1 flares (#PR) by Andx667
+
+### Changed
+
+* Compat RNT - Change Marder config: initial zeroing 800 m, no NVG, unstabilized turrets, no default backpack and toolkit (#PR) by Andx667
+* Compat RNT - Remove default backpack and toolkit from Fuchs (#PR) by Andx667
 
 ## [6.0.1] - 2026-10-06
 

@@ -12,6 +12,7 @@ class CfgVehicles {
         class EventHandlers;
         class Turrets {
             class MainTurret: NewTurret {
+                class ViewOptics;
                 class Turrets {
                     class CommanderOptics;
                 };
@@ -22,6 +23,13 @@ class CfgVehicles {
     class Redd_Marder_1A5_base: Tank_F {
 
         ace_vehicles_engineStartDelay = 5;
+
+        class TransportBackpacks {
+            delete _xx_B_AssaultPack_rgr;
+        };
+        class TransportItems {
+            delete _xx_Toolkit;
+        };
 
         // Gunner and commander can fire the smoke launcher (the gunner needs it as weapon)
         EGVAR(smoke_launcher,muzzle) = QEGVAR(compat_rnt,SmokeLauncher);
@@ -110,7 +118,9 @@ class CfgVehicles {
 
             class MainTurret: MainTurret {
 
+                discreteDistanceInitIndex = 6; // Set initial gun zeroing to 800 m
                 lockWhenDriverOut = 0; // Don't lock turret when driver is turned out
+                stabilizedInAxes = 0; // Turret is not stabilized
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
                 gunnerCompartments= "Compartment3";
@@ -119,18 +129,51 @@ class CfgVehicles {
                 weapons[] += {QEGVAR(compat_rnt,SmokeLauncher)};
                 magazines[] += {"Redd_SmokeLauncherMag"};
 
+                // No NVG
+                class ViewOptics: ViewOptics {
+                    visionMode[] = {"Normal", "TI"};
+                };
+
+                // No NVG
+                class OpticsIn {
+                    class Day1 {
+                        visionMode[] = {"Normal"};
+                    };
+
+                    class Day2 {
+                        visionMode[] = {"Normal"};
+                    };
+                };
+
                 class Turrets: Turrets {
                     class CommanderOptics: CommanderOptics {
+                        stabilizedInAxes = 0;
                         disableSoundAttenuation = 0;
                         soundAttenuationTurret = "TankAttenuation";
                         gunnerCompartments= "Compartment3";
 
                         weapons[] = {};
                         magazines[] = {};
+
+                        // No NVG
+                        class ViewOptics: ViewOptics {
+                            visionMode[] = {"Normal", "TI"};
+                        };
+
+                        class OpticsIn {
+                            class Day1 {
+                                visionMode[] = {"Normal"};
+                            };
+
+                            class Day2 {
+                                visionMode[] = {"Normal"};
+                            };
+                        };
                     };
                 };
 
                 class CargoTurret_Links: NewTurret {
+                    stabilizedInAxes = 0;
                     disableSoundAttenuation = 0;
                     soundAttenuationTurret = "TankAttenuation";
                     gunnerCompartments= "Compartment2";
@@ -139,12 +182,25 @@ class CfgVehicles {
 
 
             class Redd_Milan: NewTurret {
+                stabilizedInAxes = 0;
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
                 gunnerCompartments= "Compartment4";
+
+                // No NVG
+                class OpticsIn {
+                    class Day1 {
+                        visionMode[] = {"Normal"};
+                    };
+
+                    class Day2 {
+                        visionMode[] = {"Normal"};
+                    };
+                };
             };
 
             class Luchs_Bino_Turret_Com: NewTurret {
+                stabilizedInAxes = 0;
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
                 gunnerCompartments= "Compartment4";

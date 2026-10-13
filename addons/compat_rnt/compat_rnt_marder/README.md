@@ -13,6 +13,10 @@
 - Über die Lukenplätze kann man ausgestiegen (`isTurnedOut`) per Aktion neben der Luke aus dem Fahrzeug steigen (`fnc_getOutHatch`).
 - Der Kommandant kann höher steigen, die Logik ist generisch (siehe Wiesel MK20); die Config-Attribute stehen in `CfgVehicles.hpp`. Zusätzlich werden `Redd_Marder_Commander_Up` und `Redd_Marder_Commander_Winkelspiegel` beim Ein- und Aussteigen zurückgesetzt (`ttt_compat_rnt_commanderResetVariables`).
 - Das Tarnnetz wird automatisch angebracht.
+- Die Kanone ist ab Spawn auf 800 m eingestellt (`discreteDistanceInitIndex = 6`).
+- Turm, Kommandantenoptik und Milan sind nicht stabilisiert (`stabilizedInAxes = 0`).
+- Entfernt die Nachtsicht aus den Optiken von Richtschütze, Kommandant und Milan (`ViewOptics`/`OpticsIn`).
+- Entfernt den Standard-Rucksack und das Toolkit aus dem Laderaum.
 - An den seitlichen Lukenplätzen kann ausgestiegen eine Leiter aufgestellt und angepasst werden (`fnc_initLadderActions`, Logik im Addon `vehicle_ladder`). Ein `ACE_TacticalLadder_Pack` muss im Fahrzeug liegen.
 - Richtschütze und Kommandant können die Nebelmittelwurfanlage abfeuern (Waffe `ttt_compat_rnt_SmokeLauncher`, Logik im Addon `smoke_launcher`). Die Anlage wandert dafür vom Kommandanten zum Richtschützen; `fnc_handleMarderFired` löst den Effekt von Redd und Tank aus.
 - Karten-Interaktion auf der Heckklappe über Metis Enhanced (siehe `fnc_initMapActions`; wird übersprungen, wenn Metis Enhanced fehlt). Position und Ausrichtung kommen aus den Config-Attributen `ttt_compat_rnt_mapAction*`.
@@ -21,7 +25,7 @@
 
 Teile dieses Addons stammen aus dem Mod PzGrenBtl402 (<https://github.com/PzGrenBtl-402/PzGrenBtl402>, Stand: Commit `e4d9ec8`) und wurden mit Erlaubnis eines Maintainers übernommen und angepasst. Der Mod steht unter der Arma Public License No Derivatives. Die Herkunft jeder Funktion steht im Header der Datei (`Source:`), ganze übernommene Config-Dateien tragen einen entsprechenden Kommentar am Anfang.
 
-Übernommen aus `addons/Redd_Marder` (Autoren laut Original: Lemonberries, Mishkar, Timi007): Heckklappe, Luken, Leiter, Tarnnetz, Karten-Aktion, Nebelmittelwurfanlage. Die Funktionen liegen in `compat_rnt`.
+Übernommen aus `addons/Redd_Marder` (Autoren laut Original: Lemonberries, Mishkar, Timi007): Heckklappe, Luken, Leiter, Tarnnetz, Karten-Aktion, Nebelmittelwurfanlage, Visierung ohne Nachtsicht, Anfangsentfernung, Stabilisierung und Laderaum. Die Funktionen liegen in `compat_rnt`.
 
 ## ACRE
 

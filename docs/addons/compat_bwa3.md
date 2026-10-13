@@ -19,6 +19,18 @@ Ergänzt die `allowFireOnLoad = 1;` Eigenschaft. Siehe <https://ace3.acemod.org/
 - Der Fahrer erhält einen horizontalen Kompass.
 - Richtschütze und Kommandant können die Nebelmittelwurfanlage abfeuern (siehe [Nebelmittelwurfanlage](smoke_launcher.md)).
 
+## Puma
+
+- Die Optiken von Richtschütze und Kommandant bieten ein größeres Sichtfeld, haben aber keine Nachtsicht mehr.
+- Richtschütze und Kommandant können die Nebelmittelwurfanlage abfeuern (siehe [Nebelmittelwurfanlage](smoke_launcher.md)).
+- Die Maschinenkanone hat getrennte Munitionsarten AP und HE, die über die Waffenauswahl gewechselt werden (kein Mausrad mehr). HE richtet mehr Schaden an. Die Magazine fassen 240 Schuss HE/ABM bzw. 160 Schuss APFSDS.
+- Das MG hat einen 1000-Schuss-Gurtkasten und lädt ohne Verzögerung nach.
+- Im Eden-Editor ist HE statt ABM als Standardmunition ausgewählt.
+
+## Leuchtkugeln
+
+Die Leuchtkugeln der P2A1 sind größer, brennen länger (20 Sekunden) und werden früher gezündet, damit sie besser zu sehen sind.
+
 ## ACRE
 
 Konfiguriert alle Fahrzeuge mit den gleichen Rack Einstellungen:
