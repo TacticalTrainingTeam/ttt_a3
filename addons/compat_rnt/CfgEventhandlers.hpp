@@ -39,6 +39,9 @@ class Extended_InitPost_EventHandlers {
         class GVAR(ramp) {
             init = QUOTE(call FUNC(initRampActions));
         };
+        class GVAR(ladder) {
+            init = QUOTE(call FUNC(initLadderActions));
+        };
         class GVAR(map) {
             init = QUOTE(call FUNC(initMapActions));
         };

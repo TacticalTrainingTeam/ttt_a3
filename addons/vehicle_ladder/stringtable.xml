@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Vehicle_Ladder">
+        <Key ID="STR_ttt_Vehicle_Ladder_adjustLadder">
+            <English>Adjust ladder</English>
+            <German>Leiter anpassen</German>
+        </Key>
+        <Key ID="STR_ttt_Vehicle_Ladder_adjustTiltLadder">
+            <English>Tilt ladder</English>
+            <German>Leiter kippen</German>
+        </Key>
+        <Key ID="STR_ttt_Vehicle_Ladder_attachLadder">
+            <English>Set up ladder</English>
+            <German>Leiter aufstellen</German>
+        </Key>
+        <Key ID="STR_ttt_Vehicle_Ladder_deployLadder">
+            <English>Deploy ladder</English>
+            <German>Leiter fixieren</German>
+        </Key>
+    </Package>
+</Project>

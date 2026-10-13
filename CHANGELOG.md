@@ -18,6 +18,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Smoke Launcher - Add new Component to fire vehicle smoke launchers as gunner and commander (#634) by Andx667
 * Compat BWA3 - Add smoke launcher for gunner and commander to Leopard (#634) by Andx667
 * Compat RNT - Add smoke launcher for gunner and commander to Marder (#634) by Andx667
+* Vehicle Ladder - Add new Component to set up and adjust ACE tactical ladders on vehicles (#634) by Andx667
+* Compat RNT - Add ladder to Marder (#634) by Andx667
 * Common - Add seat lock events (#634) by Andx667
 
 ## [6.0.1] - 2026-10-06

@@ -18,6 +18,7 @@ Kommandant und Ladeschütze können mit den Tasten für Aus- und Einsteigen (Tur
 - Richtschütze und Passagier können die Plätze tauschen.
 - Der Kommandant kann mit den Tasten für Aus- und Einsteigen (Turn Out / Turn In) höher bzw. tiefer steigen.
 - Das Tarnnetz wird automatisch angebracht.
+- An den seitlichen Lukenplätzen kann eine Leiter aufgestellt werden, wenn ein Leiter-Rucksack im Fahrzeug liegt (siehe [Fahrzeugleiter](vehicle_ladder.md)).
 - Richtschütze und Kommandant können die Nebelmittelwurfanlage abfeuern (siehe [Nebelmittelwurfanlage](smoke_launcher.md)).
 - Mit Metis Enhanced kann eine Karte auf der Heckklappe abgelegt werden. Das gilt auch für Fuchs und Wolf (auf den hinteren Türen bzw. der Motorhaube). Mit der Variable `ttt_compat_rnt_showMapAction` (`false`) lässt sich die Aktion pro Fahrzeug ausblenden:
 
