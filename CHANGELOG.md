@@ -9,22 +9,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-* Common - Add seat lock events and a generic map action (#PR) by Andx667
-* Compat RNT - Add higher commander and loader seats, TOW/MG3 seat switching, automatic camonet, reduced HUD and Metis Enhanced map action to Marder, Wiesel MK20 and TOW, Fuchs and Wolf (#PR) by Andx667
-* Compat RNT - Add turn out/in shortcut to Luchs (#PR) by Andx667
-* Compat RNT - Add AP/HE muzzles to the Redd MK20 (#PR) by Andx667
-* Compat RNT - Add ACE CSW belt, proxy weapon and magazine groups to the GMW (#PR) by Andx667
-* Compat BWA3 - Add Leopard commander optics (Warrior FOV, green TI), reduced optics HUD and driver compass (#PR) by Andx667
-* Compat BWA3 - Add Puma config: Warrior optics, default HE ammo, reduced optics HUD, driver compass and map action (#PR) by Andx667
-* Compat BWA3 - Add Puma MUSS with louder warning and turret rotation, rear view cameras, missile direction on the radar and vehicle numbers (#PR) by Andx667
-* Compat BWA3 - Add MK30 AP/HE muzzles, more HE damage, adjusted magazine sizes, 1000 round MG5 belt and better visible P2A1 flares (#PR) by Andx667
-* Compat ACRE - Add ACRE attenuation values for vehicles (`TankAttenuation`) (#PR) by Andx667
+* Common - Add seat lock events and a generic map action (#639) by Andx667
+* Compat RNT - Add higher commander and loader seats, TOW/MG3 seat switching, automatic camonet, reduced HUD and Metis Enhanced map action to Marder, Wiesel MK20 and TOW, Fuchs and Wolf (#639) by Andx667
+* Compat RNT - Add turn out/in shortcut to Luchs (#639) by Andx667
+* Compat RNT - Add AP/HE muzzles to the Redd MK20 (#639) by Andx667
+* Compat RNT - Add ACE CSW belt, proxy weapon and magazine groups to the GMW (#639) by Andx667
+* Compat BWA3 - Add Leopard commander optics (Warrior FOV, green TI), reduced optics HUD and driver compass (#639) by Andx667
+* Compat BWA3 - Add Puma config: Warrior optics, default HE ammo, reduced optics HUD, driver compass and map action (#639) by Andx667
+* Compat BWA3 - Add Puma MUSS with louder warning and turret rotation, rear view cameras, missile direction on the radar and vehicle numbers (#639) by Andx667
+* Compat BWA3 - Add MK30 AP/HE muzzles, more HE damage, adjusted magazine sizes, 1000 round MG5 belt and better visible P2A1 flares (#639) by Andx667
+* Compat ACRE - Add ACRE attenuation values for vehicles (`TankAttenuation`) (#639) by Andx667
 
 ### Changed
 
 * Docs - Fix nav to match addons (#633) by Andx667
-* Compat RNT - Change Marder config: initial zeroing 800 m, unstabilized turrets, no default backpack and toolkit (#PR) by Andx667
-* Compat RNT - Remove default backpack and toolkit from Fuchs, Wiesel MK20 and TOW (#PR) by Andx667
+* Compat RNT - Change Marder config: initial zeroing 800 m, unstabilized turrets, no default backpack and toolkit (#639) by Andx667
+* Compat RNT - Remove default backpack and toolkit from Fuchs, Wiesel MK20 and TOW (#639) by Andx667
 
 ## [6.0.1] - 2026-10-06
 
