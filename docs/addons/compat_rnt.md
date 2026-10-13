@@ -28,6 +28,7 @@ Kommandant und Ladeschütze können mit den Tasten für Aus- und Einsteigen (Tur
 
 - Der Kommandant kann höher bzw. tiefer steigen, das Tarnnetz wird automatisch angebracht und das HUD ist aufgeräumt (keine Fahrzeug-Systemanzeigen).
 - Die MK20 hat AP und HE als getrennte Munitionsarten (siehe Marder).
+- Die Türme von Wiesel MK20, Wiesel TOW und Fuchs sind wie im Original stabilisiert (die bisherige Abschaltung der Stabilisierung entfällt).
 
 ## Wiesel TOW
 

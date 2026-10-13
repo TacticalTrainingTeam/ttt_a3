@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * Docs - Fix nav to match addons (#633) by Andx667
 * Compat RNT - Change Marder config: initial zeroing 800 m (#639) by Andx667
+* Compat RNT - Change Fuchs, Wiesel MK20 and Wiesel TOW: turrets are stabilized again, the forced `stabilizedInAxes = 0` is removed (#639) by Andx667
 
 ## [6.0.1] - 2026-10-06
 

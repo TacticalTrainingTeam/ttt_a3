@@ -97,7 +97,6 @@ class CfgVehicles {
             class MainTurret: MainTurret {
                 discreteDistanceInitIndex = 6;
                 lockWhenDriverOut = 0;
-                stabilizedInAxes = 0;
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
                 gunnerCompartments= "Compartment1";
@@ -108,7 +107,6 @@ class CfgVehicles {
             };
 
             class wieselMk20_Bino_Turret_Com: NewTurret {
-                stabilizedInAxes = 0;
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
                 gunnerCompartments= "Compartment3";
