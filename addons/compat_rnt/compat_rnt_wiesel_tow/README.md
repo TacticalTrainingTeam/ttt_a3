@@ -6,7 +6,7 @@
 - Der ausgestiegene Kommandant kann auf den TOW-Sitz wechseln, der ausgestiegene Ladeschütze auf den MG3-Sitz (UserActions `TOW_in`/`TOW_aus`, `MG3_in`/`MG3_aus`). Dabei werden die Sitz-Animationen und das TOW-Rohr ein- bzw. ausgeblendet (`fnc_getInTOW` usw. in `compat_rnt`).
 - **TOW nachladen**: Pro Schuss wird ein Milan-Rohr (`Redd_Milan_Static_Barrel`) aus dem Laderaum verbraucht (5 Rohre bei Spawn, `TransportBackpacks`). Der TOW startet geladen (`magazines[]`), das Magazin wird nach dem Schuss entfernt (`fnc_handleTOWFired`). Geladen wird über die Halte-Aktion "TOW laden" (`fnc_loadTOW`): durch den Ladeschützen auf einem seiner Sitze, ist kein Ladeschützen-Sitz besetzt, durch den Kommandanten (auch auf dem TOW-Sitz). Die Regel steht in `fnc_canLoadTOW`.
 - Tarnnetz wird automatisch angebracht, Redd'n'Tank-Aktionen zum Auf- und Abbauen sowie die Flaggen-Aktionen werden entfernt.
-- Entfernt die Fahrzeug-Systemanzeigen aus dem HUD. Der Turm ist nicht stabilisiert.
+- Entfernt die Fahrzeug-Systemanzeigen aus dem HUD.
 
 Die Config-Attribute für die Sitzlogik sind in der README von `compat_rnt` beschrieben. Die Tarnnetz-Animationsquellen stehen in `compat_rnt/XEH_preInit.sqf`.
 

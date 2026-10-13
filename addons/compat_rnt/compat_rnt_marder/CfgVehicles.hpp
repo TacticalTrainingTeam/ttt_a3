@@ -110,14 +110,12 @@ class CfgVehicles {
 
                 discreteDistanceInitIndex = 6; // Set initial gun zeroing to 800 m
                 lockWhenDriverOut = 0; // Don't lock turret when driver is turned out
-                stabilizedInAxes = 0; // Turret is not stabilized
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
                 gunnerCompartments= "Compartment3";
 
                 class Turrets: Turrets {
                     class CommanderOptics: CommanderOptics {
-                        stabilizedInAxes = 0;
                         disableSoundAttenuation = 0;
                         soundAttenuationTurret = "TankAttenuation";
                         gunnerCompartments= "Compartment3";
@@ -125,7 +123,6 @@ class CfgVehicles {
                 };
 
                 class CargoTurret_Links: NewTurret {
-                    stabilizedInAxes = 0;
                     disableSoundAttenuation = 0;
                     soundAttenuationTurret = "TankAttenuation";
                     gunnerCompartments= "Compartment2";
@@ -134,14 +131,12 @@ class CfgVehicles {
 
 
             class Redd_Milan: NewTurret {
-                stabilizedInAxes = 0;
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
                 gunnerCompartments= "Compartment4";
             };
 
             class Luchs_Bino_Turret_Com: NewTurret {
-                stabilizedInAxes = 0;
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
                 gunnerCompartments= "Compartment4";

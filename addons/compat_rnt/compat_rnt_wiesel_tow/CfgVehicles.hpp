@@ -113,7 +113,6 @@ class CfgVehicles {
         class Turrets: Turrets {
             class MainTurret: MainTurret {
                 lockWhenDriverOut = 0;
-                stabilizedInAxes = 0;
                 turretInfoType = QEGVAR(compat_rnt,RSC_Milan);
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
@@ -161,7 +160,6 @@ class CfgVehicles {
         };
 
         class Bino_Turret_Loader: NewTurret {
-            stabilizedInAxes = 0;
             disableSoundAttenuation = 0;
             soundAttenuationTurret = "TankAttenuation";
             gunnerCompartments = "Compartment3";
