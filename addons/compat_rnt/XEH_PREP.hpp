@@ -11,7 +11,6 @@ PREP(canGetOutMG3);
 PREP(canGetOutTOW);
 PREP(canLoadTOW);
 PREP(canMountMG);
-PREP(canMoveGunnerToPassenger);
 PREP(canOpenRamp);
 PREP(closeRamp);
 PREP(disassembleMG);

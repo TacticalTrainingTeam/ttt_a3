@@ -302,30 +302,6 @@ class CfgVehicles {
                 statement = "ACE_player action ['moveToTurret', this, [0, 2]]";
             };
 
-            class MoveGunnerToPassengerRearm {
-                displayName = "$STR_UI_PASSENGER_SEAT";
-                displayNameDefault = "<img image='\A3\ui_f\data\igui\cfg\actions\getincargo_ca.paa' size='1.8' shadow=2 />";
-                position = "actionsPoint";
-                radius = 1.5;
-                onlyforplayer = 1;
-                showWindow = 0;
-                priority = 1;
-                condition = QUOTE([ARR_2(this,ACE_player)] call EFUNC(compat_rnt,canMoveGunnerToPassenger));
-                statement = "ACE_player action ['moveToCargo', this, 0]";
-            };
-
-            class MovePassengerToGunnerRearm {
-                displayName = "$STR_ACTION_TO_GUNNER";
-                displayNameDefault = "<img image='\A3\ui_f\data\igui\cfg\actions\getingunner_ca.paa' size='1.8' shadow=2 />";
-                position = "actionsPoint";
-                radius = 1.5;
-                onlyforplayer = 1;
-                showWindow = 0;
-                priority = 1.5;
-                condition = QUOTE((alive this) && {this getCargoIndex ACE_player isEqualTo 1} && {isNull (this turretUnit MARDER_GUNNER_TURRET_PATH)});
-                statement = "ACE_player action ['moveToGunner', this]";
-            };
-
             class fixTurretBug {
                 displayName = ECSTRING(compat_rnt,fixGetInSeat);
                 condition = QUOTE(([ARR_2(this,'commander')] call EFUNC(compat_rnt,canGetInSeat)) && {this lockedTurret MARDER_COMMANDER_TURRET_PATH} && {isNull objectParent ACE_player});

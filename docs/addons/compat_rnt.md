@@ -15,7 +15,6 @@ Kommandant und Ladeschütze können mit den Tasten für Aus- und Einsteigen (Tur
 - Das Fahrzeug ist gesperrt, solange die Heckklappe geschlossen ist. Fahrer und Kommandant steigen weiterhin normal ein, alle anderen müssen die Klappe öffnen (Fahrer, Richtschütze oder der mittlere Lukenplatz öffnen/schließen sie per Aktion).
 - In den Eden-Attributen des Marders kann "Heckklappe öffnen" gesetzt werden, damit die Klappe beim Spawnen offen ist.
 - Wer an einer Luke ausgestiegen ist, kann direkt neben der Luke aus dem Fahrzeug steigen.
-- Richtschütze und Passagier können die Plätze tauschen.
 - Der Kommandant kann mit den Tasten für Aus- und Einsteigen (Turn Out / Turn In) höher bzw. tiefer steigen.
 - Das Tarnnetz wird automatisch angebracht.
 - An den seitlichen Lukenplätzen kann eine Leiter aufgestellt werden, wenn ein Leiter-Rucksack im Fahrzeug liegt (siehe [Fahrzeugleiter](vehicle_ladder.md)).
