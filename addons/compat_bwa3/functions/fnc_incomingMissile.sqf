@@ -45,7 +45,10 @@ if (crew _vehicle isEqualTo []) exitWith {};
 
     private _distance = _vehicle distance _missile;
     if (!alive _missile || _distance < 10) exitWith {
-        _vehicle setVariable [QGVAR(mussMissileLock), objNull];
+        // Only release the lock if it belongs to this missile
+        if (_vehicle getVariable [QGVAR(mussMissileLock), objNull] isEqualTo _missile) then {
+            _vehicle setVariable [QGVAR(mussMissileLock), objNull];
+        };
         [_this select 1] call CBA_fnc_removePerFrameHandler;
     };
 
@@ -54,7 +57,7 @@ if (crew _vehicle isEqualTo []) exitWith {};
     // Handle every missile only once
     private _lockedMissile = _vehicle getVariable [QGVAR(mussMissileLock), objNull];
 
-    if (!isNull _lockedMissile || _lockedMissile isEqualTo _missile) exitWith {};
+    if (!isNull _lockedMissile) exitWith {};
     _vehicle setVariable [QGVAR(mussMissileLock), _missile];
 
     if (cameraOn isEqualTo _vehicle && !_soundPlayed) then {

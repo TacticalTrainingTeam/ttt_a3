@@ -42,11 +42,11 @@ if (cameraView != "GUNNER") exitWith {
 };
 
 if (isNull _compass) then {
-    private _compass = _display ctrlCreate ["RscPicture", -1];
-    private _chassis = _display ctrlCreate ["RscPicture", -1];
-    private _turret = _display ctrlCreate ["RscPicture", -1];
-    private _observer = _display ctrlCreate ["RscPicture", -1];
-    private _missileWarnDir = _display ctrlCreate ["RscPicture", -1];
+    _compass = _display ctrlCreate ["RscPicture", -1];
+    _chassis = _display ctrlCreate ["RscPicture", -1];
+    _turret = _display ctrlCreate ["RscPicture", -1];
+    _observer = _display ctrlCreate ["RscPicture", -1];
+    _missileWarnDir = _display ctrlCreate ["RscPicture", -1];
 
     _compass ctrlSetText "bwa3_common\rsc\Radar_Compass.paa";
     _chassis ctrlSetText "bwa3_common\rsc\Radar_Vehicle.paa";

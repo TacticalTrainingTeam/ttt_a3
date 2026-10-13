@@ -24,7 +24,7 @@ class RscInGameUI {
     };
 
     // Remove switches and lights from optics
-    class GVAR(RscOpticsCommander): BWA3_RscOptics_Leopard_commander {
+    class GVAR(RscOpticsCommanderLeopard): BWA3_RscOptics_Leopard_commander {
         class BWA3_ScriptedDisplayControlsGroup: BWA3_ScriptedDisplayControlsGroup {
             class controls: controls {
                 class VisionModeTIM: VisionModeTIM { DISABLE_FEATURE; };

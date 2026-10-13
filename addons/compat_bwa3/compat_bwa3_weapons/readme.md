@@ -3,7 +3,7 @@
 Waffen- und Munitionsanpassungen für BWmod:
 
 - **MK30 (Puma):** Die Munitionsarten AP und HE sind eigene Mündungen (`AP`/`HE`) und lassen sich über die Waffenauswahl wechseln statt per Mausrad. HE macht mehr Schaden (`explosive`, `indirectHit`, `indirectHitRange`), die Magazine fassen 240 (HE/ABM) bzw. 160 (APFSDS) Schuss.
-- **MG5 der Fahrzeuge:** lädt ohne Verzögerung nach und hat zusätzlich einen 1000-Schuss-Gurtkasten (`ttt_compat_bwa3_weapons_1000Rnd_762x51`).
+- **MG5 der Fahrzeuge:** lädt ohne Verzögerung nach und hat zusätzlich einen 1000-Schuss-Gurtkasten (`ttt_compat_bwa3_1000Rnd_762x51`).
 - **Leuchtkugeln der P2A1** (Einzel- und Mehrfachstern, weiß/grün/rot): größer (`flareSize` 6), länger brennend (`timeToLive` 20) und früher gezündet (`triggerTime` 0,1). Die Mehrfachstern-Kegel entsprechen dem Wert von GM.
 
 ## Herkunft

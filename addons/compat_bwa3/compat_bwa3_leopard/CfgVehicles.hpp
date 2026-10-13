@@ -35,7 +35,7 @@ class CfgVehicles {
                     class CommanderOptics: CommanderOptics {
                         // Vanilla Warrior optics for a wider field of view
                         gunnerOpticsModel = WARRIOR_OPTICS_MODEL;
-                        turretInfoType = QGVAR(RscOpticsCommander);
+                        turretInfoType = QGVAR(RscOpticsCommanderLeopard);
 
                         class OpticsIn: BWA3_Optics_Commander_Leopard {
                             class Wide: Wide {

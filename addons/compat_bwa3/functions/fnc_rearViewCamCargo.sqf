@@ -32,7 +32,6 @@ private _ctrlRearViewCamProxyNVG = _dlgRearViewCam displayCtrl 2;
 private _ctrlRearViewCam = _dlgRearViewCam displayCtrl 4;
 private _ctrlRearViewCamIndicator = _dlgRearViewCam displayCtrl 5;
 
-private _visionMode = 0;
 _ctrlRearViewCam ctrlShow true;
 _ctrlRearViewCamIndicator ctrlShow true;
 _ctrlRearViewCamProxy ctrlSetPosition ACTIVE_POS;

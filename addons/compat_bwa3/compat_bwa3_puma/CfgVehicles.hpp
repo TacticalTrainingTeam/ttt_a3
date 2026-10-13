@@ -70,7 +70,7 @@ class CfgVehicles {
                 magazines[] = {
                     "BWA3_240Rnd_APFSDS_shells",
                     "BWA3_160Rnd_ABM_shells",
-                    QEGVAR(compat_bwa3_weapons,1000Rnd_762x51),
+                    QGVAR(1000Rnd_762x51),
                     "bwa3_mells_spikeLR_2rnd_puma"
                 };
 
