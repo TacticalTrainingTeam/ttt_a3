@@ -11,4 +11,5 @@ PREP(lockSeat);
 PREP(noApiFunction);
 PREP(setAISkill);
 PREP(setAISkillLevel);
+PREP(toggleHEAP);
 PREP(unlockSeat);

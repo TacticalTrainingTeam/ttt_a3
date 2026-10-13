@@ -101,6 +101,14 @@
             <English>TTT Explosives Crate (Spreng)</English>
             <German>TTT Sprengkiste (Spreng)</German>
         </Key>
+        <Key ID="STR_ttt_Common_toggleHEAP">
+            <English>Switch HE/AP magazines</English>
+            <German>HE/AP Munition wechseln</German>
+        </Key>
+        <Key ID="STR_ttt_Common_toggleHEAP_description">
+            <English>Toggles between AP and HE for the main gun (MK20 from Redd and GM, MK30 from BWmod).</English>
+            <German>Schaltet zwischen AP und HE für die Maschinenkanone (MK20 von Redd und GM, MK30 von BWmod) um.</German>
+        </Key>
         <Key ID="STR_ttt_Common_uav">
             <English>TTT UAV Crate (UAV)</English>
             <German>TTT Drohnenkiste (UAV)</German>

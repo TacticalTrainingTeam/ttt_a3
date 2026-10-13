@@ -3,7 +3,7 @@
 Waffen- und Munitionsanpassungen für BWmod:
 
 - Nebelmittelwurfanlage der Fahrzeuge als eigene Waffe (`ttt_compat_bwa3_weapons_SmokeLauncher`), damit Richtschütze und Kommandant sie über das Smoke-Launcher-Addon abfeuern können. Die Nebelgranaten heißen "Schnellnebelwurfkörper DM55".
-- Puma-Maschinenkanone MK30: Die Munitionsarten AP und HE sind eigene Mündungen (`AP`/`HE`) und lassen sich über die Waffenauswahl wechseln statt per Mausrad. HE macht mehr Schaden (`explosive`, `indirectHit`, `indirectHitRange`), die Magazine fassen 240 (HE/ABM) bzw. 160 (APFSDS) Schuss.
+- Puma-Maschinenkanone MK30: Die Munitionsarten AP und HE sind eigene Mündungen (`AP`/`HE`) und lassen sich über die Waffenauswahl oder die Taste aus dem Addon `common` (`ttt_common_fnc_toggleHEAP`) wechseln statt per Mausrad. HE macht mehr Schaden (`explosive`, `indirectHit`, `indirectHitRange`), die Magazine fassen 240 (HE/ABM) bzw. 160 (APFSDS) Schuss.
 - MG5 der Fahrzeuge: lädt ohne Verzögerung nach und hat zusätzlich einen 1000-Schuss-Gurtkasten (`ttt_compat_bwa3_weapons_1000Rnd_762x51`).
 - Leuchtkugeln der P2A1 (Einzel- und Mehrfachstern, weiß/grün/rot): größer (`flareSize` 6), länger brennend (`timeToLive` 20) und früher gezündet (`triggerTime` 0,1). Die Mehrfachstern-Kegel entsprechen dem Wert von GM.
 

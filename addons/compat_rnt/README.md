@@ -11,7 +11,7 @@ Teile dieses Addons stammen aus dem Mod PzGrenBtl402 (<https://github.com/PzGren
 - `Redd_Wiesel_MK20`, `Redd_Wiesel_TOW`, `Redd_Marder`, `Redd_Fuchs`, `Redd_Wolf`, `Redd_Luchs`: höher steigen, Tarnnetz, Heckklappe, Luken, Leiter, Karten-Aktion, TOW-Nachladen, HUD (Autoren laut Original: Lemonberries, Mishkar, Timi007). Die Logik für Kommandant und Ladeschütze wurde dabei in generische Funktionen zusammengeführt, die über Config-Attribute des Fahrzeugs gesteuert werden.
 - `Common` (Sitz sperren, siehe Addon `common`), `SmokeLauncher` (Addon `smoke_launcher`), `Ladder` (Addon `vehicle_ladder`).
 
-Nicht übernommen wurden u.a. die Nachlade-Mechanik (Rearm), das Milan-System und die NiArms-Anpassungen.
+Aus `addons/Redd_Main` stammt die MK20-Konfiguration, aus `addons/Redd_GMW` die ACE-CSW-Konfiguration der GraMaWa. Nicht übernommen wurden u.a. die Nachlade-Mechanik (Rearm), das Milan-System und die NiArms-Anpassungen.
 
 ## Config-Attribute der Fahrzeuge
 
@@ -26,6 +26,10 @@ Die Sitz- und Tarnnetz-Funktionen sind generisch und werden pro Fahrzeug über C
 | `ttt_compat_rnt_<seat>ResetVariables[]` | weitere Fahrzeug-Variablen, die beim Ein- und Aussteigen zurückgesetzt werden |
 
 Die Sitzdaten werden beim ersten Zugriff pro Fahrzeugklasse gelesen und zwischengespeichert (`fnc_getSeatData`). Änderungen an der Config werden daher erst nach einem Neustart des Spiels wirksam.
+
+## Waffen (`CfgWeapons.hpp`)
+
+- `Redd_MK20` (Marder, Wiesel MK20) hat AP und HE als getrennte Mündungen (`AP`/`HE`). Gewechselt wird über die Waffenauswahl oder die Taste aus dem Addon `common` (`ttt_common_fnc_toggleHEAP`) statt per Mausrad. Die Waffe hat 900 Schuss pro Minute, kurze Nachladezeit und eigene Reichweitenstufen für die KI (`MK20_PROPERTIES`). `Redd_MK20FL` nutzt dieselben Mündungen mit eigenen Magazinen.
 
 ## Abhängigkeiten
 

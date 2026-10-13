@@ -6,6 +6,10 @@ Enthält Funktionen und Assets für die TTT-Mod.
 
 `ttt_common_lockSeat` und `ttt_common_unlockSeat` (CBA-Events) sperren bzw. entsperren einen Turm-Sitz für den Spieler, der sich auf einen Nachbarsitz bewegt hat (z.B. Kommandant, der höher steigt). Der Sitz wird automatisch entsperrt, wenn der Spieler aussteigt oder gelöscht wird. `ttt_common_removeBackpackCargo` entfernt einen Rucksack aus dem Laderaum auf dem Rechner, auf dem das Fahrzeug lokal ist.
 
+## HE/AP wechseln
+
+`ttt_common_fnc_toggleHEAP` schaltet für den Richtschützen zwischen den Mündungen AP und HE der Maschinenkanone um (Redd MK20, BWmod MK30 und GM MK20). Die Taste (Standard: 5) steht in den Tastenbelegungen unter "Tactical Training Team".
+
 ## Karten-Aktion
 
 `ttt_common_fnc_initMapActions` fügt einem Fahrzeug die Aktion "Karte auf dem Fahrzeug ablegen" hinzu (benötigt Metis Enhanced, ohne wird die Aktion übersprungen). Die Fahrzeuge werden über Config-Attribute angemeldet:
@@ -21,7 +25,7 @@ Mit der Variable `ttt_common_showMapAction` (`false`) lässt sich die Aktion pro
 
 ## Quellen
 
-Sitz sperren/entsperren ist übernommen aus `addons/Common`, die Karten-Aktion aus `addons/Redd_Marder`, `addons/Redd_Fuchs`, `addons/Redd_Wolf` und `addons/BwMod_Puma` des Mods PzGrenBtl402 (<https://github.com/PzGrenBtl-402/PzGrenBtl402>, Autor laut Original: Timi007, Stand: Commit `e4d9ec8`) und wurde mit Erlaubnis eines Maintainers angepasst (Arma Public License No Derivatives). Die Herkunft steht im Header der Funktionen (`Source:`).
+Sitz sperren/entsperren und das Umschalten von HE/AP sind übernommen aus `addons/Common`, die Karten-Aktion aus `addons/Redd_Marder`, `addons/Redd_Fuchs`, `addons/Redd_Wolf` und `addons/BwMod_Puma` des Mods PzGrenBtl402 (<https://github.com/PzGrenBtl-402/PzGrenBtl402>, Autor laut Original: Timi007, Stand: Commit `e4d9ec8`) und wurde mit Erlaubnis eines Maintainers angepasst (Arma Public License No Derivatives). Die Herkunft steht im Header der Funktionen (`Source:`).
 
 ## Maintainer
 

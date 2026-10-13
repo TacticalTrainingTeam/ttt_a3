@@ -28,7 +28,7 @@ if (!hasInterface) exitWith {};
 }] call CBA_fnc_waitUntilAndExecute;
 
 [
-    [ELSTRING(main,TacticalTrainingTeam), LLSTRING(category)],
+    [LELSTRING(main,TacticalTrainingTeam), LLSTRING(category)],
     QGVAR(toggleMuss),
     [LLSTRING(toggleMuss), LLSTRING(toggleMuss_description)],
     {[] call FUNC(toggleMussMode)},

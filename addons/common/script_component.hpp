@@ -6,3 +6,5 @@
 
 // ACE3
 #define ACEFUNC(var1,var2) TRIPLES(DOUBLES(ace,var1),fnc,var2)
+
+#include "\a3\ui_f\hpp\defineDIKCodes.inc"
