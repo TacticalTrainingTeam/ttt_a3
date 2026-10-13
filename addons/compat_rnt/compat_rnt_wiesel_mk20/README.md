@@ -10,7 +10,9 @@ Die Logik liegt generisch in `compat_rnt` (`fnc_getInHigher`, `fnc_handleGetIn` 
 
 ## Quellen
 
-- <https://github.com/PzGrenBtl-402/PzGrenBtl402/tree/master/addons/Redd_Wiesel_MK20>
+Teile dieses Addons stammen aus dem Mod PzGrenBtl402 (<https://github.com/PzGrenBtl-402/PzGrenBtl402>, Stand: Commit `e4d9ec8`) und wurden mit Erlaubnis eines Maintainers übernommen und angepasst. Der Mod steht unter der Arma Public License No Derivatives. Die Herkunft jeder Funktion steht im Header der Datei (`Source:`), ganze übernommene Config-Dateien tragen einen entsprechenden Kommentar am Anfang.
+
+Übernommen aus `addons/Redd_Wiesel_MK20` (Autoren laut Original: Lemonberries, Mishkar, Timi007): Config (Höher steigen, Tarnnetz, HUD, Optik ohne Nachtsicht) und Funktionen, die zu generischen Funktionen in `compat_rnt` zusammengeführt wurden.
 
 ## ACRE
 

@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /**
  *  Author: Timi007
+ *  Source: PzGrenBtl402 addons/Common/functions/fnc_unlockSeat.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted to this repository
  *
  *  Description:
  *      Unlocks the seat that was locked for the unit with ttt_common_fnc_lockSeat.

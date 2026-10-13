@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /**
  *  Author: Timi007
+ *  Source: PzGrenBtl402 addons/Redd_Wiesel_TOW/functions/fnc_fixGetInBug.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), generalized for commander and loader seats
  *
  *  Description:
  *      Unlocks the commander and loader turrets if nobody occupies a seat belonging to them. This is here for emergencies should the normal system not unlock the seat.

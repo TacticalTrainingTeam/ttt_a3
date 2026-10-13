@@ -1,3 +1,4 @@
+// Source: PzGrenBtl402 addons/SmokeLauncher/SmokeAmmoDisplay.hpp (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted
 class RscText;
 class RscControlsGroupNoScrollbars;
 

@@ -1,25 +1,25 @@
 #include "..\script_component.hpp"
 /*
-* Author: Mishkar, Timi007
-* Stops adjusting the ladder (right mouse button only). Does not block the input.
+* Author: Timi007
+* Source: PzGrenBtl402 addons/Ladder/functions/fnc_confirmLadderAdjust.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted, any mouse button confirms
+* Stops adjusting the ladder (any mouse button). Does not block the input.
 *
 * Arguments:
 * 0: OBJECT - Player
-* 1: NUMBER - Mouse button
 *
 * Return Value:
 * BOOLEAN - false
 *
 * Example:
-* [player, 1] call ttt_vehicle_ladder_fnc_confirmLadderAdjust
+* [player] call ttt_vehicle_ladder_fnc_confirmLadderAdjust
 *
 * Public: No
 */
 
 
-params ["_player", "_key"];
+params ["_player"];
 
-if (isNull GVAR(ladder) || {isNull _player} || {_key isNotEqualTo 1}) exitWith {false};
+if (isNull GVAR(ladder) || {isNull _player}) exitWith {false};
 
 call ace_interaction_fnc_hideMouseHint;
 

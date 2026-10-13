@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /**
  *  Author: Timi007
+ *  Source: PzGrenBtl402 addons/Redd_Marder/functions/fnc_initRampActions.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted to this repository
  *
  *  Description:
  *      Init event handler. Adds the custom get in actions for the commander and driver (the vehicle is locked while the ramp is closed) and locks the vehicle or opens the ramp according to the 3DEN attribute.

@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /**
  *  Author: Timi007
+ *  Source: PzGrenBtl402 addons/Redd_Wiesel_TOW/functions/fnc_handleGetOut.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), generalized for all supported vehicles, camouflage restore reworked
  *
  *  Description:
  *      GetOut event handler for vehicles with commander/loader higher seats and camonet. Unlocks the seats and restores the camouflage of the unit.
@@ -38,7 +39,12 @@ if (local _vehicle) then {
     } forEach ["commander", "loader"];
 };
 
-if (local _unit && {_vehicle getVariable ["has_camonet_large", false] || {_vehicle getVariable ["has_camonet", false]}}) then {
-    private _camoCoef = _unit getVariable [QGVAR(camouflageCoef), getNumber (configOf _unit >> "camouflage")];
-    _unit setUnitTrait ["camouflageCoef", _camoCoef];
+// Restore the camouflage even if the camonet was removed while the unit was inside
+if (local _unit) then {
+    private _camouflageCoef = _unit getVariable [QGVAR(camouflageCoef), -1];
+
+    if (_camouflageCoef >= 0) then {
+        _unit setUnitTrait ["camouflageCoef", _camouflageCoef];
+        _unit setVariable [QGVAR(camouflageCoef), nil, true];
+    };
 };

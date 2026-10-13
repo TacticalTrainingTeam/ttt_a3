@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /**
  *  Author: Timi007
+ *  Source: PzGrenBtl402 addons/Common/functions/fnc_lockSeat.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted to this repository
  *
  *  Description:
  *      Locks the given turret seat and remembers it on the unit. The seat is unlocked again by ttt_common_fnc_unlockSeat, e.g. when the unit leaves the vehicle.

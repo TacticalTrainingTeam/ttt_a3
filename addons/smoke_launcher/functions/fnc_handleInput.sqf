@@ -1,7 +1,8 @@
 #include "..\script_component.hpp"
 /*
-* Author: Andx
-* Display event handler for key and mouse button presses. Fires the smoke launcher if the pressed input is bound to the "launchCM" action.
+* Author: Timi007
+* Source: PzGrenBtl402 addons/SmokeLauncher/functions/fnc_turretChanged.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), reworked, key handling and display update are event based instead of a per frame handler
+* Display event handler for key and mouse button events. Fires the smoke launcher when the "launchCM" action changes from released to pressed.
 *
 * Arguments:
 * None
@@ -15,14 +16,17 @@
 * Public: No
 */
 
-
-// Input state is only updated after the event, so check it again on the next frame.
-// Firing twice is prevented by the reload time.
+// The input state is only updated after the event, so check it on the next frame.
+// Reacting only to the change from released to pressed ignores key repeat and unrelated keys.
 [{
-    if (inputAction "launchCM" > 0) then {
+    private _pressed = inputAction "launchCM" > 0;
+
+    if (_pressed && {!GVAR(inputHeld)}) then {
         GVAR(lastFireSuccess) = [vehicle ace_player] call FUNC(fireSmoke);
         [] call FUNC(updateDisplay);
     };
+
+    GVAR(inputHeld) = _pressed;
 }] call CBA_fnc_execNextFrame;
 
 false

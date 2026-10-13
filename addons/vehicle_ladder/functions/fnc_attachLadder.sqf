@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /*
 * Author: Mishkar, Timi007
+* Source: PzGrenBtl402 addons/Ladder/functions/fnc_attachLadder.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted, only this ladder is indestructible, cargo is removed via a common event
 * Creates an ACE tactical ladder attached to the vehicle and removes one ladder pack from the vehicle cargo.
 *
 * Arguments:
@@ -33,12 +34,16 @@ for "_i" from (MIN_ALLOWED_STEP + 1) to MAX_STEP do {
 
 _ladder animate ["rotate", 0];
 
+// Only ladders set up by this function are indestructible
+_ladder allowDamage false;
+
 _ladder attachTo [_vehicle, _ladderOffset];
 _ladder setDir _ladderDir;
 
 // MP sync for setDir, see https://community.bistudio.com/wiki/attachTo
 _ladder setPosWorld getPosWorld _ladder;
 
-[_vehicle, "ACE_TacticalLadder_Pack"] call CBA_fnc_removeBackpackCargo;
+// The cargo can only be changed where the vehicle is local
+[QEGVAR(common,removeBackpackCargo), [_vehicle, "ACE_TacticalLadder_Pack"], _vehicle] call CBA_fnc_targetEvent;
 
 _ladder

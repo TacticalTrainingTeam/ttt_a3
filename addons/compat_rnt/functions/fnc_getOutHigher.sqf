@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /**
  *  Author: Timi007
+ *  Source: PzGrenBtl402 addons/Redd_Wiesel_TOW/functions/fnc_getOutCommanderHigher.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), generalized for commander and loader seats, merged with fnc_getOutLoaderHigher.sqf
  *
  *  Description:
  *      Moves the player from the higher seat back into the normal seat of the given seat group (commander or loader) and unlocks it.

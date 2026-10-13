@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /**
- *  Author: Timi007
+ *  Author: Mishkar, Timi007
+ *  Source: PzGrenBtl402 addons/Redd_Marder/functions/fnc_initLadderActions.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted, left and right side share one code path
  *
  *  Description:
  *      Init event handler. Adds the actions to set up and adjust a ladder on the left and right side of the Marder.
@@ -35,7 +36,7 @@ private _ladderIcon = QPATHTOEF(vehicle_ladder,data\ui\holdaction_ladder.paa);
         _ladderIcon,
         _ladderIcon,
         format ["[_target, _this, '%1'] call %2", _side, QFUNC(canAttachLadder)],
-        format ["[_target, _this, '%1'] call %2", _side, QFUNC(canAttachLadder)],
+        format ["[_target, _caller, '%1'] call %2", _side, QFUNC(canAttachLadder)],
         {},
         {},
         {

@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /**
  *  Author: Timi007
+ *  Source: PzGrenBtl402 addons/Redd_Wiesel_MK20/functions/fnc_setCamonet.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), animation sources moved to a lookup table for all supported vehicles
  *
  *  Description:
  *      Sets or removes the camonet of a Redd'n'Tank vehicle. Vehicles without a known camonet are ignored.

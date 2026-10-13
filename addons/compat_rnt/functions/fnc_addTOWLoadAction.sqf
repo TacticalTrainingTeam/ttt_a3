@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /**
- *  Author: Timi007
+ *  Author: Lemonberries
+ *  Source: PzGrenBtl402 addons/Redd_Wiesel_TOW/functions/fnc_addLoadAction.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), renamed
  *
  *  Description:
  *      Adds the hold action to load the TOW to the vehicle (interface only).

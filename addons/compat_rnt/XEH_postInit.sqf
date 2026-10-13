@@ -1,5 +1,6 @@
 #include "script_component.hpp"
 
+// Source: PzGrenBtl402 addons/Redd_Marder/XEH_postInit.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted
 if (hasInterface) then {
     // Marder: the vehicle is locked while the rear ramp is closed. Commander and driver get in through custom actions.
     private _getInCommanderAction = configFile >> "CfgActions" >> "GetInCommander";

@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /*
-* Author: Mishkar, Timi007
+* Author: Rocko, Ruthberg, Timi007
+* Source: PzGrenBtl402 addons/Ladder/functions/fnc_adjustLadder.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted to this repository
 * Starts adjusting the ladder: scroll wheel extends or retracts it, scroll wheel with modifier tilts it and any mouse button confirms.
 *
 * Arguments:

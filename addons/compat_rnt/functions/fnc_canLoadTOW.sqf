@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /**
- *  Author: Timi007
+ *  Author: Lemonberries, Timi007
+ *  Source: PzGrenBtl402 addons/Redd_Wiesel_TOW/functions/fnc_canLoadTOW.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted to this repository
  *
  *  Description:
  *      Checks if the TOW can be loaded: the gunner is in the TOW seat, a Milan tube is in the cargo and the TOW is empty.

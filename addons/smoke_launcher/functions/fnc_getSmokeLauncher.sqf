@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /*
 * Author: Timi007
+* Source: PzGrenBtl402 addons/SmokeLauncher/functions/fnc_getSmokeLauncher.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted, config attribute renamed
 * Gets the smoke launcher muzzle of the given vehicle class from its config (ttt_smoke_launcher_muzzle).
 *
 * Arguments:

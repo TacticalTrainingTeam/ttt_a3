@@ -1,3 +1,4 @@
+// Source: PzGrenBtl402 addons/Redd_Wiesel_MK20/CfgVehicles.hpp (https://github.com/PzGrenBtl-402/PzGrenBtl402), Components section, shared by all supported vehicles
 // Replaces the vehicle systems displays with empty ones to declutter the HUD
 class VehicleSystemsDisplayManagerComponentLeft {
     componentType = "VehicleSystemsDisplayManager";

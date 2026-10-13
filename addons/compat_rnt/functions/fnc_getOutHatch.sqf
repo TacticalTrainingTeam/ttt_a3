@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /**
- *  Author: Timi007
+ *  Author: Mishkar, Timi007
+ *  Source: PzGrenBtl402 addons/Redd_Marder/functions/fnc_getOutHatch.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted, added timeout and validity check
  *
  *  Description:
  *      Lets the unit leave the vehicle through the given hatch and places it next to that hatch.
@@ -23,9 +24,13 @@ params ["_vehicle", "_unit", "_hatch"];
 
 _unit action ["getOut", _vehicle];
 
-// Wait until the unit is out of the vehicle
-[{isNull objectParent (_this select 1)}, {
+// Wait until the unit is out of the vehicle, but not forever
+private _timeout = CBA_missionTime + 5;
+
+[{isNull objectParent (_this select 1) || {CBA_missionTime > (_this select 3)}}, {
     params ["_vehicle", "_unit", "_hatch"];
+
+    if (!alive _unit || {!isNull objectParent _unit} || {isNull _vehicle}) exitWith {};
 
     switch (_hatch) do {
         case "commander": {
@@ -56,4 +61,4 @@ _unit action ["getOut", _vehicle];
         params ["_unit"];
         detach _unit;
     }, [_unit], 0.1] call CBA_fnc_waitAndExecute;
-}, _this] call CBA_fnc_waitUntilAndExecute;
+}, [_vehicle, _unit, _hatch, _timeout]] call CBA_fnc_waitUntilAndExecute;

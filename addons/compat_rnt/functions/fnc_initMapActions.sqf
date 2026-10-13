@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /**
  *  Author: Timi007
+ *  Source: PzGrenBtl402 addons/Redd_Marder/functions/fnc_initMapActions.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), generalized for Marder, Fuchs and Wolf (see also Redd_Fuchs and Redd_Wolf), position comes from the vehicle config
  *
  *  Description:
  *      Adds the Metis Enhanced "place map on vehicle" interaction. Position and orientation are read from the vehicle config (ttt_compat_rnt_mapActionPosition and ttt_compat_rnt_mapActionOrientation), the action is only available while the animation source ttt_compat_rnt_mapActionAnimation has the phase ttt_compat_rnt_mapActionAnimationPhase (if set).

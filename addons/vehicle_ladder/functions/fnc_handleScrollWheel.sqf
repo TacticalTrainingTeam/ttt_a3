@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /*
-* Author: Mishkar, Timi007
+* Author: Rocko, Ruthberg, Timi007
+* Source: PzGrenBtl402 addons/Ladder/functions/fnc_handleScrollWheel.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted, no early exits inside if blocks
 * Mouse wheel handler while adjusting a ladder: extends/retracts it, with modifier key it tilts it.
 *
 * Arguments:

@@ -9,7 +9,7 @@ Erlaubt es, am Fahrzeug eine Leiter aufzustellen und anzupassen, z.B. um aus dem
 3. Direkt danach wird sie angepasst: Mit dem Mausrad ausfahren/einfahren, mit gedrückter Modifikatortaste (Shift/Strg/Alt) kippen und mit der Maustaste fixieren.
 4. Später kann sie über "Leiter anpassen" erneut verändert werden, solange niemand auf der Leiter steht.
 
-Die Leiter ist unzerstörbar.
+Die aufgestellte Leiter ist unzerstörbar und verschwindet mit dem Fahrzeug.
 
 ## Maintainer
 

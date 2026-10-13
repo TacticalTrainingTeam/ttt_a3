@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /**
  *  Author: Timi007
+ *  Source: PzGrenBtl402 addons/Redd_Marder/functions/fnc_getAttachedLadder.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted to this repository
  *
  *  Description:
  *      Gets the ladder stored under the given variable on the vehicle. Forgets the ladder if it was detached from the vehicle in the meantime (e.g. when repositioned with ACE).

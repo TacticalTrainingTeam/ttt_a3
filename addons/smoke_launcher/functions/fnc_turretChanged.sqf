@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /*
-* Author: Timi007, Andx
+* Author: Timi007
+* Source: PzGrenBtl402 addons/SmokeLauncher/functions/fnc_turretChanged.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), reworked, key handling is event based instead of a per frame handler
 * Called when the local player changes turret. For vehicles that allow gunner and commander to fire the smoke launcher it shows the ammo counter and listens for the launch countermeasures input.
 *
 * Arguments:
@@ -26,11 +27,12 @@ if (GVAR(PFH) >= 0) then {
     GVAR(lastAmmoCount) = -1;
     GVAR(lastFireSuccess) = true;
 
-    GVAR(inputEHs) params [["_keyEH", -1], ["_mouseEH", -1]];
     private _mainDisplay = findDisplay IDD_MAIN;
-    _mainDisplay displayRemoveEventHandler ["KeyDown", _keyEH];
-    _mainDisplay displayRemoveEventHandler ["MouseButtonDown", _mouseEH];
+    {
+        _mainDisplay displayRemoveEventHandler [_x, GVAR(inputEHs) select _forEachIndex];
+    } forEach ["KeyDown", "KeyUp", "MouseButtonDown", "MouseButtonUp"];
     GVAR(inputEHs) = [];
+    GVAR(inputHeld) = false;
 
     ([QGVAR(RscDisplay)] call BIS_fnc_rscLayer) cutText ["", "PLAIN"];
 
@@ -55,10 +57,10 @@ GVAR(turret) = _turret;
 GVAR(vehicle) = _vehicle;
 
 private _mainDisplay = findDisplay IDD_MAIN;
-GVAR(inputEHs) = [
-    _mainDisplay displayAddEventHandler ["KeyDown", {call FUNC(handleInput)}],
-    _mainDisplay displayAddEventHandler ["MouseButtonDown", {call FUNC(handleInput)}]
-];
+GVAR(inputHeld) = inputAction "launchCM" > 0;
+GVAR(inputEHs) = ["KeyDown", "KeyUp", "MouseButtonDown", "MouseButtonUp"] apply {
+    _mainDisplay displayAddEventHandler [_x, {call FUNC(handleInput)}]
+};
 
 GVAR(firedEH) = _vehicle addEventHandler ["Fired", {call FUNC(handleFired)}];
 

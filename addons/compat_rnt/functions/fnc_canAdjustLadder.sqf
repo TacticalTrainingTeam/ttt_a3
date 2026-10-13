@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /**
  *  Author: Timi007
+ *  Source: PzGrenBtl402 addons/Redd_Marder/functions/fnc_canAdjustLadder.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted, guards the ACE function
  *
  *  Description:
  *      Checks if the player turned out at the hatch on the given side can adjust the ladder on that side.
@@ -38,4 +39,4 @@ switch (_side) do {
 {isNull EGVAR(vehicle_ladder,ladder)} && // Not already adjusting a ladder
 {(_vehicle turretUnit _turret) isEqualTo _player} &&
 {isTurnedOut _player} &&
-{[_ladder] call ace_tacticalladder_fnc_isLadderEmpty}
+{isNil "ace_tacticalladder_fnc_isLadderEmpty" || {[_ladder] call ace_tacticalladder_fnc_isLadderEmpty}}

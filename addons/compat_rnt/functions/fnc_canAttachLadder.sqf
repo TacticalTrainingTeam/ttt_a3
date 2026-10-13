@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /**
  *  Author: Timi007
+ *  Source: PzGrenBtl402 addons/Redd_Marder/functions/fnc_canAttachLadder.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted to this repository
  *
  *  Description:
  *      Checks if the player turned out at the hatch on the given side can set up a ladder on the Marder: there is no ladder on that side yet and a ladder pack is in the cargo.

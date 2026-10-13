@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /*
-* Author: Andx
+* Author: Timi007
+* Source: PzGrenBtl402 addons/SmokeLauncher/functions/fnc_turretChanged.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), reworked, key handling and display update are event based instead of a per frame handler
 * Fired event handler. Updates the ammo counter after the smoke launcher was fired.
 *
 * Arguments:

@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /*
 * Author: Timi007
+* Source: PzGrenBtl402 addons/SmokeLauncher/functions/fnc_canFireSmoke.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted to this repository
 * Checks if the smoke launcher of the vehicle can be fired: it has ammo, is not reloading and the gunner is alive and conscious.
 *
 * Arguments:

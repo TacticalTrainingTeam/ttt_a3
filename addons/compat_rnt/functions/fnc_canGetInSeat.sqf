@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /**
  *  Author: Timi007
+ *  Source: PzGrenBtl402 addons/Redd_Wiesel_TOW/functions/fnc_canGetInCommander.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), generalized for commander and loader seats, turret paths come from the vehicle config
  *
  *  Description:
  *      Checks if any player is able to get in the given seat (commander or loader) of the vehicle. Does not check if the seats are locked.

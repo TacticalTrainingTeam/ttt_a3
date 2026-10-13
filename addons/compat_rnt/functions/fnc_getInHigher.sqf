@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /**
  *  Author: Timi007
+ *  Source: PzGrenBtl402 addons/Redd_Wiesel_TOW/functions/fnc_getInCommanderHigher.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), generalized for commander and loader seats, merged with fnc_getInLoaderHigher.sqf
  *
  *  Description:
  *      Moves the player into the higher seat of the given seat group (commander or loader) and locks the lower one.

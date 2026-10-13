@@ -1,3 +1,4 @@
+// Source: PzGrenBtl402 addons/BwMod_Leopard/CfgVehicles.hpp (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted, without ACRE racks and smoke launcher specifics of the original
 class Optics_Armored;
 class BWA3_Optics_Commander_Leopard: Optics_Armored {
     class Wide;

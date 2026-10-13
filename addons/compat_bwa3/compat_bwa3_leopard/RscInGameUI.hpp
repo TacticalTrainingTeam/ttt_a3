@@ -1,3 +1,4 @@
+// Source: PzGrenBtl402 addons/BwMod_Leopard/RscInGameUI.hpp (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted
 #define DISABLE_FEATURE h = 0; w = 0
 
 class RscControlsGroup {
