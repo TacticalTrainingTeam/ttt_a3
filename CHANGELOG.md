@@ -22,10 +22,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Compat RNT - Add ladder to Marder (#635) by Andx667
 * Common - Add seat lock events (#635) by Andx667
 * Compat BWA3 - Add Puma config: Warrior optics, smoke launcher for gunner and commander, default HE ammo (#636) by Andx667
+* Compat BWA3 - Add Puma HUD (reduced optics, driver compass, missile direction on radar), MUSS with louder warning, turret rotation and smoke, rear view cameras and vehicle numbers (#PR3) by Andx667
 * Compat BWA3 - Add MK30 AP/HE muzzles, more HE damage, adjusted magazine sizes, 1000 round MG5 belt and better visible P2A1 flares (#636) by Andx667
 
 ### Changed
 
+* Common - Move map action from Compat RNT to Common, `ttt_compat_rnt_showMapAction` is now `ttt_common_showMapAction` (#PR3) by Andx667
 * Compat RNT - Change Marder config: initial zeroing 800 m, unstabilized turrets, no default backpack and toolkit (#636) by Andx667
 * Compat RNT - Remove default backpack and toolkit from Fuchs (#636) by Andx667
 
