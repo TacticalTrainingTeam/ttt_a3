@@ -45,6 +45,8 @@ Kommandant und Ladeschütze können mit den Tasten für Aus- und Einsteigen (Tur
 
 ## Karte ablegen ausblenden
 
+Die Karten-Aktion (Marder, Fuchs, Wolf, Puma) braucht Metis Enhanced ab Version 1.10.2, ohne wird sie nicht angezeigt.
+
 Die Karten-Aktion (Marder, Fuchs, Wolf) lässt sich pro Fahrzeug mit der Variable `ttt_common_showMapAction` ausblenden, z.B. in der Init-Zeile des Fahrzeugs:
 
 ```sqf

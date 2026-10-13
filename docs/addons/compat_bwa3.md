@@ -24,7 +24,7 @@ Ergänzt die `allowFireOnLoad = 1;` Eigenschaft. Siehe <https://ace3.acemod.org/
 - Die Maschinenkanone hat getrennte Munitionsarten AP und HE, die über die Waffenauswahl gewechselt werden (kein Mausrad mehr). HE richtet mehr Schaden an. Die Magazine fassen 240 Schuss HE/ABM bzw. 160 Schuss APFSDS.
 - Das MG hat einen 1000-Schuss-Gurtkasten und lädt ohne Verzögerung nach.
 - Im Eden-Editor ist HE statt ABM als Standardmunition ausgewählt.
-- Mit Metis Enhanced kann eine Karte auf der Heckklappe abgelegt werden (siehe [Compat Redd'n'Tank](compat_rnt.md) zum Ausblenden).
+- Mit Metis Enhanced ab Version 1.10.2 kann eine Karte auf der Heckklappe abgelegt werden (siehe [Compat Redd'n'Tank](compat_rnt.md) zum Ausblenden).
 
 ### MUSS (Selbstschutz-System)
 

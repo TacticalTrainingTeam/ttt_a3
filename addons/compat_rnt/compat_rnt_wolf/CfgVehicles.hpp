@@ -5,7 +5,7 @@ class CfgVehicles {
         EGVAR(common,mapActionPosition)[] = {-0.2051, 1.4929, -0.3325};
         EGVAR(common,mapActionOrientation)[] = {{-1, 0, 0}, {0, 0.1, 1}};
 
-        //maximumLoad = 10000;
+        maximumLoad = 10000;
 
         delete AcreIntercoms;
         delete acre_hasInfantryPhone;

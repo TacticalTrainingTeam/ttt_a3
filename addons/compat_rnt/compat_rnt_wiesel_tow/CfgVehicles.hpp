@@ -18,7 +18,7 @@ class CfgVehicles {
     };
 
     class Redd_Tank_Wiesel_1A2_TOW_base: Tank_F {
-        //maximumLoad = 10000;
+        maximumLoad = 10000;
         disableSoundAttenuation = 0;
         attenuationEffectType = "TankAttenuation";
         driverCompartments = "Compartment1";

@@ -12,7 +12,7 @@ Enthält Funktionen und Assets für die TTT-Mod.
 
 ## Karten-Aktion
 
-`ttt_common_fnc_initMapActions` fügt einem Fahrzeug die Aktion "Karte auf dem Fahrzeug ablegen" hinzu (benötigt Metis Enhanced, ohne wird die Aktion übersprungen). Die Fahrzeuge werden über Config-Attribute angemeldet:
+`ttt_common_fnc_initMapActions` fügt einem Fahrzeug die Aktion "Karte auf dem Fahrzeug ablegen" hinzu (benötigt Metis Enhanced ab Version 1.10.2, ohne wird die Aktion übersprungen). Die Fahrzeuge werden über Config-Attribute angemeldet:
 
 | Attribut | Bedeutung |
 | --- | --- |

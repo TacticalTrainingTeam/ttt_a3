@@ -1,7 +1,7 @@
 class CfgVehicles {
     class Wheeled_APC_F;
     class rnt_sppz_2a2_luchs_Base: Wheeled_APC_F {
-        //maximumLoad = 10000;
+        maximumLoad = 10000;
         disableSoundAttenuation = 0;
         attenuationEffectType = "TankAttenuation";
         driverCompartments = "Compartment1";

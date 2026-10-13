@@ -19,7 +19,7 @@ class CfgVehicles {
         EGVAR(common,mapActionAnimation) = "door3_Source";
         EGVAR(common,mapActionAnimationPhase) = 0;
 
-        //maximumLoad = 10000;
+        maximumLoad = 10000;
         disableSoundAttenuation = 0;
         attenuationEffectType = "TankAttenuation";
         driverCompartments = "Compartment1";

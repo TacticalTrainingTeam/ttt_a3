@@ -6,7 +6,7 @@ Fügt einen neuen Tab (rechts) im Arsenal hinzu, indem alle ACRE Gegenstände ge
 
 ## Dämpfung in Fahrzeugen
 
-`CfgSoundEffects.hpp` definiert `TankAttenuation`, das alle Fahrzeuge der Compat-Addons (`attenuationEffectType`, `soundAttenuationTurret`) verwenden: `acreAttenuation = 1` dämpft die Funk- und Sprachübertragung zwischen Spielern im und außerhalb des Fahrzeugs voll, `acreAttenuationTurnedOut = 0.5` dämpft Besatzungsmitglieder, die ausgestiegen (turned out) sind, nur halb. Ob ACRE den Effekt bereits selbst definiert, wurde nicht geprüft, hier gelten in jedem Fall diese Werte.
+`CfgSoundEffects.hpp` überschreibt die Werte von `TankAttenuation` aus ACRE (`acre_sys_attenuate`, dort `acreAttenuation = 0.6` und `acreAttenuationTurnedOut = 0.3`). Das Addon lädt nach ACRE (`requiredAddons`). Alle Fahrzeuge der Compat-Addons verwenden den Effekt (`attenuationEffectType`, `soundAttenuationTurret`): `acreAttenuation = 1` dämpft die Übertragung zwischen Spielern im und außerhalb des Fahrzeugs voll, `acreAttenuationTurnedOut = 0.5` dämpft Besatzungsmitglieder, die ausgestiegen (turned out) sind, nur halb. Betroffen sind auch alle anderen Fahrzeuge anderer Mods, die `TankAttenuation` nutzen.
 
 ## Herkunft
 

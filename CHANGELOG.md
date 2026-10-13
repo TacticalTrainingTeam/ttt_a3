@@ -20,11 +20,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Compat BWA3 - Add Puma config: Warrior optics, default HE ammo, reduced optics HUD, driver compass and map action (#639) by Andx667
 * Compat BWA3 - Add Puma MUSS with louder warning and turret rotation, rear view cameras, missile direction on the radar and vehicle numbers (#639) by Andx667
 * Compat BWA3 - Add MK30 AP/HE muzzles, more HE damage, adjusted magazine sizes, 1000 round MG5 belt and better visible P2A1 flares (#639) by Andx667
-* Compat ACRE - Add ACRE attenuation values for vehicles (`TankAttenuation`) (#639) by Andx667
 
 ### Changed
 
 * Docs - Fix nav to match addons (#633) by Andx667
+* Compat ACRE - Change ACRE attenuation values of `TankAttenuation` (stronger than the ACRE default) (#639) by Andx667
 * Compat RNT - Change Marder config: initial zeroing 800 m, unstabilized turrets, no default backpack and toolkit (#639) by Andx667
 * Compat RNT - Remove default backpack and toolkit from Fuchs, Wiesel MK20 and TOW (#639) by Andx667
 
