@@ -3,6 +3,7 @@
 ## Allgemein
 
 - Karten-Aktion auf der Motorhaube über Metis Enhanced (`ttt_common_fnc_initMapActions`, angemeldet in `compat_rnt_map`).
+- Ladekapazität des Fahrzeugs auf 10000 gesetzt (`maximumLoad`), damit sich beliebig viel Ausrüstung einladen lässt (das Original hat den Wert auskommentiert).
 
 ## Herkunft
 

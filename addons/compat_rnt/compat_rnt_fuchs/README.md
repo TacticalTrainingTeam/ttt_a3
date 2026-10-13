@@ -3,6 +3,7 @@
 ## Allgemein
 
 - Karten-Aktion auf den hinteren Türen über Metis Enhanced (`ttt_common_fnc_initMapActions`, angemeldet in `compat_rnt_map`). Sie ist nur verfügbar, solange die Tür `door3_Source` den Wert 0 hat.
+- Ladekapazität des Fahrzeugs auf 10000 gesetzt (`maximumLoad`), damit sich beliebig viel Ausrüstung einladen lässt (das Original hat den Wert auskommentiert).
 
 ## Herkunft
 

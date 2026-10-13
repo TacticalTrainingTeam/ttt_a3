@@ -15,11 +15,3 @@ class Extended_PostInit_EventHandlers {
         init = QUOTE(call COMPILE_SCRIPT(XEH_postInit));
     };
 };
-
-class Extended_IncomingMissile_EventHandlers {
-    class BWA3_Puma_base {
-        class GVAR(muss) {
-            incomingMissile = QUOTE(call FUNC(incomingMissile));
-        };
-    };
-};

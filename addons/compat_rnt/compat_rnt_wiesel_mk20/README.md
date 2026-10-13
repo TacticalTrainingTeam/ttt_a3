@@ -6,6 +6,7 @@
 - Tarnnetz wird automatisch angebracht (nur Server, per Init-Event). Die Redd'n'Tank-Aktionen zum Auf- und Abbauen sowie die Flaggen-Aktionen werden entfernt. Besatzungen mit Tarnnetz erhalten einen besseren `camouflageCoef`.
 - Entfernt die Fahrzeug-Systemanzeigen aus dem HUD (`vehicleSystemsDisplay.inc.hpp`).
 - Waffe: `Redd_MK20` mit den Mündungen AP und HE, siehe `compat_rnt`.
+- Ladekapazität des Fahrzeugs auf 10000 gesetzt (`maximumLoad`), damit sich beliebig viel Ausrüstung einladen lässt (das Original hat den Wert auskommentiert).
 
 ## Herkunft
 

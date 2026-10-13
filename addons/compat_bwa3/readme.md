@@ -1,16 +1,16 @@
 # Compat BWmod
 
-Anpassungen für BWmod. Die Fahrzeuge, Waffen und Anzeigen werden in den Unterordnern konfiguriert (`compat_bwa3_leopard`, `compat_bwa3_puma`, `compat_bwa3_weapons`, `compat_bwa3_itc`). Dieser Hauptordner enthält die Konfiguration der übrigen Fahrzeuge (ACRE-Racks, Eagle-Rucksäcke, NH-90, M120) sowie die Skripte, Tastenbelegung und Bilder des Puma.
+Anpassungen für BWmod. Die Fahrzeuge, Waffen und Anzeigen werden in den Unterordnern konfiguriert (`compat_bwa3_leopard`, `compat_bwa3_muss`, `compat_bwa3_puma`, `compat_bwa3_weapons`, `compat_bwa3_itc`). Dieser Hauptordner enthält die Konfiguration der übrigen Fahrzeuge (ACRE-Racks, Eagle-Rucksäcke, NH-90, M120) sowie die Skripte, Tastenbelegung und Bilder des Puma.
 
 ## Aufbau (Puma)
 
 | Ort | Inhalt |
 | --- | --- |
 | `functions/` | `incomingMissile`, `toggleMussMode` (MUSS), `onDrawRadar` (Radar), `toggleCamera`, `rearViewCamCargo`, `setCamera`, `setRearViewCamera` (Kameras), `setVehicleNumber` |
-| `CfgEventHandlers.hpp` | `IncomingMissile`-Event der Puma-Basisklasse (MUSS) |
 | `XEH_preInit.sqf` | Standard-Munition der MK30 (HE statt ABM) für zur Laufzeit erzeugte Fahrzeuge, Notify-Event |
 | `XEH_postInit.sqf` | Tastenbelegung (Kameras und MUSS) |
 | `compat_bwa3_map/` | Init-Event der Karten-Aktion für den Puma. Eigenes Addon, weil es `mts_map` (Metis Enhanced) braucht und ohne dieses allein übersprungen wird |
+| `compat_bwa3_muss/` | `IncomingMissile`-Event der Puma-Basisklasse (MUSS). Eigenes Addon, weil es ACE Hunterkiller braucht und ohne dieses allein übersprungen wird |
 | `RscInGameUI.hpp` | Fahrerkompass, der von Leopard und Puma gemeinsam genutzt wird |
 | `data/` | Bilder der Fahrzeugnummern (`numbers`) und Radar-Symbole (`rsc`) |
 
@@ -37,7 +37,7 @@ Nicht übernommen wurden das Nachladen (Rearm) und die Nebelmittelwurfanlage fü
 ## Abhängigkeiten
 
 - BWmod <https://steamcommunity.com/sharedfiles/filedetails/?id=1200127537>
-- ACE Hunterkiller (für die Turmausrichtung des MUSS)
+- ACE Hunterkiller (für die Turmausrichtung des MUSS), nur für `compat_bwa3_muss`
 - Metis Enhanced (`mts_map`, ab Version 1.10.2) nur für die Karten-Aktion
 
 ## Maintainer

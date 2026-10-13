@@ -16,6 +16,8 @@
  *  Example:
  *      [_this, "red_c3"] call ttt_compat_bwa3_fnc_setVehicleNumber
  *
+ *  Public: Yes
+ *
  */
 
 params [["_vehicle", objNull, [objNull]], ["_number", "", [""]]];

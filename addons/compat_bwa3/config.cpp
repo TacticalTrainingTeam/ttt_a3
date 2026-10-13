@@ -14,7 +14,6 @@ class CfgPatches {
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
         requiredAddons[] = {
             "ttt_common",
-            "ace_hunterkiller",
             "bwa3_common",
             "bwa3_backpacks",
             "bwa3_nh90",

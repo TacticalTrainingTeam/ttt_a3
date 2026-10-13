@@ -112,7 +112,7 @@ class CfgWeapons {
         magazineReloadTime = 0.1;
     };
 
-    // MK20 with AP and HE as separate muzzles, switched via the weapon selection or the toggle key of common
+    // MK20 with AP and HE as separate muzzles, switched via the weapon selection
     class autocannon_35mm;
     class Redd_MK20: autocannon_35mm {
         displayName = CSTRING(mk20Name);

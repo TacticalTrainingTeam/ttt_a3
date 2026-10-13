@@ -19,6 +19,8 @@
  *  Example:
  *      _this call ttt_compat_bwa3_fnc_incomingMissile
  *
+ *  Public: No
+ *
  */
 
 #define GUNNER_TURRET [0]

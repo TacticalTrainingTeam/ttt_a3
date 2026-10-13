@@ -15,6 +15,8 @@
  *  Example:
  *      [] call ttt_compat_bwa3_fnc_toggleMussMode
  *
+ *  Public: No
+ *
  */
 
 private _player = call CBA_fnc_currentUnit;

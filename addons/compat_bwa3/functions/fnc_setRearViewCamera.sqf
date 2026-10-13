@@ -15,6 +15,8 @@
  *  Example:
  *      [cursorTarget] call ttt_compat_bwa3_fnc_setRearViewCamera
  *
+ *  Public: No
+ *
  */
 
 params ["_vehicle"];

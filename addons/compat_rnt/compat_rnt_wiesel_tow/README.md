@@ -7,6 +7,7 @@
 - **TOW nachladen**: Pro Schuss wird ein Milan-Rohr (`Redd_Milan_Static_Barrel`) aus dem Laderaum verbraucht (5 Rohre bei Spawn, `TransportBackpacks`). Der TOW startet geladen (`magazines[]`), das Magazin wird nach dem Schuss entfernt (`fnc_handleTOWFired`). Geladen wird über die Halte-Aktion "TOW laden" (`fnc_loadTOW`): durch den Ladeschützen auf einem seiner Sitze, ist kein Ladeschützen-Sitz besetzt, durch den Kommandanten (auch auf dem TOW-Sitz). Die Regel steht in `fnc_canLoadTOW`.
 - Tarnnetz wird automatisch angebracht, Redd'n'Tank-Aktionen zum Auf- und Abbauen sowie die Flaggen-Aktionen werden entfernt.
 - Entfernt die Fahrzeug-Systemanzeigen aus dem HUD.
+- Ladekapazität des Fahrzeugs auf 10000 gesetzt (`maximumLoad`), damit sich beliebig viel Ausrüstung einladen lässt (das Original hat den Wert auskommentiert).
 
 Die Config-Attribute für die Sitzlogik sind in der README von `compat_rnt` beschrieben. Die Tarnnetz-Animationsquellen stehen in `compat_rnt/XEH_preInit.sqf`.
 

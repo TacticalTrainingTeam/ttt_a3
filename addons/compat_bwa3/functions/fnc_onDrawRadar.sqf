@@ -4,16 +4,19 @@
  *  Source: PzGrenBtl402 addons/BwMod_Puma/functions/fnc_onDrawRadar.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted to this repository
  *
  *  Description:
- *      Description
+ *      Draws the radar (compass, vehicle, turret, observer and missile warning direction) in the top left corner of the vehicle HUD.
+ *      Replaces the draw function of BWA3_RscUnitInfoTank.
  *
  *  Parameter(s):
- *      0: TYPE - Parameter description
+ *      0: CONTROL - Control the draw event belongs to.
  *
  *  Returns:
- *       TYPE - Description
+ *       Nothing.
  *
  *  Example:
  *      _this call ttt_compat_bwa3_fnc_onDrawRadar
+ *
+ *  Public: No
  *
  */
 
@@ -21,7 +24,7 @@ private _unit = player;
 private _vehicle = cameraOn;
 
 // fix loader in optics mode
-if ((_vehicle animationPhase "loaderhatch" > 0) && {isNil {_vehicle turretLocal [0, 1]}} && {_unit isEqualTo (_vehicle turretUnit [0, 1])}) exitWith {};
+if ((_vehicle animationPhase "loaderhatch" > 0) && {_vehicle turretLocal [0, 1]} && {_unit isEqualTo (_vehicle turretUnit [0, 1])}) exitWith {};
 
 params ["_script"];
 private _display = ctrlParent _script;
@@ -98,6 +101,8 @@ if (missionNamespace getVariable ["BWA3_showIncomingMissileWarning", false]) the
         _missileWarnDir ctrlSetText QPATHTOF(data\rsc\Radar_MissileWarning.paa);
         _missileWarnDir ctrlSetAngle [_vehicle getRelDir _missile, 0.5, 0.5];
         _missileWarnDir ctrlSetTextColor [1, 0, 0, 1];
+    } else {
+        _missileWarnDir ctrlSetText "";
     };
 } else {
     _missileWarnDir ctrlSetText "";

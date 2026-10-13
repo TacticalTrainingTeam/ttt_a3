@@ -41,6 +41,10 @@ Kommandant und Ladeschütze können mit den Tasten für Aus- und Einsteigen (Tur
 
 - Mit Metis Enhanced kann eine Karte auf den hinteren Türen des Fuchs bzw. auf der Motorhaube des Wolfs abgelegt werden. Beim Fuchs nur bei geöffneten Türen.
 
+## Ladekapazität
+
+Fuchs, Gepard, Luchs, Wiesel MK20, Wiesel TOW und Wolf haben keine Gewichtsgrenze für eingeladene Ausrüstung.
+
 ## Karte ablegen ausblenden
 
 Die Karten-Aktion (Marder, Fuchs, Wolf, Puma) braucht Metis Enhanced ab Version 1.10.2, ohne wird sie nicht angezeigt.

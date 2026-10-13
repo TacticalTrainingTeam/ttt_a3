@@ -14,6 +14,10 @@ Enthält diverse Verbesserungen und Fixes für Redd'n'Tank Fahrzeuge. Die Fahrze
 | `compat_rnt_map/` | Init-Event der Karten-Aktion für Marder, Fuchs und Wolf. Eigenes Addon, weil es `mts_map` (Metis Enhanced) braucht und ohne dieses allein übersprungen wird |
 | `vehicleSystemsDisplay.inc.hpp` | leere Fahrzeug-Systemanzeigen, wird von Marder, Wiesel MK20 und TOW eingebunden |
 
+## Ladekapazität
+
+Fuchs, Gepard, Luchs, Wiesel MK20, Wiesel TOW und Wolf setzen `maximumLoad` auf 10000. Im Original steht der Wert auskommentiert, hier ist er bewusst aktiv, damit sich Ausrüstung ohne Gewichtsgrenze einladen lässt.
+
 ## Sitze (höher steigen)
 
 Der Kommandant (und beim Wiesel TOW der Ladeschütze) kann mit den Tasten zum Aus- und Einsteigen (`turnOut`/`turnIn`) höher bzw. tiefer steigen. Der normale Sitz ist währenddessen gesperrt (`ttt_common_lockSeat`), damit niemand dort einsteigt. Ein Sitz besteht aus mehreren Turmpfaden (normaler Sitz, höherer Sitz, ggf. weitere Sitze wie der TOW-Sitz), die pro Fahrzeug über Config-Attribute angegeben werden. Die Funktionen sind generisch und kennen keine Fahrzeuge:

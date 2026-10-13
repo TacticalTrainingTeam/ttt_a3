@@ -8,13 +8,15 @@
  *
  *  Parameter(s):
  *      0: OBJECT - Puma.
- *      0: NUMBER - Camera index (0-4) or -1 to disable.
+ *      1: NUMBER - Camera index (0-5) or -1 to disable.
  *
  *  Returns:
- *       Noting.
+ *       Nothing.
  *
  *  Example:
  *      [vehicle player, 0] call ttt_compat_bwa3_fnc_rearViewCamCargo
+ *
+ *  Public: No
  *
  */
 

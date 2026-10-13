@@ -18,9 +18,9 @@ Verbessert Optiken, Anzeigen und Bedienung des Puma. Die Config liegt in diesem 
 
 ## MUSS (Multifunktionales Selbstschutz-System)
 
-- `fnc_incomingMissile` (`Extended_IncomingMissile_EventHandlers`) reagiert auf lenkbare Flugkörper (`irlock`), die näher als 2000 m kommen. Für den Spieler im Fahrzeug spielt ein lauterer Warnton (`CfgSounds.hpp`).
+- `fnc_incomingMissile` (`Extended_IncomingMissile_EventHandlers`, angemeldet in `compat_bwa3_muss`) reagiert auf lenkbare Flugkörper (`irlock`), die näher als 2000 m kommen. Für den Spieler im Fahrzeug spielt ein lauterer Warnton (`CfgSounds.hpp`).
 - Je nach Modus richtet der Richtschützenturm sich auf den Flugkörper aus (`ace_hunterkiller_fnc_slew`) und bricht damit die Zielerfassung. Der Modus wird mit `fnc_toggleMussMode` umgeschaltet (Variable `ttt_compat_bwa3_MussMode` am Fahrzeug, 0 = nur Stören, 1 = mit Turmausrichtung, Standard 1).
-- Die Prüfung läuft pro Flugkörper in einem Handler mit 0,1 s Intervall und endet, sobald der Flugkörper nicht mehr existiert oder näher als 10 m ist.
+- Ohne ACE Hunterkiller entfällt das MUSS vollständig, der Rest der Compat läuft weiter. Die Prüfung läuft pro Flugkörper in einem Handler mit 0,1 s Intervall und endet, sobald der Flugkörper nicht mehr existiert oder näher als 10 m ist.
 
 ## Kameras
 

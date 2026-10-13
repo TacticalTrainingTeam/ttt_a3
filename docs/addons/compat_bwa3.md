@@ -33,6 +33,8 @@ Kommt ein lenkbarer Flugkörper auf den Puma zu (näher als 2 km), ertönt für 
 1. Stören
 2. Stören und Turmausrichtung (Standard)
 
+Das MUSS benötigt ACE Hunterkiller. Ohne dieses entfällt das MUSS, alle anderen Anpassungen funktionieren weiterhin.
+
 ### Kameras
 
 Die Kameras der Passagiere und die Rückfahrkamera des Fahrers werden mit Umschalt+Pos1 (nächste Kamera) und Umschalt+Ende (vorherige Kamera) bedient. Die Tastenbelegung ersetzt die von BWmod.

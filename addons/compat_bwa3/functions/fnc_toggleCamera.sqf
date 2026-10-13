@@ -15,6 +15,8 @@
  *  Example:
  *      [1] call ttt_compat_bwa3_fnc_toggleCamera
  *
+ *  Public: No
+ *
  */
 
 params [["_direction", 1, [0]]];

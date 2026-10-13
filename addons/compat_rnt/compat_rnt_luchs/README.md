@@ -3,6 +3,7 @@
 ## Allgemein
 
 - Kommandant/Ladeschütze kann über die Tastenkombination zum Aussteigen (`turnOut`/`turnIn`) höher bzw. tiefer steigen (UserActions `Bino_in`/`Bino_out` bekommen den Shortcut, die Aktionen selbst kommen von Redd'n'Tank).
+- Ladekapazität des Fahrzeugs auf 10000 gesetzt (`maximumLoad`), damit sich beliebig viel Ausrüstung einladen lässt (das Original hat den Wert auskommentiert).
 
 ## Herkunft
 

@@ -10,14 +10,17 @@
  *      0: OBJECT - The vehicle to attach to the camera.
  *      1: STRING - Memory selection.
  *      2: ARRAY - Viewing direction as relative offset.
- *      3: NUMBER - Field of view.
- *      4: STRING - Path to overlay texture for camera indicator.
+ *      3: ARRAY - Attach offset relative to the memory selection.
+ *      4: NUMBER - Field of view.
+ *      5: STRING - Path to overlay texture for camera indicator.
  *
  *  Returns:
  *       Nothing.
  *
  *  Example:
- *      [cursorTarget, "cameraL", [-2500, 1500, -0.08], 0.5, "z\PzGrenBtl402\addons\BwMod_Puma\data\rsc\Puma_Monitor_9.paa"] call ttt_compat_bwa3_fnc_setCamera
+ *      [cursorTarget, "cameraL", [-2500, 1500, -0.08], [0, 0, 0], 0.5, "z\PzGrenBtl402\addons\BwMod_Puma\data\rsc\Puma_Monitor_9.paa"] call ttt_compat_bwa3_fnc_setCamera
+ *
+ *  Public: No
  *
  */
 
