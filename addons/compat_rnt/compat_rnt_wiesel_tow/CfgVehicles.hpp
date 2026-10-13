@@ -127,16 +127,6 @@ class CfgVehicles {
                     #include "..\vehicleSystemsDisplay.inc.hpp"
                 };
 
-                class OpticsIn {
-                    class Day1 {
-                        visionMode[] = {"Normal"}; // No NVG
-                    };
-
-                    class Day2 {
-                        visionMode[] = {"Normal"}; // No NVG
-                    };
-                };
-
                 class Turrets: Turrets {
                     class CommanderOptic: CommanderOptics {
                         disableSoundAttenuation = 0;

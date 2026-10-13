@@ -2,7 +2,7 @@
 
 Verbessert die Optiken und Anzeigen des Leopard 2.
 
-- Kommandantenoptik nutzt die Warrior-Optik für ein größeres Sichtfeld (ohne Nachtsicht).
+- Kommandantenoptik nutzt die Warrior-Optik für ein größeres Sichtfeld (mit grüner Wärmebilddarstellung).
 - Schalter und Lampen der Kommandantenoptik werden ausgeblendet.
 - Der Fahrer erhält einen horizontalen Kompass.
 - Richtschütze und Kommandant können die Nebelmittelwurfanlage abfeuern (Waffe aus `compat_bwa3_weapons`, Logik im Addon `smoke_launcher`). Die Anlage wandert dafür vom Kommandanten zum Richtschützen.

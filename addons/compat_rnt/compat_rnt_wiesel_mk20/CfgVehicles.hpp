@@ -14,7 +14,6 @@ class CfgVehicles {
         class Turrets {
             class MainTurret: NewTurret {
                 class Turrets {};
-                class ViewOptics;
             };
         };
     };
@@ -108,20 +107,6 @@ class CfgVehicles {
 
                 class Components {
                     #include "..\vehicleSystemsDisplay.inc.hpp"
-                };
-
-                class ViewOptics: ViewOptics {
-                    visionMode[] = {"Normal", "TI"}; // No NVG
-                };
-
-                class OpticsIn {
-                    class Day1 {
-                        visionMode[] = {"Normal"};
-                    };
-
-                    class Day2 {
-                        visionMode[] = {"Normal"};
-                    };
                 };
             };
 

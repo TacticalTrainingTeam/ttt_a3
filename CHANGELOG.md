@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-* Compat BWA3 - Add Leopard optics (Warrior FOV, no NVG) and driver compass (#635) by Andx667
+* Compat BWA3 - Add Leopard optics (Warrior FOV, green TI) and driver compass (#635) by Andx667
 * Compat RNT - Add turn out/in shortcut to Luchs (#635) by Andx667
 * Compat RNT - Add commander higher seat, automatic camonet and reduced HUD to Wiesel MK20 (#635) by Andx667
 * Compat RNT - Add commander/loader higher seats, TOW/MG3 seats, Milan tube TOW reloading, automatic camonet and reduced HUD to Wiesel TOW (#635) by Andx667
