@@ -3,7 +3,7 @@
  *  Author: Timi007
  *
  *  Description:
- *      GetIn event handler for vehicles with commander higher seat and camonet. Resets the higher seat state and adjusts the camouflage of the unit if the vehicle wears a camonet.
+ *      GetIn event handler for vehicles with commander/loader higher seats and camonet. Resets the higher seat state and adjusts the camouflage of the unit if the vehicle wears a camonet.
  *
  *  Parameter(s):
  *      0: OBJECT - Vehicle
@@ -26,9 +26,11 @@ if (!local _unit) exitWith {};
 
 private _config = configOf _vehicle;
 
-if (_turret isEqualTo getArray (_config >> QGVAR(commanderTurret))) then {
-    _vehicle setVariable [getText (_config >> QGVAR(binoVariable)), false, true];
-};
+{
+    if (_turret isEqualTo getArray (_config >> format [QGVAR(%1Turret), _x])) then {
+        _vehicle setVariable [getText (_config >> format [QGVAR(%1BinoVariable), _x]), false, true];
+    };
+} forEach ["commander", "loader"];
 
 if (_vehicle getVariable ["has_camonet_large", false]) then {
     _unit setVariable [QGVAR(camouflageCoef), _unit getUnitTrait "camouflageCoef", true];

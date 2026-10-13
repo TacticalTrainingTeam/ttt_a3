@@ -3,7 +3,7 @@
  *  Author: Timi007
  *
  *  Description:
- *      GetOut event handler for vehicles with commander higher seat and camonet. Unlocks the commander seat and restores the camouflage of the unit.
+ *      GetOut event handler for vehicles with commander/loader higher seats and camonet. Unlocks the seats and restores the camouflage of the unit.
  *
  *  Parameter(s):
  *      0: OBJECT - Vehicle
@@ -24,10 +24,14 @@ params ["_vehicle", "_role", "_unit", "_turret"];
 
 private _config = configOf _vehicle;
 
-if (local _vehicle && {_turret in [getArray (_config >> QGVAR(commanderTurret)), getArray (_config >> QGVAR(commanderHigherTurret))]}) then {
-    [QEGVAR(common,unlockSeat), [_unit]] call CBA_fnc_localEvent;
+if (local _vehicle) then {
+    {
+        if (_turret in getArray (_config >> format [QGVAR(%1Turrets), _x])) then {
+            [QEGVAR(common,unlockSeat), [_unit]] call CBA_fnc_localEvent;
 
-    _vehicle setVariable [getText (_config >> QGVAR(binoVariable)), false, true];
+            _vehicle setVariable [getText (_config >> format [QGVAR(%1BinoVariable), _x]), false, true];
+        };
+    } forEach ["commander", "loader"];
 };
 
 if (local _unit && {_vehicle getVariable ["has_camonet_large", false] || {_vehicle getVariable ["has_camonet", false]}}) then {

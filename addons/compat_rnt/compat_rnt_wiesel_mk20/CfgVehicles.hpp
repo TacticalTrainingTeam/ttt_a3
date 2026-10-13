@@ -26,9 +26,10 @@ class CfgVehicles {
         driverCompartments = "Compartment1";
         //enableGPS = 0;
 
+        EGVAR(compat_rnt,commanderTurrets)[] = {{0}, {1}};
         EGVAR(compat_rnt,commanderTurret)[] = {0};
         EGVAR(compat_rnt,commanderHigherTurret)[] = {1};
-        EGVAR(compat_rnt,binoVariable) = "Redd_wieselMk20_Bino_In";
+        EGVAR(compat_rnt,commanderBinoVariable) = "Redd_wieselMk20_Bino_In";
 
         class TransportBackpacks {delete _xx_B_AssaultPack_rgr;};
         class TransportItems {delete _xx_Toolkit;};
@@ -151,7 +152,7 @@ class CfgVehicles {
                 showWindow = 0;
                 shortcut = "turnOut";
                 condition = QUOTE((alive this) && {this turretUnit COMMANDER_TURRET_PATH isEqualTo ACE_player} && {this animationSourcePhase 'hatchCommander_Source' > 0});
-                statement = QUOTE([ARR_2(this,ACE_player)] call EFUNC(compat_rnt,getInCommanderHigher));
+                statement = QUOTE([ARR_2(this,ACE_player)] call EFUNC(compat_rnt,getInHigher));
             };
 
             class Bino_out {
@@ -163,16 +164,16 @@ class CfgVehicles {
                 showWindow = 0;
                 shortcut = "turnIn";
                 condition = QUOTE((alive this) && {this turretUnit COMMANDER_HIGHER_TURRET_PATH isEqualTo ACE_player});
-                statement = QUOTE([ARR_2(this,ACE_player)] call EFUNC(compat_rnt,getOutCommanderHigher));
+                statement = QUOTE([ARR_2(this,ACE_player)] call EFUNC(compat_rnt,getOutHigher));
             };
 
             class fixTurretBug {
-                displayName = ECSTRING(compat_rnt,fixGetInCommander);
+                displayName = ECSTRING(compat_rnt,fixGetInSeat);
                 position = "actionPoint";
                 radius = 25;
                 onlyforplayer = 1;
                 showWindow = 0;
-                condition = QUOTE((this call EFUNC(compat_rnt,canGetInCommander)) && {this lockedTurret COMMANDER_TURRET_PATH} && {isNull objectParent ACE_player});
+                condition = QUOTE(([ARR_2(this,'commander')] call EFUNC(compat_rnt,canGetInSeat)) && {this lockedTurret COMMANDER_TURRET_PATH} && {isNull objectParent ACE_player});
                 statement = QUOTE(this call EFUNC(compat_rnt,fixGetInBug));
             };
 

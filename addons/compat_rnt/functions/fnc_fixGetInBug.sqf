@@ -3,7 +3,7 @@
  *  Author: Timi007
  *
  *  Description:
- *      Unlocks the commander turret. This is here for emergencies should the normal system not unlock the seat.
+ *      Unlocks the commander and loader turrets if nobody occupies a seat belonging to them. This is here for emergencies should the normal system not unlock the seat.
  *
  *  Parameter(s):
  *      0: OBJECT - Vehicle
@@ -20,11 +20,12 @@
 params ["_vehicle"];
 
 private _config = configOf _vehicle;
-private _commanderTurret = getArray (_config >> QGVAR(commanderTurret));
-private _commanderHigherTurret = getArray (_config >> QGVAR(commanderHigherTurret));
 
-if (isNull (_vehicle turretUnit _commanderHigherTurret)) then {
-    [_vehicle, [_commanderTurret, false]] remoteExecCall ["lockTurret"];
+{
+    private _turret = getArray (_config >> format [QGVAR(%1Turret), _x]);
+    if (_turret isNotEqualTo [] && {_vehicle lockedTurret _turret} && {[_vehicle, _x] call FUNC(canGetInSeat)}) then {
+        [_vehicle, [_turret, false]] remoteExecCall ["lockTurret"];
 
-    _vehicle setVariable [getText (_config >> QGVAR(binoVariable)), false, true];
-};
+        _vehicle setVariable [getText (_config >> format [QGVAR(%1BinoVariable), _x]), false, true];
+    };
+} forEach ["commander", "loader"];
