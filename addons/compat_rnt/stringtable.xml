@@ -13,6 +13,22 @@
             <English>Load TOW</English>
             <German>TOW laden</German>
         </Key>
+        <Key ID="STR_ttt_Compat_Rnt_mk20ApMagazineName">
+            <English>20mm APDS-T</English>
+            <German>20mm APDS-T</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Rnt_mk20ApMagazineNameShort">
+            <English>APDS-T</English>
+            <German>APDS-T</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Rnt_mk20HeMagazineName">
+            <English>20mm HE-T</English>
+            <German>20mm HE-T</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Rnt_mk20HeMagazineNameShort">
+            <English>HE-T</English>
+            <German>HE-T</German>
+        </Key>
         <Key ID="STR_ttt_Compat_Rnt_mk20Name">
             <English>MK20 Rh 202</English>
             <German>MK20 Rh 202</German>
