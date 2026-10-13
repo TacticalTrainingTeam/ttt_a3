@@ -26,9 +26,6 @@ class CfgVehicles {
         cargoCompartments[] = {"Compartment2"};
         //enableGPS = 0;
 
-        class TransportBackpacks {delete _xx_B_AssaultPack_rgr;};
-        class TransportItems {delete _xx_Toolkit;};
-
         class AcreIntercoms {
             class Intercom_1 {
                 displayName = ECSTRING(common,BV);

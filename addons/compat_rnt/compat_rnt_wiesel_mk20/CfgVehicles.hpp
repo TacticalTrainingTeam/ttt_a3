@@ -30,9 +30,6 @@ class CfgVehicles {
         EGVAR(compat_rnt,commanderHigherTurret)[] = {1};
         EGVAR(compat_rnt,commanderBinoVariable) = "Redd_wieselMk20_Bino_In";
 
-        class TransportBackpacks {delete _xx_B_AssaultPack_rgr;};
-        class TransportItems {delete _xx_Toolkit;};
-
         class AcreIntercoms {
             class Intercom_1 {
                 displayName = ECSTRING(common,BV);

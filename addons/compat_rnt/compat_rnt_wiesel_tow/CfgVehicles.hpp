@@ -34,15 +34,12 @@ class CfgVehicles {
         EGVAR(compat_rnt,loaderBinoVariable) = "Redd_WieselTOW_Bino2_In";
 
         class TransportBackpacks {
-            delete _xx_B_AssaultPack_rgr;
-
             // One Milan tube is one TOW shot
             class _xx_milan_Bag {
                 backpack = "Redd_Milan_Static_Barrel";
                 count = 5;
             };
         };
-        class TransportItems {delete _xx_Toolkit;};
 
         class AcreIntercoms {
             class Intercom_1 {

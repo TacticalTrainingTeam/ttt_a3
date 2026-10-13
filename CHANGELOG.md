@@ -24,8 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 * Docs - Fix nav to match addons (#633) by Andx667
-* Compat RNT - Change Marder config: initial zeroing 800 m, unstabilized turrets, no default backpack and toolkit (#639) by Andx667
-* Compat RNT - Remove default backpack and toolkit from Fuchs, Wiesel MK20 and TOW (#639) by Andx667
+* Compat RNT - Change Marder config: initial zeroing 800 m, unstabilized turrets (#639) by Andx667
 
 ## [6.0.1] - 2026-10-06
 

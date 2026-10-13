@@ -6,7 +6,7 @@
 - Der ausgestiegene Kommandant kann auf den TOW-Sitz wechseln, der ausgestiegene Ladeschütze auf den MG3-Sitz (UserActions `TOW_in`/`TOW_aus`, `MG3_in`/`MG3_aus`). Dabei werden die Sitz-Animationen und das TOW-Rohr ein- bzw. ausgeblendet (`fnc_getInTOW` usw. in `compat_rnt`).
 - **TOW nachladen**: Pro Schuss wird ein Milan-Rohr (`Redd_Milan_Static_Barrel`) aus dem Laderaum verbraucht (5 Rohre bei Spawn, `TransportBackpacks`). Der TOW startet geladen (`magazines[]`), das Magazin wird nach dem Schuss entfernt (`fnc_handleTOWFired`). Geladen wird über die Halte-Aktion "TOW laden" (`fnc_loadTOW`): durch den Ladeschützen auf einem seiner Sitze, ist kein Ladeschützen-Sitz besetzt, durch den Kommandanten (auch auf dem TOW-Sitz). Die Regel steht in `fnc_canLoadTOW`.
 - Tarnnetz wird automatisch angebracht, Redd'n'Tank-Aktionen zum Auf- und Abbauen sowie die Flaggen-Aktionen werden entfernt.
-- Entfernt die Fahrzeug-Systemanzeigen aus dem HUD, Standard-Rucksack und Toolkit aus dem Laderaum. Der Turm ist nicht stabilisiert.
+- Entfernt die Fahrzeug-Systemanzeigen aus dem HUD. Der Turm ist nicht stabilisiert.
 
 Die Config-Attribute für die Sitzlogik sind in der README von `compat_rnt` beschrieben. Die Tarnnetz-Animationsquellen stehen in `compat_rnt/XEH_preInit.sqf`.
 
@@ -15,7 +15,7 @@ Die Config-Attribute für die Sitzlogik sind in der README von `compat_rnt` besc
 Teile dieses Addons stammen aus dem Mod PzGrenBtl402 (<https://github.com/PzGrenBtl-402/PzGrenBtl402>, Stand: Commit `e4d9ec8`). Sie wurden mit Erlaubnis eines Maintainers übernommen und für dieses Repository angepasst. Der Mod steht unter der Arma Public License No Derivatives. Die Herkunft jeder Funktion steht im Header der Datei (`Source:`), ganze übernommene Config-Dateien tragen einen entsprechenden Kommentar am Anfang. Im Header steht als Autor der Autor des Originals. Pfade in der Tabelle beziehen sich auf `addons/` im Original.
 
 
-Übernommen aus `addons/Redd_Wiesel_TOW` (Autoren laut Original: Lemonberries, Mishkar, Timi007): Sitze, Sitzwechsel TOW/MG3, TOW-Nachladen, Tarnnetz, HUD und Laderaum. Das Nachladen des TOW stammt ebenfalls aus dem Original, nur die Regel, wer laden darf, wurde geändert (im Original der Schütze auf dem TOW-Sitz).
+Übernommen aus `addons/Redd_Wiesel_TOW` (Autoren laut Original: Lemonberries, Mishkar, Timi007): Sitze, Sitzwechsel TOW/MG3, TOW-Nachladen, Tarnnetz und HUD. Das Nachladen des TOW stammt ebenfalls aus dem Original, nur die Regel, wer laden darf, wurde geändert (im Original der Schütze auf dem TOW-Sitz).
 
 ## ACRE
 

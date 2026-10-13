@@ -23,13 +23,6 @@ class CfgVehicles {
 
         ace_vehicles_engineStartDelay = 5;
 
-        class TransportBackpacks {
-            delete _xx_B_AssaultPack_rgr;
-        };
-        class TransportItems {
-            delete _xx_Toolkit;
-        };
-
 
         EGVAR(compat_rnt,commanderTurrets)[] = {{0, 0}, {1}, {2}};
         EGVAR(compat_rnt,commanderTurret)[] = {0, 0};
