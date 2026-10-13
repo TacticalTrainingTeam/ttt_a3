@@ -1,5 +1,9 @@
 # Compat Redd'n'Tank - Luchs
 
+## Allgemein
+
+- Kommandant/Ladeschütze kann über die Tastenkombination zum Aussteigen (`turnOut`/`turnIn`) höher bzw. tiefer steigen.
+
 ## ACRE
 
 Konfiguriert alle Fahrzeuge mit den gleichen Rack Einstellungen:

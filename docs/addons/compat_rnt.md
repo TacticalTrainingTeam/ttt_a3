@@ -6,6 +6,10 @@ Enthält diverse Verbesserungen und Fixes für Redd'n'Tank Fahrzeuge. Unter ande
 
 Ergänzt die `allowFireOnLoad = 1;` Eigenschaft. Siehe <https://ace3.acemod.org/wiki/framework/crew-served-weapons-framework#3-additional-configuration-parameters>
 
+## Luchs
+
+Kommandant und Ladeschütze können mit den Tasten für Aus- und Einsteigen (Turn Out / Turn In) höher bzw. tiefer steigen.
+
 ## Maintainer
 
 - Andx

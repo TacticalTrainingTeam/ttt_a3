@@ -12,6 +12,12 @@ Sperrt die Plätze 13 und 14 des NH-90, da diese unter dem Hubschrauber sitzen.
 
 Ergänzt die `allowFireOnLoad = 1;` Eigenschaft. Siehe <https://ace3.acemod.org/wiki/framework/crew-served-weapons-framework#3-additional-configuration-parameters>
 
+## Leopard 2
+
+- Die Optik des Kommandanten bietet ein größeres Sichtfeld, hat aber keine Nachtsicht mehr.
+- Schalter und Lampen in der Kommandantenoptik werden ausgeblendet.
+- Der Fahrer erhält einen horizontalen Kompass.
+
 ## ACRE
 
 Konfiguriert alle Fahrzeuge mit den gleichen Rack Einstellungen:
