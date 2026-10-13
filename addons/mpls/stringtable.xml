@@ -69,13 +69,13 @@
             <English>Make Loadout Snapshot</English>
             <German>Ausrüstungs-Snapshot erstellen</German>
         </Key>
-        <Key ID="STR_ttt_Mpls_zenSnapshotRestored">
-            <English>An admin restored your loadout to a saved snapshot.</English>
-            <German>Ein Admin hat deine Ausrüstung auf einen gespeicherten Snapshot zurückgesetzt.</German>
-        </Key>
         <Key ID="STR_ttt_Mpls_zenSnapshotRestoreRequested">
             <English>[MPLS] Restoring loadout snapshot for %1...</English>
             <German>[MPLS] Ausrüstungs-Snapshot von %1 wird wiederhergestellt...</German>
+        </Key>
+        <Key ID="STR_ttt_Mpls_zenSnapshotRestored">
+            <English>An admin restored your loadout to a saved snapshot.</English>
+            <German>Ein Admin hat deine Ausrüstung auf einen gespeicherten Snapshot zurückgesetzt.</German>
         </Key>
         <Key ID="STR_ttt_Mpls_zenSnapshotSaveRequested">
             <English>[MPLS] Saving loadout snapshot for %1...</English>

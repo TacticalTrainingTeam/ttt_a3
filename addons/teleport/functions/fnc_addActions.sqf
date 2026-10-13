@@ -34,7 +34,7 @@ if (hasInterface) then {
         [true, false, true] call ace_spectator_fnc_setSpectator;
 
 
-    	//remove all items so nothing bad can happen
+        //remove all items so nothing bad can happen
         //including things like android so the spectators dont show up on the map
         removeAllWeapons _caller;
         removeAllItems _caller;
