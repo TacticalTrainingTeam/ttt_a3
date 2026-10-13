@@ -1,0 +1,52 @@
+#include "..\script_component.hpp"
+/**
+ *  Author: commy2, Timi007
+ *  Source: PzGrenBtl402 addons/BwMod_Puma/functions/fnc_toggleCamera.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted
+ *
+ *  Description:
+ *      Toggles the cargo cameras or rear view camera.
+ *
+ *  Parameter(s):
+ *      0: NUMBER - 1 for next camera, -1 for previous.
+ *
+ *  Returns:
+ *       BOOL - Handled.
+ *
+ *  Example:
+ *      [1] call ttt_compat_bwa3_fnc_toggleCamera
+ *
+ */
+
+params [["_direction", 1, [0]]];
+
+if (_direction != 1 && _direction != -1) exitWith {false};
+
+private _unit = call CBA_fnc_currentUnit;
+
+private _config = configOf cameraOn;
+if (getNumber (_config >> "BWA3_hasRearViewCamera") == 0 && !isClass (_config >> "BWA3_RearViewCamera")) exitWith {false};
+
+// toggle camera Puma cargo
+if (_unit isNotEqualTo driver objectParent _unit && {objectParent _unit isKindOf "BWA3_Puma_Base"}) then {
+    private _selectedCamera = missionNamespace getVariable [QGVAR(selectedCamera), -1];
+
+    GVAR(selectedCamera) = if (_direction == 1) then {
+        if (_selectedCamera < PUMA_MAX_NUM_CAMERAS) then {(_selectedCamera + 1) max -1} else {-1}
+    } else {
+        if (_selectedCamera >= 0) then {(_selectedCamera - 1) min PUMA_MAX_NUM_CAMERAS} else {PUMA_MAX_NUM_CAMERAS}
+    };
+
+    BWA3_isRearViewCamera = true;
+    [cameraOn, GVAR(selectedCamera)] call FUNC(rearViewCamCargo);
+} else {
+    // toggle camera driver
+    if (missionNamespace getVariable ["BWA3_isRearViewCamera", false]) then {
+        BWA3_isRearViewCamera = false;
+    } else {
+        BWA3_isRearViewCamera = true;
+        [cameraOn] call FUNC(setRearViewCamera);
+        [cameraOn] spawn compileScript ["\bwa3_common\scripts\rearViewCam.sqf"];
+    };
+};
+
+true
