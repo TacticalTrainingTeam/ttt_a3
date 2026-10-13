@@ -23,10 +23,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Common - Add seat lock events (#635) by Andx667
 * Compat BWA3 - Add Puma config: Warrior optics, smoke launcher for gunner and commander, default HE ammo (#636) by Andx667
 * Compat BWA3 - Add Puma HUD (reduced optics, driver compass, missile direction on radar), MUSS with louder warning, turret rotation and smoke, rear view cameras and vehicle numbers (#637) by Andx667
-* Compat RNT - Add ACE CSW belt, proxy weapon and magazine groups to the GMW (#PR4) by Andx667
-* Compat RNT - Add AP/HE muzzles to the Redd MK20 (Marder, Wiesel MK20) (#PR4) by Andx667
-* Compat ACRE - Add ACRE attenuation values for vehicles (`TankAttenuation`) (#PR4) by Andx667
-* Common - Add key to toggle HE/AP of the main gun (#PR4) by Andx667
+* Compat RNT - Add ACE CSW belt, proxy weapon and magazine groups to the GMW (#638) by Andx667
+* Compat RNT - Add AP/HE muzzles to the Redd MK20 (Marder, Wiesel MK20) (#638) by Andx667
+* Compat ACRE - Add ACRE attenuation values for vehicles (`TankAttenuation`) (#638) by Andx667
+* Common - Add key to toggle HE/AP of the main gun (#638) by Andx667
 * Compat BWA3 - Add MK30 AP/HE muzzles, more HE damage, adjusted magazine sizes, 1000 round MG5 belt and better visible P2A1 flares (#636) by Andx667
 
 ### Changed
