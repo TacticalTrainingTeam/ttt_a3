@@ -1,6 +1,6 @@
 // Source: PzGrenBtl402 addons/Redd_Main/CfgWeapons.hpp (https://github.com/PzGrenBtl-402/PzGrenBtl402), MK20 with AP/HE muzzles
 #define MK20_PROPERTIES \
-    displayName = "MK20 Rh 202"; \
+    displayName = CSTRING(mk20Name); \
     multiplier = 1; \
     magazineReloadTime = 0.1; \
     ballisticsComputer = 2; /* Manual zeroing */ \
@@ -115,7 +115,7 @@ class CfgWeapons {
     // MK20 with AP and HE as separate muzzles, switched via the weapon selection or the toggle key of common
     class autocannon_35mm;
     class Redd_MK20: autocannon_35mm {
-        displayName = "MK20 Rh 202";
+        displayName = CSTRING(mk20Name);
         muzzles[] = {
             "AP",
             "HE"
