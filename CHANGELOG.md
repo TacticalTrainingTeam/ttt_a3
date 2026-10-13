@@ -9,8 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-* Compat BWA3 - Add Leopard optics (Warrior FOV, no NVG) and driver compass
-* Compat RNT - Add turn out/in shortcut to Luchs
+* Compat BWA3 - Add Leopard optics (Warrior FOV, no NVG) and driver compass (#634) by Andx667
+* Compat RNT - Add turn out/in shortcut to Luchs (#634) by Andx667
 
 ## [6.0.1] - 2026-10-06
 
