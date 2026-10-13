@@ -35,6 +35,12 @@ class CfgVehicles {
 
         class TransportBackpacks {
             delete _xx_B_AssaultPack_rgr;
+
+            // One Milan tube is one TOW shot
+            class _xx_milan_Bag {
+                backpack = "Redd_Milan_Static_Barrel";
+                count = 5;
+            };
         };
         class TransportItems {delete _xx_Toolkit;};
 
@@ -98,6 +104,7 @@ class CfgVehicles {
         };
 
         class EventHandlers: EventHandlers {
+            fired = QUOTE(call EFUNC(compat_rnt,handleTOWFired));
             getIn = QUOTE(call EFUNC(compat_rnt,handleGetIn));
             getOut = QUOTE(call EFUNC(compat_rnt,handleGetOut));
         };
@@ -114,6 +121,7 @@ class CfgVehicles {
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
                 gunnerCompartments= "Compartment3";
+                magazines[] = {"Redd_TOW_Mag"};
 
                 class Components {
                     #include "..\vehicleSystemsDisplay.inc.hpp"

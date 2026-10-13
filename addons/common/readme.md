@@ -6,6 +6,10 @@ Enthält Funktionen und Assets für die TTT-Mod.
 
 `ttt_common_lockSeat` und `ttt_common_unlockSeat` (CBA-Events, Funktionen `fnc_lockSeat`, `fnc_unlockSeat`) sperren bzw. entsperren einen Turm-Sitz für den Spieler, der sich auf einen Nachbarsitz bewegt hat (z.B. Kommandant, der höher steigt). Der gesperrte Sitz wird am Spieler gespeichert (`ttt_common_lockedSeat`). Er wird automatisch entsperrt, wenn der Spieler aussteigt (`GetOutMan`) oder gelöscht wird (`Deleted`). Genutzt von `compat_rnt`.
 
+## Rucksack aus dem Laderaum entfernen
+
+`ttt_common_removeBackpackCargo` (CBA-Event, Argumente: Fahrzeug, Rucksackklasse) entfernt einen Rucksack aus dem Laderaum auf dem Rechner, auf dem das Fahrzeug lokal ist. Der Laderaum lässt sich nur dort ändern. Genutzt vom TOW-Nachladen in `compat_rnt`.
+
 ## Karten-Aktion
 
 `ttt_common_fnc_initMapActions` fügt einem Fahrzeug die Aktion "Karte auf dem Fahrzeug ablegen" hinzu (benötigt Metis Enhanced, ohne wird die Aktion übersprungen). Die Fahrzeuge werden über Config-Attribute angemeldet:

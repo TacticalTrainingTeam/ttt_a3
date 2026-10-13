@@ -8,6 +8,13 @@ PREP_RECOMPILE_END;
 
 ADDON = true;
 
+// Source: PzGrenBtl402 addons/Redd_Marder/XEH_postInit.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted
+[QGVAR(lock), {(_this select 0) lock (_this select 1)}] call CBA_fnc_addEventHandler;
+
+// Source: PzGrenBtl402 addons/Redd_Wiesel_TOW/XEH_postInit.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted
+[QGVAR(addMagazineTurret), {(_this select 0) addMagazineTurret (_this select 1)}] call CBA_fnc_addEventHandler;
+[QGVAR(removeMagazinesTurret), {(_this select 0) removeMagazinesTurret (_this select 1)}] call CBA_fnc_addEventHandler;
+
 GVAR(seatDataCache) = createHashMap;
 
 // Vehicle classname -> camonet animation sources

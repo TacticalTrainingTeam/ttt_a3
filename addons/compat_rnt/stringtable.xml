@@ -9,6 +9,10 @@
             <English>Fix get in seat</English>
             <German>Sitz freigeben</German>
         </Key>
+        <Key ID="STR_ttt_Compat_Rnt_loadTOW">
+            <English>Load TOW</English>
+            <German>TOW laden</German>
+        </Key>
         <Key ID="STR_ttt_Compat_Rnt_mount">
             <English>Mount MG3</English>
             <German>MG3 lafettieren</German>

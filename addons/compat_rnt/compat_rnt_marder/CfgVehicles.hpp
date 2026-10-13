@@ -202,6 +202,28 @@ class CfgVehicles {
         };
     
         class UserActions {
+            class heckluke_auf {
+                displayName = SUBCSTRING(openRamp);
+                displayNameDefault = SUBCSTRING(openRamp);
+                position = "HecklukePoint";
+                radius = 10;
+                onlyforplayer = 1;
+                showWindow = 0;
+                condition = QUOTE([ARR_3(this,ACE_player,true)] call EFUNC(compat_rnt,canToggleRamp));
+                statement = QUOTE(this call EFUNC(compat_rnt,openRamp));
+            };
+
+            class heckluke_zu {
+                displayName = SUBCSTRING(closeRamp);
+                displayNameDefault = SUBCSTRING(closeRamp);
+                position = "HecklukePoint";
+                radius = 10;
+                onlyforplayer = 1;
+                showWindow = 0;
+                condition = QUOTE([ARR_3(this,ACE_player,false)] call EFUNC(compat_rnt,canToggleRamp));
+                statement = QUOTE(this call EFUNC(compat_rnt,closeRamp));
+            };
+
             class Bino_in {
                 displayName = "$STR_Hoeher_steigen";
                 displayNameDefault = "$STR_Hoeher_steigen";
@@ -224,6 +246,39 @@ class CfgVehicles {
                 shortcut = "turnIn";
                 condition = QUOTE((alive this) && {this turretUnit MARDER_COMMANDER_HIGHER_TURRET_PATH isEqualTo ACE_player});
                 statement = QUOTE([ARR_3(this,ACE_player,'commander')] call EFUNC(compat_rnt,getOutHigher));
+            };
+
+            class GetOutHatchCommander {
+                displayName = SUBCSTRING(getOutHatch);
+                displayNameDefault = "<img image='\A3\ui_f\data\igui\cfg\actions\getout_ca.paa' size='1.8' shadow=2 />";
+                position = "actionsPoint";
+                radius = 10;
+                onlyforplayer = 1;
+                showWindow = 0;
+                priority = 6.2;
+                shortcut = "GetOut";
+                condition = QUOTE([ARR_3(this,ACE_player,'commander')] call EFUNC(compat_rnt,canGetOutHatch));
+                statement = QUOTE([ARR_3(this,ACE_player,'commander')] call EFUNC(compat_rnt,getOutHatch));
+            };
+
+            class GetOutHatchDriver: GetOutHatchCommander {
+                condition = QUOTE([ARR_3(this,ACE_player,'driver')] call EFUNC(compat_rnt,canGetOutHatch));
+                statement = QUOTE([ARR_3(this,ACE_player,'driver')] call EFUNC(compat_rnt,getOutHatch));
+            };
+
+            class GetOutHatchLeft: GetOutHatchCommander {
+                condition = QUOTE([ARR_3(this,ACE_player,'left')] call EFUNC(compat_rnt,canGetOutHatch));
+                statement = QUOTE([ARR_3(this,ACE_player,'left')] call EFUNC(compat_rnt,getOutHatch));
+            };
+
+            class GetOutHatchRight: GetOutHatchCommander {
+                condition = QUOTE([ARR_3(this,ACE_player,'right')] call EFUNC(compat_rnt,canGetOutHatch));
+                statement = QUOTE([ARR_3(this,ACE_player,'right')] call EFUNC(compat_rnt,getOutHatch));
+            };
+
+            class GetOutHatchMiddle: GetOutHatchCommander {
+                condition = QUOTE([ARR_3(this,ACE_player,'middle')] call EFUNC(compat_rnt,canGetOutHatch));
+                statement = QUOTE([ARR_3(this,ACE_player,'middle')] call EFUNC(compat_rnt,getOutHatch));
             };
 
             class MovePassengerOneToHatchLeft {
@@ -255,6 +310,10 @@ class CfgVehicles {
                 statement = QUOTE(this call EFUNC(compat_rnt,fixGetInBug));
             };
 
+            // Replaced by the ramp actions above
+            delete heckluke_auf_2;
+            delete heckluke_zu_2;
+
             // Camonet is set up automatically
             delete Redd_removeflag;
             delete Redd_redFlag;
@@ -267,5 +326,16 @@ class CfgVehicles {
             delete Tarnnetz_Boden_abbauen;
         };
 
+        class Attributes {
+            class EGVAR(compat_rnt,RampAttribute) {
+                displayName = SUBCSTRING(openRamp);
+                tooltip = SUBCSTRING(openRamp3DENTooltip);
+                property = QEGVAR(compat_rnt,RampAttribute);
+                control = "Checkbox";
+                expression = "_this setVariable ['%s', _value];";
+                defaultValue = 0;
+                typeName = "BOOL";
+            };
+        };
     };
 };

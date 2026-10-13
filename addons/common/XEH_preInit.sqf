@@ -17,6 +17,13 @@ PREP_RECOMPILE_END;
 ADDON = true;
 
 // Source: PzGrenBtl402 addons/Common/XEH_postInit.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted
+// Changing the cargo needs a local vehicle
+[QGVAR(removeBackpackCargo), {
+    params ["_vehicle", "_backpackClass"];
+
+    [_vehicle, _backpackClass] call CBA_fnc_removeBackpackCargo;
+}] call CBA_fnc_addEventHandler;
+
 [QGVAR(lockSeat), LINKFUNC(lockSeat)] call CBA_fnc_addEventHandler;
 [QGVAR(unlockSeat), LINKFUNC(unlockSeat)] call CBA_fnc_addEventHandler;
 

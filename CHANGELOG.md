@@ -9,8 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-* Common - Add seat lock events and a generic map action (#639) by Andx667
+* Common - Add seat lock events, a generic map action and an event to remove a backpack from a vehicle cargo (#639) by Andx667
 * Compat RNT - Add higher commander and loader seats, TOW/MG3 seat switching, automatic camonet, reduced HUD and Metis Enhanced map action to Marder, Wiesel MK20 and TOW, Fuchs and Wolf (#639) by Andx667
+* Compat RNT - Add Marder rear ramp: vehicle is locked while the ramp is closed, open/close actions, "open ramp" Eden attribute, and exit through the hatches (#639) by Andx667
+* Compat RNT - Add Wiesel TOW reloading with Milan tubes by the loader, or by the commander if no loader seat is occupied (#639) by Andx667
 * Compat RNT - Add turn out/in shortcut to Luchs (#639) by Andx667
 * Compat RNT - Add AP/HE muzzles to the Redd MK20 (#639) by Andx667
 * Compat RNT - Add ACE CSW belt, proxy weapon and magazine groups to the GMW (#639) by Andx667
