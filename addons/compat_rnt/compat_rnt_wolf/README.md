@@ -2,7 +2,7 @@
 
 ## Allgemein
 
-- Karten-Aktion auf der Motorhaube über Metis Enhanced (`ttt_common_fnc_initMapActions`).
+- Karten-Aktion auf der Motorhaube über Metis Enhanced (`ttt_common_fnc_initMapActions`, angemeldet in `compat_rnt_map`).
 
 ## Herkunft
 

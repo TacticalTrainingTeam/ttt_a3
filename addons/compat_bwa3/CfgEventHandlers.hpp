@@ -16,14 +16,6 @@ class Extended_PostInit_EventHandlers {
     };
 };
 
-class Extended_InitPost_EventHandlers {
-    class BWA3_Puma_base {
-        class GVAR(map) {
-            init = QUOTE(call EFUNC(common,initMapActions));
-        };
-    };
-};
-
 class Extended_IncomingMissile_EventHandlers {
     class BWA3_Puma_base {
         class GVAR(muss) {

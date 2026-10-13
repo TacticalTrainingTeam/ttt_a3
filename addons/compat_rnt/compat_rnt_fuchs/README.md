@@ -2,7 +2,7 @@
 
 ## Allgemein
 
-- Karten-Aktion auf den hinteren Türen über Metis Enhanced (`ttt_common_fnc_initMapActions`). Sie ist nur verfügbar, solange die Tür `door3_Source` den Wert 0 hat.
+- Karten-Aktion auf den hinteren Türen über Metis Enhanced (`ttt_common_fnc_initMapActions`, angemeldet in `compat_rnt_map`). Sie ist nur verfügbar, solange die Tür `door3_Source` den Wert 0 hat.
 - Entfernt Standard-Rucksack und Toolkit aus dem Laderaum.
 
 ## Herkunft

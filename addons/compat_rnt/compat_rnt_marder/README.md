@@ -10,7 +10,7 @@
 
 - Der Kommandant kann mit `turnOut`/`turnIn` höher bzw. tiefer steigen (UserActions `Bino_in`/`Bino_out`, Pfade `{0, 0}`/`{2}`). Der normale Sitz ist währenddessen gesperrt. Zusätzlich werden `Redd_Marder_Commander_Up` und `Redd_Marder_Commander_Winkelspiegel` beim Ein- und Aussteigen zurückgesetzt (`ttt_compat_rnt_commanderResetVariables`). "Sitz freigeben" löst einen hängenden Sitz.
 - Das Tarnnetz wird automatisch angebracht, die Redd'n'Tank-Aktionen zum Auf- und Abbauen sowie die Flaggen-Aktionen werden entfernt.
-- Karten-Aktion auf der Heckklappe über Metis Enhanced (`ttt_common_fnc_initMapActions`, Attribute `ttt_common_mapAction*`). Sie ist nur verfügbar, solange die Heckklappe offen ist (`heck_luke_rotation` = 1) und wird übersprungen, wenn Metis Enhanced fehlt.
+- Karten-Aktion auf der Heckklappe über Metis Enhanced (`ttt_common_fnc_initMapActions`, angemeldet in `compat_rnt_map`, Attribute `ttt_common_mapAction*`). Sie ist nur verfügbar, solange die Heckklappe offen ist (`heck_luke_rotation` = 1) und wird übersprungen, wenn Metis Enhanced fehlt.
 
 ## Heckklappe und Luken
 

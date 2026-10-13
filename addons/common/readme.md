@@ -12,7 +12,7 @@ Enthält Funktionen und Assets für die TTT-Mod.
 
 ## Karten-Aktion
 
-`ttt_common_fnc_initMapActions` fügt einem Fahrzeug die Aktion "Karte auf dem Fahrzeug ablegen" hinzu (benötigt Metis Enhanced ab Version 1.10.2, ohne wird die Aktion übersprungen). Die Fahrzeuge werden über Config-Attribute angemeldet:
+`ttt_common_fnc_initMapActions` fügt einem Fahrzeug die Aktion "Karte auf dem Fahrzeug ablegen" hinzu (benötigt Metis Enhanced ab Version 1.10.2, die Funktion prüft zusätzlich, ob Metis Enhanced geladen ist). Die Fahrzeuge werden über Config-Attribute angemeldet:
 
 | Attribut | Bedeutung |
 | --- | --- |
@@ -21,7 +21,7 @@ Enthält Funktionen und Assets für die TTT-Mod.
 | `ttt_common_mapActionAnimation` | optional: Animationsquelle, die für die Aktion einen bestimmten Wert haben muss |
 | `ttt_common_mapActionAnimationPhase` | Wert dieser Animationsquelle (Standard 0) |
 
-Mit der Variable `ttt_common_showMapAction` (`false`) lässt sich die Aktion pro Fahrzeug ausblenden. Verwendet von `compat_rnt` (Marder, Fuchs, Wolf) und `compat_bwa3` (Puma). Den `init`-Eintrag gibt es als Init-Event der jeweiligen Fahrzeugbasisklasse.
+Mit der Variable `ttt_common_showMapAction` (`false`) lässt sich die Aktion pro Fahrzeug ausblenden. Verwendet von `compat_rnt` (Marder, Fuchs, Wolf) und `compat_bwa3` (Puma). Das Init-Event der Fahrzeugbasisklasse, das die Aktion anmeldet, liegt in den Addons `compat_rnt_map` und `compat_bwa3_map`. Diese benötigen das Addon `mts_map` von Metis Enhanced und werden ohne dieses übersprungen.
 
 ## Herkunft
 

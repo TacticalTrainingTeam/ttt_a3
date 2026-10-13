@@ -7,9 +7,10 @@ Anpassungen für BWmod. Die Fahrzeuge, Waffen und Anzeigen werden in den Unteror
 | Ort | Inhalt |
 | --- | --- |
 | `functions/` | `incomingMissile`, `toggleMussMode` (MUSS), `onDrawRadar` (Radar), `toggleCamera`, `rearViewCamCargo`, `setCamera`, `setRearViewCamera` (Kameras), `setVehicleNumber` |
-| `CfgEventHandlers.hpp` | `IncomingMissile`-Event der Puma-Basisklasse (MUSS) und Karten-Aktion (`ttt_common_fnc_initMapActions`) |
+| `CfgEventHandlers.hpp` | `IncomingMissile`-Event der Puma-Basisklasse (MUSS) |
 | `XEH_preInit.sqf` | Standard-Munition der MK30 (HE statt ABM) für zur Laufzeit erzeugte Fahrzeuge, Notify-Event |
 | `XEH_postInit.sqf` | Tastenbelegung (Kameras und MUSS) |
+| `compat_bwa3_map/` | Init-Event der Karten-Aktion für den Puma. Eigenes Addon, weil es `mts_map` (Metis Enhanced) braucht und ohne dieses allein übersprungen wird |
 | `RscInGameUI.hpp` | Fahrerkompass, der von Leopard und Puma gemeinsam genutzt wird |
 | `data/` | Bilder der Fahrzeugnummern (`numbers`) und Radar-Symbole (`rsc`) |
 
@@ -37,6 +38,7 @@ Nicht übernommen wurden das Nachladen (Rearm) und die Nebelmittelwurfanlage fü
 
 - BWmod <https://steamcommunity.com/sharedfiles/filedetails/?id=1200127537>
 - ACE Hunterkiller (für die Turmausrichtung des MUSS)
+- Metis Enhanced (`mts_map`, ab Version 1.10.2) nur für die Karten-Aktion
 
 ## Maintainer
 

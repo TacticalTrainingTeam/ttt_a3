@@ -7,10 +7,11 @@ Enthält diverse Verbesserungen und Fixes für Redd'n'Tank Fahrzeuge. Die Fahrze
 | Ort | Inhalt |
 | --- | --- |
 | `functions/` | Sitzlogik (`getSeatData`, `resetSeatState`, `canGetInSeat`, `getInHigher`, `getOutHigher`, `fixGetInBug`, `handleGetIn`, `handleGetOut`), Tarnnetz (`setCamonet`), Marder-Heckklappe und -Luken (`canToggleRamp`, `openRamp`, `closeRamp`, `initRampActions`, `canGetOutHatch`, `getOutHatch`), Wiesel TOW (Sitzwechsel, Nachladen: `canLoadTOW`, `loadTOW`, `handleTOWFired`, `addTOWLoadAction`), MG3-Lafette und M120 |
-| `CfgEventhandlers.hpp` | Init-Events der Fahrzeugbasisklassen (Tarnnetz nur auf dem Server, Karten-Aktion, Heckklappe des Marders, TOW-Nachladen) und das PostInit der Marder-Einstiegsaktionen |
+| `CfgEventhandlers.hpp` | Init-Events der Fahrzeugbasisklassen (Tarnnetz nur auf dem Server, Heckklappe des Marders, TOW-Nachladen) und das PostInit der Marder-Einstiegsaktionen |
 | `XEH_preInit.sqf` | Zwischenspeicher für die Sitzdaten, Tabelle Fahrzeug -> Tarnnetz-Animationsquellen und die Events zum Sperren des Marders und zum Ändern der TOW-Magazine |
 | `XEH_postInit.sqf` | Einsteigen-Aktionen von Kommandant und Fahrer des Marders (ersetzen die Standardaktionen, solange die Heckklappe geschlossen ist) |
 | `CfgWeapons.hpp` | Waffenanpassungen (MK20, Milan, MG3) |
+| `compat_rnt_map/` | Init-Event der Karten-Aktion für Marder, Fuchs und Wolf. Eigenes Addon, weil es `mts_map` (Metis Enhanced) braucht und ohne dieses allein übersprungen wird |
 | `vehicleSystemsDisplay.inc.hpp` | leere Fahrzeug-Systemanzeigen, wird von Marder, Wiesel MK20 und TOW eingebunden |
 
 ## Sitze (höher steigen)
@@ -79,6 +80,7 @@ Nicht übernommen wurden u.a. die Leiter, die Nebelmittelwurfanlage, das Nachlad
 
 - Redd'n'Tank Vehicles <https://steamcommunity.com/sharedfiles/filedetails/?id=1128145626>
 - `ttt_common` (Sitz sperren, Karten-Aktion)
+- Metis Enhanced (`mts_map`, ab Version 1.10.2) nur für die Karten-Aktion
 
 ## Maintainer
 

@@ -32,7 +32,7 @@ Das Eden-Attribut "Symbol: Fahrzeugnummer" (`ttt_compat_bwa3_vehicleNumber`) set
 
 ## Karten-Aktion
 
-Mit Metis Enhanced kann eine Karte auf der Heckklappe abgelegt werden (`ttt_common_fnc_initMapActions`, Position in den Config-Attributen `ttt_common_mapAction*`).
+Mit Metis Enhanced kann eine Karte auf der Heckklappe abgelegt werden (`ttt_common_fnc_initMapActions`, angemeldet in `compat_bwa3_map`, Position in den Config-Attributen `ttt_common_mapAction*`).
 
 ## Herkunft
 
