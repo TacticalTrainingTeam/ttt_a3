@@ -29,7 +29,7 @@ this setVariable ["ttt_compat_rnt_showMapAction", false, true];
 
 - Der Kommandant kann mit den Tasten für Aus- und Einsteigen (Turn Out / Turn In) höher bzw. tiefer steigen. Hängt der Sitz fest, hilft die Aktion "Sitz freigeben".
 - Das Tarnnetz wird automatisch angebracht. Besatzungen sind dadurch schwerer zu entdecken.
-- Das HUD ist aufgeräumt (keine Fahrzeug-Systemanzeigen, keine Nachtsicht in den Optiken).
+- Das HUD ist aufgeräumt (keine Fahrzeug-Systemanzeigen).
 
 ## Wiesel TOW
 

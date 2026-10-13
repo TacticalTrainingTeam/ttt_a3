@@ -1,7 +1,7 @@
 // Source: PzGrenBtl402 addons/BwMod_Leopard/CfgVehicles.hpp (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted, without ACRE racks and smoke launcher specifics of the original
-// Vanilla Warrior optics for a wider field of view, without NVG
+// Vanilla Warrior optics for a wider field of view, green thermal imaging
 #define WARRIOR_OPTICS_MODEL QUOTE(\A3\Weapons_F\Reticle\Optics_Gunner_APC_02_w_F.p3d)
-#define WARRIOR_OPTICS gunnerOpticsModel = WARRIOR_OPTICS_MODEL; visionMode[] = {"Normal", "TI"}; thermalMode[] = {2, 3}
+#define WARRIOR_OPTICS gunnerOpticsModel = WARRIOR_OPTICS_MODEL; thermalMode[] = {2, 3}
 
 class Optics_Armored;
 class BWA3_Optics_Commander_Leopard: Optics_Armored {
