@@ -5,6 +5,10 @@
             <English>Disassemble MG3 Tripod</English>
             <German>MG3-Lafette demontieren</German>
         </Key>
+        <Key ID="STR_ttt_Compat_Rnt_fixGetInCommander">
+            <English>Fix get in commander seat</English>
+            <German>Kommandantensitz freigeben</German>
+        </Key>
         <Key ID="STR_ttt_Compat_Rnt_mount">
             <English>Mount MG3</English>
             <German>MG3 lafettieren</German>

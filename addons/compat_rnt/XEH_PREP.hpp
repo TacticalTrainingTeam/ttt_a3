@@ -1,6 +1,13 @@
 PREP(canAdjustHeight);
+PREP(canGetInCommander);
 PREP(canMountMG);
 PREP(disassembleMG);
+PREP(fixGetInBug);
+PREP(getInCommanderHigher);
+PREP(getOutCommanderHigher);
+PREP(handleGetIn);
+PREP(handleGetOut);
 PREP(m120handleFired);
 PREP(mountMG);
 PREP(pickUpMGTripod);
+PREP(setCamonet);

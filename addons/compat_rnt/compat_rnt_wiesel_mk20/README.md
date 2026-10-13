@@ -1,5 +1,17 @@
 # Compat Redd'n'Tank - Wiesel MK20
 
+## Allgemein
+
+- Kommandant kann mit der Tastenkombination zum Aussteigen (`turnOut`/`turnIn`) höher bzw. tiefer steigen. Der normale Kommandantensitz ist währenddessen gesperrt (`ttt_common_fnc_lockSeat`). Hängt der Sitz nach einem Fehler fest, gibt die Aktion "Kommandantensitz freigeben" ihn wieder frei.
+- Tarnnetz wird automatisch angebracht (nur Server, per Init-Event). Die Redd'n'Tank-Aktionen zum Auf- und Abbauen sowie die Flaggen-Aktionen werden entfernt. Besatzungen mit Tarnnetz erhalten einen besseren `camouflageCoef`.
+- Entfernt die Fahrzeug-Systemanzeigen aus dem HUD und die Nachtsicht aus Gunner-Optiken.
+
+Die Logik liegt generisch in `compat_rnt` (`fnc_getInCommanderHigher` usw.) und wird über die Config-Attribute `ttt_compat_rnt_commanderTurret`, `ttt_compat_rnt_commanderHigherTurret` und `ttt_compat_rnt_binoVariable` des Fahrzeugs gesteuert. Die Tarnnetz-Animationsquellen stehen in `compat_rnt/XEH_preInit.sqf`.
+
+## Quellen
+
+- <https://github.com/PzGrenBtl-402/PzGrenBtl402/tree/master/addons/Redd_Wiesel_MK20>
+
 ## ACRE
 
 Konfiguriert alle Fahrzeuge mit den gleichen Rack Einstellungen:

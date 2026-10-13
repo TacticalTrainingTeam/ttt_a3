@@ -6,6 +6,8 @@ PREP(createPlayerMarker);
 PREP(doFlakFire);
 PREP(getAllItems);
 PREP(join);
+PREP(lockSeat);
 PREP(noApiFunction);
 PREP(setAISkill);
 PREP(setAISkillLevel);
+PREP(unlockSeat);
