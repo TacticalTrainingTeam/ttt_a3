@@ -1,11 +1,11 @@
 #include "..\script_component.hpp"
 /*
 * Author: EinStein, Andx
+* Cancels an in-progress dismantle: shows an abort hint and resets the
+* caller's animation.
 *
 * Arguments:
-* 0: Facility or Player <OBJECT>
-* 1: Player <OBJECT>
-* 2: Arguments <ARRAY>
+* 0: Caller <OBJECT>
 *
 * Return Value:
 * None
