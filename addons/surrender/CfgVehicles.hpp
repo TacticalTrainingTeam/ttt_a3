@@ -61,16 +61,16 @@ class CfgVehicles {
                 tooltip = CSTRING(SurrenderChance_tooltip);
                 property = QGVAR(SurrenderChance);
                 typeName = "NUMBER";
-                defaultValue = "0.5";
+                defaultValue = 50;
                 control = "Combo";
 
                 class Values {
-                    class _01 {name = "0.1"; value = 0.1;};
-                    class _03 {name = "0.3"; value = 0.3;};
-                    class _05 {name = "0.5"; value = 0.5;};
-                    class _07 {name = "0.7"; value = 0.7;};
-                    class _09 {name = "0.9"; value = 0.9;};
-                    class _10 {name = "1.0"; value = 1.0;};
+                    class _01 {name = "10%"; value = 10;};
+                    class _03 {name = "30%"; value = 30;};
+                    class _05 {name = "50%"; value = 50;};
+                    class _07 {name = "70%"; value = 70;};
+                    class _09 {name = "90%"; value = 90;};
+                    class _10 {name = "100%"; value = 100;};
                 };
             };
 

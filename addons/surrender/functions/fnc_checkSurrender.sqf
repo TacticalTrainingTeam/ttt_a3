@@ -35,7 +35,11 @@ if (!_activated) exitWith {
 
 private _enemySideClass = _logic getVariable [QGVAR(EnemySide), 2];
 private _friendlySideClass = _logic getVariable [QGVAR(FriendlySide), 1];
-private _chance = _logic getVariable [QGVAR(SurrenderChance), 0.5];
+// Module stores whole percent (Eden Combo fails to preselect float values); values <= 1 are legacy fractions from older missions
+private _chance = _logic getVariable [QGVAR(SurrenderChance), 50];
+if (_chance > 1) then {
+    _chance = _chance / 100;
+};
 private _ratio = _logic getVariable [QGVAR(OutnumberRatio), 2];
 private _rawArea = triggerArea _logic;
 private _area = if (_rawArea isEqualTo []) then {[100, 100, 0, false, -1]} else {_rawArea + [-1]};
