@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 * Surrender - Fix DropWeapon module value causing Number/Bool type error (#632) by Andx667
+### Changed
+
+* Docs - Fix nav to match addons (#633) by Andx667
 
 ## [6.0.1] - 2026-10-06
 
