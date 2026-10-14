@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+* UAV Link - Fix `isNull` type error spamming the RPT when stopping tracking by Andx667
+
 ## [6.0.1] - 2026-10-06
 
 ### Fixed
