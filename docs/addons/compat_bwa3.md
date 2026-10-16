@@ -18,6 +18,29 @@ Ergänzt die `allowFireOnLoad = 1;` Eigenschaft. Siehe <https://ace3.acemod.org/
 - Schalter und Lampen in der Kommandantenoptik werden ausgeblendet.
 - Der Fahrer erhält einen horizontalen Kompass.
 
+## Puma
+
+- Die Optiken von Richtschütze und Kommandant bieten ein größeres Sichtfeld. Datum und weitere Anzeigen in den Optiken sind ausgeblendet, der Fahrer hat einen horizontalen Kompass.
+- Im Eden-Editor ist HE statt ABM als Standardmunition ausgewählt.
+- Mit Metis Enhanced ab Version 1.10.2 kann eine Karte auf der Heckklappe abgelegt werden (siehe [Compat Redd'n'Tank](compat_rnt.md) zum Ausblenden).
+
+### MUSS (Selbstschutz-System)
+
+Kommt ein lenkbarer Flugkörper auf den Puma zu (näher als 2 km), ertönt für die Besatzung ein lauterer Warnton, und das Radar oben links zeigt die Richtung des Flugkörpers. Je nach Modus richtet das MUSS außerdem den Turm auf den Flugkörper aus, um die Zielerfassung zu brechen. Richtschütze und Kommandant schalten den Modus mit der Taste "MUSS Modus umschalten" (Standard: Einfügen, Kategorie "BWMod Puma") um:
+
+1. Stören
+2. Stören und Turmausrichtung (Standard)
+
+Das MUSS benötigt ACE Hunterkiller. Ohne dieses entfällt das MUSS, alle anderen Anpassungen funktionieren weiterhin.
+
+### Kameras
+
+Die Kameras der Passagiere und die Rückfahrkamera des Fahrers werden mit Umschalt+Pos1 (nächste Kamera) und Umschalt+Ende (vorherige Kamera) bedient. Die Tastenbelegung ersetzt die von BWmod.
+
+### Fahrzeugnummer
+
+Im Eden-Editor kann in den Attributen des Pumas unter "Symbol: Fahrzeugnummer" eine rote Nummer (2.0, A bis C3) gewählt werden, die seitlich am Fahrzeug erscheint.
+
 ## ACRE
 
 Konfiguriert alle Fahrzeuge mit den gleichen Rack Einstellungen:
