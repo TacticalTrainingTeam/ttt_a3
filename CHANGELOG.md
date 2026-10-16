@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+* Compat BWA3 - Add Leopard commander optics (Warrior FOV, green TI), reduced optics HUD and driver compass (#647) by Andx667
+
 ### Fixed
 
 * Surrender - Fix DropWeapon module value causing Number/Bool type error (#632) by Andx667
