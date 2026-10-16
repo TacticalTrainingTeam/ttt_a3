@@ -37,6 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Effects - Change storm to send one setSkill event per AI unit (#667) by Andx667
 * General - Fix hemtt warnings (#665) by Andx667
 * Compat BWA3 - Add Leopard commander optics (Warrior FOV, green TI), reduced optics HUD and driver compass (#TBD) by Andx667
+* Compat BWA3 - Add Leopard commander optics (Warrior FOV, green TI), reduced optics HUD and driver compass (#647) by Andx667
 
 ### Fixed
 
