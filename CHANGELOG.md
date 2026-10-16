@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-* Compat BWA3 - Add Leopard commander optics (Warrior FOV, green TI), reduced optics HUD and driver compass (#TBD) by Andx667
+* Compat BWA3 - Add Leopard commander optics (Warrior FOV, green TI), reduced optics HUD and driver compass (#647) by Andx667
 
 ### Fixed
 
