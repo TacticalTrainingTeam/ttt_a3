@@ -1,7 +1,7 @@
 class CfgVehicles {
     class Tank_F;
     class Redd_Tank_Gepard_1A2_base: Tank_F {
-        //maximumLoad = 10000;
+        maximumLoad = 10000;
         disableSoundAttenuation = 0;
         attenuationEffectType = "TankAttenuation";
         driverCompartments = "Compartment1";
