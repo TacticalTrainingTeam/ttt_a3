@@ -6,12 +6,13 @@ Enthält diverse Verbesserungen und Fixes für Redd'n'Tank Fahrzeuge. Die Fahrze
 
 | Ort | Inhalt |
 | --- | --- |
-| `functions/` | Sitzlogik (`getSeatData`, `resetSeatState`, `canGetInSeat`, `getInHigher`, `getOutHigher`, `fixGetInBug`, `handleGetIn`, `handleGetOut`), Tarnnetz (`setCamonet`), Wiesel TOW (Sitzwechsel, Nachladen: `canLoadTOW`, `loadTOW`, `handleTOWFired`, `addTOWLoadAction`), MG3-Lafette und M120 |
-| `CfgEventhandlers.hpp` | Init-Events der Fahrzeugbasisklassen (Tarnnetz nur auf dem Server, TOW-Nachladen) |
-| `XEH_preInit.sqf` | Zwischenspeicher für die Sitzdaten, Tabelle Fahrzeug -> Tarnnetz-Animationsquellen und die Events zum Ändern der TOW-Magazine |
+| `functions/` | Sitzlogik (`getSeatData`, `resetSeatState`, `canGetInSeat`, `getInHigher`, `getOutHigher`, `fixGetInBug`, `handleGetIn`, `handleGetOut`), Tarnnetz (`setCamonet`), Marder-Heckklappe und -Luken (`canToggleRamp`, `openRamp`, `closeRamp`, `initRampActions`, `canGetOutHatch`, `getOutHatch`), Wiesel TOW (Sitzwechsel, Nachladen: `canLoadTOW`, `loadTOW`, `handleTOWFired`, `addTOWLoadAction`), MG3-Lafette und M120 |
+| `CfgEventhandlers.hpp` | Init-Events der Fahrzeugbasisklassen (Tarnnetz nur auf dem Server, Heckklappe des Marders, TOW-Nachladen) und das PostInit der Marder-Einstiegsaktionen |
+| `XEH_preInit.sqf` | Zwischenspeicher für die Sitzdaten, Tabelle Fahrzeug -> Tarnnetz-Animationsquellen und die Events zum Sperren des Marders und zum Ändern der TOW-Magazine |
+| `XEH_postInit.sqf` | Einsteigen-Aktionen von Kommandant und Fahrer des Marders (ersetzen die Standardaktionen, solange die Heckklappe geschlossen ist) |
 | `CfgWeapons.hpp` | Waffenanpassungen (MK20, Milan, MG3) |
 | `compat_rnt_map/` | Init-Event der Karten-Aktion für Marder, Fuchs und Wolf. Eigenes Addon, weil es `mts_map` (Metis Enhanced) braucht und ohne dieses allein übersprungen wird |
-| `vehicleSystemsDisplay.inc.hpp` | leere Fahrzeug-Systemanzeigen, wird von Wiesel MK20 und TOW eingebunden |
+| `vehicleSystemsDisplay.inc.hpp` | leere Fahrzeug-Systemanzeigen, wird von Marder, Wiesel MK20 und TOW eingebunden |
 
 ## Ladekapazität
 
@@ -34,6 +35,10 @@ Die Sitzdaten werden beim ersten Zugriff pro Fahrzeugklasse gelesen und zwischen
 ## Tarnnetz
 
 `fnc_setCamonet` bringt das Tarnnetz an (`animateSource` der Netz-Animationen) und setzt `has_camonet` am Fahrzeug. Das passiert für alle Varianten (Flecktarn, Tropentarn, Wintertarn) der Fahrzeuge in `GVAR(camonetSources)` (`XEH_preInit.sqf`) im Init-Event auf dem Server. Die Redd'n'Tank-Aktionen zum Auf- und Abbauen und die Flaggen-Aktionen werden in den Fahrzeugen entfernt. Besatzungen unter einem Tarnnetz erhalten einen besseren `camouflageCoef` (`fnc_handleGetIn`, `fnc_handleGetOut` stellen den ursprünglichen Wert wieder her, auch wenn das Netz zwischendurch entfernt wurde).
+
+## Marder: Heckklappe und Luken
+
+Der Marder ist gesperrt (`lock 2`), solange die Heckklappe geschlossen ist. Fahrer und Kommandant steigen über eigene Aktionen ein (`XEH_postInit.sqf`, `GVAR(getInParams)`), die den normalen Einsteigen-Aktionen nachempfunden sind und die Sitze direkt belegen. Die Klappe öffnet sich über die Aktionen `heckluke_auf`/`heckluke_zu` (Bedingung `fnc_canToggleRamp`: Fahrer, Richtschütze oder der mittlere Lukenplatz); beim Öffnen wird der Marder entsperrt (`fnc_openRamp`, Event `ttt_compat_rnt_lock`, das lokal beim Fahrzeug läuft). Das 3DEN-Attribut "Heckklappe öffnen" (`ttt_compat_rnt_RampAttribute`) lässt die Klappe beim Spawnen offen (`fnc_initRampActions`). Die Aktionen `heckluke_auf_2`/`heckluke_zu_2` von Redd'n'Tank werden entfernt. Wer an einem Lukenplatz ausgestiegen ist (`isTurnedOut`), kann per Aktion neben der Luke aus dem Fahrzeug steigen (`fnc_canGetOutHatch`, `fnc_getOutHatch`); der Handler wartet dafür höchstens 5 Sekunden auf das Aussteigen.
 
 ## Wiesel TOW: Nachladen
 
@@ -65,9 +70,13 @@ Teile dieses Addons stammen aus dem Mod PzGrenBtl402 (<https://github.com/PzGren
 | `functions/fnc_canGetInTOW.sqf` u.a. (TOW/MG3-Sitzwechsel) | `Redd_Wiesel_TOW/functions/` gleichnamig | angepasst |
 | `functions/fnc_canLoadTOW.sqf` | `Redd_Wiesel_TOW/functions/fnc_canLoadTOW.sqf` | Regel geändert: Ladeschütze lädt, ohne besetzten Ladeschützen-Sitz der Kommandant |
 | `functions/fnc_loadTOW.sqf`, `fnc_handleTOWFired.sqf`, `fnc_addTOWLoadAction.sqf` (im Original `fnc_addLoadAction.sqf`) | `Redd_Wiesel_TOW/functions/` gleichnamig | Rohr wird über ein Common-Event entfernt |
+| `functions/fnc_canToggleRamp.sqf` | `Redd_Marder/functions/fnc_canOpenRamp.sqf`, `fnc_canCloseRamp.sqf` | zusammengeführt |
+| `functions/fnc_openRamp.sqf`, `fnc_closeRamp.sqf`, `fnc_initRampActions.sqf` | `Redd_Marder/functions/` gleichnamig | angepasst |
+| `functions/fnc_canGetOutHatch.sqf`, `fnc_getOutHatch.sqf` | `Redd_Marder/functions/` gleichnamig | `getOutHatch` mit Zeitlimit und Gültigkeitsprüfung |
+| `XEH_postInit.sqf` | `Redd_Marder/XEH_postInit.sqf` | Einsteigen-Aktionen von Kommandant und Fahrer |
 | `CfgWeapons.hpp` (MK20) | `Redd_Main/CfgWeapons.hpp` | MK20 und MK20FL |
 | `vehicleSystemsDisplay.inc.hpp` | `Redd_Wiesel_MK20/CfgVehicles.hpp` (Abschnitt `Components`) | als gemeinsame Include-Datei |
-| `compat_rnt_*/CfgVehicles.hpp` | `Redd_Wiesel_MK20`, `Redd_Wiesel_TOW` | siehe README der Fahrzeuge |
+| `compat_rnt_*/CfgVehicles.hpp` | `Redd_Wiesel_MK20`, `Redd_Wiesel_TOW`, `Redd_Marder` | siehe README der Fahrzeuge |
 
 Nicht übernommen wurden u.a. die Leiter, die Nebelmittelwurfanlage, das Nachladen (Rearm), das Milan-System und die NiArms-Anpassungen.
 
