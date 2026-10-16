@@ -17,7 +17,7 @@ class CfgMagazines {
 
     class BWA3_1200Rnd_762x51;
     class GVAR(1000Rnd_762x51): BWA3_1200Rnd_762x51 {
-        displayName = CSTRING(MG5_BeltDisplayName);
+        displayName = CSTRING(Weapons_MG5_BeltDisplayName);
         count = 1000;
         mass = 167;
     };
