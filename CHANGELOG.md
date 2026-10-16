@@ -9,12 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-* Common - Add seat lock events, a generic map action and an event to remove a backpack from a vehicle cargo (#TBD) by Andx667
-* Compat RNT - Add higher commander and loader seats, TOW/MG3 seat switching, automatic camonet and reduced HUD to Wiesel MK20 and TOW (#TBD) by Andx667
-* Compat RNT - Add Wiesel TOW reloading with Milan tubes by the loader, or by the commander if no loader seat is occupied (#TBD) by Andx667
-* Compat RNT - Add AP/HE muzzles to the Redd MK20 (#TBD) by Andx667
-* Compat RNT - Add Marder rear ramp: vehicle is locked while the ramp is closed, open/close actions, "open ramp" Eden attribute, and exit through the hatches (#TBD) by Andx667
-* Compat RNT - Add higher commander seat, automatic camonet, reduced HUD and Metis Enhanced map action to the Marder (#TBD) by Andx667
+* Common - Add seat lock events, a generic map action and an event to remove a backpack from a vehicle cargo (#643) by Andx667
+* Compat RNT - Add higher commander and loader seats, TOW/MG3 seat switching, automatic camonet and reduced HUD to Wiesel MK20 and TOW (#644) by Andx667
+* Compat RNT - Add Wiesel TOW reloading with Milan tubes by the loader, or by the commander if no loader seat is occupied (#644) by Andx667
+* Compat RNT - Add AP/HE muzzles to the Redd MK20 (#644) by Andx667
+* Compat RNT - Add Marder rear ramp: vehicle is locked while the ramp is closed, open/close actions, "open ramp" Eden attribute, and exit through the hatches (#645) by Andx667
+* Compat RNT - Add higher commander seat, automatic camonet, reduced HUD and Metis Enhanced map action to the Marder (#645) by Andx667
 
 ### Fixed
 
@@ -22,8 +22,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 * Docs - Fix nav to match addons (#633) by Andx667
-* Compat RNT - Change Wiesel MK20 and Wiesel TOW: turrets are stabilized again, the forced `stabilizedInAxes = 0` is removed (#TBD) by Andx667
-* Compat RNT - Change Marder config: initial zeroing 800 m (#TBD) by Andx667
+* Compat RNT - Change Wiesel MK20 and Wiesel TOW: turrets are stabilized again, the forced `stabilizedInAxes = 0` is removed (#644) by Andx667
+* Compat RNT - Change Marder config: initial zeroing 800 m (#645) by Andx667
 
 ## [6.0.1] - 2026-10-06
 
