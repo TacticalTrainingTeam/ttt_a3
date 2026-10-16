@@ -37,5 +37,6 @@ class CfgPatches {
     };
 };
 
+#include "CfgEventHandlers.hpp"
 #include "RscInGameUI.hpp"
 #include "CfgVehicles.hpp"
