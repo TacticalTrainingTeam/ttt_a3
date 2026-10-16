@@ -18,13 +18,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Compat RNT - Add Metis Enhanced map action to Fuchs and Wolf (#646) by Andx667
 * Compat RNT - Add turn out/in shortcut to Luchs (#646) by Andx667
 * Compat RNT - Add ACE CSW belt, proxy weapon and magazine groups to the GMW (#646) by Andx667
+* Compat BWA3 - Add Leopard commander optics (Warrior FOV, green TI), reduced optics HUD and driver compass (#647) by Andx667
+* Compat BWA3 - Add Puma config: Warrior optics, default HE ammo, reduced optics HUD, driver compass and map action (#648) by Andx667
+* Compat BWA3 - Add Puma MUSS with louder warning and turret rotation, rear view cameras, missile direction on the radar and vehicle numbers (#648) by Andx667
 
 ### Changed
 
 * Compat RNT - Change Wiesel MK20 and Wiesel TOW: turrets are stabilized again, the forced `stabilizedInAxes = 0` is removed (#644) by Andx667
 * Compat RNT - Change Marder config: initial zeroing 800 m (#645) by Andx667
 * Compat RNT - Change Fuchs: turrets are stabilized again, the forced `stabilizedInAxes = 0` is removed (#646) by Andx667
-* Compat BWA3 - Add Leopard commander optics (Warrior FOV, green TI), reduced optics HUD and driver compass (#647) by Andx667
 
 ## [6.2.0] - 2026-11-04
 
@@ -37,10 +39,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Common - Change addIntel to use a CBA global event instead of remoteExec (#626) by Andx667
 * Effects - Change storm to send one setSkill event per AI unit (#667) by Andx667
 * General - Fix hemtt warnings (#665) by Andx667
-* Compat BWA3 - Add Leopard commander optics (Warrior FOV, green TI), reduced optics HUD and driver compass (#TBD) by Andx667
-* Compat BWA3 - Add Leopard commander optics (Warrior FOV, green TI), reduced optics HUD and driver compass (#647) by Andx667
-* Compat BWA3 - Add Puma config: Warrior optics, default HE ammo, reduced optics HUD, driver compass and map action (#TBD) by Andx667
-* Compat BWA3 - Add Puma MUSS with louder warning and turret rotation, rear view cameras, missile direction on the radar and vehicle numbers (#TBD) by Andx667
 
 ### Fixed
 
