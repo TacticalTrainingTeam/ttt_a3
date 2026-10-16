@@ -13,7 +13,13 @@ class CfgVehicles {
     };
 
     class Redd_Tank_Fuchs_1A4_Base: Wheeled_APC_F {
-        //maximumLoad = 10000;
+        // Map on the doors at the back (requires Metis Enhanced)
+        EGVAR(common,mapActionPosition)[] = {-0.318359, -3.41504, -0.402802};
+        EGVAR(common,mapActionOrientation)[] = {{1, 0, -0.0131426}, {0, -1, 0.00305415}};
+        EGVAR(common,mapActionAnimation) = "door3_Source";
+        EGVAR(common,mapActionAnimationPhase) = 0;
+
+        maximumLoad = 10000;
         disableSoundAttenuation = 0;
         attenuationEffectType = "TankAttenuation";
         driverCompartments = "Compartment1";
@@ -81,21 +87,18 @@ class CfgVehicles {
 
         class Turrets: Turrets {
             class MainTurret: MainTurret {
-                stabilizedInAxes = 0;
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
                 gunnerCompartments= "Compartment3";
 
                 class Turrets: Turrets {
                     class commander_hatch: NewTurret {
-                        stabilizedInAxes = 0;
                         disableSoundAttenuation = 0;
                         soundAttenuationTurret = "TankAttenuation";
                         gunnerCompartments= "Compartment2";
                     };
 
                     class fake_gunner_turret: commander_hatch {
-                        stabilizedInAxes = 0;
                         disableSoundAttenuation = 0;
                         soundAttenuationTurret = "TankAttenuation";
                         gunnerCompartments= "Compartment1";
@@ -104,14 +107,12 @@ class CfgVehicles {
             };
 
             class Fuchs_Bino_Turret_Com: NewTurret {
-                stabilizedInAxes = 0;
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
                 gunnerCompartments= "Compartment3";
             };
 
             class Fuchs_Milan_Turret: NewTurret            {
-                stabilizedInAxes = 0;
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
                 gunnerCompartments= "Compartment3";

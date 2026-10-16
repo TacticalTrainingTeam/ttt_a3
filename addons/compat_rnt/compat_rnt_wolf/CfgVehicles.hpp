@@ -1,7 +1,11 @@
 class CfgVehicles {
     class Car_F;
     class Redd_Tank_LKW_leicht_gl_Wolf_Base: Car_F {
-        //maximumLoad = 10000;
+        // Map on the hood (requires Metis Enhanced)
+        EGVAR(common,mapActionPosition)[] = {-0.2051, 1.4929, -0.3325};
+        EGVAR(common,mapActionOrientation)[] = {{-1, 0, 0}, {0, 0.1, 1}};
+
+        maximumLoad = 10000;
 
         delete AcreIntercoms;
         delete acre_hasInfantryPhone;
