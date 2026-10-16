@@ -21,6 +21,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Compat BWA3 - Add Puma MUSS with louder warning and turret rotation, rear view cameras, missile direction on the radar and vehicle numbers (#639) by Andx667
 * Compat BWA3 - Add MK30 AP/HE muzzles, more HE damage, adjusted magazine sizes, 1000 round MG5 belt and better visible P2A1 flares (#639) by Andx667
 
+### Fixed
+
+* Surrender - Fix DropWeapon module value causing Number/Bool type error (#632) by Andx667
 ### Changed
 
 * Docs - Fix nav to match addons (#633) by Andx667
