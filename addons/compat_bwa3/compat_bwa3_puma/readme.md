@@ -7,7 +7,7 @@ Verbessert Optiken, Anzeigen und Bedienung des Puma. Die Config liegt in diesem 
 - Richtschützen- und Kommandantenoptik nutzen die Warrior-Optik für ein größeres Sichtfeld (`WARRIOR_OPTICS`), die Nachtsicht bleibt erhalten.
 - Die Waffen und Magazine des Richtschützen: MK30 mit AP/HE-Mündungen, MG5 mit 1000-Schuss-Gurtkasten und Spike LR. Die Munitionsmengen stehen in `compat_bwa3_weapons`.
 - Im Eden-Editor ist HE statt ABM als Standardmunition der MK30 vorausgewählt (`Cfg3DEN.hpp`, `Attributes` des Fahrzeugs und `XEH_preInit.sqf` für zur Laufzeit erzeugte Fahrzeuge).
-- Die Motorstartverzögerung beträgt 5 Sekunden, die Sound-Dämpfung nutzt `TankAttenuation` (siehe `compat_acre`).
+- Die Motorstartverzögerung beträgt 5 Sekunden, die Sound-Dämpfung nutzt `TankAttenuation`.
 
 ## Anzeigen (`RscInGameUI.hpp`)
 
