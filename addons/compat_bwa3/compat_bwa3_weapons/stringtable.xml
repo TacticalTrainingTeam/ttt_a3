@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Compat_Bwa3_Weapons">
+        <Key ID="STR_ttt_Compat_Bwa3_Weapons_MG5_BeltDisplayName">
+            <English>MG5 7.62x51 mm 1000Rnd Belt Case</English>
+            <German>MG5 7,62x51mm 1000-Schuss-Gurtkasten</German>
+        </Key>
+    </Package>
+</Project>
