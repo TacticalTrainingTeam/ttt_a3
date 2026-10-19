@@ -29,12 +29,20 @@ private _target = _group createUnit ["Logic", [0,0,0], [], 0, "NONE"];
 //Fire
 private _handle = [
         {
-            (_this select 0) params ["_unit","_target"];
+            params ["_args", "_pfhId"];
+            _args params ["_unit","_target"];
 
-            if (alive _unit) then {
-                _target setPosATL [(_unit getPos [300 * sqrt random 1, random 360]) select 0, (_unit getPos [300 * sqrt random 1, random 360]) select 1, 200];
-                _unit doSuppressiveFire _target;
+            // flak is gone for good: stop ticking and free the logic + its group instead of leaking both
+            if (!alive _unit) exitWith {
+                [_pfhId] call CBA_fnc_removePerFrameHandler;
+                private _group = group _target;
+                deleteVehicle _target;
+                deleteGroup _group;
             };
+
+            private _targetPos = _unit getPos [300 * sqrt random 1, random 360];
+            _target setPosATL [_targetPos select 0, _targetPos select 1, 200];
+            _unit doSuppressiveFire _target;
         },
         (6 + floor random 10),
         [_unit,_target]

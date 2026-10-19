@@ -66,6 +66,11 @@ private _pfhID = [
         params ["_args", "_pfhId"];
         _args params ["_enemySide", "_friendlySide", "_chance", "_ratio", "_logic", "_area", "_logicPos", "_dropWeapon"];
 
+        // module deleted (e.g. by Zeus) without a deactivation call: stop scanning for nothing
+        if (isNull _logic) exitWith {
+            [_pfhId] call CBA_fnc_removePerFrameHandler;
+        };
+
         private _enemies = units _enemySide;
         private _friendlies = units _friendlySide;
 
@@ -86,26 +91,26 @@ private _pfhID = [
         private _friendlyCount = count _friendliesInArea;
         private _enemyCount = count _enemiesInArea;
 
+        // loop-invariant: check once instead of once per enemy
+        if (_enemyCount == 0 || {_enemyCount * _ratio > _friendlyCount}) exitWith {};
+
         {
-            if (_enemyCount > 0 && (_enemyCount * _ratio <= _friendlyCount)) then {
+            if (!(_x getVariable [QUOTE(Surrendered), false]) && {random 1 <= _chance}) then {
+                _x setVariable [QUOTE(Surrendered), true, true];
 
-                if (random 1 <= _chance && !(_x getVariable [QUOTE(Surrendered), false])) then {
-                        _x setVariable [QUOTE(Surrendered), true, true];
-
-                        if(
-                            _dropWeapon &&
-                            {isNull objectParent _x} &&
-                            {(currentWeapon _x) != ""}
-                        ) then {
-                            _x call ace_common_fnc_throwWeapon;
-                        };
-
-                        [{
-                            params ["_unit"];
-                            [_unit, true] call ace_captives_fnc_setSurrendered;
-                        },
-                        [_x]] call CBA_fnc_execNextFrame;
+                if (
+                    _dropWeapon &&
+                    {isNull objectParent _x} &&
+                    {(currentWeapon _x) != ""}
+                ) then {
+                    _x call ace_common_fnc_throwWeapon;
                 };
+
+                [{
+                    params ["_unit"];
+                    [_unit, true] call ace_captives_fnc_setSurrendered;
+                },
+                [_x]] call CBA_fnc_execNextFrame;
             };
         } forEach _enemiesInArea;
     },

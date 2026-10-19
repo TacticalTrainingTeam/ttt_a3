@@ -26,4 +26,4 @@ private _mags = _mortar magazinesTurret _turret;
 if (_mags isEqualTo []) exitWith {};
 
 private _mag = _mags select 0;
-[_mortar, [_mag, _turret]] remoteExecCall ["removeMagazinesTurret"];
+[_mortar, [_mag, _turret]] remoteExecCall ["removeMagazinesTurret", _mortar];
