@@ -108,7 +108,18 @@ private _pfhID = [
 
                 [{
                     params ["_unit"];
-                    [_unit, true] call ace_captives_fnc_setSurrendered;
+                    if (isNull _unit) exitWith {};
+                    // setSurrendered only works where the unit is local (AI may sit on a headless client)
+                    ["ace_captives_setSurrendered", [_unit, true], _unit] call CBA_fnc_targetEvent;
+
+                    // ACE refuses e.g. mounted or handcuffed units; clear our flag so a later tick can retry instead of skipping the unit forever.
+                    // Delay leaves time for a remote owner to broadcast isSurrendering, and stays well below the PFH interval.
+                    [{
+                        params ["_unit"];
+                        if (!isNull _unit && {!(_unit getVariable ["ace_captives_isSurrendering", false])}) then {
+                            _unit setVariable [QUOTE(Surrendered), false, true];
+                        };
+                    }, [_unit], SURRENDER_VERIFY_DELAY] call CBA_fnc_waitAndExecute;
                 },
                 [_x]] call CBA_fnc_execNextFrame;
             };
