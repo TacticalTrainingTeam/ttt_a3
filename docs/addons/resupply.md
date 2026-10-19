@@ -44,6 +44,8 @@ müssen beim Wechsel des Sanitätsmods also nichts anpassen.
 
 !!! info
     Der Scan läuft 5 Sekunden nach Missionsstart. JIP-Spieler werden dabei nicht erfasst.
+    Wer später dazukommt oder sich umrüstet, kann per Script-API (siehe unten) einen
+    neuen Scan auslösen.
 
 ## Spawnposition der Kiste
 
@@ -186,6 +188,11 @@ ab, ob dabei gerade ein Objekt anvisiert ist:
   `ttt_resupply_limits` bleibt beim Entmarkieren unangetastet und greift
   wieder, falls das Objekt später erneut markiert wird.
 
+Auf leerem Boden gibt es außerdem **Nachschub-Datenbank neu aufbauen**: Das
+liest die Ausrüstung aller aktuell anwesenden Spieler neu ein, z. B. nachdem
+Spieler nachgejoint sind oder sich umgerüstet haben. Bis der neue Scan fertig
+ist, bleibt die alte Datenbank nutzbar.
+
 Die Kistentypen und die Depot-Markierung erscheinen also nie im selben Menü -
 je nachdem, worauf gerade gezeigt wird, ist immer nur die eine oder die
 andere Gruppe sichtbar.
@@ -217,6 +224,12 @@ automatisch, sobald Zeus Enhanced als Mod geladen ist.
     // Neben einem bestehenden Objekt spawnen
     [supplyDepot, "ammo"] call ttt_resupply_fnc_spawnCrate;
 }] call CBA_fnc_addEventHandler;
+
+// Datenbank neu aufbauen, z. B. nachdem Spieler nachgejoint sind oder sich
+// umgerüstet haben. Funktioniert auf Server und Clients. Bis der neue Scan
+// fertig ist, bleibt die alte Datenbank nutzbar; danach wird
+// "ttt_resupply_dbReady" auf dem Server erneut ausgelöst.
+[] call ttt_resupply_fnc_rebuildDatabase;
 ```
 
 ## Maintainer

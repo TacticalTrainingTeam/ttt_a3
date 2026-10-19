@@ -77,6 +77,25 @@ private _unmarkDepot = [
 
 [_unmarkDepot, _parentPath] call zen_context_menu_fnc_addAction;
 
+// Re-scans the current player loadouts - for when players joined late or changed gear after the
+// initial scan. Same empty-ground restriction as the crate types below, so it doesn't clutter
+// the object menu. No availability check: it must stay usable when the database is empty.
+private _rebuildDatabase = [
+    QGVAR(zenRebuildDatabase),
+    LLSTRING(action_rebuildDatabase),
+    _icon,
+    {
+        [QGVAR(rebuildDatabase), []] call CBA_fnc_serverEvent;
+        [LLSTRING(hintDatabaseRebuilding)] call ace_zeus_fnc_showMessage;
+    },
+    {
+        params ["", "", "", "", "", "_hoveredEntity"];
+        isNull _hoveredEntity
+    }
+] call zen_context_menu_fnc_createAction;
+
+[_rebuildDatabase, _parentPath] call zen_context_menu_fnc_addAction;
+
 // Shared by every type below. Statement/condition code receives ZEN's
 // ACTION_PARAMS as _this: [_position, _objects, _groups, _waypoints,
 // _markers, _hoveredEntity, _args] - _args is this action's crate type,
