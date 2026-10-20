@@ -12,3 +12,4 @@ PREP(noApiFunction);
 PREP(setAISkill);
 PREP(setAISkillLevel);
 PREP(unlockSeat);
+PREP(stopFlakFire);
