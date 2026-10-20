@@ -16,6 +16,34 @@ PREP_RECOMPILE_END;
 
 ADDON = true;
 
+// Source: PzGrenBtl402 addons/Common/XEH_postInit.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted
+// Changing the cargo needs a local vehicle
+[QGVAR(removeBackpackCargo), {
+    params ["_vehicle", "_backpackClass"];
+
+    [_vehicle, _backpackClass] call CBA_fnc_removeBackpackCargo;
+}] call CBA_fnc_addEventHandler;
+
+[QGVAR(lockSeat), LINKFUNC(lockSeat)] call CBA_fnc_addEventHandler;
+[QGVAR(unlockSeat), LINKFUNC(unlockSeat)] call CBA_fnc_addEventHandler;
+
+["CAManBase", "GetOutMan", {
+    params ["_unit", "", "_vehicle"];
+
+    if (local _vehicle) then {
+        [QGVAR(unlockSeat), [_unit]] call CBA_fnc_localEvent;
+    };
+}] call CBA_fnc_addClassEventHandler;
+
+["CAManBase", "Deleted", {
+    params ["_unit"];
+
+    (_unit getVariable [QGVAR(lockedSeat), []]) params [["_vehicle", objNull]];
+    if (!isNull _vehicle && {local _vehicle}) then {
+        [QGVAR(unlockSeat), [_unit]] call CBA_fnc_localEvent;
+    };
+}, true] call CBA_fnc_addClassEventHandler;
+
 GVAR(playerMarkerIdx) = 0; //used in tagging2map
 
 // disable the collision when unconscious
