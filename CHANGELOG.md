@@ -7,14 +7,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Fixed
+## [6.1.0] - 2026-10-20
 
-* UAV Link - Fix `isNull` type error spamming the RPT when stopping tracking by Andx667
-* Surrender - Fix DropWeapon module value causing Number/Bool type error (#632) by Andx667
+### Added
+
+* Common - Add TTT Logos in HQ (#641) by Andx667
+* Dismantle - Add completion sound effect (#627) by Andx667
+* Resupply - Add database rebuild function and ZEN context menu entry (#659) by Andx667
 
 ### Changed
 
 * Docs - Fix nav to match addons (#633) by Andx667
+* General - Stop stale PFHs, add `stopFlakFire` and narrow M120 remoteExec (#650) by Andx667
+
+### Fixed
+
+* Dismantle - Fix function headers and guard against already-dismantled targets (#627) by Andx667
+* Resupply - Fix 3DEN Attribute (#642) by Andx667
+* Surrender - Fix DropWeapon module value causing Number/Bool type error (#632) by Andx667
+* UAV Link - Fix `isNull` type error spamming the RPT when stopping tracking (#640) by Andx667
+
+### Removed
+
+* Compat XEH - Remove Addon (#610) by Andx667
 
 ## [6.0.1] - 2026-10-06
 
