@@ -14,6 +14,9 @@ Die Kapitulation wird über ACE Captives umgesetzt. Kapitulierte KI hebt die Hä
 !!! info "Hinweis"
     Die Prüfung erfolgt regelmässig im Modulbereich. Nur feindliche KI-Einheiten innerhalb dieses Bereichs koennen kapitulieren.
 
+!!! tip "Modul beenden"
+    Wird das Modul während der Mission gelöscht (z.B. durch Zeus), endet die Prüfung sofort. Danach kapituliert keine weitere Einheit.
+
 ## Modul-Attribute
 
 - `Feindliche Seite`: Seite, deren KI-Einheiten kapitulieren koennen.
