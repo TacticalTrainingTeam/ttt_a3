@@ -2,6 +2,8 @@
 
 Erlaubt Spielern die das nötige Werkzeug und die nötige Befähigung haben bestimmte Objekte zu zerlegen. Gedacht für Panzersperren und ähnliches.
 
+Sobald das Zerlegen abgeschlossen ist, verschwindet das Objekt und ein Metallgeräusch ertönt, das Spieler im Umkreis von ca. 40 Metern hören.
+
 ## CBA-Einstellungen
 
 ```  c++

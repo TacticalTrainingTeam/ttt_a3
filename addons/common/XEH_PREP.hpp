@@ -10,3 +10,4 @@ PREP(join);
 PREP(noApiFunction);
 PREP(setAISkill);
 PREP(setAISkillLevel);
+PREP(stopFlakFire);
