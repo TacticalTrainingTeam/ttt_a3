@@ -19,6 +19,11 @@
 #define BFT_JAM_TYPE_DRIFT 1
 #define BFT_JAM_TYPE_MIXED 2
 
+// Module attribute defaults (CfgVehicles.hpp) and fallbacks when reading them back.
+#define BFT_JAM_DEFAULT_EFFECTIVE_RADIUS 200
+#define BFT_JAM_DEFAULT_FALLOFF_RADIUS 400
+#define BFT_JAM_DEFAULT_FREQUENCY 805
+
 // Fixed Drift tuning - deliberately not CBA settings, so behavior is the same on every server.
 #define BFT_JAM_MAX_DRIFT_DISTANCE 250
 #define BFT_JAM_DRIFT_UPDATE_INTERVAL 3
@@ -40,3 +45,4 @@
 #define CROWSEW_ADD_BEACON_EVENT "crowsEW_spectrum_addBeacon"
 #define CROWSEW_REMOVE_BEACON_EVENT "crowsEW_spectrum_removeBeacon"
 #define CROWSEW_JAM_MAP crowsEW_main_jamMap
+#define CROWSEW_BEACONS crowsEW_spectrum_beacons

@@ -8,12 +8,12 @@
  * falloff radius, 0 beyond that.
  *
  * Arguments:
- * 0: NUMBER - distance (meters) between the tracked unit and the jammer
- * 1: NUMBER - effective radius (meters)
- * 2: NUMBER - falloff radius (meters)
+ * 0: Distance between the tracked unit and the jammer in meters <NUMBER>
+ * 1: Effective radius in meters <NUMBER>
+ * 2: Falloff radius in meters <NUMBER>
  *
  * Return Value:
- * NUMBER - strength, 0..1
+ * Strength, 0..1 <NUMBER>
  *
  * Public: No
  */

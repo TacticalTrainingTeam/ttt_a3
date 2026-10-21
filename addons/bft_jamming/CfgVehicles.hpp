@@ -30,13 +30,11 @@ class CfgVehicles {
             // class Units: Units{}; // deliberately omitted, same as CrowsEW's own jammer module -
             // if nothing is synced, the handler spawns a Crows_dataterminal prop for us.
 
-            class JamType: Combo {
-                control = "combo";
+            class GVAR(addBftJammer_jamType): Combo {
                 property = QGVAR(addBftJammer_jamType);
                 displayName = CSTRING(moduleAddBftJammer_jamType_displayName);
                 tooltip = CSTRING(moduleAddBftJammer_jamType_tooltip);
-                expression = "_this setVariable ['%s', _value];";
-                defaultValue = BFT_JAM_TYPE_BLACKOUT;
+                defaultValue = QUOTE(BFT_JAM_TYPE_BLACKOUT);
                 typeName = "NUMBER";
                 class Values {
                     class Blackout {
@@ -54,7 +52,7 @@ class CfgVehicles {
                 };
             };
 
-            class IsActiveAtMissionStart: Checkbox {
+            class GVAR(addBftJammer_isActiveAtMissionStart): Checkbox {
                 property = QGVAR(addBftJammer_isActiveAtMissionStart);
                 displayName = CSTRING(moduleAddBftJammer_missionStart_displayName);
                 tooltip = CSTRING(moduleAddBftJammer_missionStart_tooltip);
@@ -62,28 +60,28 @@ class CfgVehicles {
                 defaultValue = "true";
             };
 
-            class EffectiveRadius: Edit {
+            class GVAR(addBftJammer_effectiveRadius): Edit {
                 property = QGVAR(addBftJammer_effectiveRadius);
                 displayName = CSTRING(moduleAddBftJammer_effectiveRadius_displayName);
                 tooltip = CSTRING(moduleAddBftJammer_effectiveRadius_tooltip);
                 typeName = "NUMBER";
-                defaultValue = "200";
+                defaultValue = QUOTE(BFT_JAM_DEFAULT_EFFECTIVE_RADIUS);
             };
 
-            class FalloffRadius: Edit {
+            class GVAR(addBftJammer_falloffRadius): Edit {
                 property = QGVAR(addBftJammer_falloffRadius);
                 displayName = CSTRING(moduleAddBftJammer_falloffRadius_displayName);
                 tooltip = CSTRING(moduleAddBftJammer_falloffRadius_tooltip);
                 typeName = "NUMBER";
-                defaultValue = "400";
+                defaultValue = QUOTE(BFT_JAM_DEFAULT_FALLOFF_RADIUS);
             };
 
-            class Frequency: Edit {
+            class GVAR(addBftJammer_frequency): Edit {
                 property = QGVAR(addBftJammer_frequency);
                 displayName = CSTRING(moduleAddBftJammer_frequency_displayName);
                 tooltip = CSTRING(moduleAddBftJammer_frequency_tooltip);
                 typeName = "NUMBER";
-                defaultValue = "805";
+                defaultValue = QUOTE(BFT_JAM_DEFAULT_FREQUENCY);
             };
 
             class ModuleDescription: ModuleDescription {};

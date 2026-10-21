@@ -1,6 +1,6 @@
 # BFT Jamming
 
-Fügt einen Zeus/Editor-Modul "Set as BFT Jammer" hinzu, der cTabs Blue Force Tracker stört -
+Fügt ein Editor-Modul "Set as BFT Jammer" hinzu, das cTabs Blue Force Tracker stört -
 gleiches Grundprinzip wie Crow's EW-Störsender (Gerät, Radius, per Spektrumgerät ortbar), aber
 für den BFT statt Funk/Drohnen.
 
@@ -14,6 +14,16 @@ eigenes öffentliches CBA-Event `crowsEW_main_addJammer` als ganz normalen Stör
 Aktivieren/Deaktivieren per Rechtsklick und JIP-Sync komplett kostenlos, ohne eine einzige Zeile
 Crow's EW anzufassen.
 
+Crow's EW registriert seinen `addJammer`-Handler erst im eigenen `postInit`, Modulfunktionen können
+aber vorher laufen - ein Server-Event ohne Handler verfällt stillschweigend. `fnc_addBftJammer`
+löst das Event deshalb erst per `CBA_fnc_waitUntilAndExecute` aus, sobald `CBA_missionTime > 0`
+ist (alle `postInit`s sind durch). Crow's EWs eigenes Modul umgeht dasselbe Problem mit `sleep 1`.
+Aus demselben Grund registriert `XEH_preInit.sqf` unsere eigenen Event-Handler, nicht `postInit`.
+
+Die Modul-Attribute heißen als Klasse genauso wie ihre `property`
+(`ttt_bft_jamming_addBftJammer_*`), wie bei den anderen Modulen im Repo: Arma legt Attributwerte
+unter dem Klassennamen am Modul ab, und `fnc_addBftJammer` liest sie unter diesem Namen aus.
+
 Drei Störungsarten stehen als Dropdown zur Wahl (nicht kombinierbar, ein Gerät = eine Art):
 
 - **Blackout**: Einheiten innerhalb des Gesamtradius (Effektiv + Abklingen) verschwinden
@@ -22,10 +32,13 @@ Drei Störungsarten stehen als Dropdown zur Wahl (nicht kombinierbar, ein Gerät
   innerhalb des effektiven Radius maximal ist und zum äußeren Rand des Abklingradius auf null
   abfällt (gleiche Falloff-Logik wie Crow's EWs `fnc_calcSignalStrength.sqf`). Der Versatz wird
   pro Einheit/Störsender geglättet (Ziel-Offset wird nur alle paar Pulse neu gewürfelt, dazwischen
-  wird interpoliert), damit das Symbol sichtbar wandert statt zu springen. Wirkt sich nur auf
-  `cTabBFTgroups`/`cTabBFTvehicles` aus - `cTab_fnc_drawBftMarkers` zeichnet `cTabBFTmembers`
-  (abgesessene Gruppenmitglieder) immer von einer live `getPosASL` aus, unabhängig vom
-  cTab-Modus, sodass Drift dort keine sichtbare Wirkung hat (cTab-seitige Einschränkung).
+  wird interpoliert), damit das Symbol sichtbar wandert statt zu springen. Pro Puls wird jeder
+  Versatz nur einmal berechnet und wiederverwendet, weil eine Einheit in zwei Listen stehen kann
+  (der Führer der eigenen Gruppe steht in `cTabBFTmembers` und `cTabBFTgroups`) und sonst doppelt so
+  schnell wandern würde. Wirkt sich nur auf `cTabBFTgroups`/`cTabBFTvehicles` aus -
+  `cTab_fnc_drawBftMarkers` zeichnet `cTabBFTmembers` (abgesessene Gruppenmitglieder) immer von
+  einer live `getPosASL` aus, unabhängig vom cTab-Modus, sodass Drift dort keine sichtbare Wirkung
+  hat (cTab-seitige Einschränkung).
 - **Mixed**: kombiniert beide über die vorhandenen zwei Radien - innerhalb des effektiven Radius
   Blackout (kein Fix mehr, wie ein Empfänger direkt am Störsender), im Abklingradius darum herum
   Drift mit der gleichen abklingenden Stärke wie oben. Kein zusätzliches Attribut nötig, nur eine
@@ -34,12 +47,24 @@ Drei Störungsarten stehen als Dropdown zur Wahl (nicht kombinierbar, ein Gerät
 Die eigentliche Manipulation passiert clientseitig: cTab baut `cTabBFTmembers`/`cTabBFTgroups`/
 `cTabBFTvehicles` lokal auf jedem Client neu auf und feuert danach das lokale Event
 `ctab_listsUpdated`. Wir hängen uns dort ein und mutieren dieselben globalen Arrays, bevor
-cTab sie das nächste Mal zeichnet - auch hier keine cTab-Datei verändert.
+cTab sie das nächste Mal zeichnet - auch hier keine cTab-Datei verändert. Störsender, deren Objekt
+schon gelöscht ist, werden dabei übersprungen: Sie bleiben bis zu Crow's EWs Aufräumschleife in der
+`jamMap`, und `getPosASL objNull` würde sie an `[0,0,0]` stören lassen.
 
 Auf dem Spektrumgerät ist ein aktiver BFT-Störsender unter dem Signaltyp `sweep_bft` auf der am
-Modul eingestellten Frequenz (Attribut `Frequency`, Standard 805) ortbar, unabhängig davon welche
-Störungsart gewählt wurde. Die konkrete Frequenz ist beliebig, solange sie innerhalb des vom
-Spektrumgerät abgedeckten Bereichs liegt.
+Modul eingestellten Frequenz (Standard 805, Bereich der experimentellen Antenne 520-1090) ortbar,
+unabhängig davon welche Störungsart gewählt wurde. `fnc_onUpdateJammersServer` gleicht das Signal
+bei jedem `crowsEW_main_updateJammers` mit dem Ein/Aus-Zustand ab, weil Crow's EWs Toggle-Handler
+beim Einschalten nur Signale seiner eigenen Fähigkeiten neu anlegt. Der Ist-Zustand wird direkt aus
+`crowsEW_spectrum_beacons` gelesen statt selbst mitgeführt, damit ein anderweitig entferntes Signal
+beim nächsten Update wiederkommt und `addBeacon` (ohne eigene Deduplizierung) nie doppelt aufgerufen
+wird.
+
+Anders als Crow's EWs eigenes Modul startet dieses keinen Störsender-Sound, um nicht zusätzlich an
+Crow's EWs Sound-System zu koppeln.
+
+Das Modul hat kein `scopeCurator` und keinen Zeus-Dialog, ist also nur im Editor platzierbar.
+Zeus kann einen platzierten BFT-Störsender aber wie jeden Crow's-EW-Störsender ein- und ausschalten.
 
 ## Wichtig: cTab-Modus
 
@@ -49,9 +74,12 @@ gespeicherten Wert, den wir manipulieren. `addons/settings/settings/cTab.inc.sqf
 repo-weit `ctab_core_bft_mode = 1` ("realTime"), da eine repo-weite Umstellung auf Modus 2 die
 BFT-Verfolgung für jede Mission verzögern würde (Positionen bleiben bis zu
 `ctab_core_sync_time` Sekunden stehen), auch für Missionen ganz ohne Störsender. **Missionen, die
-Drift/Mixed nutzen wollen, müssen `ctab_core_bft_mode = 2` selbst setzen** (z.B. per
-Missions-CBA-Settings-Override). Blackout funktioniert unabhängig vom Modus, da ein entferntes
-Listenelement in keinem Modus gezeichnet wird.
+Drift/Mixed nutzen wollen, müssen `ctab_core_bft_mode = 2` selbst erzwingen** (Missions-CBA-Settings
+mit "force"). Das funktioniert nur, weil der Wert dort bewusst mit einfachem `force` (Priorität 1)
+gesetzt ist: Eine erzwungene Missionseinstellung hat ebenfalls Priorität 1, und bei Gleichstand
+gewinnt in `CBA_settings_fnc_priority` die Mission. Mit `force force` (Priorität 2) wäre das nicht
+mehr überschreibbar. Blackout funktioniert unabhängig vom Modus, da ein entferntes Listenelement in
+keinem Modus gezeichnet wird.
 
 Es gibt bewusst keine CBA-Einstellungen: ohne platziertes Modul passiert ohnehin nichts (ein
 globaler Ein/Aus-Schalter wäre wirkungslos), die Frequenz ist Modul-Attribut statt globaler Wert
@@ -65,7 +93,7 @@ Diese Integration läuft ausschließlich über Crow's EWs und cTabs eigene öffe
 Events/globale Variablen, nicht über eine offiziell dokumentierte Plugin-API:
 
 - `crowsEW_main_addJammer`, `crowsEW_main_updateJammers`, `crowsEW_main_jamMap`
-- `crowsEW_spectrum_addBeacon`, `crowsEW_spectrum_removeBeacon`
+- `crowsEW_spectrum_addBeacon`, `crowsEW_spectrum_removeBeacon`, `crowsEW_spectrum_beacons`
 - `ctab_listsUpdated`, `cTabBFTmembers`/`cTabBFTgroups`/`cTabBFTvehicles`
 
 Ein zukünftiges Update von Crow's EW oder cTab könnte diese Namen oder Array-Formate ändern und
