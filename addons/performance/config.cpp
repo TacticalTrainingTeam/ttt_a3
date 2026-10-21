@@ -5,7 +5,7 @@ class CfgPatches {
         name = COMPONENT_NAME;
         author = ECSTRING(main,TacticalTrainingTeam);
         url = ECSTRING(main,URL);
-        authors[] = {"Andx"};
+        authors[] = {"veteran29", "Andx"};
 
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"ttt_main", "cba_settings"};

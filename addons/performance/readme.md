@@ -18,9 +18,10 @@ Nebenwirkung: `knowsAbout`, `nearTargets` und `targetKnowledge` liefern auf eine
 
 Der Zustand wird von der Engine beim Missionsende zurückgesetzt. Da CBA den Change-Handler einer Einstellung bei jedem Missionsstart erneut ausführt, wird der Befehl automatisch wieder gesetzt. Die Einstellung ist bewusst nicht in `addons/settings` erzwungen, damit Missionsbauer sie per `cba_settings.sqf` abschalten können.
 
-## Quelle
+## Quellen
 
-Idee aus <https://github.com/ArmaForces/Mods/tree/master/addons/remotesensors>
+- <https://github.com/ArmaForces/Mods/tree/master/addons/remotesensors> - Original von veteran29 (ArmaForces)
+- <https://github.com/Theseus-Aegis/Mods/tree/master/addons/performance> - Übernahme bei Theseus, dort ebenfalls ArmaForces/veteran29 zugeschrieben
 
 ## Maintainer
 

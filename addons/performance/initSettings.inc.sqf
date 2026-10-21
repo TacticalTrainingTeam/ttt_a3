@@ -1,3 +1,5 @@
+// source: https://github.com/ArmaForces/Mods/blob/master/addons/remotesensors/initSettings.inc.sqf
+// source: https://github.com/Theseus-Aegis/Mods/blob/master/addons/performance/initSettings.inc.sqf
 [
     QGVAR(disableRemoteSensors),
     "CHECKBOX",
