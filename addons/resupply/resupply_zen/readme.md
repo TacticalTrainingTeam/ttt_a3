@@ -15,6 +15,11 @@ Depot zu markieren bzw. die Markierung wieder zu entfernen (setzt/löscht
 dieselbe `ttt_resupply_container`-Variable, die auch per Init-Feld gesetzt
 werden kann).
 
+Ebenso enthalten: **Nachschub-Datenbank neu aufbauen** (nur auf leerem Boden,
+ohne Verfügbarkeitsprüfung, damit es auch bei leerer Datenbank nutzbar bleibt).
+Sendet das `ttt_resupply_rebuildDatabase`-Server-Event, das auch
+`fnc_rebuildDatabase` auf Clients verwendet.
+
 Reine Optional-Abhängigkeit: Wird nur gebaut/geladen, wenn Zeus Enhanced
 (genauer `zen_context_menu`) vorhanden ist (`skipWhenMissingDependencies`).
 

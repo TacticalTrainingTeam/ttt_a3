@@ -35,12 +35,17 @@ if (!_activated) exitWith {
 
 private _enemySideClass = _logic getVariable [QGVAR(EnemySide), 2];
 private _friendlySideClass = _logic getVariable [QGVAR(FriendlySide), 1];
-private _chance = _logic getVariable [QGVAR(SurrenderChance), 0.5];
+// Module stores whole percent (Eden Combo fails to preselect float values); values <= 1 are legacy fractions from older missions
+private _chance = _logic getVariable [QGVAR(SurrenderChance), 50];
+if (_chance > 1) then {
+    _chance = _chance / 100;
+};
 private _ratio = _logic getVariable [QGVAR(OutnumberRatio), 2];
 private _rawArea = triggerArea _logic;
 private _area = if (_rawArea isEqualTo []) then {[100, 100, 0, false, -1]} else {_rawArea + [-1]};
 private _logicPos = getPosASL _logic;
-private _dropWeapon = _logic getVariable [QGVAR(DropWeapon), false];
+// Module checkbox may arrive as Number (0/1) instead of Bool, which breaks the lazy && below
+private _dropWeapon = (_logic getVariable [QGVAR(DropWeapon), false]) in [true, 1];
 
 private _enemySide = switch (_enemySideClass) do {
     case (1): {west};
@@ -60,6 +65,11 @@ private _pfhID = [
     {
         params ["_args", "_pfhId"];
         _args params ["_enemySide", "_friendlySide", "_chance", "_ratio", "_logic", "_area", "_logicPos", "_dropWeapon"];
+
+        // module deleted (e.g. by Zeus) without a deactivation call: stop scanning for nothing
+        if (isNull _logic) exitWith {
+            [_pfhId] call CBA_fnc_removePerFrameHandler;
+        };
 
         private _enemies = units _enemySide;
         private _friendlies = units _friendlySide;
@@ -81,26 +91,37 @@ private _pfhID = [
         private _friendlyCount = count _friendliesInArea;
         private _enemyCount = count _enemiesInArea;
 
+        // loop-invariant: check once instead of once per enemy
+        if (_enemyCount == 0 || {_enemyCount * _ratio > _friendlyCount}) exitWith {};
+
         {
-            if (_enemyCount > 0 && (_enemyCount * _ratio <= _friendlyCount)) then {
+            if (!(_x getVariable [QUOTE(Surrendered), false]) && {random 1 <= _chance}) then {
+                _x setVariable [QUOTE(Surrendered), true, true];
 
-                if (random 1 <= _chance && !(_x getVariable [QUOTE(Surrendered), false])) then {
-                        _x setVariable [QUOTE(Surrendered), true, true];
-
-                        if(
-                            _dropWeapon &&
-                            {isNull objectParent _x} &&
-                            {(currentWeapon _x) != ""}
-                        ) then {
-                            _x call ace_common_fnc_throwWeapon;
-                        };
-
-                        [{
-                            params ["_unit"];
-                            [_unit, true] call ace_captives_fnc_setSurrendered;
-                        },
-                        [_x]] call CBA_fnc_execNextFrame;
+                if (
+                    _dropWeapon &&
+                    {isNull objectParent _x} &&
+                    {(currentWeapon _x) != ""}
+                ) then {
+                    _x call ace_common_fnc_throwWeapon;
                 };
+
+                [{
+                    params ["_unit"];
+                    if (isNull _unit) exitWith {};
+                    // setSurrendered only works where the unit is local (AI may sit on a headless client)
+                    ["ace_captives_setSurrendered", [_unit, true], _unit] call CBA_fnc_targetEvent;
+
+                    // ACE refuses e.g. mounted or handcuffed units; clear our flag so a later tick can retry instead of skipping the unit forever.
+                    // Delay leaves time for a remote owner to broadcast isSurrendering, and stays well below the PFH interval.
+                    [{
+                        params ["_unit"];
+                        if (!isNull _unit && {!(_unit getVariable ["ace_captives_isSurrendering", false])}) then {
+                            _unit setVariable [QUOTE(Surrendered), false, true];
+                        };
+                    }, [_unit], SURRENDER_VERIFY_DELAY] call CBA_fnc_waitAndExecute;
+                },
+                [_x]] call CBA_fnc_execNextFrame;
             };
         } forEach _enemiesInArea;
     },

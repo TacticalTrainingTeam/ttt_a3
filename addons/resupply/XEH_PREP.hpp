@@ -4,6 +4,7 @@ PREP(decrementCrateLimit);
 PREP(getCrateLimit);
 PREP(isCrateAvailable);
 PREP(isTypeEnabled);
+PREP(rebuildDatabase);
 PREP(resolveDisposableLauncher);
 PREP(scanLoadouts);
 PREP(setContainer);

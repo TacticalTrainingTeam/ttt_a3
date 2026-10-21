@@ -53,3 +53,11 @@ This project is built and linted with [HEMTT](https://hemtt.dev/). Configuration
 ```
 hemtt check
 ```
+
+## Pull requests
+
+Follow `.github/PULL_REQUEST_TEMPLATE.md`:
+
+- **Title**: `Component - Add|Fix|Change|Remove {changes}`, e.g. `Resupply - Add database rebuild function and ZEN context menu entry`.
+- **Description**: start with the template's `## When merged this pull request will:` heading, followed by one bullet per change (each change on its own line). Keep the template's `## Important` checklist (docs included, development guidelines applied, title format used) and the `## Known Issues` section; tick the boxes that apply.
+- **Labels and assignee**: add the matching `changelog/*` label (plus `documentation` if docs changed) and assign the user.
