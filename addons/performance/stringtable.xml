@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Performance">
+        <Key ID="STR_ttt_Performance_disableRemoteSensors_description">
+            <English>Player clients skip visibility calculations for AI groups that are not local to them. Saves client CPU; AI behaviour is unaffected because it is calculated where the AI is local (server or Zeus).</English>
+            <German>Spielerrechner überspringen die Sichtberechnungen für KI-Gruppen, die nicht lokal bei ihnen sind. Spart CPU-Leistung auf den Clients; das KI-Verhalten bleibt unverändert, da es dort berechnet wird, wo die KI lokal ist (Server oder Zeus).</German>
+        </Key>
+        <Key ID="STR_ttt_Performance_disableRemoteSensors_displayName">
+            <English>Disable remote sensors on clients</English>
+            <German>Remote-Sensoren auf Clients deaktivieren</German>
+        </Key>
+        <Key ID="STR_ttt_Performance_subCategory">
+            <English>Performance</English>
+            <German>Performance</German>
+        </Key>
+    </Package>
+</Project>
