@@ -3,7 +3,13 @@
 // Server: build loadout database at mission start and handle crate spawn
 // requests sent by clients via the ACE action
 if (isServer) then {
-    call FUNC(scanLoadouts);
+    [] call FUNC(scanLoadouts);
+
+    // Lets clients (and mission scripts on any machine) request a rebuild
+    // through fnc_rebuildDatabase without needing server access
+    [QGVAR(rebuildDatabase), {
+        call FUNC(rebuildDatabase);
+    }] call CBA_fnc_addEventHandler;
 
     [QGVAR(spawnCrateRequest), {
         params ["_target", "_type", "_notifyOwner", "_container"];
