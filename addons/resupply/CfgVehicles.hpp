@@ -61,22 +61,4 @@ class CfgVehicles {
         displayName = CSTRING(type_support);
         GVAR(crateType) = "support";
     };
-
-    class GVAR(module_medical_alpha): GVAR(module_base) {
-        scope = 2;
-        displayName = CSTRING(type_medical_alpha);
-        GVAR(crateType) = "medical_alpha";
-    };
-
-    class GVAR(module_medical_bravo): GVAR(module_base) {
-        scope = 2;
-        displayName = CSTRING(type_medical_bravo);
-        GVAR(crateType) = "medical_bravo";
-    };
-
-    class GVAR(module_medical_charlie): GVAR(module_base) {
-        scope = 2;
-        displayName = CSTRING(type_medical_charlie);
-        GVAR(crateType) = "medical_charlie";
-    };
 };

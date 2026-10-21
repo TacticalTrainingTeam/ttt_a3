@@ -3,9 +3,10 @@
 /*
  * Author: Andx
  * Spawns a supply crate of the given type near a position or object and fills
- * it from the scanned loadout database. Medical crates spawn pre-defined TTT
- * common classes (or their compat_kam equivalents if KAT Advanced Medical is
- * loaded) and are already filled by their class definition. Dynamic crate
+ * it from the scanned loadout database. Pre-filled types (medical and the
+ * other TTT common crates) spawn their pre-defined common class (medical: or
+ * its compat_kam equivalent if KAT Advanced Medical is loaded), which is
+ * already filled by its class definition. Dynamic crate
  * types with nothing to fill them from (e.g. no AT ammo carried by any
  * player) are not spawned at all. On success, the notify owner (if any) gets
  * a confirmation via the same hint/Zeus-message channel used for failures.
@@ -18,13 +19,16 @@
  *    in that case). Only when no such pad exists nearby is an empty spot
  *    searched for nearby instead of using a fixed offset <ARRAY|OBJECT>
  * 1: Crate type - "ammo", "grenades", "at", "explosives", "support",
- *    "medical_alpha", "medical_bravo", "medical_charlie" <STRING>
+ *    "medical_alpha", "medical_bravo", "medical_charlie", "spreng", "pio",
+ *    "eod", "eod_ugv", "uav", "mark" <STRING>
  * 2: Network owner ID to notify if the crate can't be spawned, if any <NUMBER> (default: -1)
  * 3: Notify via ace_zeus_fnc_showMessage instead of a screen hint - use for
  *    Zeus-triggered spawns, since the owner is a curator <BOOLEAN> (default: false)
  * 4: Depot object whose per-type stock (if limited via QGVAR(limits)) should
  *    be checked and consumed - distinct from argument 0, which is only the
- *    proximity reference to spawn near. objNull means unlimited <OBJECT> (default: objNull)
+ *    proximity reference to spawn near. Gated types (spreng, pio, eod, eod_ugv,
+ *    uav, mark) are refused unless enabled at this depot via QGVAR(enabledTypes).
+ *    objNull means unlimited and ungated <OBJECT> (default: objNull)
  * 5: If the fixed spawn point marker (see below) is occupied, fall back to a
  *    random nearby spot instead of failing outright. Used by the Zeus module,
  *    which - unlike a depot - has no need for a stable, repeatable position:
@@ -70,8 +74,9 @@ private _refPos = if (_target isEqualType objNull) then {
     };
 if (_refPos isEqualTo []) exitWith { objNull };
 
-// Medical crates are pre-filled by their class definition; no db needed
-private _isMedical = _type in ["medical_alpha", "medical_bravo", "medical_charlie"];
+// Pre-filled crates get their content from their class definition; no db needed
+private _prefilled = GVAR(prefilled) getOrDefault [_type, []];
+private _isPrefilled = _prefilled isNotEqualTo [];
 
 // Used by both the "no items found" hint below and the success notification
 private _typeDisplayName = switch (_type) do {
@@ -80,14 +85,11 @@ private _typeDisplayName = switch (_type) do {
     case "at":               { LLSTRING(type_at) };
     case "explosives":       { LLSTRING(type_explosives) };
     case "support":          { LLSTRING(type_support) };
-    case "medical_alpha":    { LLSTRING(type_medical_alpha) };
-    case "medical_bravo":    { LLSTRING(type_medical_bravo) };
-    case "medical_charlie":  { LLSTRING(type_medical_charlie) };
-    default                  { _type };
+    default                  { if (_isPrefilled) then { localize (_prefilled select 1) } else { _type } };
 };
 
 // Guard: scan must have completed before spawning dynamic crates
-if (!_isMedical && !GVAR(db_init)) exitWith {
+if (!_isPrefilled && !GVAR(db_init)) exitWith {
     WARNING("Crate spawn requested but database has not been built yet");
     if (_notifyOwner != -1) then {
         [QGVAR(hint), [localize LSTRING(databaseEmpty), _notifyZeus], _notifyOwner] call CBA_fnc_ownerEvent;
@@ -100,11 +102,22 @@ if (!_isMedical && !GVAR(db_init)) exitWith {
 private _db = GVAR(db) getOrDefault [_type, []];
 
 // Flat, top-level exitWith - see the null-target guard above for why this
-// can't be nested inside an "if (!_isMedical) then {}" block.
-if (!_isMedical && {_db isEqualTo []}) exitWith {
+// can't be nested inside an "if (!_isPrefilled) then {}" block.
+if (!_isPrefilled && {_db isEqualTo []}) exitWith {
     WARNING_1("No items found for crate type %1, skipping spawn",_type);
     if (_notifyOwner != -1) then {
         [QGVAR(hint), [format [localize LSTRING(typeEmpty), _typeDisplayName], _notifyZeus], _notifyOwner] call CBA_fnc_ownerEvent;
+    };
+    objNull
+};
+
+// Guard: gated crate type isn't enabled at this depot. Re-checked here
+// authoritatively rather than trusting the ACE action's condition, since that
+// only hides the action client-side.
+if !([_container, _type] call FUNC(isTypeEnabled)) exitWith {
+    WARNING_1("Crate type %1 is not enabled at this depot",_type);
+    if (_notifyOwner != -1) then {
+        [QGVAR(hint), [format [localize LSTRING(typeNotEnabled), _typeDisplayName], _notifyZeus], _notifyOwner] call CBA_fnc_ownerEvent;
     };
     objNull
 };
@@ -124,7 +137,7 @@ if ([_container, _type] call FUNC(getCrateLimit) == 0) exitWith {
 private _prefix = ["Box_NATO", "Box_East", "Box_IND"] param [GVAR(faction), "Box_NATO"];
 
 // KAT Advanced Medical replaces the plain ACE medical crates with its own
-// loadouts when loaded
+// loadouts when loaded (only the medical entries carry a KAT class)
 private _katLoaded = "kat_main" call CBA_fnc_isModLoaded;
 
 private _crateClass = switch (_type) do {
@@ -133,10 +146,14 @@ private _crateClass = switch (_type) do {
     case "at":               { _prefix + "_WpsLaunch_F" };
     case "explosives":       { _prefix + "_AmmoOrd_F" };
     case "support":          { _prefix + "_Support_F" };
-    case "medical_alpha":    { [QEGVAR(common,sana_crate), QEGVAR(compat_kam,sana_crate)] select _katLoaded };
-    case "medical_bravo":    { [QEGVAR(common,sanb_crate), QEGVAR(compat_kam,sanb_crate)] select _katLoaded };
-    case "medical_charlie":  { [QEGVAR(common,sanc_crate), QEGVAR(compat_kam,sanc_crate)] select _katLoaded };
-    default                  { _prefix + "_Ammo_F" };
+    default {
+        if (_isPrefilled) then {
+            _prefilled params ["", "", "", "_commonClass", "_katClass"];
+            [_commonClass, _katClass] select (_katLoaded && {_katClass != ""})
+        } else {
+            _prefix + "_Ammo_F"
+        }
+    };
 };
 
 // Guard: catch a missing/misconfigured crate class (e.g. ttt_common or
@@ -216,7 +233,7 @@ _crate setPosATL _pos;
 [_container, _type] call FUNC(decrementCrateLimit);
 
 // Fill dynamic crates from the per-category database resolved above
-if (!_isMedical) then {
+if (!_isPrefilled) then {
     [[_crate], _db] call EFUNC(common,crateFiller);
 };
 
