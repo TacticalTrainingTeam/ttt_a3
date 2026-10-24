@@ -1,4 +1,4 @@
-#include "../script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: BlauBär edit by Andx
  * Parses all default setting override files, then applies each one -
