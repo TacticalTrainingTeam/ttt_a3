@@ -22,6 +22,15 @@ Konfiguriert alle Fahrzeuge mit den gleichen Rack Einstellungen:
 
 Vereinheitlicht außerdem das Infanterietelefon und die Bordverständigungsanlage.
 
+## Dingo 2 CG13 Funkstörer
+
+Der Dingo 2 CG13 stört nicht nur IED-Minen, sondern auch Funkgeräte. Sobald der Fahrer den CG13 einschaltet, werden Funkgeräte in der Umgebung gestört, bis er ihn wieder ausschaltet oder der Motor aus geht.
+
+- Nahe am Fahrzeug ist der Funk vollständig gestört.
+- Betroffen sind alle Spieler in Reichweite, auch die eigene Besatzung und Verbündete.
+- Die Störung wirkt voll im selben Umkreis wie der IED-Störer (40 m) und lässt danach bis zum 1,5-fachen dieser Entfernung allmählich nach.
+- Funktioniert nur im Mehrspielermodus.
+
 ## Maintainer
 
 - Andx
