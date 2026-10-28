@@ -93,8 +93,17 @@ private _skillTypes = ["aimingAccuracy", "aimingShake", "aimingSpeed", "spotDist
             true
         ];
 
-        if (_effect) then {
-            private _effectedObject = selectRandom _entities;
+        if (_effect && {_entities isNotEqualTo []}) then {
+            private _index = floor random count _entities;
+            private _effectedObject = _entities select _index;
+
+            // The snapshot is shared by reference, so pruning here also shortens later ticks.
+            // Dead vehicles stay on purpose: wrecks are valid targets.
+            // exitWith only leaves this then-block, which is all that is left to do in the tick.
+            if (isNull _effectedObject || {_effectedObject isKindOf "Man" && {!alive _effectedObject}}) exitWith {
+                _entities deleteAt _index;
+            };
+
             if ((_effectedObject isKindOf "LandVehicle") || (_effectedObject isKindOf "Man") || (_effectedObject isKindOf "Air") || (_effectedObject isKindOf "Wreck")) then {
                 [
                     QGVAR(setVelocity),
