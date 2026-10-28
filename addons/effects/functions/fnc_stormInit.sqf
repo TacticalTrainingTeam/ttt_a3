@@ -47,18 +47,19 @@ private _allEntities = allUnits + vehicles;
 
 // edit environment
 10 setFog (0.4 max fog);
+// one event per unit carrying all skills, instead of one per skill
+private _skillTypes = ["aimingAccuracy", "aimingShake", "aimingSpeed", "spotDistance"];
 {
-	_x setVariable [QGVAR(stormSkillRebalance), true, false];
-	private _aiUnit = _x;
-	{
-		[QGVAR(setSkill), [_aiUnit, _x, ((_aiUnit skill _x) * 0.25)], _aiUnit] call CBA_fnc_targetEvent;
-	} forEach ["aimingAccuracy", "aimingShake", "aimingSpeed", "spotDistance"];
+    private _aiUnit = _x;
+    _aiUnit setVariable [QGVAR(stormSkillRebalance), true, false];
+    private _skills = _skillTypes apply {[_x, (_aiUnit skill _x) * 0.25]};
+    [QGVAR(setSkill), [_aiUnit, _skills], _aiUnit] call CBA_fnc_targetEvent;
 } forEach (allUnits - allPlayers);
 
 // reset environment afterwards
 [
 	{
-		params ["_environment_foglevel","_environment_rainlevel","_environment_lightninglevel","_environment_windlevel"];
+		params ["_environment_foglevel","_environment_rainlevel","_environment_lightninglevel","_environment_windlevel","_skillTypes"];
 		(10 + (random 10)) setFog _environment_foglevel;
 		(10 + (random 10)) setRain _environment_rainlevel;
 		(10 + (random 10)) setLightnings _environment_lightninglevel;
@@ -66,14 +67,13 @@ private _allEntities = allUnits + vehicles;
 		{
 			if (_x getVariable [QGVAR(stormSkillRebalance), false]) then {
 				private _aiUnit = _x;
-				{
-					[QGVAR(setSkill), [_aiUnit, _x, ((_aiUnit skill _x) / 0.25)], _aiUnit] call CBA_fnc_targetEvent;
-				} forEach ["aimingAccuracy", "aimingShake", "aimingSpeed", "spotDistance"];
+				private _skills = _skillTypes apply {[_x, (_aiUnit skill _x) / 0.25]};
+				[QGVAR(setSkill), [_aiUnit, _skills], _aiUnit] call CBA_fnc_targetEvent;
 			};
 		} forEach (allUnits - allPlayers);
 		missionNamespace setVariable [QGVAR(stormActive), false, false];
 	}, 
-	[_environment_foglevel,_environment_rainlevel,_environment_lightninglevel,_environment_windlevel], 
+	[_environment_foglevel,_environment_rainlevel,_environment_lightninglevel,_environment_windlevel,_skillTypes], 
 	_durationDuststorm
 ] call CBA_fnc_waitAndExecute;
 
