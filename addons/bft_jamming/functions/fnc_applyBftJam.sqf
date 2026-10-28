@@ -15,19 +15,17 @@
  * limitation, see readme.md). Left in place rather than special-cased since it's harmless.
  *
  * Arguments:
- * 0: ARRAY - cTab BFT list entry [unit, iconA, iconB, text, groupID, pos(ASL), dir] - mutated
- *    in place (index 5) when Drift applies
- * 1: ARRAY - active BFT-capable jammer entries from crowsEW_main_jamMap, each
- *    [_unit, _radFalloff, _radEffective, _enabled, _capabilities]
- * 2: ARRAY - drift smoothing keys touched so far this pulse, mutated in place (pushBack)
+ * 0: cTab BFT list entry [unit, iconA, iconB, text, groupID, posASL, dir], index 5 mutated in place when Drift applies <ARRAY>
+ * 1: Active BFT-capable jammer entries from crowsEW_main_jamMap, each [unit, radFalloff, radEffective, enabled, capabilities] <ARRAY>
+ * 2: Drift offsets already computed this pulse, "<unitNetId>_<jammerNetId>" -> offset, mutated in place <HASHMAP>
  *
  * Return Value:
- * BOOLEAN - true if this entry is Blacked out and should be removed from its list
+ * Entry is blacked out and should be removed from its list <BOOL>
  *
  * Public: No
  */
 
-params ["_entry", "_jammers", "_touchedDriftKeys"];
+params [["_entry", [], [[]]], ["_jammers", [], [[]]], ["_pulseOffsets", createHashMap, [createHashMap]]];
 
 private _unit = _entry select 0;
 if (isNull _unit) exitWith {false};
@@ -61,8 +59,12 @@ private _driftJammer = objNull;
 if (_blackedOut) exitWith {true};
 
 if (_driftStrength > 0) then {
-    private _offset = [_unit, _driftJammer, _driftStrength] call FUNC(getBftDriftOffset);
-    _touchedDriftKeys pushBack format ["%1_%2", netId _unit, netId _driftJammer];
+    private _key = format ["%1_%2", netId _unit, netId _driftJammer];
+    private _offset = _pulseOffsets getOrDefault [_key, []];
+    if (_offset isEqualTo []) then {
+        _offset = [_unit, _driftJammer, _driftStrength] call FUNC(getBftDriftOffset);
+        _pulseOffsets set [_key, _offset];
+    };
     _entry set [5, (_entry select 5) vectorAdd _offset];
 };
 

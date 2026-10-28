@@ -4,19 +4,19 @@
  *
  * Returns a smoothed 2D offset vector (ASL-space, z=0) to add to a jammed unit's displayed BFT
  * position. Re-randomizes its target direction/magnitude only every BFT_JAM_DRIFT_UPDATE_INTERVAL
- * calls (once per cTab BFT pulse) and eases the applied offset toward that target each time, so
+ * pulses (called at most once per unit/jammer pair per pulse) and eases the applied offset toward that target each time, so
  * a Drift-jammed icon visibly wanders instead of teleporting every pulse.
  *
  * State is kept per (unit, jammer) pair in GVAR(driftState), a HashMap keyed by
  * "<unitNetId>_<jammerNetId>" -> [currentOffset, targetOffset, pulsesUntilRetarget].
  *
  * Arguments:
- * 0: OBJECT - the tracked unit being drifted
- * 1: OBJECT - the jammer causing the drift
- * 2: NUMBER - strength, 0..1 (see fnc_calcBftJamStrength.sqf)
+ * 0: Tracked unit being drifted <OBJECT>
+ * 1: Jammer causing the drift <OBJECT>
+ * 2: Strength, 0..1 (see fnc_calcBftJamStrength.sqf) <NUMBER>
  *
  * Return Value:
- * ARRAY - offset vector [x, y, 0]
+ * Offset vector [x, y, 0] <ARRAY>
  *
  * Public: No
  */
