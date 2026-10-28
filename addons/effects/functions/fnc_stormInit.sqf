@@ -71,6 +71,8 @@ private _skillTypes = ["aimingAccuracy", "aimingShake", "aimingSpeed", "spotDist
                 [QGVAR(setSkill), [_aiUnit, _skills], _aiUnit] call CBA_fnc_targetEvent;
             };
         } forEach (allUnits - allPlayers);
+        // late joiners must not replay the finished storm
+        [missionNamespace getVariable [QGVAR(stormJipId), ""]] call CBA_fnc_removeGlobalEventJIP;
         missionNamespace setVariable [QGVAR(stormActive), false, false];
     },
     [_environment_foglevel,_environment_rainlevel,_environment_lightninglevel,_environment_windlevel,_skillTypes],
@@ -113,5 +115,6 @@ private _skillTypes = ["aimingAccuracy", "aimingShake", "aimingSpeed", "spotDist
     [_endTime, _directionDuststorm, _durationDuststorm, _effectOnObjects, _allEntities]
 ] call CBA_fnc_addPerFrameHandler;
 
-[QGVAR(stormEffects), [_endTime, _stormType, _walk]] call CBA_fnc_globalEventJIP;
+private _jipId = [QGVAR(stormEffects), [_endTime, _stormType, _walk]] call CBA_fnc_globalEventJIP;
+missionNamespace setVariable [QGVAR(stormJipId), _jipId, false];
 [_endTime, _directionDuststorm];
