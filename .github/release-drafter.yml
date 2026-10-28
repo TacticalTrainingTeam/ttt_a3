@@ -38,7 +38,6 @@ categories:
 exclude-labels:
   - 'ignore-changelog'
   - 'tools'
-  - 'documentation'
 
 change-template: '* $TITLE (#$NUMBER) by $AUTHOR'
 template: |

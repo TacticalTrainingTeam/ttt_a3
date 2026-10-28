@@ -135,18 +135,40 @@ Argumente:
 
 Rückgabewert:
 
-handle NUMBER - Per-Frame-Handler mit dem das Feuer später beendet werden kann
+handle NUMBER - Kennung des laufenden Flakfeuers
 
-`handle_01` ist ein Identifikator mit dem die Funktion wieder beendet werden kann, indem der Per-Frame-Handler entfernt wird. Um das Flakfeuer wieder zu beenden, in einen weiteren Trigger folgendes in die Aktivierung schreiben:
+Das Feuer endet von selbst, sobald die Flak zerstört ist oder ihr Richtschütze tot ist bzw. aussteigt. Die Flak braucht also beim Start bereits einen Richtschützen. Ein erneuter Aufruf für eine Flak, die schon feuert, startet kein zweites Feuer.
 
-``` c++
-[handle_01] call CBA_fnc_removePerFrameHandler;
-```
+Um das Flakfeuer vorher zu beenden, in einen weiteren `Server Only`-Trigger [`stopFlakFire`](#stopflakfire) schreiben.
 
 ### Beispiel
 
 ``` c++
 handle_01 = [flak_01] call ttt_common_fnc_doFlakFire;
+```
+
+## `stopFlakFire`
+
+Beendet das mit `doFlakFire` gestartete Flakfeuer. Die Flak bekommt danach beim Nachladen auch keine unendliche Munition mehr. Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
+
+``` c++
+[object] call ttt_common_fnc_stopFlakFire;
+```
+
+Argumente:
+
+| # | Parameter | Typ | Beschreibung | Optional | Default |
+| - | - | - | - | - | - |
+| 0 | object | OBJECT | Flak, deren Feuer beendet werden soll | Nein | - |
+
+Rückgabewert:
+
+Keiner
+
+### Beispiel
+
+``` c++
+[flak_01] call ttt_common_fnc_stopFlakFire;
 ```
 
 ## `setAISkill`

@@ -7,6 +7,38 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [6.1.0] - 2026-10-20
+
+### Added
+
+* Common - Add TTT Logos in HQ (#641) by Andx667
+* Dismantle - Add completion sound effect (#627) by Andx667
+* Resupply - Add database rebuild function and ZEN context menu entry (#659) by Andx667
+
+### Changed
+
+* Docs - Fix nav to match addons (#633) by Andx667
+* General - Stop stale PFHs, add `stopFlakFire` and narrow M120 remoteExec (#650) by Andx667
+
+### Fixed
+
+* Dismantle - Fix function headers and guard against already-dismantled targets (#627) by Andx667
+* Resupply - Fix 3DEN Attribute (#642) by Andx667
+* Surrender - Fix DropWeapon module value causing Number/Bool type error (#632) by Andx667
+* UAV Link - Fix `isNull` type error spamming the RPT when stopping tracking (#640) by Andx667
+
+### Removed
+
+* Compat XEH - Remove Addon (#610) by Andx667
+
+## [6.0.1] - 2026-10-06
+
+### Fixed
+
+* W Shields - Fix popWindows 3DEN attribute spamming params errors (#630) by Andx667
+
+## [6.0.0] - 2026-09-30
+
 ### Added
 
 * Facilty Framework - Add new Component (#599) by Andx667
@@ -17,13 +49,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 * Assets - Refactor class names to use GVAR macros for consistency and maintainability (#598) by Andx667
+* Counter Ari - Refactor counter-battery modules for improved functionality and clarity (#593) by Andx667
 * Field Manual - Fix and Improve multiple Aspects (#607) by Andx667
 
 ### Fixed
 
 * ClearHud - Fix Hotkey (#612) by Andx667
+* Effects - Fix and Improve Code (#595) by Andx667
+* General - Fix class name casing and group handling in loadout scan (#623) by Andx667
 * Surrender - Fix Area and function logic (#594) by Andx667
 * W Shields - Fix and improve shields (#600) by Andx667
+
+### Removed
+
+* Compat FPV - Remove component (#624) by Andx667
 
 ## [5.4.2] - 2026-08-20
 
