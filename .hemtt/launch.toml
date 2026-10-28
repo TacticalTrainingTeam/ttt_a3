@@ -149,3 +149,9 @@ extends = "default"
 workshop = [
     "3438246217" # cTab
 ]
+
+[ew]
+extends = "default"
+workshop = [
+    "2515887728" # Crows EW
+]
