@@ -5,7 +5,7 @@ class CfgPatches {
         name = COMPONENT_NAME;
         // Use meta information from specified addon. Used to avoid repeated declarations.
         addonRootClass = QUOTE(ADDON);
-        
+
         // Minimum compatible version. When the game's version is lower, pop-up warning will appear when launching the game. Note: was disabled on purpose some time late into Arma 2: OA.
         requiredVersion = REQUIRED_VERSION;
         // Required addons, used for setting load order. (CfgPatches classname NOT PBO filename!)
@@ -30,7 +30,7 @@ class CfgPatches {
             "rsr_wisent_ammo_flecktarn",
             "rsr_wisent_fuel_flecktarn",
             "rsr_wisent_medical_flecktarn",
-            
+
             "rsr_wisent_transport_tropentarn",
             "rsr_wisent_covered_tropentarn",
             "rsr_wisent_repair_tropentarn",
@@ -48,4 +48,3 @@ class CfgPatches {
 };
 
 #include "CfgVehicles.hpp"
-#include "CfgDigVehicles.hpp"
