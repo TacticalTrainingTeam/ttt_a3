@@ -1,4 +1,4 @@
-#include "../script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: Andx
  * Reacts to CBA registering a new setting (CBA_settings_refreshSetting,
