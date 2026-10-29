@@ -52,6 +52,12 @@ In der `initPlayerLocal.sqf` ausführen.
 [intel, action, hide, [titel, text]] call ttt_common_fnc_addIntel;
 ```
 
+!!! warning "Nur ein Intel pro Objekt"
+    Die Funktion darf pro Objekt nur einmal aufgerufen werden. Werden mehrere Intel auf dasselbe Objekt gelegt, verschwindet beim Aufheben die falsche Aktion und Spieler, die später beitreten, bekommen alle Intel dieses Objekts, auch die noch nicht gefundenen. Für mehrere Intel einfach mehrere Objekte verwenden.
+
+!!! note "Gleichzeitiges Aufheben"
+    Nehmen zwei Spieler dasselbe Intel im selben Moment auf, erscheint der Eintrag in der Kartenansicht doppelt.
+
 Argumente:
 
 | # | Parameter | Typ | Beschreibung | Optional | Default |
