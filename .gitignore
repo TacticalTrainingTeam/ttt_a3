@@ -8,3 +8,6 @@ hemtt.exe
 .cache/
 .hemttprivatekey
 .claude
+
+# docs build
+/site/

@@ -1,8 +1,8 @@
-# from https://github.com/marketplace/actions/deploy-mkdocs
 name: Publish docs via GitHub Pages
 on:
   release:
     types: [published]
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -15,7 +15,19 @@ jobs:
       - name: Checkout main
         uses: actions/checkout@v7
 
-      - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: 3.x
+
+      - name: Build documentation
+        run: |
+          pip install zensical
+          zensical build --clean --strict
+
+      # Zensical has no gh-deploy. Pushing to gh-pages keeps the Pages source and the custom domain (docs/CNAME) as they are
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: site
