@@ -47,42 +47,44 @@ private _allEntities = allUnits + vehicles;
 
 // edit environment
 10 setFog (0.4 max fog);
+// one event per unit carrying all skills, instead of one per skill
+private _skillTypes = ["aimingAccuracy", "aimingShake", "aimingSpeed", "spotDistance"];
 {
-	_x setVariable [QGVAR(stormSkillRebalance), true, false];
-	private _aiUnit = _x;
-	{
-		[QGVAR(setSkill), [_aiUnit, _x, ((_aiUnit skill _x) * 0.25)], _aiUnit] call CBA_fnc_targetEvent;
-	} forEach ["aimingAccuracy", "aimingShake", "aimingSpeed", "spotDistance"];
+    private _aiUnit = _x;
+    _aiUnit setVariable [QGVAR(stormSkillRebalance), true, false];
+    private _skills = _skillTypes apply {[_x, (_aiUnit skill _x) * 0.25]};
+    [QGVAR(setSkill), [_aiUnit, _skills], _aiUnit] call CBA_fnc_targetEvent;
 } forEach (allUnits - allPlayers);
 
 // reset environment afterwards
 [
-	{
-		params ["_environment_foglevel","_environment_rainlevel","_environment_lightninglevel","_environment_windlevel"];
-		(10 + (random 10)) setFog _environment_foglevel;
-		(10 + (random 10)) setRain _environment_rainlevel;
-		(10 + (random 10)) setLightnings _environment_lightninglevel;
-		setWind [_environment_windlevel select 0, _environment_windlevel select 1, true];
-		{
-			if (_x getVariable [QGVAR(stormSkillRebalance), false]) then {
-				private _aiUnit = _x;
-				{
-					[QGVAR(setSkill), [_aiUnit, _x, ((_aiUnit skill _x) / 0.25)], _aiUnit] call CBA_fnc_targetEvent;
-				} forEach ["aimingAccuracy", "aimingShake", "aimingSpeed", "spotDistance"];
-			};
-		} forEach (allUnits - allPlayers);
-		missionNamespace setVariable [QGVAR(stormActive), false, false];
-	}, 
-	[_environment_foglevel,_environment_rainlevel,_environment_lightninglevel,_environment_windlevel], 
-	_durationDuststorm
+    {
+        params ["_environment_foglevel","_environment_rainlevel","_environment_lightninglevel","_environment_windlevel","_skillTypes"];
+        (10 + (random 10)) setFog _environment_foglevel;
+        (10 + (random 10)) setRain _environment_rainlevel;
+        (10 + (random 10)) setLightnings _environment_lightninglevel;
+        setWind [_environment_windlevel select 0, _environment_windlevel select 1, true];
+        {
+            if (_x getVariable [QGVAR(stormSkillRebalance), false]) then {
+                private _aiUnit = _x;
+                private _skills = _skillTypes apply {[_x, (_aiUnit skill _x) / 0.25]};
+                [QGVAR(setSkill), [_aiUnit, _skills], _aiUnit] call CBA_fnc_targetEvent;
+            };
+        } forEach (allUnits - allPlayers);
+        // late joiners must not replay the finished storm
+        [missionNamespace getVariable [QGVAR(stormJipId), ""]] call CBA_fnc_removeGlobalEventJIP;
+        missionNamespace setVariable [QGVAR(stormActive), false, false];
+    },
+    [_environment_foglevel,_environment_rainlevel,_environment_lightninglevel,_environment_windlevel,_skillTypes],
+    _durationDuststorm
 ] call CBA_fnc_waitAndExecute;
 
 // heavy wind in direction and effect on objects
 [
-	{
-		params ["_args", "_pfhId"];
-		_args params ["_end", "_direction", "_duration", "_effect", "_entities"];
-		if (time >= _end) exitWith {[_pfhId] call CBA_fnc_removePerFrameHandler;};
+    {
+        params ["_args", "_pfhId"];
+        _args params ["_end", "_direction", "_duration", "_effect", "_entities"];
+        if (time >= _end) exitWith {[_pfhId] call CBA_fnc_removePerFrameHandler;};
 
         private _clock = _duration - (_end - time) + 1;
         setWind [
@@ -91,27 +93,37 @@ private _allEntities = allUnits + vehicles;
             true
         ];
 
-		if (_effect) then {
-			private _effectedObject = selectRandom _entities;
-			if ((_effectedObject isKindOf "LandVehicle") || (_effectedObject isKindOf "Man") || (_effectedObject isKindOf "Air") || (_effectedObject isKindOf "Wreck")) then {
-				[
-					QGVAR(setVelocity),
-					[
-						_effectedObject,
-						[
-							((velocity _effectedObject) select 0) + (0.15 * (2500 / ((getMass _effectedObject) + 2000)) * (wind select 0)),
-							((velocity _effectedObject) select 1) + (0.15 * (2500 / ((getMass _effectedObject) + 2000)) * (wind select 1)),
-							((velocity _effectedObject) select 2)
-						]
-					],
-					_effectedObject
-				] call CBA_fnc_targetEvent;
-			};
-		};
-	},
-	1,
-	[_endTime, _directionDuststorm, _durationDuststorm, _effectOnObjects, _allEntities]
+        if (_effect && {_entities isNotEqualTo []}) then {
+            private _index = floor random count _entities;
+            private _effectedObject = _entities select _index;
+
+            // The snapshot is shared by reference, so pruning here also shortens later ticks.
+            // Dead vehicles stay on purpose: wrecks are valid targets.
+            // exitWith only leaves this then-block, which is all that is left to do in the tick.
+            if (isNull _effectedObject || {_effectedObject isKindOf "Man" && {!alive _effectedObject}}) exitWith {
+                _entities deleteAt _index;
+            };
+
+            if ((_effectedObject isKindOf "LandVehicle") || (_effectedObject isKindOf "Man") || (_effectedObject isKindOf "Air") || (_effectedObject isKindOf "Wreck")) then {
+                [
+                    QGVAR(setVelocity),
+                    [
+                        _effectedObject,
+                        [
+                            ((velocity _effectedObject) select 0) + (0.15 * (2500 / ((getMass _effectedObject) + 2000)) * (wind select 0)),
+                            ((velocity _effectedObject) select 1) + (0.15 * (2500 / ((getMass _effectedObject) + 2000)) * (wind select 1)),
+                            ((velocity _effectedObject) select 2)
+                        ]
+                    ],
+                    _effectedObject
+                ] call CBA_fnc_targetEvent;
+            };
+        };
+    },
+    1,
+    [_endTime, _directionDuststorm, _durationDuststorm, _effectOnObjects, _allEntities]
 ] call CBA_fnc_addPerFrameHandler;
 
-[QGVAR(stormEffects), [_endTime, _stormType, _walk]] call CBA_fnc_globalEventJIP;
+private _jipId = [QGVAR(stormEffects), [_endTime, _stormType, _walk]] call CBA_fnc_globalEventJIP;
+missionNamespace setVariable [QGVAR(stormJipId), _jipId, false];
 [_endTime, _directionDuststorm];
