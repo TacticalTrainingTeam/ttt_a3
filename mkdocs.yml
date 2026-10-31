@@ -15,6 +15,7 @@ extra_javascript:
 
 theme:
   name: material
+  variant: classic
   custom_dir: docs/overrides
   font:
     text: Ubuntu
