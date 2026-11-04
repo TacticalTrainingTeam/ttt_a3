@@ -14,3 +14,7 @@
 
 #define ICON_CRAFT "\a3\ui_f\data\igui\cfg\actions\repair_ca.paa"
 #define ICON_VEHICLE "\a3\ui_f\data\map\vehicleicons\iconcar_ca.paa"
+
+// Shipped by FPV_UA for its drone vehicles, reused for the inventory items (CfgMagazines.hpp)
+#define PICTURE_FPV "\fpv_ua\data\ui\fpv_pic_ca.paa"
+#define PICTURE_FPV_FIBER "\fpv_ua\data\ui\fpv_fiber_pic_ca.paa"
