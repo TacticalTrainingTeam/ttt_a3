@@ -1,7 +1,7 @@
 class CfgWeapons {
 
-    #include "configs/Vests.hpp"
-    #include "configs/Helmets.hpp"
+    #include "configs\Vests.hpp"
+    #include "configs\Helmets.hpp"
 
     class NVGoggles;
     class USP_NSEAS: NVGoggles {

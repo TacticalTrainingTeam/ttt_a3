@@ -14,6 +14,8 @@ PREP_RECOMPILE_END;
     }
 ] call CBA_fnc_addEventHandler;
 
+[QGVAR(intelFound), FUNC(intelFound)] call CBA_fnc_addEventHandler;
+
 ADDON = true;
 
 GVAR(playerMarkerIdx) = 0; //used in tagging2map
