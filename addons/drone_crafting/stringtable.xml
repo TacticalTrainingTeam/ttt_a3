@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Drone_Crafting">
+        <Key ID="STR_ttt_drone_crafting_action_main">
+            <English>FPV Drone Crafting</English>
+            <German>FPV-Drohnenbau</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_action_recipe">
+            <English>%1 (%2 craftable)</English>
+            <German>%1 (%2 baubar)</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_category_fiber">
+            <English>Fibre-optic FPV</English>
+            <German>Glasfaser-FPV</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_category_standard">
+            <English>Standard FPV</English>
+            <German>Standard-FPV</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_module_description">
+            <English>Synchronize this module with one or more vehicles (or supply boxes). At mission start they become drone supply vehicles: players near them can assemble FPV drones from the materials in their cargo via ACE self-interaction.</English>
+            <German>Dieses Modul mit einem oder mehreren Fahrzeugen (oder Kisten) synchronisieren. Sie werden bei Missionsstart zu Drohnen-Materialfahrzeugen: Spieler in der Nähe können per ACE-Eigeninteraktion aus dem Material im Laderaum FPV-Drohnen bauen.</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_module_displayName">
+            <English>Drone Supply Vehicle</English>
+            <German>Drohnen-Materialfahrzeug</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_module_fillStock_displayName">
+            <English>Load starting stock</English>
+            <German>Startbestand laden</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_module_fillStock_tooltip">
+            <English>Replaces the whole cargo of the synchronized vehicles with the starting stock from the CBA settings. Untick to keep the inventory set in the editor.</English>
+            <German>Ersetzt den gesamten Laderaum der synchronisierten Fahrzeuge durch den Startbestand aus den CBA-Einstellungen. Abwählen, um das im Editor eingestellte Inventar zu behalten.</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_progressTitle">
+            <English>Assembling %1...</English>
+            <German>Montiere %1...</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_recipe_fiber_at">
+            <English>Fibre-optic AT drone (PG-7VL)</English>
+            <German>LWL-AT-Drohne (PG-7VL)</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_recipe_fiber_recon">
+            <English>Fibre-optic recon drone (no warhead)</English>
+            <German>LWL-Aufklärungsdrohne (ohne Sprengkopf)</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_recipe_standard_ap">
+            <English>AP drone (OG-7V)</English>
+            <German>AP-Drohne (OG-7V)</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_recipe_standard_at">
+            <English>AT drone (PG-7VL)</English>
+            <German>AT-Drohne (PG-7VL)</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_recipe_standard_he">
+            <English>HE drone (TBG-7V)</English>
+            <German>HE-Drohne (TBG-7V)</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_result_aborted">
+            <English>Assembly aborted!</English>
+            <German>Zusammenbau abgebrochen!</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_result_inBackpack">
+            <English>%1 was placed in your backpack.</English>
+            <German>%1 liegt jetzt in deinem Rucksack.</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_result_inVehicle">
+            <English>%1 was placed in the supply vehicle.</English>
+            <German>%1 liegt jetzt im Materialfahrzeug.</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_result_invalid">
+            <English>Invalid crafting request.</English>
+            <German>Ungültige Bauanfrage.</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_result_missing">
+            <English>Missing in the supply vehicle:</English>
+            <German>Im Materialfahrzeug fehlt:</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_result_noSpace">
+            <English>No room for the drone in your backpack or the vehicle.</English>
+            <German>Weder im Rucksack noch im Fahrzeug ist Platz für die Drohne.</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_result_noSpaceReturned">
+            <English>All materials were put back.</English>
+            <German>Alle Materialien wurden zurückgelegt.</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_result_success">
+            <English>Assembly complete!</English>
+            <German>Zusammenbau erfolgreich!</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_result_tooFar">
+            <English>You are too far away from the supply vehicle.</English>
+            <German>Du bist zu weit vom Materialfahrzeug entfernt.</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_result_unavailable">
+            <English>No supply vehicle available.</English>
+            <German>Kein Materialfahrzeug verfügbar.</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_setting_craftTime_description">
+            <English>How many seconds assembling one drone takes.</English>
+            <German>Wie viele Sekunden der Zusammenbau einer Drohne dauert.</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_setting_craftTime_name">
+            <English>Assembly time</English>
+            <German>Bauzeit</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_setting_maxDistance_description">
+            <English>How close (in metres) a player has to be to a supply vehicle to assemble drones.</English>
+            <German>Wie nah (in Metern) ein Spieler an einem Materialfahrzeug sein muss, um Drohnen zu bauen.</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_setting_maxDistance_name">
+            <English>Maximum distance</English>
+            <German>Maximale Entfernung</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_setting_reserveCapacity_description">
+            <English>Share of the cargo capacity that stays free for finished drones after the starting stock has been loaded. The vehicle's capacity is adjusted accordingly.</English>
+            <German>Anteil des Laderaums, der nach dem Laden des Startbestands für fertige Drohnen frei bleibt. Die Kapazität des Fahrzeugs wird entsprechend angepasst.</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_setting_reserveCapacity_name">
+            <English>Free capacity</English>
+            <German>Freier Laderaum</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_setting_stock_description">
+            <English>Materials loaded into a supply vehicle, as an array of [classname, count] pairs.&lt;br/&gt;i.e.: [["ACE_CableTie", 50], ["UA_Item_EMPTY", 20]]&lt;br/&gt;(The array must be enclosed with ' in cba_settings.sqf)</English>
+            <German>Material, das in ein Materialfahrzeug geladen wird, als Array aus [Classname, Anzahl]-Paaren.&lt;br/&gt;Bsp.: [["ACE_CableTie", 50], ["UA_Item_EMPTY", 20]]&lt;br/&gt;(In der cba_settings.sqf muss das Array mit ' umschlossen werden)</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_setting_stock_name">
+            <English>Starting stock</English>
+            <German>Startbestand</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_subCategory">
+            <English>FPV Drone Crafting</English>
+            <German>FPV-Drohnenbau</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_zen_category">
+            <English>TTT - FPV Drone Crafting</English>
+            <German>TTT - FPV-Drohnenbau</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_zen_hintRemoved">
+            <English>Supply vehicle designation removed</English>
+            <German>Materialfahrzeug-Markierung entfernt</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_zen_hintRestocked">
+            <English>Supply vehicle topped up to starting stock</English>
+            <German>Materialfahrzeug auf Startbestand aufgefüllt</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_zen_hintSet">
+            <English>Set as drone supply vehicle</English>
+            <German>Als Drohnen-Materialfahrzeug festgelegt</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_zen_remove">
+            <English>Remove supply vehicle designation</English>
+            <German>Materialfahrzeug-Markierung entfernen</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_zen_restock">
+            <English>Top up to starting stock</English>
+            <German>Auf Startbestand auffüllen</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_zen_setKeepInventory">
+            <English>Set as supply vehicle (keep inventory)</English>
+            <German>Als Materialfahrzeug festlegen (Inventar behalten)</German>
+        </Key>
+        <Key ID="STR_ttt_drone_crafting_zen_setWithStock">
+            <English>Set as supply vehicle (load starting stock)</English>
+            <German>Als Materialfahrzeug festlegen (Startbestand laden)</German>
+        </Key>
+    </Package>
+</Project>
