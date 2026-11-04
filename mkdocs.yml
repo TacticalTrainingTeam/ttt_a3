@@ -169,6 +169,7 @@ nav:
     - Objekte: addons/common/objects.md
   - cTab Vorlagen: addons/ctab_templates.md
   - Facility Construction: addons/facility_construction.md
+  - FPV-Drohnenbau: addons/drone_crafting.md
   - Konterartillerie: addons/counterari.md
   - Loadout-System (MPLS): addons/mpls.md
   - Mobile San-Einrichtung (Fahrzeug): addons/medic_vehicle.md
