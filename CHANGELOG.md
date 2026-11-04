@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [6.2.0] - 2026-11-04
+
+### Added
+
+* Drone Crafting - Add FPV drone crafting addon with Eden module and ZEN actions (#675) by Andx667
+
+### Changed
+
+* Common - Change addIntel to use a CBA global event instead of remoteExec (#626) by Andx667
+* Effects - Change storm to send one setSkill event per AI unit (#667) by Andx667
+* General - Fix hemtt warnings (#665) by Andx667
+
+### Fixed
+
+* Compat FPV - Fix missing inventory pictures for FPV drone items (#677) by Andx667
+* Effects - Fix storm JIP event never being removed (#668) by Andx667
+* Effects - Fix storm picking null and dead entities (#670) by Andx667
+* RSR - Remove duplicate CfgDigVehicles configuration (#664) by Andx667
+
 ## [6.1.0] - 2026-10-20
 
 ### Added
