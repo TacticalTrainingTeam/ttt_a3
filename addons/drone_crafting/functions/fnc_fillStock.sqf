@@ -85,4 +85,4 @@ if (!_clearCargo) then {
 
 _vehicle setMaxLoad _maxLoad;
 
-INFO_3("Stock loaded into %1 | load: %2 | capacity: %3",_vehicle,_load,_maxLoad);
+INFO_4("Stock loaded into %1 (%2) | load: %3 | capacity: %4",_vehicle,typeOf _vehicle,_load,_maxLoad);

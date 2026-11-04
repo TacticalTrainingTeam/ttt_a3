@@ -28,4 +28,4 @@ if (!isServer) exitWith {
 GVAR(vehicles) = GVAR(vehicles) select {alive _x && {_x != _vehicle}};
 publicVariable QGVAR(vehicles);
 
-INFO_1("Supply vehicle removed: %1",_vehicle);
+INFO_2("Supply vehicle removed: %1 (%2)",_vehicle,typeOf _vehicle);

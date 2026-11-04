@@ -48,4 +48,4 @@ GVAR(vehicles) = GVAR(vehicles) select {alive _x};
 GVAR(vehicles) pushBackUnique _vehicle;
 publicVariable QGVAR(vehicles);
 
-INFO_2("Supply vehicle set: %1 (stock loaded: %2)",_vehicle,_fillStock);
+INFO_3("Supply vehicle set: %1 (%2) | stock loaded: %3",_vehicle,typeOf _vehicle,_fillStock);

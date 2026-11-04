@@ -33,7 +33,7 @@ if (canSuspend) exitWith {
 };
 
 if !(_vehicle in GVAR(vehicles)) exitWith {
-    WARNING_1("restock: %1 is no supply vehicle",_vehicle);
+    WARNING_2("restock: %1 (%2) is no supply vehicle",_vehicle,typeOf _vehicle);
 };
 
 [_vehicle, false] call FUNC(fillStock);
