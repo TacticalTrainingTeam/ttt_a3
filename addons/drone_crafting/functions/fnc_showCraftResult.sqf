@@ -1,6 +1,6 @@
 #include "..\script_component.hpp"
 /*
- * Author: Andx
+ * Author: Colin, Andx
  * Shows the outcome of a craft to the local player. Called locally for client-side checks and as
  * the QGVAR(craftResult) event handler for the server's answer - the server only sends an
  * outcome code plus class names, so every text is localized in the player's own language.

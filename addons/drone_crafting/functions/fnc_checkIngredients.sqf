@@ -1,6 +1,6 @@
 #include "..\script_component.hpp"
 /*
- * Author: Andx
+ * Author: Colin, Andx
  * Checks a recipe against a container's cargo. Every ingredient counts - including the warhead,
  * which the original mission script's "(X baubar)" label ignored.
  *

@@ -1,6 +1,6 @@
 #include "..\script_component.hpp"
 /*
- * Author: Andx
+ * Author: Colin, Andx
  * Counts how many of a class are stored directly in a container's cargo (not inside backpacks,
  * vests or uniforms stored in that cargo). Magazines are counted regardless of their ammo.
  *

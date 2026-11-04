@@ -1,6 +1,6 @@
 #include "..\script_component.hpp"
 /*
- * Author: Andx
+ * Author: Colin, Andx
  * Returns the nearest intact supply vehicle within GVAR(maxDistance) of a unit.
  *
  * Arguments:

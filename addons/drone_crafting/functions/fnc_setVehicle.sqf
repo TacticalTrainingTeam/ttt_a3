@@ -1,6 +1,6 @@
 #include "..\script_component.hpp"
 /*
- * Author: Andx
+ * Author: Colin, Andx
  * Designates an object with cargo space (usually a vehicle) as a drone supply vehicle. Players
  * within range of it get the drone crafting ACE self-interaction. Several supply vehicles can
  * exist at the same time.
