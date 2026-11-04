@@ -119,8 +119,9 @@ stehen, die für keine Drohne gebraucht wird, z. B. Sprengladungen oder ein RPG-
 force ttt_drone_crafting_stock = '[["ACE_CableTie", 50], ["ACE_rope6", 10], ["UA_Item_EMPTY", 20], ["rhs_rpg7_OG7V_mag", 15], ["rhs_rpg7_PG7VL_mag", 15], ["rhs_rpg7_TBG7V_mag", 10], ["rhs_weap_rpg7", 1]]';
 ```
 
-Unbekannte Classnames werden übersprungen. Änderungen wirken sich erst beim nächsten Befüllen aus
-(Missionsstart, Festlegen oder Auffüllen per Zeus).
+Unbekannte Classnames werden übersprungen. Ist die Liste selbst fehlerhaft (z. B. eine fehlende
+Klammer oder ein fehlendes Anführungszeichen), bleibt der Laderaum unverändert. Änderungen wirken
+sich erst beim nächsten Befüllen aus (Missionsstart, Festlegen oder Auffüllen per Zeus).
 
 ## Maintainer
 

@@ -82,7 +82,9 @@ private _removedMagazines = [];
             _removedMagazines pushBack [_class, _x];
         } forEach (_ammoCounts select [0, _count]);
     } else {
-        [_vehicle, _class, _count] call CBA_fnc_removeItemCargo;
+        // Negative count removes only this class (Arma 2.14+). CBA_fnc_removeItemCargo would
+        // clear and re-add the whole item cargo, including uniforms/vests and their contents.
+        _vehicle addItemCargoGlobal [_class, -_count];
         _removedItems pushBack [_class, _count];
     };
 } forEach (_recipe get "ingredients");

@@ -36,9 +36,10 @@ Drohne getauscht. Ursprünglich zwei Missionsskripte (`serverDroneCrafting.sqf` 
 1. **Gleichzeitiges Bauen konnte den Laderaum beschädigen**: der Server-Teil lief per
    `remoteExec` scheduled und kopierte/baute den kompletten Laderaum neu auf. Jetzt läuft
    `fnc_craft` als CBA-Event-Handler unscheduled (nicht unterbrechbar) und entfernt nur die
-   Zutaten (`CBA_fnc_removeMagazineCargo` / `CBA_fnc_removeItemCargo`). `fnc_setVehicle` und
-   `fnc_restock` wechseln aus scheduled Kontexten (Modul, `initServer.sqf`) per
-   `CBA_fnc_directCall` ebenfalls nach unscheduled.
+   Zutaten (`CBA_fnc_removeMagazineCargo` bzw. `addItemCargoGlobal` mit negativer Anzahl -
+   `CBA_fnc_removeItemCargo` würde den kompletten Item-Laderaum leeren und neu befüllen).
+   `fnc_setVehicle` und `fnc_restock` wechseln aus scheduled Kontexten (Modul, `initServer.sqf`)
+   per `CBA_fnc_directCall` ebenfalls nach unscheduled.
 2. **LWL-Aufklärungsdrohne gab `UA_Item_EMPTY` zurück** (also den gerade verbrauchten Rahmen).
    Richtig ist `UA_Item_FIBER` - das Item, das der FPV-Mod selbst für eine Glasfaser-Drohne ohne
    Nutzlast verwendet (`UA_fnc_fpv_getPayloadItem`, Payload `"FIBER"`).

@@ -7,7 +7,8 @@
  *
  * Classes already in the cargo count towards the stock, so on a vehicle that wasn't cleared
  * only the difference is added ("top up"). When topping up, the capacity is never reduced, so
- * nothing players stored in the vehicle ends up over the limit.
+ * nothing players stored in the vehicle ends up over the limit. If the stock setting is malformed,
+ * the cargo is left untouched.
  *
  * Must run on the server (setMaxLoad) and unscheduled, see fnc_setVehicle.sqf.
  *
@@ -31,11 +32,11 @@ params [
 
 if (isNull _vehicle) exitWith {};
 
-// CBA EDITBOX setting: parseSimpleArray returns nil (with an RPT error) on malformed input
+// CBA EDITBOX setting: parseSimpleArray returns nil (with an RPT error) on malformed input.
+// Bail out before touching the cargo, a typo in the setting must not empty the vehicle.
 private _parsedStock = parseSimpleArray GVAR(stock);
-if (isNil "_parsedStock" || {!(_parsedStock isEqualType [])}) then {
-    WARNING_1("Setting %1 is no valid array, no stock loaded",QGVAR(stock));
-    _parsedStock = [];
+if (isNil "_parsedStock" || {!(_parsedStock isEqualType [])}) exitWith {
+    WARNING_2("Setting %1 is no valid array, cargo of %2 left unchanged",QGVAR(stock),typeOf _vehicle);
 };
 
 private _stock = [];
