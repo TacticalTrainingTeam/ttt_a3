@@ -24,6 +24,8 @@ jobs:
 
       - name: Setup HEMTT
         uses: arma-actions/hemtt@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Authenticated API requests to avoid rate limits
 
       - name: Build TTT Mod
         run: hemtt release
