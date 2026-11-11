@@ -1,0 +1,40 @@
+name: Sync docs to wiki
+
+on:
+  push:
+    branches: [master]
+    paths: ['docs/ttt-a3.md', 'docs/ttt-a3/**']
+  workflow_dispatch:
+
+concurrency: sync-wiki
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/checkout@v7
+        with:
+          repository: TacticalTrainingTeam/wiki.tacticalteam.de
+          ssh-key: ${{ secrets.WIKI_DEPLOY_KEY }}
+          path: wiki
+
+      - name: Sync
+        run: |
+          D=289292c3-ed42-41eb-8150-e20bf303622a/de/mods/ttt-a3
+          mkdir -p "wiki/$D"
+          rsync -a --delete docs/ttt-a3/ "wiki/$D/"
+          cp docs/ttt-a3.md "wiki/$D.md"
+          cd wiki
+          git add -A "$D" "$D.md"
+          git diff --cached --quiet && exit 0
+          git config user.name github-actions
+          git config user.email github-actions@users.noreply.github.com
+          git commit -m "docs: sync ${GITHUB_REPOSITORY}@${GITHUB_SHA::7}"
+          for i in 1 2 3; do
+            git pull --rebase && git push && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep 10
+          done
+          exit 1
