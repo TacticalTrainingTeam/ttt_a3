@@ -19,8 +19,8 @@ Interne Grundlage für Addons, mit denen sich in der Nähe eines Fahrzeugs ein O
 
 Dieses Addon hat selbst keine Einstellungen und keine Objekte, die in Missionen platziert werden können. Alles, was für Missionsbauer relevant ist, steht auf den Seiten der jeweiligen Addons:
 
-- [Mobile San-Einrichtung (Fahrzeug)](/de/mods/ttt-a3/funktional/medic-vehicle)
-- [Mobile Werkstatt](/de/mods/ttt-a3/funktional/repair-vehicle)
+- [Mobile San-Einrichtung (Fahrzeug)](/de/ttt-a3/funktional/medic-vehicle)
+- [Mobile Werkstatt](/de/ttt-a3/funktional/repair-vehicle)
 
 ## Maintainer
 

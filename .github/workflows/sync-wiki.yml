@@ -22,7 +22,7 @@ jobs:
 
       - name: Sync
         run: |
-          D=289292c3-ed42-41eb-8150-e20bf303622a/de/mods/ttt-a3
+          D=289292c3-ed42-41eb-8150-e20bf303622a/de/ttt-a3
           mkdir -p "wiki/$D"
           rsync -a --delete docs/ttt-a3/ "wiki/$D/"
           cp docs/ttt-a3.md "wiki/$D.md"

@@ -22,7 +22,7 @@ Der Screenshotmodus nutzt das [ACE User Interface Framework](https://ace3.acemod
 Standard-Tastenkombination: :block-kbd[Strg+F12]{platform="pc"} - kann über das Konfigurationsmenü geändert werden.
 
 - *ACE* und *DUI Squad Radar* werden bereits von ACE verarbeitet. *ACRE* und die Vanillaelemente werden durch die TTT-Mod ausgeblendet.
-- Der Chat wird ja bereits durch [Clear HUD](/de/mods/ttt-a3/allgemein/clearhud) ausgeblendet und nicht nochmal extra verarbeitet.
+- Der Chat wird ja bereits durch [Clear HUD](/de/ttt-a3/allgemein/clearhud) ausgeblendet und nicht nochmal extra verarbeitet.
 - *cTab* wird automatisch dabei ausgeblendet und beim erneuten Einblenden des UI wieder in seinem vorherigen Zustand geöffnet, falls es vorher offen war.
 
 ## Maintainer
