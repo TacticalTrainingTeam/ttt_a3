@@ -1,0 +1,61 @@
+---
+title: Insignien
+description: Fügt die TTT Farben als Schulterinsignien (linke Schulter) hinzu.
+published: true
+date: '2026-11-11T12:57:49.576Z'
+tags:
+  - arma3
+  - referenz
+  - pruefung-noetig
+  - ttt-mod
+editor: markdown
+dateCreated: '2026-11-06T15:01:29.000Z'
+---
+
+Fügt die TTT Farben als Schulterinsignien (linke Schulter) hinzu.
+
+## Class Names
+
+Flaggen:
+
+- `TTT_Black`
+- `TTT_Blue`
+- `TTT_Bronze`
+- `TTT_Brown`
+- `TTT_Gold`
+- `TTT_Gray`
+- `TTT_Green`
+- `TTT_Logo`
+- `TTT_Orange`
+- `TTT_Platinum`
+- `TTT_Red`
+- `TTT_Silver`
+- `TTT_Violet`
+- `TTT_White`
+- `TTT_Yellow`
+
+Abzeichen:
+
+- `TTT_black_emblem`
+- `TTT_blue_emblem`
+- `TTT_bronze_emblem`
+- `TTT_brown_emblem`
+- `TTT_gold_emblem`
+- `TTT_gray_emblem`
+- `TTT_green_emblem`
+- `TTT_logo_emblem`
+- `TTT_orange_emblem`
+- `TTT_platinum_emblem`
+- `TTT_red_emblem`
+- `TTT_silver_emblem`
+- `TTT_violet_emblem`
+- `TTT_white_emblem`
+- `TTT_yellow_emblem`
+
+## Benutzung
+
+`[this, "TTT_Blue"] call BIS_fnc_setUnitInsignia;` in der Init-Zeile einer Einheit für die große Variante. Siehe [`BIS_fnc_setUnitInsignia`](https://community.bistudio.com/wiki/BIS_fnc_setUnitInsignia)
+
+## Maintainer
+
+- Andx

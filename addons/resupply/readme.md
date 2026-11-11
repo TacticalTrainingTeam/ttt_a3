@@ -7,7 +7,7 @@ aufbauend können Missionsbauer typisierte Nachschubkisten anfordern lassen -
 (falls Zeus Enhanced geladen ist) über das ZEN-Kontextmenü, siehe
 `resupply_zen/readme.md`.
 
-Siehe die [Nutzerdokumentation](https://docs.tacticalteam.de/addons/resupply/)
+Siehe die [Nutzerdokumentation](https://wiki.tacticalteam.de/de/mods/ttt-a3/funktional/resupply)
 für Kistentypen, Einstellungen und die Nutzung durch Missionsbauer.
 
 ## Item-Klassifizierung
