@@ -8,8 +8,12 @@ on:
 
 concurrency: sync-wiki
 
+permissions:
+  contents: read
+
 jobs:
   sync:
+    if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -23,18 +27,22 @@ jobs:
       - name: Sync
         run: |
           D=289292c3-ed42-41eb-8150-e20bf303622a/de/ttt-a3
-          mkdir -p "wiki/$D"
-          rsync -a --delete docs/ttt-a3/ "wiki/$D/"
-          cp docs/ttt-a3.md "wiki/$D.md"
           cd wiki
-          git add -A "$D" "$D.md"
-          git diff --cached --quiet && exit 0
           git config user.name github-actions
           git config user.email github-actions@users.noreply.github.com
-          git commit -m "docs: sync ${GITHUB_REPOSITORY}@${GITHUB_SHA::7}"
+          # Each attempt starts from the current wiki state, so a push rejected
+          # because the wiki moved meanwhile can't turn into a rebase conflict.
           for i in 1 2 3; do
-            git pull --rebase && git push && exit 0
-            git rebase --abort 2>/dev/null || true
+            git fetch --depth=1 origin main
+            git reset --hard FETCH_HEAD
+            mkdir -p "$D"
+            rsync -a --delete ../docs/ttt-a3/ "$D/"
+            cp ../docs/ttt-a3.md "$D.md"
+            git add -A "$D" "$D.md"
+            git diff --cached --quiet && exit 0
+            git commit -m "docs: sync ${GITHUB_REPOSITORY}@${GITHUB_SHA::7}"
+            git push origin HEAD:main && exit 0
             sleep 10
           done
+          echo "::error::Push to wiki failed after 3 attempts"
           exit 1
