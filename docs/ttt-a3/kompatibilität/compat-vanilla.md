@@ -4,7 +4,6 @@ description: >-
   Verbesserungen an Zielfernrohren, Rucksäcken, Hubschraubern und 40-mm-Granaten
   aus Vanilla Arma 3.
 published: true
-date: '2026-11-12T20:00:00.320Z'
 tags:
   - arma3
   - referenz

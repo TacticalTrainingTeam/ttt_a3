@@ -2,7 +2,6 @@
 title: Compat TSP
 description: Blendet die fehlerhaften Ohrstöpsel-Aktionen von TSP aus.
 published: true
-date: '2026-11-12T19:59:59.550Z'
 tags:
   - arma3
   - referenz

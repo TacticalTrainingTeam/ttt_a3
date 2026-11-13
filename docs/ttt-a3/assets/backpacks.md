@@ -2,7 +2,6 @@
 title: Rucksäcke
 description: Enthält verschiedene Funkrucksäcke in TTT Farben.
 published: true
-date: '2026-11-12T14:11:58.789Z'
 tags:
   - arma3
   - funk

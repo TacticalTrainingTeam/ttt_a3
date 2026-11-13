@@ -2,7 +2,6 @@
 title: Screenshotmodus
 description: Blendet per Tastendruck das gesamte Interface für Screenshots aus.
 published: true
-date: '2026-11-12T19:57:17.270Z'
 tags:
   - arma3
   - referenz

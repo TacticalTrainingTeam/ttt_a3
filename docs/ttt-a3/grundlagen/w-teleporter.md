@@ -2,7 +2,6 @@
 title: Framework Teleporter
 description: Dialog, mit dem sich Spieler zu einem anderen Spieler teleportieren.
 published: true
-date: '2026-11-12T12:41:22.318Z'
 tags:
   - arma3
   - referenz

@@ -4,7 +4,6 @@ description: >-
   Macht Gebäude und Fahrzeuge unzerstörbar, Fenster und einzelne Fahrzeugteile
   bleiben zerstörbar.
 published: true
-date: '2026-11-12T12:18:40.355Z'
 tags:
   - arma3
   - missionsbauer

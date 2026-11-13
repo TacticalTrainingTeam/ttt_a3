@@ -5,7 +5,6 @@ description: >-
   Objekt (z.B. ein Sanitätszelt oder eine Werkstatt) auf- und wieder abbauen
   lässt.
 published: true
-date: '2026-11-12T12:40:17.734Z'
 tags:
   - arma3
   - referenz

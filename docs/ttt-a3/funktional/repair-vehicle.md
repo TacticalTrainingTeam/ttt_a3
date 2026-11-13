@@ -4,7 +4,6 @@ description: >-
   Bestimmte Fahrzeuge können eine Werkstatt aufbauen, die in ACE als
   Reparatureinrichtung zählt.
 published: true
-date: '2026-11-12T12:15:12.285Z'
 tags:
   - arma3
   - referenz

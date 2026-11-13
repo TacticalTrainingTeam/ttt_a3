@@ -4,7 +4,6 @@ description: >-
   Spieler können an einem Materialfahrzeug aus Einzelteilen FPV-Drohnen
   zusammenbauen.
 published: true
-date: '2026-11-12T19:58:43.504Z'
 tags:
   - arma3
   - referenz

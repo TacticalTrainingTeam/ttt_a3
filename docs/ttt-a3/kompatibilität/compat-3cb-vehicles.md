@@ -2,7 +2,6 @@
 title: Compat 3CB Vehicles
 description: Verbesserungen an Fahrzeugen aus 3CB Vehicles.
 published: true
-date: '2026-11-12T19:58:47.618Z'
 tags:
   - arma3
   - fahrzeuge

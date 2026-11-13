@@ -2,7 +2,6 @@
 title: Compat FPV
 description: Verbesserungen an FPV Ukraine Drohnen.
 published: true
-date: '2026-11-12T19:58:49.681Z'
 tags:
   - arma3
   - referenz

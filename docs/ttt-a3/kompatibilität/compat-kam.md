@@ -4,7 +4,6 @@ description: >-
   Drei Sanitätskisten für KAT Advanced Medical: San Alpha, San Bravo und San
   Charlie.
 published: true
-date: '2026-11-12T19:58:50.413Z'
 tags:
   - arma3
   - sanitaet

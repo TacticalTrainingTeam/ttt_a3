@@ -2,7 +2,6 @@
 title: TTT-Mod
 description: Arma 3 Modifikation für das Tactical Training Team
 published: true
-date: '2026-11-12T14:29:09.532Z'
 tags:
   - arma3
   - referenz

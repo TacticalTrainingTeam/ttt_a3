@@ -2,7 +2,6 @@
 title: Helme
 description: Enthält alle Helme in TTT Farben.
 published: true
-date: '2026-11-12T14:03:03.437Z'
 tags:
   - arma3
   - referenz

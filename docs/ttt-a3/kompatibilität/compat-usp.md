@@ -2,7 +2,6 @@
 title: Compat USP
 description: Behebt Fehler und enthält Verbesserungen für die USP Mod.
 published: true
-date: '2026-11-12T14:02:26.233Z'
 tags:
   - arma3
   - referenz

@@ -4,7 +4,6 @@ description: >-
   Enthält Informationen zu den verschiedenen Features und Funktionalitäten der
   TTT-Modifikation.
 published: true
-date: '2026-11-12T19:57:16.546Z'
 tags:
   - arma3
   - referenz

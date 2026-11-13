@@ -2,7 +2,6 @@
 title: Discord Rich Presence
 description: Zeigt im Discord einige Informationen über die Mission, die wir spielen, an.
 published: true
-date: '2026-11-12T12:05:26.933Z'
 tags:
   - arma3
   - referenz

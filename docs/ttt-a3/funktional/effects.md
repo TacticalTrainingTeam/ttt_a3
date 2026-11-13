@@ -2,7 +2,6 @@
 title: Umgebungseffekte
 description: Atemwolken und Sand- oder Schneesturm als Effekte für Missionen.
 published: true
-date: '2026-11-12T12:18:11.355Z'
 tags:
   - arma3
   - missionsbauer

@@ -4,7 +4,6 @@ description: >-
   Erstellt automatisch einen Marker auf der Karte, wenn ein Gebäude mit einem X
   per ACE-Sprühflasche oder Kreide markiert wurde.
 published: true
-date: '2026-11-12T19:57:17.887Z'
 tags:
   - arma3
   - referenz

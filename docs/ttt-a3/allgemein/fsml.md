@@ -2,7 +2,6 @@
 title: Full Screen Mission Loading
 description: Zeigt das Missionsladebildschirm-Bild während des Ladevorgangs in Vollbild an.
 published: true
-date: '2026-11-12T12:05:28.592Z'
 tags:
   - arma3
   - referenz

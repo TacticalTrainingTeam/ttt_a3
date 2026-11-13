@@ -4,7 +4,6 @@ description: >-
   Chat-Befehle für Admins, um die Mission zu beenden, einen Teleporter zu
   erzeugen oder das Sanitätssystem zu wechseln.
 published: true
-date: '2026-11-12T19:57:19.830Z'
 tags:
   - arma3
   - referenz

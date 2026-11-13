@@ -2,7 +2,6 @@
 title: Compat Redd'n'Tank
 description: Enthält diverse Verbesserungen und Fixes für Redd'n'Tank Fahrzeuge.
 published: true
-date: '2026-11-12T19:59:58.867Z'
 tags:
   - arma3
   - fahrzeuge

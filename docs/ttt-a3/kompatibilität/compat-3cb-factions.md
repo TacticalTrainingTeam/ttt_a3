@@ -2,7 +2,6 @@
 title: Compat 3CB Factions
 description: Verbesserungen von Gegenständen aus 3CB Factions.
 published: true
-date: '2026-11-12T19:58:47.008Z'
 tags:
   - arma3
   - referenz

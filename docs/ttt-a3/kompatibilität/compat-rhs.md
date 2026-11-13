@@ -4,7 +4,6 @@ description: >-
   Passt RHS-Ausrüstung an Vanilla-Werte an und lässt 40-mm-Rauchgranaten nicht
   mehr springen.
 published: true
-date: '2026-11-12T12:42:01.077Z'
 tags:
   - arma3
   - referenz

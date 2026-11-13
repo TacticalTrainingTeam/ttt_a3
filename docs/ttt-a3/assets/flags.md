@@ -2,7 +2,6 @@
 title: Flaggen
 description: Enthält trag- und platzierbare Flaggen für alle Truppfarben.
 published: true
-date: '2026-11-12T14:14:46.502Z'
 tags:
   - arma3
   - referenz

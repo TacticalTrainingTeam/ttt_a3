@@ -4,7 +4,6 @@ description: >-
   Skriptfunktionen des Common-Addons für Missionsbauer: Kisten befüllen, Intel,
   Verstärkung, Flak-Feuer und KI-Fähigkeiten.
 published: true
-date: '2026-11-12T14:01:04.556Z'
 tags:
   - arma3
   - missionsbauer

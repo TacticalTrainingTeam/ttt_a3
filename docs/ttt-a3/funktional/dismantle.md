@@ -4,7 +4,6 @@ description: >-
   Spieler mit Werkzeug und Befähigung können bestimmte Objekte wie Panzersperren
   zerlegen.
 published: true
-date: '2026-11-12T19:58:42.889Z'
 tags:
   - arma3
   - referenz

@@ -4,7 +4,6 @@ description: >-
   Feindliche KI in einem Bereich kapituliert, wenn sie deutlich in Unterzahl
   ist.
 published: true
-date: '2026-11-12T22:20:06.720Z'
 tags:
   - arma3
   - missionsbauer

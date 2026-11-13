@@ -2,7 +2,6 @@
 title: Common – Objekte
 description: Kisten, Kompositionen, Fortify-Presets, TTT PAK und Bilder des Common-Addons.
 published: true
-date: '2026-11-12T19:57:20.464Z'
 tags:
   - arma3
   - missionsbauer

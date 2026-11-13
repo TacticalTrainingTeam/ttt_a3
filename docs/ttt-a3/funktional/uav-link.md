@@ -4,7 +4,6 @@ description: >-
   Lässt das Videobild eines UAV mit zunehmender Entfernung des Operators
   verschlechtern und die Verbindung bei zu großer Distanz vollständig abbrechen.
 published: true
-date: '2026-11-12T19:58:45.580Z'
 tags:
   - arma3
   - luftfahrzeuge

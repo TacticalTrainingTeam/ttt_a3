@@ -4,7 +4,6 @@ description: >-
   Fügt dem Hauptmenü eine Kachel hinzu, die direkt auf den TTT-RHS-Server
   verbindet.
 published: true
-date: '2026-11-12T12:06:06.668Z'
 tags:
   - arma3
   - referenz

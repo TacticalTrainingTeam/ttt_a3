@@ -2,7 +2,6 @@
 title: Clear HUD
 description: Blendet den Chat im Multiplayer standardmäßig aus.
 published: true
-date: '2026-11-12T12:05:26.071Z'
 tags:
   - arma3
   - referenz

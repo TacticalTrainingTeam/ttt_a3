@@ -2,7 +2,6 @@
 title: RsR
 description: Bundeswehr-Varianten von Vanilla- und Mod-Fahrzeugen.
 published: true
-date: '2026-11-12T19:57:19.186Z'
 tags:
   - arma3
   - referenz

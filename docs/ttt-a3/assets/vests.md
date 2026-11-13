@@ -2,7 +2,6 @@
 title: Westen
 description: Enthält Westen in allen TTT Farben.
 published: true
-date: '2026-11-12T14:11:35.714Z'
 tags:
   - arma3
   - referenz

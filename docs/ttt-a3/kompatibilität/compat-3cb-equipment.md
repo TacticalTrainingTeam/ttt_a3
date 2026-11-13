@@ -2,7 +2,6 @@
 title: Compat 3CB Equipment
 description: Verbesserungen von Gegenständen aus 3CB Equipment.
 published: true
-date: '2026-11-12T19:58:46.302Z'
 tags:
   - arma3
   - referenz

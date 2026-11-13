@@ -4,7 +4,6 @@ description: >-
   Fügt cTab Advanced vier Nachrichtenvorlagen hinzu: 9-Liner MedEvac, TTT
   5-Liner, FDCB und CAS 9-Liner.
 published: true
-date: '2026-11-12T19:57:15.883Z'
 tags:
   - arma3
   - referenz

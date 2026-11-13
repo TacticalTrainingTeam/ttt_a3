@@ -2,7 +2,6 @@
 title: Uniformen
 description: Enthält Uniformen in allen TTT Farben.
 published: true
-date: '2026-11-12T14:11:43.587Z'
 tags:
   - arma3
   - referenz

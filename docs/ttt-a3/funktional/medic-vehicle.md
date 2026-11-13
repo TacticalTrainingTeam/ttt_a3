@@ -4,7 +4,6 @@ description: >-
   Bestimmte Fahrzeuge können ein Sanitätszelt aufbauen, das in ACE als
   medizinische Einrichtung zählt.
 published: true
-date: '2026-11-12T12:15:11.697Z'
 tags:
   - arma3
   - sanitaet

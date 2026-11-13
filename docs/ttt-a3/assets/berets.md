@@ -2,7 +2,6 @@
 title: Barette
 description: Enthält Barette in allen TTT Farben.
 published: true
-date: '2026-11-12T14:00:44.252Z'
 tags:
   - arma3
   - referenz

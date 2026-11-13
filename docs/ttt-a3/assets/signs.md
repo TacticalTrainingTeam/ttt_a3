@@ -2,7 +2,6 @@
 title: Schilder
 description: Enthält Flaggen und Schilder in TTT Farben.
 published: true
-date: '2026-11-12T14:11:50.671Z'
 tags:
   - arma3
   - referenz

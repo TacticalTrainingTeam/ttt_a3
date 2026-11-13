@@ -2,7 +2,6 @@
 title: Konterartillerie
 description: Lässt feindliche Artillerie auf das Feuer der eigenen Artillerie reagieren.
 published: true
-date: '2026-11-12T22:19:45.004Z'
 tags:
   - arma3
   - missionsbauer

@@ -2,7 +2,6 @@
 title: Compat ACRE
 description: Verbesserungen von Funktionen und Gegenständen aus ACRE2.
 published: true
-date: '2026-11-12T19:58:48.274Z'
 tags:
   - arma3
   - funk

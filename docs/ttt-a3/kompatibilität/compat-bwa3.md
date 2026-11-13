@@ -2,7 +2,6 @@
 title: Compat BWMod
 description: Verbesserungen von Fahrzeugen aus der BWMod.
 published: true
-date: '2026-11-12T19:58:48.944Z'
 tags:
   - arma3
   - fahrzeuge

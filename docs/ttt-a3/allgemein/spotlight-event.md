@@ -4,7 +4,6 @@ description: >-
   Fügt dem Hauptmenü eine Kachel hinzu, die direkt auf den TTT-Event-Server
   verbindet.
 published: true
-date: '2026-11-12T14:12:12.074Z'
 tags:
   - arma3
   - referenz

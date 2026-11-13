@@ -4,7 +4,6 @@ description: >-
   Stellt am Respawn eine TTT-Flagge mit Teleport und Zuschauerkamera bereit und
   bringt JIP-Spieler dorthin.
 published: true
-date: '2026-11-12T12:41:22.573Z'
 tags:
   - arma3
   - referenz

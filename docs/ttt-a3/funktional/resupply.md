@@ -4,7 +4,6 @@ description: >-
   Nachschubkisten, die mit der Ausrüstung gefüllt werden, die die Spieler zu
   Missionsbeginn dabeihaben.
 published: true
-date: '2026-11-12T19:58:44.188Z'
 tags:
   - arma3
   - logistik

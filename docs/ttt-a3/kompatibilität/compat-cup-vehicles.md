@@ -2,7 +2,6 @@
 title: Compat CUP Fahrzeuge
 description: Verbesserungen von Fahrzeugen aus CUP Vehicles.
 published: true
-date: '2026-11-12T12:11:34.113Z'
 tags:
   - arma3
   - fahrzeuge

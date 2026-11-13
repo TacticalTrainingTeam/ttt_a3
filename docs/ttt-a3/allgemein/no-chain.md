@@ -4,7 +4,6 @@ description: >-
   Blendet die rote und gelbe Kette aus, die Arma 3 bei schlechter Verbindung
   oder Desync anzeigt.
 published: true
-date: '2026-11-12T12:05:29.469Z'
 tags:
   - arma3
   - referenz

@@ -4,7 +4,6 @@ description: >-
   Beinhaltet grundlegende Komponenten und Konfigurationen, auf die andere Addons
   der TTT-Modifikation aufbauen.
 published: true
-date: '2026-11-12T14:11:20.315Z'
 tags:
   - arma3
   - referenz

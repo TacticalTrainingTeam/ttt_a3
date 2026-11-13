@@ -4,7 +4,6 @@ description: >-
   TTT-Addons, auf denen andere Addons aufbauen und die nicht allein genutzt
   werden.
 published: true
-date: '2026-11-12T12:44:46.005Z'
 tags: []
 editor: markdown
 dateCreated: '2026-11-12T12:22:54.800Z'

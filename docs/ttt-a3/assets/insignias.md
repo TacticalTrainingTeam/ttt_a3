@@ -2,7 +2,6 @@
 title: Insignien
 description: Fügt die TTT Farben als Schulterinsignien (linke Schulter) hinzu.
 published: true
-date: '2026-11-12T19:57:18.564Z'
 tags:
   - arma3
   - referenz

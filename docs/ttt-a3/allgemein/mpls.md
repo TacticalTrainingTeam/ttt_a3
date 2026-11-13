@@ -4,7 +4,6 @@ description: >-
   Speichert regelmäßig das Loadout jedes Spielers und gibt es bei Respawn und
   Wiederbeitritt zurück.
 published: true
-date: '2026-11-12T12:38:38.741Z'
 tags:
   - arma3
   - referenz

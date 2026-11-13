@@ -4,7 +4,6 @@ description: >-
   Setzt beim Missionsstart die TTT-CBA-Einstellungen und lässt in der Lobby
   eines von drei Sanitätssystemen wählen.
 published: true
-date: '2026-11-12T19:58:44.894Z'
 tags:
   - arma3
   - sanitaet
