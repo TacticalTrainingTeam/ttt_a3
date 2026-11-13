@@ -57,7 +57,7 @@ Wenn Du zu diesem Projekt beitragen möchtest, bespreche bitte zuerst die Änder
 
 Eine Code-Änderung ist erst fertig, wenn die zugehörigen Dateien im selben PR mit aktualisiert wurden. Bitte vor dem Review (egal ob Mensch oder LLM) prüfen:
 
-- **[docs/](docs)** — die betroffene Seite anpassen, falls sich Verhalten, Einstellungen oder Nutzung ändern.
+- **[docs/ttt-a3/](../docs/ttt-a3)** — die betroffene Seite anpassen, falls sich Verhalten, Einstellungen oder Nutzung ändern. Die Doku wird nach dem Merge automatisch ins [Wiki](https://wiki.tacticalteam.de/ttt-a3) gespiegelt.
 - **PR-Beschreibung** — die Änderung klar beschreiben, da die Release Notes daraus erstellt werden.
 
 ## Anmerkungen

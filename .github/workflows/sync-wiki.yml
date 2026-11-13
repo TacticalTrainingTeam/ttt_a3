@@ -1,0 +1,48 @@
+name: Sync docs to wiki
+
+on:
+  push:
+    branches: [master]
+    paths: ['docs/ttt-a3.md', 'docs/ttt-a3/**']
+  workflow_dispatch:
+
+concurrency: sync-wiki
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    if: github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/checkout@v7
+        with:
+          repository: TacticalTrainingTeam/wiki.tacticalteam.de
+          ssh-key: ${{ secrets.WIKI_DEPLOY_KEY }}
+          path: wiki
+
+      - name: Sync
+        run: |
+          D=289292c3-ed42-41eb-8150-e20bf303622a/de/ttt-a3
+          cd wiki
+          git config user.name github-actions
+          git config user.email github-actions@users.noreply.github.com
+          # Each attempt starts from the current wiki state, so a push rejected
+          # because the wiki moved meanwhile can't turn into a rebase conflict.
+          for i in 1 2 3; do
+            git fetch --depth=1 origin main
+            git reset --hard FETCH_HEAD
+            mkdir -p "$D"
+            rsync -a --delete ../docs/ttt-a3/ "$D/"
+            cp ../docs/ttt-a3.md "$D.md"
+            git add -A "$D" "$D.md"
+            git diff --cached --quiet && exit 0
+            git commit -m "docs: sync ${GITHUB_REPOSITORY}@${GITHUB_SHA::7}"
+            git push origin HEAD:main && exit 0
+            sleep 10
+          done
+          echo "::error::Push to wiki failed after 3 attempts"
+          exit 1
