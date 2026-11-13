@@ -1,253 +1,133 @@
 ---
 title: Nachschub
 description: >-
-  Scannt bei Missionsstart die Ausrüstung aller Spieler und baut daraus pro
-  Kategorie eine Item-Datenbank auf (gemittelt pro Gruppe mit Spielern).
+  Nachschubkisten, die mit der Ausrüstung gefüllt werden, die die Spieler zu
+  Missionsbeginn dabeihaben.
 published: true
-date: '2026-11-11T13:03:04.804Z'
+date: '2026-11-12T19:58:44.188Z'
 tags:
   - arma3
   - logistik
   - referenz
-  - pruefung-noetig
   - ace
   - ttt-mod
+  - missionsbauer
 editor: markdown
 dateCreated: '2026-11-06T15:01:29.000Z'
 ---
 
-Scannt bei Missionsstart die Ausrüstung aller Spieler und baut daraus pro
-Kategorie eine Item-Datenbank auf (gemittelt pro Gruppe mit Spielern). Darauf
-aufbauend können Missionsbauer typisierte Nachschubkisten anfordern lassen -
-über eine ACE-Aktion an vorplatzierten Depot-Objekten, über Zeus-Module oder
-(mit Zeus Enhanced) direkt über das Zeus-Kontextmenü.
+<div class="compat-box">
+  <a href="/Wiki-Ampel-System" class="compat-label">Kompatibilität</a>
+  <a href="/_tags?t=arma3"><span class="compat-badge compat-green">Arma 3</span></a>
+  <a href="/_tags?t=armareforger"><span class="compat-badge compat-red">Reforger</span></a>
+</div>
+
+::block-infobox{name="Nachschub"}
+```yaml
+Ansprechpartner: "Andx (Discord: andx)"
+```
+::
+
+[Nachschubkisten](/de/missionsbau/nachschubkisten), die mit der Ausrüstung gefüllt werden, die die Spieler zu Missionsbeginn dabeihaben. Angefordert werden sie an einem Depot, per Zeus oder per Skript.
+
+# Benutzung
 
 ## Kistentypen
 
-| Typ | Kistenklasse (NATO-Standard) | Inhalt |
-| --- | --- | --- |
-| **Munition** | `Box_NATO_Ammo_F` | Gewehr-/Pistolenmagazine |
-| **Granaten** | `Box_NATO_Grenades_F` | Handgranaten, Rauchgranaten, Leuchtsignale, Unterlaufgranaten |
-| **Panzerabwehr** | `Box_NATO_WpsLaunch_F` | Raketen-/Lenkflugkörpermunition, sowie bei Bedarf neue Abschussrohre für echte Einwegwaffen (z. B. die Panzerfaust 3 aus BWA3) |
-| **Sprengstoff** | `Box_NATO_AmmoOrd_F` | Minen, Sprengladungen, Haftladungen |
-| **Support** | `Box_NATO_Support_F` | Sonstige Ausrüstung (Batterien, Kabelbinder, etc.), ohne Sanitätsmaterial - dafür gibt es die Sanitätskisten |
-| **Medic Alpha** | `ttt_common_sana_crate` | Basis-Sanitätsausrüstung (fest vorgegeben durch /common) |
-| **Medic Bravo** | `ttt_common_sanb_crate` | Erweiterte Sanitätsausrüstung (fest vorgegeben durch /common) |
-| **Medic Charlie** | `ttt_common_sanc_crate` | Vollständige Sanitätsausrüstung (fest vorgegeben durch /common) |
+5 Sekunden nach Missionsstart liest der Server die Ausrüstung aller Spieler ein und mittelt sie pro Gruppe. Daraus werden die Kisten befüllt.
 
-Die dynamischen Kisten (Munition bis Support) werden aus der gescannten
-Datenbank befüllt. Hatte kein Spieler etwas aus einer Kategorie dabei (z. B.
-keine Panzerabwehrmunition), wird diese Kiste gar nicht erst gespawnt, und wer
-sie angefordert hat (Spieler oder Zeus), bekommt einen Hinweis, warum nicht.
-Sanitätskisten spawnen dagegen immer mit den fest vorgegebenen TTT-Common-Klassen.
+| Typ | Inhalt |
+| --- | --- |
+| Munitionskiste | Gewehr- und Pistolenmagazine |
+| Granatenkiste | Hand-, Rauch-, Leucht- und Unterlaufgranaten |
+| Panzerabwehrkiste | Raketen und Lenkflugkörper, bei echten Einwegwaffen auch neue Abschussrohre |
+| Sprengstoffkiste | [Minen](/de/handbuch/kampfunterstützungskräfte/pioniere/minen) und Sprengladungen |
+| Ausrüstungskiste | Sonstiges wie Batterien und Kabelbinder, ohne Sanitätsmaterial |
+| Sanitätskiste Alpha, Bravo, Charlie | Fester Inhalt aus [Common – Objekte](/de/ttt-a3/funktional/common/objects), mit KAT die Kisten aus [Compat KAM](/de/ttt-a3/kompatibilit%C3%A4t/compat-kam) |
 
-Bei der Panzerabwehr-Kiste bekommen nur echte Einwegwaffen (bei denen die
-ganze Waffe beim Abfeuern verloren geht, z. B. aus manchen Waffen-Mods) ein
-neues Abschussrohr dazu. Waffen wie die Carl Gustaf, die zwar meist nur mit einer
-Rakete ausgegeben werden, sich aber technisch nachladen lassen, bekommen wie
-gewohnt nur neue Munition.
+Hatte kein Spieler etwas aus einer Kategorie dabei, gibt es diese Kiste nicht. Wer sie anfordert, bekommt einen Hinweis. JIP-Spieler und spätere Umrüstungen sind nicht erfasst, dafür kann die Datenbank neu aufgebaut werden (Zeus oder Skript).
 
-Im ACE-Menü werden dynamische Kistentypen komplett ausgeblendet (statt sie
-anzuzeigen und dann fehlschlagen zu lassen), solange der Ausrüstungs-Scan noch
-läuft, bzw. sobald er fertig ist, wenn die jeweilige Kategorie leer geblieben
-ist. Sanitätskisten werden immer angezeigt. Ein erfolgreicher Spawn wird dem
-Anfordernden ebenso bestätigt wie ein Fehlschlag gemeldet wird.
+## Depot
 
-Ist **KAT Advanced Medical** (`kat_main`) geladen, spawnen die Sanitätskisten
-automatisch die entsprechenden `/compat_kam`-Varianten
-(`ttt_compat_kam_sana_crate`, `_sanb_crate`, `_sanc_crate`) - Missionsbauer
-müssen beim Wechsel des Sanitätsmods also nichts anpassen.
+Ein Objekt wird zum Depot, entweder in den Attributen unter **TTT - Resupply** mit dem Häkchen **Nachschub-Depot** oder in seiner Init:
 
-> [!NOTE]
-> Der Scan läuft 5 Sekunden nach Missionsstart. JIP-Spieler werden dabei nicht erfasst.
-> Wer später dazukommt oder sich umrüstet, kann per Script-API (siehe unten) einen
-> neuen Scan auslösen.
-
-## Spawnposition der Kiste
-
-Gilt gleichermaßen für die ACE-Aktion an Depot-Objekten, für Zeus-Module und
-für das ZEN-Kontextmenü, da alle drei intern dieselbe Funktion zum Erstellen
-der Kiste nutzen.
-
-Standardmäßig sucht sich die Kiste einen freien Platz im Umkreis von 10 m um
-das Depot bzw. den Zeus-Modul-Standort - je nach Umgebung kann das an
-wechselnden, manchmal ungünstigen Stellen landen (z. B. hinter einer Wand
-oder in einer Ecke).
-
-Für eine vorhersagbare, immer gleichbleibende Position ein Objekt der unter
-[CBA-Einstellungen](#cba-einstellungen) konfigurierten Klasse (standardmäßig
-`VR_Area_01_square_2x2_yellow_F`, eine gelbe 2x2-Fläche) im Umkreis von 10 m
-um das Depot platzieren:
-
-- Ist die Fläche frei, spawnt die Kiste immer exakt dort.
-- Steht dort bereits eine andere Kiste, wird **keine neue Kiste gespawnt** -
-  auch nicht ersatzweise an einer zufälligen Stelle. Wer sie angefordert
-  hat, bekommt stattdessen einen Hinweis, dass der Platz belegt ist. So
-  bleibt die Position wirklich vorhersagbar, statt bei Belegung unbemerkt
-  wieder zufällig auszuweichen.
-- Ist keine solche Fläche in der Nähe, gilt weiterhin die zufällige
-  Platzsuche wie oben beschrieben.
-
-> [!WARNING]
-> Das ACE-Menü blendet den Kistentyp nicht aus, nur weil der Platz auf der
-> Fläche gerade belegt ist - es prüft nur, ob überhaupt etwas zum Befüllen
-> da ist bzw. ob das Depot-Limit erreicht ist. Ist die Fläche belegt,
-> erscheint die Aktion also weiterhin, schlägt beim Auslösen aber mit
-> obigem Hinweis fehl.
-
-> [!NOTE]
-> Für Zeus-Module und das ZEN-Kontextmenü gilt die Belegungssperre nicht:
-> Steht zufällig eine solche Fläche in der Nähe der gewählten Position
-> (Modul-Position bzw. Klickposition) und ist sie belegt, weicht die Kiste
-> stattdessen auf einen zufälligen freien Platz in der Nähe aus, statt gar
-> nicht zu spawnen. Beide markieren schließlich selbst schon die gewünschte
-> Position - eine zufällig in der Nähe stehende Fläche eines anderen
-> Depots ist in dem Fall Zufall, nicht Absicht.
-
-## CBA-Einstellungen
-
-``` c++
-force ttt_resupply_faction = 0;              //default: 0; (0 = NATO, 1 = OPFOR, 2 = INDEP)
-force ttt_resupply_quantityMultiplier = 1.0; //default: 1.0; (0.5-5.0)
-force ttt_resupply_spawnPointClass = "VR_Area_01_square_2x2_yellow_F"; //default: "VR_Area_01_square_2x2_yellow_F"
-```
-
-Es gibt keinen zentralen Ein-/Ausschalter. Das ACE-Menü erscheint nur an
-Objekten, die mit `ttt_resupply_container` markiert wurden (bewusste
-Entscheidung des Missionsbauers), Zeus-Module stehen Curatoren dagegen immer
-zur Verfügung.
-
-## Nutzung für Missionsbauer
-
-### ACE-Aktion an einem Depot-Objekt
-
-Im **Init**-Feld des Objekts:
-
-``` c++
+```sqf
 this setVariable ["ttt_resupply_container", true];
 ```
 
-Spieler sehen am Objekt ein **Resupply**-Untermenü mit allen acht Kistentypen.
+Spieler finden am Depot in der ACE-Interaktion das Menü **Nachschub** mit allen Kistentypen. Kisten, die gerade nicht verfügbar sind, werden ausgeblendet.
 
-Wo die Kiste dabei genau spawnt, siehe
-[Spawnposition der Kiste](#spawnposition-der-kiste) weiter oben.
+Optional lässt sich pro Depot begrenzen, wie oft ein Typ ausgegeben wird (nur über die Init):
 
-### 3DEN-Attribut
-
-Alternativ zum Init-Feld findet ihr im 3DEN-Editor in den Attributen des Objekts im Abschnitt
-`TTT - Resupply` eine Checkbox `Resupply Depot`. Ist sie aktiviert, ist das Objekt beim
-Missionsstart ein Nachschub-Depot - identisch zum obigen Init-Eintrag, nur ohne selbst Code
-schreiben zu müssen. Wird das Häkchen wieder entfernt, ist das Objekt beim nächsten Missionsstart
-kein Depot mehr.
-
-> [!NOTE]
-> Das Attribut setzt beim Missionsstart nur `ttt_resupply_container`, nicht
-> `ttt_resupply_limits` - ein Kistenlimit pro Depot lässt sich weiterhin nur über das Init-Feld
-> wie unten beschrieben konfigurieren.
-
-#### Kistenlimit pro Depot (optional)
-
-Standardmäßig kann ein Depot jeden Kistentyp beliebig oft ausgeben. Um das zu
-begrenzen, zusätzlich im **Init**-Feld:
-
-``` c++
-this setVariable ["ttt_resupply_container", true];
+```sqf
 this setVariable ["ttt_resupply_limits", [["ammo", 3], ["at", 1]]];
 ```
 
-`ttt_resupply_limits` ist eine Liste aus `[Typ, Maximalanzahl]`-Paaren. Gültige
-Typen sind `"ammo"`, `"grenades"`, `"at"`, `"explosives"`, `"support"`,
-`"medical_alpha"`, `"medical_bravo"` und `"medical_charlie"` - dieselben, die
-auch die Script-API weiter unten verwendet. Nicht aufgeführte Typen bleiben
-unbegrenzt. Ist ein Typ an diesem Depot aufgebraucht, wird die zugehörige
-Aktion dort ausgeblendet - genau wie bei einer leeren Kategorie. Das Limit
-gilt nur für die ACE-Aktion an Depot-Objekten, nicht für per Zeus-Modul
-platzierte Kisten.
+Typen: `"ammo"`, `"grenades"`, `"at"`, `"explosives"`, `"support"`, `"medical_alpha"`, `"medical_bravo"`, `"medical_charlie"`. Nicht aufgeführte Typen sind unbegrenzt.
 
-Die Erfolgsmeldung beim Spawnen nennt zusätzlich die verbleibende Anzahl an
-diesem Depot (z. B. "Ammo Box spawned (2 left)"), oder "unlimited", wenn für
-den Typ kein Limit gesetzt wurde.
+## Wo die Kiste erscheint
 
-### Zeus-Module
+Die Kiste sucht sich einen freien Platz im Umkreis von 10 m. Für einen festen Platz eine gelbe 2x2-Fläche (`VR_Area_01_square_2x2_yellow_F`) im Umkreis von 10 m um das Depot legen. Die Kiste erscheint dann immer dort. Steht dort schon eine Kiste, wird am Depot keine neue erzeugt. Zeus weicht in dem Fall auf einen freien Platz aus.
 
-Im Zeus-Interface unter **Unterstützung**. Es stehen acht Module zur
-Verfügung, eins pro Kistentyp. Das Platzieren eines Moduls spawnt die
-entsprechende Kiste in der Nähe (siehe
-[Spawnposition der Kiste](#spawnposition-der-kiste) weiter oben) und entfernt
-anschließend die Modul-Logik.
+## Zeus
 
-Diese Module sind reine Zeus-Module: Sie sind bewusst im klassischen
-2D-Missionseditor und in 3DEN ausgeblendet (eine Nachschubkiste im Voraus zu
-platzieren ergibt keinen Sinn - Missionsbauer sollten stattdessen ein
-Depot-Objekt mit der ACE-Aktion oder die Script-API nutzen).
+- **Module:** Unter **Unterstützung** gibt es ein Modul pro Kistentyp. Die Kiste erscheint am Modul.
+- **Kontextmenü** (mit Zeus Enhanced): Rechtsklick öffnet **TTT - Nachschub**.
+  - Auf leerem Boden: alle Kistentypen und **Nachschub-Datenbank neu aufbauen**
+  - Auf einem Objekt: **Als Nachschub-Depot markieren** bzw. **Nachschub-Depot-Markierung entfernen**
 
-### ZEN-Kontextmenü
+# Einstellungen
 
-Ist [Zeus Enhanced](https://zen-mod.github.io/ZEN/) geladen, steht im
-Rechtsklick-Kontextmenü im Zeus-Interface zusätzlich ein
-**Nachschub**-Untermenü zur Verfügung. Was darin angezeigt wird, hängt davon
-ab, ob dabei gerade ein Objekt anvisiert ist:
+Zu finden unter **Addon-Optionen > Tactical Training Team > Nachschub**.
 
-- **Leerer Boden anvisiert**: alle acht Kistentypen - schneller als eines
-  der Module aus dem Support-Menü zu suchen und zu platzieren. Die Kiste
-  spawnt dabei in der Nähe der angeklickten Position, mit demselben
-  Verhalten wie oben bei den Zeus-Modulen beschrieben (inkl. Ausweichen bei
-  belegter fester Spawnposition). Nicht verfügbare Kistentypen (leere
-  Kategorie oder Datenbank noch nicht bereit) werden im Menü ausgeblendet.
-- **Objekt anvisiert**: **Als Nachschub-Depot markieren** bzw.
-  **Nachschub-Depot-Markierung entfernen** - je nachdem, ob das Objekt
-  bereits ein Depot ist, wird nur die jeweils zutreffende Option angezeigt.
-  Das markiert bzw. entmarkiert das Objekt live während der laufenden
-  Mission (identisch zum `ttt_resupply_container`-Init-Eintrag oben), ohne
-  die Mission dafür neu zu bauen, sodass Spieler dort sofort das
-  ACE-Resupply-Menü sehen bzw. nicht mehr sehen. Ein per Init-Feld gesetztes
-  `ttt_resupply_limits` bleibt beim Entmarkieren unangetastet und greift
-  wieder, falls das Objekt später erneut markiert wird.
+| Einstellung | Standard | Beschreibung |
+| --- | --- | --- |
+| `ttt_resupply_faction` | `0` | Kistenmodelle: 0 = NATO, 1 = OPFOR, 2 = INDEP |
+| `ttt_resupply_quantityMultiplier` | `1.0` | Mengenmultiplikator (0.5 bis 5.0) |
+| `ttt_resupply_spawnPointClass` | `"VR_Area_01_square_2x2_yellow_F"` | Objekt, das den festen Platz für Kisten markiert |
 
-Auf leerem Boden gibt es außerdem **Nachschub-Datenbank neu aufbauen**: Das
-liest die Ausrüstung aller aktuell anwesenden Spieler neu ein, z. B. nachdem
-Spieler nachgejoint sind oder sich umgerüstet haben. Bis der neue Scan fertig
-ist, bleibt die alte Datenbank nutzbar.
+# Funktionen
 
-Die Kistentypen und die Depot-Markierung erscheinen also nie im selben Menü -
-je nachdem, worauf gerade gezeigt wird, ist immer nur die eine oder die
-andere Gruppe sichtbar.
+Beide Funktionen sind auf jedem Rechner aufrufbar.
 
-Diese Optionen benötigen kein Setup durch den Missionsbauer - sie erscheinen
-automatisch, sobald Zeus Enhanced als Mod geladen ist.
+## `ttt_resupply_fnc_spawnCrate`
 
-### Script-API
+Erzeugt eine Nachschubkiste in der Nähe einer Position oder eines Objekts.
 
-``` c++
-// Funktion muss auf dem Server ausgeführt werden, also z. B. in der initServer.sqf
-
-// Sanitätskisten sind sofort verfügbar (fest befüllt, keine Datenbank nötig)
+```sqf
 [getPos myMarker, "medical_alpha"] call ttt_resupply_fnc_spawnCrate;
-[getPos myMarker, "medical_bravo"] call ttt_resupply_fnc_spawnCrate;
-[getPos myMarker, "medical_charlie"] call ttt_resupply_fnc_spawnCrate;
 
-// Alle anderen Typen brauchen die aus den Spieler-Loadouts gebaute Datenbank.
-// Statt eine feste Wartezeit zu raten, auf das "ttt_resupply_dbReady"-Event warten,
-// das der Server auslöst, sobald der Loadout-Scan abgeschlossen ist:
+// Dynamische Kisten erst, wenn die Datenbank fertig ist
 ["ttt_resupply_dbReady", {
-    // An einer Weltposition spawnen
-    [getPos myMarker, "ammo"] call ttt_resupply_fnc_spawnCrate;
-    [getPos myMarker, "grenades"] call ttt_resupply_fnc_spawnCrate;
-    [getPos myMarker, "at"] call ttt_resupply_fnc_spawnCrate;
-    [getPos myMarker, "explosives"] call ttt_resupply_fnc_spawnCrate;
-    [getPos myMarker, "support"] call ttt_resupply_fnc_spawnCrate;
-
-    // Neben einem bestehenden Objekt spawnen
     [supplyDepot, "ammo"] call ttt_resupply_fnc_spawnCrate;
 }] call CBA_fnc_addEventHandler;
+```
 
-// Datenbank neu aufbauen, z. B. nachdem Spieler nachgejoint sind oder sich
-// umgerüstet haben. Funktioniert auf Server und Clients. Bis der neue Scan
-// fertig ist, bleibt die alte Datenbank nutzbar; danach wird
-// "ttt_resupply_dbReady" auf dem Server erneut ausgelöst.
+| # | Argument | Typ | Optional | Standard |
+| - | --- | --- | --- | --- |
+| 0 | Position oder Objekt, in dessen Nähe die Kiste erscheint | ARRAY oder OBJECT | Nein | - |
+| 1 | Kistentyp, siehe oben | STRING | Nein | - |
+| 2 | Netzwerk-ID, die bei einem Fehler benachrichtigt wird | NUMBER | Ja | `-1` |
+| 3 | Hinweis als Zeus-Nachricht statt als Hint | BOOL | Ja | `false` |
+| 4 | Depot, dessen Limit geprüft und verbraucht wird | OBJECT | Ja | `objNull` |
+| 5 | Bei belegter Fläche auf einen freien Platz ausweichen | BOOL | Ja | `false` |
+
+Rückgabewert: OBJECT, die Kiste oder `objNull` bei einem Fehler
+
+## `ttt_resupply_fnc_rebuildDatabase`
+
+Liest die Ausrüstung aller anwesenden Spieler neu ein, z.B. nach JIP. Bis der neue Scan fertig ist, gilt die alte Datenbank.
+
+```sqf
 [] call ttt_resupply_fnc_rebuildDatabase;
 ```
 
-## Maintainer
+Argumente: keine
 
-- Andx
+Rückgabewert: keiner
+
+# Events
+
+| Event | Wann | Parameter | Lokalität |
+| --- | --- | --- | --- |
+| `ttt_resupply_dbReady` | Die Datenbank ist fertig aufgebaut, auch nach einem Neuaufbau | keine | Server |

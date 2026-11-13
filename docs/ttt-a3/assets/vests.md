@@ -2,54 +2,46 @@
 title: Westen
 description: Enthält Westen in allen TTT Farben.
 published: true
-date: '2026-11-11T12:56:51.265Z'
+date: '2026-11-12T14:11:35.714Z'
 tags:
   - arma3
   - referenz
-  - pruefung-noetig
   - ttt-mod
 editor: markdown
 dateCreated: '2026-11-06T15:01:29.000Z'
 ---
 
-Enthält Westen in allen TTT Farben. Es gibt eine leichte, eine schwere und eine Weste für Hubschrauber- oder Fahrzeugbesatzungen.
+<div class="compat-box">
+  <a href="/Wiki-Ampel-System" class="compat-label">Kompatibilität</a>
+  <a href="/_tags?t=arma3"><span class="compat-badge compat-green">Arma 3</span></a>
+  <a href="/_tags?t=armareforger"><span class="compat-badge compat-red">Reforger</span></a>
+</div>
 
-## Class Names
+::block-infobox{name="Westen"}
+```yaml
+Ansprechpartner: "Andx (Discord: andx)"
+```
+::
 
-### Leichte Westen
+Leichte und schwere Westen in TTT-Farben sowie Westen für Fahrzeug- und Hubschrauberbesatzungen.
 
-- `ttt_vests_Lite_Yellow_US_Desert`
-- `ttt_vests_Lite_Green_US_Desert`
-- `ttt_vests_Lite_Brown_US_Desert`
-- `ttt_vests_Lite_Blue_US_Desert`
-- `ttt_vests_Lite_Red_US_Desert`
-- `ttt_vests_Lite_Black_US_Desert`
-- `ttt_vests_Lite_Violet_US_Desert`
-- `ttt_vests_Lite_Gold_US_Desert`
-- `ttt_vests_Lite_Grey_US_Desert`
-- `ttt_vests_Lite_Orange_US_Desert`
+# Benutzung
 
-### Schwere Westen
+Im Arsenal unter Westen oder per Klassenname im Loadout. Die alten Namen `ttt_Vest_*` funktionieren für bestehende Missionen weiter, sollten in neuen aber nicht mehr verwendet werden.
 
-- `ttt_vests_Heavy_Yellow_US_Desert`
-- `ttt_vests_Heavy_Green_US_Desert`
-- `ttt_vests_Heavy_Brown_US_Desert`
-- `ttt_vests_Heavy_Blue_US_Desert`
-- `ttt_vests_Heavy_Red_US_Desert`
-- `ttt_vests_Heavy_Black_US_Desert`
-- `ttt_vests_Heavy_Violet_US_Desert`
-- `ttt_vests_Heavy_Gold_US_Desert`
-- `ttt_vests_Heavy_Grey_US_Desert`
-- `ttt_vests_Heavy_Orange_US_Desert`
+# Klassennamen
 
-### Besatzungswesten
+## Leichte und schwere Westen
+
+Für `Farbe` eine der Farben einsetzen: `Black`, `Blue`, `Brown`, `Gold`, `Green`, `Grey`, `Orange`, `Red`, `Violet`, `Yellow`.
+
+| Weste | Klassenname |
+| --- | --- |
+| Leicht | `ttt_vests_Lite_Farbe_US_Desert` |
+| Schwer | `ttt_vests_Heavy_Farbe_US_Desert` |
+
+## Besatzungswesten
 
 - `ttt_vests_Crew_Bronze`
 - `ttt_vests_Crew_Silver`
 - `ttt_vests_Crew_White`
-
-Die alten `ttt_Vest_*`-Klassennamen existieren weiterhin als `scope = 1`-Aliase für bestehende Missionen/Loadouts, sollten aber in neuen Missionen nicht mehr verwendet werden.
-
-## Maintainer
-
-- Andx

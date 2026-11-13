@@ -1,47 +1,57 @@
 ---
 title: TTT Medizinisches Fahrzeug
 description: >-
-  Fügt bestimmten Fahrzeugen die Möglichkeit hinzu ein Objekt, wie z.B. ein
-  Zelt, über eine ACE-Fremdinteraktion aufzubauen.
+  Bestimmte Fahrzeuge können ein Sanitätszelt aufbauen, das in ACE als
+  medizinische Einrichtung zählt.
 published: true
-date: '2026-11-11T13:03:05.218Z'
+date: '2026-11-12T12:15:11.697Z'
 tags:
   - arma3
   - sanitaet
   - referenz
-  - pruefung-noetig
   - ace
   - ttt-mod
+  - missionsbauer
 editor: markdown
 dateCreated: '2026-11-06T15:01:29.000Z'
 ---
 
-Fügt bestimmten Fahrzeugen die Möglichkeit hinzu, ein Objekt, wie z.B. ein Zelt, über eine ACE-Fremdinteraktion aufzubauen.
-Dies ist dann eine medizinische Einrichtung (`ace_medical_isMedicalFacility`).
-Jedes zugelassene Fahrzeug, welches derzeit keine Einrichtung transportiert, kann diese dann aufnehmen, indem an der Einrichtung die ACE-Fremdinteraktion zum Aufladen verwendet wird.
+<div class="compat-box">
+  <a href="/Wiki-Ampel-System" class="compat-label">Kompatibilität</a>
+  <a href="/_tags?t=arma3"><span class="compat-badge compat-green">Arma 3</span></a>
+  <a href="/_tags?t=armareforger"><span class="compat-badge compat-red">Reforger</span></a>
+</div>
 
-> [!NOTE]
-> Jedes zugelassene Fahrzeug hat standardmäßig eine Einrichtung geladen. Sollte dies nicht gewünscht sein, muss auf dem Fahrzeug die Variable `ttt_medic_vehicle_hasFacility` auf `false` gesetzt werden.
-> Am einfachsten passiert das in der Init des Objekts mittels:
->
-> ``` c++
-> this setVariable ["ttt_medic_vehicle_hasFacility", false, true];
-> ```
->
-> Der alte Variablenname `ttt_medic_vehicle_hasTent` funktioniert zur Abwärtskompatibilität weiterhin, sollte in neuen Missionen aber nicht mehr verwendet werden.
+::block-infobox{name="TTT Medizinisches Fahrzeug"}
+```yaml
+Ansprechpartner: "Andx (Discord: andx), EinStein"
+```
+::
 
-## CBA-Einstellungen
+Bestimmte Fahrzeuge können ein Sanitätszelt aufbauen, das in ACE als medizinische Einrichtung zählt (`ace_medical_isMedicalFacility`).
 
-``` c++
-force ttt_medic_vehicle_enable = true;                                                     //default: false;
-force ttt_medic_vehicle_supportedVehicles = '["B_Truck_01_medical_F"]';                    //default: [];
-force ttt_medic_vehicle_facilityObject = "Land_MedicalTent_01_NATO_tropic_generic_open_F"; //default "Land_MedicalTent_01_NATO_generic_open_F";
-force ttt_medic_vehicle_buildTime = 4;                                                     //default: 30;
-force ttt_medic_vehicle_useAnimation = true;                                               //default: true;
-force ttt_medic_vehicle_buildAnimation = "Acts_carFixingWheel";                            //default: "Acts_carFixingWheel";
+# Benutzung
+
+- **Aufbauen:** Am Fahrzeug die ACE-Interaktion **Errichte medizinische Einrichtung** wählen. Das Zelt entsteht hinter dem Fahrzeug.
+- **Abbauen:** Am Zelt die ACE-Interaktion **Verlade medizinische Einrichtung in Fahrzeug** wählen. Das Zelt kommt zurück in das Fahrzeug, aus dem es aufgebaut wurde. Ein Hinweis zeigt Richtung und Entfernung zu diesem Fahrzeug.
+
+Jedes zugelassene Fahrzeug hat zu Beginn ein Zelt geladen. Soll ein Fahrzeug keines haben, in seine Init schreiben:
+
+```sqf
+this setVariable ["ttt_medic_vehicle_hasFacility", false, true];
 ```
 
-## Maintainer
+Der alte Variablenname `ttt_medic_vehicle_hasTent` funktioniert weiter, sollte in neuen Missionen aber nicht mehr verwendet werden.
 
-- Andx
-- EinStein
+# Einstellungen
+
+Zu finden unter **Addon-Optionen > Tactical Training Team**.
+
+| Einstellung | Standard | Beschreibung |
+| --- | --- | --- |
+| `ttt_medic_vehicle_enable` | `false` | Funktion aktivieren |
+| `ttt_medic_vehicle_supportedVehicles` | `"[]"` | Klassennamen der Fahrzeuge, z.B. `'["B_Truck_01_medical_F"]'` |
+| `ttt_medic_vehicle_facilityObject` | `"Land_MedicalTent_01_NATO_generic_open_F"` | Objekt, das aufgebaut wird |
+| `ttt_medic_vehicle_buildTime` | `30` | Sekunden für Auf- und Abbau (2 bis 60) |
+| `ttt_medic_vehicle_useAnimation` | `true` | Beim Aufbauen eine Animation abspielen |
+| `ttt_medic_vehicle_buildAnimation` | `"Acts_carFixingWheel"` | Animation beim Aufbauen |

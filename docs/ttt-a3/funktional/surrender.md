@@ -1,49 +1,52 @@
 ---
 title: KI-Kapitulation
 description: >-
-  Das Surrender-Modul sorgt dafür, dass feindliche KI-Einheiten in einem
-  festgelegten Bereich kapitulieren koennen, wenn sie deutlich in Unterzahl
-  sind.
+  Feindliche KI in einem Bereich kapituliert, wenn sie deutlich in Unterzahl
+  ist.
 published: true
-date: '2026-11-11T13:02:03.752Z'
+date: '2026-11-12T22:20:06.720Z'
 tags:
   - arma3
   - missionsbauer
   - referenz
-  - pruefung-noetig
   - ace
   - ttt-mod
 editor: markdown
 dateCreated: '2026-11-06T15:01:29.000Z'
 ---
 
-Das Surrender-Modul sorgt dafür, dass feindliche KI-Einheiten in einem festgelegten Bereich kapitulieren können, wenn sie deutlich in Unterzahl sind.
+<div class="compat-box">
+  <a href="/Wiki-Ampel-System" class="compat-label">Kompatibilität</a>
+  <a href="/_tags?t=arma3"><span class="compat-badge compat-green">Arma 3</span></a>
+  <a href="/_tags?t=armareforger"><span class="compat-badge compat-red">Reforger</span></a>
+</div>
 
-Die Kapitulation wird über ACE Captives umgesetzt. Kapitulierte KI hebt die Hände und gilt als ergeben.
+::block-infobox{name="KI-Kapitulation"}
+```yaml
+Ansprechpartner: "Andx (Discord: andx)"
+```
+::
 
-## Benutzung
+Feindliche KI in einem Bereich kapituliert, wenn sie deutlich in Unterzahl ist. Kapitulierte KI hebt die Hände und gilt in ACE als ergeben.
 
-1. Platziere in 3DEN das Modul `KI-Kapitulation` auf der Karte.
-2. Lege den Wirkbereich des Moduls über den Modulradius fest.
-3. Stelle ein, welche Seite als `Feindlich` und welche als `Freundlich` gelten soll.
-4. Konfiguriere Verhältnis und Kapitulationschance nach Missionsbedarf.
+# Benutzung
 
-> [!NOTE]
-> Die Prüfung erfolgt regelmässig im Modulbereich. Nur feindliche KI-Einheiten innerhalb dieses Bereichs können kapitulieren.
+::block-steps
+1. Modul **KI-Kapitulation** im Editor platzieren.
+2. Über die Größe des Moduls den Bereich festlegen.
+3. Feindliche und freundliche Seite einstellen.
+::
 
-> [!TIP]
-> **Modul beenden**
->
-> Wird das Modul während der Mission gelöscht (z.B. durch Zeus), endet die Prüfung sofort. Danach kapituliert keine weitere Einheit.
+Alle 10 Sekunden wird geprüft, ob die feindliche KI im Bereich unterlegen ist. Dann kann jede feindliche Einheit mit der eingestellten Chance kapitulieren.
 
-## Modul-Attribute
+Wird das Modul während der Mission gelöscht (z.B. durch Zeus), endet die Prüfung sofort.
 
-- `Feindliche Seite`: Seite, deren KI-Einheiten kapitulieren können.
-- `Freundliche Seite`: Seite, die zahlenmässig überlegen sein muss.
-- `Unterlegenheitsverhältnis`: Wie stark die freundliche Seite überlegen sein muss (z.B. `2x` = mindestens doppelt so viele freundliche Einheiten wie feindliche).
-- `Kapitulationschance`: Wahrscheinlichkeit pro Prüfung, dass eine unterlegene feindliche KI-Einheit kapituliert (`0%` bis `100%`).
+Attribute des Moduls:
 
-## Maintainer
-
-- Andx
-- EinStein
+| Attribut | Standard | Beschreibung |
+| --- | --- | --- |
+| Feindliche Seite | OPFOR | Seite, deren KI kapitulieren kann |
+| Freundliche Seite | BLUFOR | Seite, die überlegen sein muss |
+| Unterlegenheitsverhältnis | 2x | So viel mal mehr freundliche als feindliche Einheiten müssen im Bereich sein (1x, 2x oder 3x) |
+| Kapitulationschance | 50 % | Chance pro Prüfung und Einheit (10 % bis 100 %) |
+| Waffe fallen lassen | aus | Kapitulierende KI lässt ihre Waffe fallen |

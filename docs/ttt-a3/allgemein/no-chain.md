@@ -1,25 +1,35 @@
 ---
 title: No Chain
 description: >-
-  Entfernt die visuellen Verbindungsqualitäts-Indikatoren (rote/gelbe Kette) in
-  Arma 3, die bei schlechter Netzwerkverbindung oder Desynchronisation angezeigt
-  werden.
+  Blendet die rote und gelbe Kette aus, die Arma 3 bei schlechter Verbindung
+  oder Desync anzeigt.
 published: true
-date: '2026-11-11T12:57:50.793Z'
+date: '2026-11-12T12:05:29.469Z'
 tags:
   - arma3
   - referenz
-  - pruefung-noetig
   - ttt-mod
 editor: markdown
 dateCreated: '2026-11-06T15:01:29.000Z'
 ---
 
-Entfernt die visuellen Verbindungsqualitäts-Indikatoren (rote/gelbe Kette) in Arma 3, die bei schlechter Netzwerkverbindung oder Desynchronisation angezeigt werden. Basiert auf der gleichnamigen Mod von [LuzifR](https://steamcommunity.com/sharedfiles/filedetails/?id=325909645).
+<div class="compat-box">
+  <a href="/Wiki-Ampel-System" class="compat-label">Kompatibilität</a>
+  <a href="/_tags?t=arma3"><span class="compat-badge compat-green">Arma 3</span></a>
+  <a href="/_tags?t=armareforger"><span class="compat-badge compat-red">Reforger</span></a>
+</div>
+
+::block-infobox{name="No Chain"}
+```yaml
+Ansprechpartner: "Andx (Discord: andx)"
+```
+::
+
+Blendet die rote und gelbe Kette aus, die Arma 3 bei schlechter Verbindung oder Desync anzeigt. Basiert auf der gleichnamigen Mod von [LuzifR](https://steamcommunity.com/sharedfiles/filedetails/?id=325909645).
+
+# Benutzung
+
+Läuft automatisch, es gibt nichts einzustellen.
 
 > [!NOTE]
-> Das Entfernen der visuellen Indikatoren ändert nichts an der tatsächlichen Netzwerkverbindung oder Desynchronisation. Es werden lediglich die Warnungen ausgeblendet.
-
-## Maintainer
-
-- Andx
+> Nur die Anzeige verschwindet. An der Verbindung oder am Desync selbst ändert sich nichts.

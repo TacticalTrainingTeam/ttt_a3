@@ -2,48 +2,53 @@
 title: Rucksäcke
 description: Enthält verschiedene Funkrucksäcke in TTT Farben.
 published: true
-date: '2026-11-11T12:57:50.098Z'
+date: '2026-11-12T14:11:58.789Z'
 tags:
   - arma3
   - funk
   - referenz
-  - pruefung-noetig
   - ttt-mod
 editor: markdown
 dateCreated: '2026-11-06T15:01:29.000Z'
 ---
 
-Enthält verschiedene Funkrucksäcke in TTT Farben. Diese sind in der Größe angepasst, damit zwei `ACRE_PRC117F` darin Platz finden.
+<div class="compat-box">
+  <a href="/Wiki-Ampel-System" class="compat-label">Kompatibilität</a>
+  <a href="/_tags?t=arma3"><span class="compat-badge compat-green">Arma 3</span></a>
+  <a href="/_tags?t=armareforger"><span class="compat-badge compat-red">Reforger</span></a>
+</div>
 
-Ergänzend wurden zwei zusätzliche Rucksackmodelle integriert, jeweils ausgestattet mit drei variierenden medizinischen Abzeichen. Die Stauraumkapazität wurde leicht erweitert, um auch umfangreicheres medizinisches Equipment unterbringen zu können.
+::block-infobox{name="Rucksäcke"}
+```yaml
+Ansprechpartner: "Andx (Discord: andx)"
+```
+::
 
-## Class Names
+Funkrucksäcke in TTT-Farben, in die zwei `ACRE_PRC117F` passen, und Sanitätsrucksäcke mit etwas mehr Platz für Sanitätsmaterial.
 
-### Funkrucksäcke
+# Benutzung
+
+Im Arsenal unter Rucksäcke oder per Klassenname im Loadout. Die alten Namen `ttt_backpack_*` (ohne "s") funktionieren für bestehende Missionen weiter, sollten in neuen aber nicht mehr verwendet werden.
+
+# Klassennamen
+
+## Funkrucksäcke
 
 - `ttt_backpacks_radio_coyote`
 - `ttt_backpacks_radio_olive`
-- `ttt_backpacks_radio_brown_us_desert`
 - `ttt_backpacks_radio_bronze_us_desert`
+- `ttt_backpacks_radio_brown_us_desert`
+- `ttt_backpacks_radio_gold_us_desert`
 - `ttt_backpacks_radio_green_us_desert`
 - `ttt_backpacks_radio_grey_us_desert`
-- `ttt_backpacks_radio_gold_us_desert`
 - `ttt_backpacks_radio_platinum_us_desert`
 - `ttt_backpacks_radio_silver_us_desert`
 - `ttt_backpacks_radio_white_us_desert`
 - `ttt_backpacks_radio_yellow_us_desert`
 
-### Sanitätsrucksäcke
+## Sanitätsrucksäcke
 
-- `ttt_backpacks_medic_tan_01`
-- `ttt_backpacks_medic_tan_02`
-- `ttt_backpacks_medic_tan_03`
-- `ttt_backpacks_medic_rgr_01`
-- `ttt_backpacks_medic_rgr_02`
-- `ttt_backpacks_medic_rgr_03`
+Je drei Varianten mit unterschiedlichen Sanitätsabzeichen:
 
-Die alten `ttt_backpack_*`-Klassennamen (ohne "s") existieren weiterhin als `scope = 1`-Aliase für bestehende Missionen/Loadouts, sollten aber in neuen Missionen nicht mehr verwendet werden.
-
-## Maintainer
-
-- Andx
+- `ttt_backpacks_medic_tan_01` bis `ttt_backpacks_medic_tan_03`
+- `ttt_backpacks_medic_rgr_01` bis `ttt_backpacks_medic_rgr_03`

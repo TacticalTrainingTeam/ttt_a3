@@ -1,25 +1,35 @@
 ---
 title: Compat TSP
-description: >-
-  Überschreibt eine ACE-Aktion in tsp_core um den Fehler 21:28:14 [ACE]
-  (interact_menu) ERROR: Action [tsp_ace_earplug_insert] bad condition return zu
-  beheben.
+description: Blendet die fehlerhaften Ohrstöpsel-Aktionen von TSP aus.
 published: true
-date: '2026-11-11T13:02:25.866Z'
+date: '2026-11-12T19:59:59.550Z'
 tags:
   - arma3
   - referenz
-  - pruefung-noetig
   - ace
   - ttt-mod
 editor: markdown
 dateCreated: '2026-11-06T15:01:29.000Z'
 ---
 
-## Fixes TSP Earplugs Error
+<div class="compat-box">
+  <a href="/Wiki-Ampel-System" class="compat-label">Kompatibilität</a>
+  <a href="/_tags?t=arma3"><span class="compat-badge compat-green">Arma 3</span></a>
+  <a href="/_tags?t=armareforger"><span class="compat-badge compat-red">Reforger</span></a>
+</div>
 
-Überschreibt eine ACE-Aktion in `tsp_core`, um den Fehler `21:28:14 [ACE] (interact_menu) ERROR: Action [tsp_ace_earplug_insert] bad condition return` zu beheben.
+::block-infobox{name="Compat TSP"}
+```yaml
+Ansprechpartner: "Andx (Discord: andx)"
+```
+::
 
-## Maintainer
+Blendet die fehlerhaften Ohrstöpsel-Aktionen von TSP aus.
 
-- Andx
+# Voraussetzungen
+
+- [Speshal Core (TSP)](https://steamcommunity.com/workshop/filedetails/?id=3283642267) - Erforderlich
+
+# Änderungen
+
+Die ACE-Eigeninteraktionen von TSP zum Einsetzen und Herausnehmen der Ohrstöpsel sind ausgeblendet. Sie erzeugten im [RPT](/de/technik/rpt) den Fehler `[ACE] (interact_menu) ERROR: Action [tsp_ace_earplug_insert] bad condition return`. Die Ohrstöpsel von ACE funktionieren weiter.

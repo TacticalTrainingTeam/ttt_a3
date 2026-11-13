@@ -1,15 +1,12 @@
 ---
-title: Compat BWmod
-description: >-
-  Fügt dem Eagle IV zwei abnehmbare Rucksäcke
-  BWA3_PatrolPack_Fleck/BWA3_PatrolPack_Tropen über ACE-Interaktionen hinzu.
+title: Compat BWMod
+description: Verbesserungen von Fahrzeugen aus der BWMod.
 published: true
-date: '2026-11-11T12:55:25.298Z'
+date: '2026-11-12T19:58:48.944Z'
 tags:
   - arma3
   - fahrzeuge
   - referenz
-  - pruefung-noetig
   - ace
   - bwmod
   - ttt-mod
@@ -17,28 +14,50 @@ editor: markdown
 dateCreated: '2026-11-06T15:01:29.000Z'
 ---
 
-## Eagle IV
+<div class="compat-box">
+  <a href="/Wiki-Ampel-System" class="compat-label">Kompatibilität</a>
+  <a href="/_tags?t=arma3"><span class="compat-badge compat-green">Arma 3</span></a>
+  <a href="/_tags?t=armareforger"><span class="compat-badge compat-red">Reforger</span></a>
+</div>
 
-Fügt dem Eagle IV zwei abnehmbare Rucksäcke `BWA3_PatrolPack_Fleck`/`BWA3_PatrolPack_Tropen` über ACE-Interaktionen hinzu.
+::block-infobox{name="Compat BWMod"}
+```yaml
+Ansprechpartner: "Andx (Discord: andx)"
+```
+::
 
-## NH-90
+Verbesserungen an Fahrzeugen aus der BWMod, vor allem einheitliche ACRE-Funkausstattung.
 
-Sperrt die Plätze 13 und 14 des NH-90, da diese unter dem Hubschrauber sitzen.
+# Voraussetzungen
 
-## M120 Mörser
+- [BWMod](https://steamcommunity.com/sharedfiles/filedetails/?id=1200127537) - Erforderlich
+- [ACRE2](https://steamcommunity.com/sharedfiles/filedetails/?id=751965892) - Erforderlich
+- [ITC Land Systems](https://steamcommunity.com/sharedfiles/filedetails/?id=1388192893) - Optional, für die Panzerhaubitze 2000
 
-Ergänzt die `allowFireOnLoad = 1;` Eigenschaft. Siehe <https://ace3.acemod.org/wiki/framework/crew-served-weapons-framework#3-additional-configuration-parameters>
+# Änderungen
 
 ## ACRE
 
-Konfiguriert alle Fahrzeuge mit den gleichen Rack Einstellungen:
+Eagle, Dingo 2, Multi, Puma, [Skorpion](/de/handbuch/kampfunterstützungskräfte/pioniere/skorpion), Leopard 2 und Panzerhaubitze 2000 haben die gleichen Funkracks:
 
 - Rack 1: SEM90 + SEM70 (Funkkreis A)
 - Rack 2: PRC103 + PRC117F (Funkkreis B)
 - Rack 3: SEM90 (Funkkreis C)
 
-Vereinheitlicht außerdem das Infanterietelefon und die Bordverständigungsanlage.
+Infanterietelefon und Bordverständigung sind ebenfalls vereinheitlicht.
 
-## Maintainer
+## Eagle IV
 
-- Andx
+Am Eagle IV hängen zwei Patrouillenrucksäcke (`BWA3_PatrolPack_Fleck` bzw. `BWA3_PatrolPack_Tropen`), die sich über die ACE-Interaktion abnehmen lassen.
+
+## NH-90
+
+Die Plätze 13 und 14 sind gesperrt, weil man dort unter dem Hubschrauber sitzt.
+
+## Mörser 120 mm
+
+Der [Mörser](/de/handbuch/kampfunterstützungskräfte/artillerie/moerser) kann direkt nach dem Laden feuern (`allowFireOnLoad`, siehe [ACE CSW](https://ace3.acemod.org/wiki/framework/crew-served-weapons-framework#3-additional-configuration-parameters)).
+
+## Panzerhaubitze 2000 mit ITC
+
+Ist ITC geladen, bekommt die Panzerhaubitze 2000 den ITC-Feuerleitrechner mit Schusstafeln und Munition für die Ladungen 1 bis 5.

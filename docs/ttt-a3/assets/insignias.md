@@ -2,60 +2,66 @@
 title: Insignien
 description: Fügt die TTT Farben als Schulterinsignien (linke Schulter) hinzu.
 published: true
-date: '2026-11-11T12:57:49.576Z'
+date: '2026-11-12T19:57:18.564Z'
 tags:
   - arma3
   - referenz
-  - pruefung-noetig
   - ttt-mod
 editor: markdown
 dateCreated: '2026-11-06T15:01:29.000Z'
 ---
 
-Fügt die TTT Farben als Schulterinsignien (linke Schulter) hinzu.
+<div class="compat-box">
+  <a href="/Wiki-Ampel-System" class="compat-label">Kompatibilität</a>
+  <a href="/_tags?t=arma3"><span class="compat-badge compat-green">Arma 3</span></a>
+  <a href="/_tags?t=armareforger"><span class="compat-badge compat-red">Reforger</span></a>
+</div>
 
-## Class Names
+::block-infobox{name="Insignien"}
+```yaml
+Ansprechpartner: "Andx (Discord: andx)"
+```
+::
 
-Flaggen:
+TTT-Farben als Schulterabzeichen und als Sprühbild für ACE-Tagging.
 
-- `TTT_Black`
-- `TTT_Blue`
-- `TTT_Bronze`
-- `TTT_Brown`
-- `TTT_Gold`
-- `TTT_Gray`
-- `TTT_Green`
-- `TTT_Logo`
-- `TTT_Orange`
-- `TTT_Platinum`
-- `TTT_Red`
-- `TTT_Silver`
-- `TTT_Violet`
-- `TTT_White`
-- `TTT_Yellow`
+# Benutzung
 
-Abzeichen:
+## Abzeichen
 
-- `TTT_black_emblem`
-- `TTT_blue_emblem`
-- `TTT_bronze_emblem`
-- `TTT_brown_emblem`
-- `TTT_gold_emblem`
-- `TTT_gray_emblem`
-- `TTT_green_emblem`
-- `TTT_logo_emblem`
-- `TTT_orange_emblem`
-- `TTT_platinum_emblem`
-- `TTT_red_emblem`
-- `TTT_silver_emblem`
-- `TTT_violet_emblem`
-- `TTT_white_emblem`
-- `TTT_yellow_emblem`
+Im Arsenal unter Abzeichen auswählen oder in der Init-Zeile einer Einheit setzen:
 
-## Benutzung
+```sqf
+[this, "TTT_Blue"] call BIS_fnc_setUnitInsignia;
+```
 
-`[this, "TTT_Blue"] call BIS_fnc_setUnitInsignia;` in der Init-Zeile einer Einheit für die große Variante. Siehe [`BIS_fnc_setUnitInsignia`](https://community.bistudio.com/wiki/BIS_fnc_setUnitInsignia)
+Siehe [`BIS_fnc_setUnitInsignia`](https://community.bistudio.com/wiki/BIS_fnc_setUnitInsignia).
 
-## Maintainer
+## Sprühfarbe
 
-- Andx
+Mit der **[Sprühfarbe](/de/handbuch/kampfunterstützungskräfte/pioniere/sprühdosen) (TTT)** (`ttt_insignias_spraypaint`) im Inventar lassen sich über die ACE-Eigeninteraktion TTT-Abzeichen an Wände sprühen, in allen Farben außer Braun und Logo.
+
+# Klassennamen
+
+| Farbe | Großes Abzeichen | Kleines Abzeichen |
+| --- | --- | --- |
+| Schwarz | `TTT_Black` | `TTT_black_emblem` |
+| Blau | `TTT_Blue` | `TTT_blue_emblem` |
+| Bronze | `TTT_Bronze` | `TTT_bronze_emblem` |
+| Braun | `TTT_Brown` | `TTT_brown_emblem` |
+| Gold | `TTT_Gold` | - |
+| Grau | `TTT_Grau` | `TTT_grau_emblem` |
+| Grün | `TTT_Green` | `TTT_green_emblem` |
+| Logo | `TTT_Logo` | - |
+| Orange | `TTT_Orange` | `TTT_orange_emblem` |
+| Platin | `TTT_Platinum` | `TTT_platinum_emblem` |
+| Rot | `TTT_Red` | `TTT_red_emblem` |
+| Silber | `TTT_Silver` | `TTT_silver_emblem` |
+| Violett | `TTT_Violet` | `TTT_violet_emblem` |
+| Weiß | `TTT_White` | `TTT_white_emblem` |
+| Gelb | `TTT_Yellow` | `TTT_yellow_emblem` |
+
+Außerdem:
+
+- `TTT_EOD` - [EOD](/de/handbuch/kampfunterstützungskräfte/pioniere/kampfmittelbeseitigung)
+- `TTT_red_crystal_dark` - Roter Kristall

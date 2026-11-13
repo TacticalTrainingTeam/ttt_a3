@@ -1,38 +1,42 @@
 ---
-title: Compat 3CB Fahrzeuge
-description: >-
-  Erhöht die Minendetektor-Reichweite des Land Rover Panama
-  (UK3CB_BAF_LandRover_Panama_Base) von 8m auf 25m.
+title: Compat 3CB Vehicles
+description: Verbesserungen an Fahrzeugen aus 3CB Vehicles.
 published: true
-date: '2026-11-11T13:01:52.887Z'
+date: '2026-11-12T19:58:47.618Z'
 tags:
   - arma3
   - fahrzeuge
   - referenz
-  - pruefung-noetig
   - 3cb
   - ttt-mod
 editor: markdown
 dateCreated: '2026-11-06T15:01:29.000Z'
 ---
 
-Erhöht die Minendetektor-Reichweite des Land Rover Panama (`UK3CB_BAF_LandRover_Panama_Base`) von 8m auf 25m.
+<div class="compat-box">
+  <a href="/Wiki-Ampel-System" class="compat-label">Kompatibilität</a>
+  <a href="/_tags?t=arma3"><span class="compat-badge compat-green">Arma 3</span></a>
+  <a href="/_tags?t=armareforger"><span class="compat-badge compat-red">Reforger</span></a>
+</div>
 
-## Technische Details
+::block-infobox{name="Compat 3CB Vehicles"}
+```yaml
+Ansprechpartner: "Andx (Discord: andx)"
+```
+::
 
-- **Minendetektorreichweite**: 25 Meter
-- **Anzeige**: Mine Detector Display im Vehicle Systems Display Manager (rechts)
+Verbesserungen an den Land Rovern aus 3CB.
 
-Diese Konfiguration ermöglicht es dem Fahrzeug, Minen in einem Radius von 25 Metern zu erkennen und anzuzeigen, ähnlich wie bei anderen spezialisierten Aufklärungsfahrzeugen.
+# Voraussetzungen
+
+- [3CB BAF Vehicles](https://steamcommunity.com/sharedfiles/filedetails/?id=893349825) - Erforderlich
+
+# Änderungen
+
+## Land Rover Panama
+
+Der [Minendetektor](/de/handbuch/kampfunterstützungskräfte/pioniere/minendetektor) des Land Rover Panama (`UK3CB_BAF_LandRover_Panama_Base`) reicht 25 m statt 8 m. Die Anzeige liegt im rechten Fahrzeugsystem-Panel.
 
 ## Land Rover WMIK
 
-Fügt drei Typen von Landrover Animations-Interaktionen hinzu, um Gegenstände vom Fahrzeug abzunehmen.
-
-- `UK3CB_BAF_LandRover_WMIK_GMG_Base`
-- `UK3CB_BAF_LandRover_WMIK_HMG_Base`
-- `UK3CB_BAF_LandRover_WMIK_Milan_Base`
-
-## Maintainer
-
-- Andx
+Am WMIK (GMG, HMG und Milan) lässt sich über die ACE-Interaktion **Ausrüstung abnehmen** die außen angebrachte Ausrüstung abnehmen: [Klappspaten](/de/handbuch/kampfunterstützungskräfte/pioniere/klappspaten), zwei Benzinkanister und drei Bergen-Rucksäcke.

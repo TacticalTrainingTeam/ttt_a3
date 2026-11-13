@@ -1,29 +1,36 @@
 ---
 title: Compat ACRE
-description: Kompatibilitätserweiterung für ACRE2.
+description: Verbesserungen von Funktionen und Gegenständen aus ACRE2.
 published: true
-date: '2026-11-11T12:56:47.854Z'
+date: '2026-11-12T19:58:48.274Z'
 tags:
   - arma3
   - funk
   - referenz
-  - pruefung-noetig
   - acre2
   - ttt-mod
 editor: markdown
 dateCreated: '2026-11-06T15:01:29.000Z'
 ---
 
-Kompatibilitätserweiterung für [ACRE2](https://steamcommunity.com/sharedfiles/filedetails/?id=751965892).
+<div class="compat-box">
+  <a href="/Wiki-Ampel-System" class="compat-label">Kompatibilität</a>
+  <a href="/_tags?t=arma3"><span class="compat-badge compat-green">Arma 3</span></a>
+  <a href="/_tags?t=armareforger"><span class="compat-badge compat-red">Reforger</span></a>
+</div>
 
-## Arsenal-Reiter
+::block-infobox{name="Compat ACRE"}
+```yaml
+Ansprechpartner: "Andx (Discord: andx)"
+```
+::
 
-Im Arsenal wird rechts ein zusätzlicher Reiter angezeigt, in dem alle ACRE-Gegenstände gesammelt sind. So lassen sich Funkgeräte und Zubehör schnell finden, ohne die einzelnen Kategorien durchsuchen zu müssen.
+Fügt dem ACE-Arsenal einen Reiter mit allen ACRE-Funkgeräten hinzu.
 
-## Voraussetzungen
+# Voraussetzungen
 
-- ACRE2 (erforderlich)
+- [ACRE2](https://steamcommunity.com/sharedfiles/filedetails/?id=751965892) - Erforderlich
 
-## Maintainer
+# Benutzung
 
-- Andx
+Im ACE-Arsenal rechts den Reiter **[ACRE](/de/handbuch/mods/acre2)** öffnen. Dort liegen alle Geräte aus BF-888S, PRC-77, PRC-117F, PRC-148, PRC-152, PRC-343, SEM 52 SL, SEM 70 und der Bodenantenne, ohne die einzelnen Kategorien durchsuchen zu müssen.

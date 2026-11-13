@@ -1,110 +1,95 @@
 ---
 title: Common – Objekte
-description: Stellt TTT-Bilder anderen Addons und Missionsbauern zur Verfügung.
+description: Kisten, Kompositionen, Fortify-Presets, TTT PAK und Bilder des Common-Addons.
 published: true
-date: '2026-11-11T13:02:48.408Z'
+date: '2026-11-12T19:57:20.464Z'
 tags:
   - arma3
   - missionsbauer
   - referenz
-  - pruefung-noetig
   - ace
   - ttt-mod
 editor: markdown
 dateCreated: '2026-11-06T15:01:29.000Z'
 ---
 
-## Bilder
+<div class="compat-box">
+  <a href="/Wiki-Ampel-System" class="compat-label">Kompatibilität</a>
+  <a href="/_tags?t=arma3"><span class="compat-badge compat-green">Arma 3</span></a>
+  <a href="/_tags?t=armareforger"><span class="compat-badge compat-red">Reforger</span></a>
+</div>
 
-Stellt TTT-Bilder anderen Addons und Missionsbauern zur Verfügung.
+::block-infobox{name="Common – Objekte"}
+```yaml
+Ansprechpartner: "Andx (Discord: andx)"
+```
+::
 
-Zugriff auf die Bilder erfolgt über diesen Pfad `z\ttt\addons\common\data\bildname.paa`.
+Kisten, Kompositionen, ACE-Fortify-Presets, das TTT PAK und weitere Grundlagen, die alle TTT-Addons nutzen.
 
-## Bewusstlose haben keine Kollision
+# Voraussetzungen
 
-Bewusstlose Spieler haben keine Kollision mit anderen Spielern - vergleichbar mit [Unconscious Collision Disabler (Steam Workshop)](https://steamcommunity.com/sharedfiles/filedetails/?id=3450571478)
+- [Zeus Enhanced](https://steamcommunity.com/sharedfiles/filedetails/?id=1779063631) - Erforderlich
 
-## Compositions
-
-Stellt eine Komposition zur Verfügung, um immer benutzte Module beim Anfang einer Mission einfach zu setzen:
-
-- HC, spielbar, `hc_01`
-- 3x Spectator, spielbar
-- Zeus `#adminLogged`
-- Zeus `#adminVoted`
-- Zeus `zeus_1`
-- Zeus `zeus_2`
-- Zeus Missionsbauer -> SteamID eintragen!
-- Leerer Marker `respawn` (TTT-Flagge mit Zuschauerkamera und techn. Teleport wird automatisch erzeugt durch [Teleport](/de/ttt-a3/funktional/teleport))
-- 2x Zivilist `zeus` + `zeus_1`
-
-Benutzung: Im 3DEN-Editor :block-kbd[F2]{platform="pc"} "Compositions" -> "Props" -> "Other" -> "Tactical Training Team"
-
-![Inhalt und Pfad zur Benutzung](https://i.imgur.com/kX7gUkp.jpeg)
-
-## ACE-Fortify Presets
-
-Definiert Vorlagen für [ACE-Fortify](https://ace3.acemod.org/wiki/framework/fortify-framework), die in Missionen und Trainings genutzt werden können:
-
-- `TTT_OHK` für das Befestigen einzelner Gebäude im OHK
-- `TTT_FOB` für das Errichten einer FOB oder eines Checkpoints
-- `TTT_Camping` für Übernachtungen (z.B. in Patrouillen)
-- `TTT_GM` enthält Objekte aus dem GM-DLC, nicht speziell für ein bestimmtes Szenario gedacht
-
-### Benutzung
-
-1. `ACE_Fortify` an Spieler ausgeben
-2. als Admin im Chat `#ace-fortify blufor presetname` eingeben, `presetname` durch eins der unten angegebenen Presets ersetzen.
-
-Alternativ kann im 3DEN-Editor das ACE-Fortify-Modul platziert werden und dort eines der Presets ausgewählt werden.
+# Benutzung
 
 ## Kisten
 
-Fügt einige TTT-spezifische Kisten hinzu. Alle Kisten sind ein (1) ACE-Cargo groß.
+Alle Kisten sind eine ACE-Ladeeinheit groß und stehen im Editor und in Zeus bereit. Der Inhalt ist unter [Nachschubkisten](/de/missionsbau/nachschubkisten) beschrieben.
 
-### Sanitätskisten
+| Kiste | Klassenname |
+| --- | --- |
+| Sanitätskiste San Alpha | `ttt_common_sana_crate` |
+| Sanitätskiste San Bravo | `ttt_common_sanb_crate` |
+| Sanitätskiste San Charlie | `ttt_common_sanc_crate` |
+| Sprengkiste | `ttt_common_explosives_crate` |
+| Pionierkiste | `ttt_common_pio_crate` |
+| EOD-Kiste | `ttt_common_eod_crate` |
+| EOD-Kiste mit UGV ([ED-1D](/de/handbuch/kampfunterstützungskräfte/pioniere/ed-1d)) | `ttt_common_eod_ugv_crate` |
+| Drohnenkiste | `ttt_common_uav_crate` |
+| Markierkiste | `ttt_common_mark_crate` |
+| Fallschirm-Frachtnetz (nicht verladbar) | `ttt_common_paradrop_crate` |
 
-Fügt folgende Sanitätskisten hinzu:
+## Komposition TTT-Basismodule
 
-- Sanitätskiste (San-Alpha) `ttt_common_sana_crate`
-- Sanitätskiste (San-Bravo) `ttt_common_sanb_crate`
-- Sanitätskiste (San-Charlie) `ttt_common_sanc_crate`
+Setzt die Module, die jede Mission braucht. Im 3DEN-Editor mit :block-kbd[F2]{platform="pc"} unter **Compositions > Props > Other > Tactical Training Team > TTT-Basismodule**.
 
-Inhalt ist im [Wiki San-Charlie](/de/missionsbau/nachschubkisten#san-charlie) bzw. [Wiki San-Alpha](/de/missionsbau/nachschubkisten#san-alpha) definiert.
+- [Headless Client](/de/technik/headless-client) `hc_01`
+- 3 Zuschauer-Slots
+- Zeus für `#adminLogged`, `#adminVoted`, `zeus_1`, `zeus_2` und den Missionsbauer (SteamID eintragen!)
+- 2 Zivilisten `zeus` und `zeus_1`
+- Leerer Marker `respawn`. Die TTT-Flagge mit Teleport und Zuschauerkamera entsteht dort automatisch, siehe [Teleporter und Zuschauerkamera](/de/ttt-a3/allgemein/teleport)
 
-### Pionierkisten
+![Inhalt und Pfad zur Benutzung](https://i.imgur.com/kX7gUkp.jpeg)
 
-Fügt folgende Pionierkisten hinzu:
+## ACE-Fortify-Presets
 
-- Sprengkiste `ttt_common_explosives_crate`
-- Pionierkiste `ttt_common_pio_crate`
-- EOD-Kiste `ttt_common_eod_crate`
-- EOD-Kiste mit UGV (ED-1D) `ttt_common_eod_ugv_crate`
+| Preset | Wofür |
+| --- | --- |
+| `TTT_OHK` | Einzelne Gebäude im [Orts- und Häuserkampf](/de/handbuch/infanterie/ohk) befestigen |
+| `TTT_FOB` | [FOB](/de/handbuch/nachschubkräfte/logistik#fob) oder [Checkpoint](/de/handbuch/infanterie/checkpoints) errichten |
+| `TTT_Camping` | Übernachtungen, z.B. in Patrouillen |
+| `TTT_GM` | Objekte aus dem GM-DLC |
 
-Inhalt ist im [Wiki](/de/missionsbau/nachschubkisten#spezielle-kisten) definiert.
+Benutzung:
 
-### Spezialkisten
+1. `ACE_Fortify` an die Spieler ausgeben.
+2. Als Admin im Chat `#ace-fortify blufor TTT_FOB` eingeben (Preset nach Bedarf).
 
-- Drohnenkiste (UAV) `ttt_common_uav_crate`
-- Markierkiste (Mark) `ttt_common_mark_crate`
-- Fallschirmkiste `ttt_common_paradrop_crate` (Nicht verladbar!)
-
-Inhalt ist im [Wiki](/de/missionsbau/nachschubkisten#spezielle-kisten) definiert.
+Alternativ im Editor das ACE-Fortify-Modul platzieren und dort das Preset wählen.
 
 ## TTT PAK
 
-Mit diesem Update wird das neue TTT PAK (Personal Aid Kit) eingeführt. Das TTT PAK kann unabhängig vom Zustand des Patienten verwendet werden – es ist also nicht mehr erforderlich, dass der Patient stabil ist. Dadurch wird die medizinische Versorgung flexibler und schneller, da das PAK in jeder Situation eingesetzt werden kann.
+Das TTT PAK (`TTT_personalAidKit`) heilt einen Patienten vollständig, egal ob er bewusstlos ist oder nicht. Gedacht für einen [MedEvac](/de/handbuch/nachschubkräfte/medevac) unter [KAM](/de/handbuch/nachschubkräfte/kat-advanced-medical): Schwerverwundete werden von den Ärzten bis zur Basis am Leben gehalten und dort mit dem PAK versorgt. Die ACE-Aktion heißt **TTT PAK Nutzen**. Ob und wo es nutzbar ist, hängt von den ACE-Einstellungen ab.
 
-Angedachter Anwendungsfall für das TTT PAK ist ein MedEvac unter KAM, bei dem schwerst Verwundete ausgeflogen werden, durch die behandelnden Ärzte bis zur Basis am Leben erhalten werden und dort mittels des TTT PAK versorgt werden.
+## Meme-Sprühfarbe
 
-Classname: `TTT_personalAidKit`
+Mit der **[Sprühfarbe](/de/handbuch/kampfunterstützungskräfte/pioniere/sprühdosen) - Meme (TTT)** (`ttt_common_spraypaintMemes`) lassen sich über ACE-Tagging TTT-Motive sprühen, z.B. "I want YOU for TTT" und "Rollator-Gang".
 
-**Wichtige Merkmale:**
+## Bewusstlose ohne Kollision
 
-- Das TTT PAK kann bei jedem Patienten angewendet werden, egal ob bewusstlos oder bei vollem Bewusstsein.
-- Die Anwendung des PAKs stellt den Patienten vollständig wieder her (wie bisher).
-- Die Nutzung ist weiterhin von den ACE Einstellungen abhängig.
+Bewusstlose Spieler haben keine Kollision mit anderen Spielern, ähnlich wie [Unconscious Collision Disabler](https://steamcommunity.com/sharedfiles/filedetails/?id=3450571478). Das passiert automatisch.
 
-## Maintainer
+## Bilder
 
-- Andx
+TTT-Bilder für Missionen und andere Addons liegen unter `z\ttt\addons\common\data\bildname.paa`.

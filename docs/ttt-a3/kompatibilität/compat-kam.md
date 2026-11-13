@@ -1,47 +1,60 @@
 ---
 title: Compat KAM
-description: Kompatibilitätserweiterung für KAM - Advanced Medical System.
+description: >-
+  Drei Sanitätskisten für KAT Advanced Medical: San Alpha, San Bravo und San
+  Charlie.
 published: true
-date: '2026-11-11T13:01:05.429Z'
+date: '2026-11-12T19:58:50.413Z'
 tags:
   - arma3
   - sanitaet
   - referenz
-  - pruefung-noetig
   - kam
   - ttt-mod
 editor: markdown
 dateCreated: '2026-11-06T15:01:29.000Z'
 ---
 
-Kompatibilitätserweiterung für [KAM - Advanced Medical System](https://steamcommunity.com/sharedfiles/filedetails/?id=1635181220). Stellt drei spezialisierte medizinische Nachschubkisten zur Verfügung, die für verschiedene Einsatzszenarien optimiert sind.
+<div class="compat-box">
+  <a href="/Wiki-Ampel-System" class="compat-label">Kompatibilität</a>
+  <a href="/_tags?t=arma3"><span class="compat-badge compat-green">Arma 3</span></a>
+  <a href="/_tags?t=armareforger"><span class="compat-badge compat-red">Reforger</span></a>
+</div>
 
-## Kisten
+::block-infobox{name="Compat KAM"}
+```yaml
+Ansprechpartner: "Andx (Discord: andx)"
+```
+::
 
-### San Alpha Kiste
+Drei Sanitätskisten für [KAT Advanced Medical](/de/handbuch/nachschubkräfte/kat-advanced-medical), eine für jede Stufe der Versorgung.
 
-Grundlegende Notfallversorgung mit essentiellen Verbandmaterialien für die Erste Hilfe.
+# Voraussetzungen
 
-**Klasse:** `ttt_compat_kam_sana_crate`
+- [KAT - Advanced Medical](https://steamcommunity.com/sharedfiles/filedetails/?id=2020940806) - Erforderlich
 
-#### Inhalt
+# Benutzung
 
-- Tourniquet: 25
+Die Kisten wie normale Kisten im Editor oder in Zeus platzieren. Das [Nachschub](/de/ttt-a3/funktional/resupply)-Addon nimmt sie automatisch statt der normalen Sanitätskisten, wenn KAT geladen ist.
+
+| Kiste | Klassenname | Für |
+| --- | --- | --- |
+| San Alpha | `ttt_compat_kam_sana_crate` | [Erste Hilfe](/de/handbuch/infanterie/gefechtstechniken-einzel/erstehilfe) |
+| San Bravo | `ttt_compat_kam_sanb_crate` | Versorgung durch Sanitäter |
+| San Charlie | `ttt_compat_kam_sanc_crate` | Ärztliche Versorgung |
+
+# Inhalt
+
+## San Alpha
+
+- [Tourniquet](/de/handbuch/nachschubkräfte/sanitätswesen#tourniquet): 25
 - Elastische Bandage: 80
 - Mullbinde: 80
 - QuikClot: 80
 - Chest Seal: 25
 - Painkiller: 25
 
----
-
-### San Bravo Kiste
-
-Umfassende Notfallversorgung mit diversen Medikamenten und fortgeschrittenen Behandlungsmaterialien durch Sanitäter.
-
-**Klasse:** `ttt_compat_kam_sanb_crate`
-
-#### Inhalt
+## San Bravo
 
 - Tourniquet: 25
 - Elastische Bandage: 80
@@ -50,34 +63,26 @@ Umfassende Notfallversorgung mit diversen Medikamenten und fortgeschrittenen Beh
 - Larynx-Tubus: 20
 - Pocket-BVM (Beatmungsbeutel): 3
 - IV 16G: 30
-- Kochsalzlösung IV: 20
-- Kochsalzlösung IV 500ml: 20
-- Kochsalzlösung IV 250ml: 5
-- Epinephrin: 25
+- [Kochsalzlösung](/de/handbuch/nachschubkräfte/sanitätswesen#kochsalzlösung) IV 1000 / 500 / 250 ml: 20 / 20 / 5
+- [Epinephrin](/de/handbuch/nachschubkräfte/sanitätswesen#epinephrin): 25
 - Painkiller: 5
 - Penthrox: 5
-- Morphin: 10
+- [Morphin](/de/handbuch/nachschubkräfte/sanitätswesen#morphin): 10
 - Lidocain: 10
 - Naloxon: 5
 - Näh-Set: 1
 - Nähte: 100
 - NCD-Set: 10
-- Pulsmesser: 3
-- AED (Automatisierter Externer Defibrillator): 1
+- Pulsoximeter: 3
+- AED: 1
 - Basis-Diagnostik-Set: 1
 - Blaue Markierungsflagge: 1
-- Blaue Sprühfarbe: 1
+- Blaue [Sprühfarbe](/de/handbuch/kampfunterstützungskräfte/pioniere/sprühdosen): 1
 - Leichensack: 3
 - Rauchgranate (Blau): 5
 - Chemlight (Blau): 5
 
-### San Charlie Kiste
-
-Ärztliche Versorgung mit umfangreicher Ausstattung für kritische medizinische Maßnahmen.
-
-**Klasse:** `ttt_compat_kam_sanc_crate`
-
-#### Inhalt
+## San Charlie
 
 - Tourniquet: 15
 - Elastische Bandage: 75
@@ -85,16 +90,14 @@ Umfassende Notfallversorgung mit diversen Medikamenten und fortgeschrittenen Beh
 - Chest Seal: 15
 - Tranexamsäure (TXA): 15
 - Larynx-Tubus: 15
-- Sauerstofftank 150l: 1
+- Sauerstofftank 150 l: 1
 - BVM (Beatmungsbeutel): 1
 - Pocket-BVM: 3
 - Absauggerät: 1
 - IV 16G: 20
 - IO FAST Kit: 15
-- Blutkonserve IV: 15
-- Blutkonserve IV 500ml: 15
-- Blutkonserve IV 250ml: 5
-- Kochsalzlösung IV 250ml: 2
+- Blutkonserve IV 1000 / 500 / 250 ml: 15 / 15 / 5
+- Kochsalzlösung IV 250 ml: 2
 - Epinephrin: 15
 - Epinephrin IV: 15
 - Noradrenalin: 10
@@ -112,7 +115,7 @@ Umfassende Notfallversorgung mit diversen Medikamenten und fortgeschrittenen Beh
 - Näh-Set: 1
 - Nähte: 80
 - AAT-Set: 15
-- Pulsmesser: 3
+- Pulsoximeter: 3
 - AED (X-Version): 1
 - Basis-Diagnostik-Set: 1
 - Blaue Markierungsflagge: 1
@@ -120,19 +123,3 @@ Umfassende Notfallversorgung mit diversen Medikamenten und fortgeschrittenen Beh
 - Leichensack: 1
 - Rauchgranate (Blau): 5
 - Chemlight (Blau): 5
-
-## Verwendung
-
-Die Kisten können wie gewöhnliche Arma 3-Behälter platziert und in Missionen verwendet werden. Sie sind optimiert für die drei Level der medizinischen Versorgung:
-
-- **San Alpha**: Erste Hilfe
-- **San Bravo**: Medizinische Versorgung durch Medics
-- **San Charlie**: Erweiterte/spezialisierte medizinische Versorgung durch Ärzte
-
-## Voraussetzungen
-
-- KAM - Advanced Medical System (erforderlich)
-
-## Maintainer
-
-- Andx

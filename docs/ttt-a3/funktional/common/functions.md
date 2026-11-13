@@ -4,266 +4,171 @@ description: >-
   Skriptfunktionen des Common-Addons für Missionsbauer: Kisten befüllen, Intel,
   Verstärkung, Flak-Feuer und KI-Fähigkeiten.
 published: true
-date: '2026-11-11T13:01:52.728Z'
+date: '2026-11-12T14:01:04.556Z'
 tags:
   - arma3
   - missionsbauer
   - skripte
   - referenz
-  - pruefung-noetig
   - ttt-mod
 editor: markdown
 dateCreated: '2026-11-06T15:01:29.000Z'
 ---
 
-## `crateFiller`
+<div class="compat-box">
+  <a href="/Wiki-Ampel-System" class="compat-label">Kompatibilität</a>
+  <a href="/_tags?t=arma3"><span class="compat-badge compat-green">Arma 3</span></a>
+  <a href="/_tags?t=armareforger"><span class="compat-badge compat-red">Reforger</span></a>
+</div>
 
-(ehem. r_crate)
-
-In der `initServer.sqf` oder während der Mission auf dem Server ausführen.
-
-``` c++
-[
-    [container],
-    [
-        ["item", count],
-        ["item", count]
-    ],
-    clear
-] call ttt_common_fnc_crateFiller;
+::block-infobox{name="Common – Funktionen"}
+```yaml
+Ansprechpartner: "Andx (Discord: andx), EinStein"
 ```
+::
 
-Argumente:
+Skriptfunktionen für Missionsbauer: Kisten befüllen, Intel, Verstärkung, Flakfeuer und KI-Fähigkeiten.
 
-| # | Parameter | Typ | Beschreibung | Optional | Default |
-| - | - | - | - | - | - |
-| 0 | container | OBJECT | Objekte, denen der Cargoinhalt hinzugefügt werden soll | Nein | - |
-| 1 | item | STRING | Inventargegenstand, welcher hinzugefügt werden soll | Nein | - |
-| 2 | count | INTEGER | Anzahl der hinzuzufügenden Inventargegenstände | Nein | - |
-| 3 | clear | BOOLEAN | Vorherigen Inventarinhalt des Objektes leeren | Ja | true |
+# Funktionen
 
-Rückgabewert:
+## `ttt_common_fnc_crateFiller`
 
-Keiner
+Befüllt Kisten oder Fahrzeuge mit Gegenständen. Auf dem Server ausführen, z.B. in der `initServer.sqf`.
 
-### Beispiel
-
-``` c++
+```sqf
 [
     [fahrzeug_01, fahrzeug_03],
     [
         ["Toolkit", 1],
-        ["ACE_Entrenchingtool", 5],
+        ["ACE_EntrenchingTool", 5],
         ["30Rnd_556x45_Stanag", 50]
     ],
     false
 ] call ttt_common_fnc_crateFiller;
 ```
 
-## `addIntel`
+| # | Argument | Typ | Optional | Standard |
+| - | --- | --- | --- | --- |
+| 0 | Kisten oder Fahrzeuge | ARRAY | Nein | - |
+| 1 | Inhalt als Liste aus `[Klassenname, Anzahl]` | ARRAY | Nein | - |
+| 2 | Vorherigen Inhalt leeren | BOOL | Ja | `true` |
 
-In der `initPlayerLocal.sqf` ausführen.
+Rückgabewert: keiner
 
-``` c++
-[intel, action, hide, [titel, text]] call ttt_common_fnc_addIntel;
+## `ttt_common_fnc_addIntel`
+
+Macht ein Objekt zu Intel, das Spieler aufheben können. Der Inhalt erscheint danach auf der Karte unter **Intel**. In der `initPlayerLocal.sqf` ausführen.
+
+```sqf
+[intel_01, "Lagekarte des Gegners untersuchen", false, ["Gefundene Karte", "<img image='pictures\Karte_v3.paa' width=370 height=370/>"]] call ttt_common_fnc_addIntel;
+[intel_02, "Dokumente nehmen", true, ["Eingesammeltes Dokument", "Hier stehen wichtige Informationen"]] call ttt_common_fnc_addIntel;
 ```
+
+| # | Argument | Typ | Optional | Standard |
+| - | --- | --- | --- | --- |
+| 0 | Objekt | OBJECT | Nein | - |
+| 1 | Text der Aktion | STRING | Nein | - |
+| 2 | Objekt nach dem Aufheben ausblenden | BOOL | Nein | - |
+| 3 | `[Überschrift, Text]` für die Karte. Der Text kann HTML enthalten, z.B. Bilder | ARRAY | Nein | - |
+
+Rückgabewert: keiner
 
 > [!WARNING]
-> **Nur ein Intel pro Objekt**
->
-> Die Funktion darf pro Objekt nur einmal aufgerufen werden. Werden mehrere Intel auf dasselbe Objekt gelegt, verschwindet beim Aufheben die falsche Aktion und Spieler, die später beitreten, bekommen alle Intel dieses Objekts, auch die noch nicht gefundenen. Für mehrere Intel einfach mehrere Objekte verwenden.
+> Pro Objekt nur ein Intel. Sonst verschwindet beim Aufheben die falsche Aktion, und JIP-Spieler bekommen alle Intel des Objekts, auch die noch nicht gefundenen. Für mehrere Intel mehrere Objekte nehmen.
 
-> [!NOTE]
-> **Gleichzeitiges Aufheben**
->
-> Nehmen zwei Spieler dasselbe Intel im selben Moment auf, erscheint der Eintrag in der Kartenansicht doppelt.
+## `ttt_common_fnc_callReinforcements`
 
-Argumente:
+Erzeugt Verstärkung mit einem Fahrzeug, bringt sie zu einem Absetzpunkt und lässt sie von dort angreifen. Auf dem Server ausführen, am besten in einem Trigger mit **Nur Server**.
 
-| # | Parameter | Typ | Beschreibung | Optional | Default |
-| - | - | - | - | - | - |
-| 0 | intel | OBJECT | Das interagierbare Objekt | Nein | - |
-| 1 | action | STRING | Actiontitel, der als Interaktion gezeigt wird | Nein | - |
-| 2 | hide | BOOLEAN | Objekt nach Interaktion ausblenden | Nein | - |
-| 3 | titel | STRING | Intelüberschrift auf der Kartenansicht | Nein | - |
-| 4 | text | STRING | Intelinhalt, der unter der Überschrift steht (Der Text unterstützt HTML-Syntax für z.B. Bilder) | Nein | - |
+Ist [LAMBS Danger](https://steamcommunity.com/workshop/filedetails/?id=1858075458) geladen, nutzen Bodentruppen die LAMBS-Wegpunkte. Fastrope und Fallschirmsprünge nutzen die Wegpunkte von [Zeus Enhanced](https://steamcommunity.com/sharedfiles/filedetails/?id=1779063631). Kann ein Hubschrauber kein Fastrope, landet er stattdessen.
 
-Rückgabewert:
-
-Keiner
-
-### Beispiel
-
-``` c++
-[intel_01, "Lagekarte des Gegners untersuchen", false, ["gefundene Karte", "<img image='pictures\Karte_v3.paa' width=370 height=370/>"]] call ttt_common_fnc_addIntel;
-[intel_02, "Dokumente nehmen", true, ["eingesammeltes Dokument", "Hier stehen wichtige Informationen"]] call ttt_common_fnc_addIntel;
-```
-
-## `callReinforcements`
-
-Diese Funktion erstellt Verstärkungstruppen mit einem Fahrzeug und sendet diese zu einem Releasepunkt, von wo aus sie angreifen. Dabei kann das Fahrzeug wie bei mechanisierten Kräften, u.a. zum Angriff, genutzt werden. Es stehen für Luft- sowie Bodenfahrzeuge jeweils drei Einstellungen zur Verfügung.
-Sollte die Mod [LAMBS DANGER](https://steamcommunity.com/workshop/filedetails/?id=1858075458) aktiv sein, werden alle möglichen Wegpunkte durch das LAMBS-Äquivalent ersetzt.
-Sollte die Mod [ZEN Add](https://steamcommunity.com/sharedfiles/filedetails/?id=2319721149) nicht aktiv sein, werden Helikopter keine Fastrope oder Fallschirmsprünge durchführen, sondern immer landen.
-
-Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
-
-``` c++
-[spawnPos, releasePos, attackPos, side, vehicle, rpBehaviour, infantry, groupBehaviour, flyHeight] call ttt_common_fnc_callReinforcements;
-```
-
-| rpBehaviour | Luftfahrzeug | Landfahrzeug |
-| - | - | - |
-| 0 | Fahrzeug landet und Infanterie sitzt ab; Fahrzeug kehrt zum Spawnpunkt zurück und wird gelöscht | Infanterie sitzt ab; Fahrzeug kehrt zum Spawnpunkt zurück und wird gelöscht |
-| 1 | Infanterie wird per Fast-Rope abgesetzt; Helikopter kehrt zum Spawnpunkt zurück und wird gelöscht | Infanterie sitzt ab; Fahrzeug greift den Angriffspunkt mit an |
-| 2 | Infanterie wird per Fallschirm abgeworfen; Helikopter kehrt zum Spawnpunkt zurück und wird gelöscht | Infanterie sitzt ab; Fahrzeug verteidigt den Releasepunkt |
-
-Argumente:
-
-| # | Parameter | Typ | Beschreibung | Optional | Default |
-| - | - | - | - | - | - |
-| 0 | spawnPos | OBJECT or ARRAY format Position | Wo wird die Verstärkung mit Fahrzeug erstellt, wovon sie sich dann in Bewegung setzt | Nein | - |
-| 1 | releasePos | OBJECT or ARRAY format Position | Wo wird die Infanterie absitzen, um zu Fuß anzugreifen | Nein | - |
-| 2 | attackPos | OBJECT or ARRAY format Position | Welchen Bereich soll die Infanterie und ggf. das Fahrzeug angreifen | Nein | - |
-| 3 | side | SIDE | Welcher Seite sollen die neuen Einheiten angehören | Nein | - |
-| 4 | vehicle | STRING | Welches Fahrzeug soll die Infanterie transportieren | Nein | - |
-| 5 | rpBehaviour | INTEGER | Welches Verhalten nimmt das Fahrzeug am Releasepunkt an; abhängig davon, ob es ein Luft- oder Landfahrzeug ist (siehe dazu die Tabelle unten) | Ja | 0 |
-| 6 | infantry | ARRAY format characterTypes or CONFIG format CfgGroups entry | Welche Infanterieeinheiten sollen erstellt werden (Sollte das Array oder die Konfig zu groß für den Frachtraum des Fahrzeugs sein, werden übrige Einheiten gelöscht) | Ja | configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad" |
-| 7 | groupBehaviour | INTEGER | Welches Verhalten haben die Einheiten ab ihrem Releasepunkt (0: relaxed, 1: cautious, 2: combat) | Ja | 2 |
-| 8 | flyHeight | INTEGER | Auf welcher Höhe soll das Luftfahrzeug fliegen | Ja | 80 |
-
-Rückgabewert:
-
-Keiner
-
-### Beispiele
-
-``` c++
+```sqf
 [l_sp_1, l_rp_1, l_at_1, EAST, "O_APC_Wheeled_02_rcws_v2_F"] call ttt_common_fnc_callReinforcements;
-[[300.51, 5151.98, 806.54], releasepunkt_2, oplSpieler, WEST, "rsr_bergepanzer_flecktarn", 2] call ttt_common_fnc_callReinforcements;
-[l_sp_1, l_rp_1, l_at_1, EAST, "O_Heli_Light_02_dynamicLoadout_F", 2, ["O_Soldier_SL_F","O_Soldier_TL_F","O_Soldier_F","O_Soldier_F"]] call ttt_common_fnc_callReinforcements;
-[l_sp_1, l_rp_1, l_at_1, EAST, "O_APC_Wheeled_02_rcws_v2_F", 2, configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad"] call ttt_common_fnc_callReinforcements;
-[l_sp_1, l_rp_1, l_at_1, EAST, "O_Heli_Light_02_dynamicLoadout_F", 2, ["O_Soldier_SL_F","O_Soldier_TL_F","O_Soldier_F"], 1, 50] call ttt_common_fnc_callReinforcements;
+[l_sp_1, l_rp_1, l_at_1, EAST, "O_Heli_Light_02_dynamicLoadout_F", 1, ["O_Soldier_SL_F", "O_Soldier_TL_F", "O_Soldier_F"], 1, 50] call ttt_common_fnc_callReinforcements;
 ```
 
-## `doFlakFire`
+| # | Argument | Typ | Optional | Standard |
+| - | --- | --- | --- | --- |
+| 0 | Startpunkt | OBJECT oder Position | Nein | - |
+| 1 | Absetzpunkt | OBJECT oder Position | Nein | - |
+| 2 | Angriffsziel | OBJECT oder Position | Nein | - |
+| 3 | Seite | SIDE | Nein | - |
+| 4 | Fahrzeug-Klassenname | STRING | Nein | - |
+| 5 | Verhalten am Absetzpunkt (siehe unten) | NUMBER | Ja | `0` |
+| 6 | Infanterie als Liste von Klassennamen oder CfgGroups-Eintrag. Was nicht ins Fahrzeug passt, wird gelöscht | ARRAY oder CONFIG | Ja | `configFile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad"` |
+| 7 | Verhalten der Infanterie: 0 = entspannt, 1 = vorsichtig, 2 = Kampf | NUMBER | Ja | `2` |
+| 8 | Flughöhe | NUMBER | Ja | `80` |
 
-Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
+| Verhalten | Luftfahrzeug | Bodenfahrzeug |
+| --- | --- | --- |
+| 0 | Landet, Infanterie sitzt ab, Fahrzeug fliegt zurück und wird gelöscht | Infanterie sitzt ab, Fahrzeug fährt zurück und wird gelöscht |
+| 1 | Infanterie seilt sich ab (Fastrope), Hubschrauber fliegt zurück und wird gelöscht | Infanterie sitzt ab, Fahrzeug greift mit an |
+| 2 | Infanterie springt mit Fallschirm ab, Hubschrauber fliegt zurück und wird gelöscht | Infanterie sitzt ab, Fahrzeug verteidigt den Absetzpunkt |
 
-``` c++
-handle = [object] call ttt_common_fnc_doFlakFire;
-```
+Rückgabewert: keiner
 
-Argumente:
+## `ttt_common_fnc_doFlakFire`
 
-| # | Parameter | Typ | Beschreibung | Optional | Default |
-| - | - | - | - | - | - |
-| 0 | object | OBJECT | Flak, die schießen soll | Nein | - |
+Lässt eine Flak dauerhaft in den Himmel feuern. Die Flak braucht beim Start einen Richtschützen. Das Feuer endet, wenn die Flak zerstört ist, der Richtschütze stirbt oder aussteigt, oder mit [`ttt_common_fnc_stopFlakFire`](#tttcommonfncstopflakfire). Auf dem Server ausführen, z.B. in einem Trigger mit **Nur Server**.
 
-Rückgabewert:
-
-handle NUMBER - Kennung des laufenden Flakfeuers
-
-Das Feuer endet von selbst, sobald die Flak zerstört ist oder ihr Richtschütze tot ist bzw. aussteigt. Die Flak braucht also beim Start bereits einen Richtschützen. Ein erneuter Aufruf für eine Flak, die schon feuert, startet kein zweites Feuer.
-
-Um das Flakfeuer vorher zu beenden, in einen weiteren `Server Only`-Trigger [`stopFlakFire`](#stopflakfire) schreiben.
-
-### Beispiel
-
-``` c++
+```sqf
 handle_01 = [flak_01] call ttt_common_fnc_doFlakFire;
 ```
 
-## `stopFlakFire`
+| # | Argument | Typ | Optional | Standard |
+| - | --- | --- | --- | --- |
+| 0 | Flak | OBJECT | Nein | - |
 
-Beendet das mit `doFlakFire` gestartete Flakfeuer. Die Flak bekommt danach beim Nachladen auch keine unendliche Munition mehr. Sollte am besten in einem `Server Only`-Trigger aufgerufen werden.
+Rückgabewert: NUMBER, Kennung des laufenden Flakfeuers. Feuert die Flak schon, wird die bestehende Kennung zurückgegeben.
 
-``` c++
-[object] call ttt_common_fnc_stopFlakFire;
-```
+## `ttt_common_fnc_stopFlakFire`
 
-Argumente:
+Beendet das Flakfeuer. Danach bekommt die Flak beim Nachladen keine unendliche Munition mehr. Auf dem Server ausführen.
 
-| # | Parameter | Typ | Beschreibung | Optional | Default |
-| - | - | - | - | - | - |
-| 0 | object | OBJECT | Flak, deren Feuer beendet werden soll | Nein | - |
-
-Rückgabewert:
-
-Keiner
-
-### Beispiel
-
-``` c++
+```sqf
 [flak_01] call ttt_common_fnc_stopFlakFire;
 ```
 
-## `setAISkill`
+| # | Argument | Typ | Optional | Standard |
+| - | --- | --- | --- | --- |
+| 0 | Flak | OBJECT | Nein | - |
 
-``` c++
-[unit, general, courage, aimingAccuracy, aimingShake, aimingSpeed, commanding, spotDistance, spotTime, reloadSpeed] call ttt_common_fnc_setAISkill;
-```
+Rückgabewert: keiner
 
-Argumente:
+## `ttt_common_fnc_setAISkill`
 
-| # | Parameter | Typ | Beschreibung | Optional | Default |
-| - | - | - | - | - | - |
-| 0 | unit | OBJECT | Einheit, deren Fähigkeiten gesetzt werden sollen | Nein | - |
-| 1 | general | NUMBER | Allgemeine Fähigkeit | Ja | 0.75 |
-| 2 | courage | NUMBER | Mut | Ja | 0.75 |
-| 3 | aimingAccuracy | NUMBER | Zielgenauigkeit | Ja | 0.65 |
-| 4 | aimingShake | NUMBER | Zittern beim Zielen | Ja | 0.65 |
-| 5 | aimingSpeed | NUMBER | Zielgeschwindigkeit | Ja | 0.65 |
-| 6 | commanding | NUMBER | Führungsqualität | Ja | 0.75 |
-| 7 | spotDistance | NUMBER | Entdeckungsreichweite | Ja | 0.85 |
-| 8 | spotTime | NUMBER | Entdeckungsgeschwindigkeit | Ja | 0.85 |
-| 9 | reloadSpeed | NUMBER | Nachladegeschwindigkeit | Ja | 0.75 |
+Setzt die Fähigkeiten einer KI-Einheit einzeln. Alle Werte von 0 bis 1.
 
-Rückgabewert:
-
-Keiner
-
-### Beispiel
-
-``` c++
-//Make a rookie
+```sqf
 [ai_01, 0.45, 0.45, 0.25, 0.25, 0.25, 0.45, 0.45, 0.45, 0.45] call ttt_common_fnc_setAISkill;
 ```
 
-## `setAISkillLevel`
+| # | Argument | Typ | Optional | Standard |
+| - | --- | --- | --- | --- |
+| 0 | Einheit | OBJECT | Nein | - |
+| 1 | Allgemein | NUMBER | Ja | `0.75` |
+| 2 | Mut | NUMBER | Ja | `0.75` |
+| 3 | Zielgenauigkeit | NUMBER | Ja | `0.65` |
+| 4 | Zittern beim Zielen | NUMBER | Ja | `0.65` |
+| 5 | Zielgeschwindigkeit | NUMBER | Ja | `0.65` |
+| 6 | Führung | NUMBER | Ja | `0.75` |
+| 7 | Entdeckungsreichweite | NUMBER | Ja | `0.85` |
+| 8 | Entdeckungsgeschwindigkeit | NUMBER | Ja | `0.85` |
+| 9 | Nachladegeschwindigkeit | NUMBER | Ja | `0.75` |
 
-Mögliche Skill-Level sind:
+Rückgabewert: keiner
 
-- "Novice"
-- "Rookie"
-- "Recruit"
-- "Veteran"
-- "Expert"
+## `ttt_common_fnc_setAISkillLevel`
 
-Bei fehlender oder falscher Angabe wird "Veteran" ausgewählt. Die Werte innerhalb der Level sind alle gleich, aber zufällig aus der Spanne ausgewählt. `aiming`-Werte sind immer 0,2 schlechter als alle anderen.
+Setzt die Fähigkeiten einer KI-Einheit über eine Stufe. Die Werte werden zufällig aus der Spanne der Stufe gewählt, die Zielwerte liegen immer 0,2 darunter.
 
-``` c++
-[unit, "Skill-Level"] call ttt_common_fnc_setAISkillLevel;
-```
-
-Argumente:
-
-| # | Parameter | Typ | Beschreibung | Optional | Default |
-| - | - | - | - | - | - |
-| 0 | unit | OBJECT | Einheit, deren Fähigkeitslevel gesetzt werden soll | Nein | - |
-| 1 | Skill-Level | STRING | Fähigkeitslevel ("Novice", "Rookie", "Recruit", "Veteran", "Expert") | Nein | - |
-
-Rückgabewert:
-
-Keiner
-
-### Beispiele
-
-``` c++
+```sqf
 [ai_01, "Recruit"] call ttt_common_fnc_setAISkillLevel;
-[_x, "Veteran"] call ttt_common_fnc_setAISkillLevel;
 ```
 
-## Maintainer
+| # | Argument | Typ | Optional | Standard |
+| - | --- | --- | --- | --- |
+| 0 | Einheit | OBJECT | Nein | - |
+| 1 | Stufe: `"Novice"`, `"Rookie"`, `"Recruit"`, `"Veteran"` oder `"Expert"` | STRING | Ja | `"Veteran"` |
 
-- Andx
-- EinStein
+Rückgabewert: keiner

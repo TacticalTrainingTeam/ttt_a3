@@ -1,62 +1,85 @@
 ---
 title: Umgebungseffekte
-description: >-
-  Eine Sammlung immersiver VFX-Effekte, welche in Missionen dem Spieler die
-  Sicht erschweren können.
+description: Atemwolken und Sand- oder Schneesturm als Effekte für Missionen.
 published: true
-date: '2026-11-11T13:03:20.337Z'
+date: '2026-11-12T12:18:11.355Z'
 tags:
   - arma3
   - missionsbauer
   - referenz
-  - pruefung-noetig
   - ttt-mod
 editor: markdown
 dateCreated: '2026-11-06T15:01:29.000Z'
 ---
 
-Eine Sammlung immersiver VFX-Effekte, welche in Missionen dem Spieler die Sicht erschweren können. Alle Effekte sind sowohl über Code, 3DEN-Modul, als auch Zeus-Modul verfügbar.
+<div class="compat-box">
+  <a href="/Wiki-Ampel-System" class="compat-label">Kompatibilität</a>
+  <a href="/_tags?t=arma3"><span class="compat-badge compat-green">Arma 3</span></a>
+  <a href="/_tags?t=armareforger"><span class="compat-badge compat-red">Reforger</span></a>
+</div>
 
-## Ausatemeffekt
-
-Vor den Mündern aller bestehenden Einheiten entsteht ein Effekt, welcher feuchte, ausatmende Luft imitiert.
-Die Funktion muss lokal von jedem Spieler ausgeführt werden.
-Dazu bietet sich neben dem 3DEN-Editor-Modul die `initPlayerLocal.sqf` an:
-
-``` c++
-_breathParticle = [] call ttt_effects_fnc_condensedBreathInit;
+::block-infobox{name="Umgebungseffekte"}
+```yaml
+Ansprechpartner: "EinStein"
 ```
+::
 
-Arguments:
-None
+Atemwolken und Sand- oder Schneesturm als Effekte für Missionen.
 
-Return Value:
-**breathParticle:** OBJECT - Partikelgenerator (wird dieser gelöscht, endet der Effekt)
+# Benutzung
+
+Beide Effekte gibt es als 3DEN-Modul, als Zeus-Modul und per Skript.
+
+## Atemwolken
+
+Vor dem Mund aller Einheiten, die zu diesem Zeitpunkt existieren, entsteht eine Atemwolke wie bei kalter Luft.
+
+- **3DEN:** Modul **Erzeuge Ausatemeffekt** (Kategorie **Effekte**) platzieren.
+- **Zeus:** Modul **Erzeuge Ausatemeffekt** (Kategorie **Effekte**).
 
 ## Sturm
 
-Dem Spieler wird die Sicht eingeschränkt, Sturmgeräusche abgespielt und gelegentlich die Kamera verwackelt. Um ihn herum werden Partikel erstellt, die ihn zusätzlich stark an der Sicht hindern.
-Standardmäßig ist es einem Infanteristen nur noch möglich zu gehen, nicht schneller. Es ist einstellbar, ob gelegentlich Objekte wie Fahrzeuge oder Spieler vom Wind leicht bewegt werden sollen.
-Im Gegenzug wird die bereits existierende KI vorübergehend um 75 % in den Fähigkeiten "aimingAccuracy", "aimingShake", "aimingSpeed" und "spotDistance" verschlechtert.
-Die Funktion muss serverseitig, wie z.B. durch einen eingestellten Trigger, durch die `initServer.sqf` oder das 3DEN-Editor-Modul (Triggersynchronisation möglich) aufgerufen werden. Es kann nur ein Sturm gleichzeitig aktiv sein.
+Die Sicht wird eingeschränkt, Sturmgeräusche spielen und die Kamera wackelt gelegentlich. Infanterie kann standardmäßig nur noch gehen. Vorhandene KI zielt und sieht 75 % schlechter. Es kann immer nur ein Sturm aktiv sein.
 
-``` c++
-_return = [duration, effect, stormType, walk, direction] call ttt_effects_fnc_stormInit;
+- **3DEN:** Modul **Erstelle Sturm** (Kategorie **Umgebung**) platzieren, optional mit einem Trigger synchronisieren.
+- **Zeus:** Modul **Erstelle Sturm** (Kategorie **Umgebung**).
+
+| Attribut | Standard | Beschreibung |
+| --- | --- | --- |
+| Dauer | 300 | Sekunden, mindestens 60 |
+| Objekteffekte | aus | Wind bewegt Fahrzeuge und Spieler leicht |
+| Sturmtyp | Sandsturm | Sandsturm oder Schneesturm |
+| Bewegungsgeschwindigkeit begrenzen | an | Infanterie kann nur gehen |
+| Windrichtung | 0 | Grad |
+
+# Funktionen
+
+## `ttt_effects_fnc_condensedBreathInit`
+
+Erzeugt die Atemwolken. Muss auf jedem Spieler-Rechner laufen, z.B. in der `initPlayerLocal.sqf`.
+
+```sqf
+[] call ttt_effects_fnc_condensedBreathInit;
 ```
 
-Arguments:
+Argumente: keine
 
-- **duration:** INTEGER (optional, Standard: 300) - Dauer des Sturms in Sekunden (Minimum 60)
-- **effect:** BOOL (optional, Standard: false) - Sollen Objekte wie Fahrzeuge oder Spieler vom Wind leicht bewegt werden
-- **stormType:** INTEGER (optional, Standard: 0) - Sandschauer (0) oder Schneesturm (1)
-- **walk:** BOOL (optional, Standard: true) - Ein Infanterist kann sich nur noch im Tempo "Gehen" fortbewegen
-- **direction:** INTEGER (optional, Standard: zufällig 360) - Windrichtung in Grad
+Rückgabewert: keiner
 
-Return Value:
+## `ttt_effects_fnc_stormInit`
 
-- **0: endTime:** INTEGER - Ende des Sturms nach Missionszeit (time)
-- **1: direction:** INTEGER - Windrichtung in Grad
+Startet einen Sturm. Auf dem Server ausführen, z.B. in der `initServer.sqf` oder einem Trigger mit **Nur Server**.
 
-## Maintainer
+```sqf
+[600, false, 1, true, 270] call ttt_effects_fnc_stormInit;
+```
 
-- EinStein
+| # | Argument | Typ | Optional | Standard |
+| - | --- | --- | --- | --- |
+| 0 | Dauer in Sekunden, mindestens 60 | NUMBER | Ja | `300` |
+| 1 | Wind bewegt Objekte | BOOL | Ja | `false` |
+| 2 | Sturmtyp: 0 = Sand, 1 = Schnee | NUMBER | Ja | `0` |
+| 3 | Infanterie kann nur gehen | BOOL | Ja | `true` |
+| 4 | Windrichtung in Grad | NUMBER | Ja | zufällig |
+
+Rückgabewert: ARRAY `[Endzeit, Windrichtung]`, die Endzeit als Missionszeit (`time`)

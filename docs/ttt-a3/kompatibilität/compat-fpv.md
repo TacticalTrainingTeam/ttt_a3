@@ -1,27 +1,36 @@
 ---
 title: Compat FPV
-description: >-
-  Wird nur geladen, wenn der Mod "Ukraine FPV Drone" aktiv ist - egal ob
-  zusammen mit RHS oder CUP.
+description: Verbesserungen an FPV Ukraine Drohnen.
 published: true
-date: '2026-11-11T12:57:51.162Z'
+date: '2026-11-12T19:58:49.681Z'
 tags:
   - arma3
   - referenz
-  - pruefung-noetig
   - ttt-mod
 editor: markdown
 dateCreated: '2026-11-06T15:01:29.000Z'
 ---
 
-Wird nur geladen, wenn der Mod "Ukraine FPV Drone" aktiv ist - egal ob zusammen mit RHS oder CUP.
+<div class="compat-box">
+  <a href="/Wiki-Ampel-System" class="compat-label">Kompatibilität</a>
+  <a href="/_tags?t=arma3"><span class="compat-badge compat-green">Arma 3</span></a>
+  <a href="/_tags?t=armareforger"><span class="compat-badge compat-red">Reforger</span></a>
+</div>
 
-## Inventarbilder
+::block-infobox{name="Compat FPV"}
+```yaml
+Ansprechpartner: "Andx (Discord: andx)"
+```
+::
 
-Drohnenrahmen und fertige FPV-Drohnen (auch die Glasfaser-Varianten) zeigen im Inventar ein Bild
-statt eines leeren Feldes. Nutzlasten, Akkus und Glasfaserspulen haben weiterhin kein Bild, weil
-der Mod dafür keines mitbringt.
+Gibt den [Drohnen](/de/handbuch/kampfunterstützungskräfte/drohnen) aus Ukraine FPV Drone Inventarbilder.
 
-## Maintainer
+# Voraussetzungen
 
-- Andx
+- [Ukraine FPV Drone](https://steamcommunity.com/sharedfiles/filedetails/?id=3475006113) - Erforderlich
+
+# Änderungen
+
+Drohnenrahmen und fertige [FPV-Drohnen](/de/ttt-a3/funktional/drone-crafting) (auch die Glasfaser-Varianten) zeigen im Inventar ein Bild statt eines leeren Feldes. Das beseitigt die `Picture ... not found`-Meldungen im [RPT](/de/technik/rpt).
+
+Nutzlasten, Akkus und Glasfaserspulen bleiben ohne Bild, weil die Mod dafür keines mitbringt.

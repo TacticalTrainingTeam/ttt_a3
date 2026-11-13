@@ -2,75 +2,39 @@
 title: Schilder
 description: Enthält Flaggen und Schilder in TTT Farben.
 published: true
-date: '2026-11-11T13:01:37.701Z'
+date: '2026-11-12T14:11:50.671Z'
 tags:
   - arma3
   - referenz
-  - pruefung-noetig
   - ttt-mod
 editor: markdown
 dateCreated: '2026-11-06T15:01:29.000Z'
 ---
 
-Enthält Flaggen und Schilder in TTT Farben.
+<div class="compat-box">
+  <a href="/Wiki-Ampel-System" class="compat-label">Kompatibilität</a>
+  <a href="/_tags?t=arma3"><span class="compat-badge compat-green">Arma 3</span></a>
+  <a href="/_tags?t=armareforger"><span class="compat-badge compat-red">Reforger</span></a>
+</div>
 
-## Class Names
+::block-infobox{name="Schilder"}
+```yaml
+Ansprechpartner: "Andx (Discord: andx)"
+```
+::
 
-Flaggen
+Fahnenmasten und Schilder in allen TTT-Farben für den Editor und Zeus.
 
-- `ttt_signs_Flag_Logo`
-- `ttt_signs_Flag_Blue`
-- `ttt_signs_Flag_Brown`
-- `ttt_signs_Flag_Bronze`
-- `ttt_signs_Flag_Yellow`
-- `ttt_signs_Flag_Gold`
-- `ttt_signs_Flag_Green`
-- `ttt_signs_Flag_Red`
-- `ttt_signs_Flag_Black`
-- `ttt_signs_Flag_Silver`
-- `ttt_signs_Flag_Platinum`
-- `ttt_signs_Flag_Violet`
-- `ttt_signs_Flag_White`
-- `ttt_signs_Flag_Orange`
+# Benutzung
 
-Schilder (klein)
+Im Editor oder per Zeus platzieren. Die alten Namen `ttt_Flag_*` und `ttt_Sign_*` funktionieren für bestehende Missionen weiter, sollten in neuen aber nicht mehr verwendet werden.
 
-- `ttt_signs_Small_Blue`
-- `ttt_signs_Small_Bronze`
-- `ttt_signs_Small_Brown`
-- `ttt_signs_Small_Yellow`
-- `ttt_signs_Small_Gold`
-- `ttt_signs_Small_Grey`
-- `ttt_signs_Small_Green`
-- `ttt_signs_Small_Red`
-- `ttt_signs_Small_Black`
-- `ttt_signs_Small_Silver`
-- `ttt_signs_Small_Platinum`
-- `ttt_signs_Small_Violet`
-- `ttt_signs_Small_White`
-- `ttt_signs_Small_Logo`
-- `ttt_signs_Small_Orange`
+# Klassennamen
 
-Schilder (groß)
+Für `Farbe` eine der Farben einsetzen: `Black`, `Blue`, `Bronze`, `Brown`, `Gold`, `Green`, `Grey`, `Logo`, `Orange`, `Platinum`, `Red`, `Silver`, `Violet`, `White`, `Yellow`.
 
-- `ttt_signs_Large_Blue`
-- `ttt_signs_Large_Bronze`
-- `ttt_signs_Large_Brown`
-- `ttt_signs_Large_Yellow`
-- `ttt_signs_Large_Gold`
-- `ttt_signs_Large_Grey`
-- `ttt_signs_Large_Green`
-- `ttt_signs_Large_Red`
-- `ttt_signs_Large_Black`
-- `ttt_signs_Large_Silver`
-- `ttt_signs_Large_Platinum`
-- `ttt_signs_Large_Violet`
-- `ttt_signs_Large_White`
-- `ttt_signs_Large_Logo`
-- `ttt_signs_Large_Orange`
-
-Die alten `ttt_Flag_*`/`ttt_Sign_*`-Klassennamen existieren weiterhin als `scope = 1`-Aliase für bestehende Missionen/Loadouts, sollten aber in neuen Missionen nicht mehr verwendet werden.
-
-## Maintainer
-
-- Andx
+| Objekt | Klassenname |
+| --- | --- |
+| Fahnenmast | `ttt_signs_Flag_Farbe` |
+| Schild klein | `ttt_signs_Small_Farbe` |
+| Schild groß | `ttt_signs_Large_Farbe` |

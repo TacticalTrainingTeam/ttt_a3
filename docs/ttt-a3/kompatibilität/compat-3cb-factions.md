@@ -1,12 +1,11 @@
 ---
 title: Compat 3CB Factions
-description: Fügt einigen Rucksäcken die ACE_EntrenchingTool Fähigkeit hinzu.
+description: Verbesserungen von Gegenständen aus 3CB Factions.
 published: true
-date: '2026-11-11T12:55:25.541Z'
+date: '2026-11-12T19:58:47.008Z'
 tags:
   - arma3
   - referenz
-  - pruefung-noetig
   - ace
   - 3cb
   - ttt-mod
@@ -14,12 +13,24 @@ editor: markdown
 dateCreated: '2026-11-06T15:01:29.000Z'
 ---
 
-Fügt einigen Rucksäcken die `ACE_EntrenchingTool` Fähigkeit hinzu.
+<div class="compat-box">
+  <a href="/Wiki-Ampel-System" class="compat-label">Kompatibilität</a>
+  <a href="/_tags?t=arma3"><span class="compat-badge compat-green">Arma 3</span></a>
+  <a href="/_tags?t=armareforger"><span class="compat-badge compat-red">Reforger</span></a>
+</div>
 
-- `UK3CB_B_Bedroll_Shovel_Backpack_KHK`
-- `UK3CB_B_Bedroll_Shovel_Backpack_GRY`
-- `UK3CB_B_Bedroll_Shovel_Backpack_GRN`
+::block-infobox{name="Compat 3CB Factions"}
+```yaml
+Ansprechpartner: "Andx (Discord: andx)"
+```
+::
 
-## Maintainer
+Gibt einem 3CB-Rucksack mit Schaufel die ACE-Klappspaten-Funktion.
 
-- Andx
+# Voraussetzungen
+
+- [3CB Factions](https://steamcommunity.com/sharedfiles/filedetails/?id=1673456286) - Erforderlich
+
+# Änderungen
+
+- `UK3CB_B_Bedroll_Shovel_Backpack_KHK` zählt als [Klappspaten](/de/handbuch/kampfunterstützungskräfte/pioniere/klappspaten) (`ACE_EntrenchingTool`).

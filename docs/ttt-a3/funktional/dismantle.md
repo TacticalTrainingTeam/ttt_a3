@@ -1,32 +1,55 @@
 ---
 title: Abbauen
 description: >-
-  Erlaubt Spielern die das nötige Werkzeug und die nötige Befähigung haben
-  bestimmte Objekte zu zerlegen.
+  Spieler mit Werkzeug und Befähigung können bestimmte Objekte wie Panzersperren
+  zerlegen.
 published: true
-date: '2026-11-11T13:01:05.872Z'
+date: '2026-11-12T19:58:42.889Z'
 tags:
   - arma3
   - referenz
-  - pruefung-noetig
   - ttt-mod
+  - missionsbauer
 editor: markdown
 dateCreated: '2026-11-06T15:01:29.000Z'
 ---
 
-Erlaubt Spielern, die das nötige Werkzeug und die nötige Befähigung haben, bestimmte Objekte zu zerlegen. Gedacht für Panzersperren und Ähnliches.
+<div class="compat-box">
+  <a href="/Wiki-Ampel-System" class="compat-label">Kompatibilität</a>
+  <a href="/_tags?t=arma3"><span class="compat-badge compat-green">Arma 3</span></a>
+  <a href="/_tags?t=armareforger"><span class="compat-badge compat-red">Reforger</span></a>
+</div>
 
-Sobald das Zerlegen abgeschlossen ist, verschwindet das Objekt und ein Metallgeräusch ertönt, das Spieler im Umkreis von ca. 40 Metern hören.
-
-## CBA-Einstellungen
-
-```  c++
-force ttt_dismantle_enable = true;                                                                       //default: false
-force ttt_dismantle_supportedObjects = "['Land_CzechHedgehog_01_new_F', 'Land_CzechHedgehog_01_old_F']"; //default: "['']"
-force ttt_dismantle_neededItem = "Toolkit";                                                              //default: "" = for no item needed
-force ttt_dismantle_neededSkill = 1;                                                                     //default:0, 0 = None, 1 = Engineer, 2 = Advanced Engineer
+::block-infobox{name="Abbauen"}
+```yaml
+Ansprechpartner: "Andx (Discord: andx)"
 ```
+::
 
-## Maintainer
+Spieler mit Werkzeug und Befähigung können bestimmte Objekte zerlegen, z.B. Panzersperren.
 
-- Andx
+# Benutzung
+
+An einem erlaubten Objekt in der ACE-Interaktion **Zerlegen** wählen. Das dauert 20 Sekunden. Danach verschwindet das Objekt, und ein Metallgeräusch ist im Umkreis von 40 m zu hören.
+
+Welche Objekte erlaubt sind und was man dafür braucht, legen die Einstellungen fest.
+
+# Einstellungen
+
+Zu finden unter **Addon-Optionen > Tactical Training Team > Objekte Zerlegen**.
+
+| Einstellung | Standard | Beschreibung |
+| --- | --- | --- |
+| `ttt_dismantle_enable` | `false` | Zerlegen aktivieren |
+| `ttt_dismantle_supportedObjects` | `"[]"` | Klassennamen der Objekte, die zerlegt werden können |
+| `ttt_dismantle_neededItem` | `""` | Gegenstand, den der Spieler dabeihaben muss. Leer: kein Gegenstand nötig |
+| `ttt_dismantle_neededSkill` | `1` | Nötige Befähigung: 0 = keine, 1 = [Pionier](/de/handbuch/kampfunterstützungskräfte/pioniere), 2 = erfahrener Pionier |
+
+Beispiel für die `cba_settings.sqf`:
+
+```sqf
+force ttt_dismantle_enable = true;
+force ttt_dismantle_supportedObjects = "['Land_CzechHedgehog_01_new_F', 'Land_CzechHedgehog_01_old_F']";
+force ttt_dismantle_neededItem = "Toolkit";
+force ttt_dismantle_neededSkill = 1;
+```

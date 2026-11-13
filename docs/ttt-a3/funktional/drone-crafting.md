@@ -2,53 +2,47 @@
 title: FPV-Drohnenbau
 description: >-
   Spieler können an einem Materialfahrzeug aus Einzelteilen FPV-Drohnen
-  zusammenbauen: ein leerer Drohnenrahmen, Kabelbinder, bei Glasfaser-Drohnen
-  ein Seil als Glasfaserkabel und je nach Typ ein …
+  zusammenbauen.
 published: true
-date: '2026-11-11T12:55:24.694Z'
+date: '2026-11-12T19:58:43.504Z'
 tags:
   - arma3
   - referenz
-  - pruefung-noetig
   - ace
   - ttt-mod
+  - missionsbauer
 editor: markdown
 dateCreated: '2026-11-06T15:01:29.000Z'
 ---
 
-Spieler können an einem **Materialfahrzeug** aus Einzelteilen FPV-Drohnen zusammenbauen: ein
-leerer Drohnenrahmen, Kabelbinder, bei Glasfaser-Drohnen ein Seil als Glasfaserkabel und je nach
-Typ ein RPG-7-Sprengkopf werden zu einer einsatzbereiten Drohne.
+<div class="compat-box">
+  <a href="/Wiki-Ampel-System" class="compat-label">Kompatibilität</a>
+  <a href="/_tags?t=arma3"><span class="compat-badge compat-green">Arma 3</span></a>
+  <a href="/_tags?t=armareforger"><span class="compat-badge compat-red">Reforger</span></a>
+</div>
 
-> [!NOTE]
-> Das Addon ist nur aktiv, wenn **RHS: Armed Forces of the Russian Federation** und
-> **Ukraine FPV Drone** geladen sind. Fehlt einer der beiden Mods, ist der Drohnenbau samt
-> Modul einfach nicht vorhanden, es gibt keine Fehlermeldung.
-
-## So funktioniert es für Spieler
-
-Wer höchstens 7 m (einstellbar) von einem Materialfahrzeug entfernt zu Fuß unterwegs ist, findet
-in der ACE-Eigeninteraktion den Eintrag **FPV-Drohnenbau**:
-
-``` text
-FPV-Drohnenbau
-├─ Standard-FPV
-│   ├─ AP-Drohne (OG-7V) (X baubar)
-│   ├─ HE-Drohne (TBG-7V) (X baubar)
-│   └─ AT-Drohne (PG-7VL) (X baubar)
-└─ Glasfaser-FPV
-    ├─ LWL-Aufklärungsdrohne (ohne Sprengkopf) (X baubar)
-    └─ LWL-AT-Drohne (PG-7VL) (X baubar)
+::block-infobox{name="FPV-Drohnenbau"}
+```yaml
+Ansprechpartner: "Andx (Discord: andx)"
 ```
+::
 
-Die Zahl hinter jedem Typ zeigt, wie viele Drohnen dieses Typs das Material im Fahrzeug noch
-hergibt. Nach 5 Sekunden Montage (einstellbar) landet die fertige Drohne im **Rucksack**. Ist
-dort kein Platz, kommt sie ins **Materialfahrzeug**. Ist auch dort kein Platz, wird nichts
-verbraucht und die Materialien bleiben im Fahrzeug. Fehlt etwas, wird angezeigt, was genau fehlt.
+Spieler bauen an einem Materialfahrzeug aus Einzelteilen FPV-Drohnen zusammen.
 
-Wer sich während der Montage zu weit vom Fahrzeug entfernt, bricht den Zusammenbau ab.
+# Voraussetzungen
 
-### Rezepte
+- [RHS: AFRF](https://steamcommunity.com/sharedfiles/filedetails/?id=843425103) - Erforderlich
+- [Ukraine FPV Drone](https://steamcommunity.com/sharedfiles/filedetails/?id=3475006113) - Erforderlich
+
+Fehlt eine der beiden Mods, gibt es den Drohnenbau samt Modul nicht, ohne Fehlermeldung.
+
+# Benutzung
+
+## Für Spieler
+
+Wer höchstens 7 m von einem Materialfahrzeug entfernt zu Fuß ist, findet in der ACE-Eigeninteraktion **FPV-Drohnenbau**. Hinter jeder [Drohne](/de/handbuch/kampfunterstützungskräfte/drohnen) steht, wie viele sich aus dem Material im Fahrzeug noch bauen lassen.
+
+Nach 5 Sekunden Montage liegt die Drohne im Rucksack, sonst im Materialfahrzeug. Ist nirgends Platz, wird nichts verbraucht. Wer sich während der Montage zu weit entfernt, bricht ab.
 
 | Drohne | Rahmen | Kabelbinder | Seil (6 m) | Sprengkopf |
 | --- | --- | --- | --- | --- |
@@ -58,89 +52,91 @@ Wer sich während der Montage zu weit vom Fahrzeug entfernt, bricht den Zusammen
 | LWL-Aufklärungsdrohne | 1 | 2 | 1 | - |
 | LWL-AT-Drohne | 1 | 2 | 1 | PG-7VL |
 
-Es zählt nur das Material, das direkt im Laderaum des Materialfahrzeugs liegt, nicht das im
-eigenen Inventar und nicht das in Rucksäcken, die im Fahrzeug liegen.
+Es zählt nur Material, das direkt im Laderaum des Fahrzeugs liegt, nicht im eigenen Inventar oder in Rucksäcken im Fahrzeug.
 
-## Materialfahrzeug festlegen
+## Im Editor
 
-### Im Editor: Modul "Drohnen-Materialfahrzeug"
+Modul **Drohnen-Materialfahrzeug** (Kategorie **Tactical Training Team**) platzieren und mit einem oder mehreren Fahrzeugen oder Kisten synchronisieren.
 
-Das Modul liegt im Editor unter **Systeme > Module > Tactical Training Team**. Platzieren und mit einem oder
-mehreren Fahrzeugen synchronisieren (Rechtsklick auf das Modul > **Verbinden > Synchronisieren
-mit**). Auch Kisten funktionieren.
+Mit **Startbestand laden** (Standard: an) wird der Laderaum bei Missionsstart geleert und mit dem Startbestand gefüllt. Das Material belegt dann 75 % des Laderaums, der Rest bleibt für fertige Drohnen frei. Ohne Häkchen bleibt das Inventar aus dem Editor.
 
-Option im Modul:
+## In Zeus
 
-- **Startbestand laden** (Standard: an): Der gesamte Laderaum der Fahrzeuge wird bei
-  Missionsstart geleert und mit dem Startbestand (siehe unten) befüllt. Abwählen, um stattdessen
-  das im Editor eingestellte Inventar des Fahrzeugs zu behalten.
+Ist Zeus Enhanced geladen, gibt es per Rechtsklick auf ein Fahrzeug oder eine Kiste das Untermenü **TTT - FPV-Drohnenbau**:
 
-Mit Startbestand wird außerdem die Ladekapazität des Fahrzeugs angepasst: Das Material belegt
-75 % des Laderaums, 25 % bleiben für fertige Drohnen frei (einstellbar).
-
-### Während der Mission: Zeus-Kontextmenü
-
-Ist [Zeus Enhanced](https://zen-mod.github.io/ZEN/) geladen, gibt es im Zeus-Interface per
-Rechtsklick auf ein Fahrzeug oder eine Kiste das Untermenü **TTT - FPV-Drohnenbau**:
-
-- **Als Materialfahrzeug festlegen (Startbestand laden)**: wie das Modul mit angehaktem Startbestand.
-- **Als Materialfahrzeug festlegen (Inventar behalten)**: das Fahrzeug wird Materialfahrzeug, sein
-  Inventar bleibt unverändert.
-- **Auf Startbestand auffüllen** (nur bei Materialfahrzeugen): ergänzt, was zum Startbestand fehlt.
-  Es wird nichts geleert, fertige Drohnen und alles andere im Laderaum bleiben liegen.
-- **Materialfahrzeug-Markierung entfernen** (nur bei Materialfahrzeugen): das Fahrzeug ist kein
-  Materialfahrzeug mehr. Sein Inventar bleibt erhalten.
-
-Es kann beliebig viele Materialfahrzeuge gleichzeitig geben. Wird ein Materialfahrzeug zerstört,
-kann dort nicht mehr gebaut werden.
-
-### Per Skript
-
-``` c++
-// Auf jedem Rechner aufrufbar, z. B. in der initServer.sqf
-
-// Als Materialfahrzeug festlegen und mit dem Startbestand befüllen
-[myTruck] call ttt_drone_crafting_fnc_setVehicle;
-
-// Als Materialfahrzeug festlegen, Inventar behalten
-[myTruck, false] call ttt_drone_crafting_fnc_setVehicle;
-
-// Auf den Startbestand auffüllen (ohne zu leeren)
-[myTruck] call ttt_drone_crafting_fnc_restock;
-
-// Markierung entfernen
-[myTruck] call ttt_drone_crafting_fnc_removeVehicle;
-```
+| Aktion | Wirkung |
+| --- | --- |
+| Als Materialfahrzeug festlegen (Startbestand laden) | Wie das Modul mit Startbestand |
+| Als Materialfahrzeug festlegen (Inventar behalten) | Inventar bleibt, wie es ist |
+| Auf Startbestand auffüllen | Ergänzt, was zum Startbestand fehlt, ohne etwas zu leeren |
+| Materialfahrzeug-Markierung entfernen | Fahrzeug ist kein Materialfahrzeug mehr, Inventar bleibt |
 
 > [!WARNING]
-> **Umstieg von den alten Missionsskripten**
->
-> Missionen, die noch `serverDroneCrafting.sqf` / `playerDroneCrafting.sqf` und den Variablennamen
-> `drone_crafting_vehicle` nutzen, sollten die Skripte und ihre Einträge in `description.ext`
-> (`CfgRemoteExec`) entfernen und stattdessen das Modul verwenden. Sonst gibt es den Drohnenbau
-> im ACE-Menü doppelt.
+> Missionen mit den alten Skripten `serverDroneCrafting.sqf` und `playerDroneCrafting.sqf` sollten diese samt `CfgRemoteExec`-Einträgen entfernen und das Modul nutzen. Sonst gibt es den Drohnenbau doppelt.
 
-## CBA-Einstellungen
+# Einstellungen
 
-``` c++
-force ttt_drone_crafting_craftTime = 5;          // default: 5; Sekunden pro Drohne (1-60)
-force ttt_drone_crafting_maxDistance = 7;        // default: 7; Meter zum Materialfahrzeug (2-30)
-force ttt_drone_crafting_reserveCapacity = 0.25; // default: 0.25; freier Laderaum nach dem Startbestand (0-0.9)
+Zu finden unter **Addon-Optionen > Tactical Training Team > FPV-Drohnenbau**.
+
+| Einstellung | Standard | Beschreibung |
+| --- | --- | --- |
+| `ttt_drone_crafting_craftTime` | `5` | Sekunden pro [Drohne](/de/handbuch/kampfunterstützungskräfte/drohnen) (1 bis 60) |
+| `ttt_drone_crafting_maxDistance` | `7` | Meter zum Materialfahrzeug (2 bis 30) |
+| `ttt_drone_crafting_reserveCapacity` | `0.25` | Freier Laderaum nach dem Startbestand (0 bis 0.9) |
+| `ttt_drone_crafting_stock` | siehe unten | Startbestand als Liste aus `[Klassenname, Anzahl]` |
+
+Standard-Startbestand:
+
+```sqf
 force ttt_drone_crafting_stock = '[["ACE_CableTie", 50], ["ACE_rope6", 10], ["UA_Item_EMPTY", 20], ["rhs_rpg7_OG7V_mag", 15], ["rhs_rpg7_PG7VL_mag", 15], ["rhs_rpg7_TBG7V_mag", 10]]';
 ```
 
-Der **Startbestand** ist eine Liste aus `[Classname, Anzahl]`-Paaren. Hier darf auch Ausrüstung
-stehen, die für keine Drohne gebraucht wird, z. B. Sprengladungen oder ein RPG-7 zum Abfeuern der
-übrigen Sprengköpfe:
+Im Startbestand darf auch andere Ausrüstung stehen, z.B. ein RPG-7 (`rhs_weap_rpg7`). Unbekannte Klassennamen werden übersprungen. Ist die Liste fehlerhaft, bleibt der Laderaum unverändert. Änderungen wirken beim nächsten Befüllen.
 
-``` c++
-force ttt_drone_crafting_stock = '[["ACE_CableTie", 50], ["ACE_rope6", 10], ["UA_Item_EMPTY", 20], ["rhs_rpg7_OG7V_mag", 15], ["rhs_rpg7_PG7VL_mag", 15], ["rhs_rpg7_TBG7V_mag", 10], ["rhs_weap_rpg7", 1]]';
+# Funktionen
+
+Alle Funktionen sind auf jedem Rechner aufrufbar, z.B. in der `initServer.sqf`.
+
+## `ttt_drone_crafting_fnc_setVehicle`
+
+Macht ein Fahrzeug oder eine Kiste zum Materialfahrzeug.
+
+```sqf
+[myTruck] call ttt_drone_crafting_fnc_setVehicle;        // mit Startbestand
+[myTruck, false] call ttt_drone_crafting_fnc_setVehicle; // Inventar behalten
 ```
 
-Unbekannte Classnames werden übersprungen. Ist die Liste selbst fehlerhaft (z. B. eine fehlende
-Klammer oder ein fehlendes Anführungszeichen), bleibt der Laderaum unverändert. Änderungen wirken
-sich erst beim nächsten Befüllen aus (Missionsstart, Festlegen oder Auffüllen per Zeus).
+| # | Argument | Typ | Optional | Standard |
+| - | --- | --- | --- | --- |
+| 0 | Fahrzeug | OBJECT | Nein | - |
+| 1 | Laderaum durch Startbestand ersetzen | BOOL | Ja | `true` |
 
-## Maintainer
+Rückgabewert: keiner
 
-- Andx
+## `ttt_drone_crafting_fnc_restock`
+
+Füllt ein Materialfahrzeug auf den Startbestand auf, ohne etwas zu leeren.
+
+```sqf
+[myTruck] call ttt_drone_crafting_fnc_restock;
+```
+
+| # | Argument | Typ | Optional | Standard |
+| - | --- | --- | --- | --- |
+| 0 | Materialfahrzeug | OBJECT | Nein | - |
+
+Rückgabewert: keiner
+
+## `ttt_drone_crafting_fnc_removeVehicle`
+
+Entfernt die Markierung als Materialfahrzeug. Das Inventar bleibt.
+
+```sqf
+[myTruck] call ttt_drone_crafting_fnc_removeVehicle;
+```
+
+| # | Argument | Typ | Optional | Standard |
+| - | --- | --- | --- | --- |
+| 0 | Fahrzeug | OBJECT | Nein | - |
+
+Rückgabewert: keiner

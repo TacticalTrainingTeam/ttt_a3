@@ -2,74 +2,54 @@
 title: Uniformen
 description: Enthält Uniformen in allen TTT Farben.
 published: true
-date: '2026-11-11T12:56:51.390Z'
+date: '2026-11-12T14:11:43.587Z'
 tags:
   - arma3
   - referenz
-  - pruefung-noetig
   - ttt-mod
 editor: markdown
 dateCreated: '2026-11-06T15:01:29.000Z'
 ---
 
-Enthält Uniformen in allen TTT Farben. Es gibt drei Tarnvarianten: _BW Flecktarn_, _BW Tropentarn_ und _Wüstentarn_.
+<div class="compat-box">
+  <a href="/Wiki-Ampel-System" class="compat-label">Kompatibilität</a>
+  <a href="/_tags?t=arma3"><span class="compat-badge compat-green">Arma 3</span></a>
+  <a href="/_tags?t=armareforger"><span class="compat-badge compat-red">Reforger</span></a>
+</div>
 
-## Class Names
+::block-infobox{name="Uniformen"}
+```yaml
+Ansprechpartner: "Andx (Discord: andx)"
+```
+::
 
-### US Wüstentarn
+Uniformen in allen TTT-Farben, in Flecktarn, Tropentarn und US-Wüstentarn, dazu eine Pilotenuniform.
 
-- `ttt_uniforms_Black_US_Desert_item`
-- `ttt_uniforms_Blue_US_Desert_item`
-- `ttt_uniforms_Brown_US_Desert_item`
-- `ttt_uniforms_Gold_US_Desert_item`
-- `ttt_uniforms_Green_US_Desert_item`
-- `ttt_uniforms_Grey_US_Desert_item`
-- `ttt_uniforms_Orange_US_Desert_item`
-- `ttt_uniforms_Silver_US_Desert_item`
-- `ttt_uniforms_Platinum_US_Desert_item`
-- `ttt_uniforms_Red_US_Desert_item`
-- `ttt_uniforms_Violet_US_Desert_item`
-- `ttt_uniforms_White_US_Desert_item`
-- `ttt_uniforms_Yellow_US_Desert_item`
-- `ttt_uniforms_plain_US_Desert_item`
+# Benutzung
 
-### BW Flecktarn
+Im Arsenal unter Uniformen oder per Klassenname im Loadout. Die alten Namen `ttt_Uniform_*` funktionieren für bestehende Missionen weiter, sollten in neuen aber nicht mehr verwendet werden.
 
-- `ttt_uniforms_Black_BW_Flecktarn_item`
-- `ttt_uniforms_Blue_BW_Flecktarn_item`
-- `ttt_uniforms_Brown_BW_Flecktarn_item`
-- `ttt_uniforms_Gold_BW_Flecktarn_item`
-- `ttt_uniforms_Green_BW_Flecktarn_item`
-- `ttt_uniforms_Grey_BW_Flecktarn_item`
-- `ttt_uniforms_Silver_BW_Flecktarn_item`
-- `ttt_uniforms_Orange_BW_Flecktarn_item`
-- `ttt_uniforms_Red_BW_Flecktarn_item`
-- `ttt_uniforms_Violet_BW_Flecktarn_item`
-- `ttt_uniforms_White_BW_Flecktarn_item`
-- `ttt_uniforms_Yellow_BW_Flecktarn_item`
-- `ttt_uniforms_plain_BW_Flecktarn_item`
+# Klassennamen
 
-### BW Tropentarn
+Schema: `ttt_uniforms_<Farbe>_<Tarnmuster>_item`, z.B. `ttt_uniforms_Blue_BW_Flecktarn_item`.
 
-- `ttt_uniforms_Black_BW_Tropentarn_item`
-- `ttt_uniforms_Blue_BW_Tropentarn_item`
-- `ttt_uniforms_Brown_BW_Tropentarn_item`
-- `ttt_uniforms_Gold_BW_Tropentarn_item`
-- `ttt_uniforms_Green_BW_Tropentarn_item`
-- `ttt_uniforms_Grey_BW_Tropentarn_item`
-- `ttt_uniforms_Orange_BW_Tropentarn_item`
-- `ttt_uniforms_Red_BW_Tropentarn_item`
-- `ttt_uniforms_Silver_BW_Tropentarn_item`
-- `ttt_uniforms_Violet_BW_Tropentarn_item`
-- `ttt_uniforms_White_BW_Tropentarn_item`
-- `ttt_uniforms_Yellow_BW_Tropentarn_item`
+| Farbe | `BW_Flecktarn` | `BW_Tropentarn` | `US_Desert` |
+| --- | :---: | :---: | :---: |
+| `Black` | ja | ja | ja |
+| `Blue` | ja | ja | ja |
+| `Bronze` | ja | ja | ja |
+| `Brown` | ja | ja | ja |
+| `Gold` | ja | ja | ja |
+| `Green` | ja | ja | ja |
+| `Green_alt` | ja | ja | - |
+| `Grey` | ja | ja | ja |
+| `Orange` | ja | ja | ja |
+| `Platinum` | - | ja | ja |
+| `Red` | ja | ja | ja |
+| `Silver` | ja | ja | ja |
+| `Violet` | ja | ja | ja |
+| `White` | ja | ja | ja |
+| `Yellow` | ja | ja | ja |
+| `plain` (ohne Farbe) | ja | - | ja |
 
-### Piloten
-
-- `ttt_uniforms_Platinum_Pilot_item`
-
-Die alten `ttt_Uniform_*`-Klassennamen existieren weiterhin als `scope = 1`-Aliase für bestehende Missionen/Loadouts, sollten aber in neuen Missionen nicht mehr verwendet werden.
-
-## Maintainer
-
-- Andx
+Pilotenuniform: `ttt_uniforms_Platinum_Pilot_item`
