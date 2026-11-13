@@ -12,7 +12,7 @@ dateCreated: '2026-11-06T15:01:29.000Z'
 
 Arma 3 Modifikation für das Tactical Training Team. Benötigt die aktuellste Version von [CBA A3](https://github.com/CBATeam/CBA_A3/releases), [ACE](https://github.com/acemod/ACE3/releases), [Zeus Enhanced](https://steamcommunity.com/sharedfiles/filedetails/?id=1779063631) und [ACRE2](https://steamcommunity.com/sharedfiles/filedetails/?id=751965892).
 
-Du willst mitmachen - schau im [Github](https://github.com/TacticalTrainingTeam/ttt_a3?tab=contributing-ov-file) vorbei.
+Du willst mitmachen – schau im [Github](https://github.com/TacticalTrainingTeam/ttt_a3?tab=contributing-ov-file) vorbei.
 
 Die TTT-Mod besteht aus verschiedenen Addons, die jeweils eigene Funktionen und Objekte hinzufügen. Diese sind unten aufgelistet.
 
