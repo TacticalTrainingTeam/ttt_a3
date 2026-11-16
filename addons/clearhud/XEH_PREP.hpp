@@ -1,1 +1,2 @@
+PREP(hideChat);
 PREP(toggleChat);
