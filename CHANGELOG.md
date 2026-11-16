@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+* Common - Add seat lock events, a generic map action and an event to remove a backpack from a vehicle cargo (#643) by Andx667
+
 ## [6.2.0] - 2026-11-04
 
 ### Added
