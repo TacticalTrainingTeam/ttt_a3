@@ -9,6 +9,8 @@
  *
  * Return Value:
  * None
+ *
+ * Public: No
  */
 params ["_ctrl", "_selection"];
 
