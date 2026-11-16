@@ -1,21 +1,19 @@
 #include "..\script_component.hpp"
-/**
- *  Author: Timi007
+/*
+ * Author: Timi007
+ * Checks if the height of the static weapon can be adjusted.
  *
- *  Description:
- *      Checks if the height of the static weapon can be adjusted.
+ * Arguments:
+ * 0: Static weapon <OBJECT>
+ * 1: "up" or "down" <STRING>
  *
- *  Parameter(s):
- *      0: OBJECT - Static weapon
- *      1: STRING - "up" or "down"
+ * Return Value:
+ * Can adjust height <BOOL>
  *
- *  Returns:
- *       BOOLEAN - Can adjust height.
+ * Example:
+ * [this, "up"] call ttt_compat_rnt_fnc_canAdjustHeight
  *
- *  Example:
- *      [this, "up"] call ttt_compat_rnt_fnc_canAdjustHeight
- *
- * Public: NO
+ * Public: No
  */
 
 params ["_target", "_upDown"];

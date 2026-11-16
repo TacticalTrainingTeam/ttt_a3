@@ -1,23 +1,32 @@
 #include "..\script_component.hpp"
 /*
-* Author: EinStein
-* Original idea: by Ares Mod-Team https://github.com/ArmaAchilles/Achilles/blob/f123656459cab7766aa40c32d5ee12d29ebadaae/%40AresModAchillesExpansion/addons/modules_f_ares/Reinforcements/functions/fn_ReinforcementsCreateUnits.sqf
-* Description: spawns vehicle and infantry group, moves to RP, releases units and attacks or RTB
-* Example:
-*    [l_sp_1, l_rp_1, l_at_1, EAST, "O_APC_Wheeled_02_rcws_v2_F"] call ttt_common_fnc_callReinforcements;
-*
-*    argument 0: 'array' or 'object' position to create units
-*    argument 1: 'array' or 'object' position to release units
-*    argument 2: 'array' or 'object' position to attack (uses SaD for infantry and vehicle, but if LAMBS is active and vehicle is no airborne, infantry will use lambs_rush instead)
-*    argument 3: 'side' side of created units
-*    argument 4: 'classname' of the transport vehicle
-*    argument 5: (optional, default: 0) 'integer' RP behaviour [vehicle type: air / ground ] (0: Landing-Unload-RTB / Unload-RTB, 1: Fastrope-RTB / Unload-Attack, 2: Paradrop-RTB / Unload-Guard)
-*    argument 6: (optional, default: configFile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad") 'array' or '_grpCfgName' of the infantry group
-*    argument 7: (optional, default: 1) 'integer' group behaviour (0: relaxed, 1:cautious, 2: combat)
-*    argument 8: (optional, default: 80) 'integer' fly height for air vehicles
-*
-* Public: Yes
-*/
+ * Author: EinStein
+ * Original idea: by Ares Mod-Team https://github.com/ArmaAchilles/Achilles/blob/f123656459cab7766aa40c32d5ee12d29ebadaae/%40AresModAchillesExpansion/addons/modules_f_ares/Reinforcements/functions/fn_ReinforcementsCreateUnits.sqf
+ * Spawns a transport vehicle with an infantry group, moves it to the release point,
+ * releases the infantry and then attacks or returns to base. Server only.
+ *
+ * Arguments:
+ * 0: Spawn position <ARRAY or OBJECT>
+ * 1: Release point (RP) <ARRAY or OBJECT>
+ * 2: Attack position; infantry and vehicle use Search and Destroy, with LAMBS and a ground vehicle the infantry uses lambs_rush instead <ARRAY or OBJECT>
+ * 3: Side of the created units <SIDE>
+ * 4: Classname of the transport vehicle <STRING>
+ * 5: RP behaviour, air / ground vehicle <NUMBER> (default: 0)
+ *    0: Landing-Unload-RTB / Unload-RTB
+ *    1: Fastrope-RTB / Unload-Attack
+ *    2: Paradrop-RTB / Unload-Guard
+ * 6: Infantry group, as group config or array of unit classnames <CONFIG or ARRAY> (default: configFile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad")
+ * 7: Group behaviour, 0: relaxed, 1: cautious, 2: combat <NUMBER> (default: 2)
+ * 8: Fly height for air vehicles <NUMBER> (default: 80)
+ *
+ * Return Value:
+ * None
+ *
+ * Example:
+ * [l_sp_1, l_rp_1, l_at_1, EAST, "O_APC_Wheeled_02_rcws_v2_F"] call ttt_common_fnc_callReinforcements
+ *
+ * Public: Yes
+ */
 
 if (!isServer) exitWith {};
 

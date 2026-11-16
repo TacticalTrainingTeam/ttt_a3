@@ -1,21 +1,18 @@
 #include "..\script_component.hpp"
-/**
- *  Author: Timi007
+/*
+ * Author: Timi007
+ * Empties the M120 mortar magazine after one shot was fired (Fired event handler).
  *
- *  Description:
- *      Emtpy M120 Mortar magazine after one shot was fired.
+ * Arguments:
+ * 0: M120 Mortar <OBJECT>
  *
- *  Parameter(s):
- *      0: OBJECT - M120 Mortar.
+ * Return Value:
+ * None
  *
- *  Returns:
- *       Nothing.
+ * Example:
+ * _this call ttt_compat_rnt_fnc_m120handleFired
  *
- *  Example:
- *      call ttt_compat_rnt_m120_fnc_m120HandleFired
- *
- * Public: NO
- *
+ * Public: No
  */
 
 params ["_mortar"];
