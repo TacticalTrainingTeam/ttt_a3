@@ -65,7 +65,7 @@ private _ammo = "";
 } forEach _enemyArtyArray;
 
 //Check for ammo
-if (_ammo isEqualTo "") exitWith {WARNING_1("No Ammo to fire in %1", _enemyArtyArray); false;};
+if (_ammo isEqualTo "") exitWith {WARNING_1("No Ammo to fire in %1",_enemyArtyArray); false;};
 
 //Check for range
 if !((getPos _ownArty) inRangeOfArtillery [_enemyArtyArray, _ammo]) exitWith {WARNING_1("%1 is out of the synced enemy artillery's firing range, no counter-fire",_ownArty); false};

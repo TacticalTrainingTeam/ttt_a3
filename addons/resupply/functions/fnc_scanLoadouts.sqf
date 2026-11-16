@@ -33,8 +33,13 @@
  * reloadable at the engine level are deliberately excluded here - only
  * their ammo needs resupplying, not the launcher itself.
  *
+ * Re-running replaces the database; the previous one stays in place until
+ * the new scan finished, so crates can still be spawned in the meantime.
+ * See fnc_rebuildDatabase for the public entry point.
+ *
  * Arguments:
- * None
+ * 0: Delay before scanning in seconds, lets the initial player wave finish
+ *    loading <NUMBER> (default: 5)
  *
  * Return Value:
  * None
@@ -45,11 +50,12 @@
  * Public: No
  */
 
+params [["_delay", 5, [0]]];
+
 if (!isServer) exitWith {};
 
-// Initialise the database so spawnCrate can detect "scan done" even with 0 players
-GVAR(db)      = createHashMap;
-GVAR(db_init) = false;
+// GVAR(db) / GVAR(db_init) are initialised in XEH_preInit and deliberately
+// not reset here, so a rebuild doesn't make spawnCrate fail while it runs.
 
 // Wait for initial player wave to finish loading
 [{
@@ -58,6 +64,7 @@ GVAR(db_init) = false;
 
     if (_playerCount == 0) exitWith {
         INFO("No players found during loadout scan");
+        GVAR(db) = createHashMap;
         GVAR(db_init) = true;
         [QGVAR(dbUpdated), [[]]] call CBA_fnc_globalEvent;
         [QGVAR(dbReady), []] call CBA_fnc_localEvent;
@@ -160,4 +167,4 @@ GVAR(db_init) = false;
     // spawnCrate as soon as it's safe to do so, without listening to the
     // full (client-facing) dbUpdated payload.
     [QGVAR(dbReady), []] call CBA_fnc_localEvent;
-  }, [], 5] call CBA_fnc_waitAndExecute;
+}, [], _delay] call CBA_fnc_waitAndExecute;

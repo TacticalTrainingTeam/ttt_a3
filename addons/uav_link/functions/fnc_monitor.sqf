@@ -102,9 +102,9 @@ if (_dist >= _lostDistance) then {
     };
 };
 
-private _ppBlur = missionNamespace getVariable [QGVAR(ppBlur), objNull];
-private _ppGrain = missionNamespace getVariable [QGVAR(ppGrain), objNull];
-private _ppChroma = missionNamespace getVariable [QGVAR(ppChroma), objNull];
+private _ppBlur = missionNamespace getVariable [QGVAR(ppBlur), -1];
+private _ppGrain = missionNamespace getVariable [QGVAR(ppGrain), -1];
+private _ppChroma = missionNamespace getVariable [QGVAR(ppChroma), -1];
 
 if (_connected && {cameraOn isEqualTo _trackedUav}) then {
     private _factor = (((_dist - _degradeDistance) / (_lostDistance - _degradeDistance)) max 0) min 1;

@@ -7,6 +7,11 @@
 *.js text eol=crlf
 *.py text eol=crlf
 *.md text eol=crlf
+
+# Wiki-Doku wird 1:1 per rsync ins Wiki (LF) gespiegelt
+docs/ttt-a3.md text eol=lf
+docs/ttt-a3/** text eol=lf
+
 *.toml text eol=crlf
 *.txt text eol=crlf
 *.xml text eol=crlf

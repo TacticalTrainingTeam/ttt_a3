@@ -11,12 +11,48 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * Compat BWA3 - Add MK30 AP/HE muzzles, more HE damage, adjusted magazine sizes, 1000 round MG5 belt and better visible P2A1 flares (#649) by Andx667
 
+## [6.2.0] - 2026-11-04
+
+### Added
+
+* Drone Crafting - Add FPV drone crafting addon with Eden module and ZEN actions (#675) by Andx667
+
+### Changed
+
+* Common - Change addIntel to use a CBA global event instead of remoteExec (#626) by Andx667
+* Effects - Change storm to send one setSkill event per AI unit (#667) by Andx667
+* General - Fix hemtt warnings (#665) by Andx667
+
 ### Fixed
 
-* Surrender - Fix DropWeapon module value causing Number/Bool type error (#632) by Andx667
+* Compat FPV - Fix missing inventory pictures for FPV drone items (#677) by Andx667
+* Effects - Fix storm JIP event never being removed (#668) by Andx667
+* Effects - Fix storm picking null and dead entities (#670) by Andx667
+* RSR - Remove duplicate CfgDigVehicles configuration (#664) by Andx667
+
+## [6.1.0] - 2026-10-20
+
+### Added
+
+* Common - Add TTT Logos in HQ (#641) by Andx667
+* Dismantle - Add completion sound effect (#627) by Andx667
+* Resupply - Add database rebuild function and ZEN context menu entry (#659) by Andx667
+
 ### Changed
 
 * Docs - Fix nav to match addons (#633) by Andx667
+* General - Stop stale PFHs, add `stopFlakFire` and narrow M120 remoteExec (#650) by Andx667
+
+### Fixed
+
+* Dismantle - Fix function headers and guard against already-dismantled targets (#627) by Andx667
+* Resupply - Fix 3DEN Attribute (#642) by Andx667
+* Surrender - Fix DropWeapon module value causing Number/Bool type error (#632) by Andx667
+* UAV Link - Fix `isNull` type error spamming the RPT when stopping tracking (#640) by Andx667
+
+### Removed
+
+* Compat XEH - Remove Addon (#610) by Andx667
 
 ## [6.0.1] - 2026-10-06
 

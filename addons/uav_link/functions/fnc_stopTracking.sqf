@@ -14,15 +14,16 @@
 * Public: No
 */
 
+// ppEffectCreate returns a number handle (-1 on failure), not an object, so isNull can't be used here
 {
-    if !(isNull _x) then {
+    if (_x >= 0) then {
         _x ppEffectEnable false;
         ppEffectDestroy _x;
     };
 } forEach [
-    missionNamespace getVariable [QGVAR(ppBlur), objNull],
-    missionNamespace getVariable [QGVAR(ppGrain), objNull],
-    missionNamespace getVariable [QGVAR(ppChroma), objNull]
+    missionNamespace getVariable [QGVAR(ppBlur), -1],
+    missionNamespace getVariable [QGVAR(ppGrain), -1],
+    missionNamespace getVariable [QGVAR(ppChroma), -1]
 ];
 
 {

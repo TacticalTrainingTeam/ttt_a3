@@ -14,8 +14,11 @@ PREP_RECOMPILE_END;
 
 // Owner-targeted mutations, fired via CBA_fnc_targetEvent instead of remoteExec.
 [QGVAR(setSkill), {
-    params ["_unit", "_skillType", "_value"];
-    _unit setSkill [_skillType, _value];
+    params ["_unit", "_skills"];
+    {
+        _x params ["_skillType", "_value"];
+        _unit setSkill [_skillType, _value];
+    } forEach _skills;
 }] call CBA_fnc_addEventHandler;
 
 [QGVAR(setVelocity), {
