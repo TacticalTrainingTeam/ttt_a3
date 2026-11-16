@@ -1,4 +1,4 @@
-#include "../script_component.hpp"
+#include "..\script_component.hpp"
 /*
  * Author: Andx
  * Runs a sanity check once every addon's postInit has completed

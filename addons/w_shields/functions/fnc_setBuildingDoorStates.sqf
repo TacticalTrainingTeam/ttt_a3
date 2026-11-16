@@ -27,7 +27,7 @@ if (isNull _target || {_states isEqualTo []}) exitWith {};
 _states = _states apply {if (_x isEqualType "") then {parseNumber _x} else {_x}};
 
 {
-    SETUP_DOOR(_target, _forEachIndex, _x)
+    SETUP_DOOR(_target,_forEachIndex,_x)
 } forEach _states;
 
 _target setVariable [QGVAR(doorStates), _states, true];

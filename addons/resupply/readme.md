@@ -7,7 +7,7 @@ aufbauend können Missionsbauer typisierte Nachschubkisten anfordern lassen -
 (falls Zeus Enhanced geladen ist) über das ZEN-Kontextmenü, siehe
 `resupply_zen/readme.md`.
 
-Siehe die [Nutzerdokumentation](https://docs.tacticalteam.de/addons/resupply/)
+Siehe die [Nutzerdokumentation](https://wiki.tacticalteam.de/ttt-a3/funktional/resupply)
 für Kistentypen, Einstellungen und die Nutzung durch Missionsbauer.
 
 ## Item-Klassifizierung
@@ -35,6 +35,20 @@ Die Items werden bei Missionsstart aus der Ausrüstung der Spieler klassifiziert
   Missionskonvention mit einem Magazin ausgegeben werden (z. B. Vanilla-NLAW),
   bleiben auf Engine-Ebene nachladbar und werden hier bewusst nicht
   berücksichtigt - dort reicht die Munition allein.
+
+## Datenbank neu aufbauen (`fnc_rebuildDatabase`)
+
+Ruft `fnc_scanLoadouts` ohne die 5-Sekunden-Wartezeit des Missionsstarts erneut
+auf (alle Spieler sind dann ja schon da). `GVAR(db)`/`GVAR(db_init)` werden
+dafür bewusst nicht mehr in `fnc_scanLoadouts` zurückgesetzt (die Initialisierung
+passiert einmalig in `XEH_preInit`): Die alte Datenbank bleibt bis zum Abschluss
+des neuen Scans aktiv, sonst würde `fnc_spawnCrate` während des Neuaufbaus
+mit "Datenbank nicht gebaut" scheitern. Ohne Spieler wird die Datenbank dagegen
+geleert, damit sie keine veralteten Einträge behält.
+
+Auf Clients leitet die Funktion per `QGVAR(rebuildDatabase)`-Server-Event an den
+Server weiter. Nach Abschluss gehen wie beim ersten Scan `QGVAR(dbUpdated)`
+(Clients) und `QGVAR(dbReady)` (Server) raus - `dbReady` feuert also erneut.
 
 ## Kisten-Platzierung (`fnc_spawnCrate`)
 

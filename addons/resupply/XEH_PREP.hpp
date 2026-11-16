@@ -3,6 +3,7 @@ PREP(classifyMag);
 PREP(decrementCrateLimit);
 PREP(getCrateLimit);
 PREP(isCrateAvailable);
+PREP(rebuildDatabase);
 PREP(resolveDisposableLauncher);
 PREP(scanLoadouts);
 PREP(setContainer);
