@@ -4,7 +4,9 @@ description: >-
   TTT-Addons, die ohne Einrichtung laufen und die Spieler im Spiel bemerken oder
   nutzen.
 published: true
-tags: []
+tags:
+  - arma3
+  - ttt-mod
 editor: markdown
 dateCreated: '2026-11-12T10:32:12.883Z'
 ---
