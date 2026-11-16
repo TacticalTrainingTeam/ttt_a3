@@ -14,6 +14,8 @@
  *
  * Return Value:
  * None
+ *
+ * Public: No
  */
 
 params ["_settingLower"];

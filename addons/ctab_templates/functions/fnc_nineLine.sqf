@@ -1,3 +1,20 @@
+#include "..\script_component.hpp"
+/*
+ * Author: Andx
+ * Registers the CAS 9-Liner message template with cTab.
+ *
+ * Arguments:
+ * None
+ *
+ * Return Value:
+ * None
+ *
+ * Example:
+ * call ttt_ctab_templates_fnc_nineLine
+ *
+ * Public: No
+ */
+
 [
     "maps.plan-ops.fr#168",
     0,

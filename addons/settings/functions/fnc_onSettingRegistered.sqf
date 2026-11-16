@@ -12,6 +12,8 @@
  *
  * Return Value:
  * None
+ *
+ * Public: No
  */
 
 private _setting = _this;

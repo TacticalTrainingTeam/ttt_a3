@@ -1,20 +1,19 @@
 #include "..\script_component.hpp"
-/**
- *  Author: Zumi, Timi007
+/*
+ * Author: Zumi, Timi007
+ * Checks if current weapon of the player can be used to assemble the static MG.
  *
- *  Description:
- *      Checks if current weapon of the player can be used to assemble the static MG.
+ * Arguments:
+ * 0: Tripod <OBJECT>
+ * 1: Player <OBJECT>
  *
- *  Parameter(s):
- *      0: OBJECT - Tripod.
- *      1: OBJECT - Player.
+ * Return Value:
+ * Can assemble static MG <BOOL>
  *
- *  Returns:
- *      BOOLEAN - Can assemble static MG.
+ * Example:
+ * [this, player] call ttt_compat_rnt_fnc_canMountMG
  *
- *  Example:
- *      [this, player] call ttt_compat_rnt_fnc_canMountMG
- *
+ * Public: No
  */
 
 params ["", "_player"];

@@ -1,4 +1,19 @@
 #include "..\script_component.hpp"
+/*
+ * Author: Andx
+ * Registers the FDCB message template with cTab.
+ *
+ * Arguments:
+ * None
+ *
+ * Return Value:
+ * None
+ *
+ * Example:
+ * call ttt_ctab_templates_fnc_fdcb
+ *
+ * Public: No
+ */
 
 [
     "maps.plan-ops.fr#166",
