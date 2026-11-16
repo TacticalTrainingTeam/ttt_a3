@@ -20,7 +20,7 @@
 - Verbesserungen und Fehlerbehebungen für 3CB, RHS, CUP, BWmod und Redd'n'Tank
 - Schilde für Fahrzeuge und Gebäude
 
-Die komplette Beschreibung der Funktionen steht in der [Dokumentation](https://docs.tacticalteam.de).
+Die komplette Beschreibung der Funktionen steht in der [Dokumentation](https://wiki.tacticalteam.de/ttt-a3).
 
 ## Source & Issues
 

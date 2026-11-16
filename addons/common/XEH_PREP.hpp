@@ -6,6 +6,7 @@ PREP(createPlayerMarker);
 PREP(doFlakFire);
 PREP(getAllItems);
 PREP(initMapActions);
+PREP(intelFound);
 PREP(join);
 PREP(lockSeat);
 PREP(noApiFunction);
