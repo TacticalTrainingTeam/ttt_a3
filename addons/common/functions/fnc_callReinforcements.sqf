@@ -22,11 +22,11 @@
 if (!isServer) exitWith {};
 
 params [
-    "_spPos",
-    "_rpPos",
-    "_atPos",
-    "_side",
-    "_vehicleType",
+    ["_spPos", [], [[], objNull]],
+    ["_rpPos", [], [[], objNull]],
+    ["_atPos", [], [[], objNull]],
+    ["_side", sideUnknown, [sideUnknown]],
+    ["_vehicleType", "", [""]],
     ["_rpBehaviour", 0, [42]],
     ["_grpCfg", configFile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad", [(configFile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry" >> "OIA_InfSquad"), []]],
     ["_grpBehaviour", 2, [42]],

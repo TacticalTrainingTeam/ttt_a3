@@ -20,7 +20,7 @@
  */
 
 params [
-    "_player",
+    ["_player", objNull, [objNull]],
     ["_uid", "", [""]],
     ["_updateDiary", true, [true]],
     ["_isRetry", false, [false]]

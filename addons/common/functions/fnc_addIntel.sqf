@@ -21,7 +21,12 @@
 * Public: Yes
 */
 
-params ["_object", "_title", "_delete","_textInfo"];
+params [
+    ["_object", objNull, [objNull]],
+    ["_title", "", [""]],
+    ["_delete", false, [false]],
+    ["_textInfo", [], [[]]]
+];
 
 if (_object getVariable ["ttt_infoShared", false]) exitWith {
     if !(player diarySubjectExists "ttt_intel") then {
