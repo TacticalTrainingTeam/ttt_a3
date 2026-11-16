@@ -1,0 +1,16 @@
+PREP(addActions);
+PREP(addCargo);
+PREP(checkIngredients);
+PREP(compileRecipes);
+PREP(countCargo);
+PREP(craft);
+PREP(fillStock);
+PREP(getCargoType);
+PREP(getNearestVehicle);
+PREP(moduleSupplyVehicle);
+PREP(removeVehicle);
+PREP(restock);
+PREP(setVehicle);
+PREP(showCraftResult);
+PREP(startCraft);
+PREP(zenRegister);
