@@ -51,7 +51,7 @@
 * Public: Yes
 */
 
-params ["_context"];
+params [["_context", createHashMap, [createHashMap]]];
 
 private _supportedVehicles = _context get "supportedVehicles";
 private _facilityObject = _context get "facilityObject";

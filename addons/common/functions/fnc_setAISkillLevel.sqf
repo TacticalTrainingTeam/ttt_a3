@@ -26,7 +26,7 @@
  * Public: Yes
  */
 
-params ["_unit",["_skillLevel","Veteran", [""]]];
+params [["_unit", objNull, [objNull]], ["_skillLevel", "Veteran", [""]]];
 
 private "_skill";
 
