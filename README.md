@@ -45,7 +45,7 @@ Du willst im TTT mitmachen? <http://www.tacticalteam.de/mitmachen>.
 - Schilde für Fahrzeuge und Gebäude
 - ...
 
-Die komplette Beschreibung der Funktionen steht in der [Dokumentation](https://docs.tacticalteam.de).
+Die komplette Beschreibung der Funktionen steht in der [Dokumentation](https://wiki.tacticalteam.de/ttt-a3).
 
 ## Contributing
 
