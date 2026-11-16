@@ -66,6 +66,7 @@ Die TTT-Mod ist in zwei Versionen verfügbar:
   - [mpls](/de/ttt-a3/allgemein/mpls)
   - [no_chain](/de/ttt-a3/allgemein/no-chain)
   - [screenshotmode](/de/ttt-a3/allgemein/screenshotmode)
+  - [settings](/de/ttt-a3/funktional/settings)
   - [signs](/de/ttt-a3/assets/signs)
   - [spotlight_event](/de/ttt-a3/allgemein/spotlight-event)
   - [teleport](/de/ttt-a3/allgemein/teleport)
