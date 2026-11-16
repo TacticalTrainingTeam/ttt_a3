@@ -57,10 +57,6 @@
             <English>Revert to Initial Loadout</English>
             <German>Start-Ausrüstung wiederherstellen</German>
         </Key>
-        <Key ID="STR_ttt_Mpls_zenRevertNoTarget">
-            <English>[MPLS] No player under cursor.</English>
-            <German>[MPLS] Kein Spieler unter dem Cursor.</German>
-        </Key>
         <Key ID="STR_ttt_Mpls_zenRevertRequested">
             <English>[MPLS] Reverting loadout for %1...</English>
             <German>[MPLS] Ausrüstung von %1 wird zurückgesetzt...</German>

@@ -14,6 +14,8 @@ PREP_RECOMPILE_END;
     }
 ] call CBA_fnc_addEventHandler;
 
+[QGVAR(intelFound), FUNC(intelFound)] call CBA_fnc_addEventHandler;
+
 ADDON = true;
 
 // Source: PzGrenBtl402 addons/Common/XEH_postInit.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted

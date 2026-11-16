@@ -5,6 +5,10 @@
             <English>Mark as Resupply Depot</English>
             <German>Als Nachschub-Depot markieren</German>
         </Key>
+        <Key ID="STR_ttt_Resupply_action_rebuildDatabase">
+            <English>Rebuild Resupply Database</English>
+            <German>Nachschub-Datenbank neu aufbauen</German>
+        </Key>
         <Key ID="STR_ttt_Resupply_action_resupply_menu">
             <English>Resupply</English>
             <German>Nachschub</German>
@@ -44,6 +48,10 @@
         <Key ID="STR_ttt_Resupply_faction_opfor">
             <English>OPFOR</English>
             <German>OPFOR</German>
+        </Key>
+        <Key ID="STR_ttt_Resupply_hintDatabaseRebuilding">
+            <English>Resupply: Rebuilding database from current player loadouts.</English>
+            <German>Nachschub: Datenbank wird aus den aktuellen Spieler-Loadouts neu aufgebaut.</German>
         </Key>
         <Key ID="STR_ttt_Resupply_hintDepotMarked">
             <English>Object marked as resupply depot.</English>
