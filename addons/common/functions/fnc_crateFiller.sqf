@@ -23,7 +23,7 @@
  * Public: Yes
  */
 
- params ["_crates", "_content", ["_clearCrate", true]];
+ params [["_crates", [], [[]]], ["_content", [], [[]]], ["_clearCrate", true, [true]]];
 {
     private _crateObject = _x;
     

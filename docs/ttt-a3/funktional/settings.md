@@ -1,7 +1,7 @@
 ---
 title: Settings
 description: >-
-  Setzt beim Missionsstart die TTT-CBA-Einstellungen und lässt in der Lobby
+  Setzt beim Missionsstart die TTT-Einstellungen und lässt in der Lobby
   eines von drei Sanitätssystemen wählen.
 published: true
 tags:
@@ -25,7 +25,7 @@ Ansprechpartner: "Andx (Discord: andx)"
 ```
 ::
 
-Setzt beim Missionsstart die TTT-CBA-Einstellungen für ACE, [ACRE](/de/handbuch/mods/acre2) und die anderen Mods des Modsets und lässt in der Lobby eines von drei Sanitätssystemen wählen.
+Setzt beim Missionsstart die TTT-Einstellungen für ACE, [ACRE](/de/handbuch/mods/acre2) und die anderen Mods des Modsets und lässt in der Lobby eines von drei Sanitätssystemen wählen.
 
 Alles, was das Addon nicht festlegt, kann jeder Spieler selbst einstellen. Greift eine Einstellung nicht (z.B. weil die Mod fehlt oder der Name falsch ist), steht im [RPT](/de/technik/rpt) eine Meldung mit `(settings) WARNING`.
 

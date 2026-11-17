@@ -4,7 +4,9 @@ description: >-
   TTT-Addons, auf denen andere Addons aufbauen und die nicht allein genutzt
   werden.
 published: true
-tags: []
+tags:
+  - arma3
+  - ttt-mod
 editor: markdown
 dateCreated: '2026-11-12T12:22:54.800Z'
 ---

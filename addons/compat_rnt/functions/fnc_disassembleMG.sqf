@@ -1,20 +1,19 @@
 #include "..\script_component.hpp"
-/**
- *  Author: Zumi, Timi007
+/*
+ * Author: Zumi, Timi007
+ * Disassembles the static MG3 and returned the MG3 to the player.
  *
- *  Description:
- *      Disassembles the static MG3 and returned the MG3 to the player.
+ * Arguments:
+ * 0: Static MG3 <OBJECT>
+ * 1: Player <OBJECT>
  *
- *  Parameter(s):
- *      0: OBJECT - Static MG3.
- *      1: OBJECT - Player.
+ * Return Value:
+ * None
  *
- *  Returns:
- *      Nothing.
+ * Example:
+ * [this, player] call ttt_compat_rnt_fnc_disassembleMG
  *
- *  Example:
- *      [this, player] call ttt_compat_rnt_fnc_disassembleMG
- *
+ * Public: No
  */
 
 params ["_mg3Static", "_player"];

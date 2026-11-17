@@ -1,20 +1,19 @@
 #include "..\script_component.hpp"
-/**
- *  Author: Zumi, Timi007
+/*
+ * Author: Zumi, Timi007
+ * Mounts the current MG3 of the player to the tripod creating a static MG3.
  *
- *  Description:
- *      Mounts the current MG3 of the player to the tripod creating a static MG3.
+ * Arguments:
+ * 0: Tripod <OBJECT>
+ * 1: Player <OBJECT>
  *
- *  Parameter(s):
- *      0: OBJECT - Tripod.
- *      1: OBJECT - Player.
+ * Return Value:
+ * None
  *
- *  Returns:
- *      Nothing.
+ * Example:
+ * [this, player] call ttt_compat_rnt_fnc_mountMG
  *
- *  Example:
- *      [this, player] call ttt_compat_rnt_fnc_mountMG
- *
+ * Public: No
  */
 
 params ["_tripod", "_player"];
