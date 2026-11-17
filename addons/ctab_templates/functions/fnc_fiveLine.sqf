@@ -1,4 +1,19 @@
 #include "..\script_component.hpp"
+/*
+ * Author: Andx
+ * Registers the TTT 5-Liner message template with cTab.
+ *
+ * Arguments:
+ * None
+ *
+ * Return Value:
+ * None
+ *
+ * Example:
+ * call ttt_ctab_templates_fnc_fiveLine
+ *
+ * Public: No
+ */
 
 [
     "maps.plan-ops.fr#161",

@@ -16,6 +16,8 @@
  *
  * Return Value:
  * None
+ *
+ * Public: No
  */
 
 private _unapplied = keys GVAR(overrideValues);

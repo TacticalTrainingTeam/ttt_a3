@@ -1,21 +1,20 @@
 #include "..\script_component.hpp"
-/**
- *  Author: Timi007
+/*
+ * Author: Timi007
+ * Dummy function for creating actions on vehicles (open of hatches, lights, etc) once the infantry phone is picked up.
  *
- *  Description:
- *      Dummy function for creating actions on vehicles (open of hatches, lights, etc) once the infantry phone is picked up.
+ * Arguments:
+ * 0: Vehicle with infantry phone <OBJECT>
+ * 1: Infantry phone unit <OBJECT>
+ * 2: Infantry phone action (1: return, 2: pick-up, 3: give, 4: switch network) <NUMBER>
  *
- *  Parameter(s):
- *      0: OBJECT - Vehicle with infantry phone
- *      1: OBJECT - Infantry phone unit
- *      2: NUMBER - Infantry phone action (1: return, 2: pick-up, 3: give, 4: switch network)
+ * Return Value:
+ * None
  *
- *  Returns:
- *      None
+ * Example:
+ * [cursorTarget, player, 1] call ttt_common_fnc_noApiFunction
  *
- *  Example:
- *      [cursorTarget, player, 1] call ttt_common_fnc_noApiFunction
- *
+ * Public: No
  */
 
 TRACE_1("This is the dummy function for infantry phone: %1",QFUNC(noApiFunction));

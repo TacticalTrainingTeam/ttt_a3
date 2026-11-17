@@ -1,4 +1,19 @@
 #include "..\script_component.hpp"
+/*
+ * Author: Andx
+ * Registers the NATO MedEvac 9-Liner message template with cTab.
+ *
+ * Arguments:
+ * None
+ *
+ * Return Value:
+ * None
+ *
+ * Example:
+ * call ttt_ctab_templates_fnc_medevac
+ *
+ * Public: No
+ */
 
 // NATO MedEvac
 [

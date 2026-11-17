@@ -16,7 +16,7 @@
  * Public: Yes
  */
 
-params ["_unit"];
+params [["_unit", objNull, [objNull]]];
 
 if !(isServer) exitWith {};
 

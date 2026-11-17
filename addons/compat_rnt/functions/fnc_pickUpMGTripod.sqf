@@ -1,20 +1,19 @@
 #include "..\script_component.hpp"
-/**
- *  Author: Zumi, Timi007
+/*
+ * Author: Zumi, Timi007
+ * Pick up the tripod.
  *
- *  Description:
- *      Pick up the tripod.
+ * Arguments:
+ * 0: Tripod <OBJECT>
+ * 1: Player <OBJECT>
  *
- *  Parameter(s):
- *      0: OBJECT - Tripod.
- *      1: OBJECT - Player.
+ * Return Value:
+ * None
  *
- *  Returns:
- *      Nothing.
+ * Example:
+ * [this, player] call ttt_compat_rnt_fnc_pickUpMGTripod
  *
- *  Example:
- *      [this, player] call ttt_compat_rnt_fnc_pickupMGTripod
- *
+ * Public: No
  */
 
 params ["_tripod", "_player"];
