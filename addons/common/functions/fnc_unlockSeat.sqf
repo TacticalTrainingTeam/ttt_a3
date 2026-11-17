@@ -1,21 +1,19 @@
 #include "..\script_component.hpp"
-/**
- *  Author: Timi007
- *  Source: PzGrenBtl402 addons/Common/functions/fnc_unlockSeat.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted to this repository
+/*
+ * Author: Timi007
+ * Source: PzGrenBtl402 addons/Common/functions/fnc_unlockSeat.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted to this repository
+ * Unlocks the seat that was locked for the unit with ttt_common_fnc_lockSeat.
  *
- *  Description:
- *      Unlocks the seat that was locked for the unit with ttt_common_fnc_lockSeat.
+ * Arguments:
+ * 0: Unit <OBJECT>
  *
- *  Parameter(s):
- *      0: OBJECT - Unit
+ * Return Value:
+ * None
  *
- *  Returns:
- *      Nothing.
+ * Example:
+ * [player] call ttt_common_fnc_unlockSeat
  *
- *  Example:
- *      [player] call ttt_common_fnc_unlockSeat
- *
- * Public: NO
+ * Public: No
  */
 
 params ["_unit"];

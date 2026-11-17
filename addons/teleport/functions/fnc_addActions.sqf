@@ -16,7 +16,7 @@
  * Public: Yes
  */
 
-params ["_object"];
+params [["_object", objNull, [objNull]]];
 
 if (isNil "_object") exitWith {(INFO("Object not found!"));};
 
