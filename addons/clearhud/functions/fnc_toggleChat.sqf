@@ -40,6 +40,10 @@ if (_status) then {
     _status = false;
 } else {
     _activated = parseText format ["<t color='#ff0000'>%1</t>", LLSTRING(chatDisabled)];
+    // A per-frame handler is genuinely needed, no event can replace it: HandleChatMessage
+    // doesn't fire for scripted messages (systemChat, sideChat, ...), which would stay visible,
+    // and showChat false hides the whole chat window instead of only the messages.
+    // clearRadio is a single cheap engine command.
     GVAR(handle) = [{clearRadio;}, 0, []] call CBA_fnc_addPerFrameHandler;
     _status = true;
 };

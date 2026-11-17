@@ -35,7 +35,7 @@
  */
 
 params [
-    "_unit",
+    ["_unit", objNull, [objNull]],
     ["_general",        0.75, [0.0]],
     ["_courage",        0.75, [0.0]],
     ["_aimingAccuracy", 0.65, [0.0]],

@@ -35,9 +35,9 @@
 if (!isServer) exitWith {false};
 
 params [
-    "_ownArty",
-    "_magazine",
-    "_enemyArtyArray",
+    ["_ownArty", objNull, [objNull]],
+    ["_magazine", "", [""]],
+    ["_enemyArtyArray", [], [[]]],
     ["_radius", 100, [42]],
     ["_rounds", (selectRandom [3,4,5]), [42]],
     ["_decrementRadius", true, [true]],
