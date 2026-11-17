@@ -28,6 +28,7 @@ Fehlerbehebungen und einheitliche Funkausstattung für Redd'n'Tank-Fahrzeuge.
 # Voraussetzungen
 
 - [Redd'n'Tank Vehicles](https://steamcommunity.com/sharedfiles/filedetails/?id=1128145626) - Erforderlich
+- Metis Enhanced (ab Version 1.10.2) - Optional, für die Karten-Aktion
 
 # Änderungen
 
@@ -55,6 +56,8 @@ ACE-CSW-Unterstützung und Fehlerbehebungen. Der [Mörser](/de/handbuch/kampfunt
 
 Stabiler, und die ACE-Aktionen zum seitlichen Drehen und zur Höhenverstellung funktionieren. Benötigt `force ace_csw_defaultAssemblyMode = true;` in den CBA-Einstellungen.
 
+Die GraMaWa wird mit dem Gurt **[CSW] 40mm GMW-Gurt** (32 Schuss) über die ACE-Interaktion geladen und entladen. Das Laden dauert 10, das Entladen 8 Sekunden. Der Gurt ist auch im Arsenal verfügbar und mit dem Gurt von Redd'n'Tank austauschbar.
+
 ## MG3-Lafette
 
 Lässt sich auch mit MG3 aus anderen Mods aufbauen (`BWA3_MG3`, `BWA3_MG3_bipod`, `BWA3_MG3_MicroT2_pointer_bipod`) und ist stabiler.
@@ -63,7 +66,7 @@ Lässt sich auch mit MG3 aus anderen Mods aufbauen (`BWA3_MG3`, `BWA3_MG3_bipod`
 
 - Der Kommandant kann höher bzw. tiefer steigen, das Tarnnetz wird automatisch angebracht und das HUD ist aufgeräumt (keine Fahrzeug-Systemanzeigen).
 - Die MK20 hat AP und HE als getrennte Munitionsarten, die über die Waffenauswahl gewechselt werden (kein Mausrad mehr).
-- Die Türme von Wiesel MK20 und Wiesel TOW sind wie im Original stabilisiert.
+- Die Türme von Wiesel MK20, Wiesel TOW und Fuchs sind wie im Original stabilisiert.
 
 ## Wiesel TOW
 
@@ -72,9 +75,23 @@ Lässt sich auch mit MG3 aus anderen Mods aufbauen (`BWA3_MG3`, `BWA3_MG3_bipod`
 - Pro Schuss wird ein Milan-Rohr aus dem Fahrzeug verbraucht (5 Stück an Bord). Der TOW startet geladen und wird mit der Aktion **TOW laden** (10 Sekunden halten) nachgeladen, solange ein Rohr im Laderaum liegt. Nachladen darf der Ladeschütze. Ist kein Ladeschützen-Platz besetzt, darf der Kommandant nachladen – auch vom TOW-Sitz aus.
 - Das Tarnnetz wird automatisch angebracht und das HUD ist aufgeräumt (keine Fahrzeug-Systemanzeigen).
 
+## Luchs
+
+Kommandant und Ladeschütze können mit den Tasten für Aus- und Einsteigen (Turn Out / Turn In) höher bzw. tiefer steigen.
+
+## Fuchs und Wolf
+
+Mit Metis Enhanced ab Version 1.10.2 kann eine Karte auf den hinteren Türen des Fuchs bzw. auf der Motorhaube des Wolfs abgelegt werden, beim Fuchs nur bei geöffneten Türen. Ohne Metis Enhanced wird die Aktion nicht angezeigt.
+
+Die Aktion lässt sich pro Fahrzeug ausblenden, z. B. in der Init-Zeile des Fahrzeugs:
+
+```sqf
+this setVariable ["ttt_common_showMapAction", false, true];
+```
+
 ## Ladekapazität
 
-Wiesel MK20 und Wiesel TOW haben keine Gewichtsgrenze für eingeladene Ausrüstung.
+Fuchs, Gepard, Luchs, Wiesel MK20, Wiesel TOW und Wolf haben keine Gewichtsgrenze für eingeladene Ausrüstung.
 
 # Einstellungen
 

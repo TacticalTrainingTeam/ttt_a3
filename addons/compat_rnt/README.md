@@ -15,7 +15,7 @@ Enthält diverse Verbesserungen und Fixes für Redd'n'Tank Fahrzeuge. Die Fahrze
 
 ## Ladekapazität
 
-Wiesel MK20 und Wiesel TOW setzen `maximumLoad` auf 10000. Im Original steht der Wert auskommentiert, hier ist er bewusst aktiv, damit sich Ausrüstung ohne Gewichtsgrenze einladen lässt.
+Fuchs, Gepard, Luchs, Wiesel MK20, Wiesel TOW und Wolf setzen `maximumLoad` auf 10000. Im Original steht der Wert auskommentiert, hier ist er bewusst aktiv, damit sich Ausrüstung ohne Gewichtsgrenze einladen lässt.
 
 ## Sitze (höher steigen)
 
@@ -67,7 +67,7 @@ Teile dieses Addons stammen aus dem Mod PzGrenBtl402 (<https://github.com/PzGren
 | `functions/fnc_loadTOW.sqf`, `fnc_handleTOWFired.sqf`, `fnc_addTOWLoadAction.sqf` (im Original `fnc_addLoadAction.sqf`) | `Redd_Wiesel_TOW/functions/` gleichnamig | Rohr wird über ein Common-Event entfernt |
 | `CfgWeapons.hpp` (MK20) | `Redd_Main/CfgWeapons.hpp` | MK20 und MK20FL |
 | `vehicleSystemsDisplay.inc.hpp` | `Redd_Wiesel_MK20/CfgVehicles.hpp` (Abschnitt `Components`) | als gemeinsame Include-Datei |
-| `compat_rnt_*/CfgVehicles.hpp` | `Redd_Wiesel_MK20`, `Redd_Wiesel_TOW` | siehe README der Fahrzeuge |
+| `compat_rnt_*/CfgVehicles.hpp` | `Redd_Wiesel_MK20`, `Redd_Wiesel_TOW`, `Redd_Fuchs`, `Redd_Wolf`, `Redd_Luchs`, `Redd_GMW` | siehe README der Fahrzeuge |
 
 Nicht übernommen wurden u.a. die Leiter, die Nebelmittelwurfanlage, das Nachladen (Rearm), das Milan-System und die NiArms-Anpassungen.
 
