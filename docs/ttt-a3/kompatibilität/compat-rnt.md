@@ -140,12 +140,3 @@ this setVariable ["ttt_common_showMapAction", false, true];
 ## Ladekapazität
 
 Fuchs, Gepard, Luchs, Marder, Wiesel MK20, Wiesel TOW und Wolf haben keine Gewichtsgrenze für eingeladene Ausrüstung.
-
-# Einstellungen
-
-Zu finden unter **Addon-Optionen > Tactical Training Team**.
-
-| Einstellung | Standard | Beschreibung |
-| --- | --- | --- |
-| `ttt_compat_rnt_lafetteMountTime` | `5` | Sekunden, um ein MG3 auf die Lafette zu montieren (1 bis 120) |
-| `ttt_compat_rnt_lafetteDisassembleTime` | `10` | Sekunden, um die Lafette abzubauen (1 bis 120) |
