@@ -6,11 +6,12 @@ Enthält diverse Verbesserungen und Fixes für Redd'n'Tank Fahrzeuge. Die Fahrze
 
 | Ort | Inhalt |
 | --- | --- |
-| `functions/` | Sitzlogik (`getSeatData`, `resetSeatState`, `canGetInSeat`, `getInHigher`, `getOutHigher`, `fixGetInBug`, `handleGetIn`, `handleGetOut`), Tarnnetz (`setCamonet`), Marder-Heckklappe und -Luken (`canToggleRamp`, `openRamp`, `closeRamp`, `initRampActions`, `canGetOutHatch`, `getOutHatch`), Wiesel TOW (Sitzwechsel, Nachladen: `canLoadTOW`, `loadTOW`, `handleTOWFired`, `addTOWLoadAction`), Marder-Nebelmittelwurfanlage (`handleMarderFired`), MG3-Lafette und M120 |
-| `CfgEventhandlers.hpp` | Init-Events der Fahrzeugbasisklassen (Tarnnetz nur auf dem Server, Heckklappe des Marders, TOW-Nachladen) und das PostInit der Marder-Einstiegsaktionen |
-| `XEH_preInit.sqf` | Zwischenspeicher für die Sitzdaten, Tabelle Fahrzeug -> Tarnnetz-Animationsquellen und die Events zum Sperren des Marders und zum Ändern der TOW-Magazine |
+| `functions/` | Sitzlogik (`getSeatData`, `resetSeatState`, `canGetInSeat`, `getInHigher`, `getOutHigher`, `fixGetInBug`, `handleGetIn`, `handleGetOut`), Tarnnetz (`setCamonet`), Marder-Heckklappe und -Luken (`canToggleRamp`, `openRamp`, `closeRamp`, `initRampActions`, `canGetOutHatch`, `getOutHatch`), Wiesel TOW (Sitzwechsel, Nachladen: `canLoadTOW`, `loadTOW`, `handleTOWFired`, `addTOWLoadAction`), Marder-Nebelmittelwurfanlage und Milan-Schuss (`handleMarderFired`), Milan am Marder (`initMilanActions`, `canOperateMilan`, Aufbauen/Abbauen, Laden/Entladen, Sitzwechsel `canGetInMilan`/`getInMilan`/`canGetOutMilan`/`getOutMilan`), abgesessene Milan (`addStaticMilanActions`, `canLoadStaticMilan`, `loadStaticMilan`, `canUnloadStaticMilan`, `unloadStaticMilan`, `canDisassembleStaticMilan`, `disassembleStaticMilan`), MG3-Lafette und M120 |
+| `CfgEventhandlers.hpp` | Init-Events der Fahrzeugbasisklassen (Tarnnetz nur auf dem Server, Heckklappe und Milan des Marders, TOW-Nachladen, Aktionen der abgesessenen Milan), `FiredBIS` von Marder und abgesessener Milan und das PostInit der Marder-Einstiegsaktionen |
+| `XEH_preInit.sqf` | Zwischenspeicher für die Sitzdaten, Tabelle Fahrzeug -> Tarnnetz-Animationsquellen und die Events zum Sperren des Marders, zum Ändern der TOW- und Milan-Magazine und zum Nachladen der abgesessenen Milan |
 | `XEH_postInit.sqf` | Einsteigen-Aktionen von Kommandant und Fahrer des Marders (ersetzen die Standardaktionen, solange die Heckklappe geschlossen ist) |
 | `CfgWeapons.hpp` | Waffenanpassungen (MK20, Milan, MG3) |
+| `compat_rnt_milan/` | abgesessene Milan und ihre Rucksäcke (Dreibein baut eine leere Milan auf, das Rohr wird geladen) |
 | `compat_rnt_map/` | Init-Event der Karten-Aktion für Marder, Fuchs und Wolf. Eigenes Addon, weil es `mts_map` (Metis Enhanced) braucht und ohne dieses allein übersprungen wird |
 | `vehicleSystemsDisplay.inc.hpp` | leere Fahrzeug-Systemanzeigen, wird von Marder, Wiesel MK20 und TOW eingebunden |
 
@@ -74,11 +75,15 @@ Teile dieses Addons stammen aus dem Mod PzGrenBtl402 (<https://github.com/PzGren
 | `functions/fnc_openRamp.sqf`, `fnc_closeRamp.sqf`, `fnc_initRampActions.sqf` | `Redd_Marder/functions/` gleichnamig | angepasst |
 | `functions/fnc_canGetOutHatch.sqf`, `fnc_getOutHatch.sqf` | `Redd_Marder/functions/` gleichnamig | `getOutHatch` mit Zeitlimit und Gültigkeitsprüfung |
 | `XEH_postInit.sqf` | `Redd_Marder/XEH_postInit.sqf` | Einsteigen-Aktionen von Kommandant und Fahrer |
+| `functions/fnc_initMilanActions.sqf`, `fnc_*Milan.sqf` (Marder) | `Redd_Marder/functions/` gleichnamig | Sitzprüfung in `fnc_canOperateMilan` zusammengeführt, Rucksäcke über ein Common-Event entfernt, Abbauen und Einsteigen nur bei freiem Milan-Sitz |
+| `functions/fnc_*StaticMilan.sqf`, `fnc_addStaticMilanActions.sqf` | `Redd_Milan/functions/` (`fnc_addActions`, `fnc_canLoad`, `fnc_load`, `fnc_canUnload`, `fnc_unload`, `fnc_disassemble`) | umbenannt, Ladezustand über das Milan-Magazin, Entladen und Abbauen nur ohne getragenen Rucksack |
+| `functions/fnc_handleMarderFired.sqf` | `Redd_Marder/functions/fnc_handleFired.sqf` | als `FiredBIS`-Handler neben dem von Redd'n'Tank, Milan-Magazin nur dort entfernt, wo der Turm lokal ist |
+| Events in `XEH_preInit.sqf` (`removeMagazines`, `reload`) | `Milan/XEH_postInit.sqf` | übernommen |
 | `CfgWeapons.hpp` (MK20) | `Redd_Main/CfgWeapons.hpp` | MK20 und MK20FL |
 | `vehicleSystemsDisplay.inc.hpp` | `Redd_Wiesel_MK20/CfgVehicles.hpp` (Abschnitt `Components`) | als gemeinsame Include-Datei |
-| `compat_rnt_*/CfgVehicles.hpp` | `Redd_Wiesel_MK20`, `Redd_Wiesel_TOW`, `Redd_Marder`, `Redd_Fuchs`, `Redd_Wolf`, `Redd_Luchs`, `Redd_GMW` | siehe README der Fahrzeuge |
+| `compat_rnt_*/CfgVehicles.hpp` | `Redd_Wiesel_MK20`, `Redd_Wiesel_TOW`, `Redd_Marder`, `Redd_Fuchs`, `Redd_Wolf`, `Redd_Luchs`, `Redd_GMW`, `Redd_Milan` | siehe README der Fahrzeuge |
 
-Nicht übernommen wurden u.a. die Leiter, das Nachladen (Rearm), das Milan-System und die NiArms-Anpassungen.
+Nicht übernommen wurden u.a. die Leiter, das Nachladen (Rearm) und die NiArms-Anpassungen.
 
 ## Abhängigkeiten
 

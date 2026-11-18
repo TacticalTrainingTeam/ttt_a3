@@ -26,12 +26,23 @@
 - Waffe: `Redd_MK20` mit den Mündungen AP und HE, siehe `compat_rnt`.
 - Richtschütze und Kommandant können die Nebelmittelwurfanlage abfeuern (`ttt_smoke_launcher_muzzle`, Logik im Addon `smoke_launcher`). Die Anlage wandert dafür als ausgeblendete Kopie `ttt_compat_rnt_SmokeLauncher` (`compat_rnt/CfgWeapons.hpp`) vom Kommandanten zum Richtschützen. Den Rauch erzeugt `Redd_fnc_SmokeLauncher`, ausgelöst von `fnc_handleMarderFired` über einen eigenen `FiredBIS`-Handler. Redds `fired`-Handler (`redd_fnc_Marder_Fired`) bleibt unangetastet, weil er auch das leere Milan-Rohr abwirft.
 
+## Milan
+
+- Die Milan startet abgebaut und leer (`magazines[] = {}` im Turm `Redd_Milan`, Pfad `{1}`). Im Laderaum liegen vier Rohre (`Redd_Milan_Static_Barrel`, `TransportBackpacks`, bei Redd'n'Tank eines plus vier geladene Flugkörper am Turm) und ein Dreibein (`Redd_Milan_Static_Tripod`).
+- Halte-Aktionen (10 Sekunden, `fnc_initMilanActions` in `compat_rnt`):
+  - **Milan aufbauen**: nimmt das Dreibein aus dem Laderaum, ein GM-Dreibein (`gm_milan_launcher_weaponBag`) wird bevorzugt. **Milan abbauen**: nur leer und unbesetzt, legt das verwendete Dreibein zurück (`ttt_compat_rnt_milanTripod`).
+  - **Milan laden**: nimmt ein Rohr aus dem Laderaum. **Milan entladen**: legt es zurück.
+  - Aufbauen und Abbauen darf der ausgestiegene Kommandant bzw. der höhere Kommandantensitz, Laden und Entladen zusätzlich der ausgestiegene Platz an der rechten Luke (`fnc_canOperateMilan`). Der Kommandant wird über den Turmpfad `{0, 0}` erkannt, nicht über `commander`: Kommandantensitz, Milan und höherer Sitz sind alle `primaryObserver`, `commander` liefert daher nicht zuverlässig den Kommandantensitz.
+- Nach einem Schuss entfernt `fnc_handleMarderFired` das Magazin (es bliebe sonst im Turm) und blendet das Rohr aus (`ReloadMagazine` auf `user` umgestellt). Redds `fired`-Handler wirft weiterhin das leere Rohr ab.
+- Ein- und Aussteigen auf die Milan (`milan_in`/`milan_aus`) laufen über `fnc_canGetInMilan`/`fnc_getInMilan` bzw. `fnc_canGetOutMilan`/`fnc_getOutMilan` mit dem Sitzsperren von `common` statt `remoteExecCall lockTurret`. Redds Aktionen `milan_auf`/`milan_ab` entfallen.
+- Die Milan ist nicht stabilisiert (`stabilizedInAxes = 0`), ihre Optik nutzt die Milan-Anzeige ohne Entfernungsmesser (`ttt_compat_rnt_RSC_Milan`) und leere Fahrzeug-Systemanzeigen (`vehicleSystemsDisplay.inc.hpp`). Der höhere Kommandantensitz (`Luchs_Bino_Turret_Com`, `{2}`) bekommt ebenfalls diese Anzeige und keine Magazine. Die Nachtsicht der Milan-Tagoptik bleibt erhalten (im Original entfernt).
+
 ## Herkunft
 
 Teile dieses Addons stammen aus dem Mod PzGrenBtl402 (<https://github.com/PzGrenBtl-402/PzGrenBtl402>, Stand: Commit `e4d9ec8`). Sie wurden mit Erlaubnis eines Maintainers übernommen und für dieses Repository angepasst. Der Mod steht unter der Arma Public License No Derivatives. Die Herkunft jeder Funktion steht im Header der Datei (`Source:`), ganze übernommene Config-Dateien tragen einen entsprechenden Kommentar am Anfang. Im Header steht als Autor der Autor des Originals. Pfade in der Tabelle beziehen sich auf `addons/` im Original.
 
 
-Übernommen aus `addons/Redd_Marder` (Autoren laut Original: Lemonberries, Mishkar, Timi007): Sitze, Heckklappe, Luken, Tarnnetz, Karten-Aktion, Anfangsentfernung und HUD. Die Funktionen liegen in `compat_rnt` bzw. `common`. Ebenfalls übernommen: Nebelmittelwurfanlage. Nicht übernommen wurden Leiter, Milan und Nachladen.
+Übernommen aus `addons/Redd_Marder` (Autoren laut Original: Lemonberries, Mishkar, Timi007): Sitze, Heckklappe, Luken, Tarnnetz, Karten-Aktion, Anfangsentfernung und HUD. Die Funktionen liegen in `compat_rnt` bzw. `common`. Ebenfalls übernommen: Nebelmittelwurfanlage und Milan. Nicht übernommen wurden Leiter und Nachladen.
 
 ## ACRE
 
