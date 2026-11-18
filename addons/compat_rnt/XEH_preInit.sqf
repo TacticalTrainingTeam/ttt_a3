@@ -34,5 +34,3 @@ GVAR(camonetSources) = createHashMapFromArray [
     ["Redd_Marder_1A5_Tropentarn", ["marder_netz_wanne_d_hide_Source"]],
     ["Redd_Marder_1A5_Wintertarn", ["marder_netz_wanne_w_hide_Source"]]
 ];
-
-#include "initSettings.inc.sqf"
