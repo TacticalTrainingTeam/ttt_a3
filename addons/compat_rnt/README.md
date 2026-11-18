@@ -78,7 +78,7 @@ Teile dieses Addons stammen aus dem Mod PzGrenBtl402 (<https://github.com/PzGren
 | `vehicleSystemsDisplay.inc.hpp` | `Redd_Wiesel_MK20/CfgVehicles.hpp` (Abschnitt `Components`) | als gemeinsame Include-Datei |
 | `compat_rnt_*/CfgVehicles.hpp` | `Redd_Wiesel_MK20`, `Redd_Wiesel_TOW`, `Redd_Marder`, `Redd_Fuchs`, `Redd_Wolf`, `Redd_Luchs`, `Redd_GMW` | siehe README der Fahrzeuge |
 
-Nicht übernommen wurden u.a. die Leiter, die Nebelmittelwurfanlage, das Nachladen (Rearm), das Milan-System und die NiArms-Anpassungen.
+Nicht übernommen wurden u.a. die Leiter, das Nachladen (Rearm), das Milan-System und die NiArms-Anpassungen.
 
 ## Abhängigkeiten
 
