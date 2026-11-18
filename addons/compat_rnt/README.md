@@ -76,7 +76,7 @@ Teile dieses Addons stammen aus dem Mod PzGrenBtl402 (<https://github.com/PzGren
 | `functions/fnc_canGetOutHatch.sqf`, `fnc_getOutHatch.sqf` | `Redd_Marder/functions/` gleichnamig | `getOutHatch` mit Zeitlimit und Gültigkeitsprüfung |
 | `XEH_postInit.sqf` | `Redd_Marder/XEH_postInit.sqf` | Einsteigen-Aktionen von Kommandant und Fahrer |
 | `functions/fnc_initMilanActions.sqf`, `fnc_*Milan.sqf` (Marder) | `Redd_Marder/functions/` gleichnamig | Sitzprüfung in `fnc_canOperateMilan` zusammengeführt, Rucksäcke über ein Common-Event entfernt, Abbauen und Einsteigen nur bei freiem Milan-Sitz |
-| `functions/fnc_*StaticMilan.sqf`, `fnc_addStaticMilanActions.sqf` | `Redd_Milan/functions/` (`fnc_addActions`, `fnc_canLoad`, `fnc_load`, `fnc_canUnload`, `fnc_unload`, `fnc_disassemble`) | umbenannt, Ladezustand über die Munition, Entladen und Abbauen nur ohne getragenen Rucksack |
+| `functions/fnc_*StaticMilan.sqf`, `fnc_addStaticMilanActions.sqf` | `Redd_Milan/functions/` (`fnc_addActions`, `fnc_canLoad`, `fnc_load`, `fnc_canUnload`, `fnc_unload`, `fnc_disassemble`) | umbenannt, Ladezustand über das Milan-Magazin, Entladen und Abbauen nur ohne getragenen Rucksack |
 | `functions/fnc_handleMarderFired.sqf` | `Redd_Marder/functions/fnc_handleFired.sqf` | als `FiredBIS`-Handler neben dem von Redd'n'Tank, Milan-Magazin nur dort entfernt, wo der Turm lokal ist |
 | Events in `XEH_preInit.sqf` (`removeMagazines`, `reload`) | `Milan/XEH_postInit.sqf` | übernommen |
 | `CfgWeapons.hpp` (MK20) | `Redd_Main/CfgWeapons.hpp` | MK20 und MK20FL |

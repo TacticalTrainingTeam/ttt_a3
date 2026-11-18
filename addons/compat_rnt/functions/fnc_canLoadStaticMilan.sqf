@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /**
  *  Author: Timi007
- *  Source: PzGrenBtl402 addons/Redd_Milan/functions/fnc_canLoad.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), renamed, checks the ammo of the Milan magazine instead of the magazine list
+ *  Source: PzGrenBtl402 addons/Redd_Milan/functions/fnc_canLoad.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), renamed, only the Milan magazine counts
  *
  *  Description:
  *      Checks if the player can load the dismounted Milan: they stand next to it, carry a Milan tube as backpack and it is not loaded.
