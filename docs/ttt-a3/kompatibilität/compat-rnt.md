@@ -59,6 +59,15 @@ Infanterietelefon und Bordverständigung sind ebenfalls vereinheitlicht.
 - In den Eden-Attributen des Marders lässt sich **Heckklappe öffnen** setzen, damit die Klappe beim Spawnen offen ist.
 - Wer an einer Luke ausgestiegen ist, kann mit der Aktion **Aussteigen durch Luke** direkt neben der Luke aus dem Fahrzeug steigen.
 
+### Milan
+
+Die Milan wird wie im echten Gerät aus dem Laderaum aufgebaut und mit Rohren geladen. Ab Spawn ist sie abgebaut und leer, im Laderaum liegen ein Dreibein und ein Rohr. Alle Aktionen sind Halte-Aktionen (10 Sekunden):
+
+- **Milan aufbauen** und **Milan abbauen**: durch den ausgestiegenen Kommandanten (über Luke oder im höheren Sitz). Abbauen geht nur, wenn die Milan leer und unbesetzt ist; das Dreibein kommt zurück in den Laderaum.
+- **Milan laden** und **Milan entladen**: durch den ausgestiegenen Kommandanten oder den Platz an der rechten Luke (über Luke). Laden nimmt ein Rohr aus dem Laderaum, Entladen legt es zurück.
+- Nach jedem Schuss muss die Milan neu geladen werden. Für weitere Schüsse müssen Rohre in den Laderaum gelegt werden.
+- Auf die Milan wechselt der ausgestiegene Kommandant mit der Aktion **In Milan Einsteigen**; der Kommandantensitz bleibt so lange für ihn frei.
+
 ### Karte ablegen
 
 Mit Metis Enhanced ab Version 1.10.2 kann eine Karte auf der geöffneten Heckklappe abgelegt werden. Ohne Metis Enhanced wird die Aktion nicht angezeigt.
@@ -68,6 +77,14 @@ Die Aktion lässt sich pro Fahrzeug ausblenden, z. B. in der Init-Zeile des Fahr
 ```sqf
 this setVariable ["ttt_common_showMapAction", false, true];
 ```
+
+## Milan (abgesessen)
+
+- Das Dreibein allein baut eine leere Milan auf. Das Rohr wird danach als Munition geladen.
+- **Milan laden**: Mit dem Rohr als Rucksack direkt an die leere Milan stellen (Halte-Aktion, 10 Sekunden).
+- **Milan entladen**: Ohne Rucksack an die geladene Milan stellen, das Rohr wird zum eigenen Rucksack.
+- **Milan abbauen**: Nur wenn die Milan leer und unbesetzt ist und man keinen Rucksack trägt; das Dreibein wird zum eigenen Rucksack.
+- Rohr und Dreibein haben ein realistischeres Gewicht (Rohr leichter, Dreibein mit Wärmebildgerät schwerer).
 
 ## M120 Mörser
 

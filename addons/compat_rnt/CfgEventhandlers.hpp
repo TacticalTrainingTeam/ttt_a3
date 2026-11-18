@@ -23,6 +23,13 @@ class Extended_FiredBIS_EventHandlers {
             firedBIS = QUOTE(call FUNC(handleMarderFired));
         };
     };
+
+    // Hide the tube on the dismounted Milan after a shot, Redd's fired handler still drops the empty tube
+    class Redd_Milan_Static_Base {
+        class GVAR(milan) {
+            firedBIS = QUOTE(if (local (_this select 0)) then {(_this select 0) animateSource [ARR_3('ReloadMagazine',1,true)]});
+        };
+    };
 };
 
 class Extended_InitPost_EventHandlers {
@@ -36,6 +43,9 @@ class Extended_InitPost_EventHandlers {
         class GVAR(ramp) {
             init = QUOTE(call FUNC(initRampActions));
         };
+        class GVAR(milan) {
+            init = QUOTE(call FUNC(initMilanActions));
+        };
         class GVAR(camonet) {
             serverInit = QUOTE([ARR_2(FUNC(setCamonet),_this)] call CBA_fnc_execNextFrame);
         };
@@ -47,6 +57,12 @@ class Extended_InitPost_EventHandlers {
         };
         class GVAR(tow) {
             init = QUOTE(call FUNC(addTOWLoadAction));
+        };
+    };
+
+    class Redd_Milan_Static_Base {
+        class GVAR(milan) {
+            clientInit = QUOTE(call FUNC(addStaticMilanActions));
         };
     };
 };

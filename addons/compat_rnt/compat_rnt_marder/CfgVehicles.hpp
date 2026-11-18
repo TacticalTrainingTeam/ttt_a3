@@ -141,6 +141,8 @@ class CfgVehicles {
 
 
             class Redd_Milan: NewTurret {
+                magazines[] = {}; // Empty when assembled, loaded from the cargo with a hold action
+                turretInfoType = QEGVAR(compat_rnt,RSC_Milan);
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
                 gunnerCompartments= "Compartment4";
@@ -154,6 +156,13 @@ class CfgVehicles {
         };
 
         class AnimationSources {
+            // Tube on the Milan, controlled by load, unload and fired
+            class ReloadMagazine {
+                source = "user";
+                initPhase = 1;
+                animPeriod = 0;
+            };
+
             class heck_luke_rotation {
                 source = "user";
                 initPhase = 0;
@@ -307,6 +316,20 @@ class CfgVehicles {
                 condition = QUOTE(([ARR_2(this,'commander')] call EFUNC(compat_rnt,canGetInSeat)) && {this lockedTurret MARDER_COMMANDER_TURRET_PATH} && {isNull objectParent ACE_player});
                 statement = QUOTE(this call EFUNC(compat_rnt,fixGetInBug));
             };
+
+            class milan_in {
+                condition = QUOTE([ARR_2(this,ACE_player)] call EFUNC(compat_rnt,canGetInMilan));
+                statement = QUOTE([ARR_2(this,ACE_player)] call EFUNC(compat_rnt,getInMilan));
+            };
+
+            class milan_aus {
+                condition = QUOTE([ARR_2(this,ACE_player)] call EFUNC(compat_rnt,canGetOutMilan));
+                statement = QUOTE([ARR_2(this,ACE_player)] call EFUNC(compat_rnt,getOutMilan));
+            };
+
+            // Replaced by the Milan hold actions (compat_rnt fnc_initMilanActions)
+            delete milan_auf;
+            delete milan_ab;
 
             // Replaced by the ramp actions above
             delete heckluke_auf_2;

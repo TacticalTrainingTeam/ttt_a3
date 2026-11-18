@@ -30,3 +30,16 @@
 #define MARDER_HATCH_LEFT_TURRET_PATH [0, 1]
 #define MARDER_HATCH_RIGHT_TURRET_PATH [0, 2]
 #define MARDER_HATCH_MIDDLE_TURRET_PATH [0, 3]
+#define MARDER_MILAN_TURRET_PATH [1]
+
+// Milan (Marder and dismounted)
+#define MILAN_MAGAZINE "Redd_Milan_Mag"
+#define MILAN_BARREL "Redd_Milan_Static_Barrel"
+#define MILAN_TRIPOD "Redd_Milan_Static_Tripod"
+#define MILAN_TRIPOD_GM "gm_milan_launcher_weaponBag"
+#define MILAN_ACTION_TIME 10
+#define MILAN_ACTION_DISTANCE 2
+#define MILAN_LOAD_ICON QPATHTOF(data\ui\holdaction_load_milan.paa)
+#define MILAN_UNLOAD_ICON QPATHTOF(data\ui\holdaction_unload_milan.paa)
+#define MILAN_ASSEMBLE_ICON "\a3\data_f_destroyer\data\UI\IGUI\Cfg\holdactions\holdAction_loadVehicle_ca.paa"
+#define MILAN_DISASSEMBLE_ICON "\a3\data_f_destroyer\data\UI\IGUI\Cfg\holdactions\holdAction_unloadVehicle_ca.paa"

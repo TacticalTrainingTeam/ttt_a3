@@ -15,6 +15,10 @@ ADDON = true;
 [QGVAR(addMagazineTurret), {(_this select 0) addMagazineTurret (_this select 1)}] call CBA_fnc_addEventHandler;
 [QGVAR(removeMagazinesTurret), {(_this select 0) removeMagazinesTurret (_this select 1)}] call CBA_fnc_addEventHandler;
 
+// Source: PzGrenBtl402 addons/Milan/XEH_postInit.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), for the dismounted Milan
+[QGVAR(removeMagazines), {(_this select 0) removeMagazines (_this select 1)}] call CBA_fnc_addEventHandler;
+[QGVAR(reload), {reload (_this select 0)}] call CBA_fnc_addEventHandler;
+
 GVAR(seatDataCache) = createHashMap;
 
 // Vehicle classname -> camonet animation sources
