@@ -129,7 +129,7 @@ this setVariable ["ttt_common_showMapAction", false, true];
 
 ## Ladekapazität
 
-Fuchs, Gepard, Luchs, Wiesel MK20, Wiesel TOW und Wolf haben keine Gewichtsgrenze für eingeladene Ausrüstung.
+Fuchs, Gepard, Luchs, Marder, Wiesel MK20, Wiesel TOW und Wolf haben keine Gewichtsgrenze für eingeladene Ausrüstung.
 
 # Einstellungen
 

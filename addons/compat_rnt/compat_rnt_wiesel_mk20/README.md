@@ -10,7 +10,7 @@
 
 ## Herkunft
 
-Teile dieses Addons stammen aus dem Mod PzGrenBtl402 (<https://github.com/PzGrenBtl-402/PzGrenBtl402>, Stand: Commit `e4d9ec8`). Sie wurden mit Erlaubnis eines Maintainers übernommen und für dieses Repository angepasst. Der Mod steht unter der Arma Public License No Derivatives. Die Herkunft jeder Funktion steht im Header der Datei (`Source:`), ganze übernommene Config-Dateien tragen einen entsprechenden Kommentar am Anfang. Im Header steht als Autor der Autor des Originals. Pfade in der Tabelle beziehen sich auf `addons/` im Original.
+Teile dieses Addons stammen aus dem Mod PzGrenBtl402 (<https://github.com/PzGrenBtl-402/PzGrenBtl402>, Stand: Commit `e4d9ec8`). Sie wurden mit Erlaubnis eines Maintainers übernommen und für dieses Repository angepasst. Der Mod steht unter der Arma Public License No Derivatives. Eine Kopie der Lizenz liegt als `LICENSE.PzGrenBtl402` im Hauptordner des Addons; sie gilt nur für die übernommenen Dateien, alles andere steht unter der Lizenz dieses Repositorys. Die Herkunft jeder Funktion steht im Header der Datei (`Source:`), ganze übernommene Config-Dateien tragen einen entsprechenden Kommentar am Anfang. Im Header steht als Autor der Autor des Originals. Pfade in der Tabelle beziehen sich auf `addons/` im Original.
 
 
 Übernommen aus `addons/Redd_Wiesel_MK20` (Autoren laut Original: Lemonberries, Mishkar, Timi007): Höher steigen, Tarnnetz und HUD. Die Funktionen wurden zu generischen Funktionen in `compat_rnt` zusammengeführt. Nicht übernommen wurden die Fahrerkompass- und Nachtsicht-Änderungen.

@@ -17,7 +17,7 @@ Enthält diverse Verbesserungen und Fixes für Redd'n'Tank Fahrzeuge. Die Fahrze
 
 ## Ladekapazität
 
-Fuchs, Gepard, Luchs, Wiesel MK20, Wiesel TOW und Wolf setzen `maximumLoad` auf 10000. Im Original steht der Wert auskommentiert, hier ist er bewusst aktiv, damit sich Ausrüstung ohne Gewichtsgrenze einladen lässt.
+Fuchs, Gepard, Luchs, Marder, Wiesel MK20, Wiesel TOW und Wolf setzen `maximumLoad` auf 10000. Im Original steht der Wert auskommentiert, hier ist er bewusst aktiv, damit sich Ausrüstung ohne Gewichtsgrenze einladen lässt.
 
 ## Sitze (höher steigen)
 
@@ -58,7 +58,7 @@ Das Rohr wird über das Event `ttt_common_removeBackpackCargo` dort entfernt, wo
 
 ## Herkunft
 
-Teile dieses Addons stammen aus dem Mod PzGrenBtl402 (<https://github.com/PzGrenBtl-402/PzGrenBtl402>, Stand: Commit `e4d9ec8`). Sie wurden mit Erlaubnis eines Maintainers übernommen und für dieses Repository angepasst. Der Mod steht unter der Arma Public License No Derivatives. Die Herkunft jeder Funktion steht im Header der Datei (`Source:`), ganze übernommene Config-Dateien tragen einen entsprechenden Kommentar am Anfang. Im Header steht als Autor der Autor des Originals. Pfade in der Tabelle beziehen sich auf `addons/` im Original.
+Teile dieses Addons stammen aus dem Mod PzGrenBtl402 (<https://github.com/PzGrenBtl-402/PzGrenBtl402>, Stand: Commit `e4d9ec8`). Sie wurden mit Erlaubnis eines Maintainers übernommen und für dieses Repository angepasst. Der Mod steht unter der Arma Public License No Derivatives. Eine Kopie der Lizenz liegt als `LICENSE.PzGrenBtl402` im Hauptordner des Addons; sie gilt nur für die übernommenen Dateien, alles andere steht unter der Lizenz dieses Repositorys. Die Herkunft jeder Funktion steht im Header der Datei (`Source:`), ganze übernommene Config-Dateien tragen einen entsprechenden Kommentar am Anfang. Im Header steht als Autor der Autor des Originals. Pfade in der Tabelle beziehen sich auf `addons/` im Original.
 
 
 | Datei | Original | Änderung |
@@ -79,6 +79,7 @@ Teile dieses Addons stammen aus dem Mod PzGrenBtl402 (<https://github.com/PzGren
 | `functions/fnc_*StaticMilan.sqf`, `fnc_addStaticMilanActions.sqf` | `Redd_Milan/functions/` (`fnc_addActions`, `fnc_canLoad`, `fnc_load`, `fnc_canUnload`, `fnc_unload`, `fnc_disassemble`) | umbenannt, Ladezustand über das Milan-Magazin, Entladen und Abbauen nur ohne getragenen Rucksack |
 | `functions/fnc_handleMarderFired.sqf` | `Redd_Marder/functions/fnc_handleFired.sqf` | als `FiredBIS`-Handler neben dem von Redd'n'Tank, Milan-Magazin nur dort entfernt, wo der Turm lokal ist |
 | Events in `XEH_preInit.sqf` (`removeMagazines`, `reload`) | `Milan/XEH_postInit.sqf` | übernommen |
+| `data/ui/holdaction_load_milan.paa`, `holdaction_unload_milan.paa` | `Milan/data/ui/` gleichnamig | unverändert |
 | `CfgWeapons.hpp` (MK20) | `Redd_Main/CfgWeapons.hpp` | MK20 und MK20FL |
 | `vehicleSystemsDisplay.inc.hpp` | `Redd_Wiesel_MK20/CfgVehicles.hpp` (Abschnitt `Components`) | als gemeinsame Include-Datei |
 | `compat_rnt_*/CfgVehicles.hpp` | `Redd_Wiesel_MK20`, `Redd_Wiesel_TOW`, `Redd_Marder`, `Redd_Fuchs`, `Redd_Wolf`, `Redd_Luchs`, `Redd_GMW`, `Redd_Milan` | siehe README der Fahrzeuge |

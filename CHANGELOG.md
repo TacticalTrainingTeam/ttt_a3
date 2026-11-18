@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+* Compat BWA3 - Add unlimited load capacity to Dingo 2, Eagle IV, Leopard 2, Multi, Panzerhaubitze 2000 and Puma (#692) by Andx667
+* Compat RNT - Add unlimited load capacity to the Marder (#692) by Andx667
 * Compat RNT - Add Milan handling to the Marder (assemble, load and unload from the cargo, reload after every shot, 4 tubes in the cargo) and to the dismounted Milan (tripod assembles an empty Milan, tube is loaded as ammunition) (#691) by Andx667
 * Smoke Launcher - Add smoke launcher firing by gunner and commander with ammo display for Leopard 2, Puma and Marder, plus a MUSS mode with automatic smoke for the Puma, which is the new default (#690) by Andx667
 * Compat BWA3 - Add MK30 AP/HE muzzles, more HE damage, adjusted magazine sizes, 1000 round MG5 belt (loaded by the Puma together with the MELLS Spike LR) and better visible P2A1 flares (#649) by Andx667

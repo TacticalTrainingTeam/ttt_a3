@@ -25,7 +25,7 @@ Das MUSS des Puma (`compat_bwa3`) nutzt `fnc_canFireSmoke` und `fnc_fireSmoke` f
 
 ## Quellen
 
-Teile dieses Addons stammen aus dem Mod PzGrenBtl402 (<https://github.com/PzGrenBtl-402/PzGrenBtl402>, Stand: Commit `e4d9ec8`) und wurden mit Erlaubnis eines Maintainers übernommen und angepasst. Der Mod steht unter der Arma Public License No Derivatives. Die Herkunft jeder Funktion steht im Header der Datei (`Source:`), ganze übernommene Config-Dateien tragen einen entsprechenden Kommentar am Anfang.
+Teile dieses Addons stammen aus dem Mod PzGrenBtl402 (<https://github.com/PzGrenBtl-402/PzGrenBtl402>, Stand: Commit `e4d9ec8`) und wurden mit Erlaubnis eines Maintainers übernommen und angepasst. Der Mod steht unter der Arma Public License No Derivatives. Eine Kopie der Lizenz liegt als `LICENSE.PzGrenBtl402` im Hauptordner des Addons; sie gilt nur für die übernommenen Dateien, alles andere steht unter der Lizenz dieses Repositorys. Die Herkunft jeder Funktion steht im Header der Datei (`Source:`), ganze übernommene Config-Dateien tragen einen entsprechenden Kommentar am Anfang.
 
 Übernommen aus `addons/SmokeLauncher` (Autor laut Original: Timi007). Die Tastenerkennung und die Aktualisierung der Anzeige wurden überarbeitet: statt jedes Frame abzufragen, reagiert das Addon auf Tasten-Events und aktualisiert die Anzeige im 0,25-Sekunden-Takt. Der Schuss wird dort ausgelöst, wo der Turm lokal ist.
 

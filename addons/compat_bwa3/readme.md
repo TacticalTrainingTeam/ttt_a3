@@ -16,9 +16,13 @@ Anpassungen für BWmod. Die Fahrzeuge, Waffen und Anzeigen werden in den Unteror
 
 Die Konfiguration des Puma (Optik, Waffen, HUD, Eden-Attribute) steht in `compat_bwa3_puma`.
 
+## Ladekapazität
+
+Dingo 2, Eagle IV, Leopard 2, Multi, Panzerhaubitze 2000 und Puma setzen `maximumLoad` auf 10000 (`CfgVehicles.hpp` im Hauptordner, bei den ACRE-Einstellungen), damit sich Ausrüstung ohne Gewichtsgrenze einladen lässt. Übernommen aus den Fahrzeug-Addons von PzGrenBtl402 (`BwMod_Dingo`, `BwMod_Eagle`, `BwMod_Leopard`, `BwMod_Multi`, `BwMod_PzH2000`, `BwMod_Puma`).
+
 ## Herkunft
 
-Teile dieses Addons stammen aus dem Mod PzGrenBtl402 (<https://github.com/PzGrenBtl-402/PzGrenBtl402>, Stand: Commit `e4d9ec8`). Sie wurden mit Erlaubnis eines Maintainers übernommen und für dieses Repository angepasst. Der Mod steht unter der Arma Public License No Derivatives. Die Herkunft jeder Funktion steht im Header der Datei (`Source:`), ganze übernommene Config-Dateien tragen einen entsprechenden Kommentar am Anfang. Im Header steht als Autor der Autor des Originals. Pfade in der Tabelle beziehen sich auf `addons/` im Original.
+Teile dieses Addons stammen aus dem Mod PzGrenBtl402 (<https://github.com/PzGrenBtl-402/PzGrenBtl402>, Stand: Commit `e4d9ec8`). Sie wurden mit Erlaubnis eines Maintainers übernommen und für dieses Repository angepasst. Der Mod steht unter der Arma Public License No Derivatives. Eine Kopie der Lizenz liegt als `LICENSE.PzGrenBtl402` im Hauptordner des Addons; sie gilt nur für die übernommenen Dateien, alles andere steht unter der Lizenz dieses Repositorys. Die Herkunft jeder Funktion steht im Header der Datei (`Source:`), ganze übernommene Config-Dateien tragen einen entsprechenden Kommentar am Anfang. Im Header steht als Autor der Autor des Originals. Pfade in der Tabelle beziehen sich auf `addons/` im Original.
 
 
 | Datei | Original | Änderung |
