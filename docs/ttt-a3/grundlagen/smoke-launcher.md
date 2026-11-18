@@ -39,4 +39,4 @@ Für die Besatzung gilt:
 - Richtschütze und Kommandant feuern die Anlage mit der Taste für Gegenmaßnahmen (**Countermeasures**) ab. Im Waffenmenü taucht sie nicht mehr auf.
 - Geschossen werden kann nur, wenn ein lebender und nicht bewusstloser Richtschütze im Fahrzeug sitzt – auch ein KI-Richtschütze reicht. Ein Kommandant allein kann nicht nebeln.
 - Nach jeder Salve ist die Anlage für die Nachladezeit gesperrt.
-- Neben der Waffenanzeige steht die verbleibende Munition (**NbMWAnl: x**). Rot heißt: gerade nicht schussbereit. Wer ausgestiegen ist (über Luke), sieht die Anzeige nicht.
+- Neben der Waffenanzeige steht die verbleibende Munition (**NbMWAnl: x**). Rot heißt: gerade nicht schussbereit. Wer über Luke ist, sieht die Anzeige nicht.
