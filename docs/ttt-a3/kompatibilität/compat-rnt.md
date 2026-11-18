@@ -59,16 +59,16 @@ Wie Besatzung und Schützentrupp den Marder bedienen, erklärt die Seite [Marder
 
 - Der Marder ist gesperrt, solange die Heckklappe geschlossen ist. Fahrer und Kommandant steigen über die Einsteigen-Aktionen ein, alle anderen öffnen vorher die Klappe. Fahrer, Richtschütze und der mittlere Lukenplatz öffnen und schließen sie per Aktion.
 - In den Eden-Attributen des Marders lässt sich **Heckklappe öffnen** setzen, damit die Klappe beim Spawnen offen ist.
-- Wer an einer Luke ausgestiegen ist, kann mit der Aktion **Aussteigen durch Luke** direkt neben der Luke aus dem Fahrzeug steigen.
+- Wer auf einem Lukenplatz über Luke ist, kann mit der Aktion **Aussteigen durch Luke** direkt neben der Luke aus dem Fahrzeug steigen.
 
 ### Milan
 
 Die Milan wird wie im echten Gerät aus dem Laderaum aufgebaut und mit Rohren geladen. Ab Spawn ist sie abgebaut und leer, im Laderaum liegen ein Dreibein und vier Rohre. Alle Aktionen sind Halte-Aktionen (10 Sekunden):
 
-- **Milan aufbauen** und **Milan abbauen**: durch den ausgestiegenen Kommandanten (über Luke oder im höheren Sitz). Abbauen geht nur, wenn die Milan leer und unbesetzt ist; das Dreibein kommt zurück in den Laderaum.
-- **Milan laden** und **Milan entladen**: durch den ausgestiegenen Kommandanten oder den Platz an der rechten Luke (über Luke). Laden nimmt ein Rohr aus dem Laderaum, Entladen legt es zurück.
+- **Milan aufbauen** und **Milan abbauen**: durch den Kommandanten, wenn er über Luke oder im höheren Sitz ist. Abbauen geht nur, wenn die Milan leer und unbesetzt ist; das Dreibein kommt zurück in den Laderaum.
+- **Milan laden** und **Milan entladen**: durch den Kommandanten (über Luke oder im höheren Sitz) oder den Platz an der rechten Luke (über Luke). Laden nimmt ein Rohr aus dem Laderaum, Entladen legt es zurück.
 - Nach jedem Schuss muss die Milan neu geladen werden. Für weitere Schüsse müssen Rohre in den Laderaum gelegt werden.
-- Auf die Milan wechselt der ausgestiegene Kommandant mit der Aktion **In Milan Einsteigen**; der Kommandantensitz bleibt so lange für ihn frei.
+- Auf die Milan wechselt der Kommandant (über Luke oder im höheren Sitz) mit der Aktion **In Milan Einsteigen**; der Kommandantensitz bleibt so lange für ihn frei.
 
 ### Karte ablegen
 
@@ -111,7 +111,7 @@ Lässt sich auch mit MG3 aus anderen Mods aufbauen (`BWA3_MG3`, `BWA3_MG3_bipod`
 ## Wiesel TOW
 
 - Kommandant und Ladeschütze können mit den Tasten für Aus- und Einsteigen (Turn Out / Turn In) höher bzw. tiefer steigen. Hängt ein Sitz fest, hilft die Aktion **Sitz freigeben**.
-- Der ausgestiegene Kommandant kann auf den TOW-Sitz wechseln, der ausgestiegene Ladeschütze auf den MG3-Sitz (Aktionen am Fahrzeug).
+- Ist der Kommandant über Luke, kann er auf den TOW-Sitz wechseln, ist der Ladeschütze über Luke, auf den MG3-Sitz (Aktionen am Fahrzeug).
 - Pro Schuss wird ein Milan-Rohr aus dem Fahrzeug verbraucht (5 Stück an Bord). Der TOW startet geladen und wird mit der Aktion **TOW laden** (10 Sekunden halten) nachgeladen, solange ein Rohr im Laderaum liegt. Nachladen darf der Ladeschütze. Ist kein Ladeschützen-Platz besetzt, darf der Kommandant nachladen – auch vom TOW-Sitz aus.
 - Das Tarnnetz wird automatisch angebracht und das HUD ist aufgeräumt (keine Fahrzeug-Systemanzeigen).
 

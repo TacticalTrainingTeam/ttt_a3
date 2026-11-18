@@ -43,7 +43,7 @@ Dafür gibt es im Aktionsmenü (Mausrad) **Heckklappe öffnen** und **Heckklappe
 
 ## Durch die Luken aussteigen
 
-Wer auf einem Platz mit Luke sitzt und ausgestiegen ist (über Luke), kann direkt neben seiner Luke aus dem Fahrzeug steigen. Das geht mit der Aktion **Aussteigen durch Luke** oder der normalen Taste zum Aussteigen. Möglich ist das für Kommandant, Fahrer und die Lukenplätze links, rechts und in der Mitte.
+Wer auf einem Platz mit Luke sitzt und über Luke ist, kann direkt neben seiner Luke aus dem Fahrzeug steigen. Das geht mit der Aktion **Aussteigen durch Luke** oder der normalen Taste zum Aussteigen. Möglich ist das für Kommandant, Fahrer und die Lukenplätze links, rechts und in der Mitte.
 
 So kommt man auch bei geschlossener Heckklappe hinaus.
 
@@ -85,11 +85,11 @@ Alle Milan-Aktionen findet man im Aktionsmenü (Mausrad). Sie sind Halte-Aktione
 | **Milan entladen** | Kommandant oder rechter Lukenplatz | Milan geladen |
 | **Milan abbauen** | Kommandant | Milan leer und niemand an der Milan |
 
-Der Kommandant muss dafür über Luke ausgestiegen oder höher gestiegen sein, der Soldat auf dem rechten Lukenplatz über Luke ausgestiegen.
+Der Kommandant muss dafür über Luke oder höher gestiegen sein, der Soldat auf dem rechten Lukenplatz muss über Luke sein.
 
 So läuft ein Einsatz der Milan ab:
 
-1. Der Kommandant steigt über Luke aus und baut die Milan auf.
+1. Der Kommandant geht über Luke und baut die Milan auf.
 2. Er oder der Soldat auf dem rechten Lukenplatz lädt die Milan mit einem Rohr aus dem Laderaum.
 3. Der Kommandant (über Luke oder höher gestiegen) wechselt mit **In Milan Einsteigen** an die Milan und schießt. Mit **Aus Milan Aussteigen** geht es zurück auf den Kommandantensitz.
 4. Nach jedem Schuss ist die Milan leer und muss neu geladen werden. Das leere Rohr fällt vom Fahrzeug.
