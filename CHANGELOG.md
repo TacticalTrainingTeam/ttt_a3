@@ -15,11 +15,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Compat RNT - Add AP/HE muzzles to the Redd MK20 (#644) by Andx667
 * Compat RNT - Add Marder rear ramp: vehicle is locked while the ramp is closed, open/close actions, "open ramp" Eden attribute, and exit through the hatches (#645) by Andx667
 * Compat RNT - Add higher commander seat, automatic camonet, reduced HUD and Metis Enhanced map action to the Marder (#645) by Andx667
+* Compat RNT - Add Metis Enhanced map action to Fuchs and Wolf (#646) by Andx667
+* Compat RNT - Add turn out/in shortcut to Luchs (#646) by Andx667
+* Compat RNT - Add ACE CSW belt, proxy weapon and magazine groups to the GMW (#646) by Andx667
 
 ### Changed
 
 * Compat RNT - Change Wiesel MK20 and Wiesel TOW: turrets are stabilized again, the forced `stabilizedInAxes = 0` is removed (#644) by Andx667
 * Compat RNT - Change Marder config: initial zeroing 800 m (#645) by Andx667
+* Compat RNT - Change Fuchs: turrets are stabilized again, the forced `stabilizedInAxes = 0` is removed (#646) by Andx667
 
 ## [6.2.0] - 2026-11-04
 

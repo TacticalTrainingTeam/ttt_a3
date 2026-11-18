@@ -7,6 +7,7 @@ class CfgPatches {
         addonRootClass = QUOTE(ADDON);
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
+            "ace_csw",
             "rnt_gmw_static",
             "rnt_ace_compatibility"
         };
@@ -19,3 +20,6 @@ class CfgPatches {
 };
 
 #include "CfgVehicles.hpp"
+#include "CfgWeapons.hpp"
+#include "CfgMagazines.hpp"
+#include "CfgMagazineGroups.hpp"
