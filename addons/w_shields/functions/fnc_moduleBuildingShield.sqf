@@ -1,18 +1,36 @@
 #include "..\script_component.hpp"
 #include "defines.inc"
-/*--------------------------------------------------------------------------------------------------
+/*
+ * Author: [W] Miller
+ * Building Shield module function, a modified version of the BI EditTerrainObject
+ * module. Handles the 3DEN module events (init, attribute/connection changes,
+ * dragging, Draw3D preview) and the internal helper modes "getBuilding" and
+ * "getBuildingBBox".
+ *
+ * Arguments:
+ * 0: Mode <STRING>
+ * 1: Input, first element is the module logic <ARRAY>
+ * 2: Building passed directly by the 3DEN checkbox attribute <OBJECT> (default: objNull)
+ *
+ * Return Value:
+ * Depends on the mode: the building for "getBuilding", the bounding box lines for
+ * "getBuildingBBox", otherwise None
+ *
+ * Example:
+ * ["getBuilding", [_module]] call ttt_w_shields_fnc_moduleBuildingShield
+ *
+ * Public: No
+ */
 
-    Modified version of BI EditTerrainObject Module
-
---------------------------------------------------------------------------------------------------*/
 if (!isServer) exitWith {};
 
-private _mode = param [0,"",[""]];
-private _input = param [1,[],[[]]];
-private _module = _input param [0,objNull,[objNull]];
+params [
+    ["_mode", "", [""]],
+    ["_input", [], [[]]],
+    ["_directInput", objNull, [objNull]] // support 3den checkbox entry
+];
 
-//support 3den checkbox entry
-private _directInput = param [2,objNull,[objNull]];
+private _module = _input param [0, objNull, [objNull]];
 
 /*
 if (_mode != "eh_draw3d") then

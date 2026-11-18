@@ -8,6 +8,7 @@ class CfgVehicles {
     };
 
     class Tank_F: Tank {
+        class Components;
         class EventHandlers;
         class Turrets {
             class MainTurret: NewTurret {
@@ -21,6 +22,19 @@ class CfgVehicles {
     class Redd_Marder_1A5_base: Tank_F {
 
         ace_vehicles_engineStartDelay = 5;
+
+
+        EGVAR(compat_rnt,commanderTurrets)[] = {{0, 0}, {1}, {2}};
+        EGVAR(compat_rnt,commanderTurret)[] = {0, 0};
+        EGVAR(compat_rnt,commanderHigherTurret)[] = {2};
+        EGVAR(compat_rnt,commanderBinoVariable) = "Redd_Marder_Bino_In";
+        EGVAR(compat_rnt,commanderResetVariables)[] = {"Redd_Marder_Commander_Up", "Redd_Marder_Commander_Winkelspiegel"};
+
+        // Map on the rear ramp (requires Metis Enhanced)
+        EGVAR(common,mapActionPosition)[] = {0.0012, -3.5815, -1.83};
+        EGVAR(common,mapActionOrientation)[] = {{1, 0, 0}, {0, -0.193627, 0.981075}};
+        EGVAR(common,mapActionAnimation) = "heck_luke_rotation";
+        EGVAR(common,mapActionAnimationPhase) = 1;
 
         disableSoundAttenuation = 0;
         attenuationEffectType = "TankAttenuation";
@@ -86,10 +100,15 @@ class CfgVehicles {
             };
         };
 
+        class Components: Components {
+            #include "..\vehicleSystemsDisplay.inc.hpp"
+        };
+
         class Turrets: Turrets {
 
             class MainTurret: MainTurret {
 
+                discreteDistanceInitIndex = 6; // Set initial gun zeroing to 800 m
                 lockWhenDriverOut = 0; // Don't lock turret when driver is turned out
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
@@ -166,9 +185,33 @@ class CfgVehicles {
 
         class EventHandlers: EventHandlers {
             class CBA_Extended_EventHandlers: CBA_Extended_EventHandlers_base {};
+            getIn = QUOTE(call EFUNC(compat_rnt,handleGetIn));
+            getOut = QUOTE(call EFUNC(compat_rnt,handleGetOut));
         };
     
         class UserActions {
+            class heckluke_auf {
+                displayName = SUBCSTRING(openRamp);
+                displayNameDefault = SUBCSTRING(openRamp);
+                position = "HecklukePoint";
+                radius = 10;
+                onlyforplayer = 1;
+                showWindow = 0;
+                condition = QUOTE([ARR_3(this,ACE_player,true)] call EFUNC(compat_rnt,canToggleRamp));
+                statement = QUOTE(this call EFUNC(compat_rnt,openRamp));
+            };
+
+            class heckluke_zu {
+                displayName = SUBCSTRING(closeRamp);
+                displayNameDefault = SUBCSTRING(closeRamp);
+                position = "HecklukePoint";
+                radius = 10;
+                onlyforplayer = 1;
+                showWindow = 0;
+                condition = QUOTE([ARR_3(this,ACE_player,false)] call EFUNC(compat_rnt,canToggleRamp));
+                statement = QUOTE(this call EFUNC(compat_rnt,closeRamp));
+            };
+
             class Bino_in {
                 displayName = "$STR_Hoeher_steigen";
                 displayNameDefault = "$STR_Hoeher_steigen";
@@ -177,8 +220,8 @@ class CfgVehicles {
                 onlyforplayer = 1;
                 showWindow = 0;
                 shortcut = "turnOut";
-                condition = "(this turretUnit [0, 0] isEqualTo ACE_player) && (this animationSourcePhase 'hatchCommander' > 0) && (alive this)";
-                statement = "ACE_player action ['moveToTurret', this, [2]]; [this, [[0, 0], true]] remoteExecCall ['lockTurret']; this setVariable ['Redd_Marder_Bino_In', true, true];";
+                condition = QUOTE((alive this) && {this turretUnit MARDER_COMMANDER_TURRET_PATH isEqualTo ACE_player} && {this animationSourcePhase 'hatchCommander' > 0});
+                statement = QUOTE([ARR_3(this,ACE_player,'commander')] call EFUNC(compat_rnt,getInHigher));
             };
 
             class Bino_out {
@@ -189,9 +232,43 @@ class CfgVehicles {
                 onlyforplayer = 1;
                 showWindow = 0;
                 shortcut = "turnIn";
-                condition = "(this turretUnit [2] isEqualTo ACE_player) && (alive this)";
-                statement = "ACE_player action ['moveToTurret', this, [0,0]]; [this, [[0, 0], false]] remoteExecCall ['lockTurret']; this setVariable ['Redd_Marder_Bino_In', false, true];";
+                condition = QUOTE((alive this) && {this turretUnit MARDER_COMMANDER_HIGHER_TURRET_PATH isEqualTo ACE_player});
+                statement = QUOTE([ARR_3(this,ACE_player,'commander')] call EFUNC(compat_rnt,getOutHigher));
             };
+
+            class GetOutHatchCommander {
+                displayName = SUBCSTRING(getOutHatch);
+                displayNameDefault = "<img image='\A3\ui_f\data\igui\cfg\actions\getout_ca.paa' size='1.8' shadow=2 />";
+                position = "actionsPoint";
+                radius = 10;
+                onlyforplayer = 1;
+                showWindow = 0;
+                priority = 6.2;
+                shortcut = "GetOut";
+                condition = QUOTE([ARR_3(this,ACE_player,'commander')] call EFUNC(compat_rnt,canGetOutHatch));
+                statement = QUOTE([ARR_3(this,ACE_player,'commander')] call EFUNC(compat_rnt,getOutHatch));
+            };
+
+            class GetOutHatchDriver: GetOutHatchCommander {
+                condition = QUOTE([ARR_3(this,ACE_player,'driver')] call EFUNC(compat_rnt,canGetOutHatch));
+                statement = QUOTE([ARR_3(this,ACE_player,'driver')] call EFUNC(compat_rnt,getOutHatch));
+            };
+
+            class GetOutHatchLeft: GetOutHatchCommander {
+                condition = QUOTE([ARR_3(this,ACE_player,'left')] call EFUNC(compat_rnt,canGetOutHatch));
+                statement = QUOTE([ARR_3(this,ACE_player,'left')] call EFUNC(compat_rnt,getOutHatch));
+            };
+
+            class GetOutHatchRight: GetOutHatchCommander {
+                condition = QUOTE([ARR_3(this,ACE_player,'right')] call EFUNC(compat_rnt,canGetOutHatch));
+                statement = QUOTE([ARR_3(this,ACE_player,'right')] call EFUNC(compat_rnt,getOutHatch));
+            };
+
+            class GetOutHatchMiddle: GetOutHatchCommander {
+                condition = QUOTE([ARR_3(this,ACE_player,'middle')] call EFUNC(compat_rnt,canGetOutHatch));
+                statement = QUOTE([ARR_3(this,ACE_player,'middle')] call EFUNC(compat_rnt,getOutHatch));
+            };
+
             class MovePassengerOneToHatchLeft {
                 displayName = SUBCSTRING(moveToHatch);
                 displayNameDefault = "<img image='\A3\ui_f\data\igui\cfg\actions\getingunner_ca.paa' size='1.8' shadow=2 />";
@@ -214,7 +291,39 @@ class CfgVehicles {
                 condition = "(alive this) && (this getCargoIndex ACE_player isEqualTo 3) && (isNull (this turretunit [0, 2]))";
                 statement = "ACE_player action ['moveToTurret', this, [0, 2]]";
             };
+
+            class fixTurretBug {
+                displayName = ECSTRING(compat_rnt,fixGetInSeat);
+                condition = QUOTE(([ARR_2(this,'commander')] call EFUNC(compat_rnt,canGetInSeat)) && {this lockedTurret MARDER_COMMANDER_TURRET_PATH} && {isNull objectParent ACE_player});
+                statement = QUOTE(this call EFUNC(compat_rnt,fixGetInBug));
+            };
+
+            // Replaced by the ramp actions above
+            delete heckluke_auf_2;
+            delete heckluke_zu_2;
+
+            // Camonet is set up automatically
+            delete Redd_removeflag;
+            delete Redd_redFlag;
+            delete Redd_greenFlag;
+            delete Redd_blueFlag;
+
+            delete Tarnnetz_Fzg_aufbauen;
+            delete Tarnnetz_Fzg_abbauen;
+            delete Tarnnetz_Boden_aufbauen;
+            delete Tarnnetz_Boden_abbauen;
         };
 
+        class Attributes {
+            class EGVAR(compat_rnt,RampAttribute) {
+                displayName = SUBCSTRING(openRamp);
+                tooltip = SUBCSTRING(openRamp3DENTooltip);
+                property = QEGVAR(compat_rnt,RampAttribute);
+                control = "Checkbox";
+                expression = "_this setVariable ['%s', _value];";
+                defaultValue = 0;
+                typeName = "BOOL";
+            };
+        };
     };
 };

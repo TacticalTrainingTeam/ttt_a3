@@ -31,7 +31,13 @@
 
 if (!isServer) exitWith {false};
 
-params ["_artiTarget","_radius","_rounds","_decrementRadius","_enemyArtyArray"];
+params [
+    ["_artiTarget", objNull, [objNull]],
+    ["_radius", nil, [0]],
+    ["_rounds", nil, [0]],
+    ["_decrementRadius", nil, [true]],
+    ["_enemyArtyArray", [], [[]]]
+];
 
 //Exit if there are no guns anymore
 if (_enemyArtyArray isEqualTo []) exitWith {WARNING_1("No artillery left to fire at %1",_artiTarget); false};

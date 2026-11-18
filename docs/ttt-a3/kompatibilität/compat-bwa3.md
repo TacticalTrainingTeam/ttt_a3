@@ -53,6 +53,39 @@ Am Eagle IV hängen zwei Patrouillenrucksäcke (`BWA3_PatrolPack_Fleck` bzw. `BW
 
 Die Plätze 13 und 14 sind gesperrt, weil man dort unter dem Hubschrauber sitzt.
 
+## Leopard 2
+
+- Die Optik des Kommandanten bietet ein größeres Sichtfeld und zeigt die Wärmebilddarstellung in Grün.
+- Schalter und Lampen in der Kommandantenoptik werden ausgeblendet.
+- Der Fahrer erhält einen horizontalen Kompass.
+
+## Puma
+
+- Die Optiken von Richtschütze und Kommandant bieten ein größeres Sichtfeld. Datum und weitere Anzeigen in den Optiken sind ausgeblendet, der Fahrer hat einen horizontalen Kompass.
+- Im Eden-Editor ist HE statt ABM als Standardmunition ausgewählt.
+- Mit Metis Enhanced ab Version 1.10.2 kann eine Karte auf der Heckklappe abgelegt werden. Ohne Metis Enhanced wird die Aktion nicht angezeigt. Ausblenden lässt sie sich pro Fahrzeug, z. B. in der Init-Zeile:
+
+```sqf
+this setVariable ["ttt_common_showMapAction", false, true];
+```
+
+### MUSS (Selbstschutz-System)
+
+Kommt ein lenkbarer Flugkörper auf den Puma zu (näher als 2 km), ertönt für die Besatzung ein lauterer Warnton, und das Radar oben links zeigt die Richtung des Flugkörpers. Je nach Modus richtet das MUSS außerdem den Turm auf den Flugkörper aus, um die Zielerfassung zu brechen. Richtschütze und Kommandant schalten den Modus mit der Taste **MUSS Modus umschalten** (Standard: Einfügen, Kategorie **BWMod Puma**) um:
+
+1. Stören
+2. Stören und Turmausrichtung (Standard)
+
+Das MUSS benötigt ACE Hunterkiller. Ohne diese Mod entfällt das MUSS – alle anderen Anpassungen funktionieren weiterhin.
+
+### Kameras
+
+Die Kameras der Passagiere und die Rückfahrkamera des Fahrers werden mit Umschalt+Pos1 (nächste Kamera) und Umschalt+Ende (vorherige Kamera) bedient. Diese Tastenbelegung ersetzt die von BWMod.
+
+### Fahrzeugnummer
+
+Im Eden-Editor kann in den Attributen des Pumas unter **Symbol: Fahrzeugnummer** eine rote Nummer (2.0, A bis C3) gewählt werden, die seitlich am Fahrzeug erscheint.
+
 ## Mörser 120 mm
 
 Der [Mörser](/de/handbuch/kampfunterstützungskräfte/artillerie/moerser) kann direkt nach dem Laden feuern (`allowFireOnLoad`, siehe [ACE CSW](https://ace3.acemod.org/wiki/framework/crew-served-weapons-framework#3-additional-configuration-parameters)).

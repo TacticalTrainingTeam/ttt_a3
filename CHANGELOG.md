@@ -10,6 +10,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 * Compat BWA3 - Add MK30 AP/HE muzzles, more HE damage, adjusted magazine sizes, 1000 round MG5 belt and better visible P2A1 flares (#649) by Andx667
+* Common - Add seat lock events, a generic map action and an event to remove a backpack from a vehicle cargo (#643) by Andx667
+* Compat RNT - Add higher commander and loader seats, TOW/MG3 seat switching, automatic camonet and reduced HUD to Wiesel MK20 and TOW (#644) by Andx667
+* Compat RNT - Add Wiesel TOW reloading with Milan tubes by the loader, or by the commander if no loader seat is occupied (#644) by Andx667
+* Compat RNT - Add AP/HE muzzles to the Redd MK20 (#644) by Andx667
+* Compat RNT - Add Marder rear ramp: vehicle is locked while the ramp is closed, open/close actions, "open ramp" Eden attribute, and exit through the hatches (#645) by Andx667
+* Compat RNT - Add higher commander seat, automatic camonet, reduced HUD and Metis Enhanced map action to the Marder (#645) by Andx667
+* Compat RNT - Add Metis Enhanced map action to Fuchs and Wolf (#646) by Andx667
+* Compat RNT - Add turn out/in shortcut to Luchs (#646) by Andx667
+* Compat RNT - Add ACE CSW belt, proxy weapon and magazine groups to the GMW (#646) by Andx667
+* Compat BWA3 - Add Leopard commander optics (Warrior FOV, green TI), reduced optics HUD and driver compass (#647) by Andx667
+* Compat BWA3 - Add Puma config: Warrior optics, default HE ammo, reduced optics HUD, driver compass and map action (#648) by Andx667
+* Compat BWA3 - Add Puma MUSS with louder warning and turret rotation, rear view cameras, missile direction on the radar and vehicle numbers (#648) by Andx667
+
+### Changed
+
+* Compat RNT - Change Wiesel MK20 and Wiesel TOW: turrets are stabilized again, the forced `stabilizedInAxes = 0` is removed (#644) by Andx667
+* Compat RNT - Change Marder config: initial zeroing 800 m (#645) by Andx667
+* Compat RNT - Change Fuchs: turrets are stabilized again, the forced `stabilizedInAxes = 0` is removed (#646) by Andx667
 
 ## [6.2.0] - 2026-11-04
 

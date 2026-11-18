@@ -8,6 +8,8 @@
  *
  * Return Value:
  * None
+ *
+ * Public: No
  */
 
 params [

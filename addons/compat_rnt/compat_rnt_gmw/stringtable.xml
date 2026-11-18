@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Compat_Rnt_Gmw">
+        <Key ID="STR_ttt_Compat_Rnt_Gmw_descriptionShort">
+            <English>Caliber: 40 mm&lt;br/&gt;Rounds: 32&lt;br /&gt;Used in: Grenade Launcher</English>
+            <German>Kaliber: 40 mm&lt;br/&gt;Patronen: 32&lt;br /&gt;Eingesetzt von: Granatmaschinenwaffe</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Rnt_Gmw_displayName">
+            <English>[CSW] 40mm GMG Belt</English>
+            <German>[CSW] 40mm GMW-Gurt</German>
+        </Key>
+    </Package>
+</Project>
