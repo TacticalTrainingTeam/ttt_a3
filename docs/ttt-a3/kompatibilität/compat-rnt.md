@@ -108,6 +108,8 @@ Die GraMaWa wird mit dem Gurt **[CSW] 40mm GMW-Gurt** (32 Schuss) über die ACE-
 
 Lässt sich auch mit MG3 aus anderen Mods aufbauen (`BWA3_MG3`, `BWA3_MG3_bipod`, `BWA3_MG3_MicroT2_pointer_bipod`) und ist stabiler. Ein MG3 zu lafettieren dauert 5 Sekunden, die Lafette abzubauen 10 Sekunden.
 
+Nachgeladen wird mit dem MG3-Gurt von Redd'n'Tank, 150-Schuss-Gurtkästen 7,62 mm und den MG3-Gurten der BWMod (Gurtkasten und Gurttasche 7,62x51mm 120-Schuss, auch mit Leuchtspur).
+
 ## Wiesel MK20
 
 - Der Kommandant kann höher bzw. tiefer steigen, das Tarnnetz wird automatisch angebracht und das HUD ist aufgeräumt (keine Fahrzeug-Systemanzeigen).
