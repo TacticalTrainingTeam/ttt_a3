@@ -12,6 +12,7 @@ Enthält diverse Verbesserungen und Fixes für Redd'n'Tank Fahrzeuge. Die Fahrze
 | `XEH_postInit.sqf` | Einsteigen-Aktionen von Kommandant und Fahrer des Marders (ersetzen die Standardaktionen, solange die Heckklappe geschlossen ist) |
 | `CfgWeapons.hpp` | Waffenanpassungen (MK20, Milan, MG3) |
 | `compat_rnt_milan/` | abgesessene Milan und ihre Rucksäcke (Dreibein baut eine leere Milan auf, das Rohr wird geladen) |
+| `compat_rnt_mg3_bwa3/` | MG3-Gurte der BWMod für die MG3-Lafette. Eigenes Addon, damit die Lafette ohne BWMod weiter funktioniert |
 | `compat_rnt_map/` | Init-Event der Karten-Aktion für Marder, Fuchs und Wolf. Eigenes Addon, weil es `mts_map` (Metis Enhanced) braucht und ohne dieses allein übersprungen wird |
 | `vehicleSystemsDisplay.inc.hpp` | leere Fahrzeug-Systemanzeigen, wird von Marder, Wiesel MK20 und TOW eingebunden |
 
