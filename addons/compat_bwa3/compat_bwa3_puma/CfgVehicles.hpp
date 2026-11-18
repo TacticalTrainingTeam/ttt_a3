@@ -51,6 +51,20 @@ class CfgVehicles {
                         disableSoundAttenuation = 0;
                         soundAttenuationTurret = "TankAttenuation";
                         gunnerCompartments = "Compartment1";
+
+                        // BWMod gives the commander only a ViewOptics without OpticsIn, so the swapped
+                        // gunnerOpticsModel above has no visible effect. Same zoom steps as the gunner.
+                        class OpticsIn: BWA3_Optics_Gunner_Puma {
+                            class Wide: Wide {
+                                WARRIOR_OPTICS(w);
+                            };
+                            class Medium: Medium {
+                                WARRIOR_OPTICS(m);
+                            };
+                            class Narrow: Narrow {
+                                WARRIOR_OPTICS(n);
+                            };
+                        };
                     };
                 };
 
