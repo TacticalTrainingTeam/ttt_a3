@@ -100,7 +100,7 @@ ACE-CSW-Unterstützung und Fehlerbehebungen. Der [Mörser](/de/handbuch/kampfunt
 
 Wie die GraMaWa aufgebaut, geladen und verstellt wird, erklärt die Seite [GraMaWa – Bedienung](/de/ttt-a3/kompatibilität/compat-rnt/gramawa).
 
-Stabiler, und die ACE-Aktionen zum seitlichen Drehen und zur Höhenverstellung funktionieren. Benötigt `force ace_csw_defaultAssemblyMode = true;` in den CBA-Einstellungen.
+Stabiler, und die ACE-Aktionen zum seitlichen Drehen und zur Höhenverstellung funktionieren. Die Optik zeigt keine Richtung in Grad mehr an. Benötigt `force ace_csw_defaultAssemblyMode = true;` in den CBA-Einstellungen.
 
 Die GraMaWa wird mit dem Gurt **[CSW] 40mm GMW-Gurt** (32 Schuss) über die ACE-Interaktion geladen und entladen. Das Laden dauert 10, das Entladen 8 Sekunden. Der Gurt ist auch im Arsenal verfügbar und mit dem Gurt von Redd'n'Tank austauschbar.
 
