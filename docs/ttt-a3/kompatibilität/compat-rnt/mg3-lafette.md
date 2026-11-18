@@ -57,6 +57,7 @@ Nachgeladen wird über die ACE-Interaktion am MG. Diese Munition passt:
 
 - **MG3 100 Schuss Gurt** aus Redd'n'Tank
 - 150-Schuss-Gurtkästen 7,62 mm
+- MG3-Gurte der BWMod: **Gurtkasten 7,62x51mm 120-Schuss** und **Gurttasche 7,62x51mm 120-Schuss**, jeweils auch mit Leuchtspur
 
 Das Laden dauert 5 Sekunden, das Entladen 4 Sekunden. Es werden bis zu 250 Schuss nachgeladen, mehrere Gurte werden dabei aneinandergehängt.
 
