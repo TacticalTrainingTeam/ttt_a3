@@ -6,7 +6,8 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ttt_common", "ttt_smoke_launcher", "ttt_compat_bwa3_weapons", "bwa3_puma", "bwa3_common", "bwa3_mells"};
+        // bwa3_comp_ace redefines the Puma turrets (weapons, optics, overlays), so this has to load after it
+        requiredAddons[] = {"ttt_common", "ttt_smoke_launcher", "ttt_compat_bwa3_weapons", "bwa3_puma", "bwa3_common", "bwa3_mells", "bwa3_comp_ace"};
         authors[] = {"Timi007", "Mishkar", "Max", "Andx"};
         VERSION_CONFIG;
         skipWhenMissingDependencies = 1;

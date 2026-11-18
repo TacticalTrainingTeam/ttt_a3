@@ -52,7 +52,7 @@ Nicht übernommen wurden die ACRE-Konfiguration, das Nachladen (Rearm) und die N
 
 ## Abhängigkeiten
 
-- BWmod <https://steamcommunity.com/sharedfiles/filedetails/?id=1200127537> (`bwa3_puma`, `bwa3_common`, `bwa3_mells`)
+- BWmod <https://steamcommunity.com/sharedfiles/filedetails/?id=1200127537> (`bwa3_puma`, `bwa3_common`, `bwa3_mells`, `bwa3_comp_ace`). `bwa3_comp_ace` (die ACE-Compat von BWmod) definiert die Türme des Puma neu, mit Waffen, Optiken und Anzeigen von BWmod. Ohne diese Abhängigkeit hängt es von der Ladereihenfolge ab, ob unsere Änderungen greifen; im Fehlerfall fehlt dem Richtschützen die Nebelmittelwurfanlage und der Kommandant hat wieder die von BWmod.
 - ACE Hunterkiller
 
 ## Maintainer
