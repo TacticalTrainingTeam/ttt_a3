@@ -27,8 +27,6 @@ class CfgVehicles {
             ammoLoadTime = 1;   // How long it takes in seconds to load ammo into the weapon
             ammoUnloadTime = 5; // How long it takes in seconds to unload ammo from the weapon
             desiredAmmo = 1;  // When the weapon is reloaded it will try and reload to this ammo capacity
-            // Optional callback function for when the CSW gets disassembled, called with [tripod, staticWeapon]
-            disassembleFunc = "prefix_fnc_handleDisassembly";
             allowFireOnLoad = 1; // Set for future compatibility: currently, ACE actions do not exist for this mortar, but this property is included to ensure consistent configuration if support is added later.
             /*
             * Available Options:
