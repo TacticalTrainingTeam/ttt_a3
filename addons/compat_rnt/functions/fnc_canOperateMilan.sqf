@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /**
  *  Author: Timi007
- *  Source: PzGrenBtl402 addons/Redd_Marder/functions/fnc_canLoadMilan.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), seat check of the Milan functions merged into one function
+ *  Source: PzGrenBtl402 addons/Redd_Marder/functions/fnc_canLoadMilan.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), seat check of the Milan functions merged into one function, commander checked by turret path
  *
  *  Description:
  *      Checks if the player may operate the Milan of the Marder: the commander turned out or in the higher commander seat,
@@ -23,6 +23,7 @@
 
 params ["_vehicle", "_player", ["_allowHatch", false]];
 
-((_player isEqualTo commander _vehicle) && {_vehicle animationSourcePhase "hatchCommander" isEqualTo 1}) || // is commander and turned out
+// Not "commander _vehicle": Commander seat, Milan and higher seat are all primaryObserver, so it can return another seat
+((_vehicle turretUnit MARDER_COMMANDER_TURRET_PATH isEqualTo _player) && {_vehicle animationSourcePhase "hatchCommander" > 0}) || // is commander and turned out
 {_vehicle turretUnit MARDER_COMMANDER_HIGHER_TURRET_PATH isEqualTo _player} || // is in the higher commander seat
 {_allowHatch && {_vehicle turretUnit MARDER_HATCH_RIGHT_TURRET_PATH isEqualTo _player} && {isTurnedOut _player}}
