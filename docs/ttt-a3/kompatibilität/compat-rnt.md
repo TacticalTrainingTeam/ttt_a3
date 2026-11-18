@@ -82,6 +82,8 @@ this setVariable ["ttt_common_showMapAction", false, true];
 
 ## Milan (abgesessen)
 
+Wie der Milan-Trupp die Milan aufbaut, lädt und abbaut, erklärt die Seite [Milan – Bedienung](/de/ttt-a3/kompatibilität/compat-rnt/milan).
+
 - Das Dreibein allein baut eine leere Milan auf. Das Rohr wird danach als Munition geladen.
 - **Milan laden**: Mit dem Rohr als Rucksack direkt an die leere Milan stellen (Halte-Aktion, 10 Sekunden).
 - **Milan entladen**: Ohne Rucksack an die geladene Milan stellen, das Rohr wird zum eigenen Rucksack.
@@ -90,15 +92,21 @@ this setVariable ["ttt_common_showMapAction", false, true];
 
 ## M120 Mörser
 
+Wie die Crew den Mörser aufbaut und lädt, erklärt die Seite [M120 Mörser – Bedienung](/de/ttt-a3/kompatibilität/compat-rnt/m120).
+
 ACE-CSW-Unterstützung und Fehlerbehebungen. Der [Mörser](/de/handbuch/kampfunterstützungskräfte/artillerie/moerser) kann direkt nach dem Laden feuern (`allowFireOnLoad`, siehe [ACE CSW](https://ace3.acemod.org/wiki/framework/crew-served-weapons-framework#3-additional-configuration-parameters)).
 
 ## GraMaWa
+
+Wie die GraMaWa aufgebaut, geladen und verstellt wird, erklärt die Seite [GraMaWa – Bedienung](/de/ttt-a3/kompatibilität/compat-rnt/gramawa).
 
 Stabiler, und die ACE-Aktionen zum seitlichen Drehen und zur Höhenverstellung funktionieren. Benötigt `force ace_csw_defaultAssemblyMode = true;` in den CBA-Einstellungen.
 
 Die GraMaWa wird mit dem Gurt **[CSW] 40mm GMW-Gurt** (32 Schuss) über die ACE-Interaktion geladen und entladen. Das Laden dauert 10, das Entladen 8 Sekunden. Der Gurt ist auch im Arsenal verfügbar und mit dem Gurt von Redd'n'Tank austauschbar.
 
 ## MG3-Lafette
+
+Wie man ein MG3 lafettiert, nachlädt und die Lafette abbaut, erklärt die Seite [MG3-Lafette – Bedienung](/de/ttt-a3/kompatibilität/compat-rnt/mg3-lafette).
 
 Lässt sich auch mit MG3 aus anderen Mods aufbauen (`BWA3_MG3`, `BWA3_MG3_bipod`, `BWA3_MG3_MicroT2_pointer_bipod`) und ist stabiler.
 
