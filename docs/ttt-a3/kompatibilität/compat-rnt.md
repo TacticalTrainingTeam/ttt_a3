@@ -47,6 +47,26 @@ Infanterietelefon und Bordverständigung sind ebenfalls vereinheitlicht.
 - Der Turm ist nicht mehr gesperrt, wenn der Fahrer über Luke ist
 - Der Motorstart dauert 5 Sekunden
 - Behebt einige Fehler im Original
+- Der Kommandant kann mit den Tasten für Aus- und Einsteigen (Turn Out / Turn In) höher bzw. tiefer steigen. Hängt der Sitz fest, hilft die Aktion **Sitz freigeben**.
+- Das Tarnnetz wird automatisch angebracht, die Aktionen zum Auf- und Abbauen entfallen. Besatzungen sind dadurch schwerer zu entdecken.
+- Die MK20 hat AP und HE als getrennte Munitionsarten, die über die Waffenauswahl gewechselt werden (kein Mausrad mehr). Die Kanone ist ab Spawn auf 800 m eingestellt.
+- Das HUD ist aufgeräumt (keine Fahrzeug-Systemanzeigen).
+
+### Heckklappe und Luken
+
+- Der Marder ist gesperrt, solange die Heckklappe geschlossen ist. Fahrer und Kommandant steigen über die Einsteigen-Aktionen ein, alle anderen öffnen vorher die Klappe. Fahrer, Richtschütze und der mittlere Lukenplatz öffnen und schließen sie per Aktion.
+- In den Eden-Attributen des Marders lässt sich **Heckklappe öffnen** setzen, damit die Klappe beim Spawnen offen ist.
+- Wer an einer Luke ausgestiegen ist, kann mit der Aktion **Aussteigen durch Luke** direkt neben der Luke aus dem Fahrzeug steigen.
+
+### Karte ablegen
+
+Mit Metis Enhanced ab Version 1.10.2 kann eine Karte auf der geöffneten Heckklappe abgelegt werden. Ohne Metis Enhanced wird die Aktion nicht angezeigt.
+
+Die Aktion lässt sich pro Fahrzeug ausblenden, z. B. in der Init-Zeile des Fahrzeugs:
+
+```sqf
+this setVariable ["ttt_common_showMapAction", false, true];
+```
 
 ## M120 Mörser
 

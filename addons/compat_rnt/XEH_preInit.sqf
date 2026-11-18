@@ -8,6 +8,9 @@ PREP_RECOMPILE_END;
 
 ADDON = true;
 
+// Source: PzGrenBtl402 addons/Redd_Marder/XEH_postInit.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted
+[QGVAR(lock), {(_this select 0) lock (_this select 1)}] call CBA_fnc_addEventHandler;
+
 // Source: PzGrenBtl402 addons/Redd_Wiesel_TOW/XEH_postInit.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted
 [QGVAR(addMagazineTurret), {(_this select 0) addMagazineTurret (_this select 1)}] call CBA_fnc_addEventHandler;
 [QGVAR(removeMagazinesTurret), {(_this select 0) removeMagazinesTurret (_this select 1)}] call CBA_fnc_addEventHandler;
@@ -22,7 +25,10 @@ GVAR(camonetSources) = createHashMapFromArray [
     ["Redd_Tank_Wiesel_1A4_MK20_Wintertarn", ["mk20_netz_wanne_w_hide_Source", "mk20_netz_turm_w_hide_Source", "mk20_netz_waffe_w_hide_Source"]],
     ["Redd_Tank_Wiesel_1A2_TOW_Flecktarn", ["netz_wanne_f_hide_Source"]],
     ["Redd_Tank_Wiesel_1A2_TOW_Tropentarn", ["netz_wanne_d_hide_Source"]],
-    ["Redd_Tank_Wiesel_1A2_TOW_Wintertarn", ["netz_wanne_w_hide_Source"]]
+    ["Redd_Tank_Wiesel_1A2_TOW_Wintertarn", ["netz_wanne_w_hide_Source"]],
+    ["Redd_Marder_1A5_Flecktarn", ["marder_netz_wanne_hide_Source"]],
+    ["Redd_Marder_1A5_Tropentarn", ["marder_netz_wanne_d_hide_Source"]],
+    ["Redd_Marder_1A5_Wintertarn", ["marder_netz_wanne_w_hide_Source"]]
 ];
 
 #include "initSettings.inc.sqf"
