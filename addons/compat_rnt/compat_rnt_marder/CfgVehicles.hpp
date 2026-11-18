@@ -150,13 +150,21 @@ class CfgVehicles {
 
             class Redd_Milan: NewTurret {
                 magazines[] = {}; // Empty when assembled, loaded from the cargo with a hold action
+                stabilizedInAxes = 0;
                 turretInfoType = QEGVAR(compat_rnt,RSC_Milan);
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
                 gunnerCompartments= "Compartment4";
+
+                class Components {
+                    #include "..\vehicleSystemsDisplay.inc.hpp"
+                };
             };
 
+            // Higher commander seat
             class Luchs_Bino_Turret_Com: NewTurret {
+                magazines[] = {};
+                turretInfoType = QEGVAR(compat_rnt,RSC_Milan);
                 disableSoundAttenuation = 0;
                 soundAttenuationTurret = "TankAttenuation";
                 gunnerCompartments= "Compartment4";

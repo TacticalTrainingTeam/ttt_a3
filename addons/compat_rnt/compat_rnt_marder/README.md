@@ -35,7 +35,7 @@
   - Aufbauen und Abbauen darf der ausgestiegene Kommandant bzw. der höhere Kommandantensitz, Laden und Entladen zusätzlich der ausgestiegene Platz an der rechten Luke (`fnc_canOperateMilan`). Der Kommandant wird über den Turmpfad `{0, 0}` erkannt, nicht über `commander`: Kommandantensitz, Milan und höherer Sitz sind alle `primaryObserver`, `commander` liefert daher nicht zuverlässig den Kommandantensitz.
 - Nach einem Schuss entfernt `fnc_handleMarderFired` das Magazin (es bliebe sonst im Turm) und blendet das Rohr aus (`ReloadMagazine` auf `user` umgestellt). Redds `fired`-Handler wirft weiterhin das leere Rohr ab.
 - Ein- und Aussteigen auf die Milan (`milan_in`/`milan_aus`) laufen über `fnc_canGetInMilan`/`fnc_getInMilan` bzw. `fnc_canGetOutMilan`/`fnc_getOutMilan` mit dem Sitzsperren von `common` statt `remoteExecCall lockTurret`. Redds Aktionen `milan_auf`/`milan_ab` entfallen.
-- Die Optik nutzt die Milan-Anzeige ohne Entfernungsmesser (`ttt_compat_rnt_RSC_Milan`).
+- Die Milan ist nicht stabilisiert (`stabilizedInAxes = 0`), ihre Optik nutzt die Milan-Anzeige ohne Entfernungsmesser (`ttt_compat_rnt_RSC_Milan`) und leere Fahrzeug-Systemanzeigen (`vehicleSystemsDisplay.inc.hpp`). Der höhere Kommandantensitz (`Luchs_Bino_Turret_Com`, `{2}`) bekommt ebenfalls diese Anzeige und keine Magazine. Die Nachtsicht der Milan-Tagoptik bleibt erhalten (im Original entfernt).
 
 ## Herkunft
 
