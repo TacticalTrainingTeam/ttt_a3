@@ -76,8 +76,8 @@ this setVariable ["ttt_common_showMapAction", false, true];
 Kommt ein lenkbarer Flugkörper auf den Puma zu (näher als 2 km), ertönt für die Besatzung ein lauterer Warnton, und das Radar oben links zeigt die Richtung des Flugkörpers. Je nach Modus richtet das MUSS außerdem den Turm auf den Flugkörper aus, um die Zielerfassung zu brechen, und feuert danach eine Nebelsalve ab. Richtschütze und Kommandant schalten den Modus mit der Taste **MUSS Modus umschalten** (Standard: Einfügen, Kategorie **BWMod Puma**) um:
 
 1. Stören
-2. Stören und Turmausrichtung (Standard)
-3. Stören, Turmausrichtung und Nebel – verbraucht dabei Nebelgranaten, ohne dass jemand die Taste drückt
+2. Stören und Turmausrichtung
+3. Stören, Turmausrichtung und Nebel (Standard) – verbraucht dabei Nebelgranaten, ohne dass jemand die Taste drückt
 
 Das MUSS benötigt ACE Hunterkiller. Ohne diese Mod entfällt das MUSS – alle anderen Anpassungen funktionieren weiterhin.
 

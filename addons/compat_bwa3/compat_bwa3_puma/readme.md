@@ -20,7 +20,7 @@ Verbessert Optiken, Anzeigen und Bedienung des Puma. Die Config liegt in diesem 
 ## MUSS (Multifunktionales Selbstschutz-System)
 
 - `fnc_incomingMissile` (`Extended_IncomingMissile_EventHandlers`, angemeldet in `compat_bwa3_muss`) reagiert auf lenkbare Flugkörper (`irlock`), die näher als 2000 m kommen. Für den Spieler im Fahrzeug spielt ein lauterer Warnton (`CfgSounds.hpp`).
-- Je nach Modus richtet der Richtschützenturm sich auf den Flugkörper aus (`ace_hunterkiller_fnc_slew`) und bricht damit die Zielerfassung. Im Modus mit Nebel feuert er danach die Nebelmittelwurfanlage ab (`ttt_smoke_launcher_fnc_fireSmoke`, wartet bis zu 5 s auf eine laufende Nachladezeit). Der Modus wird mit `fnc_toggleMussMode` umgeschaltet (Variable `ttt_compat_bwa3_MussMode` am Fahrzeug, 0 = nur Stören, 1 = mit Turmausrichtung, 2 = mit Nebel, Standard 1). Upstream ist 2 der Standard; hier bleibt es bei 1, damit nicht ungefragt Nebelgranaten verbraucht werden.
+- Je nach Modus richtet der Richtschützenturm sich auf den Flugkörper aus (`ace_hunterkiller_fnc_slew`) und bricht damit die Zielerfassung. Im Modus mit Nebel feuert er danach die Nebelmittelwurfanlage ab (`ttt_smoke_launcher_fnc_fireSmoke`, wartet bis zu 5 s auf eine laufende Nachladezeit). Der Modus wird mit `fnc_toggleMussMode` umgeschaltet (Variable `ttt_compat_bwa3_MussMode` am Fahrzeug, 0 = nur Stören, 1 = mit Turmausrichtung, 2 = mit Nebel, Standard 2 wie upstream).
 - Ohne ACE Hunterkiller entfällt das MUSS vollständig, der Rest der Compat läuft weiter. Die Prüfung läuft pro Flugkörper in einem Handler mit 0,1 s Intervall und endet, sobald der Flugkörper nicht mehr existiert oder näher als 10 m ist.
 
 ## Kameras
