@@ -1,6 +1,6 @@
 # Compat BWmod
 
-Anpassungen für BWmod. Die Fahrzeuge, Waffen und Anzeigen werden in den Unterordnern konfiguriert (`compat_bwa3_leopard`, `compat_bwa3_muss`, `compat_bwa3_puma`, `compat_bwa3_itc`). Dieser Hauptordner enthält die Konfiguration der übrigen Fahrzeuge (ACRE-Racks, Eagle-Rucksäcke, NH-90, M120) sowie die Skripte, Tastenbelegung und Bilder des Puma.
+Anpassungen für BWmod. Die Fahrzeuge, Waffen und Anzeigen werden in den Unterordnern konfiguriert (`compat_bwa3_leopard`, `compat_bwa3_muss`, `compat_bwa3_puma`, `compat_bwa3_weapons`, `compat_bwa3_itc`). Dieser Hauptordner enthält die Konfiguration der übrigen Fahrzeuge (ACRE-Racks, Eagle-Rucksäcke, NH-90, M120) sowie die Skripte, Tastenbelegung und Bilder des Puma.
 
 ## Aufbau (Puma)
 
