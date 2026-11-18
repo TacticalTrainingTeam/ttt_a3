@@ -100,7 +100,7 @@ Nacheinander kommen vier Außenkameras (Blick nach 9, 7, 5 und 3 Uhr), dann der 
 # Laderaum und Ausstattung
 
 - Der Laderaum hat keine Gewichtsgrenze. Ausrüstung kann beliebig eingeladen werden.
-- Auf der Heckklappe kann eine Karte abgelegt werden, wenn die Mission das unterstützt.
+- Auf der Heckklappe kann eine Karte abgelegt werden.
 
 # Für Missionsbauer
 

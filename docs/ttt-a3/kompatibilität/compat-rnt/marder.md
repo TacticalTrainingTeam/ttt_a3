@@ -112,7 +112,7 @@ Rohre und Dreibein lassen sich auch aus dem Laderaum nehmen und abgesessen einse
 
 - Der Laderaum hat keine Gewichtsgrenze. Ausrüstung kann beliebig eingeladen werden.
 - Das Tarnnetz ist von Anfang an angebracht. Aktionen zum Auf- und Abbauen gibt es nicht.
-- Auf der geöffneten Heckklappe kann eine Karte abgelegt werden, wenn die Mission das unterstützt.
+- Auf der geöffneten Heckklappe kann eine Karte abgelegt werden.
 
 # Für Missionsbauer
 
