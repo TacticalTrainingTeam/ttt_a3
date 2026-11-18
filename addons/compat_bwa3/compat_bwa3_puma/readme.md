@@ -6,7 +6,7 @@ Verbessert Optiken, Anzeigen und Bedienung des Puma. Die Config liegt in diesem 
 
 - Richtschützen- und Kommandantenoptik nutzen die Warrior-Optik für ein größeres Sichtfeld (`WARRIOR_OPTICS`), die Nachtsicht bleibt erhalten.
 - Der Kommandant hat in BWmod nur eine `ViewOptics` mit stufenlosem Zoom und kein `OpticsIn`; das Tauschen von `gunnerOpticsModel` am Turm allein wirkt dort nicht. Er bekommt deshalb ein `OpticsIn` mit denselben drei Stufen (Wide/Medium/Narrow) wie der Richtschütze, abgeleitet von `BWA3_Optics_Gunner_Puma`.
-- Waffen und Magazine des Richtschützen werden ersetzt: MK30 mit AP/HE-Mündungen, MG5 mit einem 1000-Schuss-Gurtkasten statt zwei 1200er-Gurten und die Spike LR aus `bwa3_mells` (`bwa3_land_spikeLR_atgm`) statt der älteren `BWA3_Spike_LR`. Gurtkasten und Munitionsmengen stehen in `compat_bwa3_weapons`, daher die Abhängigkeit auf `ttt_compat_bwa3_weapons`.
+- Waffen und Magazine des Richtschützen werden ersetzt: MK30 mit AP/HE-Mündungen, MG5 mit einem 1000-Schuss-Gurtkasten statt zwei 1200er-Gurten und die Spike LR aus `bwa3_mells` (`bwa3_land_spikeLR_atgm`) statt der älteren `BWA3_Spike_LR`. Dazu kommt die ausgeblendete Nebelmittelwurfanlage, die vom Kommandanten zum Richtschützen wandert (`ttt_smoke_launcher_muzzle`, Logik im Addon `smoke_launcher`). Gurtkasten, Nebelmittelwurfanlage und Munitionsmengen stehen in `compat_bwa3_weapons`, daher die Abhängigkeit auf `ttt_compat_bwa3_weapons`.
 - Im Eden-Editor ist HE statt ABM als Standardmunition der MK30 vorausgewählt (`Cfg3DEN.hpp`, `Attributes` des Fahrzeugs und `XEH_preInit.sqf` für zur Laufzeit erzeugte Fahrzeuge).
 - Die Motorstartverzögerung beträgt 5 Sekunden, die Sound-Dämpfung nutzt `TankAttenuation`.
 
@@ -20,7 +20,7 @@ Verbessert Optiken, Anzeigen und Bedienung des Puma. Die Config liegt in diesem 
 ## MUSS (Multifunktionales Selbstschutz-System)
 
 - `fnc_incomingMissile` (`Extended_IncomingMissile_EventHandlers`, angemeldet in `compat_bwa3_muss`) reagiert auf lenkbare Flugkörper (`irlock`), die näher als 2000 m kommen. Für den Spieler im Fahrzeug spielt ein lauterer Warnton (`CfgSounds.hpp`).
-- Je nach Modus richtet der Richtschützenturm sich auf den Flugkörper aus (`ace_hunterkiller_fnc_slew`) und bricht damit die Zielerfassung. Der Modus wird mit `fnc_toggleMussMode` umgeschaltet (Variable `ttt_compat_bwa3_MussMode` am Fahrzeug, 0 = nur Stören, 1 = mit Turmausrichtung, Standard 1).
+- Je nach Modus richtet der Richtschützenturm sich auf den Flugkörper aus (`ace_hunterkiller_fnc_slew`) und bricht damit die Zielerfassung. Im Modus mit Nebel feuert er danach die Nebelmittelwurfanlage ab (`ttt_smoke_launcher_fnc_fireSmoke`, wartet bis zu 5 s auf eine laufende Nachladezeit). Der Modus wird mit `fnc_toggleMussMode` umgeschaltet (Variable `ttt_compat_bwa3_MussMode` am Fahrzeug, 0 = nur Stören, 1 = mit Turmausrichtung, 2 = mit Nebel, Standard 2 wie upstream).
 - Ohne ACE Hunterkiller entfällt das MUSS vollständig, der Rest der Compat läuft weiter. Die Prüfung läuft pro Flugkörper in einem Handler mit 0,1 s Intervall und endet, sobald der Flugkörper nicht mehr existiert oder näher als 10 m ist.
 
 ## Kameras
@@ -52,7 +52,7 @@ Nicht übernommen wurden die ACRE-Konfiguration, das Nachladen (Rearm) und die N
 
 ## Abhängigkeiten
 
-- BWmod <https://steamcommunity.com/sharedfiles/filedetails/?id=1200127537> (`bwa3_puma`, `bwa3_common`, `bwa3_mells`)
+- BWmod <https://steamcommunity.com/sharedfiles/filedetails/?id=1200127537> (`bwa3_puma`, `bwa3_common`, `bwa3_mells`, `bwa3_comp_ace`). `bwa3_comp_ace` (die ACE-Compat von BWmod) definiert die Türme des Puma neu, mit Waffen, Optiken und Anzeigen von BWmod. Ohne diese Abhängigkeit hängt es von der Ladereihenfolge ab, ob unsere Änderungen greifen; im Fehlerfall fehlt dem Richtschützen die Nebelmittelwurfanlage und der Kommandant hat wieder die von BWmod.
 - ACE Hunterkiller
 
 ## Maintainer

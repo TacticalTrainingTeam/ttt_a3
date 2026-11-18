@@ -16,6 +16,15 @@ class Extended_PostInit_EventHandlers {
     };
 };
 
+class Extended_FiredBIS_EventHandlers {
+    // Separate handler, Redd's own fired event handler of the Marder also drops the empty Milan tube
+    class Redd_Marder_1A5_base {
+        class GVAR(smokeLauncher) {
+            firedBIS = QUOTE(call FUNC(handleMarderFired));
+        };
+    };
+};
+
 class Extended_InitPost_EventHandlers {
     class Redd_Tank_Wiesel_1A4_MK20_base {
         class GVAR(camonet) {

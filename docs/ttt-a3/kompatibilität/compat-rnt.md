@@ -51,6 +51,7 @@ Infanterietelefon und Bordverständigung sind ebenfalls vereinheitlicht.
 - Das Tarnnetz wird automatisch angebracht, die Aktionen zum Auf- und Abbauen entfallen. Besatzungen sind dadurch schwerer zu entdecken.
 - Die MK20 hat AP und HE als getrennte Munitionsarten, die über die Waffenauswahl gewechselt werden (kein Mausrad mehr). Die Kanone ist ab Spawn auf 800 m eingestellt.
 - Das HUD ist aufgeräumt (keine Fahrzeug-Systemanzeigen).
+- Richtschütze und Kommandant können die Nebelmittelwurfanlage abfeuern, siehe [Smoke Launcher](/de/ttt-a3/grundlagen/smoke-launcher).
 
 ### Heckklappe und Luken
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ttt">
+    <Package name="Smoke_Launcher">
+        <Key ID="STR_ttt_Smoke_Launcher_ammoCount">
+            <English>Smoke: %1</English>
+            <German>NbMWAnl: %1</German>
+        </Key>
+    </Package>
+</Project>

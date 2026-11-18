@@ -96,4 +96,10 @@ class CfgWeapons {
         magazineReloadTime = 0.1;
     };
 
+    // Hidden copy of the smoke launcher for the gunner turret, fired by the smoke_launcher addon
+    class BWA3_SmokeLauncher;
+    class GVAR(SmokeLauncher): BWA3_SmokeLauncher {
+        showToPlayer = 0;
+        magazineReloadTime = 0.1;
+    };
 };

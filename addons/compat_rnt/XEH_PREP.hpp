@@ -22,6 +22,7 @@ PREP(getOutTOW);
 PREP(getSeatData);
 PREP(handleGetIn);
 PREP(handleGetOut);
+PREP(handleMarderFired);
 PREP(handleTOWFired);
 PREP(initRampActions);
 PREP(loadTOW);

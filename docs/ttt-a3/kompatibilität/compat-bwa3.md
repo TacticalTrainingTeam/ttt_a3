@@ -58,11 +58,13 @@ Die Plätze 13 und 14 sind gesperrt, weil man dort unter dem Hubschrauber sitzt.
 - Die Optik des Kommandanten bietet ein größeres Sichtfeld und zeigt die Wärmebilddarstellung in Grün.
 - Schalter und Lampen in der Kommandantenoptik werden ausgeblendet.
 - Der Fahrer erhält einen horizontalen Kompass.
+- Richtschütze und Kommandant können die Nebelmittelwurfanlage abfeuern, siehe [Smoke Launcher](/de/ttt-a3/grundlagen/smoke-launcher).
 
 ## Puma
 
 - Die Optiken von Richtschütze und Kommandant bieten ein größeres Sichtfeld. Datum und weitere Anzeigen in den Optiken sind ausgeblendet, der Fahrer hat einen horizontalen Kompass.
 - Im Eden-Editor ist HE statt ABM als Standardmunition ausgewählt.
+- Richtschütze und Kommandant können die Nebelmittelwurfanlage abfeuern, siehe [Smoke Launcher](/de/ttt-a3/grundlagen/smoke-launcher).
 - Mit Metis Enhanced ab Version 1.10.2 kann eine Karte auf der Heckklappe abgelegt werden. Ohne Metis Enhanced wird die Aktion nicht angezeigt. Ausblenden lässt sie sich pro Fahrzeug, z. B. in der Init-Zeile:
 
 ```sqf
@@ -71,10 +73,11 @@ this setVariable ["ttt_common_showMapAction", false, true];
 
 ### MUSS (Selbstschutz-System)
 
-Kommt ein lenkbarer Flugkörper auf den Puma zu (näher als 2 km), ertönt für die Besatzung ein lauterer Warnton, und das Radar oben links zeigt die Richtung des Flugkörpers. Je nach Modus richtet das MUSS außerdem den Turm auf den Flugkörper aus, um die Zielerfassung zu brechen. Richtschütze und Kommandant schalten den Modus mit der Taste **MUSS Modus umschalten** (Standard: Einfügen, Kategorie **BWMod Puma**) um:
+Kommt ein lenkbarer Flugkörper auf den Puma zu (näher als 2 km), ertönt für die Besatzung ein lauterer Warnton, und das Radar oben links zeigt die Richtung des Flugkörpers. Je nach Modus richtet das MUSS außerdem den Turm auf den Flugkörper aus, um die Zielerfassung zu brechen, und feuert danach eine Nebelsalve ab. Richtschütze und Kommandant schalten den Modus mit der Taste **MUSS Modus umschalten** (Standard: Einfügen, Kategorie **BWMod Puma**) um:
 
 1. Stören
-2. Stören und Turmausrichtung (Standard)
+2. Stören und Turmausrichtung
+3. Stören, Turmausrichtung und Nebel (Standard) – verbraucht dabei Nebelgranaten, ohne dass jemand die Taste drückt
 
 Das MUSS benötigt ACE Hunterkiller. Ohne diese Mod entfällt das MUSS – alle anderen Anpassungen funktionieren weiterhin.
 

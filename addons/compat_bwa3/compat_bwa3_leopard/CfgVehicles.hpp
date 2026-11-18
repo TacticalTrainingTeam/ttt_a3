@@ -29,10 +29,20 @@ class CfgVehicles {
     class BWA3_Leopard_base: Tank_F {
         driverWeaponsInfoType = QGVAR(RscOptics_Driver);
 
+        // Gunner and commander can fire the smoke launcher, the gunner turret holds the weapon
+        EGVAR(smoke_launcher,muzzle) = QGVAR(SmokeLauncher);
+
         class Turrets: Turrets {
             class MainTurret: MainTurret {
+                weapons[] += {QGVAR(SmokeLauncher)};
+                magazines[] += {"BWA3_SmokeLauncherMag"};
+
                 class Turrets: Turrets {
                     class CommanderOptics: CommanderOptics {
+                        // Smoke launcher moves from the commander to the gunner
+                        weapons[] = {};
+                        magazines[] = {};
+
                         // Vanilla Warrior optics for a wider field of view
                         gunnerOpticsModel = WARRIOR_OPTICS_MODEL;
                         turretInfoType = QGVAR(RscOpticsCommanderLeopard);
