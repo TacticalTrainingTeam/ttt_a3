@@ -75,7 +75,7 @@ this setVariable ["ttt_common_showMapAction", false, true];
 
 ### MUSS (Selbstschutz-System)
 
-Kommt ein lenkbarer Flugkörper auf den Puma zu (näher als 2 km), ertönt für die Besatzung ein lauterer Warnton, und das Radar oben links zeigt die Richtung des Flugkörpers. Je nach Modus richtet das MUSS außerdem den Turm auf den Flugkörper aus, um die Zielerfassung zu brechen, und feuert danach eine Nebelsalve ab. Richtschütze und Kommandant schalten den Modus mit der Taste **MUSS Modus umschalten** (Standard: Einfügen, Kategorie **BWMod Puma**) um:
+Kommt ein lenkbarer Flugkörper auf den Puma zu (näher als 2 km), ertönt für die Besatzung ein lauterer Warnton, und das Radar oben links zeigt die Richtung des Flugkörpers. Je nach Modus richtet das MUSS außerdem den Turm auf den Flugkörper aus, um die Zielerfassung zu brechen, und feuert danach eine Nebelsalve ab. Richtschütze und Kommandant schalten den Modus mit der Taste **MUSS Modus umschalten** (Standard: <kbd>Einfügen</kbd>, Kategorie **BWMod Puma**) um:
 
 1. Stören
 2. Stören und Turmausrichtung
@@ -85,7 +85,7 @@ Das MUSS benötigt ACE Hunterkiller. Ohne diese Mod entfällt das MUSS – alle 
 
 ### Kameras
 
-Die Kameras der Passagiere und die Rückfahrkamera des Fahrers werden mit Umschalt+Pos1 (nächste Kamera) und Umschalt+Ende (vorherige Kamera) bedient. Diese Tastenbelegung ersetzt die von BWMod.
+Die Kameras der Passagiere und die Rückfahrkamera des Fahrers werden mit <kbd>Umschalt</kbd> + <kbd>Pos1</kbd> (nächste Kamera) und <kbd>Umschalt</kbd> + <kbd>Ende</kbd> (vorherige Kamera) bedient. Diese Tastenbelegung ersetzt die von BWMod.
 
 ### Fahrzeugnummer
 

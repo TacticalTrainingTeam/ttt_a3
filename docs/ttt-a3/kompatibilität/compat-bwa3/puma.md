@@ -31,7 +31,7 @@ Diese Seite erklärt, wie Besatzung und Schützentrupp den Puma aus der BWMod im
 
 - Der Motor braucht 5 Sekunden, bis er läuft.
 - Der Fahrer hat einen Kompass im Bild, der die Fahrtrichtung anzeigt.
-- Mit **Umschalt+Pos1** schaltet der Fahrer die Rückfahrkamera ein und mit derselben Taste wieder aus.
+- Mit <kbd>Umschalt</kbd> + <kbd>Pos1</kbd> schaltet der Fahrer die Rückfahrkamera ein und mit derselben Taste wieder aus.
 
 # Optiken
 
@@ -69,7 +69,7 @@ Das MUSS schützt den Puma vor anfliegenden Panzerabwehr-Lenkflugkörpern.
 - Das Radar oben links zeigt, aus welcher Richtung der Flugkörper kommt.
 - Je nach Modus dreht das MUSS den Turm zum Flugkörper, um dessen Zielerfassung zu stören, und feuert danach selbstständig eine Nebelsalve ab.
 
-Richtschütze und Kommandant schalten den Modus mit der Taste **Einfügen** um. Jeder Druck wechselt zum nächsten Modus, die aktuelle Einstellung wird kurz eingeblendet:
+Richtschütze und Kommandant schalten den Modus mit <kbd>Einfügen</kbd> um. Jeder Druck wechselt zum nächsten Modus, die aktuelle Einstellung wird kurz eingeblendet:
 
 1. Stören
 2. Stören und Turm ausrichten
@@ -83,8 +83,8 @@ Die Taste lässt sich in den Steuerungseinstellungen unter **Tactical Training T
 
 Die Passagiere – und alle anderen außer dem Fahrer – können sich auf ihrem Bildschirm die Außenkameras des Puma ansehen:
 
-- **Umschalt+Pos1**: nächste Kamera
-- **Umschalt+Ende**: vorherige Kamera
+- <kbd>Umschalt</kbd> + <kbd>Pos1</kbd>: nächste Kamera
+- <kbd>Umschalt</kbd> + <kbd>Ende</kbd>: vorherige Kamera
 
 Nacheinander kommen vier Außenkameras (Blick nach 9, 7, 5 und 3 Uhr), dann der Blick des Kommandanten, einmal normal und einmal stark vergrößert. Nach der letzten Kamera wird das Bild wieder ausgeblendet. Ist Nachtsicht eingeschaltet, zeigen die Kameras ein Nachtsichtbild.
 
