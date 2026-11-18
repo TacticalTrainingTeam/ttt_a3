@@ -26,4 +26,4 @@ alive _milan &&
 {(_player distance _milan) < MILAN_ACTION_DISTANCE} &&
 {objectParent _player isNotEqualTo _milan} &&
 {backpack _player isEqualTo ""} &&
-{(magazinesAllTurrets _milan) findIf {(_x select 2) > 0} != -1}
+{STATIC_MILAN_LOADED(_milan)}

@@ -8,8 +8,8 @@ Die abgesessene Milan (`Redd_Milan_Static`) und ihre Rucksäcke.
 - Laden und Entladen über Halte-Aktionen (10 Sekunden, `fnc_addStaticMilanActions` in `compat_rnt`, angemeldet als `clientInit` in `compat_rnt/CfgEventhandlers.hpp`):
   - **Milan laden**: Der Spieler trägt das Rohr als Rucksack und steht näher als 2 m an der leeren Milan. Das Rohr wird zum Magazin (`fnc_loadStaticMilan`).
   - **Milan entladen**: Der Spieler trägt keinen Rucksack, das Rohr wird ihm als Rucksack gegeben (`fnc_unloadStaticMilan`). Im Original fehlt die Rucksack-Prüfung, dort ersetzt `addBackpackGlobal` einen getragenen Rucksack samt Inhalt.
-- "Geladen" heißt: ein Magazin mit Munition (`magazinesAllTurrets`, Munition > 0). Ein leeres Magazin nach dem Schuss zählt als ungeladen und wird beim Laden entfernt.
-- Abbauen geht nur, wenn die Milan leer und unbesetzt ist und der Spieler keinen Rucksack trägt (UserAction `ttt_compat_rnt_disassemble`, `fnc_disassembleStaticMilan`). Der Abbau der Engine entfällt (`delete assembleInfo`), weil er den Ladezustand nicht kennt.
+- "Geladen" heißt: ein Milan-Magazin (`Redd_Milan_Mag`) mit Munition (`magazinesAllTurrets`, Makro `STATIC_MILAN_LOADED`). Andere Magazine zählen nicht, die Milan hat auf dem Turm `[-1]` ein `FakeWeapon`-Magazin mit einem Schuss. Ein leeres Magazin nach dem Schuss zählt als ungeladen und wird beim Laden entfernt.
+- Abbauen geht nur, wenn die Milan leer und unbesetzt ist und der Spieler keinen Rucksack trägt (UserAction `ttt_compat_rnt_disassemble`, `fnc_canDisassembleStaticMilan`, `fnc_disassembleStaticMilan`). Der Abbau der Engine entfällt (`delete assembleInfo`), weil er den Ladezustand nicht kennt.
 - Das Rohr an der Waffe (`ReloadMagazine`, auf `user` umgestellt) ist nach dem Aufbau und nach einem Schuss ausgeblendet und wird beim Laden eingeblendet. Nach dem Schuss blendet es ein eigener `FiredBIS`-Handler aus, der `fired`-Handler von Redd'n'Tank bleibt erhalten.
 - Die Optik nutzt die Milan-Anzeige ohne Entfernungsmesser (`ttt_compat_rnt_RSC_Milan`), die Flaggen-Aktionen entfallen.
 - Gewicht: Rohr 265, Dreibein mit MIRA-Wärmebildgerät 671 (wie im Original von PzGrenBtl402).

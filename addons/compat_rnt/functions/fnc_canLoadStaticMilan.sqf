@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /**
  *  Author: Timi007
- *  Source: PzGrenBtl402 addons/Redd_Milan/functions/fnc_canLoad.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), renamed, checks the loaded ammo instead of the magazine list
+ *  Source: PzGrenBtl402 addons/Redd_Milan/functions/fnc_canLoad.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), renamed, checks the ammo of the Milan magazine instead of the magazine list
  *
  *  Description:
  *      Checks if the player can load the dismounted Milan: they stand next to it, carry a Milan tube as backpack and it is not loaded.
@@ -25,4 +25,4 @@ alive _milan &&
 {(_player distance _milan) < MILAN_ACTION_DISTANCE} &&
 {objectParent _player isNotEqualTo _milan} &&
 {backpack _player isEqualTo MILAN_BARREL} &&
-{(magazinesAllTurrets _milan) findIf {(_x select 2) > 0} == -1}
+{!STATIC_MILAN_LOADED(_milan)}

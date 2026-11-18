@@ -38,6 +38,8 @@
 #define MILAN_TRIPOD "Redd_Milan_Static_Tripod"
 #define MILAN_TRIPOD_GM "gm_milan_launcher_weaponBag"
 #define MILAN_ACTION_TIME 10
+// Only the Milan magazine counts, the dismounted Milan also has a FakeWeapon magazine on turret [-1]
+#define STATIC_MILAN_LOADED(milan) ((magazinesAllTurrets milan) findIf {(_x select 0) isEqualTo MILAN_MAGAZINE && {(_x select 2) > 0}} != -1)
 #define MILAN_ACTION_DISTANCE 2
 #define MILAN_LOAD_ICON QPATHTOF(data\ui\holdaction_load_milan.paa)
 #define MILAN_UNLOAD_ICON QPATHTOF(data\ui\holdaction_unload_milan.paa)

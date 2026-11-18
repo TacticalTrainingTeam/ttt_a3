@@ -36,8 +36,7 @@ class CfgVehicles {
                 radius = 5;
                 onlyforplayer = 1;
                 showWindow = 0;
-                // The tripod is handed over as backpack, so the player must not wear one
-                condition = QUOTE(alive this && {crew this isEqualTo []} && {backpack ACE_player isEqualTo ''} && {(magazinesAllTurrets this) findIf {(_x select 2) > 0} == -1});
+                condition = QUOTE([ARR_2(this,ACE_player)] call EFUNC(compat_rnt,canDisassembleStaticMilan));
                 statement = QUOTE(this call EFUNC(compat_rnt,disassembleStaticMilan));
             };
 

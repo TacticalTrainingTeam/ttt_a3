@@ -4,6 +4,7 @@ PREP(assembleMilan);
 PREP(canAdjustHeight);
 PREP(canAssembleMilan);
 PREP(canDisassembleMilan);
+PREP(canDisassembleStaticMilan);
 PREP(canGetInMG3);
 PREP(canGetInMilan);
 PREP(canGetInSeat);
