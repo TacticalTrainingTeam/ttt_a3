@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Compat RNT - Add Metis Enhanced map action to Fuchs and Wolf (#646) by Andx667
 * Compat RNT - Add turn out/in shortcut to Luchs (#646) by Andx667
 * Compat RNT - Add ACE CSW belt, proxy weapon and magazine groups to the GMW (#646) by Andx667
+* Compat BWA3 - Add Leopard commander optics (Warrior FOV, green TI), reduced optics HUD and driver compass (#647) by Andx667
 
 ### Changed
 

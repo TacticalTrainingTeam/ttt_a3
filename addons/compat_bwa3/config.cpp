@@ -14,6 +14,7 @@ class CfgPatches {
         // When any of the addons are missing, a pop-up warning will appear when launching the game.
         requiredAddons[] = {
             "ttt_common",
+            "bwa3_common",
             "bwa3_backpacks",
             "bwa3_nh90",
             "bwa3_eagle",
@@ -36,4 +37,5 @@ class CfgPatches {
     };
 };
 
+#include "RscInGameUI.hpp"
 #include "CfgVehicles.hpp"

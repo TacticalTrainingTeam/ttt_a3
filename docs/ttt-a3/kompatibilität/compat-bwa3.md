@@ -53,6 +53,12 @@ Am Eagle IV hängen zwei Patrouillenrucksäcke (`BWA3_PatrolPack_Fleck` bzw. `BW
 
 Die Plätze 13 und 14 sind gesperrt, weil man dort unter dem Hubschrauber sitzt.
 
+## Leopard 2
+
+- Die Optik des Kommandanten bietet ein größeres Sichtfeld und zeigt die Wärmebilddarstellung in Grün.
+- Schalter und Lampen in der Kommandantenoptik werden ausgeblendet.
+- Der Fahrer erhält einen horizontalen Kompass.
+
 ## Mörser 120 mm
 
 Der [Mörser](/de/handbuch/kampfunterstützungskräfte/artillerie/moerser) kann direkt nach dem Laden feuern (`allowFireOnLoad`, siehe [ACE CSW](https://ace3.acemod.org/wiki/framework/crew-served-weapons-framework#3-additional-configuration-parameters)).
