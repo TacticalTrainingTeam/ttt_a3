@@ -23,6 +23,14 @@ class CfgVehicles {
 
         ace_vehicles_engineStartDelay = 5;
 
+        class TransportBackpacks {
+            // One Milan tube is one Milan shot, as many as Redd'n'Tank had preloaded on the turret
+            class _xx_milan_Bag {
+                backpack = MILAN_BARREL;
+                count = 4;
+            };
+        };
+
 
         // Gunner and commander can fire the smoke launcher, the gunner turret holds the weapon
         EGVAR(smoke_launcher,muzzle) = QEGVAR(compat_rnt,SmokeLauncher);

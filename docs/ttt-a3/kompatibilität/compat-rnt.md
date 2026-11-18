@@ -61,7 +61,7 @@ Infanterietelefon und Bordverständigung sind ebenfalls vereinheitlicht.
 
 ### Milan
 
-Die Milan wird wie im echten Gerät aus dem Laderaum aufgebaut und mit Rohren geladen. Ab Spawn ist sie abgebaut und leer, im Laderaum liegen ein Dreibein und ein Rohr. Alle Aktionen sind Halte-Aktionen (10 Sekunden):
+Die Milan wird wie im echten Gerät aus dem Laderaum aufgebaut und mit Rohren geladen. Ab Spawn ist sie abgebaut und leer, im Laderaum liegen ein Dreibein und vier Rohre. Alle Aktionen sind Halte-Aktionen (10 Sekunden):
 
 - **Milan aufbauen** und **Milan abbauen**: durch den ausgestiegenen Kommandanten (über Luke oder im höheren Sitz). Abbauen geht nur, wenn die Milan leer und unbesetzt ist; das Dreibein kommt zurück in den Laderaum.
 - **Milan laden** und **Milan entladen**: durch den ausgestiegenen Kommandanten oder den Platz an der rechten Luke (über Luke). Laden nimmt ein Rohr aus dem Laderaum, Entladen legt es zurück.

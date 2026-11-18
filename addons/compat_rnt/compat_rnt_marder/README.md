@@ -28,7 +28,7 @@
 
 ## Milan
 
-- Die Milan startet abgebaut und leer (`magazines[] = {}` im Turm `Redd_Milan`, Pfad `{1}`). Im Laderaum liegen wie bei Redd'n'Tank ein Rohr (`Redd_Milan_Static_Barrel`) und ein Dreibein (`Redd_Milan_Static_Tripod`).
+- Die Milan startet abgebaut und leer (`magazines[] = {}` im Turm `Redd_Milan`, Pfad `{1}`). Im Laderaum liegen vier Rohre (`Redd_Milan_Static_Barrel`, `TransportBackpacks`, bei Redd'n'Tank eines plus vier geladene Flugkörper am Turm) und ein Dreibein (`Redd_Milan_Static_Tripod`).
 - Halte-Aktionen (10 Sekunden, `fnc_initMilanActions` in `compat_rnt`):
   - **Milan aufbauen**: nimmt das Dreibein aus dem Laderaum, ein GM-Dreibein (`gm_milan_launcher_weaponBag`) wird bevorzugt. **Milan abbauen**: nur leer und unbesetzt, legt das verwendete Dreibein zurück (`ttt_compat_rnt_milanTripod`).
   - **Milan laden**: nimmt ein Rohr aus dem Laderaum. **Milan entladen**: legt es zurück.
