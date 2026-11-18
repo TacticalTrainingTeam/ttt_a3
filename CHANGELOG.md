@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+* Docs - Add user manuals for Marder and Puma (#TBD) by Andx667
 * Compat BWA3 - Add unlimited load capacity to Dingo 2, Eagle IV, Leopard 2, Multi, Panzerhaubitze 2000 and Puma (#692) by Andx667
 * Compat RNT - Add unlimited load capacity to the Marder (#692) by Andx667
 * Compat RNT - Add Milan handling to the Marder (assemble, load and unload from the cargo, reload after every shot, 4 tubes in the cargo) and to the dismounted Milan (tripod assembles an empty Milan, tube is loaded as ammunition) (#691) by Andx667

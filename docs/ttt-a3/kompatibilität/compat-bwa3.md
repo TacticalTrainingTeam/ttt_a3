@@ -62,6 +62,8 @@ Die Plätze 13 und 14 sind gesperrt, weil man dort unter dem Hubschrauber sitzt.
 
 ## Puma
 
+Wie Besatzung und Schützentrupp den Puma bedienen, erklärt die Seite [Puma – Bedienung](/de/ttt-a3/kompatibilität/compat-bwa3/puma).
+
 - Die Optiken von Richtschütze und Kommandant bieten ein größeres Sichtfeld. Datum und weitere Anzeigen in den Optiken sind ausgeblendet, der Fahrer hat einen horizontalen Kompass.
 - Im Eden-Editor ist HE statt ABM als Standardmunition ausgewählt.
 - Richtschütze und Kommandant können die Nebelmittelwurfanlage abfeuern, siehe [Smoke Launcher](/de/ttt-a3/grundlagen/smoke-launcher).

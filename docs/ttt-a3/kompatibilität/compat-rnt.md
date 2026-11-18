@@ -44,6 +44,8 @@ Infanterietelefon und Bordverständigung sind ebenfalls vereinheitlicht.
 
 ## Marder
 
+Wie Besatzung und Schützentrupp den Marder bedienen, erklärt die Seite [Marder – Bedienung](/de/ttt-a3/kompatibilität/compat-rnt/marder).
+
 - Der Turm ist nicht mehr gesperrt, wenn der Fahrer über Luke ist
 - Der Motorstart dauert 5 Sekunden
 - Behebt einige Fehler im Original
