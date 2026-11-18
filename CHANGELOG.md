@@ -7,15 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [6.3.0] - 2026-11-18
+
 ### Added
 
-* Docs - Add user manuals for Marder and Puma (#693) by Andx667
+* Common - Add seat lock events, a generic map action and an event to remove a backpack from a vehicle cargo (#643) by Andx667
 * Compat BWA3 - Add unlimited load capacity to Dingo 2, Eagle IV, Leopard 2, Multi, Panzerhaubitze 2000 and Puma (#692) by Andx667
+* Compat BWA3 - Add MK30 AP/HE muzzles, more HE damage, adjusted magazine sizes, 1000 round MG5 belt (loaded by the Puma together with the MELLS Spike LR) and better visible P2A1 flares (#649) by Andx667
+* Compat BWA3 - Add Leopard commander optics (Warrior FOV, green TI), reduced optics HUD and driver compass (#647) by Andx667
+* Compat BWA3 - Add Puma config: Warrior optics, default HE ammo, reduced optics HUD, driver compass and map action (#648) by Andx667
+* Compat BWA3 - Add Puma MUSS with louder warning and turret rotation, rear view cameras, missile direction on the radar and vehicle numbers (#648) by Andx667
 * Compat RNT - Add unlimited load capacity to the Marder (#692) by Andx667
 * Compat RNT - Add Milan handling to the Marder (assemble, load and unload from the cargo, reload after every shot, 4 tubes in the cargo) and to the dismounted Milan (tripod assembles an empty Milan, tube is loaded as ammunition) (#691) by Andx667
-* Smoke Launcher - Add smoke launcher firing by gunner and commander with ammo display for Leopard 2, Puma and Marder, plus a MUSS mode with automatic smoke for the Puma, which is the new default (#690) by Andx667
-* Compat BWA3 - Add MK30 AP/HE muzzles, more HE damage, adjusted magazine sizes, 1000 round MG5 belt (loaded by the Puma together with the MELLS Spike LR) and better visible P2A1 flares (#649) by Andx667
-* Common - Add seat lock events, a generic map action and an event to remove a backpack from a vehicle cargo (#643) by Andx667
 * Compat RNT - Add higher commander and loader seats, TOW/MG3 seat switching, automatic camonet and reduced HUD to Wiesel MK20 and TOW (#644) by Andx667
 * Compat RNT - Add Wiesel TOW reloading with Milan tubes by the loader, or by the commander if no loader seat is occupied (#644) by Andx667
 * Compat RNT - Add AP/HE muzzles to the Redd MK20 (#644) by Andx667
@@ -24,15 +27,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Compat RNT - Add Metis Enhanced map action to Fuchs and Wolf (#646) by Andx667
 * Compat RNT - Add turn out/in shortcut to Luchs (#646) by Andx667
 * Compat RNT - Add ACE CSW belt, proxy weapon and magazine groups to the GMW (#646) by Andx667
-* Compat BWA3 - Add Leopard commander optics (Warrior FOV, green TI), reduced optics HUD and driver compass (#647) by Andx667
-* Compat BWA3 - Add Puma config: Warrior optics, default HE ammo, reduced optics HUD, driver compass and map action (#648) by Andx667
-* Compat BWA3 - Add Puma MUSS with louder warning and turret rotation, rear view cameras, missile direction on the radar and vehicle numbers (#648) by Andx667
+* Docs - Add user manuals for Marder and Puma (#693) by Andx667
+* Smoke Launcher - Add smoke launcher firing by gunner and commander with ammo display for Leopard 2, Puma and Marder, plus a MUSS mode with automatic smoke for the Puma, which is the new default (#690) by Andx667
 
 ### Changed
 
 * Compat RNT - Change Wiesel MK20 and Wiesel TOW: turrets are stabilized again, the forced `stabilizedInAxes = 0` is removed (#644) by Andx667
 * Compat RNT - Change Marder config: initial zeroing 800 m (#645) by Andx667
 * Compat RNT - Change Fuchs: turrets are stabilized again, the forced `stabilizedInAxes = 0` is removed (#646) by Andx667
+* General - Change public functions to declare typed params (#688) by Andx667
 
 ## [6.2.0] - 2026-11-04
 
