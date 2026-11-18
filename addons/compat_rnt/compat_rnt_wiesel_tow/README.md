@@ -13,7 +13,7 @@ Die Config-Attribute für die Sitzlogik sind in der README von `compat_rnt` besc
 
 ## Herkunft
 
-Teile dieses Addons stammen aus dem Mod PzGrenBtl402 (<https://github.com/PzGrenBtl-402/PzGrenBtl402>, Stand: Commit `e4d9ec8`). Sie wurden mit Erlaubnis eines Maintainers übernommen und für dieses Repository angepasst. Der Mod steht unter der Arma Public License No Derivatives. Die Herkunft jeder Funktion steht im Header der Datei (`Source:`), ganze übernommene Config-Dateien tragen einen entsprechenden Kommentar am Anfang. Im Header steht als Autor der Autor des Originals. Pfade in der Tabelle beziehen sich auf `addons/` im Original.
+Teile dieses Addons stammen aus dem Mod PzGrenBtl402 (<https://github.com/PzGrenBtl-402/PzGrenBtl402>, Stand: Commit `e4d9ec8`). Sie wurden mit Erlaubnis eines Maintainers übernommen und für dieses Repository angepasst. Der Mod steht unter der Arma Public License No Derivatives. Eine Kopie der Lizenz liegt als `LICENSE.PzGrenBtl402` im Hauptordner des Addons; sie gilt nur für die übernommenen Dateien, alles andere steht unter der Lizenz dieses Repositorys. Die Herkunft jeder Funktion steht im Header der Datei (`Source:`), ganze übernommene Config-Dateien tragen einen entsprechenden Kommentar am Anfang. Im Header steht als Autor der Autor des Originals. Pfade in der Tabelle beziehen sich auf `addons/` im Original.
 
 
 Übernommen aus `addons/Redd_Wiesel_TOW` (Autoren laut Original: Lemonberries, Mishkar, Timi007): Sitze, Sitzwechsel TOW/MG3, TOW-Nachladen, Tarnnetz und HUD. Das Nachladen des TOW stammt ebenfalls aus dem Original, nur die Regel, wer laden darf, wurde geändert (im Original der Schütze auf dem TOW-Sitz).

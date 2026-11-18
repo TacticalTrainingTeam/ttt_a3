@@ -105,3 +105,7 @@ Ist ITC geladen, bekommt die Panzerhaubitze 2000 den ITC-Feuerleitrechner mit Sc
 ## Leuchtkugeln P2A1
 
 Die Leuchtkugeln der P2A1 sind größer, brennen länger (20 Sekunden) und werden früher gezündet, damit sie besser zu sehen sind.
+
+## Ladekapazität
+
+Dingo 2, Eagle IV, Leopard 2, Multi, Panzerhaubitze 2000 und Puma haben keine Gewichtsgrenze für eingeladene Ausrüstung.

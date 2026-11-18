@@ -3,6 +3,10 @@ Copyright (c) 2024 Tactical Training Team
 Some folders of this project may contain a separate LICENSE file. Should that be the case, everything in that folder and all subfolders is subject
 to that license instead.
 
+Folders may also declare other licenses for material taken from another project, in a file named LICENSE.<origin> (e.g. LICENSE.PzGrenBtl402).
+Such a license applies only to the files in that folder and all subfolders that name this origin in their header or in a comment at their beginning
+(e.g. "Source: PzGrenBtl402 ..."), or that the readme of the folder lists as taken from it. All other files remain subject to this license.
+
 Brief summary of this Licence
 
 PLEASE, NOTE THAT THIS SUMMARY HAS NO LEGAL EFFECT AND IS ONLY OF AN INFORMATORY NATURE DESIGNED FOR YOU TO GET THE BASIC INFORMATION ABOUT THE CONTENT OF THIS LICENCE. THE ONLY LEGALLY BINDING PROVISIONS ARE THOSE IN THE ORIGINAL AND FULL TEXT OF THIS LICENCE.

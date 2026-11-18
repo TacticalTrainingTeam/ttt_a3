@@ -22,6 +22,7 @@ class CfgVehicles {
     class Redd_Marder_1A5_base: Tank_F {
 
         ace_vehicles_engineStartDelay = 5;
+        maximumLoad = 10000; // No weight limit for loaded equipment
 
         class TransportBackpacks {
             // One Milan tube is one Milan shot, as many as Redd'n'Tank had preloaded on the turret

@@ -4,7 +4,7 @@ Meldet die Reaktion des MUSS (Multifunktionales Selbstschutz-System) auf anflieg
 
 ## Herkunft
 
-Der Event-Eintrag stammt aus dem Mod PzGrenBtl402 (<https://github.com/PzGrenBtl-402/PzGrenBtl402>, Stand: Commit `e4d9ec8`, mit Erlaubnis eines Maintainers übernommen, Arma Public License No Derivatives): `addons/BwMod_Puma`.
+Der Event-Eintrag stammt aus dem Mod PzGrenBtl402 (<https://github.com/PzGrenBtl-402/PzGrenBtl402>, Stand: Commit `e4d9ec8`, mit Erlaubnis eines Maintainers übernommen, Arma Public License No Derivatives): `addons/BwMod_Puma`. Eine Kopie der Lizenz liegt als `LICENSE.PzGrenBtl402` im Hauptordner des Addons; sie gilt nur für die übernommenen Dateien.
 
 ## Abhängigkeiten
 

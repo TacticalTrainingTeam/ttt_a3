@@ -4,7 +4,7 @@ Meldet die Karten-Aktion (`ttt_common_fnc_initMapActions`) für Marder, Fuchs un
 
 ## Herkunft
 
-Der Init-Event-Eintrag stammt aus den Fahrzeug-Addons des Mods PzGrenBtl402 (<https://github.com/PzGrenBtl-402/PzGrenBtl402>, Stand: Commit `e4d9ec8`, mit Erlaubnis eines Maintainers übernommen, Arma Public License No Derivatives): `addons/Redd_Marder, Redd_Fuchs, Redd_Wolf`. Die Funktion `ttt_common_fnc_initMapActions` steht im Addon `common`.
+Der Init-Event-Eintrag stammt aus den Fahrzeug-Addons des Mods PzGrenBtl402 (<https://github.com/PzGrenBtl-402/PzGrenBtl402>, Stand: Commit `e4d9ec8`, mit Erlaubnis eines Maintainers übernommen, Arma Public License No Derivatives): `addons/Redd_Marder, Redd_Fuchs, Redd_Wolf`. Die Funktion `ttt_common_fnc_initMapActions` steht im Addon `common`. Eine Kopie der Lizenz liegt als `LICENSE.PzGrenBtl402` im Hauptordner des Addons; sie gilt nur für die übernommenen Dateien.
 
 
 Autoren laut Original: Mishkar, Timi007.

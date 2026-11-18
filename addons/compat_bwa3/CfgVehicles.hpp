@@ -90,6 +90,8 @@ class CfgVehicles {
 
     //Eagle IV
     class BWA3_Eagle_base: Car_F {
+        maximumLoad = 10000; // No weight limit for loaded equipment
+
         class AcreRacks {
             class Rack_1 {
                 displayName = ECSTRING(common,RackA);
@@ -130,7 +132,9 @@ class CfgVehicles {
     };
 
     //Dingo
-     class BWA3_Dingo2_base: Car_F {
+    class BWA3_Dingo2_base: Car_F {
+        maximumLoad = 10000; // No weight limit for loaded equipment
+
         class AcreRacks {
             class Rack_1 {
                 displayName = ECSTRING(common,RackA);
@@ -169,7 +173,9 @@ class CfgVehicles {
      };
 
      //Multi
-     class BWA3_Multi_base: Car_F {
+    class BWA3_Multi_base: Car_F {
+        maximumLoad = 10000; // No weight limit for loaded equipment
+
         class AcreRacks {
             class Rack_1 {
                 displayName = ECSTRING(common,RackA);
@@ -211,6 +217,7 @@ class CfgVehicles {
     class Tank_F;
     //Puma
     class BWA3_Puma_base: Tank_F {
+        maximumLoad = 10000; // No weight limit for loaded equipment
 
         acre_hasInfantryPhone = 1;
         acre_infantryPhoneDisableRinging = 1;
@@ -328,6 +335,7 @@ class CfgVehicles {
     };
     //Leopard 2
     class BWA3_Leopard_base: Tank_F {
+        maximumLoad = 10000; // No weight limit for loaded equipment
 
         acre_hasInfantryPhone = 0;
         acre_infantryPhoneDisableRinging = 1;
@@ -389,6 +397,7 @@ class CfgVehicles {
 
     //Pzh2000
     class BWA3_Panzerhaubitze2000_base: Tank_F {
+        maximumLoad = 10000; // No weight limit for loaded equipment
 
         acre_hasInfantryPhone = 0;
         acre_infantryPhoneDisableRinging = 1;
