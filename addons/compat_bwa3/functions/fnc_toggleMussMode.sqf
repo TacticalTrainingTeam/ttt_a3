@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /**
  *  Author: Timi007
- *  Source: PzGrenBtl402 addons/BwMod_Puma/functions/fnc_toggleMussMode.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted, only two modes (jamming, turret rotation)
+ *  Source: PzGrenBtl402 addons/BwMod_Puma/functions/fnc_toggleMussMode.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted to this repository
  *
  *  Description:
  *      Handles the keybind to toggle the Multifunctional Self Protection System (MUSS) mode of the SPz Puma.
@@ -33,7 +33,7 @@ if (
 ) exitWith {false};
 
 private _currentMode = _vehicle getVariable [QGVAR(MussMode), DEFAULT_MUSS_MODE];
-private _newMode = (_currentMode + 1) % 2;
+private _newMode = (_currentMode + 1) % MUSS_MODE_COUNT;
 _vehicle setVariable [QGVAR(MussMode), _newMode, true];
 TRACE_2("MUSS mode",_currentMode,_newMode);
 
@@ -51,12 +51,19 @@ private _rotateTurretText = if (_newMode >= MUSS_MODE_TURRET_ROTATION) then {
     ["  " + LLSTRING(muss_rotateTurret), 1, _disabledColor]
 };
 
+private _smokeText = if (_newMode >= MUSS_MODE_SMOKE) then {
+    ["+ " + LLSTRING(muss_smoke), 1, _activeColor]
+} else {
+    ["  " + LLSTRING(muss_smoke), 1, _disabledColor]
+};
+
 [
     QGVAR(notify),
     [
         [LLSTRING(muss), 1.5],
         _jammingText,
         _rotateTurretText,
+        _smokeText,
         true
     ],
     _notifyUnits

@@ -17,6 +17,10 @@
             <English>Turret Rotation</English>
             <German>Turmausrichtung</German>
         </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_muss_smoke">
+            <English>Smoke</English>
+            <German>Nebel</German>
+        </Key>
         <Key ID="STR_ttt_Compat_Bwa3_rearViewCamera_next">
             <English>Toggle rear view camera / Next camera</English>
             <German>Rückfahrkamera umschalten / Nächste Kamera</German>

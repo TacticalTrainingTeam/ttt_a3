@@ -6,7 +6,7 @@ Enthält diverse Verbesserungen und Fixes für Redd'n'Tank Fahrzeuge. Die Fahrze
 
 | Ort | Inhalt |
 | --- | --- |
-| `functions/` | Sitzlogik (`getSeatData`, `resetSeatState`, `canGetInSeat`, `getInHigher`, `getOutHigher`, `fixGetInBug`, `handleGetIn`, `handleGetOut`), Tarnnetz (`setCamonet`), Marder-Heckklappe und -Luken (`canToggleRamp`, `openRamp`, `closeRamp`, `initRampActions`, `canGetOutHatch`, `getOutHatch`), Wiesel TOW (Sitzwechsel, Nachladen: `canLoadTOW`, `loadTOW`, `handleTOWFired`, `addTOWLoadAction`), MG3-Lafette und M120 |
+| `functions/` | Sitzlogik (`getSeatData`, `resetSeatState`, `canGetInSeat`, `getInHigher`, `getOutHigher`, `fixGetInBug`, `handleGetIn`, `handleGetOut`), Tarnnetz (`setCamonet`), Marder-Heckklappe und -Luken (`canToggleRamp`, `openRamp`, `closeRamp`, `initRampActions`, `canGetOutHatch`, `getOutHatch`), Wiesel TOW (Sitzwechsel, Nachladen: `canLoadTOW`, `loadTOW`, `handleTOWFired`, `addTOWLoadAction`), Marder-Nebelmittelwurfanlage (`handleMarderFired`), MG3-Lafette und M120 |
 | `CfgEventhandlers.hpp` | Init-Events der Fahrzeugbasisklassen (Tarnnetz nur auf dem Server, Heckklappe des Marders, TOW-Nachladen) und das PostInit der Marder-Einstiegsaktionen |
 | `XEH_preInit.sqf` | Zwischenspeicher für die Sitzdaten, Tabelle Fahrzeug -> Tarnnetz-Animationsquellen und die Events zum Sperren des Marders und zum Ändern der TOW-Magazine |
 | `XEH_postInit.sqf` | Einsteigen-Aktionen von Kommandant und Fahrer des Marders (ersetzen die Standardaktionen, solange die Heckklappe geschlossen ist) |

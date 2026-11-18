@@ -5,5 +5,13 @@
             <English>MG5 7.62x51 mm 1000Rnd Belt Case</English>
             <German>MG5 7,62x51mm 1000-Schuss-Gurtkasten</German>
         </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_Weapons_smokeGrenadeAmmoDescription">
+            <English>Caliber: 76 mm RP&lt;br /&gt;Used in: Smoke Launcher of Vehicles</English>
+            <German>Kaliber: 76 mm RP&lt;br /&gt;Eingesetzt von: Nebelmittelwurfanlage</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_Weapons_smokeGrenadeAmmoDisplayName">
+            <English>Smoke Grenades DM55</English>
+            <German>Schnellnebelwurfkörper DM55</German>
+        </Key>
     </Package>
 </Project>

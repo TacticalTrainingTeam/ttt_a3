@@ -40,6 +40,9 @@ class CfgVehicles {
         EGVAR(common,mapActionPosition)[] = {0.0131836, -3.86426, 1.56863};
         EGVAR(common,mapActionOrientation)[] = {{1, -0.00291926, 0.000209961}, {-0.00286234, -0.990424, -0.138032}};
 
+        // Gunner and commander can fire the smoke launcher, the gunner turret holds the weapon
+        EGVAR(smoke_launcher,muzzle) = QGVAR(SmokeLauncher);
+
         class Turrets: Turrets {
             class MainTurret: MainTurret {
                 class Turrets: Turrets {
@@ -51,6 +54,10 @@ class CfgVehicles {
                         disableSoundAttenuation = 0;
                         soundAttenuationTurret = "TankAttenuation";
                         gunnerCompartments = "Compartment1";
+
+                        // Smoke launcher moves from the commander to the gunner
+                        weapons[] = {};
+                        magazines[] = {};
 
                         // BWMod gives the commander only a ViewOptics without OpticsIn, so the swapped
                         // gunnerOpticsModel above has no visible effect. Same zoom steps as the gunner.
@@ -78,14 +85,16 @@ class CfgVehicles {
                 weapons[] = {
                     "BWA3_MK30",
                     "BWA3_MG5_vehicle",
-                    "bwa3_land_spikeLR_atgm"
+                    "bwa3_land_spikeLR_atgm",
+                    QGVAR(SmokeLauncher)
                 };
 
                 magazines[] = {
                     "BWA3_240Rnd_APFSDS_shells",
                     "BWA3_160Rnd_ABM_shells",
                     QGVAR(1000Rnd_762x51),
-                    "bwa3_mells_spikeLR_2rnd_puma"
+                    "bwa3_mells_spikeLR_2rnd_puma",
+                    "BWA3_SmokeLauncherMag"
                 };
 
                 class OpticsIn: BWA3_Optics_Gunner_Puma {

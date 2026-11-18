@@ -160,4 +160,10 @@ class CfgWeapons {
         };
     };
 
+    // Hidden copy of the smoke launcher for the Marder gunner turret, fired by the smoke_launcher addon
+    class Redd_SmokeLauncher;
+    class GVAR(SmokeLauncher): Redd_SmokeLauncher {
+        showToPlayer = 0;
+        magazineReloadTime = 0.1;
+    };
 };

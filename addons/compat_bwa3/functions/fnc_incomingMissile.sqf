@@ -1,10 +1,10 @@
 #include "..\script_component.hpp"
 /**
  *  Author: Timi007
- *  Source: PzGrenBtl402 addons/BwMod_Puma/functions/fnc_incomingMissile.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted, check interval of the missile raised from every frame to 0.1 s, without the smoke step
+ *  Source: PzGrenBtl402 addons/BwMod_Puma/functions/fnc_incomingMissile.sqf (https://github.com/PzGrenBtl-402/PzGrenBtl402), adapted, check interval of the missile raised from every frame to 0.1 s
  *
  *  Description:
- *      Rotates the turret towards the missile to break the lock and plays the missile warning sound louder.
+ *      Rotates the turret towards the missile to break the lock, fires the smoke launcher (depending on the MUSS mode) and plays the missile warning sound louder.
  *
  *  Parameter(s):
  *      0: OBJECT - Target vehicle of the missile (Puma).
@@ -26,6 +26,7 @@
 #define GUNNER_TURRET [0]
 #define AZIMUTH_TOLERANCE 1
 #define TURRET_OVERRIDE_TIMEOUT 4
+#define FIRE_SMOKE_TIMEOUT 5
 
 params ["_vehicle", "_ammo", "_whoFired", "_instigator", "_missile"];
 TRACE_1("Incoming Missile",_this);
@@ -92,6 +93,23 @@ if (crew _vehicle isEqualTo []) exitWith {};
             TRACE_1("Turret aligned - Breaking lock",_vehicle);
             _vehicle lockCameraTo [objNull, GUNNER_TURRET, true];
             _vehicle setVariable [QGVAR(mussTurretOverwrite), false];
+
+            if (
+                (_vehicle getVariable [QGVAR(MussMode), DEFAULT_MUSS_MODE]) < MUSS_MODE_SMOKE ||
+                {!([_vehicle, true] call EFUNC(smoke_launcher,canFireSmoke))}
+            ) exitWith {};
+
+            // Wait for a running reload, but give up if it takes too long
+            [{
+                [_this select 0] call EFUNC(smoke_launcher,canFireSmoke)
+            }, {
+                params ["_vehicle", "_missile"];
+
+                if (!alive _missile) exitWith {};
+
+                TRACE_1("Firing smoke",_vehicle);
+                [_vehicle] call EFUNC(smoke_launcher,fireSmoke);
+            }, _this, FIRE_SMOKE_TIMEOUT] call CBA_fnc_waitUntilAndExecute;
         },
         [_vehicle, _missile],
         TURRET_OVERRIDE_TIMEOUT,

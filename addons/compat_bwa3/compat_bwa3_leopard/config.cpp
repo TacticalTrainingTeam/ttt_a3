@@ -6,7 +6,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ttt_common", "bwa3_leopard2"};
+        requiredAddons[] = {"ttt_common", "ttt_smoke_launcher", "ttt_compat_bwa3_weapons", "bwa3_leopard2"};
         authors[] = {"Andx"};
         VERSION_CONFIG;
         skipWhenMissingDependencies = 1;

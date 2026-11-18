@@ -24,6 +24,7 @@
 - Die Kanone ist ab Spawn auf 800 m eingestellt (`discreteDistanceInitIndex = 6`).
 - Leert die Fahrzeug-Systemanzeigen im HUD.
 - Waffe: `Redd_MK20` mit den Mündungen AP und HE, siehe `compat_rnt`.
+- Richtschütze und Kommandant können die Nebelmittelwurfanlage abfeuern (`ttt_smoke_launcher_muzzle`, Logik im Addon `smoke_launcher`). Die Anlage wandert dafür als ausgeblendete Kopie `ttt_compat_rnt_SmokeLauncher` (`compat_rnt/CfgWeapons.hpp`) vom Kommandanten zum Richtschützen. Den Rauch erzeugt `Redd_fnc_SmokeLauncher`, ausgelöst von `fnc_handleMarderFired` über einen eigenen `FiredBIS`-Handler. Redds `fired`-Handler (`redd_fnc_Marder_Fired`) bleibt unangetastet, weil er auch das leere Milan-Rohr abwirft.
 
 ## Herkunft
 

@@ -8,6 +8,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "ttt_common",
+            "ttt_smoke_launcher",
             "ace_hunterkiller",
             "bwa3_puma"
         };

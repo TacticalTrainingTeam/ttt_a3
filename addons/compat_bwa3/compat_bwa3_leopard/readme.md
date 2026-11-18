@@ -5,6 +5,7 @@ Verbessert die Optiken und Anzeigen des Leopard 2.
 - Die Kommandantenoptik nutzt die Warrior-Optik für ein größeres Sichtfeld (`gunnerOpticsModel`) mit grüner Wärmebilddarstellung (`thermalMode[] = {2, 3}`). Die Nachtsicht bleibt erhalten.
 - Schalter und Lampen der Kommandantenoptik werden im HUD ausgeblendet (`RscInGameUI.hpp`, `ttt_compat_bwa3_RscOpticsCommanderLeopard`).
 - Der Fahrer erhält einen horizontalen Kompass (`driverWeaponsInfoType`, die Klasse liegt in `compat_bwa3/RscInGameUI.hpp`, weil sie auch der Puma nutzt).
+- Richtschütze und Kommandant können die Nebelmittelwurfanlage abfeuern (`ttt_smoke_launcher_muzzle`, Logik im Addon `smoke_launcher`). Die Anlage wandert dafür als ausgeblendete Kopie `ttt_compat_bwa3_SmokeLauncher` (aus `compat_bwa3_weapons`) vom Kommandanten zum Richtschützen.
 
 ## Herkunft
 

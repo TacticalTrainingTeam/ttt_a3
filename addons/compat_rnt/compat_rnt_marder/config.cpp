@@ -7,7 +7,9 @@ class CfgPatches {
         addonRootClass = QUOTE(ADDON);
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "Redd_Marder_1A5"
+            "Redd_Marder_1A5",
+            "ttt_compat_rnt",
+            "ttt_smoke_launcher"
         };
         units[] = {};
         weapons[] = {};

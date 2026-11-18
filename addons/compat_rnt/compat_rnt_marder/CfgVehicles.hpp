@@ -24,6 +24,9 @@ class CfgVehicles {
         ace_vehicles_engineStartDelay = 5;
 
 
+        // Gunner and commander can fire the smoke launcher, the gunner turret holds the weapon
+        EGVAR(smoke_launcher,muzzle) = QEGVAR(compat_rnt,SmokeLauncher);
+
         EGVAR(compat_rnt,commanderTurrets)[] = {{0, 0}, {1}, {2}};
         EGVAR(compat_rnt,commanderTurret)[] = {0, 0};
         EGVAR(compat_rnt,commanderHigherTurret)[] = {2};
@@ -114,11 +117,18 @@ class CfgVehicles {
                 soundAttenuationTurret = "TankAttenuation";
                 gunnerCompartments= "Compartment3";
 
+                // Smoke launcher moves from the commander to the gunner
+                weapons[] += {QEGVAR(compat_rnt,SmokeLauncher)};
+                magazines[] += {"Redd_SmokeLauncherMag"};
+
                 class Turrets: Turrets {
                     class CommanderOptics: CommanderOptics {
                         disableSoundAttenuation = 0;
                         soundAttenuationTurret = "TankAttenuation";
                         gunnerCompartments= "Compartment3";
+
+                        weapons[] = {};
+                        magazines[] = {};
                     };
                 };
 
