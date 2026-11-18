@@ -82,6 +82,8 @@ this setVariable ["ttt_common_showMapAction", false, true];
 
 ## Milan (abgesessen)
 
+Wie der Milan-Trupp die Milan aufbaut, lädt und abbaut, erklärt die Seite [Milan – Bedienung](/de/ttt-a3/kompatibilität/compat-rnt/milan).
+
 - Das Dreibein allein baut eine leere Milan auf. Das Rohr wird danach als Munition geladen.
 - **Milan laden**: Mit dem Rohr als Rucksack direkt an die leere Milan stellen (Halte-Aktion, 10 Sekunden).
 - **Milan entladen**: Ohne Rucksack an die geladene Milan stellen, das Rohr wird zum eigenen Rucksack.
@@ -90,9 +92,13 @@ this setVariable ["ttt_common_showMapAction", false, true];
 
 ## M120 Mörser
 
-ACE-CSW-Unterstützung und Fehlerbehebungen. Der [Mörser](/de/handbuch/kampfunterstützungskräfte/artillerie/moerser) kann direkt nach dem Laden feuern (`allowFireOnLoad`, siehe [ACE CSW](https://ace3.acemod.org/wiki/framework/crew-served-weapons-framework#3-additional-configuration-parameters)).
+Wie die Crew den Mörser bewegt und lädt, erklärt die Seite [M120 Mörser – Bedienung](/de/ttt-a3/kompatibilität/compat-rnt/m120).
+
+ACE-CSW-Unterstützung und Fehlerbehebungen. Der [Mörser](/de/handbuch/kampfunterstützungskräfte/artillerie/moerser) kann direkt nach dem Laden feuern (`allowFireOnLoad`, siehe [ACE CSW](https://ace3.acemod.org/wiki/framework/crew-served-weapons-framework#3-additional-configuration-parameters)). Er lässt sich nicht abbauen, sondern wird über die ACE-Interaktion **Ziehen** bewegt.
 
 ## GraMaWa
+
+Wie die GraMaWa aufgebaut, geladen und verstellt wird, erklärt die Seite [GraMaWa – Bedienung](/de/ttt-a3/kompatibilität/compat-rnt/gramawa).
 
 Stabiler, und die ACE-Aktionen zum seitlichen Drehen und zur Höhenverstellung funktionieren. Benötigt `force ace_csw_defaultAssemblyMode = true;` in den CBA-Einstellungen.
 
