@@ -6,6 +6,7 @@ Verbessert Optiken, Anzeigen und Bedienung des Puma. Die Config liegt in diesem 
 
 - Richtschützen- und Kommandantenoptik nutzen die Warrior-Optik für ein größeres Sichtfeld (`WARRIOR_OPTICS`), die Nachtsicht bleibt erhalten.
 - Der Kommandant hat in BWmod nur eine `ViewOptics` mit stufenlosem Zoom und kein `OpticsIn`; das Tauschen von `gunnerOpticsModel` am Turm allein wirkt dort nicht. Er bekommt deshalb ein `OpticsIn` mit denselben drei Stufen (Wide/Medium/Narrow) wie der Richtschütze, abgeleitet von `BWA3_Optics_Gunner_Puma`.
+- Waffen und Magazine des Richtschützen werden ersetzt: MK30 mit AP/HE-Mündungen, MG5 mit einem 1000-Schuss-Gurtkasten statt zwei 1200er-Gurten und die Spike LR aus `bwa3_mells` (`bwa3_land_spikeLR_atgm`) statt der älteren `BWA3_Spike_LR`. Gurtkasten und Munitionsmengen stehen in `compat_bwa3_weapons`, daher die Abhängigkeit auf `ttt_compat_bwa3_weapons`.
 - Im Eden-Editor ist HE statt ABM als Standardmunition der MK30 vorausgewählt (`Cfg3DEN.hpp`, `Attributes` des Fahrzeugs und `XEH_preInit.sqf` für zur Laufzeit erzeugte Fahrzeuge).
 - Die Motorstartverzögerung beträgt 5 Sekunden, die Sound-Dämpfung nutzt `TankAttenuation`.
 

@@ -93,3 +93,12 @@ Der [Mörser](/de/handbuch/kampfunterstützungskräfte/artillerie/moerser) kann 
 ## Panzerhaubitze 2000 mit ITC
 
 Ist ITC geladen, bekommt die Panzerhaubitze 2000 den ITC-Feuerleitrechner mit Schusstafeln und Munition für die Ladungen 1 bis 5.
+
+## Puma – Waffen
+
+- Die Maschinenkanone hat AP und HE als getrennte Munitionsarten, die über die Waffenauswahl gewechselt werden (kein Mausrad mehr). HE richtet mehr Schaden an. Die Magazine fassen 240 Schuss HE/ABM bzw. 160 Schuss APFSDS.
+- Das MG hat einen 1000-Schuss-Gurtkasten und lädt ohne Verzögerung nach.
+
+## Leuchtkugeln P2A1
+
+Die Leuchtkugeln der P2A1 sind größer, brennen länger (20 Sekunden) und werden früher gezündet, damit sie besser zu sehen sind.

@@ -75,6 +75,19 @@ class CfgVehicles {
                 soundAttenuationTurret = "TankAttenuation";
                 gunnerCompartments = "Compartment1";
 
+                weapons[] = {
+                    "BWA3_MK30",
+                    "BWA3_MG5_vehicle",
+                    "bwa3_land_spikeLR_atgm"
+                };
+
+                magazines[] = {
+                    "BWA3_240Rnd_APFSDS_shells",
+                    "BWA3_160Rnd_ABM_shells",
+                    QGVAR(1000Rnd_762x51),
+                    "bwa3_mells_spikeLR_2rnd_puma"
+                };
+
                 class OpticsIn: BWA3_Optics_Gunner_Puma {
                     class Wide: Wide {
                         WARRIOR_OPTICS(w);
