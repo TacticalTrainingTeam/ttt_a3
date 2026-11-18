@@ -4,6 +4,8 @@ Macht die GraMaWa stabiler.
 
 Fixt ACE-Aktionen um seitlich zu drehen und die Höhe zu verstellen.
 
+Die Optik zeigt keine Richtung in Grad mehr an: Wie die MG3-Lafette nutzt die GraMaWa `ttt_compat_rnt_RSC_MG3` (`CfgRscInGameUI.hpp` in `compat_rnt`) statt `Redd_RSC_MG3`, das nur aus der Richtungsanzeige `CA_Heading` besteht.
+
 Benötigt `force ace_csw_defaultAssemblyMode = true;` in den CBA Settings.
 
 ## ACE CSW
