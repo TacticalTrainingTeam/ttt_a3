@@ -106,9 +106,7 @@ Die GraMaWa wird mit dem Gurt **[CSW] 40mm GMW-Gurt** (32 Schuss) über die ACE-
 
 ## MG3-Lafette
 
-Wie man ein MG3 lafettiert, nachlädt und die Lafette abbaut, erklärt die Seite [MG3-Lafette – Bedienung](/de/ttt-a3/kompatibilität/compat-rnt/mg3-lafette).
-
-Lässt sich auch mit MG3 aus anderen Mods aufbauen (`BWA3_MG3`, `BWA3_MG3_bipod`, `BWA3_MG3_MicroT2_pointer_bipod`) und ist stabiler.
+Lässt sich auch mit MG3 aus anderen Mods aufbauen (`BWA3_MG3`, `BWA3_MG3_bipod`, `BWA3_MG3_MicroT2_pointer_bipod`) und ist stabiler. Ein MG3 zu lafettieren dauert 5 Sekunden, die Lafette abzubauen 10 Sekunden.
 
 ## Wiesel MK20
 
