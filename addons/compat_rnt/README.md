@@ -1,6 +1,6 @@
 # Compat Redd'n'Tank
 
-Enthält diverse Verbesserungen und Fixes für Redd'n'Tank Fahrzeuge. Die Fahrzeuge selbst werden in den Unterordnern (`compat_rnt_<fahrzeug>`) konfiguriert. Funktionen, Events, Einstellungen und Waffen, die von mehreren Fahrzeugen genutzt werden, liegen in diesem Hauptordner.
+Enthält diverse Verbesserungen und Fixes für Redd'n'Tank Fahrzeuge. Die Fahrzeuge selbst werden in den Unterordnern (`compat_rnt_<fahrzeug>`) konfiguriert. Funktionen, Events und Waffen, die von mehreren Fahrzeugen genutzt werden, liegen in diesem Hauptordner.
 
 ## Aufbau
 
