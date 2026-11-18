@@ -76,7 +76,7 @@ Richtschütze und Kommandant können eine Nebelsalve abfeuern. Dafür drücken s
 
 Der Marder führt eine Panzerabwehrwaffe Milan mit, die auf dem Turm aufgebaut wird. Ab dem Spawnen ist sie abgebaut. Im Laderaum liegen ein Dreibein und **vier Rohre** – jedes Rohr ist ein Schuss.
 
-Alle Milan-Aktionen findet man im Aktionsmenü (Mausrad). Sie sind Halte-Aktionen: Die Taste (normalerweise <kbd>Leertaste</kbd>) 10 Sekunden gedrückt halten.
+Alle Milan-Aktionen findet man im Aktionsmenü (Mausrad). Sie sind Halte-Aktionen: Die Taste (normalerweise :block-kbd[Leertaste]{platform="pc"}) 10 Sekunden gedrückt halten.
 
 | Aktion | Wer | Voraussetzung |
 | --- | --- | --- |
