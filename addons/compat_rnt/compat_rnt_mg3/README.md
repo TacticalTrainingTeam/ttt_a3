@@ -10,6 +10,8 @@ Behebt einige Fehler.
 
 Macht MG3-Lafette stabiler.
 
+Lafettieren dauert 5 Sekunden, Abbauen 10 Sekunden (`MG_MOUNT_TIME`, `MG_DISASSEMBLE_TIME` in `compat_rnt/script_component.hpp`).
+
 ## Maintainer
 
 - Andx

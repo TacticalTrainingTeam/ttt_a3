@@ -4,13 +4,9 @@
 #include "\z\ttt\addons\main\script_mod.hpp"
 #include "\z\ttt\addons\main\script_macros.hpp"
 
-//Default settings
-#define MIN_DURATION 1
-#define MAX_DURATION 120
-#define TRAILING_DECIMALS 0
-#define IS_SERVER_SETTINGS 1
+// MG3 tripod (seconds)
 #define MG_MOUNT_TIME 5
-#define DISASSEMBLE_TIME 10
+#define MG_DISASSEMBLE_TIME 10
 
 // Wiesel TOW
 #define WIESEL_TOW_TURRET_PATH [0]
