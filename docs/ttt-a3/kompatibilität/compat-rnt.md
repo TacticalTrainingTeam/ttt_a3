@@ -92,9 +92,9 @@ Wie der Milan-Trupp die Milan aufbaut, lädt und abbaut, erklärt die Seite [Mil
 
 ## M120 Mörser
 
-Wie die Crew den Mörser aufbaut und lädt, erklärt die Seite [M120 Mörser – Bedienung](/de/ttt-a3/kompatibilität/compat-rnt/m120).
+Wie die Crew den Mörser bewegt und lädt, erklärt die Seite [M120 Mörser – Bedienung](/de/ttt-a3/kompatibilität/compat-rnt/m120).
 
-ACE-CSW-Unterstützung und Fehlerbehebungen. Der [Mörser](/de/handbuch/kampfunterstützungskräfte/artillerie/moerser) kann direkt nach dem Laden feuern (`allowFireOnLoad`, siehe [ACE CSW](https://ace3.acemod.org/wiki/framework/crew-served-weapons-framework#3-additional-configuration-parameters)).
+ACE-CSW-Unterstützung und Fehlerbehebungen. Der [Mörser](/de/handbuch/kampfunterstützungskräfte/artillerie/moerser) kann direkt nach dem Laden feuern (`allowFireOnLoad`, siehe [ACE CSW](https://ace3.acemod.org/wiki/framework/crew-served-weapons-framework#3-additional-configuration-parameters)). Er lässt sich nicht abbauen, sondern wird über die ACE-Interaktion **Ziehen** bewegt.
 
 ## GraMaWa
 
