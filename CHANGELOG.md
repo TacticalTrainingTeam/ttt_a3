@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [6.3.1] - 2026-11-18
+
+### Added
+
+* Compat RNT - Add BWMod MG3 belts (120 round belt box and belt pouch, also with tracers) to the MG3 tripod (#699) by Andx667
+* Docs - Add user manuals for MG3 tripod, GMW, Milan and M120 (#696) by Andx667
+
+### Changed
+
+* Compat RNT - Change GMW optic to hide the heading readout (#700) by Andx667
+* Compat RNT - Change MG3 tripod mount and disassemble times to fixed values, the CBA settings are removed (#698) by Andx667
+
+### Fixed
+
+* Compat RNT - Fix M120 calling a non-existent disassembly function (#697) by Andx667
+
 ## [6.3.0] - 2026-11-18
 
 ### Added
