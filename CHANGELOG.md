@@ -24,6 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Compat RNT - Change Wiesel MK20 and Wiesel TOW: turrets are stabilized again, the forced `stabilizedInAxes = 0` is removed (#644) by Andx667
 * Compat RNT - Change Marder config: initial zeroing 800 m (#645) by Andx667
 * Compat RNT - Change Fuchs: turrets are stabilized again, the forced `stabilizedInAxes = 0` is removed (#646) by Andx667
+* Compat BWA3 - Add Leopard commander optics (Warrior FOV, green TI), reduced optics HUD and driver compass (#647) by Andx667
 
 ## [6.2.0] - 2026-11-04
 
