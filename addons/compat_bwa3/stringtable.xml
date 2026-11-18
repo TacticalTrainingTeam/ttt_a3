@@ -1,9 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ttt">
     <Package name="Compat_Bwa3">
+        <Key ID="STR_ttt_Compat_Bwa3_category">
+            <English>BWMod Puma</English>
+            <German>BWMod Puma</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_muss">
+            <English>Multifunctional Self Protection System</English>
+            <German>Multifunktionales Selbstschutz-System</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_muss_jamming">
+            <English>Jamming</English>
+            <German>Stören</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_muss_rotateTurret">
+            <English>Turret Rotation</English>
+            <German>Turmausrichtung</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_rearViewCamera_next">
+            <English>Toggle rear view camera / Next camera</English>
+            <German>Rückfahrkamera umschalten / Nächste Kamera</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_rearViewCamera_previous">
+            <English>Toggle rear view camera / Previous camera</English>
+            <German>Rückfahrkamera umschalten / Vorherige Kamera</German>
+        </Key>
         <Key ID="STR_ttt_Compat_Bwa3_takebackpack">
             <English>Take backpack</English>
             <German>Rucksack nehmen</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_toggleMuss">
+            <English>Toggle MUSS mode</English>
+            <German>MUSS Modus umschalten</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_toggleMuss_description">
+            <English>Switches the mode of the multifunctional self protection system (MUSS).</English>
+            <German>Wechselt den Modus des multifunktionalen Selbstschutz-Systems (MUSS).</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_vehicleNumber_displayName">
+            <English>Symbol: Vehicle number</English>
+            <German>Symbol: Fahrzeugnummer</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_vehicleNumber_none">
+            <English>None</English>
+            <German>Keine</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_vehicleNumber_red_20">
+            <English>2.0 (Red)</English>
+            <German>2.0 (Rot)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_vehicleNumber_red_A">
+            <English>A (Red)</English>
+            <German>A (Rot)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_vehicleNumber_red_A1">
+            <English>A1 (Red)</English>
+            <German>A1 (Rot)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_vehicleNumber_red_A2">
+            <English>A2 (Red)</English>
+            <German>A2 (Rot)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_vehicleNumber_red_A3">
+            <English>A3 (Red)</English>
+            <German>A3 (Rot)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_vehicleNumber_red_B">
+            <English>B (Red)</English>
+            <German>B (Rot)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_vehicleNumber_red_B1">
+            <English>B1 (Red)</English>
+            <German>B1 (Rot)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_vehicleNumber_red_B2">
+            <English>B2 (Red)</English>
+            <German>B2 (Rot)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_vehicleNumber_red_B3">
+            <English>B3 (Red)</English>
+            <German>B3 (Rot)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_vehicleNumber_red_C">
+            <English>C (Red)</English>
+            <German>C (Rot)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_vehicleNumber_red_C1">
+            <English>C1 (Red)</English>
+            <German>C1 (Rot)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_vehicleNumber_red_C2">
+            <English>C2 (Red)</English>
+            <German>C2 (Rot)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_vehicleNumber_red_C3">
+            <English>C3 (Red)</English>
+            <German>C3 (Rot)</German>
+        </Key>
+        <Key ID="STR_ttt_Compat_Bwa3_vehicleNumber_tooltip">
+            <English>Set the callsign or number of the vehicle.</English>
+            <German>Setzt das Rufzeichen oder die Nummer des Fahrzeugs.</German>
         </Key>
     </Package>
 </Project>

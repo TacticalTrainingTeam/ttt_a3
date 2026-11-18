@@ -19,6 +19,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * Compat RNT - Add turn out/in shortcut to Luchs (#646) by Andx667
 * Compat RNT - Add ACE CSW belt, proxy weapon and magazine groups to the GMW (#646) by Andx667
 * Compat BWA3 - Add Leopard commander optics (Warrior FOV, green TI), reduced optics HUD and driver compass (#647) by Andx667
+* Compat BWA3 - Add Puma config: Warrior optics, default HE ammo, reduced optics HUD, driver compass and map action (#648) by Andx667
+* Compat BWA3 - Add Puma MUSS with louder warning and turret rotation, rear view cameras, missile direction on the radar and vehicle numbers (#648) by Andx667
 
 ### Changed
 
