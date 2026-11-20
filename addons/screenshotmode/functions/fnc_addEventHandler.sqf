@@ -53,12 +53,11 @@ private _id = [
                 GVAR(ctabState) = nil;
                 // cTabIfOpen only turns nil once the previous interface has actually
                 // finished closing down - same wait cTab's own fnc_toggleInterface.sqf does
-                [{
-                    if (isNil "cTabIfOpen") then {
-                        [_this select 1] call CBA_fnc_removePerFrameHandler;
-                        (_this select 0) call cTab_fnc_open;
-                    };
-                }, 0, _ctabState] call CBA_fnc_addPerFrameHandler;
+                [
+                    {isNil "cTabIfOpen"},
+                    {_this call cTab_fnc_open},
+                    _ctabState
+                ] call CBA_fnc_waitUntilAndExecute;
             };
         };
 
