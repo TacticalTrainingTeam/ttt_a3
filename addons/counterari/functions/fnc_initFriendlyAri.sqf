@@ -8,9 +8,7 @@
 * module resolves its own paired enemy artillery independently, so several friendly/enemy
 * module pairs can run side by side without interfering with each other.
 *
-* Note: the per-unit counter-battery settings are stored as unit variables rather than kept as
-* private locals captured by the "Fired" event handler, because a deferred/async callback like
-* an event handler cannot reliably read private variables from the script scope that added it.
+* The per-unit registration (settings variable + "Fired" EH) is done by fnc_addFriendlyArtillery.sqf.
 *
 * Arguments:
 * Arma 3 Module Function Parameters
@@ -63,26 +61,7 @@ if (_activated) then {
     private _delay = _logic getVariable [QGVAR(registerFriendlyAriModule_delay), 5];
 
     {
-        _x setVariable [QGVAR(config), [_enemyArtyArray, _radius, _rounds, _decrementing, _delay]];
-
-        private _ehId = _x addEventHandler ["Fired", {
-            params ["_unit", "_weapon", "_muzzle", "_mode", "_ammo", "_magazine"];
-
-            private _config = _unit getVariable [QGVAR(config), []];
-            if (_config isEqualTo []) exitWith {};
-
-            _config params ["_enemyArtyArray", "_radius", "_rounds", "_decrementing", "_delay"];
-
-            [QGVAR(counterFire), [_unit, _magazine, _enemyArtyArray, _radius, _rounds, _decrementing, _delay]] call CBA_fnc_serverEvent;
-        }];
-
-        _x setVariable [QGVAR(firedEHId), _ehId];
-
-        if (isClass (configFile >> "CfgPatches" >> "lambs_danger")) then {   // LAMBS only if loaded and only for ground vehicles
-            _x call lambs_wp_fnc_taskReset;
-        };
-
-        INFO_1("Adding counter-battery EH to friendly artillery %1",_x);
+        [_x, _enemyArtyArray, _radius, _rounds, _decrementing, _delay] call FUNC(addFriendlyArtillery);
     } forEach _artyUnits;
 };
 

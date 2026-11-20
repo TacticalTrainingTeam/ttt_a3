@@ -45,21 +45,46 @@ Attribute des Moduls **Freundl. Artillerie**:
 
 ## Ohne Module
 
-Für Artillerie, die erst während der Mission entsteht, lässt sich das Gegenfeuer per Event anbinden. Die Argumente sind dieselben wie bei [`ttt_counterari_fnc_counterFire`](#tttcounterarifnccounterfire).
+Eigene Geschütze lassen sich auch ohne Modul anmelden, z.B. Artillerie, die erst während der Mission entsteht. Dafür gibt es [`ttt_counterari_fnc_addFriendlyArtillery`](#tttcounterarifncaddfriendlyartillery).
+
+In der Init-Zeile des eigenen Geschützes:
 
 ```sqf
-_geschuetz addEventHandler ["Fired", {
-    ["ttt_counterari_counterFire", [_this select 0, _this select 5, [feindAri_1, feindAri_2], 100, 5, true, 5]] call CBA_fnc_serverEvent;
-}];
+[this, [feindAri_1, feindAri_2], 100, 5, true, 5] call ttt_counterari_fnc_addFriendlyArtillery;
 ```
+
+Für ein Geschütz, das per Skript erstellt wird, muss die Anmeldung auf allen Rechnern laufen, auch bei später beitretenden Spielern. Dafür gibt es das Event `ttt_counterari_addFriendlyArtillery` mit denselben Argumenten:
+
+```sqf
+["ttt_counterari_addFriendlyArtillery", [_geschuetz, [feindAri_1, feindAri_2], 100, 5, true, 5]] call CBA_fnc_globalEventJIP;
+```
+
+> [!WARNING] Veraltet
+>
+> Das Event `ttt_counterari_counterFire` in einem eigenen `Fired`-Eventhandler funktioniert noch, wird aber in einer späteren Version entfernt. Es schickt bei jedem Schuss alle Einstellungen an den Server. Bitte stattdessen `ttt_counterari_fnc_addFriendlyArtillery` verwenden.
 
 # Funktionen
 
-Beide Funktionen laufen nur auf dem Server.
+`ttt_counterari_fnc_addFriendlyArtillery` läuft auf jedem Rechner, alle anderen Funktionen nur auf dem Server.
+
+## `ttt_counterari_fnc_addFriendlyArtillery`
+
+Meldet ein eigenes Geschütz an, damit die angegebenen feindlichen Geschütze bei jedem Artillerieschuss zurückfeuern. Schüsse aus anderen Waffen des Fahrzeugs, z.B. einem MG, lösen kein Gegenfeuer aus. Ein erneuter Aufruf für dasselbe Geschütz ersetzt die alten Einstellungen.
+
+| # | Argument | Typ | Optional | Standard |
+| - | --- | --- | --- | --- |
+| 0 | Eigenes Geschütz | OBJECT | Nein | - |
+| 1 | Feindliche Geschütze | ARRAY | Nein | - |
+| 2 | Radius in Metern | NUMBER | Ja | `100` |
+| 3 | Schüsse pro Geschütz | NUMBER | Ja | `5` |
+| 4 | Radius verkleinern | BOOL | Ja | `true` |
+| 5 | Verzögerung in Sekunden | NUMBER | Ja | `5` |
+
+Rückgabewert: BOOL, `true` wenn das Geschütz angemeldet wurde.
 
 ## `ttt_counterari_fnc_counterFire`
 
-Lässt feindliche Geschütze auf die Position eines eigenen Geschützes feuern. Wird normalerweise über das Event `ttt_counterari_counterFire` aufgerufen (siehe [Ohne Module](#ohne-module)).
+Lässt feindliche Geschütze einmalig auf die Position eines eigenen Geschützes feuern. Für Gegenfeuer bei jedem Schuss ist [`ttt_counterari_fnc_addFriendlyArtillery`](#tttcounterarifncaddfriendlyartillery) gedacht.
 
 | # | Argument | Typ | Optional | Standard |
 | - | --- | --- | --- | --- |

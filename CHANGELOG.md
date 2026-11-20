@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+* Counterari - Add `ttt_counterari_fnc_addFriendlyArtillery` function and `ttt_counterari_addFriendlyArtillery` event to register artillery for counter-battery fire without a module
+
+### Changed
+
+* Counterari - Change fired artillery rounds to send only the unit and magazine to the server, and skip non-artillery weapons before sending (#657)
+* Counterari - Change "enemy artillery still busy" warning to log once per fire mission instead of once per round
+
+### Deprecated
+
+* Counterari - Deprecate the `ttt_counterari_counterFire` event, use `ttt_counterari_fnc_addFriendlyArtillery` instead
+
 ## [6.3.1] - 2026-11-18
 
 ### Added
