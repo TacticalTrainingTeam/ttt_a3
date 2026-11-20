@@ -20,6 +20,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * Counterari - Deprecate the `ttt_counterari_counterFire` event, use `ttt_counterari_fnc_addFriendlyArtillery` instead
 
+### Fixed
+
+* Counterari - Fix no counter-battery fire when a friendly gun becomes local to a player who joined mid-mission
+
 ## [6.3.1] - 2026-11-18
 
 ### Added

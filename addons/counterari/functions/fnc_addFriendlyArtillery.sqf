@@ -62,7 +62,9 @@ private _ehId = _unit addEventHandler ["Fired", {
 
 _unit setVariable [QGVAR(firedEHId), _ehId];
 
-if (isClass (configFile >> "CfgPatches" >> "lambs_danger")) then {   // LAMBS only if loaded and only for ground vehicles
+// LAMBS only if loaded and only for ground vehicles. Only where the piece is local: this function also runs
+// on JIP clients mid-mission, which must not reset the AI of a gun that is already in use.
+if (local _unit && {isClass (configFile >> "CfgPatches" >> "lambs_danger")}) then {
     _unit call lambs_wp_fnc_taskReset;
 };
 
