@@ -26,8 +26,10 @@
 * <BOOL> true if executed
 *
 * Example:
-* this addEventhandler ["fired", {["ttt_counterari_counterFire", [_this select 0,_this select 5,[enemyAri_1,enemyAri_2,enemyAri_3,enemyAri_4],100,selectRandom [3,4,5],true,0]] call CBA_fnc_serverEvent}];
-* Add eventhandler to own artillery in units initline
+* [ownAri_1, "32Rnd_155mm_Mo_shells", [enemyAri_1, enemyAri_2], 100, 4, true, 0] call ttt_counterari_fnc_counterFire;
+*
+* To register artillery for automatic counter-fire on every shot, use ttt_counterari_fnc_addFriendlyArtillery.
+* The ttt_counterari_counterFire event that calls this function with the same arguments is deprecated.
 *
 * Public: Yes
 */
@@ -52,8 +54,15 @@ if (_enemyArtyArray isEqualTo []) exitWith {WARNING_1("No enemy artillery left t
 //magazine whitelist, since every artillery mod (BWA3, CUP, ...) uses its own magazine classnames.
 if !(_magazine in (getArtilleryAmmo [_ownArty])) exitWith {WARNING_2("Magazine %1 fired by %2 is not an artillery magazine, ignoring",_magazine,_ownArty); false};
 
-//This specific enemy group is already resolving an earlier fire mission
-if ({_x getVariable [QGVAR(busy), false]} count _enemyArtyArray > 0) exitWith {WARNING_1("Enemy artillery synced to %1 is still busy with a previous fire mission",_ownArty); false};
+//This specific enemy group is already resolving an earlier fire mission.
+//Every further friendly round lands here until it is done, so only warn once per fire mission instead of once per round.
+if ({_x getVariable [QGVAR(busy), false]} count _enemyArtyArray > 0) exitWith {
+    if ({_x getVariable [QGVAR(busyWarned), false]} count _enemyArtyArray == 0) then {
+        WARNING_1("Enemy artillery synced to %1 is still busy with a previous fire mission, ignoring further rounds until it is done",_ownArty);
+        {_x setVariable [QGVAR(busyWarned), true];} forEach _enemyArtyArray;
+    };
+    false
+};
 
 private _ammo = "";
 //Get enemy ari ammo

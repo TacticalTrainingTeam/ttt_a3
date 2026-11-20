@@ -53,7 +53,10 @@ private _allShots = 0;
 
 if (_allShots == 0) exitWith
 {
-    {_x setVariable [QGVAR(busy), false];} forEach _enemyArtyArray;
+    {
+        _x setVariable [QGVAR(busy), false];
+        _x setVariable [QGVAR(busyWarned), nil];
+    } forEach _enemyArtyArray;
     false
 };
 
@@ -68,7 +71,10 @@ if (_allShots == 0) exitWith
         //reset ammo
         {_x setVehicleAmmo 1;} forEach _enemyArtyArray;
 
-        {_x setVariable [QGVAR(busy), false];} forEach _enemyArtyArray;
+        {
+            _x setVariable [QGVAR(busy), false];
+            _x setVariable [QGVAR(busyWarned), nil];
+        } forEach _enemyArtyArray;
     },
     [_shotsFired,_allShots,_enemyArtyArray]
 ] call CBA_fnc_waitUntilAndExecute;

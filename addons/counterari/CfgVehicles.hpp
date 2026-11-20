@@ -35,7 +35,7 @@ class CfgVehicles {
         icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
         category = "Supports";
         function = QFUNC(initFriendlyAri);
-        isGlobal = 1;
+        isGlobal = 2;                                                                        // persistent: JIP clients also need the Fired EH, since locality can move to them
 
         class Attributes: AttributesBase {
             class GVAR(registerFriendlyAriModule_radius): Edit {
