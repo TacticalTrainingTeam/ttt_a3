@@ -14,6 +14,35 @@ class CfgHints {
         image = QPATHTOEF(common,data\ttt_logo_co.paa);
     };
 
+    class GVAR(pocketcard) {
+        displayName = CSTRING(pocketcard_displayName);
+        category = QGVAR(category);
+
+        class GVAR(pocketcard_radio): GVAR(base) {
+            logicalOrder = 1;
+            displayName = CSTRING(pocketcard_radio_displayName);
+            displayNameShort = CSTRING(pocketcard_radio_displayNameShort);
+            description = CSTRING(pocketcard_radio_description);
+            tip = "<a href='https://wiki.tacticalteam.de/de/handbuch/einsteigertaschenkarte'>Wiki</a>";
+        };
+
+        class GVAR(pocketcard_conduct): GVAR(base) {
+            logicalOrder = 2;
+            displayName = CSTRING(pocketcard_conduct_displayName);
+            displayNameShort = CSTRING(pocketcard_conduct_displayNameShort);
+            description = CSTRING(pocketcard_conduct_description);
+            tip = "<a href='https://wiki.tacticalteam.de/de/handbuch/einsteigertaschenkarte'>Wiki</a>";
+        };
+
+        class GVAR(pocketcard_controls): GVAR(base) {
+            logicalOrder = 3;
+            displayName = CSTRING(pocketcard_controls_displayName);
+            displayNameShort = CSTRING(pocketcard_controls_displayNameShort);
+            description = CSTRING(pocketcard_controls_description);
+            tip = "<a href='https://wiki.tacticalteam.de/de/handbuch/einsteigertaschenkarte'>Wiki</a>";
+        };
+    };
+
     class GVAR(infantry) {
         displayName = CSTRING(infantry_displayName);
         category = QGVAR(category);
