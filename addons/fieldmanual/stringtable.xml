@@ -58,12 +58,12 @@
             <German>Taschenausgabe des TTT Feldhandbuchs.</German>
         </Key>
         <Key ID="STR_ttt_Fieldmanual_handbook_displayName">
-            <English>Pocket Handbook</English>
-            <German>Taschenhandbuch</German>
+            <English>Field Manual</English>
+            <German>Feldhandbuch</German>
         </Key>
         <Key ID="STR_ttt_Fieldmanual_handbook_open">
-            <English>Open Pocket Handbook</English>
-            <German>Taschenhandbuch öffnen</German>
+            <English>Open Field Manual</English>
+            <German>Feldhandbuch öffnen</German>
         </Key>
         <Key ID="STR_ttt_Fieldmanual_hubschrauber_inf_description">
             <English>%3Helicopter Infantry Quick Guide%4 for practical transport, insertion and extraction.&lt;br/&gt;&lt;br/&gt;%2%3Outside the aircraft%4&lt;br/&gt;%11Approach side-loading helicopters from the front, then arc to the side so crew keeps visual contact&lt;br/&gt;%11Keep clear of weapons, rotors and sloped rotor disks; crew instructions override all other assumptions&lt;br/&gt;%11On hot LZs, board fast and ignore normal seat order if speed is required&lt;br/&gt;&lt;br/&gt;%2%3Inside the aircraft%4&lt;br/&gt;%11Keep internal chatter low; if radio is unavoidable, use whisper level&lt;br/&gt;%11Infantry scans for threats, muzzle flashes, obstacles and informs pilot immediately&lt;br/&gt;%11Nr. 2 can join the crew net when needed and reports when all elements are offloaded&lt;br/&gt;&lt;br/&gt;%2%3LZ and information flow%4&lt;br/&gt;%11Clarify %3where%4, %3what%4, %3how%4 and %3who%4 before launch&lt;br/&gt;%11FAC marks primary and alternate LZ and passes 5-Liner / updates to crew&lt;br/&gt;%11Good LZ: early visible, enough space, as level as possible, with cover and few obstacles&lt;br/&gt;%11Pilot may abort at any time if the LZ or approach is unsafe&lt;br/&gt;&lt;br/&gt;%2%3Touchdown, fast-rope, lift-off%4&lt;br/&gt;%11After %3Touchdown%4, control of infantry returns to troop leader for dismount orders&lt;br/&gt;%11Fast-rope: prepare system and lower ropes via ACE; rope out only on command; last man reports ground reached&lt;br/&gt;%11After task completion or full accountability, pilot lifts off and leaves the LZ&lt;br/&gt;&lt;br/&gt;%2Golden rule: %3Safe approach, short ground time, clear crew-FAC-infantry handover%4.</English>
