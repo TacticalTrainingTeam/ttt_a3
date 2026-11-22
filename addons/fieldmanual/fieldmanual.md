@@ -128,6 +128,44 @@ This file mirrors the field manual hint content in plain Markdown format.
 
 **Golden rule:** **Slow search, clear comms, strict marking, no shortcuts.**
 
+## Electronic Warfare
+
+### Electronic Warfare Quick Guide
+
+- **Mission**
+  - Detect and analyze signals, disrupt the enemy in the EM spectrum, protect own use of it
+  - Advise the commander on enemy EW capabilities, resulting risks and countermeasures
+- **ESM - Detect and analyze**
+  - Analyze all detectable signals in real time and record them for later analysis
+  - Attribute signals to a system: radio, jammer or radar
+  - Triangulate the source: measure signal strength from several positions and map the bearings
+  - Always cross-check results with other sources (recon, intelligence)
+  - Listening in with a captured enemy radio is also ESM
+- **ECM - Jam and deceive**
+  - **Jamming**: high-power signals without useful data degrade the target system
+  - **Spoofing**: forged data creates a false picture for the enemy
+  - Targets: unmanned systems, navigation, radar, radio-triggered IEDs, radios, Blue Force Tracker
+  - Weigh every use: it can restrict own forces and make you easier to detect
+  - Playing music or idle chatter on an enemy frequency is also ECM
+- **ECCM - Protect**
+  - Reduce own EM signature: strict radio discipline, lead by voice, avoid jammers and radar when possible
+  - Technical hardening: frequency hopping against jamming, encryption against spoofing
+  - Not transmitting is also ECCM
+- **Spectrum Device (Crow's EW)**
+  - **Military** antenna: 30-513 MHz, recon and listening on radio frequencies, includes drone control signals
+  - **Experimental** antenna: 520-1090 MHz, signals and trackers
+  - **Jamming** antenna: 433-445 MHz, detect and jam drones
+  - **Mouse wheel** operates the device, **Ctrl + wheel** zooms, **Shift + wheel** moves the spectrum when zoomed
+  - **Space** draws a bearing line on your map (requires a vanilla GPS in the GPS slot)
+- **Jammers and special effects**
+  - Broadband jammers show a peak sweeping repeatedly from the low to the high end of the spectrum
+  - Inside the **effective radius** affected devices are useless, in the **falloff radius** the effect fades with distance
+  - Jammers affect radios and drones; drones show video artifacts up to loss of connection
+  - **SATCOM**: radios within the module's radius cannot be jammed
+  - **EMP**: destroys all electronic devices in its radius and removes them from inventory
+
+**Golden rule:** **Every emission is also a signal to the enemy.**
+
 ## Logistics
 
 ### Logistics Quick Guide

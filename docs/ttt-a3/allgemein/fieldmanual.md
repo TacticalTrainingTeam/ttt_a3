@@ -27,5 +27,5 @@ Im Pausenmenü **Feldhandbuch** öffnen und die Kategorie **TTT Feldhandbuch** w
 
 - Infanterie: [Erste Hilfe](/de/handbuch/infanterie/gefechtstechniken-einzel/erstehilfe), [Luftbewegliche Infanterie](/de/handbuch/infanterie/luftbewegliche-infanterie), Fallschirmjäger
 - Panzertruppe
-- Kampfunterstützung: Fliegerleittrupp (Luftnahunterstützung), [Forward Observer](/de/handbuch/kampfunterstützungskräfte/fo) (Steilfeuer), [Pioniere](/de/handbuch/kampfunterstützungskräfte/pioniere) (Minenräumen / [EOD](/de/handbuch/kampfunterstützungskräfte/pioniere/kampfmittelbeseitigung)), [Scharfschützen](/de/handbuch/kampfunterstützungskräfte/scharfschützen) (Aufklärung / Präzisionsfeuer)
+- Kampfunterstützung: Fliegerleittrupp (Luftnahunterstützung), [Forward Observer](/de/handbuch/kampfunterstützungskräfte/fo) (Steilfeuer), [Pioniere](/de/handbuch/kampfunterstützungskräfte/pioniere) (Minenräumen / [EOD](/de/handbuch/kampfunterstützungskräfte/pioniere/kampfmittelbeseitigung)), [Scharfschützen](/de/handbuch/kampfunterstützungskräfte/scharfschützen) (Aufklärung / Präzisionsfeuer), [Elektronische Kampfführung](/de/handbuch/kampfunterstützungskräfte/elektronische-kampfführung)
 - [Logistik](/de/handbuch/nachschubkräfte/logistik)
