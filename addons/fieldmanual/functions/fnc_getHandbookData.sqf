@@ -1,0 +1,43 @@
+#include "..\script_component.hpp"
+/*
+ * Author: Andx
+ * Collects the localized TTT field manual entries from CfgHints for the handbook page.
+ *
+ * Arguments:
+ * None
+ *
+ * Return Value:
+ * Handbook title, close label and chapters with their topics <HASHMAP>
+ *
+ * Example:
+ * call ttt_fieldmanual_fnc_getHandbookData
+ *
+ * Public: No
+ */
+
+private _categoryCondition = format ["getText (_x >> 'category') == '%1'", QGVAR(category)];
+private _chapters = [];
+
+{
+    private _topics = "isText (_x >> 'description')" configClasses _x;
+    if (_topics isEqualTo []) then { continue };
+
+    _topics = [_topics, [], {getNumber (_x >> "logicalOrder")}] call BIS_fnc_sortBy;
+
+    _chapters pushBack createHashMapFromArray [
+        ["title", getText (_x >> "displayName")],
+        ["topics", _topics apply {
+            createHashMapFromArray [
+                ["title", getText (_x >> "displayName")],
+                ["motto", getText (_x >> "displayNameShort")],
+                ["description", getText (_x >> "description")]
+            ]
+        }]
+    ];
+} forEach (_categoryCondition configClasses (configFile >> "CfgHints"));
+
+createHashMapFromArray [
+    ["title", getText (configFile >> "CfgHintCategories" >> QGVAR(category) >> "displayName")],
+    ["closeLabel", LLSTRING(handbook_close)],
+    ["chapters", _chapters]
+]
