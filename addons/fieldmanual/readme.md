@@ -13,7 +13,7 @@ Das Item `ttt_fieldmanual_handbook` öffnet über die ACE-Selbstinteraktion den 
 - **Base64 für die Daten:** `ExecJS` liest sein Skript als Latin-1, Umlaute würden sonst zerstört.
 - **Hint-Markup:** Die Seite wandelt `%2`, `%3`, `%4`, `%11`, `<br/>` und `<t color>` in DOM-Knoten um und interpretiert Config-Text nie als HTML. Links aus `tip` werden noch nicht übernommen.
 - **Farben auf Papier:** `<t color>` wird als farbige Unterstreichung dargestellt, weil die für dunkle Hints gewählten Farben als Text auf Papier schlecht lesbar sind.
-- **Icon:** `data/handbook/` enthält das Icon „book“ (filled) aus [Tabler Icons](https://github.com/tabler/tabler-icons), eingefärbt und nach PAA konvertiert. Für diesen Ordner gilt die dort liegende MIT-`LICENSE`.
+- **Icon:** `data/handbook/` enthält das Icon „book“ (filled) aus [Tabler Icons](https://github.com/tabler/tabler-icons), eingefärbt, auf der rechten Seite um das TTT-Logo ergänzt und nach PAA konvertiert. `handbook.svg` ist das Icon ohne Logo. Für das Tabler-Icon gilt die dort liegende MIT-`LICENSE`, das TTT-Logo fällt nicht darunter.
 - **Wasserzeichen:** Das TTT-Logo auf der rechten Seite ist aus `common/data/TTT_Subdued_512x512.paa` abgeleitet und als Data-URI in `handbook.html` eingebettet, weil die Seite keine PAA anzeigen kann und `*.png` nicht in die PBO gepackt wird.
 
 ## Abhängigkeiten
