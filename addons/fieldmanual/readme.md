@@ -4,6 +4,23 @@
 
 <https://community.bistudio.com/wiki/Arma_3:_Advanced_Hints_(Field_Manual)>
 
+## Taschenhandbuch (Prototyp)
+
+Das Item `ttt_fieldmanual_handbook` öffnet über die ACE-Selbstinteraktion den Dialog `ttt_fieldmanual_handbookDisplay` mit einem `CT_WEBBROWSER`-Control, das `ui/handbook.html` lädt.
+
+- **Keine doppelten Inhalte:** Die Seite enthält keinen Handbuchtext. `fnc_getHandbookData` liest die lokalisierten Einträge zur Laufzeit aus `CfgHints`, neue Hints erscheinen also automatisch.
+- **Ablauf:** Die Seite meldet per `A3API.SendAlert` `ttt_handbook:ready`, der `JSDialog`-Handler schickt die Daten per `ExecJS` zurück.
+- **Base64 für die Daten:** `ExecJS` liest sein Skript als Latin-1, Umlaute würden sonst zerstört.
+- **Hint-Markup:** Die Seite wandelt `%2`, `%3`, `%4`, `%11`, `<br/>` und `<t color>` in DOM-Knoten um und interpretiert Config-Text nie als HTML. Links aus `tip` werden noch nicht übernommen.
+- **Farben auf Papier:** `<t color>` wird als farbige Unterstreichung dargestellt, weil die für dunkle Hints gewählten Farben als Text auf Papier schlecht lesbar sind.
+- **Icon:** `data/handbook/` enthält das Icon „book“ (filled) aus [Tabler Icons](https://github.com/tabler/tabler-icons), eingefärbt und nach PAA konvertiert. Für diesen Ordner gilt die dort liegende MIT-`LICENSE`.
+- **Wasserzeichen:** Das TTT-Logo auf der rechten Seite ist aus `common/data/TTT_Subdued_512x512.paa` abgeleitet und als Data-URI in `handbook.html` eingebettet, weil die Seite keine PAA anzeigen kann und `*.png` nicht in die PBO gepackt wird.
+
+## Abhängigkeiten
+
+- `ace_interaction`
+- `cba_common`
+
 ## Bekannte Stolperfallen
 
 `description` und `tip` in `CfgHints` werden von der Engine per SQF `format` verarbeitet (`fn_advHintFormat.sqf`). Das hat zwei Konsequenzen:

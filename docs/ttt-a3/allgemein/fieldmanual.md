@@ -29,3 +29,7 @@ Im Pausenmenü **Feldhandbuch** öffnen und die Kategorie **TTT Feldhandbuch** w
 - Panzertruppe
 - Kampfunterstützung: Fliegerleittrupp (Luftnahunterstützung), [Forward Observer](/de/handbuch/kampfunterstützungskräfte/fo) (Steilfeuer), [Pioniere](/de/handbuch/kampfunterstützungskräfte/pioniere) (Minenräumen / [EOD](/de/handbuch/kampfunterstützungskräfte/pioniere/kampfmittelbeseitigung)), [Scharfschützen](/de/handbuch/kampfunterstützungskräfte/scharfschützen) (Aufklärung / Präzisionsfeuer)
 - [Logistik](/de/handbuch/nachschubkräfte/logistik)
+
+## Taschenhandbuch
+
+Das Item **Taschenhandbuch** aus dem Arsenal zeigt dieselben Einträge in einem eigenen Fenster. Wer es im Inventar trägt, öffnet es über die Selbstinteraktion unter **Ausrüstung** → **Taschenhandbuch öffnen**. Geschlossen wird es mit **Esc** oder der Schaltfläche **Schließen**.
