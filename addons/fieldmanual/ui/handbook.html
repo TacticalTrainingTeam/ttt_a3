@@ -154,6 +154,7 @@ article strong { font-weight: bold; }
     // Must match the HANDBOOK_MESSAGE_* defines in script_component.hpp
     var MESSAGE_READY = "ttt_handbook:ready";
     var MESSAGE_CLOSE = "ttt_handbook:close";
+    var MESSAGE_PAGE = "ttt_handbook:page:";
     var INLINE_TOKENS = /%3|%4|<t color='(#[0-9a-fA-F]{6})'>|<\/t>/g;
     var HEADING_LINE = /^%3((?:(?!%[34]).)*)%4$/;
 
@@ -261,7 +262,10 @@ article strong { font-weight: bold; }
         button.appendChild(element("span", topic.title, "name"));
         button.appendChild(element("span", undefined, "leader"));
         button.appendChild(element("span", String(number), "number"));
-        button.addEventListener("click", function () { showTopic(topic, button, number); });
+        button.addEventListener("click", function () {
+            showTopic(topic, button, number);
+            send(MESSAGE_PAGE + topic.id);
+        });
         return button;
     }
 
@@ -272,16 +276,24 @@ article strong { font-weight: bold; }
 
         var number = 0;
         var first = null;
+        var last = null;
         data.chapters.forEach(function (chapter) {
             nav.appendChild(element("h2", chapter.title));
             chapter.topics.forEach(function (topic) {
                 number += 1;
                 var button = contentsEntry(topic, number);
                 nav.appendChild(button);
-                first = first || { topic: topic, button: button };
+                var entry = { topic: topic, button: button, number: number };
+                first = first || entry;
+                if (topic.id === data.lastTopic) { last = entry; }
             });
         });
-        if (first) { showTopic(first.topic, first.button, 1); }
+        // A remembered topic can be gone after a mod update
+        var start = last || first;
+        if (start) {
+            showTopic(start.topic, start.button, start.number);
+            start.button.scrollIntoView({ block: "nearest" });
+        }
     }
 
     window.tttHandbook = {

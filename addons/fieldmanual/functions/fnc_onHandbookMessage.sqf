@@ -18,6 +18,12 @@
 
 params [["_control", controlNull, [controlNull]], ["_message", "", [""]]];
 
+// The page message carries the topic after its prefix, so it cannot be a switch case
+if (_message find HANDBOOK_MESSAGE_PAGE == 0) exitWith {
+    // uiNamespace keeps the page across missions until the game is closed
+    uiNamespace setVariable [QGVAR(handbookLastTopic), _message select [count HANDBOOK_MESSAGE_PAGE]];
+};
+
 switch (_message) do {
     case HANDBOOK_MESSAGE_READY: {
         // ExecJS reads its script as Latin-1, so umlauts only survive inside Base64
