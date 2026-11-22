@@ -56,13 +56,13 @@ This file mirrors the field manual hint content in plain Markdown format.
   - (4) Never leave the wounded alone
   - (5) Give a clear handover, otherwise stay
   - (6) Follow the medic's instructions
-- **Treatment**
-  - (1) Protect yourself first
-  - (2) Apply tourniquets to injured limbs
-  - (3) Treat head and torso injuries
-  - (4) Treat limb injuries
-  - (5) Remove tourniquets from limbs
-  - (6) Perform CPR (uninterrupted from now on)
+- **Treatment (MARCH)**
+  - Protect yourself first
+  - **M** - Massive bleeding: tourniquets on arms and legs, bandage head and torso
+  - **A** - Airway: check it. Obstructed: overextend the head and stay with the patient. Occluded: turn the head until the occlusion is cleared
+  - **R** - Respiration: chest seal on a deep, penetrating chest wound
+  - **C** - Circulation: check pulse. No pulse: CPR. Pulse but unconscious: wake the patient (slap), otherwise recovery position
+  - **H** - Other: give painkillers, watch the patient, call a medic and hand over
 - **AAR (After Action Report)**
   - Max. 30 seconds: squad + position
   - End with a positive point
