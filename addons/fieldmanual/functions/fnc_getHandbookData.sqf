@@ -7,7 +7,7 @@
  * None
  *
  * Return Value:
- * Handbook title, close label and chapters with their topics <HASHMAP>
+ * Handbook title, close label, last opened topic and chapters with their topics <HASHMAP>
  *
  * Example:
  * call ttt_fieldmanual_fnc_getHandbookData
@@ -28,6 +28,7 @@ private _chapters = [];
         ["title", getText (_x >> "displayName")],
         ["topics", _topics apply {
             createHashMapFromArray [
+                ["id", configName _x],
                 ["title", getText (_x >> "displayName")],
                 ["motto", getText (_x >> "displayNameShort")],
                 ["description", getText (_x >> "description")]
@@ -39,5 +40,6 @@ private _chapters = [];
 createHashMapFromArray [
     ["title", getText (configFile >> "CfgHintCategories" >> QGVAR(category) >> "displayName")],
     ["closeLabel", LLSTRING(handbook_close)],
+    ["lastTopic", uiNamespace getVariable [QGVAR(handbookLastTopic), ""]],
     ["chapters", _chapters]
 ]
