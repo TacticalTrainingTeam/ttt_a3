@@ -162,69 +162,71 @@ This file mirrors the field manual hint content in plain Markdown format.
 
 ## Medic
 
-### Medic Quick Guide
+### Medic Cheat Sheet
 
-- **Role and equipment**
-  - **Self-protection first**, use the medical menu for a full overview of the patient
-  - Beyond first aid: airway tubes, suction, needle decompression, IV/IO access, infusions, autoinjectors, suturing
-  - Carries suture kit, larynx tube, IV cannulas, NCD kit, pocket BVM, saline, epinephrine, morphine, adenosine, Penthrox, naloxone
-- **Treatment by MARCH**
-  - **M** Massive bleeding: tourniquet on arms and legs, bandage head and torso. Down for over 10 minutes: check for death first
-  - **A** Airway: obstructed, overextend the head. Occluded, suction or turn the head. Clear, secure with larynx or Guedel tube
-  - **R** Respiration: pulse oximeter if available, inspect chest and check breathing
-  - Pneumothorax: chest seal, then needle decompression if it persists. Tension pneumothorax: decompress immediately
-  - No breathing and SpO2 below 85 percent: ventilate with BVM
-  - **C** Circulation: check pulse, connect AED if available, place IV. Fatal blood loss: give fluids immediately
-  - **H** Other: suture wounds, give KAT Bravo patients 1.5 to 2 l of fluid, treat pain, remove tourniquets, hand over
-- **Cardiac arrest**
-  - Without AED: CPR and epinephrine every 2 minutes until the pulse returns
-  - With AED: nobody touches the patient, attach pads on the chest, analyze the rhythm
-  - **Shock advised**: wait for the charge signal, then shock. At most one medication before each shock
-  - **No shock advised**: CPR, epinephrine, check pulse every 2 minutes
-  - Below 3.6 l of blood the patient stays in arrest despite successful CPR
-- **Medication**
-  - Pain: Penthrox on the head (max 4), morphine only when really needed (max 4). Naloxone reverses morphine and fentanyl
-  - Epinephrine raises heart rate and blood pressure, adenosine lowers them (each max 6)
-  - Medication and infusions have no effect on a limb with a tourniquet
+- **Where does it go?**
+  - **Arms/legs**: pulse, blood pressure, autoinjectors, IV
+  - **Torso**: CPR, AED pads, chest seal, decompression, IO
+  - **Head**: airway, tablets, Penthrox
+  - Limb with a **tourniquet**: medication and infusions do nothing
+- **Values**
+  - **Pulse**: normal 60-100, unstable below 40, arrest below 20 or above 220
+  - **Blood pressure**: normal 100-140 systolic, unstable below 60/50
+  - **SpO2**: normal from 90, unstable below 85, unconscious below 75, death at 65 (not in Simple)
+  - **"Fatal amount of blood lost"**: give fluids immediately
+  - Before waking: at least back to "lost some blood"
+- **Easy to forget**
+  - Down for over 10 minutes: **check for death first**
+  - **Take tourniquets off** once bandaged, 10 minutes at most
+  - **Suture early**: elastic bandages can reopen after 1-5 minutes
+  - Tube only on a clear airway. Larynx tube stops obstruction and occlusion, Guedel only obstruction
+  - Overextending the head: **stay close** to the patient
+  - **Recovery position** blocks tubes, suction, chest seal, AED and CPR, and ends when carried, dragged or loaded
+  - Saline replaces volume only, **no clotting factors**
+- **No pulse**
+  - **Fix the cause first**: bleeding, airway, chest. Below 3.6 l of blood the pulse will not return
+  - CPR makes the death timer run at half speed
+  - During AED analysis: **hands off**, no CPR, no ventilation
+  - At most **one medication** before each shock
+  - No shock advised or no AED: CPR, epinephrine, check pulse every 2 minutes
+- **Max doses**
+  - Tablets 6, Penthrox 4, morphine 4
+  - Epinephrine 6, epinephrine IV 4, adenosine 6, lidocaine 2
+  - Overdose on morphine or fentanyl: **naloxone**
 - **Handover**
-  - Who, KAT category, what happened, how long unconscious, treatments so far (tourniquets, access, medication)
-
-**Golden rule:** **Always treat bleeding, airway and chest first.**
+  - Who, KAT, what happened, how long unconscious, tourniquets, access, medication
 
 ## Doctor
 
-### Doctor Quick Guide
+### Doctor Cheat Sheet
 
-- **Role and equipment**
-  - May do everything a medic can, plus amiodarone, atropine, TXA, EACA, nitroglycerin, norepinephrine, phenylephrine and the PAK
-  - Carries blood, BVM, oxygen tank, AAT kit, manual suction pump and a 250 ml saline for flushing
-  - High-tech if the scenario allows: AED-X, Accuvac, FAST IO, amiodarone, atropine
-- **Treatment by MARCH**
-  - **M** Massive bleeding: as in first aid. With many wounds or little material give **TXA** and **EACA**
-  - **A** Airway: occluded, Accuvac or manual pump. Clear, larynx tube
-  - **R** Respiration: pulse oximeter or AED-X, decompress with NCD or AAT kit, ventilate with BVM and **oxygen**
-  - Hemothorax: chest seal, then drain with the **AAT kit**
-  - **C** Circulation: AED-X, IV or **IO** access, give blood. Nitroglycerin speeds up transfusion, only once all bleeding is stopped
-  - **H** Other: suture, give KAT Bravo patients 1.5 to 2 l of blood, treat pain with ketamine or fentanyl, finish with a PAK if needed
-- **Clotting: TXA and EACA**
-  - **TXA** bandages an open wound every 5 seconds (max 3), **EACA** sutures a bandaged wound every 8 seconds (max 10)
-  - Both work for up to 5 minutes on the whole body except limbs with a tourniquet
-  - Through an IV they can block the access (20 percent chance, not with FAST IO) and held-back medication stays without effect
-  - To clear it: run a saline infusion with at least 30 ml, then perform the **saline flush** on that limb
-- **Cardiac arrest**
-  - **VT** and **VF** are shockable: shock and CPR, support with epinephrine or amiodarone
-  - **PEA** and **asystole** are not shockable: CPR and epinephrine
-  - The AED-X can also charge manually and monitors pulse, blood pressure, SpO2 and ECG
-- **Doctor medication**
-  - Pain (IV): ketamine, strong, raises heart rate and blood pressure (max 2). Fentanyl, very strong, lowers both (max 1)
-  - Amiodarone improves shock chance but can cause bradycardia, atropine treats bradycardia (each max 4)
-  - Norepinephrine raises heart rate and blood pressure (max 12), phenylephrine lowers heart rate and raises blood pressure (max 6)
-- **Casualty chain**
-  - Mark the **MRZ** in white with a flag on the map and set it to inactive when leaving
-  - In a **MASCAL**, triage strictly so time and material go to patients who can survive
-  - **TTT PAK** is meant for MedEvac: keep critical patients alive until base and fully heal them there
-
-**Golden rule:** **Triage decides where time and material save lives.**
+- **TXA and EACA**
+  - **TXA** bandages one open wound every 5 s, **EACA** sutures one bandaged wound every 8 s
+  - Both last up to 5 minutes, but not on limbs with a tourniquet
+- **Blocked IV**
+  - TXA or EACA through an IV blocks it in **one of five** cases (never with FAST IO)
+  - Medication given through a blocked IV only works after flushing
+  - Fix: saline running with **at least 30 ml**, then **saline flush** on that limb
+  - That is why the doctor also carries 250 ml saline
+- **Reading the chest**
+  - Uneven rise and fall: **pneumothorax**, chest seal, then decompress if it persists
+  - **Tension pneumothorax**: decompress immediately
+  - Skin rigid and bruised: **hemothorax**, chest seal, then drain with AAT kit
+- **Heart rhythm**
+  - **VT, VF**: shock and CPR, epinephrine or amiodarone
+  - **PEA, asystole**: no shock, CPR and epinephrine
+  - Fatal blood loss jumps straight to asystole
+- **Doses and side effects**
+  - TXA 3, EACA 10, ketamine 2, fentanyl 1
+  - Amiodarone 4, atropine 4, norepinephrine 12, phenylephrine 6, nitroglycerin 6
+  - **Ketamine** raises heart rate and blood pressure, **fentanyl** lowers both
+  - **Amiodarone** can cause bradycardia, **atropine** treats it
+  - **Nitroglycerin** speeds up transfusion and bleeding: only once all bleeding has stopped
+- **Easy to forget**
+  - Prefer **blood**: unlike saline it refills clotting factors
+  - Medical vehicles and facilities supply **unlimited oxygen** and refill tanks
+  - **TTT PAK** also works on unconscious patients, the normal ACE PAK needs a stable, awake patient
+  - Mark the **MRZ** white with a flag, set it to inactive when leaving
 
 ## Air Mobile Infantry
 
