@@ -83,6 +83,14 @@ class CfgHints {
             description = CSTRING(pioniere_demin_description);
             tip = "<a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%%C3%%BCtzungskr%%C3%%A4fte/Pioniere'>Pioniere</a> | <a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%%C3%%BCtzungskr%%C3%%A4fte/Pioniere/Kampfmittelbeseitigung'>EOD</a> | <a href='https://wiki.tacticalteam.de/de/Handbuch/Kampfunterst%%C3%%BCtzungskr%%C3%%A4fte/Pioniere/Minensperre-%%C3%%B6ffnen'>Minensperre</a>";
         };
+
+        class GVAR(eloka): GVAR(base) {
+            logicalOrder = 5;
+            displayName = CSTRING(eloka_displayName);
+            displayNameShort = CSTRING(eloka_displayNameShort);
+            description = CSTRING(eloka_description);
+            tip = "<a href='https://wiki.tacticalteam.de/de/handbuch/kampfunterst%%C3%%BCtzungskr%%C3%%A4fte/elektronische-kampff%%C3%%BChrung'>Wiki</a>";
+        };
     };
 
     class GVAR(logistics) {
