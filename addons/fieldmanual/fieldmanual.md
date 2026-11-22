@@ -143,7 +143,7 @@ This file mirrors the field manual hint content in plain Markdown format.
   - Listening in with a captured enemy radio is also ESM
 - **ECM - Jam and deceive**
   - **Jamming**: high-power signals without useful data degrade the target system
-  - Targets: unmanned systems, navigation, radio-triggered IEDs, radios
+  - Targets: unmanned systems, radio-triggered IEDs, radios
   - Weigh every use: it can restrict own forces and make you easier to detect
   - Playing music or idle chatter on an enemy frequency is also ECM
 - **ECCM - Protect**
