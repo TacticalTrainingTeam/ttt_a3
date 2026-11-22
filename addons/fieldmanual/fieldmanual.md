@@ -49,24 +49,7 @@ This file mirrors the field manual hint content in plain Markdown format.
   - **RED**: hold fire
   - **YELLOW**: fire only when fired upon
   - **GREEN**: fire at will
-- **Principles**
-  - (1) Protect yourself first
-  - (2) Report by radio immediately
-  - (3) Rescue and treat your buddy
-  - (4) Never leave the wounded alone
-  - (5) Give a clear handover, otherwise stay
-  - (6) Follow the medic's instructions
-- **Treatment (MARCH)**
-  - Protect yourself first
-  - **M** - Massive bleeding: tourniquets on arms and legs, bandage head and torso
-  - **A** - Airway: check it. Obstructed: overextend the head and stay with the patient. Occluded: turn the head until the occlusion is cleared
-  - **R** - Respiration: chest seal on a deep, penetrating chest wound
-  - **C** - Circulation: check pulse. No pulse: CPR. Pulse but unconscious: wake the patient (slap), otherwise recovery position
-  - **H** - Other: give painkillers, watch the patient, call a medic and hand over
-- **AAR (After Action Report)**
-  - Max. 30 seconds: squad + position
-  - End with a positive point
-  - Use the written AAR for details
+
 
 ## Pocket Card - Controls
 
