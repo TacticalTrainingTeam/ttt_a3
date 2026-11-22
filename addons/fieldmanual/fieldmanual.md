@@ -2,6 +2,107 @@
 
 This file mirrors the field manual hint content in plain Markdown format.
 
+## Basics - Radio
+
+- **Basics**
+  - (1) Think, press, talk
+  - (2) Skip courtesy phrases
+  - (3) Do not talk too fast
+  - (4) Speak clearly
+  - Whoever starts a conversation also ends it
+  - Check in and out on other units' frequencies
+  - Wait for ongoing conversations to finish, then transmit
+  - Keep radio traffic **as short as possible, but as complete as necessary**
+- **Call**
+  - (1) Callsign
+  - (2) "for"
+  - (3) Own callsign
+  - (4) Message, if any
+  - (5) "over"
+- **Answer**
+  - (1) Callsign
+  - (2) Message, if any
+  - (3) "listening" / "over"
+- **End of call**
+  - (1) Callsign
+  - (2) "out"
+- **Unclear or question**
+  - Unclear: "Say again..."
+  - Question: "Question..."
+- **Contact report**
+  - Contact | Direction | Type + number (IFV, MBT, infantry, etc.)
+  - Distance | Status (hot/cold) | Additional information
+- **Phonetic alphabet**
+  - Alpha, Bravo, Charlie, Delta, Echo, Foxtrot
+  - Golf, Hotel, India, Juliett, Kilo, Lima
+  - Mike, November, Oscar, Papa, Quebec, Romeo
+  - Sierra, Tango, Uniform, Victor, Whiskey
+  - X-Ray, Yankee, Zulu
+
+## Basics - Conduct
+
+- **Always know about yourself and your buddy**
+  - Position
+  - Status (health, ammunition)
+  - Viewing / security direction
+- **Rules of engagement**
+  - **RED**: hold fire
+  - **YELLOW**: fire only when fired upon
+  - **GREEN**: fire at will
+
+
+## Basics - Controls
+
+- **Infantry movement**
+  - Move: **W/A/S/D**
+  - Walk / run: **W+S**
+  - Sprint: **Shift**
+  - Combat pace: **2x C**
+  - Adjust stance: **Ctrl+W/S/A/D**
+  - Crouch / stand: **X**
+  - Prone / stand: **Y**
+  - Swim up: **X**
+  - Swim down: **Y**
+  - Lean left/right: **Q/E** (2x to toggle)
+  - Step over: **V**
+- **Weapon handling**
+  - Reload: **R**
+  - Primary weapon: **1**
+  - Handgun: **2**
+  - Secondary weapon: **3**
+  - Switch to 2nd primary weapon: **4**
+  - Sight mode: **Ctrl+right mouse button**
+  - Deploy weapon: **C**
+  - Raise / lower weapon: **2x Ctrl**
+  - Throw: **2x G**
+  - Throwable: **Ctrl+G**
+  - Zeroing +/-: **PgUp/PgDn**
+  - Clear jam: **Shift+R**
+  - Check ammo: **Ctrl+R**
+  - Safe weapon: **Ctrl+^**
+  - Holster weapon: **0**
+- **ACRE**
+  - PTT1: **Caps Lock**
+  - PTT2: **Ctrl+Caps Lock**
+  - PTT3: **Alt+Caps Lock**
+  - Voice volume: **Tab+mouse wheel**
+- **Other**
+  - Inventory: **I**
+  - Map open / close: **M**
+  - Compass: **K** (2x to toggle)
+  - Watch: **O** (2x to toggle)
+  - Night vision: **N**
+  - Binoculars: **B**
+  - Free look: **Alt** (2x to toggle)
+  - Hold breath: **Shift**
+  - Point at: **Shift+^**
+  - Medical menu: **H**
+  - Self-interaction: **Ctrl+Win**
+  - Interaction: **Win**
+  - Speed limiter: **Del**, adjust with **Ctrl+mouse wheel**
+  - Change chat channel: **,** or **.**
+  - Chat: **-**
+
 ## JTAC / CAS
 
 ### JTAC CAS Quick Guide
