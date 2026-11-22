@@ -160,6 +160,72 @@ This file mirrors the field manual hint content in plain Markdown format.
 
 **Golden rule:** **Reliable process beats fast improvisation.**
 
+## Medic
+
+### Medic Quick Guide
+
+- **Role and equipment**
+  - **Self-protection first**, use the medical menu for a full overview of the patient
+  - Beyond first aid: airway tubes, suction, needle decompression, IV/IO access, infusions, autoinjectors, suturing
+  - Carries suture kit, larynx tube, IV cannulas, NCD kit, pocket BVM, saline, epinephrine, morphine, adenosine, Penthrox, naloxone
+- **Treatment by MARCH**
+  - **M** Massive bleeding: tourniquet on arms and legs, bandage head and torso. Down for over 10 minutes: check for death first
+  - **A** Airway: obstructed, overextend the head. Occluded, suction or turn the head. Clear, secure with larynx or Guedel tube
+  - **R** Respiration: pulse oximeter if available, inspect chest and check breathing
+  - Pneumothorax: chest seal, then needle decompression if it persists. Tension pneumothorax: decompress immediately
+  - No breathing and SpO2 below 85 percent: ventilate with BVM
+  - **C** Circulation: check pulse, connect AED if available, place IV. Fatal blood loss: give fluids immediately
+  - **H** Other: suture wounds, give KAT Bravo patients 1.5 to 2 l of fluid, treat pain, remove tourniquets, hand over
+- **Cardiac arrest**
+  - Without AED: CPR and epinephrine every 2 minutes until the pulse returns
+  - With AED: nobody touches the patient, attach pads on the chest, analyze the rhythm
+  - **Shock advised**: wait for the charge signal, then shock. At most one medication before each shock
+  - **No shock advised**: CPR, epinephrine, check pulse every 2 minutes
+  - Below 3.6 l of blood the patient stays in arrest despite successful CPR
+- **Medication**
+  - Pain: Penthrox on the head (max 4), morphine only when really needed (max 4). Naloxone reverses morphine and fentanyl
+  - Epinephrine raises heart rate and blood pressure, adenosine lowers them (each max 6)
+  - Medication and infusions have no effect on a limb with a tourniquet
+- **Handover**
+  - Who, KAT category, what happened, how long unconscious, treatments so far (tourniquets, access, medication)
+
+**Golden rule:** **Always treat bleeding, airway and chest first.**
+
+## Doctor
+
+### Doctor Quick Guide
+
+- **Role and equipment**
+  - May do everything a medic can, plus amiodarone, atropine, TXA, EACA, nitroglycerin, norepinephrine, phenylephrine and the PAK
+  - Carries blood, BVM, oxygen tank, AAT kit, manual suction pump and a 250 ml saline for flushing
+  - High-tech if the scenario allows: AED-X, Accuvac, FAST IO, amiodarone, atropine
+- **Treatment by MARCH**
+  - **M** Massive bleeding: as in first aid. With many wounds or little material give **TXA** and **EACA**
+  - **A** Airway: occluded, Accuvac or manual pump. Clear, larynx tube
+  - **R** Respiration: pulse oximeter or AED-X, decompress with NCD or AAT kit, ventilate with BVM and **oxygen**
+  - Hemothorax: chest seal, then drain with the **AAT kit**
+  - **C** Circulation: AED-X, IV or **IO** access, give blood. Nitroglycerin speeds up transfusion, only once all bleeding is stopped
+  - **H** Other: suture, give KAT Bravo patients 1.5 to 2 l of blood, treat pain with ketamine or fentanyl, finish with a PAK if needed
+- **Clotting: TXA and EACA**
+  - **TXA** bandages an open wound every 5 seconds (max 3), **EACA** sutures a bandaged wound every 8 seconds (max 10)
+  - Both work for up to 5 minutes on the whole body except limbs with a tourniquet
+  - Through an IV they can block the access (20 percent chance, not with FAST IO) and held-back medication stays without effect
+  - To clear it: run a saline infusion with at least 30 ml, then perform the **saline flush** on that limb
+- **Cardiac arrest**
+  - **VT** and **VF** are shockable: shock and CPR, support with epinephrine or amiodarone
+  - **PEA** and **asystole** are not shockable: CPR and epinephrine
+  - The AED-X can also charge manually and monitors pulse, blood pressure, SpO2 and ECG
+- **Doctor medication**
+  - Pain (IV): ketamine, strong, raises heart rate and blood pressure (max 2). Fentanyl, very strong, lowers both (max 1)
+  - Amiodarone improves shock chance but can cause bradycardia, atropine treats bradycardia (each max 4)
+  - Norepinephrine raises heart rate and blood pressure (max 12), phenylephrine lowers heart rate and raises blood pressure (max 6)
+- **Casualty chain**
+  - Mark the **MRZ** in white with a flag on the map and set it to inactive when leaving
+  - In a **MASCAL**, triage strictly so time and material go to patients who can survive
+  - **TTT PAK** is meant for MedEvac: keep critical patients alive until base and fully heal them there
+
+**Golden rule:** **Triage decides where time and material save lives.**
+
 ## Air Mobile Infantry
 
 ### Air Mobile Infantry Quick Guide
