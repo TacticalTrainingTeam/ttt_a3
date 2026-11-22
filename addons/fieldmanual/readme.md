@@ -4,6 +4,12 @@
 
 <https://community.bistudio.com/wiki/Arma_3:_Advanced_Hints_(Field_Manual)>
 
+## Inhalt
+
+Das Feldhandbuch ist eine Kurzreferenz für SOPs, keine Ausbildungsunterlage: Checklisten, Formate, Werte und Funksprüche, möglichst eine Bildschirmseite je Eintrag. Erklärungen bleiben hinter dem Wiki-Link.
+
+`CfgHints` und `stringtable.xml` sind die primäre Quelle und werden vom normalen Arma-Feldhandbuch angezeigt. Das Item liest dieselben Einträge nur aus, `fieldmanual.md` spiegelt den englischen Text.
+
 ## Feldhandbuch-Item (Prototyp)
 
 Das Item `ttt_fieldmanual_handbook` öffnet über die ACE-Selbstinteraktion den Dialog `ttt_fieldmanual_handbookDisplay` mit einem `CT_WEBBROWSER`-Control, das `ui/handbook.html` lädt.
