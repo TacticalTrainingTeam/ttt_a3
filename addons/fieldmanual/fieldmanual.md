@@ -137,19 +137,17 @@ This file mirrors the field manual hint content in plain Markdown format.
   - Advise the commander on enemy EW capabilities, resulting risks and countermeasures
 - **ESM - Detect and analyze**
   - Analyze all detectable signals in real time and record them for later analysis
-  - Attribute signals to a system: radio, jammer or radar
+  - Attribute signals to a system: radio, jammer or other
   - Triangulate the source: measure signal strength from several positions and map the bearings
   - Always cross-check results with other sources (recon, intelligence)
   - Listening in with a captured enemy radio is also ESM
 - **ECM - Jam and deceive**
   - **Jamming**: high-power signals without useful data degrade the target system
-  - **Spoofing**: forged data creates a false picture for the enemy
-  - Targets: unmanned systems, navigation, radar, radio-triggered IEDs, radios, Blue Force Tracker
+  - Targets: unmanned systems, navigation, radio-triggered IEDs, radios
   - Weigh every use: it can restrict own forces and make you easier to detect
   - Playing music or idle chatter on an enemy frequency is also ECM
 - **ECCM - Protect**
   - Reduce own EM signature: strict radio discipline, lead by voice, avoid jammers and radar when possible
-  - Technical hardening: frequency hopping against jamming, encryption against spoofing
   - Not transmitting is also ECCM
 - **Spectrum Device (Crow's EW)**
   - **Military** antenna: 30-513 MHz, recon and listening on radio frequencies, includes drone control signals
