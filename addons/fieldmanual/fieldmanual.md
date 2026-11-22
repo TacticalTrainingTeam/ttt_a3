@@ -2,7 +2,7 @@
 
 This file mirrors the field manual hint content in plain Markdown format.
 
-## Pocket Card - Radio
+## Basics - Radio
 
 - **Basics**
   - (1) Think, press, talk
@@ -39,7 +39,7 @@ This file mirrors the field manual hint content in plain Markdown format.
   - Sierra, Tango, Uniform, Victor, Whiskey
   - X-Ray, Yankee, Zulu
 
-## Pocket Card - Conduct
+## Basics - Conduct
 
 - **Always know about yourself and your buddy**
   - Position
@@ -51,7 +51,7 @@ This file mirrors the field manual hint content in plain Markdown format.
   - **GREEN**: fire at will
 
 
-## Pocket Card - Controls
+## Basics - Controls
 
 - **Infantry movement**
   - Move: **W/A/S/D**

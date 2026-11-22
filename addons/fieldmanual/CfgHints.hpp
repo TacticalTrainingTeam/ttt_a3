@@ -14,41 +14,36 @@ class CfgHints {
         image = QPATHTOEF(common,data\ttt_logo_co.paa);
     };
 
-    class GVAR(pocketcard) {
-        displayName = CSTRING(pocketcard_displayName);
-        category = QGVAR(category);
-
-        class GVAR(pocketcard_radio): GVAR(base) {
-            logicalOrder = 1;
-            displayName = CSTRING(pocketcard_radio_displayName);
-            displayNameShort = CSTRING(pocketcard_radio_displayNameShort);
-            description = CSTRING(pocketcard_radio_description);
-            tip = "<a href='https://wiki.tacticalteam.de/de/handbuch/einsteigertaschenkarte'>Wiki</a>";
-        };
-
-        class GVAR(pocketcard_conduct): GVAR(base) {
-            logicalOrder = 2;
-            displayName = CSTRING(pocketcard_conduct_displayName);
-            displayNameShort = CSTRING(pocketcard_conduct_displayNameShort);
-            description = CSTRING(pocketcard_conduct_description);
-            tip = "<a href='https://wiki.tacticalteam.de/de/handbuch/einsteigertaschenkarte'>Wiki</a>";
-        };
-
-        class GVAR(pocketcard_controls): GVAR(base) {
-            logicalOrder = 3;
-            displayName = CSTRING(pocketcard_controls_displayName);
-            displayNameShort = CSTRING(pocketcard_controls_displayNameShort);
-            description = CSTRING(pocketcard_controls_description);
-            tip = "<a href='https://wiki.tacticalteam.de/de/handbuch/einsteigertaschenkarte'>Wiki</a>";
-        };
-    };
-
     class GVAR(infantry) {
         displayName = CSTRING(infantry_displayName);
         category = QGVAR(category);
 
-        class GVAR(medical): GVAR(base) {
+        class GVAR(basics_radio): GVAR(base) {
             logicalOrder = 1;
+            displayName = CSTRING(basics_radio_displayName);
+            displayNameShort = CSTRING(basics_radio_displayNameShort);
+            description = CSTRING(basics_radio_description);
+            tip = "<a href='https://wiki.tacticalteam.de/de/handbuch/einsteigertaschenkarte'>Wiki</a>";
+        };
+
+        class GVAR(basics_conduct): GVAR(base) {
+            logicalOrder = 2;
+            displayName = CSTRING(basics_conduct_displayName);
+            displayNameShort = CSTRING(basics_conduct_displayNameShort);
+            description = CSTRING(basics_conduct_description);
+            tip = "<a href='https://wiki.tacticalteam.de/de/handbuch/einsteigertaschenkarte'>Wiki</a>";
+        };
+
+        class GVAR(basics_controls): GVAR(base) {
+            logicalOrder = 3;
+            displayName = CSTRING(basics_controls_displayName);
+            displayNameShort = CSTRING(basics_controls_displayNameShort);
+            description = CSTRING(basics_controls_description);
+            tip = "<a href='https://wiki.tacticalteam.de/de/handbuch/einsteigertaschenkarte'>Wiki</a>";
+        };
+
+        class GVAR(medical): GVAR(base) {
+            logicalOrder = 4;
             displayName = CSTRING(medical_displayName);
             displayNameShort = CSTRING(medical_displayNameShort);
             description = CSTRING(medical_description);
@@ -56,7 +51,7 @@ class CfgHints {
         };
 
         class GVAR(luftbeweglich): GVAR(base) {
-            logicalOrder = 2;
+            logicalOrder = 5;
             displayName = CSTRING(luftbeweglich_displayName);
             displayNameShort = CSTRING(luftbeweglich_displayNameShort);
             description = CSTRING(luftbeweglich_description);
@@ -64,7 +59,7 @@ class CfgHints {
         };
 
         class GVAR(hubschrauber_inf): GVAR(base) {
-            logicalOrder = 3;
+            logicalOrder = 6;
             displayName = CSTRING(hubschrauber_inf_displayName);
             displayNameShort = CSTRING(hubschrauber_inf_displayNameShort);
             description = CSTRING(hubschrauber_inf_description);
