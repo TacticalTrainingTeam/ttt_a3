@@ -216,8 +216,8 @@ Arma 3 Apex preset, German keyboard.
   - Only one security vehicle per end: front covers ahead and right, rear covers behind and left
 - **At a halt**
   - **A halt is not parking**, be ready to move at once
-  - Dismount: everyone except gunner and driver
-  - Secure in cover about **15m** from the vehicle, never use vehicles as cover
+  - On order to dismount: everyone except gunner and driver
+  - Dismounted: secure in cover about **15m** from the vehicle, never use vehicles as cover
 
 ### Milan
 
@@ -461,7 +461,7 @@ Arma 3 Apex preset, German keyboard.
   - **M26 bouncing** (100m): **never disarm**, shoot or blast
   - **M4A1 SLAM** (100m forward): **never disarm**, shoot from behind or blast
   - **PMR-3 tripwire** (35m): disarm, shoot or blast
-  - **M18A1 Claymore** (100m forward): disarm from behind, shoot or blast
+  - **M18A1 Claymore** (100m forward, 50m sides and rear): disarm from behind, shoot or blast
 - **MICLIC**
   - Place at the edge so "Explosive" reads normally for the person firing
   - Hold **Space about 5 seconds**
@@ -540,10 +540,11 @@ Arma 3 Apex preset, German keyboard.
   - Defuser describes, instructor finds it in the notebook, **both must be sure**
   - Name wires one at a time, "lang" before the color
   - Not in the notebook: **cannot be disarmed**
-  - Clear with an **M112**, gunfire needs 12.7mm or larger
+  - Advanced: clear with an **M112**, gunfire needs 12.7mm or larger
 - **ED-1D**
   - Radar: 50m
   - Clear with **slugs**, keep at least **20m** from the explosive
+  - Advanced IEDs: clear with an **M112** instead
   - May drive over anti-personnel mines, **never** over IEDs or SLAM
 
 ### Drones
