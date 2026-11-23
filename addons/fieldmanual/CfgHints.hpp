@@ -67,6 +67,27 @@ class CfgHints {
         };
     };
 
+    class GVAR(medical_service) {
+        displayName = CSTRING(medical_service_displayName);
+        category = QGVAR(category);
+
+        class GVAR(medic_bravo): GVAR(base) {
+            logicalOrder = 1;
+            displayName = CSTRING(medic_bravo_displayName);
+            displayNameShort = CSTRING(medic_bravo_displayNameShort);
+            description = CSTRING(medic_bravo_description);
+            tip = "<a href='https://wiki.tacticalteam.de/de/handbuch/nachschubkr%%C3%%A4fte/sanit%%C3%%A4tssystem'>Wiki</a>";
+        };
+
+        class GVAR(medic_charlie): GVAR(base) {
+            logicalOrder = 2;
+            displayName = CSTRING(medic_charlie_displayName);
+            displayNameShort = CSTRING(medic_charlie_displayNameShort);
+            description = CSTRING(medic_charlie_description);
+            tip = "<a href='https://wiki.tacticalteam.de/de/handbuch/nachschubkr%%C3%%A4fte/sanit%%C3%%A4tssystem'>Wiki</a>";
+        };
+    };
+
     class GVAR(armoured_warfare) {
         displayName = CSTRING(armoured_warfare_displayName);
         category = QGVAR(category);

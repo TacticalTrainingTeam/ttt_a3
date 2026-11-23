@@ -297,6 +297,74 @@ This file mirrors the field manual hint content in plain Markdown format.
 
 **Golden rule:** **Reliable process beats fast improvisation.**
 
+## Medic
+
+### Medic Cheat Sheet
+
+- **Where does it go?**
+  - **Arms/legs**: pulse, blood pressure, autoinjectors, IV
+  - **Torso**: CPR, AED pads, chest seal, decompression, IO
+  - **Head**: airway, tablets, Penthrox
+  - Limb with a **tourniquet**: medication and infusions do nothing
+- **Values**
+  - **Pulse**: normal 60-100, unstable below 40, arrest below 20 or above 220
+  - **Blood pressure**: normal 100-140 systolic, unstable below 60/50
+  - **SpO2**: normal from 90, unstable below 85, unconscious below 75, death at 65 (not in Simple)
+  - **"Fatal amount of blood lost"**: give fluids immediately
+  - Before waking: at least back to "lost some blood"
+- **Easy to forget**
+  - Down for over 10 minutes: **check for death first**
+  - **Take tourniquets off** once bandaged, 10 minutes at most
+  - **Suture early**: elastic bandages can reopen after 1-5 minutes
+  - Tube only on a clear airway. Larynx tube stops obstruction and occlusion, Guedel only obstruction
+  - Overextending the head: **stay close** to the patient
+  - **Recovery position** blocks tubes, suction, chest seal, AED and CPR, and ends when carried, dragged or loaded
+  - Saline replaces volume only, **no clotting factors**
+- **No pulse**
+  - **Fix the cause first**: bleeding, airway, chest. Below 3.6 l of blood the pulse will not return
+  - CPR makes the death timer run at half speed
+  - During AED analysis: **hands off**, no CPR, no ventilation
+  - At most **one medication** before each shock
+  - No shock advised or no AED: CPR, epinephrine, check pulse every 2 minutes
+- **Max doses**
+  - Tablets 6, Penthrox 4, morphine 4
+  - Epinephrine 6, epinephrine IV 4, adenosine 6, lidocaine 2
+  - Overdose on morphine or fentanyl: **naloxone**
+- **Handover**
+  - Who, KAT, what happened, how long unconscious, tourniquets, access, medication
+
+## Doctor
+
+### Doctor Cheat Sheet
+
+- **TXA and EACA**
+  - **TXA** bandages one open wound every 5 s, **EACA** sutures one bandaged wound every 8 s
+  - Both last up to 5 minutes, but not on limbs with a tourniquet
+- **Blocked IV**
+  - TXA or EACA through an IV blocks it in **one of five** cases (never with FAST IO)
+  - Medication given through a blocked IV only works after flushing
+  - Fix: saline running with **at least 30 ml**, then **saline flush** on that limb
+  - That is why the doctor also carries 250 ml saline
+- **Reading the chest**
+  - Uneven rise and fall: **pneumothorax**, chest seal, then decompress if it persists
+  - **Tension pneumothorax**: decompress immediately
+  - Skin rigid and bruised: **hemothorax**, chest seal, then drain with AAT kit
+- **Heart rhythm**
+  - **VT, VF**: shock and CPR, epinephrine or amiodarone
+  - **PEA, asystole**: no shock, CPR and epinephrine
+  - Fatal blood loss jumps straight to asystole
+- **Doses and side effects**
+  - TXA 3, EACA 10, ketamine 2, fentanyl 1
+  - Amiodarone 4, atropine 4, norepinephrine 12, phenylephrine 6, nitroglycerin 6
+  - **Ketamine** raises heart rate and blood pressure, **fentanyl** lowers both
+  - **Amiodarone** can cause bradycardia, **atropine** treats it
+  - **Nitroglycerin** speeds up transfusion and bleeding: only once all bleeding has stopped
+- **Easy to forget**
+  - Prefer **blood**: unlike saline it refills clotting factors
+  - Medical vehicles and facilities supply **unlimited oxygen** and refill tanks
+  - **TTT PAK** also works on unconscious patients, the normal ACE PAK needs a stable, awake patient
+  - Mark the **MRZ** white with a flag, set it to inactive when leaving
+
 ## Air Mobile Infantry
 
 ### Air Mobile Infantry Quick Guide
