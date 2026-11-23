@@ -30,7 +30,6 @@ private _chapters = [];
             createHashMapFromArray [
                 ["id", configName _x],
                 ["title", getText (_x >> "displayName")],
-                ["motto", getText (_x >> "displayNameShort")],
                 ["description", getText (_x >> "description")]
             ]
         }]

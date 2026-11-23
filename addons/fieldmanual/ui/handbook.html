@@ -99,21 +99,20 @@ nav button:hover, nav button:focus { color: var(--accent); outline: none; }
 nav button.active { color: var(--accent); background: rgba(122, 36, 24, .09); font-weight: bold; }
 main { padding-right: 16px; }
 article h2 {
-    margin: 0;
-    padding-right: 124px;
+    margin: 0 0 16px;
+    padding: 0 124px 10px 0;
     color: var(--accent);
     font-size: 32px;
     font-weight: normal;
     line-height: 1.2;
+    border-bottom: 1px solid var(--rule);
 }
-.motto { margin: 4px 0 16px; padding: 0 124px 10px 0; color: var(--ink-soft); font-style: italic; border-bottom: 1px solid var(--rule); }
 article h3 { margin: 20px 0 4px; font-size: 21px; font-variant: small-caps; letter-spacing: .03em; }
 article p { margin: 7px 0; }
 article ul { margin: 4px 0 9px; padding-left: 21px; list-style-type: "– "; }
 article li { margin: 2px 0; }
 article strong { font-weight: bold; }
 .marked { border-bottom: 3px solid; font-weight: bold; }
-.rule { margin: 22px 0 8px; padding: 9px 4px; font-style: italic; text-align: center; border-top: 3px double var(--rule); border-bottom: 3px double var(--rule); }
 .folio { flex: none; padding-top: 8px; color: var(--ink-soft); font-size: 16px; text-align: center; }
 #close {
     position: absolute;
@@ -236,8 +235,7 @@ article strong { font-weight: bold; }
                 parent.appendChild(element("h3", heading[1].trim()));
                 return;
             }
-            var isRule = isPoint && /^(Golden rule|Grundsatz):/.test(content);
-            var paragraph = element("p", undefined, isRule ? "rule" : "");
+            var paragraph = element("p");
             appendInline(paragraph, content);
             parent.appendChild(paragraph);
         });
@@ -250,7 +248,6 @@ article strong { font-weight: bold; }
 
         topicView.textContent = "";
         topicView.appendChild(element("h2", topic.title));
-        if (topic.motto) { topicView.appendChild(element("p", topic.motto, "motto")); }
         renderDescription(topicView, topic.description);
         folio.textContent = "– " + number + " –";
         main.scrollTop = 0;

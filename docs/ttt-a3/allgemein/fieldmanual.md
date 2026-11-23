@@ -19,16 +19,16 @@ Kompatibilität: "Arma 3 ✅ · Reforger ❌"
 ```
 ::
 
-Bringt Informationen aus dem Wiki als **TTT Feldhandbuch** ins Spiel.
+Bringt die wichtigsten Abläufe aus dem Wiki als Kurzreferenz ins Spiel, das **TTT Feldhandbuch**. Es ersetzt keine Ausbildung, Details stehen in den verlinkten Wiki-Artikeln.
 
 # Benutzung
 
 Im Pausenmenü **Feldhandbuch** öffnen und die Kategorie **TTT Feldhandbuch** wählen. Enthalten sind Einträge zu:
 
-- Infanterie: [Grundlagen](/de/handbuch/einsteigertaschenkarte) (Funk, Einsatz, Steuerung), [Erste Hilfe](/de/handbuch/infanterie/gefechtstechniken-einzel/erstehilfe), [Luftbewegliche Infanterie](/de/handbuch/infanterie/luftbewegliche-infanterie), Fallschirmjäger
-- Panzertruppe
-- Kampfunterstützung: Fliegerleittrupp (Luftnahunterstützung), [Forward Observer](/de/handbuch/kampfunterstützungskräfte/fo) (Steilfeuer), [Pioniere](/de/handbuch/kampfunterstützungskräfte/pioniere) (Minenräumen / [EOD](/de/handbuch/kampfunterstützungskräfte/pioniere/kampfmittelbeseitigung)), [Scharfschützen](/de/handbuch/kampfunterstützungskräfte/scharfschützen) (Aufklärung / Präzisionsfeuer), [Elektronische Kampfführung](/de/handbuch/kampfunterstützungskräfte/elektronische-kampfführung)
-- [Logistik](/de/handbuch/nachschubkräfte/logistik)
+- Infanterie: [Grundlagen](/de/handbuch/einsteigertaschenkarte) (Funk, Einsatz, Steuerung), [Erste Hilfe](/de/handbuch/infanterie/gefechtstechniken-einzel/erstehilfe), [Luftbewegliche Infanterie](/de/handbuch/infanterie/luftbewegliche-infanterie), Fallschirmjäger, [Farben und Markierungen](/de/handbuch/infanterie/gefechtstechniken-zug/farben), [Konvoi](/de/handbuch/infanterie/gefechtstechniken-zug/konvoi), [Milan](/de/ttt-a3/kompatibilität/compat-rnt/milan), [GraMaWa](/de/ttt-a3/kompatibilität/compat-rnt/gramawa), [MG3-Lafette](/de/ttt-a3/kompatibilität/compat-rnt/mg3-lafette)
+- Panzertruppe: [Marder](/de/ttt-a3/kompatibilität/compat-rnt/marder), [Puma](/de/ttt-a3/kompatibilität/compat-bwa3/puma)
+- Kampfunterstützung: Fliegerleittrupp (Luftnahunterstützung), [Forward Observer](/de/handbuch/kampfunterstützungskräfte/fo) (Steilfeuer), [Kampfpioniere](/de/handbuch/kampfunterstützungskräfte/pioniere) (Minenräumen), [EOD](/de/handbuch/kampfunterstützungskräfte/pioniere/kampfmittelbeseitigung), [Scharfschützen](/de/handbuch/kampfunterstützungskräfte/scharfschützen) (Aufklärung / Präzisionsfeuer), [Elektronische Kampfführung](/de/handbuch/kampfunterstützungskräfte/elektronische-kampfführung), [Minensperre anlegen](/de/handbuch/kampfunterstützungskräfte/pioniere/minensperre-anlegen), [Sprengen](/de/handbuch/kampfunterstützungskräfte/pioniere/sprengen), [Drohnen](/de/handbuch/kampfunterstützungskräfte/drohnen)
+- Logistik: [Logistik](/de/handbuch/nachschubkräfte/logistik), [Außenlast](/de/handbuch/luftstreitkräfte/außenlast)
 
 ## Feldhandbuch als Item
 
