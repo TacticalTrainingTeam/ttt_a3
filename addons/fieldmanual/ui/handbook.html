@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TTT Handbook</title>
+<style>
+:root {
+    --cover: #3b2a1c;
+    --cover-dark: #241810;
+    --paper: #f1e7d0;
+    --paper-light: #f8f1e0;
+    --paper-edge: #d9c9a6;
+    --ink: #2b2118;
+    --ink-soft: #6a5944;
+    --rule: #bda98a;
+    --accent: #7a2418;
+    --ribbon: #8c2a1c;
+    --serif: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", serif;
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body {
+    padding: 14px 16px 18px;
+    background: radial-gradient(ellipse at 50% 35%, var(--cover), var(--cover-dark));
+    color: var(--ink);
+    font: 19px/1.55 var(--serif);
+    overflow: hidden;
+}
+#book {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(250px, 34%) 1fr;
+    height: 100%;
+    background: var(--paper);
+    border-radius: 3px;
+    box-shadow:
+        1px 0 0 var(--paper-edge), 3px 1px 0 var(--paper-light), 4px 1px 0 var(--paper-edge),
+        -1px 0 0 var(--paper-edge), -3px 1px 0 var(--paper-light), -4px 1px 0 var(--paper-edge),
+        0 5px 0 var(--paper-edge), 0 10px 22px rgba(0, 0, 0, .65);
+}
+.page { position: relative; min-height: 0; display: flex; flex-direction: column; }
+#left {
+    padding: 34px 30px 16px 36px;
+    background: linear-gradient(to right, var(--paper-light) 0%, var(--paper) 72%, #dfd0b2 93%, #b9a581 100%);
+    border-radius: 3px 0 0 3px;
+}
+#right {
+    padding: 34px 26px 16px 44px;
+    background: linear-gradient(to left, var(--paper-light) 0%, var(--paper) 78%, #e2d4b7 95%, #b9a581 100%);
+    border-radius: 0 3px 3px 0;
+}
+#right::before {
+    content: "";
+    position: absolute;
+    inset: 40px 30px 40px 44px;
+    background: url("data:image/png;base64,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") center / auto min(62%, 420px) no-repeat;
+    opacity: .11;
+    pointer-events: none;
+}
+#right main, #right .folio { position: relative; z-index: 1; }
+#title {
+    margin: 0;
+    padding-bottom: 10px;
+    color: var(--accent);
+    font-size: 28px;
+    font-weight: normal;
+    font-variant: small-caps;
+    letter-spacing: .05em;
+    text-align: center;
+    border-bottom: 3px double var(--rule);
+}
+nav, main { flex: 1; min-height: 0; overflow-y: auto; }
+nav { padding-right: 6px; }
+nav h2 {
+    margin: 15px 0 3px;
+    color: var(--accent);
+    font-size: 17px;
+    font-weight: normal;
+    font-variant: small-caps;
+    letter-spacing: .07em;
+}
+nav button {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    padding: 3px 4px;
+    color: var(--ink);
+    background: none;
+    border: 0;
+    font: 17px/1.3 var(--serif);
+    text-align: left;
+    cursor: pointer;
+}
+nav button .name { flex: 0 1 auto; }
+nav button .leader { flex: 1 1 18px; min-width: 18px; margin: 0 5px; border-bottom: 1px dotted var(--ink-soft); }
+nav button .number { flex: none; color: var(--ink-soft); }
+nav button:hover, nav button:focus { color: var(--accent); outline: none; }
+nav button.active { color: var(--accent); background: rgba(122, 36, 24, .09); font-weight: bold; }
+main { padding-right: 16px; }
+article h2 {
+    margin: 0;
+    padding-right: 124px;
+    color: var(--accent);
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+.motto { margin: 4px 0 16px; padding: 0 124px 10px 0; color: var(--ink-soft); font-style: italic; border-bottom: 1px solid var(--rule); }
+article h3 { margin: 20px 0 4px; font-size: 21px; font-variant: small-caps; letter-spacing: .03em; }
+article p { margin: 7px 0; }
+article ul { margin: 4px 0 9px; padding-left: 21px; list-style-type: "– "; }
+article li { margin: 2px 0; }
+article strong { font-weight: bold; }
+.marked { border-bottom: 3px solid; font-weight: bold; }
+.rule { margin: 22px 0 8px; padding: 9px 4px; font-style: italic; text-align: center; border-top: 3px double var(--rule); border-bottom: 3px double var(--rule); }
+.folio { flex: none; padding-top: 8px; color: var(--ink-soft); font-size: 16px; text-align: center; }
+#close {
+    position: absolute;
+    top: -8px;
+    right: 52px;
+    z-index: 2;
+    width: 102px;
+    padding: 18px 4px 24px;
+    color: #f8efdc;
+    background: var(--ribbon);
+    border: 0;
+    font: 15px/1.1 var(--serif);
+    cursor: pointer;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% calc(100% - 12px), 0 100%);
+}
+#close:hover, #close:focus { background: var(--accent); outline: none; }
+::-webkit-scrollbar { width: 7px; }
+::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+</style>
+</head>
+<body>
+<div id="book">
+    <button id="close" type="button">&times;</button>
+    <section id="left" class="page">
+        <h1 id="title"></h1>
+        <nav id="nav"></nav>
+    </section>
+    <section id="right" class="page">
+        <main id="main"><article id="topic"></article></main>
+        <div id="folio" class="folio"></div>
+    </section>
+</div>
+<script>
+(function () {
+    "use strict";
+
+    // Must match the HANDBOOK_MESSAGE_* defines in script_component.hpp
+    var MESSAGE_READY = "ttt_handbook:ready";
+    var MESSAGE_CLOSE = "ttt_handbook:close";
+    var MESSAGE_PAGE = "ttt_handbook:page:";
+    var INLINE_TOKENS = /%3|%4|<t color='(#[0-9a-fA-F]{6})'>|<\/t>/g;
+    var HEADING_LINE = /^%3((?:(?!%[34]).)*)%4$/;
+
+    var nav = document.getElementById("nav");
+    var main = document.getElementById("main");
+    var topicView = document.getElementById("topic");
+    var folio = document.getElementById("folio");
+    var closeButton = document.getElementById("close");
+
+    function send(message) {
+        if (typeof A3API !== "undefined") {
+            A3API.SendAlert(message);
+        }
+    }
+
+    function element(tag, text, className) {
+        var node = document.createElement(tag);
+        if (text !== undefined) { node.textContent = text; }
+        if (className) { node.className = className; }
+        return node;
+    }
+
+    // Hint markup is rebuilt as DOM nodes so config text is never interpreted as HTML
+    function appendInline(parent, text) {
+        var strong = false;
+        var color = "";
+        var position = 0;
+        var match;
+
+        function flush(end) {
+            if (end <= position) { return; }
+            var run = text.slice(position, end);
+            var node = strong ? element("strong", run) : element("span", run);
+            // Hint colors are chosen for dark backgrounds and are unreadable as text on paper
+            if (color) {
+                node.className = "marked";
+                node.style.borderBottomColor = color;
+            }
+            parent.appendChild(node);
+        }
+
+        INLINE_TOKENS.lastIndex = 0;
+        while ((match = INLINE_TOKENS.exec(text)) !== null) {
+            flush(match.index);
+            position = match.index + match[0].length;
+            if (match[0] === "%3") { strong = true; }
+            else if (match[0] === "%4") { strong = false; }
+            else if (match[0] === "</t>") { color = ""; }
+            else { color = match[1]; }
+        }
+        flush(text.length);
+    }
+
+    function renderDescription(parent, description) {
+        var list = null;
+
+        description.split("<br/>").forEach(function (rawLine) {
+            var line = rawLine.trim();
+            if (!line) {
+                list = null;
+                return;
+            }
+            if (line.indexOf("%11") === 0) {
+                if (!list) {
+                    list = element("ul");
+                    parent.appendChild(list);
+                }
+                var item = element("li");
+                appendInline(item, line.slice(3).trim());
+                list.appendChild(item);
+                return;
+            }
+
+            list = null;
+            var isPoint = line.indexOf("%2") === 0;
+            var content = isPoint ? line.slice(2).trim() : line;
+            var heading = isPoint && content.match(HEADING_LINE);
+            if (heading) {
+                parent.appendChild(element("h3", heading[1].trim()));
+                return;
+            }
+            var isRule = isPoint && /^(Golden rule|Grundsatz):/.test(content);
+            var paragraph = element("p", undefined, isRule ? "rule" : "");
+            appendInline(paragraph, content);
+            parent.appendChild(paragraph);
+        });
+    }
+
+    function showTopic(topic, button, number) {
+        var active = nav.querySelector(".active");
+        if (active) { active.classList.remove("active"); }
+        button.classList.add("active");
+
+        topicView.textContent = "";
+        topicView.appendChild(element("h2", topic.title));
+        if (topic.motto) { topicView.appendChild(element("p", topic.motto, "motto")); }
+        renderDescription(topicView, topic.description);
+        folio.textContent = "– " + number + " –";
+        main.scrollTop = 0;
+    }
+
+    function contentsEntry(topic, number) {
+        var button = element("button");
+        button.type = "button";
+        button.appendChild(element("span", topic.title, "name"));
+        button.appendChild(element("span", undefined, "leader"));
+        button.appendChild(element("span", String(number), "number"));
+        button.addEventListener("click", function () {
+            showTopic(topic, button, number);
+            send(MESSAGE_PAGE + topic.id);
+        });
+        return button;
+    }
+
+    function render(data) {
+        document.getElementById("title").textContent = data.title;
+        closeButton.textContent = data.closeLabel;
+        nav.textContent = "";
+
+        var number = 0;
+        var first = null;
+        var last = null;
+        data.chapters.forEach(function (chapter) {
+            nav.appendChild(element("h2", chapter.title));
+            chapter.topics.forEach(function (topic) {
+                number += 1;
+                var button = contentsEntry(topic, number);
+                nav.appendChild(button);
+                var entry = { topic: topic, button: button, number: number };
+                first = first || entry;
+                if (topic.id === data.lastTopic) { last = entry; }
+            });
+        });
+        // A remembered topic can be gone after a mod update
+        var start = last || first;
+        if (start) {
+            showTopic(start.topic, start.button, start.number);
+            start.button.scrollIntoView({ block: "nearest" });
+        }
+    }
+
+    window.tttHandbook = {
+        receive: function (base64) {
+            var bytes = Uint8Array.from(atob(base64), function (c) { return c.charCodeAt(0); });
+            render(JSON.parse(new TextDecoder("utf-8").decode(bytes)));
+        }
+    };
+
+    closeButton.addEventListener("click", function () { send(MESSAGE_CLOSE); });
+    document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape") { send(MESSAGE_CLOSE); }
+    });
+    send(MESSAGE_READY);
+}());
+</script>
+</body>
+</html>

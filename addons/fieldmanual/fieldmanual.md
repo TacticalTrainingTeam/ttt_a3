@@ -2,6 +2,107 @@
 
 This file mirrors the field manual hint content in plain Markdown format.
 
+## Basics - Radio
+
+- **Basics**
+  - (1) Think, press, talk
+  - (2) Skip courtesy phrases
+  - (3) Do not talk too fast
+  - (4) Speak clearly
+  - Whoever starts a conversation also ends it
+  - Check in and out on other units' frequencies
+  - Wait for ongoing conversations to finish, then transmit
+  - Keep radio traffic **as short as possible, but as complete as necessary**
+- **Call**
+  - (1) Callsign
+  - (2) "for"
+  - (3) Own callsign
+  - (4) Message, if any
+  - (5) "over"
+- **Answer**
+  - (1) Callsign
+  - (2) Message, if any
+  - (3) "listening" / "over"
+- **End of call**
+  - (1) Callsign
+  - (2) "out"
+- **Unclear or question**
+  - Unclear: "Say again..."
+  - Question: "Question..."
+- **Contact report**
+  - Contact | Direction | Type + number (IFV, MBT, infantry, etc.)
+  - Distance | Status (hot/cold) | Additional information
+- **Phonetic alphabet**
+  - Alpha, Bravo, Charlie, Delta, Echo, Foxtrot
+  - Golf, Hotel, India, Juliett, Kilo, Lima
+  - Mike, November, Oscar, Papa, Quebec, Romeo
+  - Sierra, Tango, Uniform, Victor, Whiskey
+  - X-Ray, Yankee, Zulu
+
+## Basics - Conduct
+
+- **Always know about yourself and your buddy**
+  - Position
+  - Status (health, ammunition)
+  - Viewing / security direction
+- **Rules of engagement**
+  - **RED**: hold fire
+  - **YELLOW**: fire only when fired upon
+  - **GREEN**: fire at will
+
+
+## Basics - Controls
+
+- **Infantry movement**
+  - Move: **W/A/S/D**
+  - Walk / run: **W+S**
+  - Sprint: **Shift**
+  - Combat pace: **2x C**
+  - Adjust stance: **Ctrl+W/S/A/D**
+  - Crouch / stand: **X**
+  - Prone / stand: **Y**
+  - Swim up: **X**
+  - Swim down: **Y**
+  - Lean left/right: **Q/E** (2x to toggle)
+  - Step over: **V**
+- **Weapon handling**
+  - Reload: **R**
+  - Primary weapon: **1**
+  - Handgun: **2**
+  - Secondary weapon: **3**
+  - Switch to 2nd primary weapon: **4**
+  - Sight mode: **Ctrl+right mouse button**
+  - Deploy weapon: **C**
+  - Raise / lower weapon: **2x Ctrl**
+  - Throw: **2x G**
+  - Throwable: **Ctrl+G**
+  - Zeroing +/-: **PgUp/PgDn**
+  - Clear jam: **Shift+R**
+  - Check ammo: **Ctrl+R**
+  - Safe weapon: **Ctrl+^**
+  - Holster weapon: **0**
+- **ACRE**
+  - PTT1: **Caps Lock**
+  - PTT2: **Ctrl+Caps Lock**
+  - PTT3: **Alt+Caps Lock**
+  - Voice volume: **Tab+mouse wheel**
+- **Other**
+  - Inventory: **I**
+  - Map open / close: **M**
+  - Compass: **K** (2x to toggle)
+  - Watch: **O** (2x to toggle)
+  - Night vision: **N**
+  - Binoculars: **B**
+  - Free look: **Alt** (2x to toggle)
+  - Hold breath: **Shift**
+  - Point at: **Shift+^**
+  - Medical menu: **H**
+  - Self-interaction: **Ctrl+Win**
+  - Interaction: **Win**
+  - Speed limiter: **Del**, adjust with **Ctrl+mouse wheel**
+  - Change chat channel: **,** or **.**
+  - Chat: **-**
+
 ## JTAC / CAS
 
 ### JTAC CAS Quick Guide
@@ -127,6 +228,42 @@ This file mirrors the field manual hint content in plain Markdown format.
   - ED-1D UGV can detect and clear from distance; use correct ammo mode for mine type
 
 **Golden rule:** **Slow search, clear comms, strict marking, no shortcuts.**
+
+## Electronic Warfare
+
+### Electronic Warfare Quick Guide
+
+- **Mission**
+  - Detect and analyze signals, disrupt the enemy in the EM spectrum, protect own use of it
+  - Advise the commander on enemy EW capabilities, resulting risks and countermeasures
+- **ESM - Detect and analyze**
+  - Analyze all detectable signals in real time and record them for later analysis
+  - Attribute signals to a system: radio, jammer or other
+  - Triangulate the source: measure signal strength from several positions and map the bearings
+  - Always cross-check results with other sources (recon, intelligence)
+  - Listening in with a captured enemy radio is also ESM
+- **ECM - Jam and deceive**
+  - **Jamming**: high-power signals without useful data degrade the target system
+  - Targets: unmanned systems, radio-triggered IEDs, radios
+  - Weigh every use: it can restrict own forces and make you easier to detect
+  - Playing music or idle chatter on an enemy frequency is also ECM
+- **ECCM - Protect**
+  - Reduce own EM signature: strict radio discipline, lead by voice, avoid jammers and radar when possible
+  - Not transmitting is also ECCM
+- **Spectrum Device (Crow's EW)**
+  - **Military** antenna: 30-513 MHz, recon and listening on radio frequencies, includes drone control signals
+  - **Experimental** antenna: 520-1090 MHz, signals and trackers
+  - **Jamming** antenna: 433-445 MHz, detect and jam drones
+  - **Mouse wheel** operates the device, **Ctrl + wheel** zooms, **Shift + wheel** moves the spectrum when zoomed
+  - **Space** draws a bearing line on your map (requires a vanilla GPS in the GPS slot)
+- **Jammers and special effects**
+  - Broadband jammers show a peak sweeping repeatedly from the low to the high end of the spectrum
+  - Inside the **effective radius** affected devices are useless, in the **falloff radius** the effect fades with distance
+  - Jammers affect radios and drones; drones show video artifacts up to loss of connection
+  - **SATCOM**: radios within the module's radius cannot be jammed
+  - **EMP**: destroys all electronic devices in its radius and removes them from inventory
+
+**Golden rule:** **Every emission is also a signal to the enemy.**
 
 ## Logistics
 
