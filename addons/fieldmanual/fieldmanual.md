@@ -299,44 +299,63 @@ This file mirrors the field manual hint content in plain Markdown format.
 
 ## Medic
 
-### Medic Cheat Sheet
+### Medic Quick Guide
 
-- **Where does it go?**
-  - **Arms/legs**: pulse, blood pressure, autoinjectors, IV
-  - **Torso**: CPR, AED pads, chest seal, decompression, IO
-  - **Head**: airway, tablets, Penthrox
-  - Limb with a **tourniquet**: medication and infusions do nothing
-- **Values**
+- **MARCH**
+  - (1) **M**assive bleeding: tourniquet on arms and legs, bandage head and torso. Down for over 10 minutes: **check for death first**
+  - (2) **A**irway: obstructed: overextend the head and **stay close**. Occluded: suction or turn the head. Clear: secure with **larynx tube**
+  - (3) **R**espiration: pulse oximeter, inspect chest, check breathing
+  - (4) **C**irculation: check pulse, attach AED, place **IV**. "Lost a fatal amount of blood": **give fluids immediately**, 1-2 l
+  - (5) **H**andover: suture remaining wounds, KAT Bravo patients get 1.5-2 l fluid, treat pain, **take tourniquets off**, hand over
+- **Chest and breathing**
+  - Pneumothorax: chest seal, if it persists **needle decompression** (NCD kit)
+  - **Tension pneumothorax**: decompress immediately
+  - No breathing and SpO2 below 85: ventilate with the pocket BVM
+- **No pulse**
+  - (1) **Fix the cause first**: bleeding, airway, chest. Below 3.6 l of blood the pulse will not return
+  - (2) Attach AED pads, analyse rhythm: **hands off**, no CPR, no ventilation
+  - (3) Shock advised: shock, at most **one medication** before each shock
+  - (4) No shock advised or no AED: CPR, epinephrine, check pulse every 2 minutes
+  - (5) Analyse again after each shock or 2 minutes of CPR
+  - CPR makes the death timer run at half speed
+  - During CPR the patient shows a pulse of about 100-120 from the compressions: **stop CPR first**, then check the pulse
+- **Max doses and overdose**
+  - More than the max dose risks an **overdose**. Most medication works with a delay: wait for the effect before giving more
+  - Pain: tablets 6, Penthrox 4, morphine 4
+  - Circulation: epinephrine 6, epinephrine IV 4, adenosine 6, lidocaine 2
+  - **Morphine** and **adenosine** lower heart rate and blood pressure, **epinephrine** raises both
+  - Overdose on morphine or fentanyl: **naloxone**
+  - Strong painkillers make a new hit more likely to knock the patient out: morphine **only when needed**
+- **Vitals**
   - **Pulse**: normal 60-100, unstable below 40, arrest below 20 or above 220
   - **Blood pressure**: normal 100-140 systolic, unstable below 60/50
   - **SpO2**: normal from 90, unstable below 85, unconscious below 75, death at 65 (not in Simple)
-  - **"Fatal amount of blood lost"**: give fluids immediately
-  - Before waking: at least back to "lost some blood"
+- **Blood loss (healthy: 6 l)**
+  - "Lost some blood": up to 0.9 l missing, stable
+  - "Lost a lot of blood": 0.9-1.8 l missing, pulse rises, blood pressure falls
+  - "Lost a large amount of blood": 1.8-2.4 l missing, may pass out
+  - "Lost a fatal amount of blood": over 2.4 l missing, **cardiac arrest**, pulse only returns after fluids
+  - Over 3 l missing: death
+  - Before waking: at least back to "Lost some blood"
 - **Easy to forget**
-  - Down for over 10 minutes: **check for death first**
-  - **Take tourniquets off** once bandaged, 10 minutes at most
+  - Limb with a **tourniquet**: medication and infusions do nothing
+  - Tourniquets off once bandaged, **at most 10 minutes**
   - **Suture early**: elastic bandages can reopen after 1-5 minutes
-  - Tube only on a clear airway. Larynx tube stops obstruction and occlusion, Guedel only obstruction
-  - Overextending the head: **stay close** to the patient
   - **Recovery position** blocks tubes, suction, chest seal, AED and CPR, and ends when carried, dragged or loaded
   - Saline replaces volume only, **no clotting factors**
-- **No pulse**
-  - **Fix the cause first**: bleeding, airway, chest. Below 3.6 l of blood the pulse will not return
-  - CPR makes the death timer run at half speed
-  - During AED analysis: **hands off**, no CPR, no ventilation
-  - At most **one medication** before each shock
-  - No shock advised or no AED: CPR, epinephrine, check pulse every 2 minutes
-- **Max doses**
-  - Tablets 6, Penthrox 4, morphine 4
-  - Epinephrine 6, epinephrine IV 4, adenosine 6, lidocaine 2
-  - Overdose on morphine or fentanyl: **naloxone**
 - **Handover**
-  - Who, KAT, what happened, how long unconscious, tourniquets, access, medication
+  - Who, KAT, what happened, how long unconscious, treatments (tourniquets, access, medication)
 
 ## Doctor
 
-### Doctor Cheat Sheet
+### Doctor Quick Guide
 
+- **MARCH additions**
+  - (1) **M**assive bleeding: many wounds or little material: **TXA** bandages, **EACA** sutures
+  - (2) **A**irway: occluded: **Accuvac** or manual suction pump. Clear: larynx tube
+  - (3) **R**espiration: pulse oximeter or AED-X, ventilate with BVM and **oxygen**
+  - (4) **C**irculation: AED-X, IV or **IO** (FAST IO), give **blood**
+  - (5) **H**andover: suture, KAT Bravo patients get 1.5-2 l blood, pain with ketamine or fentanyl, finally **TTT PAK** if needed
 - **TXA and EACA**
   - **TXA** bandages one open wound every 5 s, **EACA** sutures one bandaged wound every 8 s
   - Both last up to 5 minutes, but not on limbs with a tourniquet
@@ -350,14 +369,29 @@ This file mirrors the field manual hint content in plain Markdown format.
   - **Tension pneumothorax**: decompress immediately
   - Skin rigid and bruised: **hemothorax**, chest seal, then drain with AAT kit
 - **Heart rhythm**
-  - **VT, VF**: shock and CPR, epinephrine or amiodarone
+  - **VT**: shock and CPR, epinephrine, amiodarone or lidocaine
+  - **VF**: shock and CPR, epinephrine or amiodarone
   - **PEA, asystole**: no shock, CPR and epinephrine
   - Fatal blood loss jumps straight to asystole
-- **Doses and side effects**
-  - TXA 3, EACA 10, ketamine 2, fentanyl 1
-  - Amiodarone 4, atropine 4, norepinephrine 12, phenylephrine 6, nitroglycerin 6
+- **Reading the AED-X**
+  - **Pads** on the torso: ECG and **HR**. Without pads the screen shows "Check Pads"
+  - **Vitals monitor** on an arm: blood pressure (mean in brackets), SpO2 and pulse wave. Without pads the pulse comes from the arm and shows as **PR**
+  - No **tourniquet** on the monitor arm: blood pressure shows 0, no SpO2, flat pulse wave
+  - HR from the pads is the heart's electrical activity, **not the pulse**: in VT and PEA it shows a number although there is no pulse
+  - During CPR, ECG and HR only show CPR artefacts: read them when CPR pauses
+  - ECG: **flat line** = asystole, **chaotic line** = VF, fast, broad, regular waves = VT
+  - **PEA looks like a normal ECG**: normal ECG but flat pulse wave = PEA, no shock
+  - CO2 shows "Resp off": needs a nasal cannula, ignore it
+- **Max doses and overdose**
+  - More than the max dose risks an **overdose**. Medication does not work instantly: wait for the effect before giving more
+  - Pain: ketamine 2, **fentanyl only 1**: a second dose already risks an overdose
+  - Coagulation: TXA 3, EACA 10
+  - Circulation: amiodarone 4, atropine 4, norepinephrine 12, phenylephrine 6, nitroglycerin 6
+  - Overdose on fentanyl or morphine: **naloxone**
+- **Side effects**
   - **Ketamine** raises heart rate and blood pressure, **fentanyl** lowers both
   - **Amiodarone** can cause bradycardia, **atropine** treats it
+  - **Norepinephrine** and **phenylephrine** raise blood pressure and slow bleeding
   - **Nitroglycerin** speeds up transfusion and bleeding: only once all bleeding has stopped
 - **Easy to forget**
   - Prefer **blood**: unlike saline it refills clotting factors
